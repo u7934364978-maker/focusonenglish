@@ -1,29 +1,24 @@
 {
-  "title": "The Bank and My Accounts",
+  "title": "Semana 2: Números, Fechas y Horas",
+  "description": "Domina el uso de los números para hablar de precios, fechas y horarios en la oficina.",
+  "objectives": [
+    "Contar números del 1 al 1000",
+    "Decir la hora en formato de oficina",
+    "Hablar sobre días de la semana y meses"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Bank Vocabulary",
-      "content": "Basic words for the banking environment.\n\n- **Bank**: Banco\n- **Branch**: Sucursal / Oficina\n- **ATM**: Cajero automático\n- **Counter**: Mostrador / Ventanilla\n- **Manager**: Gerente\n- **Customer**: Cliente\n- **Account**: Cuenta"
+      "title": "Números en el Trabajo",
+      "content": "Los números son esenciales para hablar de presupuestos, cantidades y teléfonos.\n\n- **1-10**: One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten.\n- **11-19**: Eleven, Twelve, Thirteen, Fourteen, Fifteen, Sixteen, Seventeen, Eighteen, Nineteen.\n- **20, 30, 40...**: Twenty, Thirty, Forty, Fifty, Sixty, Seventy, Eighty, Ninety.\n- **100**: One hundred.\n- **1000**: One thousand.\n\n**Tip:** Para el número 0 en teléfonos se dice 'Oh' o 'Zero'."
     },
     {
-      "id": "neobanks",
-      "title": "Modern Banks: Neobanks",
-      "content": "A **Neobank** is a bank on your phone. It has no physical branch.\n\n- **App**: Aplicación\n- **Mobile**: Móvil\n- **No paper**: Sin papel\n- **Fast**: Rápido\n\n### Traditional vs. Neobank\n```mermaid\ngraph TD\n    A[Traditional Bank] --> B[Physical Branch]\n    C[Neobank] --> D[Mobile App]\n```"
+      "title": "La Hora (What time is it?)",
+      "content": "En un entorno profesional, la puntualidad es clave.\n\n- **9:00 AM**: Nine o'clock (in the morning).\n- **1:30 PM**: One thirty / Half past one.\n- **15:15**: Three fifteen / Quarter past three.\n- **11:45**: Eleven forty-five / Quarter to twelve.\n\nUsa **AM** para la mañana y **PM** para la tarde."
     },
     {
-      "id": "grammar",
-      "title": "Personal and Possessive Pronouns",
-      "content": "We use pronouns to talk about people and ownership.\n\n**Personal Pronouns (Subject):**\n- **I** (Yo), **You** (Tú), **He** (Él), **She** (Ella), **It** (Ello), **We** (Nosotros), **They** (Ellos).\n\n**Possessive Adjectives:**\n- **My** (Mi), **Your** (Tu), **His** (Su - de él), **Her** (Su - de ella), **Its** (Su - de cosa), **Our** (Nuestro), **Their** (Su - de ellos).\n\nExamples:\n- **My** account is new. (Mi cuenta es nueva)\n- **His** bank is an app. (Su banco es una aplicación)\n- **Our** manager is helpful. (Nuestro gerente es servicial)"
+      "title": "Días y Meses",
+      "content": "Para agendar reuniones necesitamos saber los días de la semana:\n\n- **Monday** (Lunes), **Tuesday** (Martes), **Wednesday** (Miércoles), **Thursday** (Jueves), **Friday** (Viernes).\n- **Weekend**: Saturday & Sunday.\n\n**Preposiciones de tiempo:**\n- **On** Monday (El lunes).\n- **At** 9 o'clock (A las 9)."
     }
   ],
-  "objectives": [
-    "Identify main areas and roles in a bank",
-    "Understand the difference between a traditional bank and a neobank",
-    "Use possessive adjectives to talk about accounts and banks"
-  ],
-  "keyTerms": [
-    { "term": "Branch", "definition": "A local office of a bank." },
-    { "term": "Neobank", "definition": "A bank that only works online or on an app." }
-  ]
+  "audioUrl": ""
 }

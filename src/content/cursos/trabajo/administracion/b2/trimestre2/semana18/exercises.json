@@ -3,150 +3,855 @@
   "level": "B2",
   "trimester": 2,
   "weekId": "semana18",
-  "title": "Exercises: HR Operations - Performance Reviews",
+  "title": "Exercises: HR Operations - Performance Reviews & Feedback",
   "items": [
     {
       "id": "adm-b2-w18-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: Performance Appraisal Summary (Doc A)",
-      "text": "Doc A — Annual Performance Appraisal: Alex Thompson\n\nReview Period: Jan - Dec\nManager: Sarah Jenkins\n\nKey Achievements:\n- Successfully migrated all legacy files to the cloud system. It was Alex's dedication that ensured the project was completed 2 weeks early.\n- Consistently met all monthly KPIs for data accuracy.\n- What impressed the management team most was Alex's proactive approach to resolving the March server crisis.\n\nAreas for Development:\n- Inter-departmental communication: It is the lack of regular updates that sometimes causes friction with the Sales team.\n- Time management for non-urgent tasks.\n\nSMART Goal for Q1: Improve reporting speed. Specifically, Alex will deliver the weekly audit report by Thursday 4 PM for the next 12 weeks.",
-      "questions": [
-        {
-          "question": "What specifically helped Alex finish the cloud migration project early?",
-          "options": ["A new software tool", "Alex's dedication", "The Sales team's help"],
-          "answerIndex": 1,
-          "explanation": "Doc A states: 'It was Alex's dedication that ensured the project was completed 2 weeks early.'"
-        },
-        {
-          "question": "What is identified as a cause of friction with the Sales team?",
-          "options": ["Alex's proactively", "A lack of regular updates", "The March server crisis"],
-          "answerIndex": 1,
-          "explanation": "Doc A says: 'It is the lack of regular updates that sometimes causes friction...'"
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "According to the Appraisal Summary (Doc A), what specifically ensured the cloud migration project was completed early?\n\nDoc A snippet: 'Successfully migrated all legacy files to the cloud system. It was Alex's dedication that ensured the project was completed 2 weeks early.'",
+      "options": [
+        "A new software tool",
+        "Alex's dedication",
+        "The Sales team's help",
+        "An extra budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "Doc A explicitly attributes the early completion to Alex's dedication."
     },
     {
       "id": "adm-b2-w18-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: Performance Concepts. What does the 'S' in SMART goals stand for?",
+      "prompt": "Based on Doc A, what is identified as a cause of friction with the Sales team?\n\nDoc A snippet: 'Inter-departmental communication: It is the lack of regular updates that sometimes causes friction with the Sales team.'",
       "options": [
-        "Special",
-        "Specific",
-        "Sustainable",
-        "Standard"
+        "Alex's proactively",
+        "A lack of regular updates",
+        "The March server crisis",
+        "The cloud migration"
       ],
       "answerIndex": 1,
-      "explanation": "In the SMART framework, goals must be 'Specific'."
+      "explanation": "The text states that the lack of regular updates is the cause of friction."
     },
     {
       "id": "adm-b2-w18-ex03",
       "type": "multipleChoice",
-      "prompt": "Exercise 3: Performance Improvement. What does 'PIP' stand for in an HR context?",
+      "prompt": "What impressed the management team most about Alex's performance?\n\nDoc A snippet: 'What impressed the management team most was Alex's proactive approach to resolving the March server crisis.'",
       "options": [
-        "Personal Information Portal",
-        "Performance Improvement Plan",
-        "Priority Insurance Policy",
-        "Process Integration Program"
+        "His time management",
+        "His proactive approach to a crisis",
+        "His communication with Sales",
+        "His migration of legacy files"
       ],
       "answerIndex": 1,
-      "explanation": "A PIP (Performance Improvement Plan) is used to help an underperforming employee."
+      "explanation": "The management team was most impressed by his proactive crisis resolution."
     },
     {
       "id": "adm-b2-w18-ex04",
       "type": "multipleChoice",
-      "prompt": "Exercise 4: Operational Chunks. Complete the sentence: 'We need to provide ___ feedback to help the employee ___ their KPIs.'",
+      "prompt": "What does 'SMART' stand for in the context of goal setting?",
       "options": [
-        "constructive / meet",
-        "mean / ignore",
-        "loud / hide",
-        "vague / find"
+        "Simple, Managed, Actionable, Recent, Tested",
+        "Specific, Measurable, Achievable, Relevant, Time-bound",
+        "Strategic, Mainstream, Approved, Reliable, Technical",
+        "Staff, Management, Administration, Resources, Training"
       ],
-      "answerIndex": 0,
-      "explanation": "The standard professional approach is to provide 'constructive feedback' to help someone 'meet their KPIs'."
+      "answerIndex": 1,
+      "explanation": "SMART is the standard framework for Specific, Measurable, Achievable, Relevant, and Time-bound goals."
     },
     {
       "id": "adm-b2-w18-ex05",
-      "type": "writingTask",
-      "prompt": "Exercise 5: It-Cleft. Rewrite this sentence for emphasis starting with 'It was': 'The CEO approved the budget increase.'",
-      "modelAnswer": "It was the CEO who approved the budget increase.",
-      "keywords": ["It was", "CEO", "who"]
+      "type": "multipleChoice",
+      "prompt": "In an HR context, what is 'Performance Management'?",
+      "options": [
+        "Hiring new employees every month",
+        "A continuous process of identifying, measuring, and developing performance",
+        "The process of firing staff who are late",
+        "Managing the office building's electricity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance management is a holistic, continuous process to improve employee output and development."
     },
     {
       "id": "adm-b2-w18-ex06",
-      "type": "writingTask",
-      "prompt": "Exercise 6: What-Cleft. Rewrite this sentence for emphasis starting with 'What': 'We need more training on GDPR.'",
-      "modelAnswer": "What we need is more training on GDPR.",
-      "keywords": ["What", "need", "is"]
+      "type": "multipleChoice",
+      "prompt": "Complete the professional chunk: 'She consistently ___ and exceeds expectations.'",
+      "options": ["finds", "meets", "avoids", "ignores"],
+      "answerIndex": 1,
+      "explanation": "In performance reviews, we say an employee 'meets expectations'."
     },
     {
       "id": "adm-b2-w18-ex07",
-      "type": "writingTask",
-      "prompt": "Exercise 7: Extracting Data. Based on Doc A, identify one key strength and one area for development for Alex.",
-      "modelAnswer": "Strength: Proactive approach to crisis / Data accuracy. Development: Inter-departmental communication / Time management.",
-      "keywords": ["Proactive", "communication"]
+      "type": "multipleChoice",
+      "prompt": "What is 'Constructive Feedback'?",
+      "options": [
+        "Negative comments about an employee's personality",
+        "Helpful advice that identifies areas for improvement and suggests solutions",
+        "A loud argument in front of the team",
+        "A list of reasons why someone should be fired"
+      ],
+      "answerIndex": 1,
+      "explanation": "Constructive feedback is objective and aimed at helping the individual grow."
     },
     {
       "id": "adm-b2-w18-ex08",
       "type": "multipleChoice",
-      "prompt": "Exercise 8: Courtesy Modals. How would you professionally invite an employee to their annual appraisal meeting?",
+      "prompt": "What is an 'Appraisal Cycle'?",
       "options": [
-        "Come to my office now for your review.",
-        "Your appraisal is today at 2 PM.",
-        "Could you please confirm your availability for your annual appraisal on Wednesday afternoon?",
-        "I wish you would come to your appraisal."
+        "A type of exercise bike in the office gym",
+        "The regular scheduled period for performance reviews (e.g., annual)",
+        "The process of hiring a new manager",
+        "A monthly tax payment"
       ],
-      "answerIndex": 2,
-      "explanation": "This is a polite and professional way to schedule a formal meeting."
+      "answerIndex": 1,
+      "explanation": "The appraisal cycle is the repeating timeline for formal performance assessments."
     },
     {
       "id": "adm-b2-w18-ex09",
-      "type": "writingTask",
-      "prompt": "Exercise 9: Feedback Email. Write a short email (50-70 words) providing constructive feedback to a colleague about their reporting style. Use a what-cleft for emphasis.",
-      "modelAnswer": "Hi John, I’ve reviewed your latest project update. What I found particularly useful was the detailed timeline. However, it would be even more effective if we could simplify the data tables for the stakeholders. It is the clarity of the figures that helps them make quick decisions. Let’s discuss this in our next 1-to-1. Thanks, [Your Name]",
-      "keywords": ["What I found", "useful", "It is the clarity"]
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of 'Goal Setting' in a review?",
+      "options": [
+        "To make the employee work harder for less money",
+        "To provide clear objectives and direction for the next period",
+        "To fill out unnecessary paperwork",
+        "To compare the employee with their colleagues"
+      ],
+      "answerIndex": 1,
+      "explanation": "Goals give employees a clear roadmap of what is expected of them."
     },
     {
       "id": "adm-b2-w18-ex10",
       "type": "multipleChoice",
-      "prompt": "Exercise 10: Performance Monitoring. What does 'KPI' stand for?",
-      "options": ["Key Process Indicator", "Key Performance Indicator", "Known Product Item", "Key People Influence"],
+      "prompt": "Complete the HR task: 'We need to ___ against our monthly KPIs.'",
+      "options": ["track", "run", "jump", "lose"],
+      "answerIndex": 0,
+      "explanation": "We 'track' progress against Key Performance Indicators (KPIs)."
+    },
+    {
+      "id": "adm-b2-w18-ex11",
+      "type": "multipleChoice",
+      "prompt": "What is 'Reward and Recognition'?",
+      "options": [
+        "Paying the minimum wage",
+        "Acknowledging and rewarding high performance to motivate staff",
+        "Telling employees when they make a mistake",
+        "A system for tracking attendance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Recognition and rewards are used to foster a positive culture and retain talent."
+    },
+    {
+      "id": "adm-b2-w18-ex12",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Non-Monetary Reward'?",
+      "options": [
+        "A 5% salary increase",
+        "An 'Employee of the Month' certificate and a public thank you",
+        "A performance bonus",
+        "Paid overtime"
+      ],
+      "answerIndex": 1,
+      "explanation": "Non-monetary rewards focus on recognition rather than direct cash payments."
+    },
+    {
+      "id": "adm-b2-w18-ex13",
+      "type": "multipleChoice",
+      "prompt": "What does 'KPI' stand for?",
+      "options": [
+        "Key Process Indicator",
+        "Key Performance Indicator",
+        "Knowledgeable Person Index",
+        "Key Productivity Item"
+      ],
       "answerIndex": 1,
       "explanation": "KPI stands for Key Performance Indicator."
     },
     {
-      "id": "adm-b2-w18-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Feedback Session. Record a 2-minute audio providing positive feedback to an employee. Use at least one cleft sentence (e.g., 'What I liked most was...').",
-      "modelAnswer": "[Audio Upload Required] Rubric: Professional tone, Specificity of feedback, Correct use of Cleft Sentence.",
-      "keywords": ["feedback", "What", "impressed"]
-    },
-    {
-      "id": "adm-b2-w18-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Goal Setting. Record a 60-second clip setting a SMART goal for a team member. Use 'It is [this goal] that will...' to emphasize its importance.",
-      "modelAnswer": "[Audio Upload Required] Checklist: SMART criteria, Use of Cleft Sentence, Clear action.",
-      "keywords": ["goal", "It is", "will"]
-    },
-    {
-      "id": "adm-b2-w18-ex13",
-      "type": "writingTask",
-      "prompt": "Exercise 13: Appraisal Summary Report (Portfolio). Write a 150-word appraisal summary for a hypothetical 'Junior Admin'. Use at least two cleft sentences to highlight key points.",
-      "modelAnswer": "Appraisal Summary: Junior Administrator\n\nDuring the last six months, the employee has integrated well into the Operations team. What impressed me most was their rapid mastery of the procurement software. It was their initiative that led to the successful digitisation of our vendor logs, which has significantly reduced retrieval time.\n\nIn terms of KPIs, the employee has consistently achieved a 98% accuracy rate in data entry. However, we have identified a need for better task prioritisation. It is the occasional missed deadline for non-urgent requests that we need to address in the next quarter.\n\nSMART Goal: The employee will attend a 'Time Management' workshop and implement a daily prioritisation list. By the end of Q3, we expect to see a 100% on-time delivery rate for all administrative tasks. What we need for the next phase is a continued focus on professional growth and attention to detail.",
-      "keywords": ["Appraisal", "What impressed", "It was", "It is", "SMART"]
-    },
-    {
       "id": "adm-b2-w18-ex14",
-      "type": "writingTask",
-      "prompt": "Exercise 14: SMART Goal Template. Complete a SMART goal for 'Improving Email Response Time'.",
-      "modelAnswer": "Specific: Reduce average response time. Measurable: From 4 hours to 2 hours. Achievable: Yes, with better filtering. Relevant: Customer service quality. Time-bound: Within 3 months.",
-      "keywords": ["Specific", "Measurable", "Achievable", "Relevant", "Time-bound"]
+      "type": "multipleChoice",
+      "prompt": "In a SMART goal, what does 'Time-bound' mean?",
+      "options": [
+        "The goal is difficult to achieve",
+        "The goal has a specific deadline",
+        "The goal takes a lot of time to complete",
+        "The goal is set by the manager only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Time-bound means there is a clear end-date for the objective."
     },
     {
       "id": "adm-b2-w18-ex15",
-      "type": "writingTask",
-      "prompt": "Exercise 15: Weekly Mini-test. 1) Define KPI. 2) What is a 'PIP'? 3) Complete the cleft sentence: 'What we need ___ (be) more resources.' 4) What does the 'R' in SMART stand for?",
-      "modelAnswer": "1) Key Performance Indicator. 2) Performance Improvement Plan. 3) ...is... 4) Relevant.",
-      "keywords": ["Performance", "Plan", "is", "Relevant"]
+      "type": "multipleChoice",
+      "prompt": "What is 'Benchmarking' in HR?",
+      "options": [
+        "Building new benches for the breakroom",
+        "Comparing company salaries or performance against industry standards",
+        "Sitting on a bench during a meeting",
+        "Setting the same goal for everyone"
+      ],
+      "answerIndex": 1,
+      "explanation": "Benchmarking ensures a company remains competitive in the labor market."
+    },
+    {
+      "id": "adm-b2-w18-ex16",
+      "type": "multipleChoice",
+      "prompt": "What is the administrative role in 'Succession Planning'?",
+      "options": [
+        "To fire older employees",
+        "To identify and document internal talent with potential for future leadership roles",
+        "To organize the company's annual party",
+        "To manage the office lease"
+      ],
+      "answerIndex": 1,
+      "explanation": "Admins help document and track the development of potential future leaders."
+    },
+    {
+      "id": "adm-b2-w18-ex17",
+      "type": "multipleChoice",
+      "prompt": "Choose the most professional way to identify an area for improvement:",
+      "options": [
+        "You are bad at answering emails.",
+        "Stop being slow with reports.",
+        "We've identified that your email response time is an area for development.",
+        "Why can't you work faster?"
+      ],
+      "answerIndex": 2,
+      "explanation": "This option uses professional language ('area for development') and is objective."
+    },
+    {
+      "id": "adm-b2-w18-ex18",
+      "type": "multipleChoice",
+      "prompt": "How should a manager 'recognise achievements' effectively?",
+      "options": [
+        "By ignoring the success to keep the employee humble",
+        "By providing specific praise during a 1-to-1 or team meeting",
+        "By giving more work as a 'reward'",
+        "By asking the employee to buy lunch for the team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Specific praise validates the employee's effort and encourages future high performance."
+    },
+    {
+      "id": "adm-b2-w18-ex19",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'It's important to ___ the reasons behind the performance gaps.'",
+      "options": ["ignore", "identify", "celebrate", "hide"],
+      "answerIndex": 1,
+      "explanation": "Identifying the root cause of poor performance is the first step toward fixing it."
+    },
+    {
+      "id": "adm-b2-w18-ex20",
+      "type": "multipleChoice",
+      "prompt": "What is the difference between an 'annual appraisal' and a '1-to-1'?",
+      "options": [
+        "An appraisal is formal and yearly; a 1-to-1 is usually informal and regular",
+        "A 1-to-1 is only for new employees",
+        "An appraisal is for firing staff only",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explanation": "1-to-1s provide ongoing support, while appraisals are formal periodic reviews."
+    },
+    {
+      "id": "adm-b2-w18-ex21",
+      "type": "gap-fill",
+      "prompt": "Rewrite the sentence as an **It-Cleft** for emphasis: 'Sarah hit the sales target.' -> 'It was ___ who hit the sales target.'",
+      "validation": [
+        { "rule": "^Sarah$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "It-clefts use 'It + is/was + [focus] + who/that' to emphasize a person or thing."
+    },
+    {
+      "id": "adm-b2-w18-ex22",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft** sentence: '___ we need is more focus on data accuracy.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "What-clefts start with 'What' to emphasize the information that follows."
+    },
+    {
+      "id": "adm-b2-w18-ex23",
+      "type": "gap-fill",
+      "prompt": "Rewrite as an **It-Cleft** for emphasis on the reason: 'The lack of communication is causing delays.' -> 'It is ___ that is causing the delays.'",
+      "validation": [
+        { "rule": "^the lack of communication$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "The focus of the emphasis comes immediately after 'It is'."
+    },
+    {
+      "id": "adm-b2-w18-ex24",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft** sentence: '___ impressed me most was your ability to handle the crisis.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "This structure highlights a specific observation or feeling."
+    },
+    {
+      "id": "adm-b2-w18-ex25",
+      "type": "gap-fill",
+      "prompt": "Rewrite as an **It-Cleft**: 'The new training program improved our efficiency.' -> 'It was the ___ that improved our efficiency.'",
+      "validation": [
+        { "rule": "^new training program$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "The 'It-cleft' emphasizes the specific cause of the improvement."
+    },
+    {
+      "id": "adm-b2-w18-ex26",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ I want to discuss is your professional development plan.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "'What' acts as the subject of the clause to focus on the topic."
+    },
+    {
+      "id": "adm-b2-w18-ex27",
+      "type": "gap-fill",
+      "prompt": "Correct the error in this cleft sentence: 'What we need **are** more resources.' -> 'What we need ___ more resources.'",
+      "validation": [
+        { "rule": "^is$", "isCorrect": true, "message": "Correct! Even with plural nouns, 'What...' clauses usually take a singular verb 'is'." }
+      ],
+      "explanation": "In What-clefts, the verb 'to be' is typically singular when referring to a single concept or requirement."
+    },
+    {
+      "id": "adm-b2-w18-ex28",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'His dedication saved the project.' -> 'It was ___ that saved the project.'",
+      "validation": [
+        { "rule": "^his dedication$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "The emphasis is placed on 'his dedication'."
+    },
+    {
+      "id": "adm-b2-w18-ex29",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ we must address is the high attrition rate.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "This highlights the primary task or problem."
+    },
+    {
+      "id": "adm-b2-w18-ex30",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'The HR Manager initiated the PIP.' -> 'It was ___ who initiated the PIP.'",
+      "validation": [
+        { "rule": "^the HR Manager$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Emphasis on the person who took the action."
+    },
+    {
+      "id": "adm-b2-w18-ex31",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ really matters is the consistency of your work.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Emphasis on the most important factor."
+    },
+    {
+      "id": "adm-b2-w18-ex32",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'The lack of regular updates caused friction.' -> 'It is ___ that caused friction.'",
+      "validation": [
+        { "rule": "^the lack of regular updates$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Emphasis on the root cause."
+    },
+    {
+      "id": "adm-b2-w18-ex33",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ I’m looking for is a proactive attitude.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the desired trait."
+    },
+    {
+      "id": "adm-b2-w18-ex34",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'Your rapid mastery of the software impressed us.' -> 'It was your ___ that impressed us.'",
+      "validation": [
+        { "rule": "^rapid mastery of the software$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the specific achievement."
+    },
+    {
+      "id": "adm-b2-w18-ex35",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ we decided was to implement a 60-day review period.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the decision made."
+    },
+    {
+      "id": "adm-b2-w18-ex36",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'The Sales team complained about the delays.' -> 'It was ___ who complained about the delays.'",
+      "validation": [
+        { "rule": "^the Sales team$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the party involved."
+    },
+    {
+      "id": "adm-b2-w18-ex37",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ has changed is the way we track progress.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the specific modification."
+    },
+    {
+      "id": "adm-b2-w18-ex38",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'A simple spelling mistake caused the error.' -> 'It was a ___ that caused the error.'",
+      "validation": [
+        { "rule": "^simple spelling mistake$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the exact cause."
+    },
+    {
+      "id": "adm-b2-w18-ex39",
+      "type": "gap-fill",
+      "prompt": "Complete the **What-Cleft**: '___ I hope to see is more inter-departmental collaboration.'",
+      "validation": [
+        { "rule": "^What$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the future expectation."
+    },
+    {
+      "id": "adm-b2-w18-ex40",
+      "type": "gap-fill",
+      "prompt": "Rewrite for emphasis: 'The bi-weekly check-ins provided the support.' -> 'It was the ___ that provided the support.'",
+      "validation": [
+        { "rule": "^bi-weekly check-ins$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Focus on the mechanism of support."
+    },
+    {
+      "id": "adm-b2-w18-ex41",
+      "type": "multipleChoice",
+      "prompt": "What does 'PIP' stand for in an HR context?",
+      "options": [
+        "Personal Information Portal",
+        "Performance Improvement Plan",
+        "Professional Induction Program",
+        "Priority Integration Process"
+      ],
+      "answerIndex": 1,
+      "explanation": "A PIP is a formal document and process used to address performance issues."
+    },
+    {
+      "id": "adm-b2-w18-ex42",
+      "type": "multipleChoice",
+      "prompt": "What is the typical first step in managing underperformance?",
+      "options": [
+        "Immediate dismissal",
+        "An informal meeting to discuss performance gaps",
+        "Cutting the employee's salary",
+        "Promoting someone else"
+      ],
+      "answerIndex": 1,
+      "explanation": "Initial discussions should be informal to allow the employee to correct the issue."
+    },
+    {
+      "id": "adm-b2-w18-ex43",
+      "type": "multipleChoice",
+      "prompt": "According to the PIP notification to David (Doc B), what is the primary concern?\n\nDoc B snippet: 'It is the consistency of your data entry that remains our primary concern.'",
+      "options": [
+        "His attendance",
+        "The consistency of his data entry",
+        "His speed of work",
+        "His relationship with the manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "The email specifies that data entry consistency is the main worry."
+    },
+    {
+      "id": "adm-b2-w18-ex44",
+      "type": "multipleChoice",
+      "prompt": "How long will David's PIP period last?",
+      "options": ["30 days", "60 days", "90 days", "120 days"],
+      "answerIndex": 1,
+      "explanation": "Doc B states that the PIP will last for 60 days."
+    },
+    {
+      "id": "adm-b2-w18-ex45",
+      "type": "multipleChoice",
+      "prompt": "In a PIP, what are 'Regular Check-ins'?",
+      "options": [
+        "Daily emails from the manager",
+        "Scheduled meetings (e.g., bi-weekly) to review progress against PIP targets",
+        "A final exam at the end of the year",
+        "Lunch meetings with colleagues"
+      ],
+      "answerIndex": 1,
+      "explanation": "Check-ins are vital for monitoring improvement during a PIP."
+    },
+    {
+      "id": "adm-b2-w18-ex46",
+      "type": "multipleChoice",
+      "prompt": "What is 'Defining Success' in a PIP?",
+      "options": [
+        "Setting vague goals",
+        "Setting clear, time-bound targets for improvement",
+        "Asking the employee if they feel successful",
+        "Calculating the manager's bonus"
+      ],
+      "answerIndex": 1,
+      "explanation": "A PIP must have concrete, measurable targets to be fair and effective."
+    },
+    {
+      "id": "adm-b2-w18-ex47",
+      "type": "multipleChoice",
+      "prompt": "Complete the PIP term: 'We have identified a significant ___ gap.'",
+      "options": ["performance", "promotion", "payroll", "vacation"],
+      "answerIndex": 0,
+      "explanation": "A 'performance gap' is the difference between current and expected work standards."
+    },
+    {
+      "id": "adm-b2-w18-ex48",
+      "type": "multipleChoice",
+      "prompt": "What happens at a 'Final Review' of a PIP?",
+      "options": [
+        "The employee is automatically fired",
+        "Management decides if the employee has met the criteria or if further action is needed",
+        "The employee gets a promotion",
+        "The paperwork is deleted"
+      ],
+      "answerIndex": 1,
+      "explanation": "The final review assesses whether the improvement period was successful."
+    },
+    {
+      "id": "adm-b2-w18-ex49",
+      "type": "multipleChoice",
+      "prompt": "Which of these is considered 'Support' during a PIP?",
+      "options": [
+        "Reducing the salary",
+        "Providing additional training or mentoring",
+        "Increasing the workload",
+        "Ignoring the employee's questions"
+      ],
+      "answerIndex": 1,
+      "explanation": "Employers should provide help (like training) to give the employee a chance to succeed."
+    },
+    {
+      "id": "adm-b2-w18-ex50",
+      "type": "multipleChoice",
+      "prompt": "What is the administrative role in the PIP process?",
+      "options": [
+        "To decide who to fire",
+        "To document the formal steps, meetings, and outcomes accurately",
+        "To conduct the final review without the manager",
+        "To pay the employee's bonus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Documentation is critical for legal compliance in performance-related cases."
+    },
+    {
+      "id": "adm-b2-w18-ex51",
+      "type": "multipleChoice",
+      "prompt": "A 'bi-weekly' check-in occurs:",
+      "options": [
+        "Twice a week",
+        "Every two weeks",
+        "Every month",
+        "Every two months"
+      ],
+      "answerIndex": 1,
+      "explanation": "In business contexts, bi-weekly usually means once every two weeks."
+    },
+    {
+      "id": "adm-b2-w18-ex52",
+      "type": "multipleChoice",
+      "prompt": "Why is it important for PIP targets to be 'time-bound'?",
+      "options": [
+        "To make the employee feel rushed",
+        "To provide a clear deadline for the required improvement",
+        "To save money for the company",
+        "Because it is required by the office clock"
+      ],
+      "answerIndex": 1,
+      "explanation": "Deadlines ensure that the improvement process doesn't continue indefinitely."
+    },
+    {
+      "id": "adm-b2-w18-ex53",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Formal Warning'?",
+      "options": [
+        "A casual chat over coffee",
+        "An official document stating that performance must improve or employment may be terminated",
+        "A letter of recommendation",
+        "An invite to a party"
+      ],
+      "answerIndex": 1,
+      "explanation": "Warnings are the next step in the disciplinary process if performance doesn't improve."
+    },
+    {
+      "id": "adm-b2-w18-ex54",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'Following our meeting, we are formally ___ a PIP.'",
+      "options": ["implementing", "canceling", "avoiding", "finding"],
+      "answerIndex": 0,
+      "explanation": "One 'implements' a plan."
+    },
+    {
+      "id": "adm-b2-w18-ex55",
+      "type": "multipleChoice",
+      "prompt": "What is 'Underperformance'?",
+      "options": [
+        "Working too fast",
+        "Consistently falling below the required standards for a role",
+        "Taking a lunch break",
+        "Asking for more training"
+      ],
+      "answerIndex": 1,
+      "explanation": "Underperformance means the employee is not meeting their job requirements."
+    },
+    {
+      "id": "adm-b2-w18-ex56",
+      "type": "multipleChoice",
+      "prompt": "What does 'DEI' stand for in a modern workplace?",
+      "options": [
+        "Department of Energy and Information",
+        "Diversity, Equity, and Inclusion",
+        "Digital Editing and Induction",
+        "Data Entry and Insurance"
+      ],
+      "answerIndex": 1,
+      "explanation": "DEI is a framework for creating a fair and inclusive workplace."
+    },
+    {
+      "id": "adm-b2-w18-ex57",
+      "type": "multipleChoice",
+      "prompt": "What is 'Unconscious Bias'?",
+      "options": [
+        "Intentionally being mean to someone",
+        "Stereotypes or prejudices we have without realizing it",
+        "A type of medical condition",
+        "A conscious decision to hire a friend"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unconscious bias can affect hiring and performance reviews without the person knowing."
+    },
+    {
+      "id": "adm-b2-w18-ex58",
+      "type": "multipleChoice",
+      "prompt": "In HR administration, 'Equality Monitoring' involves:",
+      "options": [
+        "Comparing the height of all employees",
+        "Tracking workforce diversity data (age, gender, etc.) for reporting",
+        "Ensuring everyone has the same computer",
+        "Making everyone wear the same uniform"
+      ],
+      "answerIndex": 1,
+      "explanation": "Monitoring data helps companies ensure they are being fair and inclusive."
+    },
+    {
+      "id": "adm-b2-w18-ex59",
+      "type": "multipleChoice",
+      "prompt": "What is 'Inclusive Recruitment'?",
+      "options": [
+        "Only hiring people from the local town",
+        "Removing identifying information from CVs to prevent bias",
+        "Inviting everyone in the company to every interview",
+        "Hiring only people with the same degree"
+      ],
+      "answerIndex": 1,
+      "explanation": "Inclusive recruitment aims to hire based purely on talent and suitability."
+    },
+    {
+      "id": "adm-b2-w18-ex60",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Risk Assessment' in an office environment?",
+      "options": [
+        "Calculating the risk of a new business deal",
+        "A systematic process of identifying potential hazards (e.g., fire risks)",
+        "Checking an employee's credit score",
+        "Evaluating the danger of a coffee machine"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk assessments are part of Health & Safety compliance."
+    },
+    {
+      "id": "adm-b2-w18-ex61",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Wellbeing Initiative'?",
+      "options": [
+        "Reducing the lunch hour",
+        "Coordinating programs like 'Mindfulness Mondays' or ergonomic checks",
+        "Installing more cameras to monitor staff",
+        "Cutting the training budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wellbeing initiatives focus on the mental and physical health of employees."
+    },
+    {
+      "id": "adm-b2-w18-ex62",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Ergonomic Assessment'?",
+      "options": [
+        "A test of an employee's math skills",
+        "An evaluation of a workspace to ensure it doesn't cause physical strain",
+        "A review of the company's financial budget",
+        "A check of the office lighting"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ergonomics ensures chairs, desks, and monitors are set up safely."
+    },
+    {
+      "id": "adm-b2-w18-ex63",
+      "type": "multipleChoice",
+      "prompt": "In HR, what is 'Salary Benchmarking' used for?",
+      "options": [
+        "To reduce everyone's pay",
+        "To ensure salaries are competitive with industry standards",
+        "To hide the company's profits",
+        "To pay the manager more than the CEO"
+      ],
+      "answerIndex": 1,
+      "explanation": "Benchmarking helps attract and keep the best staff by paying them fairly."
+    },
+    {
+      "id": "adm-b2-w18-ex64",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of an 'H&S Audit'?",
+      "options": [
+        "To count the number of chairs",
+        "To ensure compliance with health and safety regulations",
+        "To check the quality of the office coffee",
+        "To review the company's insurance policy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Audits verify that a workplace is safe and following the law."
+    },
+    {
+      "id": "adm-b2-w18-ex65",
+      "type": "multipleChoice",
+      "prompt": "Complete the term: 'Succession ___' (preparing staff for future roles).",
+      "options": ["Planning", "Ending", "Finding", "Firing"],
+      "answerIndex": 0,
+      "explanation": "Succession planning ensures a smooth transition in leadership roles."
+    },
+    {
+      "id": "adm-b2-w18-ex66",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Internal Job Posting'?",
+      "options": [
+        "A job advertised on LinkedIn",
+        "A role advertised only to current employees of the company",
+        "A job that has already been filled",
+        "An advertisement for office supplies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Internal postings encourage career growth within the organization."
+    },
+    {
+      "id": "adm-b2-w18-ex67",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Hazard' in a risk assessment?",
+      "options": [
+        "A tidy desk",
+        "A trailing cable across a walkway",
+        "A comfortable chair",
+        "A clear exit sign"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hazards are things that could cause injury, like tripping over a cable."
+    },
+    {
+      "id": "adm-b2-w18-ex68",
+      "type": "multipleChoice",
+      "prompt": "What is the benefit of a 'DEI Committee'?",
+      "options": [
+        "It makes the office look better",
+        "It proposes initiatives to improve workplace culture and inclusion",
+        "It handles all the company's taxes",
+        "It decides who to hire"
+      ],
+      "answerIndex": 1,
+      "explanation": "Committees allow employees to contribute to a fairer workplace."
+    },
+    {
+      "id": "adm-b2-w18-ex69",
+      "type": "multipleChoice",
+      "prompt": "In an office, who is responsible for Health & Safety?",
+      "options": [
+        "Only the CEO",
+        "Only the HR Manager",
+        "Everyone in the workplace",
+        "The local police"
+      ],
+      "answerIndex": 2,
+      "explanation": "While management leads, everyone has a duty to act safely."
+    },
+    {
+      "id": "adm-b2-w18-ex70",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Wellbeing Audit'?",
+      "options": [
+        "A financial check of the company",
+        "An evaluation of how well the company supports employee health and happiness",
+        "A review of the office gym equipment",
+        "A check of the coffee supply"
+      ],
+      "answerIndex": 1,
+      "explanation": "Wellbeing audits help identify if staff are stressed or unsupported."
+    },
+    {
+      "id": "adm-b2-w18-ex71",
+      "type": "gap-fill",
+      "prompt": "Complete with the correct verb: 'We decided to ___ (benchmark) the junior admin salary against the local average.'",
+      "validation": [
+        { "rule": "^benchmark$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "To benchmark is to compare against a standard."
+    },
+    {
+      "id": "adm-b2-w18-ex72",
+      "type": "gap-fill",
+      "prompt": "Complete the cleft sentence: 'What the employee needs ___ (be) better ergonomic support.'",
+      "validation": [
+        { "rule": "^is$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "In What-clefts, 'is' is standard even before some plural-sounding concepts like 'support'."
+    },
+    {
+      "id": "adm-b2-w18-ex73",
+      "type": "gap-fill",
+      "prompt": "Complete with the correct form: 'It was the ___ (unconscious) bias training that helped the team.'",
+      "validation": [
+        { "rule": "^unconscious$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "'Unconscious bias' is the standard HR term."
+    },
+    {
+      "id": "adm-b2-w18-ex74",
+      "type": "multipleChoice",
+      "prompt": "Which strategy helps with 'Career Progression'?",
+      "options": [
+        "Blocking all internal transfers",
+        "Providing clear pathways and training for growth",
+        "Paying everyone the same amount regardless of experience",
+        "Reducing the number of managers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Growth pathways motivate employees to stay and advance."
+    },
+    {
+      "id": "adm-b2-w18-ex75",
+      "type": "multipleChoice",
+      "prompt": "What is the primary administrative goal of an 'Appraisal Report'?",
+      "options": [
+        "To create a legal record of performance and agreed goals",
+        "To make the employee feel nervous",
+        "To calculate the electricity bill",
+        "To hire new staff"
+      ],
+      "answerIndex": 0,
+      "explanation": "Accurate reporting is essential for both development and legal protection."
     }
   ]
 }

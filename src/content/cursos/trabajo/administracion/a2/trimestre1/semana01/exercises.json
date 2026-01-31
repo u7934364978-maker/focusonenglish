@@ -1,588 +1,835 @@
 {
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana01",
   "title": "Digital Banking & Past Simple Exercises",
   "items": [
     {
-      "id": "ex1",
+      "id": "adm-a2-w01-ex01",
       "type": "multiple-choice",
-      "question": "What is a 'Neobank'?",
+      "prompt": "What is a 'Neobank'?",
       "options": [
         "A bank that only uses physical branches",
         "A digital-only bank without branches",
         "A bank for old people",
         "A bank that only accepts cash"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Neobanks operate entirely online through apps and websites."
     },
     {
-      "id": "ex2",
+      "id": "adm-a2-w01-ex02",
       "type": "multiple-choice",
-      "question": "Which term describes the process of registering a new customer?",
+      "prompt": "Which term describes the process of registering a new customer?",
       "options": [
         "Off-boarding",
         "Uploading",
         "Onboarding",
         "Broadcasting"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Onboarding is the process of getting a new user started with a service."
     },
     {
-      "id": "ex3",
-      "type": "fill-in-the-blank",
-      "question": "To verify my identity, I ________ (scan) my passport using the app.",
+      "id": "adm-a2-w01-ex03",
+      "type": "fill-blank",
+      "prompt": "To verify my identity, I ________ (scan) my passport using the app.",
       "answer": "scanned",
       "explanation": "'Scan' is a regular verb; we add -ed for the past simple (doubling the 'n')."
     },
     {
-      "id": "ex4",
+      "id": "adm-a2-w01-ex04",
       "type": "multiple-choice",
-      "question": "What do you call a bank statement that is sent digitally?",
+      "prompt": "What do you call a bank statement that is sent digitally?",
       "options": [
         "Paper statement",
         "Cloud statement",
         "E-statement",
         "Web statement"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "The 'E' stands for electronic."
     },
     {
-      "id": "ex5",
+      "id": "adm-a2-w01-ex05",
       "type": "multiple-choice",
-      "question": "What does KYC stand for in banking?",
+      "prompt": "What does KYC stand for in banking?",
       "options": [
         "Keep Your Card",
         "Know Your Customer",
         "Key Yield Capital",
         "Kindly Yield Credit"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "KYC is a standard process to verify client identity."
     },
     {
-      "id": "ex6",
+      "id": "adm-a2-w01-ex06",
       "type": "multiple-choice",
-      "question": "Which term refers to an instant alert received on your smartphone?",
+      "prompt": "Which term refers to an instant alert received on your smartphone?",
       "options": [
         "Email",
         "Push notification",
         "SMS",
         "Voicemail"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Push notifications are instant alerts sent by apps."
     },
     {
-      "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "Yesterday, the bank ________ (approve) my loan application.",
+      "id": "adm-a2-w01-ex07",
+      "type": "fill-blank",
+      "prompt": "Yesterday, the bank ________ (approve) my loan application.",
       "answer": "approved",
       "explanation": "'Approve' ends in 'e', so we just add 'd'."
     },
     {
-      "id": "ex8",
+      "id": "adm-a2-w01-ex08",
       "type": "multiple-choice",
-      "question": "Which verb is NOT in the past simple?",
+      "prompt": "Which verb is NOT in the past simple?",
       "options": [
         "Downloaded",
         "Transferred",
         "Opening",
         "Logged in"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "'Opening' is a gerund or present participle, not past simple."
     },
     {
-      "id": "ex9",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (download) the mobile app last night.",
+      "id": "adm-a2-w01-ex09",
+      "type": "fill-blank",
+      "prompt": "I ________ (download) the mobile app last night.",
       "answer": "downloaded",
       "explanation": "The past simple of 'download' is 'downloaded'."
     },
     {
-      "id": "ex10",
+      "id": "adm-a2-w01-ex10",
       "type": "multiple-choice",
-      "question": "What is 'Selfie Verification' used for?",
+      "prompt": "What is 'Selfie Verification' used for?",
       "options": [
         "To post on social media",
         "To verify identity during onboarding",
         "To choose a profile picture",
         "To apply for a credit card for friends"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "It's a biometric security measure."
     },
     {
-      "id": "ex11",
-      "type": "fill-in-the-blank",
-      "question": "He ________ (log in) to his account three times today.",
+      "id": "adm-a2-w01-ex11",
+      "type": "fill-blank",
+      "prompt": "He ________ (log in) to his account three times today.",
       "answer": "logged in",
       "explanation": "The past simple of 'log in' is 'logged in'."
     },
     {
-      "id": "ex12",
+      "id": "adm-a2-w01-ex12",
       "type": "multiple-choice",
-      "question": "If an app is 'mobile-first', it means:",
+      "prompt": "If an app is 'mobile-first', it means:",
       "options": [
         "It only works on desktop",
         "It was designed primarily for mobile devices",
         "It is for buying mobile phones",
         "It is very slow on mobile"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Mobile-first design prioritizes the mobile experience."
     },
     {
-      "id": "ex13",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (transfer) the money to the savings account this morning.",
+      "id": "adm-a2-w01-ex13",
+      "type": "fill-blank",
+      "prompt": "We ________ (transfer) the money to the savings account this morning.",
       "answer": "transferred",
       "explanation": "'Transfer' doubles the 'r' when adding -ed."
     },
     {
-      "id": "ex14",
+      "id": "adm-a2-w01-ex14",
       "type": "multiple-choice",
-      "question": "What digital action involves moving your finger across the screen to browse?",
+      "prompt": "What digital action involves moving your finger across the screen to browse?",
       "options": [
         "Tap",
         "Double-click",
         "Swipe",
         "Scan"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Swiping is the standard gesture for moving through lists or pages on mobile."
     },
     {
-      "id": "ex15",
+      "id": "adm-a2-w01-ex15",
       "type": "multiple-choice",
-      "question": "Which of these is a regular verb in the past tense?",
+      "prompt": "Which of these is a regular verb in the past tense?",
       "options": [
         "Sent",
         "Was",
         "Went",
         "Called"
       ],
-      "correctAnswer": 3,
+      "answerIndex": 3,
       "explanation": "'Called' follows the regular -ed rule."
     },
     {
-      "id": "ex16",
-      "type": "fill-in-the-blank",
-      "question": "The customer ________ (wait) for the verification code.",
+      "id": "adm-a2-w01-ex16",
+      "type": "fill-blank",
+      "prompt": "The customer ________ (wait) for the verification code.",
       "answer": "waited",
       "explanation": "The past simple of 'wait' is 'waited'."
     },
     {
-      "id": "ex17",
+      "id": "adm-a2-w01-ex17",
       "type": "multiple-choice",
-      "question": "What do you need for 'Digital ID verification'?",
+      "prompt": "What do you need for 'Digital ID verification'?",
       "options": [
         "A physical branch",
         "A camera and a valid ID",
         "A landline phone",
         "A fax machine"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "You use the camera to scan your ID document."
     },
     {
-      "id": "ex18",
-      "type": "fill-in-the-blank",
-      "question": "She ________ (check) her balance before buying the phone.",
+      "id": "adm-a2-w01-ex18",
+      "type": "fill-blank",
+      "prompt": "She ________ (check) her balance before buying the phone.",
       "answer": "checked",
       "explanation": "The past simple of 'check' is 'checked'."
     },
     {
-      "id": "ex19",
+      "id": "adm-a2-w01-ex19",
       "type": "multiple-choice",
-      "question": "What happens if you go below the 'minimum balance'?",
+      "prompt": "What happens if you go below the 'minimum balance'?",
       "options": [
         "You get a bonus",
         "The bank closes your account immediately",
         "You might be charged a fee",
         "Nothing happens"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Many accounts require a minimum balance to stay fee-free."
     },
     {
-      "id": "ex20",
-      "type": "fill-in-the-blank",
-      "question": "The system ________ (update) my personal details.",
+      "id": "adm-a2-w01-ex20",
+      "type": "fill-blank",
+      "prompt": "The system ________ (update) my personal details.",
       "answer": "updated",
       "explanation": "The past simple of 'update' is 'updated'."
     },
     {
-      "id": "ex21",
+      "id": "adm-a2-w01-ex21",
       "type": "multiple-choice",
-      "question": "Which sentence is in the past simple?",
+      "prompt": "Which sentence is in the past simple?",
       "options": [
         "I am opening an account.",
         "I will open an account.",
         "I opened an account.",
         "I open accounts."
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "'Opened' indicates a past action."
     },
     {
-      "id": "ex22",
-      "type": "fill-in-the-blank",
-      "question": "They ________ (request) a new debit card last week.",
+      "id": "adm-a2-w01-ex22",
+      "type": "fill-blank",
+      "prompt": "They ________ (request) a new debit card last week.",
       "answer": "requested",
       "explanation": "The past simple of 'request' is 'requested'."
     },
     {
-      "id": "ex23",
+      "id": "adm-a2-w01-ex23",
       "type": "multiple-choice",
-      "question": "What is the negative form of 'I scanned my ID'?",
+      "prompt": "What is the negative form of 'I scanned my ID'?",
       "options": [
         "I no scanned my ID",
         "I didn't scanned my ID",
         "I didn't scan my ID",
         "I not scanned my ID"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "In negatives, we use 'didn't' + base form of the verb."
     },
     {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "The bank assistant ________ (explain) the fees to me.",
+      "id": "adm-a2-w01-ex24",
+      "type": "fill-blank",
+      "prompt": "The bank assistant ________ (explain) the fees to me.",
       "answer": "explained",
       "explanation": "The past simple of 'explain' is 'explained'."
     },
     {
-      "id": "ex25",
+      "id": "adm-a2-w01-ex25",
       "type": "multiple-choice",
-      "question": "Which of these neobanks is well-known? (General knowledge/Context)",
+      "prompt": "Which of these neobanks is well-known?",
       "options": [
         "Blockbuster",
         "Revolut",
         "Nokia",
         "Kodak"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Revolut is a famous digital-only bank (neobank)."
     },
     {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (receive) a push notification about the payment.",
+      "id": "adm-a2-w01-ex26",
+      "type": "fill-blank",
+      "prompt": "I ________ (receive) a push notification about the payment.",
       "answer": "received",
       "explanation": "The past simple of 'receive' is 'received'."
     },
     {
-      "id": "ex27",
+      "id": "adm-a2-w01-ex27",
       "type": "multiple-choice",
-      "question": "What is the question form of 'She transferred the money'?",
+      "prompt": "What is the question form of 'She transferred the money'?",
       "options": [
         "Does she transferred the money?",
         "Did she transferred the money?",
         "Did she transfer the money?",
         "Transferred she the money?"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "In questions, we use 'Did' + base form."
     },
     {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "The app ________ (crash) when I tried to log in.",
+      "id": "adm-a2-w01-ex28",
+      "type": "fill-blank",
+      "prompt": "The app ________ (crash) when I tried to log in.",
       "answer": "crashed",
       "explanation": "The past simple of 'crash' is 'crashed'."
     },
     {
-      "id": "ex29",
+      "id": "adm-a2-w01-ex29",
       "type": "multiple-choice",
-      "question": "A 'Joint account' is for:",
+      "prompt": "A 'Joint account' is for:",
       "options": [
         "Only one person",
         "Two or more people",
         "Only businesses",
         "Only for children"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "A joint account is shared by multiple people."
     },
     {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "The support agent ________ (help) me with the setup.",
+      "id": "adm-a2-w01-ex30",
+      "type": "fill-blank",
+      "prompt": "The support agent ________ (help) me with the setup.",
       "answer": "helped",
       "explanation": "The past simple of 'help' is 'helped'."
     },
     {
-      "id": "ex31",
+      "id": "adm-a2-w01-ex31",
       "type": "multiple-choice",
-      "question": "How do you pronounce the -ed in 'scanned'?",
+      "prompt": "How do you pronounce the -ed in 'scanned'?",
       "options": [
         "/t/",
         "/d/",
         "/id/",
         "/ed/"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "In 'scanned', the -ed is pronounced as /d/."
     },
     {
-      "id": "ex32",
-      "type": "fill-in-the-blank",
-      "question": "My father ________ (close) his old bank account.",
+      "id": "adm-a2-w01-ex32",
+      "type": "fill-blank",
+      "prompt": "My father ________ (close) his old bank account.",
       "answer": "closed",
       "explanation": "The past simple of 'close' is 'closed'."
     },
     {
-      "id": "ex33",
+      "id": "adm-a2-w01-ex33",
       "type": "multiple-choice",
-      "question": "Which document is usually needed for KYC?",
+      "prompt": "Which document is usually needed for KYC?",
       "options": [
         "Gym membership",
         "Library card",
         "Passport or National ID",
         "Movie ticket"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Official ID is required for identity verification."
     },
     {
-      "id": "ex34",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (visit) the branch to sign the documents.",
+      "id": "adm-a2-w01-ex34",
+      "type": "fill-blank",
+      "prompt": "We ________ (visit) the branch to sign the documents.",
       "answer": "visited",
       "explanation": "The past simple of 'visit' is 'visited'."
     },
     {
-      "id": "ex35",
+      "id": "adm-a2-w01-ex35",
       "type": "multiple-choice",
-      "question": "What does 'Real-time' mean in banking?",
+      "prompt": "What does 'Real-time' mean in banking?",
       "options": [
         "Happening once a month",
         "Happening immediately",
         "Happening in the past",
         "Happening only during business hours"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Real-time transactions happen instantly."
     },
     {
-      "id": "ex36",
-      "type": "fill-in-the-blank",
-      "question": "The company ________ (deposit) my salary yesterday.",
+      "id": "adm-a2-w01-ex36",
+      "type": "fill-blank",
+      "prompt": "The company ________ (deposit) my salary yesterday.",
       "answer": "deposited",
       "explanation": "The past simple of 'deposit' is 'deposited'."
     },
     {
-      "id": "ex37",
+      "id": "adm-a2-w01-ex37",
       "type": "multiple-choice",
-      "question": "Choose the correct spelling:",
+      "prompt": "Choose the correct spelling of the past simple of 'transfer':",
       "options": [
         "Transfered",
         "Transferred",
         "Transferrd",
         "Transferid"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Transferred has double 'r'."
     },
     {
-      "id": "ex38",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (activate) my new card via the app.",
+      "id": "adm-a2-w01-ex38",
+      "type": "fill-blank",
+      "prompt": "I ________ (activate) my new card via the app.",
       "answer": "activated",
       "explanation": "The past simple of 'activate' is 'activated'."
     },
     {
-      "id": "ex39",
+      "id": "adm-a2-w01-ex39",
       "type": "multiple-choice",
-      "question": "Which of these is NOT a digital banking feature?",
+      "prompt": "Which of these is NOT a digital banking feature?",
       "options": [
         "Face ID login",
         "In-app chat support",
         "Mailing paper checks",
         "Instant transfers"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Mailing paper checks is a traditional banking feature."
     },
     {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "The bank ________ (block) my card for security reasons.",
+      "id": "adm-a2-w01-ex40",
+      "type": "fill-blank",
+      "prompt": "The bank ________ (block) my card for security reasons.",
       "answer": "blocked",
       "explanation": "The past simple of 'block' is 'blocked'."
     },
     {
-      "id": "ex41",
+      "id": "adm-a2-w01-ex41",
       "type": "multiple-choice",
-      "question": "When you use your phone's camera to read a QR code, you are _______ it.",
+      "prompt": "When you use your phone's camera to read a QR code, you are _______ it.",
       "options": [
         "uploading",
         "downloading",
         "scanning",
         "typing"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Scanning uses the camera to capture data from a code or document."
     },
     {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "Last month, I ________ (save) 200 euros.",
+      "id": "adm-a2-w01-ex42",
+      "type": "fill-blank",
+      "prompt": "Last month, I ________ (save) 200 euros.",
       "answer": "saved",
       "explanation": "The past simple of 'save' is 'saved'."
     },
     {
-      "id": "ex43",
+      "id": "adm-a2-w01-ex43",
       "type": "multiple-choice",
-      "question": "What is a 'Digital Wallet'?",
+      "prompt": "What is a 'Digital Wallet'?",
       "options": [
         "A physical wallet with a screen",
         "An app that stores card information for payments",
         "A place to keep paper money",
         "A type of bank account for children"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Examples include Apple Pay and Google Pay."
     },
     {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "The transaction ________ (appear) on my statement immediately.",
+      "id": "adm-a2-w01-ex44",
+      "type": "fill-blank",
+      "prompt": "The transaction ________ (appear) on my statement immediately.",
       "answer": "appeared",
       "explanation": "The past simple of 'appear' is 'appeared'."
     },
     {
-      "id": "ex45",
+      "id": "adm-a2-w01-ex45",
       "type": "multiple-choice",
-      "question": "Which word is a synonym for 'Transfer'?",
+      "prompt": "Which word is a synonym for 'Transfer'?",
       "options": [
         "Hold",
         "Move",
         "Lock",
         "Save"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Transferring money means moving it from one place to another."
     },
     {
-      "id": "ex46",
-      "type": "fill-in-the-blank",
-      "question": "She ________ (cancel) her subscription this morning.",
+      "id": "adm-a2-w01-ex46",
+      "type": "fill-blank",
+      "prompt": "She ________ (cancel) her subscription this morning.",
       "answer": "cancelled",
-      "explanation": "The past simple of 'cancel' is 'cancelled' (in British English, 'canceled' in American)."
+      "explanation": "The past simple of 'cancel' is 'cancelled'."
     },
     {
-      "id": "ex47",
+      "id": "adm-a2-w01-ex47",
       "type": "multiple-choice",
-      "question": "What is 'Two-Factor Authentication' (2FA)?",
+      "prompt": "What is 'Two-Factor Authentication' (2FA)?",
       "options": [
         "Two different bank accounts",
         "Two different passwords",
         "An extra layer of security (e.g., a code sent to your phone)",
         "Paying two fees"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "2FA requires two forms of identification."
     },
     {
-      "id": "ex48",
-      "type": "fill-in-the-blank",
-      "question": "The bank ________ (offer) me a better interest rate.",
+      "id": "adm-a2-w01-ex48",
+      "type": "fill-blank",
+      "prompt": "The bank ________ (offer) me a better interest rate.",
       "answer": "offered",
       "explanation": "The past simple of 'offer' is 'offered'."
     },
     {
-      "id": "ex49",
+      "id": "adm-a2-w01-ex49",
       "type": "multiple-choice",
-      "question": "If you 'log out', you:",
+      "prompt": "If you 'log out', you:",
       "options": [
         "Delete the app",
         "Enter your password",
         "Exit your secure session",
         "Change your email"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Logging out ends your current session."
     },
     {
-      "id": "ex50",
-      "type": "word-search",
-      "title": "Digital Banking Word Search",
-      "instructions": "Find the fintech-related words in the grid.",
-      "words": ["NEOBANK", "ONBOARDING", "FINTECH", "PUSH", "SCAN", "SWIPE", "REALTIME", "VERIFY"],
-      "gridSize": 10
+      "id": "adm-a2-w01-ex50",
+      "type": "fill-blank",
+      "prompt": "We ________ (complete) the onboarding process yesterday.",
+      "answer": "completed",
+      "explanation": "The past simple of 'complete' is 'completed'."
     },
     {
-      "id": "fin-a2-w1-m1",
+      "id": "adm-a2-w01-ex51",
+      "type": "multiple-choice",
+      "prompt": "Why did the app ask for a selfie?",
+      "options": [
+        "To update the profile picture",
+        "For biometric identity verification",
+        "To share on the bank's website",
+        "To check the camera quality"
+      ],
+      "answerIndex": 1,
+      "explanation": "Selfies are used in neobanks to verify that the person opening the account is real."
+    },
+    {
+      "id": "adm-a2-w01-ex52",
+      "type": "fill-blank",
+      "prompt": "They ________ (manage) to open the account in five minutes.",
+      "answer": "managed",
+      "explanation": "The past simple of 'manage' is 'managed'."
+    },
+    {
+      "id": "adm-a2-w01-ex53",
+      "type": "multiple-choice",
+      "prompt": "What does 'Biometric' refer to in security?",
+      "options": [
+        "A type of physical lock",
+        "Using physical characteristics like fingerprints or face",
+        "A long numerical password",
+        "A secret question about your pets"
+      ],
+      "answerIndex": 1,
+      "explanation": "Biometrics use biological data for identification."
+    },
+    {
+      "id": "adm-a2-w01-ex54",
+      "type": "fill-blank",
+      "prompt": "The customer ________ (talk) to the virtual assistant.",
+      "answer": "talked",
+      "explanation": "The past simple of 'talk' is 'talked'."
+    },
+    {
+      "id": "adm-a2-w01-ex55",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a benefit of neobanks?",
+      "options": [
+        "More physical branches",
+        "Lower fees and faster digital service",
+        "Free coffee at the office",
+        "Paper statements sent by mail"
+      ],
+      "answerIndex": 1,
+      "explanation": "Neobanks typically offer lower fees because they don't have physical office costs."
+    },
+    {
+      "id": "adm-a2-w01-ex56",
+      "type": "fill-blank",
+      "prompt": "I ________ (try) to log in, but the server was down.",
+      "answer": "tried",
+      "explanation": "'Try' ends in consonant + y, so we change 'y' to 'i' and add -ed."
+    },
+    {
+      "id": "adm-a2-w01-ex57",
+      "type": "multiple-choice",
+      "prompt": "What is an 'instant transfer'?",
+      "options": [
+        "A transfer that takes 3 business days",
+        "A transfer that happens in seconds",
+        "A transfer you make in person",
+        "A transfer of physical cash"
+      ],
+      "answerIndex": 1,
+      "explanation": "Instant transfers are processed immediately, 24/7."
+    },
+    {
+      "id": "adm-a2-w01-ex58",
+      "type": "fill-blank",
+      "prompt": "The bank ________ (notify) me about the suspicious activity.",
+      "answer": "notified",
+      "explanation": "'Notify' becomes 'notified' in the past simple."
+    },
+    {
+      "id": "adm-a2-w01-ex59",
+      "type": "multiple-choice",
+      "prompt": "If you 'freeze' your card, it means:",
+      "options": [
+        "You put it in the refrigerator",
+        "You temporarily disable it for security",
+        "You delete your bank account",
+        "You order a new physical card"
+      ],
+      "answerIndex": 1,
+      "explanation": "Freezing or blocking a card stops it from being used temporarily."
+    },
+    {
+      "id": "adm-a2-w01-ex60",
+      "type": "fill-blank",
+      "prompt": "Last night, the app ________ (work) perfectly.",
+      "answer": "worked",
+      "explanation": "The past simple of 'work' is 'worked'."
+    },
+    {
+      "id": "adm-a2-w01-ex61",
       "type": "matching",
-      "prompt": "Match the onboarding action with its purpose.",
+      "prompt": "Match the banking terms with their definitions.",
       "pairs": [
-        {"term": "Scan ID", "definition": "Identity verification"},
-        {"term": "Take Selfie", "definition": "Biometric security"},
-        {"term": "Download App", "definition": "Access digital services"},
-        {"term": "Verify Email", "definition": "Contact validation"}
+        { "term": "KYC", "definition": "Identity verification process" },
+        { "term": "E-statement", "definition": "Digital transaction history" },
+        { "term": "Neobank", "definition": "Branchless digital bank" },
+        { "term": "Push notification", "definition": "Instant mobile alert" }
       ]
     },
     {
-      "id": "fin-a2-w1-r1",
-      "type": "reading-comprehension",
-      "title": "Switching to a Neobank",
-      "text": "Last week, Sarah **downloaded** a neobank app. She wanted to open a new account. First, she **scanned** her passport. Then, she **took** a selfie for verification. The bank **approved** her account in ten minutes. She **transferred** 500 euros from her old bank. She **liked** the push notifications for every payment.",
-      "vocabularyHelp": [
-        { "word": "downloaded", "definition": "Copied a program from the internet to a phone." },
-        { "word": "scanned", "definition": "Used a camera to read a document." },
-        { "word": "approved", "definition": "Officially accepted." },
-        { "word": "transferred", "definition": "Moved money from one place to another." }
-      ],
+      "id": "adm-a2-w01-ex62",
+      "type": "matching",
+      "prompt": "Match the past simple verbs with their base forms.",
+      "pairs": [
+        { "term": "Downloaded", "definition": "Download" },
+        { "term": "Transferred", "definition": "Transfer" },
+        { "term": "Scanned", "definition": "Scan" },
+        { "term": "Approved", "definition": "Approve" }
+      ]
+    },
+    {
+      "id": "adm-a2-w01-ex63",
+      "type": "reading",
+      "title": "A New Way to Bank",
+      "text": "Last year, David **decided** to switch to a neobank. He **downloaded** the app in January. The onboarding process **started** with his email verification. He **scanned** his ID and **uploaded** a photo of a utility bill as proof of address. The bank **verified** his identity using AI. Within minutes, David **received** a notification: 'Account Approved'. He **transferred** his savings and **started** using the virtual card immediately.",
       "questions": [
         {
-          "question": "What did Sarah do first?",
-          "options": ["She took a selfie", "She scanned her passport", "She downloaded the app", "She transferred money"],
+          "question": "When did David download the app?",
+          "options": ["Last week", "In January", "Yesterday", "In December"],
+          "answerIndex": 1,
+          "explanation": "The text states David downloaded the app in January."
+        },
+        {
+          "question": "What did he use as proof of address?",
+          "options": ["His passport", "A selfie", "A utility bill", "His driver's license"],
           "answerIndex": 2,
-          "explanation": "The text says 'First, she downloaded a neobank app'."
+          "explanation": "He uploaded a photo of a utility bill."
         },
         {
-          "question": "How long did the verification take?",
-          "options": ["One hour", "Ten minutes", "Two days", "Five minutes"],
+          "question": "How did the bank verify his identity?",
+          "options": ["With a phone call", "Using AI", "In a physical branch", "They didn't verify it"],
           "answerIndex": 1,
-          "explanation": "The text says 'The bank approved her account in ten minutes'."
+          "explanation": "The text mentions the bank verified his identity using AI."
         }
       ]
     },
     {
-      "id": "fin-a2-w1-l1",
-      "type": "listening-comprehension",
-      "title": "Support Call: ID Verification",
-      "transcript": "Agent: Hello, this is Neobank support. How can I help you?\nCustomer: Hi, I scanned my ID, but the app rejected it.\nAgent: I see. Did you use a dark background?\nCustomer: No, I used a white table. It was very bright.\nAgent: That is the problem. Please use a dark background and scan it again.\nCustomer: Okay, I will try that now. Thank you.",
-      "vocabularyHelp": [
-        { "word": "rejected", "definition": "Refused to accept." },
-        { "word": "background", "definition": "The area behind the main object." },
-        { "word": "bright", "definition": "With a lot of light." }
-      ],
+      "id": "adm-a2-w01-ex64",
+      "type": "listening",
+      "title": "Onboarding Issues",
+      "transcript": "Customer: Hello, I'm trying to open an account, but I'm stuck.\nAgent: I see. Did you finish the KYC steps?\nCustomer: Yes, I scanned my passport and took the selfie. But I didn't receive the confirmation email.\nAgent: Did you check your spam folder?\nCustomer: Oh, let me see... Yes, it arrived there ten minutes ago. I missed it!\nAgent: No problem. Please click the link in that email to activate your account.",
       "questions": [
         {
-          "question": "What is the customer's problem?",
-          "options": ["He lost his phone", "The app rejected his ID scan", "He forgot his password", "He wants to close his account"],
+          "question": "What steps did the customer already complete?",
+          "options": ["Only the email", "Passport scan and selfie", "Initial deposit", "Card activation"],
           "answerIndex": 1,
-          "explanation": "The customer says 'I scanned my ID, but the app rejected it'."
+          "explanation": "The customer says 'I scanned my passport and took the selfie'."
         },
         {
-          "question": "What was the mistake?",
-          "options": ["The room was dark", "The table was too bright", "He used the wrong ID", "The app crashed"],
-          "answerIndex": 1,
-          "explanation": "The agent says the white, bright table was the problem."
+          "question": "Where was the confirmation email?",
+          "options": ["It wasn't sent", "In the inbox", "In the spam folder", "On the website"],
+          "answerIndex": 2,
+          "explanation": "The customer found it in the spam folder."
+        },
+        {
+          "question": "What must the customer do next?",
+          "options": ["Call again", "Scan the passport again", "Click a link in the email", "Go to a branch"],
+          "answerIndex": 2,
+          "explanation": "The agent tells him to click the link in the email."
         }
       ]
     },
     {
-      "id": "fin-a2-w1-writing-1",
-      "type": "writingTask",
-      "title": "Email to Support",
-      "prompt": "Write a short email (30-50 words) to bank support. Say that you scanned your document but you are still waiting for approval. Use the past simple.",
-      "modelAnswer": "Subject: Account Approval. Hello, I downloaded the app yesterday and I scanned my passport. I also took a selfie. However, my account is not active yet. Can you help me? Thank you.",
-      "keywords": ["scanned", "downloaded", "waiting", "approval"]
+      "id": "adm-a2-w01-ex65",
+      "type": "multiple-choice",
+      "prompt": "If a transaction is 'pending', it means:",
+      "options": [
+        "It is finished",
+        "It is waiting to be processed",
+        "It was cancelled",
+        "It was a mistake"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pending transactions are authorized but not yet fully settled."
+    },
+    {
+      "id": "adm-a2-w01-ex66",
+      "type": "fill-blank",
+      "prompt": "The support team ________ (answer) all my questions.",
+      "answer": "answered",
+      "explanation": "The past simple of 'answer' is 'answered'."
+    },
+    {
+      "id": "adm-a2-w01-ex67",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'biometric' login method?",
+      "options": [
+        "Password",
+        "PIN code",
+        "Fingerprint scan",
+        "Pattern lock"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fingerprint scanning is a common biometric security feature."
+    },
+    {
+      "id": "adm-a2-w01-ex68",
+      "type": "fill-blank",
+      "prompt": "We ________ (check) the e-statements every month.",
+      "answer": "checked",
+      "explanation": "The past simple of 'check' is 'checked'."
+    },
+    {
+      "id": "adm-a2-w01-ex69",
+      "type": "multiple-choice",
+      "prompt": "What does 'ATM' stand for?",
+      "options": [
+        "Automated Teller Machine",
+        "All Time Money",
+        "Account Transfer Method",
+        "Advanced Transaction Mode"
+      ],
+      "answerIndex": 0,
+      "explanation": "ATM is the machine used to withdraw cash."
+    },
+    {
+      "id": "adm-a2-w01-ex70",
+      "type": "fill-blank",
+      "prompt": "The app ________ (notify) him about the deposit.",
+      "answer": "notified",
+      "explanation": "The past simple of 'notify' is 'notified'."
+    },
+    {
+      "id": "adm-a2-w01-ex71",
+      "type": "reading",
+      "title": "Security Alerts",
+      "text": "Yesterday, Maria **received** a push notification on her phone. It **asked**: 'Did you spend $500 in London?' Maria **worried** because she was at home in Madrid. She **logged in** to her app and **checked** her recent activity. She **realized** someone **stole** her card details. She **pressed** the 'Freeze Card' button immediately. Then, she **called** the bank support. They **blocked** the card permanently and **ordered** a new one.",
+      "questions": [
+        {
+          "question": "Where was Maria when she got the notification?",
+          "options": ["London", "Madrid", "At the bank", "In a shop"],
+          "answerIndex": 1,
+          "explanation": "The text says she was at home in Madrid."
+        },
+        {
+          "question": "What was the first thing Maria did in the app?",
+          "options": ["She called support", "She froze her card", "She logged in and checked activity", "She ordered a new card"],
+          "answerIndex": 2,
+          "explanation": "She logged in and checked her recent activity first."
+        },
+        {
+          "question": "How did she stop the card from being used?",
+          "options": ["She went to London", "She changed her password", "She pressed 'Freeze Card'", "She deleted the app"],
+          "answerIndex": 2,
+          "explanation": "She pressed the 'Freeze Card' button."
+        }
+      ]
+    },
+    {
+      "id": "adm-a2-w01-ex72",
+      "type": "listening",
+      "title": "Travel Notification",
+      "transcript": "Agent: Good morning, you've reached Global Bank support.\nCustomer: Hello, I'm traveling to Japan tomorrow. Do I need to tell you?\nAgent: Yes, it's better. We marked your account for international travel.\nCustomer: Great. I also activated my virtual card. Will it work there?\nAgent: Yes, you can use it for contactless payments everywhere in Japan.\nCustomer: Excellent. I checked my limits too, they are fine. Thanks!",
+      "questions": [
+        {
+          "question": "Where is the customer going?",
+          "options": ["China", "Japan", "The USA", "London"],
+          "answerIndex": 1,
+          "explanation": "The customer says they are traveling to Japan."
+        },
+        {
+          "question": "What did the customer already activate?",
+          "options": ["A physical card", "A virtual card", "A new account", "A savings goal"],
+          "answerIndex": 1,
+          "explanation": "The customer says 'I also activated my virtual card'."
+        },
+        {
+          "question": "What else did the customer check?",
+          "options": ["The exchange rate", "The flight time", "The account limits", "The weather"],
+          "answerIndex": 2,
+          "explanation": "The customer says 'I checked my limits too'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a2-w01-ex73",
+      "type": "fill-blank",
+      "prompt": "Last week, I ________ (update) my proof of address.",
+      "answer": "updated",
+      "explanation": "The past simple of 'update' is 'updated'."
+    },
+    {
+      "id": "adm-a2-w01-ex74",
+      "type": "multiple-choice",
+      "prompt": "A 'contactless' payment uses:",
+      "options": [
+        "A physical signature",
+        "NFC technology to pay by tapping",
+        "A paper check",
+        "Only cash"
+      ],
+      "answerIndex": 1,
+      "explanation": "Contactless payments allow you to tap your card or phone on a reader."
+    },
+    {
+      "id": "adm-a2-w01-ex75",
+      "type": "writing",
+      "title": "Email to a Colleague",
+      "prompt": "Write a short email (30-50 words) to a colleague. Explain that you transferred the funds for the project yesterday and you received the confirmation. Use the past simple.",
+      "modelAnswer": "Subject: Project Funds. Hi Sarah, I transferred the project funds yesterday afternoon. I received the confirmation notification from the bank app. Everything is ready for the meeting. Best regards.",
+      "keywords": ["transferred", "received", "yesterday", "confirmation"]
     }
   ]
 }

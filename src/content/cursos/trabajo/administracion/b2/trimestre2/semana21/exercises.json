@@ -124,6 +124,486 @@
       "options": ["Should", "Were", "Had", "If"],
       "answerIndex": 0,
       "explanation": "Inverted Type 1: Should + subject + passive infinitive (be missed)."
+    },
+    {
+      "id": "adm-b2-w21-16",
+      "type": "multipleChoice",
+      "prompt": "________ I to accept the promotion, I would have to relocate to the Dublin office.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive (hypothetical future)."
+    },
+    {
+      "id": "adm-b2-w21-17",
+      "type": "multipleChoice",
+      "prompt": "________ the backup failed, we would have lost years of financial records.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3: Had + subject + past participle."
+    },
+    {
+      "id": "adm-b2-w21-18",
+      "type": "fillBlanks",
+      "prompt": "Rewrite using inversion: If you encounter any bugs, report them to IT. -> [Should you encounter] any bugs, report them to IT.",
+      "text": "[Should you encounter] any bugs, report them to IT.",
+      "answers": ["Should you encounter"],
+      "explanation": "Inverted Type 1."
+    },
+    {
+      "id": "adm-b2-w21-19",
+      "type": "multipleChoice",
+      "prompt": "________ it not for the data breach, the company's reputation would be intact.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were it not for (formal 'if it weren't for')."
+    },
+    {
+      "id": "adm-b2-w21-20",
+      "type": "multipleChoice",
+      "prompt": "________ we to implement MFA, our systems would be much more secure.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w21-21",
+      "type": "multipleChoice",
+      "prompt": "________ the patch been applied earlier, the virus would not have spread.",
+      "options": ["Should", "Were", "Had", "Was"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3: Had + subject + past participle."
+    },
+    {
+      "id": "adm-b2-w21-22",
+      "type": "fillBlanks",
+      "prompt": "Rewrite using inversion: If the system were faster, we would be more efficient. -> [Were the system] faster, we would be more efficient.",
+      "text": "[Were the system] faster, we would be more efficient.",
+      "answers": ["Were the system"],
+      "explanation": "Inverted Type 2."
+    },
+    {
+      "id": "adm-b2-w21-23",
+      "type": "multipleChoice",
+      "prompt": "________ you require a password reset, please visit the helpdesk.",
+      "options": ["Should", "Had", "Were", "Would"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1 (Formal request/possibility)."
+    },
+    {
+      "id": "adm-b2-w21-24",
+      "type": "multipleChoice",
+      "prompt": "________ the CEO to call for an emergency meeting, would you be ready?",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w21-25",
+      "type": "multipleChoice",
+      "prompt": "________ we not migrated to the cloud, we wouldn't have been able to work remotely.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3 negative: Had we not + past participle."
+    },
+    {
+      "id": "adm-b2-w21-26",
+      "type": "fillBlanks",
+      "prompt": "Rewrite using inversion: If it had not been for the ERP system, we would be in chaos. -> [Had it not been] for the ERP system, we would be in chaos.",
+      "text": "[Had it not been] for the ERP system, we would be in chaos.",
+      "answers": ["Had it not been"],
+      "explanation": "Inverted Type 3 negative."
+    },
+    {
+      "id": "adm-b2-w21-27",
+      "type": "multipleChoice",
+      "prompt": "________ there be any discrepancies in the data, please notify the controller.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1 with 'there'."
+    },
+    {
+      "id": "adm-b2-w21-28",
+      "type": "multipleChoice",
+      "prompt": "________ the software more user-friendly, fewer employees would complain.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2."
+    },
+    {
+      "id": "adm-b2-w21-29",
+      "type": "multipleChoice",
+      "prompt": "________ we anticipated the high traffic, we would have upgraded our servers.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 3."
+    },
+    {
+      "id": "adm-b2-w21-30",
+      "type": "multipleChoice",
+      "prompt": "________ you need to access the server room, you must wear your ID badge.",
+      "options": ["Should", "Were", "Had", "If you"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1."
+    },
+    {
+      "id": "adm-b2-w21-31",
+      "type": "multipleChoice",
+      "prompt": "A ________ is an attempt to trick you into revealing your password by sending a fake email.",
+      "options": ["phishing attack", "data silo", "cloud migration", "MFA"],
+      "answerIndex": 0,
+      "explanation": "Phishing is a fraudulent attempt to obtain sensitive information."
+    },
+    {
+      "id": "adm-b2-w21-32",
+      "type": "multipleChoice",
+      "prompt": "________ the company to ignore the GDPR regulations, it could face massive fines.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w21-33",
+      "type": "multipleChoice",
+      "prompt": "To improve security, the IT department has mandated ________ for all staff logins.",
+      "options": ["MFA", "Legacy", "SaaS", "ERP"],
+      "answerIndex": 0,
+      "explanation": "Multi-Factor Authentication (MFA) adds an extra layer of security."
+    },
+    {
+      "id": "adm-b2-w21-34",
+      "type": "multipleChoice",
+      "prompt": "The recent ________ exposed the personal data of over 5,000 clients.",
+      "options": ["data breach", "digital maturity", "upskilling", "scalability"],
+      "answerIndex": 0,
+      "explanation": "A data breach is a security incident where sensitive data is stolen or viewed."
+    },
+    {
+      "id": "adm-b2-w21-35",
+      "type": "multipleChoice",
+      "prompt": "________ we failed to update our antivirus software, we would have been vulnerable to the Ransomware.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3."
+    },
+    {
+      "id": "adm-b2-w21-36",
+      "type": "multipleChoice",
+      "prompt": "The ________ determines the purposes and means of processing personal data according to GDPR.",
+      "options": ["Data Controller", "Data Processor", "Data Subject", "Data Silo"],
+      "answerIndex": 0,
+      "explanation": "The Data Controller is the entity that decides how and why data is processed."
+    },
+    {
+      "id": "adm-b2-w21-37",
+      "type": "multipleChoice",
+      "prompt": "________ any employee notice suspicious activity on their screen, they must disconnect immediately.",
+      "options": ["Should", "Were", "Had", "Was"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1."
+    },
+    {
+      "id": "adm-b2-w21-38",
+      "type": "multipleChoice",
+      "prompt": "Under GDPR, individuals have the 'right to be ________', meaning they can ask for their data to be deleted.",
+      "options": ["forgotten", "remembered", "processed", "controlled"],
+      "answerIndex": 0,
+      "explanation": "The Right to be Forgotten allows individuals to request data erasure."
+    },
+    {
+      "id": "adm-b2-w21-39",
+      "type": "multipleChoice",
+      "prompt": "________ the IT budget to be cut, we would have to postpone our endpoint security project.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2."
+    },
+    {
+      "id": "adm-b2-w21-40",
+      "type": "multipleChoice",
+      "prompt": "Before processing data, we must obtain clear and unambiguous ________ from the subject.",
+      "options": ["consent", "maturity", "migration", "silo"],
+      "answerIndex": 0,
+      "explanation": "Consent is a clear affirmative act indicating agreement to data processing."
+    },
+    {
+      "id": "adm-b2-w21-41",
+      "type": "multipleChoice",
+      "prompt": "________ the server to overheat, the automatic shutdown system will trigger.",
+      "options": ["Should", "Were", "Had", "Was"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w21-42",
+      "type": "multipleChoice",
+      "prompt": "Endpoint security focuses on protecting devices like laptops and ________ from malware.",
+      "options": ["mobile devices", "legacy systems", "data silos", "ERP"],
+      "answerIndex": 0,
+      "explanation": "Endpoint security secures entry points like desktops and mobile devices."
+    },
+    {
+      "id": "adm-b2-w21-43",
+      "type": "multipleChoice",
+      "prompt": "________ we known the vendor was not GDPR compliant, we would never have signed the contract.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 3."
+    },
+    {
+      "id": "adm-b2-w21-44",
+      "type": "multipleChoice",
+      "prompt": "The ________ processes personal data strictly on behalf of the controller.",
+      "options": ["Data Processor", "Data Controller", "Data Subject", "Data Silo"],
+      "answerIndex": 0,
+      "explanation": "The Data Processor works on behalf of the controller."
+    },
+    {
+      "id": "adm-b2-w21-45",
+      "type": "multipleChoice",
+      "prompt": "________ the firewall be breached, the system will alert the security team.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1."
+    },
+    {
+      "id": "adm-b2-w21-46",
+      "type": "multipleChoice",
+      "prompt": "________ focuses on the people side of change to ensure new technologies are adopted.",
+      "options": ["Change Management", "Data Processing", "Legacy Support", "Cloud Migration"],
+      "answerIndex": 0,
+      "explanation": "Change Management is the process of managing the people side of organizational change."
+    },
+    {
+      "id": "adm-b2-w21-47",
+      "type": "multipleChoice",
+      "prompt": "________ the board to approve the digital strategy, we would begin upskilling immediately.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w21-48",
+      "type": "multipleChoice",
+      "prompt": "The company is investing in ________ to ensure employees can use the new data analytics tools.",
+      "options": ["upskilling", "greenwashing", "outsourcing", "downsizing"],
+      "answerIndex": 0,
+      "explanation": "Upskilling is the process of teaching workers new skills."
+    },
+    {
+      "id": "adm-b2-w21-49",
+      "type": "multipleChoice",
+      "prompt": "________ we embrace an agile methodology, we would be able to respond to market changes faster.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2 (Hypothetical)."
+    },
+    {
+      "id": "adm-b2-w21-50",
+      "type": "multipleChoice",
+      "prompt": "A ________ culture is one where decisions are made based on hard evidence rather than intuition.",
+      "options": ["data-driven", "legacy-based", "siloed", "manual"],
+      "answerIndex": 0,
+      "explanation": "Data-driven decision making relies on actual data."
+    },
+    {
+      "id": "adm-b2-w21-51",
+      "type": "multipleChoice",
+      "prompt": "________ the staff resisted the change, the digital transformation project would have failed.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3."
+    },
+    {
+      "id": "adm-b2-w21-52",
+      "type": "multipleChoice",
+      "prompt": "________ is a project management style that involves constant collaboration and small, iterative stages.",
+      "options": ["Agile", "Waterfall", "Legacy", "Silo"],
+      "answerIndex": 0,
+      "explanation": "Agile methodology breaks projects down into stages with constant collaboration."
+    },
+    {
+      "id": "adm-b2-w21-53",
+      "type": "multipleChoice",
+      "prompt": "________ you wish to participate in the pilot program for the new ERP, please contact HR.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1 (Formal)."
+    },
+    {
+      "id": "adm-b2-w21-54",
+      "type": "multipleChoice",
+      "prompt": "The primary goal of digital transformation is to fundamentally change how you ________.",
+      "options": ["operate", "stagnate", "ignore customers", "maintain silos"],
+      "answerIndex": 0,
+      "explanation": "Digital transformation changes how an organization operates and delivers value."
+    },
+    {
+      "id": "adm-b2-w21-55",
+      "type": "multipleChoice",
+      "prompt": "________ we to fail in our digital transition, our competitors would surely overtake us.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2."
+    },
+    {
+      "id": "adm-b2-w21-56",
+      "type": "multipleChoice",
+      "prompt": "Breaking down ________ is essential for a unified view of the customer across the company.",
+      "options": ["data silos", "security firewalls", "cloud servers", "agile teams"],
+      "answerIndex": 0,
+      "explanation": "Data silos prevent data from being shared across the organization."
+    },
+    {
+      "id": "adm-b2-w21-57",
+      "type": "multipleChoice",
+      "prompt": "________ the training been mandatory, everyone would have known how to use the CRM.",
+      "options": ["Should", "Were", "Had", "Was"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3."
+    },
+    {
+      "id": "adm-b2-w21-58",
+      "type": "multipleChoice",
+      "prompt": "A ________ measure of digital maturity helps a company understand its readiness for change.",
+      "options": ["digital maturity", "legacy system", "data breach", "consent form"],
+      "answerIndex": 0,
+      "explanation": "Digital maturity measures an organization's ability to create value through digital means."
+    },
+    {
+      "id": "adm-b2-w21-59",
+      "type": "multipleChoice",
+      "prompt": "________ there be any delays in the migration, the IT manager will provide an update.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1."
+    },
+    {
+      "id": "adm-b2-w21-60",
+      "type": "multipleChoice",
+      "prompt": "Digital transformation requires both technology and a shift in ________.",
+      "options": ["culture", "physical space", "manual filing", "data silos"],
+      "answerIndex": 0,
+      "explanation": "Transformation requires shifting organizational culture."
+    },
+    {
+      "id": "adm-b2-w21-61",
+      "type": "multipleChoice",
+      "prompt": "Listening Review: According to the IT Director, when will the ERP migration begin if the budget is approved?",
+      "options": ["Immediately", "On Monday", "Next month", "In a year"],
+      "answerIndex": 1,
+      "explanation": "The director stated migration begins on Monday if approved."
+    },
+    {
+      "id": "adm-b2-w21-62",
+      "type": "multipleChoice",
+      "prompt": "Listening Review: What is the primary priority mentioned by the IT Director for the new system?",
+      "options": ["Buying new hardware", "Breaking down data silos", "Firing the sales team", "Ignoring the budget"],
+      "answerIndex": 1,
+      "explanation": "The priority is breaking down data silos to improve interoperability."
+    },
+    {
+      "id": "adm-b2-w21-63",
+      "type": "multipleChoice",
+      "prompt": "Reading Review: Why did Global Logistics Corp suffer from severe data silos?",
+      "options": ["Their systems couldn't communicate", "They had too many employees", "They were too modern", "They didn't have a CEO"],
+      "answerIndex": 0,
+      "explanation": "The legacy system and modern CRM could not flow information between them."
+    },
+    {
+      "id": "adm-b2-w21-64",
+      "type": "multipleChoice",
+      "prompt": "Reading Review: How much would Global Logistics Corp save annually if their systems could communicate?",
+      "options": ["$200k", "$2M", "$20M", "Nothing"],
+      "answerIndex": 1,
+      "explanation": "The text mentions a saving of $2M annually in lost productivity."
+    },
+    {
+      "id": "adm-b2-w21-65",
+      "type": "fillBlanks",
+      "prompt": "Complete the formal email: [Should you be available] this Thursday at 10 AM, we will be conducting a mandatory cybersecurity training session.",
+      "text": "[Should you be available] this Thursday at 10 AM, we will be conducting a mandatory cybersecurity training session.",
+      "answers": ["Should you be available"],
+      "explanation": "Formal Type 1 inversion for an email."
+    },
+    {
+      "id": "adm-b2-w21-66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Vocabulary Review. 'Interoperability' is the ability of systems to ________.",
+      "options": ["exchange data", "crash frequently", "be expensive", "stay siloed"],
+      "answerIndex": 0,
+      "explanation": "Interoperability allows systems to communicate and exchange data."
+    },
+    {
+      "id": "adm-b2-w21-67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Grammar Review. 'Had it not been for the firewall...' is equivalent to ________.",
+      "options": ["If it wasn't for the firewall", "If it hadn't been for the firewall", "Should the firewall be", "Were the firewall"],
+      "answerIndex": 1,
+      "explanation": "Type 3 inversion 'Had it not been for' replaces 'If it hadn't been for'."
+    },
+    {
+      "id": "adm-b2-w21-68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: GDPR. A 'Data Breach' must be reported to the authority within ________ hours if possible.",
+      "options": ["24", "48", "72", "96"],
+      "answerIndex": 2,
+      "explanation": "Under GDPR, breaches should be reported within 72 hours."
+    },
+    {
+      "id": "adm-b2-w21-69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Culture. Agile teams prioritize ________ over following a rigid plan.",
+      "options": ["collaboration", "manual filing", "isolation", "seniority"],
+      "answerIndex": 0,
+      "explanation": "Agile emphasizes collaboration and responding to change."
+    },
+    {
+      "id": "adm-b2-w21-70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: IT Terms. 'SaaS' stands for Software as a ________.",
+      "options": ["Service", "System", "Solution", "Security"],
+      "answerIndex": 0,
+      "explanation": "Software as a Service."
+    },
+    {
+      "id": "adm-b2-w21-71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Grammar. Invert this: 'If you see any suspicious emails, delete them.'",
+      "options": ["Should you see any suspicious emails...", "Had you seen any suspicious emails...", "Were you to see any suspicious emails...", "If you see any suspicious emails..."],
+      "answerIndex": 0,
+      "explanation": "Type 1 inversion with 'Should'."
+    },
+    {
+      "id": "adm-b2-w21-72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Privacy. 'Consent' must be freely given, specific, and ________.",
+      "options": ["informed", "vague", "implied", "ignored"],
+      "answerIndex": 0,
+      "explanation": "GDPR requires consent to be informed."
+    },
+    {
+      "id": "adm-b2-w21-73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Strategy. A 'Digital Maturity' assessment helps identify ________.",
+      "options": ["gaps in technology", "employee ages", "furniture needs", "office location"],
+      "answerIndex": 0,
+      "explanation": "It identifies where the organization needs to improve digital capabilities."
+    },
+    {
+      "id": "adm-b2-w21-74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Cybersecurity. MFA requires ________ methods of authentication.",
+      "options": ["zero", "one", "two or more", "at least ten"],
+      "answerIndex": 2,
+      "explanation": "MFA stands for Multi-Factor Authentication (multiple methods)."
+    },
+    {
+      "id": "adm-b2-w21-75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Grammar. 'Were the CEO to resign...' is a ________ conditional.",
+      "options": ["Type 1", "Type 2", "Type 3", "Zero"],
+      "answerIndex": 1,
+      "explanation": "Were + subject + to-infinitive is an inverted Type 2 conditional."
     }
   ]
 }

@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { PlayCircle, CheckCircle, Trophy, Users, Mic, FileText, ArrowLeft } from 'lucide-react'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 
 interface Project {
   id: string
@@ -136,24 +137,60 @@ const projects: Project[] = [
 
 export default function ProjectBasedLearning() {
   const router = useRouter()
+  const { fetchAllProgress, saveTaskProgress, saveProjectProgress, updateXP } = useMethodologyProgress()
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [activeProjects, setActiveProjects] = useState<Project[]>(projects)
+  const [isLoading, setIsLoading] = useState(true)
 
-  const toggleTaskCompletion = (projectId: string, taskId: string) => {
+  useEffect(() => {
+    async function loadProgress() {
+      const progress = await fetchAllProgress()
+      if (progress && progress.tasks) {
+        setActiveProjects(prev => prev.map(project => ({
+          ...project,
+          tasks: project.tasks.map(task => {
+            const savedTask = progress.tasks?.find(t => t.project_id === project.id && t.task_id === task.id)
+            return savedTask ? { ...task, completed: savedTask.completed } : task
+          })
+        })))
+      }
+      setIsLoading(false)
+    }
+    loadProgress()
+  }, [fetchAllProgress])
+
+  const toggleTaskCompletion = async (projectId: string, taskId: string) => {
+    let isNowCompleted = false
+    
     setActiveProjects(prev =>
-      prev.map(project =>
-        project.id === projectId
-          ? {
-              ...project,
-              tasks: project.tasks.map(task =>
-                task.id === taskId
-                  ? { ...task, completed: !task.completed }
-                  : task
-              )
+      prev.map(project => {
+        if (project.id === projectId) {
+          const updatedTasks = project.tasks.map(task => {
+            if (task.id === taskId) {
+              isNowCompleted = !task.completed
+              return { ...task, completed: isNowCompleted }
             }
-          : project
-      )
+            return task
+          })
+          return { ...project, tasks: updatedTasks }
+        }
+        return project
+      })
     )
+
+    // Persistir en Supabase
+    await saveTaskProgress(projectId, taskId, isNowCompleted)
+    if (isNowCompleted) {
+      await updateXP(25, 'pbl_task_completed', `${projectId}:${taskId}`)
+    }
+    
+    // Actualizar estado general del proyecto si es necesario
+    const project = activeProjects.find(p => p.id === projectId)
+    if (project) {
+      const completedCount = project.tasks.filter(t => t.id === taskId ? isNowCompleted : t.completed).length
+      const status = completedCount === project.tasks.length ? 'completed' : completedCount > 0 ? 'in_progress' : 'not_started'
+      await saveProjectProgress(projectId, status)
+    }
   }
 
   const calculateProgress = (project: Project) => {

@@ -1,35 +1,22 @@
 {
-  "title": "Smart Savings: Digital Vaults & Goals",
+  "title": "Semana 28: Adjuntar Archivos",
+  "description": "Aprende las frases necesarias para enviar documentos y archivos adjuntos en tus correos electrónicos.",
+  "objectives": [
+    "Usar frases para indicar que hay un archivo adjunto",
+    "Aprender nombres comunes de archivos (PDF, Spreadsheet, etc.)",
+    "Entender cómo referenciar documentos en el cuerpo del correo"
+  ],
   "sections": [
     {
-      "id": "digital-saving",
-      "title": "Saving in the App",
-      "content": "Modern apps make saving easy and automatic. \n\n- **Vaults / Pockets**: Special digital places to keep your money safe for the future.\n- **Round-ups**: The app rounds your spending to the nearest euro and saves the change. (Example: Pay €2.80, the app saves €0.20).\n- **Auto-save**: Sending money to your vault automatically every month.\n- **Interest**: Extra money the bank pays you for keeping your savings with them."
+      "id": "attachment-phrases",
+      "title": "Frases para Adjuntos (Attachments)",
+      "content": "Cuando envías un archivo, debes avisar al destinatario:\n\n- **Please find attached...**: Por favor, encuentre adjunto...\n- **I am attaching...**: Estoy adjuntando...\n- **I have attached the file**: He adjuntado el archivo.\n- **Here is the [document] you requested**: Aquí está el [documento] que solicitó."
     },
     {
-      "id": "roundup-diagram",
-      "title": "How Round-ups Work",
-      "content": "```mermaid\ngraph LR\n    A[Buy Coffee: €2.40] --> B[App rounds to €3.00]\n    B --> C[€0.60 goes to Vault]\n    C --> D[Total Savings Grow!]\n```"
-    },
-    {
-      "id": "grammar-can",
-      "title": "Grammar: 'Can' and 'Can't' for Savings",
-      "content": "Use **Can** to talk about possibilities and **Can't** for limits.\n\n- **Possibility**: *I **can** save €50 this month if I use round-ups.*\n- **Ability**: *You **can** see your progress on the app dashboard.*\n- **Limit**: *We **can't** spend the money in the vault; it is for the future.*\n\n**Questions:**\n- *Can I reach my goal?* Yes, you can!\n- *Can the app save money automatically?* Yes, it can."
-    },
-    {
-      "id": "saving-goals",
-      "title": "Setting Financial Goals",
-      "content": "A **Goal** is something you want to buy later.\n\n- **Short-term Goal**: Buying a new video game or shoes next month.\n- **Long-term Goal**: Saving for a car or a big trip in one year.\n- **Progress Bar**: A visual line that shows how close you are to your goal."
+      "id": "file-types",
+      "title": "Tipos de Archivos Comunes",
+      "content": "Vocabulario de oficina para documentos digitales:\n\n- **Document**: Documento general.\n- **PDF**: Archivo PDF.\n- **Spreadsheet**: Hoja de cálculo (Excel).\n- **Presentation**: Presentación (PowerPoint).\n- **Folder**: Carpeta."
     }
   ],
-  "objectives": [
-    "Identify automated saving features like round-ups",
-    "Use 'can' and 'can't' to discuss savings and spending rules",
-    "Understand the difference between short-term and long-term goals"
-  ],
-  "keyTerms": [
-    { "term": "Vault", "definition": "A secure digital space for savings." },
-    { "term": "Round-up", "definition": "Saving the small change from transactions." },
-    { "term": "Progress", "definition": "Movement toward a goal." }
-  ]
+  "audioUrl": ""
 }

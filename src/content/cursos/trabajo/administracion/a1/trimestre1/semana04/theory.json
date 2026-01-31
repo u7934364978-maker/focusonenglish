@@ -1,34 +1,24 @@
 {
-  "title": "Greetings and Politeness in the Modern Office",
+  "title": "Semana 4: Adjetivos Posesivos y Mi Rutina Laboral",
+  "description": "Aprende a hablar de tus pertenencias y de tus tareas diarias básicas en el trabajo.",
+  "objectives": [
+    "Usar adjetivos posesivos (my, your, his, her, etc.)",
+    "Describir acciones simples del día a día con el Present Simple",
+    "Hablar de la propiedad de objetos de oficina"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Greetings and Farewells",
-      "content": "How to say hello and goodbye to colleagues and clients.\n\n- **Hello / Hi**: Hola\n- **Good morning**: Buenos días\n- **Good afternoon**: Buenas tardes\n- **Good evening**: Buenas noches (greeting)\n- **Goodbye / Bye**: Adiós\n- **See you later**: Hasta luego\n- **Have a nice day**: Tenga un buen día"
+      "title": "Adjetivos Posesivos",
+      "content": "Usamos estos adjetivos para indicar a quién pertenece algo:\n\n- **My** computer (Mi ordenador)\n- **Your** office (Tu oficina)\n- **His** desk (Su escritorio - de él)\n- **Her** chair (Su silla - de ella)\n- **Our** company (Nuestra empresa)\n- **Their** department (Su departamento - de ellos)"
     },
     {
-      "id": "courtesy",
-      "title": "Courtesy Expressions",
-      "content": "Professional 'magic words'.\n\n- **Please**: Por favor\n- **Thank you / Thanks**: Gracias\n- **You're welcome**: De nada\n- **Excuse me**: Disculpe / Con permiso\n- **I'm sorry**: Lo siento / Perdón"
+      "title": "Present Simple: Conceptos Básicos",
+      "content": "Para hablar de rutinas o verdades permanentes, usamos el **Present Simple**.\n\n- **I work** in London. (Trabajo en Londres)\n- **I start** at 9:00 AM. (Empiezo a las 9:00)\n- **I use** a computer. (Uso un ordenador)\n- **I have** a meeting. (Tengo una reunión)"
     },
     {
-      "id": "modern-office",
-      "title": "Modern Tools: AI Assistant",
-      "content": "In the modern office, we talk to **AI Assistants** too.\n\n- **AI Assistant**: Asistente de IA (e.g., ChatGPT, Copilot)\n- **Voice command**: Comando de voz\n- **Helpful**: Servicial\n- **Chat**: Chatear / Conversar\n\n### Interaction Example\n```mermaid\ngraph LR\n    A[Banker] --> B{AI Assistant}\n    B --> C[Email Help]\n    B --> D[Data Info]\n```"
-    },
-    {
-      "id": "grammar",
-      "title": "Grammar: Verbo 'To Be' in Context",
-      "content": "Using 'to be' for introductions.\n\n- **Hello, I am** Mark. **Is the AI** helpful?\n- **Yes, it is**. **Are you** new here?\n- **No, I am not**. **It is** my second month."
+      "title": "Objetos de Oficina Comunes",
+      "content": "Identifica tus herramientas de trabajo:\n\n- **Laptop**: Ordenador portátil\n- **Desk**: Escritorio\n- **Phone**: Teléfono\n- **Keyboard**: Teclado\n- **Mouse**: Ratón"
     }
   ],
-  "objectives": [
-    "Use appropriate greetings for the time of day",
-    "Show basic courtesy in office interactions",
-    "Understand the role of AI assistants in a modern office"
-  ],
-  "keyTerms": [
-    { "term": "AI Assistant", "definition": "A computer program that helps you with tasks." },
-    { "term": "Polite", "definition": "Respectful and professional behavior." }
-  ]
+  "audioUrl": ""
 }

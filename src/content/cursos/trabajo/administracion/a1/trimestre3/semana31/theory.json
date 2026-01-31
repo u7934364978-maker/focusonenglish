@@ -1,35 +1,35 @@
 {
-  "title": "Financial Health: Advice & Interest",
+  "title": "Action Verbs and Simple Instructions",
   "sections": [
     {
-      "id": "interest-growth",
-      "title": "How Savings Grow",
-      "content": "When you save, the bank rewards you with extra money called **Interest**.\n\n- **Interest Rate (APY)**: The percentage of money you earn per year.\n- **High-Yield Savings**: Special accounts with a higher interest rate (e.g., 4% instead of 0.1%).\n- **Compound Interest**: When your interest earns more interest. Your money grows faster!\n- **Growth**: The increase in your total balance over time."
+      "id": "email-actions",
+      "title": "Email Management",
+      "content": "Managing your inbox efficiently requires knowing the basic actions you can perform on an email.\n\n- **Reply**: Send a response to the sender.\n- **Forward**: Send a received email to another person.\n- **Archive**: Save an email in a folder for future reference.\n- **CC (Carbon Copy)**: Send a copy of the email to other people."
     },
     {
-      "id": "interest-graph",
-      "title": "Interest Growth Comparison",
-      "content": "```mermaid\ngraph LR\n    A[Start: €100] --> B(Basic Account: 0.1%)\n    A --> C(High-Yield: 4.0%)\n    B --> D[Slow Growth]\n    C --> E[Fast Growth]\n    E --> F[Higher Balance!]\n```"
+      "id": "instruction-verbs",
+      "title": "Common Action Verbs",
+      "content": "- **Send**: Enviar.\n- **Print**: Imprimir.\n- **Delete**: Eliminar / Borrar.\n- **Save**: Guardar.\n- **Attach**: Adjuntar.\n- **Check**: Revisar / Comprobar."
     },
     {
-      "id": "grammar-advice",
-      "title": "Grammar: Advice with 'Should' & 'Shouldn't'",
-      "content": "Use **Should** for good advice and **Shouldn't** for bad habits.\n\n- **Good Advice**:\n  - *You **should** have an emergency fund.*\n  - *You **should** check interest rates every year.*\n- **Bad Habits**:\n  - *You **shouldn't** leave all your money in a 0% account.*\n  - *You **shouldn't** spend your interest immediately.*\n\n**Question Form**:\n- *Should I open a high-yield account?* Yes, you should!"
+      "id": "grammar-imperative",
+      "title": "Grammar: The Imperative",
+      "content": "We use the imperative to give direct instructions or orders. It is very common in technical or administrative emails.\n\n- **Affirmative**: Use the base form of the verb.\n  - *Send the email.* (Envía el correo.)\n  - *Print the document.* (Imprime el documento.)\n- **Negative**: Use 'Don't' + base form.\n  - *Don't delete that file.* (No borres ese archivo.)\n  - *Don't reply yet.* (No respondas todavía.)"
     },
     {
-      "id": "financial-habits",
-      "title": "Smart Financial Habits",
-      "content": "- **Automate**: Let the app save for you.\n- **Compare**: Look for the best interest rates online.\n- **Reinvest**: Keep your interest in the account to grow more."
+      "id": "polite-instructions",
+      "title": "Making Instructions Polite",
+      "content": "In a professional setting, we often add 'Please' to make instructions sound more polite.\n\n- **Please attach the file.** (Por favor, adjunta el archivo.)\n- **Please don't forward this email.** (Por favor, no reenvíes este correo.)"
     }
   ],
   "objectives": [
-    "Differentiate between basic and high-yield interest rates",
-    "Use 'should' and 'shouldn't' to give and receive financial advice",
-    "Understand the concept of financial growth and compounding"
+    "Identify and use common action verbs for email management",
+    "Give simple instructions using the imperative form",
+    "Use 'Please' to soften direct instructions in a work environment"
   ],
   "keyTerms": [
-    { "term": "APY", "definition": "Annual Percentage Yield (your yearly interest)." },
-    { "term": "Compound", "definition": "To add interest to the total and earn more later." },
-    { "term": "Yield", "definition": "The amount of money you earn from an investment/account." }
+    { "term": "Reply", "definition": "To answer a message or email." },
+    { "term": "Forward", "definition": "To send a message you received to a new recipient." },
+    { "term": "Attach", "definition": "To add a file (like a PDF or image) to an email." }
   ]
 }

@@ -1,50 +1,265 @@
 {
-  "title": "Examen: Compras y Precios",
+  "title": "Examen Semana 9: Comunicación Básica",
   "questions": [
     {
-      "id": "q1",
-      "question": "How ______ is the total?",
-      "options": ["many", "much", "cost", "is"],
-      "correctAnswer": 1,
-      "explanation": "Preguntamos el precio total con 'How much'."
-    },
-    {
-      "id": "q2",
-      "question": "If a phone costs $1,500, it is ______.",
-      "options": ["cheap", "expensive", "free", "small"],
-      "correctAnswer": 1,
-      "explanation": "$1,500 es un precio alto, por lo tanto es caro (expensive)."
-    },
-    {
-      "id": "q3",
-      "question": "What is a 'Receipt'?",
+      "id": "adm-a1-w09-q01",
+      "type": "multiple-choice",
+      "question": "How do you say 'admin.assistant@office.com'?",
       "options": [
-        "A type of bank account",
-        "A person who works at a store",
-        "A document that proves you paid",
-        "A discount coupon"
+        "admin dot assistant at office dot com",
+        "admin at assistant dot office at com",
+        "admin point assistant at office point com",
+        "admin period assistant at office period com"
       ],
-      "correctAnswer": 2,
-      "explanation": "Un recibo es el documento que prueba que has pagado."
+      "answerIndex": 0,
+      "explanation": "Usamos 'dot' para los puntos y 'at' para la arroba."
     },
     {
-      "id": "q4",
-      "question": "Which sentence is correct?",
+      "id": "adm-a1-w09-q02",
+      "type": "multiple-choice",
+      "question": "Which verb do we use when we want to say the letters of a word one by one?",
       "options": [
-        "How much dollars do you have?",
-        "How many money do you have?",
-        "How many dollars do you have?",
-        "How much card do you have?"
+        "Say",
+        "Tell",
+        "Spell",
+        "Write"
       ],
-      "correctAnswer": 2,
-      "explanation": "Los dólares se cuentan (How many dollars)."
+      "answerIndex": 2,
+      "explanation": "'Spell' is the action of saying the letters of a word one by one."
     },
     {
-      "id": "q5",
-      "question": "What is the opposite of 'To buy'?",
-      "options": ["To cost", "To sell", "To pay", "To count"],
-      "correctAnswer": 1,
-      "explanation": "Vender (sell) es lo opuesto a comprar (buy)."
+      "id": "adm-a1-w09-q03",
+      "type": "multiple-choice",
+      "question": "In phone numbers, how is the number '0' often pronounced?",
+      "options": [
+        "Empty",
+        "Oh",
+        "Null",
+        "None"
+      ],
+      "answerIndex": 1,
+      "explanation": "In phone numbers, '0' is often pronounced like the letter 'O' (oh)."
+    },
+    {
+      "id": "adm-a1-w09-q04",
+      "type": "multiple-choice",
+      "question": "What word do we use for two repeated digits in a phone number (e.g., 88)?",
+      "options": [
+        "Pair",
+        "Twice",
+        "Two times",
+        "Double"
+      ],
+      "answerIndex": 3,
+      "explanation": "We use 'double' for repeated digits in phone numbers."
+    },
+    {
+      "id": "adm-a1-w09-q05",
+      "type": "multiple-choice",
+      "question": "How do you say the symbol '_' in an email address?",
+      "options": [
+        "Hyphen",
+        "Dash",
+        "Underscore",
+        "Line"
+      ],
+      "answerIndex": 2,
+      "explanation": "The symbol '_' is called an 'underscore'."
+    },
+    {
+      "id": "adm-a1-w09-q06",
+      "type": "multiple-choice",
+      "question": "How do you say the symbol '-' in an email address?",
+      "options": [
+        "Hyphen or dash",
+        "Underscore",
+        "Dot",
+        "Minus"
+      ],
+      "answerIndex": 0,
+      "explanation": "The symbol '-' is called a 'hyphen' or a 'dash'."
+    },
+    {
+      "id": "adm-a1-w09-q07",
+      "type": "multiple-choice",
+      "question": "Which of these is the correct pronunciation of the letter 'A'?",
+      "options": [
+        "/i:/",
+        "/ai/",
+        "/ei/",
+        "/ah/"
+      ],
+      "answerIndex": 2,
+      "explanation": "The letter 'A' is pronounced /ei/."
+    },
+    {
+      "id": "adm-a1-w09-q08",
+      "type": "multiple-choice",
+      "question": "Which of these is the correct pronunciation of the letter 'E'?",
+      "options": [
+        "/i:/",
+        "/ai/",
+        "/ei/",
+        "/eh/"
+      ],
+      "answerIndex": 0,
+      "explanation": "The letter 'E' is pronounced /i:/."
+    },
+    {
+      "id": "adm-a1-w09-q09",
+      "type": "multiple-choice",
+      "question": "Which of these is the correct pronunciation of the letter 'I'?",
+      "options": [
+        "/i:/",
+        "/ai/",
+        "/ei/",
+        "/ih/"
+      ],
+      "answerIndex": 1,
+      "explanation": "The letter 'I' is pronounced /ai/."
+    },
+    {
+      "id": "adm-a1-w09-q10",
+      "type": "multiple-choice",
+      "question": "How do you pronounce 'G' and 'J' correctly?",
+      "options": [
+        "G is /dʒi:/, J is /dʒei/",
+        "G is /dʒei/, J is /dʒi:/",
+        "G is /gi:/, J is /jei/",
+        "G is /jei/, J is /gi:/"
+      ],
+      "answerIndex": 0,
+      "explanation": "'G' sounds like 'gee' and 'J' sounds like 'jay'."
+    },
+    {
+      "id": "adm-a1-w09-q11",
+      "type": "multiple-choice",
+      "question": "How do you ask someone for their phone number?",
+      "options": [
+        "How is your phone number?",
+        "What is your phone number?",
+        "Who is your phone number?",
+        "Where is your phone number?"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'What' to ask for contact information."
+    },
+    {
+      "id": "adm-a1-w09-q12",
+      "type": "multiple-choice",
+      "question": "If someone asks 'Can you spell your surname?', what do they want?",
+      "options": [
+        "They want to know your first name.",
+        "They want you to write your name.",
+        "They want you to say the letters of your last name.",
+        "They want your phone number."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Surname' means last name and 'spell' means say the letters."
+    },
+    {
+      "id": "adm-a1-w09-q13",
+      "type": "multiple-choice",
+      "question": "What is the correct way to say '555-0199'?",
+      "options": [
+        "Five five five zero one nine nine",
+        "Triple five, zero, one, double nine",
+        "Fifty-five five, zero one, ninety-nine",
+        "Five hundred fifty-five, zero, one hundred ninety-nine"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'triple' for three digits and 'double' for two, or say them individually."
+    },
+    {
+      "id": "adm-a1-w09-q14",
+      "type": "multiple-choice",
+      "question": "Choose the correct spelling of the letter 'W':",
+      "options": [
+        "Double-u",
+        "Double-v",
+        "Vee-vee",
+        "Way"
+      ],
+      "answerIndex": 0,
+      "explanation": "The letter 'W' is pronounced 'double-u'."
+    },
+    {
+      "id": "adm-a1-w09-q15",
+      "type": "multiple-choice",
+      "question": "In the email 'info@company.co.uk', what does 'co.uk' stand for?",
+      "options": [
+        "Company United Kingdom",
+        "Contact United Kingdom",
+        "Country United Kingdom",
+        "Corporation United Kingdom"
+      ],
+      "answerIndex": 0,
+      "explanation": "'.co.uk' is a common domain for companies in the UK."
+    },
+    {
+      "id": "adm-a1-w09-q16",
+      "type": "multiple-choice",
+      "question": "How do you say the letters 'H' and 'K'?",
+      "options": [
+        "H is /eitʃ/, K is /kei/",
+        "H is /hai/, K is /kai/",
+        "H is /etʃ/, K is /ki:/",
+        "H is /aitʃ/, K is /kei/"
+      ],
+      "answerIndex": 0,
+      "explanation": "'H' is /eitʃ/ and 'K' is /kei/."
+    },
+    {
+      "id": "adm-a1-w09-q17",
+      "type": "multiple-choice",
+      "question": "Which question is correct to ask for an email address?",
+      "options": [
+        "What's your email?",
+        "Which is your email?",
+        "How is your email?",
+        "Where is your email?"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'What's your email?' or 'What is your email address?'"
+    },
+    {
+      "id": "adm-a1-w09-q18",
+      "type": "multiple-choice",
+      "question": "How do you say 'sales-dept@web.com'?",
+      "options": [
+        "sales underscore dept at web dot com",
+        "sales hyphen dept at web dot com",
+        "sales dot dept at web dot com",
+        "sales at dept web dot com"
+      ],
+      "answerIndex": 1,
+      "explanation": "The '-' symbol is a hyphen."
+    },
+    {
+      "id": "adm-a1-w09-q19",
+      "type": "multiple-choice",
+      "question": "What is the letter 'Y' in English?",
+      "options": [
+        "/wai/",
+        "/yei/",
+        "/ai/",
+        "/wai-ee/"
+      ],
+      "answerIndex": 0,
+      "explanation": "The letter 'Y' is pronounced /wai/."
+    },
+    {
+      "id": "adm-a1-w09-q20",
+      "type": "multiple-choice",
+      "question": "Which of these is the letter 'X'?",
+      "options": [
+        "/eks/",
+        "/es/",
+        "/ekis/",
+        "/z/"
+      ],
+      "answerIndex": 0,
+      "explanation": "The letter 'X' is pronounced /eks/."
     }
   ]
 }

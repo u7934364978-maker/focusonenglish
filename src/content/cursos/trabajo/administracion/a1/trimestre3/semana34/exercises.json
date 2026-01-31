@@ -1,0 +1,349 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana34",
+  "title": "Exercises: Short Messages & Reminders",
+  "items": [
+    {
+      "id": "adm-a1-w34-ex01",
+      "type": "multiple-choice",
+      "prompt": "What does 'ASAP' stand for?",
+      "options": [
+        "Always Send All Papers",
+        "As Soon As Possible",
+        "At Some Afternoon Point",
+        "After Some Action Plan"
+      ],
+      "answerIndex": 1,
+      "explanation": "ASAP is a common abbreviation for 'As Soon As Possible'."
+    },
+    {
+      "id": "adm-a1-w34-ex02",
+      "type": "multiple-choice",
+      "prompt": "Which note means 'Vuelvo enseguida'?",
+      "options": [
+        "Back later",
+        "BRB (Be right back)",
+        "Call me",
+        "Going home"
+      ],
+      "answerIndex": 1,
+      "explanation": "BRB is used to say you will return in a very short time."
+    },
+    {
+      "id": "adm-a1-w34-ex03",
+      "type": "multiple-choice",
+      "prompt": "You see a note: 'Don't forget the keys'. What should you do?",
+      "options": [
+        "Leave the keys.",
+        "Take the keys.",
+        "Buy new keys.",
+        "Throw the keys away."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Don't forget' is a reminder to take or remember something."
+    },
+    {
+      "id": "adm-a1-w34-ex04",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Post-it'?",
+      "options": [
+        "A large envelope.",
+        "A small sticky note.",
+        "A computer screen.",
+        "A heavy desk."
+      ],
+      "answerIndex": 1,
+      "explanation": "A Post-it is a small, usually yellow, sticky piece of paper for notes."
+    },
+    {
+      "id": "adm-a1-w34-ex05",
+      "type": "multiple-choice",
+      "prompt": "Which message is 'Urgent'?",
+      "options": [
+        "Call me tomorrow.",
+        "See you later.",
+        "Call me NOW!",
+        "Have a nice day."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Urgent' requires immediate attention, like 'Call me NOW'."
+    },
+    {
+      "id": "adm-a1-w34-ex06",
+      "type": "multiple-choice",
+      "prompt": "Complete: ________ to bring your laptop.",
+      "options": [
+        "Remember",
+        "Forget",
+        "Delete",
+        "Call"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Remember to...' is the standard way to give a reminder."
+    },
+    {
+      "id": "adm-a1-w34-ex07",
+      "type": "multiple-choice",
+      "prompt": "What does 'FYI' mean?",
+      "options": [
+        "For Your Information",
+        "Find Your Idea",
+        "First Year Intern",
+        "Follow Your Interest"
+      ],
+      "answerIndex": 0,
+      "explanation": "FYI is used when sending info that the other person just needs to know."
+    },
+    {
+      "id": "adm-a1-w34-ex08",
+      "type": "multiple-choice",
+      "prompt": "Where would you put a 'Memo'?",
+      "options": [
+        "In the trash.",
+        "On a notice board.",
+        "Under a rug.",
+        "In a secret box."
+      ],
+      "answerIndex": 1,
+      "explanation": "A memo is often shared on notice boards or via office communication."
+    },
+    {
+      "id": "adm-a1-w34-ex09",
+      "type": "multiple-choice",
+      "prompt": "Which note is for a visitor?",
+      "options": [
+        "Wait here, please.",
+        "Go home now.",
+        "Delete all files.",
+        "Turn off the PC."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Wait here, please' is a polite instruction for a visitor."
+    },
+    {
+      "id": "adm-a1-w34-ex10",
+      "type": "multiple-choice",
+      "prompt": "What does 'BTW' mean?",
+      "options": [
+        "Bring The Water",
+        "By The Way",
+        "Between The Walls",
+        "Before The Weekend"
+      ],
+      "answerIndex": 1,
+      "explanation": "BTW is used to introduce a new or extra topic."
+    },
+    {
+      "id": "adm-a1-w34-ex11",
+      "type": "listening",
+      "prompt": "Listen and answer: What should the person do?",
+      "transcript": "Reminder: Don't forget to lock the door before you leave.",
+      "options": [
+        "Open the door.",
+        "Lock the door.",
+        "Leave the door open.",
+        "Fix the door."
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'Don't forget to lock the door'."
+    },
+    {
+      "id": "adm-a1-w34-ex12",
+      "type": "listening",
+      "prompt": "Listen and answer: How urgent is the message?",
+      "transcript": "This is urgent! Please call me ASAP.",
+      "options": [
+        "Not urgent.",
+        "Very urgent.",
+        "Call tomorrow.",
+        "No hurry."
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'This is urgent!'."
+    },
+    {
+      "id": "adm-a1-w34-ex13",
+      "type": "listening",
+      "prompt": "Listen and answer: Where is the person going?",
+      "transcript": "BRB, I am going to the kitchen for a coffee.",
+      "options": [
+        "To the meeting",
+        "To the kitchen",
+        "Home",
+        "To the bank"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'I am going to the kitchen'."
+    },
+    {
+      "id": "adm-a1-w34-ex14",
+      "type": "listening",
+      "prompt": "Listen and identify the abbreviation: 'I'll send the ________ now.'",
+      "transcript": "I'll send the MSG to the team now.",
+      "options": [
+        "email",
+        "MSG",
+        "file",
+        "note"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'MSG' (message)."
+    },
+    {
+      "id": "adm-a1-w34-ex15",
+      "type": "listening",
+      "prompt": "Listen and answer: What time is the deadline?",
+      "transcript": "Please send the report. The deadline is 5 PM today.",
+      "options": [
+        "3 PM",
+        "4 PM",
+        "5 PM",
+        "6 PM"
+      ],
+      "answerIndex": 2,
+      "explanation": "The speaker says '5 PM today'."
+    },
+    {
+      "id": "adm-a1-w34-ex16",
+      "type": "listening",
+      "prompt": "Listen and answer: Who is the note for?",
+      "transcript": "Can you leave a note for the manager on his desk?",
+      "options": [
+        "The assistant",
+        "The manager",
+        "The visitor",
+        "The technician"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'for the manager'."
+    },
+    {
+      "id": "adm-a1-w34-ex17",
+      "type": "listening",
+      "prompt": "Listen and answer: What should be done with the printer?",
+      "transcript": "Reminder: Remember to turn off the printer at 6 PM.",
+      "options": [
+        "Turn on the printer",
+        "Turn off the printer",
+        "Use the printer",
+        "Clean the printer"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'turn off the printer'."
+    },
+    {
+      "id": "adm-a1-w34-ex18",
+      "type": "listening",
+      "prompt": "Listen and answer: Why is the person writing?",
+      "transcript": "FYI, the meeting room is now available.",
+      "options": [
+        "To invite someone",
+        "To give information",
+        "To cancel a meeting",
+        "To ask for help"
+      ],
+      "answerIndex": 1,
+      "explanation": "FYI is used to give information."
+    },
+    {
+      "id": "adm-a1-w34-ex19",
+      "type": "listening",
+      "prompt": "Listen and complete: 'Please check your ________.'",
+      "transcript": "Hi! Please check your chat messages for the link.",
+      "options": [
+        "email",
+        "phone",
+        "chat messages",
+        "post-it"
+      ],
+      "answerIndex": 2,
+      "explanation": "The speaker says 'chat messages'."
+    },
+    {
+      "id": "adm-a1-w34-ex20",
+      "type": "listening",
+      "prompt": "Listen and answer: Is the message important?",
+      "transcript": "Just a quick note to say the client is here.",
+      "options": [
+        "No, it's a secret.",
+        "Yes, a client arrived.",
+        "No, it's about lunch.",
+        "Yes, it's raining."
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker informs that 'the client is here'."
+    },
+    {
+      "id": "adm-a1-w34-ex21",
+      "type": "fill-blank",
+      "prompt": "________ (Recuerda) to sign the document.",
+      "answer": "Remember",
+      "explanation": "'Remember to...' is a standard reminder."
+    },
+    {
+      "id": "adm-a1-w34-ex22",
+      "type": "fill-blank",
+      "prompt": "Call me ________ (lo antes posible).",
+      "answer": "ASAP",
+      "explanation": "ASAP is the abbreviation for 'As Soon As Possible'."
+    },
+    {
+      "id": "adm-a1-w34-ex23",
+      "type": "fill-blank",
+      "prompt": "Don't ________ (olvides) the meeting at 10.",
+      "answer": "forget",
+      "explanation": "'Don't forget' is a negative reminder."
+    },
+    {
+      "id": "adm-a1-w34-ex24",
+      "type": "fill-blank",
+      "prompt": "I'll be ________ (enseguida) - BRB.",
+      "answer": "back",
+      "explanation": "BRB stands for Be Right 'Back'."
+    },
+    {
+      "id": "adm-a1-w34-ex25",
+      "type": "fill-blank",
+      "prompt": "________ (Para tu información) - FYI.",
+      "answer": "For your information",
+      "explanation": "FYI is 'For Your Information'."
+    },
+    {
+      "id": "adm-a1-w34-ex26",
+      "type": "fill-blank",
+      "prompt": "Please leave a ________ (nota) on the door.",
+      "answer": "note",
+      "explanation": "A 'note' is a short written message."
+    },
+    {
+      "id": "adm-a1-w34-ex27",
+      "type": "fill-blank",
+      "prompt": "The matter is ________ (urgente).",
+      "answer": "urgent",
+      "explanation": "'Urgent' requires immediate action."
+    },
+    {
+      "id": "adm-a1-w34-ex28",
+      "type": "fill-blank",
+      "prompt": "I'll send you a ________ (mensaje) later.",
+      "answer": "message",
+      "explanation": "'Message' is a general term for communication."
+    },
+    {
+      "id": "adm-a1-w34-ex29",
+      "type": "fill-blank",
+      "prompt": "Check the ________ board for news.",
+      "answer": "notice",
+      "explanation": "A 'notice board' is used for office announcements."
+    },
+    {
+      "id": "adm-a1-w34-ex30",
+      "type": "fill-blank",
+      "prompt": "Wait for my ________ (señal/instrucción).",
+      "answer": "instruction",
+      "explanation": "An 'instruction' tells you what to do."
+    }
+  ]
+}

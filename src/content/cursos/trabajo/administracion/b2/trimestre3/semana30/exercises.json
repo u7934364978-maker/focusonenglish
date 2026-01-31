@@ -7,28 +7,32 @@
   "items": [
     {
       "id": "adm-b2-w30-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: Security Alert Email",
-      "text": "SECURITY ALERT: Potential Phishing Campaign\n\nDear Team,\n\nWe have been informed of a sophisticated phishing campaign targeting administrative staff. Emails appearing to be from 'HR Payroll' are being sent to employees, asking them to 'verify' their bank details via a suspicious link.\n\nStaff members receiving such emails should not click on any links. Any data provided via these links could be used for identity theft. The IT team, whom we have alerted, is currently blocking the sender's domain. \n\nRemember: Security protocols established by the company must be followed at all times. Passwords shared with others or stored in plain text are a major risk factor. \n\nStay vigilant,\nCyber Security Team",
-      "questions": [
-        {
-          "question": "What is the specific threat mentioned in the email?",
-          "options": ["A physical break-in", "A phishing campaign targeting admin staff", "A server hardware failure"],
-          "answerIndex": 1,
-          "explanation": "The email title and first paragraph explicitly mention a 'phishing campaign'."
-        },
-        {
-          "question": "Identify a reduced relative clause in the text.",
-          "options": ["Emails appearing to be from...", "The IT team, whom we have alerted...", "Staff members... should not click..."],
-          "answerIndex": 0,
-          "explanation": "'Emails appearing to be from' is a reduced relative clause (short for 'Emails that appear...')."
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "Read the text and answer: 'SECURITY ALERT: Potential Phishing Campaign. Emails appearing to be from HR Payroll are being sent to employees, asking them to verify their bank details via a suspicious link.' What is the specific threat?",
+      "options": [
+        "A physical break-in",
+        "A phishing campaign targeting admin staff",
+        "A server hardware failure"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text explicitly mentions a 'phishing campaign' via fake emails."
     },
     {
       "id": "adm-b2-w30-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: Security Vocabulary. 'Encryption' is used to:",
+      "prompt": "Identify the reduced relative clause in this sentence: 'Emails appearing to be from HR Payroll are being sent to employees.'",
+      "options": [
+        "Emails appearing to be from...",
+        "being sent to employees",
+        "HR Payroll"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Emails appearing to be from' is a reduced relative clause (short for 'Emails which appear...')."
+    },
+    {
+      "id": "adm-b2-w30-ex03",
+      "type": "multipleChoice",
+      "prompt": "In cyber security, 'Encryption' is used to:",
       "options": [
         "Make data easier for everyone to read",
         "Encode information so only authorized parties can access it",
@@ -39,23 +43,29 @@
       "explanation": "Encryption is a fundamental security tool for data confidentiality."
     },
     {
-      "id": "adm-b2-w30-ex03",
-      "type": "writingTask",
-      "prompt": "Exercise 3: Reduced Relative Clauses (Active). Reduce this sentence: 'Employees who work from home must use a VPN.'",
-      "modelAnswer": "Employees working from home must use a VPN.",
-      "keywords": ["working"]
-    },
-    {
       "id": "adm-b2-w30-ex04",
-      "type": "writingTask",
-      "prompt": "Exercise 4: Reduced Relative Clauses (Passive). Reduce this sentence: 'The data that was stolen in the attack was encrypted.'",
-      "modelAnswer": "The data stolen in the attack was encrypted.",
-      "keywords": ["stolen"]
+      "type": "gap-fill",
+      "prompt": "Reduce this sentence: 'Employees who work from home must use a VPN.'\n\nEmployees ___ from home must use a VPN.",
+      "validation": {
+        "pattern": "^working$",
+        "flags": "i"
+      },
+      "explanation": "The active relative clause 'who work' is reduced to the present participle 'working'."
     },
     {
       "id": "adm-b2-w30-ex05",
+      "type": "gap-fill",
+      "prompt": "Reduce this sentence: 'The data that was stolen in the attack was encrypted.'\n\nThe data ___ in the attack was encrypted.",
+      "validation": {
+        "pattern": "^stolen$",
+        "flags": "i"
+      },
+      "explanation": "The passive relative clause 'that was stolen' is reduced to the past participle 'stolen'."
+    },
+    {
+      "id": "adm-b2-w30-ex06",
       "type": "multipleChoice",
-      "prompt": "Exercise 5: Security Chunks. To 'comply with GDPR' means:",
+      "prompt": "To 'comply with GDPR' means:",
       "options": [
         "To ignore data protection rules",
         "To follow the legal requirements for data privacy",
@@ -64,6 +74,814 @@
       ],
       "answerIndex": 1,
       "explanation": "Compliance with GDPR is a legal obligation in the EU and UK for handling personal data."
+    },
+    {
+      "id": "adm-b2-w30-ex07",
+      "type": "multipleChoice",
+      "prompt": "Which term describes malware that encrypts your files and demands payment to unlock them?",
+      "options": ["Spyware", "Ransomware", "Adware", "Phishing"],
+      "answerIndex": 1,
+      "explanation": "Ransomware is designed to extort money by blocking access to files."
+    },
+    {
+      "id": "adm-b2-w30-ex08",
+      "type": "multipleChoice",
+      "prompt": "What does 'MFA' stand for?",
+      "options": [
+        "Multiple File Access",
+        "Multi-Factor Authentication",
+        "Mobile Finance Agreement",
+        "Management Focus Area"
+      ],
+      "answerIndex": 1,
+      "explanation": "MFA adds an extra layer of security beyond just a password."
+    },
+    {
+      "id": "adm-b2-w30-ex09",
+      "type": "gap-fill",
+      "prompt": "Reduce this: 'The policy that was approved by the board is now in effect.'\n\nThe policy ___ by the board is now in effect.",
+      "validation": {
+        "pattern": "^approved$",
+        "flags": "i"
+      },
+      "explanation": "The passive clause 'that was approved' is reduced to the past participle 'approved'."
+    },
+    {
+      "id": "adm-b2-w30-ex10",
+      "type": "multipleChoice",
+      "prompt": "In GDPR, 'Data Minimisation' means:",
+      "options": [
+        "Collecting only the data that is strictly necessary for a specific purpose",
+        "Storing data in the smallest possible file size",
+        "Deleting all data after one day",
+        "Sharing data with the minimum number of people"
+      ],
+      "answerIndex": 0,
+      "explanation": "Data minimisation ensures organizations don't hold unnecessary personal information."
+    },
+    {
+      "id": "adm-b2-w30-ex11",
+      "type": "gap-fill",
+      "prompt": "Combine these using 'whose': 'The employee is the manager. Her laptop was stolen.'\n\nThe employee ___ laptop was stolen is the manager.",
+      "validation": {
+        "pattern": "^whose$",
+        "flags": "i"
+      },
+      "explanation": "Use 'whose' to indicate possession in a relative clause."
+    },
+    {
+      "id": "adm-b2-w30-ex12",
+      "type": "multipleChoice",
+      "prompt": "A 'VPN' is used to:",
+      "options": [
+        "Increase the speed of the office printer",
+        "Create a secure, encrypted connection over a public network",
+        "Block all incoming emails",
+        "Monitor employee performance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Virtual Private Networks are essential for secure remote work."
+    },
+    {
+      "id": "adm-b2-w30-ex13",
+      "type": "multipleChoice",
+      "prompt": "'Social Engineering' refers to:",
+      "options": [
+        "Programming social media apps",
+        "Manipulating people into giving up confidential information",
+        "Building office furniture",
+        "Organizing company parties"
+      ],
+      "answerIndex": 1,
+      "explanation": "Social engineering targets the 'human element' of security."
+    },
+    {
+      "id": "adm-b2-w30-ex14",
+      "type": "gap-fill",
+      "prompt": "Reduce this: 'The team who handles security is located on the third floor.'\n\nThe team ___ security is located on the third floor.",
+      "validation": {
+        "pattern": "^handling$",
+        "flags": "i"
+      },
+      "explanation": "The active clause 'who handles' is reduced to the present participle 'handling'."
+    },
+    {
+      "id": "adm-b2-w30-ex15",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Right to be Forgotten'?",
+      "options": [
+        "The right to forget your work password",
+        "The right to have your personal data deleted by an organization",
+        "The right to work anonymously",
+        "The right to leave a company without notice"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a key right under GDPR, also known as the right to erasure."
+    },
+    {
+      "id": "adm-b2-w30-ex16",
+      "type": "multipleChoice",
+      "prompt": "A 'Data Breach' must be reported to the regulator within:",
+      "options": ["24 hours", "72 hours", "One week", "One month"],
+      "answerIndex": 1,
+      "explanation": "Under GDPR, serious breaches must be reported within 72 hours of discovery."
+    },
+    {
+      "id": "adm-b2-w30-ex17",
+      "type": "gap-fill",
+      "prompt": "Combine these using 'whom': 'This is the consultant. We hired him for the audit.'\n\nThis is the consultant ___ we hired for the audit.",
+      "validation": {
+        "pattern": "^whom$",
+        "flags": "i"
+      },
+      "explanation": "'Whom' is the object form of 'who', often used in formal English."
+    },
+    {
+      "id": "adm-b2-w30-ex18",
+      "type": "multipleChoice",
+      "prompt": "What does 'BYOD' stand for?",
+      "options": [
+        "Buy Your Own Device",
+        "Bring Your Own Device",
+        "Build Your Own Database",
+        "Backup Your Own Data"
+      ],
+      "answerIndex": 1,
+      "explanation": "BYOD policies allow staff to use personal phones/laptops for work."
+    },
+    {
+      "id": "adm-b2-w30-ex19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Integrity'?",
+      "options": [
+        "The speed of data transfer",
+        "The accuracy and consistency of data over its lifecycle",
+        "The total size of a database",
+        "The cost of data storage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Integrity ensures data has not been altered by unauthorized parties."
+    },
+    {
+      "id": "adm-b2-w30-ex20",
+      "type": "gap-fill",
+      "prompt": "Reduce this: 'The documents that are in the safe are confidential.'\n\nThe documents ___ the safe are confidential.",
+      "validation": {
+        "pattern": "^in$",
+        "flags": "i"
+      },
+      "explanation": "In prepositional relative clauses, we can sometimes omit the relative pronoun and the verb 'to be'."
+    },
+    {
+      "id": "adm-b2-w30-ex21",
+      "type": "multipleChoice",
+      "prompt": "What is 'Phishing'?",
+      "options": [
+        "A type of data backup",
+        "Sending fake emails to steal sensitive information",
+        "Optimizing a website for search engines",
+        "A security training software"
+      ],
+      "answerIndex": 1,
+      "explanation": "Phishing is a common social engineering attack."
+    },
+    {
+      "id": "adm-b2-w30-ex22",
+      "type": "multipleChoice",
+      "prompt": "A 'Firewall' is designed to:",
+      "options": [
+        "Extinguish office fires",
+        "Monitor and control incoming and outgoing network traffic",
+        "Block all internet access",
+        "Speed up the computer's CPU"
+      ],
+      "answerIndex": 1,
+      "explanation": "Firewalls act as a barrier between a trusted network and an untrusted network."
+    },
+    {
+      "id": "adm-b2-w30-ex23",
+      "type": "multipleChoice",
+      "prompt": "What is 'Two-Factor Authentication' (2FA)?",
+      "options": [
+        "A system requiring two different passwords",
+        "A system requiring a password and a second form of identification",
+        "Logging in from two different devices at once",
+        "Having two IT managers"
+      ],
+      "answerIndex": 1,
+      "explanation": "2FA significantly increases account security."
+    },
+    {
+      "id": "adm-b2-w30-ex24",
+      "type": "gap-fill",
+      "prompt": "Reduce this: 'All staff who access sensitive data must undergo training.'\n\nAll staff ___ sensitive data must undergo training.",
+      "validation": {
+        "pattern": "^accessing$",
+        "flags": "i"
+      },
+      "explanation": "The active clause 'who access' is reduced to the present participle 'accessing'."
+    },
+    {
+      "id": "adm-b2-w30-ex25",
+      "type": "multipleChoice",
+      "prompt": "In GDPR, what is 'Purpose Limitation'?",
+      "options": [
+        "Only using data for the specific reason it was collected",
+        "Limiting the number of people who can see the data",
+        "Storing data for a limited time",
+        "Collecting the minimum amount of data"
+      ],
+      "answerIndex": 0,
+      "explanation": "You cannot use data collected for one purpose for a completely different, unrelated purpose."
+    },
+    {
+      "id": "adm-b2-w30-ex26",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Subject Access Request' (SAR)?",
+      "options": [
+        "A request from a manager to see an employee's work",
+        "A request from an individual to see the personal data an organization holds about them",
+        "A request to change your job title",
+        "A request to delete your email account"
+      ],
+      "answerIndex": 1,
+      "explanation": "SARs are a fundamental right under GDPR."
+    },
+    {
+      "id": "adm-b2-w30-ex27",
+      "type": "gap-fill",
+      "prompt": "Combine using 'whom': 'The technician is here. I spoke to him about the server issue.'\n\nThe technician ___ I spoke to about the server issue is here.",
+      "validation": {
+        "pattern": "^whom$",
+        "flags": "i"
+      },
+      "explanation": "'Whom' is used here as the object of the preposition 'to'."
+    },
+    {
+      "id": "adm-b2-w30-ex28",
+      "type": "multipleChoice",
+      "prompt": "What is 'Malware'?",
+      "options": [
+        "Software designed to help employees work better",
+        "Software designed to disrupt, damage, or gain unauthorized access to a computer system",
+        "A type of hardware for servers",
+        "A security training manual"
+      ],
+      "answerIndex": 1,
+      "explanation": "Malware is a broad term including viruses, worms, and ransomware."
+    },
+    {
+      "id": "adm-b2-w30-ex29",
+      "type": "multipleChoice",
+      "prompt": "A 'Privacy Impact Assessment' (PIA) should be done:",
+      "options": [
+        "After a data breach has occurred",
+        "At the start of any new project that involves processing personal data",
+        "Once every ten years",
+        "Only by the CEO"
+      ],
+      "answerIndex": 1,
+      "explanation": "PIAs help identify and minimize data protection risks early on."
+    },
+    {
+      "id": "adm-b2-w30-ex30",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'The files that were recovered from the backup are clean.'\n\nThe files ___ from the backup are clean.",
+      "validation": {
+        "pattern": "^recovered$",
+        "flags": "i"
+      },
+      "explanation": "The passive clause 'that were recovered' is reduced to the past participle 'recovered'."
+    },
+    {
+      "id": "adm-b2-w30-ex31",
+      "type": "multipleChoice",
+      "prompt": "What is 'Encryption at Rest'?",
+      "options": [
+        "Encrypting data while it is being emailed",
+        "Encrypting data stored on a hard drive or server",
+        "Only encrypting data during the night",
+        "Deleting data that is not being used"
+      ],
+      "answerIndex": 1,
+      "explanation": "Encryption at rest protects data stored on physical media."
+    },
+    {
+      "id": "adm-b2-w30-ex32",
+      "type": "multipleChoice",
+      "prompt": "What is 'Encryption in Transit'?",
+      "options": [
+        "Encrypting data as it travels across a network",
+        "Encrypting data stored in a safe",
+        "Encrypting data after it has been deleted",
+        "Moving servers to a more secure location"
+      ],
+      "answerIndex": 0,
+      "explanation": "Encryption in transit protects data as it moves between devices."
+    },
+    {
+      "id": "adm-b2-w30-ex33",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The company is facing a lawsuit. Its security was breached.'\n\nThe company ___ security was breached is facing a lawsuit.",
+      "validation": {
+        "pattern": "^whose$",
+        "flags": "i"
+      },
+      "explanation": "Use 'whose' to show possession (the security of the company)."
+    },
+    {
+      "id": "adm-b2-w30-ex34",
+      "type": "multipleChoice",
+      "prompt": "What is 'Social Engineering' via phone called?",
+      "options": ["Phishing", "Vishing", "Smishing", "Spearing"],
+      "answerIndex": 1,
+      "explanation": "Vishing (Voice Phishing) uses phone calls to deceive victims."
+    },
+    {
+      "id": "adm-b2-w30-ex35",
+      "type": "multipleChoice",
+      "prompt": "What is 'Social Engineering' via SMS called?",
+      "options": ["Phishing", "Vishing", "Smishing", "Spearing"],
+      "answerIndex": 2,
+      "explanation": "Smishing (SMS Phishing) uses text messages to trick users."
+    },
+    {
+      "id": "adm-b2-w30-ex36",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'The team members who are in the London office should attend.'\n\nThe team members ___ the London office should attend.",
+      "validation": {
+        "pattern": "^in$",
+        "flags": "i"
+      },
+      "explanation": "Omission of relative pronoun and verb 'to be' in a prepositional clause."
+    },
+    {
+      "id": "adm-b2-w30-ex37",
+      "type": "multipleChoice",
+      "prompt": "What does 'ISO 27001' certify?",
+      "options": [
+        "A company's financial health",
+        "An information security management system (ISMS)",
+        "Food safety standards",
+        "Environmental management"
+      ],
+      "answerIndex": 1,
+      "explanation": "ISO 27001 is the leading international standard for information security."
+    },
+    {
+      "id": "adm-b2-w30-ex38",
+      "type": "multipleChoice",
+      "prompt": "When should a 'Data Protection Officer' (DPO) be appointed?",
+      "options": [
+        "Only if the company is failing",
+        "If the organization carries out large-scale monitoring or processes sensitive data",
+        "Only by companies with more than 1,000,000 employees",
+        "It is always optional"
+      ],
+      "answerIndex": 1,
+      "explanation": "Large organizations and those processing sensitive data must appoint a DPO."
+    },
+    {
+      "id": "adm-b2-w30-ex39",
+      "type": "gap-fill",
+      "prompt": "Combine: 'Mr. Smith is our DPO. We must report all breaches to him.'\n\nMr. Smith is our DPO, ___ we must report all breaches to.",
+      "validation": {
+        "pattern": "^whom$",
+        "flags": "i"
+      },
+      "explanation": "'Whom' is used here as the object of the preposition 'to'."
+    },
+    {
+      "id": "adm-b2-w30-ex40",
+      "type": "multipleChoice",
+      "prompt": "What is 'Clear Desk Policy'?",
+      "options": [
+        "Buying transparent desks",
+        "Ensuring no sensitive information is left on desks overnight",
+        "A policy to clean desks every Friday",
+        "Eliminating desks entirely"
+      ],
+      "answerIndex": 1,
+      "explanation": "Clear desk policies reduce the risk of unauthorized access to physical documents."
+    },
+    {
+      "id": "adm-b2-w30-ex41",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Near Miss' in cyber security?",
+      "options": [
+        "A cyberattack that was successfully blocked",
+        "An incident that almost caused a data breach but didn't",
+        "Missing a software update by one day",
+        "Failing to renew a security certificate"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reporting near misses helps identify weaknesses before a real breach occurs."
+    },
+    {
+      "id": "adm-b2-w30-ex42",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'Any person who knows the password can access the file.'\n\nAny person ___ the password can access the file.",
+      "validation": {
+        "pattern": "^knowing$",
+        "flags": "i"
+      },
+      "explanation": "The active clause 'who knows' is reduced to the present participle 'knowing'."
+    },
+    {
+      "id": "adm-b2-w30-ex43",
+      "type": "multipleChoice",
+      "prompt": "What is 'Spear Phishing'?",
+      "options": [
+        "A phishing attack using a physical spear",
+        "A targeted phishing attack aimed at a specific individual or organization",
+        "A phishing attack that only happens on weekends",
+        "A phishing attack that uses social media only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spear phishing is more dangerous because it is customized for the victim."
+    },
+    {
+      "id": "adm-b2-w30-ex44",
+      "type": "multipleChoice",
+      "prompt": "In GDPR, what is the 'Right of Access'?",
+      "options": [
+        "The right to access the office at any time",
+        "The right to obtain a copy of your personal data from an organization",
+        "The right to access the company's bank accounts",
+        "The right to see everyone's salary"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is also known as a Subject Access Request (SAR)."
+    },
+    {
+      "id": "adm-b2-w30-ex45",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The hackers are professionals. The police are tracking them.'\n\nThe hackers ___ the police are tracking are professionals.",
+      "validation": {
+        "pattern": "^whom$",
+        "flags": "i"
+      },
+      "explanation": "'Whom' is the object of the relative clause."
+    },
+    {
+      "id": "adm-b2-w30-ex46",
+      "type": "multipleChoice",
+      "prompt": "What is 'Identity Theft'?",
+      "options": [
+        "Losing your ID card",
+        "The fraudulent acquisition and use of a person's private identifying information",
+        "Changing your name legally",
+        "Buying a new passport"
+      ],
+      "answerIndex": 1,
+      "explanation": "Identity theft often follows a successful phishing or data breach incident."
+    },
+    {
+      "id": "adm-b2-w30-ex47",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Zero-Day Vulnerability'?",
+      "options": [
+        "A vulnerability that takes zero days to fix",
+        "A software flaw that is unknown to the vendor and has no patch available",
+        "A vulnerability found on the first day of the year",
+        "A vulnerability that causes zero damage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Zero-day threats are highly dangerous as there is no immediate defense."
+    },
+    {
+      "id": "adm-b2-w30-ex48",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'The update that was released yesterday fixes the bug.'\n\nThe update ___ yesterday fixes the bug.",
+      "validation": {
+        "pattern": "^released$",
+        "flags": "i"
+      },
+      "explanation": "The passive clause 'that was released' is reduced to the past participle 'released'."
+    },
+    {
+      "id": "adm-b2-w30-ex49",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Portability' under GDPR?",
+      "options": [
+        "The ability to carry your laptop to another office",
+        "The right to receive your personal data in a structured, machine-readable format",
+        "The ability to move servers to another country",
+        "The right to use a portable hard drive"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data portability allows individuals to easily move their data between different services."
+    },
+    {
+      "id": "adm-b2-w30-ex50",
+      "type": "multipleChoice",
+      "prompt": "What is 'Encryption'?",
+      "options": [
+        "A way to delete files permanently",
+        "The process of converting information into a secret code",
+        "A type of computer virus",
+        "A method for organizing files in folders"
+      ],
+      "answerIndex": 1,
+      "explanation": "Encryption ensures that only authorized parties can read the data."
+    },
+    {
+      "id": "adm-b2-w30-ex51",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The server is being repaired. Its cooling system failed.'\n\nThe server ___ cooling system failed is being repaired.",
+      "validation": {
+        "pattern": "^whose$",
+        "flags": "i"
+      },
+      "explanation": "Use 'whose' to show possession (the cooling system of the server)."
+    },
+    {
+      "id": "adm-b2-w30-ex52",
+      "type": "multipleChoice",
+      "prompt": "What is 'Patch Management'?",
+      "options": [
+        "Managing the company's garden",
+        "The process of managing a network by regularly deploying software updates",
+        "Fixing holes in employee uniforms",
+        "Managing a physical patch of land"
+      ],
+      "answerIndex": 1,
+      "explanation": "Regular patching is essential for closing security vulnerabilities."
+    },
+    {
+      "id": "adm-b2-w30-ex53",
+      "type": "multipleChoice",
+      "prompt": "What is 'Shadow IT'?",
+      "options": [
+        "A secret government IT department",
+        "The use of IT systems or software without explicit IT department approval",
+        "IT support provided during the night",
+        "A backup IT team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shadow IT (like using personal cloud storage for work) poses security risks."
+    },
+    {
+      "id": "adm-b2-w30-ex54",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'The data that is on the cloud is encrypted.'\n\nThe data ___ the cloud is encrypted.",
+      "validation": {
+        "pattern": "^on$",
+        "flags": "i"
+      },
+      "explanation": "Omission of relative pronoun and verb 'to be' in a prepositional clause."
+    },
+    {
+      "id": "adm-b2-w30-ex55",
+      "type": "multipleChoice",
+      "prompt": "What is 'Confidentiality' in security?",
+      "options": [
+        "Ensuring data is always available",
+        "Ensuring data is only accessible to those authorized",
+        "Ensuring data is accurate",
+        "Ensuring data is stored for a long time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Confidentiality is one of the three pillars of the 'CIA triad'."
+    },
+    {
+      "id": "adm-b2-w30-ex56",
+      "type": "multipleChoice",
+      "prompt": "What does 'Integrity' mean in security?",
+      "options": [
+        "The speed of data transfer",
+        "Ensuring data has not been altered by unauthorized parties",
+        "The total size of a database",
+        "The cost of data storage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Integrity ensures data remains accurate and trustworthy."
+    },
+    {
+      "id": "adm-b2-w30-ex57",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The whistleblower is a former employee. We are protecting him.'\n\nThe whistleblower ___ we are protecting is a former employee.",
+      "validation": {
+        "pattern": "^whom$",
+        "flags": "i"
+      },
+      "explanation": "'Whom' is the object of the relative clause."
+    },
+    {
+      "id": "adm-b2-w30-ex58",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Retention'?",
+      "options": [
+        "Losing data by accident",
+        "The continued storage of data for a specific period of time",
+        "Deleting data as soon as it is used",
+        "Encrypting data for long-term storage"
+      ],
+      "answerIndex": 1,
+      "explanation": "GDPR requires that data is not kept longer than necessary."
+    },
+    {
+      "id": "adm-b2-w30-ex59",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Insider Threat'?",
+      "options": [
+        "A threat from a competitor",
+        "A security risk that originates from within the organization",
+        "A threat from a foreign government",
+        "A hardware failure inside a server"
+      ],
+      "answerIndex": 1,
+      "explanation": "Insider threats can be malicious or accidental."
+    },
+    {
+      "id": "adm-b2-w30-ex60",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'Clients who want more information should contact the DPO.'\n\nClients ___ more information should contact the DPO.",
+      "validation": {
+        "pattern": "^wanting$",
+        "flags": "i"
+      },
+      "explanation": "The active clause 'who want' is reduced to the present participle 'wanting'."
+    },
+    {
+      "id": "adm-b2-w30-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is 'Disaster Recovery'?",
+      "options": [
+        "Getting insurance after a fire",
+        "A set of policies to enable the recovery of vital technology after a disaster",
+        "Hiring new staff after a mass resignation",
+        "Cleaning up the office after a flood"
+      ],
+      "answerIndex": 1,
+      "explanation": "Disaster recovery focuses on IT systems and data restoration."
+    },
+    {
+      "id": "adm-b2-w30-ex62",
+      "type": "multipleChoice",
+      "prompt": "What is 'Cold Storage' for data?",
+      "options": [
+        "Storing hard drives in a refrigerator",
+        "Storing data that is rarely accessed on slower, cheaper storage media",
+        "Deleting data that is no longer needed",
+        "Encrypting data using complex algorithms"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cold storage is cost-effective for long-term archival data."
+    },
+    {
+      "id": "adm-b2-w30-ex63",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The hacker is a teenager. His identity was revealed by the FBI.'\n\nThe hacker ___ identity was revealed by the FBI is a teenager.",
+      "validation": {
+        "pattern": "^whose$",
+        "flags": "i"
+      },
+      "explanation": "Use 'whose' to show possession (the identity of the hacker)."
+    },
+    {
+      "id": "adm-b2-w30-ex64",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Scrubbing'?",
+      "options": [
+        "Cleaning physical hard drives with a cloth",
+        "The process of detecting and correcting corrupt or inaccurate records in a database",
+        "Deleting all data on a server",
+        "Encrypting data for security"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data scrubbing ensures data integrity and accuracy."
+    },
+    {
+      "id": "adm-b2-w30-ex65",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Masking'?",
+      "options": [
+        "Hiding a server in a secret room",
+        "Creating a structurally similar but inauthentic version of data for testing",
+        "Deleting sensitive columns in a database",
+        "Only allowing managers to see certain data"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data masking protects sensitive info while allowing it to be used safely."
+    },
+    {
+      "id": "adm-b2-w30-ex66",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'The email that was sent by the CEO was actually a fake.'\n\nThe email ___ by the CEO was actually a fake.",
+      "validation": {
+        "pattern": "^sent$",
+        "flags": "i"
+      },
+      "explanation": "The passive clause 'that was sent' is reduced to the past participle 'sent'."
+    },
+    {
+      "id": "adm-b2-w30-ex67",
+      "type": "multipleChoice",
+      "prompt": "What is 'Whitelisting'?",
+      "options": [
+        "A list of employees who are doing a good job",
+        "Allowing only pre-approved applications or IP addresses to access a system",
+        "A list of items that are environmentally friendly",
+        "A list of passwords that are easy to remember"
+      ],
+      "answerIndex": 1,
+      "explanation": "Whitelisting is a proactive security measure."
+    },
+    {
+      "id": "adm-b2-w30-ex68",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Penetration Test'?",
+      "options": [
+        "A test of how well a pen writes",
+        "An authorized simulated cyberattack to evaluate security",
+        "Testing the strength of office walls",
+        "A background check for new employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pen tests help identify vulnerabilities before real hackers find them."
+    },
+    {
+      "id": "adm-b2-w30-ex69",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The auditor is coming tomorrow. We met him last year.'\n\nThe auditor ___ we met last year is coming tomorrow.",
+      "validation": {
+        "pattern": "^whom$",
+        "flags": "i"
+      },
+      "explanation": "'Whom' is the object of the relative clause."
+    },
+    {
+      "id": "adm-b2-w30-ex70",
+      "type": "multipleChoice",
+      "prompt": "What is 'Information Governance'?",
+      "options": [
+        "The government department for IT",
+        "A holistic approach to managing corporate information using processes and controls",
+        "A set of rules for using the internet at work",
+        "The process of deleting old information"
+      ],
+      "answerIndex": 1,
+      "explanation": "Information governance ensures that information is handled legally and efficiently."
+    },
+    {
+      "id": "adm-b2-w30-ex71",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Privacy Policy' explain?",
+      "options": [
+        "The company's history",
+        "How an organization collects, uses, and manages a customer's personal data",
+        "The rules for using office equipment",
+        "The dress code for employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Privacy policies are required by data protection laws."
+    },
+    {
+      "id": "adm-b2-w30-ex72",
+      "type": "gap-fill",
+      "prompt": "Reduce: 'The system which monitors the network is down.'\n\nThe system ___ the network is down.",
+      "validation": {
+        "pattern": "^monitoring$",
+        "flags": "i"
+      },
+      "explanation": "The active clause 'which monitors' is reduced to the present participle 'monitoring'."
+    },
+    {
+      "id": "adm-b2-w30-ex73",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Localization'?",
+      "options": [
+        "Translating data into different languages",
+        "The practice of storing data within the same country where it was generated",
+        "Finding where a piece of data is stored on a hard drive",
+        "Storing data in a local folder"
+      ],
+      "answerIndex": 1,
+      "explanation": "Some countries require data to be stored on servers within their borders."
+    },
+    {
+      "id": "adm-b2-w30-ex74",
+      "type": "multipleChoice",
+      "prompt": "What is 'Availability' in the context of the CIA triad?",
+      "options": [
+        "Ensuring data is kept secret",
+        "Ensuring data is accurate",
+        "Ensuring data is accessible to authorized users when needed",
+        "Ensuring data is stored in multiple locations"
+      ],
+      "answerIndex": 2,
+      "explanation": "Availability ensures that systems and data are ready for use."
+    },
+    {
+      "id": "adm-b2-w30-ex75",
+      "type": "gap-fill",
+      "prompt": "Combine: 'The hacker is a former employee. His motivation was revenge.'\n\nThe hacker ___ motivation was revenge is a former employee.",
+      "validation": {
+        "pattern": "^whose$",
+        "flags": "i"
+      },
+      "explanation": "Use 'whose' to show possession (the motivation of the hacker)."
     }
   ]
 }

@@ -20,18 +20,64 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: Onboarding Checklist & Intro",
       "content": "Draft an onboarding checklist for a 'Junior Admin' role. Include:\n1. **Pre-arrival tasks** (IT setup, access cards).\n2. **First-day schedule** (Team intro, induction).\n3. **First-week milestones**.\n4. **Introductory Summary** (Using participle clauses: *Having joined the team, the new starter will...*)."
+    },
+    {
+      "id": "employee-relations",
+      "title": "Employee Relations: Grievances & Discipline",
+      "content": "HR administration involves managing sensitive employee relations cases. This includes formal procedures for handling complaints and behavior issues.\n\n### Key Procedures:\n- **Grievance Procedure**: A formal way for an employee to raise a problem or complaint with their employer.\n- **Disciplinary Procedure**: The process an employer follows to address an employee's misconduct or poor performance.\n- **Mediation**: Using a neutral third party to help resolve a dispute between colleagues.\n\n### Vocabulary:\n- **Tribunal**: A specialized court that hears disputes between employers and employees.\n- **Summary Dismissal**: Termination of employment without notice, usually for gross misconduct."
+    },
+    {
+      "id": "engagement-retention",
+      "title": "Employee Engagement & Retention",
+      "content": "Keeping employees motivated is critical to reducing **turnover** (or attrition). Admins often help manage the programs that foster a positive culture.\n\n### Strategies for Retention:\n- **Employee Recognition**: Implementing 'Employee of the Month' or peer-to-peer awards.\n- **Professional Development**: Providing clear pathways for career growth.\n- **Work-Life Balance**: Offering flexible working hours or remote work options.\n\n### Key Concepts:\n- **Attrition Rate**: The pace at which people leave a company.\n- **Exit Interview**: A meeting with a departing employee to understand why they are leaving."
+    },
+    {
+      "id": "performance-management",
+      "title": "Performance Management: Appraisals & KPIs",
+      "content": "Admins support the performance management process by tracking review dates and preparing appraisal templates.\n\n### The Appraisal Process:\n1. **Preparation**: Gathering feedback and self-assessments.\n2. **The Meeting**: Discussing achievements and areas for improvement.\n3. **Goal Setting**: Defining SMART objectives for the next period.\n4. **Follow-up**: Monitoring progress through regular 1-to-1s.\n\n### SMART Objectives:\n- **S**pecific: Clearly defined.\n- **M**easurable: Can be tracked with data.\n- **A**chievable: Realistic.\n- **R**elevant: Aligned with business goals.\n- **T**ime-bound: Has a deadline."
+    },
+    {
+      "id": "hr-compliance",
+      "title": "HR Compliance & Data Privacy",
+      "content": "Handling employee data requires strict adherence to privacy laws like **GDPR**. HR admins must ensure that personal records are stored securely.\n\n### Compliance Areas:\n- **Data Protection**: Only collecting necessary data and deleting it when no longer needed.\n- **Right to Work**: Verifying that employees are legally allowed to work in the country.\n- **Equality & Diversity**: Ensuring the workplace is inclusive and free from discrimination.\n\n### Key Terms:\n- **DPO (Data Protection Officer)**: The person responsible for monitoring data protection compliance.\n- **Privacy Notice**: A document explaining how the company handles personal information."
+    },
+    {
+      "id": "payroll-benefits",
+      "title": "Payroll & Benefits Administration",
+      "content": "Managing payroll is a critical administrative function that ensures employees are paid accurately and on time. This involves calculating gross pay, deductions (taxes, pensions), and net pay.\n\n### Compensation Components:\n- **Base Salary**: The fixed amount paid to an employee.\n- **Overtime**: Additional pay for hours worked beyond the standard contract.\n- **Commission**: Performance-based pay, common in sales.\n- **Bonus**: A discretionary or contractual payment for meeting specific targets.\n\n### Employee Benefits:\n- **Pension Scheme**: Contributions towards retirement savings.\n- **Private Healthcare**: Medical insurance provided as a perk.\n- **Annual Leave**: Paid time off for holidays."
+    },
+    {
+      "id": "learning-development",
+      "title": "Learning & Development (L&D) and Wellbeing",
+      "content": "Organizations invest in L&D to bridge **skill gaps** and ensure the workforce remains competitive. HR admins support this by coordinating training sessions and tracking certifications.\n\n### L&D Activities:\n- **Training Needs Analysis (TNA)**: Identifying what skills the team is missing.\n- **Workshops**: Interactive sessions for skill building.\n- **E-learning**: Online modules that employees can complete at their own pace.\n\n### Employee Wellbeing:\n- **Health and Safety**: Ensuring the workplace meets legal safety standards.\n- **Mental Health Support**: Providing access to counseling or 'wellness days'.\n- **Ergonomics**: Designing the workspace (desks, chairs) to prevent physical strain."
     }
   ],
   "objectives": [
     "Outline the administrative steps in the recruitment lifecycle",
     "Identify key onboarding tasks and milestones",
     "Use participle clauses to create concise and professional reports",
-    "Communicate effectively with candidates and new hires"
+    "Communicate effectively with candidates and new hires",
+    "Describe formal grievance and disciplinary procedures",
+    "Identify strategies for improving employee engagement and retention",
+    "Prepare templates and track dates for performance appraisals",
+    "Identify core HR compliance and data privacy requirements",
+    "Describe the components of a standard payroll and compensation package",
+    "Identify common employee benefits and their administrative requirements",
+    "Explain the process of identifying skill gaps and coordinating training",
+    "Outline the importance of health, safety, and employee wellbeing initiatives"
   ],
   "keyTerms": [
     { "term": "Shortlist", "definition": "A list of selected candidates from which a final choice will be made." },
     { "term": "Onboarding", "definition": "The process of integrating a new employee into an organization." },
     { "term": "Induction", "definition": "A formal introduction to a new job or organization." },
-    { "term": "Reference", "definition": "A letter from a previous employer testifying to someone's ability or character." }
+    { "term": "Reference", "definition": "A letter from a previous employer testifying to someone's ability or character." },
+    { "term": "Grievance", "definition": "A formal complaint made by an employee." },
+    { "term": "Attrition", "definition": "The gradual reduction of a workforce by employees leaving and not being replaced." },
+    { "term": "Appraisal", "definition": "An act of assessing something or someone, typically an employee's performance." },
+    { "term": "GDPR", "definition": "General Data Protection Regulation: a regulation in EU law on data protection and privacy." },
+    { "term": "Gross Pay", "definition": "The total amount of money an employee earns before taxes and other deductions." },
+    { "term": "Net Pay", "definition": "The amount of money an employee actually takes home after all deductions." },
+    { "term": "Skill Gap", "definition": "The difference between the skills required for a job and the actual skills an employee possesses." },
+    { "term": "Ergonomics", "definition": "The study of people's efficiency in their working environment, often focusing on physical comfort." }
   ]
 }

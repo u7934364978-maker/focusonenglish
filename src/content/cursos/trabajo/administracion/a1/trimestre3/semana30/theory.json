@@ -1,35 +1,35 @@
 {
-  "title": "Digital Shopping: E-commerce & Checkout",
+  "title": "Professional Thanks and Follow-ups",
   "sections": [
     {
-      "id": "ecommerce-basics",
-      "title": "Shopping Online",
-      "content": "Most shopping now happens on websites and apps.\n\n- **Shopping Cart**: The digital place for your items before you buy.\n- **Checkout**: The final step to pay for your items.\n- **Promo Code**: A secret word (like SAVE10) for a digital discount.\n- **BNPL**: 'Buy Now, Pay Later' (splitting the cost into small parts)."
+      "id": "thanking-colleagues",
+      "title": "Gratitude in the Workplace",
+      "content": "Saying 'thank you' is crucial in professional communication. It builds good relationships with colleagues, managers, and clients.\n\n- **Immediate Thanks**: Sending a quick note after receiving help.\n- **Follow-up Thanks**: Sending an email after a meeting or interview to show appreciation and interest."
     },
     {
-      "id": "checkout-flow",
-      "title": "Online Checkout Flow",
-      "content": "```mermaid\ngraph LR\n    A[View Cart] --> B[Enter Promo Code]\n    B --> C[Select Shipping]\n    C --> D{Choose Payment}\n    D --> E[Digital Wallet]\n    D --> F[BNPL / Card]\n    E --> G[Order Confirmed!]\n    F --> G\n```"
+      "id": "thanks-phrases",
+      "title": "Common Thank You Phrases",
+      "content": "- **Thank you for your help.**: Gracias por tu/su ayuda.\n- **I appreciate your time.**: Agradezco tu/su tiempo.\n- **Thank you for the information.**: Gracias por la información.\n- **Many thanks for the update.**: Muchas gracias por la actualización.\n- **I am writing to follow up on...**: Escribo para dar seguimiento a..."
     },
     {
-      "id": "grammar-demonstratives",
-      "title": "Grammar: Pointing to Digital Items",
-      "content": "Use **Demonstratives** to talk about items on your screen or in a shop.\n\n- **This / These** (Near - On your screen right now):\n  - *I want to buy **this** laptop.* (Singular)\n  - *Look at **these** reviews.* (Plural)\n\n- **That / Those** (Far - In a different tab or shop window):\n  - *I like **that** phone in the other store.* (Singular)\n  - *Check **those** items in your saved list.* (Plural)"
+      "id": "grammar-object-pronouns",
+      "title": "Grammar: Object Pronouns",
+      "content": "Object pronouns receive the action of the verb. We use them after verbs or prepositions.\n\n- **Me / You / Him / Her / It / Us / Them**\n\n- **Examples**:\n  - *Can you help **me**?* (¿Puedes ayudarme?)\n  - *I saw **him** in the meeting.* (Lo vi en la reunión.)\n  - *Thank **them** for the report.* (Agrádéceles por el informe.)\n  - *We like **it**.* (Nos gusta [ello].)"
     },
     {
-      "id": "spending-tips",
-      "title": "Smart Spending Vocabulary",
-      "content": "- **Affordable**: A good price that you can pay.\n- **Bargain**: A very cheap and good product.\n- **Overpriced**: Too expensive (not worth the money).\n- **Wishlist**: A list of things you want to buy later."
+      "id": "follow-up-vocab",
+      "title": "Follow-up Vocabulary",
+      "content": "- **Feedback**: Retroalimentación / Comentarios.\n- **Appreciate**: Agradecer / Valorar.\n- **Follow-up**: Seguimiento.\n- **Opportunity**: Oportunidad.\n- **Support**: Apoyo / Ayuda."
     }
   ],
   "objectives": [
-    "Navigate the steps of an online checkout process",
-    "Use demonstratives (this, that, these, those) in digital contexts",
-    "Identify modern payment options like BNPL and digital wallets"
+    "Write professional thank you emails and follow-ups",
+    "Identify and use object pronouns correctly in sentences",
+    "Use appropriate vocabulary for expressing appreciation in a work context"
   ],
   "keyTerms": [
-    { "term": "E-commerce", "definition": "Buying and selling things on the internet." },
-    { "term": "Cart", "definition": "A virtual basket for your shopping items." },
-    { "term": "BNPL", "definition": "Buy Now, Pay Later (installments)." }
+    { "term": "Follow-up", "definition": "A further action connected with something that happened before." },
+    { "term": "Appreciate", "definition": "To recognize the full worth of something or someone." },
+    { "term": "Feedback", "definition": "Information about reactions to a product or a person's performance." }
   ]
 }

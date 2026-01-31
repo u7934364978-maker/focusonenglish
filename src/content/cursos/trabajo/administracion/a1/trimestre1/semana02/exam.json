@@ -1,55 +1,160 @@
 {
-  "title": "Examen: El Banco y Posesivos",
+  "title": "Examen: Números y Horarios",
   "questions": [
     {
-      "id": "q1",
-      "question": "What is an 'ATM'?",
+      "id": "adm-a1-w02-q01",
+      "question": "Which number is 'One hundred and fifty'?",
+      "options": ["15", "105", "150", "1500"],
+      "answerIndex": 2,
+      "explanation": "150 is 'one hundred and fifty'."
+    },
+    {
+      "id": "adm-a1-w02-q02",
+      "question": "What is the correct preposition for days? 'I work ______ Friday.'",
+      "options": ["at", "in", "on", "to"],
+      "answerIndex": 2,
+      "explanation": "We use 'on' for days of the week."
+    },
+    {
+      "id": "adm-a1-w02-q03",
+      "question": "How do you say 10:30 in English?",
       "options": [
-        "A bank manager",
-        "A machine to get money",
-        "A type of bank account",
-        "A financial report"
+        "Ten three zero",
+        "Ten o'clock",
+        "Half past ten",
+        "Ten past half"
       ],
-      "correctAnswer": 1,
-      "explanation": "ATM stands for Automated Teller Machine."
+      "answerIndex": 2,
+      "explanation": "10:30 is commonly called 'half past ten'."
     },
     {
-      "id": "q2",
-      "question": "Complete: 'She is a manager. ________ office is on the first floor.'",
-      "options": ["His", "Her", "My", "Your"],
-      "correctAnswer": 1,
-      "explanation": "We use 'Her' for 'She'."
+      "id": "adm-a1-w02-q04",
+      "question": "Which one is a workday (not weekend)?",
+      "options": ["Saturday", "Sunday", "Thursday", "Weekend"],
+      "answerIndex": 2,
+      "explanation": "Thursday is a typical workday."
     },
     {
-      "id": "q3",
-      "question": "Where do you talk to a cashier in a bank?",
+      "id": "adm-a1-w02-q05",
+      "question": "What does 'PM' mean?",
       "options": [
-        "At the counter",
-        "In the elevator",
-        "At the ATM",
-        "In the parking lot"
+        "In the morning",
+        "After 12:00 (midday)",
+        "At midnight",
+        "Professional Meeting"
       ],
-      "correctAnswer": 0,
-      "explanation": "You usually talk to a cashier at the counter."
+      "answerIndex": 1,
+      "explanation": "PM stands for post meridiem, used for times after midday."
     },
     {
-      "id": "q4",
-      "question": "Which possessive is for 'We'?",
-      "options": ["Their", "Our", "Your", "Its"],
-      "correctAnswer": 1,
-      "explanation": "The possessive form of 'We' is 'Our'."
+      "id": "adm-a1-w02-q06",
+      "question": "How do you say the number 0 in a phone number?",
+      "options": ["Zero", "Oh", "Nought", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "In phone numbers, 0 can be said as 'Zero', 'Oh', or 'Nought'."
     },
     {
-      "id": "q5",
-      "question": "What is a 'Customer'?",
+      "id": "adm-a1-w02-q07",
+      "question": "What is the correct way to say 2,000?",
+      "options": ["Two hundred", "Twenty hundred", "Two thousand", "Two million"],
+      "answerIndex": 2,
+      "explanation": "2,000 is 'two thousand'."
+    },
+    {
+      "id": "adm-a1-w02-q08",
+      "question": "Which preposition is used for specific times? 'The meeting is ______ 9:00 AM.'",
+      "options": ["on", "at", "in", "by"],
+      "answerIndex": 1,
+      "explanation": "We use 'at' for specific times."
+    },
+    {
+      "id": "adm-a1-w02-q09",
+      "question": "What is the 3rd month of the year?",
+      "options": ["January", "February", "March", "April"],
+      "answerIndex": 2,
+      "explanation": "The order is January (1st), February (2nd), March (3rd)."
+    },
+    {
+      "id": "adm-a1-w02-q10",
+      "question": "How do you say 15 minutes past the hour?",
+      "options": ["Quarter past", "Half past", "Quarter to", "Fifteen to"],
+      "answerIndex": 0,
+      "explanation": "15 minutes after the hour is 'quarter past'."
+    },
+    {
+      "id": "adm-a1-w02-q11",
+      "question": "How do you say 45 minutes past the hour?",
+      "options": ["Quarter past", "Half past", "Quarter to (next hour)", "Fifteen past"],
+      "answerIndex": 2,
+      "explanation": "45 minutes past is usually said as 'quarter to' the next hour."
+    },
+    {
+      "id": "adm-a1-w02-q12",
+      "question": "What is the number 'Seventy-eight'?",
+      "options": ["17", "70", "78", "87"],
+      "answerIndex": 2,
+      "explanation": "Seventy-eight is 78."
+    },
+    {
+      "id": "adm-a1-w02-q13",
+      "question": "Which month comes after August?",
+      "options": ["July", "September", "October", "November"],
+      "answerIndex": 1,
+      "explanation": "September follows August."
+    },
+    {
+      "id": "adm-a1-w02-q14",
+      "question": "What is the correct preposition for months? 'My vacation is ______ July.'",
+      "options": ["at", "on", "in", "to"],
+      "answerIndex": 2,
+      "explanation": "We use 'in' for months."
+    },
+    {
+      "id": "adm-a1-w02-q15",
+      "question": "How do you say 12:00 at night?",
+      "options": ["Noon", "Midnight", "Evening", "Early morning"],
+      "answerIndex": 1,
+      "explanation": "12:00 at night is Midnight."
+    },
+    {
+      "id": "adm-a1-w02-q16",
+      "question": "What is 'one thousand five hundred' in numbers?",
+      "options": ["150", "1,050", "1,500", "15,000"],
+      "answerIndex": 2,
+      "explanation": "1,500 is one thousand five hundred."
+    },
+    {
+      "id": "adm-a1-w02-q17",
+      "question": "Which day comes before Friday?",
+      "options": ["Wednesday", "Thursday", "Saturday", "Sunday"],
+      "answerIndex": 1,
+      "explanation": "The order is Wednesday, Thursday, Friday."
+    },
+    {
+      "id": "adm-a1-w02-q18",
+      "question": "How do you say 8:50?",
+      "options": ["Eight fifty", "Ten to nine", "Both A and B", "Eight zero fifty"],
+      "answerIndex": 2,
+      "explanation": "Both 'Eight fifty' and 'Ten to nine' are common ways to say the time."
+    },
+    {
+      "id": "adm-a1-w02-q19",
+      "question": "What is the ordinal number for '2'?",
+      "options": ["Two", "Second", "Two-th", "Twice"],
+      "answerIndex": 1,
+      "explanation": "The ordinal number for 2 is Second (2nd)."
+    },
+    {
+      "id": "adm-a1-w02-q20",
+      "question": "In a formal date (UK), what does 05/10/2023 usually mean?",
       "options": [
-        "A person who works in the bank",
-        "A person who uses bank services",
-        "A type of currency",
-        "A bank building"
+        "May 10th",
+        "October 5th",
+        "October 10th",
+        "May 5th"
       ],
-      "correctAnswer": 1,
-      "explanation": "A customer is a person who buys goods or services from a business."
+      "answerIndex": 1,
+      "explanation": "In UK format (DD/MM/YYYY), 05/10 is the 5th of October."
     }
   ]
 }

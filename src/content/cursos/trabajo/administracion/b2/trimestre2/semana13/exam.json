@@ -70,6 +70,201 @@
       ],
       "answerIndex": 2,
       "explanation": "A post-mortem is a formal analysis conducted after a crisis to improve future responses."
+    },
+    {
+      "id": "adm-b2-w13-exam-6",
+      "type": "multipleChoice",
+      "prompt": "What does 'BAU' stand for?",
+      "options": [
+        "Business Administrative Unit",
+        "Basic Accounting Update",
+        "Business As Usual",
+        "Budget Allocation Usage"
+      ],
+      "answerIndex": 2,
+      "explanation": "BAU refers to the normal day-to-day operations of a company."
+    },
+    {
+      "id": "adm-b2-w13-exam-7",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the passing of information down through levels of an organization?",
+      "options": [
+        "Escalation",
+        "Cascading",
+        "Mitigation",
+        "Redundancy"
+      ],
+      "answerIndex": 1,
+      "explanation": "To cascade information means to pass it from top management down to all staff."
+    },
+    {
+      "id": "adm-b2-w13-exam-8",
+      "type": "multipleChoice",
+      "prompt": "Identify the personal passive: 'The CEO ____ to be considering a merger.'",
+      "options": [
+        "is said",
+        "is saying",
+        "says",
+        "said"
+      ],
+      "answerIndex": 0,
+      "explanation": "The personal passive uses the structure: Subject + is + past participle + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w13-exam-9",
+      "type": "multipleChoice",
+      "prompt": "What is 'redundancy' in an operational context?",
+      "options": [
+        "Firing unnecessary staff",
+        "Repeating the same task twice by mistake",
+        "Having duplicate systems to ensure continuity",
+        "Using too much paper in the office"
+      ],
+      "answerIndex": 2,
+      "explanation": "Redundancy provides a backup system in case the primary one fails."
+    },
+    {
+      "id": "adm-b2-w13-exam-10",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct perfect infinitive: 'The data is thought ____ stolen during the server migration.'",
+      "options": [
+        "to be",
+        "to have been",
+        "having been",
+        "to being"
+      ],
+      "answerIndex": 1,
+      "explanation": "The perfect infinitive (to have been + past participle) is used for past actions in passive structures."
+    },
+    {
+      "id": "adm-b2-w13-exam-11",
+      "type": "multipleChoice",
+      "prompt": "What is 'diversification' of risk?",
+      "options": [
+        "Investing in only one type of technology",
+        "Spreading operations across different locations or providers",
+        "Hiring a diverse workforce",
+        "Changing the company's product line frequently"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diversification reduces the impact if one location or provider fails."
+    },
+    {
+      "id": "adm-b2-w13-exam-12",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is used to introduce a formal announcement?",
+      "options": [
+        "Hey everyone",
+        "Please be advised that",
+        "I wanted to tell you",
+        "Listen up"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Please be advised that' is a standard formal marker in business communication."
+    },
+    {
+      "id": "adm-b2-w13-exam-13",
+      "type": "multipleChoice",
+      "prompt": "What is 'preventative maintenance'?",
+      "options": [
+        "Fixing a machine after it breaks",
+        "Regularly checking equipment to avoid failures",
+        "Buying new equipment every month",
+        "Hiring an external repair company"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preventative maintenance aims to stop problems before they happen."
+    },
+    {
+      "id": "adm-b2-w13-exam-14",
+      "type": "multipleChoice",
+      "prompt": "Complete the reporting passive: 'It is ____ that the company will announce a profit next week.'",
+      "options": [
+        "expected",
+        "expecting",
+        "expects",
+        "to expect"
+      ],
+      "answerIndex": 0,
+      "explanation": "The reporting passive uses the past participle (expected)."
+    },
+    {
+      "id": "adm-b2-w13-exam-15",
+      "type": "multipleChoice",
+      "prompt": "What is a 'tabletop exercise' in BCP?",
+      "options": [
+        "A physical test of all systems",
+        "A discussion-based simulation of a crisis scenario",
+        "Cleaning the office desks",
+        "A meeting to discuss furniture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tabletop exercises allow teams to practice their response in a low-stakes environment."
+    },
+    {
+      "id": "adm-b2-w13-exam-16",
+      "type": "multipleChoice",
+      "prompt": "Identify the 'root cause' of an incident.",
+      "options": [
+        "The first person to report the issue",
+        "The final result of the failure",
+        "The fundamental reason why the incident occurred",
+        "The most expensive part of the fix"
+      ],
+      "answerIndex": 2,
+      "explanation": "The root cause is the underlying issue that must be addressed to prevent recurrence."
+    },
+    {
+      "id": "adm-b2-w13-exam-17",
+      "type": "multipleChoice",
+      "prompt": "What is 'downtime'?",
+      "options": [
+        "The time when the office is closed",
+        "The period when a system or service is unavailable",
+        "The time spent on breaks",
+        "The end of the fiscal year"
+      ],
+      "answerIndex": 1,
+      "explanation": "Downtime is the duration of an operational interruption."
+    },
+    {
+      "id": "adm-b2-w13-exam-18",
+      "type": "multipleChoice",
+      "prompt": "Choose the most professional synonym for 'correct a mistake'.",
+      "options": [
+        "Fix",
+        "Rectify",
+        "Change",
+        "Delete"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Rectify' is the formal term used in business administration."
+    },
+    {
+      "id": "adm-b2-w13-exam-19",
+      "type": "multipleChoice",
+      "prompt": "What is 'cross-training'?",
+      "options": [
+        "Training staff to be angry at customers",
+        "Training employees to perform different roles within the company",
+        "Training staff to use the stairs",
+        "Training for a marathon"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cross-training improves resilience by ensuring multiple people can do a task."
+    },
+    {
+      "id": "adm-b2-w13-exam-20",
+      "type": "multipleChoice",
+      "prompt": "In crisis communication, what does 'Consistency' ensure?",
+      "options": [
+        "That the message is sent every hour",
+        "That all stakeholders receive the same, non-conflicting information",
+        "That the message is very long",
+        "That the message is written in multiple languages"
+      ],
+      "answerIndex": 1,
+      "explanation": "Consistency avoids confusion by ensuring a single, unified message."
     }
   ]
 }

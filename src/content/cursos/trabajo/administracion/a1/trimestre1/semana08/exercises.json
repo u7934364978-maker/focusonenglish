@@ -3,63 +3,823 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana08",
-  "title": "Exercises: Daily Actions",
+  "title": "Exercises: Present Simple Negatives & Questions",
   "items": [
     {
-      "id": "fin-a1-w8-q1",
-      "type": "multipleChoice",
-      "prompt": "What do you do if you need money from your account?",
-      "options": [
-        "I deposit money",
-        "I withdraw money",
-        "I sign a book",
-        "I help a client"
-      ],
+      "id": "adm-a1-w08-ex01",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct negative: 'I ______ work on Saturdays.'",
+      "options": ["not", "don't", "no", "am not"],
       "answerIndex": 1,
-      "explanation": "To 'withdraw' means to take money out of an account."
+      "explanation": "We use 'don't' (do not) for negative sentences in the Present Simple with 'I'."
     },
     {
-      "id": "fin-a1-w8-q2",
-      "type": "multipleChoice",
-      "prompt": "What do you do with a QR code?",
+      "id": "adm-a1-w08-ex02",
+      "type": "multiple-choice",
+      "prompt": "Complete the question: '______ you speak English?'",
+      "options": ["Are", "Do", "Is", "Does"],
+      "answerIndex": 1,
+      "explanation": "We use 'Do' to start a question with 'you' in the Present Simple."
+    },
+    {
+      "id": "adm-a1-w08-ex03",
+      "type": "multiple-choice",
+      "prompt": "Answer the question: 'Do you use Excel?'",
+      "options": ["Yes, I am", "Yes, I use", "Yes, I do", "Yes, I does"],
+      "answerIndex": 2,
+      "explanation": "The short affirmative answer for a 'Do' question is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w08-ex04",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
       "options": [
-        "I sign it",
-        "I withdraw it",
-        "I scan it",
-        "I help it"
+        "We not write reports.",
+        "We no write reports.",
+        "We don't write reports.",
+        "We doesn't write reports."
       ],
       "answerIndex": 2,
-      "explanation": "We use our phone camera to 'scan' a QR code for payments."
+      "explanation": "We use 'don't' with 'we' to form a negative sentence."
     },
     {
-      "id": "fin-a1-w8-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Complete: '___ you transfer money with the app?' 'Yes, I ___.'",
-      "options": [
-        "Do / do",
-        "Does / does",
-        "Are / am",
-        "Is / is"
-      ],
+      "id": "adm-a1-w08-ex05",
+      "type": "multiple-choice",
+      "prompt": "Complete the question: '______ they work in this office?'",
+      "options": ["Is", "Are", "Do", "Does"],
+      "answerIndex": 2,
+      "explanation": "We use 'Do' with 'they' in questions."
+    },
+    {
+      "id": "adm-a1-w08-ex06",
+      "type": "multiple-choice",
+      "prompt": "Negative short answer: 'Do you and Sarah email the clients?'",
+      "options": ["No, we aren't", "No, we don't", "No, they don't", "No, we no"],
+      "answerIndex": 1,
+      "explanation": "The negative short answer for 'we' is 'No, we don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex07",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct negative: 'They ______ need a new laptop.'",
+      "options": ["don't", "not", "no", "doesn't"],
       "answerIndex": 0,
-      "explanation": "We use 'Do' for 'you' and the short answer is 'do'."
+      "explanation": "With 'they', we use 'don't' for the negative."
     },
     {
-      "id": "fin-a1-w8-matching-1",
+      "id": "adm-a1-w08-ex08",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'I ______ like long meetings.'",
+      "options": ["don't", "am not", "no", "not"],
+      "answerIndex": 0,
+      "explanation": "With 'I', we use 'don't' for verbs like 'like'."
+    },
+    {
+      "id": "adm-a1-w08-ex09",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ you have a meeting today?'",
+      "options": ["Are", "Do", "Is", "Have"],
+      "answerIndex": 1,
+      "explanation": "'Do you have...?' is the standard question form."
+    },
+    {
+      "id": "adm-a1-w08-ex10",
+      "type": "multiple-choice",
+      "prompt": "Affirmative short answer: 'Do they speak German?'",
+      "options": ["Yes, they do", "Yes, they are", "Yes, they speak", "Yes, they does"],
+      "answerIndex": 0,
+      "explanation": "With 'they', the short answer is 'Yes, they do'."
+    },
+    {
+      "id": "adm-a1-w08-ex11",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'You ______ need to call the client now.'",
+      "options": ["don't", "not", "no", "isn't"],
+      "answerIndex": 0,
+      "explanation": "With 'you', we use 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex12",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ we have enough paper?'",
+      "options": ["Are", "Do", "Is", "We"],
+      "answerIndex": 1,
+      "explanation": "We use 'Do' to ask a question with 'we'."
+    },
+    {
+      "id": "adm-a1-w08-ex13",
+      "type": "multiple-choice",
+      "prompt": "Negative short answer: 'Do you use a scanner?'",
+      "options": ["No, I am not", "No, I no", "No, I don't", "No, I doesn't"],
+      "answerIndex": 2,
+      "explanation": "Short negative answer for 'I' is 'No, I don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex14",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is negative?",
+      "options": [
+        "I work every day.",
+        "I don't work every day.",
+        "Do I work every day?",
+        "I am working every day."
+      ],
+      "answerIndex": 1,
+      "explanation": "A negative sentence in the Present Simple uses 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex15",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'We ______ organize the files every day.'",
+      "options": ["no", "not", "don't", "doesn't"],
+      "answerIndex": 2,
+      "explanation": "With 'we', the negative is 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex16",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ you want some coffee?'",
+      "options": ["Do", "Are", "Is", "Want"],
+      "answerIndex": 0,
+      "explanation": "Standard question form: 'Do you want...?'"
+    },
+    {
+      "id": "adm-a1-w08-ex17",
+      "type": "multiple-choice",
+      "prompt": "Affirmative short answer: 'Do we have the budget?'",
+      "options": ["Yes, we do", "Yes, we are", "Yes, we have", "Yes, we does"],
+      "answerIndex": 0,
+      "explanation": "Short answer for 'we' is 'Yes, we do'."
+    },
+    {
+      "id": "adm-a1-w08-ex18",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'I ______ understand the instructions.'",
+      "options": ["no", "not", "don't", "am not"],
+      "answerIndex": 2,
+      "explanation": "With 'I', we use 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex19",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ they call the manager on Fridays?'",
+      "options": ["Do", "Are", "Is", "They"],
+      "answerIndex": 0,
+      "explanation": "We use 'Do' for questions with 'they'."
+    },
+    {
+      "id": "adm-a1-w08-ex20",
+      "type": "multiple-choice",
+      "prompt": "Negative short answer: 'Do they work for Google?'",
+      "options": ["No, they aren't", "No, they no", "No, they don't", "No, they doesn't"],
+      "answerIndex": 2,
+      "explanation": "Short negative answer for 'they' is 'No, they don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex21",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'You ______ need to print the report.'",
+      "options": ["no", "not", "don't", "doesn't"],
+      "answerIndex": 2,
+      "explanation": "With 'you', we use 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex22",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ you and I have the same schedule?'",
+      "options": ["Do", "Are", "Is", "We"],
+      "answerIndex": 0,
+      "explanation": "You and I = We, so we use 'Do'."
+    },
+    {
+      "id": "adm-a1-w08-ex23",
+      "type": "multiple-choice",
+      "prompt": "Affirmative short answer: 'Do you live in Madrid?'",
+      "options": ["Yes, I do", "Yes, I am", "Yes, I live", "Yes, I does"],
+      "answerIndex": 0,
+      "explanation": "Short answer for 'you' (singular) is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w08-ex24",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'They ______ send emails after 6:00 PM.'",
+      "options": ["don't", "not", "no", "isn't"],
+      "answerIndex": 0,
+      "explanation": "With 'they', we use 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex25",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ you know the new assistant?'",
+      "options": ["Do", "Are", "Is", "Know"],
+      "answerIndex": 0,
+      "explanation": "Standard question form: 'Do you know...?'"
+    },
+    {
+      "id": "adm-a1-w08-ex26",
+      "type": "multiple-choice",
+      "prompt": "Negative short answer: 'Do we need a break?'",
+      "options": ["No, we aren't", "No, we don't", "No, we doesn't", "No, we no"],
+      "answerIndex": 1,
+      "explanation": "Short negative answer for 'we' is 'No, we don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex27",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'I ______ have a car; I use the bus.'",
+      "options": ["no", "not", "don't", "am not"],
+      "answerIndex": 2,
+      "explanation": "With 'I', the negative of 'have' is 'don't have'."
+    },
+    {
+      "id": "adm-a1-w08-ex28",
+      "type": "multiple-choice",
+      "prompt": "Question: '______ they organize the team building?'",
+      "options": ["Do", "Are", "Is", "Organize"],
+      "answerIndex": 0,
+      "explanation": "We use 'Do' with 'they'."
+    },
+    {
+      "id": "adm-a1-w08-ex29",
+      "type": "multiple-choice",
+      "prompt": "Affirmative short answer: 'Do you need help?'",
+      "options": ["Yes, I do", "Yes, I am", "Yes, I help", "Yes, I does"],
+      "answerIndex": 0,
+      "explanation": "Short answer for 'you' is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w08-ex30",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'We ______ use a scanner for every document.'",
+      "options": ["not", "no", "don't", "doesn't"],
+      "answerIndex": 2,
+      "explanation": "With 'we', we use 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex31",
+      "type": "fill-in-the-blanks",
+      "text": "I [don't] work in the finance department.",
+      "answers": ["don't"],
+      "explanation": "We use 'don't' to make a negative sentence with 'I'."
+    },
+    {
+      "id": "adm-a1-w08-ex32",
+      "type": "fill-in-the-blanks",
+      "text": "[Do] you use a laptop for your presentations?",
+      "answers": ["Do"],
+      "explanation": "We use 'Do' to start a question with 'you'."
+    },
+    {
+      "id": "adm-a1-w08-ex33",
+      "type": "fill-in-the-blanks",
+      "text": "We [don't] have a meeting today.",
+      "answers": ["don't"],
+      "explanation": "We use 'don't' with 'we' for the negative."
+    },
+    {
+      "id": "adm-a1-w08-ex34",
+      "type": "fill-in-the-blanks",
+      "text": "Do they speak English? No, they [don't].",
+      "answers": ["don't"],
+      "explanation": "The short negative answer for 'they' is 'No, they don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex35",
+      "type": "fill-in-the-blanks",
+      "text": "They [don't] call the customers at night.",
+      "answers": ["don't"],
+      "explanation": "With 'they', we use 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex36",
+      "type": "fill-in-the-blanks",
+      "text": "[Do] we need to sign these papers?",
+      "answers": ["Do"],
+      "explanation": "We use 'Do' for questions with 'we'."
+    },
+    {
+      "id": "adm-a1-w08-ex37",
+      "type": "fill-in-the-blanks",
+      "text": "Do you want some water? Yes, I [do].",
+      "answers": ["do"],
+      "explanation": "The short affirmative answer for 'you' is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w08-ex38",
+      "type": "fill-in-the-blanks",
+      "text": "You [don't] understand the new system yet.",
+      "answers": ["don't"],
+      "explanation": "With 'you', we use 'don't' for the negative."
+    },
+    {
+      "id": "adm-a1-w08-ex39",
+      "type": "fill-in-the-blanks",
+      "text": "[Do] they work on Sundays?",
+      "answers": ["Do"],
+      "explanation": "We use 'Do' to start a question with 'they'."
+    },
+    {
+      "id": "adm-a1-w08-ex40",
+      "type": "fill-in-the-blanks",
+      "text": "I [don't] like coffee; I prefer tea.",
+      "answers": ["don't"],
+      "explanation": "With 'I', we use 'don't' for the negative."
+    },
+    {
+      "id": "adm-a1-w08-ex41",
+      "type": "fill-in-the-blanks",
+      "text": "Do we have a break now? No, we [don't].",
+      "answers": ["don't"],
+      "explanation": "Short negative answer for 'we' is 'No, we don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex42",
+      "type": "fill-in-the-blanks",
+      "text": "You [don't] need to answer the phone today.",
+      "answers": ["don't"],
+      "explanation": "With 'you', the negative is 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex43",
+      "type": "fill-in-the-blanks",
+      "text": "[Do] you and your colleague speak Italian?",
+      "answers": ["Do"],
+      "explanation": "You and your colleague = You (plural), so we use 'Do'."
+    },
+    {
+      "id": "adm-a1-w08-ex44",
+      "type": "fill-in-the-blanks",
+      "text": "They [don't] organize the archive every week.",
+      "answers": ["don't"],
+      "explanation": "With 'they', the negative is 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex45",
+      "type": "fill-in-the-blanks",
+      "text": "Do they use a printer? Yes, they [do].",
+      "answers": ["do"],
+      "explanation": "The short affirmative answer for 'they' is 'Yes, they do'."
+    },
+    {
+      "id": "adm-a1-w08-ex46",
       "type": "matching",
-      "prompt": "Match the action with the tool.",
+      "prompt": "Match the question with the correct short answer:",
       "pairs": [
-        {"term": "To transfer", "definition": "Mobile App"},
-        {"term": "To withdraw", "definition": "ATM"},
-        {"term": "To sign", "definition": "Contract"}
-      ]
+        { "term": "Do you work here?", "definition": "Yes, I do." },
+        { "term": "Do they speak English?", "definition": "No, they don't." },
+        { "term": "Do we have time?", "definition": "Yes, we do." },
+        { "term": "Are you a student?", "definition": "No, I'm not." }
+      ],
+      "explanation": "Short answers must match the auxiliary used in the question."
     },
     {
-      "id": "fin-a1-w8-writing-1",
-      "type": "writingTask",
-      "prompt": "Write one thing you do at work. Example: 'I help customers.'",
-      "modelAnswer": "I help customers.",
-      "keywords": ["I", "help"]
+      "id": "adm-a1-w08-ex47",
+      "type": "matching",
+      "prompt": "Match the positive sentence with its negative form:",
+      "pairs": [
+        { "term": "I work on Saturdays.", "definition": "I don't work on Saturdays." },
+        { "term": "They need help.", "definition": "They don't need help." },
+        { "term": "We have a meeting.", "definition": "We don't have a meeting." },
+        { "term": "You use Excel.", "definition": "You don't use Excel." }
+      ],
+      "explanation": "Changing affirmative sentences to negative using 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex48",
+      "type": "matching",
+      "prompt": "Match the question starters with the subjects:",
+      "pairs": [
+        { "term": "Do", "definition": "I / You / We / They" },
+        { "term": "Are", "definition": "You / We / They" },
+        { "term": "Is", "definition": "He / She / It" },
+        { "term": "Am", "definition": "I" }
+      ],
+      "explanation": "Matching auxiliary verbs with their correct pronouns."
+    },
+    {
+      "id": "adm-a1-w08-ex49",
+      "type": "matching",
+      "prompt": "Match the Spanish phrase with the English negative:",
+      "pairs": [
+        { "term": "Ellos no tienen", "definition": "They don't have" },
+        { "term": "Nosotros no usamos", "definition": "We don't use" },
+        { "term": "Tú no trabajas", "definition": "You don't work" },
+        { "term": "Yo no llamo", "definition": "I don't call" }
+      ],
+      "explanation": "Translating basic negative structures from Spanish."
+    },
+    {
+      "id": "adm-a1-w08-ex50",
+      "type": "matching",
+      "prompt": "Match the verbs with their negative counterparts:",
+      "pairs": [
+        { "term": "Call", "definition": "Don't call" },
+        { "term": "Write", "definition": "Don't write" },
+        { "term": "Email", "definition": "Don't email" },
+        { "term": "Send", "definition": "Don't send" }
+      ],
+      "explanation": "Basic imperative or present simple negative forms."
+    },
+    {
+      "id": "adm-a1-w08-ex51",
+      "type": "matching",
+      "prompt": "Match the auxiliary verbs with their use:",
+      "pairs": [
+        { "term": "Do", "definition": "Questions (I/You/We/They)" },
+        { "term": "Don't", "definition": "Negatives (I/You/We/They)" },
+        { "term": "Are", "definition": "Questions with 'be' (You/We/They)" },
+        { "term": "Am not", "definition": "Negatives with 'be' (I)" }
+      ],
+      "explanation": "Differentiating between 'be' and 'do' auxiliaries."
+    },
+    {
+      "id": "adm-a1-w08-ex52",
+      "type": "matching",
+      "prompt": "Match the phrases to make complete questions:",
+      "pairs": [
+        { "term": "Do you", "definition": "need a pen?" },
+        { "term": "Do they", "definition": "work for IBM?" },
+        { "term": "Do we", "definition": "have a break now?" },
+        { "term": "Do I", "definition": "need to sign this?" }
+      ],
+      "explanation": "Building complete interrogative sentences."
+    },
+    {
+      "id": "adm-a1-w08-ex53",
+      "type": "matching",
+      "prompt": "Match the short answers:",
+      "pairs": [
+        { "term": "Yes, I do.", "definition": "Affirmative short answer (I)" },
+        { "term": "No, they don't.", "definition": "Negative short answer (They)" },
+        { "term": "Yes, we do.", "definition": "Affirmative short answer (We)" },
+        { "term": "No, you don't.", "definition": "Negative short answer (You)" }
+      ],
+      "explanation": "Practice with short answers for different subjects."
+    },
+    {
+      "id": "adm-a1-w08-ex54",
+      "type": "matching",
+      "prompt": "Match the spelling:",
+      "pairs": [
+        { "term": "D-O", "definition": "Do" },
+        { "term": "D-O-N-T", "definition": "Don't" },
+        { "term": "N-E-G-A-T-I-V-E", "definition": "Negative" },
+        { "term": "Q-U-E-S-T-I-O-N", "definition": "Question" }
+      ],
+      "explanation": "Spelling reinforcement for key grammar terms."
+    },
+    {
+      "id": "adm-a1-w08-ex55",
+      "type": "matching",
+      "prompt": "Match the office tasks with negatives:",
+      "pairs": [
+        { "term": "Check emails", "definition": "I don't check emails." },
+        { "term": "File documents", "definition": "We don't file documents." },
+        { "term": "Use the phone", "definition": "They don't use the phone." },
+        { "term": "Type reports", "definition": "You don't type reports." }
+      ],
+      "explanation": "Applying negative forms to specific office actions."
+    },
+    {
+      "id": "adm-a1-w08-ex56",
+      "type": "reading-comprehension",
+      "text": "Interviewer: 'Do you speak English?' Applicant: 'Yes, I do. I also speak Spanish.' Interviewer: 'Do you use Microsoft Excel?' Applicant: 'No, I don't. But I use Google Sheets.' Interviewer: 'Do you work on Saturdays?' Applicant: 'No, I don't. I work from Monday to Friday.'",
+      "vocabulary": [
+        { "term": "Applicant", "definition": "A person who applies for a job" },
+        { "term": "Interviewer", "definition": "The person who asks questions in an interview" },
+        { "term": "Excel", "definition": "A spreadsheet program by Microsoft" },
+        { "term": "Google Sheets", "definition": "A web-based spreadsheet program" }
+      ],
+      "questions": [
+        {
+          "prompt": "Does the applicant speak English?",
+          "options": ["Yes, he does", "No, he doesn't", "He only speaks Spanish"],
+          "answerIndex": 0
+        },
+        {
+          "prompt": "Does the applicant use Excel?",
+          "options": ["Yes, he does", "No, he doesn't", "He uses a typewriter"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Does he work on Saturdays?",
+          "options": ["Yes, he does", "No, he doesn't", "Only in the morning"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Understanding negatives and short answers in a job interview context."
+    },
+    {
+      "id": "adm-a1-w08-ex57",
+      "type": "reading-comprehension",
+      "text": "My colleagues and I have a very busy morning. We start at 8:00 AM. We don't have a break until 12:00 PM. We don't drink coffee during work hours. We only drink water. Do we like this? No, we don't. But the boss is very strict.",
+      "vocabulary": [
+        { "term": "Busy", "definition": "Having a lot of work to do" },
+        { "term": "Break", "definition": "A pause in work for rest" },
+        { "term": "During", "definition": "Throughout the duration of an event" },
+        { "term": "Strict", "definition": "Demanding that rules are obeyed" }
+      ],
+      "questions": [
+        {
+          "prompt": "When is their first break?",
+          "options": ["8:00 AM", "10:00 AM", "12:00 PM"],
+          "answerIndex": 2
+        },
+        {
+          "prompt": "Do they drink coffee at work?",
+          "options": ["Yes, they do", "No, they don't", "Only on Fridays"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Do they like the rules?",
+          "options": ["Yes, they do", "No, they don't", "They don't care"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Analyzing work routines and expressed preferences using negatives."
+    },
+    {
+      "id": "adm-a1-w08-ex58",
+      "type": "reading-comprehension",
+      "text": "The new office in London is very modern. They don't use desktop computers; they use laptops. They don't have individual desks; they have shared tables. Do they have a cafeteria? Yes, they do. It is on the top floor.",
+      "vocabulary": [
+        { "term": "Modern", "definition": "Characterized by current styles or methods" },
+        { "term": "Desktop", "definition": "A computer designed for use at a desk" },
+        { "term": "Shared", "definition": "Used by more than one person" },
+        { "term": "Cafeteria", "definition": "A restaurant in an office or school" }
+      ],
+      "questions": [
+        {
+          "prompt": "Do they use desktop computers?",
+          "options": ["Yes, they do", "No, they don't", "Only the managers"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Where is the cafeteria?",
+          "options": ["On the ground floor", "On the top floor", "In the basement"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Describing office equipment and facilities using negative comparisons."
+    },
+    {
+      "id": "adm-a1-w08-ex59",
+      "type": "reading-comprehension",
+      "text": "I work for a small company. We don't have many employees. We only have five people. We don't have a big office, but it is comfortable. Do we work hard? Yes, we do. We send many emails and call many clients every day.",
+      "vocabulary": [
+        { "term": "Employees", "definition": "People who work for a company" },
+        { "term": "Comfortable", "definition": "Providing physical ease and relaxation" },
+        { "term": "Hard", "definition": "With a great deal of effort" }
+      ],
+      "questions": [
+        {
+          "prompt": "Is the company big?",
+          "options": ["Yes, it is", "No, it isn't", "It has 100 employees"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Do they work hard?",
+          "options": ["No, they don't", "Yes, they do", "Only on Mondays"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Understanding company descriptions and work intensity."
+    },
+    {
+      "id": "adm-a1-w08-ex60",
+      "type": "reading-comprehension",
+      "text": "Do you and your team use Slack? No, we don't. We use Microsoft Teams. We don't like Slack because it is difficult for us. We use Teams to chat and have video calls. It is very useful for our daily tasks.",
+      "vocabulary": [
+        { "term": "Slack", "definition": "A messaging program for teams" },
+        { "term": "Microsoft Teams", "definition": "A collaboration and communication platform" },
+        { "term": "Difficult", "definition": "Not easy to do or understand" },
+        { "term": "Useful", "definition": "Able to be used for a practical purpose" }
+      ],
+      "questions": [
+        {
+          "prompt": "Do they use Slack?",
+          "options": ["Yes, they do", "No, they don't", "They use WhatsApp"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Why don't they like Slack?",
+          "options": ["It is expensive", "It is difficult", "It is slow"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Discussing software preferences and tool utility."
+    },
+    {
+      "id": "adm-a1-w08-ex61",
+      "type": "reading-comprehension",
+      "text": "They don't have a meeting today because the manager is sick. Do they work from home? No, they don't. They are in the office. They write reports and check the archive. They don't have much to do, so it is a quiet day.",
+      "vocabulary": [
+        { "term": "Sick", "definition": "Affected by physical or mental illness" },
+        { "term": "Archive", "definition": "A collection of historical documents or records" },
+        { "term": "Quiet", "definition": "Making little or no noise; peaceful" }
+      ],
+      "questions": [
+        {
+          "prompt": "Why don't they have a meeting?",
+          "options": ["It is a holiday", "The manager is sick", "They forgot"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Are they working from home?",
+          "options": ["Yes, they are", "No, they aren't", "Only some of them"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Interpreting reasons for changes in schedule and work location."
+    },
+    {
+      "id": "adm-a1-w08-ex62",
+      "type": "reading-comprehension",
+      "text": "Do you need a new passport? I don't know. My passport is old. I don't use it very often. I don't travel for work, I only travel for holidays. Do I need to check the date? Yes, I do. It is important for my trip to Italy.",
+      "vocabulary": [
+        { "term": "Passport", "definition": "An official document for international travel" },
+        { "term": "Travel", "definition": "Make a journey, typically of some length" },
+        { "term": "Holidays", "definition": "A period of leisure and recreation" },
+        { "term": "Date", "definition": "The day of the month or year" }
+      ],
+      "questions": [
+        {
+          "prompt": "Does the person travel for work?",
+          "options": ["Yes, very often", "No, they don't", "Every month"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Do they need to check the date on the passport?",
+          "options": ["No, it's not important", "Yes, they do", "Maybe later"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Discussing travel requirements and personal habits."
+    },
+    {
+      "id": "adm-a1-w08-ex63",
+      "type": "reading-comprehension",
+      "text": "We are in the training room. We don't use our phones during the training. We listen to the instructor. Do we take notes? Yes, we do. We use a notebook and a pen. We don't use our laptops because we need to focus.",
+      "vocabulary": [
+        { "term": "Training room", "definition": "A room for teaching skills or knowledge" },
+        { "term": "Instructor", "definition": "A person who teaches something" },
+        { "term": "Focus", "definition": "Pay particular attention to something" },
+        { "term": "Take notes", "definition": "Write down important information" }
+      ],
+      "questions": [
+        {
+          "prompt": "Do they use phones during training?",
+          "options": ["Yes, they do", "No, they don't", "Only for photos"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Do they take notes?",
+          "options": ["No, they don't", "Yes, they do", "Only with a laptop"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Understanding rules and learning methods in a training session."
+    },
+    {
+      "id": "adm-a1-w08-ex64",
+      "type": "reading-comprehension",
+      "text": "The receptionists don't work at night. The hotel is closed after 11:00 PM. Do they answer the phone? No, they don't. There is an automatic message. They start work again at 7:00 AM. They don't have many tasks in the morning.",
+      "vocabulary": [
+        { "term": "Receptionists", "definition": "People who greet visitors in a hotel or office" },
+        { "term": "Automatic message", "definition": "A pre-recorded response" },
+        { "term": "Tasks", "definition": "Pieces of work to be done" }
+      ],
+      "questions": [
+        {
+          "prompt": "Do the receptionists work at night?",
+          "options": ["Yes, they do", "No, they don't", "Only one of them"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Do they answer the phone after 11:00 PM?",
+          "options": ["Yes, they do", "No, they don't", "Only if it's urgent"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Interpreting information about work hours and automated systems."
+    },
+    {
+      "id": "adm-a1-w08-ex65",
+      "type": "reading-comprehension",
+      "text": "Do you have the new software? No, I don't. My computer is old and I don't have enough memory. I don't use the new features. Do I need a new computer? Yes, I do. I need to talk to the IT department today.",
+      "vocabulary": [
+        { "term": "Software", "definition": "The programs used by a computer" },
+        { "term": "Memory", "definition": "The data storage capacity of a computer" },
+        { "term": "Features", "definition": "Specific functions or characteristics" },
+        { "term": "IT department", "definition": "The group that manages technology in a company" }
+      ],
+      "questions": [
+        {
+          "prompt": "Does the person have the new software?",
+          "options": ["Yes, they do", "No, they don't", "They are installing it"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Why don't they have the software?",
+          "options": ["They don't like it", "The computer is old", "They don't need it"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Understanding technical limitations and the need for upgrades."
+    },
+    {
+      "id": "adm-a1-w08-ex66",
+      "type": "writing",
+      "prompt": "Translate into English: 'Yo no uso Excel.'",
+      "modelAnswer": "I don't use Excel.",
+      "explanation": "Negative sentence with 'I'."
+    },
+    {
+      "id": "adm-a1-w08-ex67",
+      "type": "writing",
+      "prompt": "Form a question with 'You' and 'speak Spanish'.",
+      "modelAnswer": "Do you speak Spanish?",
+      "explanation": "Question structure: 'Do' + subject + verb."
+    },
+    {
+      "id": "adm-a1-w08-ex68",
+      "type": "writing",
+      "prompt": "Translate into English: 'Nosotros no trabajamos hoy.'",
+      "modelAnswer": "We don't work today.",
+      "explanation": "Negative sentence with 'We'."
+    },
+    {
+      "id": "adm-a1-w08-ex69",
+      "type": "writing",
+      "prompt": "Correct this sentence: 'They no call the manager.'",
+      "modelAnswer": "They don't call the manager.",
+      "explanation": "Replacing 'no' with the correct auxiliary 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-ex70",
+      "type": "writing",
+      "prompt": "Translate into English: '¿Tienes una reunión?'",
+      "modelAnswer": "Do you have a meeting?",
+      "explanation": "Question structure with 'have'."
+    },
+    {
+      "id": "adm-a1-w08-ex71",
+      "type": "writing",
+      "prompt": "Write the short negative answer for 'Do you need help?'.",
+      "modelAnswer": "No, I don't.",
+      "explanation": "Short negative answer for 'you' (asking about 'I')."
+    },
+    {
+      "id": "adm-a1-w08-ex72",
+      "type": "writing",
+      "prompt": "Translate into English: '¿Ellos usan el escáner?'",
+      "modelAnswer": "Do they use the scanner?",
+      "explanation": "Question structure with 'they'."
+    },
+    {
+      "id": "adm-a1-w08-ex73",
+      "type": "listening",
+      "title": "Weekend Schedule",
+      "transcript": "Do you work on Saturdays, Mike? No, I don't. My team and I don't work on weekends. We only work from Monday to Friday.",
+      "questions": [
+        {
+          "question": "Does Mike work on Saturdays?",
+          "options": ["Yes, he does", "No, he doesn't", "Only sometimes"],
+          "answerIndex": 1,
+          "explanation": "Mike says: 'No, I don't' when asked about working on Saturdays."
+        }
+      ],
+      "explanation": "Listening for negative responses and specific time information."
+    },
+    {
+      "id": "adm-a1-w08-ex74",
+      "type": "listening",
+      "title": "Missing Reports",
+      "transcript": "Do we have the reports for the meeting? No, we don't. The assistants don't have them ready yet. They need more time.",
+      "questions": [
+        {
+          "question": "Are the reports ready?",
+          "options": ["Yes, they are", "No, they aren't", "Only the first one"],
+          "answerIndex": 1,
+          "explanation": "The speaker says: 'No, we don't' and 'the assistants don't have them ready'."
+        }
+      ],
+      "explanation": "Understanding status updates and missing items in a conversation."
+    },
+    {
+      "id": "adm-a1-w08-ex75",
+      "type": "listening",
+      "title": "A Quick Question",
+      "transcript": "Do you like long meetings? No, I don't. I don't like meetings at all. They are very slow.",
+      "questions": [
+        {
+          "question": "Does the speaker like meetings?",
+          "options": ["Yes, very much", "No, not at all", "Only short ones"],
+          "answerIndex": 1,
+          "explanation": "The speaker says: 'No, I don't. I don't like meetings at all'."
+        }
+      ],
+      "explanation": "Identifying personal preferences and opinions through negative statements."
     }
   ]
 }

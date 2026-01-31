@@ -452,9 +452,273 @@
       "id": "adm-b2-w3-ex45",
       "type": "writingTask",
       "title": "Exercise 45: Weekly Review - GDPR & Compliance",
-      "prompt": "Summarize the main sections covered this week (GDPR Principles, Data Breaches, DPIA & Cyber Hygiene) in 60-80 words.",
+      "prompt": "Summarize the main topics of this week (GDPR Principles, Data Breaches, DPIA & Cyber Hygiene) in 60-80 words.",
       "modelAnswer": "This week provided a comprehensive overview of GDPR, focusing on core principles like data minimisation and storage limitation. We explored the critical protocols for handling data breaches within 72 hours and the objective use of complex passives in official reporting. Additionally, we analyzed the importance of DPIAs for new technologies and practical cyber hygiene practices, ensuring administrative compliance and safeguarding sensitive PII in the workplace.",
       "keywords": ["GDPR", "breaches", "DPIA", "hygiene", "compliance"]
+    },
+    {
+      "id": "adm-b2-w3-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Privacy Vocabulary. Which term refers to 'removing identifying markers so data is no longer PII'?",
+      "options": ["Redaction", "Anonymisation", "Encryption", "Phishing"],
+      "answerIndex": 1,
+      "explanation": "Anonymisation makes data non-identifiable, so it's no longer considered PII."
+    },
+    {
+      "id": "adm-b2-w3-ex47",
+      "type": "multipleChoice",
+      "prompt": "Exercise 47: GDPR Roles. The organisation that determines the 'purpose and means' of processing is the:",
+      "options": ["Data Processor", "Data Subject", "Data Controller", "Data Regulator"],
+      "answerIndex": 2,
+      "explanation": "The Data Controller is the entity in charge of deciding why and how data is processed."
+    },
+    {
+      "id": "adm-b2-w3-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Subject Access Rights. Under GDPR, individuals have the 'right to be forgotten', which is also known as the:",
+      "options": ["Right to access", "Right to erasure", "Right to rectification", "Right to portability"],
+      "answerIndex": 1,
+      "explanation": "The right to erasure allows individuals to request the deletion of their personal data."
+    },
+    {
+      "id": "adm-b2-w3-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Complex Passive Conversion. Rewrite: 'People believe the system is secure.' using a complex passive.",
+      "modelAnswer": "The system is believed to be secure.",
+      "keywords": ["believed", "to be"]
+    },
+    {
+      "id": "adm-b2-w3-ex50",
+      "type": "writingTask",
+      "prompt": "Exercise 50: Complex Passive Conversion. Rewrite: 'Experts report that the data was encrypted.' using 'It is reported that...'.",
+      "modelAnswer": "It is reported that the data was encrypted.",
+      "keywords": ["reported", "that", "encrypted"]
+    },
+    {
+      "id": "adm-b2-w3-ex51",
+      "type": "multipleChoice",
+      "prompt": "Exercise 51: Cyber Hygiene. What is 'Phishing'?",
+      "options": [
+        "A way to catch data errors.",
+        "A fraudulent attempt to obtain sensitive info via email.",
+        "A method of storing data in the cloud.",
+        "A specific type of data encryption."
+      ],
+      "answerIndex": 1,
+      "explanation": "Phishing involves deceptive emails that trick users into revealing sensitive information."
+    },
+    {
+      "id": "adm-b2-w3-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Cyber Hygiene. Why is a 'Clear Desk Policy' important?",
+      "options": [
+        "To make the office look more spacious.",
+        "To prevent unauthorized people from seeing sensitive PII.",
+        "To save money on stationery.",
+        "To help cleaners work faster."
+      ],
+      "answerIndex": 1,
+      "explanation": "Clear desk policies minimize the risk of accidental data disclosure to passers-by."
+    },
+    {
+      "id": "adm-b2-w3-ex53",
+      "type": "writingTask",
+      "prompt": "Exercise 53: Data Breach Response. You accidentally BCC'd 50 clients instead of CC'ing them (so they can see each other's emails). What is your first 'Containment' step?",
+      "modelAnswer": "Immediately send a follow-up email asking clients to delete the previous message and ignore the visible email addresses.",
+      "keywords": ["delete", "ignore", "visible"]
+    },
+    {
+      "id": "adm-b2-w3-ex54",
+      "type": "multipleChoice",
+      "prompt": "Exercise 54: DPIA. Which of these is NOT one of the 4 key steps of a DPIA?",
+      "options": ["Describe", "Assess", "Identify Risks", "Delete Data"],
+      "answerIndex": 3,
+      "explanation": "The 4 steps are: Describe, Assess, Identify Risks, and Mitigate."
+    },
+    {
+      "id": "adm-b2-w3-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: Purpose Limitation. If you collect email addresses for a 'Newsletter', can you use them to sell the data to a third party without consent?",
+      "options": ["Yes, because you already have the data.", "No, because of Purpose Limitation.", "Only if the boss says yes.", "Yes, if it makes the company money."],
+      "answerIndex": 1,
+      "explanation": "Purpose Limitation means data can only be used for the specific reason it was collected."
+    },
+    {
+      "id": "adm-b2-w3-ex56",
+      "type": "reading-comprehension",
+      "title": "Exercise 56: Case Study - The Lost Laptop",
+      "text": "Scenario: An administrative assistant leaves their unencrypted company laptop on a train. The laptop contains a spreadsheet with the names and salary details of the entire sales team.\n\nTask: Identify the breach type and the immediate priority.",
+      "questions": [
+        {
+          "question": "What kind of data has been lost?",
+          "options": ["Non-sensitive company data", "Personally Identifiable Information (PII)", "Only the assistant's personal photos"],
+          "answerIndex": 1,
+          "explanation": "Names and salary details are PII."
+        },
+        {
+          "question": "What is the immediate priority for the IT department?",
+          "options": ["Buy a new laptop", "Remotely wipe the device (if possible) and disable all account access", "Report the assistant to HR"],
+          "answerIndex": 1,
+          "explanation": "Containment (wiping/disabling access) is the immediate priority to prevent data access."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w3-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Passive Reporting. Write an objective sentence about the laptop incident in Exercise 56 using a complex passive.",
+      "modelAnswer": "The laptop is believed to have contained sensitive salary information for several employees.",
+      "keywords": ["believed", "to have", "contained", "sensitive"]
+    },
+    {
+      "id": "adm-b2-w3-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Storage Limitation. How long should an organisation keep a candidate's CV after the recruitment process is finished?",
+      "options": ["Forever", "Only as long as is necessary for the purposes for which it was processed", "10 years", "It should be deleted immediately after the interview"],
+      "answerIndex": 1,
+      "explanation": "GDPR requires that data is not kept longer than necessary (Storage Limitation)."
+    },
+    {
+      "id": "adm-b2-w3-ex59",
+      "type": "multipleChoice",
+      "prompt": "Exercise 59: Integrity and Confidentiality. This principle is mainly about:",
+      "options": ["Accuracy of data", "Security and protection against unauthorized processing", "Speed of processing", "The number of people who have access"],
+      "answerIndex": 1,
+      "explanation": "This principle focuses on the security aspect of data protection."
+    },
+    {
+      "id": "adm-b2-w3-ex60",
+      "type": "writingTask",
+      "prompt": "Exercise 60: Vocabulary in Context. Use 'redact' and 'third-party' in a sentence.",
+      "modelAnswer": "We must redact all PII from the report before sharing it with any third-party vendor.",
+      "keywords": ["redact", "third-party"]
+    },
+    {
+      "id": "adm-b2-w3-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: SAR Procedures. Before releasing data for a SAR, what is the most important first step?",
+      "options": ["Charge a fee.", "Verify the identity of the requester.", "Ask why they want the data.", "Delete any negative comments."],
+      "answerIndex": 1,
+      "explanation": "Identity verification is crucial to ensure data is not released to the wrong person."
+    },
+    {
+      "id": "adm-b2-w3-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Lawfulness. 'Processing' data includes:",
+      "options": ["Only deleting it.", "Only reading it.", "Any operation performed on data (collecting, recording, storing, etc.).", "Only sending it via email."],
+      "answerIndex": 2,
+      "explanation": "Processing is a very broad term covering almost anything done with data."
+    },
+    {
+      "id": "adm-b2-w3-ex63",
+      "type": "writingTask",
+      "prompt": "Exercise 63: Complex Passives. Complete: 'It is expected ___ (compliance) will improve next year.'",
+      "modelAnswer": "It is expected that compliance will improve next year.",
+      "keywords": ["expected", "that"]
+    },
+    {
+      "id": "adm-b2-w3-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Cyber Hygiene. Which of these is a 'Secure Disposal' method for sensitive paper documents?",
+      "options": ["Putting them in the recycling bin.", "Throwing them in the general waste.", "Using a cross-cut shredder.", "Leaving them on the desk for the cleaner."],
+      "answerIndex": 2,
+      "explanation": "Cross-cut shredding is a secure way to destroy physical documents containing PII."
+    },
+    {
+      "id": "adm-b2-w3-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: DPIA Triggers. When is a DPIA 'Mandatory'?",
+      "options": [
+        "For every single project.",
+        "When processing is likely to result in a high risk to individuals.",
+        "Only if the company has over 1000 employees.",
+        "Only for financial data."
+      ],
+      "answerIndex": 1,
+      "explanation": "A DPIA is required for high-risk processing (e.g., new tech, large-scale sensitive data)."
+    },
+    {
+      "id": "adm-b2-w3-ex66",
+      "type": "writingTask",
+      "prompt": "Exercise 66: RolePlay Prep. List 3 questions an administrator should ask during a SAR intake call.",
+      "modelAnswer": "1. Could you please confirm your full name? 2. Can you provide a copy of your ID for verification? 3. What specific data or timeframe are you interested in?",
+      "keywords": ["name", "ID", "verification", "timeframe"]
+    },
+    {
+      "id": "adm-b2-w3-ex67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: GDPR Rights. The right to know how your data is being used is the principle of:",
+      "options": ["Storage Limitation", "Transparency", "Integrity", "Minimisation"],
+      "answerIndex": 1,
+      "explanation": "Transparency requires that individuals are informed about how their data is used."
+    },
+    {
+      "id": "adm-b2-w3-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: Neutral Tone. Rewrite: 'I think the hacker got into the database through a weak password.' using a complex passive.",
+      "modelAnswer": "It is believed that the database was accessed due to a weak password.",
+      "keywords": ["believed", "accessed", "password"]
+    },
+    {
+      "id": "adm-b2-w3-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Data Minimisation. If a gym only needs your name to book a class, should they ask for your medical history by default?",
+      "options": ["Yes, just in case.", "No, that would violate data minimisation.", "Yes, if they want to be helpful.", "Only if you are a new member."],
+      "answerIndex": 1,
+      "explanation": "Medical history is sensitive data and should only be collected if absolutely necessary."
+    },
+    {
+      "id": "adm-b2-w3-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: SAR Response. Write a 1-sentence response to an impatient SAR requester who wants their data 'now'.",
+      "modelAnswer": "While we process your request as a priority, please note that we have a legal timeframe of 30 days to collate and verify the information.",
+      "keywords": ["30 days", "collate", "verify"]
+    },
+    {
+      "id": "adm-b2-w3-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Operational Term. A 'Security Breach' that involves personal data is specifically called a:",
+      "options": ["System error", "Data breach", "Software bug", "Network lag"],
+      "answerIndex": 1,
+      "explanation": "A data breach is a security incident involving personal data."
+    },
+    {
+      "id": "adm-b2-w3-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: GDPR Fines. Fines for serious GDPR violations can be up to:",
+      "options": ["£1,000", "£100,000", "€20 million or 4% of global turnover", "There are no fines, only warnings"],
+      "answerIndex": 2,
+      "explanation": "GDPR fines can be extremely high, reaching up to €20 million or 4% of turnover."
+    },
+    {
+      "id": "adm-b2-w3-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: Definitions. Define 'Data Processor' in your own words.",
+      "modelAnswer": "A data processor is a third party or individual who handles personal data on behalf of and under the instructions of a data controller.",
+      "keywords": ["third party", "behalf", "instructions", "controller"]
+    },
+    {
+      "id": "adm-b2-w3-ex74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Encryption. Why is encryption useful for mobile devices?",
+      "options": [
+        "It makes the battery last longer.",
+        "It protects data even if the device is lost or stolen.",
+        "It makes the device faster.",
+        "It allows you to use more apps."
+      ],
+      "answerIndex": 1,
+      "explanation": "Encryption ensures that even if a device is stolen, the data remains unreadable without the key."
+    },
+    {
+      "id": "adm-b2-w3-ex75",
+      "type": "writingTask",
+      "title": "Exercise 75: Final Review - Trimester 1, Week 3",
+      "prompt": "List the three criteria mentioned in the theory for when a DPIA is required.",
+      "modelAnswer": "1. When using new technologies. 2. Large-scale processing of sensitive data. 3. Systematic monitoring of a public area (CCTV).",
+      "keywords": ["new technologies", "sensitive data", "public area", "CCTV"]
     }
+  ]
+}
   ]
 }

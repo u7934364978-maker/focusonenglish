@@ -1,44 +1,44 @@
 [
   {
-    "id": 1,
+    "id": "adm-a2-w22-ex01",
     "type": "multiple-choice",
     "question": "What is a 'job interview'?",
     "options": ["A meeting to find a new employee", "A party", "A holiday trip", "A bank loan"],
     "correctAnswer": 0,
-    "explanation": "A job interview is a formal meeting in which an applicant is asked questions to determine their suitability for a job."
+    "explanation": "Una entrevista de trabajo es una reunión formal en la que se hacen preguntas a un solicitante para determinar su idoneidad para un puesto."
   },
   {
-    "id": 2,
+    "id": "adm-a2-w22-ex02",
     "type": "fill-in-the-blank",
     "question": "I ___________ (have/has) worked in finance for five years.",
     "correctAnswer": "have",
-    "explanation": "We use 'have' with the pronoun 'I' in the Present Perfect."
+    "explanation": "Usamos 'have' con el pronombre 'I' en el Present Perfect."
   },
   {
-    "id": 3,
+    "id": "adm-a2-w22-ex03",
     "type": "multiple-choice",
     "question": "A 'branch' of a bank is:",
     "options": ["A part of a tree", "A local office of the bank", "The main headquarters", "A type of credit card"],
     "correctAnswer": 1,
-    "explanation": "In banking, a branch is a location that offers services to customers."
+    "explanation": "En banca, una 'branch' es una sucursal u oficina local que ofrece servicios a los clientes."
   },
   {
-    "id": 4,
+    "id": "adm-a2-w22-ex04",
     "type": "fill-in-the-blank",
     "question": "She ___________ (have/has) already finished the report.",
     "correctAnswer": "has",
-    "explanation": "We use 'has' with the pronoun 'She' in the Present Perfect."
+    "explanation": "Usamos 'has' con la tercera persona del singular ('She') en el Present Perfect."
   },
   {
-    "id": 5,
+    "id": "adm-a2-w22-ex05",
     "type": "multiple-choice",
     "question": "What does 'skills' mean?",
     "options": ["Old tools", "Things you can do well", "A list of prices", "The time you go home"],
     "correctAnswer": 1,
-    "explanation": "Skills are the abilities or expertise needed to do a job."
+    "explanation": "Las 'skills' son las habilidades o competencias necesarias para realizar un trabajo."
   },
   {
-    "id": 6,
+    "id": "adm-a2-w22-ex06",
     "type": "matching",
     "question": "Match the office terms:",
     "pairs": [
@@ -48,150 +48,150 @@
     ]
   },
   {
-    "id": 7,
+    "id": "adm-a2-w22-ex07",
     "type": "multiple-choice",
     "question": "To have 'experience' means you have:",
     "options": ["Done the job before", "Never worked", "No education", "A lot of money"],
     "correctAnswer": 0,
-    "explanation": "Experience is knowledge or skill gained through doing something."
+    "explanation": "La experiencia es el conocimiento o la habilidad obtenida al realizar algo previamente."
   },
   {
-    "id": 8,
+    "id": "adm-a2-w22-ex08",
     "type": "fill-in-the-blank",
     "question": "Have you ___________ (be) to the new branch yet?",
     "correctAnswer": "been",
-    "explanation": "'Been' is the past participle of the verb 'to be'."
+    "explanation": "'Been' es el participio pasado del verbo 'to be'."
   },
   {
-    "id": 9,
+    "id": "adm-a2-w22-ex09",
     "type": "multiple-choice",
     "question": "What is a 'deadline'?",
     "options": ["A type of phone line", "The time when something must be finished", "A meeting room", "A bank manager's name"],
     "correctAnswer": 1,
-    "explanation": "A deadline is the latest time or date by which something should be completed."
+    "explanation": "Un 'deadline' es la fecha o hora límite para completar una tarea."
   },
   {
-    "id": 10,
+    "id": "adm-a2-w22-ex10",
     "type": "fill-in-the-blank",
     "question": "I haven't sent the email ___________ (yet/already).",
     "correctAnswer": "yet",
-    "explanation": "We use 'yet' in negative sentences and questions."
+    "explanation": "Usamos 'yet' al final de oraciones negativas y preguntas para significar 'todavía' o 'aún'."
   },
   {
-    "id": 11,
+    "id": "adm-a2-w22-ex11",
     "type": "multiple-choice",
     "question": "Where is the 'HQ' (Headquarters)?",
     "options": ["In every small town", "The central and most important office", "Inside an ATM", "On a credit card"],
     "correctAnswer": 1,
-    "explanation": "HQ stands for headquarters, the main office of an organization."
+    "explanation": "HQ son las siglas de 'Headquarters', que significa la oficina central o sede principal."
   },
   {
-    "id": 12,
+    "id": "adm-a2-w22-ex12",
     "type": "fill-in-the-blank",
     "question": "He has ___________ (just/yet) arrived at the office.",
     "correctAnswer": "just",
-    "explanation": "We use 'just' to talk about something that happened a very short time ago."
+    "explanation": "Usamos 'just' para indicar que algo acaba de suceder hace muy poco tiempo."
   },
   {
-    "id": 13,
+    "id": "adm-a2-w22-ex13",
     "type": "multiple-choice",
     "question": "What is a 'CV' or 'Résumé'?",
     "options": ["A type of computer", "A document with your work history", "A bank statement", "A security code"],
     "correctAnswer": 1,
-    "explanation": "A CV (Curriculum Vitae) or résumé summarizes your education and work experience."
+    "explanation": "Un CV o 'résumé' es un documento que resume tu historial laboral y formación."
   },
   {
-    "id": 14,
+    "id": "adm-a2-w22-ex14",
     "type": "fill-in-the-blank",
     "question": "We have ___________ (see) the new candidate.",
     "correctAnswer": "seen",
-    "explanation": "'Seen' is the past participle of 'see'."
+    "explanation": "'Seen' es el participio pasado del verbo irregular 'see' (ver)."
   },
   {
-    "id": 15,
+    "id": "adm-a2-w22-ex15",
     "type": "multiple-choice",
     "question": "If you are 'promoted', you get:",
     "options": ["A higher position and more responsibility", "Fired", "A lower salary", "A new computer only"],
     "correctAnswer": 0,
-    "explanation": "Promotion is moving to a more important role in a company."
+    "explanation": "Una promoción ('promotion') es el ascenso a un puesto más importante en una empresa."
   },
   {
-    "id": 16,
+    "id": "adm-a2-w22-ex16",
     "type": "fill-in-the-blank",
     "question": "I have ___________ (send) ten applications this week.",
     "correctAnswer": "sent",
-    "explanation": "'Sent' is the past participle of 'send'."
+    "explanation": "'Sent' es el participio pasado del verbo irregular 'send' (enviar)."
   },
   {
-    "id": 17,
+    "id": "adm-a2-w22-ex17",
     "type": "multiple-choice",
     "question": "What is 'onboarding'?",
     "options": ["Getting on a boat", "The process of starting a new job", "Closing a bank account", "Paying a fee"],
     "correctAnswer": 1,
-    "explanation": "Onboarding is the integration of a new employee into a company."
+    "explanation": "El 'onboarding' es el proceso de integración de un nuevo empleado en una organización."
   },
   {
-    "id": 18,
+    "id": "adm-a2-w22-ex18",
     "type": "fill-in-the-blank",
     "question": "They ___________ (have/has) lived in London for two years.",
     "correctAnswer": "have",
-    "explanation": "We use 'have' with 'They'."
+    "explanation": "Usamos 'have' con el pronombre 'They' en el Present Perfect."
   },
   {
-    "id": 19,
+    "id": "adm-a2-w22-ex19",
     "type": "multiple-choice",
     "question": "To 'apply' for a job means:",
     "options": ["To quit the job", "To ask for the job formally", "To fire someone", "To go on holiday"],
     "correctAnswer": 1,
-    "explanation": "Applying is the act of formally requesting to be considered for a position."
+    "explanation": "Solicitar ('apply') un trabajo significa pedirlo formalmente mediante una solicitud o CV."
   },
   {
-    "id": 20,
+    "id": "adm-a2-w22-ex20",
     "type": "fill-in-the-blank",
     "question": "She has ___________ (write) a new policy.",
     "correctAnswer": "written",
-    "explanation": "'Written' is the past participle of 'write'."
+    "explanation": "'Written' es el participio pasado del verbo irregular 'write' (escribir)."
   },
   {
-    "id": 21,
+    "id": "adm-a2-w22-ex21",
     "type": "multiple-choice",
     "question": "What is a 'salary'?",
     "options": ["A type of food", "The money you earn for working", "A bank's name", "A professional skill"],
     "correctAnswer": 1,
-    "explanation": "Salary is a fixed regular payment made by an employer to an employee."
+    "explanation": "El salario es la remuneración económica fija que recibe un trabajador por su labor."
   },
   {
-    "id": 22,
+    "id": "adm-a2-w22-ex22",
     "type": "fill-in-the-blank",
     "question": "Have you ___________ (meet) the new manager?",
     "correctAnswer": "met",
-    "explanation": "'Met' is the past participle of 'meet'."
+    "explanation": "'Met' es el participio pasado del verbo irregular 'meet' (conocer/reunirse)."
   },
   {
-    "id": 23,
+    "id": "adm-a2-w22-ex23",
     "type": "multiple-choice",
     "question": "If someone is 'unemployed', they:",
     "options": ["Work a lot", "Don't have a job", "Are very rich", "Work in a bank"],
     "correctAnswer": 1,
-    "explanation": "Unemployed means without a job."
+    "explanation": "'Unemployed' significa que la persona no tiene empleo o está en paro."
   },
   {
-    "id": 24,
+    "id": "adm-a2-w22-ex24",
     "type": "fill-in-the-blank",
     "question": "He ___________ (hasn't/haven't) finished the task yet.",
     "correctAnswer": "hasn't",
-    "explanation": "Negative form for 'He'."
+    "explanation": "Usamos 'hasn't' (has not) para la forma negativa en tercera persona del singular."
   },
   {
-    "id": 25,
+    "id": "adm-a2-w22-ex25",
     "type": "multiple-choice",
     "question": "What does 'teamwork' mean?",
     "options": ["Working alone", "Working together with others", "Playing football", "Cleaning the office"],
     "correctAnswer": 1,
-    "explanation": "Teamwork is the collaborative effort of a group to achieve a common goal."
+    "explanation": "El trabajo en equipo ('teamwork') es el esfuerzo coordinado de un grupo para lograr un objetivo común."
   },
   {
-    "id": 26,
+    "id": "adm-a2-w22-ex26",
     "type": "matching",
     "question": "Match the verb forms (Present -> Participle):",
     "pairs": [
@@ -201,150 +201,150 @@
     ]
   },
   {
-    "id": 27,
+    "id": "adm-a2-w22-ex27",
     "type": "multiple-choice",
     "question": "What is an 'appraisal' or 'performance review'?",
     "options": ["A meeting to check your work progress", "A new computer", "A lunch break", "A bank loan"],
     "correctAnswer": 0,
-    "explanation": "An appraisal evaluates an employee's performance."
+    "explanation": "Una 'appraisal' es una evaluación del desempeño laboral de un empleado."
   },
   {
-    "id": 28,
+    "id": "adm-a2-w22-ex28",
     "type": "fill-in-the-blank",
     "question": "We have ___________ (already/yet) signed the contract.",
     "correctAnswer": "already",
-    "explanation": "Used to say that something has happened sooner than expected or before now."
+    "explanation": "Usamos 'already' para indicar que algo ya ha sucedido, a menudo antes de lo esperado."
   },
   {
-    "id": 29,
+    "id": "adm-a2-w22-ex29",
     "type": "multiple-choice",
     "question": "To 'quit' a job means:",
     "options": ["To start the job", "To leave the job voluntarily", "To get a promotion", "To work more hours"],
     "correctAnswer": 1,
-    "explanation": "Quitting is resigning from a position."
+    "explanation": "Dejar ('quit') un trabajo significa renunciar voluntariamente al puesto."
   },
   {
-    "id": 30,
+    "id": "adm-a2-w22-ex30",
     "type": "fill-in-the-blank",
     "question": "It ___________ (has/have) been a busy day.",
     "correctAnswer": "has",
-    "explanation": "We use 'has' with 'It'."
+    "explanation": "Usamos 'has' con el pronombre 'It'."
   },
   {
-    "id": 31,
+    "id": "adm-a2-w22-ex31",
     "type": "multiple-choice",
     "question": "What are 'fringe benefits'?",
     "options": ["Extra things like a company car or health insurance", "Taxes", "Office furniture", "Bank fees"],
     "correctAnswer": 0,
-    "explanation": "Fringe benefits are additions to a salary."
+    "explanation": "Los 'fringe benefits' son beneficios adicionales al salario, como seguro médico o coche de empresa."
   },
   {
-    "id": 32,
+    "id": "adm-a2-w22-ex32",
     "type": "fill-in-the-blank",
     "question": "I have ___________ (read) the employee manual.",
     "correctAnswer": "read",
-    "explanation": "'Read' (pronounced /red/) is the past participle of 'read'."
+    "explanation": "El participio de 'read' se escribe igual pero se pronuncia /red/."
   },
   {
-    "id": 33,
+    "id": "adm-a2-w22-ex33",
     "type": "multiple-choice",
     "question": "What is a 'full-time' job?",
     "options": ["Working 5-10 hours a week", "Working the standard number of hours (usually 35-40)", "Working only on weekends", "Not working at all"],
     "correctAnswer": 1,
-    "explanation": "Full-time work involves standard weekly hours."
+    "explanation": "Un trabajo a tiempo completo ('full-time') implica cumplir con la jornada laboral estándar."
   },
   {
-    "id": 34,
+    "id": "adm-a2-w22-ex34",
     "type": "fill-in-the-blank",
     "question": "Has he ___________ (call) the client?",
     "correctAnswer": "called",
-    "explanation": "'Called' is the past participle of 'call'."
+    "explanation": "'Called' es el participio pasado del verbo regular 'call'."
   },
   {
-    "id": 35,
+    "id": "adm-a2-w22-ex35",
     "type": "multiple-choice",
     "question": "What is 'overtime'?",
     "options": ["Time spent sleeping", "Time worked beyond regular hours", "A holiday", "A type of clock"],
     "correctAnswer": 1,
-    "explanation": "Overtime is extra work time, usually paid more."
+    "explanation": "Las horas extras ('overtime') son el tiempo trabajado por encima de la jornada habitual."
   },
   {
-    "id": 36,
+    "id": "adm-a2-w22-ex36",
     "type": "fill-in-the-blank",
     "question": "We haven't ___________ (find) a solution yet.",
     "correctAnswer": "found",
-    "explanation": "'Found' is the past participle of 'find'."
+    "explanation": "'Found' es el participio pasado del verbo irregular 'find' (encontrar)."
   },
   {
-    "id": 37,
+    "id": "adm-a2-w22-ex37",
     "type": "multiple-choice",
     "question": "What is a 'trainee'?",
     "options": ["A person being trained for a job", "A very old employee", "The CEO", "A bank building"],
     "correctAnswer": 0,
-    "explanation": "A trainee is a person undergoing training."
+    "explanation": "Un 'trainee' es una persona que está recibiendo formación práctica para un puesto de trabajo."
   },
   {
-    "id": 38,
+    "id": "adm-a2-w22-ex38",
     "type": "fill-in-the-blank",
     "question": "They have ___________ (build) a new HQ.",
     "correctAnswer": "built",
-    "explanation": "'Built' is the past participle of 'build'."
+    "explanation": "'Built' es el participio pasado del verbo irregular 'build' (construir)."
   },
   {
-    "id": 39,
+    "id": "adm-a2-w22-ex39",
     "type": "multiple-choice",
     "question": "To 'delegate' means:",
     "options": ["To do everything yourself", "To give tasks to other people", "To quit your job", "To buy office supplies"],
     "correctAnswer": 1,
-    "explanation": "Delegating is entrusting a task or responsibility to another person."
+    "explanation": "Delegar es asignar tareas o responsabilidades a otras personas del equipo."
   },
   {
-    "id": 40,
+    "id": "adm-a2-w22-ex40",
     "type": "fill-in-the-blank",
     "question": "I've ___________ (just/yet) seen the news.",
     "correctAnswer": "just",
-    "explanation": "Used for very recent events."
+    "explanation": "Usamos 'just' para indicar que algo ha ocurrido hace apenas unos momentos."
   },
   {
-    "id": 41,
+    "id": "adm-a2-w22-ex41",
     "type": "multiple-choice",
     "question": "What is a 'pension'?",
     "options": ["A type of pen", "Money paid regularly to a retired person", "A current salary", "A bank fee"],
     "correctAnswer": 1,
-    "explanation": "A pension provides income after retirement."
+    "explanation": "Una pensión es el pago regular que recibe una persona tras su jubilación."
   },
   {
-    "id": 42,
+    "id": "adm-a2-w22-ex42",
     "type": "fill-in-the-blank",
     "question": "She ___________ (has/have) never been late.",
     "correctAnswer": "has",
-    "explanation": "Present perfect with 'never'."
+    "explanation": "Usamos 'has' con la tercera persona en el Present Perfect, incluso con adverbios como 'never'."
   },
   {
-    "id": 43,
+    "id": "adm-a2-w22-ex43",
     "type": "multiple-choice",
     "question": "What does 'redundant' mean in a job context?",
     "options": ["Getting a promotion", "Losing your job because the position is no longer needed", "Working very hard", "Being a manager"],
     "correctAnswer": 1,
-    "explanation": "Redundancy happens when a job position is eliminated."
+    "explanation": "'Redundant' se refiere a cuando un trabajador es despedido porque su puesto ya no es necesario en la empresa."
   },
   {
-    "id": 44,
+    "id": "adm-a2-w22-ex44",
     "type": "fill-in-the-blank",
     "question": "Have you ___________ (make) the coffee?",
     "correctAnswer": "made",
-    "explanation": "'Made' is the past participle of 'make'."
+    "explanation": "'Made' es el participio pasado del verbo irregular 'make' (hacer/preparar)."
   },
   {
-    "id": 45,
+    "id": "adm-a2-w22-ex45",
     "type": "multiple-choice",
     "question": "A 'colleague' is:",
     "options": ["Your boss", "A person you work with", "Your enemy", "A customer"],
     "correctAnswer": 1,
-    "explanation": "Colleagues are people who work in the same organization."
+    "explanation": "Un colega o compañero de trabajo es una persona que trabaja en la misma organización que tú."
   },
   {
-    "id": 46,
+    "id": "adm-a2-w22-ex46",
     "type": "matching",
     "question": "Match the workplace terms:",
     "pairs": [
@@ -354,33 +354,221 @@
     ]
   },
   {
-    "id": 47,
+    "id": "adm-a2-w22-ex47",
     "type": "multiple-choice",
     "question": "What is a 'workplace'?",
     "options": ["A park", "The place where you do your job", "A movie theater", "A supermarket"],
     "correctAnswer": 1,
-    "explanation": "Workplace is the physical location of employment."
+    "explanation": "El 'workplace' es el lugar físico donde se desempeña la actividad laboral."
   },
   {
-    "id": 48,
+    "id": "adm-a2-w22-ex48",
     "type": "fill-in-the-blank",
     "question": "The company ___________ (has/have) grown a lot.",
     "correctAnswer": "has",
-    "explanation": "The company is a singular noun (it)."
+    "explanation": "La empresa se considera un sustantivo singular neutro ('it'), por lo que usa 'has'."
   },
   {
-    "id": 49,
+    "id": "adm-a2-w22-ex49",
     "type": "multiple-choice",
     "question": "What is 'maternity leave'?",
     "options": ["A holiday for everyone", "Time off for a mother after having a baby", "A lunch break", "Quitting the job"],
     "correctAnswer": 1,
-    "explanation": "Maternity leave is time off for new mothers."
+    "explanation": "La baja por maternidad es el periodo de descanso para una madre tras el nacimiento de un hijo."
   },
   {
-    "id": 50,
+    "id": "adm-a2-w22-ex50",
     "type": "fill-in-the-blank",
     "question": "I ___________ (have/has) already updated my CV.",
     "correctAnswer": "have",
-    "explanation": "Present perfect for personal accomplishments."
+    "explanation": "Present Perfect para hablar de logros personales recientes."
+  },
+  {
+    "id": "adm-a2-w22-ex51",
+    "type": "multiple-choice",
+    "question": "What is a 'probation period'?",
+    "options": ["A long holiday", "A trial period at the start of a new job", "The time before retirement", "A lunch break"],
+    "correctAnswer": 1,
+    "explanation": "Un periodo de prueba ('probation period') es el tiempo inicial en un trabajo para evaluar el desempeño."
+  },
+  {
+    "id": "adm-a2-w22-ex52",
+    "type": "fill-in-the-blank",
+    "question": "We ___________ (have/has) just received your application.",
+    "correctAnswer": "have",
+    "explanation": "Usamos 'have' con 'We' en el Present Perfect."
+  },
+  {
+    "id": "adm-a2-w22-ex53",
+    "type": "multiple-choice",
+    "question": "What does 'sick leave' mean?",
+    "options": ["Time off because you are ill", "A vacation in the mountains", "Quitting your job", "Working on weekends"],
+    "correctAnswer": 0,
+    "explanation": "La baja por enfermedad ('sick leave') es el tiempo que un trabajador se ausenta por motivos de salud."
+  },
+  {
+    "id": "adm-a2-w22-ex54",
+    "type": "fill-in-the-blank",
+    "question": "She hasn't ___________ (speak) to the manager yet.",
+    "correctAnswer": "spoken",
+    "explanation": "'Spoken' es el participio pasado del verbo irregular 'speak' (hablar)."
+  },
+  {
+    "id": "adm-a2-w22-ex55",
+    "type": "multiple-choice",
+    "question": "What is a 'clerk'?",
+    "options": ["A bank manager", "An office worker who handles records and accounts", "A professional athlete", "A chef"],
+    "correctAnswer": 1,
+    "explanation": "Un 'clerk' es un empleado administrativo que se encarga de registros, archivos o cuentas."
+  },
+  {
+    "id": "adm-a2-w22-ex56",
+    "type": "fill-in-the-blank",
+    "question": "The candidate ___________ (have/has) arrived for the interview.",
+    "correctAnswer": "has",
+    "explanation": "El candidato (singular) usa 'has'."
+  },
+  {
+    "id": "adm-a2-w22-ex57",
+    "type": "multiple-choice",
+    "question": "What is a 'commute'?",
+    "options": ["The journey between home and work", "A type of computer", "A business meeting", "A pay increase"],
+    "correctAnswer": 0,
+    "explanation": "El 'commute' es el trayecto habitual que realiza una persona de su casa al trabajo y viceversa."
+  },
+  {
+    "id": "adm-a2-w22-ex58",
+    "type": "fill-in-the-blank",
+    "question": "I haven't ___________ (take) my break yet.",
+    "correctAnswer": "taken",
+    "explanation": "'Taken' es el participio pasado del verbo irregular 'take' (tomar)."
+  },
+  {
+    "id": "adm-a2-w22-ex59",
+    "type": "multiple-choice",
+    "question": "What is a 'reference' in a job application?",
+    "options": ["A type of book", "A person who can describe your character and abilities", "Your old school", "Your salary"],
+    "correctAnswer": 1,
+    "explanation": "Una referencia es una persona que puede dar fe de tus habilidades y carácter a un empleador."
+  },
+  {
+    "id": "adm-a2-w22-ex60",
+    "type": "fill-in-the-blank",
+    "question": "They ___________ (have/has) already moved to the new office.",
+    "correctAnswer": "have",
+    "explanation": "Present Perfect con 'already' para acciones completadas."
+  },
+  {
+    "id": "adm-a2-w22-ex61",
+    "type": "multiple-choice",
+    "question": "What are 'core hours'?",
+    "options": ["The hours you spend sleeping", "The specific times when all employees must be at work", "Overtime hours", "Weekend shifts"],
+    "correctAnswer": 1,
+    "explanation": "Las 'core hours' son las horas obligatorias en las que todos los empleados deben estar presentes en esquemas de horario flexible."
+  },
+  {
+    "id": "adm-a2-w22-ex62",
+    "type": "fill-in-the-blank",
+    "question": "Have you ___________ (finish) the training course?",
+    "correctAnswer": "finished",
+    "explanation": "'Finished' es el participio pasado del verbo regular 'finish'."
+  },
+  {
+    "id": "adm-a2-w22-ex63",
+    "type": "multiple-choice",
+    "question": "What is an 'apprentice'?",
+    "options": ["A person learning a craft or trade from a skilled employer", "A bank director", "A customer", "A security guard"],
+    "correctAnswer": 0,
+    "explanation": "Un aprendiz ('apprentice') es alguien que está aprendiendo un oficio trabajando con un empleador experto."
+  },
+  {
+    "id": "adm-a2-w22-ex64",
+    "type": "fill-in-the-blank",
+    "question": "She has ___________ (work) here since 2015.",
+    "correctAnswer": "worked",
+    "explanation": "Usamos el Present Perfect para hablar de acciones que empezaron en el pasado y continúan."
+  },
+  {
+    "id": "adm-a2-w22-ex65",
+    "type": "multiple-choice",
+    "question": "What is a 'vacancy'?",
+    "options": ["A holiday", "An available job position", "A type of bank account", "A meeting room"],
+    "correctAnswer": 1,
+    "explanation": "Una vacante ('vacancy') es un puesto de trabajo que está disponible."
+  },
+  {
+    "id": "adm-a2-w22-ex66",
+    "type": "fill-in-the-blank",
+    "question": "I ___________ (have/has) just sent the email.",
+    "correctAnswer": "have",
+    "explanation": "Present Perfect con 'just' para algo que acaba de ocurrir."
+  },
+  {
+    "id": "adm-a2-w22-ex67",
+    "type": "multiple-choice",
+    "question": "What does it mean to 'headhunt' someone?",
+    "options": ["To fire them", "To recruit someone from another company for a high-level job", "To buy their company", "To give them a holiday"],
+    "correctAnswer": 1,
+    "explanation": "'Headhunt' se refiere a buscar y reclutar profesionales muy cualificados para puestos directivos."
+  },
+  {
+    "id": "adm-a2-w22-ex68",
+    "type": "fill-in-the-blank",
+    "question": "They haven't ___________ (buy) the new software yet.",
+    "correctAnswer": "bought",
+    "explanation": "'Bought' es el participio pasado del verbo irregular 'buy' (comprar)."
+  },
+  {
+    "id": "adm-a2-w22-ex69",
+    "type": "multiple-choice",
+    "question": "What is a 'work permit'?",
+    "options": ["A document that allows a foreigner to work in a country", "A driver's license", "A bank card", "A library card"],
+    "correctAnswer": 0,
+    "explanation": "Un permiso de trabajo es el documento legal que autoriza a un extranjero a trabajar en un país."
+  },
+  {
+    "id": "adm-a2-w22-ex70",
+    "type": "fill-in-the-blank",
+    "question": "Has she ___________ (give) you the report?",
+    "correctAnswer": "given",
+    "explanation": "'Given' es el participio pasado del verbo irregular 'give' (dar)."
+  },
+  {
+    "id": "adm-a2-w22-ex71",
+    "type": "multiple-choice",
+    "question": "What is 'flexitime'?",
+    "options": ["Working 24 hours a day", "A system of flexible working hours", "Not working at all", "Working only on holidays"],
+    "correctAnswer": 1,
+    "explanation": "'Flexitime' es un sistema que permite a los empleados elegir cuándo empiezan y terminan su jornada dentro de unos límites."
+  },
+  {
+    "id": "adm-a2-w22-ex72",
+    "type": "fill-in-the-blank",
+    "question": "We have ___________ (be) very busy this morning.",
+    "correctAnswer": "been",
+    "explanation": "Participio del verbo 'to be' usado en el Present Perfect."
+  },
+  {
+    "id": "adm-a2-w22-ex73",
+    "type": "multiple-choice",
+    "question": "What is a 'pay rise'?",
+    "options": ["An increase in your salary", "A decrease in salary", "Losing your job", "Going on holiday"],
+    "correctAnswer": 0,
+    "explanation": "Un aumento de sueldo ('pay rise') es un incremento en la remuneración del trabajador."
+  },
+  {
+    "id": "adm-a2-w22-ex74",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (have/has) done a great job.",
+    "correctAnswer": "have",
+    "explanation": "Usamos 'have' con el pronombre 'You'."
+  },
+  {
+    "id": "adm-a2-w22-ex75",
+    "type": "multiple-choice",
+    "question": "What is 'human resources' (HR)?",
+    "options": ["The department that handles employees", "A type of bank account", "Computer hardware", "Office furniture"],
+    "correctAnswer": 0,
+    "explanation": "Recursos Humanos (RRHH) es el departamento encargado de la gestión de los empleados en una empresa."
   }
 ]

@@ -3,165 +3,763 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana12",
-  "title": "Trimester 1 Final Review",
+  "title": "Exercises: Trimestre 1 Final Review",
   "items": [
     {
-      "id": "fin-a1-w12-01",
-      "type": "matching",
-      "prompt": "Match the modern banking terms:",
-      "pairs": [
-        { "left": "Neobank", "right": "A bank with no offices" },
-        { "left": "Face ID", "right": "Biometric security" },
-        { "left": "Digital Wallet", "right": "Pay with your phone" },
-        { "left": "AI Assistant", "right": "Helps you with questions" }
+      "id": "adm-a1-w12-ex01",
+      "type": "multiple-choice",
+      "prompt": "What is the correct greeting for a meeting at 10:00 AM?",
+      "options": ["Good afternoon", "Good morning", "Good evening", "Good night"],
+      "answerIndex": 1,
+      "explanation": "Before noon, the standard greeting is 'Good morning'."
+    },
+    {
+      "id": "adm-a1-w12-ex02",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct response to: 'Where are you from?'",
+      "options": ["I am from Italy.", "I am Italian.", "I live in an office.", "A and B are correct."],
+      "answerIndex": 3,
+      "explanation": "You can answer with your country or your nationality."
+    },
+    {
+      "id": "adm-a1-w12-ex03",
+      "type": "multiple-choice",
+      "prompt": "How do you say '.' in an email address?",
+      "options": ["Point", "Dot", "Period", "Full stop"],
+      "answerIndex": 1,
+      "explanation": "In email addresses, '.' is always pronounced 'dot'."
+    },
+    {
+      "id": "adm-a1-w12-ex04",
+      "type": "multiple-choice",
+      "prompt": "Complete the sentence: 'I ______ in the accounting department.'",
+      "options": ["work", "works", "am work", "working"],
+      "answerIndex": 0,
+      "explanation": "With 'I', we use the base form of the verb in Present Simple."
+    },
+    {
+      "id": "adm-a1-w12-ex05",
+      "type": "multiple-choice",
+      "prompt": "What does 'CEO' mean on a business card?",
+      "options": [
+        "Chief Executive Officer",
+        "Company Email Office",
+        "Central Europe Organization",
+        "Client Entry Order"
       ],
-      "explanation": "These are key concepts of modern 'Fintech'."
-    },
-    {
-      "id": "fin-a1-w12-02",
-      "type": "multipleChoice",
-      "prompt": "I ______ my banking app every day.",
-      "options": ["use", "uses", "using"],
       "answerIndex": 0,
-      "explanation": "Present Simple for 'I' uses the base form 'use'."
+      "explanation": "CEO is the highest-ranking officer in a company."
     },
     {
-      "id": "fin-a1-w12-03",
-      "type": "multipleChoice",
-      "prompt": "The payment is ______ August 15th.",
-      "options": ["in", "on", "at"],
-      "answerIndex": 1,
-      "explanation": "We use 'on' for specific dates."
-    },
-    {
-      "id": "fin-a1-w12-04",
-      "type": "fillBlanks",
-      "prompt": "To pay, please [blank] the QR code.",
-      "answers": ["scan"],
-      "explanation": "You scan a QR code with your phone."
-    },
-    {
-      "id": "fin-a1-w12-05",
-      "type": "multipleChoice",
-      "prompt": "How ______ is the international transfer fee?",
-      "options": ["much", "many", "is"],
-      "answerIndex": 0,
-      "explanation": "'How much' is used for prices and fees."
-    },
-    {
-      "id": "fin-a1-w12-06",
-      "type": "writing",
-      "prompt": "Write a polite request to ask for a receipt using 'Could'.",
-      "example": "Could I have a receipt, please?",
-      "explanation": "'Could I have...' is a very polite way to ask."
-    },
-    {
-      "id": "fin-a1-w12-07",
-      "type": "rolePlay",
-      "prompt": "Role-play: You are at a new store. Ask if they accept Apple Pay or Google Pay. If they say yes, tap your phone to pay.",
-      "scenario": "A modern boutique.",
-      "suggestedPhrases": [
-        "Do you accept digital wallets?",
-        "Can I pay with Apple Pay?",
-        "Thank you, here is my phone."
-      ]
-    },
-    {
-      "id": "fin-a1-w12-08",
-      "type": "multipleChoice",
-      "prompt": "The bank ______ at 5:00 PM.",
-      "options": ["close", "closes", "closing"],
-      "answerIndex": 1,
-      "explanation": "The bank (it) closes (Present Simple 3rd person)."
-    },
-    {
-      "id": "fin-a1-w12-09",
-      "type": "multipleChoice",
-      "prompt": "I have an appointment ______ 2:30 PM.",
-      "options": ["in", "on", "at"],
+      "id": "adm-a1-w12-ex06",
+      "type": "multiple-choice",
+      "prompt": "Identify the correct negative: 'We ______ use tablets in the office.'",
+      "options": ["no", "not", "don't", "aren't"],
       "answerIndex": 2,
-      "explanation": "Use 'at' for specific times."
+      "explanation": "The auxiliary 'don't' (do not) is used for negatives with 'we'."
     },
     {
-      "id": "fin-a1-w12-10",
-      "type": "fillBlanks",
-      "prompt": "A [blank] is a bank that is 100% online.",
-      "answers": ["neobank"],
-      "explanation": "Neobanks (like Revolut or Nubank) have no physical branches."
+      "id": "adm-a1-w12-ex07",
+      "type": "multiple-choice",
+      "prompt": "How do you spell 'FAX'?",
+      "options": ["F-E-X", "F-A-X", "P-H-A-X", "F-O-X"],
+      "answerIndex": 1,
+      "explanation": "The correct letters are F, A, and X."
     },
     {
-      "id": "fin-a1-w12-11",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Can I see your ID?",
-      "explanation": "¿Puedo ver su identificación?"
+      "id": "adm-a1-w12-ex08",
+      "type": "multiple-choice",
+      "prompt": "Complete the question: '______ you speak English at work?'",
+      "options": ["Are", "Do", "Is", "Does"],
+      "answerIndex": 1,
+      "explanation": "'Do' is the auxiliary for questions with 'you'."
     },
     {
-      "id": "fin-a1-w12-12",
-      "type": "multipleChoice",
-      "prompt": "My ______ is $50,000.",
-      "options": ["salary", "receipt", "fee"],
+      "id": "adm-a1-w12-ex09",
+      "type": "multiple-choice",
+      "prompt": "What is the English word for 'Apellido'?",
+      "options": ["First name", "Full name", "Surname", "Job title"],
+      "answerIndex": 2,
+      "explanation": "Surname (or Last name) means apellido."
+    },
+    {
+      "id": "adm-a1-w12-ex10",
+      "type": "multiple-choice",
+      "prompt": "In a phone number, how do you say '0'?",
+      "options": ["Zero", "Oh", "Nothing", "A and B are correct"],
+      "answerIndex": 3,
+      "explanation": "Both 'zero' and 'oh' are standard in phone numbers."
+    },
+    {
+      "id": "adm-a1-w12-ex11",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Job Title'?",
+      "options": ["London", "Manager", "Monday", "Apple Inc."],
+      "answerIndex": 1,
+      "explanation": "Manager is a professional role or position."
+    },
+    {
+      "id": "adm-a1-w12-ex12",
+      "type": "multiple-choice",
+      "prompt": "How do you say '@' in an email address?",
+      "options": ["Dot", "At", "Dash", "Underscore"],
+      "answerIndex": 1,
+      "explanation": "In emails, '@' is pronounced 'at'."
+    },
+    {
+      "id": "adm-a1-w12-ex13",
+      "type": "multiple-choice",
+      "prompt": "Identify the correct time: 'Meeting at 3:00 PM.'",
+      "options": [
+        "Three in the morning",
+        "Three in the afternoon",
+        "Three in the evening",
+        "Fifteen hundred hours"
+      ],
+      "answerIndex": 1,
+      "explanation": "PM indicates the afternoon or evening."
+    },
+    {
+      "id": "adm-a1-w12-ex14",
+      "type": "multiple-choice",
+      "prompt": "A: 'How are you?' B: '______.'",
+      "options": [
+        "I am from Spain.",
+        "I am a receptionist.",
+        "I am fine, thank you.",
+        "I am John."
+      ],
+      "answerIndex": 2,
+      "explanation": "This is the standard polite response."
+    },
+    {
+      "id": "adm-a1-w12-ex15",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I not work here.",
+        "I don't work here.",
+        "I am not work here.",
+        "I no work here."
+      ],
+      "answerIndex": 1,
+      "explanation": "Subject + don't + base verb."
+    },
+    {
+      "id": "adm-a1-w12-ex16",
+      "type": "multiple-choice",
+      "prompt": "What is 'HR' abbreviation for?",
+      "options": [
+        "Human Relations",
+        "Human Resources",
+        "High Research",
+        "Head Reception"
+      ],
+      "answerIndex": 1,
+      "explanation": "HR stands for Human Resources."
+    },
+    {
+      "id": "adm-a1-w12-ex17",
+      "type": "multiple-choice",
+      "prompt": "How do you spell 'JOB'?",
+      "options": ["J-O-B", "/dʒeɪ/ - /oʊ/ - /biː/", "Both are correct", "None are correct"],
+      "answerIndex": 2,
+      "explanation": "You can list the letters or use their phonetic sounds."
+    },
+    {
+      "id": "adm-a1-w12-ex18",
+      "type": "multiple-choice",
+      "prompt": "Which country is 'Madrid' located in?",
+      "options": ["The UK", "The USA", "Spain", "France"],
+      "answerIndex": 2,
+      "explanation": "Madrid is the capital of Spain."
+    },
+    {
+      "id": "adm-a1-w12-ex19",
+      "type": "multiple-choice",
+      "prompt": "A: 'Is this your card?' B: 'Yes, ______.'",
+      "options": ["it is", "I am", "you are", "this is"],
       "answerIndex": 0,
-      "explanation": "Salary is the money you earn from work."
+      "explanation": "We use 'it' to refer to 'card'."
     },
     {
-      "id": "fin-a1-w12-13",
-      "type": "writing",
-      "prompt": "Translate to English: '¿Cuándo es la fecha de vencimiento?'",
-      "example": "When is the due date?",
-      "explanation": "Use 'When is' for questions about time."
-    },
-    {
-      "id": "fin-a1-w12-14",
-      "type": "multipleChoice",
-      "prompt": "London is in the ______ time zone.",
-      "options": ["GMT", "EST", "PST"],
+      "id": "adm-a1-w12-ex20",
+      "type": "multiple-choice",
+      "prompt": "Which letter sounds like 'tea'?",
+      "options": ["T", "D", "P", "C"],
       "answerIndex": 0,
-      "explanation": "London uses Greenwich Mean Time (GMT)."
+      "explanation": "The letter T is pronounced /tiː/."
     },
     {
-      "id": "fin-a1-w12-15",
-      "type": "fillBlanks",
-      "prompt": "I use my [blank] to unlock my bank app.",
-      "answers": ["fingerprint", "face", "face id"],
-      "explanation": "Biometric security uses your body (finger, face) for login."
+      "id": "adm-a1-w12-ex21",
+      "type": "fill-in-the-blanks",
+      "text": "My full name is Anna [Smith] (apellido) Miller.",
+      "answers": ["Smith"],
+      "explanation": "Any surname would work, but usually it refers to a last name."
     },
     {
-      "id": "fin-a1-w12-16",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I want to open an account",
-      "explanation": "Quiero abrir una cuenta."
+      "id": "adm-a1-w12-ex22",
+      "type": "fill-in-the-blanks",
+      "text": "I [don't] (no) use the fax machine.",
+      "answers": ["don't"],
+      "explanation": "Present Simple negative with 'I'."
     },
     {
-      "id": "fin-a1-w12-17",
-      "type": "multipleChoice",
-      "prompt": "The first ______ (Q1) is January to March.",
-      "options": ["quarter", "month", "week"],
+      "id": "adm-a1-w12-ex23",
+      "type": "fill-in-the-blanks",
+      "text": "A: Where [are] you from?\nB: I [am] from Mexico.",
+      "answers": ["are", "am"],
+      "explanation": "Verb 'to be' review."
+    },
+    {
+      "id": "adm-a1-w12-ex24",
+      "type": "fill-in-the-blanks",
+      "text": "[Do] you speak English at work? (Question)",
+      "answers": ["Do"],
+      "explanation": "Present Simple question auxiliary."
+    },
+    {
+      "id": "adm-a1-w12-ex25",
+      "type": "fill-in-the-blanks",
+      "text": "The symbol '_' is an [underscore].",
+      "answers": ["underscore"],
+      "explanation": "Email symbols vocabulary."
+    },
+    {
+      "id": "adm-a1-w12-ex26",
+      "type": "fill-in-the-blanks",
+      "text": "Nice to [meet] you, Mr. Brown.",
+      "answers": ["meet"],
+      "explanation": "Polite greeting."
+    },
+    {
+      "id": "adm-a1-w12-ex27",
+      "type": "fill-in-the-blanks",
+      "text": "What is your job [title] (cargo)?",
+      "answers": ["title"],
+      "explanation": "Job title means professional position."
+    },
+    {
+      "id": "adm-a1-w12-ex28",
+      "type": "fill-in-the-blanks",
+      "text": "My phone number is nine-one-[zero] (cero).",
+      "answers": ["zero"],
+      "explanation": "0 is zero or oh."
+    },
+    {
+      "id": "adm-a1-w12-ex29",
+      "type": "fill-in-the-blanks",
+      "text": "I work [in] (en) an office in London.",
+      "answers": ["in"],
+      "explanation": "Preposition for location."
+    },
+    {
+      "id": "adm-a1-w12-ex30",
+      "type": "fill-in-the-blanks",
+      "text": "Can you [spell] (deletrear) your name?",
+      "answers": ["spell"],
+      "explanation": "Spell means say the letters."
+    },
+    {
+      "id": "adm-a1-w12-ex31",
+      "type": "matching",
+      "prompt": "Match the question with the response:",
+      "pairs": [
+        { "term": "What's your name?", "definition": "My name is Peter." },
+        { "term": "What do you do?", "definition": "I'm a designer." },
+        { "term": "Where are you from?", "definition": "I'm from Germany." },
+        { "term": "How's it going?", "definition": "Fine, thanks." }
+      ],
+      "explanation": "Basic conversational exchanges."
+    },
+    {
+      "id": "adm-a1-w12-ex32",
+      "type": "matching",
+      "prompt": "Match the category with the example:",
+      "pairs": [
+        { "term": "Country", "definition": "The USA" },
+        { "term": "Nationality", "definition": "American" },
+        { "term": "Job Title", "definition": "Director" },
+        { "term": "Department", "definition": "Finance" }
+      ],
+      "explanation": "Professional vocabulary categorization."
+    },
+    {
+      "id": "adm-a1-w12-ex33",
+      "type": "matching",
+      "prompt": "Match the email symbols:",
+      "pairs": [
+        { "term": "@", "definition": "At" },
+        { "term": ".", "definition": "Dot" },
+        { "term": "-", "definition": "Hyphen" },
+        { "term": "_", "definition": "Underscore" }
+      ],
+      "explanation": "Email symbols review."
+    },
+    {
+      "id": "adm-a1-w12-ex34",
+      "type": "matching",
+      "prompt": "Match the phone number readings:",
+      "pairs": [
+        { "term": "00", "definition": "Double zero" },
+        { "term": "9", "definition": "Nine" },
+        { "term": "7", "definition": "Seven" },
+        { "term": "3", "definition": "Three" }
+      ],
+      "explanation": "Standard number reading."
+    },
+    {
+      "id": "adm-a1-w12-ex35",
+      "type": "matching",
+      "prompt": "Match the professional abbreviations:",
+      "pairs": [
+        { "term": "CEO", "definition": "Chief Executive Officer" },
+        { "term": "HR", "definition": "Human Resources" },
+        { "term": "IT", "definition": "Information Technology" },
+        { "term": "HQ", "definition": "Headquarters" }
+      ],
+      "explanation": "Office abbreviations review."
+    },
+    {
+      "id": "adm-a1-w12-ex36",
+      "type": "matching",
+      "prompt": "Match the greetings with the situation:",
+      "pairs": [
+        { "term": "Good morning", "definition": "Start of the day" },
+        { "term": "Nice to meet you", "definition": "Meeting first time" },
+        { "term": "How are you?", "definition": "Asking about well-being" },
+        { "term": "Goodbye", "definition": "Leaving" }
+      ],
+      "explanation": "Social-professional greetings."
+    },
+    {
+      "id": "adm-a1-w12-ex37",
+      "type": "matching",
+      "prompt": "Match the grammar patterns:",
+      "pairs": [
+        { "term": "I am", "definition": "Accountant" },
+        { "term": "I work", "definition": "In an office" },
+        { "term": "I don't", "definition": "Speak French" },
+        { "term": "Do you", "definition": "Use Excel?" }
+      ],
+      "explanation": "Present Simple and To Be review."
+    },
+    {
+      "id": "adm-a1-w12-ex38",
+      "type": "matching",
+      "prompt": "Match the alphabet sounds:",
+      "pairs": [
+        { "term": "A", "definition": "/eɪ/" },
+        { "term": "E", "definition": "/iː/" },
+        { "term": "I", "definition": "/aɪ/" },
+        { "term": "U", "definition": "/juː/" }
+      ],
+      "explanation": "Alphabet pronunciation review."
+    },
+    {
+      "id": "adm-a1-w12-ex39",
+      "type": "matching",
+      "prompt": "Match the office objects:",
+      "pairs": [
+        { "term": "Computer", "definition": "Desktop or laptop" },
+        { "term": "Desk", "definition": "Where you sit" },
+        { "term": "Chair", "definition": "Office seat" },
+        { "term": "Phone", "definition": "Contact device" }
+      ],
+      "explanation": "Basic office vocabulary review."
+    },
+    {
+      "id": "adm-a1-w12-ex40",
+      "type": "matching",
+      "prompt": "Match the days and times:",
+      "pairs": [
+        { "term": "Monday", "definition": "First work day" },
+        { "term": "Weekend", "definition": "Saturday & Sunday" },
+        { "term": "AM", "definition": "Before noon" },
+        { "term": "PM", "definition": "After noon" }
+      ],
+      "explanation": "Time expressions review."
+    },
+    {
+      "id": "adm-a1-w12-ex41",
+      "type": "multiple-choice",
+      "prompt": "A: 'Can you spell your name?' B: 'Yes, it's SMITH: ______.'",
+      "options": ["S-M-I-T-H", "S-M-E-T-H", "S-M-I-G-H", "S-N-I-T-H"],
       "answerIndex": 0,
-      "explanation": "A quarter is a period of 3 months."
+      "explanation": "Standard spelling for Smith."
     },
     {
-      "id": "fin-a1-w12-18",
-      "type": "multipleChoice",
-      "prompt": "Is the transfer ______? Yes, it uses encryption.",
-      "options": ["secure", "cheap", "fast"],
+      "id": "adm-a1-w12-ex42",
+      "type": "multiple-choice",
+      "prompt": "Which of these is NOT a professional greeting?",
+      "options": ["Good morning", "What's up?", "Hello", "Good afternoon"],
+      "answerIndex": 1,
+      "explanation": "'What's up?' is too informal for most office environments."
+    },
+    {
+      "id": "adm-a1-w12-ex43",
+      "type": "multiple-choice",
+      "prompt": "What is the English for 'De nada'?",
+      "options": ["You're welcome", "Please", "Thank you", "Sorry"],
       "answerIndex": 0,
-      "explanation": "Security is the most important thing for transfers."
+      "explanation": "Standard response to thank you."
     },
     {
-      "id": "fin-a1-w12-19",
-      "type": "fillBlanks",
-      "prompt": "Could I [blank] some money from the ATM?",
-      "answers": ["withdraw", "get"],
-      "explanation": "To withdraw means to take money out."
+      "id": "adm-a1-w12-ex44",
+      "type": "multiple-choice",
+      "prompt": "If you hear 'double five', you write:",
+      "options": ["5", "55", "10", "5.5"],
+      "answerIndex": 1,
+      "explanation": "'Double' means the number appears twice."
     },
     {
-      "id": "fin-a1-w12-20",
-      "type": "writing",
-      "prompt": "Describe a neobank in one simple English sentence.",
-      "example": "A neobank is an online bank.",
-      "explanation": "Keep it simple for A1 level."
+      "id": "adm-a1-w12-ex45",
+      "type": "multiple-choice",
+      "prompt": "A: 'What ______ your email?' B: 'It's admin@work.com.'",
+      "options": ["am", "are", "is", "do"],
+      "answerIndex": 2,
+      "explanation": "'Email' is a singular subject."
+    },
+    {
+      "id": "adm-a1-w12-ex46",
+      "type": "multiple-choice",
+      "prompt": "Which job title is in the 'IT' department?",
+      "options": ["Support Engineer", "Salesperson", "Accountant", "Driver"],
+      "answerIndex": 0,
+      "explanation": "IT Support Engineer handles technical issues."
+    },
+    {
+      "id": "adm-a1-w12-ex47",
+      "type": "multiple-choice",
+      "prompt": "How do you pronounce 'Ltd.'?",
+      "options": ["Light", "Limited", "Listed", "Late"],
+      "answerIndex": 1,
+      "explanation": "Ltd. is the abbreviation for Limited."
+    },
+    {
+      "id": "adm-a1-w12-ex48",
+      "type": "multiple-choice",
+      "prompt": "Identify the nationality: 'I am from France. I am ______.'",
+      "options": ["France", "French", "Francis", "Francais"],
+      "answerIndex": 1,
+      "explanation": "French is the nationality."
+    },
+    {
+      "id": "adm-a1-w12-ex49",
+      "type": "multiple-choice",
+      "prompt": "Correct this: 'I am no a manager.'",
+      "options": ["I am not a manager.", "I don't a manager.", "I no am manager.", "I not a manager."],
+      "answerIndex": 0,
+      "explanation": "Verb 'to be' negative is 'am not'."
+    },
+    {
+      "id": "adm-a1-w12-ex50",
+      "type": "multiple-choice",
+      "prompt": "A: 'Nice to meet you.' B: '______.'",
+      "options": ["Me too.", "Nice to meet you too.", "I am fine.", "Thank you."],
+      "answerIndex": 1,
+      "explanation": "Standard polite response."
+    },
+    {
+      "id": "adm-a1-w12-ex51",
+      "type": "fill-in-the-blanks",
+      "text": "I work in the [sales] (ventas) department.",
+      "answers": ["sales"],
+      "explanation": "Sales department handles selling products."
+    },
+    {
+      "id": "adm-a1-w12-ex52",
+      "type": "fill-in-the-blanks",
+      "text": "Do you [write] (escribir) emails in English?",
+      "answers": ["write"],
+      "explanation": "Write means escribir."
+    },
+    {
+      "id": "adm-a1-w12-ex53",
+      "type": "fill-in-the-blanks",
+      "text": "The meeting is [at] (a las) 10:00 AM.",
+      "answers": ["at"],
+      "explanation": "Preposition for specific times."
+    },
+    {
+      "id": "adm-a1-w12-ex54",
+      "type": "fill-in-the-blanks",
+      "text": "My [name] (nombre) is Mark.",
+      "answers": ["name"],
+      "explanation": "Basic identification."
+    },
+    {
+      "id": "adm-a1-w12-ex55",
+      "type": "fill-in-the-blanks",
+      "text": "I don't [have] (tener) a car.",
+      "answers": ["have"],
+      "explanation": "Present Simple negative with 'have'."
+    },
+    {
+      "id": "adm-a1-w12-ex56",
+      "type": "reading-comprehension",
+      "text": "CREATIVE SOLUTIONS\nJohn Doe\nGraphic Designer\nEmail: john@creative.net\nPhone: 012 334 556",
+      "vocabulary": [
+        { "term": "Designer", "definition": "A person who plans the look of something" }
+      ],
+      "questions": [
+        {
+          "prompt": "What is John's job title?",
+          "options": ["Graphic Designer", "Creative Solutions", "john@creative.net", "Manager"],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Identifying professional roles on a business card."
+    },
+    {
+      "id": "adm-a1-w12-ex57",
+      "type": "reading-comprehension",
+      "text": "CREATIVE SOLUTIONS\nJohn Doe\nGraphic Designer\nEmail: john@creative.net\nPhone: 012 334 556",
+      "vocabulary": [
+        { "term": "Phone", "definition": "A device for calling people" }
+      ],
+      "questions": [
+        {
+          "prompt": "Does John have a phone number?",
+          "options": ["Yes, it is 012 334 556.", "No, he doesn't.", "The card doesn't say.", "Yes, it is john@creative.net."],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Locating contact information on a card."
+    },
+    {
+      "id": "adm-a1-w12-ex58",
+      "type": "reading-comprehension",
+      "text": "CREATIVE SOLUTIONS\nJohn Doe\nGraphic Designer\nEmail: john@creative.net\nPhone: 012 334 556",
+      "vocabulary": [
+        { "term": "Email", "definition": "Electronic messages sent over the internet" }
+      ],
+      "questions": [
+        {
+          "prompt": "Is there an underscore in the email?",
+          "options": ["Yes", "No"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Checking symbols in an email address."
+    },
+    {
+      "id": "adm-a1-w12-ex59",
+      "type": "reading-comprehension",
+      "text": "A: 'Do you speak Spanish?' B: 'No, I don't. I'm British.'",
+      "vocabulary": [
+        { "term": "British", "definition": "A person from the UK" }
+      ],
+      "questions": [
+        {
+          "prompt": "What is B's nationality?",
+          "options": ["Spanish", "British", "English", "B and C are correct"],
+          "answerIndex": 3
+        }
+      ],
+      "explanation": "Understanding nationality and its related terms."
+    },
+    {
+      "id": "adm-a1-w12-ex60",
+      "type": "reading-comprehension",
+      "text": "Profile: Name: Maria Rossi. Country: Italy. Job: Accountant.",
+      "vocabulary": [
+        { "term": "Accountant", "definition": "A person who works with money and taxes" }
+      ],
+      "questions": [
+        {
+          "prompt": "Is Maria a doctor?",
+          "options": ["Yes", "No"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Identifying job titles in a profile."
+    },
+    {
+      "id": "adm-a1-w12-ex61",
+      "type": "reading-comprehension",
+      "text": "Profile: Name: Maria Rossi. Country: Italy. Job: Accountant.",
+      "vocabulary": [
+        { "term": "Country", "definition": "A nation or state" }
+      ],
+      "questions": [
+        {
+          "prompt": "Is Maria Italian?",
+          "options": ["Yes", "No"],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Connecting country with nationality."
+    },
+    {
+      "id": "adm-a1-w12-ex62",
+      "type": "reading-comprehension",
+      "text": "A: 'What time is the meeting?' B: 'It's at nine oh oh.'",
+      "vocabulary": [
+        { "term": "Oh oh", "definition": "Used in time or numbers to mean zero zero" }
+      ],
+      "questions": [
+        {
+          "prompt": "What time is it?",
+          "options": ["09:00", "09:09", "10:00", "08:00"],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Understanding spoken time formats."
+    },
+    {
+      "id": "adm-a1-w12-ex63",
+      "type": "reading-comprehension",
+      "text": "Note: 'Meeting with the CEO at 4:00 PM.'",
+      "vocabulary": [
+        { "term": "CEO", "definition": "Chief Executive Officer" }
+      ],
+      "questions": [
+        {
+          "prompt": "When is the meeting?",
+          "options": [
+            "In the morning",
+            "In the afternoon",
+            "In the middle of the night",
+            "On Saturday"
+          ],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Interpreting AM/PM time indicators."
+    },
+    {
+      "id": "adm-a1-w12-ex64",
+      "type": "reading-comprehension",
+      "text": "A: 'How do you spell your company name?' B: 'It's ABC: A-B-C.'",
+      "vocabulary": [
+        { "term": "Alphabet", "definition": "The letters of a language" }
+      ],
+      "questions": [
+        {
+          "prompt": "How many letters are there?",
+          "options": ["One", "Two", "Three", "Four"],
+          "answerIndex": 2
+        }
+      ],
+      "explanation": "Counting spelled letters."
+    },
+    {
+      "id": "adm-a1-w12-ex65",
+      "type": "reading-comprehension",
+      "text": "Note: 'Office closed on weekends.'",
+      "vocabulary": [
+        { "term": "Weekend", "definition": "Saturday and Sunday" }
+      ],
+      "questions": [
+        {
+          "prompt": "Is the office open on Saturday?",
+          "options": ["Yes", "No"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Understanding schedule and calendar terms."
+    },
+    {
+      "id": "adm-a1-w12-ex66",
+      "type": "multiple-choice",
+      "prompt": "Which of these is the correct way to say '@'?",
+      "options": ["At", "Dot", "Dash", "Underscore"],
+      "answerIndex": 0,
+      "explanation": "The symbol @ is always pronounced 'at'."
+    },
+    {
+      "id": "adm-a1-w12-ex67",
+      "type": "multiple-choice",
+      "prompt": "How do you ask about someone's job?",
+      "options": ["Where are you from?", "What do you do?", "What is your name?", "How are you?"],
+      "answerIndex": 1,
+      "explanation": "'What do you do?' is the standard question for job or profession."
+    },
+    {
+      "id": "adm-a1-w12-ex68",
+      "type": "multiple-choice",
+      "prompt": "Which is a 'department' in a company?",
+      "options": ["London", "Accounting", "Manager", "Friday"],
+      "answerIndex": 1,
+      "explanation": "Accounting is a common company department."
+    },
+    {
+      "id": "adm-a1-w12-ex69",
+      "type": "multiple-choice",
+      "prompt": "What does 'HQ' stand for?",
+      "options": ["High Quality", "Headquarters", "Human Questions", "Home Quiet"],
+      "answerIndex": 1,
+      "explanation": "HQ stands for Headquarters, the main office."
+    },
+    {
+      "id": "adm-a1-w12-ex70",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct negative: 'He ______ an accountant.'",
+      "options": ["don't", "isn't", "no is", "not"],
+      "answerIndex": 1,
+      "explanation": "'Isn't' (is not) is the negative form for 'he' with the verb to be."
+    },
+    {
+      "id": "adm-a1-w12-ex71",
+      "type": "multiple-choice",
+      "prompt": "Which letter sounds like 'eye'?",
+      "options": ["I", "E", "A", "Y"],
+      "answerIndex": 0,
+      "explanation": "The letter I is pronounced /aɪ/."
+    },
+    {
+      "id": "adm-a1-w12-ex72",
+      "type": "multiple-choice",
+      "prompt": "What is 'Reception'?",
+      "options": ["A person", "A place in the office", "A country", "A job title"],
+      "answerIndex": 1,
+      "explanation": "Reception is the entrance area of a building."
+    },
+    {
+      "id": "adm-a1-w12-ex73",
+      "type": "listening",
+      "title": "Professional Introduction",
+      "transcript": "A: Hello, my name is Robert. I'm the CEO of Global Tech. B: Nice to meet you, Robert. I'm Linda, from Human Resources.",
+      "questions": [
+        {
+          "question": "What is Robert's role?",
+          "options": ["Human Resources", "CEO", "Manager"],
+          "answerIndex": 1,
+          "explanation": "Robert says: 'I'm the CEO of Global Tech'."
+        }
+      ],
+      "explanation": "Listening for roles and names in an introduction."
+    },
+    {
+      "id": "adm-a1-w12-ex74",
+      "type": "listening",
+      "title": "Confirming Contact Details",
+      "transcript": "A: Can you spell your email, please? B: Yes, it's info dot admin at work dot net. A: Info dot admin at work dot net. Got it.",
+      "questions": [
+        {
+          "question": "How many dots are in the email address?",
+          "options": ["One", "Two", "Three"],
+          "answerIndex": 1,
+          "explanation": "The email is info.admin@work.net, which contains two dots."
+        }
+      ],
+      "explanation": "Listening for specific symbols in contact information."
+    },
+    {
+      "id": "adm-a1-w12-ex75",
+      "type": "listening",
+      "title": "Office Location",
+      "transcript": "A: Do you work in London? B: No, I work in the New York office. But I am British. A: Oh, New York! That's great.",
+      "questions": [
+        {
+          "question": "Where does the person work?",
+          "options": ["London", "New York", "Paris"],
+          "answerIndex": 1,
+          "explanation": "The person says: 'I work in the New York office'."
+        }
+      ],
+      "explanation": "Identifying locations and origins in a conversation."
     }
   ]
 }

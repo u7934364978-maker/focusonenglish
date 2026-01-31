@@ -20,18 +20,46 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: Vendor Vetting Form",
       "content": "Complete a vendor vetting form for a new IT supplier. Include:\n1. **Vendor Details**.\n2. **Compliance Check** (GDPR, ISO 9001).\n3. **Proposed Terms & SLAs**.\n4. **Formal Recommendation** (Using the subjunctive: *It is essential that they...*)."
+    },
+    {
+      "id": "sustainable-procurement",
+      "title": "Sustainable Procurement (ESG)",
+      "content": "Modern procurement is not just about price; it’s about **ESG** (Environmental, Social, and Governance) criteria. Admins must ensure vendors align with the company's sustainability goals.\n\n### ESG Criteria in Vetting:\n- **Environmental**: Carbon footprint, waste management, use of sustainable materials.\n- **Social**: Fair labor practices, diversity, and health and safety standards.\n- **Governance**: Ethical business conduct, anti-corruption policies, and transparency.\n\n### Vocabulary:\n- **Due Diligence**: The thorough investigation of a business or person prior to signing a contract.\n- **Supply Chain Transparency**: The ability to track every step of the supply chain back to the raw materials.\n- **Greenwashing**: Making misleading claims about the environmental benefits of a product or service."
+    },
+    {
+      "id": "supply-chain-risk",
+      "title": "Risk Management in the Supply Chain",
+      "content": "Administrative professionals must identify potential risks that could disrupt operations and develop **contingency plans**.\n\n### Common Risks:\n- **Single Sourcing**: Relying on only one supplier for a critical item (High risk if they fail).\n- **Lead Time Volatility**: Unexpected delays in shipping or production.\n- **Financial Instability**: A vendor going bankrupt.\n\n### Mitigation Strategies:\n- **Multi-sourcing**: Using multiple vendors for the same service.\n- **Buffer Stock**: Keeping extra inventory 'just in case'.\n- **Contingency Plan**: A pre-arranged plan for what to do if a vendor fails (e.g., *Plan B*)."
+    },
+    {
+      "id": "strategic-partnerships",
+      "title": "From Vendors to Strategic Partners",
+      "content": "In high-level administration, we move beyond simple transactional relationships to **Strategic Partnerships**. This means working together for mutual long-term benefit rather than just looking for the lowest price.\n\n### Characteristics of a Partner:\n- **Shared Goals**: Both companies want the other to succeed.\n- **Open Communication**: Transparency regarding costs, challenges, and innovations.\n- **Collaborative Problem Solving**: Working together to eliminate waste or improve quality (Kaizen).\n\n### Measuring Performance (KPIs):\nTo manage these relationships, we use **KPIs** (Key Performance Indicators):\n1. **On-time Delivery Rate**.\n2. **Quality Defect Rate**.\n3. **Cost Savings Initiatives**."
+    },
+    {
+      "id": "e-procurement",
+      "title": "E-procurement & Digital Tools",
+      "content": "Digital transformation has revolutionized how admins manage the supply chain. **E-procurement** refers to the use of software to automate the purchasing process.\n\n### Key Benefits:\n- **Automation**: Purchase Orders (POs) are generated automatically when stock is low.\n- **ERP Systems**: Enterprise Resource Planning software (like SAP or Oracle) integrates procurement with finance and inventory.\n- **Reduced Paperwork**: Digital signatures and cloud-based document storage streamline vetting.\n\n### Vocabulary:\n- **Procure-to-Pay (P2P)**: The end-to-end process from requesting a good to paying the invoice.\n- **Digital Footprint**: The electronic record of all procurement transactions, which improves auditability."
     }
   ],
   "objectives": [
     "Identify the stages of the procurement lifecycle",
     "Describe vendor compliance and vetting procedures",
     "Apply the subjunctive mood in formal administrative requests",
-    "Negotiate and monitor SLAs with external suppliers"
+    "Negotiate and monitor SLAs with external suppliers",
+    "Evaluate vendors based on ESG (Environmental, Social, Governance) criteria",
+    "Develop contingency plans for supply chain disruptions",
+    "Differentiate between transactional vendors and strategic partners",
+    "Explain the benefits of E-procurement and ERP systems"
   ],
   "keyTerms": [
     { "term": "SLA", "definition": "Service Level Agreement: a commitment between a service provider and a client regarding the quality, availability, and responsibilities of the service." },
     { "term": "Procurement", "definition": "The action of obtaining or procuring goods or services, typically for business purposes." },
     { "term": "Lead Time", "definition": "The time between the initiation and completion of a production process." },
-    { "term": "Vetting", "definition": "The process of performing a background check on a person or company before offering them a job or contract." }
+    { "term": "Vetting", "definition": "The process of performing a background check on a person or company before offering them a job or contract." },
+    { "term": "ESG", "definition": "Environmental, Social, and Governance: criteria used to measure the sustainability and ethical impact of an investment or company." },
+    { "term": "Due Diligence", "definition": "The comprehensive appraisal of a business undertaken by a prospective buyer or partner." },
+    { "term": "KPI", "definition": "Key Performance Indicator: a quantifiable measure used to evaluate the success of an organization or vendor in meeting objectives." },
+    { "term": "ERP", "definition": "Enterprise Resource Planning: software used by organizations to manage day-to-day business activities such as accounting, procurement, and project management." }
   ]
 }

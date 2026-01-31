@@ -114,6 +114,20 @@ export const localCourseService = {
       const questionText = item.question || item.prompt || '';
       const id = item.id?.toString() || Math.random().toString(36).substr(2, 9);
 
+      // Grammar with items (as seen in some JSON files)
+      if (item.type === 'grammar' && item.items && Array.isArray(item.items)) {
+        return {
+          id: id,
+          type: 'grammar',
+          title: item.title || 'Grammar Exercise',
+          instructions: item.instructions || 'Complete the exercises below.',
+          grammarPoint: item.grammarPoint,
+          explanation: item.explanation,
+          examples: item.examples || [],
+          questions: item.items.map((q: any, idx: number) => normalizeQuestion(q, idx, id))
+        } as any;
+      }
+
       // Multiple Choice
       if (item.type === 'multipleChoice' || item.type === 'multiple-choice' || item.type === 'multiple_choice' || (item.type === 'grammar' && item.options) || (item.type === 'roleplay' && item.options)) {
         let correctAnswer = item.correctAnswer || item.answer;

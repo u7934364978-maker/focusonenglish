@@ -1,0 +1,217 @@
+{
+  "title": "Module 3: Office Rules & Permission Exam (Week 33)",
+  "questions": [
+    {
+      "id": "adm-a1-w33-q1",
+      "type": "multiple-choice",
+      "question": "Which sentence is used to ask for permission politely?",
+      "options": [
+        "I want to go.",
+        "May I leave now?",
+        "I am leaving.",
+        "Leave me go."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'May I' is the polite way to ask for permission."
+    },
+    {
+      "id": "adm-a1-w33-q2",
+      "type": "multiple-choice",
+      "question": "What does 'You can't enter' mean?",
+      "options": [
+        "It is allowed.",
+        "It is prohibited.",
+        "It is recommended.",
+        "It is easy."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Can't' indicates lack of permission or prohibition."
+    },
+    {
+      "id": "adm-a1-w33-q3",
+      "type": "fill-blank",
+      "question": "________ I use the scanner, please?",
+      "answer": "Can",
+      "explanation": "'Can' (or 'May') is used to ask for permission."
+    },
+    {
+      "id": "adm-a1-w33-q4",
+      "type": "matching",
+      "question": "Match the signs with their meanings:",
+      "pairs": [
+        { "term": "Authorized only", "definition": "No general public" },
+        { "term": "No smoking", "definition": "Don't use cigarettes" },
+        { "term": "Lunch break", "definition": "Time for eating" },
+        { "term": "Keep clean", "definition": "Don't make a mess" }
+      ]
+    },
+    {
+      "id": "adm-a1-w33-q5",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative instruction:",
+      "options": [
+        "Not open the door.",
+        "No open the door.",
+        "Don't open the door.",
+        "Doesn't open the door."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Negative imperatives use 'Don't' + base verb."
+    },
+    {
+      "id": "adm-a1-w33-q6",
+      "type": "fill-blank",
+      "question": "Is it ________ if I sit here?",
+      "answer": "okay",
+      "explanation": "'Is it okay if...' is a common way to ask permission."
+    },
+    {
+      "id": "adm-a1-w33-q7",
+      "type": "multiple-choice",
+      "question": "Where is the best place to have a 'Break'?",
+      "options": [
+        "The kitchen / Break room",
+        "The elevator",
+        "The printer room",
+        "The stairs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The break room is designed for resting and eating."
+    },
+    {
+      "id": "adm-a1-w33-q8",
+      "type": "fill-blank",
+      "question": "May I ________ (tomar prestada) your stapler?",
+      "answer": "borrow",
+      "explanation": "'Borrow' means to use something and return it later."
+    },
+    {
+      "id": "adm-a1-w33-q9",
+      "type": "matching",
+      "question": "Match the phrases with their function:",
+      "pairs": [
+        { "term": "May I...?", "definition": "Asking permission" },
+        { "term": "You can...", "definition": "Giving permission" },
+        { "term": "You can't...", "definition": "Refusing permission" },
+        { "term": "Please don't", "definition": "Giving an order" }
+      ]
+    },
+    {
+      "id": "adm-a1-w33-q10",
+      "type": "multiple-choice",
+      "question": "What is an 'ID Badge'?",
+      "options": [
+        "A type of pen.",
+        "A card that identifies an employee.",
+        "A new computer.",
+        "A desk chair."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An ID badge is used for security and identification."
+    },
+    {
+      "id": "adm-a1-w33-q11",
+      "type": "fill-blank",
+      "question": "You ________ park here. It is for visitors only.",
+      "answer": "can't",
+      "explanation": "If it's for visitors only, employees 'can't' park there."
+    },
+    {
+      "id": "adm-a1-w33-q12",
+      "type": "multiple-choice",
+      "question": "How do you respond to 'May I come in?'",
+      "options": [
+        "Yes, you can.",
+        "No, you are.",
+        "Yes, you do.",
+        "No, you have."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Yes, you can' is a common way to give permission."
+    },
+    {
+      "id": "adm-a1-w33-q13",
+      "type": "fill-blank",
+      "question": "Access is restricted to ________ (personal) only.",
+      "answer": "personnel",
+      "explanation": "'Personnel' means the people who work in an organization."
+    },
+    {
+      "id": "adm-a1-w33-q14",
+      "type": "multiple-choice",
+      "question": "What does 'Prohibited' mean?",
+      "options": [
+        "You can do it.",
+        "You must do it.",
+        "You can't do it.",
+        "It is free."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Prohibited means something is not allowed."
+    },
+    {
+      "id": "adm-a1-w33-q15",
+      "type": "fill-blank",
+      "question": "________ I have a glass of water?",
+      "answer": "May",
+      "explanation": "'May I have...' is a polite way to ask for something."
+    },
+    {
+      "id": "adm-a1-w33-q16",
+      "type": "multiple-choice",
+      "question": "Choose the correct rule for a library:",
+      "options": [
+        "You can talk loudly.",
+        "You can't eat.",
+        "You can run.",
+        "You can't read."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Most libraries prohibit eating to protect the books."
+    },
+    {
+      "id": "adm-a1-w33-q17",
+      "type": "matching",
+      "question": "Match the words with their Spanish translation:",
+      "pairs": [
+        { "term": "Rule", "definition": "Regla" },
+        { "term": "Permission", "definition": "Permiso" },
+        { "term": "Policy", "definition": "Política/Norma" },
+        { "term": "Staff", "definition": "Personal" }
+      ]
+    },
+    {
+      "id": "adm-a1-w33-q18",
+      "type": "multiple-choice",
+      "question": "What follows 'Please don't'?",
+      "options": [
+        "Verb + ing",
+        "Verb + s",
+        "Base form of the verb",
+        "To + verb"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Imperatives use the base form of the verb."
+    },
+    {
+      "id": "adm-a1-w33-q19",
+      "type": "fill-blank",
+      "question": "May I ________ (usar) the phone?",
+      "answer": "use",
+      "explanation": "The base form of 'usar' is 'use'."
+    },
+    {
+      "id": "adm-a1-w33-q20",
+      "type": "multiple-choice",
+      "question": "Which is a 'Smoking Area'?",
+      "options": [
+        "A place where you can smoke.",
+        "A place where you can't smoke.",
+        "A place for lunch.",
+        "A place for meetings."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A smoking area is a designated zone for smokers."
+    }
+  ]
+}

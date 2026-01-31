@@ -581,6 +581,331 @@
         "must have",
         "should have"
       ]
+    },
+    {
+      "id": "adm-b2-w8-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Stakeholder Management. Who is considered a 'stakeholder' in a change process?",
+      "options": [
+        "Only the CEO.",
+        "Only the IT department.",
+        "Anyone affected by the change, including employees and clients.",
+        "Only the external consultants."
+      ],
+      "answerIndex": 2,
+      "explanation": "Stakeholders include any individual or group with an interest in or affected by the project outcome."
+    },
+    {
+      "id": "adm-b2-w8-ex47",
+      "type": "fillBlanks",
+      "prompt": "Exercise 47: Fill in the blanks. 'To avoid ________ during the transition, we need to ensure ________ between the IT and Finance departments.'",
+      "answers": [
+        "friction",
+        "alignment"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Automation. What does RPA stand for in the context of office innovation?",
+      "options": [
+        "Rapid Process Analysis",
+        "Robotic Process Automation",
+        "Remote Personnel Access",
+        "Real-time Policy Adjustment"
+      ],
+      "answerIndex": 1,
+      "explanation": "RPA stands for Robotic Process Automation, used to automate repetitive tasks."
+    },
+    {
+      "id": "adm-b2-w8-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Grammar (High Certainty). Speculate about why the stakeholder was happy: 'The feedback was 100% positive.'",
+      "modelAnswer": "The stakeholder must have been happy because the feedback was 100% positive.",
+      "keywords": [
+        "must have",
+        "happy"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Business Concepts. What is a 'milestone' in a project plan?",
+      "options": [
+        "A heavy rock used for construction.",
+        "A significant stage or event in the project development.",
+        "A type of legacy hardware.",
+        "The final bill sent to the client."
+      ],
+      "answerIndex": 1,
+      "explanation": "A milestone marks a significant achievement or stage in a project's timeline."
+    },
+    {
+      "id": "adm-b2-w8-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Modals for Deduction. Speculate about why the UAT failed: 'Users couldn't find the 'submit' button.'",
+      "modelAnswer": "The UAT must have failed because the UI was confusing and users couldn't find the submit button.",
+      "keywords": [
+        "must have",
+        "failed"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex52",
+      "type": "fillBlanks",
+      "prompt": "Exercise 52: Change Terms. 'We need to create a ________ to lead the change and ensure ________ communication.'",
+      "answers": [
+        "guiding coalition",
+        "proactive"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex53",
+      "type": "multipleChoice",
+      "prompt": "Exercise 53: Innovation. Which is an example of 'Predictive Analytics' in an administrative context?",
+      "options": [
+        "Reading a crystal ball.",
+        "Using historical data to forecast peak workloads and potential bottlenecks.",
+        "Asking employees what they think will happen.",
+        "Checking the weather for the office picnic."
+      ],
+      "answerIndex": 1,
+      "explanation": "Predictive analytics uses historical data to forecast future events or trends."
+    },
+    {
+      "id": "adm-b2-w8-ex54",
+      "type": "writingTask",
+      "prompt": "Exercise 54: Regret. Write a sentence using 'should have' about a missed project deadline.",
+      "modelAnswer": "We should have allocated more resources to meet the project deadline.",
+      "keywords": [
+        "should have",
+        "deadline"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: AI Integration. What is 'up-skilling'?",
+      "options": [
+        "Moving the office to a higher floor.",
+        "Learning new skills to keep up with technological changes.",
+        "Increasing the price of a product.",
+        "Hiring more senior managers."
+      ],
+      "answerIndex": 1,
+      "explanation": "Up-skilling involves training employees to handle new technologies or more complex tasks."
+    },
+    {
+      "id": "adm-b2-w8-ex56",
+      "type": "fillBlanks",
+      "prompt": "Exercise 56: Stakeholders. 'Setting ________ milestones is essential to maintain stakeholder ________.'",
+      "answers": [
+        "realistic",
+        "alignment"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Possibility. Speculate about a missing file using 'might have': 'The file is not in the cabinet.'",
+      "modelAnswer": "The file might have been misfiled or moved to the digital archive.",
+      "keywords": [
+        "might have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Innovation Type. If you update a document template to be 5% more efficient, what type of innovation is it?",
+      "options": [
+        "Radical",
+        "Disruptive",
+        "Incremental",
+        "Architectural"
+      ],
+      "answerIndex": 2,
+      "explanation": "Incremental innovation involves small, gradual improvements."
+    },
+    {
+      "id": "adm-b2-w8-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Criticism. Criticize a colleague's lack of communication during a pivot using 'should have'.",
+      "modelAnswer": "You should have updated the team about the pivot earlier to avoid confusion.",
+      "keywords": [
+        "should have",
+        "pivot"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex60",
+      "type": "fillBlanks",
+      "prompt": "Exercise 60: UAT. 'During the ________ phase, we discovered a major ________ in the payment workflow.'",
+      "answers": [
+        "UAT",
+        "bottleneck"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Change Management. What does 'anchoring' the change mean?",
+      "options": [
+        "Stopping the project immediately.",
+        "Throwing an anchor into the sea.",
+        "Making the change a permanent part of the organisational culture.",
+        "Hiring a new manager to lead the change."
+      ],
+      "answerIndex": 2,
+      "explanation": "Anchoring ensures that new behaviors and processes become the standard."
+    },
+    {
+      "id": "adm-b2-w8-ex62",
+      "type": "writingTask",
+      "prompt": "Exercise 62: Past Possibility. The office is empty at 4 PM on a Friday. Speculate using 'could have'.",
+      "modelAnswer": "Everyone could have left early for the long weekend.",
+      "keywords": [
+        "could have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex63",
+      "type": "fillBlanks",
+      "prompt": "Exercise 63: Ethics. 'We must be ________ regarding how AI tools handle sensitive ________ data.'",
+      "answers": [
+        "transparent",
+        "employee"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Change Logic. Why is 'creating urgency' the first step in Kotter's model?",
+      "options": [
+        "To make people panic.",
+        "To explain why the status quo is no longer acceptable.",
+        "To fire employees who are too slow.",
+        "To speed up the software installation."
+      ],
+      "answerIndex": 1,
+      "explanation": "Creating urgency helps overcome inertia and motivates people to support the change."
+    },
+    {
+      "id": "adm-b2-w8-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Professional Phrasing. Rewrite this sentence to be more professional: 'We are changing everything because the old way sucks.'",
+      "modelAnswer": "We are pivoting our strategy to address the inefficiencies of our legacy systems and streamline our workflows.",
+      "keywords": [
+        "pivoting",
+        "legacy",
+        "streamline"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Grammar. 'The migration was flawless. They ________ (prepare) very well.'",
+      "options": [
+        "must have prepared",
+        "can't have prepared",
+        "should have prepared",
+        "might have prepared"
+      ],
+      "answerIndex": 0,
+      "explanation": "A flawless result suggests high certainty that preparation was good."
+    },
+    {
+      "id": "adm-b2-w8-ex67",
+      "type": "fillBlanks",
+      "prompt": "Exercise 67: Innovation. 'While ________ innovation creates new markets, ________ innovation improves existing ones.'",
+      "answers": [
+        "radical",
+        "incremental"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: Impact Analysis. Briefly explain one way a 'paperless' pivot might cause 'friction' in a Finance department.",
+      "modelAnswer": "It might cause friction if auditors require original physical receipts for compliance, leading to resistance against purely digital copies.",
+      "keywords": [
+        "friction",
+        "compliance",
+        "resistance"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Automation. Which task is most suitable for 'Robotic Process Automation'?",
+      "options": [
+        "Resolving a complex interpersonal conflict.",
+        "Brainstorming a new marketing slogan.",
+        "Copying data from paper invoices into an accounting database.",
+        "Delivering a motivational speech."
+      ],
+      "answerIndex": 2,
+      "explanation": "RPA is best for repetitive, rule-based data entry tasks."
+    },
+    {
+      "id": "adm-b2-w8-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: Speculation (Negative). Speculate about why a software was NOT purchased using 'can't have': 'It was too expensive.'",
+      "modelAnswer": "They can't have purchased it because the price was far beyond their budget.",
+      "keywords": [
+        "can't have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex71",
+      "type": "fillBlanks",
+      "prompt": "Exercise 71: Communication. 'Proactive ________ helps in managing stakeholder ________ during a crisis.'",
+      "answers": [
+        "communication",
+        "expectations"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Terminology. A 'Guiding Coalition' should ideally include:",
+      "options": [
+        "Only the newest interns.",
+        "A diverse group of influential employees from different levels.",
+        "Only people from the IT department.",
+        "The company's lawyers only."
+      ],
+      "answerIndex": 1,
+      "explanation": "A guiding coalition needs influence and diversity to lead change effectively across the organization."
+    },
+    {
+      "id": "adm-b2-w8-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: Grammar (Necessity). Use 'needn't have' to explain that an extra meeting was a waste of time.",
+      "modelAnswer": "We needn't have held that extra meeting; all the decisions had already been made by email.",
+      "keywords": [
+        "needn't have"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex74",
+      "type": "fillBlanks",
+      "prompt": "Exercise 74: Innovation Logic. 'A ________ in strategy is often necessary when a ________ system becomes a bottleneck.'",
+      "answers": [
+        "pivot",
+        "legacy"
+      ]
+    },
+    {
+      "id": "adm-b2-w8-ex75",
+      "type": "writingTask",
+      "prompt": "Exercise 75: Final Synthesis. List three key factors for a successful 'Migration' and use one modal of deduction to explain a past success.",
+      "modelAnswer": "Key factors: 1) Thorough UAT, 2) Stakeholder alignment, 3) Robust data cleaning. The project must have succeeded because we ensured full team buy-in from day one.",
+      "keywords": [
+        "UAT",
+        "alignment",
+        "buy-in",
+        "must have"
+      ]
     }
   ]
 }

@@ -1,398 +1,590 @@
-{
-  "title": "Ejercicios: Tarjetas y Pagos Diarios",
-  "exercises": [
-    {
-      "id": "ex1",
-      "type": "multiple-choice",
-      "question": "Which card uses money directly from your account?",
-      "options": ["Credit card", "Debit card", "ID card", "Business card"],
-      "correctAnswer": 1,
-      "explanation": "A debit card takes money immediately from your balance."
-    },
-    {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "Credit cards are ________ (expensive) than debit cards.",
-      "answer": "more expensive",
-      "explanation": "We use 'more' for long adjectives like 'expensive'."
-    },
-    {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the card terms:",
-      "pairs": [
-        { "term": "Limit", "definition": "Maximum amount" },
-        { "term": "Declined", "definition": "Rejected" },
-        { "term": "Surcharge", "definition": "Extra fee" }
-      ]
-    },
-    {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "What is an 'Interest Rate'?",
-      "options": ["El precio de la tarjeta", "El coste de pedir prestado", "El nombre del banco", "La fecha de caducidad"],
-      "correctAnswer": 1,
-      "explanation": "Interest rate is the cost of borrowing money."
-    },
-    {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "My account balance is ________ (high) than last month.",
-      "answer": "higher",
-      "explanation": "Short adjectives add '-er' for comparison."
-    },
-    {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "Choose the correct question:",
-      "options": ["You accept cards?", "Do you accept cards?", "Are you accept cards?", "Accept you cards?"],
-      "correctAnswer": 1,
-      "explanation": "We use 'Do' for questions in present simple."
-    },
-    {
-      "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "My card was ________ (rechazada) because I have no money.",
-      "answer": "declined",
-      "explanation": "'Declined' is the official term for rejected payments."
-    },
-    {
-      "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Payment methods:",
-      "pairs": [
-        { "term": "Cash", "definition": "Efectivo" },
-        { "term": "Credit", "definition": "Crédito" },
-        { "term": "Contactless", "definition": "Sin contacto" }
-      ]
-    },
-    {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "Which is 'mejor' in English?",
-      "options": ["Gooder", "Better", "Best", "More good"],
-      "correctAnswer": 1,
-      "explanation": "'Better' is the irregular comparative of 'good'."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "Is there a ________ (recargo) for using this card?",
-      "answer": "surcharge",
-      "explanation": "A surcharge is an extra fee."
-    },
-    {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "A 'billing cycle' is usually...",
-      "options": ["A week", "A month", "A year", "A day"],
-      "correctAnswer": 1,
-      "explanation": "Most banks bill once a month."
-    },
-    {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "This loan is ________ (cheap) than that one.",
-      "answer": "cheaper",
-      "explanation": "'Cheap' is a short adjective, so we add '-er'."
-    },
-    {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "What do you do if your card is lost?",
-      "options": ["Call the bank", "Nothing", "Cry", "Wait"],
-      "correctAnswer": 0,
-      "explanation": "You must call the bank to block it."
-    },
-    {
-      "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "I want to pay ________ card. (con/por)",
-      "answer": "by",
-      "explanation": "We say 'pay by card' or 'pay with a card'."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Card features:",
-      "pairs": [
-        { "term": "Chip", "definition": "Security part" },
-        { "term": "Expiry Date", "definition": "Valid until" },
-        { "term": "CVV", "definition": "Security code" }
-      ]
-    },
-    {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "Credit cards are ________ for travel.",
-      "options": ["Usefuler", "More useful", "Useful", "Usefulest"],
-      "correctAnswer": 1,
-      "explanation": "Comparative of 'useful' is 'more useful'."
-    },
-    {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "The card ________ is 5,000 euros. (límite)",
-      "answer": "limit",
-      "explanation": "The maximum you can spend on credit."
-    },
-    {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "What is 'peor' in English?",
-      "options": ["Badder", "Worse", "Worst", "More bad"],
-      "correctAnswer": 1,
-      "explanation": "'Worse' is the irregular comparative of 'bad'."
-    },
-    {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "Can you ________ (deslizar) your card?",
-      "answer": "swipe",
-      "explanation": "'Swipe' is used for older magnetic strips."
-    },
-    {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "A 'contactless' payment is...",
-      "options": ["Fast", "Slow", "Dangerous", "Impossible"],
-      "correctAnswer": 0,
-      "explanation": "It is designed for speed and convenience."
-    },
-    {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "This bank is ________ (big) than mine.",
-      "answer": "bigger",
-      "explanation": "Double the 'g' and add '-er'."
-    },
-    {
-      "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Banking fees:",
-      "pairs": [
-        { "term": "Annual fee", "definition": "Once a year" },
-        { "term": "ATM fee", "definition": "For withdrawal" },
-        { "term": "Late fee", "definition": "For missing payments" }
-      ]
-    },
-    {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "How do you say 'interés' in a loan context?",
-      "options": ["Benefit", "Interest", "Gift", "Bonus"],
-      "correctAnswer": 1,
-      "explanation": "'Interest' is the financial term."
-    },
-    {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "The service is ________ (good) here than there.",
-      "answer": "better",
-      "explanation": "Irregular comparative of 'good'."
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "If you don't pay the full balance, you pay...",
-      "options": ["Nothing", "Interest", "A gift", "Tax"],
-      "correctAnswer": 1,
-      "explanation": "Credit cards charge interest on unpaid balances."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "My card ________ (vence) in 2028.",
-      "answer": "expires",
-      "explanation": "'Expires' is used for dates."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "Which is a 'comparative' sentence?",
-      "options": ["I have a card.", "This card is black.", "My card is older than yours.", "I lost my card."],
-      "correctAnswer": 2,
-      "explanation": "It compares two cards using '-er than'."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "The PIN is ________ (important) than the card number.",
-      "answer": "more important",
-      "explanation": "Long adjective needs 'more'."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "What is a 'statement'?",
-      "options": ["A card", "A list of transactions", "A bank manager", "A building"],
-      "correctAnswer": 1,
-      "explanation": "A bank statement shows your activity."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "I need a ________ (nuevo) credit card.",
-      "answer": "new",
-      "explanation": "Basic adjective."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Card security:",
-      "pairs": [
-        { "term": "PIN", "definition": "4 numbers" },
-        { "term": "CVV", "definition": "3 numbers on back" },
-        { "term": "ID", "definition": "Identification" }
-      ]
-    },
-    {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "Which bank is ________ (near) to here?",
-      "options": ["Nearer", "More near", "Nearest", "Near"],
-      "correctAnswer": 0,
-      "explanation": "Comparative of 'near' is 'nearer'."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "Please ________ (insertar) your card into the chip reader.",
-      "answer": "insert",
-      "explanation": "Verb for chip cards."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "A 'decline' can happen if...",
-      "options": ["The card is expired", "No money", "Wrong PIN", "All of the above"],
-      "correctAnswer": 3,
-      "explanation": "Multiple reasons can lead to a declined transaction."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "Online security is ________ (critical) than before.",
-      "answer": "more critical",
-      "explanation": "Long adjective."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "What is 'pagar a plazos'?",
-      "options": ["Pay in cash", "Pay in installments", "Pay immediately", "Pay never"],
-      "correctAnswer": 1,
-      "explanation": "'Installments' are partial payments over time."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "Wait for the ________. (recibo)",
-      "answer": "receipt",
-      "explanation": "Paper proof of payment."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Card types:",
-      "pairs": [
-        { "term": "Gold Card", "definition": "High limit" },
-        { "term": "Student Card", "definition": "Low fees" },
-        { "term": "Prepaid Card", "definition": "Loaded money" }
-      ]
-    },
-    {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "Your limit is ________ (low) than mine.",
-      "options": ["Lower", "More low", "Low", "Lowest"],
-      "correctAnswer": 0,
-      "explanation": "Comparative of 'low' is 'lower'."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "Don't forget to ________ (bloquear) the card.",
-      "answer": "block",
-      "explanation": "Security action."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "What is 'cashback'?",
-      "options": ["Paying more", "Getting money back on a purchase", "Losing money", "A type of ATM"],
-      "correctAnswer": 1,
-      "explanation": "Cashback is a reward program."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "The interest rate is ________ (bad) than I thought.",
-      "answer": "worse",
-      "explanation": "Irregular comparative of 'bad'."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "Which is more secure?",
-      "options": ["Magnetic strip", "Chip & PIN", "Signature", "None"],
-      "correctAnswer": 1,
-      "explanation": "Chip & PIN provides better encryption."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "I need to ________ (solicitar) a new card.",
-      "answer": "apply for",
-      "explanation": "Phrasal verb for requesting a service."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Shopping phrases:",
-      "pairs": [
-        { "term": "Total", "definition": "Final amount" },
-        { "term": "Discount", "definition": "Reduced price" },
-        { "term": "Tax", "definition": "Government money" }
-      ]
-    },
-    {
-      "id": "ex46",
-      "type": "multiple-choice",
-      "question": "Is a credit card 'deuda'?",
-      "options": ["Yes, it's debt", "No, it's a gift", "It's savings", "It's cash"],
-      "correctAnswer": 0,
-      "explanation": "Credit is borrowed money, so it is debt."
-    },
-    {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "This transaction is ________ (fast) than the old one.",
-      "answer": "faster",
-      "explanation": "Short adjective."
-    },
-    {
-      "id": "ex48",
-      "type": "multiple-choice",
-      "question": "What is 'Annual fee'?",
-      "options": ["Comisión por mes", "Comisión por año", "Regalo anual", "Tipo de interés"],
-      "correctAnswer": 1,
-      "explanation": "Annual means every year."
-    },
-    {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "The machine is ________ (fuera) of order.",
-      "answer": "out",
-      "explanation": "'Out of order' means it doesn't work."
-    },
-    {
-      "id": "ex50",
-      "type": "multiple-choice",
-      "question": "Can I pay ________ cash?",
-      "options": ["by", "in", "with", "Both B and C"],
-      "correctAnswer": 3,
-      "explanation": "We can say 'pay in cash' or 'pay with cash'."
-    }
-  ]
-}
+[
+  {
+    "id": "adm-a2-w25-ex01",
+    "type": "multiple-choice",
+    "question": "Which card uses money directly from your account?",
+    "options": ["Credit card", "Debit card", "ID card", "Business card"],
+    "correctAnswer": 1,
+    "explanation": "Una tarjeta de débito retira el dinero inmediatamente de tu saldo disponible."
+  },
+  {
+    "id": "adm-a2-w25-ex02",
+    "type": "fill-in-the-blank",
+    "question": "Credit cards are ________ (expensive) than debit cards.",
+    "correctAnswer": "more expensive",
+    "explanation": "Usamos 'more' para formar el comparativo de adjetivos largos como 'expensive'."
+  },
+  {
+    "id": "adm-a2-w25-ex03",
+    "type": "matching",
+    "question": "Match the card terms:",
+    "pairs": [
+      { "left": "Limit", "right": "Maximum amount" },
+      { "left": "Declined", "right": "Rejected" },
+      { "left": "Surcharge", "right": "Extra fee" }
+    ],
+    "explanation": "Términos comunes: Límite (monto máximo), Denegada (rechazada), Recargo (tarifa extra)."
+  },
+  {
+    "id": "adm-a2-w25-ex04",
+    "type": "multiple-choice",
+    "question": "What is an 'Interest Rate'?",
+    "options": ["The price of the card", "The cost of borrowing money", "The name of the bank", "The expiry date"],
+    "correctAnswer": 1,
+    "explanation": "La tasa de interés es el costo de pedir prestado dinero al banco."
+  },
+  {
+    "id": "adm-a2-w25-ex05",
+    "type": "fill-in-the-blank",
+    "question": "My account balance is ________ (high) than last month.",
+    "correctAnswer": "higher",
+    "explanation": "Los adjetivos cortos añaden '-er' para formar el comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex06",
+    "type": "multiple-choice",
+    "question": "Choose the correct question:",
+    "options": ["You accept cards?", "Do you accept cards?", "Are you accept cards?", "Accept you cards?"],
+    "correctAnswer": 1,
+    "explanation": "Usamos el auxiliar 'Do' para hacer preguntas en presente simple."
+  },
+  {
+    "id": "adm-a2-w25-ex07",
+    "type": "fill-in-the-blank",
+    "question": "My card was ________ (rechazada) because I have no money.",
+    "correctAnswer": "declined",
+    "explanation": "'Declined' es el término oficial para un pago rechazado."
+  },
+  {
+    "id": "adm-a2-w25-ex08",
+    "type": "matching",
+    "question": "Payment methods:",
+    "pairs": [
+      { "left": "Cash", "right": "Efectivo" },
+      { "left": "Credit", "right": "Crédito" },
+      { "left": "Contactless", "right": "Sin contacto" }
+    ],
+    "explanation": "Diferentes formas de pago: efectivo, crédito y tecnología sin contacto."
+  },
+  {
+    "id": "adm-a2-w25-ex09",
+    "type": "multiple-choice",
+    "question": "Which is 'mejor' in English?",
+    "options": ["Gooder", "Better", "Best", "More good"],
+    "correctAnswer": 1,
+    "explanation": "'Better' es el comparativo irregular del adjetivo 'good'."
+  },
+  {
+    "id": "adm-a2-w25-ex10",
+    "type": "fill-in-the-blank",
+    "question": "Is there a ________ (recargo) for using this card?",
+    "correctAnswer": "surcharge",
+    "explanation": "Un 'surcharge' es un cargo adicional por usar un método de pago específico."
+  },
+  {
+    "id": "adm-a2-w25-ex11",
+    "type": "multiple-choice",
+    "question": "A 'billing cycle' is usually...",
+    "options": ["A week", "A month", "A year", "A day"],
+    "correctAnswer": 1,
+    "explanation": "La mayoría de los bancos emiten facturas una vez al mes."
+  },
+  {
+    "id": "adm-a2-w25-ex12",
+    "type": "fill-in-the-blank",
+    "question": "This loan is ________ (cheap) than that one.",
+    "correctAnswer": "cheaper",
+    "explanation": "'Cheap' es un adjetivo corto, por lo que añadimos '-er'."
+  },
+  {
+    "id": "adm-a2-w25-ex13",
+    "type": "multiple-choice",
+    "question": "What do you do if your card is lost?",
+    "options": ["Call the bank", "Nothing", "Cry", "Wait"],
+    "correctAnswer": 0,
+    "explanation": "Debes llamar al banco inmediatamente para bloquear la tarjeta."
+  },
+  {
+    "id": "adm-a2-w25-ex14",
+    "type": "fill-in-the-blank",
+    "question": "I want to pay ________ card. (con/por)",
+    "correctAnswer": "by",
+    "explanation": "Decimos 'pay by card' (pagar con tarjeta) o 'pay with a card'."
+  },
+  {
+    "id": "adm-a2-w25-ex15",
+    "type": "matching",
+    "question": "Card features:",
+    "pairs": [
+      { "left": "Chip", "right": "Security part" },
+      { "left": "Expiry Date", "right": "Valid until" },
+      { "left": "CVV", "right": "Security code" }
+    ],
+    "explanation": "Características de la tarjeta: Chip, Fecha de caducidad y Código de seguridad."
+  },
+  {
+    "id": "adm-a2-w25-ex16",
+    "type": "multiple-choice",
+    "question": "Credit cards are ________ for travel.",
+    "options": ["Usefuler", "More useful", "Useful", "Usefulest"],
+    "correctAnswer": 1,
+    "explanation": "El comparativo de 'useful' es 'more useful'."
+  },
+  {
+    "id": "adm-a2-w25-ex17",
+    "type": "fill-in-the-blank",
+    "question": "The card ________ is 5,000 euros. (límite)",
+    "correctAnswer": "limit",
+    "explanation": "El límite es el monto máximo que puedes gastar a crédito."
+  },
+  {
+    "id": "adm-a2-w25-ex18",
+    "type": "multiple-choice",
+    "question": "What is 'peor' in English?",
+    "options": ["Badder", "Worse", "Worst", "More bad"],
+    "correctAnswer": 1,
+    "explanation": "'Worse' es el comparativo irregular del adjetivo 'bad'."
+  },
+  {
+    "id": "adm-a2-w25-ex19",
+    "type": "fill-in-the-blank",
+    "question": "Can you ________ (deslizar) your card?",
+    "correctAnswer": "swipe",
+    "explanation": "'Swipe' se usa para las tarjetas con banda magnética."
+  },
+  {
+    "id": "adm-a2-w25-ex20",
+    "type": "multiple-choice",
+    "question": "A 'contactless' payment is...",
+    "options": ["Fast", "Slow", "Dangerous", "Impossible"],
+    "correctAnswer": 0,
+    "explanation": "El pago sin contacto está diseñado para ser rápido y conveniente."
+  },
+  {
+    "id": "adm-a2-w25-ex21",
+    "type": "fill-in-the-blank",
+    "question": "This bank is ________ (big) than mine.",
+    "correctAnswer": "bigger",
+    "explanation": "Se dobla la consonante final en adjetivos CVC antes de añadir '-er'."
+  },
+  {
+    "id": "adm-a2-w25-ex22",
+    "type": "matching",
+    "question": "Banking fees:",
+    "pairs": [
+      { "left": "Annual fee", "right": "Once a year" },
+      { "left": "ATM fee", "right": "For withdrawal" },
+      { "left": "Late fee", "right": "For missing payments" }
+    ],
+    "explanation": "Comisiones: anual, por retiro en cajero y por pago atrasado."
+  },
+  {
+    "id": "adm-a2-w25-ex23",
+    "type": "multiple-choice",
+    "question": "How do you say 'interés' in a loan context?",
+    "options": ["Benefit", "Interest", "Gift", "Bonus"],
+    "correctAnswer": 1,
+    "explanation": "'Interest' es el término financiero correcto para los intereses."
+  },
+  {
+    "id": "adm-a2-w25-ex24",
+    "type": "fill-in-the-blank",
+    "question": "The service is ________ (good) here than there.",
+    "correctAnswer": "better",
+    "explanation": "'Better' es el comparativo irregular de 'good'."
+  },
+  {
+    "id": "adm-a2-w25-ex25",
+    "type": "multiple-choice",
+    "question": "If you don't pay the full balance, you pay...",
+    "options": ["Nothing", "Interest", "A gift", "Tax"],
+    "correctAnswer": 1,
+    "explanation": "Las tarjetas de crédito cobran intereses sobre los saldos no pagados."
+  },
+  {
+    "id": "adm-a2-w25-ex26",
+    "type": "fill-in-the-blank",
+    "question": "My card ________ (vence) in 2028.",
+    "correctAnswer": "expires",
+    "explanation": "'Expires' se usa para fechas de vencimiento de tarjetas o contratos."
+  },
+  {
+    "id": "adm-a2-w25-ex27",
+    "type": "multiple-choice",
+    "question": "Which is a 'comparative' sentence?",
+    "options": ["I have a card.", "This card is black.", "My card is older than yours.", "I lost my card."],
+    "correctAnswer": 2,
+    "explanation": "Compara dos tarjetas usando la estructura '-er than'."
+  },
+  {
+    "id": "adm-a2-w25-ex28",
+    "type": "fill-in-the-blank",
+    "question": "The PIN is ________ (important) than the card number.",
+    "correctAnswer": "more important",
+    "explanation": "Adjetivos largos requieren 'more' para formar el comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex29",
+    "type": "multiple-choice",
+    "question": "What is a 'statement'?",
+    "options": ["A card", "A list of transactions", "A bank manager", "A building"],
+    "correctAnswer": 1,
+    "explanation": "Un 'statement' es el estado de cuenta con todos tus movimientos."
+  },
+  {
+    "id": "adm-a2-w25-ex30",
+    "type": "fill-in-the-blank",
+    "question": "I need a ________ (nuevo) credit card.",
+    "correctAnswer": "new",
+    "explanation": "Adjetivo básico: 'new' significa nuevo."
+  },
+  {
+    "id": "adm-a2-w25-ex31",
+    "type": "matching",
+    "question": "Card security:",
+    "pairs": [
+      { "left": "PIN", "right": "4 numbers" },
+      { "left": "CVV", "right": "3 numbers on back" },
+      { "left": "ID", "right": "Identification" }
+    ],
+    "explanation": "Elementos de seguridad: PIN, código CVV e Identificación."
+  },
+  {
+    "id": "adm-a2-w25-ex32",
+    "type": "multiple-choice",
+    "question": "Which bank is ________ (near) to here?",
+    "options": ["Nearer", "More near", "Nearest", "Near"],
+    "correctAnswer": 0,
+    "explanation": "El comparativo de 'near' es 'nearer'."
+  },
+  {
+    "id": "adm-a2-w25-ex33",
+    "type": "fill-in-the-blank",
+    "question": "Please ________ (insertar) your card into the chip reader.",
+    "correctAnswer": "insert",
+    "explanation": "El verbo para colocar la tarjeta en el lector de chip es 'insert'."
+  },
+  {
+    "id": "adm-a2-w25-ex34",
+    "type": "multiple-choice",
+    "question": "A 'decline' can happen if...",
+    "options": ["The card is expired", "No money", "Wrong PIN", "All of the above"],
+    "correctAnswer": 3,
+    "explanation": "Existen múltiples razones por las cuales una transacción puede ser rechazada."
+  },
+  {
+    "id": "adm-a2-w25-ex35",
+    "type": "fill-in-the-blank",
+    "question": "Online security is ________ (critical) than before.",
+    "correctAnswer": "more critical",
+    "explanation": "Adjetivo largo en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex36",
+    "type": "multiple-choice",
+    "question": "What is 'pagar a plazos'?",
+    "options": ["Pay in cash", "Pay in installments", "Pay immediately", "Pay never"],
+    "correctAnswer": 1,
+    "explanation": "'Installments' son pagos parciales realizados a lo largo del tiempo."
+  },
+  {
+    "id": "adm-a2-w25-ex37",
+    "type": "fill-in-the-blank",
+    "question": "Wait for the ________. (recibo)",
+    "correctAnswer": "receipt",
+    "explanation": "El 'receipt' es el comprobante de pago impreso o digital."
+  },
+  {
+    "id": "adm-a2-w25-ex38",
+    "type": "matching",
+    "question": "Card types:",
+    "pairs": [
+      { "left": "Gold Card", "right": "High limit" },
+      { "left": "Student Card", "right": "Low fees" },
+      { "left": "Prepaid Card", "right": "Loaded money" }
+    ],
+    "explanation": "Tipos de tarjetas: Oro (límite alto), Estudiante (comisiones bajas), Prepago (con dinero cargado)."
+  },
+  {
+    "id": "adm-a2-w25-ex39",
+    "type": "multiple-choice",
+    "question": "Your limit is ________ (low) than mine.",
+    "options": ["Lower", "More low", "Low", "Lowest"],
+    "correctAnswer": 0,
+    "explanation": "El comparativo de 'low' es 'lower'."
+  },
+  {
+    "id": "adm-a2-w25-ex40",
+    "type": "fill-in-the-blank",
+    "question": "Don't forget to ________ (bloquear) the card.",
+    "correctAnswer": "block",
+    "explanation": "Acción de seguridad tras la pérdida o robo: bloquear la tarjeta."
+  },
+  {
+    "id": "adm-a2-w25-ex41",
+    "type": "multiple-choice",
+    "question": "What is 'cashback'?",
+    "options": ["Paying more", "Getting money back on a purchase", "Losing money", "A type of ATM"],
+    "correctAnswer": 1,
+    "explanation": "El 'cashback' es un programa de recompensas que te devuelve dinero por tus compras."
+  },
+  {
+    "id": "adm-a2-w25-ex42",
+    "type": "fill-in-the-blank",
+    "question": "The interest rate is ________ (bad) than I thought.",
+    "correctAnswer": "worse",
+    "explanation": "Comparativo irregular: bad -> worse."
+  },
+  {
+    "id": "adm-a2-w25-ex43",
+    "type": "multiple-choice",
+    "question": "Which is more secure?",
+    "options": ["Magnetic strip", "Chip & PIN", "Signature", "None"],
+    "correctAnswer": 1,
+    "explanation": "La tecnología Chip & PIN es más segura que la banda magnética o la firma."
+  },
+  {
+    "id": "adm-a2-w25-ex44",
+    "type": "fill-in-the-blank",
+    "question": "I need to ________ (solicitar) a new card.",
+    "correctAnswer": "apply for",
+    "explanation": "'Apply for' significa solicitar formalmente un servicio o producto."
+  },
+  {
+    "id": "adm-a2-w25-ex45",
+    "type": "matching",
+    "question": "Shopping phrases:",
+    "pairs": [
+      { "left": "Total", "right": "Final amount" },
+      { "left": "Discount", "right": "Reduced price" },
+      { "left": "Tax", "right": "Government money" }
+    ],
+    "explanation": "Conceptos de compras: Total, Descuento e Impuestos."
+  },
+  {
+    "id": "adm-a2-w25-ex46",
+    "type": "multiple-choice",
+    "question": "Is a credit card 'deuda'?",
+    "options": ["Yes, it's debt", "No, it's a gift", "It's savings", "It's cash"],
+    "correctAnswer": 0,
+    "explanation": "Como el crédito es dinero prestado, se considera una deuda (debt)."
+  },
+  {
+    "id": "adm-a2-w25-ex47",
+    "type": "fill-in-the-blank",
+    "question": "This transaction is ________ (fast) than the old one.",
+    "correctAnswer": "faster",
+    "explanation": "Adjetivo corto en comparativo: fast -> faster."
+  },
+  {
+    "id": "adm-a2-w25-ex48",
+    "type": "multiple-choice",
+    "question": "What is 'Annual fee'?",
+    "options": ["Comisión mensual", "Comisión anual", "Regalo anual", "Tipo de interés"],
+    "correctAnswer": 1,
+    "explanation": "'Annual fee' es la cuota que se paga una vez al año por mantener la tarjeta."
+  },
+  {
+    "id": "adm-a2-w25-ex49",
+    "type": "fill-in-the-blank",
+    "question": "The machine is ________ (fuera) of order.",
+    "correctAnswer": "out",
+    "explanation": "'Out of order' significa que el aparato no funciona."
+  },
+  {
+    "id": "adm-a2-w25-ex50",
+    "type": "multiple-choice",
+    "question": "Can I pay ________ cash?",
+    "options": ["by", "in", "with", "Both B and C"],
+    "correctAnswer": 3,
+    "explanation": "Se puede decir 'pay in cash' o 'pay with cash'."
+  },
+  {
+    "id": "adm-a2-w25-ex51",
+    "type": "multiple-choice",
+    "question": "A 'billing address' is:",
+    "options": ["Where you live", "The bank's address", "The address linked to your card", "The shop's address"],
+    "correctAnswer": 2,
+    "explanation": "La dirección de facturación es la que está registrada en tu tarjeta."
+  },
+  {
+    "id": "adm-a2-w25-ex52",
+    "type": "fill-in-the-blank",
+    "question": "Using a card is ________ (convenient) than using cash.",
+    "correctAnswer": "more convenient",
+    "explanation": "Adjetivo largo en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex53",
+    "type": "multiple-choice",
+    "question": "What is a 'transaction'?",
+    "options": ["A bank building", "An instance of buying or selling", "A type of card", "A secret code"],
+    "correctAnswer": 1,
+    "explanation": "Una transacción es cualquier operación de compra o venta."
+  },
+  {
+    "id": "adm-a2-w25-ex54",
+    "type": "fill-in-the-blank",
+    "question": "I have ________ (few) money than you.",
+    "correctAnswer": "less",
+    "explanation": "Usamos 'less' para comparar cantidades no contables (dinero)."
+  },
+  {
+    "id": "adm-a2-w25-ex55",
+    "type": "multiple-choice",
+    "question": "Which of these is a 'digital wallet'?",
+    "options": ["Leather wallet", "Apple Pay", "A bank branch", "A paper check"],
+    "correctAnswer": 1,
+    "explanation": "Apple Pay es un ejemplo de billetera digital."
+  },
+  {
+    "id": "adm-a2-w25-ex56",
+    "type": "fill-in-the-blank",
+    "question": "The interest on this card is ________ (low) than on that one.",
+    "correctAnswer": "lower",
+    "explanation": "Adjetivo corto en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex57",
+    "type": "multiple-choice",
+    "question": "What does 'pending' mean in your bank statement?",
+    "options": ["Completed", "Not yet finalized", "Cancelled", "Deleted"],
+    "correctAnswer": 1,
+    "explanation": "'Pending' significa que la transacción aún no ha sido finalizada por el banco."
+  },
+  {
+    "id": "adm-a2-w25-ex58",
+    "type": "fill-in-the-blank",
+    "question": "Your signature is ________ (small) than mine.",
+    "correctAnswer": "smaller",
+    "explanation": "Adjetivo corto en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex59",
+    "type": "multiple-choice",
+    "question": "What is a 'credit score'?",
+    "options": ["A football score", "A number representing your creditworthiness", "The number of cards you have", "Your bank's name"],
+    "correctAnswer": 1,
+    "explanation": "El historial o puntaje crediticio mide tu fiabilidad para pagar deudas."
+  },
+  {
+    "id": "adm-a2-w25-ex60",
+    "type": "fill-in-the-blank",
+    "question": "This app is ________ (easy) to use than the old one.",
+    "correctAnswer": "easier",
+    "explanation": "Adjetivos terminados en 'y' cambian a 'i' + '-er'."
+  },
+  {
+    "id": "adm-a2-w25-ex61",
+    "type": "multiple-choice",
+    "question": "To 'authorize' a payment means:",
+    "options": ["To decline it", "To give official permission", "To lose it", "To pay in cash"],
+    "correctAnswer": 1,
+    "explanation": "Autorizar es dar el permiso oficial para que se realice el cargo."
+  },
+  {
+    "id": "adm-a2-w25-ex62",
+    "type": "fill-in-the-blank",
+    "question": "The bank is ________ (far) than the supermarket.",
+    "correctAnswer": "farther",
+    "explanation": "Comparativo irregular de 'far' (distancia física)."
+  },
+  {
+    "id": "adm-a2-w25-ex63",
+    "type": "multiple-choice",
+    "question": "What is an 'ATM withdrawal'?",
+    "options": ["Putting money in", "Taking cash out from a machine", "A bank loan", "A credit card"],
+    "correctAnswer": 1,
+    "explanation": "Es el acto de retirar efectivo de un cajero automático."
+  },
+  {
+    "id": "adm-a2-w25-ex64",
+    "type": "fill-in-the-blank",
+    "question": "This credit card offer is ________ (attractive) than the last one.",
+    "correctAnswer": "more attractive",
+    "explanation": "Adjetivo largo en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex65",
+    "type": "multiple-choice",
+    "question": "What is 'currency exchange'?",
+    "options": ["Changing banks", "Trading one country's money for another's", "Opening an account", "Buying a house"],
+    "correctAnswer": 1,
+    "explanation": "El cambio de divisas es intercambiar la moneda de un país por la de otro."
+  },
+  {
+    "id": "adm-a2-w25-ex66",
+    "type": "fill-in-the-blank",
+    "question": "My phone is ________ (modern) than your card reader.",
+    "correctAnswer": "more modern",
+    "explanation": "Adjetivo largo en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex67",
+    "type": "multiple-choice",
+    "question": "A 'grace period' is:",
+    "options": ["A religious holiday", "Time before interest is charged on a balance", "A bank manager's name", "A type of credit card"],
+    "correctAnswer": 1,
+    "explanation": "Es el periodo de gracia antes de que se empiecen a cobrar intereses."
+  },
+  {
+    "id": "adm-a2-w25-ex68",
+    "type": "fill-in-the-blank",
+    "question": "The queue is ________ (long) than yesterday.",
+    "correctAnswer": "longer",
+    "explanation": "Adjetivo corto en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex69",
+    "type": "multiple-choice",
+    "question": "What is a 'refund'?",
+    "options": ["A new loan", "Money given back when returning a product", "A bank fee", "An annual bonus"],
+    "correctAnswer": 1,
+    "explanation": "Un reembolso es la devolución de dinero tras devolver un producto."
+  },
+  {
+    "id": "adm-a2-w25-ex70",
+    "type": "fill-in-the-blank",
+    "question": "The new chip is ________ (secure) than the old magnetic strip.",
+    "correctAnswer": "more secure",
+    "explanation": "Adjetivo largo en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex71",
+    "type": "multiple-choice",
+    "question": "To 'top up' a prepaid card means:",
+    "options": ["To throw it away", "To add more money to it", "To break it", "To lose it"],
+    "correctAnswer": 1,
+    "explanation": "'Top up' es recargar o añadir dinero a una tarjeta de prepago."
+  },
+  {
+    "id": "adm-a2-w25-ex72",
+    "type": "fill-in-the-blank",
+    "question": "This month I spent ________ (much) money than usual.",
+    "correctAnswer": "more",
+    "explanation": "Comparativo de 'much' es 'more'."
+  },
+  {
+    "id": "adm-a2-w25-ex73",
+    "type": "multiple-choice",
+    "question": "What is 'identity verification'?",
+    "options": ["Stealing a name", "Proving who you are", "Opening a door", "Buying a gift"],
+    "correctAnswer": 1,
+    "explanation": "La verificación de identidad es el proceso de demostrar quién eres."
+  },
+  {
+    "id": "adm-a2-w25-ex74",
+    "type": "fill-in-the-blank",
+    "question": "Your bank is ________ (old) than mine.",
+    "correctAnswer": "older",
+    "explanation": "Adjetivo corto en comparativo."
+  },
+  {
+    "id": "adm-a2-w25-ex75",
+    "type": "multiple-choice",
+    "question": "Which of these is a 'fixed cost' for a card?",
+    "options": ["Variable interest", "Annual fee", "Buying a coffee", " ATM fees"],
+    "correctAnswer": 1,
+    "explanation": "La cuota anual es un costo fijo que no varía según el uso."
+  }
+]

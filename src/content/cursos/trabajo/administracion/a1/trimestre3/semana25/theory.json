@@ -1,35 +1,22 @@
 {
-  "title": "Digital Operations: ATMs & Apps",
+  "title": "Semana 25: Introducción a los Emails Profesionales",
+  "description": "Aprende la estructura básica de un correo electrónico en un entorno laboral.",
+  "objectives": [
+    "Identificar las partes de un email",
+    "Aprender vocabulario básico de correo electrónico",
+    "Entender la importancia del asunto (Subject)"
+  ],
   "sections": [
     {
-      "id": "digital-ops",
-      "title": "Digital Deposits & Withdrawals",
-      "content": "Modern banking is digital. You can use an ATM or a mobile app for basic tasks.\n\n- **Digital Deposit**: Putting money into your account using an ATM or scanning a check with your phone.\n- **Cardless Withdrawal**: Taking cash out using a QR code from your app.\n- **Balance Check**: Seeing your total money on a screen instantly.\n- **Transaction History**: A list of your recent spending."
+      "id": "email-structure",
+      "title": "Estructura de un Email",
+      "content": "Un correo profesional tiene varias partes esenciales:\n\n1. **Subject line**: El asunto del correo (de qué trata).\n2. **Salutation**: El saludo inicial (ej. Dear Mr. Smith).\n3. **Opening sentence**: La frase de apertura.\n4. **Body**: El mensaje principal.\n5. **Closing**: La despedida (ej. Best regards).\n6. **Signature**: Tu nombre y datos de contacto."
     },
     {
-      "id": "atm-flow",
-      "title": "ATM Interaction Flow",
-      "content": "```mermaid\ngraph TD\n    A[Start] --> B[Insert Card / Scan QR]\n    B --> C[Enter PIN]\n    C --> D{Select Action}\n    D --> E[Withdraw Cash]\n    D --> F[Deposit Money]\n    D --> G[Check Balance]\n    E --> H[Take Cash & Receipt]\n    F --> I[Insert Cash/Check]\n    G --> J[View on Screen]\n```"
-    },
-    {
-      "id": "grammar-commands",
-      "title": "Grammar: Machine Instructions",
-      "content": "Machines use **Imperatives** to give you clear steps. \n\n- **Insert** your card into the slot.\n- **Enter** your 4-digit PIN.\n- **Select** the amount you want.\n- **Confirm** the transaction.\n- **Remove** your card and cash.\n\n**Safety Tips:**\n- **Do not** share your PIN.\n- **Don't** leave your card in the machine."
-    },
-    {
-      "id": "ui-buttons",
-      "title": "UI Buttons Vocabulary",
-      "content": "On an ATM or App, look for these words:\n- **Confirm / OK**: Yes, I want this.\n- **Cancel / Stop**: No, stop the process.\n- **Correction / Clear**: I made a mistake, let me fix it.\n- **Print**: I want a paper receipt."
+      "id": "email-vocab",
+      "title": "Vocabulario de Email",
+      "content": "Términos comunes que verás en tu bandeja de entrada:\n\n- **Inbox**: Bandeja de entrada.\n- **Sent**: Enviados.\n- **Drafts**: Borradores.\n- **Attachment**: Archivo adjunto.\n- **Reply**: Responder.\n- **Forward**: Reenviar."
     }
   ],
-  "objectives": [
-    "Understand the flow of using an ATM or digital kiosk",
-    "Use imperative verbs to follow and give machine instructions",
-    "Identify key UI buttons for digital transactions"
-  ],
-  "keyTerms": [
-    { "term": "NFC", "definition": "Near Field Communication (contactless technology)." },
-    { "term": "Slot", "definition": "The small opening where you insert a card or cash." },
-    { "term": "PIN", "definition": "Personal Identification Number (your secret code)." }
-  ]
+  "audioUrl": ""
 }

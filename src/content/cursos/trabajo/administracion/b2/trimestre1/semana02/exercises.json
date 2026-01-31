@@ -445,6 +445,277 @@
       "prompt": "Summarize the main topics of this week (Handovers, Incident Reporting, Stakeholder Communication) in 60-80 words.",
       "modelAnswer": "This week focused on maintaining operational continuity through structured 7-block handovers and precise status updates. We also mastered Root Cause Analysis using the 5 Whys to identify systemic failures rather than human errors. Finally, we learned to manage operational crises by providing structured stakeholder updates using the Status-Impact-ETR-Next Update formula, ensuring transparency and professional accountability during disruptions.",
       "keywords": ["continuity", "handovers", "RCA", "stakeholder", "updates"]
+    },
+    {
+      "id": "adm-b2-w2-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Handover Application. Which signposting phrase is most appropriate for concluding a 3-minute oral handover?",
+      "options": ["Next steps are...", "To be honest...", "I don't know...", "Wait a minute..."],
+      "answerIndex": 0,
+      "explanation": "'Next steps are...' is a professional signposting phrase for the end of a handover."
+    },
+    {
+      "id": "adm-b2-w2-ex47",
+      "type": "multipleChoice",
+      "prompt": "Exercise 47: Precision. If a manager asks for a report 'by COB', they mean:",
+      "options": ["Close of Business", "Company Over Budget", "Check On Board", "Create Original Backup"],
+      "answerIndex": 0,
+      "explanation": "COB stands for Close of Business, usually meaning 5:00 PM or 5:30 PM."
+    },
+    {
+      "id": "adm-b2-w2-ex48",
+      "type": "writingTask",
+      "prompt": "Exercise 48: Incident Report. Write a 'Mitigation' step for a 'Server Room Overheating' incident.",
+      "modelAnswer": "Mitigation: Deployed portable cooling units and powered down non-critical servers to reduce heat output.",
+      "keywords": ["cooling", "powered down", "non-critical"]
+    },
+    {
+      "id": "adm-b2-w2-ex49",
+      "type": "multipleChoice",
+      "prompt": "Exercise 49: Operational Continuity. A handover that lacks 'Action' is considered:",
+      "options": ["Efficient", "Successful", "A failure", "Optional"],
+      "answerIndex": 2,
+      "explanation": "The theory states: 'Handover = Clarity + Action. If the receiver does not know what to do... the handover has failed.'"
+    },
+    {
+      "id": "adm-b2-w2-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Tone Check. Which phrase avoids 'panic' during a system outage?",
+      "options": [
+        "Everything is a mess.",
+        "We are actively investigating the root cause.",
+        "I'm sorry, I have no idea what's happening.",
+        "This is a complete disaster."
+      ],
+      "answerIndex": 1,
+      "explanation": "'We are actively investigating...' is professional and avoids panic."
+    },
+    {
+      "id": "adm-b2-w2-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Handover Vocabulary. Use the word 'pending' in a status update about a contract.",
+      "modelAnswer": "The contract for the new catering provider is currently pending legal approval.",
+      "keywords": ["pending", "approval", "contract"]
+    },
+    {
+      "id": "adm-b2-w2-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Handover Structure. Which block covers 'Completed and validated tasks'?",
+      "options": ["What's done", "In progress", "Next steps", "Owners"],
+      "answerIndex": 0,
+      "explanation": "Block 1 is 'What's done'."
+    },
+    {
+      "id": "adm-b2-w2-ex53",
+      "type": "multipleChoice",
+      "prompt": "Exercise 53: Incident Vocabulary. A period when a service like power or internet is NOT available is a/an:",
+      "options": ["Outage", "Bottleneck", "Handover", "RCA"],
+      "answerIndex": 0,
+      "explanation": "An outage is a period of service unavailability."
+    },
+    {
+      "id": "adm-b2-w2-ex54",
+      "type": "writingTask",
+      "prompt": "Exercise 54: Stakeholder Update. Draft an update using the formula for a 'Mail Server Lag'. Status: Slow delivery. Impact: 20-minute delay in emails. ETR: 6pm. Next Update: 5pm.",
+      "modelAnswer": "We are currently experiencing mail server lag. This is resulting in a 20-minute delay for incoming and outgoing emails. ETR is 6pm. Next update at 5pm.",
+      "keywords": ["lag", "delay", "ETR", "update"]
+    },
+    {
+      "id": "adm-b2-w2-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: RCA Application. Asking 'Why?' repeatedly helps distinguish between:",
+      "options": [
+        "John and Sarah.",
+        "Human error and systemic failure.",
+        "Done and In Progress.",
+        "Internal and external clients."
+      ],
+      "answerIndex": 1,
+      "explanation": "The 5 Whys technique aims to find systemic flaws rather than blaming individuals."
+    },
+    {
+      "id": "adm-b2-w2-ex56",
+      "type": "reading-comprehension",
+      "title": "Exercise 56: Case Study - The Warehouse Bottleneck",
+      "text": "Scenario: The warehouse is currently processing 500 orders a day, but the packing station can only handle 300. This is creating a massive backlog. The packing team says they are understaffed, while the warehouse manager says the packing software is too slow.\n\nTask: Identify the bottleneck and potential root causes.",
+      "questions": [
+        {
+          "question": "Where is the 'Bottleneck' in this system?",
+          "options": ["The ordering department", "The packing station", "The shipping company"],
+          "answerIndex": 1,
+          "explanation": "The packing station is the bottleneck because it processes fewer items than the rest of the system."
+        },
+        {
+          "question": "What are the two potential root causes mentioned?",
+          "options": ["Understaffing and slow software", "Too many orders and bad weather", "Broken printer and lazy staff"],
+          "answerIndex": 0,
+          "explanation": "The text mentions understaffing and slow software as potential reasons."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w2-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Handover Email. Based on Exercise 56, write a 'What's Blocked' section for a handover email.",
+      "modelAnswer": "Blocked: 200 orders are currently backlogged at the packing station due to a system bottleneck. We are investigating whether this is caused by staffing levels or software performance.",
+      "keywords": ["Blocked", "backlogged", "bottleneck", "investigating"]
+    },
+    {
+      "id": "adm-b2-w2-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Timing Precision. Which of these is the most professional deadline for an international team?",
+      "options": ["ASAP", "By the end of the week", "Friday 3pm (UK time)", "Whenever you can"],
+      "answerIndex": 2,
+      "explanation": "Specifying the time and timezone (3pm UK time) is the most precise and professional."
+    },
+    {
+      "id": "adm-b2-w2-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Incident Report Vocabulary. Use 'Preventative Action' in a sentence about a leaking pipe in the office.",
+      "modelAnswer": "As a preventative action, we have scheduled a full inspection of the plumbing system to avoid future leaks.",
+      "keywords": ["preventative action", "inspection", "future"]
+    },
+    {
+      "id": "adm-b2-w2-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Status Updates. 'The schedule may slip' means the same as:",
+      "options": [
+        "The project might be delayed.",
+        "The project is finished.",
+        "Everyone is falling down.",
+        "The budget is increasing."
+      ],
+      "answerIndex": 0,
+      "explanation": "To 'slip' in a project context means to be delayed."
+    },
+    {
+      "id": "adm-b2-w2-ex61",
+      "type": "writingTask",
+      "prompt": "Exercise 61: Signposting. Write a signposting phrase to introduce the 'Next Steps' in an oral presentation.",
+      "modelAnswer": "Moving on to our next steps, we will focus on...",
+      "keywords": ["Moving on", "next steps"]
+    },
+    {
+      "id": "adm-b2-w2-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Incident Report Structure. Which part gives a high-level overview of what happened?",
+      "options": ["Timeline", "Root Cause", "Executive Summary", "Mitigation"],
+      "answerIndex": 2,
+      "explanation": "The Executive Summary provides the high-level overview."
+    },
+    {
+      "id": "adm-b2-w2-ex63",
+      "type": "multipleChoice",
+      "prompt": "Exercise 63: Incident Report Structure. Which part lists the 'Exact sequence of events'?",
+      "options": ["Timeline", "Root Cause", "Executive Summary", "Preventative Actions"],
+      "answerIndex": 0,
+      "explanation": "The Timeline details the sequence of events."
+    },
+    {
+      "id": "adm-b2-w2-ex64",
+      "type": "writingTask",
+      "prompt": "Exercise 64: Vocabulary. Define 'ETR' in one sentence.",
+      "modelAnswer": "ETR stands for Estimated Time of Resolution, which is the time when a service or issue is expected to be fixed.",
+      "keywords": ["Estimated Time of Resolution", "fixed"]
+    },
+    {
+      "id": "adm-b2-w2-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: Handover Structure. Block 6 in the standard handover is:",
+      "options": ["Risks", "Owners & dates", "Links", "What's done"],
+      "answerIndex": 1,
+      "explanation": "Block 6 is 'Owners & dates' for clear accountability."
+    },
+    {
+      "id": "adm-b2-w2-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Handover Structure. Block 4 in the standard handover is:",
+      "options": ["What's done", "Risks / Deadlines", "Next steps", "References"],
+      "answerIndex": 1,
+      "explanation": "Block 4 covers 'Risks / Deadlines'."
+    },
+    {
+      "id": "adm-b2-w2-ex67",
+      "type": "writingTask",
+      "prompt": "Exercise 67: 5 Whys Practice. Issue: The website is down. (1) Why? The server crashed. (2) Why? It ran out of memory. (3) Why? A large image file was uploaded. (4) Why? There was no file size limit in the CMS. What is a possible preventative action?",
+      "modelAnswer": "Implement a file size limit on the CMS and optimize memory management for the server.",
+      "keywords": ["limit", "CMS", "memory"]
+    },
+    {
+      "id": "adm-b2-w2-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Board Status. If a task is 'Started but not finished', its status is:",
+      "options": ["New", "In progress", "Blocked", "Done"],
+      "answerIndex": 1,
+      "explanation": "'In progress' is for tasks that have started but are still being worked on."
+    },
+    {
+      "id": "adm-b2-w2-ex69",
+      "type": "writingTask",
+      "prompt": "Exercise 69: Handover Chunk. Rewrite: 'Tell Sam what he needs to do.' using the chunk 'handing over'.",
+      "modelAnswer": "I am handing over the daily tasks to Sam while I am out of the office.",
+      "keywords": ["handing over", "Sam"]
+    },
+    {
+      "id": "adm-b2-w2-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Operational Context. Why is 'ASAP' discouraged in operations?",
+      "options": [
+        "It's too long to type.",
+        "It's vague and doesn't provide a clear priority or deadline.",
+        "It's an American term and we use UK English.",
+        "It only applies to shipping."
+      ],
+      "answerIndex": 1,
+      "explanation": "ASAP is vague; professionals prefer specific times (EOD, 3pm, etc.)."
+    },
+    {
+      "id": "adm-b2-w2-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Operational Chunk. 'To be pending approval' means:",
+      "options": [
+        "Waiting for someone to say yes.",
+        "Already finished.",
+        "The project is cancelled.",
+        "The manager is angry."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pending approval means the task is waiting for a formal decision."
+    },
+    {
+      "id": "adm-b2-w2-ex72",
+      "type": "writingTask",
+      "prompt": "Exercise 72: Neutral Tone. Rewrite: 'The internet is garbage today, so I can't work.'",
+      "modelAnswer": "Ongoing connectivity issues are currently preventing me from accessing internal systems.",
+      "keywords": ["connectivity", "preventing", "accessing"]
+    },
+    {
+      "id": "adm-b2-w2-ex73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Continuity. What is the main goal of a handover?",
+      "options": [
+        "To leave early.",
+        "To ensure operational continuity and prevent duplicated work.",
+        "To give your work to someone else forever.",
+        "To complain about the system."
+      ],
+      "answerIndex": 1,
+      "explanation": "Handovers ensure that work continues smoothly without interruption."
+    },
+    {
+      "id": "adm-b2-w2-ex74",
+      "type": "writingTask",
+      "prompt": "Exercise 74: Definitions. Define 'Dependency' in your own words (professional context).",
+      "modelAnswer": "A dependency is a relationship between tasks where one task cannot proceed until another is completed or a specific resource is provided.",
+      "keywords": ["proceed", "completed", "resource"]
+    },
+    {
+      "id": "adm-b2-w2-ex75",
+      "type": "writingTask",
+      "title": "Exercise 75: Final Review - Trimester 1, Week 2",
+      "prompt": "List the 4 components of the Stakeholder Update Formula as described in the theory.",
+      "modelAnswer": "[Current Status] + [Impact] + [Estimated Time of Resolution (ETR)] + [Next Update].",
+      "keywords": ["Status", "Impact", "ETR", "Next Update"]
     }
   ]
 }

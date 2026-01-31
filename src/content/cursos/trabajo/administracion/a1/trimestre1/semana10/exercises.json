@@ -3,165 +3,781 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana10",
-  "title": "Payment Methods & Requests",
+  "title": "Exercises: Business Cards & Contact Info",
   "items": [
     {
-      "id": "fin-a1-w10-01",
-      "type": "matching",
-      "prompt": "Match the payment method with its description:",
-      "pairs": [
-        { "left": "Digital Wallet", "right": "Apple Pay or Google Pay" },
-        { "left": "QR Code", "right": "A square you scan to pay" },
-        { "left": "Cash", "right": "Notes and coins" },
-        { "left": "Contactless", "right": "Tapping your card to pay" }
+      "id": "adm-a1-w10-ex01",
+      "type": "multiple-choice",
+      "prompt": "What does 'Job Title' mean on a business card?",
+      "options": ["The company name", "The person's role or position", "The office address", "The person's phone number"],
+      "answerIndex": 1,
+      "explanation": "'Job Title' refers to the specific position a person holds (e.g., Accountant, Manager)."
+    },
+    {
+      "id": "adm-a1-w10-ex02",
+      "type": "multiple-choice",
+      "prompt": "Which term refers to your 'empresa' in English?",
+      "options": ["Office", "Department", "Company", "Job"],
+      "answerIndex": 2,
+      "explanation": "'Company' is the standard word for enterprise or firm."
+    },
+    {
+      "id": "adm-a1-w10-ex03",
+      "type": "multiple-choice",
+      "prompt": "On a business card, what is 'ext.' followed by numbers?",
+      "options": ["The street number", "An internal phone extension", "An extra email", "The exit code"],
+      "answerIndex": 1,
+      "explanation": "'Ext.' stands for extension, a shorter number used inside a company's phone system."
+    },
+    {
+      "id": "adm-a1-w10-ex04",
+      "type": "multiple-choice",
+      "prompt": "What information is usually found under 'Contact Details'?",
+      "options": ["Phone, email, and website", "Hobbies and interests", "Names of friends", "Salary information"],
+      "answerIndex": 0,
+      "explanation": "Contact details include ways to reach the person professionally."
+    },
+    {
+      "id": "adm-a1-w10-ex05",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct phrase to confirm someone's job:",
+      "options": [
+        "You are the manager, correct?",
+        "You is the manager, correct?",
+        "Are you manager the?",
+        "Is you the manager?"
       ],
-      "explanation": "These are common modern and traditional ways to pay."
-    },
-    {
-      "id": "fin-a1-w10-02",
-      "type": "multipleChoice",
-      "prompt": "I don't have my card, but I have my phone. Can I use my ______?",
-      "options": ["Digital Wallet", "Cash", "Cheque"],
       "answerIndex": 0,
-      "explanation": "A Digital Wallet (like Apple Pay) allows you to pay with your phone."
+      "explanation": "We use 'You are...' or 'Are you...?' for professions."
     },
     {
-      "id": "fin-a1-w10-03",
-      "type": "multipleChoice",
-      "prompt": "______ I pay by card, please?",
-      "options": ["Do", "Can", "Are"],
+      "id": "adm-a1-w10-ex06",
+      "type": "multiple-choice",
+      "prompt": "In a business card, what does 'HQ' stand for?",
+      "options": ["High Quality", "Headquarters (Main Office)", "High Quantity", "Human Questions"],
       "answerIndex": 1,
-      "explanation": "We use 'Can' to make a polite request."
+      "explanation": "'HQ' stands for headquarters, the main administrative center of an organization."
     },
     {
-      "id": "fin-a1-w10-04",
-      "type": "fillBlanks",
-      "prompt": "To pay, please [blank] the QR code with your camera.",
-      "answers": ["scan"],
-      "explanation": "You scan a QR code to initiate a payment."
-    },
-    {
-      "id": "fin-a1-w10-05",
-      "type": "multipleChoice",
-      "prompt": "I want to buy this expensive laptop and pay in 3 months. Is there a ______ option?",
-      "options": ["Cash", "BNPL", "QR Code"],
+      "id": "adm-a1-w10-ex07",
+      "type": "multiple-choice",
+      "prompt": "If a card says 'Marketing Department', what is 'Department'?",
+      "options": ["A person", "A specific division within a company", "The company name", "A city"],
       "answerIndex": 1,
-      "explanation": "BNPL stands for 'Buy Now, Pay Later'."
+      "explanation": "A department is a specialized section of a large organization."
     },
     {
-      "id": "fin-a1-w10-06",
-      "type": "writing",
-      "prompt": "You are at a café. Write a polite question to ask if you can pay with your phone.",
-      "example": "Can I pay with my phone, please?",
-      "explanation": "Use 'Can I...' or 'Could I...' for polite requests."
+      "id": "adm-a1-w10-ex08",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a job title?",
+      "options": ["London", "Apple Inc.", "Receptionist", "Monday"],
+      "answerIndex": 2,
+      "explanation": "Receptionist is a professional role."
     },
     {
-      "id": "fin-a1-w10-07",
-      "type": "rolePlay",
-      "prompt": "Role-play: You are at a store. Ask the cashier if they accept contactless payments. Then, ask for a receipt.",
-      "scenario": "At a technology store.",
-      "suggestedPhrases": [
-        "Do you accept contactless?",
-        "Can I pay with my watch?",
-        "Could I have a receipt, please?"
-      ]
-    },
-    {
-      "id": "fin-a1-w10-08",
-      "type": "multipleChoice",
-      "prompt": "______ I have a receipt, please?",
-      "options": ["Could", "Do", "Are"],
-      "answerIndex": 0,
-      "explanation": "Usamos 'Could' para pedir cosas de manera muy educada."
-    },
-    {
-      "id": "fin-a1-w10-09",
-      "type": "multipleChoice",
-      "prompt": "This payment is ______. Just tap your card.",
-      "options": ["cash", "contactless", "cheque"],
+      "id": "adm-a1-w10-ex09",
+      "type": "multiple-choice",
+      "prompt": "What is the English term for 'Nombre completo'?",
+      "options": ["Total name", "Full name", "Complete name", "Big name"],
       "answerIndex": 1,
-      "explanation": "Tapping your card is a 'contactless' payment."
+      "explanation": "'Full name' includes your first and last names."
     },
     {
-      "id": "fin-a1-w10-10",
-      "type": "fillBlanks",
-      "prompt": "Please [blank] your PIN on the terminal.",
-      "answers": ["enter", "type"],
-      "explanation": "You enter your PIN code to confirm a card payment."
+      "id": "adm-a1-w10-ex10",
+      "type": "multiple-choice",
+      "prompt": "A: 'Where is your office ______?' B: 'In Madrid.'",
+      "options": ["called", "made", "located", "lived"],
+      "answerIndex": 2,
+      "explanation": "'Located' is used to ask for the position or address of an office."
     },
     {
-      "id": "fin-a1-w10-11",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "Can I pay by card?",
-      "explanation": "¿Puedo pagar con tarjeta?"
+      "id": "adm-a1-w10-ex11",
+      "type": "multiple-choice",
+      "prompt": "Which abbreviation is used for 'Mobile phone' on a card?",
+      "options": ["Tel.", "Mob.", "Fax.", "Web."],
+      "answerIndex": 1,
+      "explanation": "'Mob.' is the standard abbreviation for mobile."
     },
     {
-      "id": "fin-a1-w10-12",
-      "type": "multipleChoice",
-      "prompt": "I need to make a bank ______ to my friend.",
-      "options": ["transfer", "card", "online"],
+      "id": "adm-a1-w10-ex12",
+      "type": "multiple-choice",
+      "prompt": "What does 'CEO' mean?",
+      "options": [
+        "Chief Executive Officer",
+        "Company Email Office",
+        "Central Europe Organization",
+        "Client Entry Order"
+      ],
       "answerIndex": 0,
-      "explanation": "A 'bank transfer' is sending money directly between accounts."
+      "explanation": "CEO is the highest-ranking person in a company."
     },
     {
-      "id": "fin-a1-w10-13",
-      "type": "fillBlanks",
-      "prompt": "I don't have [blank]. I only have my digital wallet.",
-      "answers": ["cash"],
-      "explanation": "Cash refers to physical money."
+      "id": "adm-a1-w10-ex13",
+      "type": "multiple-choice",
+      "prompt": "If you see 'www.focusonenglish.com' on a card, what is it?",
+      "options": ["The email", "The address", "The website", "The phone number"],
+      "answerIndex": 2,
+      "explanation": "The 'www' indicates a website URL."
     },
     {
-      "id": "fin-a1-w10-14",
-      "type": "multipleChoice",
-      "prompt": "He uses his ______ card at the ATM.",
-      "options": ["debit", "cash", "cheque"],
+      "id": "adm-a1-w10-ex14",
+      "type": "multiple-choice",
+      "prompt": "What is 'Zip Code' or 'Postcode'?",
+      "options": [
+        "The phone extension",
+        "The number for mail delivery",
+        "A company code",
+        "A personal ID"
+      ],
+      "answerIndex": 1,
+      "explanation": "A zip code or postcode identifies a specific delivery area."
+    },
+    {
+      "id": "adm-a1-w10-ex15",
+      "type": "multiple-choice",
+      "prompt": "How do you ask for someone's company name?",
+      "options": [
+        "Who is your company?",
+        "Which is your company?",
+        "What is the name of your company?",
+        "Where is your company name?"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is the most standard and professional way to ask."
+    },
+    {
+      "id": "adm-a1-w10-ex16",
+      "type": "multiple-choice",
+      "prompt": "Which of these is NOT usually on a business card?",
+      "options": ["Job title", "Email", "Favorite food", "Company logo"],
+      "answerIndex": 2,
+      "explanation": "Business cards only contain professional information."
+    },
+    {
+      "id": "adm-a1-w10-ex17",
+      "type": "multiple-choice",
+      "prompt": "What is the meaning of 'Personnel'?",
+      "options": ["Personal things", "The employees of a company", "A specific person", "Private office"],
+      "answerIndex": 1,
+      "explanation": "Personnel refers to the people employed in an organization."
+    },
+    {
+      "id": "adm-a1-w10-ex18",
+      "type": "multiple-choice",
+      "prompt": "Which section of a card has the physical location?",
+      "options": ["Contact details", "Address", "Name", "Title"],
+      "answerIndex": 1,
+      "explanation": "The address section tells you where the office is."
+    },
+    {
+      "id": "adm-a1-w10-ex19",
+      "type": "multiple-choice",
+      "prompt": "A: 'Is this your work email?' B: 'Yes, ______.'",
+      "options": ["it is", "is it", "this is", "I am"],
       "answerIndex": 0,
-      "explanation": "A debit card is used to withdraw money from an ATM."
+      "explanation": "We use 'it' to refer back to 'email'."
     },
     {
-      "id": "fin-a1-w10-15",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Can you sign here please?",
-      "explanation": "¿Puede firmar aquí, por favor?"
+      "id": "adm-a1-w10-ex20",
+      "type": "multiple-choice",
+      "prompt": "Which job title is usually in the 'Accounts' department?",
+      "options": ["Designer", "Accountant", "Driver", "Salesperson"],
+      "answerIndex": 1,
+      "explanation": "Accountants handle the financial records of a company."
     },
     {
-      "id": "fin-a1-w10-16",
-      "type": "writing",
-      "prompt": "Translate to English: '¿Podría tener el recibo?'",
-      "example": "Could I have the receipt?",
-      "explanation": "Use 'Could I have' for '¿Podría tener/darme?'"
+      "id": "adm-a1-w10-ex21",
+      "type": "fill-in-the-blanks",
+      "text": "A business card usually has a company [logo] (logotipo).",
+      "answers": ["logo"],
+      "explanation": "Logo is the graphical symbol of a brand."
     },
     {
-      "id": "fin-a1-w10-17",
-      "type": "multipleChoice",
-      "prompt": "Is there a ______ for this international transfer?",
-      "options": ["fee", "cash", "card"],
+      "id": "adm-a1-w10-ex22",
+      "type": "fill-in-the-blanks",
+      "text": "Complete the phrase: My [job] [title] is Marketing Manager.",
+      "answers": ["job", "title"],
+      "explanation": "Job title is your professional position."
+    },
+    {
+      "id": "adm-a1-w10-ex23",
+      "type": "fill-in-the-blanks",
+      "text": "The main office of a company is the [headquarters].",
+      "answers": ["headquarters"],
+      "explanation": "Headquarters (or HQ) is the main office."
+    },
+    {
+      "id": "adm-a1-w10-ex24",
+      "type": "fill-in-the-blanks",
+      "text": "A: Where is your company [located]?\nB: It is in New York.",
+      "answers": ["located"],
+      "explanation": "'Located' asks for the place."
+    },
+    {
+      "id": "adm-a1-w10-ex25",
+      "type": "fill-in-the-blanks",
+      "text": "The abbreviation 'Tel.' stands for [Telephone].",
+      "answers": ["Telephone"],
+      "explanation": "Tel. is short for Telephone."
+    },
+    {
+      "id": "adm-a1-w10-ex26",
+      "type": "fill-in-the-blanks",
+      "text": "A: What is your [full] name?\nB: It's Robert Smith (both names).",
+      "answers": ["full"],
+      "explanation": "Full name includes first and last names."
+    },
+    {
+      "id": "adm-a1-w10-ex27",
+      "type": "fill-in-the-blanks",
+      "text": "I work in the Human [Resources] department (HR).",
+      "answers": ["Resources"],
+      "explanation": "HR stands for Human Resources."
+    },
+    {
+      "id": "adm-a1-w10-ex28",
+      "type": "fill-in-the-blanks",
+      "text": "The company name is 'Tech Solutions'. Tech is short for [Technology].",
+      "answers": ["Technology"],
+      "explanation": "Tech is a common abbreviation for Technology."
+    },
+    {
+      "id": "adm-a1-w10-ex29",
+      "type": "fill-in-the-blanks",
+      "text": "A: Is this your work [phone]?\nB: Yes, it is 555-0199.",
+      "answers": ["phone"],
+      "explanation": "Phone refers to the contact number."
+    },
+    {
+      "id": "adm-a1-w10-ex30",
+      "type": "fill-in-the-blanks",
+      "text": "The [website] (página web) is www.myweb.com.",
+      "answers": ["website"],
+      "explanation": "Website is the internet page."
+    },
+    {
+      "id": "adm-a1-w10-ex31",
+      "type": "matching",
+      "prompt": "Match the business card term with its Spanish translation:",
+      "pairs": [
+        { "term": "Job title", "definition": "Cargo / Puesto" },
+        { "term": "Company", "definition": "Empresa" },
+        { "term": "Address", "definition": "Dirección" },
+        { "term": "Full name", "definition": "Nombre completo" }
+      ],
+      "explanation": "Basic business card vocabulary."
+    },
+    {
+      "id": "adm-a1-w10-ex32",
+      "type": "matching",
+      "prompt": "Match the abbreviations with their full words:",
+      "pairs": [
+        { "term": "Tel.", "definition": "Telephone" },
+        { "term": "Mob.", "definition": "Mobile" },
+        { "term": "Ext.", "definition": "Extension" },
+        { "term": "Zip", "definition": "Zip Code" }
+      ],
+      "explanation": "Common abbreviations in contact data."
+    },
+    {
+      "id": "adm-a1-w10-ex33",
+      "type": "matching",
+      "prompt": "Match the department with the activity:",
+      "pairs": [
+        { "term": "Sales", "definition": "Selling products" },
+        { "term": "Accounts", "definition": "Handling money" },
+        { "term": "HR", "definition": "Hiring employees" },
+        { "term": "IT", "definition": "Fixing computers" }
+      ],
+      "explanation": "Standard company divisions."
+    },
+    {
+      "id": "adm-a1-w10-ex34",
+      "type": "matching",
+      "prompt": "Match the professional roles with their typical tasks:",
+      "pairs": [
+        { "term": "CEO", "definition": "Runs the company" },
+        { "term": "Receptionist", "definition": "Greets visitors" },
+        { "term": "Secretary", "definition": "Organizes documents" },
+        { "term": "Manager", "definition": "Leads a team" }
+      ],
+      "explanation": "Job responsibilities."
+    },
+    {
+      "id": "adm-a1-w10-ex35",
+      "type": "matching",
+      "prompt": "Match the contact info part with an example:",
+      "pairs": [
+        { "term": "Email", "definition": "info@biz.com" },
+        { "term": "Phone", "definition": "012 345 678" },
+        { "term": "Website", "definition": "www.biz.com" },
+        { "term": "Address", "definition": "12 Main St." }
+      ],
+      "explanation": "Examples of contact data types."
+    },
+    {
+      "id": "adm-a1-w10-ex36",
+      "type": "matching",
+      "prompt": "Match the question with the info type:",
+      "pairs": [
+        { "term": "What do you do?", "definition": "Job Title" },
+        { "term": "Where do you work?", "definition": "Company / Address" },
+        { "term": "How can I call you?", "definition": "Phone number" },
+        { "term": "What is your name?", "definition": "Full Name" }
+      ],
+      "explanation": "Questions and the information they seek."
+    },
+    {
+      "id": "adm-a1-w10-ex37",
+      "type": "matching",
+      "prompt": "Match the address parts:",
+      "pairs": [
+        { "term": "London", "definition": "City" },
+        { "term": "SW1A 1AA", "definition": "Postcode" },
+        { "term": "Oxford St.", "definition": "Street" },
+        { "term": "UK", "definition": "Country" }
+      ],
+      "explanation": "Structure of a physical address."
+    },
+    {
+      "id": "adm-a1-w10-ex38",
+      "type": "matching",
+      "prompt": "Match the business terms:",
+      "pairs": [
+        { "term": "Card", "definition": "Business card" },
+        { "term": "Mail", "definition": "Email" },
+        { "term": "Title", "definition": "Position" },
+        { "term": "Staff", "definition": "Employees" }
+      ],
+      "explanation": "Synonyms or related office terms."
+    },
+    {
+      "id": "adm-a1-w10-ex39",
+      "type": "matching",
+      "prompt": "Match the action with the card exchange:",
+      "pairs": [
+        { "term": "Giving", "definition": "Here is my card." },
+        { "term": "Receiving", "definition": "Thank you." },
+        { "term": "Checking", "definition": "Is this your email?" },
+        { "term": "Asking", "definition": "Do you have a card?" }
+      ],
+      "explanation": "Social interactions with business cards."
+    },
+    {
+      "id": "adm-a1-w10-ex40",
+      "type": "matching",
+      "prompt": "Match the email parts (Review):",
+      "pairs": [
+        { "term": "@", "definition": "At" },
+        { "term": ".", "definition": "Dot" },
+        { "term": "-", "definition": "Hyphen" },
+        { "term": "_", "definition": "Underscore" }
+      ],
+      "explanation": "Review of symbols from week 09."
+    },
+    {
+      "id": "adm-a1-w10-ex41",
+      "type": "multiple-choice",
+      "prompt": "A: 'Are you the Marketing Director?' B: 'No, I am the ______.'",
+      "options": ["Assistant", "Yes", "Blue", "London"],
       "answerIndex": 0,
-      "explanation": "A 'fee' is a small amount of money you pay for a service."
+      "explanation": "Assistant is a logical alternative job title."
     },
     {
-      "id": "fin-a1-w10-18",
-      "type": "fillBlanks",
-      "prompt": "Can I [blank] by phone?",
-      "answers": ["pay"],
-      "explanation": "¿Puedo pagar por teléfono?"
-    },
-    {
-      "id": "fin-a1-w10-19",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "I want to pay in cash",
-      "explanation": "Quiero pagar en efectivo."
-    },
-    {
-      "id": "fin-a1-w10-20",
-      "type": "multipleChoice",
-      "prompt": "Can you ______ that, please? I don't understand.",
-      "options": ["repeat", "pay", "scan"],
+      "id": "adm-a1-w10-ex42",
+      "type": "multiple-choice",
+      "prompt": "Where is the company logo usually located?",
+      "options": [
+        "In the middle or at the top",
+        "At the bottom of the email",
+        "Inside the envelope",
+        "On the person's shoe"
+      ],
       "answerIndex": 0,
-      "explanation": "If you don't understand, you ask someone to 'repeat'."
+      "explanation": "The logo is prominently displayed on the card."
+    },
+    {
+      "id": "adm-a1-w10-ex43",
+      "type": "multiple-choice",
+      "prompt": "If you see '+34' before a phone number, it is:",
+      "options": ["The price", "The country code", "The age of the person", "The extension"],
+      "answerIndex": 1,
+      "explanation": "Country codes are used for international calls."
+    },
+    {
+      "id": "adm-a1-w10-ex44",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a correct email format?",
+      "options": [
+        "name.surname@company.net",
+        "name@surname@company",
+        "www.name.company",
+        "name.surname.company.at"
+      ],
+      "answerIndex": 0,
+      "explanation": "Standard email structure."
+    },
+    {
+      "id": "adm-a1-w10-ex45",
+      "type": "multiple-choice",
+      "prompt": "What does 'Inc.' mean after a company name?",
+      "options": ["Incomplete", "Incorporated", "Includes", "Income"],
+      "answerIndex": 1,
+      "explanation": "Inc. means the company is a legal corporation."
+    },
+    {
+      "id": "adm-a1-w10-ex46",
+      "type": "multiple-choice",
+      "prompt": "How do you pronounce 'Ltd.'?",
+      "options": ["Light", "Limited", "Listed", "Late"],
+      "answerIndex": 1,
+      "explanation": "Ltd. is the abbreviation for Limited (company)."
+    },
+    {
+      "id": "adm-a1-w10-ex47",
+      "type": "multiple-choice",
+      "prompt": "A: 'Do you work for Global Tech?' B: 'Yes, ______.'",
+      "options": ["I do", "I am", "I work", "you do"],
+      "answerIndex": 0,
+      "explanation": "Short answer for 'Do you...' is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w10-ex48",
+      "type": "multiple-choice",
+      "prompt": "Which job title works with computers and networks?",
+      "options": ["IT Support", "Receptionist", "Driver", "Cleaner"],
+      "answerIndex": 0,
+      "explanation": "IT (Information Technology) Support handles technical issues."
+    },
+    {
+      "id": "adm-a1-w10-ex49",
+      "type": "multiple-choice",
+      "prompt": "What is the 'Footer' of an email?",
+      "options": [
+        "The top part with the subject",
+        "The bottom part with contact info",
+        "The attached file",
+        "The greeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "The footer contains the professional signature and contact data."
+    },
+    {
+      "id": "adm-a1-w10-ex50",
+      "type": "multiple-choice",
+      "prompt": "A: 'What is your ______ name?' B: 'It's John.'",
+      "options": ["last", "full", "first", "surname"],
+      "answerIndex": 2,
+      "explanation": "First name is your given name."
+    },
+    {
+      "id": "adm-a1-w10-ex51",
+      "type": "fill-in-the-blanks",
+      "text": "Complete: I am a Sales [Representative] (vendedor).",
+      "answers": ["Representative"],
+      "explanation": "Sales Representative is a common job title."
+    },
+    {
+      "id": "adm-a1-w10-ex52",
+      "type": "fill-in-the-blanks",
+      "text": "The abbreviation for Human Resources is [HR].",
+      "answers": ["HR"],
+      "explanation": "HR is the standard abbreviation."
+    },
+    {
+      "id": "adm-a1-w10-ex53",
+      "type": "fill-in-the-blanks",
+      "text": "The symbol '@' in an email is pronounced [at].",
+      "answers": ["at"],
+      "explanation": "Review of pronunciation."
+    },
+    {
+      "id": "adm-a1-w10-ex54",
+      "type": "fill-in-the-blanks",
+      "text": "Please give me your [business] card (tarjeta de visita).",
+      "answers": ["business"],
+      "explanation": "A business card is used for professional networking."
+    },
+    {
+      "id": "adm-a1-w10-ex55",
+      "type": "fill-in-the-blanks",
+      "text": "A: What is your [profession]?\nB: I am an Accountant.",
+      "answers": ["profession"],
+      "explanation": "Profession or job title are both possible."
+    },
+    {
+      "id": "adm-a1-w10-ex56",
+      "type": "reading-comprehension",
+      "text": "GLOBAL LOGISTICS\nMark Evans\nOperations Manager\n15 Bridge Street, Manchester\nTel: +44 161 998 0000",
+      "vocabulary": [
+        { "term": "Logistics", "definition": "The organization of moving goods" },
+        { "term": "Operations", "definition": "The activities of a business" },
+        { "term": "Bridge", "definition": "A structure carrying a road over an obstacle" }
+      ],
+      "questions": [
+        {
+          "prompt": "What is the name of the company?",
+          "options": ["Global Logistics", "Mark Evans", "Operations Manager", "Manchester"],
+          "answerIndex": 0
+        },
+        {
+          "prompt": "What is Mark's job title?",
+          "options": ["Logistics", "Operations Manager", "Bridge Street", "Manager"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "Where is the office located?",
+          "options": ["Bridge Street", "Manchester", "UK", "All are correct"],
+          "answerIndex": 3
+        },
+        {
+          "prompt": "Is Mark's first name Evans?",
+          "options": ["Yes", "No"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Extracting information from a professional business card."
+    },
+    {
+      "id": "adm-a1-w10-ex57",
+      "type": "reading-comprehension",
+      "text": "Best regards,\nLaura Chen\nSenior Designer | Creative Studio\nlaura.c@creativestudio.com",
+      "vocabulary": [
+        { "term": "Best regards", "definition": "A professional way to end an email" },
+        { "term": "Senior", "definition": "A high-level position" },
+        { "term": "Creative", "definition": "Involving imagination or original ideas" }
+      ],
+      "questions": [
+        {
+          "prompt": "Who does Laura work for?",
+          "options": ["Laura Chen", "Creative Studio", "Senior Designer", "Best regards"],
+          "answerIndex": 1
+        },
+        {
+          "prompt": "What is Laura's email address?",
+          "options": [
+            "laura.c@creativestudio.com",
+            "laura@designer.com",
+            "chen@studio.com",
+            "designer@creative.com"
+          ],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Analyzing an email signature for contact and role information."
+    },
+    {
+      "id": "adm-a1-w10-ex58",
+      "type": "reading-comprehension",
+      "text": "Meeting at HQ on Friday.",
+      "vocabulary": [
+        { "term": "HQ", "definition": "Headquarters (Main Office)" }
+      ],
+      "questions": [
+        {
+          "prompt": "Where is the meeting?",
+          "options": [
+            "At the headquarters (main office)",
+            "At the hotel",
+            "In a high-quality room",
+            "At home"
+          ],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Understanding common office abbreviations."
+    },
+    {
+      "id": "adm-a1-w10-ex59",
+      "type": "reading-comprehension",
+      "text": "Profile: Name: Sofia Rossi. Company: Rossi & Co. Job: Accountant.",
+      "vocabulary": [
+        { "term": "Co.", "definition": "Short for Company" }
+      ],
+      "questions": [
+        {
+          "prompt": "Does Sofia work for herself?",
+          "options": ["Yes, likely", "No, never"],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Inferred ownership through company naming conventions."
+    },
+    {
+      "id": "adm-a1-w10-ex60",
+      "type": "reading-comprehension",
+      "text": "Phone: +1 212 555 1234. Ext. 201.",
+      "vocabulary": [
+        { "term": "Ext.", "definition": "Extension (internal phone number)" }
+      ],
+      "questions": [
+        {
+          "prompt": "What is the extension?",
+          "options": ["+1", "212", "1234", "201"],
+          "answerIndex": 3
+        }
+      ],
+      "explanation": "Identifying specific components of a phone number listing."
+    },
+    {
+      "id": "adm-a1-w10-ex61",
+      "type": "reading-comprehension",
+      "text": "Business Card:\nName: John Doe\nTitle: Sales Rep",
+      "vocabulary": [
+        { "term": "Rep", "definition": "Short for Representative" }
+      ],
+      "questions": [
+        {
+          "prompt": "Is John a manager?",
+          "options": ["Yes", "No", "Information not available"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Interpreting job titles and their levels."
+    },
+    {
+      "id": "adm-a1-w10-ex62",
+      "type": "multiple-choice",
+      "prompt": "What does 'Corp.' stand for?",
+      "options": ["Corporation", "Copper", "Copy", "Corner"],
+      "answerIndex": 0,
+      "explanation": "Corp. is short for Corporation."
+    },
+    {
+      "id": "adm-a1-w10-ex63",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Surname'?",
+      "options": ["Paul", "Manager", "Johnson", "London"],
+      "answerIndex": 2,
+      "explanation": "Johnson is a last name or surname."
+    },
+    {
+      "id": "adm-a1-w10-ex64",
+      "type": "multiple-choice",
+      "prompt": "How do you ask for a postcode?",
+      "options": [
+        "What is your postcode?",
+        "Where is your postcode?",
+        "Who is your postcode?",
+        "Postcode is what?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Standard way to ask for information."
+    },
+    {
+      "id": "adm-a1-w10-ex65",
+      "type": "multiple-choice",
+      "prompt": "What is 'Personal Assistant' abbreviated to?",
+      "options": ["PA", "PS", "PT", "PN"],
+      "answerIndex": 0,
+      "explanation": "PA is the standard abbreviation."
+    },
+    {
+      "id": "adm-a1-w10-ex66",
+      "type": "multiple-choice",
+      "prompt": "If a card says 'Reception', what is it?",
+      "options": ["A person", "A place or department", "The company name", "An email"],
+      "answerIndex": 1,
+      "explanation": "Reception is the area where visitors arrive."
+    },
+    {
+      "id": "adm-a1-w10-ex67",
+      "type": "multiple-choice",
+      "prompt": "Which abbreviation is used for 'Avenue' in an address?",
+      "options": ["Av.", "Ave.", "Avn.", "All are common"],
+      "answerIndex": 3,
+      "explanation": "Av. and Ave. are both very common abbreviations for Avenue."
+    },
+    {
+      "id": "adm-a1-w10-ex68",
+      "type": "multiple-choice",
+      "prompt": "A: 'Here is my business card.' B: '______.'",
+      "options": ["You're welcome", "Thank you", "Please", "Excuse me"],
+      "answerIndex": 1,
+      "explanation": "The polite response to receiving a card is 'Thank you'."
+    },
+    {
+      "id": "adm-a1-w10-ex69",
+      "type": "multiple-choice",
+      "prompt": "What is the 'Area Code' in a phone number?",
+      "options": ["The price", "The city code", "The person's age", "The extension"],
+      "answerIndex": 1,
+      "explanation": "The area code identifies the geographical region of the phone number."
+    },
+    {
+      "id": "adm-a1-w10-ex70",
+      "type": "multiple-choice",
+      "prompt": "A: 'Do you have a card?' B: 'No, I'm ______, I don't.'",
+      "options": ["sorry", "happy", "fine", "ready"],
+      "answerIndex": 0,
+      "explanation": "We use 'I'm sorry' to politely decline a request."
+    },
+    {
+      "id": "adm-a1-w10-ex71",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Contact Detail'?",
+      "options": ["Birthday", "LinkedIn profile", "Address", "Favorite movie"],
+      "answerIndex": 2,
+      "explanation": "Address is a standard contact detail on a business card."
+    },
+    {
+      "id": "adm-a1-w10-ex72",
+      "type": "multiple-choice",
+      "prompt": "What does 'Dir.' usually mean in a job title?",
+      "options": ["Direction", "Director", "Direct", "Directory"],
+      "answerIndex": 1,
+      "explanation": "Dir. is short for Director."
+    },
+    {
+      "id": "adm-a1-w10-ex73",
+      "type": "listening",
+      "title": "Exchanging Business Cards",
+      "transcript": "A: Nice to meet you, Mrs. Smith. Here is my business card. B: Thank you. Let me give you mine too. A: Oh, you are the Marketing Director at Global Tech? B: Yes, that's right.",
+      "questions": [
+        {
+          "question": "What is the woman's job title?",
+          "options": ["Accountant", "Marketing Director", "Sales Manager"],
+          "answerIndex": 1,
+          "explanation": "The man says: 'you are the Marketing Director at Global Tech' and she confirms."
+        },
+        {
+          "question": "Where does she work?",
+          "options": ["Focus English", "Global Tech", "Marketing Solutions"],
+          "answerIndex": 1,
+          "explanation": "The company name mentioned is Global Tech."
+        }
+      ],
+      "explanation": "Listening for professional titles and company names in a social exchange."
+    },
+    {
+      "id": "adm-a1-w10-ex74",
+      "type": "listening",
+      "title": "Verifying Contact Info",
+      "transcript": "A: Is this your mobile number on the card? B: Yes, it is. But the extension for the office is different now. It is extension 405. A: 4-0-5. Got it.",
+      "questions": [
+        {
+          "question": "What is the new office extension?",
+          "options": ["404", "405", "504"],
+          "answerIndex": 1,
+          "explanation": "The speaker says the new extension is 405."
+        }
+      ],
+      "explanation": "Focusing on numerical information and updates to contact details."
+    },
+    {
+      "id": "adm-a1-w10-ex75",
+      "type": "listening",
+      "title": "The Wrong Email",
+      "transcript": "A: Is your email 'john.d@tech.com'? B: No, it's 'john.doe@tech.com'. There is no dot between 'john' and 'd'. Wait, it's just 'john.doe'. No abbreviation.",
+      "questions": [
+        {
+          "question": "What is the correct email?",
+          "options": ["john.d@tech.com", "john.doe@tech.com", "john@tech.com"],
+          "answerIndex": 1,
+          "explanation": "He clarifies that his email uses his full last name: 'john.doe@tech.com'."
+        }
+      ],
+      "explanation": "Identifying spelling and structure of email addresses in conversation."
     }
   ]
 }

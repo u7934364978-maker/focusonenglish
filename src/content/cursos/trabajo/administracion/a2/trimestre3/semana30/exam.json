@@ -1,50 +1,162 @@
-{
-  "goal": "administracion",
-  "level": "A2",
-  "trimester": 3,
-  "weekId": "semana30",
-  "examId": "fin-a2-w30-exam",
-  "title": "Examen: Fintech: Apps y Billeteras Digitales",
-  "items": [
-    {
-      "id": "fin-a2-w30-exam-1",
-      "type": "multipleChoice",
-      "prompt": "The app works very ________ (smooth).",
-      "options": ["smooth", "smoothly", "smoother", "smoothness"],
-      "answerIndex": 1,
-      "explanation": "We use adverbs of manner (usually ending in -ly) to describe how a verb works."
-    },
-    {
-      "id": "fin-a2-w30-exam-2",
-      "type": "multipleChoice",
-      "prompt": "A 'Digital Wallet' allows you to:",
-      "options": ["Store physical coins", "Store payment info on your phone", "Buy a leather wallet", "Print money"],
-      "answerIndex": 1,
-      "explanation": "Digital wallets (like Apple Pay or Google Pay) store virtual cards."
-    },
-    {
-      "id": "fin-a2-w30-exam-3",
-      "type": "multipleChoice",
-      "prompt": "Please handle the transaction ________ (careful).",
-      "options": ["careful", "carefully", "carefulness", "more careful"],
-      "answerIndex": 1,
-      "explanation": "Adverb of manner for the verb 'handle'."
-    },
-    {
-      "id": "fin-a2-w30-exam-4",
-      "type": "multipleChoice",
-      "prompt": "What does 'Contactless' mean?",
-      "options": ["Paying without touching the terminal", "Having no friends", "A broken phone", "A type of paper money"],
-      "answerIndex": 0,
-      "explanation": "Contactless uses NFC technology to pay by tapping your card/phone."
-    },
-    {
-      "id": "fin-a2-w30-exam-5",
-      "type": "multipleChoice",
-      "prompt": "I can transfer money ________ (easy) with this new app.",
-      "options": ["easy", "easily", "easier", "easiest"],
-      "answerIndex": 1,
-      "explanation": "Adverb of manner for 'transfer'."
-    }
-  ]
-}
+[
+  {
+    "id": "adm-a2-w30-q01",
+    "type": "multiple-choice",
+    "question": "The app works very ________ (smooth).",
+    "options": ["smooth", "smoothly", "smoother", "smoothness"],
+    "correctAnswer": 1,
+    "explanation": "Usamos el adverbio 'smoothly' para describir cómo funciona el verbo 'works'."
+  },
+  {
+    "id": "adm-a2-w30-q02",
+    "type": "multiple-choice",
+    "question": "A 'Digital Wallet' allows you to:",
+    "options": ["Store physical coins", "Store payment info on your phone", "Buy a leather wallet", "Print paper money"],
+    "correctAnswer": 1,
+    "explanation": "Las billeteras digitales permiten guardar información de pago (tarjetas virtuales) en el móvil."
+  },
+  {
+    "id": "adm-a2-w30-q03",
+    "type": "multiple-choice",
+    "question": "Please handle the transaction ________ (careful).",
+    "options": ["careful", "carefully", "carefulness", "more careful"],
+    "correctAnswer": 1,
+    "explanation": "Usamos el adverbio de modo 'carefully' para indicar cómo realizar la acción."
+  },
+  {
+    "id": "adm-a2-w30-q04",
+    "type": "multiple-choice",
+    "question": "What does 'Contactless' mean?",
+    "options": ["Paying without touching the terminal", "Having no internet connection", "A broken phone screen", "A type of physical cash"],
+    "correctAnswer": 0,
+    "explanation": "Contactless significa pagar sin contacto físico, acercando el móvil o tarjeta al terminal."
+  },
+  {
+    "id": "adm-a2-w30-q05",
+    "type": "multiple-choice",
+    "question": "I can transfer money ________ (easy) with this new app.",
+    "options": ["easy", "easily", "easier", "easiest"],
+    "correctAnswer": 1,
+    "explanation": "El adverbio 'easily' describe la facilidad con la que se realiza la transferencia."
+  },
+  {
+    "id": "adm-a2-w30-q06",
+    "type": "multiple-choice",
+    "question": "What is 'Fintech'?",
+    "options": ["Finance and Teaching", "Financial Technology", "Final Technique", "Fixed Technology"],
+    "correctAnswer": 1,
+    "explanation": "Fintech es el sector que aplica tecnología para mejorar los servicios financieros."
+  },
+  {
+    "id": "adm-a2-w30-q07",
+    "type": "multiple-choice",
+    "question": "The system updated the balance ________ (automatic).",
+    "options": ["automatic", "automatically", "automation", "automatized"],
+    "correctAnswer": 1,
+    "explanation": "Usamos 'automatically' para indicar que la actualización fue automática."
+  },
+  {
+    "id": "adm-a2-w30-q08",
+    "type": "multiple-choice",
+    "question": "What do you need to do with a QR code to pay?",
+    "options": ["Delete it", "Scan it", "Print it", "Type it"],
+    "correctAnswer": 1,
+    "explanation": "Los códigos QR se deben escanear con la cámara del dispositivo móvil."
+  },
+  {
+    "id": "adm-a2-w30-q09",
+    "type": "multiple-choice",
+    "question": "He drives ________ (fast) to get to the bank before it closes.",
+    "options": ["fastly", "fast", "faster", "fastest"],
+    "correctAnswer": 1,
+    "explanation": "'Fast' es un adverbio irregular y no se le añade -ly."
+  },
+  {
+    "id": "adm-a2-w30-q10",
+    "type": "multiple-choice",
+    "question": "What is 'P2P payment'?",
+    "options": ["Paying a business", "Paying a person directly", "Paying a tax", "Paying with points"],
+    "correctAnswer": 1,
+    "explanation": "P2P (Peer-to-Peer) son pagos directos entre particulares."
+  },
+  {
+    "id": "adm-a2-w30-q11",
+    "type": "multiple-choice",
+    "question": "The security notification appeared ________ (sudden).",
+    "options": ["sudden", "suddenly", "suddenness", "more sudden"],
+    "correctAnswer": 1,
+    "explanation": "Adverbio de modo para algo que sucede de repente."
+  },
+  {
+    "id": "adm-a2-w30-q12",
+    "type": "multiple-choice",
+    "question": "What is 'Biometrics' in banking apps?",
+    "options": ["A medical history", "Fingerprint or Face ID", "A monthly budget", "A type of loan"],
+    "correctAnswer": 1,
+    "explanation": "La biometría usa rasgos físicos como la huella o el rostro para la seguridad."
+  },
+  {
+    "id": "adm-a2-w30-q13",
+    "type": "multiple-choice",
+    "question": "She completed the verification ________ (perfect).",
+    "options": ["perfect", "perfectly", "perfection", "more perfect"],
+    "correctAnswer": 1,
+    "explanation": "Adverbio de modo que indica que la acción se hizo de forma perfecta."
+  },
+  {
+    "id": "adm-a2-w30-q14",
+    "type": "multiple-choice",
+    "question": "What is a 'Neobank'?",
+    "options": ["A bank for old people", "A digital-only bank", "A bank branch", "A type of ATM"],
+    "correctAnswer": 1,
+    "explanation": "Un neobanco es una entidad financiera que opera exclusivamente de forma digital."
+  },
+  {
+    "id": "adm-a2-w30-q15",
+    "type": "multiple-choice",
+    "question": "I type my password ________ (slow) to be sure.",
+    "options": ["slow", "slowly", "slowness", "slower"],
+    "correctAnswer": 1,
+    "explanation": "Adverbio de modo para realizar la acción con lentitud."
+  },
+  {
+    "id": "adm-a2-w30-q16",
+    "type": "multiple-choice",
+    "question": "What is 'Blockchain' primarily used for?",
+    "options": ["Building physical walls", "Securing digital records/Crypto", "Designing logos", "Connecting to Wi-Fi"],
+    "correctAnswer": 1,
+    "explanation": "Blockchain es la base tecnológica para el registro seguro de criptomonedas."
+  },
+  {
+    "id": "adm-a2-w30-q17",
+    "type": "multiple-choice",
+    "question": "They work ________ (hard) to protect customer data.",
+    "options": ["hardly", "hard", "harder", "hardest"],
+    "correctAnswer": 1,
+    "explanation": "'Hard' es un adverbio irregular que no lleva -ly (hardly significa 'apenas')."
+  },
+  {
+    "id": "adm-a2-w30-q18",
+    "type": "multiple-choice",
+    "question": "What is 'In-app purchase'?",
+    "options": ["Buying a phone", "Buying something inside an app", "Going to a mall", "Ordering food by phone"],
+    "correctAnswer": 1,
+    "explanation": "Se refiere a las compras de servicios o productos dentro de una aplicación."
+  },
+  {
+    "id": "adm-a2-w30-q19",
+    "type": "multiple-choice",
+    "question": "He speaks about Fintech very ________ (clear).",
+    "options": ["clear", "clearly", "clarity", "clearness"],
+    "correctAnswer": 1,
+    "explanation": "Adverbio de modo para expresar claridad en el habla."
+  },
+  {
+    "id": "adm-a2-w30-q20",
+    "type": "multiple-choice",
+    "question": "What is the benefit of 'Auto-pay'?",
+    "options": ["It's more expensive", "It pays bills automatically", "It deletes your data", "It stops your internet"],
+    "correctAnswer": 1,
+    "explanation": "El pago automático asegura que las facturas se paguen a tiempo sin intervención manual."
+  }
+]

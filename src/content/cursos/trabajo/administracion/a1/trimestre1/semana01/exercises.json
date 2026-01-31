@@ -3,675 +3,696 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana01",
-  "title": "Exercises: Numbers, Currencies and Digital Money",
+  "title": "Exercises: Office Greetings & Basic Protocols",
   "items": [
     {
-      "id": "fin-a1-w1-q1",
-      "type": "multipleChoice",
-      "prompt": "How do you say 1,000 in English?",
-      "options": [
-        "One hundred",
-        "One thousand",
-        "One million",
-        "Ten thousand"
-      ],
+      "id": "adm-a1-w01-ex01",
+      "type": "multiple-choice",
+      "prompt": "What is the greeting for 9:00 AM?",
+      "options": ["Good afternoon", "Good morning", "Good evening", "Good night"],
       "answerIndex": 1,
-      "explanation": "1,000 is 'one thousand'."
+      "explanation": "Usamos 'Good morning' desde el inicio del día hasta las 12:00 PM."
     },
     {
-      "id": "fin-a1-w1-q2",
-      "type": "multipleChoice",
-      "prompt": "Which of these is NOT physical money?",
-      "options": [
-        "Coins",
-        "Notes",
-        "E-wallet",
-        "Bills"
-      ],
+      "id": "adm-a1-w01-ex02",
+      "type": "multiple-choice",
+      "prompt": "Complete the question: 'Hello, how ________ you?'",
+      "options": ["is", "am", "are", "be"],
       "answerIndex": 2,
-      "explanation": "An E-wallet is digital money on a phone or computer."
+      "explanation": "La pregunta estándar es 'How are you?'."
     },
     {
-      "id": "fin-a1-w1-matching-1",
-      "type": "matching",
-      "prompt": "Match the term with its category.",
-      "pairs": [
-        {"term": "Dollar", "definition": "Currency"},
-        {"term": "E-wallet", "definition": "Digital Money"},
-        {"term": "Cash", "definition": "Physical Money"},
-        {"term": "One million", "definition": "Number"}
-      ]
-    },
-    {
-      "id": "fin-a1-w1-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Complete the sentence: 'The Bitcoin price ___ high today.'",
-      "options": [
-        "am",
-        "is",
-        "are",
-        "be"
-      ],
-      "answerIndex": 1,
-      "explanation": "We use 'is' for singular subjects (the price)."
-    },
-    {
-      "id": "fin-a1-w1-writing-1",
-      "type": "writingTask",
-      "prompt": "Write a very short message (10-20 words) to a friend. Say: 'Hello, the price is 100 dollars.'",
-      "modelAnswer": "Hello, the price is 100 dollars.",
-      "keywords": ["price", "is", "dollars"]
-    },
-    {
-      "id": "fin-a1-w1-r1",
-      "type": "reading-comprehension",
-      "title": "A Visit to the Bank",
-      "text": "Hello! I am at the **bank**. I have 500 **dollars**. I want to change them into **euros**. The **cash** is in my **wallet**. The **teller** is very nice.",
-      "vocabularyHelp": [
-        { "word": "bank", "definition": "A place where you keep your money." },
-        { "word": "dollars", "definition": "The currency used in the USA." },
-        { "word": "euros", "definition": "The currency used in many European countries." },
-        { "word": "cash", "definition": "Money in the form of coins or notes." },
-        { "word": "wallet", "definition": "A small folding case for holding money." },
-        { "word": "teller", "definition": "A person who works in a bank and helps customers." }
-      ],
-      "questions": [
-        {
-          "question": "Where is the person?",
-          "options": ["At the supermarket", "At the bank", "At home", "In the park"],
-          "answerIndex": 1,
-          "explanation": "The text starts with 'I am at the bank'."
-        },
-        {
-          "question": "How much money does the person have?",
-          "options": ["100 dollars", "500 euros", "500 dollars", "One million dollars"],
-          "answerIndex": 2,
-          "explanation": "The text says 'I have 500 dollars'."
-        },
-        {
-          "question": "What currency does the person want?",
-          "options": ["Pounds", "Yen", "Dollars", "Euros"],
-          "answerIndex": 3,
-          "explanation": "The person wants to 'change them into euros'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-r2",
-      "type": "reading-comprehension",
-      "title": "Online Shopping",
-      "text": "I like **online banking**. I use my **laptop** to buy things. I have an **E-wallet**. I pay for a new **phone**. The price is 800 **pounds**. It is very **fast**.",
-      "vocabularyHelp": [
-        { "word": "online banking", "definition": "Managing money using the internet." },
-        { "word": "laptop", "definition": "A small computer you can carry." },
-        { "word": "E-wallet", "definition": "A digital way to store money on a device." },
-        { "word": "phone", "definition": "A device used to call people and use apps." },
-        { "word": "pounds", "definition": "The currency used in the UK." },
-        { "word": "fast", "definition": "Moving or happening quickly." }
-      ],
-      "questions": [
-        {
-          "question": "What does the person use to buy things?",
-          "options": ["A car", "A laptop", "A credit card", "A book"],
-          "answerIndex": 1,
-          "explanation": "The person says 'I use my laptop to buy things'."
-        },
-        {
-          "question": "How much is the phone?",
-          "options": ["800 dollars", "800 euros", "800 pounds", "One million pounds"],
-          "answerIndex": 2,
-          "explanation": "The text says 'The price is 800 pounds'."
-        },
-        {
-          "question": "Is the payment slow?",
-          "options": ["Yes", "No, it is fast", "Maybe", "The text doesn't say"],
-          "answerIndex": 1,
-          "explanation": "The text says 'It is very fast'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-r3",
-      "type": "reading-comprehension",
-      "title": "Digital Money",
-      "text": "My friend has **Bitcoin**. It is **digital money**. He doesn't have **coins**. He uses an **app**. The **amount** is small. He is a **pioneer**.",
-      "vocabularyHelp": [
-        { "word": "Bitcoin", "definition": "A famous type of digital money." },
-        { "word": "digital money", "definition": "Money that only exists electronically." },
-        { "word": "coins", "definition": "Small, round pieces of metal used as money." },
-        { "word": "app", "definition": "A program on a phone or computer." },
-        { "word": "amount", "definition": "How much of something there is." },
-        { "word": "pioneer", "definition": "A person who is among the first to use or help develop something new." }
-      ],
-      "questions": [
-        {
-          "question": "What does the friend have?",
-          "options": ["Gold", "Bitcoin", "A lot of cash", "A big bank"],
-          "answerIndex": 1,
-          "explanation": "The text says 'My friend has Bitcoin'."
-        },
-        {
-          "question": "Does he have physical coins?",
-          "options": ["Yes", "No", "Sometimes", "Only euros"],
-          "answerIndex": 1,
-          "explanation": "The text says 'He doesn't have coins'."
-        },
-        {
-          "question": "What does he use?",
-          "options": ["A wallet", "An app", "A credit card", "A paper bill"],
-          "answerIndex": 1,
-          "explanation": "The text says 'He uses an app'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-r4",
-      "type": "reading-comprehension",
-      "title": "Large Numbers in Finance",
-      "text": "The company has **one million** customers. They pay with **credit cards**. The **revenue** is very high. It is **ten thousand** dollars every day. The **accountant** is busy.",
-      "vocabularyHelp": [
-        { "word": "one million", "definition": "The number 1,000,000." },
-        { "word": "credit cards", "definition": "Plastic cards used to buy things now and pay later." },
-        { "word": "revenue", "definition": "The money a company receives from its business." },
-        { "word": "ten thousand", "definition": "The number 10,000." },
-        { "word": "accountant", "definition": "A person whose job is to keep or inspect financial accounts." }
-      ],
-      "questions": [
-        {
-          "question": "How many customers does the company have?",
-          "options": ["One hundred", "One thousand", "One million", "Ten million"],
-          "answerIndex": 2,
-          "explanation": "The text says 'one million customers'."
-        },
-        {
-          "question": "How do they pay?",
-          "options": ["With cash", "With credit cards", "With Bitcoin", "With gold"],
-          "answerIndex": 1,
-          "explanation": "The text says 'They pay with credit cards'."
-        },
-        {
-          "question": "How much is the revenue per day?",
-          "options": ["100 dollars", "1,000 dollars", "10,000 dollars", "1,000,000 dollars"],
-          "answerIndex": 2,
-          "explanation": "The text says 'ten thousand dollars every day'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-r5",
-      "type": "reading-comprehension",
-      "title": "Traveling and Money",
-      "text": "I am **traveling** to London. I need **British pounds**. I go to the **exchange office**. I give them **euros**. They give me **notes**. The **rate** is good.",
-      "vocabularyHelp": [
-        { "word": "traveling", "definition": "Going from one place to another." },
-        { "word": "British pounds", "definition": "The currency of the United Kingdom." },
-        { "word": "exchange office", "definition": "A place where you can change one currency for another." },
-        { "word": "euros", "definition": "The currency of the European Union." },
-        { "word": "notes", "definition": "Paper money." },
-        { "word": "rate", "definition": "The value of one currency compared to another." }
-      ],
-      "questions": [
-        {
-          "question": "Where is the person going?",
-          "options": ["To Paris", "To London", "To New York", "To Madrid"],
-          "answerIndex": 1,
-          "explanation": "The text says 'I am traveling to London'."
-        },
-        {
-          "question": "What currency does the person need?",
-          "options": ["Dollars", "Euros", "Pounds", "Bitcoin"],
-          "answerIndex": 2,
-          "explanation": "The text says 'I need British pounds'."
-        },
-        {
-          "question": "What does the person give to the exchange office?",
-          "options": ["Pounds", "Notes", "Euros", "A credit card"],
-          "answerIndex": 2,
-          "explanation": "The text says 'I give them euros'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-l1",
-      "type": "listening-comprehension",
-      "title": "A Simple Transaction",
-      "transcript": "Customer: Hello, I want to pay for this book. It is ten dollars. \nCashier: Okay. Cash or credit card? \nCustomer: Cash, please. Here is a twenty-dollar note. \nCashier: Thank you. Your change is ten dollars.",
-      "vocabularyHelp": [
-        { "word": "pay", "definition": "To give money for something." },
-        { "word": "cashier", "definition": "The person you pay in a shop." },
-        { "word": "change", "definition": "The money you get back when you pay more than the price." }
-      ],
-      "questions": [
-        {
-          "question": "How much is the book?",
-          "options": ["Five dollars", "Ten dollars", "Twenty dollars", "Fifty dollars"],
-          "answerIndex": 1,
-          "explanation": "The customer says 'It is ten dollars'."
-        },
-        {
-          "question": "How does the customer pay?",
-          "options": ["By credit card", "With Bitcoin", "With cash", "With a check"],
-          "answerIndex": 2,
-          "explanation": "The customer says 'Cash, please'."
-        },
-        {
-          "question": "How much is the change?",
-          "options": ["Two dollars", "Five dollars", "Ten dollars", "Zero dollars"],
-          "answerIndex": 2,
-          "explanation": "The cashier says 'Your change is ten dollars'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-l2",
-      "type": "listening-comprehension",
-      "title": "Large Numbers",
-      "transcript": "Speaker: Today, the bank has a big goal. We want to help one hundred thousand people. Last year, we helped fifty thousand people. This is a big increase.",
-      "vocabularyHelp": [
-        { "word": "goal", "definition": "Something you want to achieve." },
-        { "word": "increase", "definition": "To become larger in number or amount." }
-      ],
-      "questions": [
-        {
-          "question": "What is the new goal?",
-          "options": ["10,000 people", "50,000 people", "100,000 people", "1,000,000 people"],
-          "answerIndex": 2,
-          "explanation": "The speaker says 'We want to help one hundred thousand people'."
-        },
-        {
-          "question": "How many people did they help last year?",
-          "options": ["10,000", "50,000", "100,000", "500,000"],
-          "answerIndex": 1,
-          "explanation": "The speaker says 'Last year, we helped fifty thousand people'."
-        },
-        {
-          "question": "Is the number getting smaller?",
-          "options": ["Yes", "No", "It is the same", "The text doesn't say"],
-          "answerIndex": 1,
-          "explanation": "The speaker calls it a 'big increase'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-l3",
-      "type": "listening-comprehension",
-      "title": "Digital Banking Help",
-      "transcript": "Support: Hello, this is the online banking support. \nUser: Hi, I cannot see my E-wallet on my phone. \nSupport: Is your app updated? \nUser: No, it is an old version. \nSupport: Please update the app to see your balance.",
-      "vocabularyHelp": [
-        { "word": "support", "definition": "Help given by a company to its users." },
-        { "word": "version", "definition": "A particular form of something that is slightly different from other forms." },
-        { "word": "balance", "definition": "The amount of money in a bank account." }
-      ],
-      "questions": [
-        {
-          "question": "Who is the user talking to?",
-          "options": ["A friend", "Online banking support", "A cashier", "An accountant"],
-          "answerIndex": 1,
-          "explanation": "The speaker says 'this is the online banking support'."
-        },
-        {
-          "question": "What is the problem?",
-          "options": ["He lost his phone", "He cannot see his E-wallet", "He lost his cash", "He wants to buy Bitcoin"],
-          "answerIndex": 1,
-          "explanation": "The user says 'I cannot see my E-wallet on my phone'."
-        },
-        {
-          "question": "What is the solution?",
-          "options": ["Buy a new phone", "Update the app", "Go to the bank", "Call his friend"],
-          "answerIndex": 1,
-          "explanation": "The support says 'Please update the app'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-l4",
-      "type": "listening-comprehension",
-      "title": "Currencies in the Office",
-      "transcript": "Manager: We have customers in Europe and the USA. \nAssistant: Do we use euros or dollars? \nManager: We use both. For Europe, we use euros. For the USA, we use dollars. Sometimes we use British pounds too.",
-      "vocabularyHelp": [
-        { "word": "manager", "definition": "A person in charge of an office or company." },
-        { "word": "assistant", "definition": "A person who helps a manager." }
-      ],
-      "questions": [
-        {
-          "question": "Where are the customers?",
-          "options": ["Only in Europe", "Only in the USA", "In Europe and the USA", "In Asia"],
-          "answerIndex": 2,
-          "explanation": "The manager says 'We have customers in Europe and the USA'."
-        },
-        {
-          "question": "Which currency is used for the USA?",
-          "options": ["Euros", "Pounds", "Dollars", "Bitcoin"],
-          "answerIndex": 2,
-          "explanation": "The manager says 'For the USA, we use dollars'."
-        },
-        {
-          "question": "Is another currency mentioned?",
-          "options": ["No", "Yes, British pounds", "Yes, Yen", "Yes, Gold"],
-          "answerIndex": 1,
-          "explanation": "The manager says 'Sometimes we use British pounds too'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-l5",
-      "type": "listening-comprehension",
-      "title": "Starting a Business",
-      "transcript": "Entrepreneur: I want to start a company. I need one million dollars. \nInvestor: That is a lot of money! What is your business? \nEntrepreneur: I sell digital wallets for phones. \nInvestor: Okay, I am interested.",
-      "vocabularyHelp": [
-        { "word": "entrepreneur", "definition": "A person who starts a business." },
-        { "word": "investor", "definition": "A person who gives money to a business to make more money." },
-        { "word": "interested", "definition": "Wanting to know more about something." }
-      ],
-      "questions": [
-        {
-          "question": "How much money does the entrepreneur need?",
-          "options": ["One thousand dollars", "Ten thousand dollars", "One hundred thousand dollars", "One million dollars"],
-          "answerIndex": 3,
-          "explanation": "The entrepreneur says 'I need one million dollars'."
-        },
-        {
-          "question": "What is the business?",
-          "options": ["Selling books", "Selling digital wallets", "A bank", "An exchange office"],
-          "answerIndex": 1,
-          "explanation": "The entrepreneur says 'I sell digital wallets for phones'."
-        },
-        {
-          "question": "Is the investor happy?",
-          "options": ["No", "Yes, he is interested", "He is angry", "The text doesn't say"],
-          "answerIndex": 1,
-          "explanation": "The investor says 'Okay, I am interested'."
-        }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-ws1",
-      "type": "word-search",
-      "title": "Money Word Search",
-      "instructions": "Find 6 words related to money.",
-      "words": ["CASH", "COINS", "NOTES", "DOLLAR", "EURO", "POUND"],
-      "gridSize": 10
-    },
-    {
-      "id": "fin-a1-w1-ws2",
-      "type": "word-search",
-      "title": "Digital Banking Search",
-      "instructions": "Find 6 words related to digital banking.",
-      "words": ["ONLINE", "WALLET", "APP", "BITCOIN", "DIGITAL", "PHONE"],
-      "gridSize": 10
-    },
-    {
-      "id": "fin-a1-w1-ws3",
-      "type": "word-search",
-      "title": "Large Numbers Search",
-      "instructions": "Find 4 words related to numbers.",
-      "words": ["HUNDRED", "THOUSAND", "MILLION", "AMOUNT"],
-      "gridSize": 10
-    },
-    {
-      "id": "fin-a1-w1-ws4",
-      "type": "word-search",
-      "title": "Bank People Search",
-      "instructions": "Find 4 bank-related roles.",
-      "words": ["TELLER", "MANAGER", "CASHIER", "USER"],
-      "gridSize": 10
-    },
-    {
-      "id": "fin-a1-w1-ws5",
-      "type": "word-search",
-      "title": "Action Word Search",
-      "instructions": "Find 4 financial actions.",
-      "words": ["PAY", "BUY", "SELL", "CHANGE"],
-      "gridSize": 10
-    },
-    {
-      "id": "fin-a1-w1-cw1",
-      "type": "crossword",
-      "title": "Currency Crossword",
-      "instructions": "Complete the crossword with currencies.",
-      "items": [
-        { "word": "DOLLAR", "clue": "Currency of the USA.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "EURO", "clue": "Currency of Germany.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "POUND", "clue": "Currency of the UK.", "direction": "across", "row": 2, "col": 0 }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-cw2",
-      "type": "crossword",
-      "title": "Digital Money Crossword",
-      "instructions": "Complete the crossword with digital terms.",
-      "items": [
-        { "word": "WALLET", "clue": "A digital place for money.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "APP", "clue": "Program on a phone.", "direction": "down", "row": 0, "col": 1 },
-        { "word": "ONLINE", "clue": "Connected to the internet.", "direction": "across", "row": 2, "col": 0 }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-cw3",
-      "type": "crossword",
-      "title": "Physical Money Crossword",
-      "instructions": "Complete the crossword with physical money terms.",
-      "items": [
-        { "word": "CASH", "clue": "Coins and notes.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "COINS", "clue": "Metal money.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "NOTES", "clue": "Paper money.", "direction": "across", "row": 4, "col": 0 }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-cw4",
-      "type": "crossword",
-      "title": "Large Numbers Crossword",
-      "instructions": "Complete the crossword with numbers.",
-      "items": [
-        { "word": "MILLION", "clue": "1,000,000.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "HUNDRED", "clue": "100.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "THOUSAND", "clue": "1,000.", "direction": "across", "row": 6, "col": 0 }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-cw5",
-      "type": "crossword",
-      "title": "General Finance Crossword",
-      "items": [
-        { "word": "BANK", "clue": "Where you keep money.", "direction": "across", "row": 0, "col": 0 },
-        { "word": "PAY", "clue": "To give money for something.", "direction": "down", "row": 0, "col": 0 },
-        { "word": "PRICE", "clue": "How much something costs.", "direction": "across", "row": 2, "col": 0 }
-      ]
-    },
-    {
-      "id": "fin-a1-w1-mc1",
-      "type": "multipleChoice",
-      "prompt": "How do you say 10,000 in English?",
-      "options": ["One thousand", "Ten thousand", "One hundred thousand", "Ten million"],
-      "answerIndex": 1,
-      "explanation": "10,000 is 'ten thousand'."
-    },
-    {
-      "id": "fin-a1-w1-mc2",
-      "type": "multipleChoice",
-      "prompt": "Which of these is digital money?",
-      "options": ["Coins", "Notes", "Bitcoin", "Wallet"],
+      "id": "adm-a1-w01-ex03",
+      "type": "multiple-choice",
+      "prompt": "What is a polite way to say goodbye at the end of the day?",
+      "options": ["Hi", "Hello", "Have a nice day", "Good morning"],
       "answerIndex": 2,
-      "explanation": "Bitcoin is a type of digital money."
+      "explanation": "'Have a nice day' es una despedida común y cortés."
     },
     {
-      "id": "fin-a1-w1-mc3",
-      "type": "multipleChoice",
-      "prompt": "Complete the sentence: 'I ___ a student of finance.'",
-      "options": ["am", "is", "are", "be"],
+      "id": "adm-a1-w01-ex04",
+      "type": "multiple-choice",
+      "prompt": "What is the response to 'How are you?'",
+      "options": ["I am fine, thank you", "Good morning", "Goodbye", "Hello"],
       "answerIndex": 0,
-      "explanation": "We use 'am' with 'I'."
+      "explanation": "Una respuesta común a 'How are you?' es 'I am fine, thank you'."
     },
     {
-      "id": "fin-a1-w1-mc4",
-      "type": "multipleChoice",
-      "prompt": "What is the currency of the UK?",
-      "options": ["Dollar", "Euro", "Pound", "Bitcoin"],
+      "id": "adm-a1-w01-ex05",
+      "type": "multiple-choice",
+      "prompt": "Which greeting is used after 6:00 PM?",
+      "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
       "answerIndex": 2,
-      "explanation": "The UK uses the British Pound."
+      "explanation": "'Good evening' es el saludo que se usa por la tarde/noche."
     },
     {
-      "id": "fin-a1-w1-mc5",
-      "type": "multipleChoice",
-      "prompt": "Which number is 'one hundred'?",
-      "options": ["10", "100", "1,000", "1,000,000"],
+      "id": "adm-a1-w01-ex06",
+      "type": "multiple-choice",
+      "prompt": "Which one is NOT a greeting?",
+      "options": ["Hi", "Hello", "Goodbye", "Good afternoon"],
+      "answerIndex": 2,
+      "explanation": "'Goodbye' es una despedida, no un saludo."
+    },
+    {
+      "id": "adm-a1-w01-ex07",
+      "type": "multiple-choice",
+      "prompt": "If you arrive at the office at 2:00 PM, you say:",
+      "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
       "answerIndex": 1,
-      "explanation": "One hundred is 100."
+      "explanation": "'Good afternoon' se usa de 12:00 PM a 6:00 PM."
     },
     {
-      "id": "fin-a1-w1-mc6",
-      "type": "multipleChoice",
-      "prompt": "Where do you manage money online?",
-      "options": ["Online banking", "In a park", "In a library", "At school"],
-      "answerIndex": 0,
-      "explanation": "You use online banking."
-    },
-    {
-      "id": "fin-a1-w1-mc7",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'They ___ at the bank.'",
-      "options": ["am", "is", "are", "be"],
+      "id": "adm-a1-w01-ex08",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'Hola' in a formal office setting?",
+      "options": ["Bye", "Hi", "Hello", "Good night"],
       "answerIndex": 2,
-      "explanation": "We use 'are' with 'they'."
+      "explanation": "'Hello' es más formal que 'Hi'."
     },
     {
-      "id": "fin-a1-w1-mc8",
-      "type": "multipleChoice",
-      "prompt": "What is 'cash'?",
-      "options": ["Only coins", "Only notes", "Coins and notes", "Digital money"],
-      "answerIndex": 2,
-      "explanation": "Cash is coins and notes."
-    },
-    {
-      "id": "fin-a1-w1-mc9",
-      "type": "multipleChoice",
-      "prompt": "Which number is 1,000,000?",
-      "options": ["One thousand", "Ten thousand", "One hundred thousand", "One million"],
+      "id": "adm-a1-w01-ex09",
+      "type": "multiple-choice",
+      "prompt": "When you leave the office to go home to sleep, you say:",
+      "options": ["Good morning", "Good afternoon", "Good evening", "Good night"],
       "answerIndex": 3,
-      "explanation": "1,000,000 is one million."
+      "explanation": "'Good night' se usa al despedirse por la noche o antes de dormir."
     },
     {
-      "id": "fin-a1-w1-mc10",
-      "type": "multipleChoice",
-      "prompt": "Is an E-wallet physical or digital?",
-      "options": ["Physical", "Digital", "Both", "None"],
+      "id": "adm-a1-w01-ex10",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'See you ________.'",
+      "options": ["late", "later", "morning", "hello"],
       "answerIndex": 1,
-      "explanation": "An E-wallet is digital."
+      "explanation": "'See you later' (nos vemos luego) es una despedida común."
     },
     {
-      "id": "fin-a1-w1-mc11",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'The price ___ 50 euros.'",
-      "options": ["am", "is", "are", "be"],
-      "answerIndex": 1,
-      "explanation": "We use 'is' for singular 'price'."
+      "id": "adm-a1-w01-ex11",
+      "type": "reading",
+      "title": "Exercise 11: The New Colleague",
+      "text": "Hi! My name is John. I am the new administrator. I arrive at the office at 8:30 AM and say 'Good morning' to everyone. At 5:00 PM, I say 'Goodbye' and go home.",
+      "questions": [
+        {
+          "question": "What time does John arrive at the office?",
+          "options": ["8:30 AM", "9:00 AM", "5:00 PM"],
+          "answerIndex": 0,
+          "explanation": "El texto dice: 'I arrive at the office at 8:30 AM'."
+        },
+        {
+          "question": "What does John say when he arrives?",
+          "options": ["Goodbye", "Good morning", "Good afternoon"],
+          "answerIndex": 1,
+          "explanation": "El texto dice: 'I... say 'Good morning' to everyone'."
+        }
+      ]
     },
     {
-      "id": "fin-a1-w1-mc12",
-      "type": "multipleChoice",
-      "prompt": "What is the symbol for Euro?",
-      "options": ["$", "£", "€", "¥"],
-      "answerIndex": 2,
-      "explanation": "€ is the symbol for Euro."
+      "id": "adm-a1-w01-ex12",
+      "type": "reading",
+      "title": "Exercise 12: Office Routine",
+      "text": "The office starts at 9:00 AM. Sarah is the secretary. She says 'Hello' to the manager. The manager says 'Good morning, Sarah. How are you?'. Sarah says 'I am fine, thank you'.",
+      "questions": [
+        {
+          "question": "Who is Sarah?",
+          "options": ["The manager", "The secretary", "A visitor"],
+          "answerIndex": 1,
+          "explanation": "El texto dice: 'Sarah is the secretary'."
+        },
+        {
+          "question": "How is Sarah?",
+          "options": ["She is tired", "She is fine", "She is late"],
+          "answerIndex": 1,
+          "explanation": "Sarah dice: 'I am fine, thank you'."
+        }
+      ]
     },
     {
-      "id": "fin-a1-w1-mc13",
-      "type": "multipleChoice",
-      "prompt": "What is the symbol for Dollar?",
-      "options": ["$", "£", "€", "¥"],
+      "id": "adm-a1-w01-ex13",
+      "type": "reading",
+      "title": "Exercise 13: Afternoon Meeting",
+      "text": "At 3:00 PM, there is a meeting. The team says 'Good afternoon'. They talk about the new project. At 4:00 PM, the meeting ends. They say 'See you later'.",
+      "questions": [
+        {
+          "question": "What time is the meeting?",
+          "options": ["9:00 AM", "3:00 PM", "4:00 PM"],
+          "answerIndex": 1,
+          "explanation": "El texto dice: 'At 3:00 PM, there is a meeting'."
+        },
+        {
+          "question": "What do they say when the meeting ends?",
+          "options": ["Good morning", "Good afternoon", "See you later"],
+          "answerIndex": 2,
+          "explanation": "El texto dice: 'They say 'See you later''."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w01-ex14",
+      "type": "reading",
+      "title": "Exercise 14: Evening Shift",
+      "text": "Mr. Brown works in the evening. He arrives at 6:30 PM. He says 'Good evening' to the security guard. He finishes work at 10:00 PM and says 'Good night'.",
+      "questions": [
+        {
+          "question": "What does Mr. Brown say at 6:30 PM?",
+          "options": ["Good morning", "Good afternoon", "Good evening"],
+          "answerIndex": 2,
+          "explanation": "Llega a las 6:30 PM y dice 'Good evening'."
+        },
+        {
+          "question": "What does he say when he finishes work?",
+          "options": ["Hello", "Good morning", "Good night"],
+          "answerIndex": 2,
+          "explanation": "Termina a las 10:00 PM y dice 'Good night'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w01-ex15",
+      "type": "reading",
+      "title": "Exercise 15: Friday Farewell",
+      "text": "It is Friday. The office closes. Mark says 'Goodbye, everyone. Have a nice weekend!'. His colleagues say 'Thanks, Mark. You too!'.",
+      "questions": [
+        {
+          "question": "What day is it?",
+          "options": ["Monday", "Friday", "Sunday"],
+          "answerIndex": 1,
+          "explanation": "El texto dice: 'It is Friday'."
+        },
+        {
+          "question": "What does Mark wish his colleagues?",
+          "options": ["A nice day", "A nice weekend", "A nice morning"],
+          "answerIndex": 1,
+          "explanation": "Dice: 'Have a nice weekend!'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w01-ex16",
+      "type": "listening",
+      "prompt": "Listen and choose the word you hear.",
+      "transcript": "Good morning, Ms. Smith.",
+      "audioUrl": "audio/cursos/administracion/a1/trimestre1/semana01/adm-a1-w01-ex16.mp3",
+      "options": ["Morning", "Afternoon", "Evening"],
       "answerIndex": 0,
-      "explanation": "$ is the symbol for Dollar."
+      "explanation": "El audio dice 'Good morning'."
     },
     {
-      "id": "fin-a1-w1-mc14",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'We ___ happy with the bank.'",
-      "options": ["am", "is", "are", "be"],
+      "id": "adm-a1-w01-ex17",
+      "type": "listening",
+      "prompt": "Listen and identify the greeting.",
+      "transcript": "Hello, how are you?",
+      "audioUrl": "audio/cursos/administracion/a1/trimestre1/semana01/adm-a1-w01-ex17.mp3",
+      "options": ["Hi", "Hello", "Bye"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'Hello'."
+    },
+    {
+      "id": "adm-a1-w01-ex18",
+      "type": "listening",
+      "prompt": "Listen and choose the farewell.",
+      "transcript": "Goodbye, Peter. Have a nice weekend!",
+      "audioUrl": "audio/cursos/administracion/a1/trimestre1/semana01/adm-a1-w01-ex18.mp3",
+      "options": ["See you later", "Have a nice weekend", "Good night"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'Have a nice weekend'."
+    },
+    {
+      "id": "adm-a1-w01-ex19",
+      "type": "listening",
+      "prompt": "Listen and choose the time of day indicated.",
+      "transcript": "Good afternoon, everyone.",
+      "audioUrl": "audio/cursos/administracion/a1/trimestre1/semana01/adm-a1-w01-ex19.mp3",
+      "options": ["Morning", "Afternoon", "Evening"],
+      "answerIndex": 1,
+      "explanation": "El saludo es 'Good afternoon'."
+    },
+    {
+      "id": "adm-a1-w01-ex20",
+      "type": "listening",
+      "prompt": "Listen and complete.",
+      "transcript": "See you later.",
+      "audioUrl": "audio/cursos/administracion/a1/trimestre1/semana01/adm-a1-w01-ex20.mp3",
+      "options": ["later", "tomorrow", "now"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'See you later'."
+    },
+    {
+      "id": "adm-a1-w01-ex21",
+      "type": "fill-blank",
+      "prompt": "Good [blank], it is 9:00 AM.",
+      "answers": ["morning"],
+      "explanation": "Usamos 'morning' por la mañana."
+    },
+    {
+      "id": "adm-a1-w01-ex22",
+      "type": "fill-blank",
+      "prompt": "How [blank] you?",
+      "answers": ["are"],
+      "explanation": "La estructura es 'How are you?'."
+    },
+    {
+      "id": "adm-a1-w01-ex23",
+      "type": "fill-blank",
+      "prompt": "I am fine, [blank] you.",
+      "answers": ["thank"],
+      "explanation": "'Thank you' significa gracias."
+    },
+    {
+      "id": "adm-a1-w01-ex24",
+      "type": "fill-blank",
+      "prompt": "Have a [blank] day!",
+      "answers": ["nice", "good"],
+      "explanation": "Deseamos un 'nice day' o 'good day'."
+    },
+    {
+      "id": "adm-a1-w01-ex25",
+      "type": "fill-blank",
+      "prompt": "See you [blank].",
+      "answers": ["later", "soon", "tomorrow"],
+      "explanation": "Varias opciones de despedida son válidas."
+    },
+    {
+      "id": "adm-a1-w01-ex26",
+      "type": "matching",
+      "prompt": "Match the greeting with the time:",
+      "pairs": [
+        { "left": "9:00 AM", "right": "Good morning" },
+        { "left": "2:00 PM", "right": "Good afternoon" },
+        { "left": "7:00 PM", "right": "Good evening" },
+        { "left": "Bedtime", "right": "Good night" }
+      ],
+      "explanation": "Relaciona los saludos con el momento del día."
+    },
+    {
+      "id": "adm-a1-w01-ex27",
+      "type": "matching",
+      "prompt": "Match the English with the Spanish:",
+      "pairs": [
+        { "left": "Hello", "right": "Hola" },
+        { "left": "Goodbye", "right": "Adiós" },
+        { "left": "How are you?", "right": "¿Cómo estás?" },
+        { "left": "Nice to meet you", "right": "Encantado de conocerte" }
+      ],
+      "explanation": "Traducción de frases básicas."
+    },
+    {
+      "id": "adm-a1-w01-ex28",
+      "type": "reorder",
+      "prompt": "Reorder the greeting:",
+      "sentence": "Good morning how are you",
+      "explanation": "Estructura típica de saludo."
+    },
+    {
+      "id": "adm-a1-w01-ex29",
+      "type": "reorder",
+      "prompt": "Reorder the farewell:",
+      "sentence": "Have a nice day goodbye",
+      "explanation": "Estructura típica de despedida."
+    },
+    {
+      "id": "adm-a1-w01-ex30",
+      "type": "reorder",
+      "prompt": "Reorder the response:",
+      "sentence": "I am fine thank you",
+      "explanation": "Respuesta estándar a 'how are you'."
+    },
+    {
+      "id": "adm-a1-w01-ex31",
+      "type": "multiple-choice",
+      "prompt": "Which greeting is informal?",
+      "options": ["Good morning", "Hi", "Good afternoon", "Good evening"],
+      "answerIndex": 1,
+      "explanation": "'Hi' es más informal que el resto."
+    },
+    {
+      "id": "adm-a1-w01-ex32",
+      "type": "multiple-choice",
+      "prompt": "What do you say when you leave the office at 5:00 PM?",
+      "options": ["Good morning", "Hello", "Goodbye", "Hi"],
       "answerIndex": 2,
-      "explanation": "We use 'are' with 'we'."
+      "explanation": "Al irse se usa 'Goodbye'."
     },
     {
-      "id": "fin-a1-w1-mc15",
-      "type": "multipleChoice",
-      "prompt": "What do you use to pay on a website?",
-      "options": ["Cash", "A credit card", "Coins", "Paper money"],
+      "id": "adm-a1-w01-ex33",
+      "type": "writing",
+      "prompt": "Write the English word for 'Buenos días'.",
+      "validation": "Good morning",
+      "explanation": "Buenos días se dice 'Good morning'."
+    },
+    {
+      "id": "adm-a1-w01-ex34",
+      "type": "writing",
+      "prompt": "Write the English word for 'Adiós'.",
+      "validation": "Goodbye",
+      "explanation": "Adiós se dice 'Goodbye'."
+    },
+    {
+      "id": "adm-a1-w01-ex35",
+      "type": "writing",
+      "prompt": "How do you ask '¿Cómo estás?' in English?",
+      "validation": "How are you?",
+      "explanation": "¿Cómo estás? se dice 'How are you?'."
+    },
+    {
+      "id": "adm-a1-w01-ex36",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'Nice to ______ you.'",
+      "options": ["meet", "see", "hello", "bye"],
+      "answerIndex": 0,
+      "explanation": "La frase es 'Nice to meet you' (encantado de conocerte)."
+    },
+    {
+      "id": "adm-a1-w01-ex37",
+      "type": "multiple-choice",
+      "prompt": "What is the response to 'Nice to meet you'?",
+      "options": ["Goodbye", "Nice to meet you too", "Good morning", "Hi"],
       "answerIndex": 1,
-      "explanation": "You use a credit card online."
+      "explanation": "Respondemos 'Nice to meet you too' (encantado de conocerte también)."
     },
     {
-      "id": "fin-a1-w1-mc16",
-      "type": "multipleChoice",
-      "prompt": "Which is more: 1,000 or 10,000?",
-      "options": ["1,000", "10,000", "They are equal", "The text doesn't say"],
+      "id": "adm-a1-w01-ex38",
+      "type": "fill-blank",
+      "prompt": "See you [blank].",
+      "answers": ["tomorrow"],
+      "explanation": "'See you tomorrow' significa nos vemos mañana."
+    },
+    {
+      "id": "adm-a1-w01-ex39",
+      "type": "multiple-choice",
+      "prompt": "If it is 1:00 PM, you say:",
+      "options": ["Good morning", "Good afternoon", "Good night"],
       "answerIndex": 1,
-      "explanation": "10,000 is more than 1,000."
+      "explanation": "Después de las 12:00 PM es 'afternoon'."
     },
     {
-      "id": "fin-a1-w1-mc17",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'It ___ not expensive.'",
-      "options": ["am", "is", "are", "be"],
+      "id": "adm-a1-w01-ex40",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Nice to meet you Alice",
+      "explanation": "Encantado de conocerte, Alice."
+    },
+    {
+      "id": "adm-a1-w01-ex41",
+      "type": "multiple-choice",
+      "prompt": "The 'administrator' manages the ______.",
+      "options": ["office", "car", "street"],
+      "answerIndex": 0,
+      "explanation": "El administrador gestiona la oficina."
+    },
+    {
+      "id": "adm-a1-w01-ex42",
+      "type": "multiple-choice",
+      "prompt": "The 'staff' are the people who ______ in the office.",
+      "options": ["play", "work", "sleep"],
       "answerIndex": 1,
-      "explanation": "We use 'is' with 'it'."
+      "explanation": "'Staff' se refiere al personal que trabaja."
     },
     {
-      "id": "fin-a1-w1-mc18",
-      "type": "multipleChoice",
-      "prompt": "What is an 'accountant'?",
-      "options": ["A person who sells books", "A person who manages financial accounts", "A person who drives a bus", "A person who cooks"],
+      "id": "adm-a1-w01-ex43",
+      "type": "fill-blank",
+      "prompt": "The entrance area of a building is the [blank].",
+      "answers": ["lobby"],
+      "explanation": "El lobby es la entrada o vestíbulo."
+    },
+    {
+      "id": "adm-a1-w01-ex44",
+      "type": "multiple-choice",
+      "prompt": "A person who uses professional services is a ______.",
+      "options": ["client", "manager", "staff"],
+      "answerIndex": 0,
+      "explanation": "Un cliente (client) usa los servicios."
+    },
+    {
+      "id": "adm-a1-w01-ex45",
+      "type": "matching",
+      "prompt": "Match the job with the definition:",
+      "pairs": [
+        { "left": "Receptionist", "right": "Greets visitors" },
+        { "left": "Manager", "right": "In charge of team" },
+        { "left": "Administrator", "right": "Manages office" },
+        { "left": "Staff", "right": "Group of workers" }
+      ],
+      "explanation": "Vocabulario de roles en la oficina."
+    },
+    {
+      "id": "adm-a1-w01-ex46",
+      "type": "fill-blank",
+      "prompt": "People you work with are [blank].",
+      "answers": ["colleagues"],
+      "explanation": "Tus compañeros de trabajo son 'colleagues'."
+    },
+    {
+      "id": "adm-a1-w01-ex47",
+      "type": "multiple-choice",
+      "prompt": "A period of time worked is a ______.",
+      "options": ["shift", "lobby", "client"],
+      "answerIndex": 0,
+      "explanation": "'Shift' es el turno de trabajo."
+    },
+    {
+      "id": "adm-a1-w01-ex48",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The manager is in the lobby",
+      "explanation": "El gerente está en el vestíbulo."
+    },
+    {
+      "id": "adm-a1-w01-ex49",
+      "type": "listening",
+      "prompt": "Listen and choose the word.",
+      "audio_prompt": "Client.",
+      "options": ["Clear", "Client", "Clean"],
       "answerIndex": 1,
-      "explanation": "An accountant manages financial records."
+      "explanation": "Se escucha 'Client'."
     },
     {
-      "id": "fin-a1-w1-mc19",
-      "type": "multipleChoice",
-      "prompt": "Which is a currency?",
-      "options": ["Bitcoin", "Dollar", "Wallet", "Account"],
+      "id": "adm-a1-w01-ex50",
+      "type": "listening",
+      "prompt": "Listen and identify the role.",
+      "audio_prompt": "The receptionist is here.",
+      "options": ["Receptionist", "Manager", "Staff"],
+      "answerIndex": 0,
+      "explanation": "Se menciona al 'receptionist'."
+    },
+    {
+      "id": "adm-a1-w01-ex51",
+      "type": "multiple-choice",
+      "prompt": "It is 8:00 AM. I say: 'Good ______.'",
+      "options": ["morning", "afternoon", "evening"],
+      "answerIndex": 0,
+      "explanation": "8:00 AM es por la mañana."
+    },
+    {
+      "id": "adm-a1-w01-ex52",
+      "type": "multiple-choice",
+      "prompt": "It is 4:00 PM. I say: 'Good ______.'",
+      "options": ["morning", "afternoon", "evening"],
       "answerIndex": 1,
-      "explanation": "The Dollar is a traditional currency."
+      "explanation": "4:00 PM es por la tarde."
     },
     {
-      "id": "fin-a1-w1-mc20",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'You ___ a manager.'",
-      "options": ["am", "is", "are", "be"],
+      "id": "adm-a1-w01-ex53",
+      "type": "multiple-choice",
+      "prompt": "It is 8:00 PM. I say: 'Good ______.'",
+      "options": ["morning", "afternoon", "evening"],
       "answerIndex": 2,
-      "explanation": "We use 'are' with 'you'."
+      "explanation": "8:00 PM es por la noche (saludo)."
     },
     {
-      "id": "fin-a1-w1-fb1",
-      "type": "fillBlanks",
-      "prompt": "One thousand is [blank].",
-      "answers": ["1000", "1,000"],
-      "explanation": "One thousand is 1,000."
+      "id": "adm-a1-w01-ex54",
+      "type": "fill-blank",
+      "prompt": "Bye! Have a nice [blank]!",
+      "answers": ["day", "weekend", "evening"],
+      "explanation": "Varias opciones de despedida."
     },
     {
-      "id": "fin-a1-w1-fb2",
-      "type": "fillBlanks",
-      "prompt": "I pay with [blank] (metal money).",
-      "answers": ["coins"],
-      "explanation": "Metal money is called coins."
+      "id": "adm-a1-w01-ex55",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "See you later alligator",
+      "explanation": "Frase idiomática (opcional pero divertida) o simplemente 'See you later'."
     },
     {
-      "id": "fin-a1-w1-fb3",
-      "type": "fillBlanks",
-      "prompt": "Online [blank] is very easy.",
-      "answers": ["banking"],
-      "explanation": "Online banking."
+      "id": "adm-a1-w01-ex56",
+      "type": "multiple-choice",
+      "prompt": "When you meet someone for the first time, you say:",
+      "options": ["Goodbye", "Nice to meet you", "Good night"],
+      "answerIndex": 1,
+      "explanation": "Usamos 'Nice to meet you' al conocer a alguien."
     },
     {
-      "id": "fin-a1-w1-fb4",
-      "type": "fillBlanks",
-      "prompt": "The [blank] is 100 dollars.",
-      "answers": ["price", "amount"],
-      "explanation": "The price is 100 dollars."
+      "id": "adm-a1-w01-ex57",
+      "type": "fill-blank",
+      "prompt": "I am [blank], thanks.",
+      "answers": ["fine", "good", "great"],
+      "explanation": "Respuestas positivas a cómo estás."
     },
     {
-      "id": "fin-a1-w1-fb5",
-      "type": "fillBlanks",
-      "prompt": "She [blank] at the bank today.",
-      "answers": ["is"],
-      "explanation": "She is at the bank."
+      "id": "adm-a1-w01-ex58",
+      "type": "writing",
+      "prompt": "Translate: '¿Y tú?'",
+      "validation": "And you?",
+      "explanation": "'And you?' se usa para devolver la pregunta."
+    },
+    {
+      "id": "adm-a1-w01-ex59",
+      "type": "multiple-choice",
+      "prompt": "Which is a formal farewell?",
+      "options": ["Bye", "Goodbye", "Hi"],
+      "answerIndex": 1,
+      "explanation": "'Goodbye' es más formal que 'Bye'."
+    },
+    {
+      "id": "adm-a1-w01-ex60",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Hello my name is Alice",
+      "explanation": "Presentación básica."
+    },
+    {
+      "id": "adm-a1-w01-ex61",
+      "type": "listening",
+      "prompt": "Listen and choose the name.",
+      "audio_prompt": "Hi, I am Mark.",
+      "options": ["Mark", "Mary", "Mike"],
+      "answerIndex": 0,
+      "explanation": "El nombre es Mark."
+    },
+    {
+      "id": "adm-a1-w01-ex62",
+      "type": "reading",
+      "title": "Exercise 62: The Reception Desk",
+      "text": "The **receptionist** is in the **lobby**. A **client** arrives at 10:00 AM. The receptionist says 'Good morning, how can I help you?'. The client says 'Hello, I have an appointment'.",
+      "questions": [
+        {
+          "question": "Where is the receptionist?",
+          "options": ["Lobby", "Kitchen", "Office"],
+          "answerIndex": 0,
+          "explanation": "The text says 'in the lobby'."
+        },
+        {
+          "question": "What time is it?",
+          "options": ["10:00 AM", "10:00 PM", "2:00 PM"],
+          "answerIndex": 0,
+          "explanation": "The text says 'at 10:00 AM'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w01-ex63",
+      "type": "reading",
+      "title": "Exercise 63: Morning Meeting",
+      "text": "At 9:30 AM, the **staff** has a meeting. The **manager** says 'Good morning everyone'. They talk about the new project. The meeting ends at 10:30 AM.",
+      "questions": [
+        {
+          "question": "Who says 'Good morning'?",
+          "options": ["The client", "The manager", "The receptionist"],
+          "answerIndex": 1,
+          "explanation": "The text says 'The manager says...'."
+        },
+        {
+          "question": "What time does the meeting end?",
+          "options": ["9:30 AM", "10:30 AM", "11:30 AM"],
+          "answerIndex": 1,
+          "explanation": "The text says 'The meeting ends at 10:30 AM'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w01-ex64",
+      "type": "fill-blank",
+      "prompt": "A set of official rules is a [blank].",
+      "answers": ["protocol"],
+      "explanation": "'Protocol' se refiere a reglas o procedimientos oficiales."
+    },
+    {
+      "id": "adm-a1-w01-ex65",
+      "type": "multiple-choice",
+      "prompt": "The group of workers is the ______.",
+      "options": ["lobby", "staff", "client"],
+      "answerIndex": 1,
+      "explanation": "'Staff' es el personal de la empresa."
+    },
+    {
+      "id": "adm-a1-w01-ex66",
+      "type": "listening",
+      "prompt": "Listen and identify the time.",
+      "audio_prompt": "The shift starts at six PM.",
+      "options": ["6:00 AM", "6:00 PM", "10:00 PM"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'six PM'."
+    },
+    {
+      "id": "adm-a1-w01-ex67",
+      "type": "listening",
+      "prompt": "Listen and identify the place.",
+      "audio_prompt": "Wait in the lobby, please.",
+      "options": ["Lobby", "Office", "Cafeteria"],
+      "answerIndex": 0,
+      "explanation": "Menciona el 'lobby'."
+    },
+    {
+      "id": "adm-a1-w01-ex68",
+      "type": "multiple-choice",
+      "prompt": "Which one is a person?",
+      "options": ["Lobby", "Administrator", "Protocol"],
+      "answerIndex": 1,
+      "explanation": "Administrator es una persona (el administrador)."
+    },
+    {
+      "id": "adm-a1-w01-ex69",
+      "type": "fill-blank",
+      "prompt": "I have a morning [blank] from 8 to 12.",
+      "answers": ["shift"],
+      "explanation": "Un turno de mañana es un 'morning shift'."
+    },
+    {
+      "id": "adm-a1-w01-ex70",
+      "type": "matching",
+      "prompt": "Match the term with its use:",
+      "pairs": [
+        { "left": "Protocol", "right": "Rules" },
+        { "left": "Shift", "right": "Time period" },
+        { "left": "Client", "right": "Customer" },
+        { "left": "Colleague", "right": "Coworker" }
+      ],
+      "explanation": "Sinónimos o conceptos relacionados."
+    },
+    {
+      "id": "adm-a1-w01-ex71",
+      "type": "multiple-choice",
+      "prompt": "Which is correct?",
+      "options": ["I is fine", "I am fine", "I are fine"],
+      "answerIndex": 1,
+      "explanation": "Usamos 'am' con el sujeto 'I'."
+    },
+    {
+      "id": "adm-a1-w01-ex72",
+      "type": "multiple-choice",
+      "prompt": "Which is correct?",
+      "options": ["How is you?", "How am you?", "How are you?"],
+      "answerIndex": 2,
+      "explanation": "Usamos 'are' con el sujeto 'you'."
+    },
+    {
+      "id": "adm-a1-w01-ex73",
+      "type": "fill-blank",
+      "prompt": "Good [blank], it is 10:00 PM.",
+      "answers": ["evening", "night"],
+      "explanation": "Dependiendo de si es saludo o despedida."
+    },
+    {
+      "id": "adm-a1-w01-ex74",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Have a nice weekend everyone",
+      "explanation": "Que tengan un buen fin de semana todos."
+    },
+    {
+      "id": "adm-a1-w01-ex75",
+      "type": "writing",
+      "prompt": "Write 'Encantado de conocerte' in English.",
+      "validation": "Nice to meet you",
+      "explanation": "Nice to meet you es la forma común."
     }
   ]
 }

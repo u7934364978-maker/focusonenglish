@@ -414,6 +414,312 @@
       "prompt": "You are managing the onboarding of a 'High-flyer' and the offboarding of an employee who committed 'Gross Misconduct'. 1) List 3 'Asset Provisioning' tasks for the new hire. 2) Write a reported speech sentence regarding the misconduct dismissal. 3) Explain the purpose of an 'Exit Interview' for regular turnover.",
       "modelAnswer": "1) Provisioning laptop, issuing access cards, and setting up the workstation. 2) The Director confirmed that the employee had been dismissed immediately for gross misconduct. 3) The purpose of an exit interview is to gather feedback on the employee's experience to improve retention and understand the reasons for turnover.",
       "keywords": ["Asset Provisioning", "reported speech", "misconduct", "Exit Interview"]
+    },
+    {
+      "id": "adm-b2-w7-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Disciplinary Action. A 'Formal Warning' is usually issued:",
+      "options": [
+        "On the employee's first day.",
+        "After informal coaching fails to improve performance or conduct.",
+        "When an employee gets a promotion.",
+        "Instead of a salary increase."
+      ],
+      "answerIndex": 1,
+      "explanation": "Formal warnings are part of a progressive disciplinary process."
+    },
+    {
+      "id": "adm-b2-w7-ex47",
+      "type": "writingTask",
+      "prompt": "Exercise 47: Reported Speech. Rewrite: 'I stole the confidential files.' -> The employee admitted that...",
+      "modelAnswer": "The employee admitted that they had stolen the confidential files.",
+      "keywords": ["admitted", "had stolen"]
+    },
+    {
+      "id": "adm-b2-w7-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Offboarding. Why is 'System Access' termination critical on an employee's last day?",
+      "options": [
+        "To save money on software licenses.",
+        "To protect company security and data integrity.",
+        "Because the computer needs to be cleaned.",
+        "To make the employee feel sad."
+      ],
+      "answerIndex": 1,
+      "explanation": "Security protocols require immediate revocation of access upon departure."
+    },
+    {
+      "id": "adm-b2-w7-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Vocabulary. Define 'Summary Dismissal'.",
+      "modelAnswer": "Immediate termination of an employment contract without notice, usually due to gross misconduct.",
+      "keywords": ["immediate", "without notice", "misconduct"]
+    },
+    {
+      "id": "adm-b2-w7-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Disciplinary Hearing. What is the 'Right of Appeal'?",
+      "options": [
+        "The right to a higher salary.",
+        "The right to challenge a disciplinary decision if the employee feels it was unfair.",
+        "The right to choose their own office chair.",
+        "The right to work from home forever."
+      ],
+      "answerIndex": 1,
+      "explanation": "Due process in HR includes the ability to appeal formal decisions."
+    },
+    {
+      "id": "adm-b2-w7-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Asset Retrieval. List 4 common company assets that must be retrieved during offboarding.",
+      "modelAnswer": "1. Laptop/tablet. 2. Company mobile phone. 3. Access cards/keys. 4. Corporate credit card.",
+      "keywords": ["laptop", "phone", "access", "credit card"]
+    },
+    {
+      "id": "adm-b2-w7-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Reported Speech. Which reporting verb implies a request for information?",
+      "options": [
+        "Asserted",
+        "Inquired",
+        "Emphasized",
+        "Confirmed"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Inquired' is a formal synonym for 'asked'."
+    },
+    {
+      "id": "adm-b2-w7-ex53",
+      "type": "writingTask",
+      "prompt": "Exercise 53: Exit Interviews. Why is the data from exit interviews valuable for 'Talent Retention'?",
+      "modelAnswer": "It helps the company identify common reasons for leaving and address systemic issues within the office culture or management.",
+      "keywords": ["identify", "reasons", "issues", "culture"]
+    },
+    {
+      "id": "adm-b2-w7-ex54",
+      "type": "multipleChoice",
+      "prompt": "Exercise 54: PhraseBank. What is 'Employee Turnover'?",
+      "options": [
+        "The number of times employees turn around in their chairs.",
+        "The rate at which employees leave and are replaced in an organization.",
+        "The total amount of money spent on employee snacks.",
+        "The process of employees changing departments."
+      ],
+      "answerIndex": 1,
+      "explanation": "High turnover can be a sign of poor management or culture."
+    },
+    {
+      "id": "adm-b2-w7-ex55",
+      "type": "writingTask",
+      "prompt": "Exercise 55: Reported Speech. Rewrite: 'The candidate is overqualified for this role.' -> The manager claimed that...",
+      "modelAnswer": "The manager claimed that the candidate was overqualified for that role.",
+      "keywords": ["claimed", "was overqualified"]
+    },
+    {
+      "id": "adm-b2-w7-ex56",
+      "type": "multipleChoice",
+      "prompt": "Exercise 56: Performance Management. What is the purpose of a 'PIP'?",
+      "options": [
+        "To give an employee a promotion.",
+        "To provide a structured framework for an underperforming employee to reach the required standard.",
+        "To organize the office Christmas party.",
+        "To calculate the annual bonus."
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance Improvement Plans are used to support struggling employees."
+    },
+    {
+      "id": "adm-b2-w7-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: SMART Goals. Make this goal Specific and Time-bound: 'I want to hire more people.'",
+      "modelAnswer": "I will hire 3 new junior administrators for the operations team by the end of October.",
+      "keywords": ["3", "junior administrators", "October"]
+    },
+    {
+      "id": "adm-b2-w7-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: HR Logistics. Who is responsible for 'Asset Provisioning' for a new hire?",
+      "options": [
+        "The new hire themselves.",
+        "A combination of IT, Facilities, and the Administrative Support team.",
+        "Only the CEO.",
+        "The external recruitment agency."
+      ],
+      "answerIndex": 1,
+      "explanation": "Onboarding is a cross-departmental administrative function."
+    },
+    {
+      "id": "adm-b2-w7-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Vocabulary Review. Use 'exceed expectations' and 'remuneration' in a sentence about a high-flyer.",
+      "modelAnswer": "Because the high-flyer consistently exceeded expectations, the board offered her an improved remuneration package.",
+      "keywords": ["exceeded expectations", "remuneration"]
+    },
+    {
+      "id": "adm-b2-w7-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Compliance. Why are 'Reference Checks' essential?",
+      "options": [
+        "To find out if the candidate has many friends.",
+        "To verify that the claims made on the CV are true and the candidate's conduct was professional.",
+        "To ask the previous boss for a discount.",
+        "Because it is a legal requirement in every country."
+      ],
+      "answerIndex": 1,
+      "explanation": "Reference checks mitigate risk during the recruitment process."
+    },
+    {
+      "id": "adm-b2-w7-ex61",
+      "type": "writingTask",
+      "prompt": "Exercise 61: Reported Speech. Rewrite: 'We will conduct the disciplinary hearing tomorrow.' -> HR confirmed that...",
+      "modelAnswer": "HR confirmed that they would conduct the disciplinary hearing the following day.",
+      "keywords": ["would conduct", "following day"]
+    },
+    {
+      "id": "adm-b2-w7-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: HR Hierarchy. A 'Peer Review' involves feedback from:",
+      "options": [
+        "People at a higher level than you.",
+        "People at the same level or rank as you.",
+        "People at a lower level than you.",
+        "Clients only."
+      ],
+      "answerIndex": 1,
+      "explanation": "Peers are colleagues of similar professional standing."
+    },
+    {
+      "id": "adm-b2-w7-ex63",
+      "type": "writingTask",
+      "prompt": "Exercise 63: Appraisal Cycle. Define 'Appraisal' in an administrative context.",
+      "modelAnswer": "A formal, documented evaluation of an employee's performance, usually conducted annually against set KPIs.",
+      "keywords": ["evaluation", "performance", "annually", "KPIs"]
+    },
+    {
+      "id": "adm-b2-w7-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Disciplinary. 'Gross Misconduct' refers to:",
+      "options": [
+        "Minor mistakes in a report.",
+        "Being late twice in one month.",
+        "Very serious unacceptable behavior like theft or fraud.",
+        "Wearing the wrong color tie."
+      ],
+      "answerIndex": 2,
+      "explanation": "Gross misconduct can lead to immediate termination."
+    },
+    {
+      "id": "adm-b2-w7-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Vocabulary. Use 'shortlist' and 'vacancy' in a sentence about recruitment.",
+      "modelAnswer": "We have received 20 applications for the vacancy and will create a shortlist of five for the final interviews.",
+      "keywords": ["shortlist", "vacancy"]
+    },
+    {
+      "id": "adm-b2-w7-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Reported Speech. Which tense does 'Present Continuous' change to in reported speech?",
+      "options": [
+        "Past Simple",
+        "Past Continuous",
+        "Future",
+        "Present Perfect"
+      ],
+      "answerIndex": 1,
+      "explanation": "Present continuous (am/is/are + ing) shifts to past continuous (was/were + ing)."
+    },
+    {
+      "id": "adm-b2-w7-ex67",
+      "type": "writingTask",
+      "prompt": "Exercise 67: Onboarding. What is 'Asset Provisioning'?",
+      "modelAnswer": "The administrative process of providing a new employee with the physical and digital tools they need to perform their job.",
+      "keywords": ["providing", "physical", "digital", "tools"]
+    },
+    {
+      "id": "adm-b2-w7-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: SMART Goals. Which part of SMART ensures a goal is not impossible?",
+      "options": [
+        "Specific",
+        "Measurable",
+        "Achievable",
+        "Time-bound"
+      ],
+      "answerIndex": 2,
+      "explanation": "Achievable (or Attainable) ensures the goal is realistic."
+    },
+    {
+      "id": "adm-b2-w7-ex69",
+      "type": "writingTask",
+      "prompt": "Exercise 69: Reported Speech. Rewrite: 'I am struggling with the new software.' -> The employee stated that...",
+      "modelAnswer": "The employee stated that they were struggling with the new software.",
+      "keywords": ["were struggling"]
+    },
+    {
+      "id": "adm-b2-w7-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Exit Interviews. Who usually conducts an exit interview?",
+      "options": [
+        "The employee's direct manager.",
+        "A neutral party, usually from the HR department.",
+        "The CEO.",
+        "The person who is replacing them."
+      ],
+      "answerIndex": 1,
+      "explanation": "HR usually conducts these to ensure honest feedback without fear of conflict with the immediate manager."
+    },
+    {
+      "id": "adm-b2-w7-ex71",
+      "type": "writingTask",
+      "prompt": "Exercise 71: Disciplinary Hearing. What is the role of an admin in a disciplinary hearing?",
+      "modelAnswer": "To take formal minutes, ensure all parties have the relevant documentation, and maintain a confidential record of the proceedings.",
+      "keywords": ["minutes", "documentation", "confidential"]
+    },
+    {
+      "id": "adm-b2-w7-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Vocabulary. A 'PDP' focuses on:",
+      "options": [
+        "Past mistakes only.",
+        "An employee's future training and professional growth.",
+        "The office budget for the next year.",
+        "The company's social media strategy."
+      ],
+      "answerIndex": 1,
+      "explanation": "Professional Development Plans are forward-looking growth documents."
+    },
+    {
+      "id": "adm-b2-w7-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: PhraseBank. Use 'gross misconduct' in a formal reporting sentence.",
+      "modelAnswer": "Following the investigation, the employee was dismissed for gross misconduct related to the theft of company property.",
+      "keywords": ["gross misconduct", "dismissed"]
+    },
+    {
+      "id": "adm-b2-w7-ex74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Recruitment. A 'Job Description' refinement ensures that:",
+      "options": [
+        "The salary is as low as possible.",
+        "The key responsibilities and required skills accurately reflect the needs of the department.",
+        "The font is pretty.",
+        "The job sounds more exciting than it is."
+      ],
+      "answerIndex": 1,
+      "explanation": "Accuracy in JDs is essential for attracting the right talent."
+    },
+    {
+      "id": "adm-b2-w7-ex75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Comprehensive Review. Effective HR support requires:",
+      "options": [
+        "Ignoring rules and following your feelings.",
+        "Meticulous documentation, confidentiality, and clear communication of policies.",
+        "Being friends with everyone in the office.",
+        "Sharing personal employee data in the breakroom."
+      ],
+      "answerIndex": 1,
+      "explanation": "Professionalism in HR admin is based on compliance, accuracy, and discretion."
     }
   ]
 }

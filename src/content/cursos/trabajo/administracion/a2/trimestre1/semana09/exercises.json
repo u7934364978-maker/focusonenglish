@@ -6,7 +6,7 @@
   "title": "E-commerce Security & Anti-Phishing",
   "items": [
     {
-      "id": "fin-a2-w09-1",
+      "id": "adm-a2-w09-ex01",
       "type": "multipleChoice",
       "prompt": "I ______ the cybersecurity expert tomorrow morning to discuss the phishing attack.",
       "options": ["am meeting", "meet", "met"],
@@ -14,7 +14,7 @@
       "explanation": "Presente continuo para planes futuros organizados."
     },
     {
-      "id": "fin-a2-w09-2",
+      "id": "adm-a2-w09-ex02",
       "type": "multipleChoice",
       "prompt": "Always look for the ______ icon to ensure the website is using HTTPS.",
       "options": ["padlock", "checkout", "basket"],
@@ -22,7 +22,7 @@
       "explanation": "El icono del candado (padlock) indica una conexión cifrada segura."
     },
     {
-      "id": "fin-a2-w09-3",
+      "id": "adm-a2-w09-ex03",
       "type": "multipleChoice",
       "prompt": "This email looks like ______; it's asking for my one-time password.",
       "options": ["phishing", "3D Secure", "checkout"],
@@ -30,7 +30,7 @@
       "explanation": "El phishing es un intento fraudulento de robar datos sensibles."
     },
     {
-      "id": "fin-a2-w09-4",
+      "id": "adm-a2-w09-ex04",
       "type": "multipleChoice",
       "prompt": "We ______ a new virtual card feature next Monday.",
       "options": ["are launching", "launch", "is launching"],
@@ -38,7 +38,7 @@
       "explanation": "Presente continuo para un lanzamiento programado (are launching)."
     },
     {
-      "id": "fin-a2-w09-5",
+      "id": "adm-a2-w09-ex05",
       "type": "multipleChoice",
       "prompt": "Before you complete the purchase, review the items in your ______.",
       "options": ["shopping cart", "padlock", "OTP"],
@@ -46,28 +46,28 @@
       "explanation": "Carrito de la compra (shopping cart)."
     },
     {
-      "id": "fin-a2-w09-6",
+      "id": "adm-a2-w09-ex06",
       "type": "fillBlanks",
       "prompt": "I [blank] [blank] a virtual card for this transaction later today.",
       "answers": ["am creating"],
       "explanation": "Voy a crear (plan organizado)."
     },
     {
-      "id": "fin-a2-w09-7",
+      "id": "adm-a2-w09-ex07",
       "type": "fillBlanks",
       "prompt": "The [blank] is the final stage of an online payment.",
       "answers": ["checkout"],
       "explanation": "El proceso final es el 'checkout'."
     },
     {
-      "id": "fin-a2-w09-8",
+      "id": "adm-a2-w09-ex08",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "She is attending the cybersecurity webinar tomorrow",
       "explanation": "Ella va a asistir al seminario de ciberseguridad mañana."
     },
     {
-      "id": "fin-a2-w09-9",
+      "id": "adm-a2-w09-ex09",
       "type": "multipleChoice",
       "prompt": "This website is a ______; it doesn't have a secure connection.",
       "options": ["scam", "secure", "checkout"],
@@ -75,7 +75,7 @@
       "explanation": "Es una estafa (scam)."
     },
     {
-      "id": "fin-a2-w09-10",
+      "id": "adm-a2-w09-ex10",
       "type": "multipleChoice",
       "prompt": "Are you ______ for a refund through the app next week?",
       "options": ["applying", "apply", "applies"],
@@ -83,14 +83,14 @@
       "explanation": "¿Vas a solicitar un reembolso? (plan futuro)."
     },
     {
-      "id": "fin-a2-w09-11",
+      "id": "adm-a2-w09-ex11",
       "type": "fillBlanks",
       "prompt": "You must use [blank] for extra security on your accounts.",
       "answers": ["2FA", "OTP"],
       "explanation": "Debes usar 2FA o un OTP para mayor seguridad."
     },
     {
-      "id": "fin-a2-w09-12",
+      "id": "adm-a2-w09-ex12",
       "type": "multipleChoice",
       "prompt": "We ______ presenting the anti-fraud report on Friday afternoon.",
       "options": ["are", "is", "am"],
@@ -98,14 +98,14 @@
       "explanation": "We are presenting (plan futuro programado)."
     },
     {
-      "id": "fin-a2-w09-13",
+      "id": "adm-a2-w09-ex13",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "He is not opening suspicious email attachments",
       "explanation": "Él no va a abrir archivos adjuntos sospechosos."
     },
     {
-      "id": "fin-a2-w09-14",
+      "id": "adm-a2-w09-ex14",
       "type": "multipleChoice",
       "prompt": "3D ______ adds an extra verification step for card payments.",
       "options": ["Secure", "Phishing", "Cart"],
@@ -113,14 +113,14 @@
       "explanation": "3D Secure es una capa adicional de seguridad."
     },
     {
-      "id": "fin-a2-w09-15",
+      "id": "adm-a2-w09-ex15",
       "type": "fillBlanks",
       "prompt": "I [blank] [blank] to the bank for an identity check tomorrow.",
       "answers": ["am going"],
       "explanation": "Voy al banco mañana (cita programada)."
     },
     {
-      "id": "fin-a2-w09-16",
+      "id": "adm-a2-w09-ex16",
       "type": "multipleChoice",
       "prompt": "Does the ______ show the HTTPS padlock icon?",
       "options": ["browser", "basket", "OTP"],
@@ -128,14 +128,14 @@
       "explanation": "¿Muestra el navegador (browser) el icono del candado?"
     },
     {
-      "id": "fin-a2-w09-17",
+      "id": "adm-a2-w09-ex17",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "They are migrating to a secure server",
       "explanation": "Ellos se van a migrar a un servidor seguro."
     },
     {
-      "id": "fin-a2-w09-18",
+      "id": "adm-a2-w09-ex18",
       "type": "multipleChoice",
       "prompt": "I ______ my virtual card for all online shopping now.",
       "options": ["am using", "use", "uses"],
@@ -143,14 +143,14 @@
       "explanation": "Estoy usando mi tarjeta virtual ahora (Presente Continuo)."
     },
     {
-      "id": "fin-a2-w09-19",
+      "id": "adm-a2-w09-ex19",
       "type": "fillBlanks",
       "prompt": "The [blank] protects your data from being read by hackers.",
       "answers": ["encryption"],
       "explanation": "El cifrado (encryption) protege tus datos."
     },
     {
-      "id": "fin-a2-w09-20",
+      "id": "adm-a2-w09-ex20",
       "type": "multipleChoice",
       "prompt": "Are they ______ a new fraud detection AI next month?",
       "options": ["launching", "launch", "launches"],
@@ -158,21 +158,21 @@
       "explanation": "¿Van a lanzar una nueva IA de detección de fraude?"
     },
     {
-      "id": "fin-a2-w09-21",
+      "id": "adm-a2-w09-ex21",
       "type": "reorder",
       "prompt": "Reorder the question:",
       "sentence": "Are you paying with a one-time card?",
       "explanation": "¿Vas a pagar con una tarjeta de un solo uso?"
     },
     {
-      "id": "fin-a2-w09-22",
+      "id": "adm-a2-w09-ex22",
       "type": "fillBlanks",
       "prompt": "I received my [blank] via SMS to authorize the payment.",
       "answers": ["OTP", "code"],
       "explanation": "Recibí mi OTP (One-Time Password) por SMS."
     },
     {
-      "id": "fin-a2-w09-23",
+      "id": "adm-a2-w09-ex23",
       "type": "multipleChoice",
       "prompt": "I ______ on a security course next week.",
       "options": ["am going", "go", "goes"],
@@ -180,14 +180,14 @@
       "explanation": "Voy a asistir a un curso de seguridad la semana que viene."
     },
     {
-      "id": "fin-a2-w09-24",
+      "id": "adm-a2-w09-ex24",
       "type": "fillBlanks",
       "prompt": "Social [blank] is a common way to steal passwords.",
       "answers": ["engineering"],
       "explanation": "La ingeniería social (social engineering) es una forma de robar contraseñas."
     },
     {
-      "id": "fin-a2-w09-25",
+      "id": "adm-a2-w09-ex25",
       "type": "multipleChoice",
       "prompt": "He ______ his security settings this evening at 8 PM.",
       "options": ["is updating", "updates", "update"],
@@ -195,14 +195,14 @@
       "explanation": "Él va a actualizar sus ajustes de seguridad esta tarde."
     },
     {
-      "id": "fin-a2-w09-26",
+      "id": "adm-a2-w09-ex26",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "I am not visiting unencrypted websites",
       "explanation": "No voy a visitar sitios web no cifrados."
     },
     {
-      "id": "fin-a2-w09-27",
+      "id": "adm-a2-w09-ex27",
       "type": "multipleChoice",
       "prompt": "The merchant uses 3D ______ to verify the purchase.",
       "options": ["Secure", "Phishing", "Scam"],
@@ -210,14 +210,14 @@
       "explanation": "El comercio usa 3D Secure."
     },
     {
-      "id": "fin-a2-w09-28",
+      "id": "adm-a2-w09-ex28",
       "type": "fillBlanks",
       "prompt": "We [blank] [blank] a meeting with the IT team at 2 PM.",
       "answers": ["are having"],
       "explanation": "Vamos a tener una reunión con el equipo de IT a las 2 PM."
     },
     {
-      "id": "fin-a2-w09-29",
+      "id": "adm-a2-w09-ex29",
       "type": "multipleChoice",
       "prompt": "Is the checkout page ______ with HTTPS?",
       "options": ["encrypted", "phishing", "overdue"],
@@ -225,14 +225,14 @@
       "explanation": "¿Está la página de checkout cifrada con HTTPS?"
     },
     {
-      "id": "fin-a2-w09-30",
+      "id": "adm-a2-w09-ex30",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "The virtual card is active now",
       "explanation": "La tarjeta virtual está activa ahora."
     },
     {
-      "id": "fin-a2-w09-31",
+      "id": "adm-a2-w09-ex31",
       "type": "multipleChoice",
       "prompt": "We ______ dinner with the neobank CEO on Saturday.",
       "options": ["are having", "have", "has"],
@@ -240,14 +240,14 @@
       "explanation": "Vamos a cenar con el CEO del neobanco el sábado."
     },
     {
-      "id": "fin-a2-w09-32",
+      "id": "adm-a2-w09-ex32",
       "type": "fillBlanks",
       "prompt": "I [blank] [blank] my main card details online.",
       "answers": ["am hiding"],
       "explanation": "Estoy ocultando los detalles de mi tarjeta principal."
     },
     {
-      "id": "fin-a2-w09-33",
+      "id": "adm-a2-w09-ex33",
       "type": "multipleChoice",
       "prompt": "The ______ requires a fingerprint for the app.",
       "options": ["authentication", "padlock", "basket"],
@@ -255,14 +255,14 @@
       "explanation": "La autenticación requiere una huella digital."
     },
     {
-      "id": "fin-a2-w09-34",
+      "id": "adm-a2-w09-ex34",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "Are you enabling two-factor authentication tonight?",
       "explanation": "¿Vas a activar la autenticación de dos factores esta noche?"
     },
     {
-      "id": "fin-a2-w09-35",
+      "id": "adm-a2-w09-ex35",
       "type": "multipleChoice",
       "prompt": "I ______ with the fraud department tomorrow afternoon.",
       "options": ["am speaking", "speak", "speaks"],
@@ -270,14 +270,14 @@
       "explanation": "Voy a hablar con el departamento de fraude mañana por la tarde."
     },
     {
-      "id": "fin-a2-w09-36",
+      "id": "adm-a2-w09-ex36",
       "type": "fillBlanks",
       "prompt": "This [blank] is trying to steal my credentials.",
-      "answers": ["phishing", "scam", "bot"],
+      "answers": ["phishing", "scam"],
       "explanation": "Este phishing/estafa está intentando robar mis credenciales."
     },
     {
-      "id": "fin-a2-w09-37",
+      "id": "adm-a2-w09-ex37",
       "type": "multipleChoice",
       "prompt": "They ______ the server security this weekend.",
       "options": ["are testing", "test", "tests"],
@@ -285,14 +285,14 @@
       "explanation": "Van a probar la seguridad del servidor este fin de semana."
     },
     {
-      "id": "fin-a2-w09-38",
+      "id": "adm-a2-w09-ex38",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "He is generating a new OTP",
       "explanation": "Él está generando un nuevo OTP."
     },
     {
-      "id": "fin-a2-w09-39",
+      "id": "adm-a2-w09-ex39",
       "type": "multipleChoice",
       "prompt": "I am ______ the digital contract at 3 PM today.",
       "options": ["signing", "sign", "signs"],
@@ -300,14 +300,14 @@
       "explanation": "Estoy firmando el contrato digital a las 3 PM."
     },
     {
-      "id": "fin-a2-w09-40",
+      "id": "adm-a2-w09-ex40",
       "type": "fillBlanks",
       "prompt": "Don't click on any [blank] links in emails.",
       "answers": ["suspicious", "fraudulent"],
       "explanation": "No hagas clic en enlaces sospechosos en los correos."
     },
     {
-      "id": "fin-a2-w09-41",
+      "id": "adm-a2-w09-ex41",
       "type": "multipleChoice",
       "prompt": "We ______ to a cybersecurity conference next month.",
       "options": ["are going", "go", "goes"],
@@ -315,14 +315,14 @@
       "explanation": "Vamos a asistir a una conferencia de ciberseguridad el mes que viene."
     },
     {
-      "id": "fin-a2-w09-42",
+      "id": "adm-a2-w09-ex42",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "I am staying alert for scams",
       "explanation": "Me mantengo alerta por si hay estafas."
     },
     {
-      "id": "fin-a2-w09-43",
+      "id": "adm-a2-w09-ex43",
       "type": "multipleChoice",
       "prompt": "Is she ______ to the IT office later for her new token?",
       "options": ["going", "go", "goes"],
@@ -330,14 +330,14 @@
       "explanation": "¿Va ella a la oficina de IT luego por su nuevo token?"
     },
     {
-      "id": "fin-a2-w09-44",
+      "id": "adm-a2-w09-ex44",
       "type": "fillBlanks",
       "prompt": "A [blank] card is safer for unknown websites.",
       "answers": ["virtual", "disposable"],
       "explanation": "Una tarjeta virtual/desechable es más segura para webs desconocidas."
     },
     {
-      "id": "fin-a2-w09-45",
+      "id": "adm-a2-w09-ex45",
       "type": "multipleChoice",
       "prompt": "I ______ on Saturday. I am attending a security audit.",
       "options": ["am working", "no work", "works"],
@@ -345,14 +345,14 @@
       "explanation": "Voy a trabajar el sábado (plan organizado)."
     },
     {
-      "id": "fin-a2-w09-46",
+      "id": "adm-a2-w09-ex46",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "They are starting a new security protocol",
       "explanation": "Van a empezar un nuevo protocolo de seguridad."
     },
     {
-      "id": "fin-a2-w09-47",
+      "id": "adm-a2-w09-ex47",
       "type": "multipleChoice",
       "prompt": "We ______ arriving at the data center at 9 AM.",
       "options": ["are", "is", "am"],
@@ -360,14 +360,14 @@
       "explanation": "Vamos a llegar al centro de datos a las 9 AM."
     },
     {
-      "id": "fin-a2-w09-48",
+      "id": "adm-a2-w09-ex48",
       "type": "fillBlanks",
       "prompt": "The [blank] card expired after one use.",
       "answers": ["virtual", "disposable"],
       "explanation": "La tarjeta virtual/desechable caducó tras un uso."
     },
     {
-      "id": "fin-a2-w09-49",
+      "id": "adm-a2-w09-ex49",
       "type": "multipleChoice",
       "prompt": "Are you ______ for the 3D Secure code now?",
       "options": ["waiting", "wait", "waits"],
@@ -375,31 +375,199 @@
       "explanation": "¿Estás esperando por el código 3D Secure ahora?"
     },
     {
-      "id": "fin-a2-w09-50",
-      "type": "word-search",
-      "title": "Security Word Search",
-      "instructions": "Find the hidden words related to cybersecurity.",
-      "words": [
-        "PHISHING",
-        "PADLOCK",
-        "CHECKOUT",
-        "BROWSER",
-        "OTP",
-        "ENCRYPTION",
-        "SCAM",
-        "VIRTUAL"
-      ],
-      "gridSize": 12,
-      "clues": [
-        { "word": "PHISHING", "clue": "Fraudulent email to steal data." },
-        { "word": "PADLOCK", "clue": "Icon for a secure website." },
-        { "word": "CHECKOUT", "clue": "Final stage of online payment." },
-        { "word": "BROWSER", "clue": "Software used to access the web." },
-        { "word": "OTP", "clue": "One-Time Password." },
-        { "word": "ENCRYPTION", "clue": "Protection of data from hackers." },
-        { "word": "SCAM", "clue": "A dishonest scheme; a fraud." },
-        { "word": "VIRTUAL", "clue": "Card type used for safer shopping." }
-      ]
+      "id": "adm-a2-w09-ex50",
+      "type": "multipleChoice",
+      "prompt": "Who ______ the presentation on anti-phishing this afternoon?",
+      "options": ["is giving", "gives", "gave"],
+      "answerIndex": 0,
+      "explanation": "¿Quién va a dar la presentación sobre anti-phishing esta tarde?"
+    },
+    {
+      "id": "adm-a2-w09-ex51",
+      "type": "fillBlanks",
+      "prompt": "The hacker is using [blank] [blank] to manipulate the staff.",
+      "answers": ["social engineering"],
+      "explanation": "Ingeniería social."
+    },
+    {
+      "id": "adm-a2-w09-ex52",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am traveling to the London office tomorrow",
+      "explanation": "Viajo a la oficina de Londres mañana."
+    },
+    {
+      "id": "adm-a2-w09-ex53",
+      "type": "multipleChoice",
+      "prompt": "We ______ the new security patches tonight at 11 PM.",
+      "options": ["are installing", "install", "installs"],
+      "answerIndex": 0,
+      "explanation": "Vamos a instalar los parches de seguridad esta noche."
+    },
+    {
+      "id": "adm-a2-w09-ex54",
+      "type": "fillBlanks",
+      "prompt": "Please enter the [blank] sent to your mobile phone.",
+      "answers": ["OTP", "code"],
+      "explanation": "Por favor, introduce el OTP enviado a tu móvil."
+    },
+    {
+      "id": "adm-a2-w09-ex55",
+      "type": "multipleChoice",
+      "prompt": "Is he ______ the virtual card for his flight booking later?",
+      "options": ["using", "use", "uses"],
+      "answerIndex": 0,
+      "explanation": "¿Va a usar él la tarjeta virtual para su reserva de vuelo luego?"
+    },
+    {
+      "id": "adm-a2-w09-ex56",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "They are meeting the risk assessment team now",
+      "explanation": "Se están reuniendo con el equipo de evaluación de riesgos ahora."
+    },
+    {
+      "id": "adm-a2-w09-ex57",
+      "type": "multipleChoice",
+      "prompt": "I ______ lunch with the bank manager next Tuesday.",
+      "options": ["am having", "have", "has"],
+      "answerIndex": 0,
+      "explanation": "Voy a almorzar con el gerente del banco el próximo martes."
+    },
+    {
+      "id": "adm-a2-w09-ex58",
+      "type": "fillBlanks",
+      "prompt": "Check the [blank] for the padlock symbol.",
+      "answers": ["browser", "address bar"],
+      "explanation": "Revisa la barra de direcciones del navegador."
+    },
+    {
+      "id": "adm-a2-w09-ex59",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ the cybersecurity training this evening?",
+      "options": ["attending", "attend", "attends"],
+      "answerIndex": 0,
+      "explanation": "¿Vas a asistir a la formación de ciberseguridad esta tarde?"
+    },
+    {
+      "id": "adm-a2-w09-ex60",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She is not sharing her password with anyone",
+      "explanation": "Ella no va a compartir su contraseña con nadie."
+    },
+    {
+      "id": "adm-a2-w09-ex61",
+      "type": "multipleChoice",
+      "prompt": "The company ______ a bug bounty program next month.",
+      "options": ["is starting", "starts", "start"],
+      "answerIndex": 0,
+      "explanation": "La empresa va a iniciar un programa de recompensas por errores el mes que viene."
+    },
+    {
+      "id": "adm-a2-w09-ex62",
+      "type": "fillBlanks",
+      "prompt": "Online [blank] is very popular during holiday sales.",
+      "answers": ["shopping"],
+      "explanation": "Las compras online son muy populares."
+    },
+    {
+      "id": "adm-a2-w09-ex63",
+      "type": "multipleChoice",
+      "prompt": "We ______ a security audit on the website tomorrow.",
+      "options": ["are running", "run", "runs"],
+      "answerIndex": 0,
+      "explanation": "Vamos a realizar una auditoría de seguridad mañana."
+    },
+    {
+      "id": "adm-a2-w09-ex64",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am changing my security questions tonight",
+      "explanation": "Voy a cambiar mis preguntas de seguridad esta noche."
+    },
+    {
+      "id": "adm-a2-w09-ex65",
+      "type": "multipleChoice",
+      "prompt": "Are they ______ the old servers this weekend?",
+      "options": ["decommissioning", "decommission", "decommissions"],
+      "answerIndex": 0,
+      "explanation": "¿Van a retirar los servidores antiguos este fin de semana?"
+    },
+    {
+      "id": "adm-a2-w09-ex66",
+      "type": "fillBlanks",
+      "prompt": "The [blank] layer protects the customer's payment info.",
+      "answers": ["encryption", "security"],
+      "explanation": "La capa de cifrado/seguridad protege la información."
+    },
+    {
+      "id": "adm-a2-w09-ex67",
+      "type": "multipleChoice",
+      "prompt": "I ______ my laptop for the maintenance team later.",
+      "options": ["am leaving", "leave", "leaves"],
+      "answerIndex": 0,
+      "explanation": "Voy a dejar mi portátil para el equipo de mantenimiento luego."
+    },
+    {
+      "id": "adm-a2-w09-ex68",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "We are updating the anti-phishing software now",
+      "explanation": "Estamos actualizando el software anti-phishing ahora."
+    },
+    {
+      "id": "adm-a2-w09-ex69",
+      "type": "multipleChoice",
+      "prompt": "Is she ______ the fraud report at the meeting tomorrow?",
+      "options": ["presenting", "present", "presents"],
+      "answerIndex": 0,
+      "explanation": "¿Va ella a presentar el informe de fraude en la reunión de mañana?"
+    },
+    {
+      "id": "adm-a2-w09-ex70",
+      "type": "fillBlanks",
+      "prompt": "A [blank] is a fraudulent scheme to steal money.",
+      "answers": ["scam"],
+      "explanation": "Una estafa (scam) es un esquema fraudulento."
+    },
+    {
+      "id": "adm-a2-w09-ex71",
+      "type": "multipleChoice",
+      "prompt": "They ______ to a new office in Madrid next week.",
+      "options": ["are moving", "move", "moves"],
+      "answerIndex": 0,
+      "explanation": "Se van a mudar a una nueva oficina en Madrid la semana que viene."
+    },
+    {
+      "id": "adm-a2-w09-ex72",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am not clicking on unverified links",
+      "explanation": "No voy a hacer clic en enlaces no verificados."
+    },
+    {
+      "id": "adm-a2-w09-ex73",
+      "type": "multipleChoice",
+      "prompt": "We ______ a video call with the IT support in ten minutes.",
+      "options": ["are having", "have", "has"],
+      "answerIndex": 0,
+      "explanation": "Vamos a tener una videollamada con soporte técnico en diez minutos."
+    },
+    {
+      "id": "adm-a2-w09-ex74",
+      "type": "fillBlanks",
+      "prompt": "The [blank] icon is visible next to the URL.",
+      "answers": ["padlock"],
+      "explanation": "El icono del candado es visible junto a la URL."
+    },
+    {
+      "id": "adm-a2-w09-ex75",
+      "type": "multipleChoice",
+      "prompt": "I ______ the virtual card for my online subscription tonight.",
+      "options": ["am activating", "activate", "activates"],
+      "answerIndex": 0,
+      "explanation": "Voy a activar la tarjeta virtual para mi suscripción online esta noche."
     }
   ]
 }

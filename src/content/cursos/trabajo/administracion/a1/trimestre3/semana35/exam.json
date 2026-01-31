@@ -1,0 +1,217 @@
+{
+  "title": "Module 3: Receiving Visitors Exam (Week 35)",
+  "questions": [
+    {
+      "id": "adm-a1-w35-q1",
+      "type": "multiple-choice",
+      "question": "What is the most professional greeting for a visitor?",
+      "options": [
+        "Hi, what's up?",
+        "Good morning. How can I help you?",
+        "Wait there.",
+        "Who are you?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Good morning. How can I help you?' is professional and welcoming."
+    },
+    {
+      "id": "adm-a1-w35-q2",
+      "type": "multiple-choice",
+      "question": "What is an 'Appointment'?",
+      "options": [
+        "A type of desk.",
+        "A scheduled meeting.",
+        "A phone number.",
+        "A lunch break."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An appointment is a pre-arranged meeting."
+    },
+    {
+      "id": "adm-a1-w35-q3",
+      "type": "fill-blank",
+      "question": "Welcome to our office. Please ________ (tome) a seat.",
+      "answer": "have",
+      "explanation": "'Have a seat' is the standard polite invitation to sit."
+    },
+    {
+      "id": "adm-a1-w35-q4",
+      "type": "matching",
+      "question": "Match the receptionist phrases with their purpose:",
+      "pairs": [
+        { "term": "How can I help you?", "definition": "Offering assistance" },
+        { "term": "Please sign in here", "definition": "Registration" },
+        { "term": "Would you like some coffee?", "definition": "Courtesy/Offering" },
+        { "term": "He'll be with you shortly", "definition": "Information about waiting" }
+      ]
+    },
+    {
+      "id": "adm-a1-w35-q5",
+      "type": "multiple-choice",
+      "question": "Choose the correct question to ask for a name:",
+      "options": [
+        "You name is what?",
+        "What is your name, please?",
+        "Whose name are you?",
+        "Name me please."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'What is your name, please?' is the most professional form."
+    },
+    {
+      "id": "adm-a1-w35-q6",
+      "type": "fill-blank",
+      "question": "Please ________ (regístrese) in the visitor list.",
+      "answer": "sign in",
+      "explanation": "'Sign in' is used for registration."
+    },
+    {
+      "id": "adm-a1-w35-q7",
+      "type": "multiple-choice",
+      "question": "What does 'Shortly' mean?",
+      "options": [
+        "In a long time.",
+        "Never.",
+        "In a short time.",
+        "Yesterday."
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Shortly' means very soon."
+    },
+    {
+      "id": "adm-a1-w35-q8",
+      "type": "fill-blank",
+      "question": "Which ________ (empresa) are you from?",
+      "answer": "company",
+      "explanation": "'Company' is used to ask about their place of work."
+    },
+    {
+      "id": "adm-a1-w35-q9",
+      "type": "matching",
+      "question": "Match the words with their Spanish translation:",
+      "pairs": [
+        { "term": "Visitor", "definition": "Visitante" },
+        { "term": "Reception", "definition": "Recepción" },
+        { "term": "Waiting room", "definition": "Sala de espera" },
+        { "term": "Sign in", "definition": "Registrarse" }
+      ]
+    },
+    {
+      "id": "adm-a1-w35-q10",
+      "type": "multiple-choice",
+      "question": "What should you offer to a visitor who is waiting?",
+      "options": [
+        "A full meal.",
+        "A glass of water or coffee.",
+        "A computer to work.",
+        "Nothing."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Water or coffee is the standard courtesy."
+    },
+    {
+      "id": "adm-a1-w35-q11",
+      "type": "fill-blank",
+      "question": "Please wear this visitor ________ (gafete/identificación).",
+      "answer": "badge",
+      "explanation": "A 'badge' is used for identification."
+    },
+    {
+      "id": "adm-a1-w35-q12",
+      "type": "multiple-choice",
+      "question": "Where do visitors usually wait?",
+      "options": [
+        "In the kitchen.",
+        "In the reception area.",
+        "In the parking lot.",
+        "In the manager's office."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Reception areas are designed for waiting guests."
+    },
+    {
+      "id": "adm-a1-w35-q13",
+      "type": "fill-blank",
+      "question": "I will ________ (informar) the director of your arrival.",
+      "answer": "inform",
+      "explanation": "To 'inform' someone about a visitor."
+    },
+    {
+      "id": "adm-a1-w35-q14",
+      "type": "multiple-choice",
+      "question": "Choose the most polite instruction:",
+      "options": [
+        "Wait here.",
+        "Please wait here.",
+        "You wait here.",
+        "Standing here please."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Please' makes the instruction polite."
+    },
+    {
+      "id": "adm-a1-w35-q15",
+      "type": "fill-blank",
+      "question": "________ (Bienvenido) to Global Solutions.",
+      "answer": "Welcome",
+      "explanation": "'Welcome' is the standard greeting."
+    },
+    {
+      "id": "adm-a1-w35-q16",
+      "type": "multiple-choice",
+      "question": "What is a 'Receptionist'?",
+      "options": [
+        "The person who cleans the office.",
+        "The person who greets visitors.",
+        "The person who fixes computers.",
+        "The manager's boss."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The receptionist is the first point of contact for visitors."
+    },
+    {
+      "id": "adm-a1-w35-q17",
+      "type": "matching",
+      "question": "Match the questions with their answers:",
+      "pairs": [
+        { "term": "How can I help you?", "definition": "I have a meeting." },
+        { "term": "What is your name?", "definition": "John Doe." },
+        { "term": "Coffee or water?", "definition": "Water, please." },
+        { "term": "Do you have a seat?", "definition": "Yes, thank you." }
+      ]
+    },
+    {
+      "id": "adm-a1-w35-q18",
+      "type": "multiple-choice",
+      "question": "Which verb is used for 'Registrarse' in an office?",
+      "options": [
+        "Sign up",
+        "Sign in",
+        "Sign out",
+        "Sign off"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Sign in' is used for recording arrival."
+    },
+    {
+      "id": "adm-a1-w35-q19",
+      "type": "fill-blank",
+      "question": "The manager is ________ (ocupado) right now.",
+      "answer": "busy",
+      "explanation": "'Busy' means the person is doing something else."
+    },
+    {
+      "id": "adm-a1-w35-q20",
+      "type": "multiple-choice",
+      "question": "How do you say 'Por favor, sígame'?",
+      "options": [
+        "Please follow me.",
+        "Please go with me.",
+        "Please come me.",
+        "Please walk me."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Please follow me' is the standard phrase to lead someone."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
   "title": "Exam: Mergers & Acquisitions (Admin Perspective)",
   "items": [
     {
-      "id": "adm-b2-w26-exam-1",
+      "id": "adm-b2-w26-exam-q1",
       "type": "multipleChoice",
       "prompt": "What is 'Due Diligence'?",
       "options": [
@@ -20,7 +20,7 @@
       "explanation": "Due diligence is the necessary verification and investigation process in M&A."
     },
     {
-      "id": "adm-b2-w26-exam-2",
+      "id": "adm-b2-w26-exam-q2",
       "type": "multipleChoice",
       "prompt": "Identify the correct mixed conditional: 'If we ____ the contract last month, we ____ in this position today.'",
       "options": [
@@ -33,7 +33,7 @@
       "explanation": "This is a Type A mixed conditional: Past Action (Past Perfect) -> Present Result (would + base verb)."
     },
     {
-      "id": "adm-b2-w26-exam-3",
+      "id": "adm-b2-w26-exam-q3",
       "type": "multipleChoice",
       "prompt": "What are 'synergies' in the context of a merger?",
       "options": [
@@ -46,9 +46,9 @@
       "explanation": "Synergies occur when the combined company is more efficient than the two separate ones."
     },
     {
-      "id": "adm-b2-w26-exam-4",
+      "id": "adm-b2-w26-exam-q4",
       "type": "multipleChoice",
-      "prompt": "Where are confidential documents stored for due diligence?",
+      "prompt": "Where are confidential documents typically stored for due diligence?",
       "options": [
         "In the company kitchen",
         "In a Virtual Data Room (VDR)",
@@ -59,7 +59,7 @@
       "explanation": "VDRs are standard for secure document sharing in deals."
     },
     {
-      "id": "adm-b2-w26-exam-5",
+      "id": "adm-b2-w26-exam-q5",
       "type": "multipleChoice",
       "prompt": "Complete the sentence: 'If the CEO ____ more transparent, the shareholders ____ the acquisition last year.'",
       "options": [
@@ -70,6 +70,201 @@
       ],
       "answerIndex": 0,
       "explanation": "This is a Type B mixed conditional: Present State (Past Simple) -> Past Result (would have + past participle)."
+    },
+    {
+      "id": "adm-b2-w26-exam-q6",
+      "type": "multipleChoice",
+      "prompt": "What does a Letter of Intent (LOI) represent?",
+      "options": [
+        "The final legal merger contract",
+        "A preliminary agreement outlining deal terms",
+        "A resignation letter from the board",
+        "An advertisement for new products"
+      ],
+      "answerIndex": 1,
+      "explanation": "An LOI is a non-binding document that sets the stage for final negotiations."
+    },
+    {
+      "id": "adm-b2-w26-exam-q7",
+      "type": "multipleChoice",
+      "prompt": "Which of these is an example of an 'external' stakeholder?",
+      "options": [
+        "The Finance Director",
+        "Regulatory Bodies",
+        "The HR Manager",
+        "The IT Support team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Regulators are outside organizations that monitor legal and competition compliance."
+    },
+    {
+      "id": "adm-b2-w26-exam-q8",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of 'Post-Merger Integration' (PMI)?",
+      "options": [
+        "To decide if the company should be sold",
+        "To combine systems, staff, and cultures after the deal",
+        "To find new bidders for the company",
+        "To design a new marketing campaign"
+      ],
+      "answerIndex": 1,
+      "explanation": "PMI is the process of making the two merged companies function as one."
+    },
+    {
+      "id": "adm-b2-w26-exam-q9",
+      "type": "multipleChoice",
+      "prompt": "In a VDR, what is an 'Audit Trail' used for?",
+      "options": [
+        "To track which documents were accessed by whom",
+        "To calculate the company's taxes",
+        "To find the best way to the office",
+        "To list the employees' birthdays"
+      ],
+      "answerIndex": 0,
+      "explanation": "An audit trail provides security by logging all user activity."
+    },
+    {
+      "id": "adm-b2-w26-exam-q10",
+      "type": "multipleChoice",
+      "prompt": "Complete with a reporting passive: 'It ____ that the merger will be finalized by June.'",
+      "options": [
+        "is expected",
+        "is expecting",
+        "expects",
+        "expect"
+      ],
+      "answerIndex": 0,
+      "explanation": "The passive form 'It is expected' is used for formal reporting."
+    },
+    {
+      "id": "adm-b2-w26-exam-q11",
+      "type": "multipleChoice",
+      "prompt": "What does TUPE protect?",
+      "options": [
+        "The company's logo",
+        "Employee rights during a business transfer",
+        "The interest rates on loans",
+        "The price of electricity"
+      ],
+      "answerIndex": 1,
+      "explanation": "TUPE ensures that employees' terms and conditions are protected when a business is sold."
+    },
+    {
+      "id": "adm-b2-w26-exam-q12",
+      "type": "multipleChoice",
+      "prompt": "Identify the Type B mixed conditional: 'If I ____ more experience, I ____ that integration project last year.'",
+      "options": [
+        "had / would have managed",
+        "had had / would manage",
+        "have / will manage",
+        "had / would manage"
+      ],
+      "answerIndex": 0,
+      "explanation": "Pattern: If + Past Simple (present state), would have + Past Participle (past result)."
+    },
+    {
+      "id": "adm-b2-w26-exam-q13",
+      "type": "multipleChoice",
+      "prompt": "What is 'Merger Syndrome'?",
+      "options": [
+        "A virus found in computer systems",
+        "Employee stress and anxiety during a merger",
+        "A sudden increase in company sales",
+        "A legal requirement for integration"
+      ],
+      "answerIndex": 1,
+      "explanation": "Merger syndrome describes the negative human impact of organizational uncertainty."
+    },
+    {
+      "id": "adm-b2-w26-exam-q14",
+      "type": "multipleChoice",
+      "prompt": "In M&A, 'Valuation' means:",
+      "options": [
+        "Buying new equipment",
+        "Determining the financial worth of a target",
+        "Firing the current management",
+        "Changing the company's address"
+      ],
+      "answerIndex": 1,
+      "explanation": "Valuation is calculating the fair price for the acquisition."
+    },
+    {
+      "id": "adm-b2-w26-exam-q15",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct reporting passive: 'The target company ____ to be hiding debt.'",
+      "options": [
+        "is alleged",
+        "alleged",
+        "alleges",
+        "is alleging"
+      ],
+      "answerIndex": 0,
+      "explanation": "Personal passive: Subject + is + past participle + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w26-exam-q16",
+      "type": "multipleChoice",
+      "prompt": "What is 'Watermarking' in a VDR?",
+      "options": [
+        "A way to clean the server",
+        "A security feature to trace the source of document leaks",
+        "A decorative border for memos",
+        "A method of printing on wet paper"
+      ],
+      "answerIndex": 1,
+      "explanation": "Watermarking helps deter and track unauthorized document sharing."
+    },
+    {
+      "id": "adm-b2-w26-exam-q17",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If we ____ the acquisition, we ____ the market leader today.'",
+      "options": [
+        "hadn't made / wouldn't be",
+        "didn't make / won't be",
+        "hadn't made / wouldn't have been",
+        "made / will be"
+      ],
+      "answerIndex": 0,
+      "explanation": "Type A Mixed Conditional: Past Action -> Present Result."
+    },
+    {
+      "id": "adm-b2-w26-exam-q18",
+      "type": "multipleChoice",
+      "prompt": "What is 'Staff Rationalization'?",
+      "options": [
+        "Hiring new graduates",
+        "Reducing overlapping roles after a merger",
+        "Giving everyone a bonus",
+        "Moving staff to a different country"
+      ],
+      "answerIndex": 1,
+      "explanation": "Rationalization is the process of making the workforce more efficient, often through cuts."
+    },
+    {
+      "id": "adm-b2-w26-exam-q19",
+      "type": "multipleChoice",
+      "prompt": "Who manages user permissions in a Virtual Data Room?",
+      "options": [
+        "The shareholders",
+        "The VDR Administrator",
+        "The government",
+        "The customers"
+      ],
+      "answerIndex": 1,
+      "explanation": "The administrator controls who can see or download specific files."
+    },
+    {
+      "id": "adm-b2-w26-exam-q20",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'If the board ____ more decisive last month, we ____ in this crisis now.'",
+      "options": [
+        "had been / wouldn't be",
+        "were / wouldn't be",
+        "had been / wouldn't have been",
+        "were / won't be"
+      ],
+      "answerIndex": 0,
+      "explanation": "Type A Mixed Conditional: Past Action (had been) -> Present Result (wouldn't be)."
     }
   ]
 }

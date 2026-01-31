@@ -1,44 +1,44 @@
 [
   {
-    "id": 1,
+    "id": "adm-a2-w23-ex01",
     "type": "multiple-choice",
     "question": "I am going to ___________ (save) money for a new laptop.",
     "options": ["save", "saving", "saves", "saved"],
     "correctAnswer": 0,
-    "explanation": "After 'going to' we use the base form of the verb."
+    "explanation": "Después de 'going to' usamos la forma base del verbo para hablar de planes futuros."
   },
   {
-    "id": 2,
+    "id": "adm-a2-w23-ex02",
     "type": "fill-in-the-blank",
     "question": "If I study hard, I ___________ (pass) the exam.",
     "correctAnswer": "will pass",
-    "explanation": "First conditional: If + present, will + verb."
+    "explanation": "Primer condicional: If + presente simple, will + verbo base."
   },
   {
-    "id": 3,
+    "id": "adm-a2-w23-ex03",
     "type": "multiple-choice",
     "question": "Which is the ___________ (safe) bank?",
     "options": ["safest", "safer", "most safe", "safe"],
     "correctAnswer": 0,
-    "explanation": "Superlative of 'safe' is 'the safest'."
+    "explanation": "El superlativo de 'safe' es 'the safest' (el más seguro)."
   },
   {
-    "id": 4,
+    "id": "adm-a2-w23-ex04",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) give your PIN to anyone.",
     "correctAnswer": "mustn't",
-    "explanation": "Giving your PIN is prohibited for security."
+    "explanation": "Dar tu PIN está prohibido por seguridad; usamos 'mustn't' para prohibiciones."
   },
   {
-    "id": 5,
+    "id": "adm-a2-w23-ex05",
     "type": "multiple-choice",
     "question": "I have ___________ (be) a manager for two years.",
-    "correctAnswer": "been",
     "options": ["be", "being", "been", "was"],
-    "explanation": "Present perfect needs the past participle 'been'."
+    "correctAnswer": 2,
+    "explanation": "El Present Perfect requiere el participio pasado 'been' del verbo 'to be'."
   },
   {
-    "id": 6,
+    "id": "adm-a2-w23-ex06",
     "type": "matching",
     "question": "Match the terms:",
     "pairs": [
@@ -48,150 +48,150 @@
     ]
   },
   {
-    "id": 7,
+    "id": "adm-a2-w23-ex07",
     "type": "multiple-choice",
     "question": "I think the inflation ___________ (grow) next year.",
     "options": ["is growing", "will grow", "grown", "grew"],
     "correctAnswer": 1,
-    "explanation": "'Will' is used for predictions."
+    "explanation": "Usamos 'will' para predicciones sobre el futuro."
   },
   {
-    "id": 8,
+    "id": "adm-a2-w23-ex08",
     "type": "fill-in-the-blank",
     "question": "She ___________ (not/finish) the work yet.",
     "correctAnswer": "hasn't finished",
-    "explanation": "Present perfect negative for 'She'."
+    "explanation": "Forma negativa del Present Perfect para 'She' con el adverbio 'yet'."
   },
   {
-    "id": 9,
+    "id": "adm-a2-w23-ex09",
     "type": "multiple-choice",
     "question": "Where is the ___________ (near) ATM?",
     "options": ["nearest", "nearer", "most near", "near"],
     "correctAnswer": 0,
-    "explanation": "Superlative of 'near'."
+    "explanation": "Superlativo de 'near' (cercano) es 'the nearest' (el más cercano)."
   },
   {
-    "id": 10,
+    "id": "adm-a2-w23-ex10",
     "type": "fill-in-the-blank",
     "question": "We ___________ (go) to the bank tomorrow morning.",
     "correctAnswer": "are going",
-    "explanation": "Present continuous for fixed future plans."
+    "explanation": "Usamos el Present Continuous para planes futuros fijos y confirmados."
   },
   {
-    "id": 11,
+    "id": "adm-a2-w23-ex11",
     "type": "multiple-choice",
     "question": "A 'bureau de change' is for:",
     "options": ["Exchanging currency", "Buying food", "Sleeping", "Parking cars"],
     "correctAnswer": 0,
-    "explanation": "A bureau de change is a place to swap currencies."
+    "explanation": "Un 'bureau de change' es un lugar para cambiar divisas de diferentes países."
   },
   {
-    "id": 12,
+    "id": "adm-a2-w23-ex12",
     "type": "fill-in-the-blank",
     "question": "Have you ___________ (ever/never) used online banking?",
     "correctAnswer": "ever",
-    "explanation": "'Ever' is used in questions about experiences."
+    "explanation": "Usamos 'ever' en preguntas sobre experiencias vividas hasta el momento."
   },
   {
-    "id": 13,
+    "id": "adm-a2-w23-ex13",
     "type": "multiple-choice",
     "question": "You ___________ (must/mustn't) check your bank statements regularly.",
     "options": ["must", "mustn't", "not", "best"],
     "correctAnswer": 0,
-    "explanation": "'Must' is used for important recommendations/obligations."
+    "explanation": "Usamos 'must' para expresar una obligación o recomendación muy fuerte."
   },
   {
-    "id": 14,
+    "id": "adm-a2-w23-ex14",
     "type": "fill-in-the-blank",
     "question": "This loan is ___________ (cheap) than that one.",
     "correctAnswer": "cheaper",
-    "explanation": "Comparative of 'cheap' is 'cheaper'."
+    "explanation": "El comparativo de superioridad para el adjetivo corto 'cheap' es 'cheaper'."
   },
   {
-    "id": 15,
+    "id": "adm-a2-w23-ex15",
     "type": "multiple-choice",
     "question": "What is 'phishing'?",
     "options": ["A way to catch fish", "Fraudulent emails", "Saving money", "Paying with cash"],
     "correctAnswer": 1,
-    "explanation": "Phishing involves fake emails to steal information."
+    "explanation": "El 'phishing' consiste en el envío de correos falsos para robar información personal y bancaria."
   },
   {
-    "id": 16,
+    "id": "adm-a2-w23-ex16",
     "type": "fill-in-the-blank",
     "question": "I've ___________ (just) received my salary.",
     "correctAnswer": "just",
-    "explanation": "Used for very recent actions."
+    "explanation": "Usamos 'just' para acciones que acaban de ocurrir hace un instante."
   },
   {
-    "id": 17,
+    "id": "adm-a2-w23-ex17",
     "type": "multiple-choice",
     "question": "The 'exchange rate' is:",
     "options": ["A bank's address", "The value of one currency in another", "A type of loan", "The name of a CEO"],
     "correctAnswer": 1,
-    "explanation": "Exchange rate compares currency values."
+    "explanation": "El tipo de cambio ('exchange rate') compara el valor de una moneda frente a otra."
   },
   {
-    "id": 18,
+    "id": "adm-a2-w23-ex18",
     "type": "fill-in-the-blank",
     "question": "He ___________ (has/have) never traveled abroad.",
     "correctAnswer": "has",
-    "explanation": "Present perfect with 'He'."
+    "explanation": "Usamos 'has' con la tercera persona del singular ('He') en Present Perfect."
   },
   {
-    "id": 19,
+    "id": "adm-a2-w23-ex19",
     "type": "multiple-choice",
     "question": "What does 'ATM' stand for?",
     "options": ["All Time Money", "Automated Teller Machine", "Always Take Money", "Automatic Transaction Mode"],
     "correctAnswer": 1,
-    "explanation": "ATM is the technical term for a cash machine."
+    "explanation": "ATM son las siglas de 'Automated Teller Machine' (cajero automático)."
   },
   {
-    "id": 20,
+    "id": "adm-a2-w23-ex20",
     "type": "fill-in-the-blank",
     "question": "This is the ___________ (expensive) hotel I've seen.",
     "correctAnswer": "most expensive",
-    "explanation": "Superlative of 'expensive'."
+    "explanation": "Para adjetivos largos, usamos 'the most' para formar el superlativo."
   },
   {
-    "id": 21,
+    "id": "adm-a2-w23-ex21",
     "type": "multiple-choice",
     "question": "To 'withdraw' money means to:",
     "options": ["Deposit it", "Take it out", "Lose it", "Spend it all"],
     "correctAnswer": 1,
-    "explanation": "Withdraw means to remove funds from an account."
+    "explanation": "Retirar ('withdraw') significa sacar fondos de una cuenta bancaria."
   },
   {
-    "id": 22,
+    "id": "adm-a2-w23-ex22",
     "type": "fill-in-the-blank",
     "question": "If you ___________ (not/block) your card, you will lose money.",
     "correctAnswer": "don't block",
-    "explanation": "First conditional negative part."
+    "explanation": "Parte negativa de la condición en el primer condicional: If + don't/doesn't + verbo base."
   },
   {
-    "id": 23,
+    "id": "adm-a2-w23-ex23",
     "type": "multiple-choice",
     "question": "A 'branch manager' works in:",
     "options": ["A forest", "A specific local bank office", "The central office only", "A supermarket"],
     "correctAnswer": 1,
-    "explanation": "A branch is a local office."
+    "explanation": "Un 'branch manager' dirige una sucursal bancaria específica."
   },
   {
-    "id": 24,
+    "id": "adm-a2-w23-ex24",
     "type": "fill-in-the-blank",
     "question": "She is the ___________ (good) student in the class.",
     "correctAnswer": "best",
-    "explanation": "Irregular superlative of 'good'."
+    "explanation": "El superlativo irregular de 'good' es 'the best'."
   },
   {
-    "id": 25,
+    "id": "adm-a2-w23-ex25",
     "type": "multiple-choice",
     "question": "What is 'identity theft'?",
     "options": ["Stealing someone's clothes", "Using someone's personal info illegally", "Moving to a new house", "Changing your name"],
     "correctAnswer": 1,
-    "explanation": "Identity theft is a crime involving personal data."
+    "explanation": "El robo de identidad es el uso ilegal de los datos personales de otra persona."
   },
   {
-    "id": 26,
+    "id": "adm-a2-w23-ex26",
     "type": "matching",
     "question": "Match the workplace verbs:",
     "pairs": [
@@ -201,150 +201,150 @@
     ]
   },
   {
-    "id": 27,
+    "id": "adm-a2-w23-ex27",
     "type": "multiple-choice",
     "question": "I haven't seen the manager ___________ (yet/already).",
     "options": ["yet", "already", "just", "never"],
     "correctAnswer": 0,
-    "explanation": "We use 'yet' in negative sentences."
+    "explanation": "Usamos 'yet' al final de oraciones negativas en Present Perfect."
   },
   {
-    "id": 28,
+    "id": "adm-a2-w23-ex28",
     "type": "fill-in-the-blank",
     "question": "The company ___________ (expand) its business next year.",
     "correctAnswer": "will expand",
-    "explanation": "Future prediction."
+    "explanation": "Usamos 'will' para hacer predicciones sobre el futuro empresarial."
   },
   {
-    "id": 29,
+    "id": "adm-a2-w23-ex29",
     "type": "multiple-choice",
     "question": "What is '2FA'?",
     "options": ["Two-factor authentication", "Two financial assets", "Two-for-one", "Twice a month"],
     "correctAnswer": 0,
-    "explanation": "Security process requiring two steps."
+    "explanation": "2FA es la autenticación de dos factores, una medida de seguridad adicional."
   },
   {
-    "id": 30,
+    "id": "adm-a2-w23-ex30",
     "type": "fill-in-the-blank",
     "question": "I ___________ (work) here since January.",
     "correctAnswer": "have worked",
-    "explanation": "Present perfect for actions starting in the past and continuing."
+    "explanation": "Present Perfect con 'since' para acciones que empezaron en el pasado y continúan en el presente."
   },
   {
-    "id": 31,
+    "id": "adm-a2-w23-ex31",
     "type": "multiple-choice",
     "question": "Which word describes a 'scam'?",
     "options": ["Fraudulent", "Honest", "Legal", "Safe"],
     "correctAnswer": 0,
-    "explanation": "A scam is a fraudulent activity."
+    "explanation": "Una estafa ('scam') se describe como una actividad fraudulenta."
   },
   {
-    "id": 32,
+    "id": "adm-a2-w23-ex32",
     "type": "fill-in-the-blank",
     "question": "You ___________ (mustn't) reveal your password.",
     "correctAnswer": "mustn't",
-    "explanation": "Prohibition of sharing secrets."
+    "explanation": "Usamos 'mustn't' para expresar una prohibición estricta por seguridad."
   },
   {
-    "id": 33,
+    "id": "adm-a2-w23-ex33",
     "type": "multiple-choice",
     "question": "What is 'compound interest'?",
     "options": ["Interest on the principal only", "Interest on principal and interest", "A type of bank loan", "A bank fee"],
     "correctAnswer": 1,
-    "explanation": "Compound interest builds on previous interest."
+    "explanation": "El interés compuesto se calcula sobre el capital principal y también sobre los intereses acumulados."
   },
   {
-    "id": 34,
+    "id": "adm-a2-w23-ex34",
     "type": "fill-in-the-blank",
     "question": "The market is ___________ (volatile) than before.",
     "correctAnswer": "more volatile",
-    "explanation": "Comparative of a long adjective."
+    "explanation": "Para comparar con adjetivos largos, usamos 'more' + adjetivo + 'than'."
   },
   {
-    "id": 35,
+    "id": "adm-a2-w23-ex35",
     "type": "multiple-choice",
     "question": "A 'CV' contains your:",
     "options": ["Work history", "Shopping list", "Family photos", "Bank balance"],
     "correctAnswer": 0,
-    "explanation": "A CV is for professional background."
+    "explanation": "Un CV o currículum vitae detalla tu historial profesional y académico."
   },
   {
-    "id": 36,
+    "id": "adm-a2-w23-ex36",
     "type": "fill-in-the-blank",
     "question": "They have ___________ (build) a strong reputation.",
     "correctAnswer": "built",
-    "explanation": "Past participle of 'build'."
+    "explanation": "El participio pasado del verbo irregular 'build' es 'built'."
   },
   {
-    "id": 37,
+    "id": "adm-a2-w23-ex37",
     "type": "multiple-choice",
     "question": "What is 'overtime'?",
     "options": ["Extra work hours", "Holiday time", "Lunch break", "Sleeping time"],
     "correctAnswer": 0,
-    "explanation": "Overtime is working more than standard hours."
+    "explanation": "Las horas extras ('overtime') son el tiempo trabajado más allá de la jornada estándar."
   },
   {
-    "id": 38,
+    "id": "adm-a2-w23-ex38",
     "type": "fill-in-the-blank",
     "question": "Has he ___________ (sign) the document?",
     "correctAnswer": "signed",
-    "explanation": "Past participle of 'sign'."
+    "explanation": "Participio pasado del verbo regular 'sign' para formar el Present Perfect."
   },
   {
-    "id": 39,
+    "id": "adm-a2-w23-ex39",
     "type": "multiple-choice",
     "question": "What is a 'portfolio'?",
     "options": ["A bag", "A collection of investments", "A bank manager", "A credit card"],
     "correctAnswer": 1,
-    "explanation": "In finance, a portfolio is a group of assets."
+    "explanation": "En finanzas, un 'portfolio' es el conjunto de activos o inversiones de una persona o entidad."
   },
   {
-    "id": 40,
+    "id": "adm-a2-w23-ex40",
     "type": "fill-in-the-blank",
     "question": "We are going to ___________ (invest) in new technology.",
     "correctAnswer": "invest",
-    "explanation": "Future plan after 'going to'."
+    "explanation": "Después de 'going to' usamos la forma base del verbo para expresar una intención."
   },
   {
-    "id": 41,
+    "id": "adm-a2-w23-ex41",
     "type": "multiple-choice",
     "question": "Which of these is 'plastic money'?",
     "options": ["Notes", "Coins", "Credit cards", "Gold"],
     "correctAnswer": 2,
-    "explanation": "Credit/debit cards are often called plastic money."
+    "explanation": "Las tarjetas de crédito y débito suelen conocerse coloquialmente como 'plastic money'."
   },
   {
-    "id": 42,
+    "id": "adm-a2-w23-ex42",
     "type": "fill-in-the-blank",
     "question": "This is the ___________ (bad) service ever.",
     "correctAnswer": "worst",
-    "explanation": "Superlative of 'bad'."
+    "explanation": "El superlativo irregular de 'bad' es 'the worst' (el peor)."
   },
   {
-    "id": 43,
+    "id": "adm-a2-w23-ex43",
     "type": "multiple-choice",
     "question": "To 'transfer' money means to:",
     "options": ["Move it from one account to another", "Lose it", "Keep it in a box", "Spend it on food"],
     "correctAnswer": 0,
-    "explanation": "Transfer means moving funds."
+    "explanation": "Transferir significa mover fondos de una cuenta a otra."
   },
   {
-    "id": 44,
+    "id": "adm-a2-w23-ex44",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must) pay your bills on time.",
     "correctAnswer": "must",
-    "explanation": "Obligation to pay."
+    "explanation": "Usamos 'must' para expresar una obligación ineludible."
   },
   {
-    "id": 45,
+    "id": "adm-a2-w23-ex45",
     "type": "multiple-choice",
     "question": "What is 'inflation'?",
     "options": ["Prices going down", "Prices going up", "Prices staying the same", "No prices at all"],
     "correctAnswer": 1,
-    "explanation": "Inflation is the general increase in prices."
+    "explanation": "La inflación es el aumento generalizado y sostenido de los precios."
   },
   {
-    "id": 46,
+    "id": "adm-a2-w23-ex46",
     "type": "matching",
     "question": "Match the opposites:",
     "pairs": [
@@ -354,33 +354,221 @@
     ]
   },
   {
-    "id": 47,
+    "id": "adm-a2-w23-ex47",
     "type": "multiple-choice",
     "question": "A 'receipt' is:",
     "options": ["A menu", "Proof of payment", "A bank loan", "A credit card"],
     "correctAnswer": 1,
-    "explanation": "Receipts prove you paid for something."
+    "explanation": "Un recibo o ticket es el comprobante que demuestra que se ha realizado un pago."
   },
   {
-    "id": 48,
+    "id": "adm-a2-w23-ex48",
     "type": "fill-in-the-blank",
     "question": "I haven't ___________ (speak) to the manager.",
     "correctAnswer": "spoken",
-    "explanation": "Past participle of 'speak'."
+    "explanation": "Participio pasado del verbo irregular 'speak' (hablar)."
   },
   {
-    "id": 49,
+    "id": "adm-a2-w23-ex49",
     "type": "multiple-choice",
     "question": "What is a 'collateral'?",
     "options": ["An asset for securing a loan", "A type of bank account", "A bank manager", "A fee"],
     "correctAnswer": 0,
-    "explanation": "Collateral is property used to guarantee a loan."
+    "explanation": "El 'collateral' es un aval o garantía (como una propiedad) para asegurar el pago de un préstamo."
   },
   {
-    "id": 50,
+    "id": "adm-a2-w23-ex50",
     "type": "fill-in-the-blank",
     "question": "It's the ___________ (late) news on the economy.",
     "correctAnswer": "latest",
-    "explanation": "Superlative of 'late'."
+    "explanation": "El superlativo de 'late' es 'the latest' (la más reciente/última)."
+  },
+  {
+    "id": "adm-a2-w23-ex51",
+    "type": "multiple-choice",
+    "question": "Which phrase expresses a future plan?",
+    "options": ["I worked yesterday", "I am going to invest", "I study hard", "I have a bank account"],
+    "correctAnswer": 1,
+    "explanation": "'I am going to invest' expresa un plan decidido para el futuro."
+  },
+  {
+    "id": "adm-a2-w23-ex52",
+    "type": "fill-in-the-blank",
+    "question": "If the interest rate ___________ (rise), we will pay more.",
+    "correctAnswer": "rises",
+    "explanation": "Primer condicional: If + presente simple (tercera persona 'rises')."
+  },
+  {
+    "id": "adm-a2-w23-ex53",
+    "type": "multiple-choice",
+    "question": "What is 'liquidity'?",
+    "options": ["Drinking water", "Availability of cash assets", "A type of insurance", "A debt"],
+    "correctAnswer": 1,
+    "explanation": "La liquidez se refiere a la facilidad con la que un activo se puede convertir en dinero en efectivo."
+  },
+  {
+    "id": "adm-a2-w23-ex54",
+    "type": "fill-in-the-blank",
+    "question": "She hasn't finished the report ___________ (already/yet).",
+    "correctAnswer": "yet",
+    "explanation": "Usamos 'yet' en oraciones negativas de Present Perfect para indicar 'todavía no'."
+  },
+  {
+    "id": "adm-a2-w23-ex55",
+    "type": "multiple-choice",
+    "question": "What is the opposite of 'saving'?",
+    "options": ["Investing", "Spending", "Earning", "Planning"],
+    "correctAnswer": 1,
+    "explanation": "El opuesto de ahorrar ('saving') es gastar ('spending')."
+  },
+  {
+    "id": "adm-a2-w23-ex56",
+    "type": "fill-in-the-blank",
+    "question": "This is the ___________ (profitable) investment of the year.",
+    "correctAnswer": "most profitable",
+    "explanation": "Superlativo para un adjetivo largo: 'the most' + adjetivo."
+  },
+  {
+    "id": "adm-a2-w23-ex57",
+    "type": "multiple-choice",
+    "question": "What is 'working capital'?",
+    "options": ["The city where you work", "Capital used in daily operations", "A bank manager", "A type of desk"],
+    "correctAnswer": 1,
+    "explanation": "El capital de trabajo es el dinero disponible para las operaciones diarias de una empresa."
+  },
+  {
+    "id": "adm-a2-w23-ex58",
+    "type": "fill-in-the-blank",
+    "question": "They ___________ (just/yet) closed the deal.",
+    "correctAnswer": "just",
+    "explanation": "Usamos 'just' para indicar que acaban de cerrar el trato hace muy poco."
+  },
+  {
+    "id": "adm-a2-w23-ex59",
+    "type": "multiple-choice",
+    "question": "What does it mean to 'audit' a bank?",
+    "options": ["To close the bank", "To conduct a formal examination of accounts", "To open more branches", "To give loans to everyone"],
+    "correctAnswer": 1,
+    "explanation": "Auditar significa realizar un examen formal de las cuentas y registros financieros."
+  },
+  {
+    "id": "adm-a2-w23-ex60",
+    "type": "fill-in-the-blank",
+    "question": "I have ___________ (be) to three different branches today.",
+    "correctAnswer": "been",
+    "explanation": "Participio pasado del verbo 'to be' usado en el Present Perfect."
+  },
+  {
+    "id": "adm-a2-w23-ex61",
+    "type": "multiple-choice",
+    "question": "What is a 'standing order'?",
+    "options": ["Waiting in line at the bank", "An instruction to pay a regular fixed amount", "Ordering food", "A manager's command"],
+    "correctAnswer": 1,
+    "explanation": "Una 'standing order' (orden permanente) es una instrucción al banco para pagar una cantidad fija regularmente."
+  },
+  {
+    "id": "adm-a2-w23-ex62",
+    "type": "fill-in-the-blank",
+    "question": "If we ___________ (save) 10%, we will have a reserve.",
+    "correctAnswer": "save",
+    "explanation": "Primer condicional: If + presente simple ('save')."
+  },
+  {
+    "id": "adm-a2-w23-ex63",
+    "type": "multiple-choice",
+    "question": "What is a 'direct debit'?",
+    "options": ["Paying with cash", "An instruction for a company to take money from your account", "A type of credit card", "A bank robbery"],
+    "correctAnswer": 1,
+    "explanation": "Un 'direct debit' (domiciliación bancaria) permite que una empresa retire fondos de tu cuenta regularmente."
+  },
+  {
+    "id": "adm-a2-w23-ex64",
+    "type": "fill-in-the-blank",
+    "question": "This branch is ___________ (busy) than the one in London.",
+    "correctAnswer": "busier",
+    "explanation": "Comparativo del adjetivo 'busy' (cambiamos la 'y' por 'i' y añadimos '-er')."
+  },
+  {
+    "id": "adm-a2-w23-ex65",
+    "type": "multiple-choice",
+    "question": "What is 'insolvency'?",
+    "options": ["Having too much cash", "Inability to pay debts", "A secure password", "A new bank logo"],
+    "correctAnswer": 1,
+    "explanation": "La insolvencia es la incapacidad de una persona o empresa para pagar sus deudas."
+  },
+  {
+    "id": "adm-a2-w23-ex66",
+    "type": "fill-in-the-blank",
+    "question": "I haven't ___________ (write) the budget yet.",
+    "correctAnswer": "written",
+    "explanation": "Participio pasado del verbo irregular 'write'."
+  },
+  {
+    "id": "adm-a2-w23-ex67",
+    "type": "multiple-choice",
+    "question": "What is a 'pension fund'?",
+    "options": ["Money for buying a house", "A fund to provide retirement income", "A type of school", "A savings account for children"],
+    "correctAnswer": 1,
+    "explanation": "Un fondo de pensiones es un fondo acumulado para proporcionar ingresos tras la jubilación."
+  },
+  {
+    "id": "adm-a2-w23-ex68",
+    "type": "fill-in-the-blank",
+    "question": "We are ___________ (go) to have a meeting tomorrow.",
+    "correctAnswer": "going",
+    "explanation": "Estructura de 'be going to' para planes futuros."
+  },
+  {
+    "id": "adm-a2-w23-ex69",
+    "type": "multiple-choice",
+    "question": "What is 'diversification' in investing?",
+    "options": ["Putting all your money in one stock", "Spreading investments among different assets", "Opening a new bank", "Buying only gold"],
+    "correctAnswer": 1,
+    "explanation": "La diversificación consiste en repartir las inversiones para reducir el riesgo."
+  },
+  {
+    "id": "adm-a2-w23-ex70",
+    "type": "fill-in-the-blank",
+    "question": "Has the bank ___________ (send) the new card?",
+    "correctAnswer": "sent",
+    "explanation": "Participio pasado del verbo irregular 'send'."
+  },
+  {
+    "id": "adm-a2-w23-ex71",
+    "type": "multiple-choice",
+    "question": "What is a 'tax return'?",
+    "options": ["Getting your money back from a shop", "A form submitted to the tax authority", "A type of investment", "A bank statement"],
+    "correctAnswer": 1,
+    "explanation": "Una declaración de impuestos ('tax return') es el documento formal enviado a hacienda."
+  },
+  {
+    "id": "adm-a2-w23-ex72",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must) change your password every month.",
+    "correctAnswer": "must",
+    "explanation": "Obligación de seguridad: 'must'."
+  },
+  {
+    "id": "adm-a2-w23-ex73",
+    "type": "multiple-choice",
+    "question": "What is 'net income'?",
+    "options": ["Income before taxes", "Income after all taxes and deductions", "A type of loan", "The price of a product"],
+    "correctAnswer": 1,
+    "explanation": "Los ingresos netos son los ingresos que quedan después de descontar todos los impuestos y deducciones."
+  },
+  {
+    "id": "adm-a2-w23-ex74",
+    "type": "fill-in-the-blank",
+    "question": "He ___________ (just/already) arrived for the interview.",
+    "correctAnswer": "just",
+    "explanation": "Acaba de llegar: 'just'."
+  },
+  {
+    "id": "adm-a2-w23-ex75",
+    "type": "multiple-choice",
+    "question": "What is a 'mortgage'?",
+    "options": ["A loan for buying a car", "A loan for buying property (like a house)", "A small bank fee", "A savings goal"],
+    "correctAnswer": 1,
+    "explanation": "Una hipoteca ('mortgage') es un préstamo destinado a la compra de una propiedad inmueble."
   }
 ]

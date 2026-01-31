@@ -19,7 +19,27 @@
     {
       "id": "risk-phrasal-verbs",
       "title": "Phrasal Verbs for Managing Problems",
-      "content": "Mastering these expressions helps in discussing risk mitigation and problem-solving:\n\n- **To head off**: To prevent something from happening. (*\"We managed to **head off** a major PR disaster.\"*)\n- **To back up**: To make a copy of data for security. (*\"Ensure you **back up** all project files every evening.\"*)\n- **To fall through**: To fail to happen (often regarding plans or deals). (*\"The deal **fell through** because we didn't have a contingency plan.\"*)\n- **To deal with**: To take action to solve a problem. (*\"The administrator has to **deal with** several compliance issues.\"*)\n- **To ward off**: To prevent an attack or danger. (*\"New security software was installed to **ward off** cyber-attacks.\""
+      "content": "Mastering these expressions helps in discussing risk mitigation and problem-solving:\n\n- **To head off**: To prevent something from happening. (*\"We managed to **head off** a major PR disaster.\"*)\n- **To back up**: To make a copy of data for security. (*\"Ensure you **back up** all project files every evening.\"*)\n- **To fall through**: To fail to happen (often regarding plans or deals). (*\"The deal **fell through** because we didn't have a contingency plan.\"*)\n- **To deal with**: To take action to solve a problem. (*\"The administrator has to **deal with** several compliance issues.\"*)\n- **To ward off**: To prevent an attack or danger. (*\"New security software was installed to **ward off** cyber-attacks.\"*)"
+    },
+    {
+      "id": "human-risk",
+      "title": "The Human Element of Risk",
+      "content": "Technological safeguards are only as strong as the people who use them. **Human error** is the leading cause of data breaches and administrative failures.\n\n### Types of Human Risk\n- **Social Engineering**: Manipulating employees into divulging confidential information (e.g., phishing emails).\n- **Insider Threat**: The risk that an employee or contractor will misuse their access to harm the organisation.\n- **Skill Gaps**: Errors occurring because staff are not properly trained on a specific process or tool.\n\n### Mitigation Strategies\n- **Awareness Training**: Regular sessions on how to spot security threats.\n- **Principle of Least Privilege**: Ensuring staff only have access to the data they need for their specific role.\n- **Redundancy**: Having two people check a critical process to prevent a single point of failure."
+    },
+    {
+      "id": "insurance-legal-risk",
+      "title": "Insurance & Legal Risk Transfer",
+      "content": "Not all risks can be mitigated internally. **Risk Transfer** is a common strategy for high-impact, low-probability events.\n\n### Forms of Transfer\n- **Cyber Insurance**: Covers financial losses resulting from data breaches or system outages.\n- **Professional Indemnity**: Protects administrators against claims of negligence or mistakes in their professional work.\n- **Service Level Agreements (SLAs)**: Legal contracts with vendors that define penalties if they fail to meet specific performance standards (e.g., a 99.9% server uptime guarantee).\n\n### Key Terms\n- **Liability**: The state of being legally responsible for something.\n- **Indemnity**: Security or protection against a loss or other financial burden.\n- **Force Majeure**: A clause that frees both parties from liability or obligation when an extraordinary event occurs beyond their control."
+    },
+    {
+      "id": "roleplay-crisis-response",
+      "title": "RolePlay: The Crisis Response Team",
+      "content": "You are part of the Crisis Response Team (CRT) during a suspected ransomware attack. Your goal is to coordinate the immediate response according to the Business Continuity Plan.\n\n### The Scenario\nA staff member clicked on a suspicious link, and files are starting to encrypt. You must decide whether to shut down the network or attempt a workaround.\n\n### Key Phrases for the CRT\n- \"If we **had enforced** the last security update, this breach **might have been prevented**.\"\n- \"We must **transfer** the investigation to our cyber-insurance specialists immediately.\"\n- \"What is the current **RPO**? How much data **would we be losing** if we restored from the midnight backup?\"\n- \"We need to **head off** any rumours by sending a clear internal announcement.\""
+    },
+    {
+      "id": "weekly-deliverable",
+      "title": "Weekly Deliverable: Risk Register & Continuity Plan",
+      "content": "Create a **Risk Management Portfolio** for a fictional 'International Trade Fair' hosted by your company.\n\n### Requirements\n1. **Risk Register**: Identify 5 risks (Financial, Operational, Technical, Legal, and Human). Use the 1-5 Probability/Impact scale.\n2. **Response Strategies**: Assign a strategy (Mitigation, Transfer, Avoidance, or Acceptance) to each risk.\n3. **Post-Mortem Analysis**: Write 3 sentences using Third Conditionals to analyze 'hypothetical' failures from a previous event.\n4. **BCP Statement**: Write a brief statement defining the RTO for the event registration system."
     }
   ],
   "objectives": [

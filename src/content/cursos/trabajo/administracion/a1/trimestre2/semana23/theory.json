@@ -18,12 +18,12 @@
     }
   ],
   "objectives": [
-    "Read a basic bank statement (PDF or digital)",
+    "Read a basic expense report (PDF or digital)",
     "Identify spending categories (Food, Bills, Travel)",
-    "Understand simple charts and graphs in a banking app"
+    "Understand simple charts and graphs in an office app"
   ],
   "keyTerms": [
-    { "term": "Statement", "definition": "A printed or digital record of the money in a bank account." },
+    { "term": "Statement", "definition": "A printed or digital record of the money in a business account." },
     { "term": "Category", "definition": "A class or group of things that are similar." },
     { "term": "Chart", "definition": "A drawing that shows information in a simple way." }
   ]

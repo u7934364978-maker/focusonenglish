@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Camera, Scan, BookOpen, Volume2, Star, CheckCircle, RefreshCw, ArrowLeft } from 'lucide-react'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 
 interface VocabularyItem {
   id: string
@@ -111,6 +112,7 @@ const arScenarios = [
 
 export default function AugmentedRealityVocabulary() {
   const router = useRouter()
+  const { fetchAllProgress, saveARVocabulary, updateXP } = useMethodologyProgress()
   const [vocabulary, setVocabulary] = useState<VocabularyItem[]>(vocabularyItems)
   const [selectedItem, setSelectedItem] = useState<VocabularyItem | null>(null)
   const [isScanning, setIsScanning] = useState(false)
@@ -119,17 +121,39 @@ export default function AugmentedRealityVocabulary() {
     learned: vocabularyItems.filter(v => v.learned).length,
     todayPractice: 8
   })
+  const [isLoading, setIsLoading] = useState(true)
 
-  const toggleLearned = (itemId: string) => {
+  useEffect(() => {
+    async function loadProgress() {
+      const dbData = await fetchAllProgress()
+      if (dbData && dbData.arWords) {
+        setVocabulary(prev => prev.map(item => {
+          const saved = dbData.arWords?.find(w => w.word_id === item.id)
+          return saved ? { ...item, learned: saved.learned } : item
+        }))
+      }
+      setIsLoading(false)
+    }
+    loadProgress()
+  }, [fetchAllProgress])
+
+  const toggleLearned = async (itemId: string) => {
+    let isNowLearned = false
     setVocabulary(prev =>
-      prev.map(item =>
-        item.id === itemId ? { ...item, learned: !item.learned } : item
-      )
+      prev.map(item => {
+        if (item.id === itemId) {
+          isNowLearned = !item.learned
+          return { ...item, learned: isNowLearned }
+        }
+        return item
+      })
     )
-    setStats(prev => ({
-      ...prev,
-      learned: vocabulary.filter(v => v.learned).length
-    }))
+    
+    // Persistir en DB
+    await saveARVocabulary(itemId, isNowLearned)
+    if (isNowLearned) {
+      await updateXP(10, 'ar_vocabulary_learned', itemId)
+    }
   }
 
   const playPronunciation = (item: VocabularyItem) => {

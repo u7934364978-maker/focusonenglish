@@ -2,24 +2,45 @@
   "title": "Strategic Planning & Change Management",
   "sections": [
     {
-      "id": "vocab",
-      "title": "Strategic Frameworks & Change",
-      "content": "In high-level administration, strategic planning involves long-term visioning, while change management focuses on transitioning individuals and teams to a desired future state.\n\n- **SWOT Analysis**: A study undertaken by an organisation to identify its internal strengths and weaknesses, as well as its external opportunities and threats.\n- **PESTLE**: A framework used to monitor the macro-environmental (Political, Economic, Social, Technological, Legal, Environmental) factors that impact an organisation.\n- **Stakeholder Engagement**: The process by which an organisation involves people who may be affected by the decisions it makes.\n- **Change Fatigue**: A general sense of apathy or resentment towards organisational changes, usually caused by too many changes happening at once.\n- **Strategic Alignment**: The process of ensuring that an organisation's structure and resources support its strategy.\n- **Implementation Roadmap**: A high-level visual summary that maps out the steps needed to execute a strategy."
+      "id": "strategic-analysis",
+      "title": "Block 1: Strategic Analysis Frameworks",
+      "content": "Strategic planning begins with a thorough analysis of both internal and external environments. Administrators use specific frameworks to organize this data.\n\n### SWOT Analysis:\n- **Strengths**: Internal advantages (e.g., proprietary technology, skilled workforce).\n- **Weaknesses**: Internal limitations (e.g., outdated hardware, high staff turnover).\n- **Opportunities**: External factors to exploit (e.g., new market regulations, competitor failure).\n- **Threats**: External risks (e.g., economic downturn, new market entrants).\n\n### PESTLE Analysis:\n- **Political**: Government policy, political stability, trade restrictions.\n- **Economic**: Interest rates, inflation, economic growth/recession.\n- **Social**: Demographic trends, cultural shifts, consumer attitudes.\n- **Technological**: Innovation, automation, R&D activity.\n- **Legal**: Employment laws, H&S regulations, consumer protection.\n- **Environmental**: Climate change policies, sustainability targets."
     },
     {
-      "id": "grammar",
-      "title": "Mixed Conditionals",
-      "content": "Mixed conditionals are used when the time in the 'if-clause' is different from the time in the 'result-clause'. They are essential for discussing hypothetical outcomes of past decisions on present situations.\n\n**1. Past Action → Present Result (Mixed Type 3 + 2)**\nUsed to describe how a different past action would affect a current situation.\n*Structure:* If + Past Perfect, ... would + infinitive.\n*Example:* \"If we **had invested** in digital infrastructure last year, we **would be** more competitive today.\"\n\n**2. Present Condition → Past Result (Mixed Type 2 + 3)**\nUsed to describe how a permanent state or present condition affected a past event.\n*Structure:* If + Past Simple, ... would have + past participle.\n*Example:* \"If our CEO **weren't** so risk-averse, she **would have approved** the merger last month.\"\n\n**Formal Usage:** In business reporting, mixed conditionals help analyze strategic failures or missed opportunities."
+      "id": "grammar-mixed-conditionals",
+      "title": "Block 2: Grammar - Mixed Conditionals",
+      "content": "Mixed conditionals are vital for analyzing strategic decisions. They allow us to connect past actions to present results, or present states to past events.\n\n### Type A: Past Action → Present Result\nDescribes how a different past choice would affect the current situation.\n*Structure:* If + Past Perfect, ... would + infinitive.\n- \"If we **had implemented** the cloud migration last year, we **would be** more efficient now.\"\n\n### Type B: Present Condition → Past Result\nDescribes how a permanent or present state influenced a past outcome.\n*Structure:* If + Past Simple, ... would have + past participle.\n- \"If our CEO **weren't** so cautious, she **would have approved** the expansion plan in 2023.\"\n\n**Note:** In professional contexts, these are used to justify strategy pivots or conduct 'post-mortem' project reviews."
+    },
+    {
+      "id": "managing-change",
+      "title": "Block 3: Managing the Human Side of Change",
+      "content": "Change management is the process of guiding people through organizational transitions. Failure often stems from ignoring the 'human factor'.\n\n### Key Concepts:\n- **Change Fatigue**: A state of exhaustion and apathy caused by too many overlapping changes. Signs include decreased productivity and increased absenteeism.\n- **Resistance to Change**: Natural pushback from employees fearing job security or increased workload. Mitigated through transparent communication.\n- **Kotter’s 8-Step Model**: A framework for successful change, starting with 'Creating a Sense of Urgency' and ending with 'Incorportating Change into the Culture'.\n- **Agility**: The organization's capacity to adapt and pivot quickly without losing momentum."
+    },
+    {
+      "id": "governance-stakeholders",
+      "title": "Block 4: Corporate Governance & Stakeholders",
+      "content": "Strategic decisions are not made in a vacuum; they must satisfy various stakeholders and adhere to ethical standards.\n\n### Stakeholder Management:\n- **Stakeholder Engagement**: Actively involving people affected by a decision (investors, employees, customers, local community).\n- **Power/Interest Matrix**: A tool used to categorize stakeholders to determine the appropriate level of communication and engagement.\n\n### Corporate Governance:\n- **Accountability**: Ensuring leaders are responsible for their strategic choices.\n- **Transparency**: Openness about company goals, performance, and ethical standards.\n- **Strategic Alignment**: Ensuring that every department's operational goals directly support the high-level corporate strategy."
+    },
+    {
+      "id": "future-proofing",
+      "title": "Block 5: Future-proofing & Scenario Planning",
+      "content": "In a volatile market, administrators must look beyond the immediate future to ensure long-term survival.\n\n### Scenario Planning:\n- **Best-case / Worst-case Scenarios**: Developing plans for multiple possible futures to reduce surprise and risk.\n- **Future-proofing**: The process of anticipating the future and developing methods of minimizing the effects of shocks and stresses.\n- **Implementation Roadmap**: A visual guide that breaks down a long-term strategy into achievable milestones and short-term actions.\n- **Benchmarking**: Continuously comparing performance against industry leaders to identify gaps in future readiness."
     }
   ],
   "objectives": [
     "Analyse macro-environmental factors using the PESTLE framework",
-    "Identify and mitigate 'change fatigue' during organisational transitions",
+    "Apply SWOT analysis to identify internal and external strategic factors",
+    "Identify and mitigate 'change fatigue' and resistance during transitions",
     "Use mixed conditionals to evaluate past strategic decisions and their current impact",
-    "Draft a strategic implementation roadmap for a department"
+    "Explain the importance of stakeholder engagement and corporate governance",
+    "Outline the process of scenario planning and future-proofing an organization"
   ],
   "keyTerms": [
     { "term": "Agility", "definition": "The ability of an organisation to renew itself, adapt, and succeed in a rapidly changing environment." },
-    { "term": "Benchmarking", "definition": "Evaluating something by comparison with a standard or the performance of competitors." }
+    { "term": "PESTLE", "definition": "Political, Economic, Social, Technological, Legal, Environmental analysis." },
+    { "term": "SWOT", "definition": "Strengths, Weaknesses, Opportunities, and Threats analysis." },
+    { "term": "Change Fatigue", "definition": "A sense of apathy or resentment towards organisational changes caused by excessive change." },
+    { "term": "Stakeholder", "definition": "Any person or group that has an interest in or is affected by an organization's actions." },
+    { "term": "Governance", "definition": "The system by which companies are directed and controlled." }
   ]
 }

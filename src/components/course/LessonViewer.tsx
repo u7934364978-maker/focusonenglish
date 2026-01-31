@@ -2410,7 +2410,15 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               {cmExercise.pairs.map((pair: any, idx: number) => {
                 const userAnswer = answers[pair.id] || '';
                 const isCorrect = aiEvaluations[pair.id]?.isCorrect;
-                const allOptions = [pair.correctMatch, ...(pair.distractors || [])].sort(() => Math.random() - 0.5);
+                // Use a deterministic shuffle based on pair ID and option text to avoid hydration issues
+                const allOptions = [pair.correctMatch, ...(pair.distractors || [])].sort((a, b) => {
+                  const hash = (str: string) => {
+                    let h = 0;
+                    for (let i = 0; i < str.length; i++) h = (Math.imul(31, h) + str.charCodeAt(i)) | 0;
+                    return h;
+                  };
+                  return hash(pair.id + a) - hash(pair.id + b);
+                });
                 
                 return (
                   <div key={pair.id} className="bg-white rounded-xl p-6 border-2 border-slate-200">

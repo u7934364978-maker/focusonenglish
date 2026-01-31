@@ -438,6 +438,283 @@
       "prompt": "Summarize the three main sections covered this week (Onboarding, Metrics/Efficiency, Conflict Resolution) in 60-80 words.",
       "modelAnswer": "This week covered essential onboarding protocols and escalation guidelines. We then explored operational efficiency through KPIs, SLAs, and continuous improvement methodologies. Finally, we analyzed professional negotiation and conflict resolution strategies like BATNA and mediation, providing a comprehensive toolkit for administrative success.",
       "keywords": ["onboarding", "efficiency", "conflict resolution", "toolkit"]
+    },
+    {
+      "id": "adm-b2-w1-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: PhraseBank Application. If you need to stop a project from being delayed, you want to ___.",
+      "options": ["keep things moving", "log the request", "raise a concern", "share context"],
+      "answerIndex": 0,
+      "explanation": "'To keep things moving' means to ensure progress continues without interruption."
+    },
+    {
+      "id": "adm-b2-w1-ex47",
+      "type": "multipleChoice",
+      "prompt": "Exercise 47: Dependency Management. When you are 'blocked by a dependency', it means:",
+      "options": [
+        "You have too much work to do.",
+        "You are waiting for someone else to finish a task before you can continue.",
+        "You have completed your tasks early.",
+        "Your computer is not working."
+      ],
+      "answerIndex": 1,
+      "explanation": "A dependency is a task that must be completed by someone else before you can proceed."
+    },
+    {
+      "id": "adm-b2-w1-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Ownership. 'To clarify ownership' in a meeting means to:",
+      "options": [
+        "Determine who is responsible for a specific task.",
+        "Buy a new company.",
+        "Explain the company's history.",
+        "Introduce yourself to the team."
+      ],
+      "answerIndex": 0,
+      "explanation": "Clarifying ownership ensures everyone knows who is accountable for an action item."
+    },
+    {
+      "id": "adm-b2-w1-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Professional Chunk Usage. Write a sentence using the chunk 'to align on next steps'.",
+      "modelAnswer": "Let's have a brief call this afternoon to align on next steps for the vendor onboarding process.",
+      "keywords": ["align", "next steps"]
+    },
+    {
+      "id": "adm-b2-w1-ex50",
+      "type": "writingTask",
+      "prompt": "Exercise 50: Managing Expectations. Use the chunk 'to manage expectations' in a response to a client asking for a 1-hour turnaround on a complex report.",
+      "modelAnswer": "I want to manage expectations regarding the timeline; since the report requires data from three departments, it will take at least 24 hours to complete.",
+      "keywords": ["manage expectations", "timeline", "hours"]
+    },
+    {
+      "id": "adm-b2-w1-ex51",
+      "type": "multipleChoice",
+      "prompt": "Exercise 51: Time References. What does 'EOD' stand for in a professional UK context?",
+      "options": ["End of Day", "Every Other Day", "Entry of Data", "Estimated Operational Delay"],
+      "answerIndex": 0,
+      "explanation": "EOD is a common acronym for End of Day, usually meaning the end of the working day."
+    },
+    {
+      "id": "adm-b2-w1-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Time References. What does 'ETA' stand for?",
+      "options": ["Estimated Time of Arrival", "Extra Task Assignment", "Efficient Total Action", "Electronic Travel Authorization"],
+      "answerIndex": 0,
+      "explanation": "In operations, ETA is used to ask when a task or delivery is expected to be finished."
+    },
+    {
+      "id": "adm-b2-w1-ex53",
+      "type": "writingTask",
+      "prompt": "Exercise 53: Factual Reporting. Rewrite this emotional sentence to be neutral: 'It's a disaster because Finance didn't pay the bill.'",
+      "modelAnswer": "The project is currently at risk because the payment hasn't been processed by the Finance department.",
+      "keywords": ["at risk", "processed", "Finance"]
+    },
+    {
+      "id": "adm-b2-w1-ex54",
+      "type": "multipleChoice",
+      "prompt": "Exercise 54: Conflict Styles. Which style involves finding a 'win-win' solution?",
+      "options": ["Competing", "Accommodating", "Collaborating", "Avoiding"],
+      "answerIndex": 2,
+      "explanation": "Collaborating aims to meet the needs of all parties involved."
+    },
+    {
+      "id": "adm-b2-w1-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: Conflict Styles. Which style involves 'finding an intermediate position' where both sides give up something?",
+      "options": ["Compromising", "Competing", "Collaborating", "Accommodating"],
+      "answerIndex": 0,
+      "explanation": "Compromising focuses on a middle ground where both parties make concessions."
+    },
+    {
+      "id": "adm-b2-w1-ex56",
+      "type": "reading-comprehension",
+      "title": "Exercise 56: Case Study - The Blocked Shipment",
+      "text": "Scenario: A shipment of raw materials is held at customs because a specific certificate is missing. The production line will stop in 12 hours if the materials don't arrive. The supplier says they sent the certificate, but the Customs Agent says they haven't received it.\n\nTask: Identify the facts, impact, and immediate need.",
+      "questions": [
+        {
+          "question": "What is the primary 'Fact' in this scenario?",
+          "options": ["The supplier is lying.", "The shipment is held at customs due to a missing certificate.", "Production is going well."],
+          "answerIndex": 1,
+          "explanation": "The objective fact is that the shipment is held due to a missing certificate."
+        },
+        {
+          "question": "What is the 'Impact' of this delay?",
+          "options": ["The Customs Agent will be angry.", "The production line will stop in 12 hours.", "The supplier will lose money."],
+          "answerIndex": 1,
+          "explanation": "The impact is the direct consequence: production stopping in 12 hours."
+        }
+      ]
+    },
+    {
+      "id": "adm-b2-w1-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Escalation Email. Based on Exercise 56, write a 3-sentence escalation to your manager, Priya.",
+      "modelAnswer": "Hi Priya, I’m escalating a blocker regarding the raw material shipment currently held at customs. If the missing certificate isn't provided within 12 hours, the production line will stop. Could you please contact the supplier’s senior lead to expedite the document?",
+      "keywords": ["escalating", "blocker", "production line", "expedite"]
+    },
+    {
+      "id": "adm-b2-w1-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: KPI vs SLA. A contract stating that 'IT support will respond to tickets within 4 hours' is a/an:",
+      "options": ["KPI", "SLA", "BATNA", "SOP"],
+      "answerIndex": 1,
+      "explanation": "An SLA is a specific commitment regarding service standards between a provider and a client."
+    },
+    {
+      "id": "adm-b2-w1-ex59",
+      "type": "multipleChoice",
+      "prompt": "Exercise 59: Continuous Improvement. If you 'overhaul' a system, you:",
+      "options": ["Delete it entirely.", "Examine and repair/improve it thoroughly.", "Leave it as it is.", "Make a very small change."],
+      "answerIndex": 1,
+      "explanation": "An overhaul involves taking something apart to examine and repair/improve it."
+    },
+    {
+      "id": "adm-b2-w1-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Vocabulary. A process that is 'no longer needed or useful' is:",
+      "options": ["streamlined", "redundant", "impartial", "urgent"],
+      "answerIndex": 1,
+      "explanation": "Redundant means something is no longer required."
+    },
+    {
+      "id": "adm-b2-w1-ex61",
+      "type": "writingTask",
+      "prompt": "Exercise 61: Using 'Yield'. Write a professional sentence about a new software tool using the word 'yield'.",
+      "modelAnswer": "We expect the new automated billing system to yield a 15% reduction in administrative errors.",
+      "keywords": ["yield", "reduction", "system"]
+    },
+    {
+      "id": "adm-b2-w1-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Professionalism. Which of these is the most 'impartial' statement?",
+      "options": [
+        "I think John's team is being lazy.",
+        "The data shows a 20% drop in output from the assembly team this week.",
+        "It's unfair that we have to do all the work.",
+        "I feel like the other department doesn't care about the deadline."
+      ],
+      "answerIndex": 1,
+      "explanation": "An impartial statement focuses on objective data rather than personal feelings or blame."
+    },
+    {
+      "id": "adm-b2-w1-ex63",
+      "type": "multipleChoice",
+      "prompt": "Exercise 63: Negotiation. What is a 'consensus'?",
+      "options": ["A disagreement.", "A general agreement.", "A final warning.", "A secret meeting."],
+      "answerIndex": 1,
+      "explanation": "Consensus means a general agreement has been reached by the group."
+    },
+    {
+      "id": "adm-b2-w1-ex64",
+      "type": "writingTask",
+      "prompt": "Exercise 64: Vocabulary in Context. Use the words 'mediate' and 'impartial' in a sentence about a workplace dispute.",
+      "modelAnswer": "Our HR manager will mediate the discussion to ensure the process remains impartial and fair for both teams.",
+      "keywords": ["mediate", "impartial"]
+    },
+    {
+      "id": "adm-b2-w1-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: Operational Metrics. 'Throughput' refers to:",
+      "options": [
+        "The amount of time a task takes.",
+        "The volume of work passing through a system.",
+        "The number of employees in a team.",
+        "The cost of a project."
+      ],
+      "answerIndex": 1,
+      "explanation": "Throughput measures the rate at which a system produces or processes items."
+    },
+    {
+      "id": "adm-b2-w1-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Operational Metrics. 'Lead time' is:",
+      "options": [
+        "The time between starting and finishing a process.",
+        "The time when a manager is available.",
+        "The time it takes to hire a new leader.",
+        "The total duration of a working day."
+      ],
+      "answerIndex": 0,
+      "explanation": "Lead time measures the latency from the initiation to the completion of a process."
+    },
+    {
+      "id": "adm-b2-w1-ex67",
+      "type": "writingTask",
+      "prompt": "Exercise 67: RolePlay Vocabulary. Write a 4-line dialogue for a daily check-in where an employee reports a blocker.",
+      "modelAnswer": "Employee: I'm currently blocked on the quarterly report.\nManager: What's the dependency?\nEmployee: I'm waiting for the final figures from the Sales team.\nManager: Please flag this as urgent and I'll follow up with their lead.",
+      "keywords": ["blocked", "dependency", "urgent", "follow up"]
+    },
+    {
+      "id": "adm-b2-w1-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Board Status. If a task is 'logged but not started', its status is:",
+      "options": ["New", "In progress", "Blocked", "Done"],
+      "answerIndex": 0,
+      "explanation": "The 'New' status is for tasks that have been identified but work has not yet commenced."
+    },
+    {
+      "id": "adm-b2-w1-ex69",
+      "type": "writingTask",
+      "prompt": "Exercise 69: Handover. Write a 'quick recap' (2 sentences) of a task you are handing over to a colleague.",
+      "modelAnswer": "Quick recap: I’ve completed the data entry for the first ten vendors. The remaining five are in progress and should be finished by EOD Friday.",
+      "keywords": ["Quick recap", "in progress", "EOD"]
+    },
+    {
+      "id": "adm-b2-w1-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Operational Chunk. To 'raise a concern' means to:",
+      "options": ["Increase someone's salary.", "Mention a potential problem.", "Celebrate a success.", "Ask for a vacation."],
+      "answerIndex": 1,
+      "explanation": "Raising a concern is a professional way to point out a potential issue or risk."
+    },
+    {
+      "id": "adm-b2-w1-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Operational Chunk. If you 'provide an update', you are:",
+      "options": [
+        "Installing new software.",
+        "Giving the latest information about a situation.",
+        "Changing your profile picture.",
+        "Requesting a meeting."
+      ],
+      "answerIndex": 1,
+      "explanation": "Providing an update means sharing the current status or progress of a task."
+    },
+    {
+      "id": "adm-b2-w1-ex72",
+      "type": "writingTask",
+      "prompt": "Exercise 72: Neutral Tone. Rewrite: 'I can't finish this because the system is slow and it's annoying.'",
+      "modelAnswer": "Task completion is delayed due to system performance issues, which are impacting throughput.",
+      "keywords": ["delayed", "performance", "impacting", "throughput"]
+    },
+    {
+      "id": "adm-b2-w1-ex73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Continuous Improvement. 'Kaizen' refers to:",
+      "options": [
+        "Small, incremental changes for long-term improvement.",
+        "A large-scale corporate merger.",
+        "Firing underperforming staff.",
+        "A specific type of financial report."
+      ],
+      "answerIndex": 0,
+      "explanation": "Kaizen is a philosophy of continuous, small improvements."
+    },
+    {
+      "id": "adm-b2-w1-ex74",
+      "type": "writingTask",
+      "prompt": "Exercise 74: Definitions. Define 'SOP' in your own words (professional context).",
+      "modelAnswer": "A Standard Operating Procedure (SOP) is a set of step-by-step instructions that help employees carry out routine tasks consistently and efficiently.",
+      "keywords": ["instructions", "routine", "efficiently"]
+    },
+    {
+      "id": "adm-b2-w1-ex75",
+      "type": "writingTask",
+      "title": "Exercise 75: Final Review - Trimester 1, Week 1",
+      "prompt": "List the five key components of an escalation checklist as discussed in the theory sections.",
+      "modelAnswer": "1. Facts (Objective data)\n2. Impact (Who/what is affected)\n3. Deadline (Time sensitivity)\n4. Tried (Previous actions taken)\n5. Need (Specific requirement: decision, resource, or confirmation)",
+      "keywords": ["Facts", "Impact", "Deadline", "Tried", "Need"]
     }
   ]
 }

@@ -3,37 +3,27 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana25",
-  "examId": "adm-b2-w25-exam",
   "title": "Exam: Public Relations & Media Management",
+  "description": "Assessment of media relations, stakeholder engagement, and advanced passive reporting structures.",
   "items": [
     {
-      "id": "adm-b2-w25-exam-1",
+      "id": "adm-b2-w25-exam-q1",
       "type": "multipleChoice",
       "prompt": "Which document is used to provide official information to the media?",
-      "options": [
-        "A purchase order",
-        "A press release",
-        "A meeting agenda",
-        "An NDA"
-      ],
+      "options": ["A purchase order", "A press release", "A meeting agenda", "An NDA"],
       "answerIndex": 1,
       "explanation": "A press release is the formal tool for media announcements."
     },
     {
-      "id": "adm-b2-w25-exam-2",
+      "id": "adm-b2-w25-exam-q2",
       "type": "multipleChoice",
       "prompt": "Choose the correct reporting passive: 'It ____ that the company will announce a profit this year.'",
-      "options": [
-        "is expected",
-        "expects",
-        "is expecting",
-        "has expected"
-      ],
+      "options": ["is expected", "expects", "is expecting", "has expected"],
       "answerIndex": 0,
       "explanation": "The structure is 'It + is + past participle + that...'"
     },
     {
-      "id": "adm-b2-w25-exam-3",
+      "id": "adm-b2-w25-exam-q3",
       "type": "multipleChoice",
       "prompt": "What does 'stakeholder engagement' involve?",
       "options": [
@@ -46,20 +36,15 @@
       "explanation": "Stakeholders are anyone with an interest in the business, and engagement is the process of communicating with them."
     },
     {
-      "id": "adm-b2-w25-exam-4",
+      "id": "adm-b2-w25-exam-q4",
       "type": "multipleChoice",
       "prompt": "Complete the personal passive: 'The new system ____ to be much more efficient.'",
-      "options": [
-        "says",
-        "is saying",
-        "is said",
-        "was said"
-      ],
+      "options": ["says", "is saying", "is said", "was said"],
       "answerIndex": 2,
       "explanation": "The structure is 'Subject + is + past participle + to + infinitive'."
     },
     {
-      "id": "adm-b2-w25-exam-5",
+      "id": "adm-b2-w25-exam-q5",
       "type": "multipleChoice",
       "prompt": "To 'mitigate reputational damage' means:",
       "options": [
@@ -70,6 +55,161 @@
       ],
       "answerIndex": 2,
       "explanation": "Mitigation refers to reducing the negative impact or severity of something."
+    },
+    {
+      "id": "adm-b2-w25-exam-q6",
+      "type": "multipleChoice",
+      "prompt": "A journalist wants information that cannot be directly quoted. This is speaking ______.",
+      "options": ["on the record", "off the record", "behind the scenes", "under the table"],
+      "answerIndex": 1,
+      "explanation": "Off the record means the information cannot be directly attributed to the source."
+    },
+    {
+      "id": "adm-b2-w25-exam-q7",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'primary stakeholder'?",
+      "options": ["A local newspaper", "A key investor", "The government", "A competitor"],
+      "answerIndex": 1,
+      "explanation": "Primary stakeholders have a direct, often contractual, relationship with the business."
+    },
+    {
+      "id": "adm-b2-w25-exam-q8",
+      "type": "multipleChoice",
+      "prompt": "Rewrite using a reporting passive: 'People rumor that the merger is cancelled.'",
+      "options": [
+        "It is rumored that the merger is cancelled.",
+        "The merger is rumored to be cancelled.",
+        "Both A and B",
+        "Neither A nor B"
+      ],
+      "answerIndex": 2,
+      "explanation": "Both the impersonal 'It is rumored that' and the personal 'The merger is rumored to be' are correct."
+    },
+    {
+      "id": "adm-b2-w25-exam-q9",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Golden Hour' in PR?",
+      "options": [
+        "The best time for a lunch break",
+        "The first hour after a crisis for critical response",
+        "The time when profits are highest",
+        "An award ceremony"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Golden Hour refers to the narrow window for effective crisis communication."
+    },
+    {
+      "id": "adm-b2-w25-exam-q10",
+      "type": "multipleChoice",
+      "prompt": "To 'liaise with' means to ______.",
+      "options": ["compete with", "work together and share information", "avoid contact", "sue"],
+      "answerIndex": 1,
+      "explanation": "Liaising involves coordination and communication between parties."
+    },
+    {
+      "id": "adm-b2-w25-exam-q11",
+      "type": "multipleChoice",
+      "prompt": "Which verb is used in the phrase '______ a press release'?",
+      "options": ["Issue", "Do", "Tell", "Fabricate"],
+      "answerIndex": 0,
+      "explanation": "'Issue a press release' is the standard professional collocation."
+    },
+    {
+      "id": "adm-b2-w25-exam-q12",
+      "type": "multipleChoice",
+      "prompt": "A 'Press Kit' usually contains ______.",
+      "options": [
+        "Cleaning supplies for the printer",
+        "A collection of informational materials for journalists",
+        "A medical first-aid kit",
+        "Lunch for the media team"
+      ],
+      "answerIndex": 1,
+      "explanation": "A press kit provides the media with background information, photos, and quotes."
+    },
+    {
+      "id": "adm-b2-w25-exam-q13",
+      "type": "multipleChoice",
+      "prompt": "Which structure is a 'get-passive'?",
+      "options": [
+        "The report was written.",
+        "The file got lost.",
+        "It is said to be true.",
+        "We are working on it."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Got + past participle' is the get-passive structure."
+    },
+    {
+      "id": "adm-b2-w25-exam-q14",
+      "type": "multipleChoice",
+      "prompt": "What is 'media monitoring'?",
+      "options": [
+        "Blocking all social media at work",
+        "Tracking how a brand is mentioned in the news",
+        "Recording TV shows for the office",
+        "Watching the competition's advertisements"
+      ],
+      "answerIndex": 1,
+      "explanation": "Media monitoring is tracking brand mentions and sentiment across media channels."
+    },
+    {
+      "id": "adm-b2-w25-exam-q15",
+      "type": "multipleChoice",
+      "prompt": "Which of these expresses a 'top-down' communication flow?",
+      "options": [
+        "An employee complaint form",
+        "A memo from the CEO to all staff",
+        "A suggestion box",
+        "A team brainstorming session"
+      ],
+      "answerIndex": 1,
+      "explanation": "Top-down communication moves from management to subordinates."
+    },
+    {
+      "id": "adm-b2-w25-exam-q16",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'The CEO decided to go ______ regarding the scandal.'",
+      "options": ["on the record", "off the record", "under the record", "above the record"],
+      "answerIndex": 0,
+      "explanation": "To go on the record means to make an official, attributable statement."
+    },
+    {
+      "id": "adm-b2-w25-exam-q17",
+      "type": "multipleChoice",
+      "prompt": "PR 'transparency' means being ______.",
+      "options": ["invisible", "secretive", "honest and open", "wealthy"],
+      "answerIndex": 2,
+      "explanation": "Transparency is the practice of being open and honest with stakeholders."
+    },
+    {
+      "id": "adm-b2-w25-exam-q18",
+      "type": "multipleChoice",
+      "prompt": "Identify the passive verb in: 'The information is believed to be accurate.'",
+      "options": ["is", "believed", "to be", "accurate"],
+      "answerIndex": 1,
+      "explanation": "'Believed' is the past participle in this passive structure."
+    },
+    {
+      "id": "adm-b2-w25-exam-q19",
+      "type": "multipleChoice",
+      "prompt": "What is the main goal of 'Crisis PR'?",
+      "options": [
+        "To increase the company's stock price",
+        "To protect the brand's reputation during a negative event",
+        "To fire responsible parties",
+        "To avoid paying taxes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crisis PR management aims to mitigate reputational damage during a crisis."
+    },
+    {
+      "id": "adm-b2-w25-exam-q20",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a secondary stakeholder?",
+      "options": ["Employees", "Customers", "The local community", "Shareholders"],
+      "answerIndex": 2,
+      "explanation": "The local community is often considered a secondary stakeholder as they are indirectly affected."
     }
   ]
 }

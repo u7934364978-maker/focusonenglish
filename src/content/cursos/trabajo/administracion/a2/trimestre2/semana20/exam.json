@@ -1,41 +1,153 @@
 [
   {
-    "id": 1,
+    "id": "adm-a2-w20-q01",
     "type": "multiple-choice",
     "question": "Which one is the 'local currency' in Japan?",
     "options": ["Dollar", "Euro", "Yen", "Pound"],
     "correctAnswer": 2,
-    "explanation": "The Yen is the local currency of Japan."
+    "explanation": "El Yen es la moneda local de Japón."
   },
   {
-    "id": 2,
+    "id": "adm-a2-w20-q02",
     "type": "multiple-choice",
     "question": "What happens if the exchange rate is 'low' for your currency?",
     "options": ["You get more foreign money", "You get less foreign money", "It doesn't change anything", "You pay no fees"],
     "correctAnswer": 1,
-    "explanation": "A low exchange rate means your money is worth less in the other currency."
+    "explanation": "Un tipo de cambio bajo significa que obtienes menos dinero extranjero por tu moneda."
   },
   {
-    "id": 3,
+    "id": "adm-a2-w20-q03",
     "type": "fill-in-the-blank",
-    "question": "This is the __________ (bad) exchange rate I have seen.",
+    "question": "This is the __________ (bad) exchange rate I have seen this year.",
     "correctAnswer": "worst",
-    "explanation": "The superlative of 'bad' is 'worst'."
+    "explanation": "El superlativo de 'bad' es 'worst' (el peor)."
   },
   {
-    "id": 4,
+    "id": "adm-a2-w20-q04",
     "type": "multiple-choice",
     "question": "What is an 'ATM' in British English?",
     "options": ["Banker", "Cash machine", "Coin box", "Safe"],
     "correctAnswer": 1,
-    "explanation": "In British English, an ATM is commonly called a 'Cash machine'."
+    "explanation": "En inglés británico, un cajero automático se llama comúnmente 'Cash machine'."
   },
   {
-    "id": 5,
+    "id": "adm-a2-w20-q05",
     "type": "multiple-choice",
     "question": "Using your card abroad usually involves a _______.",
     "options": ["Gift", "Fee", "Profit", "Bonus"],
     "correctAnswer": 1,
-    "explanation": "Banks usually charge a 'fee' (comisión) for using cards in other countries."
+    "explanation": "Los bancos suelen cobrar una 'fee' (comisión) por usar tarjetas en el extranjero."
+  },
+  {
+    "id": "adm-a2-w20-q06",
+    "type": "fill-in-the-blank",
+    "question": "The dollar is the __________ (common) currency used in international trade.",
+    "correctAnswer": "most common",
+    "explanation": "Para adjetivos largos, usamos 'most' para formar el superlativo."
+  },
+  {
+    "id": "adm-a2-w20-q07",
+    "type": "multiple-choice",
+    "question": "What is the meaning of 'foreign exchange'?",
+    "options": ["Changing local money to another country's money", "Saving money in a local bank", "Withdrawing cash from an ATM", "Paying taxes in your country"],
+    "correctAnswer": 0,
+    "explanation": "'Foreign exchange' (divisas/cambio de moneda) se refiere al cambio de moneda nacional por la de otro país."
+  },
+  {
+    "id": "adm-a2-w20-q08",
+    "type": "fill-in-the-blank",
+    "question": "This airport kiosk has the __________ (expensive) fees in the city.",
+    "correctAnswer": "most expensive",
+    "explanation": "'Most expensive' es el superlativo de 'expensive' (caro)."
+  },
+  {
+    "id": "adm-a2-w20-q09",
+    "type": "multiple-choice",
+    "question": "If you want to 'withdraw' money, where do you go?",
+    "options": ["To the police station", "To an ATM", "To a restaurant", "To a supermarket"],
+    "correctAnswer": 1,
+    "explanation": "'Withdraw' significa retirar dinero, lo cual se hace habitualmente en un cajero (ATM)."
+  },
+  {
+    "id": "adm-a2-w20-q10",
+    "type": "fill-in-the-blank",
+    "question": "Which is the __________ (large) bank in the world?",
+    "correctAnswer": "largest",
+    "explanation": "Para adjetivos cortos terminados en 'e', solo añadimos '-st' para el superlativo."
+  },
+  {
+    "id": "adm-a2-w20-q11",
+    "type": "multiple-choice",
+    "question": "What does 'commission' refer to in banking?",
+    "options": ["A type of bank account", "A fee charged for a service", "The name of the bank manager", "A document for travel"],
+    "correctAnswer": 1,
+    "explanation": "La 'commission' es un cargo o tarifa por un servicio bancario, como el cambio de moneda."
+  },
+  {
+    "id": "adm-a2-w20-q12",
+    "type": "fill-in-the-blank",
+    "question": "Traveling by plane is often the __________ (fast) way to go abroad.",
+    "correctAnswer": "fastest",
+    "explanation": "El superlativo de 'fast' es 'fastest'."
+  },
+  {
+    "id": "adm-a2-w20-q13",
+    "type": "multiple-choice",
+    "question": "What is a 'traveler's cheque'?",
+    "options": ["A passport", "A pre-printed cheque for a fixed amount", "A bank card", "A type of insurance"],
+    "correctAnswer": 1,
+    "explanation": "Un 'traveler's cheque' es un cheque de viaje por una cantidad fija, aunque hoy en día es menos común que las tarjetas."
+  },
+  {
+    "id": "adm-a2-w20-q14",
+    "type": "fill-in-the-blank",
+    "question": "The euro is the __________ (new) major currency on this list.",
+    "correctAnswer": "newest",
+    "explanation": "El superlativo de 'new' es 'newest'."
+  },
+  {
+    "id": "adm-a2-w20-q15",
+    "type": "multiple-choice",
+    "question": "What should you check before exchanging money?",
+    "options": ["The weather", "The exchange rate", "The time in your country", "The price of food"],
+    "correctAnswer": 1,
+    "explanation": "Es importante comprobar el 'exchange rate' (tipo de cambio) para saber cuánto dinero recibirás."
+  },
+  {
+    "id": "adm-a2-w20-q16",
+    "type": "fill-in-the-blank",
+    "question": "This bank offers the __________ (good) service for travelers.",
+    "correctAnswer": "best",
+    "explanation": "El superlativo irregular de 'good' es 'best'."
+  },
+  {
+    "id": "adm-a2-w20-q17",
+    "type": "multiple-choice",
+    "question": "What is 'boarding'?",
+    "options": ["Sleeping at a hotel", "Entering a plane or ship", "Changing money", "Opening a bank account"],
+    "correctAnswer": 1,
+    "explanation": "'Boarding' es el proceso de embarcar en un avión o barco."
+  },
+  {
+    "id": "adm-a2-w20-q18",
+    "type": "fill-in-the-blank",
+    "question": "London is one of the __________ (busy) cities for international business.",
+    "correctAnswer": "busiest",
+    "explanation": "Para adjetivos que terminan en consonante + 'y', cambiamos la 'y' por 'i' y añadimos '-est'."
+  },
+  {
+    "id": "adm-a2-w20-q19",
+    "type": "multiple-choice",
+    "question": "What do you need to show at the 'customs'?",
+    "options": ["Your clothes", "Your passport and declarations", "Your family photos", "Your bank balance"],
+    "correctAnswer": 1,
+    "explanation": "En la aduana ('customs') debes mostrar tu pasaporte y declarar bienes si es necesario."
+  },
+  {
+    "id": "adm-a2-w20-q20",
+    "type": "fill-in-the-blank",
+    "question": "The Burj Khalifa is the __________ (high) building in the world.",
+    "correctAnswer": "highest",
+    "explanation": "El superlativo de 'high' es 'highest'."
   }
 ]

@@ -1,208 +1,1064 @@
 {
-  "title": "Global Money Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana27",
+  "title": "Exercises: Requesting Information",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a1-w27-ex01",
       "type": "multiple-choice",
-      "question": "What is a 'Multi-currency Wallet'?",
-      "options": ["A physical wallet with many coins", "An app that holds different currencies", "A type of bank building", "A credit card for one country"],
-      "correctAnswer": 1,
-      "explanation": "A multi-currency wallet allows you to hold EUR, USD, GBP, etc., in one digital app."
+      "prompt": "Which phrase is used to start an email asking for information?",
+      "options": [
+        "I am writing to delete...",
+        "I am writing to ask about...",
+        "I am writing to finish...",
+        "I am writing to goodbye..."
+      ],
+      "answerIndex": 1,
+      "explanation": "'I am writing to ask about...' is a standard way to introduce a request."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "How ________ money do you want to convert?",
-      "answer": "much",
-      "explanation": "We use 'much' with the word 'money' because it is uncountable."
+      "id": "adm-a1-w27-ex02",
+      "type": "multiple-choice",
+      "prompt": "Which is more formal and polite?",
+      "options": [
+        "Can you send me the file?",
+        "Could you please send me the file?",
+        "Send me the file now.",
+        "Give me the file."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Could you please...' is the most professional and polite modal structure for requests."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the currency to its pot:",
+      "id": "adm-a1-w27-ex03",
+      "type": "multiple-choice",
+      "prompt": "What does 'I would like to know' mean?",
+      "options": [
+        "Yo sé todo",
+        "Me gustaría saber",
+        "No quiero saber",
+        "Ya lo sabía"
+      ],
+      "answerIndex": 1,
+      "explanation": "'I would like to know' is a polite expression for 'Me gustaría saber'."
+    },
+    {
+      "id": "adm-a1-w27-ex04",
+      "type": "multiple-choice",
+      "prompt": "Complete the request: 'Please ________ me know if the office is open.'",
+      "options": [
+        "give",
+        "make",
+        "let",
+        "do"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct phrase is 'Please let me know' (Por favor, házmelo saber)."
+    },
+    {
+      "id": "adm-a1-w27-ex05",
+      "type": "multiple-choice",
+      "prompt": "Which modal verb is standard for requests between close colleagues?",
+      "options": [
+        "Must",
+        "Can",
+        "Should",
+        "Am"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Can you...?' is common and acceptable for colleagues with an informal relationship."
+    },
+    {
+      "id": "adm-a1-w27-ex06",
+      "type": "multiple-choice",
+      "prompt": "What follows 'Could you' in a question?",
+      "options": [
+        "An -ing verb (sending)",
+        "The base verb (send)",
+        "A past verb (sent)",
+        "A plural verb (sends)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Modal verbs like 'Could' are followed by the base form of the verb."
+    },
+    {
+      "id": "adm-a1-w27-ex07",
+      "type": "multiple-choice",
+      "prompt": "How do you ask for a price list politely?",
+      "options": [
+        "I want prices.",
+        "Could you send me the price list?",
+        "Price list now please.",
+        "Where are prices?"
+      ],
+      "answerIndex": 1,
+      "explanation": "Using 'Could you...' makes the inquiry professional."
+    },
+    {
+      "id": "adm-a1-w27-ex08",
+      "type": "multiple-choice",
+      "prompt": "What is the meaning of 'Inquire'?",
+      "options": [
+        "To answer",
+        "To ask or request information",
+        "To delete",
+        "To send"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Inquire' (or enquire) means to ask for information."
+    },
+    {
+      "id": "adm-a1-w27-ex09",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'I ________ appreciate it if you could help me.'",
+      "options": [
+        "will",
+        "am",
+        "would",
+        "do"
+      ],
+      "answerIndex": 2,
+      "explanation": "'I would appreciate it...' is a very polite and formal way to say thank you in advance."
+    },
+    {
+      "id": "adm-a1-w27-ex10",
+      "type": "multiple-choice",
+      "prompt": "Which is a polite way to ask for a meeting time?",
+      "options": [
+        "Tell me the time.",
+        "I would like to know the meeting time.",
+        "When is meeting?",
+        "Time please."
+      ],
+      "answerIndex": 1,
+      "explanation": "'I would like to know...' is polite and clear."
+    },
+    {
+      "id": "adm-a1-w27-ex11",
+      "type": "multiple-choice",
+      "prompt": "What does 'ASAP' emphasize in a request?",
+      "options": [
+        "That it is free",
+        "That it is urgent",
+        "That it is for the boss",
+        "That it is a secret"
+      ],
+      "answerIndex": 1,
+      "explanation": "ASAP (As Soon As Possible) indicates urgency."
+    },
+    {
+      "id": "adm-a1-w27-ex12",
+      "type": "multiple-choice",
+      "prompt": "Which is more appropriate for a director?",
+      "options": [
+        "Give me the keys.",
+        "Could you please provide the keys?",
+        "Can I have keys?",
+        "Keys please."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Provide' is more formal than 'give', and 'Could you please' is more polite."
+    },
+    {
+      "id": "adm-a1-w27-ex13",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'Could you please ________ me the invoice?'",
+      "options": [
+        "forward",
+        "forwarding",
+        "forwards",
+        "to forward"
+      ],
+      "answerIndex": 0,
+      "explanation": "The base verb 'forward' follows the modal 'could'."
+    },
+    {
+      "id": "adm-a1-w27-ex14",
+      "type": "multiple-choice",
+      "prompt": "What is the opposite of 'Request'?",
+      "options": [
+        "Ask",
+        "Inquire",
+        "Provide / Answer",
+        "Demand"
+      ],
+      "answerIndex": 2,
+      "explanation": "To request is to ask; to provide or answer is to give the information."
+    },
+    {
+      "id": "adm-a1-w27-ex15",
+      "type": "multiple-choice",
+      "prompt": "Identify the request:",
+      "options": [
+        "I am Sarah.",
+        "Could you help me with the printer?",
+        "The printer is red.",
+        "Best regards,"
+      ],
+      "answerIndex": 1,
+      "explanation": "The second option is a question asking for assistance."
+    },
+    {
+      "id": "adm-a1-w27-ex16",
+      "type": "multiple-choice",
+      "prompt": "How do you ask for a document formally?",
+      "options": [
+        "I need the document.",
+        "I am writing to request the document.",
+        "Send document.",
+        "Document please."
+      ],
+      "answerIndex": 1,
+      "explanation": "'I am writing to request...' is the most professional structure."
+    },
+    {
+      "id": "adm-a1-w27-ex17",
+      "type": "multiple-choice",
+      "prompt": "'Could you tell me...' is used for:",
+      "options": [
+        "Describing an object",
+        "Asking for information",
+        "Closing an email",
+        "Sending an attachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is a standard opening for a polite inquiry."
+    },
+    {
+      "id": "adm-a1-w27-ex18",
+      "type": "multiple-choice",
+      "prompt": "Complete the phrase: 'Thank you ________ your assistance.'",
+      "options": [
+        "by",
+        "for",
+        "with",
+        "to"
+      ],
+      "answerIndex": 1,
+      "explanation": "We say 'Thank you for...' followed by the reason."
+    },
+    {
+      "id": "adm-a1-w27-ex19",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Could you please help me?",
+        "Could you please helps me?",
+        "Could you please helping me?",
+        "Could you please to help me?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Base verb 'help' is correct after 'could'."
+    },
+    {
+      "id": "adm-a1-w27-ex20",
+      "type": "multiple-choice",
+      "prompt": "What does 'Let me know' mean?",
+      "options": [
+        "Déjame solo",
+        "Avísame / Házmelo saber",
+        "No me digas",
+        "Lo sé todo"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is a common way to ask for a follow-up or confirmation."
+    },
+    {
+      "id": "adm-a1-w27-ex21",
+      "type": "multiple-choice",
+      "prompt": "In a formal email, instead of 'I want', use:",
+      "options": [
+        "I would like",
+        "Give me",
+        "I am needing",
+        "I want to"
+      ],
+      "answerIndex": 0,
+      "explanation": "'I would like' is much more polite than 'I want'."
+    },
+    {
+      "id": "adm-a1-w27-ex22",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a polite request for a phone number?",
+      "options": [
+        "What is your number?",
+        "Give me your number.",
+        "Could you please provide your contact number?",
+        "Number please."
+      ],
+      "answerIndex": 2,
+      "explanation": "Option C is the most professional and polite."
+    },
+    {
+      "id": "adm-a1-w27-ex23",
+      "type": "multiple-choice",
+      "prompt": "What word is usually included in a request to be polite?",
+      "options": [
+        "Immediately",
+        "Please",
+        "Now",
+        "Must"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Please' is essential for polite business communication."
+    },
+    {
+      "id": "adm-a1-w27-ex24",
+      "type": "multiple-choice",
+      "prompt": "Which phrase asks for a response?",
+      "options": [
+        "I hope you are well.",
+        "Please let me know your thoughts.",
+        "Attached is the file.",
+        "Sincerely,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Please let me know your thoughts' invites the recipient to reply."
+    },
+    {
+      "id": "adm-a1-w27-ex25",
+      "type": "multiple-choice",
+      "prompt": "What does 'I am writing to inquire about...' mean?",
+      "options": [
+        "Escribo para enviar...",
+        "Escribo para consultar sobre...",
+        "Escribo para borrar...",
+        "Escribo para terminar..."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Inquire about' translates to 'consultar sobre' or 'preguntar por'."
+    },
+    {
+      "id": "adm-a1-w27-ex26",
+      "type": "multiple-choice",
+      "prompt": "Which is correct for asking for help?",
+      "options": [
+        "Can you help me?",
+        "Could you help me?",
+        "I would like some help.",
+        "All of the above."
+      ],
+      "answerIndex": 3,
+      "explanation": "All three are correct ways to ask for help, with different levels of formality."
+    },
+    {
+      "id": "adm-a1-w27-ex27",
+      "type": "multiple-choice",
+      "prompt": "What is 'More information' in Spanish?",
+      "options": [
+        "Mucha información",
+        "Más información",
+        "Poca información",
+        "Nada de información"
+      ],
+      "answerIndex": 1,
+      "explanation": "'More' means 'más'."
+    },
+    {
+      "id": "adm-a1-w27-ex28",
+      "type": "multiple-choice",
+      "prompt": "Which word means 'pedir' in a professional context?",
+      "options": [
+        "Delete",
+        "Request",
+        "Reply",
+        "Save"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Request' is the formal verb for 'pedir'."
+    },
+    {
+      "id": "adm-a1-w27-ex29",
+      "type": "multiple-choice",
+      "prompt": "If you need a file 'by Friday', you are setting a:",
+      "options": [
+        "Subject",
+        "Deadline",
+        "Closing",
+        "Greeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'deadline' is the time or date by which something must be done."
+    },
+    {
+      "id": "adm-a1-w27-ex30",
+      "type": "multiple-choice",
+      "prompt": "How do you end an email after making a request?",
+      "options": [
+        "Hello again,",
+        "Thank you for your help,",
+        "I am writing to ask,",
+        "Could you please,"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thanking the person for their help is a standard way to end a request email."
+    },
+    {
+      "id": "adm-a1-w27-ex31",
+      "type": "fill-in-the-blanks",
+      "prompt": "________ (Podría) you please send me the report?",
+      "correctAnswer": "Could",
+      "explanation": "'Could' is the formal modal for making requests."
+    },
+    {
+      "id": "adm-a1-w27-ex32",
+      "type": "fill-in-the-blanks",
+      "prompt": "I would ________ (gustaría) to know more about the project.",
+      "correctAnswer": "like",
+      "explanation": "'I would like to' means 'Me gustaría'."
+    },
+    {
+      "id": "adm-a1-w27-ex33",
+      "type": "fill-in-the-blanks",
+      "prompt": "Please ________ (déjame/avísame) me know if you are available.",
+      "correctAnswer": "let",
+      "explanation": "'Please let me know' is a standard follow-up request."
+    },
+    {
+      "id": "adm-a1-w27-ex34",
+      "type": "fill-in-the-blanks",
+      "prompt": "Can you ________ (ayudar) me with this task?",
+      "correctAnswer": "help",
+      "explanation": "Use the base form of the verb after 'can'."
+    },
+    {
+      "id": "adm-a1-w27-ex35",
+      "type": "fill-in-the-blanks",
+      "prompt": "I am writing to ________ (preguntar/consultar) about the prices.",
+      "correctAnswer": "ask",
+      "explanation": "'Ask' or 'inquire' is used to start a request for information."
+    },
+    {
+      "id": "adm-a1-w27-ex36",
+      "type": "fill-in-the-blanks",
+      "prompt": "I ________ (agradecería) it if you could reply ASAP.",
+      "correctAnswer": "would appreciate",
+      "explanation": "'I would appreciate it...' is a very polite expression."
+    },
+    {
+      "id": "adm-a1-w27-ex37",
+      "type": "fill-in-the-blanks",
+      "prompt": "Could you ________ (por favor) send the file?",
+      "correctAnswer": "please",
+      "explanation": "'Please' adds courtesy to the request."
+    },
+    {
+      "id": "adm-a1-w27-ex38",
+      "type": "fill-in-the-blanks",
+      "prompt": "I am looking ________ (para) more information.",
+      "correctAnswer": "for",
+      "explanation": "'Look for' means 'buscar'."
+    },
+    {
+      "id": "adm-a1-w27-ex39",
+      "type": "fill-in-the-blanks",
+      "prompt": "Please ________ (enviar) the document by tomorrow.",
+      "correctAnswer": "send",
+      "explanation": "Imperative form for a direct but polite request."
+    },
+    {
+      "id": "adm-a1-w27-ex40",
+      "type": "fill-in-the-blanks",
+      "prompt": "Could you ________ (decirme) me the meeting time?",
+      "correctAnswer": "tell",
+      "explanation": "'Tell' is used to provide information."
+    },
+    {
+      "id": "adm-a1-w27-ex41",
+      "type": "fill-in-the-blanks",
+      "prompt": "I would like to ________ (solicitar) a copy of the contract.",
+      "correctAnswer": "request",
+      "explanation": "'Request' is the formal verb for 'pedir'."
+    },
+    {
+      "id": "adm-a1-w27-ex42",
+      "type": "fill-in-the-blanks",
+      "prompt": "Thank you for ________ (tu) help.",
+      "correctAnswer": "your",
+      "explanation": "'Your' is the possessive adjective for 'tú/usted'."
+    },
+    {
+      "id": "adm-a1-w27-ex43",
+      "type": "fill-in-the-blanks",
+      "prompt": "Can you ________ (proporcionar) the details?",
+      "correctAnswer": "provide",
+      "explanation": "'Provide' is a professional synonym for 'give'."
+    },
+    {
+      "id": "adm-a1-w27-ex44",
+      "type": "fill-in-the-blanks",
+      "prompt": "I ________ (necesito) some assistance with the inbox.",
+      "correctAnswer": "need",
+      "explanation": "'Need' is a direct way to state a requirement."
+    },
+    {
+      "id": "adm-a1-w27-ex45",
+      "type": "fill-in-the-blanks",
+      "prompt": "I am writing to ________ (inquirir/consultar) about the status.",
+      "correctAnswer": "inquire",
+      "explanation": "'Inquire' is a formal verb for asking."
+    },
+    {
+      "id": "adm-a1-w27-ex46",
+      "type": "matching",
+      "prompt": "Match the English phrases with their Spanish meanings:",
       "pairs": [
-        { "term": "EUR", "definition": "Euro Pot" },
-        { "term": "GBP", "definition": "Pound Pot" },
-        { "term": "USD", "definition": "Dollar Pot" }
+        { "term": "Could you please...?", "definition": "¿Podría por favor...?" },
+        { "term": "I would like to know...", "definition": "Me gustaría saber..." },
+        { "term": "Please let me know...", "definition": "Por favor avíseme..." },
+        { "term": "I am writing to ask...", "definition": "Escribo para preguntar..." }
+      ],
+      "explanation": "These are essential building blocks for making requests in English."
+    },
+    {
+      "id": "adm-a1-w27-ex47",
+      "type": "matching",
+      "prompt": "Match the verbs with their professional synonyms:",
+      "pairs": [
+        { "term": "Ask", "definition": "Inquire" },
+        { "term": "Give", "definition": "Provide" },
+        { "term": "Want", "definition": "Would like" },
+        { "term": "Help", "definition": "Assist" }
+      ],
+      "explanation": "Using professional synonyms improves the tone of your emails."
+    },
+    {
+      "id": "adm-a1-w27-ex48",
+      "type": "matching",
+      "prompt": "Match the request with the object:",
+      "pairs": [
+        { "term": "Could you send...", "definition": "the report?" },
+        { "term": "I would like to ask...", "definition": " a question." },
+        { "term": "Please let me know...", "definition": "your availability." },
+        { "term": "Can you help me...", "definition": "with the printer?" }
+      ],
+      "explanation": "Common combinations used in administrative requests."
+    },
+    {
+      "id": "adm-a1-w27-ex49",
+      "type": "matching",
+      "prompt": "Match the request to the level of formality:",
+      "pairs": [
+        { "term": "Give me the file.", "definition": "Impolite/Direct" },
+        { "term": "Can you send the file?", "definition": "Informal/Neutral" },
+        { "term": "Could you please provide the file?", "definition": "Formal" },
+        { "term": "I would be grateful if you could send the file.", "definition": "Very Formal" }
+      ],
+      "explanation": "Language choice reflects the hierarchy and relationship in the workplace."
+    },
+    {
+      "id": "adm-a1-w27-ex50",
+      "type": "matching",
+      "prompt": "Match the Spanish and English request verbs:",
+      "pairs": [
+        { "term": "Enviar", "definition": "Send" },
+        { "term": "Recibir", "definition": "Receive" },
+        { "term": "Preguntar", "definition": "Ask" },
+        { "term": "Confirmar", "definition": "Confirm" }
+      ],
+      "explanation": "Basic verbs for email interactions."
+    },
+    {
+      "id": "adm-a1-w27-ex51",
+      "type": "matching",
+      "prompt": "Match the email part with its content for a request:",
+      "pairs": [
+        { "term": "Subject", "definition": "Request for Information" },
+        { "term": "Opening", "definition": "I am writing to ask about..." },
+        { "term": "Details", "definition": "Could you please send the prices?" },
+        { "term": "Closing", "definition": "Thank you for your help." }
+      ],
+      "explanation": "The flow of a request email should be logical and polite."
+    },
+    {
+      "id": "adm-a1-w27-ex52",
+      "type": "matching",
+      "prompt": "Match the time expressions for requests:",
+      "pairs": [
+        { "term": "ASAP", "definition": "As soon as possible" },
+        { "term": "By Friday", "definition": "No later than Friday" },
+        { "term": "At your convenience", "definition": "When you have time" },
+        { "term": "Immediately", "definition": "Right now" }
+      ],
+      "explanation": "Time expressions indicate how quickly you need a response."
+    },
+    {
+      "id": "adm-a1-w27-ex53",
+      "type": "matching",
+      "prompt": "Match the common office objects to request:",
+      "pairs": [
+        { "term": "Invoice", "definition": "Financial document" },
+        { "term": "Schedule", "definition": "List of times/dates" },
+        { "term": "Details", "definition": "Specific information" },
+        { "term": "Approval", "definition": "Permission to proceed" }
+      ],
+      "explanation": "These are common items requested in an administrative role."
+    },
+    {
+      "id": "adm-a1-w27-ex54",
+      "type": "matching",
+      "prompt": "Match the modal with the tone:",
+      "pairs": [
+        { "term": "Can", "definition": "Standard/Informal" },
+        { "term": "Could", "definition": "Polite/Formal" },
+        { "term": "Must", "definition": "Obligation/Command" },
+        { "term": "Would", "definition": "Hypothetical/Very Polite" }
+      ],
+      "explanation": "Modals change the 'softness' of your request."
+    },
+    {
+      "id": "adm-a1-w27-ex55",
+      "type": "matching",
+      "prompt": "Match the response to the request:",
+      "pairs": [
+        { "term": "Could you help me?", "definition": "Yes, of course." },
+        { "term": "Can you send the file?", "definition": "I will send it now." },
+        { "term": "Please let me know.", "definition": "I will check and tell you." },
+        { "term": "Thanks for the info.", "definition": "You are welcome." }
+      ],
+      "explanation": "Polite requests deserve polite responses."
+    },
+    {
+      "id": "adm-a1-w27-ex56",
+      "type": "reading",
+      "title": "Asking for Prices",
+      "text": "Subject: Inquiry about Office Supplies\n\nDear Sales Team,\n\nI am writing to ask about your prices for printer paper and ink. Could you please send me a price list? I would also like to know if you have a discount for large orders.\n\nThank you for your help.\n\nBest regards,\n\nJohn Miller",
+      "questions": [
+        {
+          "question": "What is John asking for?",
+          "options": ["A job", "A price list", "A printer"],
+          "answerIndex": 1,
+          "explanation": "He asks: 'Could you please send me a price list?'"
+        },
+        {
+          "question": "What else does he want to know?",
+          "options": ["The office location", "If there is a discount", "The manager's name"],
+          "answerIndex": 1,
+          "explanation": "He says: 'I would also like to know if you have a discount'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Inquiry", "definition": "Consulta" },
+        { "term": "Discount", "definition": "Descuento" }
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "How ________ Euros do you need for your trip?",
-      "options": ["much", "many", "often", "long"],
-      "correctAnswer": 1,
-      "explanation": "We use 'many' with specific currencies like 'Euros' because they are countable."
-    },
-    {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "The rate is ________. It is the exact value right now.",
-      "answer": "real-time",
-      "explanation": "'Real-time' means it is updated instantly."
-    },
-    {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "What is a 'Conversion'?",
-      "options": ["Spending money", "Changing one currency into another", "Losing your card", "Saving money"],
-      "correctAnswer": 1,
-      "explanation": "Currency conversion is the process of swapping one currency for another."
-    },
-    {
-      "id": "ex7",
-      "type": "vocabulary-match",
-      "question": "Match the exchange terms:",
-      "pairs": [
-        { "term": "Fee", "definition": "The cost of the service" },
-        { "term": "Rate", "definition": "The value of the currency" },
-        { "term": "Markup", "definition": "An extra hidden cost" }
+      "id": "adm-a1-w27-ex57",
+      "type": "reading",
+      "title": "A Polite Request to a Colleague",
+      "text": "Hi Sarah,\n\nCould you please help me with the monthly report? I need the sales data from June. Please let me know if you can send it today.\n\nThanks,\n\nMark",
+      "questions": [
+        {
+          "question": "What data does Mark need?",
+          "options": ["Sales data from May", "Sales data from June", "The whole report"],
+          "answerIndex": 1,
+          "explanation": "He specifically asks for 'sales data from June'."
+        },
+        {
+          "question": "When does he want it?",
+          "options": ["Today", "Tomorrow", "Next week"],
+          "answerIndex": 0,
+          "explanation": "He asks: 'if you can send it today'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Monthly", "definition": "Mensual" },
+        { "term": "Data", "definition": "Datos" }
       ]
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "How ________ is the conversion fee?",
-      "answer": "much",
-      "explanation": "We use 'How much' to ask for prices or costs."
-    },
-    {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "Which is your 'Base Currency' if you live in Spain?",
-      "options": ["Dollar", "Yen", "Euro", "Pound"],
-      "correctAnswer": 2,
-      "explanation": "The base currency is usually the one you use at home."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "How ________ dollars can I get for 100 euros?",
-      "answer": "many",
-      "explanation": "Dollars are countable."
-    },
-    {
-      "id": "ex11",
-      "type": "vocabulary-match",
-      "question": "Match the fintech terms:",
-      "pairs": [
-        { "term": "FX", "definition": "Foreign Exchange" },
-        { "term": "Transparent", "definition": "No hidden secrets" },
-        { "term": "Target", "definition": "The currency you want to get" }
+      "id": "adm-a1-w27-ex58",
+      "type": "reading",
+      "title": "Formal and Informal Requests",
+      "text": "In English, there are different ways to ask for things. To a friend, you can say 'Can you...?'. To a boss or a client, 'Could you...?' or 'I would like...' is better. It is important to use 'please' and 'thank you' to be professional.",
+      "questions": [
+        {
+          "question": "Which word is better for a boss?",
+          "options": ["Can", "Could", "Give"],
+          "answerIndex": 1,
+          "explanation": "The text says 'Could you...?' is better for a boss."
+        },
+        {
+          "question": "What two words are important for professionalism?",
+          "options": ["Now and Fast", "Please and Thank you", "Send and Receive"],
+          "answerIndex": 1,
+          "explanation": "The text mentions 'please' and 'thank you'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Ways", "definition": "Maneras/Formas" },
+        { "term": "Relationship", "definition": "Relación" }
       ]
     },
     {
-      "id": "ex12",
-      "type": "multiple-choice",
-      "question": "Choose the correct sentence:",
-      "options": ["How much dollars do you have?", "How many money do you have?", "How many dollars do you have?", "How much euro do you have?"],
-      "correctAnswer": 2,
-      "explanation": "'How many' goes with 'dollars' (plural countable)."
-    },
-    {
-      "id": "ex13",
-      "type": "fill-in-the-blank",
-      "question": "I use the 'USD ________' to pay in New York.",
-      "answer": "pot",
-      "explanation": "In multi-currency apps, 'pots' or 'pockets' hold different currencies."
-    },
-    {
-      "id": "ex14",
-      "type": "multiple-choice",
-      "question": "Why is 'Transparent' good for customers?",
-      "options": ["It is invisible", "It is expensive", "It shows all costs clearly", "It is very slow"],
-      "correctAnswer": 2,
-      "explanation": "Transparency means there are no hidden fees."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the symbols:",
-      "pairs": [
-        { "term": "$", "definition": "Dollar" },
-        { "term": "€", "definition": "Euro" },
-        { "term": "£", "definition": "Pound" }
+      "id": "adm-a1-w27-ex59",
+      "type": "reading",
+      "title": "The Missing Attachment",
+      "text": "Dear Mr. Brown,\n\nI received your email, but the attachment is missing. Could you please resend the file? I would like to review it before the meeting.\n\nThank you,\n\nAlice",
+      "questions": [
+        {
+          "question": "What is the problem?",
+          "options": ["The email is too long", "The attachment is missing", "Alice is busy"],
+          "answerIndex": 1,
+          "explanation": "Alice says 'the attachment is missing'."
+        },
+        {
+          "question": "What does Alice ask Mr. Brown to do?",
+          "options": ["Delete the email", "Resend the file", "Call her"],
+          "answerIndex": 1,
+          "explanation": "She asks: 'Could you please resend the file?'"
+        }
+      ],
+      "vocabulary": [
+        { "term": "Missing", "definition": "Faltante" },
+        { "term": "Resend", "definition": "Volver a enviar" }
       ]
     },
     {
-      "id": "ex16",
-      "type": "fill-in-the-blank",
-      "question": "Don't pay the ________. It is an unfair hidden cost.",
-      "answer": "markup",
-      "explanation": "A markup is an extra percentage some banks add to the real rate."
-    },
-    {
-      "id": "ex17",
-      "type": "multiple-choice",
-      "question": "If you are 'swapping' EUR for GBP, you are...",
-      "options": ["Converting money", "Depositing cash", "Logging out", "Checking biometrics"],
-      "correctAnswer": 0,
-      "explanation": "'Swapping' or 'exchanging' is converting."
-    },
-    {
-      "id": "ex18",
-      "type": "fill-in-the-blank",
-      "question": "I need to check the ________ rate before I buy.",
-      "answer": "live",
-      "explanation": "'Live' or 'Real-time' rates are current."
-    },
-    {
-      "id": "ex19",
-      "type": "multiple-choice",
-      "question": "Which is uncountable?",
-      "options": ["Coin", "Note", "Money", "Dollar"],
-      "correctAnswer": 2,
-      "explanation": "In English, 'money' is uncountable, but 'dollars' and 'coins' are countable."
-    },
-    {
-      "id": "ex20",
-      "type": "vocabulary-match",
-      "question": "Match the conversion steps:",
-      "pairs": [
-        { "term": "Step 1", "definition": "Select currency" },
-        { "term": "Step 2", "definition": "Check live rate" },
-        { "term": "Step 3", "definition": "Confirm and swap" }
+      "id": "adm-a1-w27-ex60",
+      "type": "reading",
+      "title": "Requesting a Meeting",
+      "text": "I would like to request a meeting with the director. I am writing to inquire about his availability for next Monday. Could you please let me know a good time?\n\nBest regards,\n\nSarah Jenkins",
+      "questions": [
+        {
+          "question": "Who does Sarah want to meet?",
+          "options": ["The secretary", "The director", "The accountant"],
+          "answerIndex": 1,
+          "explanation": "She wants a meeting 'with the director'."
+        },
+        {
+          "question": "What day does she suggest?",
+          "options": ["Today", "Friday", "Next Monday"],
+          "answerIndex": 2,
+          "explanation": "She mentions 'next Monday'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Availability", "definition": "Disponibilidad" },
+        { "term": "Inquire", "definition": "Consultar" }
       ]
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "How ________ is 1 Euro in Yen today?",
-      "answer": "much",
-      "explanation": "Asking for value/price."
-    },
-    {
-      "id": "ex22",
-      "type": "multiple-choice",
-      "question": "A 'Global Account' is good for...",
-      "options": ["Only local people", "International travelers", "People with no money", "Physical banks"],
-      "correctAnswer": 1,
-      "explanation": "Global or multi-currency accounts are perfect for travelers."
-    },
-    {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "I have $50 ________ my USD pocket.",
-      "answer": "in",
-      "explanation": "We use 'in' for containers or digital pots."
-    },
-    {
-      "id": "ex24",
-      "type": "vocabulary-match",
-      "question": "Currency names:",
-      "pairs": [
-        { "term": "Yen", "definition": "Japan" },
-        { "term": "Franc", "definition": "Switzerland" },
-        { "term": "Peso", "definition": "Mexico / Argentina" }
+      "id": "adm-a1-w27-ex61",
+      "type": "reading",
+      "title": "Asking for Help",
+      "text": "The new software is difficult. I don't understand how to use it. Could you please provide some instructions? I would appreciate your assistance with this matter.",
+      "questions": [
+        {
+          "question": "What does the person need?",
+          "options": ["A new computer", "Instructions", "A vacation"],
+          "answerIndex": 1,
+          "explanation": "The person asks for 'instructions'."
+        },
+        {
+          "question": "How does the person feel about the software?",
+          "options": ["It is easy", "It is difficult", "It is fun"],
+          "answerIndex": 1,
+          "explanation": "The text says 'The new software is difficult'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Software", "definition": "Programa/Software" },
+        { "term": "Instructions", "definition": "Instrucciones" }
       ]
     },
     {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "What happens if the rate is '1 EUR = 1.10 USD'?",
-      "options": ["EUR is stronger", "USD is stronger", "They are equal", "The bank is closed"],
-      "correctAnswer": 0,
-      "explanation": "If 1 Euro buys more than 1 Dollar, the Euro has more value."
+      "id": "adm-a1-w27-ex62",
+      "type": "reading",
+      "title": "Office Protocol",
+      "text": "When you need something from another department, always send a formal request. Use a clear subject line like 'Request for [Item]'. State what you need and why. Always end with a polite closing.",
+      "questions": [
+        {
+          "question": "What should the subject line be?",
+          "options": ["Hello", "Request for [Item]", "Urgent!"],
+          "answerIndex": 1,
+          "explanation": "The text suggests 'Request for [Item]'."
+        },
+        {
+          "question": "What should you state in the email?",
+          "options": ["Your salary", "What you need and why", "Your lunch plans"],
+          "answerIndex": 1,
+          "explanation": "It says 'State what you need and why'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Protocol", "definition": "Protocolo" },
+        { "term": "State", "definition": "Declarar/Indicar" }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex63",
+      "type": "reading",
+      "title": "Asking for an Invoice",
+      "text": "Dear Accounts Department,\n\nI am writing to request the invoice for our last order. Could you please send it to this email address? I need it for our records.\n\nThank you,\n\nMark Wilson",
+      "questions": [
+        {
+          "question": "Who is Mark writing to?",
+          "options": ["The Sales team", "The Accounts department", "The IT team"],
+          "answerIndex": 1,
+          "explanation": "He addresses 'Dear Accounts Department'."
+        },
+        {
+          "question": "What does he need?",
+          "options": ["The product", "The invoice", "The delivery date"],
+          "answerIndex": 1,
+          "explanation": "He is 'writing to request the invoice'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Invoice", "definition": "Factura" },
+        { "term": "Records", "definition": "Registros/Archivos" }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex64",
+      "type": "reading",
+      "title": "Polite modals",
+      "text": "'Could you' is more polite than 'Can you'. We often use 'Could' when we ask for a favor or when we speak to someone we don't know well. 'Can' is more direct. In a professional email, 'Could' is always the safer choice.",
+      "questions": [
+        {
+          "question": "Which is more polite?",
+          "options": ["Can you", "Could you", "Do you"],
+          "answerIndex": 1,
+          "explanation": "The text says 'Could you' is more polite."
+        },
+        {
+          "question": "When do we use 'Could'?",
+          "options": ["When we ask for a favor", "When we speak to strangers", "Both A and B"],
+          "answerIndex": 2,
+          "explanation": "The text mentions both favors and people we don't know well."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Favor", "definition": "Favor" },
+        { "term": "Safer", "definition": "Más segura" }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex65",
+      "type": "reading",
+      "title": "Information Request",
+      "text": "I would like to know if the office is open on Saturday. Could you please confirm the opening hours? I need to pick up some documents.\n\nRegards,\n\nElena",
+      "questions": [
+        {
+          "question": "What does Elena want to know?",
+          "options": ["The office address", "The opening hours on Saturday", "The manager's name"],
+          "answerIndex": 1,
+          "explanation": "She asks for 'opening hours' on Saturday."
+        },
+        {
+          "question": "Why is she asking?",
+          "options": ["To have a meeting", "To pick up documents", "To clean the office"],
+          "answerIndex": 1,
+          "explanation": "She says 'I need to pick up some documents'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Confirm", "definition": "Confirmar" },
+        { "term": "Pick up", "definition": "Recoger" }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex66",
+      "type": "listening",
+      "title": "Listening: Requesting a File",
+      "transcript": "Speaker: Hi Peter, could you please send me the sales report for this week? I need it for the meeting tomorrow morning. Thank you!",
+      "questions": [
+        {
+          "question": "What file does the speaker need?",
+          "options": ["The price list", "The sales report", "A contact list"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks for 'the sales report'."
+        },
+        {
+          "question": "When is the meeting?",
+          "options": ["Today", "Tomorrow morning", "Friday afternoon"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'for the meeting tomorrow morning'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex67",
+      "type": "listening",
+      "title": "Listening: Asking for Information",
+      "transcript": "Speaker: Hello, I am writing to inquire about your services. I would like to know the cost of the basic plan. Could you please provide more details?",
+      "questions": [
+        {
+          "question": "What is the speaker inquiring about?",
+          "options": ["A job", "Services", "A refund"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'to inquire about your services'."
+        },
+        {
+          "question": "What specific information is requested?",
+          "options": ["The cost of the basic plan", "The manager's phone", "The office address"],
+          "answerIndex": 0,
+          "explanation": "The speaker asks for 'the cost of the basic plan'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex68",
+      "type": "listening",
+      "title": "Listening: Polite Modal",
+      "transcript": "Speaker: Remember, when you talk to the client, don't say 'I want the info'. Use 'I would like to request the information' or 'Could you please provide the information?'. It's much better.",
+      "questions": [
+        {
+          "question": "What phrase should you avoid?",
+          "options": ["I would like", "I want", "Could you"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'don't say I want'."
+        },
+        {
+          "question": "What is the speaker's advice?",
+          "options": ["Be direct", "Be polite", "Be fast"],
+          "answerIndex": 1,
+          "explanation": "The speaker recommends polite, professional phrases."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex69",
+      "type": "listening",
+      "title": "Listening: Requesting Help",
+      "transcript": "Speaker: Could you help me with the new printer, please? I don't know how to add more paper. I would appreciate it!",
+      "questions": [
+        {
+          "question": "What does the speaker need help with?",
+          "options": ["The computer", "The printer", "The phone"],
+          "answerIndex": 1,
+          "explanation": "The speaker mentions 'the new printer'."
+        },
+        {
+          "question": "What is the specific problem?",
+          "options": ["The printer is slow", "The speaker doesn't know how to add paper", "The ink is finished"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'I don't know how to add more paper'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex70",
+      "type": "listening",
+      "title": "Listening: Asking for a Date",
+      "transcript": "Speaker: I would like to know the date of the next training session. Could you please let me know by the end of the day?",
+      "questions": [
+        {
+          "question": "What date is requested?",
+          "options": ["The holiday", "The next training session", "The boss's birthday"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks for the 'date of the next training session'."
+        },
+        {
+          "question": "What is the deadline for the response?",
+          "options": ["ASAP", "By the end of the day", "Next week"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks to know 'by the end of the day'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex71",
+      "type": "listening",
+      "title": "Listening: Requesting a Document",
+      "transcript": "Speaker: Hello, could you please forward the contract to me? I would like to read it before I sign it. Thanks for your assistance.",
+      "questions": [
+        {
+          "question": "What document is requested?",
+          "options": ["An invoice", "A contract", "A letter"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'forward the contract'."
+        },
+        {
+          "question": "Why does the speaker want it?",
+          "options": ["To delete it", "To read it before signing", "To send it to a friend"],
+          "answerIndex": 1,
+          "explanation": "The speaker wants to 'read it before I sign it'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex72",
+      "type": "listening",
+      "title": "Listening: Urgent Request",
+      "transcript": "Speaker: Mark, I need the password for the shared folder. Could you please send it to me ASAP? It's very urgent. Thank you!",
+      "questions": [
+        {
+          "question": "What does the speaker need?",
+          "options": ["A key", "A password", "A file"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks for 'the password for the shared folder'."
+        },
+        {
+          "question": "How urgent is the request?",
+          "options": ["Not urgent", "Very urgent (ASAP)", "Next week is fine"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'It's very urgent'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex73",
+      "type": "listening",
+      "title": "Listening: Asking for a Call",
+      "transcript": "Speaker: I have some questions about the invoice. Could you please give me a call when you have a moment? My number is 555-0123.",
+      "questions": [
+        {
+          "question": "What does the speaker want?",
+          "options": ["An email", "A phone call", "A meeting"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks to 'give me a call'."
+        },
+        {
+          "question": "What is the topic of the questions?",
+          "options": ["The weather", "The invoice", "The new boss"],
+          "answerIndex": 1,
+          "explanation": "The speaker has questions 'about the invoice'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex74",
+      "type": "listening",
+      "title": "Listening: Inquiring about Availability",
+      "transcript": "Speaker: I would like to schedule a short meeting. Could you please let me know your availability for tomorrow afternoon?",
+      "questions": [
+        {
+          "question": "What does the speaker want to schedule?",
+          "options": ["A lunch", "A meeting", "A trip"],
+          "answerIndex": 1,
+          "explanation": "The speaker wants to 'schedule a short meeting'."
+        },
+        {
+          "question": "What time is suggested?",
+          "options": ["Tomorrow morning", "Tomorrow afternoon", "Next week"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks about 'tomorrow afternoon'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w27-ex75",
+      "type": "listening",
+      "title": "Listening: Requesting a Correction",
+      "transcript": "Speaker: There is a mistake in my name on the ID card. Could you please correct it and send me a new one? I would appreciate it.",
+      "questions": [
+        {
+          "question": "What is wrong?",
+          "options": ["The photo", "A mistake in the name", "The card is lost"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'There is a mistake in my name'."
+        },
+        {
+          "question": "What is the request?",
+          "options": ["Delete the card", "Correct it and send a new one", "Give a refund"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks to 'correct it and send me a new one'."
+        }
+      ]
     }
   ]
 }

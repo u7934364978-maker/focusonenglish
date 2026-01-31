@@ -6,126 +6,661 @@
   "title": "Remote Work & Virtual Cards",
   "items": [
     {
-      "id": "fin-a1-w22-1",
-      "type": "multipleChoice",
-      "prompt": "Working from home is called ______ work.",
-      "options": ["Office", "Remote", "Local"],
-      "answerIndex": 1,
-      "explanation": "Trabajar desde casa se llama 'remote work'."
-    },
-    {
-      "id": "fin-a1-w22-2",
-      "type": "multipleChoice",
-      "prompt": "A card that exists only in your phone is a ______ card.",
-      "options": ["Plastic", "Metal", "Virtual"],
-      "answerIndex": 2,
-      "explanation": "Una tarjeta que solo existe en el móvil es una 'virtual card'."
-    },
-    {
-      "id": "fin-a1-w22-3",
-      "type": "fillBlanks",
-      "prompt": "I need a [blank] for my laptop expense.",
-      "answers": ["receipt"],
-      "explanation": "Necesitas el recibo (receipt) para justificar un gasto."
-    },
-    {
-      "id": "fin-a1-w22-4",
-      "type": "multipleChoice",
-      "prompt": "When the company pays you back for an expense, it is a ______.",
-      "options": ["Reimbursement", "Subscription", "Tax"],
+      "id": "adm-a1-w22-01",
+      "type": "multiple-choice",
+      "prompt": "If you work from home, you are working ______.",
+      "options": ["Remotely", "In the office", "On the street"],
       "answerIndex": 0,
-      "explanation": "Cuando la empresa te devuelve el dinero de un gasto, es un 'reimbursement'."
+      "explanation": "Remote work means working from home or another location outside the office."
     },
     {
-      "id": "fin-a1-w22-5",
-      "type": "matching",
-      "prompt": "Match the terms with their meanings:",
-      "pairs": [
-        { "left": "Remote Work", "right": "Work from home" },
-        { "left": "Virtual Card", "right": "Digital-only card" },
-        { "left": "Expense", "right": "Money spent for work" },
-        { "left": "Disposable", "right": "One-time use" }
+      "id": "adm-a1-w22-02",
+      "type": "multiple-choice",
+      "prompt": "A ______ is a digital card with no physical form.",
+      "options": ["Plastic card", "Virtual card", "Paper card"],
+      "answerIndex": 1,
+      "explanation": "A virtual card exists only in a digital app."
+    },
+    {
+      "id": "adm-a1-w22-03",
+      "type": "fill-blank",
+      "prompt": "Could I have a [blank] for my internet bill?",
+      "blankValidation": [
+        { "index": 0, "answers": ["reimbursement", "refund"], "caseSensitive": false }
       ],
-      "explanation": "Relaciona los términos con sus significados."
+      "explanation": "Reimbursement is when the company pays you back for an expense."
     },
     {
-      "id": "fin-a1-w22-6",
-      "type": "fillBlanks",
-      "prompt": "Could I [blank] a virtual card, please?",
-      "answers": ["create", "request", "have"],
-      "explanation": "¿Podría crear/pedir una tarjeta virtual?"
+      "id": "adm-a1-w22-04",
+      "type": "multiple-choice",
+      "prompt": "A card that you use once and then it disappears is a ______ card.",
+      "options": ["Permanent", "Disposable", "Credit"],
+      "answerIndex": 1,
+      "explanation": "Disposable cards are for one-time use to increase security."
     },
     {
-      "id": "fin-a1-w22-7",
+      "id": "adm-a1-w22-05",
+      "type": "matching",
+      "prompt": "Match the remote work terms:",
+      "matchingData": [
+        { "left": "Expense", "right": "Money spent for work" },
+        { "left": "Receipt", "right": "Proof of payment" },
+        { "left": "Remote", "right": "Away from office" },
+        { "left": "Home office", "right": "Workspace at home" }
+      ],
+      "explanation": "Relaciona los términos de trabajo remoto con sus significados."
+    },
+    {
+      "id": "adm-a1-w22-06",
+      "type": "fill-blank",
+      "prompt": "I need to [blank] my receipt to the app.",
+      "blankValidation": [
+        { "index": 0, "answers": ["upload", "send", "attach"], "caseSensitive": false }
+      ],
+      "explanation": "Debes subir (upload) o adjuntar el recibo para justificar el gasto."
+    },
+    {
+      "id": "adm-a1-w22-07",
       "type": "reorder",
       "prompt": "Reorder the request:",
-      "sentence": "Could I have a reimbursement",
-      "explanation": "¿Podría tener un reembolso?"
+      "sentence": "Could I create a virtual card?",
+      "explanation": "¿Podría crear una tarjeta virtual?"
     },
     {
-      "id": "fin-a1-w22-8",
-      "type": "multipleChoice",
-      "prompt": "A 'Disposable' card is for ______ use.",
-      "options": ["Ten-time", "One-time", "Monthly"],
+      "id": "adm-a1-w22-08",
+      "type": "multiple-choice",
+      "prompt": "A 'Business Expense' is ______.",
+      "options": ["A personal gift", "Something you buy for work", "Your monthly salary"],
       "answerIndex": 1,
-      "explanation": "Una tarjeta desechable (disposable) es de un solo uso."
+      "explanation": "Un gasto de empresa es algo que compras para desempeñar tu trabajo."
     },
     {
-      "id": "fin-a1-w22-9",
-      "type": "writing",
-      "prompt": "Write the English word for 'Gasto'.",
-      "validation": "Expense",
-      "explanation": "Gasto se dice 'expense' en un contexto de negocios."
+      "id": "adm-a1-w22-09",
+      "type": "fill-blank",
+      "prompt": "Working from a [blank] is common for remote workers.",
+      "blankValidation": [
+        { "index": 0, "answers": ["cafe", "home", "library"], "caseSensitive": false }
+      ],
+      "explanation": "Trabajar desde una cafetería o casa es común en el trabajo remoto."
     },
     {
-      "id": "fin-a1-w22-10",
+      "id": "adm-a1-w22-10",
       "type": "roleplay",
-      "prompt": "Ask your boss for a new monitor for your home office.",
-      "scenario": "Employee: Hello. I am working from home now.\nBoss: Do you need anything?\nEmployee: ______",
+      "prompt": "You bought a keyboard for work. What do you say to your manager?",
+      "scenario": "You: I have the receipt for the keyboard.\nManager: Okay, please upload it.\nYou: ______",
       "options": [
-        "Could I have a new monitor as an expense?",
-        "Where is the coffee machine?",
-        "I like the office."
+        "Could I have a reimbursement, please?",
+        "No, I don't want the money.",
+        "The keyboard is red."
       ],
       "answerIndex": 0,
-      "explanation": "Petición educada: 'Could I have a new monitor as an expense?'."
+      "explanation": "Pides un reembolso de forma educada: 'Could I have a reimbursement, please?'."
     },
     {
-      "id": "fin-a1-w22-11",
-      "type": "multipleChoice",
-      "prompt": "Where do you find your virtual card number?",
-      "options": ["On a plastic card", "In the bank app", "In your email"],
+      "id": "adm-a1-w22-11",
+      "type": "multiple-choice",
+      "prompt": "What is 'Instant Activation'?",
+      "options": ["Waiting 5 days", "Using the card immediately", "The card is broken"],
       "answerIndex": 1,
-      "explanation": "Los datos de la tarjeta virtual están en la app del banco."
+      "explanation": "Activación instantánea significa que puedes usarla al momento."
     },
     {
-      "id": "fin-a1-w22-12",
-      "type": "fillBlanks",
-      "prompt": "I work [blank] from my house.",
-      "answers": ["remotely"],
-      "explanation": "Trabajo de forma remota (remotely)."
+      "id": "adm-a1-w22-12",
+      "type": "fill-blank",
+      "prompt": "Virtual cards are [blank] for online shopping.",
+      "blankValidation": [
+        { "index": 0, "answers": ["safer", "secure", "safe", "better"], "caseSensitive": false }
+      ],
+      "explanation": "Las tarjetas virtuales son más seguras para compras online."
     },
     {
-      "id": "fin-a1-w22-13",
+      "id": "adm-a1-w22-13",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
-      "sentence": "My virtual card is ready",
-      "explanation": "Mi tarjeta virtual está lista."
+      "sentence": "I work from home today",
+      "explanation": "Hoy trabajo desde casa."
     },
     {
-      "id": "fin-a1-w22-14",
-      "type": "multipleChoice",
-      "prompt": "Which one is a business expense?",
-      "options": ["A pizza for dinner", "A new office chair", "A movie ticket"],
+      "id": "adm-a1-w22-14",
+      "type": "multiple-choice",
+      "prompt": "What do you need to prove an expense?",
+      "options": ["A photo of your cat", "A receipt", "A valid passport"],
       "answerIndex": 1,
-      "explanation": "Una silla de oficina es un gasto de negocio."
+      "explanation": "Necesitas un recibo (receipt) para justificar un gasto."
     },
     {
-      "id": "fin-a1-w22-15",
-      "type": "fillBlanks",
-      "prompt": "Can I use [blank] pay for this?",
-      "answers": ["auto", "virtual"],
-      "explanation": "Puedes usar 'auto pay' o 'virtual card'."
+      "id": "adm-a1-w22-15",
+      "type": "fill-blank",
+      "prompt": "This is a [blank] use virtual card.",
+      "blankValidation": [
+        { "index": 0, "answers": ["one-time", "single"], "caseSensitive": false }
+      ],
+      "explanation": "Esta es una tarjeta virtual de un solo uso."
+    },
+    {
+      "id": "adm-a1-w22-16",
+      "type": "matching",
+      "prompt": "Match the safety features:",
+      "matchingData": [
+        { "left": "Virtual Card", "right": "Digital only" },
+        { "left": "Disposable", "right": "Disappears after use" },
+        { "left": "Spending Limit", "right": "Maximum money allowed" },
+        { "left": "Freeze Card", "right": "Stop all payments" }
+      ],
+      "explanation": "Características de seguridad de las tarjetas digitales."
+    },
+    {
+      "id": "adm-a1-w22-17",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'I need to pay for the internet'. What is the person's expense?",
+      "options": ["Travel", "Internet bill", "New laptop"],
+      "answerIndex": 1,
+      "explanation": "La persona necesita pagar la factura de internet."
+    },
+    {
+      "id": "adm-a1-w22-18",
+      "type": "fill-blank",
+      "prompt": "Set a [blank] of $50 for this card.",
+      "blankValidation": [
+        { "index": 0, "answers": ["limit", "maximum"], "caseSensitive": false }
+      ],
+      "explanation": "Establece un límite de 50$ para esta tarjeta."
+    },
+    {
+      "id": "adm-a1-w22-19",
+      "type": "reorder",
+      "prompt": "Reorder the request:",
+      "sentence": "Could I have a new laptop?",
+      "explanation": "¿Podría tener un portátil nuevo?"
+    },
+    {
+      "id": "adm-a1-w22-20",
+      "type": "multiple-choice",
+      "prompt": "Grammar: ______ I use the company card?",
+      "options": ["Could", "Am", "Is"],
+      "answerIndex": 0,
+      "explanation": "Usamos 'Could' para pedir permiso de forma educada."
+    },
+    {
+      "id": "adm-a1-w22-21",
+      "type": "fill-blank",
+      "prompt": "My [blank] work schedule is flexible.",
+      "blankValidation": [
+        { "index": 0, "answers": ["remote", "daily", "weekly"], "caseSensitive": false }
+      ],
+      "explanation": "Mi horario de trabajo remoto es flexible."
+    },
+    {
+      "id": "adm-a1-w22-22",
+      "type": "multiple-choice",
+      "prompt": "Reading: 'The company provides $50 per month for home internet'. How much can you claim?",
+      "options": ["$50", "$100", "Nothing"],
+      "answerIndex": 0,
+      "explanation": "El texto dice que la empresa ofrece 50$ al mes."
+    },
+    {
+      "id": "adm-a1-w22-23",
+      "type": "matching",
+      "prompt": "Match the verbs with objects:",
+      "matchingData": [
+        { "left": "Request", "right": "A reimbursement" },
+        { "left": "Generate", "right": "A virtual card" },
+        { "left": "Scan", "right": "A receipt" },
+        { "left": "Attend", "right": "A virtual meeting" }
+      ],
+      "explanation": "Verbos y objetos comunes en administración digital."
+    },
+    {
+      "id": "adm-a1-w22-24",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'Could I get the receipt from the cafe?'. What does the person want?",
+      "options": ["A coffee", "A document for proof of payment", "A virtual card"],
+      "answerIndex": 1,
+      "explanation": "La persona pide el recibo de la cafetería."
+    },
+    {
+      "id": "adm-a1-w22-25",
+      "type": "fill-blank",
+      "prompt": "I don't have a [blank] card, only a virtual one.",
+      "blankValidation": [
+        { "index": 0, "answers": ["physical", "plastic", "real"], "caseSensitive": false }
+      ],
+      "explanation": "No tengo una tarjeta física, solo una virtual."
+    },
+    {
+      "id": "adm-a1-w22-26",
+      "type": "reorder",
+      "prompt": "Reorder the advice:",
+      "sentence": "Keep all your work receipts",
+      "explanation": "Guarda todos tus recibos de trabajo."
+    },
+    {
+      "id": "adm-a1-w22-27",
+      "type": "multiple-choice",
+      "prompt": "Grammar: ______ you help me with the reimbursement form?",
+      "options": ["Could", "Are", "Is"],
+      "answerIndex": 0,
+      "explanation": "'Could you' para pedir ayuda educadamente."
+    },
+    {
+      "id": "adm-a1-w22-28",
+      "type": "fill-blank",
+      "prompt": "The total [blank] for the office supplies is $25.",
+      "blankValidation": [
+        { "index": 0, "answers": ["expense", "cost", "price"], "caseSensitive": false }
+      ],
+      "explanation": "El gasto total para material de oficina es de 25$."
+    },
+    {
+      "id": "adm-a1-w22-29",
+      "type": "multiple-choice",
+      "prompt": "Reading: 'Virtual cards reduce the risk of fraud'. Why use them?",
+      "options": ["To spend more money", "For better security", "To get a physical gift"],
+      "answerIndex": 1,
+      "explanation": "Se usan para mejorar la seguridad contra el fraude."
+    },
+    {
+      "id": "adm-a1-w22-30",
+      "type": "matching",
+      "prompt": "Match the expenses with categories:",
+      "matchingData": [
+        { "left": "Keyboard", "right": "Hardware" },
+        { "left": "Internet bill", "right": "Services" },
+        { "left": "Taxi to office", "right": "Travel" },
+        { "left": "Pens and paper", "right": "Office supplies" }
+      ],
+      "explanation": "Categorización de gastos de empresa."
+    },
+    {
+      "id": "adm-a1-w22-31",
+      "type": "multiple-choice",
+      "prompt": "What is 'Digital Form'?",
+      "options": ["A paper document", "An online document", "A physical card"],
+      "answerIndex": 1,
+      "explanation": "Un formulario digital es un documento online."
+    },
+    {
+      "id": "adm-a1-w22-32",
+      "type": "fill-blank",
+      "prompt": "Could I [blank] my laptop for a newer model?",
+      "blankValidation": [
+        { "index": 0, "answers": ["exchange", "swap", "change", "replace"], "caseSensitive": false }
+      ],
+      "explanation": "¿Podría cambiar o reemplazar mi portátil?"
+    },
+    {
+      "id": "adm-a1-w22-33",
+      "type": "reorder",
+      "prompt": "Reorder the instruction:",
+      "sentence": "Copy the virtual card number",
+      "explanation": "Copia el número de la tarjeta virtual."
+    },
+    {
+      "id": "adm-a1-w22-34",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'You can use the virtual card for the Zoom subscription'. How do you pay?",
+      "options": ["With cash", "With the app's digital card", "With a check"],
+      "answerIndex": 1,
+      "explanation": "Se paga con la tarjeta digital de la aplicación."
+    },
+    {
+      "id": "adm-a1-w22-35",
+      "type": "fill-blank",
+      "prompt": "Remote work saves [blank] and money.",
+      "blankValidation": [
+        { "index": 0, "answers": ["time"], "caseSensitive": false }
+      ],
+      "explanation": "El trabajo remoto ahorra tiempo y dinero."
+    },
+    {
+      "id": "adm-a1-w22-36",
+      "type": "roleplay",
+      "prompt": "You need to buy a new headset. Ask your manager politely.",
+      "scenario": "Manager: Hello! Do you need anything for your home office?\nYou: ______",
+      "options": [
+        "Could I buy a new headset, please?",
+        "Give me a headset now.",
+        "I don't need anything."
+      ],
+      "answerIndex": 0,
+      "explanation": "Pides el material de forma educada con 'Could I'."
+    },
+    {
+      "id": "adm-a1-w22-37",
+      "type": "multiple-choice",
+      "prompt": "What is 'Reimbursement Policy'?",
+      "options": ["The company rules for paying back expenses", "A type of insurance", "A travel guide"],
+      "answerIndex": 0,
+      "explanation": "Es la política o reglas de la empresa para devolver el dinero de los gastos."
+    },
+    {
+      "id": "adm-a1-w22-38",
+      "type": "fill-blank",
+      "prompt": "The [blank] card number is 16 digits long.",
+      "blankValidation": [
+        { "index": 0, "answers": ["virtual", "credit", "debit"], "caseSensitive": false }
+      ],
+      "explanation": "El número de la tarjeta (virtual o real) tiene 16 dígitos."
+    },
+    {
+      "id": "adm-a1-w22-39",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am working remotely today",
+      "explanation": "Hoy estoy trabajando de forma remota."
+    },
+    {
+      "id": "adm-a1-w22-40",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'The reimbursement will be in your account in two days'. When do you get the money?",
+      "options": ["Immediately", "In 48 hours", "Next month"],
+      "answerIndex": 1,
+      "explanation": "En dos días (48 horas) recibirás el dinero."
+    },
+    {
+      "id": "adm-a1-w22-41",
+      "type": "matching",
+      "prompt": "Match the remote tools with their functions:",
+      "matchingData": [
+        { "left": "Slack", "right": "Communication" },
+        { "left": "Zoom", "right": "Meetings" },
+        { "left": "Google Drive", "right": "File sharing" },
+        { "left": "Trello", "right": "Task management" }
+      ],
+      "explanation": "Herramientas comunes para el trabajo a distancia."
+    },
+    {
+      "id": "adm-a1-w22-42",
+      "type": "multiple-choice",
+      "prompt": "Reading: 'Always use a VPN when working from a public cafe'. Why?",
+      "options": ["To get free coffee", "To protect your connection", "To work faster"],
+      "answerIndex": 1,
+      "explanation": "Se usa una VPN para proteger la conexión en lugares públicos."
+    },
+    {
+      "id": "adm-a1-w22-43",
+      "type": "fill-blank",
+      "prompt": "Please [blank] your expense report by Friday.",
+      "blankValidation": [
+        { "index": 0, "answers": ["submit", "send", "finish"], "caseSensitive": false }
+      ],
+      "explanation": "Por favor, envía o presenta tu informe de gastos para el viernes."
+    },
+    {
+      "id": "adm-a1-w22-44",
+      "type": "reorder",
+      "prompt": "Reorder the request:",
+      "sentence": "Could I have the Wi-Fi password?",
+      "explanation": "¿Podría tener la contraseña del Wi-Fi?"
+    },
+    {
+      "id": "adm-a1-w22-45",
+      "type": "multiple-choice",
+      "prompt": "Grammar: ______ you scan the receipt for me?",
+      "options": ["Could", "Are", "Am"],
+      "answerIndex": 0,
+      "explanation": "Petición educada: 'Could you...'."
+    },
+    {
+      "id": "adm-a1-w22-46",
+      "type": "fill-blank",
+      "prompt": "A [blank] card is safer for one-time online payments.",
+      "blankValidation": [
+        { "index": 0, "answers": ["disposable", "virtual", "temporary"], "caseSensitive": false }
+      ],
+      "explanation": "Una tarjeta desechable o virtual es más segura para pagos únicos."
+    },
+    {
+      "id": "adm-a1-w22-47",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'Is your home office comfortable?'. What is the person asking about?",
+      "options": ["Your chair and desk", "Your salary", "Your family"],
+      "answerIndex": 0,
+      "explanation": "Pregunta por la comodidad de tu espacio de trabajo en casa."
+    },
+    {
+      "id": "adm-a1-w22-48",
+      "type": "matching",
+      "prompt": "Match the card details:",
+      "matchingData": [
+        { "left": "CVV", "right": "3-digit security code" },
+        { "left": "Expiry Date", "right": "Month and Year" },
+        { "left": "Cardholder", "right": "Name of the owner" },
+        { "left": "PIN", "right": "Personal number" }
+      ],
+      "explanation": "Detalles básicos de una tarjeta de pago."
+    },
+    {
+      "id": "adm-a1-w22-49",
+      "type": "multiple-choice",
+      "prompt": "What is 'Remote-first'?",
+      "options": ["The company prefers remote work", "Working in the office first", "The first day of work"],
+      "answerIndex": 0,
+      "explanation": "Remote-first significa que la empresa prioriza el trabajo remoto."
+    },
+    {
+      "id": "adm-a1-w22-50",
+      "type": "fill-blank",
+      "prompt": "You must [blank] your screen when you are in a cafe.",
+      "blankValidation": [
+        { "index": 0, "answers": ["lock", "protect", "hide"], "caseSensitive": false }
+      ],
+      "explanation": "Debes bloquear tu pantalla cuando estés en una cafetería."
+    },
+    {
+      "id": "adm-a1-w22-51",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I need a reimbursement for this",
+      "explanation": "Necesito un reembolso por esto."
+    },
+    {
+      "id": "adm-a1-w22-52",
+      "type": "multiple-choice",
+      "prompt": "Reading: 'Reimbursements are processed every Monday'. If you submit on Tuesday, when do you get the money?",
+      "options": ["The same day", "Next Monday", "In two weeks"],
+      "answerIndex": 1,
+      "explanation": "Si se procesan los lunes y lo envías el martes, será el siguiente lunes."
+    },
+    {
+      "id": "adm-a1-w22-53",
+      "type": "fill-blank",
+      "prompt": "My [blank] is not working. I need to buy a new mouse.",
+      "blankValidation": [
+        { "index": 0, "answers": ["hardware", "equipment", "computer"], "caseSensitive": false }
+      ],
+      "explanation": "Mi equipo o hardware no funciona; necesito un ratón nuevo."
+    },
+    {
+      "id": "adm-a1-w22-54",
+      "type": "multiple-choice",
+      "prompt": "Grammar: ______ I buy office supplies today?",
+      "options": ["Could", "Is", "Am"],
+      "answerIndex": 0,
+      "explanation": "Pides permiso con 'Could I'."
+    },
+    {
+      "id": "adm-a1-w22-55",
+      "type": "matching",
+      "prompt": "Match the expenses with descriptions:",
+      "matchingData": [
+        { "left": "Travel expense", "right": "Train ticket" },
+        { "left": "Hardware expense", "right": "New monitor" },
+        { "left": "Service expense", "right": "Software subscription" },
+        { "left": "Supply expense", "right": "Ink for printer" }
+      ],
+      "explanation": "Tipos de gastos y ejemplos."
+    },
+    {
+      "id": "adm-a1-w22-56",
+      "type": "multiple-choice",
+      "prompt": "What is 'Digital Wallet'?",
+      "options": ["A physical leather wallet", "An app that stores your cards", "A document folder"],
+      "answerIndex": 1,
+      "explanation": "Un monedero digital es una app que guarda tus tarjetas."
+    },
+    {
+      "id": "adm-a1-w22-57",
+      "type": "fill-blank",
+      "prompt": "The manager approved my [blank] request.",
+      "blankValidation": [
+        { "index": 0, "answers": ["expense", "reimbursement", "travel"], "caseSensitive": false }
+      ],
+      "explanation": "El gerente aprobó mi solicitud de gasto o reembolso."
+    },
+    {
+      "id": "adm-a1-w22-58",
+      "type": "reorder",
+      "prompt": "Reorder the instruction:",
+      "sentence": "Delete the disposable card now",
+      "explanation": "Borra la tarjeta desechable ahora."
+    },
+    {
+      "id": "adm-a1-w22-59",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'I'm going to work from the beach this week'. Is this remote work?",
+      "options": ["Yes", "No", "Maybe"],
+      "answerIndex": 0,
+      "explanation": "Trabajar desde cualquier lugar fuera de la oficina es trabajo remoto."
+    },
+    {
+      "id": "adm-a1-w22-60",
+      "type": "fill-blank",
+      "prompt": "Please [blank] the card details into the website.",
+      "blankValidation": [
+        { "index": 0, "answers": ["enter", "type", "copy"], "caseSensitive": false }
+      ],
+      "explanation": "Por favor, introduce o escribe los datos de la tarjeta en la web."
+    },
+    {
+      "id": "adm-a1-w22-61",
+      "type": "multiple-choice",
+      "prompt": "Reading: 'A virtual card has no magnetic stripe'. Can you use it in a physical ATM?",
+      "options": ["Yes", "No", "Only for deposits"],
+      "answerIndex": 1,
+      "explanation": "Sin banda magnética ni forma física, no se puede usar en un cajero tradicional."
+    },
+    {
+      "id": "adm-a1-w22-62",
+      "type": "matching",
+      "prompt": "Match the remote work problems with solutions:",
+      "matchingData": [
+        { "left": "No internet", "right": "Use phone hotspot" },
+        { "left": "Loud noise", "right": "Noise-cancelling headsets" },
+        { "left": "Security risk", "right": "Use VPN" },
+        { "left": "Back pain", "right": "Ergonomic chair" }
+      ],
+      "explanation": "Problemas del trabajo remoto y sus soluciones."
+    },
+    {
+      "id": "adm-a1-w22-63",
+      "type": "multiple-choice",
+      "prompt": "Grammar: ______ you tell me the spending limit?",
+      "options": ["Could", "Are", "Is"],
+      "answerIndex": 0,
+      "explanation": "Petición educada: 'Could you tell me...'."
+    },
+    {
+      "id": "adm-a1-w22-64",
+      "type": "fill-blank",
+      "prompt": "I need to [blank] my business travel.",
+      "blankValidation": [
+        { "index": 0, "answers": ["book", "organize", "plan"], "caseSensitive": false }
+      ],
+      "explanation": "Necesito reservar o planear mi viaje de negocios."
+    },
+    {
+      "id": "adm-a1-w22-65",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Is the virtual card ready?",
+      "explanation": "¿Está lista la tarjeta virtual?"
+    },
+    {
+      "id": "adm-a1-w22-66",
+      "type": "multiple-choice",
+      "prompt": "What is 'Paperless' office?",
+      "options": ["An office with no paper", "An office with no people", "An office with no computers"],
+      "answerIndex": 0,
+      "explanation": "Una oficina sin papel (paperless) usa solo documentos digitales."
+    },
+    {
+      "id": "adm-a1-w22-67",
+      "type": "fill-blank",
+      "prompt": "This is a [blank] expense for the company.",
+      "blankValidation": [
+        { "index": 0, "answers": ["valid", "business", "legal"], "caseSensitive": false }
+      ],
+      "explanation": "Este es un gasto válido o de empresa."
+    },
+    {
+      "id": "adm-a1-w22-68",
+      "type": "multiple-choice",
+      "prompt": "Listening: 'You can create up to five virtual cards per month'. What is the limit?",
+      "options": ["1 card", "5 cards", "10 cards"],
+      "answerIndex": 1,
+      "explanation": "El límite es de 5 tarjetas al mes."
+    },
+    {
+      "id": "adm-a1-w22-69",
+      "type": "matching",
+      "prompt": "Match the currency symbols:",
+      "matchingData": [
+        { "left": "$", "right": "Dollar" },
+        { "left": "€", "right": "Euro" },
+        { "left": "£", "right": "Pound" },
+        { "left": "¥", "right": "Yen" }
+      ],
+      "explanation": "Símbolos de moneda internacional."
+    },
+    {
+      "id": "adm-a1-w22-70",
+      "type": "multiple-choice",
+      "prompt": "What should you do with a receipt before you throw it away?",
+      "options": ["Eat it", "Scan or photo it", "Give it to a stranger"],
+      "answerIndex": 1,
+      "explanation": "Escanea o fotografía el recibo antes de tirarlo para guardarlo digitalmente."
+    },
+    {
+      "id": "adm-a1-w22-71",
+      "type": "fill-blank",
+      "prompt": "Could I [blank] my password for the app?",
+      "blankValidation": [
+        { "index": 0, "answers": ["reset", "change", "update"], "caseSensitive": false }
+      ],
+      "explanation": "¿Podría restablecer o cambiar mi contraseña?"
+    },
+    {
+      "id": "adm-a1-w22-72",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The expense report is complete",
+      "explanation": "El informe de gastos está completo."
+    },
+    {
+      "id": "adm-a1-w22-73",
+      "type": "multiple-choice",
+      "prompt": "Grammar: ______ I have the virtual card details?",
+      "options": ["Could", "Are", "Is"],
+      "answerIndex": 0,
+      "explanation": "Petición educada: 'Could I have...'."
+    },
+    {
+      "id": "adm-a1-w22-74",
+      "type": "fill-blank",
+      "prompt": "The [blank] limit is $200 per day.",
+      "blankValidation": [
+        { "index": 0, "answers": ["spending", "card", "daily"], "caseSensitive": false }
+      ],
+      "explanation": "El límite de gasto o diario es de 200$."
+    },
+    {
+      "id": "adm-a1-w22-75",
+      "type": "multiple-choice",
+      "prompt": "Virtual cards are managed in the ______.",
+      "options": ["Company app", "Local bank office", "Supermarket"],
+      "answerIndex": 0,
+      "explanation": "Las tarjetas virtuales se gestionan en la aplicación de la empresa."
     }
   ]
 }

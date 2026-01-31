@@ -3,165 +3,802 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana14",
-  "title": "Cards & Modern Payments",
+  "title": "Exercises: Office Spaces and Existential There",
   "items": [
     {
-      "id": "fin-a1-w14-01",
-      "type": "matching",
-      "prompt": "Match the payment method with its description:",
-      "pairs": [
-        { "left": "Contactless", "right": "Tapping your card to pay" },
-        { "left": "PIN", "right": "A secret 4-digit code" },
-        { "left": "Mobile Payment", "right": "Paying with your phone" },
-        { "left": "Cash", "right": "Physical coins and notes" }
-      ],
-      "explanation": "These are the most common ways to pay today."
-    },
-    {
-      "id": "fin-a1-w14-02",
+      "id": "adm-a1-w14-ex01",
       "type": "multipleChoice",
-      "prompt": "Look at ______ card on the floor over there.",
-      "options": ["this", "that", "these", "those"],
+      "prompt": "How do you say 'sala de reuniones' in English?",
+      "options": ["Kitchen", "Meeting room", "Restroom", "Break room"],
       "answerIndex": 1,
-      "explanation": "Use 'that' for singular objects far from you."
+      "explanation": "'Meeting room' is where people gather for discussions."
     },
     {
-      "id": "fin-a1-w14-03",
+      "id": "adm-a1-w14-ex02",
       "type": "multipleChoice",
-      "prompt": "______ coins in my hand are for the coffee machine.",
-      "options": ["this", "that", "these", "those"],
-      "answerIndex": 2,
-      "explanation": "Use 'these' for plural objects close to you."
-    },
-    {
-      "id": "fin-a1-w14-04",
-      "type": "fillBlanks",
-      "prompt": "I use [blank] pay to pay with my smartphone.",
-      "answers": ["Apple", "Google", "Mobile"],
-      "explanation": "Mobile payments use apps like Apple Pay or Google Pay."
-    },
-    {
-      "id": "fin-a1-w14-05",
-      "type": "multipleChoice",
-      "prompt": "Is your card ______? No, I need to insert it.",
-      "options": ["contactless", "cash", "wallet"],
+      "prompt": "Choose the correct form: There ___ a new computer on my desk.",
+      "options": ["is", "are", "isn't", "aren't"],
       "answerIndex": 0,
-      "explanation": "If it is not contactless, you must insert the chip."
+      "explanation": "Use 'is' for singular objects (a new computer)."
     },
     {
-      "id": "fin-a1-w14-06",
-      "type": "writing",
-      "prompt": "Write a sentence using 'Those' to talk about some receipts on a table far from you.",
-      "example": "Those receipts are old.",
-      "explanation": "Use 'Those' for plural and distant objects."
+      "id": "adm-a1-w14-ex03",
+      "type": "multipleChoice",
+      "prompt": "Where do visitors wait?",
+      "options": ["In the kitchen", "In the waiting area", "In the restroom", "In the open office"],
+      "answerIndex": 1,
+      "explanation": "Visitors typically stay in the 'waiting area' or 'reception'."
     },
     {
-      "id": "fin-a1-w14-07",
-      "type": "rolePlay",
-      "prompt": "Role-play: You are at a supermarket. The cashier asks: 'Cash or card?'. You answer: 'Card, please. Is it contactless?'.",
-      "scenario": "Paying for groceries.",
-      "suggestedPhrases": [
-        "Card, please.",
-        "Can I tap my phone?",
-        "Where do I enter my PIN?"
+      "id": "adm-a1-w14-ex04",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct form: There ___ five desks in the room.",
+      "options": ["is", "are", "be", "am"],
+      "answerIndex": 1,
+      "explanation": "Use 'are' for plural objects (five desks)."
+    },
+    {
+      "id": "adm-a1-w14-ex05",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'recepción' in English?",
+      "options": ["Receipt", "Reception", "Receptacle", "Recovery"],
+      "answerIndex": 1,
+      "explanation": "'Reception' is the entrance area of an office."
+    },
+    {
+      "id": "adm-a1-w14-ex06",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct negative form: There ___ any pens in the drawer.",
+      "options": ["isn't", "aren't", "is no", "are not no"],
+      "answerIndex": 1,
+      "explanation": "Use 'aren't' for plural negative (pens)."
+    },
+    {
+      "id": "adm-a1-w14-ex07",
+      "type": "multipleChoice",
+      "prompt": "What is an 'open office'?",
+      "options": [
+        "An office with no doors",
+        "A large space where many people work together",
+        "An office that is open 24 hours",
+        "A room with a balcony"
+      ],
+      "answerIndex": 1,
+      "explanation": "An 'open office' or 'open-plan office' has few walls and many workstations in one area."
+    },
+    {
+      "id": "adm-a1-w14-ex08",
+      "type": "multipleChoice",
+      "prompt": "Is there a coffee machine in the kitchen?",
+      "options": ["Yes, there is.", "Yes, there are.", "Yes, it is.", "Yes, is there."],
+      "answerIndex": 0,
+      "explanation": "Short answer for 'Is there...?' is 'Yes, there is'."
+    },
+    {
+      "id": "adm-a1-w14-ex09",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'baño' (in an office context)?",
+      "options": ["Bathroom", "Restroom", "Toilet", "All are correct"],
+      "answerIndex": 3,
+      "explanation": "While 'restroom' is very common in US offices, all these terms can be used."
+    },
+    {
+      "id": "adm-a1-w14-ex10",
+      "type": "multipleChoice",
+      "prompt": "There ___ some coffee in the pot.",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 0,
+      "explanation": "'Coffee' is uncountable, so we use 'there is'."
+    },
+    {
+      "id": "adm-a1-w14-ex11",
+      "type": "multipleChoice",
+      "prompt": "What is a 'break room'?",
+      "options": [
+        "A room for fixing broken things",
+        "A room where employees rest and eat",
+        "A room for breaking bad news",
+        "The manager's office"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'break room' is where staff take their breaks."
+    },
+    {
+      "id": "adm-a1-w14-ex12",
+      "type": "multipleChoice",
+      "prompt": "Choose the question form: ___ any windows in the office?",
+      "options": ["Is there", "Are there", "There is", "There are"],
+      "answerIndex": 1,
+      "explanation": "For plural questions, use 'Are there'."
+    },
+    {
+      "id": "adm-a1-w14-ex13",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'cocina' in English?",
+      "options": ["Cooker", "Chef", "Kitchen", "Kitchenette"],
+      "answerIndex": 2,
+      "explanation": "'Kitchen' is the standard word."
+    },
+    {
+      "id": "adm-a1-w14-ex14",
+      "type": "multipleChoice",
+      "prompt": "There ___ a white board in the conference room.",
+      "options": ["is", "are", "isn't", "aren't"],
+      "answerIndex": 0,
+      "explanation": "Singular affirmative: 'There is'."
+    },
+    {
+      "id": "adm-a1-w14-ex15",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'planta' (of a building)?",
+      "options": ["Plant", "Floor", "Level", "Both B and C"],
+      "answerIndex": 3,
+      "explanation": "'Floor' and 'Level' are used for the storeys of a building."
+    },
+    {
+      "id": "adm-a1-w14-ex16",
+      "type": "multipleChoice",
+      "prompt": "There ___ no visitors today.",
+      "options": ["is", "are", "am", "be"],
+      "answerIndex": 1,
+      "explanation": "'Visitors' is plural, so use 'are'."
+    },
+    {
+      "id": "adm-a1-w14-ex17",
+      "type": "multipleChoice",
+      "prompt": "What is 'almacén' or 'archivo' (storage)?",
+      "options": ["Store", "Storage room", "Archive", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "These terms refer to places where items or documents are kept."
+    },
+    {
+      "id": "adm-a1-w14-ex18",
+      "type": "multipleChoice",
+      "prompt": "Are there many employees in the open office?",
+      "options": ["No, there isn't.", "No, there aren't.", "No, they aren't.", "No, there are."],
+      "answerIndex": 1,
+      "explanation": "Short negative plural answer: 'No, there aren't'."
+    },
+    {
+      "id": "adm-a1-w14-ex19",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'pasillo' in English?",
+      "options": ["Hallway / Corridor", "Path", "Road", "Street"],
+      "answerIndex": 0,
+      "explanation": "'Hallway' or 'corridor' is the passage between rooms."
+    },
+    {
+      "id": "adm-a1-w14-ex20",
+      "type": "multipleChoice",
+      "prompt": "There ___ a printer on every floor.",
+      "options": ["is", "are", "am", "isn't"],
+      "answerIndex": 0,
+      "explanation": "Singular 'a printer' requires 'is'."
+    },
+    {
+      "id": "adm-a1-w14-ex21",
+      "type": "multipleChoice",
+      "prompt": "What is 'ascensor' in English?",
+      "options": ["Lift", "Elevator", "Stairs", "Both A and B"],
+      "answerIndex": 3,
+      "explanation": "'Lift' (UK) and 'Elevator' (US) both mean ascensor."
+    },
+    {
+      "id": "adm-a1-w14-ex22",
+      "type": "multipleChoice",
+      "prompt": "___ there a parking lot for employees?",
+      "options": ["Is", "Are", "Has", "Have"],
+      "answerIndex": 0,
+      "explanation": "Singular question starts with 'Is'."
+    },
+    {
+      "id": "adm-a1-w14-ex23",
+      "type": "multipleChoice",
+      "prompt": "What is 'escaleras' in English?",
+      "options": ["Steps", "Stairs", "Ladder", "Elevator"],
+      "answerIndex": 1,
+      "explanation": "'Stairs' is the standard term for a staircase."
+    },
+    {
+      "id": "adm-a1-w14-ex24",
+      "type": "multipleChoice",
+      "prompt": "There ___ a lot of noise in the open office.",
+      "options": ["is", "are", "am", "aren't"],
+      "answerIndex": 0,
+      "explanation": "'Noise' is uncountable, so use 'is'."
+    },
+    {
+      "id": "adm-a1-w14-ex25",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'puesto de trabajo'?",
+      "options": ["Workstation", "Desk", "Cubicle", "All of the above"],
+      "answerIndex": 3,
+      "explanation": "These terms refer to the specific place where an employee works."
+    },
+    {
+      "id": "adm-a1-w14-ex26",
+      "type": "fillBlanks",
+      "prompt": "There ___ (hay - singular) a coffee machine in the break room.",
+      "blankValidation": [
+        { "index": 0, "answer": "is" }
+      ],
+      "explanation": "Singular existence."
+    },
+    {
+      "id": "adm-a1-w14-ex27",
+      "type": "fillBlanks",
+      "prompt": "There ___ (hay - plural) four meeting rooms on this floor.",
+      "blankValidation": [
+        { "index": 0, "answer": "are" }
+      ],
+      "explanation": "Plural existence."
+    },
+    {
+      "id": "adm-a1-w14-ex28",
+      "type": "fillBlanks",
+      "prompt": "___ (¿Hay?) there a restroom near the reception?",
+      "blankValidation": [
+        { "index": 0, "answer": "Is" }
+      ],
+      "explanation": "Singular question."
+    },
+    {
+      "id": "adm-a1-w14-ex29",
+      "type": "fillBlanks",
+      "prompt": "There ___ (no hay) any envelopes in the storage room.",
+      "blankValidation": [
+        { "index": 0, "answer": "aren't" }
+      ],
+      "explanation": "Plural negative."
+    },
+    {
+      "id": "adm-a1-w14-ex30",
+      "type": "fillBlanks",
+      "prompt": "The ___ (recepción) is on the ground floor.",
+      "blankValidation": [
+        { "index": 0, "answer": "reception" }
+      ],
+      "explanation": "Reception is where visitors arrive."
+    },
+    {
+      "id": "adm-a1-w14-ex31",
+      "type": "fillBlanks",
+      "prompt": "___ (¿Hay?) there any chairs in the waiting area?",
+      "blankValidation": [
+        { "index": 0, "answer": "Are" }
+      ],
+      "explanation": "Plural question."
+    },
+    {
+      "id": "adm-a1-w14-ex32",
+      "type": "fillBlanks",
+      "prompt": "There is ___ (un) elevator at the end of the hall.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "Use 'an' before 'elevator' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w14-ex33",
+      "type": "fillBlanks",
+      "prompt": "The manager's ___ (oficina) is very big.",
+      "blankValidation": [
+        { "index": 0, "answer": "office" }
+      ],
+      "explanation": "Office is the room where you work."
+    },
+    {
+      "id": "adm-a1-w14-ex34",
+      "type": "fillBlanks",
+      "prompt": "There ___ (no hay) a printer in this room.",
+      "blankValidation": [
+        { "index": 0, "answer": "isn't" }
+      ],
+      "explanation": "Singular negative."
+    },
+    {
+      "id": "adm-a1-w14-ex35",
+      "type": "fillBlanks",
+      "prompt": "Is there ___ (alguna) milk in the kitchen?",
+      "blankValidation": [
+        { "index": 0, "answer": "any" }
+      ],
+      "explanation": "Use 'any' in questions with uncountable nouns."
+    },
+    {
+      "id": "adm-a1-w14-ex36",
+      "type": "fillBlanks",
+      "prompt": "We work in an ___ (diáfana) office.",
+      "blankValidation": [
+        { "index": 0, "answer": "open" }
+      ],
+      "explanation": "Open office = oficina diáfana."
+    },
+    {
+      "id": "adm-a1-w14-ex37",
+      "type": "fillBlanks",
+      "prompt": "There are two ___ (escaleras) in the building.",
+      "blankValidation": [
+        { "index": 0, "answer": "staircases" }
+      ],
+      "explanation": "Staircases or stairs = escaleras."
+    },
+    {
+      "id": "adm-a1-w14-ex38",
+      "type": "fillBlanks",
+      "prompt": "There ___ (hay) a security guard at the door.",
+      "blankValidation": [
+        { "index": 0, "answer": "is" }
+      ],
+      "explanation": "Singular person."
+    },
+    {
+      "id": "adm-a1-w14-ex39",
+      "type": "fillBlanks",
+      "prompt": "Is ___ (hay) a restroom on this floor?",
+      "blankValidation": [
+        { "index": 0, "answer": "there" }
+      ],
+      "explanation": "Question structure 'Is there...?'."
+    },
+    {
+      "id": "adm-a1-w14-ex40",
+      "type": "fillBlanks",
+      "prompt": "The ___ (sala de reuniones) is busy right now.",
+      "blankValidation": [
+        { "index": 0, "answer": "meeting room" }
+      ],
+      "explanation": "Meeting room is for group discussions."
+    },
+    {
+      "id": "adm-a1-w14-ex41",
+      "type": "fillBlanks",
+      "prompt": "There ___ (no hay) any empty desks.",
+      "blankValidation": [
+        { "index": 0, "answer": "aren't" }
+      ],
+      "explanation": "Plural negative."
+    },
+    {
+      "id": "adm-a1-w14-ex42",
+      "type": "fillBlanks",
+      "prompt": "___ (¿Hay?) there any water in the fridge?",
+      "blankValidation": [
+        { "index": 0, "answer": "Is" }
+      ],
+      "explanation": "Water is uncountable, so use 'Is'."
+    },
+    {
+      "id": "adm-a1-w14-ex43",
+      "type": "fillBlanks",
+      "prompt": "The ___ (pasillo) is very long.",
+      "blankValidation": [
+        { "index": 0, "answer": "hallway" }
+      ],
+      "explanation": "Hallway is the passage."
+    },
+    {
+      "id": "adm-a1-w14-ex44",
+      "type": "fillBlanks",
+      "prompt": "There is ___ (un) umbrella in the corner.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "Use 'an' before 'umbrella' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w14-ex45",
+      "type": "fillBlanks",
+      "prompt": "There are ___ (algunos) magazines in the waiting area.",
+      "blankValidation": [
+        { "index": 0, "answer": "some" }
+      ],
+      "explanation": "Use 'some' in plural affirmative sentences."
+    },
+    {
+      "id": "adm-a1-w14-ex46",
+      "type": "matching",
+      "prompt": "Match the office spaces with their translations:",
+      "matchingData": [
+        { "term": "Reception", "definition": "Recepción" },
+        { "term": "Break room", "definition": "Sala de descanso" },
+        { "term": "Storage room", "definition": "Almacén" },
+        { "term": "Meeting room", "definition": "Sala de reuniones" }
+      ],
+      "explanation": "Common office areas."
+    },
+    {
+      "id": "adm-a1-w14-ex47",
+      "type": "matching",
+      "prompt": "Match the existential structures:",
+      "matchingData": [
+        { "term": "There is", "definition": "Singular affirmative" },
+        { "term": "There are", "definition": "Plural affirmative" },
+        { "term": "There isn't", "definition": "Singular negative" },
+        { "term": "There aren't", "definition": "Plural negative" }
+      ],
+      "explanation": "Grammar patterns for existence."
+    },
+    {
+      "id": "adm-a1-w14-ex48",
+      "type": "matching",
+      "prompt": "Match the question with the short answer:",
+      "matchingData": [
+        { "term": "Is there a kitchen?", "definition": "Yes, there is." },
+        { "term": "Are there chairs?", "definition": "Yes, there are." },
+        { "term": "Is there a printer?", "definition": "No, there isn't." },
+        { "term": "Are there pens?", "definition": "No, there aren't." }
+      ],
+      "explanation": "Standard short answers."
+    },
+    {
+      "id": "adm-a1-w14-ex49",
+      "type": "matching",
+      "prompt": "Match the item with its location:",
+      "matchingData": [
+        { "term": "Coffee machine", "definition": "Break room" },
+        { "term": "Projector", "definition": "Meeting room" },
+        { "term": "Magazines", "definition": "Waiting area" },
+        { "term": "Sink / Toilet", "definition": "Restroom" }
+      ],
+      "explanation": "Typical equipment by room."
+    },
+    {
+      "id": "adm-a1-w14-ex50",
+      "type": "matching",
+      "prompt": "Match the synonym:",
+      "matchingData": [
+        { "term": "Lift", "definition": "Elevator" },
+        { "term": "Hallway", "definition": "Corridor" },
+        { "term": "Break room", "definition": "Staff room" },
+        { "term": "Restroom", "definition": "Toilet" }
+      ],
+      "explanation": "Equivalent office terms."
+    },
+    {
+      "id": "adm-a1-w14-ex51",
+      "type": "matching",
+      "prompt": "Match the floor names:",
+      "matchingData": [
+        { "term": "Ground floor", "definition": "Planta baja" },
+        { "term": "First floor", "definition": "Primera planta" },
+        { "term": "Basement", "definition": "Sótano" },
+        { "term": "Top floor", "definition": "Última planta" }
+      ],
+      "explanation": "Building levels."
+    },
+    {
+      "id": "adm-a1-w14-ex52",
+      "type": "matching",
+      "prompt": "Match the English with the Spanish:",
+      "matchingData": [
+        { "term": "Stairs", "definition": "Escaleras" },
+        { "term": "Workstation", "definition": "Puesto de trabajo" },
+        { "term": "Entrance", "definition": "Entrada" },
+        { "term": "Exit", "definition": "Salida" }
+      ],
+      "explanation": "General office navigation."
+    },
+    {
+      "id": "adm-a1-w14-ex53",
+      "type": "matching",
+      "prompt": "Match the quantity word with its use:",
+      "matchingData": [
+        { "term": "Some", "definition": "Affirmative plural / uncountable" },
+        { "term": "Any", "definition": "Negative and Questions" },
+        { "term": "A", "definition": "Singular consonant" },
+        { "term": "An", "definition": "Singular vowel" }
+      ],
+      "explanation": "Articles and quantifiers."
+    },
+    {
+      "id": "adm-a1-w14-ex54",
+      "type": "matching",
+      "prompt": "Match the office area with the activity:",
+      "matchingData": [
+        { "term": "Reception", "definition": "Greet visitors" },
+        { "term": "Meeting room", "definition": "Have a conference" },
+        { "term": "Open office", "definition": "Individual work" },
+        { "term": "Kitchen", "definition": "Have lunch" }
+      ],
+      "explanation": "Functions of different areas."
+    },
+    {
+      "id": "adm-a1-w14-ex55",
+      "type": "matching",
+      "prompt": "Match the plural forms:",
+      "matchingData": [
+        { "term": "Office", "definition": "Offices" },
+        { "term": "Desk", "definition": "Desks" },
+        { "term": "Chair", "definition": "Chairs" },
+        { "term": "Room", "definition": "Rooms" }
+      ],
+      "explanation": "Basic plurals."
+    },
+    {
+      "id": "adm-a1-w14-ex56",
+      "type": "matching",
+      "prompt": "Match the negative with the affirmative:",
+      "matchingData": [
+        { "term": "There is", "definition": "There isn't" },
+        { "term": "There are", "definition": "There aren't" },
+        { "term": "It is", "definition": "It isn't" },
+        { "term": "They are", "definition": "They aren't" }
+      ],
+      "explanation": "Negative contractions."
+    },
+    {
+      "id": "adm-a1-w14-ex57",
+      "type": "matching",
+      "prompt": "Match the office equipment with the space:",
+      "matchingData": [
+        { "term": "Photocopier", "definition": "Copy room" },
+        { "term": "Server", "definition": "IT room" },
+        { "term": "First aid kit", "definition": "Wall / Office" },
+        { "term": "Water cooler", "definition": "Common area" }
+      ],
+      "explanation": "Finding items in the office."
+    },
+    {
+      "id": "adm-a1-w14-ex58",
+      "type": "matching",
+      "prompt": "Match the Spanish phrase with the English:",
+      "matchingData": [
+        { "term": "No hay papel", "definition": "There is no paper" },
+        { "term": "Hay una reunión", "definition": "There is a meeting" },
+        { "term": "Hay tres sillas", "definition": "There are three chairs" },
+        { "term": "No hay visitantes", "definition": "There are no visitors" }
+      ],
+      "explanation": "Translating existential sentences."
+    },
+    {
+      "id": "adm-a1-w14-ex59",
+      "type": "matching",
+      "prompt": "Match the question words for existence:",
+      "matchingData": [
+        { "term": "Is there...?", "definition": "¿Hay...? (Singular)" },
+        { "term": "Are there...?", "definition": "¿Hay...? (Plural)" }
+      ],
+      "explanation": "Question structures."
+    },
+    {
+      "id": "adm-a1-w14-ex60",
+      "type": "matching",
+      "prompt": "Match the department names:",
+      "matchingData": [
+        { "term": "Human Resources", "definition": "Recursos Humanos" },
+        { "term": "Sales", "definition": "Ventas" },
+        { "term": "Marketing", "definition": "Marketing" },
+        { "term": "Finance", "definition": "Finanzas" }
+      ],
+      "explanation": "Department vocabulary review."
+    },
+    {
+      "id": "adm-a1-w14-ex61",
+      "type": "reading-comprehension",
+      "passage": "Our office is on the fourth floor of a big building. There is a large reception area. In the reception, there are two sofas and a glass table. There is also a receptionist. Next to the reception, there are the meeting rooms. We have three meeting rooms: Alpha, Beta, and Gamma. There is a small kitchen with a coffee machine and a fridge. There aren't any snacks, but there is always fresh water.",
+      "questions": [
+        {
+          "question": "What floor is the office on?",
+          "options": ["First floor", "Second floor", "Third floor", "Fourth floor"],
+          "answerIndex": 3
+        },
+        {
+          "question": "How many meeting rooms are there?",
+          "options": ["One", "Two", "Three", "Four"],
+          "answerIndex": 2
+        },
+        {
+          "question": "What is in the reception?",
+          "options": ["A coffee machine", "Two sofas and a table", "Three desks", "A printer"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Is there a coffee machine in the kitchen?",
+          "options": ["Yes, there is.", "No, there isn't.", "Yes, there are.", "No, there aren't."],
+          "answerIndex": 0
+        },
+        {
+          "question": "Are there snacks in the kitchen?",
+          "options": ["Yes, many", "No, there aren't any", "Only apples", "Sometimes"],
+          "answerIndex": 1
+        }
       ]
     },
     {
-      "id": "fin-a1-w14-08",
-      "type": "multipleChoice",
-      "prompt": "______ is my new wallet. I like the color.",
-      "options": ["This", "That", "These", "Those"],
-      "answerIndex": 0,
-      "explanation": "Use 'This' for singular objects close to you."
+      "id": "adm-a1-w14-ex62",
+      "type": "reading-comprehension",
+      "passage": "Welcome to our open office! There are 20 workstations here. Every employee has a desk, a chair, and a computer. There isn't a lot of space, but it is very modern. There are two elevators and one staircase. There are also restrooms for men and women on every level. In the corner, there is a printer and a scanner for everyone to use.",
+      "questions": [
+        {
+          "question": "How many workstations are there?",
+          "options": ["10", "15", "20", "25"],
+          "answerIndex": 2
+        },
+        {
+          "question": "Is it a traditional or modern office?",
+          "options": ["Traditional", "Modern", "Old", "Small"],
+          "answerIndex": 1
+        },
+        {
+          "question": "How many elevators are there?",
+          "options": ["One", "Two", "Three", "None"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What is in the corner?",
+          "options": ["A sofa", "A coffee machine", "A printer and a scanner", "The manager"],
+          "answerIndex": 2
+        },
+        {
+          "question": "Are there restrooms on every level?",
+          "options": ["Yes", "No", "Only on the ground floor", "Only for men"],
+          "answerIndex": 0
+        }
+      ]
     },
     {
-      "id": "fin-a1-w14-09",
+      "id": "adm-a1-w14-ex63",
+      "type": "reading-comprehension",
+      "passage": "I work in the accounting department. There are five people in my team. There is a manager, two senior accountants, and two juniors. In our room, there are five desks and many filing cabinets. There is a big window with a view of the park. There isn't a carpet, but the floor is very clean.",
+      "questions": [
+        {
+          "question": "Which department is it?",
+          "options": ["Sales", "Accounting", "HR", "Marketing"],
+          "answerIndex": 1
+        },
+        {
+          "question": "How many people are in the team?",
+          "options": ["Three", "Four", "Five", "Six"],
+          "answerIndex": 2
+        },
+        {
+          "question": "What is there a view of?",
+          "options": ["The city", "The park", "The parking lot", "The hallway"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Are there many filing cabinets?",
+          "options": ["Yes", "No", "One", "None"],
+          "answerIndex": 0
+        },
+        {
+          "question": "Is there a carpet?",
+          "options": ["Yes, a red one", "No, there isn't", "Yes, a blue one", "Maybe"],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w14-ex64",
+      "type": "reading-comprehension",
+      "passage": "The storage room is on the first floor. There are many boxes of paper and envelopes. There is also a small desk for the inventory manager. There aren't many lights, so it is a bit dark. There is a fire extinguisher near the door for safety.",
+      "questions": [
+        {
+          "question": "Where is the storage room?",
+          "options": ["First floor", "Ground floor", "Basement", "Second floor"],
+          "answerIndex": 0
+        },
+        {
+          "question": "What is in the boxes?",
+          "options": ["Computers", "Paper and envelopes", "Food", "Chairs"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Is there a desk in the storage room?",
+          "options": ["Yes, a big one", "Yes, a small one", "No", "Ten desks"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Why is it dark?",
+          "options": ["No windows", "Not many lights", "It's night", "The manager is away"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Where is the fire extinguisher?",
+          "options": ["Under the desk", "Near the door", "In the kitchen", "In the hall"],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w14-ex65",
+      "type": "writingTask",
+      "instructions": "Write a sentence describing one thing in your office kitchen using 'There is'.",
+      "example": "There is a coffee machine in the kitchen.",
+      "explanation": "Practices singular existential structure."
+    },
+    {
+      "id": "adm-a1-w14-ex66",
+      "type": "writingTask",
+      "instructions": "Write a sentence using 'There are' to describe the number of desks in your room.",
+      "example": "There are ten desks in my room.",
+      "explanation": "Practices plural existential structure."
+    },
+    {
+      "id": "adm-a1-w14-ex67",
+      "type": "writingTask",
+      "instructions": "Write a question to ask if there is a restroom nearby.",
+      "example": "Is there a restroom near here?",
+      "explanation": "Practices question formation with 'Is there'."
+    },
+    {
+      "id": "adm-a1-w14-ex68",
+      "type": "writingTask",
+      "instructions": "Write a negative sentence about something that is NOT in your office (e.g., no elevator).",
+      "example": "There isn't an elevator in this building.",
+      "explanation": "Practices negative singular structure."
+    },
+    {
+      "id": "adm-a1-w14-ex69",
+      "type": "writingTask",
+      "instructions": "Write a sentence about the number of people in your office using 'There are'.",
+      "example": "There are fifteen people in my office.",
+      "explanation": "Practices plural existence with people."
+    },
+    {
+      "id": "adm-a1-w14-ex70",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct sentence:",
+      "options": [
+        "There are a kitchen.",
+        "There is two kitchens.",
+        "There is a kitchen.",
+        "There are not a kitchen."
+      ],
+      "answerIndex": 2,
+      "explanation": "Singular affirmative requires 'There is a'."
+    },
+    {
+      "id": "adm-a1-w14-ex71",
+      "type": "multipleChoice",
+      "prompt": "___ there any windows in the meeting room?",
+      "options": ["Is", "Are", "Am", "Be"],
+      "answerIndex": 1,
+      "explanation": "'Windows' is plural, so use 'Are'."
+    },
+    {
+      "id": "adm-a1-w14-ex72",
       "type": "fillBlanks",
-      "prompt": "Please enter your [blank] on the machine.",
-      "answers": ["PIN"],
-      "explanation": "You enter your secret PIN to confirm the payment."
+      "prompt": "There ___ (no hay) any sugar for the coffee.",
+      "blankValidation": [
+        { "index": 0, "answer": "isn't" }
+      ],
+      "explanation": "Sugar is uncountable, use 'isn't'."
     },
     {
-      "id": "fin-a1-w14-10",
-      "type": "multipleChoice",
-      "prompt": "How much ______ do you have in your wallet?",
-      "options": ["cash", "card", "pin"],
-      "answerIndex": 0,
-      "explanation": "Cash refers to the physical money."
-    },
-    {
-      "id": "fin-a1-w14-11",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "Is this your credit card?",
-      "explanation": "¿Es esta su tarjeta de crédito?"
-    },
-    {
-      "id": "fin-a1-w14-12",
-      "type": "multipleChoice",
-      "prompt": "I have two ______ in my pocket.",
-      "options": ["cards", "card", "wallet"],
-      "answerIndex": 0,
-      "explanation": "Use the plural form 'cards'."
-    },
-    {
-      "id": "fin-a1-w14-13",
+      "id": "adm-a1-w14-ex73",
       "type": "fillBlanks",
-      "prompt": "I need to [blank] for this coffee.",
-      "answers": ["pay"],
-      "explanation": "Pay is the action of giving money."
+      "prompt": "The ___ (ascensor) is out of service.",
+      "blankValidation": [
+        { "index": 0, "answer": "elevator" }
+      ],
+      "explanation": "Elevator (or lift) is the word for ascensor."
     },
     {
-      "id": "fin-a1-w14-14",
+      "id": "adm-a1-w14-ex74",
+      "type": "matching",
+      "prompt": "Match the floor numbers:",
+      "matchingData": [
+        { "term": "1st", "definition": "First" },
+        { "term": "2nd", "definition": "Second" },
+        { "term": "3rd", "definition": "Third" },
+        { "term": "4th", "definition": "Fourth" }
+      ],
+      "explanation": "Ordinal numbers for floors."
+    },
+    {
+      "id": "adm-a1-w14-ex75",
       "type": "multipleChoice",
-      "prompt": "I don't have ______ money in my account.",
-      "options": ["any", "some", "a"],
-      "answerIndex": 0,
-      "explanation": "Use 'any' in negative sentences."
-    },
-    {
-      "id": "fin-a1-w14-15",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Those machines are very old",
-      "explanation": "Esas máquinas son muy viejas."
-    },
-    {
-      "id": "fin-a1-w14-16",
-      "type": "writing",
-      "prompt": "Translate to English: 'Estos euros son para ti.'",
-      "example": "These euros are for you.",
-      "explanation": "Use 'These' for plural and close objects."
-    },
-    {
-      "id": "fin-a1-w14-17",
-      "type": "multipleChoice",
-      "prompt": "Look at ______ ATM across the street.",
-      "options": ["that", "this", "these"],
-      "answerIndex": 0,
-      "explanation": "Use 'that' for singular and distant objects."
-    },
-    {
-      "id": "fin-a1-w14-18",
-      "type": "fillBlanks",
-      "prompt": "Can I pay [blank] cash?",
-      "answers": ["in"],
-      "explanation": "We say 'pay in cash'."
-    },
-    {
-      "id": "fin-a1-w14-19",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "This is a debit card",
-      "explanation": "Esta es una tarjeta de débito."
-    },
-    {
-      "id": "fin-a1-w14-20",
-      "type": "multipleChoice",
-      "prompt": "______ are my favorite coins.",
-      "options": ["These", "This", "That"],
-      "answerIndex": 0,
-      "explanation": "Use 'These' for plural and close objects."
+      "prompt": "How do you say 'Hay mucha gente'?",
+      "options": [
+        "There is much people.",
+        "There are many people.",
+        "There is many people.",
+        "There are much people."
+      ],
+      "answerIndex": 1,
+      "explanation": "'People' is plural, and we use 'many' for countable plural nouns."
     }
   ]
 }

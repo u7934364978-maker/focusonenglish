@@ -3,85 +3,90 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana20",
-  "title": "Cyber Hygiene & Password Safety",
+  "title": "Cyber Security & Data Privacy",
   "items": [
     {
-      "id": "fin-a1-w20-1",
-      "type": "multipleChoice",
+      "id": "adm-a1-w20-01",
+      "type": "multiple-choice",
       "prompt": "Which password is 'Strong'?",
       "options": ["123456", "password", "P@ssw0rd2024!"],
       "answerIndex": 2,
       "explanation": "Una contraseña fuerte mezcla letras, números y símbolos."
     },
     {
-      "id": "fin-a1-w20-2",
-      "type": "multipleChoice",
-      "prompt": "A fake email that wants your password is ______.",
+      "id": "adm-a1-w20-02",
+      "type": "multiple-choice",
+      "prompt": "A fake email that wants your company password is ______.",
       "options": ["Phishing", "Shopping", "Banking"],
       "answerIndex": 0,
       "explanation": "El phishing es un intento de robo de identidad mediante correos falsos."
     },
     {
-      "id": "fin-a1-w20-3",
-      "type": "fillBlanks",
-      "prompt": "Never share your [blank] with anyone.",
-      "answers": ["password", "pin"],
-      "explanation": "Nunca compartas tu contraseña o PIN."
+      "id": "adm-a1-w20-03",
+      "type": "fill-blank",
+      "prompt": "Never share your office [blank] with anyone.",
+      "blankValidation": [
+        { "index": 0, "answers": ["password", "pin"], "caseSensitive": false }
+      ],
+      "explanation": "Nunca compartas tu contraseña o PIN profesional."
     },
     {
-      "id": "fin-a1-w20-4",
-      "type": "multipleChoice",
+      "id": "adm-a1-w20-04",
+      "type": "multiple-choice",
       "prompt": "2FA uses your password plus a ______ from your phone.",
       "options": ["Photo", "Code", "Link"],
       "answerIndex": 1,
       "explanation": "La autenticación de dos factores usa un código enviado al móvil."
     },
     {
-      "id": "fin-a1-w20-5",
+      "id": "adm-a1-w20-05",
       "type": "matching",
       "prompt": "Match the term with its safety level:",
-      "pairs": [
+      "matchingData": [
         { "left": "P@ssw0rd!", "right": "Strong" },
         { "left": "1111", "right": "Weak" },
-        { "left": "Public Wi-Fi", "right": "Unsafe for banking" },
-        { "left": "Lock screen", "right": "Safe habit" }
+        { "left": "Public Wi-Fi", "right": "Unsafe" },
+        { "left": "Lock screen", "right": "Safe" }
       ],
       "explanation": "Relaciona los términos con su nivel de seguridad."
     },
     {
-      "id": "fin-a1-w20-6",
-      "type": "fillBlanks",
-      "prompt": "Don't use bank apps on public [blank].",
-      "answers": ["wifi", "wi-fi"],
-      "explanation": "No uses apps bancarias en redes Wi-Fi públicas."
+      "id": "adm-a1-w20-06",
+      "type": "fill-blank",
+      "prompt": "Don't access company portals on public [blank].",
+      "blankValidation": [
+        { "index": 0, "answers": ["wifi", "wi-fi"], "caseSensitive": false }
+      ],
+      "explanation": "No accedas a portales corporativos en redes Wi-Fi públicas."
     },
     {
-      "id": "fin-a1-w20-7",
+      "id": "adm-a1-w20-07",
       "type": "reorder",
       "prompt": "Reorder the security advice:",
       "sentence": "Change your password every month",
       "explanation": "Cambia tu contraseña cada mes."
     },
     {
-      "id": "fin-a1-w20-8",
-      "type": "multipleChoice",
+      "id": "adm-a1-w20-08",
+      "type": "multiple-choice",
       "prompt": "A 'Weak' password is ______ to guess.",
       "options": ["Hard", "Impossible", "Easy"],
       "answerIndex": 2,
       "explanation": "Una contraseña débil es fácil de adivinar."
     },
     {
-      "id": "fin-a1-w20-9",
-      "type": "writing",
-      "prompt": "Write one security symbol.",
-      "validation": "@",
-      "explanation": "El símbolo @ es común en contraseñas seguras."
+      "id": "adm-a1-w20-09",
+      "type": "multiple-choice",
+      "prompt": "What should you do before you leave your computer?",
+      "options": ["Open the window", "Lock the screen", "Turn off the lights"],
+      "answerIndex": 1,
+      "explanation": "Debes bloquear la pantalla antes de irte."
     },
     {
-      "id": "fin-a1-w20-10",
+      "id": "adm-a1-w20-10",
       "type": "roleplay",
-      "prompt": "A friend asks: 'Can I use your password to see the app?'. What is the safe answer?",
-      "scenario": "Friend: Hey, can you give me your password? I want to see how the bank app works.\nYou: ______",
+      "prompt": "A colleague asks: 'Can I use your password?'. What is the safe answer?",
+      "scenario": "Colleague: Hey, can you give me your password? I want to see the new system.\nYou: ______",
       "options": [
         "No, it is a secret.",
         "Yes, here it is.",
@@ -91,41 +96,570 @@
       "explanation": "La respuesta segura es no compartirla: 'No, it is a secret'."
     },
     {
-      "id": "fin-a1-w20-11",
-      "type": "multipleChoice",
-      "prompt": "What should you do before you leave your computer?",
-      "options": ["Open the window", "Lock the screen", "Turn off the lights"],
-      "answerIndex": 1,
-      "explanation": "Debes bloquear la pantalla antes de irte."
-    },
-    {
-      "id": "fin-a1-w20-12",
-      "type": "fillBlanks",
+      "id": "adm-a1-w20-11",
+      "type": "fill-blank",
       "prompt": "2FA is [blank] factor authentication.",
-      "answers": ["two"],
+      "blankValidation": [
+        { "index": 0, "answers": ["two"], "caseSensitive": false }
+      ],
       "explanation": "2FA: Two-Factor Authentication."
     },
     {
-      "id": "fin-a1-w20-13",
+      "id": "adm-a1-w20-12",
       "type": "reorder",
       "prompt": "Reorder the warning:",
       "sentence": "Do not click this link",
       "explanation": "No hagas clic en este enlace."
     },
     {
-      "id": "fin-a1-w20-14",
-      "type": "multipleChoice",
+      "id": "adm-a1-w20-13",
+      "type": "multiple-choice",
       "prompt": "Which habit is 'Safe'?",
       "options": ["Writing passwords on paper", "Using 2FA", "Using the same password everywhere"],
       "answerIndex": 1,
       "explanation": "Usar 2FA es un hábito seguro."
     },
     {
-      "id": "fin-a1-w20-15",
-      "type": "fillBlanks",
+      "id": "adm-a1-w20-14",
+      "type": "fill-blank",
       "prompt": "A [blank] is a mix of letters and numbers.",
-      "answers": ["password"],
+      "blankValidation": [
+        { "index": 0, "answers": ["password"], "caseSensitive": false }
+      ],
       "explanation": "Una contraseña es una mezcla de letras y números."
+    },
+    {
+      "id": "adm-a1-w20-15",
+      "type": "multiple-choice",
+      "prompt": "Phishing emails often look ______.",
+      "options": ["Official", "Funny", "Small"],
+      "answerIndex": 0,
+      "explanation": "Los correos de phishing suelen parecer oficiales para engañarte."
+    },
+    {
+      "id": "adm-a1-w20-16",
+      "type": "matching",
+      "prompt": "Match the symbols with their names:",
+      "matchingData": [
+        { "left": "@", "right": "At" },
+        { "left": "!", "right": "Exclamation mark" },
+        { "left": "#", "right": "Hashtag / Pound" },
+        { "left": "*", "right": "Asterisk" }
+      ],
+      "explanation": "Symbols are important for strong passwords."
+    },
+    {
+      "id": "adm-a1-w20-17",
+      "type": "multiple-choice",
+      "prompt": "Where should you NOT use company passwords?",
+      "options": ["At the office", "On public Wi-Fi", "At home"],
+      "answerIndex": 1,
+      "explanation": "No uses contraseñas corporativas en redes Wi-Fi públicas."
+    },
+    {
+      "id": "adm-a1-w20-18",
+      "type": "fill-blank",
+      "prompt": "Protect your [blank] data at work.",
+      "blankValidation": [
+        { "index": 0, "answers": ["private", "secret", "company", "professional"], "caseSensitive": false }
+      ],
+      "explanation": "Protege tus datos privados o de la empresa en el trabajo."
+    },
+    {
+      "id": "adm-a1-w20-19",
+      "type": "reorder",
+      "prompt": "Reorder the security step:",
+      "sentence": "Enter your code from the app",
+      "explanation": "Introduce tu código de la aplicación."
+    },
+    {
+      "id": "adm-a1-w20-20",
+      "type": "multiple-choice",
+      "prompt": "A strong password has ______.",
+      "options": ["Only letters", "Only numbers", "Letters, numbers, and symbols"],
+      "answerIndex": 2,
+      "explanation": "Una contraseña fuerte tiene letras, números y símbolos."
+    },
+    {
+      "id": "adm-a1-w20-21",
+      "type": "fill-blank",
+      "prompt": "I need to [blank] my password every 90 days.",
+      "blankValidation": [
+        { "index": 0, "answers": ["change", "update", "reset"], "caseSensitive": false }
+      ],
+      "explanation": "Debo cambiar o actualizar mi contraseña cada 90 días."
+    },
+    {
+      "id": "adm-a1-w20-22",
+      "type": "multiple-choice",
+      "prompt": "What does 2FA stand for?",
+      "options": ["Two-Factor Authentication", "Two-File Access", "Total-Fast Account"],
+      "answerIndex": 0,
+      "explanation": "2FA significa Autenticación de Dos Factores."
+    },
+    {
+      "id": "adm-a1-w20-23",
+      "type": "matching",
+      "prompt": "Match the digital safety actions:",
+      "matchingData": [
+        { "left": "Strange link", "right": "Do not click" },
+        { "left": "New device", "right": "Verify identity" },
+        { "left": "Finished work", "right": "Log out" },
+        { "left": "Leaving desk", "right": "Lock screen" }
+      ],
+      "explanation": "Acciones básicas de seguridad digital."
+    },
+    {
+      "id": "adm-a1-w20-24",
+      "type": "multiple-choice",
+      "prompt": "Is 'admin123' a strong password?",
+      "options": ["Yes", "No", "Maybe"],
+      "answerIndex": 1,
+      "explanation": "'admin123' es una contraseña muy débil y fácil de adivinar."
+    },
+    {
+      "id": "adm-a1-w20-25",
+      "type": "fill-blank",
+      "prompt": "Check the [blank] before you click a link.",
+      "blankValidation": [
+        { "index": 0, "answers": ["sender", "email", "url"], "caseSensitive": false }
+      ],
+      "explanation": "Revisa el remitente o la URL antes de hacer clic."
+    },
+    {
+      "id": "adm-a1-w20-26",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "My password is very strong",
+      "explanation": "Mi contraseña es muy fuerte."
+    },
+    {
+      "id": "adm-a1-w20-27",
+      "type": "multiple-choice",
+      "prompt": "Where do you get the 2FA code?",
+      "options": ["In the mail", "From an app or SMS", "From the manager"],
+      "answerIndex": 1,
+      "explanation": "El código 2FA se recibe por app o SMS."
+    },
+    {
+      "id": "adm-a1-w20-28",
+      "type": "fill-blank",
+      "prompt": "If you see a scam, [blank] it to IT.",
+      "blankValidation": [
+        { "index": 0, "answers": ["report", "tell", "send"], "caseSensitive": false }
+      ],
+      "explanation": "Si ves una estafa, infórmalo al departamento de IT."
+    },
+    {
+      "id": "adm-a1-w20-29",
+      "type": "multiple-choice",
+      "prompt": "Why is public Wi-Fi dangerous?",
+      "options": ["It is slow", "Hackers can see your data", "It costs money"],
+      "answerIndex": 1,
+      "explanation": "Las redes públicas permiten que otros vean tus datos."
+    },
+    {
+      "id": "adm-a1-w20-30",
+      "type": "matching",
+      "prompt": "Match the security terms:",
+      "matchingData": [
+        { "left": "Privacy", "right": "Keeping data secret" },
+        { "left": "Identity", "right": "Who you are" },
+        { "left": "Access", "right": "Permission to enter" },
+        { "left": "Risk", "right": "Possible danger" }
+      ],
+      "explanation": "Términos fundamentales de seguridad."
+    },
+    {
+      "id": "adm-a1-w20-31",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Data Breach'?",
+      "options": ["A computer update", "When data is stolen", "A new password"],
+      "answerIndex": 1,
+      "explanation": "Un 'Data Breach' es cuando se roban o filtran datos."
+    },
+    {
+      "id": "adm-a1-w20-32",
+      "type": "fill-blank",
+      "prompt": "Do not [blank] your login details.",
+      "blankValidation": [
+        { "index": 0, "answers": ["share", "give", "tell"], "caseSensitive": false }
+      ],
+      "explanation": "No compartas tus datos de inicio de sesión."
+    },
+    {
+      "id": "adm-a1-w20-33",
+      "type": "reorder",
+      "prompt": "Reorder the warning:",
+      "sentence": "This email is a scam",
+      "explanation": "Este correo es una estafa."
+    },
+    {
+      "id": "adm-a1-w20-34",
+      "type": "multiple-choice",
+      "prompt": "What is the best way to remember passwords?",
+      "options": ["Write them on a Post-it", "Use a Password Manager", "Use the same one for everything"],
+      "answerIndex": 1,
+      "explanation": "Un gestor de contraseñas es la forma más segura de recordarlas."
+    },
+    {
+      "id": "adm-a1-w20-35",
+      "type": "fill-blank",
+      "prompt": "The IT [blank] helps with security.",
+      "blankValidation": [
+        { "index": 0, "answers": ["department", "team", "staff"], "caseSensitive": false }
+      ],
+      "explanation": "El departamento o equipo de IT ayuda con la seguridad."
+    },
+    {
+      "id": "adm-a1-w20-36",
+      "type": "roleplay",
+      "prompt": "You receive an email: 'Reset your password now! Click here!'. What do you do?",
+      "scenario": "Email from: Security-Update-Check@fake-web.com\nSubject: URGENT ACTION REQUIRED\nYou: ______",
+      "options": [
+        "Click the link immediately.",
+        "Delete the email and inform IT.",
+        "Reply with my old password."
+      ],
+      "answerIndex": 1,
+      "explanation": "Borra el correo e informa a IT; nunca hagas clic en enlaces sospechosos."
+    },
+    {
+      "id": "adm-a1-w20-37",
+      "type": "multiple-choice",
+      "prompt": "Which symbol is NOT usually in a password?",
+      "options": ["@", "#", "Emoji"],
+      "answerIndex": 2,
+      "explanation": "Los emojis no suelen permitirse en contraseñas estándar."
+    },
+    {
+      "id": "adm-a1-w20-38",
+      "type": "fill-blank",
+      "prompt": "Your password must be [blank] characters long.",
+      "blankValidation": [
+        { "index": 0, "answers": ["eight", "8", "twelve", "12"], "caseSensitive": false }
+      ],
+      "explanation": "Las contraseñas suelen requerir al menos 8 o 12 caracteres."
+    },
+    {
+      "id": "adm-a1-w20-39",
+      "type": "reorder",
+      "prompt": "Reorder the instruction:",
+      "sentence": "Lock your computer now",
+      "explanation": "Bloquea tu ordenador ahora."
+    },
+    {
+      "id": "adm-a1-w20-40",
+      "type": "multiple-choice",
+      "prompt": "What is 'Malware'?",
+      "options": ["A new software", "Bad software that hurts computers", "A safe website"],
+      "answerIndex": 1,
+      "explanation": "Malware es software malicioso que daña los sistemas."
+    },
+    {
+      "id": "adm-a1-w20-41",
+      "type": "matching",
+      "prompt": "Match the verbs with their objects:",
+      "matchingData": [
+        { "left": "Update", "right": "The software" },
+        { "left": "Scan", "right": "The computer" },
+        { "left": "Backup", "right": "The files" },
+        { "left": "Verify", "right": "The identity" }
+      ],
+      "explanation": "Verbos comunes en seguridad informática."
+    },
+    {
+      "id": "adm-a1-w20-42",
+      "type": "multiple-choice",
+      "prompt": "If you leave your desk for 5 minutes, you should ______.",
+      "options": ["Leave everything open", "Lock the screen", "Turn off the monitor"],
+      "answerIndex": 1,
+      "explanation": "Incluso por 5 minutos, debes bloquear la pantalla."
+    },
+    {
+      "id": "adm-a1-w20-43",
+      "type": "fill-blank",
+      "prompt": "A [blank] is a person who steals data.",
+      "blankValidation": [
+        { "index": 0, "answers": ["hacker", "thief"], "caseSensitive": false }
+      ],
+      "explanation": "Un hacker es alguien que roba datos digitalmente."
+    },
+    {
+      "id": "adm-a1-w20-44",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Is this website safe?",
+      "explanation": "¿Es este sitio web seguro?"
+    },
+    {
+      "id": "adm-a1-w20-45",
+      "type": "multiple-choice",
+      "prompt": "What does 'Encrypted' mean?",
+      "options": ["Public for everyone", "Hidden with a code for safety", "Deleted from the system"],
+      "answerIndex": 1,
+      "explanation": "Encriptado significa que los datos están protegidos mediante código."
+    },
+    {
+      "id": "adm-a1-w20-46",
+      "type": "fill-blank",
+      "prompt": "Use [blank] letters in your password.",
+      "blankValidation": [
+        { "index": 0, "answers": ["capital", "large", "big"], "caseSensitive": false }
+      ],
+      "explanation": "Usa letras mayúsculas (capital letters) en tu contraseña."
+    },
+    {
+      "id": "adm-a1-w20-47",
+      "type": "multiple-choice",
+      "prompt": "An 'Uppercase' letter is ______.",
+      "options": ["a", "A", "1"],
+      "answerIndex": 1,
+      "explanation": "Uppercase significa mayúscula (A)."
+    },
+    {
+      "id": "adm-a1-w20-48",
+      "type": "matching",
+      "prompt": "Match the types of letters:",
+      "matchingData": [
+        { "left": "A, B, C", "right": "Uppercase" },
+        { "left": "a, b, c", "right": "Lowercase" },
+        { "left": "1, 2, 3", "right": "Numbers" },
+        { "left": "!, @, #", "right": "Symbols" }
+      ],
+      "explanation": "Componentes de una contraseña fuerte."
+    },
+    {
+      "id": "adm-a1-w20-49",
+      "type": "multiple-choice",
+      "prompt": "What is 'Sensitive Information'?",
+      "options": ["Public news", "Private company data", "Weather reports"],
+      "answerIndex": 1,
+      "explanation": "Información sensible son datos privados de la empresa."
+    },
+    {
+      "id": "adm-a1-w20-50",
+      "type": "fill-blank",
+      "prompt": "Wait for the [blank] code on your phone.",
+      "blankValidation": [
+        { "index": 0, "answers": ["verification", "sms", "2fa"], "caseSensitive": false }
+      ],
+      "explanation": "Espera el código de verificación o SMS en tu móvil."
+    },
+    {
+      "id": "adm-a1-w20-51",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I use two factor authentication",
+      "explanation": "Uso la autenticación de dos factores."
+    },
+    {
+      "id": "adm-a1-w20-52",
+      "type": "multiple-choice",
+      "prompt": "When is it okay to share your password with a manager?",
+      "options": ["Never", "When they ask", "Only on Mondays"],
+      "answerIndex": 0,
+      "explanation": "Nunca compartas tu contraseña, ni siquiera con jefes."
+    },
+    {
+      "id": "adm-a1-w20-53",
+      "type": "fill-blank",
+      "prompt": "Is your [blank] locked?",
+      "blankValidation": [
+        { "index": 0, "answers": ["screen", "computer", "session"], "caseSensitive": false }
+      ],
+      "explanation": "¿Está bloqueada tu pantalla u ordenador?"
+    },
+    {
+      "id": "adm-a1-w20-54",
+      "type": "multiple-choice",
+      "prompt": "What should you do with suspicious emails?",
+      "options": ["Open them", "Forward to friends", "Delete them"],
+      "answerIndex": 2,
+      "explanation": "Debes borrar los correos sospechosos."
+    },
+    {
+      "id": "adm-a1-w20-55",
+      "type": "matching",
+      "prompt": "Match the risk with the solution:",
+      "matchingData": [
+        { "left": "Weak password", "right": "Add symbols" },
+        { "left": "Data loss", "right": "Cloud backup" },
+        { "left": "Hackers", "right": "Firewall" },
+        { "left": "Theft", "right": "Lock computer" }
+      ],
+      "explanation": "Riesgos y sus soluciones básicas."
+    },
+    {
+      "id": "adm-a1-w20-56",
+      "type": "multiple-choice",
+      "prompt": "A 'Lowercase' letter is ______.",
+      "options": ["A", "a", "@"],
+      "answerIndex": 1,
+      "explanation": "Lowercase significa minúscula (a)."
+    },
+    {
+      "id": "adm-a1-w20-57",
+      "type": "fill-blank",
+      "prompt": "Keep your password [blank].",
+      "blankValidation": [
+        { "index": 0, "answers": ["private", "secret", "safe"], "caseSensitive": false }
+      ],
+      "explanation": "Mantén tu contraseña en privado."
+    },
+    {
+      "id": "adm-a1-w20-58",
+      "type": "reorder",
+      "prompt": "Reorder the warning:",
+      "sentence": "Do not share your PIN",
+      "explanation": "No compartas tu PIN."
+    },
+    {
+      "id": "adm-a1-w20-59",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Scam'?",
+      "options": ["A business plan", "A trick to steal money", "A type of software"],
+      "answerIndex": 1,
+      "explanation": "Una estafa (scam) es un truco para robar dinero."
+    },
+    {
+      "id": "adm-a1-w20-60",
+      "type": "fill-blank",
+      "prompt": "The [blank] says the website is not secure.",
+      "blankValidation": [
+        { "index": 0, "answers": ["browser", "system", "computer"], "caseSensitive": false }
+      ],
+      "explanation": "El navegador indica que el sitio no es seguro."
+    },
+    {
+      "id": "adm-a1-w20-61",
+      "type": "multiple-choice",
+      "prompt": "If you receive a 2FA code you didn't ask for, it means ______.",
+      "options": ["You won a prize", "Someone is trying to hack you", "The system is updating"],
+      "answerIndex": 1,
+      "explanation": "Si recibes un código sin pedirlo, alguien intenta entrar en tu cuenta."
+    },
+    {
+      "id": "adm-a1-w20-62",
+      "type": "matching",
+      "prompt": "Match the computer parts with security:",
+      "matchingData": [
+        { "left": "Screen", "right": "Lock it" },
+        { "left": "Hard drive", "right": "Encrypt it" },
+        { "left": "USB port", "right": "Disable it" },
+        { "left": "Keyboard", "right": "Don't leave notes on it" }
+      ],
+      "explanation": "Seguridad física del equipo."
+    },
+    {
+      "id": "adm-a1-w20-63",
+      "type": "multiple-choice",
+      "prompt": "What is 'Biometric' login?",
+      "options": ["Using a password", "Using your fingerprint or face", "Using an ID card"],
+      "answerIndex": 1,
+      "explanation": "El acceso biométrico usa la huella o la cara."
+    },
+    {
+      "id": "adm-a1-w20-64",
+      "type": "fill-blank",
+      "prompt": "Use your [blank] to scan the QR code.",
+      "blankValidation": [
+        { "index": 0, "answers": ["phone", "camera", "mobile"], "caseSensitive": false }
+      ],
+      "explanation": "Usa tu móvil para escanear el código QR."
+    },
+    {
+      "id": "adm-a1-w20-65",
+      "type": "reorder",
+      "prompt": "Reorder the security advice:",
+      "sentence": "Always use a secure connection",
+      "explanation": "Usa siempre una conexión segura."
+    },
+    {
+      "id": "adm-a1-w20-66",
+      "type": "multiple-choice",
+      "prompt": "A 'Firewall' is for ______.",
+      "options": ["Stopping hackers", "Cleaning the monitor", "Typing faster"],
+      "answerIndex": 0,
+      "explanation": "Un cortafuegos (firewall) sirve para detener a los hackers."
+    },
+    {
+      "id": "adm-a1-w20-67",
+      "type": "fill-blank",
+      "prompt": "I don't [blank] this email.",
+      "blankValidation": [
+        { "index": 0, "answers": ["trust", "like", "recognize"], "caseSensitive": false }
+      ],
+      "explanation": "No confío en este correo (o no lo reconozco)."
+    },
+    {
+      "id": "adm-a1-w20-68",
+      "type": "multiple-choice",
+      "prompt": "What should you do if your computer is stolen?",
+      "options": ["Buy a new one", "Inform IT immediately", "Do nothing"],
+      "answerIndex": 1,
+      "explanation": "Informa a IT inmediatamente si te roban el equipo."
+    },
+    {
+      "id": "adm-a1-w20-69",
+      "type": "matching",
+      "prompt": "Match the email parts with security risks:",
+      "matchingData": [
+        { "left": "Sender", "right": "Fake name" },
+        { "left": "Subject", "right": "Urgent threat" },
+        { "left": "Link", "right": "Malicious site" },
+        { "left": "Attachment", "right": "Virus" }
+      ],
+      "explanation": "Riesgos comunes en el correo electrónico."
+    },
+    {
+      "id": "adm-a1-w20-70",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Symbol'?",
+      "options": ["A", "7", "%"],
+      "answerIndex": 2,
+      "explanation": "% es un símbolo."
+    },
+    {
+      "id": "adm-a1-w20-71",
+      "type": "fill-blank",
+      "prompt": "Access is [blank].",
+      "blankValidation": [
+        { "index": 0, "answers": ["denied", "granted", "blocked"], "caseSensitive": false }
+      ],
+      "explanation": "El acceso puede ser denegado, concedido o bloqueado."
+    },
+    {
+      "id": "adm-a1-w20-72",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Your data is now safe",
+      "explanation": "Tus datos están ahora seguros."
+    },
+    {
+      "id": "adm-a1-w20-73",
+      "type": "multiple-choice",
+      "prompt": "What is 'VPN'?",
+      "options": ["Virtual Private Network", "Very Personal Number", "Visual Phone Note"],
+      "answerIndex": 0,
+      "explanation": "VPN significa Red Privada Virtual."
+    },
+    {
+      "id": "adm-a1-w20-74",
+      "type": "fill-blank",
+      "prompt": "Please [blank] in with your username.",
+      "blankValidation": [
+        { "index": 0, "answers": ["log", "sign"], "caseSensitive": false }
+      ],
+      "explanation": "Por favor, inicia sesión con tu usuario."
+    },
+    {
+      "id": "adm-a1-w20-75",
+      "type": "multiple-choice",
+      "prompt": "Where do you click to finish your session?",
+      "options": ["Login", "Logout / Sign out", "Home"],
+      "answerIndex": 1,
+      "explanation": "Haz clic en 'Logout' o 'Sign out' para cerrar sesión."
     }
   ]
 }

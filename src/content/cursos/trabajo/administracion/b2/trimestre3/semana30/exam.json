@@ -70,6 +70,201 @@
       ],
       "answerIndex": 1,
       "explanation": "ISO 27001 is the international standard for information security."
+    },
+    {
+      "id": "adm-b2-w30-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Under GDPR, what is the maximum time allowed to report a serious data breach to the regulator?",
+      "options": [
+        "24 hours",
+        "48 hours",
+        "72 hours",
+        "One week"
+      ],
+      "answerIndex": 2,
+      "explanation": "Serious breaches must be reported to the relevant authority within 72 hours of discovery."
+    },
+    {
+      "id": "adm-b2-w30-exam-7",
+      "type": "multipleChoice",
+      "prompt": "Identify the reduced relative clause: 'The consultant ____ the security audit identified several vulnerabilities.'",
+      "options": [
+        "conducted",
+        "conducting",
+        "which conduct",
+        "who conduct"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Conducting' is an active reduced relative clause (short for 'who was conducting')."
+    },
+    {
+      "id": "adm-b2-w30-exam-8",
+      "type": "multipleChoice",
+      "prompt": "What does 'BYOD' stand for?",
+      "options": [
+        "Bring Your Own Device",
+        "Build Your Own Database",
+        "Backup Your Office Data",
+        "Buy Your Own Desktop"
+      ],
+      "answerIndex": 0,
+      "explanation": "BYOD refers to policies allowing employees to use their personal devices for work."
+    },
+    {
+      "id": "adm-b2-w30-exam-9",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the 'accuracy and consistency of data over its lifecycle'?",
+      "options": [
+        "Data Confidentiality",
+        "Data Availability",
+        "Data Integrity",
+        "Data Redundancy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Data Integrity ensures that data remains unaltered and trustworthy."
+    },
+    {
+      "id": "adm-b2-w30-exam-10",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'The servers, ____ maintenance was scheduled for Sunday, are now offline.'",
+      "options": [
+        "which",
+        "whose",
+        "that",
+        "whom"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Whose' indicates possession (the maintenance of the servers)."
+    },
+    {
+      "id": "adm-b2-w30-exam-11",
+      "type": "multipleChoice",
+      "prompt": "What is 'Ransomware'?",
+      "options": [
+        "Software that speeds up data transfer",
+        "Malware that encrypts files and demands payment for the key",
+        "A type of antivirus software",
+        "A hardware component for data storage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ransomware is malicious software designed to extort money by blocking access to files."
+    },
+    {
+      "id": "adm-b2-w30-exam-12",
+      "type": "multipleChoice",
+      "prompt": "In the context of GDPR, what is 'Data Minimisation'?",
+      "options": [
+        "Compressing files to save space",
+        "Collecting only the data necessary for a specific purpose",
+        "Deleting all data after 24 hours",
+        "Restricting data access to only one person"
+      ],
+      "answerIndex": 1,
+      "explanation": "Data minimisation ensures that organizations do not collect or hold excessive personal data."
+    },
+    {
+      "id": "adm-b2-w30-exam-13",
+      "type": "multipleChoice",
+      "prompt": "Choose the best option to complete the sentence: 'The documents ____ in the safe are highly confidential.'",
+      "options": [
+        "keeping",
+        "kept",
+        "which keeps",
+        "that keeping"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Kept' is a passive reduced relative clause (short for 'which are kept')."
+    },
+    {
+      "id": "adm-b2-w30-exam-14",
+      "type": "multipleChoice",
+      "prompt": "What is 'social engineering'?",
+      "options": [
+        "Programming social media algorithms",
+        "Manipulating people into divulging confidential information",
+        "Improving teamwork in the office",
+        "Designing office layouts for better interaction"
+      ],
+      "answerIndex": 1,
+      "explanation": "Social engineering targets the human element of security through psychological manipulation."
+    },
+    {
+      "id": "adm-b2-w30-exam-15",
+      "type": "multipleChoice",
+      "prompt": "What does a 'VPN' do?",
+      "options": [
+        "Increases physical security in the office",
+        "Provides a secure, encrypted tunnel for data over a public network",
+        "Speeds up the local Wi-Fi connection",
+        "Automatically backups all data to a printer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Virtual Private Networks are crucial for secure remote access and data protection."
+    },
+    {
+      "id": "adm-b2-w30-exam-16",
+      "type": "multipleChoice",
+      "prompt": "Which relative pronoun is used for people in the object position after a preposition?",
+      "options": [
+        "Who",
+        "Whom",
+        "Whose",
+        "Which"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Whom' is the objective case of 'who' and is used after prepositions."
+    },
+    {
+      "id": "adm-b2-w30-exam-17",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Right to Erasure' also known as?",
+      "options": [
+        "The Right to be Forgotten",
+        "The Right to be Corrected",
+        "The Right to Object",
+        "The Right to Access"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Right to Erasure allows individuals to request the deletion of their personal data."
+    },
+    {
+      "id": "adm-b2-w30-exam-18",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'The technician ____ I spoke to yesterday has fixed the firewall.'",
+      "options": [
+        "which",
+        "whose",
+        "whom",
+        "where"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Whom' is used here as the object of the preposition 'to' (though 'to' is at the end)."
+    },
+    {
+      "id": "adm-b2-w30-exam-19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Encryption at Rest'?",
+      "options": [
+        "Protecting data as it travels across the web",
+        "Protecting data stored on physical media like hard drives",
+        "A method of deleting data securely",
+        "Encrypting data only during weekends"
+      ],
+      "answerIndex": 1,
+      "explanation": "Encryption at rest protects stored data from unauthorized physical or digital access."
+    },
+    {
+      "id": "adm-b2-w30-exam-20",
+      "type": "multipleChoice",
+      "prompt": "Identify the error in this sentence: 'The laptop whose I found belongs to the IT manager.'",
+      "options": [
+        "laptop",
+        "whose",
+        "found",
+        "belongs"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Whose' is possessive. It should be 'which' or 'that' if it's the object of the relative clause."
     }
   ]
 }

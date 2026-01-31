@@ -6,44 +6,164 @@
   "title": "Examen: Salarios e Impuestos",
   "items": [
     {
-      "id": "fin-a2-w18-e1",
+      "id": "adm-a2-w18-q01",
       "type": "multipleChoice",
-      "prompt": "The money you receive after taxes is your ___.",
+      "prompt": "The total amount of money you receive after all taxes are taken away is your ___.",
       "options": ["gross salary", "net salary", "bonus", "tax"],
       "answerIndex": 1,
-      "explanation": "Net salary is what you actually receive."
+      "explanation": "El salario neto (net salary) es lo que realmente recibes tras los impuestos."
     },
     {
-      "id": "fin-a2-w18-e2",
+      "id": "adm-a2-w18-q02",
       "type": "multipleChoice",
-      "prompt": "In this country, you ___ pay income tax.",
+      "prompt": "In most countries, employees ___ pay income tax to the government.",
       "options": ["have to", "don't have to", "shouldn't", "are"],
       "answerIndex": 0,
-      "explanation": "Paying taxes is a legal obligation: have to."
+      "explanation": "Pagar impuestos es una obligación legal: have to."
     },
     {
-      "id": "fin-a2-w18-e3",
+      "id": "adm-a2-w18-q03",
       "type": "multipleChoice",
-      "prompt": "You ___ save 10% of your salary. It's a good idea.",
+      "prompt": "You ___ save a portion of your salary every month for emergencies.",
       "options": ["should", "have to", "mustn't", "are"],
       "answerIndex": 0,
-      "explanation": "For advice, we use 'should'."
+      "explanation": "Para dar consejos o recomendaciones, usamos 'should'."
     },
     {
-      "id": "fin-a2-w18-e4",
+      "id": "adm-a2-w18-q04",
       "type": "multipleChoice",
-      "prompt": "Where is my ___? I want to see my deductions.",
+      "prompt": "Where can I find the details of my deductions? Please check your ___.",
       "options": ["payslip", "bonus", "salary", "tax"],
       "answerIndex": 0,
-      "explanation": "A payslip shows your salary details and deductions."
+      "explanation": "La nómina (payslip) muestra los detalles del sueldo y las deducciones."
     },
     {
-      "id": "fin-a2-w18-e5",
+      "id": "adm-a2-w18-q05",
       "type": "multipleChoice",
-      "prompt": "My ___ is before any tax is taken away.",
+      "prompt": "My ___ is the total amount before any tax is deducted.",
       "options": ["gross salary", "net salary", "bonus", "debt"],
       "answerIndex": 0,
-      "explanation": "Gross salary is before taxes."
+      "explanation": "El salario bruto (gross salary) es el total antes de impuestos."
+    },
+    {
+      "id": "adm-a2-w18-q06",
+      "type": "multipleChoice",
+      "prompt": "A Christmas ___ is an extra payment at the end of the year.",
+      "options": ["bonus", "tax", "fine", "bill"],
+      "answerIndex": 0,
+      "explanation": "Un 'bonus' es una gratificación o pago extra."
+    },
+    {
+      "id": "adm-a2-w18-q07",
+      "type": "multipleChoice",
+      "prompt": "You ___ spend more than you earn if you want to avoid debt.",
+      "options": ["shouldn't", "have to", "should", "must"],
+      "answerIndex": 0,
+      "explanation": "Consejo negativo: no deberías (shouldn't) gastar más de lo que ganas."
+    },
+    {
+      "id": "adm-a2-w18-q08",
+      "type": "multipleChoice",
+      "prompt": "Does he ___ to work on public holidays?",
+      "options": ["have", "has", "should", "is"],
+      "answerIndex": 0,
+      "explanation": "En preguntas con 'Does', usamos 'have to'."
+    },
+    {
+      "id": "adm-a2-w18-q09",
+      "type": "multipleChoice",
+      "prompt": "Income ___ is calculated based on how much you earn.",
+      "options": ["tax", "bonus", "wage", "rent"],
+      "answerIndex": 0,
+      "explanation": "El impuesto sobre la renta se llama 'income tax'."
+    },
+    {
+      "id": "adm-a2-w18-q10",
+      "type": "multipleChoice",
+      "prompt": "You ___ check your payslip for mistakes every month.",
+      "options": ["should", "shouldn't", "don't have to", "doesn't"],
+      "answerIndex": 0,
+      "explanation": "Es un buen consejo (should) revisar la nómina."
+    },
+    {
+      "id": "adm-a2-w18-q11",
+      "type": "multipleChoice",
+      "prompt": "A ___ is usually paid to workers who are paid by the hour.",
+      "options": ["wage", "salary", "tax", "bonus"],
+      "answerIndex": 0,
+      "explanation": "'Wage' suele ser el pago por horas o trabajo semanal."
+    },
+    {
+      "id": "adm-a2-w18-q12",
+      "type": "multipleChoice",
+      "prompt": "If you don't have to work tomorrow, you ___ wake up early.",
+      "options": ["don't have to", "shouldn't", "have to", "must"],
+      "answerIndex": 0,
+      "explanation": "Indica ausencia de obligación: no tienes que (don't have to)."
+    },
+    {
+      "id": "adm-a2-w18-q13",
+      "type": "multipleChoice",
+      "prompt": "The government uses ___ to pay for public services like education.",
+      "options": ["taxes", "bonuses", "payslips", "wages"],
+      "answerIndex": 0,
+      "explanation": "Los impuestos financian los servicios públicos."
+    },
+    {
+      "id": "adm-a2-w18-q14",
+      "type": "multipleChoice",
+      "prompt": "You ___ sign the contract until you understand all the terms.",
+      "options": ["shouldn't", "should", "have to", "has to"],
+      "answerIndex": 0,
+      "explanation": "Consejo de precaución: no deberías (shouldn't) firmar sin entender."
+    },
+    {
+      "id": "adm-a2-w18-q15",
+      "type": "multipleChoice",
+      "prompt": "My monthly ___ is 2,500 euros after all deductions.",
+      "options": ["net income", "gross income", "tax rate", "bonus"],
+      "answerIndex": 0,
+      "explanation": "El ingreso neto (net income) es lo que queda tras las deducciones."
+    },
+    {
+      "id": "adm-a2-w18-q16",
+      "type": "multipleChoice",
+      "prompt": "Does your company ___ to provide health insurance?",
+      "options": ["have", "has", "should", "is"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre obligación corporativa con 'Does'."
+    },
+    {
+      "id": "adm-a2-w18-q17",
+      "type": "multipleChoice",
+      "prompt": "You ___ always keep your payslips for at least a year.",
+      "options": ["should", "shouldn't", "don't have to", "mustn't"],
+      "answerIndex": 0,
+      "explanation": "Es una recomendación práctica (should)."
+    },
+    {
+      "id": "adm-a2-w18-q18",
+      "type": "multipleChoice",
+      "prompt": "If the payment is late, you might have to pay a ___.",
+      "options": ["fine", "bonus", "salary", "wage"],
+      "answerIndex": 0,
+      "explanation": "Una 'fine' es una multa o penalización."
+    },
+    {
+      "id": "adm-a2-w18-q19",
+      "type": "multipleChoice",
+      "prompt": "A fixed monthly payment is usually called a ___.",
+      "options": ["salary", "wage", "tax", "bonus"],
+      "answerIndex": 0,
+      "explanation": "El pago fijo mensual se denomina 'salary'."
+    },
+    {
+      "id": "adm-a2-w18-q20",
+      "type": "multipleChoice",
+      "prompt": "You ___ ask your manager if you have questions about your salary.",
+      "options": ["should", "shouldn't", "mustn't", "doesn't"],
+      "answerIndex": 0,
+      "explanation": "Es el curso de acción recomendado (should)."
     }
   ]
 }

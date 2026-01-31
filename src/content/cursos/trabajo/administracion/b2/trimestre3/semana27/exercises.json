@@ -7,28 +7,32 @@
   "items": [
     {
       "id": "adm-b2-w27-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: Legal Alert",
-      "text": "CONFIDENTIAL: Legal Alert regarding Project X\n\nOur monitoring service has identified a new product from 'Apex Dynamics' that bears a striking resemblance to our Project X prototype. \n\nGiven that our prototype was kept in a secure VDR, Apex Dynamics must have gained access through an external leak. It could be a simple case of corporate espionage, or a former employee might have shared technical specs. \n\nWe must file our patent application immediately. If they file first, it could have devastating effects on our market position. It can't be a coincidence that their launch date aligns with our internal milestones.",
-      "questions": [
-        {
-          "question": "What is the primary concern mentioned in the alert?",
-          "options": ["A decrease in sales", "Potential IP theft or infringement", "A change in office location"],
-          "answerIndex": 1,
-          "explanation": "The alert discusses a competitor product that resembles a prototype and mentions corporate espionage."
-        },
-        {
-          "question": "Which modal verb is used to express strong certainty about a past event?",
-          "options": ["must have gained", "could be", "might have shared"],
-          "answerIndex": 0,
-          "explanation": "'Must have + past participle' expresses high certainty (deduction) about the past."
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "Based on the 'Legal Alert' regarding Project X: What is the primary concern mentioned?",
+      "options": [
+        "A decrease in sales",
+        "Potential IP theft or infringement",
+        "A change in office location"
+      ],
+      "answerIndex": 1,
+      "explanation": "The alert discusses a competitor product that resembles a prototype and mentions corporate espionage."
     },
     {
       "id": "adm-b2-w27-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: IP Terminology. Which of these protects a brand logo?",
+      "prompt": "Based on the 'Legal Alert' regarding Project X: Which modal verb is used to express strong certainty about a past event?",
+      "options": [
+        "must have gained",
+        "could be",
+        "might have shared"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Must have + past participle' expresses high certainty (deduction) about the past."
+    },
+    {
+      "id": "adm-b2-w27-ex03",
+      "type": "multipleChoice",
+      "prompt": "Which form of intellectual property (IP) protection is specifically used to protect a brand logo?",
       "options": [
         "Patent",
         "Copyright",
@@ -39,23 +43,23 @@
       "explanation": "Trademarks are used to protect brand identifiers like logos and names."
     },
     {
-      "id": "adm-b2-w27-ex03",
-      "type": "writingTask",
-      "prompt": "Exercise 3: Modals of Deduction (Past). Rewrite: 'I'm almost certain that they didn't see the contract.' -> 'They ____ (see) the contract.'",
-      "modelAnswer": "They couldn't have seen the contract.",
-      "keywords": ["couldn't have seen"]
-    },
-    {
       "id": "adm-b2-w27-ex04",
-      "type": "writingTask",
-      "prompt": "Exercise 4: Modals of Deduction (Present). Rewrite: 'It's possible that this is a trademark violation.' -> 'This ____ (be) a trademark violation.'",
-      "modelAnswer": "This could / might / may be a trademark violation.",
-      "keywords": ["could", "be"]
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction (Past): I'm almost certain that they didn't see the contract. -> They ____ (see) the contract.",
+      "answer": "couldn't have seen",
+      "explanation": "'Couldn't have' expresses high certainty that something did NOT happen."
     },
     {
       "id": "adm-b2-w27-ex05",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction (Present): It's possible that this is a trademark violation. -> This ____ (be) a trademark violation.",
+      "answer": "could be | might be | may be",
+      "explanation": "These modals express possibility."
+    },
+    {
+      "id": "adm-b2-w27-ex06",
       "type": "multipleChoice",
-      "prompt": "Exercise 5: IP Chunks. To 'infringe on a copyright' means:",
+      "prompt": "To 'infringe on a copyright' means:",
       "options": [
         "To buy the copyright from the owner",
         "To break the legal rights of the copyright owner",
@@ -64,6 +68,707 @@
       ],
       "answerIndex": 1,
       "explanation": "Infringement is the unauthorized use of protected IP."
+    },
+    {
+      "id": "adm-b2-w27-ex07",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal: 'They ____ have known about our secret project; we didn't tell anyone.'",
+      "options": [
+        "must",
+        "couldn't",
+        "might",
+        "should"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Couldn't have' expresses high certainty that something did NOT happen."
+    },
+    {
+      "id": "adm-b2-w27-ex08",
+      "type": "gap-fill",
+      "prompt": "Vocabulary: ____ ____ is any evidence that your invention is already known to the public, which can disqualify a patent application.",
+      "answer": "Prior art",
+      "explanation": "Prior art is a critical concept in patent law."
+    },
+    {
+      "id": "adm-b2-w27-ex09",
+      "type": "multipleChoice",
+      "prompt": "Which IP protection is generally considered best for a secret recipe that a company does not want to disclose?",
+      "options": [
+        "Patent",
+        "Copyright",
+        "Trademark",
+        "Trade Secret"
+      ],
+      "answerIndex": 3,
+      "explanation": "Trade secrets are kept confidential rather than being registered publicly."
+    },
+    {
+      "id": "adm-b2-w27-ex10",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: I'm sure the lawyer has already filed the application. -> The lawyer ____ (file) the application.",
+      "answer": "must have already filed | must have filed",
+      "explanation": "'Must have' expresses strong certainty about a past event."
+    },
+    {
+      "id": "adm-b2-w27-ex11",
+      "type": "multipleChoice",
+      "prompt": "In IP management, 'Docketing' refers to:",
+      "options": [
+        "Writing a book about patents",
+        "Maintaining a calendar of all IP-related deadlines",
+        "Firing the legal team",
+        "Designing a new logo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Docketing is the administrative task of tracking critical legal dates."
+    },
+    {
+      "id": "adm-b2-w27-ex12",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: It's possible that the designer copied the logo from the internet. -> The designer ____ (copy) the logo from the internet.",
+      "answer": "might have copied | could have copied | may have copied",
+      "explanation": "These modals express past possibility."
+    },
+    {
+      "id": "adm-b2-w27-ex13",
+      "type": "multipleChoice",
+      "prompt": "What does the abbreviation 'PCT' stand for in the context of international patents?",
+      "options": [
+        "Patent Cooperation Treaty",
+        "Private Copyright Title",
+        "Personal Company Trademark",
+        "Public Creative Trust"
+      ],
+      "answerIndex": 0,
+      "explanation": "The PCT allows for a unified international patent application process."
+    },
+    {
+      "id": "adm-b2-w27-ex14",
+      "type": "gap-fill",
+      "prompt": "An ____ (Non-Disclosure Agreement) is a contract where parties agree not to disclose confidential information.",
+      "answer": "NDA",
+      "explanation": "NDAs are standard for protecting confidentiality."
+    },
+    {
+      "id": "adm-b2-w27-ex15",
+      "type": "multipleChoice",
+      "prompt": "In an IP dispute, an 'Injunction' is a court order to:",
+      "options": [
+        "Give the company more money",
+        "Stop a party from doing something (e.g., selling an infringing product)",
+        "Hire more staff",
+        "Change the company's name"
+      ],
+      "answerIndex": 1,
+      "explanation": "An injunction stops infringing activities immediately."
+    },
+    {
+      "id": "adm-b2-w27-ex16",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: The document isn't in the safe. Someone ____ (take) it yesterday.",
+      "answer": "must have taken",
+      "explanation": "High certainty about a past event."
+    },
+    {
+      "id": "adm-b2-w27-ex17",
+      "type": "multipleChoice",
+      "prompt": "Copyright protection is primarily designed to cover:",
+      "options": [
+        "Inventions and machines",
+        "Original creative works like software code and manuals",
+        "Brand names and slogans",
+        "Secret formulas"
+      ],
+      "answerIndex": 1,
+      "explanation": "Copyright is for creative expressions and software."
+    },
+    {
+      "id": "adm-b2-w27-ex18",
+      "type": "gap-fill",
+      "prompt": "Patent ____ fees must be paid to the patent office to keep the patent active and enforceable.",
+      "answer": "maintenance | renewal",
+      "explanation": "Keeping a patent active requires periodic payments."
+    },
+    {
+      "id": "adm-b2-w27-ex19",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal (95% negative certainty): 'It ____ be a coincidence that they launched the same tech on the same day.'",
+      "options": [
+        "must",
+        "can't",
+        "might",
+        "could"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Can't' expresses strong negative certainty in the present."
+    },
+    {
+      "id": "adm-b2-w27-ex20",
+      "type": "gap-fill",
+      "prompt": "____ is the specific territory or country where a patent or trademark is legally valid.",
+      "answer": "Jurisdiction",
+      "explanation": "IP rights are usually territorial."
+    },
+    {
+      "id": "adm-b2-w27-ex21",
+      "type": "multipleChoice",
+      "prompt": "WIPO is an agency associated with which international organization?",
+      "options": [
+        "The European Union",
+        "The United Nations",
+        "The World Bank",
+        "NATO"
+      ],
+      "answerIndex": 1,
+      "explanation": "WIPO is a self-funding agency of the United Nations."
+    },
+    {
+      "id": "adm-b2-w27-ex22",
+      "type": "multipleChoice",
+      "prompt": "Based on the 'NDA Breach' email: How many people had access to the leaked files?",
+      "options": [
+        "Ten",
+        "Five",
+        "Everyone"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text states 'Only five contractors had access to these files'."
+    },
+    {
+      "id": "adm-b2-w27-ex23",
+      "type": "multipleChoice",
+      "prompt": "Based on the 'NDA Breach' email: What type of NDA is specifically mentioned?",
+      "options": [
+        "Mutual",
+        "Unilateral",
+        "Bilateral"
+      ],
+      "answerIndex": 1,
+      "explanation": "The email mentions 'unilateral NDAs'."
+    },
+    {
+      "id": "adm-b2-w27-ex24",
+      "type": "multipleChoice",
+      "prompt": "The phrase 'to grant a license' means:",
+      "options": [
+        "To steal someone's idea",
+        "To give legal permission to another party to use your IP",
+        "To cancel a patent",
+        "To file a lawsuit"
+      ],
+      "answerIndex": 1,
+      "explanation": "Licensing allows others to use your IP under specific terms."
+    },
+    {
+      "id": "adm-b2-w27-ex25",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: They ____ (not / know) about the meeting; it was cancelled before they arrived.",
+      "answer": "can't have known",
+      "explanation": "Strong certainty that a past event did not happen."
+    },
+    {
+      "id": "adm-b2-w27-ex26",
+      "type": "multipleChoice",
+      "prompt": "'Corporate Espionage' is best defined as:",
+      "options": [
+        "Hiring new engineers",
+        "Illegally spying on a competitor to steal trade secrets",
+        "Selling your own company",
+        "Advertising your products"
+      ],
+      "answerIndex": 1,
+      "explanation": "Espionage involves illegal spying to gain a business advantage."
+    },
+    {
+      "id": "adm-b2-w27-ex27",
+      "type": "gap-fill",
+      "prompt": "The ____ ____ is the date of the very first patent application filed for an invention.",
+      "answer": "priority date",
+      "explanation": "This date determines who was first to invent."
+    },
+    {
+      "id": "adm-b2-w27-ex28",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal (50% possibility): 'The competitor's CEO ____ be lying about their discovery.'",
+      "options": [
+        "must",
+        "could",
+        "can't",
+        "should"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Could' expresses possibility."
+    },
+    {
+      "id": "adm-b2-w27-ex29",
+      "type": "gap-fill",
+      "prompt": "Administrators help collect documents and ensure ____ orders are followed during the 'Discovery' phase of a lawsuit.",
+      "answer": "preservation",
+      "explanation": "Preservation orders prevent the destruction of evidence."
+    },
+    {
+      "id": "adm-b2-w27-ex30",
+      "type": "multipleChoice",
+      "prompt": "Which of these is most likely to be protected by a trademark?",
+      "options": [
+        "The internal design of a car engine",
+        "The Nike 'Swoosh' logo",
+        "A novel about a detective",
+        "A secret recipe for a sauce"
+      ],
+      "answerIndex": 1,
+      "explanation": "Logos are protected by trademarks."
+    },
+    {
+      "id": "adm-b2-w27-ex31",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: I'm certain they didn't finish the prototype on time. -> They ____ (finish) the prototype on time.",
+      "answer": "couldn't have finished",
+      "explanation": "High negative certainty about the past."
+    },
+    {
+      "id": "adm-b2-w27-ex32",
+      "type": "multipleChoice",
+      "prompt": "To 'settle an IP dispute out of court' means:",
+      "options": [
+        "To lose the trial",
+        "To reach an agreement without a full judicial trial",
+        "To go to prison",
+        "To fire the lawyers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Settling out of court is faster and often cheaper than a trial."
+    },
+    {
+      "id": "adm-b2-w27-ex33",
+      "type": "gap-fill",
+      "prompt": "Patent ____ occurs when a party makes, uses, or sells a patented invention without permission.",
+      "answer": "infringement",
+      "explanation": "Violation of patent rights."
+    },
+    {
+      "id": "adm-b2-w27-ex34",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal: 'You ____ have forgotten to lock the VDR; I saw you do it!'",
+      "options": [
+        "must",
+        "can't",
+        "might",
+        "could"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Can't have' because the speaker saw them lock it (strong certainty it didn't happen)."
+    },
+    {
+      "id": "adm-b2-w27-ex35",
+      "type": "gap-fill",
+      "prompt": "The ____ System allows for the simplified international registration of trademarks.",
+      "answer": "Madrid",
+      "explanation": "The Madrid Protocol is for trademark registration."
+    },
+    {
+      "id": "adm-b2-w27-ex36",
+      "type": "multipleChoice",
+      "prompt": "A 'Preservation Order' in a legal case means you must:",
+      "options": [
+        "Delete all old emails",
+        "Not delete or alter any documents relevant to the case",
+        "Keep the office clean",
+        "Preserve the food in the fridge"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preservation orders are critical in legal discovery to prevent evidence tampering."
+    },
+    {
+      "id": "adm-b2-w27-ex37",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: The competitor's product is identical. They ____ (steal) our blueprints.",
+      "answer": "must have stolen",
+      "explanation": "High certainty based on identical results."
+    },
+    {
+      "id": "adm-b2-w27-ex38",
+      "type": "multipleChoice",
+      "prompt": "'Damages' in a legal sense refers to:",
+      "options": [
+        "Broken office equipment",
+        "Financial compensation paid to the winner of a lawsuit",
+        "The cost of the lawyer",
+        "The time lost during a trial"
+      ],
+      "answerIndex": 1,
+      "explanation": "Damages are the money awarded by a court."
+    },
+    {
+      "id": "adm-b2-w27-ex39",
+      "type": "gap-fill",
+      "prompt": "A ____ NDA is a contract where both parties agree to keep each other's shared information secret.",
+      "answer": "mutual",
+      "explanation": "Mutual NDAs protect both sides."
+    },
+    {
+      "id": "adm-b2-w27-ex40",
+      "type": "multipleChoice",
+      "prompt": "Most patents are typically published ____ months after the priority date.",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "18 months is the standard timeframe for patent publication."
+    },
+    {
+      "id": "adm-b2-w27-ex41",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: It's possible that the server crashed because of a hack. -> The server ____ (crash) because of a hack.",
+      "answer": "might have crashed | could have crashed | may have crashed",
+      "explanation": "Expressing past possibility."
+    },
+    {
+      "id": "adm-b2-w27-ex42",
+      "type": "multipleChoice",
+      "prompt": "Why would a company choose a 'Trade Secret' over a 'Patent' for a formula?",
+      "options": [
+        "Because patents are free",
+        "Because a trade secret can potentially last forever if kept secret",
+        "Because trade secrets are registered with the UN",
+        "Because trade secrets don't require NDAs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Patents expire (usually after 20 years), but trade secrets have no set time limit."
+    },
+    {
+      "id": "adm-b2-w27-ex43",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: The attorney filed the application yesterday. -> The application ____ (file) yesterday.",
+      "answer": "was filed",
+      "explanation": "Simple past passive."
+    },
+    {
+      "id": "adm-b2-w27-ex44",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal: 'They ____ have known the patent was active; it's clearly listed on the official website.'",
+      "options": [
+        "must",
+        "might",
+        "could",
+        "should"
+      ],
+      "answerIndex": 0,
+      "explanation": "If it's clearly listed, it's almost certain they knew (must have known)."
+    },
+    {
+      "id": "adm-b2-w27-ex45",
+      "type": "gap-fill",
+      "prompt": "An ____ ____ is an agreement reached by parties in a dispute without a final court judgment.",
+      "answer": "out-of-court settlement",
+      "explanation": "Settlements avoid the cost and risk of a trial."
+    },
+    {
+      "id": "adm-b2-w27-ex46",
+      "type": "multipleChoice",
+      "prompt": "'Maintenance fees' for IP are also commonly known as:",
+      "options": [
+        "Cleaning fees",
+        "Renewal fees",
+        "Hiring fees",
+        "Legal taxes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Renewal or maintenance fees are paid periodically to keep IP rights active."
+    },
+    {
+      "id": "adm-b2-w27-ex47",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: The court granted the injunction last week. -> The injunction ____ (grant) last week.",
+      "answer": "was granted",
+      "explanation": "Simple past passive."
+    },
+    {
+      "id": "adm-b2-w27-ex48",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal: 'He ____ have signed the NDA; otherwise, he wouldn't have been allowed into the facility.'",
+      "options": [
+        "must",
+        "can't",
+        "might",
+        "may"
+      ],
+      "answerIndex": 0,
+      "explanation": "Based on the logical condition, 'must have' is the correct deduction."
+    },
+    {
+      "id": "adm-b2-w27-ex49",
+      "type": "gap-fill",
+      "prompt": "____ is the pre-trial phase where parties investigate the facts by collecting relevant documents and evidence.",
+      "answer": "Discovery",
+      "explanation": "Discovery is a key stage in litigation."
+    },
+    {
+      "id": "adm-b2-w27-ex50",
+      "type": "multipleChoice",
+      "prompt": "In IP litigation, 'Witness Coordination' involves:",
+      "options": [
+        "Hiring people to watch the office",
+        "Scheduling depositions and appearances for testimony",
+        "Designing a uniform for the legal team",
+        "Moving the office to a new building"
+      ],
+      "answerIndex": 1,
+      "explanation": "Admin staff handle the logistics of scheduling witnesses."
+    },
+    {
+      "id": "adm-b2-w27-ex51",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: I'm sure the leak didn't happen in our department. -> The leak ____ (happen) in our department.",
+      "answer": "couldn't have happened",
+      "explanation": "Strong negative certainty about the past."
+    },
+    {
+      "id": "adm-b2-w27-ex52",
+      "type": "multipleChoice",
+      "prompt": "The 'Madrid System' specifically handles the international registration of:",
+      "options": [
+        "Patents",
+        "Trademarks",
+        "Copyrights",
+        "Trade Secrets"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Madrid Protocol specifically covers trademarks."
+    },
+    {
+      "id": "adm-b2-w27-ex53",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: We will publish the findings next month. -> The findings ____ (publish) next month.",
+      "answer": "will be published",
+      "explanation": "Future passive."
+    },
+    {
+      "id": "adm-b2-w27-ex54",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal: 'The competitor's patent application ____ be rejected because it lacks innovation.' (Expressing possibility).",
+      "options": [
+        "must",
+        "might",
+        "can't",
+        "should"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Might' expresses possibility."
+    },
+    {
+      "id": "adm-b2-w27-ex55",
+      "type": "gap-fill",
+      "prompt": "Corporate ____ discovery is the process of gathering official company documents for legal review.",
+      "answer": "records",
+      "explanation": "Gathering official records is part of discovery."
+    },
+    {
+      "id": "adm-b2-w27-ex56",
+      "type": "multipleChoice",
+      "prompt": "What generally happens if you miss a 'Patent Maintenance' deadline?",
+      "options": [
+        "The patent is automatically renewed",
+        "The patent rights may expire and enter the public domain",
+        "The office gets a prize",
+        "The lawyer gets a promotion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Failure to pay renewal fees leads to the loss of IP protection."
+    },
+    {
+      "id": "adm-b2-w27-ex57",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: They ____ (see) our brochure; they're using our exact slogan.",
+      "answer": "must have seen",
+      "explanation": "High certainty based on identical outcomes."
+    },
+    {
+      "id": "adm-b2-w27-ex58",
+      "type": "multipleChoice",
+      "prompt": "'Infringement Damages' are primarily intended to:",
+      "options": [
+        "Punish the company for being successful",
+        "Compensate the IP owner for financial loss",
+        "Buy new software",
+        "Pay for the company's electricity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Damages are calculated to repay the owner for lost revenue."
+    },
+    {
+      "id": "adm-b2-w27-ex59",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: They are reviewing the trademark application. -> The trademark application ____ (review) now.",
+      "answer": "is being reviewed",
+      "explanation": "Present continuous passive."
+    },
+    {
+      "id": "adm-b2-w27-ex60",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal (strong doubt): 'I ____ have left the NDA on the train! I remember putting it in my bag.'",
+      "options": [
+        "must",
+        "can't",
+        "might",
+        "could"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Can't have' expresses high certainty that a past event did NOT occur."
+    },
+    {
+      "id": "adm-b2-w27-ex61",
+      "type": "multipleChoice",
+      "prompt": "Based on the 'Litigation Strategy' memo: How many emails have been gathered during discovery?",
+      "options": [
+        "500",
+        "1,000",
+        "Over 5,000"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text mentions 'over 5,000 emails'."
+    },
+    {
+      "id": "adm-b2-w27-ex62",
+      "type": "multipleChoice",
+      "prompt": "Based on the 'Litigation Strategy' memo: What could happen if proof of prior art is found?",
+      "options": [
+        "The patent could be invalidated",
+        "The patent will be renewed",
+        "The trial will stop immediately"
+      ],
+      "answerIndex": 0,
+      "explanation": "The text says 'our patent could be invalidated' if prior art is proven."
+    },
+    {
+      "id": "adm-b2-w27-ex63",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: The manager signed the NDA. -> The NDA ____ (sign) by the manager.",
+      "answer": "was signed",
+      "explanation": "Simple past passive."
+    },
+    {
+      "id": "adm-b2-w27-ex64",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal: 'They ____ have known the tech was patented; we sent them a cease-and-desist letter last month.'",
+      "options": [
+        "must",
+        "might",
+        "could",
+        "should"
+      ],
+      "answerIndex": 0,
+      "explanation": "If a cease-and-desist letter was sent, they definitely knew (must have known)."
+    },
+    {
+      "id": "adm-b2-w27-ex65",
+      "type": "gap-fill",
+      "prompt": "A ____-____-____ letter is a formal document sent to stop an illegal activity like IP infringement.",
+      "answer": "cease-and-desist",
+      "explanation": "Standard formal warning letter."
+    },
+    {
+      "id": "adm-b2-w27-ex66",
+      "type": "multipleChoice",
+      "prompt": "A 'Trade Secret' protection ends if:",
+      "options": [
+        "The company changes its name",
+        "The information is publicly disclosed or reverse-engineered",
+        "The owner retires",
+        "The office moves"
+      ],
+      "answerIndex": 1,
+      "explanation": "Trade secrets rely on secrecy; once they are public, the protection ends."
+    },
+    {
+      "id": "adm-b2-w27-ex67",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: It's impossible that she leaked the data; she wasn't even in the office. -> She ____ (leak) the data.",
+      "answer": "couldn't have leaked",
+      "explanation": "High negative certainty about the past."
+    },
+    {
+      "id": "adm-b2-w27-ex68",
+      "type": "multipleChoice",
+      "prompt": "'Liaising' in an IP administrative role involves:",
+      "options": [
+        "Designing the products yourself",
+        "Coordinating communication between internal inventors and external counsel",
+        "Paying the electricity bills",
+        "Hiring new sales staff"
+      ],
+      "answerIndex": 1,
+      "explanation": "Liaising is the role of coordinating communication."
+    },
+    {
+      "id": "adm-b2-w27-ex69",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: The WIPO office issues the certificates. -> The certificates ____ (issue) by the WIPO office.",
+      "answer": "are issued",
+      "explanation": "Simple present passive."
+    },
+    {
+      "id": "adm-b2-w27-ex70",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct modal (50% possibility): 'The patent application ____ have been rejected because of a clerical error.'",
+      "options": [
+        "must",
+        "might",
+        "can't",
+        "should"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Might have been' expresses past possibility."
+    },
+    {
+      "id": "adm-b2-w27-ex71",
+      "type": "gap-fill",
+      "prompt": "____ ____ is the process of taking a product apart to see how it works and how it was made.",
+      "answer": "Reverse engineering",
+      "explanation": "Common way to analyze competitor tech."
+    },
+    {
+      "id": "adm-b2-w27-ex72",
+      "type": "multipleChoice",
+      "prompt": "'Legal Scrutiny' is best described as:",
+      "options": [
+        "A legal party",
+        "Careful and detailed examination by legal experts",
+        "A legal law",
+        "A legal discount"
+      ],
+      "answerIndex": 1,
+      "explanation": "Scrutiny means close observation or examination."
+    },
+    {
+      "id": "adm-b2-w27-ex73",
+      "type": "gap-fill",
+      "prompt": "Modals of Deduction: The design is so similar! They ____ (use) a former employee to get the details.",
+      "answer": "must have used",
+      "explanation": "Strong certainty based on evidence."
+    },
+    {
+      "id": "adm-b2-w27-ex74",
+      "type": "multipleChoice",
+      "prompt": "The PCT (Patent Cooperation Treaty) system is managed by:",
+      "options": [
+        "WIPO",
+        "The UN Security Council",
+        "Interpol",
+        "The World Trade Organization"
+      ],
+      "answerIndex": 0,
+      "explanation": "WIPO manages the PCT."
+    },
+    {
+      "id": "adm-b2-w27-ex75",
+      "type": "gap-fill",
+      "prompt": "Passive Voice: The judge dismissed the case. -> The case ____ (dismiss) by the judge.",
+      "answer": "was dismissed",
+      "explanation": "Simple past passive."
     }
   ]
 }

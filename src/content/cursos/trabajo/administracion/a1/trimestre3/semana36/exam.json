@@ -1,0 +1,217 @@
+{
+  "title": "Trimester 3: Final Course Exam (Week 36)",
+  "questions": [
+    {
+      "id": "adm-a1-w36-q1",
+      "type": "multiple-choice",
+      "question": "Choose the most professional email greeting:",
+      "options": [
+        "Hey you,",
+        "Dear Mr. Miller,",
+        "What's up,",
+        "Hello manager,"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Dear [Title] [Name]' is the most professional greeting."
+    },
+    {
+      "id": "adm-a1-w36-q2",
+      "type": "multiple-choice",
+      "question": "What is the meaning of 'ASAP'?",
+      "options": [
+        "In two hours.",
+        "As soon as possible.",
+        "Always send all papers.",
+        "At seven after pm."
+      ],
+      "correctAnswer": 1,
+      "explanation": "ASAP means as quickly as you can."
+    },
+    {
+      "id": "adm-a1-w36-q3",
+      "type": "fill-blank",
+      "question": "________ you please send me the file?",
+      "answer": "Could",
+      "explanation": "'Could' is used for polite professional requests."
+    },
+    {
+      "id": "adm-a1-w36-q4",
+      "type": "matching",
+      "question": "Match the office actions with their descriptions:",
+      "pairs": [
+        { "term": "Sign in", "definition": "Register arrival" },
+        { "term": "Attach", "definition": "Add a file to an email" },
+        { "term": "Forward", "definition": "Send a received email to a new person" },
+        { "term": "Borrow", "definition": "Use something and return it" }
+      ]
+    },
+    {
+      "id": "adm-a1-w36-q5",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative imperative:",
+      "options": [
+        "No use the elevator.",
+        "Not use the elevator.",
+        "Don't use the elevator.",
+        "Doesn't use the elevator."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Negative imperatives use 'Don't' + base verb."
+    },
+    {
+      "id": "adm-a1-w36-q6",
+      "type": "fill-blank",
+      "question": "I am from Global Tech. What is your ________ (nombre), please?",
+      "answer": "name",
+      "explanation": "'What is your name?' is used to ask for identity."
+    },
+    {
+      "id": "adm-a1-w36-q7",
+      "type": "multiple-choice",
+      "question": "What should you offer to a visitor in the reception?",
+      "options": [
+        "A heavy box.",
+        "A glass of water or coffee.",
+        "A new job.",
+        "A lunch menu."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Offering a drink is a standard courtesy."
+    },
+    {
+      "id": "adm-a1-w36-q8",
+      "type": "fill-blank",
+      "question": "________ (Recuerda) to lock the door.",
+      "answer": "Remember",
+      "explanation": "'Remember' is the verb for a positive reminder."
+    },
+    {
+      "id": "adm-a1-w36-q9",
+      "type": "matching",
+      "question": "Match the email abbreviations with their meanings:",
+      "pairs": [
+        { "term": "FYI", "definition": "For your information" },
+        { "term": "BRB", "definition": "Be right back" },
+        { "term": "BTW", "definition": "By the way" },
+        { "term": "RE", "definition": "Reply" }
+      ]
+    },
+    {
+      "id": "adm-a1-w36-q10",
+      "type": "multiple-choice",
+      "question": "What follows 'May I' in a permission request?",
+      "options": [
+        "The verb + ing",
+        "The base form of the verb",
+        "The past form of the verb",
+        "To + verb"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'May I' is followed by the base form of the verb."
+    },
+    {
+      "id": "adm-a1-w36-q11",
+      "type": "fill-blank",
+      "question": "The manager is busy. She'll be with you ________ (en breve).",
+      "answer": "shortly",
+      "explanation": "'Shortly' means very soon."
+    },
+    {
+      "id": "adm-a1-w36-q12",
+      "type": "multiple-choice",
+      "question": "Where is the 'Subject' line located in an email?",
+      "options": [
+        "At the bottom.",
+        "In the middle.",
+        "At the top.",
+        "In the signature."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The subject line is at the top of an email."
+    },
+    {
+      "id": "adm-a1-w36-q13",
+      "type": "fill-blank",
+      "question": "Access is for authorized ________ (personal) only.",
+      "answer": "personnel",
+      "explanation": "'Personnel' is the formal word for staff."
+    },
+    {
+      "id": "adm-a1-w36-q14",
+      "type": "multiple-choice",
+      "question": "What is the phrasal verb for 'Apagar'?",
+      "options": [
+        "Turn on",
+        "Turn off",
+        "Log in",
+        "Sign up"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Turn off' is used for lights and machines."
+    },
+    {
+      "id": "adm-a1-w36-q15",
+      "type": "fill-blank",
+      "question": "Is it ________ if I use this computer?",
+      "answer": "okay",
+      "explanation": "'Is it okay if...?' is a common way to ask for permission."
+    },
+    {
+      "id": "adm-a1-w36-q16",
+      "type": "multiple-choice",
+      "question": "Choose the most formal closing for a letter:",
+      "options": [
+        "Cheers,",
+        "Sincerely,",
+        "Bye,",
+        "See you later,"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Sincerely' is used in formal business letters."
+    },
+    {
+      "id": "adm-a1-w36-q17",
+      "type": "matching",
+      "question": "Match the object pronouns with the people they refer to:",
+      "pairs": [
+        { "term": "Him", "definition": "A man" },
+        { "term": "Her", "definition": "A woman" },
+        { "term": "Them", "definition": "A group" },
+        { "term": "Us", "definition": "Me and my team" }
+      ]
+    },
+    {
+      "id": "adm-a1-w36-q18",
+      "type": "multiple-choice",
+      "question": "What is a 'Post-it'?",
+      "options": [
+        "A large report.",
+        "A small sticky note.",
+        "A type of computer.",
+        "A visitor's car."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Post-its are used for quick reminders and short notes."
+    },
+    {
+      "id": "adm-a1-w36-q19",
+      "type": "fill-blank",
+      "question": "Please ________ (adjunta) your ID card.",
+      "answer": "attach",
+      "explanation": "To 'attach' or 'add' a document."
+    },
+    {
+      "id": "adm-a1-w36-q20",
+      "type": "multiple-choice",
+      "question": "How do you welcome someone to your office?",
+      "options": [
+        "Welcome to our office.",
+        "Wait here now.",
+        "Go back.",
+        "I am ready."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Welcome to our office' is a standard greeting."
+    }
+  ]
+}

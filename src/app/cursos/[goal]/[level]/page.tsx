@@ -111,8 +111,8 @@ export default async function CursoLandingPage({ params }: { params: Promise<{ g
     );
   }
 
-  // Get curriculum data for this level
-  const curriculum = getCurriculumByLevel(level.toUpperCase());
+  // Get curriculum data for this level and goal
+  const curriculum = getCurriculumByLevel(level, goal);
 
   // Generate Course Schema for SEO
   const courseSchema = generateCourseSchema({

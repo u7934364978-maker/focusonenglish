@@ -1,8 +1,9 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Users, Video, MessageCircle, Calendar, Globe, Clock, Star, CheckCircle, UserPlus, ArrowLeft } from 'lucide-react'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 
 interface ConversationClub {
   id: string
@@ -176,21 +177,51 @@ const forumThreads: ForumThread[] = [
 
 export default function SocialImmersion() {
   const router = useRouter()
+  const { fetchAllProgress, updateMethodologyStats, updateXP } = useMethodologyProgress()
   const [clubs, setClubs] = useState<ConversationClub[]>(conversationClubs)
   const [selectedClub, setSelectedClub] = useState<ConversationClub | null>(null)
   const [activeTab, setActiveTab] = useState<'clubs' | 'forums'>('clubs')
   const [filterLevel, setFilterLevel] = useState<string>('all')
+  const [stats, setStats] = useState({
+    activeMembers: 1250,
+    clubsThisWeek: 12,
+    activeConversations: 156,
+    myClubs: 0
+  })
 
-  const joinClub = (clubId: string) => {
+  useEffect(() => {
+    async function loadStats() {
+      const dbData = await fetchAllProgress()
+      if (dbData && dbData.stats) {
+        setStats(prev => ({
+          ...prev,
+          myClubs: dbData.stats.social_clubs_joined || 0
+        }))
+      }
+    }
+    loadStats()
+  }, [fetchAllProgress])
+
+  const joinClub = async (clubId: string) => {
+    const club = clubs.find(c => c.id === clubId)
+    if (!club) return
+
+    const isJoining = !club.joined
+
     setClubs(prev =>
-      prev.map(club =>
-        club.id === clubId
-          ? { ...club, joined: !club.joined, participants: club.joined ? club.participants - 1 : club.participants + 1 }
-          : club
+      prev.map(c =>
+        c.id === clubId
+          ? { ...c, joined: isJoining, participants: isJoining ? c.participants + 1 : c.participants - 1 }
+          : c
       )
     )
-    if (selectedClub?.id === clubId) {
-      setSelectedClub(prev => prev ? { ...prev, joined: !prev.joined } : null)
+
+    if (isJoining) {
+      await updateMethodologyStats({ social_clubs_joined: 1 })
+      await updateXP(50, 'social_club_joined', clubId)
+      setStats(prev => ({ ...prev, myClubs: prev.myClubs + 1 }))
+    } else {
+      // Opcional: manejar desuscripción
     }
   }
 
@@ -250,7 +281,7 @@ export default function SocialImmersion() {
           <div className="flex items-center gap-3 mb-2">
             <Users className="w-8 h-8 text-blue-600" />
             <span className="text-3xl font-bold text-blue-900">
-              {clubs.reduce((acc, club) => acc + club.participants, 0)}
+              {stats.activeMembers}
             </span>
           </div>
           <p className="text-blue-700 font-medium">Miembros Activos</p>
@@ -260,7 +291,7 @@ export default function SocialImmersion() {
           <div className="flex items-center gap-3 mb-2">
             <Calendar className="w-8 h-8 text-purple-600" />
             <span className="text-3xl font-bold text-purple-900">
-              {clubs.filter(c => c.status === 'upcoming').length}
+              {stats.clubsThisWeek}
             </span>
           </div>
           <p className="text-purple-700 font-medium">Clubes esta Semana</p>
@@ -270,7 +301,7 @@ export default function SocialImmersion() {
           <div className="flex items-center gap-3 mb-2">
             <MessageCircle className="w-8 h-8 text-green-600" />
             <span className="text-3xl font-bold text-green-900">
-              {forumThreads.reduce((acc, thread) => acc + thread.replies, 0)}
+              {stats.activeConversations}
             </span>
           </div>
           <p className="text-green-700 font-medium">Conversaciones Activas</p>
@@ -280,7 +311,7 @@ export default function SocialImmersion() {
           <div className="flex items-center gap-3 mb-2">
             <Star className="w-8 h-8 text-orange-600" />
             <span className="text-3xl font-bold text-orange-900">
-              {clubs.filter(c => c.joined).length}
+              {stats.myClubs}
             </span>
           </div>
           <p className="text-orange-700 font-medium">Mis Clubes</p>

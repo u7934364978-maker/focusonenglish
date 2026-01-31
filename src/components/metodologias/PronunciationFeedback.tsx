@@ -1,8 +1,9 @@
 'use client'
 
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { Mic, Volume2, RotateCcw, Trophy, TrendingUp, ChevronRight, CheckCircle, XCircle, ArrowLeft } from 'lucide-react'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 
 interface PronunciationExercise {
   id: string
@@ -96,6 +97,7 @@ const recentResults: PronunciationResult[] = [
 
 export default function PronunciationFeedback() {
   const router = useRouter()
+  const { fetchAllProgress, updateMethodologyStats, updateXP } = useMethodologyProgress()
   const [selectedExercise, setSelectedExercise] = useState<PronunciationExercise>(exercises[0])
   const [isRecording, setIsRecording] = useState(false)
   const [showResult, setShowResult] = useState(false)
@@ -107,6 +109,20 @@ export default function PronunciationFeedback() {
     todayStreak: 5
   })
 
+  useEffect(() => {
+    async function loadStats() {
+      const dbData = await fetchAllProgress()
+      if (dbData && dbData.stats) {
+        setStats(prev => ({
+          ...prev,
+          averageScore: Math.round(dbData.stats.pronunciation_average_score || 85),
+          totalPractices: dbData.stats.pronunciation_practices_count || 0
+        }))
+      }
+    }
+    loadStats()
+  }, [fetchAllProgress])
+
   const startRecording = () => {
     setIsRecording(true)
     // Simulate recording
@@ -116,7 +132,7 @@ export default function PronunciationFeedback() {
     }, 3000)
   }
 
-  const analyzePronunciation = () => {
+  const analyzePronunciation = async () => {
     // Simulate AI analysis
     const randomScore = Math.floor(Math.random() * 30) + 70 // 70-100
     const result: PronunciationResult = {
@@ -126,6 +142,14 @@ export default function PronunciationFeedback() {
       improvements: randomScore < 90 ? ['Mejora el énfasis en la segunda sílaba', 'Pronuncia la "th" más suave'] : [],
       timestamp: new Date()
     }
+    
+    // Persistir resultados
+    await updateMethodologyStats({ 
+      pronunciation_practices_count: 1,
+      pronunciation_average_score: randomScore
+    })
+    await updateXP(15, 'pronunciation_practice', selectedExercise.id)
+
     setCurrentResult(result)
     setShowResult(true)
   }

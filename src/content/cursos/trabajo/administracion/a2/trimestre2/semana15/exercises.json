@@ -6,404 +6,605 @@
   "title": "Ejercicios: Seguros y Coberturas",
   "items": [
     {
-      "id": "fin-a2-w15-1",
+      "id": "adm-a2-w15-ex01",
       "type": "multipleChoice",
       "prompt": "If you buy this ___, your home is protected.",
       "options": ["premium", "policy", "claim", "debt"],
       "answerIndex": 1,
-      "explanation": "A policy is the insurance contract."
+      "explanation": "Una 'policy' es el contrato o póliza de seguro."
     },
     {
-      "id": "fin-a2-w15-2",
+      "id": "adm-a2-w15-ex02",
       "type": "multipleChoice",
       "prompt": "If I ___ the premium, I will have coverage.",
       "options": ["will pay", "pay", "paying", "paid"],
       "answerIndex": 1,
-      "explanation": "First conditional: If + present simple."
+      "explanation": "Primer condicional: If + presente simple."
     },
     {
-      "id": "fin-a2-w15-3",
+      "id": "adm-a2-w15-ex03",
       "type": "multipleChoice",
       "prompt": "The insurance company will pay if you make a ___.",
       "options": ["premium", "claim", "budget", "loan"],
       "answerIndex": 1,
-      "explanation": "A claim is a request for payment after an accident."
+      "explanation": "Un 'claim' es una reclamación o siniestro para solicitar un pago."
     },
     {
-      "id": "fin-a2-w15-4",
+      "id": "adm-a2-w15-ex04",
       "type": "multipleChoice",
       "prompt": "If she loses her job, the insurance ___ help her.",
       "options": ["will", "is", "goes", "does"],
       "answerIndex": 0,
-      "explanation": "First conditional: ... , will + verb."
+      "explanation": "Primer condicional: ..., will + verbo."
     },
     {
-      "id": "fin-a2-w15-5",
+      "id": "adm-a2-w15-ex05",
       "type": "multipleChoice",
       "prompt": "What is 'coverage'?",
       "options": ["The price of a car", "The amount of protection in a policy", "A bank loan", "A type of tax"],
       "answerIndex": 1,
-      "explanation": "Coverage is what the insurance protects."
+      "explanation": "La 'coverage' es la cobertura o cantidad de protección del seguro."
     },
     {
-      "id": "fin-a2-w15-6",
+      "id": "adm-a2-w15-ex06",
       "type": "multipleChoice",
       "prompt": "The monthly ___ is 50 euros.",
       "options": ["premium", "policy", "claim", "insurance"],
       "answerIndex": 0,
-      "explanation": "Premium is the regular payment for insurance."
+      "explanation": "La 'premium' es la prima, el pago regular del seguro."
     },
     {
-      "id": "fin-a2-w15-7",
+      "id": "adm-a2-w15-ex07",
       "type": "multipleChoice",
       "prompt": "If we ___ travel insurance, we will be safe on our trip.",
       "options": ["buy", "will buy", "buying", "buys"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "Estructura de condición: If + presente simple."
     },
     {
-      "id": "fin-a2-w15-8",
+      "id": "adm-a2-w15-ex08",
       "type": "multipleChoice",
       "prompt": "What happens if I ___ my phone?",
       "options": ["lose", "will lose", "losing", "lost"],
       "answerIndex": 0,
-      "explanation": "If + present simple in the if-clause."
+      "explanation": "En la cláusula con 'if' usamos presente simple."
     },
     {
-      "id": "fin-a2-w15-9",
+      "id": "adm-a2-w15-ex09",
       "type": "multipleChoice",
       "prompt": "The company ___ pay your claim if you don't have a receipt.",
       "options": ["won't", "will", "isn't", "not"],
       "answerIndex": 0,
-      "explanation": "Negative consequence in the first conditional."
+      "explanation": "'Won't' es la contracción de 'will not', usada para consecuencias negativas."
     },
     {
-      "id": "fin-a2-w15-10",
+      "id": "adm-a2-w15-ex10",
       "type": "multipleChoice",
       "prompt": "___ insurance is important for your family if you die.",
       "options": ["Life", "Home", "Car", "Travel"],
       "answerIndex": 0,
-      "explanation": "Life insurance protects your family."
+      "explanation": "'Life insurance' es el seguro de vida."
     },
     {
-      "id": "fin-a2-w15-11",
+      "id": "adm-a2-w15-ex11",
       "type": "multipleChoice",
       "prompt": "If you have a car accident, you should call your ___ agent.",
       "options": ["insurance", "bank", "loan", "travel"],
       "answerIndex": 0,
-      "explanation": "You call the insurance agent."
+      "explanation": "Debes llamar a tu agente de seguros (insurance agent)."
     },
     {
-      "id": "fin-a2-w15-12",
+      "id": "adm-a2-w15-ex12",
       "type": "multipleChoice",
       "prompt": "Your ___ will increase if you have many accidents.",
       "options": ["premium", "coverage", "policy", "claim"],
       "answerIndex": 0,
-      "explanation": "The price (premium) usually goes up after accidents."
+      "explanation": "La prima (premium) suele subir si hay muchos siniestros."
     },
     {
-      "id": "fin-a2-w15-13",
+      "id": "adm-a2-w15-ex13",
       "type": "multipleChoice",
       "prompt": "If they ___ the contract, they will have full coverage.",
       "options": ["sign", "will sign", "signing", "signs"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-14",
+      "id": "adm-a2-w15-ex14",
       "type": "multipleChoice",
       "prompt": "Will the insurance ___ the theft?",
       "options": ["cover", "covering", "covered", "covers"],
       "answerIndex": 0,
-      "explanation": "Verb 'cover' after 'will'."
+      "explanation": "Después de 'will' usamos el verbo en infinitivo sin 'to'."
     },
     {
-      "id": "fin-a2-w15-15",
+      "id": "adm-a2-w15-ex15",
       "type": "multipleChoice",
       "prompt": "If it ___ tomorrow, my home insurance will cover the damage.",
       "options": ["floods", "will flood", "flooding", "flood"],
       "answerIndex": 0,
-      "explanation": "If + present simple (3rd person singular)."
+      "explanation": "Tercera persona del singular en presente simple: 'floods'."
     },
     {
-      "id": "fin-a2-w15-16",
+      "id": "adm-a2-w15-ex16",
       "type": "multipleChoice",
       "prompt": "What is a 'policy'?",
       "options": ["A type of money", "A written contract", "A bank manager", "A credit card"],
       "answerIndex": 1,
-      "explanation": "A policy is the official document."
+      "explanation": "Una 'policy' es el documento contractual del seguro."
     },
     {
-      "id": "fin-a2-w15-17",
+      "id": "adm-a2-w15-ex17",
       "type": "multipleChoice",
       "prompt": "If I ___ sick, I will go to the hospital.",
       "options": ["am", "will be", "being", "was"],
       "answerIndex": 0,
-      "explanation": "If + present simple (verb to be)."
+      "explanation": "If + presente simple del verbo 'to be' (I am)."
     },
     {
-      "id": "fin-a2-w15-18",
+      "id": "adm-a2-w15-ex18",
       "type": "multipleChoice",
       "prompt": "They ___ buy car insurance if they get a new car.",
       "options": ["will", "are", "do", "going"],
       "answerIndex": 0,
-      "explanation": "Future consequence."
+      "explanation": "Consecuencia futura en el primer condicional."
     },
     {
-      "id": "fin-a2-w15-19",
+      "id": "adm-a2-w15-ex19",
       "type": "multipleChoice",
       "prompt": "Is your ___ high or low?",
       "options": ["premium", "policy", "claim", "insurance"],
       "answerIndex": 0,
-      "explanation": "Asking about the price of the insurance."
+      "explanation": "Se refiere al coste de la cuota del seguro."
     },
     {
-      "id": "fin-a2-w15-20",
+      "id": "adm-a2-w15-ex20",
       "type": "multipleChoice",
       "prompt": "If you ___ any questions, the agent will answer them.",
       "options": ["have", "will have", "having", "has"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-21",
+      "id": "adm-a2-w15-ex21",
       "type": "multipleChoice",
       "prompt": "What ___ happen if I don't pay?",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Question about the future consequence."
+      "explanation": "Pregunta sobre la consecuencia futura."
     },
     {
-      "id": "fin-a2-w15-22",
+      "id": "adm-a2-w15-ex22",
       "type": "multipleChoice",
       "prompt": "The ___ does not cover natural disasters.",
       "options": ["policy", "claim", "premium", "insurance"],
       "answerIndex": 0,
-      "explanation": "The policy (contract) defines what is covered."
+      "explanation": "La póliza (policy) especifica qué está cubierto y qué no."
     },
     {
-      "id": "fin-a2-w15-23",
+      "id": "adm-a2-w15-ex23",
       "type": "multipleChoice",
       "prompt": "If the car is stolen, we ___ make a claim.",
       "options": ["will", "is", "do", "going"],
       "answerIndex": 0,
-      "explanation": "Future action."
+      "explanation": "Acción futura resultante de una condición."
     },
     {
-      "id": "fin-a2-w15-24",
+      "id": "adm-a2-w15-ex24",
       "type": "multipleChoice",
       "prompt": "How much ___ is included in this plan?",
       "options": ["coverage", "premium", "policy", "claim"],
       "answerIndex": 0,
-      "explanation": "Coverage is the amount of protection."
+      "explanation": "Pregunta por el nivel de protección (coverage)."
     },
     {
-      "id": "fin-a2-w15-25",
+      "id": "adm-a2-w15-ex25",
       "type": "multipleChoice",
       "prompt": "If you ___ older, your life insurance will be more expensive.",
       "options": ["get", "will get", "getting", "gets"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-26",
+      "id": "adm-a2-w15-ex26",
       "type": "multipleChoice",
       "prompt": "We ___ sign the policy today.",
       "options": ["will", "are", "do", "is"],
       "answerIndex": 0,
-      "explanation": "Future decision."
+      "explanation": "Decisión futura."
     },
     {
-      "id": "fin-a2-w15-27",
+      "id": "adm-a2-w15-ex27",
       "type": "multipleChoice",
       "prompt": "My ___ was rejected by the company.",
       "options": ["claim", "premium", "policy", "coverage"],
       "answerIndex": 0,
-      "explanation": "A claim can be rejected."
+      "explanation": "Una reclamación (claim) puede ser rechazada si no cumple las condiciones."
     },
     {
-      "id": "fin-a2-w15-28",
+      "id": "adm-a2-w15-ex28",
       "type": "multipleChoice",
       "prompt": "If you ___ the terms, you will be happy.",
       "options": ["understand", "will understand", "understanding", "understands"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-29",
+      "id": "adm-a2-w15-ex29",
       "type": "multipleChoice",
       "prompt": "The agent ___ call you back later.",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Future promise/action."
+      "explanation": "Promesa o acción futura."
     },
     {
-      "id": "fin-a2-w15-30",
+      "id": "adm-a2-w15-ex30",
       "type": "multipleChoice",
       "prompt": "Do you have ___ insurance?",
       "options": ["health", "premium", "claim", "policy"],
       "answerIndex": 0,
-      "explanation": "Health insurance is a common type."
+      "explanation": "'Health insurance' es el seguro médico."
     },
     {
-      "id": "fin-a2-w15-31",
+      "id": "adm-a2-w15-ex31",
       "type": "multipleChoice",
       "prompt": "If you ___ careful, you will not have an accident.",
       "options": ["are", "will be", "being", "is"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple (you are)."
     },
     {
-      "id": "fin-a2-w15-32",
+      "id": "adm-a2-w15-ex32",
       "type": "multipleChoice",
       "prompt": "The insurance will pay if the damage ___ serious.",
       "options": ["is", "will be", "being", "are"],
       "answerIndex": 0,
-      "explanation": "If-clause in present simple."
+      "explanation": "La condición va en presente simple."
     },
     {
-      "id": "fin-a2-w15-33",
+      "id": "adm-a2-w15-ex33",
       "type": "multipleChoice",
       "prompt": "I ___ pay my premium next week.",
       "options": ["will", "am", "do", "is"],
       "answerIndex": 0,
-      "explanation": "Future plan."
+      "explanation": "Intención futura."
     },
     {
-      "id": "fin-a2-w15-34",
+      "id": "adm-a2-w15-ex34",
       "type": "multipleChoice",
       "prompt": "What ___ I do if there is a fire?",
       "options": ["will", "does", "are", "am"],
       "answerIndex": 0,
-      "explanation": "Asking about future action."
+      "explanation": "Pregunta sobre una acción futura."
     },
     {
-      "id": "fin-a2-w15-35",
+      "id": "adm-a2-w15-ex35",
       "type": "multipleChoice",
       "prompt": "Home insurance ___ you if your house is damaged.",
       "options": ["protects", "protect", "protecting", "protected"],
       "answerIndex": 0,
-      "explanation": "Present simple for general facts."
+      "explanation": "Hecho general expresado en presente simple."
     },
     {
-      "id": "fin-a2-w15-36",
+      "id": "adm-a2-w15-ex36",
       "type": "multipleChoice",
       "prompt": "If you ___ to the USA, you will need health insurance.",
       "options": ["travel", "will travel", "traveling", "travels"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-37",
+      "id": "adm-a2-w15-ex37",
       "type": "multipleChoice",
       "prompt": "Who ___ pay for the repairs?",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Future question."
+      "explanation": "Pregunta sobre quién asumirá el coste en el futuro."
     },
     {
-      "id": "fin-a2-w15-38",
+      "id": "adm-a2-w15-ex38",
       "type": "multipleChoice",
       "prompt": "I need to renew my ___.",
       "options": ["policy", "claim", "premium", "coverage"],
       "answerIndex": 0,
-      "explanation": "Renewing a contract."
+      "explanation": "Se renueva la póliza (policy)."
     },
     {
-      "id": "fin-a2-w15-39",
+      "id": "adm-a2-w15-ex39",
       "type": "multipleChoice",
       "prompt": "If she ___ the rules, she will be fine.",
       "options": ["follows", "will follow", "following", "follow"],
       "answerIndex": 0,
-      "explanation": "If + present simple (3rd person singular)."
+      "explanation": "If + presente simple (3ª persona)."
     },
     {
-      "id": "fin-a2-w15-40",
+      "id": "adm-a2-w15-ex40",
       "type": "multipleChoice",
       "prompt": "The company ___ notify you by mail.",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Future action."
+      "explanation": "Comunicación de una acción futura."
     },
     {
-      "id": "fin-a2-w15-41",
+      "id": "adm-a2-w15-ex41",
       "type": "multipleChoice",
       "prompt": "Is this ___ enough for my needs?",
       "options": ["coverage", "premium", "policy", "claim"],
       "answerIndex": 0,
-      "explanation": "Asking about the amount of protection."
+      "explanation": "Pregunta sobre si el nivel de protección es suficiente."
     },
     {
-      "id": "fin-a2-w15-42",
+      "id": "adm-a2-w15-ex42",
       "type": "multipleChoice",
       "prompt": "If you ___ your premium, you will lose your coverage.",
       "options": ["don't pay", "won't pay", "not pay", "doesn't pay"],
       "answerIndex": 0,
-      "explanation": "Negative if-clause in present simple."
+      "explanation": "Negación en presente simple: 'don't pay'."
     },
     {
-      "id": "fin-a2-w15-43",
+      "id": "adm-a2-w15-ex43",
       "type": "multipleChoice",
       "prompt": "The insurance ___ not pay for intentional damage.",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Future/Rule."
+      "explanation": "Consecuencia o regla futura."
     },
     {
-      "id": "fin-a2-w15-44",
+      "id": "adm-a2-w15-ex44",
       "type": "multipleChoice",
       "prompt": "Can I make a ___ online?",
       "options": ["claim", "premium", "policy", "coverage"],
       "answerIndex": 0,
-      "explanation": "Asking about the process."
+      "explanation": "Pregunta sobre la posibilidad de tramitar un siniestro."
     },
     {
-      "id": "fin-a2-w15-45",
+      "id": "adm-a2-w15-ex45",
       "type": "multipleChoice",
       "prompt": "If they ___ a discount, I will buy it.",
       "options": ["offer", "will offer", "offering", "offers"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-46",
+      "id": "adm-a2-w15-ex46",
       "type": "multipleChoice",
       "prompt": "The contract ___ expire next month.",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Future event."
+      "explanation": "Suceso futuro inevitable."
     },
     {
-      "id": "fin-a2-w15-47",
+      "id": "adm-a2-w15-ex47",
       "type": "multipleChoice",
       "prompt": "What's the ___ for this car insurance?",
       "options": ["premium", "claim", "policy", "coverage"],
       "answerIndex": 0,
-      "explanation": "Asking about the price."
+      "explanation": "Pregunta por el precio de la cuota."
     },
     {
-      "id": "fin-a2-w15-48",
+      "id": "adm-a2-w15-ex48",
       "type": "multipleChoice",
       "prompt": "If you ___ the police, the insurance will ask for the report.",
       "options": ["call", "will call", "calling", "calls"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "If + presente simple."
     },
     {
-      "id": "fin-a2-w15-49",
+      "id": "adm-a2-w15-ex49",
       "type": "multipleChoice",
       "prompt": "They ___ send the money in two weeks.",
       "options": ["will", "are", "do", "is"],
       "answerIndex": 0,
-      "explanation": "Future promise."
+      "explanation": "Promesa de pago en el futuro."
     },
     {
-      "id": "fin-a2-w15-50",
+      "id": "adm-a2-w15-ex50",
       "type": "multipleChoice",
       "prompt": "Is the ___ comprehensive?",
       "options": ["coverage", "premium", "policy", "claim"],
       "answerIndex": 0,
-      "explanation": "Comprehensive is a type of coverage."
+      "explanation": "'Comprehensive' es un tipo de cobertura a todo riesgo."
+    },
+    {
+      "id": "adm-a2-w15-ex51",
+      "type": "fillInTheBlank",
+      "prompt": "If you sign the contract, you ___ receive a copy of the policy.",
+      "answer": "will",
+      "explanation": "En el primer condicional, la consecuencia usa 'will'."
+    },
+    {
+      "id": "adm-a2-w15-ex52",
+      "type": "fillInTheBlank",
+      "prompt": "If she ___ (pay) the premium today, she will be covered.",
+      "answer": "pays",
+      "explanation": "Usamos presente simple en la condición (3ª persona)."
+    },
+    {
+      "id": "adm-a2-w15-ex53",
+      "type": "fillInTheBlank",
+      "prompt": "Your car insurance will cover the damage if you ___ an accident.",
+      "answer": "have",
+      "explanation": "La condición se expresa en presente simple."
+    },
+    {
+      "id": "adm-a2-w15-ex54",
+      "type": "matching",
+      "prompt": "Match the insurance terms with their definitions:",
+      "pairs": [
+        { "left": "Premium", "right": "The periodic payment for insurance" },
+        { "left": "Claim", "right": "A request for payment after a loss" },
+        { "left": "Policy", "right": "The insurance contract document" },
+        { "left": "Coverage", "right": "The amount of protection provided" }
+      ],
+      "explanation": "Términos fundamentales del mundo de los seguros."
+    },
+    {
+      "id": "adm-a2-w15-ex55",
+      "type": "wordOrdering",
+      "prompt": "Order the words: if / you / help / need / will / the agent / you",
+      "sentence": "The agent will help you if you need help",
+      "explanation": "Estructura del primer condicional con la consecuencia primero."
+    },
+    {
+      "id": "adm-a2-w15-ex56",
+      "type": "multipleChoice",
+      "prompt": "If the storm ___ the roof, the insurance will pay.",
+      "options": ["damages", "will damage", "damage", "damaging"],
+      "answerIndex": 0,
+      "explanation": "Presente simple para la condición (it damages)."
+    },
+    {
+      "id": "adm-a2-w15-ex57",
+      "type": "multipleChoice",
+      "prompt": "I ___ call the insurance company if I find a problem.",
+      "options": ["will", "am", "do", "going"],
+      "answerIndex": 0,
+      "explanation": "Consecuencia futura con 'will'."
+    },
+    {
+      "id": "adm-a2-w15-ex58",
+      "type": "multipleChoice",
+      "prompt": "If they ___ our claim, we will go to court.",
+      "options": ["reject", "will reject", "rejecting", "rejects"],
+      "answerIndex": 0,
+      "explanation": "Presente simple: 'they reject'."
+    },
+    {
+      "id": "adm-a2-w15-ex59",
+      "type": "fillInTheBlank",
+      "prompt": "Life insurance is important if you ___ (have) children.",
+      "answer": "have",
+      "explanation": "Condición en presente simple."
+    },
+    {
+      "id": "adm-a2-w15-ex60",
+      "type": "fillInTheBlank",
+      "prompt": "If you don't renew your policy, you ___ have coverage.",
+      "answer": "won't",
+      "explanation": "Consecuencia negativa: 'won't' (will not)."
+    },
+    {
+      "id": "adm-a2-w15-ex61",
+      "type": "multipleChoice",
+      "prompt": "What does 'premium' mean in Spanish?",
+      "options": ["Premio", "Prima", "Precio", "Préstamo"],
+      "answerIndex": 1,
+      "explanation": "'Premium' se traduce como prima en el contexto de seguros."
+    },
+    {
+      "id": "adm-a2-w15-ex62",
+      "type": "multipleChoice",
+      "prompt": "If it rains, ___ the policy cover water damage?",
+      "options": ["will", "does", "is", "do"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre una consecuencia futura."
+    },
+    {
+      "id": "adm-a2-w15-ex63",
+      "type": "multipleChoice",
+      "prompt": "We will be safe if we ___ a good insurance plan.",
+      "options": ["choose", "will choose", "choosing", "chooses"],
+      "answerIndex": 0,
+      "explanation": "If + presente simple."
+    },
+    {
+      "id": "adm-a2-w15-ex64",
+      "type": "fillInTheBlank",
+      "prompt": "If you ___ (lose) your baggage, the travel insurance will pay.",
+      "answer": "lose",
+      "explanation": "Presente simple para la condición."
+    },
+    {
+      "id": "adm-a2-w15-ex65",
+      "type": "wordOrdering",
+      "prompt": "Order the words: premium / if / low / is / coverage / the / will / be / limited",
+      "sentence": "If the premium is low the coverage will be limited",
+      "explanation": "Relación entre el precio y el nivel de protección."
+    },
+    {
+      "id": "adm-a2-w15-ex66",
+      "type": "multipleChoice",
+      "prompt": "A ___ is a person whose job is to sell insurance.",
+      "options": ["broker", "debtor", "lender", "banker"],
+      "answerIndex": 0,
+      "explanation": "Un 'broker' o corredor de seguros vende pólizas."
+    },
+    {
+      "id": "adm-a2-w15-ex67",
+      "type": "multipleChoice",
+      "prompt": "If the bank ___ our request, we will buy the insurance.",
+      "options": ["approves", "will approve", "approve", "approving"],
+      "answerIndex": 0,
+      "explanation": "Tercera persona: 'the bank approves'."
+    },
+    {
+      "id": "adm-a2-w15-ex68",
+      "type": "fillInTheBlank",
+      "prompt": "If you want to save money, you ___ (need) to compare policies.",
+      "answer": "need",
+      "explanation": "Consecuencia lógica en presente (o futuro, pero 'need' es común)."
+    },
+    {
+      "id": "adm-a2-w15-ex69",
+      "type": "fillInTheBlank",
+      "prompt": "The insurance company ___ contact you if they need more info.",
+      "answer": "will",
+      "explanation": "Futuro con 'will'."
+    },
+    {
+      "id": "adm-a2-w15-ex70",
+      "type": "matching",
+      "prompt": "Match the types of insurance:",
+      "pairs": [
+        { "left": "Health", "right": "Covers medical expenses" },
+        { "left": "Car", "right": "Covers vehicle accidents" },
+        { "left": "Home", "right": "Covers property damage" },
+        { "left": "Travel", "right": "Covers trip cancellations" }
+      ],
+      "explanation": "Diferentes tipos de protección según la necesidad."
+    },
+    {
+      "id": "adm-a2-w15-ex71",
+      "type": "multipleChoice",
+      "prompt": "If you ___ the contract today, it will start tomorrow.",
+      "options": ["sign", "will sign", "signing", "signs"],
+      "answerIndex": 0,
+      "explanation": "If + presente simple."
+    },
+    {
+      "id": "adm-a2-w15-ex72",
+      "type": "multipleChoice",
+      "prompt": "I think the prices ___ go up next year.",
+      "options": ["will", "are", "do", "is"],
+      "answerIndex": 0,
+      "explanation": "Predicción futura."
+    },
+    {
+      "id": "adm-a2-w15-ex73",
+      "type": "fillInTheBlank",
+      "prompt": "If I ___ (be) you, I will buy the life insurance.",
+      "answer": "am",
+      "explanation": "En el primer condicional usamos 'am' (aunque en el segundo sea 'were')."
+    },
+    {
+      "id": "adm-a2-w15-ex74",
+      "type": "wordOrdering",
+      "prompt": "Order the words: if / coverage / will / I / better / pay / have / more",
+      "sentence": "If I pay more I will have better coverage",
+      "explanation": "Condición y consecuencia sobre el nivel de servicio."
+    },
+    {
+      "id": "adm-a2-w15-ex75",
+      "type": "crossword",
+      "prompt": "Financial Protection Crossword",
+      "words": [
+        { "word": "PREMIUM", "clue": "Regular payment for insurance" },
+        { "word": "POLICY", "clue": "Insurance contract document" },
+        { "word": "CLAIM", "clue": "Request for payment" },
+        { "word": "COVERAGE", "clue": "Protection provided" },
+        { "word": "HEALTH", "clue": "Insurance for medical bills" }
+      ],
+      "explanation": "Repaso de vocabulario clave de seguros."
     }
   ]
 }

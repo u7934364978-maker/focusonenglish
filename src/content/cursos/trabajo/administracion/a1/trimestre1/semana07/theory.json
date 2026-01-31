@@ -1,29 +1,24 @@
 {
-  "title": "Who Works at the Bank? Modern Roles",
+  "title": "Semana 7: Mis Tareas Diarias",
+  "description": "Comienza a hablar de lo que haces cada día en el trabajo usando verbos de acción simples.",
+  "objectives": [
+    "Usar el Present Simple para describir tareas básicas",
+    "Aprender verbos de acción comunes en la oficina",
+    "Estructurar oraciones simples de sujeto + verbo + objeto"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Traditional Banking Roles",
-      "content": "People who work in the physical bank branch.\n\n- **Banker**: Banquero\n- **Teller / Cashier**: Cajero\n- **Manager**: Gerente\n- **Security Guard**: Guardia de seguridad\n- **Accountant**: Contable"
+      "title": "Verbos de Acción (Action Verbs)",
+      "content": "Para describir tu trabajo, necesitas estos verbos básicos:\n\n- **Work**: Trabajar\n- **Use**: Usar\n- **Call**: Llamar\n- **Email**: Enviar un correo\n- **Write**: Escribir\n- **Read**: Leer"
     },
     {
-      "id": "modern-roles",
-      "title": "Modern Banking Roles",
-      "content": "Digital banking needs new experts.\n\n- **App Developer**: Desarrollador de aplicaciones\n- **Cybersecurity Expert**: Experto en ciberseguridad\n- **Data Analyst**: Analista de datos\n- **Online Assistant**: Asistente en línea\n\n### Team Structure\n```mermaid\ngraph TD\n    A[Bank Manager] --> B[Branch Staff]\n    A --> C[Tech Team]\n    C --> D[Developers]\n    C --> E[Security Experts]\n```"
+      "title": "Present Simple: Afirmativo",
+      "content": "En el nivel inicial, nos enfocamos en hablar de nosotros mismos (I):\n\n- **I work** in an office. (Trabajo en una oficina)\n- **I use** a computer. (Uso un ordenador)\n- **I call** my manager. (Llamo a mi gerente)\n- **I email** the clients. (Envío correos a los clientes)\n- **I write** reports. (Escribo informes)"
     },
     {
-      "id": "grammar",
-      "title": "Grammar: Wh-Questions",
-      "content": "To get information, we use Wh- words.\n\n- **Who**: Quién (e.g., *Who is the manager?*)\n- **What**: Qué (e.g., *What is an app?*)\n- **Where**: Dónde (e.g., *Where is the tech team?*)\n- **When**: Cuándo (e.g., *When do they work?*)\n\n**Structure:**\n- **Wh- word + is + subject?**\n- **Wh- word + do/does + subject + verb?**"
+      "title": "Estructura de la Oración",
+      "content": "La estructura en inglés es muy directa:\n\n1. **Sujeto**: I\n2. **Verbo**: use\n3. **Complemento**: the phone\n\nEjemplo: **I** (sujeto) **call** (verbo) **the client** (complemento) **every day** (tiempo)."
     }
   ],
-  "objectives": [
-    "Identify traditional and modern professional roles in banking",
-    "Use Wh- words to ask for information",
-    "Understand the tech roles in a digital bank"
-  ],
-  "keyTerms": [
-    { "term": "Staff", "definition": "The people who work in a company." },
-    { "term": "Cybersecurity", "definition": "Protection for computer systems and data." }
-  ]
+  "audioUrl": ""
 }

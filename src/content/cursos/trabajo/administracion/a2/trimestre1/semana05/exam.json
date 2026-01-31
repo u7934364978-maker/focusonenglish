@@ -2,7 +2,7 @@
   "title": "A2 Week 5 Exam: Digital Lending & Market Leaders",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w05-q01",
       "question": "What is 'BNPL'?",
       "options": [
         "Bank National Private Loan",
@@ -10,10 +10,11 @@
         "Business Network Profit Loss",
         "Build Now, Pay Later"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "BNPL stands for 'Buy Now, Pay Later', a type of short-term financing for purchases."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w05-q02",
       "question": "A numerical score representing your creditworthiness is your:",
       "options": [
         "Debit score",
@@ -21,10 +22,11 @@
         "Market score",
         "Risk score"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A credit score is a number lenders use to evaluate the risk of lending money to you."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w05-q03",
       "question": "The total annual cost of borrowing is the:",
       "options": [
         "APY",
@@ -32,10 +34,11 @@
         "ATM",
         "PIN"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "APR (Annual Percentage Rate) includes both interest and fees, showing the total cost of a loan."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w05-q04",
       "question": "What is the superlative of 'fast'?",
       "options": [
         "Fasten",
@@ -43,10 +46,11 @@
         "The most fast",
         "Fastestly"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "For short adjectives like 'fast', we add 'the ...-est' to form the superlative."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w05-q05",
       "question": "AI-based risk assessment is called automated:",
       "options": [
         "Accounting",
@@ -54,10 +58,11 @@
         "Advertising",
         "Airdropping"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Underwriting is the process of assessing risk; in fintech, this is often automated."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w05-q06",
       "question": "Choosing the best option requires using:",
       "options": [
         "Comparatives",
@@ -65,10 +70,11 @@
         "Negatives",
         "Pronouns"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Superlatives are used to compare three or more things and identify the top (or bottom) option."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w05-q07",
       "question": "If you fail to pay a loan, you:",
       "options": [
         "Deposit",
@@ -76,10 +82,11 @@
         "Debit",
         "Detect"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Defaulting means failing to fulfill the legal obligations of a loan agreement."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w05-q08",
       "question": "The irregular superlative of 'good' is:",
       "options": [
         "Goodest",
@@ -87,10 +94,11 @@
         "Better",
         "The best"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "'Good' is an irregular adjective; its superlative form is 'the best'."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w05-q09",
       "question": "An asset used as security for a loan is:",
       "options": [
         "Collateral",
@@ -98,10 +106,11 @@
         "Cashback",
         "Collection"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Collateral is an asset (like a house) that a borrower offers to secure a loan."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w05-q10",
       "question": "Which adjective is long and needs 'the most'?",
       "options": [
         "High",
@@ -109,10 +118,11 @@
         "Expensive",
         "Safe"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "'Expensive' is a long adjective, so it uses 'the most expensive' as its superlative."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w05-q11",
       "question": "Instant approval means the loan is granted in:",
       "options": [
         "Weeks",
@@ -120,10 +130,11 @@
         "Seconds",
         "Months"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "In digital lending, 'instant' refers to a decision made within seconds by automated systems."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w05-q12",
       "question": "The irregular superlative of 'bad' is:",
       "options": [
         "Baddest",
@@ -131,10 +142,11 @@
         "The worst",
         "Worst"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "'Bad' is irregular; its superlative form is 'the worst'."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w05-q13",
       "question": "Which factor is 'most important' for a credit score?",
       "options": [
         "Payment history",
@@ -142,10 +154,11 @@
         "Your height",
         "The time of day"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Payment history is typically the most significant factor in calculating a credit score."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w05-q14",
       "question": "Superlative of 'Easy':",
       "options": [
         "The easyest",
@@ -153,10 +166,11 @@
         "The most easy",
         "Easier"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Adjectives ending in -y change to -iest (e.g., 'the easiest')."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w05-q15",
       "question": "A mortgage is a loan for a:",
       "options": [
         "Car",
@@ -164,10 +178,11 @@
         "Phone",
         "Laptop"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A mortgage is a specific type of loan used to purchase real estate (a house)."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w05-q16",
       "question": "Which interest rate is 'the lowest'?",
       "options": [
         "5%",
@@ -175,10 +190,11 @@
         "2%",
         "15%"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Comparing the values, 2% is the smallest (lowest) number."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w05-q17",
       "question": "What is the superlative of 'modern'?",
       "options": [
         "Modernest",
@@ -186,10 +202,11 @@
         "The moderner",
         "More modern"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Modern' is a long adjective and uses 'the most modern'."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w05-q18",
       "question": "A 'Repayment plan' is how you:",
       "options": [
         "Spend the money",
@@ -197,10 +214,11 @@
         "Find the money",
         "Hide the money"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A repayment plan outlines the schedule and amounts for paying back a debt."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w05-q19",
       "question": "The _______ fintech app in the UK is Revolut.",
       "options": [
         "most popular",
@@ -208,10 +226,11 @@
         "popularer",
         "popularly"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "'Popular' is a long adjective; its superlative is 'the most popular'."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w05-q20",
       "question": "Creditworthiness is a measure of:",
       "options": [
         "Wealth",
@@ -219,7 +238,8 @@
         "Popularity",
         "Intelligence"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Creditworthiness measures how likely you are to pay back borrowed money (reliability)."
     }
   ]
 }

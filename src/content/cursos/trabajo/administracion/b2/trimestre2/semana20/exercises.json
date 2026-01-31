@@ -6,7 +6,7 @@
   "title": "Exercises: Corporate Sustainability & Ethics",
   "items": [
     {
-      "id": "adm-b2-w20-1",
+      "id": "adm-b2-w20-01",
       "type": "multipleChoice",
       "prompt": "The PR disaster happened because the company was accused of ________, claiming to be 'eco-friendly' while dumping waste in the river.",
       "options": ["ethical sourcing", "greenwashing", "net zero", "whistleblowing"],
@@ -14,7 +14,7 @@
       "explanation": "Greenwashing is the act of making false or misleading claims about the environmental benefits of a product or practice."
     },
     {
-      "id": "adm-b2-w20-2",
+      "id": "adm-b2-w20-02",
       "type": "multipleChoice",
       "prompt": "The factory is empty today. They ________ finished the production run early.",
       "options": ["must have", "can't have", "should have", "mustn't have"],
@@ -22,7 +22,7 @@
       "explanation": "We use 'must have' to express high certainty about a past event."
     },
     {
-      "id": "adm-b2-w20-3",
+      "id": "adm-b2-w20-03",
       "type": "multipleChoice",
       "prompt": "The ________ model focuses on Profit, People, and Planet.",
       "options": ["Double Bottom Line", "Strategic Roadmap", "Triple Bottom Line", "PESTLE"],
@@ -30,7 +30,7 @@
       "explanation": "The Triple Bottom Line measures an organization's social, environmental, and economic impact."
     },
     {
-      "id": "adm-b2-w20-4",
+      "id": "adm-b2-w20-04",
       "type": "multipleChoice",
       "prompt": "I'm sure he didn't send the report. He ________ sent it because the server log shows no activity.",
       "options": ["could have", "might have", "can't have", "should have"],
@@ -38,7 +38,7 @@
       "explanation": "We use 'can't have' when we are almost certain that something did NOT happen."
     },
     {
-      "id": "adm-b2-w20-5",
+      "id": "adm-b2-w20-05",
       "type": "multipleChoice",
       "prompt": "A former employee engaged in ________ after discovering the company was evading taxes.",
       "options": ["greenwashing", "whistleblowing", "benchmarking", "sourcing"],
@@ -46,7 +46,7 @@
       "explanation": "Whistleblowing is reporting illegal or unethical activity within an organization."
     },
     {
-      "id": "adm-b2-w20-6",
+      "id": "adm-b2-w20-06",
       "type": "fillBlanks",
       "prompt": "Complete with a past modal: We [should have checked] (check) the supplier's safety record before signing the contract, but we forgot.",
       "text": "We [should have checked] the supplier's safety record before signing the contract, but we forgot.",
@@ -54,7 +54,7 @@
       "explanation": "Use 'should have' to express regret or criticism about a past action."
     },
     {
-      "id": "adm-b2-w20-7",
+      "id": "adm-b2-w20-07",
       "type": "multipleChoice",
       "prompt": "The company's ________ represents its total greenhouse gas emissions.",
       "options": ["carbon footprint", "circular economy", "strategic roadmap", "net zero"],
@@ -62,7 +62,7 @@
       "explanation": "A carbon footprint is the total amount of greenhouse gases produced by an entity."
     },
     {
-      "id": "adm-b2-w20-8",
+      "id": "adm-b2-w20-08",
       "type": "multipleChoice",
       "prompt": "The CEO looks worried. The shareholders ________ rejected the new CSR policy.",
       "options": ["must have", "might not", "can't have", "mustn't have"],
@@ -70,7 +70,7 @@
       "explanation": "The CEO's expression suggests high certainty that something negative happened (must have)."
     },
     {
-      "id": "adm-b2-w20-9",
+      "id": "adm-b2-w20-09",
       "type": "multipleChoice",
       "prompt": "We ________ invested in renewable energy years ago; now we are paying high carbon taxes.",
       "options": ["must have", "should have", "can't have", "might have"],
@@ -124,6 +124,536 @@
       "options": ["net zero", "triple bottom line", "circular economy", "gross profit"],
       "answerIndex": 0,
       "explanation": "Net zero refers to the balance between greenhouse gases emitted and those removed from the atmosphere."
+    },
+    {
+      "id": "adm-b2-w20-16",
+      "type": "multipleChoice",
+      "prompt": "An audit revealed discrepancies. It ________ the change in logistics providers that caused the delay.",
+      "options": ["must have been", "can't have been", "should have been", "must be"],
+      "answerIndex": 0,
+      "explanation": "Speculating with high certainty about a past cause."
+    },
+    {
+      "id": "adm-b2-w20-17",
+      "type": "multipleChoice",
+      "prompt": "The CEO isn't in her office. She ________ left for the sustainability conference already.",
+      "options": ["must have", "can't have", "should have", "mightn't have"],
+      "answerIndex": 0,
+      "explanation": "The evidence (not in office) suggests a high degree of certainty that she left."
+    },
+    {
+      "id": "adm-b2-w20-18",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT one of the 'Three Ps' in the Triple Bottom Line framework?",
+      "options": ["Profit", "People", "Planet", "Price"],
+      "answerIndex": 3,
+      "explanation": "The Triple Bottom Line consists of Profit, People, and Planet."
+    },
+    {
+      "id": "adm-b2-w20-19",
+      "type": "multipleChoice",
+      "prompt": "The audit report is full of errors. The intern ________ checked the data properly.",
+      "options": ["must have", "can't have", "might have", "should have"],
+      "answerIndex": 1,
+      "explanation": "The presence of errors makes it highly certain that the data was NOT checked properly (can't have)."
+    },
+    {
+      "id": "adm-b2-w20-20",
+      "type": "fillBlanks",
+      "prompt": "Rewrite using 'should have': 'It was a mistake not to invite the community.' -> We [should have invited] the community.",
+      "text": "We [should have invited] the community.",
+      "answers": ["should have invited"],
+      "explanation": "Use 'should have' for past regrets."
+    },
+    {
+      "id": "adm-b2-w20-21",
+      "type": "fillBlanks",
+      "prompt": "Rewrite using 'must have': 'I am 100% sure the manager signed it.' -> The manager [must have signed] it.",
+      "text": "The manager [must have signed] it.",
+      "answers": ["must have signed"],
+      "explanation": "Use 'must have' for 95% certainty about the past."
+    },
+    {
+      "id": "adm-b2-w20-22",
+      "type": "multipleChoice",
+      "prompt": "In CSR, companies need to ________ their business practices with their ________ values.",
+      "options": ["align / ethical", "ignore / profit", "break / social", "find / carbon"],
+      "answerIndex": 0,
+      "explanation": "Alignment between practices and values is central to corporate integrity."
+    },
+    {
+      "id": "adm-b2-w20-23",
+      "type": "multipleChoice",
+      "prompt": "Which practice ensures that products are obtained responsibly, including fair wages and safe conditions?",
+      "options": ["Ethical sourcing", "Greenwashing", "Linear economy", "Scenario planning"],
+      "answerIndex": 0,
+      "explanation": "Ethical sourcing focuses on the human and environmental impact of the supply chain."
+    },
+    {
+      "id": "adm-b2-w20-24",
+      "type": "multipleChoice",
+      "prompt": "Why is greenwashing considered a significant risk for modern brands?",
+      "options": [
+        "It makes the brand look too perfect",
+        "It leads to legal penalties and loss of consumer trust",
+        "It reduces the marketing budget too much",
+        "It is required by ESG regulations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dishonesty about environmental claims can severely damage reputation and attract lawsuits."
+    },
+    {
+      "id": "adm-b2-w20-25",
+      "type": "fillBlanks",
+      "prompt": "Correct the error: 'He must have [forgotten] (forget) the meeting.'",
+      "text": "He must have [forgotten] the meeting.",
+      "answers": ["forgotten"],
+      "explanation": "Past participle 'forgotten' is needed after 'must have'."
+    },
+    {
+      "id": "adm-b2-w20-26",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of a sustainability report?",
+      "options": [
+        "To list office equipment",
+        "To communicate the organization's ESG performance",
+        "To hide financial losses",
+        "To promote new products only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustainability reports provide transparency on social and environmental goals."
+    },
+    {
+      "id": "adm-b2-w20-27",
+      "type": "fillBlanks",
+      "prompt": "Speculate on a missed deadline: 'She [might have been] (be) overwhelmed with work.'",
+      "text": "She [might have been] overwhelmed with work.",
+      "answers": ["might have been", "could have been"],
+      "explanation": "Use might/could have for past possibilities."
+    },
+    {
+      "id": "adm-b2-w20-28",
+      "type": "multipleChoice",
+      "prompt": "A supplier who provides goods directly to a company is known as a ________ supplier.",
+      "options": ["Tier 1", "Tier 2", "Secondary", "Whistleblowing"],
+      "answerIndex": 0,
+      "explanation": "Tier 1 suppliers are the direct contractors in a supply chain."
+    },
+    {
+      "id": "adm-b2-w20-29",
+      "type": "multipleChoice",
+      "prompt": "'They can't have failed the audit' means:",
+      "options": [
+        "I'm not sure if they failed",
+        "I'm almost certain they did not fail",
+        "I hope they didn't fail",
+        "I'm certain they failed"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Can't have' expresses high certainty that something did not happen."
+    },
+    {
+      "id": "adm-b2-w20-30",
+      "type": "multipleChoice",
+      "prompt": "The Triple Bottom Line emphasizes that 'People' and 'Planet' are just as important as ________.",
+      "options": ["Promotion", "Profit", "Price", "Planning"],
+      "answerIndex": 1,
+      "explanation": "Profit is the third component of the TBL framework."
+    },
+    {
+      "id": "adm-b2-w20-31",
+      "type": "multipleChoice",
+      "prompt": "The current 'take-make-dispose' model of production is known as a ________ economy.",
+      "options": ["circular", "linear", "net zero", "global"],
+      "answerIndex": 1,
+      "explanation": "A linear economy involves using resources and then discarding them as waste."
+    },
+    {
+      "id": "adm-b2-w20-32",
+      "type": "multipleChoice",
+      "prompt": "A core principle of the circular economy is:",
+      "options": [
+        "Increasing waste",
+        "Designing out waste and pollution",
+        "Using as many raw materials as possible",
+        "Encouraging one-time use products"
+      ],
+      "answerIndex": 1,
+      "explanation": "Circular economies focus on recycling, reusing, and eliminating waste."
+    },
+    {
+      "id": "adm-b2-w20-33",
+      "type": "multipleChoice",
+      "prompt": "The company hit its Net Zero target early. They ________ invested heavily in renewables.",
+      "options": ["can't have", "must have", "should have", "mightn't have"],
+      "answerIndex": 1,
+      "explanation": "Success suggests a definite past action (must have)."
+    },
+    {
+      "id": "adm-b2-w20-34",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Social' factor in ESG reporting?",
+      "options": [
+        "Carbon emissions",
+        "Employee diversity and labor rights",
+        "Board structure",
+        "Waste management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Labor rights and diversity are social impacts of a company."
+    },
+    {
+      "id": "adm-b2-w20-35",
+      "type": "multipleChoice",
+      "prompt": "We ________ signed the contract without reading the fine print; now we are in trouble.",
+      "options": ["mustn't have", "shouldn't have", "can't have", "couldn't have"],
+      "answerIndex": 1,
+      "explanation": "Expressing regret about a past mistake (shouldn't have)."
+    },
+    {
+      "id": "adm-b2-w20-36",
+      "type": "multipleChoice",
+      "prompt": "Whistleblowing policies are essential for maintaining corporate ________.",
+      "options": ["greenwashing", "integrity", "footprint", "logistics"],
+      "answerIndex": 1,
+      "explanation": "Integrity involves ethical behavior and transparency."
+    },
+    {
+      "id": "adm-b2-w20-37",
+      "type": "multipleChoice",
+      "prompt": "The total amount of greenhouse gases produced by an organization is its ________.",
+      "options": ["Net Zero", "Carbon Footprint", "Circular Economy", "CSR"],
+      "answerIndex": 1,
+      "explanation": "Carbon footprint is the measure of environmental impact via emissions."
+    },
+    {
+      "id": "adm-b2-w20-38",
+      "type": "multipleChoice",
+      "prompt": "ESG stands for Environmental, Social, and ________.",
+      "options": ["Growth", "Governance", "Global", "Geography"],
+      "answerIndex": 1,
+      "explanation": "Governance refers to how a company is directed and controlled."
+    },
+    {
+      "id": "adm-b2-w20-39",
+      "type": "fillBlanks",
+      "prompt": "Past modal: I don't see the report. You [can't have finished] (finish) it yet.",
+      "text": "I don't see the report. You [can't have finished] it yet.",
+      "answers": ["can't have finished"],
+      "explanation": "Expressing high certainty that a past action did not happen."
+    },
+    {
+      "id": "adm-b2-w20-40",
+      "type": "multipleChoice",
+      "prompt": "A company that achieves a balance between carbon emitted and carbon removed is ________.",
+      "options": ["carbon neutral", "net zero", "greenwashing", "linear"],
+      "answerIndex": 1,
+      "explanation": "Net zero is the state of balance in emissions."
+    },
+    {
+      "id": "adm-b2-w20-41",
+      "type": "multipleChoice",
+      "prompt": "The 'People' aspect of the Triple Bottom Line focuses on:",
+      "options": [
+        "The number of customers",
+        "Social equity and fair labor practices",
+        "The board of directors only",
+        "Increasing the population"
+      ],
+      "answerIndex": 1,
+      "explanation": "'People' refers to the social impact on employees and the community."
+    },
+    {
+      "id": "adm-b2-w20-42",
+      "type": "multipleChoice",
+      "prompt": "The 'Planet' aspect of the Triple Bottom Line refers to:",
+      "options": ["Space exploration", "Environmental sustainability", "Global sales", "International law"],
+      "answerIndex": 1,
+      "explanation": "'Planet' measures the ecological impact of a business."
+    },
+    {
+      "id": "adm-b2-w20-43",
+      "type": "multipleChoice",
+      "prompt": "If a company uses deceptive marketing to appear eco-friendly, it is ________.",
+      "options": ["whistleblowing", "greenwashing", "ethical sourcing", "benchmarking"],
+      "answerIndex": 1,
+      "explanation": "Greenwashing is a deceptive practice."
+    },
+    {
+      "id": "adm-b2-w20-44",
+      "type": "fillBlanks",
+      "prompt": "Speculate with 'might': 'The error [might have occurred] (occur) during the data migration.'",
+      "text": "The error [might have occurred] during the data migration.",
+      "answers": ["might have occurred", "could have occurred"],
+      "explanation": "Past possibility."
+    },
+    {
+      "id": "adm-b2-w20-45",
+      "type": "multipleChoice",
+      "prompt": "A code of ________ is a formal document outlining a company's values.",
+      "options": ["ethics", "sustainability", "governance", "whistleblowing"],
+      "answerIndex": 0,
+      "explanation": "Codes of ethics guide employee behavior."
+    },
+    {
+      "id": "adm-b2-w20-46",
+      "type": "multipleChoice",
+      "prompt": "Whistleblowers should be protected from ________.",
+      "options": ["promotion", "retaliation", "transparency", "alignment"],
+      "answerIndex": 1,
+      "explanation": "Protection from retaliation (punishment) is crucial for reporting misconduct."
+    },
+    {
+      "id": "adm-b2-w20-47",
+      "type": "multipleChoice",
+      "prompt": "Which of these is an Environmental (E) factor in ESG?",
+      "options": ["Executive pay", "Water usage and waste", "Employee safety", "Data privacy"],
+      "answerIndex": 1,
+      "explanation": "Water usage is a direct environmental impact."
+    },
+    {
+      "id": "adm-b2-w20-48",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a Governance (G) factor in ESG?",
+      "options": ["Air quality", "Board diversity and ethics", "Product safety", "Community relations"],
+      "answerIndex": 1,
+      "explanation": "Board diversity and ethics are governance issues."
+    },
+    {
+      "id": "adm-b2-w20-49",
+      "type": "fillBlanks",
+      "prompt": "Past deduction: 'They [must have known] (know) about the leak; they were in the room.'",
+      "text": "They [must have known] about the leak; they were in the room.",
+      "answers": ["must have known"],
+      "explanation": "High certainty based on evidence."
+    },
+    {
+      "id": "adm-b2-w20-50",
+      "type": "multipleChoice",
+      "prompt": "Sustainability ________ involves independent reviews of a company's claims.",
+      "options": ["auditing", "reporting", "greenwashing", "sourcing"],
+      "answerIndex": 0,
+      "explanation": "Auditing verifies the accuracy of reports."
+    },
+    {
+      "id": "adm-b2-w20-51",
+      "type": "fillBlanks",
+      "prompt": "Rewrite with 'should have': 'It was a mistake not to audit the supplier.' -> We [should have audited] the supplier.",
+      "text": "We [should have audited] the supplier.",
+      "answers": ["should have audited"],
+      "explanation": "Criticism of a past failure."
+    },
+    {
+      "id": "adm-b2-w20-52",
+      "type": "multipleChoice",
+      "prompt": "Ethical sourcing often requires mapping the entire ________.",
+      "options": ["supply chain", "office layout", "social media", "market segment"],
+      "answerIndex": 0,
+      "explanation": "A supply chain includes all steps from raw materials to the final product."
+    },
+    {
+      "id": "adm-b2-w20-53",
+      "type": "multipleChoice",
+      "prompt": "Transitioning to a circular economy helps a company reduce its ________ footprint.",
+      "options": ["financial", "environmental", "digital", "strategic"],
+      "answerIndex": 1,
+      "explanation": "It reduces waste and resource extraction."
+    },
+    {
+      "id": "adm-b2-w20-54",
+      "type": "multipleChoice",
+      "prompt": "An organization that is ________ about its goals builds trust with its stakeholders.",
+      "options": ["transparent", "linear", "secretive", "exhausted"],
+      "answerIndex": 0,
+      "explanation": "Transparency is openness."
+    },
+    {
+      "id": "adm-b2-w20-55",
+      "type": "fillBlanks",
+      "prompt": "Correct the past modal: 'She could have [written] (write) a better report.'",
+      "text": "She could have [written] a better report.",
+      "answers": ["written"],
+      "explanation": "Past participle 'written' is needed."
+    },
+    {
+      "id": "adm-b2-w20-56",
+      "type": "multipleChoice",
+      "prompt": "Corporate ________ responsibility (CSR) is the integration of social concerns into business.",
+      "options": ["Social", "Sustainability", "Strategic", "Systemic"],
+      "answerIndex": 0,
+      "explanation": "CSR stands for Corporate Social Responsibility."
+    },
+    {
+      "id": "adm-b2-w20-57",
+      "type": "multipleChoice",
+      "prompt": "Which economic model is designed to eliminate waste and keep products in use?",
+      "options": ["Linear economy", "Circular economy", "Free market", "Net zero"],
+      "answerIndex": 1,
+      "explanation": "Circular economy focuses on resource efficiency."
+    },
+    {
+      "id": "adm-b2-w20-58",
+      "type": "fillBlanks",
+      "prompt": "Past modal: 'The project failed. We [should have planned] (plan) more carefully.'",
+      "text": "The project failed. We [should have planned] more carefully.",
+      "answers": ["should have planned"],
+      "explanation": "Regret about the past."
+    },
+    {
+      "id": "adm-b2-w20-59",
+      "type": "multipleChoice",
+      "prompt": "A company's code of ethics should be ________ to all employees.",
+      "options": ["hidden", "accessible", "ignored", "expensive"],
+      "answerIndex": 1,
+      "explanation": "Employees must know the ethical standards they are expected to follow."
+    },
+    {
+      "id": "adm-b2-w20-60",
+      "type": "multipleChoice",
+      "prompt": "What is the primary benefit of reaching 'Net Zero'?",
+      "options": [
+        "Increasing global temperatures",
+        "Mitigating climate change",
+        "Increasing waste production",
+        "Reducing the number of employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net zero targets are aimed at reducing global warming impact."
+    },
+    {
+      "id": "adm-b2-w20-61",
+      "type": "multipleChoice",
+      "prompt": "Speculating with 50% certainty: 'The report ________ been lost in the mail.'",
+      "options": ["must have", "might have", "can't have", "should have"],
+      "answerIndex": 1,
+      "explanation": "Might have expresses possibility."
+    },
+    {
+      "id": "adm-b2-w20-62",
+      "type": "multipleChoice",
+      "prompt": "Speculating with 95% certainty: 'They ________ won the contract; they are celebrating!'",
+      "options": ["must have", "can't have", "should have", "might not have"],
+      "answerIndex": 0,
+      "explanation": "Must have expresses high certainty."
+    },
+    {
+      "id": "adm-b2-w20-63",
+      "type": "multipleChoice",
+      "prompt": "Speculating with 95% certainty (negative): 'He ________ seen the email; he was on vacation without internet.'",
+      "options": ["must have", "can't have", "should have", "might have"],
+      "answerIndex": 1,
+      "explanation": "Can't have expresses certainty that something didn't happen."
+    },
+    {
+      "id": "adm-b2-w20-64",
+      "type": "multipleChoice",
+      "prompt": "What does a whistleblowing policy encourage?",
+      "options": [
+        "Keeping secrets at all costs",
+        "Reporting misconduct without fear of retaliation",
+        "Making fun of managers",
+        "Ignoring safety rules"
+      ],
+      "answerIndex": 1,
+      "explanation": "Whistleblowing policies protect those who report illegal acts."
+    },
+    {
+      "id": "adm-b2-w20-65",
+      "type": "multipleChoice",
+      "prompt": "Sustainability is often called 'meeting the needs of the present without ________ the future.'",
+      "options": ["helping", "compromising", "planning", "seeing"],
+      "answerIndex": 1,
+      "explanation": "Compromising the ability of future generations to meet their needs."
+    },
+    {
+      "id": "adm-b2-w20-66",
+      "type": "fillBlanks",
+      "prompt": "Past modal: 'You [shouldn't have said] (not say) that to the client yesterday.'",
+      "text": "You [shouldn't have said] that to the client yesterday.",
+      "answers": ["shouldn't have said"],
+      "explanation": "Criticism of a past action."
+    },
+    {
+      "id": "adm-b2-w20-67",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Governance' factor?",
+      "options": ["Carbon footprint", "Bribery and corruption policies", "Water usage", "Staff training"],
+      "answerIndex": 1,
+      "explanation": "Anti-corruption is a governance issue."
+    },
+    {
+      "id": "adm-b2-w20-68",
+      "type": "multipleChoice",
+      "prompt": "Transparent reporting helps build stakeholder ________.",
+      "options": ["fatigue", "trust", "resistance", "threat"],
+      "answerIndex": 1,
+      "explanation": "Trust is essential for long-term business success."
+    },
+    {
+      "id": "adm-b2-w20-69",
+      "type": "multipleChoice",
+      "prompt": "Which framework measures social, environmental, and financial results?",
+      "options": ["SWOT", "PESTLE", "Triple Bottom Line", "Kotter's Model"],
+      "answerIndex": 2,
+      "explanation": "TBL measures all three types of impact."
+    },
+    {
+      "id": "adm-b2-w20-70",
+      "type": "multipleChoice",
+      "prompt": "The 'take-make-dispose' model is ________.",
+      "options": ["circular", "linear", "sustainable", "ethical"],
+      "answerIndex": 1,
+      "explanation": "Linear is the traditional wasteful model."
+    },
+    {
+      "id": "adm-b2-w20-71",
+      "type": "fillBlanks",
+      "prompt": "Past modal: 'We [must have sent] (send) it to the wrong person.'",
+      "text": "We [must have sent] it to the wrong person.",
+      "answers": ["must have sent"],
+      "explanation": "Logical deduction about a past error."
+    },
+    {
+      "id": "adm-b2-w20-72",
+      "type": "multipleChoice",
+      "prompt": "In ethical sourcing, 'living wage' means:",
+      "options": [
+        "The minimum legal wage in any country",
+        "A wage that covers basic needs like food and shelter",
+        "The highest possible wage",
+        "A wage paid in products instead of money"
+      ],
+      "answerIndex": 1,
+      "explanation": "A living wage ensures a basic standard of living."
+    },
+    {
+      "id": "adm-b2-w20-73",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a sign of greenwashing?",
+      "options": [
+        "Detailed, audited sustainability reports",
+        "Vague terms like 'all-natural' without proof",
+        "A commitment to Net Zero by 2030",
+        "Fair wages for all workers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vague or unverified claims are hallmarks of greenwashing."
+    },
+    {
+      "id": "adm-b2-w20-74",
+      "type": "multipleChoice",
+      "prompt": "The ________ economy aims to 'close the loop' of resource use.",
+      "options": ["linear", "circular", "global", "fast"],
+      "answerIndex": 1,
+      "explanation": "Closing the loop refers to recycling and reuse."
+    },
+    {
+      "id": "adm-b2-w20-75",
+      "type": "multipleChoice",
+      "prompt": "To be truly sustainable, a company must consider its impact on future ________.",
+      "options": ["generations", "products", "prices", "taxes"],
+      "answerIndex": 0,
+      "explanation": "Sustainability is about long-term preservation of resources."
     }
   ]
 }

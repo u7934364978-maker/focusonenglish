@@ -20,18 +20,46 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: Process Improvement Proposal",
       "content": "Draft a 'Process Improvement Proposal' for a common administrative task (e.g., booking travel or onboarding). Include:\n1. **Current 'As-Is' Process** (Identify the bottleneck).\n2. **Proposed 'To-Be' Process** (Explain how to streamline it).\n3. **PDCA Steps**.\n4. **Formal Emphasis** (Use at least two examples of inversion)."
+    },
+    {
+      "id": "tqm-principles",
+      "title": "Total Quality Management (TQM)",
+      "content": "Total Quality Management (TQM) is a management approach to long-term success through customer satisfaction. In TQM, all members of an organization participate in improving processes, products, services, and the culture in which they work.\n\n### Core Tenets of TQM:\n- **Total Employee Involvement**: People are the most important resource. Everyone must be trained and committed.\n- **Process-Centered**: A fundamental part of TQM is a focus on process thinking.\n- **Integrated System**: Quality is not just a department; it's the whole company's responsibility.\n- **Strategic and Systematic Approach**: Achieving an organization's vision, mission, and goals."
+    },
+    {
+      "id": "employee-engagement",
+      "title": "Employee Engagement in Quality Culture",
+      "content": "A quality culture is only possible when employees are **empowered** and **engaged**. This means moving away from a 'blame culture' to a 'learning culture'.\n\n### Strategies for Engagement:\n- **Suggestion Schemes**: Providing a platform for staff to propose improvements.\n- **Recognition**: Rewarding teams that successfully eliminate waste or improve efficiency.\n- **Quality Circles**: Groups of employees who meet regularly to solve work-related problems.\n\n### Vocabulary Definitions:\n- **Empowered**: Having the knowledge, skill, and authority to make decisions.\n- **Engagement**: The level of enthusiasm and dedication a worker feels toward their job.\n- **Benchmark**: A standard or point of reference against which things may be compared."
+    },
+    {
+      "id": "six-sigma",
+      "title": "Six Sigma & DMAIC",
+      "content": "Six Sigma is a set of techniques and tools for process improvement. It seeks to improve the quality of the output of a process by identifying and removing the causes of defects and minimizing variability.\n\n### The DMAIC Method:\n1. **Define**: Define the problem and the project goals.\n2. **Measure**: Measure key aspects of the current process and collect relevant data.\n3. **Analyze**: Analyze the data to investigate and verify cause-and-effect relationships.\n4. **Improve**: Improve or optimize the current process based upon data analysis.\n5. **Control**: Control the future state process to ensure that any deviations from target are corrected."
+    },
+    {
+      "id": "lean-thinking",
+      "title": "Lean Thinking: Eliminating Waste",
+      "content": "Lean is a methodology that focuses on minimizing waste within manufacturing systems while simultaneously maximizing productivity. In administration, this means removing steps that do not add value to the end customer.\n\n### The 8 Wastes of Lean (Muda):\n- **Defects**: Information that is incorrect or missing.\n- **Overproduction**: Doing more work than is required (e.g., printing unnecessary copies).\n- **Waiting**: Delays between steps in a process.\n- **Non-utilized Talent**: Not using the skills of the staff effectively.\n- **Transportation**: Unnecessary movement of documents or information.\n- **Inventory**: Excessive backlog of work.\n- **Motion**: Unnecessary movement by people (e.g., walking to a distant printer).\n- **Extra-Processing**: Using more complex tools than necessary for a simple task."
     }
   ],
   "objectives": [
     "Explain the PDCA cycle and Kaizen principles",
     "Identify bottlenecks in administrative workflows",
     "Use inversion to create emphasis in formal proposals",
-    "Document non-conformities and propose corrective actions"
+    "Document non-conformities and propose corrective actions",
+    "Define the core tenets of Total Quality Management (TQM)",
+    "Describe strategies for fostering employee engagement in a quality culture",
+    "Apply the DMAIC method for systematic problem solving",
+    "Identify and eliminate the 8 wastes (Muda) in administrative processes"
   ],
   "keyTerms": [
     { "term": "QMS", "definition": "Quality Management System: a collection of business processes focused on consistently meeting customer requirements." },
     { "term": "Bottleneck", "definition": "A point of congestion in a production system that stops or slows down the process." },
     { "term": "Non-conformity", "definition": "A failure to meet a specified requirement or standard." },
-    { "term": "Streamline", "definition": "To make a system or organization more efficient by simplifying or eliminating unnecessary steps." }
+    { "term": "Streamline", "definition": "To make a system or organization more efficient by simplifying or eliminating unnecessary steps." },
+    { "term": "TQM", "definition": "Total Quality Management: a holistic approach to long-term success through customer satisfaction and continuous process improvement." },
+    { "term": "Empowerment", "definition": "The process of becoming stronger and more confident, especially in controlling one's life and claiming one's rights." },
+    { "term": "Six Sigma", "definition": "A disciplined, data-driven approach and methodology for eliminating defects in any process." },
+    { "term": "Lean", "definition": "A systematic method for waste elimination within a manufacturing system or administrative process." }
   ]
 }

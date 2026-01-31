@@ -160,7 +160,7 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
     return (
       <div className="max-w-4xl mx-auto p-6 space-y-6 min-h-screen">
         <Button 
-          variant="ghost" 
+          variant="secondary" 
           onClick={() => setActiveActivityId(null)}
           className="font-bold text-slate-500 hover:text-coral-600 gap-2 mb-4"
         >
@@ -307,7 +307,7 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
                           </div>
                           <Button 
                             onClick={() => setActiveActivityId(activity.id)}
-                            variant={isCompleted ? "secondary" : "ghost"} 
+                            variant={isCompleted ? "secondary" : "outline"} 
                             className={`font-bold rounded-xl ${
                               !isCompleted && 'group-hover:bg-coral-600 group-hover:text-white'
                             }`}

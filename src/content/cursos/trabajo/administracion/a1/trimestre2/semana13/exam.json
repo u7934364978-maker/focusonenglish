@@ -1,49 +1,55 @@
 {
-  "goal": "administracion",
-  "level": "A1",
-  "trimester": 2,
-  "weekId": "semana13",
-  "title": "Examen: Precios y Compras de Oficina",
-  "items": [
+  "title": "Examen Semana 13: Suministros",
+  "questions": [
     {
-      "id": "fin-a1-w13-e1",
-      "type": "multipleChoice",
-      "prompt": "How much is the ___ of this printer?",
-      "options": ["cost", "change", "receipt", "budget"],
-      "answerIndex": 0,
-      "explanation": "Cost refers to the price of an item."
+      "id": "adm-a1-w13-q1",
+      "type": "multiple-choice",
+      "question": "Which of these is NOT for writing?",
+      "options": [
+        "Pen",
+        "Pencil",
+        "Chair",
+        "Notebook"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A chair is for sitting, not for writing."
     },
     {
-      "id": "fin-a1-w13-e2",
-      "type": "multipleChoice",
-      "prompt": "___ many employees in the office.",
-      "options": ["There is", "There are", "Is there", "Are there"],
-      "answerIndex": 1,
-      "explanation": "Plural needs 'There are'."
+      "id": "adm-a1-w13-q2",
+      "type": "fill-blank",
+      "question": "I have ________ (una) office in London.",
+      "answer": "an",
+      "explanation": "Use 'an' before words starting with a vowel (office)."
     },
     {
-      "id": "fin-a1-w13-e3",
-      "type": "multipleChoice",
-      "prompt": "This laptop is very ___. It's only 100 euros.",
-      "options": ["expensive", "cheap", "cost", "price"],
-      "answerIndex": 1,
-      "explanation": "Cheap means it doesn't cost much."
+      "id": "adm-a1-w13-q3",
+      "type": "matching",
+      "question": "Match the furniture and supplies:",
+      "pairs": [
+        { "term": "Stapler", "definition": "Grapadora" },
+        { "term": "Desk", "definition": "Escritorio" },
+        { "term": "Scissors", "definition": "Tijeras" }
+      ]
     },
     {
-      "id": "fin-a1-w13-e4",
-      "type": "multipleChoice",
-      "prompt": "Wait, here is your ___.",
-      "options": ["change", "cost", "expensive", "there is"],
-      "answerIndex": 0,
-      "explanation": "Change is the money returned to you."
+      "id": "adm-a1-w13-q4",
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I need a paper.",
+        "I need the paper on your desk.",
+        "I need an paper.",
+        "I need paper specific."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'The paper on your desk' uses 'the' correctly for a specific item."
     },
     {
-      "id": "fin-a1-w13-e5",
-      "type": "multipleChoice",
-      "prompt": "___ a bank near here?",
-      "options": ["There is", "There are", "Is there", "Are there"],
-      "answerIndex": 2,
-      "explanation": "Question singular: Is there...?"
+      "id": "adm-a1-w13-q5",
+      "type": "fill-blank",
+      "question": "Do you have ________ (una) folder?",
+      "answer": "a",
+      "explanation": "Use 'a' before 'folder' (starts with a consonant)."
     }
   ]
 }

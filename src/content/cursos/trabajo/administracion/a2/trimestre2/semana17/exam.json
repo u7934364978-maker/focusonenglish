@@ -6,44 +6,164 @@
   "title": "Examen: Banca Móvil y Aplicaciones",
   "items": [
     {
-      "id": "fin-a2-w17-e1",
+      "id": "adm-a2-w17-q01",
       "type": "multipleChoice",
-      "prompt": "You need to ___ your password carefully.",
+      "prompt": "You need to ________ your password carefully to avoid errors.",
       "options": ["enter", "click", "download", "logout"],
       "answerIndex": 0,
-      "explanation": "We enter passwords into systems."
+      "explanation": "Introducimos (enter) las contraseñas en los sistemas."
     },
     {
-      "id": "fin-a2-w17-e2",
+      "id": "adm-a2-w17-q02",
       "type": "multipleChoice",
-      "prompt": "Don't ___ your security code with anyone.",
+      "prompt": "Don't ________ your security code with anyone, not even bank staff.",
       "options": ["share", "login", "transfer", "click"],
       "answerIndex": 0,
-      "explanation": "Security tip: Don't share private codes."
+      "explanation": "Consejo de seguridad: no compartas (share) códigos privados."
     },
     {
-      "id": "fin-a2-w17-e3",
+      "id": "adm-a2-w17-q03",
       "type": "multipleChoice",
-      "prompt": "I want to ___ money to my friend's account.",
+      "prompt": "I want to ________ money to my friend's account using the app.",
       "options": ["transfer", "login", "bill", "notification"],
       "answerIndex": 0,
-      "explanation": "We transfer money between accounts."
+      "explanation": "Transferimos (transfer) dinero entre cuentas."
     },
     {
-      "id": "fin-a2-w17-e4",
+      "id": "adm-a2-w17-q04",
       "type": "multipleChoice",
-      "prompt": "Did you get a ___ on your phone?",
+      "prompt": "Did you get a ________ on your phone about the transaction?",
       "options": ["notification", "password", "username", "login"],
       "answerIndex": 0,
-      "explanation": "Apps send notifications to phones."
+      "explanation": "Las aplicaciones envían notificaciones (notifications) al móvil."
     },
     {
-      "id": "fin-a2-w17-e5",
+      "id": "adm-a2-w17-q05",
       "type": "multipleChoice",
-      "prompt": "___ the app to start.",
+      "prompt": "________ the app to start the login process.",
       "options": ["Open", "Enter", "Click", "Don't"],
       "answerIndex": 0,
-      "explanation": "Imperative: Open the app."
+      "explanation": "Imperativo: abre (Open) la aplicación."
+    },
+    {
+      "id": "adm-a2-w17-q06",
+      "type": "multipleChoice",
+      "prompt": "Please ________ the 'Confirm' button to finish.",
+      "options": ["press", "pressing", "to press", "pressed"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: pulsa (press) el botón de confirmar."
+    },
+    {
+      "id": "adm-a2-w17-q07",
+      "type": "multipleChoice",
+      "prompt": "Your ________ is a 4-digit secret number.",
+      "options": ["PIN", "PAN", "PEN", "PUN"],
+      "answerIndex": 0,
+      "explanation": "El PIN es el número de identificación personal de 4 dígitos."
+    },
+    {
+      "id": "adm-a2-w17-q08",
+      "type": "multipleChoice",
+      "prompt": "I check my account ________ every morning.",
+      "options": ["balance", "bill", "box", "bank"],
+      "answerIndex": 0,
+      "explanation": "El 'balance' es el saldo total de la cuenta."
+    },
+    {
+      "id": "adm-a2-w17-q09",
+      "type": "multipleChoice",
+      "prompt": "________ on 'History' to see your previous payments.",
+      "options": ["Tap", "Taps", "Tapping", "To tap"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: toca o pulsa (Tap) en la pantalla."
+    },
+    {
+      "id": "adm-a2-w17-q10",
+      "type": "multipleChoice",
+      "prompt": "The app is ________. Please wait a moment.",
+      "options": ["loading", "load", "loaded", "to load"],
+      "answerIndex": 0,
+      "explanation": "Presente continuo: la aplicación está cargando (loading)."
+    },
+    {
+      "id": "adm-a2-w17-q11",
+      "type": "multipleChoice",
+      "prompt": "________ your fingerprint to unlock the phone.",
+      "options": ["Scan", "Scanning", "To scan", "Scanned"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: escanea (Scan) tu huella dactilar."
+    },
+    {
+      "id": "adm-a2-w17-q12",
+      "type": "multipleChoice",
+      "prompt": "You need an internet ________ to use mobile banking.",
+      "options": ["connection", "computer", "collection", "correct"],
+      "answerIndex": 0,
+      "explanation": "Se requiere conexión (connection) a internet."
+    },
+    {
+      "id": "adm-a2-w17-q13",
+      "type": "multipleChoice",
+      "prompt": "________ write your password on a piece of paper.",
+      "options": ["Don't", "Not", "No", "Doesn't"],
+      "answerIndex": 0,
+      "explanation": "Imperativo negativo: no (Don't) escribas tu contraseña."
+    },
+    {
+      "id": "adm-a2-w17-q14",
+      "type": "multipleChoice",
+      "prompt": "________ 'Sign out' when you finish using the app.",
+      "options": ["Select", "Selecting", "To select", "Selected"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: selecciona (Select) cerrar sesión."
+    },
+    {
+      "id": "adm-a2-w17-q15",
+      "type": "multipleChoice",
+      "prompt": "Is this app ________ and secure?",
+      "options": ["safe", "small", "slow", "sad"],
+      "answerIndex": 0,
+      "explanation": "'Safe' significa seguro, esencial para la banca."
+    },
+    {
+      "id": "adm-a2-w17-q16",
+      "type": "multipleChoice",
+      "prompt": "You have a new ________ in your inbox.",
+      "options": ["message", "massage", "magic", "music"],
+      "answerIndex": 0,
+      "explanation": "Las aplicaciones pueden recibir mensajes (messages)."
+    },
+    {
+      "id": "adm-a2-w17-q17",
+      "type": "multipleChoice",
+      "prompt": "________ the QR code on the invoice.",
+      "options": ["Scan", "Scanning", "Scanned", "To scan"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: escanea (Scan) el código QR."
+    },
+    {
+      "id": "adm-a2-w17-q18",
+      "type": "multipleChoice",
+      "prompt": "________ for the SMS verification code.",
+      "options": ["Wait", "Waiting", "To wait", "Waited"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: espera (Wait) el código de verificación."
+    },
+    {
+      "id": "adm-a2-w17-q19",
+      "type": "multipleChoice",
+      "prompt": "You can ________ your profile picture here.",
+      "options": ["update", "upstairs", "upon", "under"],
+      "answerIndex": 0,
+      "explanation": "Puedes actualizar (update) tu foto de perfil."
+    },
+    {
+      "id": "adm-a2-w17-q20",
+      "type": "multipleChoice",
+      "prompt": "________ 'Yes' if the information is correct.",
+      "options": ["Click", "Clicks", "Clicking", "To click"],
+      "answerIndex": 0,
+      "explanation": "Imperativo: haz clic (Click) en 'Sí'."
     }
   ]
 }

@@ -1,46 +1,185 @@
 {
-  "title": "Strategic Planning & Change Management Exam",
-  "passingScore": 70,
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 2,
+  "weekId": "semana19",
+  "examId": "adm-b2-w19-exam",
+  "title": "Exam: Strategic Planning & Change Management",
   "items": [
     {
-      "id": "adm-b2-w19-q1",
+      "id": "adm-b2-w19-exam-1",
       "type": "multipleChoice",
       "prompt": "If the previous administration ________ the risks more carefully, we wouldn't be facing this liquidity crisis now.",
       "options": ["assessed", "had assessed", "would assess", "assess"],
       "answerIndex": 1,
-      "explanation": "Mixed conditional (3rd + 2nd): hypothetical past action with a present result."
+      "explanation": "This is a mixed conditional (Past action -> Present result). We use 'had' + past participle in the if-clause."
     },
     {
-      "id": "adm-b2-w19-q2",
+      "id": "adm-b2-w19-exam-2",
       "type": "multipleChoice",
-      "prompt": "Which framework is most suitable for analysing external factors like 'new GDPR regulations'?",
+      "prompt": "Which framework is most suitable for analyzing external factors like 'new GDPR regulations' or 'tax law changes'?",
       "options": ["SWOT", "PESTLE", "ROI", "PDCA"],
       "answerIndex": 1,
-      "explanation": "GDPR falls under 'Legal' in PESTLE."
+      "explanation": "PESTLE (Political, Economic, Social, Technological, Legal, Environmental) is used for external macro-environmental analysis."
     },
     {
-      "id": "adm-b2-w19-q3",
+      "id": "adm-b2-w19-exam-3",
       "type": "multipleChoice",
-      "prompt": "The feeling of being overwhelmed by constant organisational shifts is known as ________.",
+      "prompt": "The feeling of being overwhelmed by constant organizational shifts is known as ________.",
       "options": ["strategic alignment", "change fatigue", "agility", "benchmarking"],
       "answerIndex": 1,
-      "explanation": "Change fatigue is the apathy or resentment caused by too many changes."
+      "explanation": "Change fatigue occurs when employees are exhausted by too many overlapping changes."
     },
     {
-      "id": "adm-b2-w19-q4",
+      "id": "adm-b2-w19-exam-4",
       "type": "multipleChoice",
       "prompt": "If our IT infrastructure ________ more modern, we would have migrated to the cloud last year without these delays.",
       "options": ["is", "was", "had been", "were"],
       "answerIndex": 3,
-      "explanation": "Mixed conditional (2nd + 3rd): present state (were) affecting a past event (would have migrated)."
+      "explanation": "This is a mixed conditional (Present state -> Past result). 'Were' (or 'was') in the if-clause indicates a general present condition."
     },
     {
-      "id": "adm-b2-w19-q5",
+      "id": "adm-b2-w19-exam-5",
       "type": "multipleChoice",
       "prompt": "In a SWOT analysis, a competitor's bankruptcy would be considered an ________.",
       "options": ["Internal Strength", "Internal Weakness", "External Opportunity", "External Threat"],
       "answerIndex": 2,
-      "explanation": "A competitor's failure is an external opportunity for our company."
+      "explanation": "A competitor's failure is an external event that provides a growth opportunity for our organization."
+    },
+    {
+      "id": "adm-b2-w19-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Which step is the absolute first in Kotter's 8-Step Model for leading change?",
+      "options": [
+        "Forming a strategic vision",
+        "Empowering broad-based action",
+        "Creating a sense of urgency",
+        "Generating short-term wins"
+      ],
+      "answerIndex": 2,
+      "explanation": "Kotter argues that change fails if there is no sense of urgency among the stakeholders."
+    },
+    {
+      "id": "adm-b2-w19-exam-7",
+      "type": "multipleChoice",
+      "prompt": "If our company ________ more agile, it would have survived the market disruption of 2023.",
+      "options": ["was", "is", "were", "had been"],
+      "answerIndex": 2,
+      "explanation": "Mixed conditional (Present state -> Past result). 'Were' is more formal for the hypothetical present state."
+    },
+    {
+      "id": "adm-b2-w19-exam-8",
+      "type": "multipleChoice",
+      "prompt": "What does 'strategic alignment' refer to in an administrative context?",
+      "options": [
+        "The process of firing managers who disagree with the CEO",
+        "Ensuring every department's goals support the high-level corporate strategy",
+        "Reducing the number of employees in each department",
+        "Creating a list of all potential competitors"
+      ],
+      "answerIndex": 1,
+      "explanation": "Strategic alignment ensures that the entire organization is moving in the same direction."
+    },
+    {
+      "id": "adm-b2-w19-exam-9",
+      "type": "multipleChoice",
+      "prompt": "In the Power/Interest Matrix, a stakeholder with 'High Power' and 'High Interest' must be:",
+      "options": ["Monitored", "Kept satisfied", "Managed closely", "Kept informed"],
+      "answerIndex": 2,
+      "explanation": "High power/high interest stakeholders are 'Key Players' and require intensive engagement."
+    },
+    {
+      "id": "adm-b2-w19-exam-10",
+      "type": "multipleChoice",
+      "prompt": "If we ________ more on stakeholder engagement last year, we wouldn't be facing these protests now.",
+      "options": ["focused", "had focused", "would focus", "have focused"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional (Past action -> Present result). 'Had focused' is the correct past perfect form."
+    },
+    {
+      "id": "adm-b2-w19-exam-11",
+      "type": "multipleChoice",
+      "prompt": "A(n) ________ roadmap is a visual guide used to track the milestones of a strategic plan.",
+      "options": ["implementation", "PESTLE", "SWOT", "benchmark"],
+      "answerIndex": 0,
+      "explanation": "An implementation roadmap breaks down a complex strategy into actionable steps."
+    },
+    {
+      "id": "adm-b2-w19-exam-12",
+      "type": "multipleChoice",
+      "prompt": "Which macro-environmental factor in PESTLE includes 'rising interest rates' and 'unemployment levels'?",
+      "options": ["Political", "Economic", "Social", "Technological"],
+      "answerIndex": 1,
+      "explanation": "These are core economic indicators."
+    },
+    {
+      "id": "adm-b2-w19-exam-13",
+      "type": "multipleChoice",
+      "prompt": "In corporate governance, ________ ensures that strategic decisions are transparent and that leaders are responsible for results.",
+      "options": ["accountability", "agility", "SWOT", "scenario planning"],
+      "answerIndex": 0,
+      "explanation": "Accountability is the obligation of leaders to explain their actions and be responsible for them."
+    },
+    {
+      "id": "adm-b2-w19-exam-14",
+      "type": "multipleChoice",
+      "prompt": "________ planning involves developing multiple plans for various possible futures (best-case, worst-case).",
+      "options": ["Agility", "Scenario", "Alignment", "Roadmap"],
+      "answerIndex": 1,
+      "explanation": "Scenario planning helps reduce surprise and risk in volatile markets."
+    },
+    {
+      "id": "adm-b2-w19-exam-15",
+      "type": "multipleChoice",
+      "prompt": "If the CEO ________ so cautious, she would have approved the expansion plan last month.",
+      "options": ["isn't", "weren't", "wasn't", "hadn't been"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional (Present state -> Past result). 'Weren't' is the standard hypothetical form."
+    },
+    {
+      "id": "adm-b2-w19-exam-16",
+      "type": "multipleChoice",
+      "prompt": "Which of these is an example of an internal 'Weakness' in a SWOT analysis?",
+      "options": [
+        "A new competitor entering the market",
+        "Strict government regulations",
+        "Outdated office hardware and software",
+        "An increase in demand for the product"
+      ],
+      "answerIndex": 2,
+      "explanation": "Internal deficiencies like outdated hardware are considered weaknesses."
+    },
+    {
+      "id": "adm-b2-w19-exam-17",
+      "type": "multipleChoice",
+      "prompt": "Comparing our performance metrics against those of industry leaders is called ________.",
+      "options": ["benchmarking", "transparency", "agility", "roadmapping"],
+      "answerIndex": 0,
+      "explanation": "Benchmarking allows organizations to identify where they need to improve to reach industry standards."
+    },
+    {
+      "id": "adm-b2-w19-exam-18",
+      "type": "multipleChoice",
+      "prompt": "If we ________ more scenario planning three years ago, we wouldn't be so confused by the current market shift.",
+      "options": ["did", "had done", "would do", "have done"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional (Past action -> Present result). Use past perfect 'had done' for the past action."
+    },
+    {
+      "id": "adm-b2-w19-exam-19",
+      "type": "multipleChoice",
+      "prompt": "In a PESTLE analysis, 'employment laws' and 'health and safety regulations' fall under:",
+      "options": ["Political", "Social", "Technological", "Legal"],
+      "answerIndex": 3,
+      "explanation": "These are legal requirements that an organization must follow."
+    },
+    {
+      "id": "adm-b2-w19-exam-20",
+      "type": "multipleChoice",
+      "prompt": "Which concept describes an organization's capacity to renew itself and adapt quickly in a changing environment?",
+      "options": ["Fatigue", "Benchmarking", "Agility", "SWOT"],
+      "answerIndex": 2,
+      "explanation": "Agility is the key to surviving rapid external changes."
     }
   ]
 }

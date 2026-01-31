@@ -3,47 +3,87 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana18",
-  "title": "Examen: Compras y Pagos",
+  "title": "Module 2: Week 18 Exam - Time & Schedules",
   "items": [
     {
-      "id": "fin-a1-w18-e1",
-      "type": "multipleChoice",
-      "prompt": "I always ___ my bills on time.",
-      "options": ["buy", "pay", "cost", "sell"],
-      "answerIndex": 1,
-      "explanation": "We use 'pay' for bills."
-    },
-    {
-      "id": "fin-a1-w18-e2",
-      "type": "multipleChoice",
-      "prompt": "Do you have the ___? I need to return this.",
-      "options": ["change", "cost", "receipt", "cash"],
-      "answerIndex": 2,
-      "explanation": "A receipt is needed to return an item."
-    },
-    {
-      "id": "fin-a1-w18-e3",
-      "type": "multipleChoice",
-      "prompt": "He ___ by credit card.",
-      "options": ["pay", "pays", "paying", "is pay"],
-      "answerIndex": 1,
-      "explanation": "Third person singular 'He' needs 'pays'."
-    },
-    {
-      "id": "fin-a1-w18-e4",
-      "type": "multipleChoice",
-      "prompt": "This computer is 1,000 euros. It is very ___.",
-      "options": ["cheap", "expensive", "new", "old"],
-      "answerIndex": 1,
-      "explanation": "1,000 euros is a high price, so it's expensive."
-    },
-    {
-      "id": "fin-a1-w18-e5",
-      "type": "multipleChoice",
-      "prompt": "How much does it ___?",
-      "options": ["cost", "costs", "costing", "is cost"],
+      "id": "adm-a1-w18-exam-01",
+      "type": "multiple-choice",
+      "prompt": "The meeting is ______ 3:30 PM.",
+      "options": ["at", "on", "in"],
       "answerIndex": 0,
-      "explanation": "In questions with 'does', the verb stays in base form."
+      "explanation": "Use 'at' for specific clock times."
+    },
+    {
+      "id": "adm-a1-w18-exam-02",
+      "type": "multiple-choice",
+      "prompt": "We have a presentation ______ Wednesday.",
+      "options": ["on", "at", "in"],
+      "answerIndex": 0,
+      "explanation": "Use 'on' for days of the week."
+    },
+    {
+      "id": "adm-a1-w18-exam-03",
+      "type": "multiple-choice",
+      "prompt": "I check the inventory ______ the afternoon.",
+      "options": ["in", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "Use 'in the afternoon'."
+    },
+    {
+      "id": "adm-a1-w18-exam-04",
+      "type": "fill-blank",
+      "prompt": "What [blank] is it? It is 11:00 AM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["time"], "caseSensitive": false }
+      ],
+      "explanation": "'What time is it?' is the standard question."
+    },
+    {
+      "id": "adm-a1-w18-exam-05",
+      "type": "multiple-choice",
+      "prompt": "She is ______ for the appointment.",
+      "options": ["late", "time", "at"],
+      "answerIndex": 0,
+      "explanation": "To be 'late' means not arriving on time."
+    },
+    {
+      "id": "adm-a1-w18-exam-06",
+      "type": "multiple-choice",
+      "prompt": "The deadline is ______ tomorrow.",
+      "options": ["on", "at", "not needed"],
+      "answerIndex": 2,
+      "explanation": "We don't need a preposition before 'tomorrow' (The deadline is tomorrow)."
+    },
+    {
+      "id": "adm-a1-w18-exam-07",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I arrive at work at eight",
+      "explanation": "Llego al trabajo a las ocho."
+    },
+    {
+      "id": "adm-a1-w18-exam-08",
+      "type": "multiple-choice",
+      "prompt": "Are you ______ at 4:00 PM?",
+      "options": ["free", "busy", "time"],
+      "answerIndex": 0,
+      "explanation": "'Free' means you have no meetings or tasks at that time."
+    },
+    {
+      "id": "adm-a1-w18-exam-09",
+      "type": "fill-blank",
+      "prompt": "The office [blank] at 6:00 PM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["closes", "ends", "finishes"], "caseSensitive": false }
+      ],
+      "explanation": "The office (3rd person) closes."
+    },
+    {
+      "id": "adm-a1-w18-exam-10",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "When is the next meeting",
+      "explanation": "¿Cuándo es la próxima reunión?"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "title": "Trimester 2 Final Review & Modern Banking",
+  "title": "Trimester 2 Final Review & Digital Administration",
   "sections": [
     {
       "id": "trimester-summary",
-      "title": "Digital Banking Journey",
-      "content": "This trimester, you moved from traditional banking to the digital world. You can now manage your finances using modern apps and tools.\n\n- **Digital UI**: Navigating apps (top, bottom, buttons).\n- **Fintech Adjectives**: Describing services (user-friendly, secure, encrypted).\n- **Digital Payments**: Transfers, subscriptions, and auto-pay.\n- **Security**: 2FA, strong passwords, and virtual cards.\n- **Data**: Reading statements and spending charts."
+      "title": "Digital Office Admin Journey",
+      "content": "This trimester, you moved from traditional office tasks to the digital world. You can now manage your professional life using modern apps and tools.\n\n- **Digital UI**: Navigating apps (top, bottom, buttons).\n- **SaaS & Software Adjectives**: Describing services (user-friendly, secure, encrypted).\n- **Digital Payments**: Business expenses, professional subscriptions, and auto-pay.\n- **Security**: 2FA, strong passwords, and virtual cards.\n- **Data**: Reading expense reports and spending charts."
     },
     {
       "id": "review-diagram",
-      "title": "Modern Finance Ecosystem",
+      "title": "Modern Office Ecosystem",
       "content": "```mermaid\ngraph TD\n    A[Digital App] --> B[Payments]\n    A --> C[Security]\n    A --> D[Support]\n    B --> B1[Instant Transfers]\n    B --> B2[Subscriptions]\n    C --> C1[Biometrics/2FA]\n    C --> C2[Virtual Cards]\n    D --> D1[Chatbots]\n    D --> D2[Help Center]\n    E[Data] --> E1[Statements]\n    E --> E2[Spending Charts]\n    A --> E\n```"
     },
     {
@@ -18,8 +18,8 @@
     }
   ],
   "objectives": [
-    "Summarize all digital banking concepts from the second trimester",
-    "Identify modern financial tools and security practices",
+    "Summarize all digital administration concepts from the second trimester",
+    "Identify modern professional tools and security practices",
     "Prepare for the final capstone project and trimester exam"
   ],
   "keyTerms": [

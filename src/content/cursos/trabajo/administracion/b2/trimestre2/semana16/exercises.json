@@ -7,88 +7,117 @@
   "items": [
     {
       "id": "adm-b2-w16-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: SLA Performance Review (Doc A)",
-      "text": "Doc A — Monthly Vendor Performance Review: OfficeClean Ltd.\n\nAgreement Start Date: 1st Jan | Review Period: March\n\nSLA Requirements:\n- Daily cleaning of all common areas (Target: 100% | Actual: 95%).\n- Response to emergency spills within 60 minutes (Target: 100% | Actual: 80%).\n- Supply of recycled paper products (Target: 100% | Actual: 100%).\n\nFindings:\nThe vendor failed to meet the emergency response SLA on two occasions this month. The reported lead time for restocking soap dispensers also increased from 24 to 48 hours. It is essential that the account manager provide a corrective action plan by Wednesday. We recommend that the contract be reviewed if performance does not improve by the next quarterly meeting.",
-      "questions": [
-        {
-          "question": "Which SLA target did OfficeClean Ltd fail to meet most significantly?",
-          "options": ["Daily cleaning", "Emergency spill response", "Supply of recycled paper"],
-          "answerIndex": 1,
-          "explanation": "Actual performance for emergency spills was only 80%, compared to 95% for daily cleaning."
-        },
-        {
-          "question": "What is the requirement for the account manager?",
-          "options": ["To resign", "To provide a corrective action plan by Wednesday", "To increase prices"],
-          "answerIndex": 1,
-          "explanation": "Doc A states: 'It is essential that the account manager provide a corrective action plan by Wednesday.'"
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "According to the Vendor Performance Review (Doc A), which SLA target did OfficeClean Ltd fail to meet most significantly?\n\nDoc A — SLA Requirements:\n- Daily cleaning (Target: 100% | Actual: 95%).\n- Emergency spills response within 60 mins (Target: 100% | Actual: 80%).",
+      "options": [
+        "Daily cleaning",
+        "Emergency spill response",
+        "Supply of recycled paper",
+        "Lead time for restock"
+      ],
+      "answerIndex": 1,
+      "explanation": "Actual performance for emergency spills was only 80%, a 20% deficit from the target."
     },
     {
       "id": "adm-b2-w16-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: Procurement Lifecycle. Which stage involves identifying potential suppliers for a specific need?",
+      "prompt": "Based on Doc A, what is the specific requirement for the account manager regarding the performance issues?",
       "options": [
-        "Vetting",
-        "Sourcing",
-        "Onboarding",
-        "Monitoring"
+        "To resign from the account",
+        "To provide a corrective action plan by Wednesday",
+        "To increase the frequency of daily cleaning",
+        "To reduce the contract price"
       ],
       "answerIndex": 1,
-      "explanation": "Sourcing is the initial stage of identifying suppliers."
+      "explanation": "The text states: 'It is essential that the account manager provide a corrective action plan by Wednesday.'"
     },
     {
       "id": "adm-b2-w16-ex03",
       "type": "multipleChoice",
-      "prompt": "Exercise 3: Supply Chain Metrics. What does 'Lead Time' measure?",
+      "prompt": "Which stage of the procurement lifecycle involves evaluating potential suppliers based on quality, price, and compliance?",
       "options": [
-        "The cost of the product",
-        "The time between starting and finishing a process",
-        "The quality of the service",
-        "The number of vendors available"
+        "Sourcing",
+        "Vetting",
+        "Negotiation",
+        "Onboarding"
       ],
       "answerIndex": 1,
-      "explanation": "Lead time is the duration between initiation and completion."
+      "explanation": "Vetting is the evaluation and background check phase of procurement."
     },
     {
       "id": "adm-b2-w16-ex04",
       "type": "multipleChoice",
-      "prompt": "Exercise 4: Operational Chunks. Complete the sentence: 'We need to ___ the new IT vendor for ___ compliance before we sign the contract.'",
+      "prompt": "In supply chain management, what does 'Lead Time' refer to?",
+      "options": [
+        "The cost of shipping",
+        "The time between the initiation and completion of a process",
+        "The quality of the raw materials",
+        "The number of vendors in the supply chain"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lead time measures the duration of a process, such as from order to delivery."
+    },
+    {
+      "id": "adm-b2-w16-ex05",
+      "type": "multipleChoice",
+      "prompt": "Complete the professional sentence: 'We need to ___ the new IT vendor for data security ___ before signing the contract.'",
       "options": [
         "hire / tax",
-        "vet / data security",
+        "vet / compliance",
         "ignore / health",
         "pay / legal"
       ],
       "answerIndex": 1,
-      "explanation": "Standard procedure is to 'vet a vendor' for 'data security compliance'."
-    },
-    {
-      "id": "adm-b2-w16-ex05",
-      "type": "writingTask",
-      "prompt": "Exercise 5: The Subjunctive. Correct the error in this formal sentence: 'It is essential that the supplier provides a new quote.'",
-      "modelAnswer": "It is essential that the supplier provide a new quote.",
-      "keywords": ["essential", "provide"]
+      "explanation": "To 'vet for compliance' is the standard procedure for onboarding new vendors."
     },
     {
       "id": "adm-b2-w16-ex06",
-      "type": "writingTask",
-      "prompt": "Exercise 6: The Subjunctive. Use the verb 'be' to complete this formal requirement: 'It is important that the contract ___ reviewed by the Legal department.'",
-      "modelAnswer": "It is important that the contract be reviewed by the Legal department.",
-      "keywords": ["important", "be", "reviewed"]
+      "type": "gap-fill",
+      "prompt": "Correct the error in this formal request (Subjunctive): 'It is essential that the supplier ___ (provide) a new quote.'",
+      "validation": [
+        {
+          "rule": "^provide$",
+          "isCorrect": true,
+          "message": "Correct! The subjunctive uses the base form 'provide'."
+        },
+        {
+          "rule": "provides",
+          "isCorrect": false,
+          "message": "Incorrect. In the subjunctive 'that the supplier provides' is incorrect; it should be 'provide'."
+        }
+      ],
+      "explanation": "The subjunctive mood uses the base form of the verb, even for third-person singular subjects."
     },
     {
       "id": "adm-b2-w16-ex07",
-      "type": "writingTask",
-      "prompt": "Exercise 7: Extracting Data. Based on Doc A, identify two areas where the vendor failed to meet the agreed standards.",
-      "modelAnswer": "1. Emergency spill response (80% vs 100%). 2. Lead time for soap dispenser restocking (increased to 48 hours).",
-      "keywords": ["Emergency", "80%", "Lead time", "48 hours"]
+      "type": "gap-fill",
+      "prompt": "Use the subjunctive 'be' to complete this requirement: 'It is important that the contract ___ reviewed by Legal.'",
+      "validation": [
+        {
+          "rule": "^be$",
+          "isCorrect": true,
+          "message": "Correct! 'It is important that... be' is the standard subjunctive structure."
+        }
+      ],
+      "explanation": "Formal requirements with 'important that' use the subjunctive 'be'."
     },
     {
       "id": "adm-b2-w16-ex08",
       "type": "multipleChoice",
-      "prompt": "Exercise 8: Courtesy Modals. How would you professionally inform a vendor that you are unhappy with their current lead times?",
+      "prompt": "According to Doc A, what happened to the lead time for restocking soap dispensers?",
+      "options": [
+        "It decreased to 12 hours",
+        "It remained the same",
+        "It increased from 24 to 48 hours",
+        "It was eliminated"
+      ],
+      "answerIndex": 2,
+      "explanation": "Doc A mentions the lead time 'increased from 24 to 48 hours'."
+    },
+    {
+      "id": "adm-b2-w16-ex09",
+      "type": "multipleChoice",
+      "prompt": "How would you professionally and diplomatically inform a vendor that you are unhappy with their delays?",
       "options": [
         "You're too slow.",
         "Fix the lead times now.",
@@ -96,57 +125,865 @@
         "I suggest that you be faster."
       ],
       "answerIndex": 2,
-      "explanation": "This is polite, uses professional vocabulary ('concerned', 'investigate'), and asks for a resolution diplomatically."
-    },
-    {
-      "id": "adm-b2-w16-ex09",
-      "type": "writingTask",
-      "prompt": "Exercise 9: Contract Renewal Email. Write a short email (50-70 words) to a courier company asking for their updated price list as you are considering renewing their contract for another year.",
-      "modelAnswer": "Hi FastTrack Couriers, we are currently reviewing our logistics requirements for the upcoming year and are considering renewing our contract with you. Could you please provide your updated price list and any new terms for 2024? It is essential that we receive this information by Friday to complete our vetting process. Thanks, [Your Name]",
-      "keywords": ["renewing", "updated price list", "essential", "receive"]
+      "explanation": "This option is professional, polite, and encourages a collaborative resolution."
     },
     {
       "id": "adm-b2-w16-ex10",
       "type": "multipleChoice",
-      "prompt": "Exercise 10: SLA Terminology. What does 'SLA' stand for in a business contract?",
-      "options": ["Standard Legal Agreement", "Service Level Agreement", "Supplier Liaison Authority", "System Logic Analysis"],
+      "prompt": "In an email regarding contract renewal, which sentence is most appropriate?",
+      "options": [
+        "We might keep you.",
+        "We are considering renewing our contract for another year.",
+        "You must give us a discount.",
+        "I wish we had a better vendor."
+      ],
       "answerIndex": 1,
-      "explanation": "SLA (Service Level Agreement) defines the level of service expected from a vendor."
+      "explanation": "This is a standard, professional way to open a discussion about contract renewal."
     },
     {
       "id": "adm-b2-w16-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Briefing. Record a 2-minute audio briefing explaining the importance of 'Vendor Vetting' to a junior administrator. Use the subjunctive once (e.g., 'It is vital that they...').",
-      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Explanation of Vetting, Correct use of Subjunctive.",
-      "keywords": ["vetting", "vital", "compliance"]
+      "type": "multipleChoice",
+      "prompt": "What does 'SLA' stand for in a business contract?",
+      "options": [
+        "Standard Legal Agreement",
+        "Service Level Agreement",
+        "Supplier Liaison Authority",
+        "System Logic Analysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "An SLA (Service Level Agreement) defines the expected service standards."
     },
     {
       "id": "adm-b2-w16-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Negotiation. Record a 60-second clip of you negotiating with a vendor. Use 'We require that...' or 'It is a requirement that...' followed by a subjunctive verb.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Professional negotiation, Use of Subjunctive, Focus on terms/SLA.",
-      "keywords": ["require", "be", "terms"]
+      "type": "gap-fill",
+      "prompt": "Complete the subjunctive request: 'We require that the vendor ___ (submit) the audit report by Friday.'",
+      "validation": [
+        {
+          "rule": "^submit$",
+          "isCorrect": true,
+          "message": "Correct! Base form for subjunctive."
+        }
+      ],
+      "explanation": "Requests using 'require that' take the subjunctive base form."
     },
     {
       "id": "adm-b2-w16-ex13",
-      "type": "writingTask",
-      "prompt": "Exercise 13: Vendor Recommendation Report (Portfolio). Write a 150-word report recommending a new catering vendor for the office. Use procurement vocabulary and at least two subjunctive structures.",
-      "modelAnswer": "Vendor Recommendation: FreshEat Catering\n\nAfter a thorough sourcing and vetting process, I recommend that FreshEat Catering be selected as our primary food vendor. We have vetted three suppliers based on price, quality, and their commitment to sustainability.\n\nFreshEat offers a competitive price point and their lead time for event bookings is only 48 hours. Furthermore, their SLA includes a 100% guarantee on organic sourcing. It is essential that the contract be signed before the end of the month to ensure they can begin service by Q3. We also require that the account manager provide a dedicated contact for our monthly audits.\n\nNot only is their menu superior, but they also meet all our internal compliance requirements regarding health and safety. I recommend that Legal review the final agreement by Friday EOD.",
-      "keywords": ["Recommendation", "vetted", "essential", "be", "SLA"]
+      "type": "multipleChoice",
+      "prompt": "Which grammar structure is most appropriate for a formal contract requirement?",
+      "options": [
+        "It is essential that he arrives...",
+        "It is essential that he arrive...",
+        "It is essential for him arrives...",
+        "It is essential that he will arrive..."
+      ],
+      "answerIndex": 1,
+      "explanation": "Formal requests in UK English often use the subjunctive base form."
     },
     {
       "id": "adm-b2-w16-ex14",
-      "type": "writingTask",
-      "prompt": "Exercise 14: Purchase Order (PO) Template. Complete a PO for '10 Ergonomic Chairs'. Include: Vendor, Item Description, Quantity, Unit Price, Total, and Requested Delivery Date.",
-      "modelAnswer": "Vendor: OfficeFurniture Ltd. Item: Ergonomic Desk Chairs (Model A). Qty: 10. Unit Price: £150. Total: £1,500. Delivery Date: 22nd May.",
-      "keywords": ["Vendor", "Description", "Quantity", "Total", "Date"]
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of a 'Purchase Order' (PO)?",
+      "options": [
+        "To pay the supplier",
+        "To formally request goods or services from a vendor",
+        "To complain about a delivery",
+        "To fire a vendor"
+      ],
+      "answerIndex": 1,
+      "explanation": "A PO is a legal offer to buy products or services."
     },
     {
       "id": "adm-b2-w16-ex15",
-      "type": "writingTask",
-      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Procurement'. 2) What is an SLA? 3) Complete the subjunctive: 'It is urgent that he ___ (arrive) for the meeting.' 4) What is 'Vetting'?",
-      "modelAnswer": "1) The process of obtaining goods or services. 2) Service Level Agreement. 3) ...arrive... (base form). 4) A background check on a supplier or person.",
-      "keywords": ["obtaining", "Agreement", "arrive", "background"]
+      "type": "gap-fill",
+      "prompt": "Complete the definition: '___ is the process of background-checking a company before signing a contract.'",
+      "validation": [
+        {
+          "rule": "Vetting",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "Vetting is the evaluation process for potential partners."
+    },
+    {
+      "id": "adm-b2-w16-ex16",
+      "type": "multipleChoice",
+      "prompt": "What does the 'G' in ESG stand for?",
+      "options": [
+        "Green",
+        "Global",
+        "Governance",
+        "General"
+      ],
+      "answerIndex": 2,
+      "explanation": "ESG stands for Environmental, Social, and Governance."
+    },
+    {
+      "id": "adm-b2-w16-ex17",
+      "type": "multipleChoice",
+      "prompt": "A vendor's anti-bribery policy is a component of which ESG category?",
+      "options": [
+        "Environmental",
+        "Social",
+        "Governance",
+        "External"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ethical conduct and transparency fall under 'Governance'."
+    },
+    {
+      "id": "adm-b2-w16-ex18",
+      "type": "multipleChoice",
+      "prompt": "When is 'due diligence' typically performed?",
+      "options": [
+        "After the project is finished",
+        "Only when a problem occurs",
+        "Prior to signing a contract with a new partner",
+        "Once a year for all staff"
+      ],
+      "answerIndex": 2,
+      "explanation": "Due diligence is a proactive, pre-contractual investigation."
+    },
+    {
+      "id": "adm-b2-w16-ex19",
+      "type": "multipleChoice",
+      "prompt": "Why is 'single sourcing' considered a supply chain risk?",
+      "options": [
+        "It is too expensive",
+        "It lacks redundancy; if the supplier fails, the company has no backup",
+        "It is illegal in most countries",
+        "It increases lead times"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relying on one supplier is risky because any disruption there affects your entire operation."
+    },
+    {
+      "id": "adm-b2-w16-ex20",
+      "type": "multipleChoice",
+      "prompt": "What is the purpose of a 'contingency plan'?",
+      "options": [
+        "To increase quarterly profits",
+        "To provide a pre-arranged alternative if a disruption occurs",
+        "To celebrate a successful project",
+        "To train new employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "A contingency plan (Plan B) mitigates the impact of risks."
+    },
+    {
+      "id": "adm-b2-w16-ex21",
+      "type": "multipleChoice",
+      "prompt": "According to the Vendor Code of Conduct, what is the penalty for 'greenwashing'?\n\nText: 'Greenwashing will result in immediate termination of the contract.'",
+      "options": [
+        "A small financial penalty",
+        "Immediate termination of the contract",
+        "A written warning",
+        "A 10% discount on the next order"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text explicitly states that greenwashing leads to termination."
+    },
+    {
+      "id": "adm-b2-w16-ex22",
+      "type": "multipleChoice",
+      "prompt": "Why does the company reserve the right to 'multi-source' critical components?",
+      "options": [
+        "To increase carbon emissions",
+        "To mitigate single sourcing risks",
+        "To reduce the number of vendors",
+        "To make vetting easier"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text states multi-sourcing is used to mitigate the risks of relying on one supplier."
+    },
+    {
+      "id": "adm-b2-w16-ex23",
+      "type": "multipleChoice",
+      "prompt": "Complete the chunk: 'We must perform thorough ___ ___ on their financial history.'",
+      "options": [
+        "due diligence",
+        "green washing",
+        "multi sourcing",
+        "lead time"
+      ],
+      "answerIndex": 0,
+      "explanation": "Due diligence is the standard term for background investigation."
+    },
+    {
+      "id": "adm-b2-w16-ex24",
+      "type": "gap-fill",
+      "prompt": "Rewrite using the subjunctive: 'You must arrive on time.' -> 'It is important that you ___ on time.'",
+      "validation": [
+        {
+          "rule": "^arrive$",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "Subjunctive uses the base form 'arrive'."
+    },
+    {
+      "id": "adm-b2-w16-ex25",
+      "type": "multipleChoice",
+      "prompt": "What is the definition of 'Greenwashing'?",
+      "options": [
+        "Cleaning the office with eco-friendly soap",
+        "Making misleading claims about the environmental benefits of a service",
+        "Recycling all office paper",
+        "Reducing water consumption"
+      ],
+      "answerIndex": 1,
+      "explanation": "Greenwashing is a deceptive practice in sustainability reporting."
+    },
+    {
+      "id": "adm-b2-w16-ex26",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a strategy for mitigating 'lead time volatility'?",
+      "options": [
+        "Reducing staff numbers",
+        "Maintaining a buffer stock",
+        "Increasing discretionary spend",
+        "Ignoring the problem"
+      ],
+      "answerIndex": 1,
+      "explanation": "Buffer stock (extra inventory) protects against delays in the supply chain."
+    },
+    {
+      "id": "adm-b2-w16-ex27",
+      "type": "multipleChoice",
+      "prompt": "In formal requests, which verb form is used after 'It is essential that...'?",
+      "options": [
+        "The -ing form",
+        "The past participle",
+        "The base form (Subjunctive)",
+        "The future simple"
+      ],
+      "answerIndex": 2,
+      "explanation": "Formal expressions of necessity trigger the subjunctive base form."
+    },
+    {
+      "id": "adm-b2-w16-ex28",
+      "type": "gap-fill",
+      "prompt": "Complete the subjunctive: 'We recommend that the account manager ___ (be) present.'",
+      "validation": [
+        {
+          "rule": "^be$",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "The subjunctive of 'to be' is always 'be'."
+    },
+    {
+      "id": "adm-b2-w16-ex29",
+      "type": "multipleChoice",
+      "prompt": "What is the end-to-end process from requesting a good to paying the invoice called?",
+      "options": [
+        "B2C",
+        "Procure-to-Pay (P2P)",
+        "ROI",
+        "SLA"
+      ],
+      "answerIndex": 1,
+      "explanation": "P2P covers the entire procurement cycle from request to payment."
+    },
+    {
+      "id": "adm-b2-w16-ex30",
+      "type": "multipleChoice",
+      "prompt": "Which digital tool integrates procurement with finance and inventory management?",
+      "options": [
+        "Social Media",
+        "ERP (Enterprise Resource Planning)",
+        "An excel spreadsheet",
+        "A personal diary"
+      ],
+      "answerIndex": 1,
+      "explanation": "ERP systems (like SAP) centralize all business data and processes."
+    },
+    {
+      "id": "adm-b2-w16-ex31",
+      "type": "multipleChoice",
+      "prompt": "What does 'Supply Chain Transparency' allow a company to do?",
+      "options": [
+        "Hide their mistakes",
+        "Track every step of the supply chain back to raw materials",
+        "Make more profit",
+        "Hire more people"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transparency is about visibility into every stage of production and delivery."
+    },
+    {
+      "id": "adm-b2-w16-ex32",
+      "type": "gap-fill",
+      "prompt": "Complete the subjunctive: 'It is urgent that she ___ (email) the contract today.'",
+      "validation": [
+        {
+          "rule": "^email$",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "The base form 'email' is used in the subjunctive."
+    },
+    {
+      "id": "adm-b2-w16-ex33",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a social criterion in ESG vetting?",
+      "options": [
+        "Carbon footprint",
+        "Fair labor practices",
+        "Anti-corruption policy",
+        "Price per unit"
+      ],
+      "answerIndex": 1,
+      "explanation": "Labor practices and diversity are part of the 'Social' pillar of ESG."
+    },
+    {
+      "id": "adm-b2-w16-ex34",
+      "type": "multipleChoice",
+      "prompt": "What is the main benefit of 'E-procurement'?",
+      "options": [
+        "It increases paperwork",
+        "It automates and streamlines the purchasing process",
+        "It makes everything more expensive",
+        "It eliminates the need for vendors"
+      ],
+      "answerIndex": 1,
+      "explanation": "E-procurement uses digital tools to improve efficiency and reduce errors."
+    },
+    {
+      "id": "adm-b2-w16-ex35",
+      "type": "multipleChoice",
+      "prompt": "A 'Strategic Partnership' is different from a transactional relationship because it focuses on:",
+      "options": [
+        "The lowest possible price",
+        "Mutual long-term benefit and shared goals",
+        "Short-term contracts",
+        "Hiding information from the partner"
+      ],
+      "answerIndex": 1,
+      "explanation": "Partnerships involve collaboration and long-term value creation."
+    },
+    {
+      "id": "adm-b2-w16-ex36",
+      "type": "multipleChoice",
+      "prompt": "What is 'KPI' an abbreviation for?",
+      "options": [
+        "Key Performance Indicator",
+        "Knowledge Process Integration",
+        "Key Partner Initiative",
+        "Kitchen Performance Index"
+      ],
+      "answerIndex": 0,
+      "explanation": "KPIs are quantifiable measures used to evaluate success."
+    },
+    {
+      "id": "adm-b2-w16-ex37",
+      "type": "multipleChoice",
+      "prompt": "Which KPI would be most useful for measuring a courier's reliability?",
+      "options": [
+        "On-time delivery rate",
+        "The color of their vans",
+        "The number of employees they have",
+        "The size of their office"
+      ],
+      "answerIndex": 0,
+      "explanation": "Reliability in logistics is best measured by on-time performance."
+    },
+    {
+      "id": "adm-b2-w16-ex38",
+      "type": "gap-fill",
+      "prompt": "Complete the requirement: 'It is a requirement that the vendor ___ (disclose) their carbon emissions.'",
+      "validation": [
+        {
+          "rule": "^disclose$",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "Base form 'disclose' for subjunctive."
+    },
+    {
+      "id": "adm-b2-w16-ex39",
+      "type": "multipleChoice",
+      "prompt": "What does 'Digital Footprint' improve in the procurement process?",
+      "options": [
+        "The speed of the internet",
+        "Auditability and record-keeping",
+        "The amount of carbon used",
+        "The office decor"
+      ],
+      "answerIndex": 1,
+      "explanation": "A digital record provides an easy-to-follow audit trail."
+    },
+    {
+      "id": "adm-b2-w16-ex40",
+      "type": "multipleChoice",
+      "prompt": "The process of evaluating a vendor's ethical business conduct is part of:",
+      "options": [
+        "Financial forecasting",
+        "ESG Vetting",
+        "Staff recruitment",
+        "Marketing"
+      ],
+      "answerIndex": 1,
+      "explanation": "ESG (Environmental, Social, Governance) includes ethical conduct evaluation."
+    },
+    {
+      "id": "adm-b2-w16-ex41",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is used to terminate a contract professionally?",
+      "options": [
+        "We decided to terminate the agreement due to poor service.",
+        "We don't like you anymore.",
+        "Stop sending us things.",
+        "I wish you hadn't worked here."
+      ],
+      "answerIndex": 0,
+      "explanation": "This is a formal and clear way to end a business relationship."
+    },
+    {
+      "id": "adm-b2-w16-ex42",
+      "type": "multipleChoice",
+      "prompt": "What is 'Vetting' primarily used for?",
+      "options": [
+        "To clean the office",
+        "To perform background checks on potential suppliers",
+        "To increase the speed of deliveries",
+        "To celebrate a contract renewal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vetting ensures potential partners are reliable and compliant."
+    },
+    {
+      "id": "adm-b2-w16-ex43",
+      "type": "multipleChoice",
+      "prompt": "If a vendor fails to 'meet the SLA', what has happened?",
+      "options": [
+        "They have exceeded expectations",
+        "They have failed to provide the agreed-upon level of service",
+        "They have changed their company name",
+        "They have paid their invoice early"
+      ],
+      "answerIndex": 1,
+      "explanation": "Meeting an SLA means performing up to the contracted standards."
+    },
+    {
+      "id": "adm-b2-w16-ex44",
+      "type": "gap-fill",
+      "prompt": "Complete the subjunctive: 'I suggest that the contract ___ (be) signed today.'",
+      "validation": [
+        {
+          "rule": "^be$",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "Subjunctive of 'to be' is 'be'."
+    },
+    {
+      "id": "adm-b2-w16-ex45",
+      "type": "multipleChoice",
+      "prompt": "In UK English, the subjunctive is often used to express:",
+      "options": [
+        "Something that happened yesterday",
+        "Importance, necessity, or urgency",
+        "A future possibility",
+        "A regular habit"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subjunctive mood emphasizes the necessity of an action."
+    },
+    {
+      "id": "adm-b2-w16-ex46",
+      "type": "multipleChoice",
+      "prompt": "Which term describes identifying new suppliers?",
+      "options": [
+        "Vetting",
+        "Sourcing",
+        "Onboarding",
+        "Monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sourcing is the first step in finding a supplier."
+    },
+    {
+      "id": "adm-b2-w16-ex47",
+      "type": "multipleChoice",
+      "prompt": "What is the final stage of the procurement lifecycle?",
+      "options": [
+        "Sourcing",
+        "Negotiation",
+        "Monitoring",
+        "Vetting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Monitoring (regularly reviewing performance) is the ongoing final stage."
+    },
+    {
+      "id": "adm-b2-w16-ex48",
+      "type": "gap-fill",
+      "prompt": "Complete the chunk: 'We need to ___ the payment terms with the supplier.'",
+      "validation": [
+        {
+          "rule": "negotiate",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "To 'negotiate terms' is to discuss and agree on conditions."
+    },
+    {
+      "id": "adm-b2-w16-ex49",
+      "type": "multipleChoice",
+      "prompt": "Which of these is an 'Environmental' criterion for a vendor?",
+      "options": [
+        "Diversity of the board of directors",
+        "Carbon footprint and waste management",
+        "Fair wages",
+        "Price of the product"
+      ],
+      "answerIndex": 1,
+      "explanation": "Environmental factors focus on the planet and resources."
+    },
+    {
+      "id": "adm-b2-w16-ex50",
+      "type": "multipleChoice",
+      "prompt": "Why is 'Buffer Stock' used in supply chains?",
+      "options": [
+        "To reduce costs",
+        "To handle lead time volatility and prevent shortages",
+        "To make the office look busier",
+        "To avoid paying taxes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Buffer stock acts as a 'safety net' for unexpected delays."
+    },
+    {
+      "id": "adm-b2-w16-ex51",
+      "type": "multipleChoice",
+      "prompt": "What is a Service Level Agreement (SLA)?",
+      "options": [
+        "A list of employee salaries",
+        "A commitment regarding service quality and responsibilities",
+        "A marketing slogan",
+        "A type of bank account"
+      ],
+      "answerIndex": 1,
+      "explanation": "SLAs set the performance standards for a service provider."
+    },
+    {
+      "id": "adm-b2-w16-ex52",
+      "type": "multipleChoice",
+      "prompt": "In the phrase 'It is vital that he provide the data', why is it 'provide' and not 'provides'?",
+      "options": [
+        "It is a typo",
+        "It is the subjunctive mood",
+        "It is past tense",
+        "It is plural"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subjunctive uses the base form regardless of the subject."
+    },
+    {
+      "id": "adm-b2-w16-ex53",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of sustainable procurement?",
+      "options": [
+        "To buy the cheapest products possible",
+        "To buy products that have a positive impact on the environment and society",
+        "To buy products from only one country",
+        "To buy products as fast as possible"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustainability involves looking at long-term environmental and social impacts."
+    },
+    {
+      "id": "adm-b2-w16-ex54",
+      "type": "multipleChoice",
+      "prompt": "Which term refers to the thorough investigation of a business before signing a contract?",
+      "options": [
+        "Due Diligence",
+        "Greenwashing",
+        "Sourcing",
+        "SLA"
+      ],
+      "answerIndex": 0,
+      "explanation": "Due diligence is a comprehensive appraisal."
+    },
+    {
+      "id": "adm-b2-w16-ex55",
+      "type": "multipleChoice",
+      "prompt": "Relying on multiple suppliers for the same service is called:",
+      "options": [
+        "Single sourcing",
+        "Multi-sourcing",
+        "Outsourcing",
+        "Crowdsourcing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multi-sourcing provides redundancy and reduces risk."
+    },
+    {
+      "id": "adm-b2-w16-ex56",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Purchase Order' (PO) number used for?",
+      "options": [
+        "To identify and track a specific order",
+        "To calculate the CEO's bonus",
+        "To name a new product",
+        "To log into the company's social media"
+      ],
+      "answerIndex": 0,
+      "explanation": "PO numbers are unique identifiers for tracking transactions."
+    },
+    {
+      "id": "adm-b2-w16-ex57",
+      "type": "multipleChoice",
+      "prompt": "A 'Strategic Partner' differs from a 'Vendor' because they:",
+      "options": [
+        "Are more expensive",
+        "Collaborate on long-term goals and problem-solving",
+        "Do not require a contract",
+        "Are located in the same building"
+      ],
+      "answerIndex": 1,
+      "explanation": "Strategic partners work together for mutual success beyond just buying and selling."
+    },
+    {
+      "id": "adm-b2-w16-ex58",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a typical KPI for a vendor?",
+      "options": [
+        "Quality defect rate",
+        "The number of coffee machines in their office",
+        "Their CEO's favorite color",
+        "The height of their building"
+      ],
+      "answerIndex": 0,
+      "explanation": "Defect rates measure the quality of the goods or services provided."
+    },
+    {
+      "id": "adm-b2-w16-ex59",
+      "type": "multipleChoice",
+      "prompt": "E-procurement software helps to reduce ___.",
+      "options": [
+        "profits",
+        "manual paperwork and errors",
+        "the number of customers",
+        "internet speed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Automation reduces the need for manual data entry and paper records."
+    },
+    {
+      "id": "adm-b2-w16-ex60",
+      "type": "gap-fill",
+      "prompt": "Complete the subjunctive: 'We recommend that the account manager ___ (be) contacted.'",
+      "validation": [
+        {
+          "rule": "^be$",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "Base form 'be' for the subjunctive."
+    },
+    {
+      "id": "adm-b2-w16-ex61",
+      "type": "multipleChoice",
+      "prompt": "What does 'Supply Chain Risk Management' involve?",
+      "options": [
+        "Ignoring potential problems",
+        "Identifying and mitigating risks that could disrupt operations",
+        "Taking as many risks as possible to save money",
+        "Hiring a new marketing team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk management is about protection and continuity."
+    },
+    {
+      "id": "adm-b2-w16-ex62",
+      "type": "multipleChoice",
+      "prompt": "An 'Onboarding' process for a vendor includes:",
+      "options": [
+        "Ending the contract",
+        "Integrating the vendor into the company's systems and culture",
+        "Firing the vendor's staff",
+        "Changing the company's logo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Onboarding is the integration phase after a contract is signed."
+    },
+    {
+      "id": "adm-b2-w16-ex63",
+      "type": "multipleChoice",
+      "prompt": "Which ESG factor relates to the diversity of a vendor's workforce?",
+      "options": [
+        "Environmental",
+        "Social",
+        "Governance",
+        "Logistics"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diversity and labor practices are 'Social' factors."
+    },
+    {
+      "id": "adm-b2-w16-ex64",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of 'Due Diligence' in procurement?",
+      "options": [
+        "To speed up the signing of the contract",
+        "To minimize financial, legal, and reputational risk",
+        "To avoid paying for the service",
+        "To find a cheaper vendor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due diligence protects the company from making a bad partnership."
+    },
+    {
+      "id": "adm-b2-w16-ex65",
+      "type": "multipleChoice",
+      "prompt": "What does 'SLA Compliance' measure?",
+      "options": [
+        "How much the vendor charges",
+        "How well the vendor is meeting the agreed-upon standards",
+        "The number of pages in the contract",
+        "The vendor's annual profit"
+      ],
+      "answerIndex": 1,
+      "explanation": "SLA compliance tracks performance against specific targets."
+    },
+    {
+      "id": "adm-b2-w16-ex66",
+      "type": "multipleChoice",
+      "prompt": "In the subjunctive, which form of 'to be' is always used after 'It is important that...'?",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "answerIndex": 3,
+      "explanation": "The subjunctive of 'to be' is always 'be', regardless of person or number."
+    },
+    {
+      "id": "adm-b2-w16-ex67",
+      "type": "multipleChoice",
+      "prompt": "A company that makes misleading sustainability claims is guilty of ___.",
+      "options": [
+        "greenwashing",
+        "multi-sourcing",
+        "vetting",
+        "procuring"
+      ],
+      "answerIndex": 0,
+      "explanation": "Greenwashing is a deceptive ESG practice."
+    },
+    {
+      "id": "adm-b2-w16-ex68",
+      "type": "multipleChoice",
+      "prompt": "Why is 'supply chain transparency' important for ESG?",
+      "options": [
+        "It makes the reports look more colorful",
+        "It allows companies to verify that their entire supply chain is ethical",
+        "It helps to hide unethical practices",
+        "It increases the price of raw materials"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transparency is key to verifying ethical and environmental claims."
+    },
+    {
+      "id": "adm-b2-w16-ex69",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a risk management strategy for vendor bankruptcy?",
+      "options": [
+        "Single sourcing",
+        "Maintaining a multi-vendor strategy",
+        "Increasing lead times",
+        "Ignoring the vendor's financial reports"
+      ],
+      "answerIndex": 1,
+      "explanation": "A multi-vendor strategy ensures you have a backup if one vendor fails."
+    },
+    {
+      "id": "adm-b2-w16-ex70",
+      "type": "gap-fill",
+      "prompt": "Complete the chunk: 'We decided to ___ the agreement due to poor performance.'",
+      "validation": [
+        {
+          "rule": "terminate",
+          "isCorrect": true,
+          "message": "Correct!"
+        }
+      ],
+      "explanation": "To 'terminate an agreement' is to end a contract."
+    },
+    {
+      "id": "adm-b2-w16-ex71",
+      "type": "multipleChoice",
+      "prompt": "What is the benefit of using an ERP system for procurement?",
+      "options": [
+        "It separates procurement from the rest of the business",
+        "It integrates procurement with finance, inventory, and logistics",
+        "It makes the process slower",
+        "It requires more people to manage"
+      ],
+      "answerIndex": 1,
+      "explanation": "ERPs provide a single, integrated source of truth for all business data."
+    },
+    {
+      "id": "adm-b2-w16-ex72",
+      "type": "multipleChoice",
+      "prompt": "The subjunctive 'It is essential that he be' is used in which type of context?",
+      "options": [
+        "Casual conversation with friends",
+        "Highly formal business or legal communication",
+        "Text messages to colleagues",
+        "Social media posts"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subjunctive is a feature of formal, professional UK English."
+    },
+    {
+      "id": "adm-b2-w16-ex73",
+      "type": "multipleChoice",
+      "prompt": "What is the main objective of 'Sourcing'?",
+      "options": [
+        "To fire an old vendor",
+        "To identify and evaluate potential suppliers for a specific need",
+        "To pay an invoice",
+        "To design a new logo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sourcing is the initial identification phase of procurement."
+    },
+    {
+      "id": "adm-b2-w16-ex74",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the electronic record of all procurement transactions?",
+      "options": [
+        "Digital Footprint",
+        "Social Media Wall",
+        "Personal Blog",
+        "Paper Trail"
+      ],
+      "answerIndex": 0,
+      "explanation": "A digital footprint provides an electronic audit trail."
+    },
+    {
+      "id": "adm-b2-w16-ex75",
+      "type": "multipleChoice",
+      "prompt": "How does 'Collaborative Problem Solving' benefit a strategic partnership?",
+      "options": [
+        "It creates more conflict",
+        "It helps both parties work together to improve efficiency and quality",
+        "It allows one party to control the other",
+        "It makes the contract longer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Collaboration is the hallmark of a successful strategic partnership."
     }
   ]
 }

@@ -1,55 +1,594 @@
 {
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana35",
+  "title": "Exercises: Professional Ethics & Corporate Social Responsibility",
+  "items": [
     {
-      "id": "vocab-ethics",
-      "title": "Vocabulary: Ethics & CSR",
-      "type": "matching",
-      "questions": [
-        { "question": "Whistleblowing", "answer": "Reporting wrongdoing within an organisation" },
-        { "question": "Conflict of Interest", "answer": "Personal interests clashing with professional duties" },
-        { "question": "Sustainability", "answer": "Meeting present needs without harming future ones" },
-        { "question": "Adhere to", "answer": "To follow a set of rules or a code" },
-        { "question": "Ethical Audit", "answer": "Evaluation of a company's ethical performance" }
-      ]
+      "id": "adm-b2-w35-ex01",
+      "type": "multipleChoice",
+      "prompt": "Exercise 1: Ethics Vocabulary. What is the act of reporting waste, fraud, or abuse within an organisation?",
+      "options": ["Liaising", "Whistleblowing", "Auditing", "Philanthropy"],
+      "answerIndex": 1,
+      "explanation": "Whistleblowing is the reporting of wrongdoing within an organisation."
     },
     {
-      "id": "reporting-verbs",
-      "title": "Grammar: Reporting Verbs",
-      "type": "multiple-choice",
-      "questions": [
-        {
-          "question": "The board suggested ______ the CSR budget for next year.",
-          "options": ["to increase", "increasing", "increase"],
-          "answer": "increasing"
-        },
-        {
-          "question": "The manager refused ______ responsibility for the data breach.",
-          "options": ["taking", "to take", "take"],
-          "answer": "to take"
-        },
-        {
-          "question": "The auditors recommended ______ the internal control system.",
-          "options": ["updating", "to update", "update"],
-          "answer": "updating"
-        },
-        {
-          "question": "He admitted ______ the company's code of conduct.",
-          "options": ["to break", "breaking", "break"],
-          "answer": "breaking"
-        },
-        {
-          "question": "They promised ______ the issue as soon as possible.",
-          "options": ["resolving", "to resolve", "resolve"],
-          "answer": "to resolve"
-        }
-      ]
+      "id": "adm-b2-w35-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: Ethics Vocabulary. A situation where a person's private interests clash with professional duties is a:",
+      "options": ["Benefit of Doubt", "Conflict of Interest", "Strategic Partnership", "Synergy"],
+      "answerIndex": 1,
+      "explanation": "Conflict of interest occurs when personal and professional interests overlap inappropriately."
     },
     {
-      "id": "cloze-ethics",
-      "title": "Reading: Corporate Responsibility",
-      "type": "cloze",
-      "text": "Many modern corporations are working to (1) ______ sustainability into their core operations. This involves more than just (2) ______; it requires a genuine commitment to (3) ______ accountability. Employees who witness (4) ______ behaviour are encouraged to (5) ______ the information through official channels.",
-      "blanks": ["integrate", "philanthropy", "corporate", "unethical", "disclose"]
+      "id": "adm-b2-w35-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Ethics Vocabulary. 'Sustainability' in a business context refers to:",
+      "options": ["Maximizing short-term profit", "Ignoring future generations", "Meeting present needs without harming future ones", "Rapid expansion"],
+      "answerIndex": 2,
+      "explanation": "Sustainability focuses on long-term viability and responsibility."
+    },
+    {
+      "id": "adm-b2-w35-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Ethics Vocabulary. A systematic evaluation of an organisation's ethics programme is an:",
+      "options": ["Ethical Audit", "Impact Survey", "Market Analysis", "R&D Session"],
+      "answerIndex": 0,
+      "explanation": "An ethical audit evaluates the effectiveness of ethics programmes."
+    },
+    {
+      "id": "adm-b2-w35-ex05",
+      "type": "multipleChoice",
+      "prompt": "Exercise 5: Ethics Vocabulary. To 'adhere to' a code of conduct means:",
+      "options": ["To break it", "To follow it strictly", "To write it", "To ignore it"],
+      "answerIndex": 1,
+      "explanation": "To adhere to means to follow or stick to rules."
+    },
+    {
+      "id": "adm-b2-w35-ex06",
+      "type": "multipleChoice",
+      "prompt": "Exercise 6: Reporting Verbs. The board suggested ______ the CSR budget.",
+      "options": ["to increase", "increasing", "increase"],
+      "answerIndex": 1,
+      "explanation": "'Suggest' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w35-ex07",
+      "type": "multipleChoice",
+      "prompt": "Exercise 7: Reporting Verbs. The manager refused ______ responsibility for the breach.",
+      "options": ["taking", "to take", "take"],
+      "answerIndex": 1,
+      "explanation": "'Refuse' is followed by an infinitive (to + verb)."
+    },
+    {
+      "id": "adm-b2-w35-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Reporting Verbs. The auditors recommended ______ the internal control system.",
+      "options": ["updating", "to update", "update"],
+      "answerIndex": 0,
+      "explanation": "'Recommend' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w35-ex09",
+      "type": "multipleChoice",
+      "prompt": "Exercise 9: Reporting Verbs. He admitted ______ the company's code of conduct.",
+      "options": ["to break", "breaking", "break"],
+      "answerIndex": 1,
+      "explanation": "'Admit' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w35-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Reporting Verbs. They promised ______ the issue as soon as possible.",
+      "options": ["resolving", "to resolve", "resolve"],
+      "answerIndex": 1,
+      "explanation": "'Promise' is followed by an infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex11",
+      "type": "gap-fill",
+      "prompt": "Exercise 11: CSR Reading. Many modern corporations are working to ______ sustainability into their core operations.",
+      "acceptedAnswers": ["integrate"],
+      "explanation": "To integrate means to combine things so they work together."
+    },
+    {
+      "id": "adm-b2-w35-ex12",
+      "type": "gap-fill",
+      "prompt": "Exercise 12: CSR Reading. This involves more than just ______; it requires a genuine commitment to corporate accountability.",
+      "acceptedAnswers": ["philanthropy"],
+      "explanation": "Philanthropy is donating money/time to good causes."
+    },
+    {
+      "id": "adm-b2-w35-ex13",
+      "type": "gap-fill",
+      "prompt": "Exercise 13: CSR Reading. It requires a genuine commitment to ______ accountability.",
+      "acceptedAnswers": ["corporate"],
+      "explanation": "Corporate accountability is the responsibility of companies to their stakeholders."
+    },
+    {
+      "id": "adm-b2-w35-ex14",
+      "type": "gap-fill",
+      "prompt": "Exercise 14: CSR Reading. Employees who witness ______ behaviour are encouraged to disclose the information.",
+      "acceptedAnswers": ["unethical"],
+      "explanation": "Unethical behaviour is that which falls below moral standards."
+    },
+    {
+      "id": "adm-b2-w35-ex15",
+      "type": "gap-fill",
+      "prompt": "Exercise 15: CSR Reading. They are encouraged to ______ the information through official channels.",
+      "acceptedAnswers": ["disclose"],
+      "explanation": "To disclose means to make information known."
+    },
+    {
+      "id": "adm-b2-w35-ex16",
+      "type": "multipleChoice",
+      "prompt": "Exercise 16: Reporting Verbs (Advanced). The legal team advised ______ the contract before signing.",
+      "options": ["to review", "reviewing", "review"],
+      "answerIndex": 1,
+      "explanation": "'Advise' (when not used with an object) is followed by a gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: Reporting Verbs (Advanced). The whistleblower claimed ______ evidence of the fraud.",
+      "options": ["having", "to have", "have"],
+      "answerIndex": 1,
+      "explanation": "'Claim' is followed by an infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Reporting Verbs (Advanced). Management insisted ______ the meeting be held in private.",
+      "options": ["on", "that", "to"],
+      "answerIndex": 1,
+      "explanation": "'Insist' + that-clause is a common structure."
+    },
+    {
+      "id": "adm-b2-w35-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Reporting Verbs (Advanced). She threatened ______ HR if the harassment didn't stop.",
+      "options": ["to report", "reporting", "report"],
+      "answerIndex": 0,
+      "explanation": "'Threaten' is followed by an infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Reporting Verbs (Advanced). The company apologized ______ the delay in the shipment.",
+      "options": ["for", "to", "about"],
+      "answerIndex": 0,
+      "explanation": "To apologize for (an action/event)."
+    },
+    {
+      "id": "adm-b2-w35-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Reporting Verbs (Advanced). They agreed ______ a donation to the local charity.",
+      "options": ["making", "to make", "make"],
+      "answerIndex": 1,
+      "explanation": "'Agree' is followed by an infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Reporting Verbs (Advanced). The auditor suggested ______ a new compliance officer.",
+      "options": ["to hire", "hiring", "hire"],
+      "answerIndex": 1,
+      "explanation": "'Suggest' is followed by a gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Reporting Verbs (Advanced). The employee denied ______ any confidential files.",
+      "options": ["to take", "taking", "take"],
+      "answerIndex": 1,
+      "explanation": "'Deny' is followed by a gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Reporting Verbs (Advanced). The board promised ______ the investigation by Friday.",
+      "options": ["completing", "to complete", "complete"],
+      "answerIndex": 1,
+      "explanation": "'Promise' is followed by an infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex25",
+      "type": "multipleChoice",
+      "prompt": "Exercise 25: Reporting Verbs (Advanced). He refused ______ any questions without his lawyer present.",
+      "options": ["to answer", "answering", "answer"],
+      "answerIndex": 0,
+      "explanation": "'Refuse' is followed by an infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex26",
+      "type": "multipleChoice",
+      "prompt": "Exercise 26: CSR Terminology. The 'Triple Bottom Line' measures success across Profit, People, and:",
+      "options": ["Product", "Planet", "Politics", "Prestige"],
+      "answerIndex": 1,
+      "explanation": "The TBL dimensions are Profit, People, and Planet."
+    },
+    {
+      "id": "adm-b2-w35-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: DEI Terminology. Ensuring that processes provide equal possible outcomes for everyone is:",
+      "options": ["Equality", "Equity", "Diversity", "Compliance"],
+      "answerIndex": 1,
+      "explanation": "Equity is about fair outcomes, whereas equality is about equal treatment."
+    },
+    {
+      "id": "adm-b2-w35-ex28",
+      "type": "multipleChoice",
+      "prompt": "Exercise 28: DEI Terminology. Providing everyone with equal access to opportunities and resources is:",
+      "options": ["Inclusion", "Tolerance", "Segregation", "Hierarchy"],
+      "answerIndex": 0,
+      "explanation": "Inclusion is the practice of providing equal access and feeling valued."
+    },
+    {
+      "id": "adm-b2-w35-ex29",
+      "type": "multipleChoice",
+      "prompt": "Exercise 29: DEI Terminology. The presence of differences within a setting (race, gender, etc.) is:",
+      "options": ["Inclusion", "Diversity", "Equity", "Integrity"],
+      "answerIndex": 1,
+      "explanation": "Diversity refers to the presence of differences."
+    },
+    {
+      "id": "adm-b2-w35-ex30",
+      "type": "multipleChoice",
+      "prompt": "Exercise 30: Ethics Terminology. The quality of being honest and having strong moral principles is:",
+      "options": ["Compliance", "Integrity", "Accountability", "Transparency"],
+      "answerIndex": 1,
+      "explanation": "Integrity is the hallmark of ethical behaviour."
+    },
+    {
+      "id": "adm-b2-w35-ex31",
+      "type": "multipleChoice",
+      "prompt": "Exercise 31: CSR Terminology. The desire to promote the welfare of others, often via donations, is:",
+      "options": ["Sustainability", "Philanthropy", "Compliance", "Ethics"],
+      "answerIndex": 1,
+      "explanation": "Philanthropy involves generous donations to good causes."
+    },
+    {
+      "id": "adm-b2-w35-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Ethics Terminology. The obligation to explain and justify actions or decisions is:",
+      "options": ["Transparency", "Compliance", "Accountability", "Integrity"],
+      "answerIndex": 2,
+      "explanation": "Accountability is being responsible for your actions."
+    },
+    {
+      "id": "adm-b2-w35-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Ethics Terminology. Meeting the requirements of laws and regulations is:",
+      "options": ["Compliance", "Accountability", "Philanthropy", "DEI"],
+      "answerIndex": 0,
+      "explanation": "Compliance is the act of following laws or rules."
+    },
+    {
+      "id": "adm-b2-w35-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Ethics Terminology. Operating in a way that is easy for others to see what actions are performed is:",
+      "options": ["Integrity", "Transparency", "Equity", "Sustainability"],
+      "answerIndex": 1,
+      "explanation": "Transparency is about openness and clarity."
+    },
+    {
+      "id": "adm-b2-w35-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Ethics Terminology. Giving money to someone to influence their behaviour is:",
+      "options": ["Philanthropy", "Bribery", "Equity", "Mediation"],
+      "answerIndex": 1,
+      "explanation": "Bribery is illegal and unethical."
+    },
+    {
+      "id": "adm-b2-w35-ex36",
+      "type": "multipleChoice",
+      "prompt": "Exercise 36: Passive Reporting. It ______ that the company is facing bankruptcy.",
+      "options": ["is rumoured", "rumours", "has rumoured"],
+      "answerIndex": 0,
+      "explanation": "Passive reporting: It + is + past participle + that..."
+    },
+    {
+      "id": "adm-b2-w35-ex37",
+      "type": "multipleChoice",
+      "prompt": "Exercise 37: Passive Reporting. The CEO is said ______ the company millions of dollars.",
+      "options": ["to have cost", "to cost", "having cost"],
+      "answerIndex": 0,
+      "explanation": "Personal passive: Subject + is said + to have + past participle (for past actions)."
+    },
+    {
+      "id": "adm-b2-w35-ex38",
+      "type": "multipleChoice",
+      "prompt": "Exercise 38: Passive Reporting. It has been agreed ______ the project will start in June.",
+      "options": ["that", "to", "on"],
+      "answerIndex": 0,
+      "explanation": "It + passive verb + that clause."
+    },
+    {
+      "id": "adm-b2-w35-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Passive Reporting. Employees are expected ______ the code of conduct at all times.",
+      "options": ["to follow", "following", "follow"],
+      "answerIndex": 0,
+      "explanation": "Subject + is expected + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex40",
+      "type": "multipleChoice",
+      "prompt": "Exercise 40: Passive Reporting. The new policy is believed ______ the carbon footprint by 10%.",
+      "options": ["to reduce", "reducing", "reduce"],
+      "answerIndex": 0,
+      "explanation": "Subject + is believed + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex41",
+      "type": "multipleChoice",
+      "prompt": "Exercise 41: Passive Reporting. It is thought ______ the merger will be completed by year-end.",
+      "options": ["that", "to", "which"],
+      "answerIndex": 0,
+      "explanation": "It + is thought + that clause."
+    },
+    {
+      "id": "adm-b2-w35-ex42",
+      "type": "multipleChoice",
+      "prompt": "Exercise 42: Passive Reporting. The manager is reported ______ the allegations.",
+      "options": ["to have denied", "denying", "to deny"],
+      "answerIndex": 0,
+      "explanation": "Subject + is reported + to have + past participle."
+    },
+    {
+      "id": "adm-b2-w35-ex43",
+      "type": "multipleChoice",
+      "prompt": "Exercise 43: Passive Reporting. It was claimed ______ the data was encrypted.",
+      "options": ["that", "to", "on"],
+      "answerIndex": 0,
+      "explanation": "It + was claimed + that clause."
+    },
+    {
+      "id": "adm-b2-w35-ex44",
+      "type": "multipleChoice",
+      "prompt": "Exercise 44: Passive Reporting. The suspect is understood ______ the country.",
+      "options": ["to have left", "leaving", "to leave"],
+      "answerIndex": 0,
+      "explanation": "Subject + is understood + to have + past participle."
+    },
+    {
+      "id": "adm-b2-w35-ex45",
+      "type": "multipleChoice",
+      "prompt": "Exercise 45: Passive Reporting. It is required ______ all staff attend the training session.",
+      "options": ["that", "to", "for"],
+      "answerIndex": 0,
+      "explanation": "It + is required + that clause."
+    },
+    {
+      "id": "adm-b2-w35-ex46",
+      "type": "gap-fill",
+      "prompt": "Exercise 46: TBL Reading. The Triple Bottom Line (TBL) goes beyond traditional ______ measures.",
+      "acceptedAnswers": ["financial"],
+      "explanation": "TBL looks at more than just money."
+    },
+    {
+      "id": "adm-b2-w35-ex47",
+      "type": "gap-fill",
+      "prompt": "Exercise 47: TBL Reading. It considers the ______ (social) and planet (environmental) impact.",
+      "acceptedAnswers": ["people"],
+      "explanation": "People represents the social dimension of TBL."
+    },
+    {
+      "id": "adm-b2-w35-ex48",
+      "type": "gap-fill",
+      "prompt": "Exercise 48: TBL Reading. It considers the people (social) and ______ (environmental) impact of a business.",
+      "acceptedAnswers": ["planet"],
+      "explanation": "Planet represents the environmental dimension."
+    },
+    {
+      "id": "adm-b2-w35-ex49",
+      "type": "gap-fill",
+      "prompt": "Exercise 49: TBL Reading. To be truly successful, a company must manage its ______ responsibly.",
+      "acceptedAnswers": ["waste"],
+      "explanation": "Waste management is key to environmental sustainability."
+    },
+    {
+      "id": "adm-b2-w35-ex50",
+      "type": "gap-fill",
+      "prompt": "Exercise 50: TBL Reading. This includes ensuring ______ wages and safe working conditions.",
+      "acceptedAnswers": ["fair"],
+      "explanation": "Fair wages are a social responsibility."
+    },
+    {
+      "id": "adm-b2-w35-ex51",
+      "type": "gap-fill",
+      "prompt": "Exercise 51: TBL Reading. This includes ensuring fair wages and ______ working conditions.",
+      "acceptedAnswers": ["safe"],
+      "explanation": "Safety is a fundamental right of workers."
+    },
+    {
+      "id": "adm-b2-w35-ex52",
+      "type": "gap-fill",
+      "prompt": "Exercise 52: TBL Reading. Reducing the ______ footprint is a key part of the 'Planet' dimension.",
+      "acceptedAnswers": ["carbon"],
+      "explanation": "Carbon footprint is the total greenhouse gas emissions."
+    },
+    {
+      "id": "adm-b2-w35-ex53",
+      "type": "gap-fill",
+      "prompt": "Exercise 53: TBL Reading. Companies that ______ to TBL are often seen as more sustainable.",
+      "acceptedAnswers": ["adhere"],
+      "explanation": "To adhere to a framework means to follow it."
+    },
+    {
+      "id": "adm-b2-w35-ex54",
+      "type": "gap-fill",
+      "prompt": "Exercise 54: TBL Reading. Companies that follow TBL are often seen as more ______.",
+      "acceptedAnswers": ["sustainable"],
+      "explanation": "Sustainability is the goal of TBL."
+    },
+    {
+      "id": "adm-b2-w35-ex55",
+      "type": "gap-fill",
+      "prompt": "Exercise 55: TBL Reading. They are attractive to ______ who value ethics.",
+      "acceptedAnswers": ["investors"],
+      "explanation": "Ethical investors look for ESG (Environmental, Social, and Governance) criteria."
+    },
+    {
+      "id": "adm-b2-w35-ex56",
+      "type": "multipleChoice",
+      "prompt": "Exercise 56: Reporting Transformation. \"I didn't take the money,\" said the clerk. (denied)",
+      "options": ["The clerk denied taking the money.", "The clerk denied to take the money.", "The clerk denied take the money."],
+      "answerIndex": 0,
+      "explanation": "Deny + gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex57",
+      "type": "multipleChoice",
+      "prompt": "Exercise 57: Reporting Transformation. \"Why don't we hire an expert?\" said the CEO. (suggested)",
+      "options": ["The CEO suggested to hire an expert.", "The CEO suggested hiring an expert.", "The CEO suggested hire an expert."],
+      "answerIndex": 1,
+      "explanation": "Suggest + gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Reporting Transformation. \"I will definitely call you back,\" he said. (promised)",
+      "options": ["He promised calling me back.", "He promised to call me back.", "He promised call me back."],
+      "answerIndex": 1,
+      "explanation": "Promise + infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex59",
+      "type": "multipleChoice",
+      "prompt": "Exercise 59: Reporting Transformation. \"You should update your software,\" said the IT guy. (recommended)",
+      "options": ["The IT guy recommended to update the software.", "The IT guy recommended updating the software.", "The IT guy recommended update the software."],
+      "answerIndex": 1,
+      "explanation": "Recommend + gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Reporting Transformation. \"I won't sign this!\" she said. (refused)",
+      "options": ["She refused signing it.", "She refused to sign it.", "She refused sign it."],
+      "answerIndex": 1,
+      "explanation": "Refuse + infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Reporting Transformation. \"Yes, I made a mistake,\" he said. (admitted)",
+      "options": ["He admitted making a mistake.", "He admitted to make a mistake.", "He admitted make a mistake."],
+      "answerIndex": 0,
+      "explanation": "Admit + gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Reporting Transformation. \"Let's implement the change now,\" they said. (agreed)",
+      "options": ["They agreed implementing the change now.", "They agreed to implement the change now.", "They agreed implement the change now."],
+      "answerIndex": 1,
+      "explanation": "Agree + infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex63",
+      "type": "multipleChoice",
+      "prompt": "Exercise 63: Reporting Transformation. \"I was the one who leaked it,\" she said. (confessed)",
+      "options": ["She confessed to leaking it.", "She confessed leaking it.", "She confessed to leak it."],
+      "answerIndex": 0,
+      "explanation": "Confess + to + gerund."
+    },
+    {
+      "id": "adm-b2-w35-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Reporting Transformation. \"I'll quit if you don't pay me!\" he said. (threatened)",
+      "options": ["He threatened to quit if they didn't pay him.", "He threatened quitting if they didn't pay him.", "He threatened quit if they didn't pay him."],
+      "answerIndex": 0,
+      "explanation": "Threaten + infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: Reporting Transformation. \"Don't touch that!\" he said. (warned)",
+      "options": ["He warned me not to touch that.", "He warned me not touching that.", "He warned me not touch that."],
+      "answerIndex": 0,
+      "explanation": "Warn + object + not + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w35-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Error Correction. Identify the error: 'He admitted to take the bribe.'",
+      "options": ["admitted", "to take", "bribe"],
+      "answerIndex": 1,
+      "explanation": "Admit should be followed by the gerund 'taking'."
+    },
+    {
+      "id": "adm-b2-w35-ex67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Error Correction. Identify the error: 'It is said that the CEO has resign.'",
+      "options": ["It is", "said that", "has resign"],
+      "answerIndex": 2,
+      "explanation": "Has should be followed by the past participle 'resigned'."
+    },
+    {
+      "id": "adm-b2-w35-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Error Correction. Identify the error: 'She suggested to go to the police.'",
+      "options": ["suggested", "to go", "police"],
+      "answerIndex": 1,
+      "explanation": "Suggest should be followed by the gerund 'going'."
+    },
+    {
+      "id": "adm-b2-w35-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Error Correction. Identify the error: 'The board refused increasing the budget.'",
+      "options": ["board", "refused", "increasing"],
+      "answerIndex": 2,
+      "explanation": "Refuse should be followed by the infinitive 'to increase'."
+    },
+    {
+      "id": "adm-b2-w35-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Error Correction. Identify the error: 'A conflict of interest occur when personal goals clash.'",
+      "options": ["conflict", "occur", "personal goals"],
+      "answerIndex": 1,
+      "explanation": "The verb should be 'occurs' (third person singular)."
+    },
+    {
+      "id": "adm-b2-w35-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Error Correction. Identify the error: 'They are accused for leaking the files.'",
+      "options": ["accused", "for", "leaking"],
+      "answerIndex": 1,
+      "explanation": "The correct preposition is 'accused of leaking'."
+    },
+    {
+      "id": "adm-b2-w35-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Error Correction. Identify the error: 'It has been agree that we will wait.'",
+      "options": ["has been", "agree", "will wait"],
+      "answerIndex": 1,
+      "explanation": "It should be 'It has been agreed' (passive voice)."
+    },
+    {
+      "id": "adm-b2-w35-ex73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Error Correction. Identify the error: 'The company is believe to be in trouble.'",
+      "options": ["company", "is believe", "trouble"],
+      "answerIndex": 1,
+      "explanation": "It should be 'The company is believed' (passive voice)."
+    },
+    {
+      "id": "adm-b2-w35-ex74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Error Correction. Identify the error: 'He promised helping me tomorrow.'",
+      "options": ["promised", "helping", "tomorrow"],
+      "answerIndex": 1,
+      "explanation": "Promise should be followed by the infinitive 'to help'."
+    },
+    {
+      "id": "adm-b2-w35-ex75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Error Correction. Identify the error: 'Whistleblowing is a situation of report fraud.'",
+      "options": ["Whistleblowing", "situation of", "report fraud"],
+      "answerIndex": 2,
+      "explanation": "It should be 'reporting fraud' after the preposition 'of'."
     }
   ]
 }

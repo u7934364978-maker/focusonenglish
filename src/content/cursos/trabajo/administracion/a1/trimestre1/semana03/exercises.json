@@ -3,63 +3,783 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana03",
-  "title": "Exercises: Personal Information and Identity",
+  "title": "Exercises: Personal Info & Business Cards",
   "items": [
     {
-      "id": "fin-a1-w3-q1",
-      "type": "multipleChoice",
-      "prompt": "What is 'Surname'?",
-      "options": [
-        "First name",
-        "Last name",
-        "Address",
-        "Email"
-      ],
-      "answerIndex": 1,
-      "explanation": "Surname is the same as last name or family name."
-    },
-    {
-      "id": "fin-a1-w3-q2",
-      "type": "multipleChoice",
-      "prompt": "Which of these is Biometrics?",
-      "options": [
-        "Signature",
-        "Address",
-        "Face ID",
-        "Phone number"
-      ],
+      "id": "adm-a1-w03-ex01",
+      "type": "multiple-choice",
+      "prompt": "What is another way to say 'Last Name'?",
+      "options": ["First name", "Middle name", "Surname", "Job title"],
       "answerIndex": 2,
-      "explanation": "Face ID uses your face (biometrics) to identify you."
+      "explanation": "'Surname' is a common synonym for 'Last Name' in professional contexts."
     },
     {
-      "id": "fin-a1-w3-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Complete: '___ Face ID secure?' 'Yes, it ___.'",
-      "options": [
-        "Am / am",
-        "Is / is",
-        "Are / are",
-        "Be / be"
-      ],
+      "id": "adm-a1-w03-ex02",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Job Title'?",
+      "options": ["London", "Marketing Manager", "John Smith", "Global Tech Inc."],
       "answerIndex": 1,
-      "explanation": "Face ID is singular, so we use 'Is...?' and 'Yes, it is'."
+      "explanation": "'Marketing Manager' describes a professional position or job title."
     },
     {
-      "id": "fin-a1-w3-matching-1",
-      "type": "matching",
-      "prompt": "Match the information with the example.",
-      "pairs": [
-        {"term": "Email", "definition": "john@bank.com"},
-        {"term": "Biometrics", "definition": "Fingerprint"},
-        {"term": "Date of Birth", "definition": "01/01/2000"}
+      "id": "adm-a1-w03-ex03",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct question: ______ you the new accountant?",
+      "options": ["Is", "Am", "Are", "Be"],
+      "answerIndex": 2,
+      "explanation": "We use 'Are' with the pronoun 'you' in questions."
+    },
+    {
+      "id": "adm-a1-w03-ex04",
+      "type": "multiple-choice",
+      "prompt": "Where do you usually find a person's work email and phone number?",
+      "options": ["On a menu", "On a business card", "On a movie poster", "In a dictionary"],
+      "answerIndex": 1,
+      "explanation": "Business cards are used to share professional contact information."
+    },
+    {
+      "id": "adm-a1-w03-ex05",
+      "type": "multiple-choice",
+      "prompt": "Is your email address correct? Yes, ______.",
+      "options": ["it is", "I am", "you are", "he is"],
+      "answerIndex": 0,
+      "explanation": "We use 'it' to refer to 'email address' in the short answer."
+    },
+    {
+      "id": "adm-a1-w03-ex06",
+      "type": "multiple-choice",
+      "prompt": "Which department handles hiring and employees?",
+      "options": ["IT", "Sales", "Human Resources", "Finance"],
+      "answerIndex": 2,
+      "explanation": "Human Resources (HR) is the department responsible for staff and hiring."
+    },
+    {
+      "id": "adm-a1-w03-ex07",
+      "type": "multiple-choice",
+      "prompt": "______ she the CEO of the company?",
+      "options": ["Are", "Is", "Am", "Be"],
+      "answerIndex": 1,
+      "explanation": "We use 'Is' for the third person singular (he/she/it)."
+    },
+    {
+      "id": "adm-a1-w03-ex08",
+      "type": "multiple-choice",
+      "prompt": "What is 'First Name' in this profile: 'Alice Thompson'?",
+      "options": ["Thompson", "Alice", "Alice Thompson", "Manager"],
+      "answerIndex": 1,
+      "explanation": "'Alice' is the first name and 'Thompson' is the surname."
+    },
+    {
+      "id": "adm-a1-w03-ex09",
+      "type": "multiple-choice",
+      "prompt": "How do you ask for someone's business card politely?",
+      "options": ["Give me card.", "Where card?", "Can I have your business card?", "Is card here?"],
+      "answerIndex": 2,
+      "explanation": "'Can I have...?' is a polite way to make a request."
+    },
+    {
+      "id": "adm-a1-w03-ex10",
+      "type": "multiple-choice",
+      "prompt": "Are they in the Sales department? No, they ______.",
+      "options": ["isn't", "am not", "aren't", "not are"],
+      "answerIndex": 2,
+      "explanation": "'Aren't' is the contraction of 'are not', used with 'they'."
+    },
+    {
+      "id": "adm-a1-w03-ex11",
+      "type": "multiple-choice",
+      "prompt": "What does 'Work Phone' refer to?",
+      "options": ["Home number", "Personal mobile", "Office telephone", "Fax number"],
+      "answerIndex": 2,
+      "explanation": "'Work phone' is the telephone number used for professional calls at the office."
+    },
+    {
+      "id": "adm-a1-w03-ex12",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct answer: Are you from London? Yes, ______.",
+      "options": ["I'm", "I am", "you are", "I are"],
+      "answerIndex": 1,
+      "explanation": "In positive short answers, we do not use contractions: 'Yes, I am'."
+    },
+    {
+      "id": "adm-a1-w03-ex13",
+      "type": "multiple-choice",
+      "prompt": "Which of these is NOT personal professional info?",
+      "options": ["Job title", "Email address", "Favorite color", "Department"],
+      "answerIndex": 2,
+      "explanation": "Favorite color is personal but not usually part of a professional profile."
+    },
+    {
+      "id": "adm-a1-w03-ex14",
+      "type": "multiple-choice",
+      "prompt": "What is the logo on a business card?",
+      "options": ["The person's name", "The company's symbol", "The phone number", "The office address"],
+      "answerIndex": 1,
+      "explanation": "A logo is a graphic mark or symbol used to identify a company."
+    },
+    {
+      "id": "adm-a1-w03-ex15",
+      "type": "multiple-choice",
+      "prompt": "Is Mr. Brown the Sales Manager? Yes, ______ is.",
+      "options": ["she", "it", "he", "they"],
+      "answerIndex": 2,
+      "explanation": "We use 'he' to refer to 'Mr. Brown'."
+    },
+    {
+      "id": "adm-a1-w03-ex16",
+      "type": "fill-in-the-blanks",
+      "text": "Hello, my [name] is Sarah Jenkins. I [am] the new project manager. My [email] address is s.jenkins@office.com.",
+      "answers": ["name", "am", "email"],
+      "explanation": "This uses basic 'to be' and professional terminology (name, email)."
+    },
+    {
+      "id": "adm-a1-w03-ex17",
+      "type": "fill-in-the-blanks",
+      "text": "A: Excuse me, [are] you Mr. Garcia?\nB: Yes, I [am].\nA: Can I have your business [card]?\nB: Sure, here it is.",
+      "answers": ["are", "am", "card"],
+      "explanation": "This dialogue practices asking for identification and a business card."
+    },
+    {
+      "id": "adm-a1-w03-ex18",
+      "type": "fill-in-the-blanks",
+      "text": "First Name: Robert\nLast [Name]: Miller\nJob [Title]: Software Engineer\nWork [Phone]: 555-0199",
+      "answers": ["Name", "Title", "Phone"],
+      "explanation": "Common headers for a professional profile or business card."
+    },
+    {
+      "id": "adm-a1-w03-ex19",
+      "type": "fill-in-the-blanks",
+      "text": "1. It [is] a pleasure to meet you.\n2. We [are] in the same department.\n3. [Is] she your supervisor?",
+      "answers": ["is", "are", "is"],
+      "explanation": "Practicing subject-verb agreement with 'to be'."
+    },
+    {
+      "id": "adm-a1-w03-ex20",
+      "type": "fill-in-the-blanks",
+      "text": "Please write your [surname] here. Also, we need your office [number] and your company [email].",
+      "answers": ["surname", "number", "email"],
+      "explanation": "Vocabulary related to filling out professional forms."
+    },
+    {
+      "id": "adm-a1-w03-ex21",
+      "type": "fill-in-the-blanks",
+      "text": "1. Are you the assistant? No, I'm [not].\n2. Is the meeting today? Yes, it [is].\n3. Are they busy? Yes, they [are].",
+      "answers": ["not", "is", "are"],
+      "explanation": "Short answers with the verb 'to be'."
+    },
+    {
+      "id": "adm-a1-w03-ex22",
+      "type": "fill-in-the-blanks",
+      "text": "The company name is at the [top]. The job [title] is under the name. The contact [details] are at the bottom.",
+      "answers": ["top", "title", "details"],
+      "explanation": "Describing the layout of a typical business card."
+    },
+    {
+      "id": "adm-a1-w03-ex23",
+      "type": "fill-in-the-blanks",
+      "text": "What [is] your name?\nWhere [are] you from?\n[Is] this your desk?",
+      "answers": ["is", "are", "is"],
+      "explanation": "Basic WH- and Yes/No questions with 'to be'."
+    },
+    {
+      "id": "adm-a1-w03-ex24",
+      "type": "fill-in-the-blanks",
+      "text": "John is in the Marketing [Department]. His [position] is Social Media Coordinator. He works [for] Blue Sky Agency.",
+      "answers": ["Department", "position", "for"],
+      "explanation": "Using prepositions and nouns in a professional context."
+    },
+    {
+      "id": "adm-a1-w03-ex25",
+      "type": "fill-in-the-blanks",
+      "text": "I [am] not the manager. He [is] not in the office. They [are] not available.",
+      "answers": ["am", "is", "are"],
+      "explanation": "Negative sentences with 'to be'."
+    },
+    {
+      "id": "adm-a1-w03-ex26",
+      "type": "fill-in-the-blanks",
+      "text": "A business [card] is very useful. It has your [logo], your name, and your [phone] number.",
+      "answers": ["card", "logo", "phone"],
+      "explanation": "Vocabulary for business card components."
+    },
+    {
+      "id": "adm-a1-w03-ex27",
+      "type": "fill-in-the-blanks",
+      "text": "Nice to [meet] you. I'm Elena. Are [you] the receptionist? Yes, [that]'s right.",
+      "answers": ["meet", "you", "that"],
+      "explanation": "Common phrases for meeting someone and confirming their role."
+    },
+    {
+      "id": "adm-a1-w03-ex28",
+      "type": "fill-in-the-blanks",
+      "text": "Please [fill] in this form. [Write] your surname and [sign] here.",
+      "answers": ["fill", "Write", "sign"],
+      "explanation": "Verbs used when dealing with professional documentation."
+    },
+    {
+      "id": "adm-a1-w03-ex29",
+      "type": "fill-in-the-blanks",
+      "text": "My home phone is personal, but my [work] phone is for the office. My [job] title is Senior Clerk.",
+      "answers": ["work", "job"],
+      "explanation": "Distinguishing between personal and professional contact info."
+    },
+    {
+      "id": "adm-a1-w03-ex30",
+      "type": "fill-in-the-blanks",
+      "text": "What is your email [address]? It is mark@company.com. Is it [correct]? Yes, it is.",
+      "answers": ["address", "correct"],
+      "explanation": "Checking email information accuracy."
+    },
+    {
+      "id": "adm-a1-w03-ex31",
+      "type": "reading",
+      "title": "Business Card Analysis",
+      "text": "CREATIVE SOLUTIONS\n\n**Sandra Bullock**\n*Graphic Designer*\n\nDepartment: Design & Content\nEmail: s.bullock@creative-sol.com\nTel: +1 415 555 0122\nAddress: 123 Artsy Way, San Francisco",
+      "questions": [
+        {
+          "question": "What is Sandra's job title?",
+          "options": ["Manager", "Graphic Designer", "CEO", "Accountant"],
+          "answerIndex": 1,
+          "explanation": "The text says she is a 'Graphic Designer'."
+        },
+        {
+          "question": "What is the name of the company?",
+          "options": ["San Francisco", "Artsy Way", "Creative Solutions", "Design & Content"],
+          "answerIndex": 2,
+          "explanation": "The company name at the top is 'Creative Solutions'."
+        }
       ]
     },
     {
-      "id": "fin-a1-w3-writing-1",
-      "type": "writingTask",
-      "prompt": "Ask a simple question. Example: 'Are you the manager?'",
-      "modelAnswer": "Are you the manager?",
-      "keywords": ["Are", "you"]
+      "id": "adm-a1-w03-ex32",
+      "type": "reading",
+      "title": "Employee Profile",
+      "text": "Name: Hiroshi Tanaka\nPosition: Logistics Coordinator\nDepartment: Operations\nOffice: Tokyo HQ\nEmail: h.tanaka@global-log.jp\nStatus: Active",
+      "questions": [
+        {
+          "question": "What is Hiroshi's last name?",
+          "options": ["Hiroshi", "Tanaka", "Logistics", "Operations"],
+          "answerIndex": 1,
+          "explanation": "Tanaka is the surname."
+        },
+        {
+          "question": "In which department does he work?",
+          "options": ["Sales", "HR", "Operations", "Finance"],
+          "answerIndex": 2,
+          "explanation": "The text states 'Department: Operations'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex33",
+      "type": "reading",
+      "title": "The New Assistant",
+      "text": "Mr. James Bond is the new Administrative Assistant at the London office. He is in the Finance Department. His supervisor is Mrs. Moneypenny. James's email is j.bond@finance-lon.uk.",
+      "questions": [
+        {
+          "question": "Who is the supervisor?",
+          "options": ["James Bond", "Mrs. Moneypenny", "The Director", "The Assistant"],
+          "answerIndex": 1,
+          "explanation": "The text says 'His supervisor is Mrs. Moneypenny'."
+        },
+        {
+          "question": "Is James in the Sales department?",
+          "options": ["Yes, he is.", "No, he isn't.", "Yes, she is.", "No, they aren't."],
+          "answerIndex": 1,
+          "explanation": "The text says he is in the Finance Department."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex34",
+      "type": "reading",
+      "title": "Visitor Badge",
+      "text": "VISITOR PASS\nName: Linda McCartney\nCompany: Apple Corp\nReason: Meeting with HR\nDate: 30/01/2026\nTime: 09:00 AM",
+      "questions": [
+        {
+          "question": "What company is Linda from?",
+          "options": ["HR", "Apple Corp", "Visitor Pass", "Microsoft"],
+          "answerIndex": 1,
+          "explanation": "The badge says 'Company: Apple Corp'."
+        },
+        {
+          "question": "What time is the meeting?",
+          "options": ["09:00 PM", "12:00 PM", "09:00 AM", "10:00 AM"],
+          "answerIndex": 2,
+          "explanation": "The badge shows 'Time: 09:00 AM'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex35",
+      "type": "reading",
+      "title": "Email Signature",
+      "text": "Best regards,\n\n**Kevin Hart**\nSales Representative\nDynamic Motors\nkhart@dynamic-motors.net\nDirect: +1 202 555 0177",
+      "questions": [
+        {
+          "question": "What is Kevin's job?",
+          "options": ["Mechanic", "Sales Representative", "Driver", "Manager"],
+          "answerIndex": 1,
+          "explanation": "The signature identifies him as a 'Sales Representative'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex36",
+      "type": "reading",
+      "title": "Directory Listing",
+      "text": "OFFICE DIRECTORY - FLOOR 2\nRoom 201: IT Helpdesk (Manager: Peter Parker)\nRoom 202: Recruitment (Manager: Mary Jane)\nRoom 203: Payroll (Manager: Harry Osborn)",
+      "questions": [
+        {
+          "question": "Who is the manager of Room 202?",
+          "options": ["Peter Parker", "Harry Osborn", "Mary Jane", "Gwen Stacy"],
+          "answerIndex": 2,
+          "explanation": "Room 202 is 'Manager: Mary Jane'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex37",
+      "type": "reading",
+      "title": "Conference Registration",
+      "text": "Attendee: Sarah Connor\nTitle: Security Specialist\nOrganization: Cyberdyne Systems\nEmail: s.connor@cyberdyne.com",
+      "questions": [
+        {
+          "question": "What is Sarah's organization?",
+          "options": ["Security Specialist", "Sarah Connor", "Cyberdyne Systems", "Tech Support"],
+          "answerIndex": 2,
+          "explanation": "Organization is listed as 'Cyberdyne Systems'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex38",
+      "type": "reading",
+      "title": "Simple Bio",
+      "text": "I am Carlos. I am from Spain. I am a Junior Developer at 'Future Tech'. My department is Web Design.",
+      "questions": [
+        {
+          "question": "What is Carlos's job?",
+          "options": ["Senior Developer", "Junior Developer", "Web Designer", "Manager"],
+          "answerIndex": 1,
+          "explanation": "He says 'I am a Junior Developer'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex39",
+      "type": "reading",
+      "title": "Internal Memo",
+      "text": "To: All Staff\nFrom: Diane Prince (HR Director)\nSubject: New Office Phone Numbers\n\nDiane Prince: Ext 404\nBruce Wayne: Ext 101\nClark Kent: Ext 202",
+      "questions": [
+        {
+          "question": "What is Diane Prince's job title?",
+          "options": ["Manager", "Staff", "HR Director", "Secretary"],
+          "answerIndex": 2,
+          "explanation": "The memo lists her as 'HR Director'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex40",
+      "type": "reading",
+      "title": "Contact List",
+      "text": "CONTACTS:\n1. John - j.smith@work.com\n2. Anna - a.jones@work.com\n3. Mike - m.brown@work.com",
+      "questions": [
+        {
+          "question": "What is Anna's surname in her email?",
+          "options": ["Smith", "Jones", "Brown", "Anna"],
+          "answerIndex": 1,
+          "explanation": "Her email 'a.jones' suggests the surname is Jones."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex41",
+      "type": "matching",
+      "question": "Match the professional category with the example.",
+      "pairs": [
+        { "term": "First Name", "definition": "David" },
+        { "term": "Surname", "definition": "Beckham" },
+        { "term": "Position", "definition": "Public Relations" },
+        { "term": "Company", "definition": "Sport Global" }
+      ],
+      "explanation": "Matching terms with concrete examples."
+    },
+    {
+      "id": "adm-a1-w03-ex42",
+      "type": "matching",
+      "question": "Match the department with its function.",
+      "pairs": [
+        { "term": "Sales", "definition": "Selling products" },
+        { "term": "Finance", "definition": "Money and budgets" },
+        { "term": "IT", "definition": "Computers and software" },
+        { "term": "HR", "definition": "People and hiring" }
+      ],
+      "explanation": "Matching departments with their primary function."
+    },
+    {
+      "id": "adm-a1-w03-ex43",
+      "type": "matching",
+      "question": "Match the pronoun with the 'to be' form.",
+      "pairs": [
+        { "term": "I", "definition": "am" },
+        { "term": "You", "definition": "are" },
+        { "term": "He/She/It", "definition": "is" },
+        { "term": "We/They", "definition": "are" }
+      ],
+      "explanation": "Matching pronouns with the correct form of 'to be'."
+    },
+    {
+      "id": "adm-a1-w03-ex44",
+      "type": "matching",
+      "question": "Match the business card element with its meaning.",
+      "pairs": [
+        { "term": "Logo", "definition": "Company image" },
+        { "term": "Title", "definition": "Job name" },
+        { "term": "Extension", "definition": "Internal phone number" },
+        { "term": "Domain", "definition": "@company.com" }
+      ],
+      "explanation": "Matching business card parts with their definitions."
+    },
+    {
+      "id": "adm-a1-w03-ex45",
+      "type": "matching",
+      "question": "Match the synonyms.",
+      "pairs": [
+        { "term": "Last Name", "definition": "Surname" },
+        { "term": "Job", "definition": "Position" },
+        { "term": "Firm", "definition": "Company" },
+        { "term": "Office", "definition": "Workplace" }
+      ],
+      "explanation": "Learning synonyms in a professional context."
+    },
+    {
+      "id": "adm-a1-w03-ex46",
+      "type": "matching",
+      "question": "Match the greeting with the response.",
+      "pairs": [
+        { "term": "How are you?", "definition": "I'm fine, thanks." },
+        { "term": "Nice to meet you.", "definition": "Nice to meet you too." },
+        { "term": "Are you the manager?", "definition": "Yes, I am." },
+        { "term": "Is this your card?", "definition": "No, it isn't." }
+      ],
+      "explanation": "Matching common professional social exchanges."
+    },
+    {
+      "id": "adm-a1-w03-ex47",
+      "type": "matching",
+      "question": "Match the abbreviation with the full name.",
+      "pairs": [
+        { "term": "CEO", "definition": "Chief Executive Officer" },
+        { "term": "PA", "definition": "Personal Assistant" },
+        { "term": "IT", "definition": "Information Technology" },
+        { "term": "HQ", "definition": "Headquarters" }
+      ],
+      "explanation": "Matching common abbreviations."
+    },
+    {
+      "id": "adm-a1-w03-ex48",
+      "type": "matching",
+      "question": "Match the phone vocabulary.",
+      "pairs": [
+        { "term": "0", "definition": "Zero / Oh" },
+        { "term": "Work phone", "definition": "Office line" },
+        { "term": "Mobile", "definition": "Cell phone" },
+        { "term": "Extension", "definition": "Short internal number" }
+      ],
+      "explanation": "Vocabulary related to professional calling."
+    },
+    {
+      "id": "adm-a1-w03-ex49",
+      "type": "matching",
+      "question": "Match the form abbreviation with the full word.",
+      "pairs": [
+        { "term": "DOB", "definition": "Date of Birth" },
+        { "term": "Tel", "definition": "Telephone" },
+        { "term": "Addr", "definition": "Address" },
+        { "term": "Dept", "definition": "Department" }
+      ],
+      "explanation": "Matching form abbreviations."
+    },
+    {
+      "id": "adm-a1-w03-ex50",
+      "type": "matching",
+      "question": "Match the office item with its use.",
+      "pairs": [
+        { "term": "Desk", "definition": "Place to work" },
+        { "term": "Computer", "definition": "Tool for emails" },
+        { "term": "Badge", "definition": "ID for visitors" },
+        { "term": "Card", "definition": "Business info" }
+      ],
+      "explanation": "Matching office objects with their purpose."
+    },
+    {
+      "id": "adm-a1-w03-ex51",
+      "type": "fill-in-the-blanks",
+      "text": "A: Excuse me, what [is] your job title?\nB: I [am] a Senior Accountant.\nA: And which [department] are you in?\nB: I'm in the Finance department.",
+      "answers": ["is", "am", "department"],
+      "explanation": "Practicing common questions about professional roles."
+    },
+    {
+      "id": "adm-a1-w03-ex52",
+      "type": "fill-in-the-blanks",
+      "text": "A: Is your email [address] correct on this card?\nB: Let me see. No, it [isn't]. The surname is wrong.\nA: Oh, sorry. Is [this] one better?\nB: Yes, that is correct.",
+      "answers": ["address", "isn't", "this"],
+      "explanation": "Identifying and correcting information."
+    },
+    {
+      "id": "adm-a1-w03-ex53",
+      "type": "fill-in-the-blanks",
+      "text": "A: Hi, I'm Mike. [Are] you the new intern?\nB: Yes, I [am]. My name's Lucy.\nA: Nice to [meet] you, Lucy.",
+      "answers": ["Are", "am", "meet"],
+      "explanation": "Standard introduction dialogue."
+    },
+    {
+      "id": "adm-a1-w03-ex54",
+      "type": "fill-in-the-blanks",
+      "text": "A: Hello, [is] this the IT department?\nB: Yes, it [is]. How can I help?\nA: I need your [extension] number for my list.",
+      "answers": ["is", "is", "extension"],
+      "explanation": "Confirming department identity."
+    },
+    {
+      "id": "adm-a1-w03-ex55",
+      "type": "fill-in-the-blanks",
+      "text": "A: Is Mr. Lee your [manager]?\nB: No, he [isn't]. He is my colleague.\nA: Who is the [boss] then?\nB: Mrs. White is.",
+      "answers": ["manager", "isn't", "boss"],
+      "explanation": "Clarifying professional relationships."
+    },
+    {
+      "id": "adm-a1-w03-ex56",
+      "type": "fill-in-the-blanks",
+      "text": "A: Here is my business [card].\nB: Thank you. Can I [have] yours too?\nA: Sure. Here [you] go.",
+      "answers": ["card", "have", "you"],
+      "explanation": "Common exchange of contact information."
+    },
+    {
+      "id": "adm-a1-w03-ex57",
+      "type": "fill-in-the-blanks",
+      "text": "A: What is your [surname] again?\nB: It's Smith. S-M-I-T-H.\nA: Is that [correct]?\nB: Yes, it [is].",
+      "answers": ["surname", "correct", "is"],
+      "explanation": "Dialogue focusing on surname spelling."
+    },
+    {
+      "id": "adm-a1-w03-ex58",
+      "type": "fill-in-the-blanks",
+      "text": "A: Are you from Microsoft?\nB: No, I [am] not. I'm from Google.\nA: Is your [office] in London?\nB: Yes, [it] is.",
+      "answers": ["am", "office", "it"],
+      "explanation": "Confirming company and office location."
+    },
+    {
+      "id": "adm-a1-w03-ex59",
+      "type": "fill-in-the-blanks",
+      "text": "A: What [is] your job?\nB: I am a [Sales] Manager.\nA: Are you [busy] today?\nB: Yes, I am very busy.",
+      "answers": ["is", "Sales", "busy"],
+      "explanation": "Asking about job and status."
+    },
+    {
+      "id": "adm-a1-w03-ex60",
+      "type": "fill-in-the-blanks",
+      "text": "A: Hello, [are] you the visitor?\nB: Yes, my [name] is Paul.\nA: Please [write] your email here.",
+      "answers": ["are", "name", "write"],
+      "explanation": "Interaction at a reception desk."
+    },
+    {
+      "id": "adm-a1-w03-ex61",
+      "type": "writing",
+      "prompt": "Create Your Profile: Write 3 short sentences about your professional profile. Use 'I am' and include your name, job title, and department.",
+      "modelAnswer": "I am John Doe. I am the Sales Manager. I am in the Sales Department.",
+      "keywords": ["I", "am"]
+    },
+    {
+      "id": "adm-a1-w03-ex62",
+      "type": "writing",
+      "prompt": "Describe a Colleague: Look at this info: 'John - Sales - Manager'. Write 3 sentences about John using 'He is'.",
+      "modelAnswer": "He is John. He is in the Sales department. He is the manager.",
+      "keywords": ["He", "is"]
+    },
+    {
+      "id": "adm-a1-w03-ex63",
+      "type": "writing",
+      "prompt": "Business Card Data: List the four main items usually found on a business card in English.",
+      "modelAnswer": "Company name, person's name, job title, and contact details.",
+      "keywords": ["name", "title", "contact"]
+    },
+    {
+      "id": "adm-a1-w03-ex64",
+      "type": "writing",
+      "prompt": "Negative Sentences: Change these positive sentences to negative: 1. I am a manager. 2. He is in the office.",
+      "modelAnswer": "1. I am not a manager. 2. He is not in the office.",
+      "keywords": ["not"]
+    },
+    {
+      "id": "adm-a1-w03-ex65",
+      "type": "writing",
+      "prompt": "Asking Questions: You meet a new colleague. Write two questions to ask for their name and their department.",
+      "modelAnswer": "What is your name? Which department are you in?",
+      "keywords": ["What", "Which"]
+    },
+    {
+      "id": "adm-a1-w03-ex66",
+      "type": "writing",
+      "prompt": "Company Profile: Write two sentences about a company you know. Use 'It is' and mention the name and the location.",
+      "modelAnswer": "It is Microsoft. It is in Washington.",
+      "keywords": ["It", "is"]
+    },
+    {
+      "id": "adm-a1-w03-ex67",
+      "type": "writing",
+      "prompt": "Email Request: Write a very short email (2 sentences) asking a colleague for their new business card.",
+      "modelAnswer": "Hi, can I have your new business card? Thank you.",
+      "keywords": ["can", "I", "have"]
+    },
+    {
+      "id": "adm-a1-w03-ex68",
+      "type": "reading",
+      "title": "Professional Networking Profile",
+      "text": "My name is Elena Gilbert. I am a **Senior Coordinator** at Global Logistics. My office is in London. I work in the **Human Resources** department. I am responsible for new employee profiles.",
+      "vocabulary": [
+        {
+          "word": "Senior Coordinator",
+          "definition": "A person who organizes different groups and activities at a high level."
+        },
+        {
+          "word": "Human Resources",
+          "definition": "The department of a business or organization that deals with the hiring, administration, and training of personnel."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is Elena's job title?",
+          "options": ["Manager", "Senior Coordinator", "Recruiter"],
+          "answerIndex": 1,
+          "explanation": "The text says 'I am a Senior Coordinator'."
+        },
+        {
+          "question": "Where is her office?",
+          "options": ["Paris", "New York", "London"],
+          "answerIndex": 2,
+          "explanation": "The text states 'My office is in London'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex69",
+      "type": "reading",
+      "title": "Business Card Component Analysis",
+      "text": "A standard **business card** contains essential contact details. At the top, you usually see the company **logo**. Under the person's name, the job title describes their role. The email address and phone number are at the bottom.",
+      "vocabulary": [
+        {
+          "word": "business card",
+          "definition": "A small card printed with one's name, professional occupation, and company."
+        },
+        {
+          "word": "logo",
+          "definition": "A symbol or other design adopted by an organization to identify its products, uniform, vehicles, etc."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is usually found at the top of a business card?",
+          "options": ["Phone number", "Logo", "Home address"],
+          "answerIndex": 1,
+          "explanation": "The text says 'At the top, you usually see the company logo'."
+        },
+        {
+          "question": "Where are the email and phone number located?",
+          "options": ["At the top", "In the center", "At the bottom"],
+          "answerIndex": 2,
+          "explanation": "The text says they 'are at the bottom'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex70",
+      "type": "reading",
+      "title": "Company Directory Protocols",
+      "text": "The company **directory** is a list of all staff. Each **entry** includes the employee's first name, surname, and extension number. Please check the directory to find the Finance department manager.",
+      "vocabulary": [
+        {
+          "word": "directory",
+          "definition": "A book or website listing individuals or organizations alphabetically or thematically with details."
+        },
+        {
+          "word": "entry",
+          "definition": "An item written or printed in a list, diary, or book."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the company directory?",
+          "options": ["A list of products", "A list of all staff", "A map of the building"],
+          "answerIndex": 1,
+          "explanation": "The text says it is 'a list of all staff'."
+        },
+        {
+          "question": "What information is included in each entry?",
+          "options": ["First name, surname, and extension", "Home address", "Favorite food"],
+          "answerIndex": 0,
+          "explanation": "The text lists 'first name, surname, and extension number'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex71",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a correct short answer for 'Are they in the meeting?'",
+      "options": ["Yes, they're.", "Yes, they are.", "No, they're.", "No, they not."],
+      "answerIndex": 1,
+      "explanation": "In positive short answers, we do not use contractions."
+    },
+    {
+      "id": "adm-a1-w03-ex72",
+      "type": "multiple-choice",
+      "prompt": "What is the abbreviation for 'Headquarters'?",
+      "options": ["HD", "HQ", "HT", "HE"],
+      "answerIndex": 1,
+      "explanation": "HQ is the standard abbreviation for Headquarters."
+    },
+    {
+      "id": "adm-a1-w03-ex73",
+      "type": "listening",
+      "title": "Professional Introduction",
+      "transcript": "Hello, my name is Robert Chen. I am the new Finance Manager here at Global Tech. Nice to meet you all.",
+      "questions": [
+        {
+          "question": "Listen to the introduction and choose the correct job title:",
+          "options": ["Sales Manager", "Finance Manager", "IT Manager"],
+          "answerIndex": 1,
+          "explanation": "Robert says 'I am the new Finance Manager'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex74",
+      "type": "listening",
+      "title": "Email Address Confirmation",
+      "transcript": "My work email is mark.sullivan@techcorp.com. That is M-A-R-K dot Sullivan at techcorp dot com.",
+      "questions": [
+        {
+          "question": "Listen to the email address and choose the correct one:",
+          "options": ["m.sullivan@techcorp.com", "mark.sullivan@techcorp.com", "mark.sullivan@tech.com"],
+          "answerIndex": 1,
+          "explanation": "The transcript says mark.sullivan@techcorp.com."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w03-ex75",
+      "type": "listening",
+      "title": "Surname Spelling Check",
+      "transcript": "My surname is Rodriguez. That is R-O-D-R-I-G-U-E-Z.",
+      "questions": [
+        {
+          "question": "Listen to the spelling and choose the correct surname:",
+          "options": ["Rodrigues", "Rodriguez", "Rodriges"],
+          "answerIndex": 1,
+          "explanation": "The spelling ends with 'Z'."
+        }
+      ]
     }
   ]
 }

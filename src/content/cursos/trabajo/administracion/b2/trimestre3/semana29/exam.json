@@ -3,7 +3,7 @@
   "level": "B2",
   "trimester": 3,
   "weekId": "semana29",
-  "examId": "adm-b2-w25-exam",
+  "examId": "adm-b2-w29-exam",
   "title": "Exam: Facility Management & Health & Safety",
   "items": [
     {
@@ -70,6 +70,201 @@
       ],
       "answerIndex": 1,
       "explanation": "Reporting is the act of notifying management or safety officers so corrective action can be taken."
+    },
+    {
+      "id": "adm-b2-w29-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Which UK regulator is responsible for workplace health and safety?",
+      "options": [
+        "The BBC",
+        "The HSE (Health and Safety Executive)",
+        "The NHS",
+        "The HR Department"
+      ],
+      "answerIndex": 1,
+      "explanation": "The HSE is the national body responsible for enforcing safety regulations in the UK."
+    },
+    {
+      "id": "adm-b2-w29-exam-7",
+      "type": "multipleChoice",
+      "prompt": "What is the difference between hot-desking and hoteling?",
+      "options": [
+        "Hoteling requires a prior reservation; hot-desking is usually first-come, first-served",
+        "Hot-desking is for managers; hoteling is for staff",
+        "Hoteling only happens in hotels",
+        "There is no difference"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hoteling is a managed reservation system for shared workspaces."
+    },
+    {
+      "id": "adm-b2-w29-exam-8",
+      "type": "multipleChoice",
+      "prompt": "In an FM contract, what does the SLA (Service Level Agreement) define?",
+      "options": [
+        "The company's logo design",
+        "The expected quality and speed of service from a provider",
+        "The number of employees in a building",
+        "The vacation policy of the company"
+      ],
+      "answerIndex": 1,
+      "explanation": "SLAs set measurable standards for service performance."
+    },
+    {
+      "id": "adm-b2-w29-exam-9",
+      "type": "multipleChoice",
+      "prompt": "Maintenance performed on a regular schedule to *avoid* future equipment failure is called:",
+      "options": [
+        "Reactive maintenance",
+        "Preventative maintenance",
+        "Emergency maintenance",
+        "Corrective maintenance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preventative maintenance is proactive and planned."
+    },
+    {
+      "id": "adm-b2-w29-exam-10",
+      "type": "multipleChoice",
+      "prompt": "What does RIDDOR require companies to do?",
+      "options": [
+        "Pay their taxes early",
+        "Report serious workplace accidents and diseases to the authorities",
+        "Provide free coffee to staff",
+        "Clean the windows every week"
+      ],
+      "answerIndex": 1,
+      "explanation": "RIDDOR is the regulation for reporting serious incidents to the HSE."
+    },
+    {
+      "id": "adm-b2-w29-exam-11",
+      "type": "multipleChoice",
+      "prompt": "What does PPE stand for?",
+      "options": [
+        "Professional Policy Entry",
+        "Personal Protective Equipment",
+        "Physical Prevention Exercise",
+        "Private Personnel Exit"
+      ],
+      "answerIndex": 1,
+      "explanation": "PPE refers to items like safety glasses, gloves, and helmets."
+    },
+    {
+      "id": "adm-b2-w29-exam-12",
+      "type": "multipleChoice",
+      "prompt": "The main purpose of a 'Risk Assessment' is to:",
+      "options": [
+        "Calculate the cost of insurance",
+        "Identify hazards and implement control measures to reduce risk",
+        "Find out who is responsible for an accident after it happens",
+        "Write a report for the marketing department"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk assessments are preventative tools used to identify and mitigate dangers."
+    },
+    {
+      "id": "adm-b2-w29-exam-13",
+      "type": "multipleChoice",
+      "prompt": "A 'Near Miss' should be reported because:",
+      "options": [
+        "It is funny and interesting",
+        "It helps identify hazards before an actual injury occurs",
+        "It is a legal requirement for every small event",
+        "The employee will get a bonus for reporting it"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reporting near misses allows for corrective action to prevent real accidents."
+    },
+    {
+      "id": "adm-b2-w29-exam-14",
+      "type": "multipleChoice",
+      "prompt": "What does 'HVAC' stand for in building management?",
+      "options": [
+        "High Voltage Air Control",
+        "Heating, Ventilation, and Air Conditioning",
+        "Heavy Vehicle Access Code",
+        "Health, Value, and Care"
+      ],
+      "answerIndex": 1,
+      "explanation": "HVAC systems control the internal environment of a building."
+    },
+    {
+      "id": "adm-b2-w29-exam-15",
+      "type": "multipleChoice",
+      "prompt": "Which term describes a focus on performance and flexibility rather than fixed desks?",
+      "options": [
+        "Micro-management",
+        "Agile working",
+        "Traditional office work",
+        "Hard FM"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile working provides flexibility in where and how employees work."
+    },
+    {
+      "id": "adm-b2-w29-exam-16",
+      "type": "multipleChoice",
+      "prompt": "Office 'Zoning' refers to:",
+      "options": [
+        "Building new offices in different cities",
+        "Dividing workspace into areas for specific activities (e.g., quiet work, meetings)",
+        "Dividing the staff into groups based on their age",
+        "Checking the time zones of international clients"
+      ],
+      "answerIndex": 1,
+      "explanation": "Zoning ensures that the office layout supports different types of tasks."
+    },
+    {
+      "id": "adm-b2-w29-exam-17",
+      "type": "multipleChoice",
+      "prompt": "Which of these is considered 'Soft FM'?",
+      "options": [
+        "Repairing the roof",
+        "Maintaining the plumbing system",
+        "Cleaning and catering services",
+        "Installing new electrical wiring"
+      ],
+      "answerIndex": 2,
+      "explanation": "Soft FM includes services that support the people in the building."
+    },
+    {
+      "id": "adm-b2-w29-exam-18",
+      "type": "multipleChoice",
+      "prompt": "Structural maintenance, such as HVAC and electrical systems, falls under:",
+      "options": [
+        "Soft FM",
+        "Hard FM",
+        "Human Resources",
+        "Marketing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hard FM refers to the physical structure and mechanical systems of a building."
+    },
+    {
+      "id": "adm-b2-w29-exam-19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Sustainable Procurement'?",
+      "options": [
+        "Buying only recycled paper",
+        "Integrating environmental and social considerations into purchasing decisions",
+        "Buying the most expensive products available",
+        "Buying all office supplies from the same country"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustainable procurement looks at the ethics and environmental impact of suppliers."
+    },
+    {
+      "id": "adm-b2-w29-exam-20",
+      "type": "multipleChoice",
+      "prompt": "The 'Waste Hierarchy' focuses on:",
+      "options": [
+        "Throwing everything away immediately",
+        "Reducing, reusing, and recycling before disposal",
+        "Buying new items as often as possible",
+        "Hiding waste in the basement"
+      ],
+      "answerIndex": 1,
+      "explanation": "The hierarchy prioritizes waste prevention and recycling over landfill disposal."
     }
   ]
 }

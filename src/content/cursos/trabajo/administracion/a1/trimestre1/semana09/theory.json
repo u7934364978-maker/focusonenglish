@@ -1,29 +1,24 @@
 {
-  "title": "Shopping and Prices",
+  "title": "Semana 9: Teléfonos y Deletreo",
+  "description": "Aprende a dar tu número de teléfono, deletrear tu nombre y dictar direcciones de correo electrónico correctamente.",
+  "objectives": [
+    "Decir números de teléfono en inglés (oh / zero)",
+    "Deletrear nombres y apellidos usando el alfabeto",
+    "Dictar correos electrónicos usando símbolos como '@' (at) y '.' (dot)"
+  ],
   "sections": [
     {
-      "id": "vocab-shopping",
-      "title": "Shopping Vocabulary",
-      "content": "Basic words for buying and selling.\n\n- **Buy**: Comprar\n- **Sell**: Vender\n- **Cost**: Costar\n- **Price**: Precio\n- **Discount**: Descuento\n- **Expensive**: Caro\n- **Cheap**: Barato"
+      "title": "Números de Teléfono (Phone Numbers)",
+      "content": "En inglés, los números de teléfono se dictan uno a uno:\n\n- **912 345 678**: Nine-one-two, three-four-five, six-seven-eight.\n- **0**: Se puede decir 'zero' o 'oh'.\n- **Double**: Si un número se repite, decimos 'double' (ej. 55 -> double five)."
     },
     {
-      "id": "modern-shopping",
-      "title": "Modern Shopping: Online and Digital",
-      "content": "Today, we shop on the internet and use digital records.\n\n- **Online Shopping**: Compras en línea\n- **Digital Receipt**: Recibo digital (sent to email)\n- **E-commerce**: Comercio electrónico\n- **Checkout**: Proceso de pago / Caja\n\n### Digital Receipt Flow\n```mermaid\ngraph LR\n    A[Pay Online] --> B[Store System]\n    B --> C[Email Receipt]\n    C --> D[Customer Phone]\n```"
+      "title": "El Alfabeto y el Deletreo (Spelling)",
+      "content": "Es muy común que te pidan deletrear tu nombre (**Spell your name**):\n\n- \"Can you spell your last name?\"\n- \"Yes, it's SMITH: S-M-I-T-H.\"\n\n**Tip:** Repasa la pronunciación de las vocales (A, E, I, O, U) que suelen ser confusas."
     },
     {
-      "id": "grammar-how-much",
-      "title": "Grammar: How Much and How Many",
-      "content": "We use these expressions to ask about prices and quantities.\n\n1. **How much...?**: For price or uncountable things (like money in general).\n   - *How much is the new phone?*\n   - *How much money is in the account?*\n\n2. **How many...?**: For countable things (dollars, coins, cards).\n   - *How many dollars is the discount?*\n   - *How many digital receipts do you have?*"
+      "title": "Correos Electrónicos (Emails)",
+      "content": "Para dictar un correo, necesitas conocer estos símbolos:\n\n- **@**: At\n- **.**: Dot\n- **_**: Underscore\n- **-**: Hyphen / Dash\n\nEjemplo: **info@office.com** -> info **at** office **dot** com."
     }
   ],
-  "objectives": [
-    "Learn basic vocabulary for shopping and prices",
-    "Understand the difference between 'How much' and 'How many'",
-    "Learn about modern digital receipts and online shopping"
-  ],
-  "keyTerms": [
-    { "term": "Digital Receipt", "definition": "A proof of payment sent to your email or app." },
-    { "term": "E-commerce", "definition": "Buying and selling things on the internet." }
-  ]
+  "audioUrl": ""
 }

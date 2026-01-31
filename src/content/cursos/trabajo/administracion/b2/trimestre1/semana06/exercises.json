@@ -505,6 +505,312 @@
       "prompt": "You are managing a calendar where a high-priority 'Deep Work' block is being threatened by a last-minute request. 1) Write a 'gatekeeping' response. 2) Rewrite the refusal using formal inversion. 3) Explain how this protects 'Priority Alignment'.",
       "modelAnswer": "1) 'I'm afraid the Director is unavailable at that time as she has a priority commitment.' 2) 'Under no circumstances can we move the Deep Work block this afternoon.' 3) This protects priority alignment by ensuring that the executive has dedicated time for high-impact strategic goals rather than reactive admin tasks.",
       "keywords": ["gatekeeping", "inversion", "priority alignment"]
+    },
+    {
+      "id": "adm-b2-w6-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Jet Lag. What is a 'red-eye' flight?",
+      "options": [
+        "A flight where you have an eye infection.",
+        "An overnight flight that arrives early in the morning.",
+        "A flight with a very long layover.",
+        "A flight reserved for executives only."
+      ],
+      "answerIndex": 1,
+      "explanation": "Red-eye flights are overnight journeys, often used to save business time."
+    },
+    {
+      "id": "adm-b2-w6-ex47",
+      "type": "writingTask",
+      "prompt": "Exercise 47: Inversion for Emphasis. Rewrite: 'We rarely see such high travel costs.' (Start with 'Rarely...')",
+      "modelAnswer": "Rarely do we see such high travel costs.",
+      "keywords": ["Rarely", "do", "we", "see"]
+    },
+    {
+      "id": "adm-b2-w6-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Wellness Logistics. Why should an admin select hotels with specific meal options for traveling executives?",
+      "options": [
+        "To make sure they eat expensive food.",
+        "To support their circadian rhythm adjustment and overall wellness.",
+        "Because the admin gets a commission.",
+        "It is not the admin's job to worry about food."
+      ],
+      "answerIndex": 1,
+      "explanation": "Nutrition and hydration are key factors in mitigating jet lag and maintaining performance."
+    },
+    {
+      "id": "adm-b2-w6-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Inversion. Form a sentence using 'Seldom' and 'itinerary'.",
+      "modelAnswer": "Seldom have I encountered such a detailed itinerary.",
+      "keywords": ["Seldom", "have", "itinerary"]
+    },
+    {
+      "id": "adm-b2-w6-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Time Management. What is the risk of 'back-to-back' meetings for an executive?",
+      "options": [
+        "They might get too much exercise walking between rooms.",
+        "They have no time for mental resets or addressing urgent issues that arise.",
+        "It makes them look too popular.",
+        "It reduces the company's electricity bill."
+      ],
+      "answerIndex": 1,
+      "explanation": "Back-to-back meetings without buffers lead to fatigue and poor decision-making."
+    },
+    {
+      "id": "adm-b2-w6-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Expense Management. Explain the difference between 'Per Diem' and 'Actuals'.",
+      "modelAnswer": "Per Diem is a fixed daily allowance; Actuals refers to reimbursement based on specific receipts for every expense incurred.",
+      "keywords": ["fixed", "allowance", "receipts"]
+    },
+    {
+      "id": "adm-b2-w6-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Inversion. Which is correct?",
+      "options": [
+        "Not only the flight was late, but also...",
+        "Not only was the flight late, but also...",
+        "Not only the flight late was, but also...",
+        "Not only late was the flight, but also..."
+      ],
+      "answerIndex": 1,
+      "explanation": "Inversion requires the auxiliary verb (was) to come before the subject (the flight)."
+    },
+    {
+      "id": "adm-b2-w6-ex53",
+      "type": "writingTask",
+      "prompt": "Exercise 53: Wellness Support. Suggest one app or tool an admin can recommend to an executive to help with time zone adjustment.",
+      "modelAnswer": "I would recommend using 'Timeshifter', which provides a personalized plan for light exposure and sleep.",
+      "keywords": ["Timeshifter", "plan", "light"]
+    },
+    {
+      "id": "adm-b2-w6-ex54",
+      "type": "multipleChoice",
+      "prompt": "Exercise 54: PhraseBank. What is a 'layover'?",
+      "options": [
+        "A type of hotel bed.",
+        "A period of rest between shifts.",
+        "A break in a journey between two flights.",
+        "A document showing travel expenses."
+      ],
+      "answerIndex": 2,
+      "explanation": "Layovers (or stopovers) occur when a journey is not direct."
+    },
+    {
+      "id": "adm-b2-w6-ex55",
+      "type": "writingTask",
+      "prompt": "Exercise 55: Inversion. Rewrite: 'The driver should not leave the airport without the passenger.' (Start with 'Under no circumstances...')",
+      "modelAnswer": "Under no circumstances should the driver leave the airport without the passenger.",
+      "keywords": ["Under no circumstances", "should", "leave"]
+    },
+    {
+      "id": "adm-b2-w6-ex56",
+      "type": "multipleChoice",
+      "prompt": "Exercise 56: International Entry. What is 'ETIAS'?",
+      "options": [
+        "A luxury airline in Asia.",
+        "The upcoming electronic travel authorization for Europe.",
+        "A type of business visa for Japan.",
+        "A health declaration form for Brazil."
+      ],
+      "answerIndex": 1,
+      "explanation": "ETIAS is the European equivalent of the US ESTA system."
+    },
+    {
+      "id": "adm-b2-w6-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Vocabulary. Define 'Preferred Vendor'.",
+      "modelAnswer": "A supplier that a company has a formal agreement with for better rates or service standards.",
+      "keywords": ["supplier", "agreement", "rates"]
+    },
+    {
+      "id": "adm-b2-w6-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Inversion. Complete: 'Only after ___ did the manager agree to the budget.'",
+      "options": [
+        "I showed him the receipts",
+        "did I show him the receipts",
+        "showing him the receipts",
+        "shown him the receipts"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Only after' is followed by a gerund or a clause, then the inversion happens in the main clause."
+    },
+    {
+      "id": "adm-b2-w6-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Itinerary Proofing. An executive's passport expires in 4 months. They are traveling to a country with a 6-month validity rule. What is your action?",
+      "modelAnswer": "I must inform the executive immediately and arrange for an emergency passport renewal before the trip.",
+      "keywords": ["inform", "emergency", "renewal"]
+    },
+    {
+      "id": "adm-b2-w6-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Ground Transportation. Which is NOT typically considered ground transportation in an itinerary?",
+      "options": [
+        "Private chauffeur service",
+        "An airport shuttle bus",
+        "A business class flight",
+        "A regional train"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flights are air travel, not ground transportation."
+    },
+    {
+      "id": "adm-b2-w6-ex61",
+      "type": "writingTask",
+      "prompt": "Exercise 61: Inversion. Rewrite: 'He had never traveled so far for a meeting.' (Start with 'Never...')",
+      "modelAnswer": "Never had he traveled so far for a meeting.",
+      "keywords": ["Never", "had", "he", "traveled"]
+    },
+    {
+      "id": "adm-b2-w6-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Budgeting. What does 'Audit' mean in expense reconciliation?",
+      "options": [
+        "To delete all the data.",
+        "To formally examine records to ensure they are accurate and comply with rules.",
+        "To pay the bill as fast as possible.",
+        "To hire a new accountant."
+      ],
+      "answerIndex": 1,
+      "explanation": "Auditing ensures that company funds are spent according to policy."
+    },
+    {
+      "id": "adm-b2-w6-ex63",
+      "type": "writingTask",
+      "prompt": "Exercise 63: PhraseBank. Use 'cross-reference' in a sentence about travel documents.",
+      "modelAnswer": "I always cross-reference the flight times on the itinerary with the airline's live schedule.",
+      "keywords": ["cross-reference", "itinerary", "airline"]
+    },
+    {
+      "id": "adm-b2-w6-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Jet Lag. Cross-referencing an executive's 'home' time zone helps the admin to:",
+      "options": [
+        "Calculate their salary.",
+        "Identify potential 'energy slumps' where the executive might be tired.",
+        "Choose the best color for the itinerary.",
+        "Determine the local weather."
+      ],
+      "answerIndex": 1,
+      "explanation": "Understanding the 'body clock' of the traveler allows for better meeting scheduling."
+    },
+    {
+      "id": "adm-b2-w6-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Inversion. Rewrite: 'You should only book the hotel when the flights are confirmed.' (Start with 'Only when...')",
+      "modelAnswer": "Only when the flights are confirmed should you book the hotel.",
+      "keywords": ["Only when", "confirmed", "should"]
+    },
+    {
+      "id": "adm-b2-w6-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Time Blocking. Which block should be prioritized for an executive who needs to prepare a speech?",
+      "options": [
+        "Back-to-back client lunches.",
+        "A 2-hour 'Deep Work' time block in the morning.",
+        "15 minutes of buffer time.",
+        "An evening networking event."
+      ],
+      "answerIndex": 1,
+      "explanation": "Deep work requires long, uninterrupted blocks of time."
+    },
+    {
+      "id": "adm-b2-w6-ex67",
+      "type": "writingTask",
+      "prompt": "Exercise 67: Vocabulary Review. Define 'Reconciliation' in the context of business finance.",
+      "modelAnswer": "The process of matching receipts and actual spending against the allocated budget or credit card statement.",
+      "keywords": ["matching", "receipts", "budget"]
+    },
+    {
+      "id": "adm-b2-w6-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Inversion. 'Seldom do we see such efficiency' means:",
+      "options": [
+        "We always see efficiency.",
+        "We rarely see efficiency.",
+        "Efficiency is impossible.",
+        "We are looking for efficiency."
+      ],
+      "answerIndex": 1,
+      "explanation": "Seldom is a formal synonym for rarely."
+    },
+    {
+      "id": "adm-b2-w6-ex69",
+      "type": "writingTask",
+      "prompt": "Exercise 69: Itinerary Components. What information is essential for a 'Meeting Schedule' in an itinerary besides the time?",
+      "modelAnswer": "Location (with map link), names of participants, and the objective of the meeting.",
+      "keywords": ["Location", "participants", "objective"]
+    },
+    {
+      "id": "adm-b2-w6-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Expense Policy. What are 'Alcohol limits' in a travel policy?",
+      "options": [
+        "Rules about how much an executive is allowed to drink.",
+        "Caps on how much the company will reimburse for alcoholic beverages.",
+        "Laws in the destination country.",
+        "A type of luggage restriction."
+      ],
+      "answerIndex": 1,
+      "explanation": "Corporate policies often limit spending on extras like alcohol to maintain professional standards."
+    },
+    {
+      "id": "adm-b2-w6-ex71",
+      "type": "writingTask",
+      "prompt": "Exercise 71: Inversion. Rewrite: 'He not only missed the flight, but he also lost his passport.'",
+      "modelAnswer": "Not only did he miss the flight, but he also lost his passport.",
+      "keywords": ["Not only", "did", "miss", "lost"]
+    },
+    {
+      "id": "adm-b2-w6-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Strategic Admin. 'Gatekeeping' protects an executive's:",
+      "options": [
+        "Privacy and most valuable resource: time.",
+        "Office furniture from theft.",
+        "Computer passwords.",
+        "Right to have coffee alone."
+      ],
+      "answerIndex": 0,
+      "explanation": "Gatekeeping is a strategic support function focused on time management."
+    },
+    {
+      "id": "adm-b2-w6-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: PhraseBank. Use 'mitigate jet lag' in a professional recommendation.",
+      "modelAnswer": "To mitigate jet lag, I suggest we schedule the strategy session for the second day of the trip.",
+      "keywords": ["mitigate jet lag", "schedule"]
+    },
+    {
+      "id": "adm-b2-w6-ex74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Logistics. 'Contingency info' in an itinerary is for:",
+      "options": [
+        "Booking future holidays.",
+        "Handling unexpected problems or emergencies.",
+        "Calculating the cost of the flights.",
+        "Learning the local language."
+      ],
+      "answerIndex": 1,
+      "explanation": "Contingencies are backup plans for when things go wrong."
+    },
+    {
+      "id": "adm-b2-w6-ex75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Comprehensive Review. An advanced administrator manages travel by:",
+      "options": [
+        "Just booking the cheapest available flights.",
+        "Considering strategic scheduling, wellness, international rules, and financial compliance.",
+        "Letting the executive do all the planning.",
+        "Focusing only on the hotel choice."
+      ],
+      "answerIndex": 1,
+      "explanation": "Advanced support is holistic, covering logistics, strategy, and finance."
     }
   ]
 }

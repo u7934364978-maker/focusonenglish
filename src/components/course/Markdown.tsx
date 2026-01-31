@@ -25,9 +25,9 @@ function VocabularyTooltip({ word, definition, children, position = 'top' }: { w
         <span className="block font-black text-white mb-1 uppercase tracking-widest">
           Vocabulary: <span className="text-indigo-400">{word}</span>
         </span>
-        <div className="text-slate-300 mt-1 leading-relaxed">
+        <span className="block text-slate-300 mt-1 leading-relaxed">
           {definition}
-        </div>
+        </span>
         <span className={[
           "absolute left-1/2 -translate-x-1/2 border-8 border-transparent",
           isBottom ? "bottom-full border-b-slate-900 dark:border-b-slate-800" : "top-full border-t-slate-900 dark:border-t-slate-800"

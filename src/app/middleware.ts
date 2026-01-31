@@ -34,8 +34,8 @@ export async function middleware(request: NextRequest) {
         getAll() {
           return request.cookies.getAll();
         },
-        setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => {
+        setAll(cookiesToSet: any[]) {
+          cookiesToSet.forEach(({ name, value, options }: any) => {
             response.cookies.set(name, value, options);
           });
         },
@@ -48,7 +48,7 @@ export async function middleware(request: NextRequest) {
 
   if (!user) {
     const url = request.nextUrl.clone();
-    url.pathname = "/acceder";
+    url.pathname = "/cuenta/login";
     url.searchParams.set("next", pathname);
     return NextResponse.redirect(url);
   }

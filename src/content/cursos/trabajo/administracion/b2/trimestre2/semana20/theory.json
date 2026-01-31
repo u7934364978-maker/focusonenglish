@@ -2,24 +2,45 @@
   "title": "Corporate Sustainability & Ethics",
   "sections": [
     {
-      "id": "vocab",
-      "title": "CSR & Ethical Administration",
-      "content": "Modern administration requires a focus on Corporate Social Responsibility (CSR) and ethical decision-making to ensure long-term viability and positive brand reputation.\n\n- **Triple Bottom Line**: An accounting framework with three parts: social, environmental (or ecological), and financial (Profit, People, Planet).\n- **Carbon Footprint**: The total amount of greenhouse gases produced to directly and indirectly support organisational activities.\n- **Ethical Sourcing**: Ensuring that the products/services being sourced are created in safe facilities by workers who are treated fairly.\n- **Greenwashing**: Disinformation disseminated by an organisation so as to present an environmentally responsible public image.\n- **Sustainability Report**: A report published by a company or organisation about the economic, environmental, and social impacts caused by its everyday activities.\n- **Whistleblowing**: The disclosure by a person, usually an employee, in an organisation of management misconduct or illegal activities."
+      "id": "csr-ethical-sourcing",
+      "title": "Block 1: CSR & Ethical Sourcing",
+      "content": "Corporate Social Responsibility (CSR) is no longer optional for modern organizations. It involves integrating social and environmental concerns into business operations.\n\n### Key Concepts:\n- **Triple Bottom Line**: A framework that evaluates performance based on **Profit, People, and Planet**. It argues that companies should be committed to focusing on social and environmental concerns just as much as they do on profits.\n- **Ethical Sourcing**: The process of ensuring the products being sourced are obtained in a responsible and sustainable way. This includes fair wages, safe working conditions, and no child labor.\n- **Greenwashing**: A deceptive marketing practice where a company claims to be environmentally friendly to cover up a damaging track record or to avoid making real changes."
     },
     {
-      "id": "grammar",
-      "title": "Advanced Modals of Deduction (Past)",
-      "content": "Modal verbs + 'have' + past participle are used to express varying degrees of certainty about past events in a professional context.\n\n- **Must have + past participle**: Used when we are almost certain that something happened.\n  *Example:* \"The auditor **must have found** an error; the board has called an emergency meeting.\"\n- **Could / Might have + past participle**: Used to express possibility or a past opportunity that wasn't taken.\n  *Example:* \"We **could have reduced** our waste last year if we had implemented the new recycling protocol.\"\n- **Can't have + past participle**: Used when we are almost certain that something did NOT happen.\n  *Example:* \"The manager **can't have approved** this expense; it exceeds his limit.\"\n- **Should have + past participle**: Used to express regret or criticism about a past action.\n  *Example:* \"We **should have audited** the supplier's ethical standards before signing the contract.\""
+      "id": "grammar-modals-past",
+      "title": "Block 2: Grammar - Modals of Deduction (Past)",
+      "content": "We use modal verbs followed by 'have' and a past participle to make logical deductions about the past based on current evidence.\n\n### Degrees of Certainty:\n- **Must have (95% certain)**: Used when we are sure something happened. \n  - *\"The supplier **must have known** about the safety violations; the report was on his desk.\"\n- **Can't have (95% certain NOT)**: Used when we are sure something didn't happen.\n  - *\"They **can't have signed** the contract yet; I still have the original document here.\"\n- **Could / Might / May have (30-50% certain)**: Used for past possibilities.\n  - *\"The error **might have occurred** during the data migration process.\"\n- **Should have (Criticism/Regret)**: Used to say that something was a good idea but didn't happen.\n  - *\"We **should have audited** their carbon footprint before investing.\""
+    },
+    {
+      "id": "sustainability-frameworks",
+      "title": "Block 3: Sustainability Frameworks",
+      "content": "Organizations use structured frameworks to achieve their environmental goals and contribute to a more sustainable future.\n\n### Circular Economy vs. Linear Economy:\n- **Linear Economy**: Follows the 'take-make-dispose' step-by-step plan. This means that raw materials are collected, then transformed into products that are used until they are finally discarded as waste.\n- **Circular Economy**: An economic system aimed at eliminating waste and the continual use of resources. It focuses on recycling, refurbishing, and reusing materials to minimize the intake of new resources.\n\n### Net Zero & Carbon Footprint:\n- **Carbon Footprint**: The total amount of greenhouse gases produced by an organization's activities.\n- **Net Zero**: Achieving a balance between the greenhouse gases put into the atmosphere and those taken out. This is often achieved through a combination of emission reduction and carbon removal projects."
+    },
+    {
+      "id": "governance-integrity",
+      "title": "Block 4: Corporate Governance & Integrity",
+      "content": "Ethical administration requires transparency and protection for those who speak up against misconduct.\n\n### Whistleblowing & Anti-Corruption:\n- **Whistleblowing**: The act of an employee reporting management misconduct or illegal activities within the organization. A robust whistleblowing policy is essential for ethical governance.\n- **Code of Ethics**: A formal document outlining the values and ethical standards a company expects its employees to follow.\n- **Transparency**: The degree to which an organization's actions are observable by outsiders. It is key to preventing corruption and building trust with stakeholders."
+    },
+    {
+      "id": "reporting-transparency",
+      "title": "Block 5: Reporting & Transparency (ESG)",
+      "content": "To prove their commitment to sustainability, companies must provide verifiable data through formal reporting.\n\n### ESG Reporting:\n- **ESG (Environmental, Social, and Governance)**: Three central factors in measuring the sustainability and societal impact of an investment in a company.\n- **Sustainability Report**: A comprehensive document released annually that outlines a company's progress toward its ESG goals.\n- **Auditing**: Independent reviews of sustainability claims to ensure they are accurate and not 'greenwashing'.\n- **Stakeholder Trust**: The ultimate goal of transparent reporting, ensuring that investors, employees, and the community believe in the organization's ethical standing."
     }
   ],
   "objectives": [
-    "Define and apply the 'Triple Bottom Line' concept in administrative decisions",
-    "Identify 'greenwashing' and its risks to corporate reputation",
-    "Use modal verbs to speculate on past administrative errors or missed opportunities",
-    "Discuss the importance of whistleblowing policies in corporate governance"
+    "Analyse corporate decisions using the Triple Bottom Line framework",
+    "Identify and evaluate ethical sourcing practices in supply chains",
+    "Use modals of deduction to speculate on past administrative outcomes and errors",
+    "Explain the transition from a linear to a circular economy",
+    "Draft a basic outline for a corporate whistleblowing policy",
+    "Identify the components of an ESG (Environmental, Social, and Governance) report"
   ],
   "keyTerms": [
-    { "term": "Circular Economy", "definition": "An economic system aimed at eliminating waste and the continual use of resources." },
-    { "term": "Net Zero", "definition": "A state in which the greenhouse gases going into the atmosphere are balanced by removal out of the atmosphere." }
+    { "term": "Triple Bottom Line", "definition": "A business concept that posits firms should commit to measuring their social and environmental impact—in addition to their financial performance—rather than solely focusing on generating profit." },
+    { "term": "Circular Economy", "definition": "A model of production and consumption which involves sharing, leasing, reusing, repairing, refurbishing and recycling existing materials and products as long as possible." },
+    { "term": "Net Zero", "definition": "The balance between the amount of greenhouse gas produced and the amount removed from the atmosphere." },
+    { "term": "Greenwashing", "definition": "The process of conveying a false impression or providing misleading information about how a company's products are more environmentally sound." },
+    { "term": "Whistleblowing", "definition": "The disclosure by a person, usually an employee, of any information about management misconduct or illegal activities within an organization." },
+    { "term": "ESG", "definition": "Environmental, Social, and Governance: the three central factors in measuring the sustainability and ethical impact of a company." }
   ]
 }

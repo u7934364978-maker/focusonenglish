@@ -1,30 +1,30 @@
 {
-  "title": "Subscription Economy & Auto-Pay",
+  "title": "Software Subscriptions & Licenses",
   "sections": [
     {
       "id": "subscription-vocab",
-      "title": "Common Subscriptions",
-      "content": "Many services use a subscription model (paying every month).\n\n- **Subscription**: A regular payment for a service (Netflix, Spotify, Gym).\n- **Monthly Fee**: The price you pay every month.\n- **Annual / Yearly Fee**: The price you pay once a year.\n- **Free Trial**: Using a service for free for a short time (e.g., 7 days).\n- **Cancel**: To stop the service and the payments."
+      "title": "Professional Subscriptions",
+      "content": "Many professional tools use a subscription model (SaaS - Software as a Service).\n\n- **Subscription**: A regular payment for a service (Microsoft 365, Zoom, Adobe).\n- **Monthly Fee**: The price the company pays every month per user.\n- **Annual / Yearly Fee**: The price paid once a year (often cheaper).\n- **Free Trial**: Using a software for free for a short time to test it.\n- **License**: The official permission to use a software."
     },
     {
       "id": "automatic-billing",
-      "title": "Automatic Billing (Auto-Pay)",
-      "content": "You can set up your bank to pay bills automatically.\n\n- **Auto-Pay**: The bank sends the money automatically on a specific day.\n- **Direct Debit**: An instruction to your bank to allow a company to take money.\n- **Due Date**: The day you must pay the bill.\n- **Renew**: To continue the subscription for another month/year."
+      "title": "Automatic Billing & Renewals",
+      "content": "Companies often set up automatic payments for their digital tools.\n\n- **Auto-Pay**: The system pays the invoice automatically on a specific day.\n- **Billing Date**: The day the company is charged for the service.\n- **Renewal**: When a subscription continues for another period (month/year).\n- **Cancel**: To stop the subscription before the next billing date."
     },
     {
       "id": "diagram-subscription",
       "title": "Subscription Cycle",
-      "content": "```mermaid\ngraph TD\n    A[Start Free Trial] --> B[Trial Ends]\n    B --> C{Cancel?}\n    C -- No --> D[First Auto-Pay]\n    D --> E[Monthly Service]\n    E --> F[Next Billing Date]\n    C -- Yes --> G[Service Stops]\n```"
+      "content": "```mermaid\ngraph TD\n    A[Start Free Trial] --> B[Trial Ends]\n    B --> C{Renew?}\n    C -- Yes --> D[First Auto-Pay]\n    D --> E[Active License]\n    E --> F[Next Billing Date]\n    C -- No --> G[Service Stops]\n```"
     }
   ],
   "objectives": [
-    "Identify common subscription terms (Monthly, Annual, Trial)",
-    "Understand how 'Auto-Pay' works for regular bills",
-    "Learn basic phrases for starting or stopping a service"
+    "Identify common professional subscription terms (Monthly, Annual, License)",
+    "Understand how 'Auto-Pay' works for software invoices",
+    "Learn basic phrases for renewing or cancelling a professional service"
   ],
   "keyTerms": [
-    { "term": "Subscription", "definition": "An agreement to pay money regularly for a service." },
-    { "term": "Auto-Pay", "definition": "A system where payments are made automatically." },
-    { "term": "Trial", "definition": "A test period to try a product before buying it." }
+    { "term": "SaaS", "definition": "Software as a Service; paying for software on a subscription basis." },
+    { "term": "License", "definition": "The legal right to use a specific software or tool." },
+    { "term": "Renewal", "definition": "The process of extending a subscription for another period." }
   ]
 }

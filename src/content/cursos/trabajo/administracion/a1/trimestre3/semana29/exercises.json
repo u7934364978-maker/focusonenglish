@@ -1,208 +1,914 @@
 {
-  "title": "Smart Billing Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana29",
+  "title": "Exercises: Confirming Appointments and Meetings",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a1-w29-ex01",
       "type": "multiple-choice",
-      "question": "What is 'Direct Debit'?",
-      "options": ["A way to pay in cash", "An automatic payment from your bank", "A type of credit card", "A physical bill in the mail"],
-      "correctAnswer": 1,
-      "explanation": "Direct Debit is an automated way for companies to collect payments from your account."
+      "prompt": "How do you ask if someone is free on Monday?",
+      "options": [
+        "Are you available on Monday?",
+        "Do you available on Monday?",
+        "Are you busy on Monday?",
+        "Is you available on Monday?"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'Are you available...?' to check someone's schedule."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "The electricity bill is due ________ October 5th.",
-      "answer": "on",
-      "explanation": "We use 'on' for specific dates."
+      "id": "adm-a1-w29-ex02",
+      "type": "multiple-choice",
+      "prompt": "What does 'Appointment' mean?",
+      "options": [
+        "Una nota",
+        "Una cita/reunión programada",
+        "Un calendario",
+        "Un escritorio"
+      ],
+      "answerIndex": 1,
+      "explanation": "An 'Appointment' is a formal arrangement to meet at a specific time."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the billing terms:",
+      "id": "adm-a1-w29-ex03",
+      "type": "fill-blank",
+      "prompt": "I am ________ (ocupado) at 10:00 AM.",
+      "answer": "busy",
+      "explanation": "'Busy' is the English word for 'ocupado'."
+    },
+    {
+      "id": "adm-a1-w29-ex04",
+      "type": "multiple-choice",
+      "prompt": "Which question uses the correct grammar?",
+      "options": [
+        "Do the meeting start at 9?",
+        "Does the meeting starts at 9?",
+        "Does the meeting start at 9?",
+        "Is the meeting start at 9?"
+      ],
+      "answerIndex": 2,
+      "explanation": "In questions with 'Does', we use the base form of the verb ('start')."
+    },
+    {
+      "id": "adm-a1-w29-ex05",
+      "type": "matching",
+      "prompt": "Match the words with their opposites:",
       "pairs": [
-        { "term": "Overdue", "definition": "Late payment" },
-        { "term": "Due Date", "definition": "The deadline" },
-        { "term": "Paperless", "definition": "Digital only" }
+        { "term": "Available", "definition": "Busy" },
+        { "term": "Confirm", "definition": "Cancel" },
+        { "term": "Before", "definition": "After" },
+        { "term": "Start", "definition": "Finish" }
       ]
     },
     {
-      "id": "ex4",
+      "id": "adm-a1-w29-ex06",
       "type": "multiple-choice",
-      "question": "Where can you see all your monthly services like Netflix or Spotify?",
-      "options": ["In the trash", "In the Subscription Manager", "At the supermarket", "In the card slot"],
-      "correctAnswer": 1,
-      "explanation": "A subscription manager helps you track recurring digital payments."
+      "prompt": "How do you say 'Me gustaría confirmar la reunión'?",
+      "options": [
+        "I would like to confirm the meeting.",
+        "I will like to confirm the meeting.",
+        "I am like to confirm the meeting.",
+        "I like to confirm the meeting."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I would like to...' is the polite way to express a desire or intention."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "The auto-pay runs ________ 12:00 AM.",
-      "answer": "at",
-      "explanation": "We use 'at' for specific times of the day."
+      "id": "adm-a1-w29-ex07",
+      "type": "fill-blank",
+      "prompt": "She ________ (no tiene) any appointments today.",
+      "answer": "doesn't have",
+      "explanation": "Negative third person singular in Present Simple is 'doesn't' + base verb."
     },
     {
-      "id": "ex6",
+      "id": "adm-a1-w29-ex08",
       "type": "multiple-choice",
-      "question": "What are 'Utilities'?",
-      "options": ["Gifts and toys", "Water, gas, and electricity", "New shoes", "Travel tickets"],
-      "correctAnswer": 1,
-      "explanation": "Utilities are essential services for your home."
+      "prompt": "What does 'Does Tuesday work for you?' mean?",
+      "options": [
+        "¿Trabajas el martes?",
+        "¿Te viene bien el martes?",
+        "¿Es martes hoy?",
+        "¿Haces el martes?"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a common idiomatic way to ask if a specific day is convenient."
     },
     {
-      "id": "ex7",
-      "type": "vocabulary-match",
-      "question": "Match the prepositions of time:",
+      "id": "adm-a1-w29-ex09",
+      "type": "fill-blank",
+      "prompt": "I have a ________ (reunión) with the director at 3 PM.",
+      "answer": "meeting",
+      "explanation": "'Meeting' is the standard term for a professional gathering."
+    },
+    {
+      "id": "adm-a1-w29-ex10",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct negative sentence:",
+      "options": [
+        "I don't am available.",
+        "I am not available.",
+        "I doesn't available.",
+        "I no am available."
+      ],
+      "answerIndex": 1,
+      "explanation": "With the verb 'to be', we use 'not' for negation."
+    },
+    {
+      "id": "adm-a1-w29-ex11",
+      "type": "listening",
+      "prompt": "Listen and answer: When is the meeting?",
+      "transcript": "Hello Mr. Smith, I am calling to confirm our meeting. Is Wednesday at 2:00 PM okay for you?",
+      "options": ["Monday at 2:00 PM", "Wednesday at 2:00 PM", "Tuesday at 3:00 PM", "Friday at 10:00 AM"],
+      "answerIndex": 1,
+      "explanation": "The speaker asks about 'Wednesday at 2:00 PM'."
+    },
+    {
+      "id": "adm-a1-w29-ex12",
+      "type": "listening",
+      "prompt": "Listen and identify the speaker's status:",
+      "transcript": "I'm sorry, I cannot meet on Friday morning. I am very busy with the new project.",
+      "options": ["Available", "Busy", "Sick", "On vacation"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'I am very busy'."
+    },
+    {
+      "id": "adm-a1-w29-ex13",
+      "type": "listening",
+      "prompt": "Listen and choose the correct day mentioned:",
+      "transcript": "Let's schedule the appointment for next Thursday. Does that work?",
+      "options": ["Tuesday", "Thursday", "Friday", "Monday"],
+      "answerIndex": 1,
+      "explanation": "The speaker mentions 'next Thursday'."
+    },
+    {
+      "id": "adm-a1-w29-ex14",
+      "type": "listening",
+      "prompt": "Listen and complete the sentence: 'I ________ a meeting at 4 PM.'",
+      "transcript": "Hi Jane, I have a meeting at 4 PM today, so I can't talk now.",
+      "options": ["start", "have", "need", "finish"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'I have a meeting'."
+    },
+    {
+      "id": "adm-a1-w29-ex15",
+      "type": "listening",
+      "prompt": "Listen and identify the action:",
+      "transcript": "I need to reschedule our call to tomorrow. Are you free?",
+      "options": ["Confirm", "Reschedule", "Cancel", "Start"],
+      "answerIndex": 1,
+      "explanation": "The speaker explicitly says: 'I need to reschedule'."
+    },
+    {
+      "id": "adm-a1-w29-ex16",
+      "type": "listening",
+      "prompt": "Listen and answer: Does the speaker have time on Monday?",
+      "transcript": "I check my calendar... yes, I have time on Monday morning.",
+      "options": ["Yes", "No", "Maybe", "I don't know"],
+      "answerIndex": 0,
+      "explanation": "The speaker says: 'yes, I have time on Monday morning'."
+    },
+    {
+      "id": "adm-a1-w29-ex17",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the time of the appointment?",
+      "transcript": "Your appointment is confirmed for 10:30 AM tomorrow.",
+      "options": ["10:00 AM", "11:30 AM", "10:30 AM", "9:30 AM"],
+      "answerIndex": 2,
+      "explanation": "The speaker mentions '10:30 AM'."
+    },
+    {
+      "id": "adm-a1-w29-ex18",
+      "type": "listening",
+      "prompt": "Listen and answer: Why can't the speaker meet?",
+      "transcript": "I don't have the office key today, so we can't meet there.",
+      "options": ["Too busy", "No office key", "Sick", "Late"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'I don't have the office key'."
+    },
+    {
+      "id": "adm-a1-w29-ex19",
+      "type": "listening",
+      "prompt": "Listen and complete: 'Please check your ________.'",
+      "transcript": "Please check your calendar and let me know your availability.",
+      "options": ["email", "phone", "calendar", "notes"],
+      "answerIndex": 2,
+      "explanation": "The speaker says: 'Please check your calendar'."
+    },
+    {
+      "id": "adm-a1-w29-ex20",
+      "type": "listening",
+      "prompt": "Listen and answer: What day is suggested?",
+      "transcript": "How about Friday? Friday is good for me.",
+      "options": ["Monday", "Friday", "Saturday", "Sunday"],
+      "answerIndex": 1,
+      "explanation": "The speaker suggests 'Friday'."
+    },
+    {
+      "id": "adm-a1-w29-ex21",
+      "type": "multiple-choice",
+      "prompt": "Which phrase is used to offer a new time?",
+      "options": [
+        "How about 2 PM?",
+        "I am 2 PM.",
+        "What is 2 PM?",
+        "Do you 2 PM?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'How about...?' is a common way to suggest a time or option."
+    },
+    {
+      "id": "adm-a1-w29-ex22",
+      "type": "fill-blank",
+      "prompt": "Do you ________ (tener) time for a quick call?",
+      "answer": "have",
+      "explanation": "Present Simple question with 'Do' uses the base verb 'have'."
+    },
+    {
+      "id": "adm-a1-w29-ex23",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'No estoy disponible el viernes'.",
+      "options": [
+        "I don't available on Friday.",
+        "I am not available on Friday.",
+        "I am busy not on Friday.",
+        "I no available on Friday."
+      ],
+      "answerIndex": 1,
+      "explanation": "The correct negation with the adjective 'available' is 'am not'."
+    },
+    {
+      "id": "adm-a1-w29-ex24",
+      "type": "fill-blank",
+      "prompt": "Please confirm the ________ (lugar) of the meeting.",
+      "answer": "location",
+      "explanation": "'Location' (or 'place') is where the meeting happens."
+    },
+    {
+      "id": "adm-a1-w29-ex25",
+      "type": "matching",
+      "prompt": "Match the questions with the best answers:",
       "pairs": [
-        { "term": "In", "definition": "Months (June, July)" },
-        { "term": "On", "definition": "Days (Monday, Tuesday)" },
-        { "term": "At", "definition": "Hours (10:30, Noon)" }
+        { "term": "Are you free?", "definition": "Yes, I am." },
+        { "term": "Does 4 PM work?", "definition": "Yes, that works." },
+        { "term": "Where is it?", "definition": "In Room 302." },
+        { "term": "What time is it?", "definition": "At 10:00." }
       ]
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "I have to pay the rent ________ the first of the month.",
-      "answer": "on",
-      "explanation": "Dates like 'the first' or 'the tenth' use 'on'."
-    },
-    {
-      "id": "ex9",
+      "id": "adm-a1-w29-ex26",
       "type": "multiple-choice",
-      "question": "If your bill is 'Paperless', how do you receive it?",
-      "options": ["By post", "In your app or email", "By telephone", "You don't receive it"],
-      "correctAnswer": 1,
-      "explanation": "Paperless means digital delivery."
+      "prompt": "What does 'I look forward to our meeting' mean?",
+      "options": [
+        "Espero con ansias nuestra reunión.",
+        "Estoy mirando la reunión.",
+        "No quiero ir a la reunión.",
+        "La reunión es aburrida."
+      ],
+      "answerIndex": 0,
+      "explanation": "It is a polite way to close an email before a scheduled meeting."
     },
     {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "The subscription arrives ________ April.",
+      "id": "adm-a1-w29-ex27",
+      "type": "fill-blank",
+      "prompt": "________ (Hacer) the meeting start at noon?",
+      "answer": "Does",
+      "explanation": "We use 'Does' for singular third-person subjects ('the meeting')."
+    },
+    {
+      "id": "adm-a1-w29-ex28",
+      "type": "multiple-choice",
+      "prompt": "Which word is a synonym for 'schedule'?",
+      "options": [
+        "Appointment",
+        "Calendar",
+        "Available",
+        "Busy"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'Calendar' is used to manage a 'schedule'."
+    },
+    {
+      "id": "adm-a1-w29-ex29",
+      "type": "fill-blank",
+      "prompt": "I don't ________ (saber) if I am free tomorrow.",
+      "answer": "know",
+      "explanation": "'Know' is the base verb used after 'don't'."
+    },
+    {
+      "id": "adm-a1-w29-ex30",
+      "type": "multiple-choice",
+      "prompt": "What is 'Availability'?",
+      "options": [
+        "The state of being free to meet",
+        "The place of the meeting",
+        "The name of the boss",
+        "The computer password"
+      ],
+      "answerIndex": 0,
+      "explanation": "Availability (disponibilidad) is whether or not someone has free time."
+    },
+    {
+      "id": "adm-a1-w29-ex31",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct question:",
+      "options": [
+        "When you have time?",
+        "When do you have time?",
+        "When does you have time?",
+        "When is you have time?"
+      ],
+      "answerIndex": 1,
+      "explanation": "We need the auxiliary 'do' for questions in Present Simple with 'you'."
+    },
+    {
+      "id": "adm-a1-w29-ex32",
+      "type": "fill-blank",
+      "prompt": "I am ________ (reprogramando) the meeting for Friday.",
+      "answer": "rescheduling",
+      "explanation": "'Rescheduling' is the continuous form of 'reschedule'."
+    },
+    {
+      "id": "adm-a1-w29-ex33",
+      "type": "multiple-choice",
+      "prompt": "Translate: '¿A qué hora termina la reunión?'",
+      "options": [
+        "What time does the meeting finish?",
+        "What time do the meeting finish?",
+        "What time is the meeting finish?",
+        "What time does the meeting finishes?"
+      ],
+      "answerIndex": 0,
+      "explanation": "Correct structure: Question word + does + subject + base verb."
+    },
+    {
+      "id": "adm-a1-w29-ex34",
+      "type": "fill-blank",
+      "prompt": "The meeting ________ (no es) in the main office.",
+      "answer": "isn't",
+      "explanation": "'Isn't' (or 'is not') is the negation of 'is'."
+    },
+    {
+      "id": "adm-a1-w29-ex35",
+      "type": "matching",
+      "prompt": "Match the times with their descriptions:",
+      "pairs": [
+        { "term": "9:00 AM", "definition": "Nine in the morning" },
+        { "term": "1:00 PM", "definition": "One in the afternoon" },
+        { "term": "12:00 PM", "definition": "Noon" },
+        { "term": "12:00 AM", "definition": "Midnight" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex36",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'Por favor, avíseme'?",
+      "options": [
+        "Please let me know.",
+        "Please tell me know.",
+        "Please let me known.",
+        "Please let me to know."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Please let me know' is a fixed professional phrase."
+    },
+    {
+      "id": "adm-a1-w29-ex37",
+      "type": "fill-blank",
+      "prompt": "I ________ (no estoy) busy on Thursday afternoon.",
+      "answer": "am not",
+      "explanation": "Negation of 'am' is 'am not'."
+    },
+    {
+      "id": "adm-a1-w29-ex38",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Meeting Room'?",
+      "options": [
+        "The cafeteria",
+        "A conference room",
+        "The parking lot",
+        "The bathroom"
+      ],
+      "answerIndex": 1,
+      "explanation": "Meetings usually happen in a conference or meeting room."
+    },
+    {
+      "id": "adm-a1-w29-ex39",
+      "type": "fill-blank",
+      "prompt": "Does the director ________ (tener) any free time?",
+      "answer": "have",
+      "explanation": "In questions with 'Does', we use the base form 'have'."
+    },
+    {
+      "id": "adm-a1-w29-ex40",
+      "type": "multiple-choice",
+      "prompt": "What does 'Cancelled' mean?",
+      "options": [
+        "Confirmado",
+        "Cancelado",
+        "Atrasado",
+        "Empezado"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Cancelled' means something will no longer take place."
+    },
+    {
+      "id": "adm-a1-w29-ex41",
+      "type": "multiple-choice",
+      "prompt": "Identify the error: 'Do he available for a meeting?'",
+      "options": ["Do", "he", "available", "meeting"],
+      "answerIndex": 0,
+      "explanation": "It should be 'Is he available...?' because available is an adjective."
+    },
+    {
+      "id": "adm-a1-w29-ex42",
+      "type": "fill-blank",
+      "prompt": "I look forward to ________ (ver) you on Tuesday.",
+      "answer": "seeing",
+      "explanation": "'Look forward to' is followed by the gerund (-ing form)."
+    },
+    {
+      "id": "adm-a1-w29-ex43",
+      "type": "multiple-choice",
+      "prompt": "Translate: '¿Viene bien el miércoles?'",
+      "options": [
+        "Is Wednesday work?",
+        "Does Wednesday works?",
+        "Does Wednesday work?",
+        "Do Wednesday work?"
+      ],
+      "answerIndex": 2,
+      "explanation": "Correct question: Does + subject (Wednesday) + base verb (work)."
+    },
+    {
+      "id": "adm-a1-w29-ex44",
+      "type": "fill-blank",
+      "prompt": "The meeting is at 2 PM, so please don't be ________ (tarde).",
+      "answer": "late",
+      "explanation": "'Late' is the opposite of 'on time' or 'early'."
+    },
+    {
+      "id": "adm-a1-w29-ex45",
+      "type": "multiple-choice",
+      "prompt": "What is 'Noon'?",
+      "options": [
+        "12:00 AM",
+        "12:00 PM",
+        "6:00 PM",
+        "9:00 AM"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Noon' is midday or 12:00 PM."
+    },
+    {
+      "id": "adm-a1-w29-ex46",
+      "type": "reading",
+      "text": "Subject: Meeting Confirmation\n\nDear Sarah,\n\nI am writing to confirm our meeting for next Monday at 10:00 AM. We will meet in Conference Room B. Please let me know if this time still works for you.\n\nBest regards,\nJohn",
+      "questions": [
+        {
+          "prompt": "When is the meeting?",
+          "options": ["Monday at 10:00 AM", "Tuesday at 10:00 AM", "Monday at 11:00 AM", "Friday at 10:00 AM"],
+          "answerIndex": 0,
+          "explanation": "The text says: 'Monday at 10:00 AM'."
+        },
+        {
+          "prompt": "Where is the meeting?",
+          "options": ["Room A", "Room B", "The cafeteria", "Sarah's office"],
+          "answerIndex": 1,
+          "explanation": "John mentions 'Conference Room B'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Confirm", "definition": "Confirmar" },
+        { "term": "Conference Room", "definition": "Sala de conferencias" },
+        { "term": "Still", "definition": "Todavía" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex47",
+      "type": "reading",
+      "text": "Hi Bob,\n\nI am sorry, but I am very busy on Wednesday afternoon. Can we reschedule our appointment to Thursday at 3 PM? Please check your calendar and tell me if you are available.\n\nThanks,\nAlice",
+      "questions": [
+        {
+          "prompt": "Why does Alice want to reschedule?",
+          "options": ["She is sick", "She is on vacation", "She is very busy", "She forgot"],
+          "answerIndex": 2,
+          "explanation": "Alice says: 'I am very busy on Wednesday afternoon'."
+        },
+        {
+          "prompt": "What time does she suggest for Thursday?",
+          "options": ["2 PM", "3 PM", "4 PM", "10 AM"],
+          "answerIndex": 1,
+          "explanation": "She suggests 'Thursday at 3 PM'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Reschedule", "definition": "Reprogramar" },
+        { "term": "Afternoon", "definition": "Tarde" },
+        { "term": "Available", "definition": "Disponible" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex48",
+      "type": "reading",
+      "text": "Subject: Appointment Cancellation\n\nDear Client,\n\nUnfortunately, we need to cancel your appointment today at 4:30 PM because the office is closing early due to a power outage. We will call you tomorrow to schedule a new time.\n\nApologies for the inconvenience.",
+      "questions": [
+        {
+          "prompt": "What is happening to the appointment?",
+          "options": ["It is confirmed", "It is starting early", "It is cancelled", "It is longer"],
+          "answerIndex": 2,
+          "explanation": "The subject and text state the appointment is 'cancelled'."
+        },
+        {
+          "prompt": "Why is the office closing early?",
+          "options": ["A holiday", "A meeting", "A power outage", "It is Friday"],
+          "answerIndex": 2,
+          "explanation": "It's 'due to a power outage' (corte de luz)."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Unfortunately", "definition": "Lamentablemente" },
+        { "term": "Due to", "definition": "Debido a" },
+        { "term": "Inconvenience", "definition": "Inconveniencia/Molestia" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex49",
+      "type": "reading",
+      "text": "Hello Team,\n\nDoes Tuesday at 11 AM work for everyone for our weekly sync? Please reply with 'Yes' or suggest a different time if you are busy. I need to confirm the room by 5 PM today.\n\nRegards,\nMark",
+      "questions": [
+        {
+          "prompt": "What time is suggested for the sync?",
+          "options": ["10 AM", "11 AM", "12 PM", "11 PM"],
+          "answerIndex": 1,
+          "explanation": "Mark suggests 'Tuesday at 11 AM'."
+        },
+        {
+          "prompt": "When does Mark need a response?",
+          "options": ["Tomorrow", "By 11 AM", "By 5 PM today", "Next Tuesday"],
+          "answerIndex": 2,
+          "explanation": "He says: 'I need to confirm the room by 5 PM today'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Sync", "definition": "Sincronización (reunión de equipo)" },
+        { "term": "Reply", "definition": "Responder" },
+        { "term": "Suggest", "definition": "Sugerir" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex50",
+      "type": "reading",
+      "text": "Hi Peter,\n\nI have an appointment with a client at 2 PM, but it usually finishes around 3 PM. Can we meet at 3:15 PM instead? I don't want to be late for our meeting.\n\nLet me know,\nDavid",
+      "questions": [
+        {
+          "prompt": "What time does David suggest meeting Peter?",
+          "options": ["2:00 PM", "3:00 PM", "3:15 PM", "4:00 PM"],
+          "answerIndex": 2,
+          "explanation": "He asks: 'Can we meet at 3:15 PM instead?'"
+        },
+        {
+          "prompt": "Why is he suggesting a later time?",
+          "options": ["He is late", "His previous appointment finishes at 3 PM", "He is sick", "He is out of office"],
+          "answerIndex": 1,
+          "explanation": "He says his 2 PM appointment 'finishes around 3 PM'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Around", "definition": "Alrededor de" },
+        { "term": "Instead", "definition": "En su lugar" },
+        { "term": "Late", "definition": "Tarde" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex51",
+      "type": "reading",
+      "text": "Dear Ms. Jones,\n\nYour appointment with the HR manager is scheduled for Friday morning at 9:30 AM. Please arrive 10 minutes early to sign some documents at the reception.\n\nBest regards,\nHR Department",
+      "questions": [
+        {
+          "prompt": "What time is the appointment?",
+          "options": ["9:00 AM", "9:30 AM", "9:40 AM", "10:00 AM"],
+          "answerIndex": 1,
+          "explanation": "The text says '9:30 AM'."
+        },
+        {
+          "prompt": "What should Ms. Jones do at the reception?",
+          "options": ["Wait for 10 minutes", "Sign documents", "Ask for a coffee", "Call the manager"],
+          "answerIndex": 1,
+          "explanation": "She needs to 'sign some documents at the reception'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Arrive", "definition": "Llegar" },
+        { "term": "Early", "definition": "Temprano" },
+        { "term": "Reception", "definition": "Recepción" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex52",
+      "type": "reading",
+      "text": "Hi Team,\n\nThe meeting room is busy until 1 PM. Let's move our lunch meeting to the cafeteria. We can still discuss the agenda there.\n\nSee you at 12:30,\nKevin",
+      "questions": [
+        {
+          "prompt": "Why can't they meet in the room?",
+          "options": ["It is too small", "It is busy until 1 PM", "It is broken", "It is closed"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'The meeting room is busy until 1 PM'."
+        },
+        {
+          "prompt": "Where will they meet now?",
+          "options": ["The office", "The cafeteria", "The parking lot", "The lobby"],
+          "answerIndex": 1,
+          "explanation": "Kevin says: 'Let's move our lunch meeting to the cafeteria'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Until", "definition": "Hasta" },
+        { "term": "Move", "definition": "Mover/Trasladar" },
+        { "term": "Discuss", "definition": "Discutir/Debatir" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex53",
+      "type": "reading",
+      "text": "Subject: Rescheduling again\n\nHi Mike,\n\nI am sorry for the delay. I don't have my calendar with me right now. I will check my availability tonight and email you tomorrow morning to confirm a time.\n\nTalk soon,\nChris",
+      "questions": [
+        {
+          "prompt": "What is Chris's problem?",
+          "options": ["He is sick", "He doesn't have his calendar", "He is in a meeting", "He is lost"],
+          "answerIndex": 1,
+          "explanation": "Chris states: 'I don't have my calendar with me right now'."
+        },
+        {
+          "prompt": "When will Chris email Mike?",
+          "options": ["Tonight", "Tomorrow morning", "Now", "Next week"],
+          "answerIndex": 1,
+          "explanation": "He says he will email 'tomorrow morning'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Delay", "definition": "Retraso" },
+        { "term": "Right now", "definition": "Ahora mismo" },
+        { "term": "Tonight", "definition": "Esta noche" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex54",
+      "type": "reading",
+      "text": "Hello,\n\nI have an appointment at 11:00 AM, and another one at 1:00 PM. I am available between 12:00 PM and 1:00 PM if you want to have a quick meeting.\n\nRegards,\nLinda",
+      "questions": [
+        {
+          "prompt": "When is Linda free?",
+          "options": ["11:00 AM", "1:00 PM", "Between 12:00 PM and 1:00 PM", "All day"],
+          "answerIndex": 2,
+          "explanation": "She says she is available 'between 12:00 PM and 1:00 PM'."
+        },
+        {
+          "prompt": "How many appointments does she already have?",
+          "options": ["One", "Two", "Three", "None"],
+          "answerIndex": 1,
+          "explanation": "She mentions one at 11:00 AM and 'another one' at 1:00 PM."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Between", "definition": "Entre" },
+        { "term": "Another", "definition": "Otro/a" },
+        { "term": "Quick", "definition": "Rápido" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex55",
+      "type": "reading",
+      "text": "Subject: New Schedule\n\nPlease find attached the new office schedule for June. Note that the weekly meeting is now on Fridays instead of Wednesdays. \n\nBest,\nOffice Admin",
+      "questions": [
+        {
+          "prompt": "What changed in the schedule?",
+          "options": [
+            "The meeting time is earlier",
+            "The meeting day moved to Friday",
+            "The meeting is cancelled",
+            "The meeting is longer"
+          ],
+          "answerIndex": 1,
+          "explanation": "The text says: 'the weekly meeting is now on Fridays instead of Wednesdays'."
+        },
+        {
+          "prompt": "For which month is the new schedule?",
+          "options": ["May", "June", "July", "August"],
+          "answerIndex": 1,
+          "explanation": "It's the schedule 'for June'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Instead of", "definition": "En lugar de" },
+        { "term": "Note", "definition": "Notar/Tener en cuenta" },
+        { "term": "Weekly", "definition": "Semanal" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex56",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'Estoy libre' in English?",
+      "options": [
+        "I am free.",
+        "I have free.",
+        "I am freedom.",
+        "I free."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I am free' or 'I am available' are both correct."
+    },
+    {
+      "id": "adm-a1-w29-ex57",
+      "type": "fill-blank",
+      "prompt": "The meeting ________ (empezar) at 10:00 AM.",
+      "answer": "starts",
+      "explanation": "Third person singular 'meeting' adds 's' to the verb in affirmative."
+    },
+    {
+      "id": "adm-a1-w29-ex58",
+      "type": "multiple-choice",
+      "prompt": "Which auxiliary is used for questions with 'you'?",
+      "options": [
+        "Do",
+        "Does",
+        "Am",
+        "Is"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'Do' for 'I, you, we, they'."
+    },
+    {
+      "id": "adm-a1-w29-ex59",
+      "type": "fill-blank",
+      "prompt": "Please ________ (confirmar) your attendance by email.",
+      "answer": "confirm",
+      "explanation": "'Confirm' (confirmar) is the verb used for verification."
+    },
+    {
+      "id": "adm-a1-w29-ex60",
+      "type": "matching",
+      "prompt": "Match the meeting parts:",
+      "pairs": [
+        { "term": "Opening", "definition": "Introductions and greetings" },
+        { "term": "Agenda", "definition": "List of topics to discuss" },
+        { "term": "Minutes", "definition": "Notes of what was decided" },
+        { "term": "Closing", "definition": "Final summary and goodbye" }
+      ]
+    },
+    {
+      "id": "adm-a1-w29-ex61",
+      "type": "multiple-choice",
+      "prompt": "What is the meaning of 'Reschedule'?",
+      "options": [
+        "Eliminar una reunión",
+        "Cambiar la fecha o hora de una reunión",
+        "Escribir las notas de la reunión",
+        "Llegar tarde a la reunión"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Reschedule' (reprogramar) means changing the timing."
+    },
+    {
+      "id": "adm-a1-w29-ex62",
+      "type": "fill-blank",
+      "prompt": "Do you ________ (tener) any free time on Friday?",
+      "answer": "have",
+      "explanation": "Base verb 'have' in a 'Do' question."
+    },
+    {
+      "id": "adm-a1-w29-ex63",
+      "type": "multiple-choice",
+      "prompt": "What do you say if you can't go to a meeting?",
+      "options": [
+        "I am sorry, I can't attend.",
+        "I am very happy I can't go.",
+        "I don't meeting.",
+        "Where is the meeting?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'I am sorry, I can't attend' is a polite way to decline."
+    },
+    {
+      "id": "adm-a1-w29-ex64",
+      "type": "fill-blank",
+      "prompt": "He ________ (no tiene) a meeting today.",
+      "answer": "doesn't have",
+      "explanation": "Negative for 'he' is 'doesn't have'."
+    },
+    {
+      "id": "adm-a1-w29-ex65",
+      "type": "multiple-choice",
+      "prompt": "How do you say '¿Estás ocupado?'",
+      "options": [
+        "Do you busy?",
+        "Are you busy?",
+        "Is you busy?",
+        "Have you busy?"
+      ],
+      "answerIndex": 1,
+      "explanation": "With the adjective 'busy', we use the verb 'to be'."
+    },
+    {
+      "id": "adm-a1-w29-ex66",
+      "type": "fill-blank",
+      "prompt": "I'll see you ________ (en) Conference Room A.",
       "answer": "in",
-      "explanation": "Use 'in' for months."
+      "explanation": "We use 'in' for rooms or buildings."
     },
     {
-      "id": "ex11",
-      "type": "vocabulary-match",
-      "question": "Match the services:",
-      "pairs": [
-        { "term": "Netflix", "definition": "Subscription" },
-        { "term": "Electricity", "definition": "Utility" },
-        { "term": "Rent", "definition": "Housing payment" }
-      ]
-    },
-    {
-      "id": "ex12",
+      "id": "adm-a1-w29-ex67",
       "type": "multiple-choice",
-      "question": "What is a 'Statement'?",
-      "options": ["A type of bill", "A monthly summary of activity", "A bank card", "A security code"],
-      "correctAnswer": 1,
-      "explanation": "A statement shows all your transactions and payments for the month."
+      "prompt": "What is 'Availability'?",
+      "options": [
+        "Disponibilidad",
+        "Responsabilidad",
+        "Capacidad",
+        "Habilidad"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Availability' translates to 'Disponibilidad'."
     },
     {
-      "id": "ex13",
-      "type": "fill-in-the-blank",
-      "question": "Don't be late! The payment is due ________ 5:00 PM.",
-      "answer": "at",
-      "explanation": "Preposition for a specific hour."
+      "id": "adm-a1-w29-ex68",
+      "type": "fill-blank",
+      "prompt": "Does the meeting ________ (terminar) at 5:00?",
+      "answer": "finish",
+      "explanation": "Base form 'finish' in a 'Does' question."
     },
     {
-      "id": "ex14",
+      "id": "adm-a1-w29-ex69",
       "type": "multiple-choice",
-      "question": "What happens if a bill is 'Overdue'?",
-      "options": ["It is free", "You might pay a late fee", "You get a gift", "It is early"],
-      "correctAnswer": 1,
-      "explanation": "Late payments often result in extra charges (fees)."
+      "prompt": "Which word describes a 'formal arrangement to meet'?",
+      "options": [
+        "Appointment",
+        "Conversation",
+        "Party",
+        "Lunch"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Appointment' (cita) is the formal term."
     },
     {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the payment types:",
-      "pairs": [
-        { "term": "Manual", "definition": "You click 'pay' every time" },
-        { "term": "Automatic", "definition": "The app does it for you" },
-        { "term": "Scheduled", "definition": "You plan a future date" }
-      ]
+      "id": "adm-a1-w29-ex70",
+      "type": "fill-blank",
+      "prompt": "I am looking forward ________ (a) our meeting.",
+      "answer": "to",
+      "explanation": "The full phrase is 'look forward to'."
     },
     {
-      "id": "ex16",
-      "type": "fill-in-the-blank",
-      "question": "I pay my bills ________ (cada) month.",
-      "answer": "every",
-      "explanation": "'Every' is used for recurring time periods."
-    },
-    {
-      "id": "ex17",
+      "id": "adm-a1-w29-ex71",
       "type": "multiple-choice",
-      "question": "Which is a 'Scheduled Payment'?",
-      "options": ["Paying cash now", "Planning a transfer for next Friday", "Using an ATM", "Losing your receipt"],
-      "correctAnswer": 1,
-      "explanation": "Scheduling means planning a payment for a later time."
+      "prompt": "How do you say 'A las tres' for time?",
+      "options": [
+        "On three",
+        "In three",
+        "At three",
+        "With three"
+      ],
+      "answerIndex": 2,
+      "explanation": "We use 'at' for specific times."
     },
     {
-      "id": "ex18",
-      "type": "fill-in-the-blank",
-      "question": "The bill is ________ (atrasada). I need to pay now!",
-      "answer": "overdue",
-      "explanation": "'Overdue' is 'atrasada' or 'vencida'."
+      "id": "adm-a1-w29-ex72",
+      "type": "fill-blank",
+      "prompt": "What ________ (hacer) Sarah have in her calendar for Monday?",
+      "answer": "does",
+      "explanation": "Auxiliary 'does' for third person singular 'Sarah'."
     },
     {
-      "id": "ex19",
+      "id": "adm-a1-w29-ex73",
       "type": "multiple-choice",
-      "question": "What is an 'Invoice'?",
-      "options": ["A formal request for payment", "A type of coin", "A bank branch", "A savings goal"],
-      "correctAnswer": 0,
-      "explanation": "An invoice is a document companies send to ask for money for services."
+      "prompt": "What is a 'Conference Call'?",
+      "options": [
+        "Una llamada con varias personas",
+        "Una llamada privada",
+        "Un mensaje de texto",
+        "Un correo electrónico"
+      ],
+      "answerIndex": 0,
+      "explanation": "A 'Conference call' involves multiple participants via phone or video."
     },
     {
-      "id": "ex20",
-      "type": "vocabulary-match",
-      "question": "Match the frequency:",
-      "pairs": [
-        { "term": "Monthly", "definition": "Every month" },
-        { "term": "Weekly", "definition": "Every week" },
-        { "term": "Annual", "definition": "Every year" }
-      ]
+      "id": "adm-a1-w29-ex74",
+      "type": "fill-blank",
+      "prompt": "The manager ________ (no está) in the office today.",
+      "answer": "isn't",
+      "explanation": "'Isn't' is the contraction of 'is not'."
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "Check your app ________ (en) the morning.",
-      "answer": "in",
-      "explanation": "We say 'in the morning'."
-    },
-    {
-      "id": "ex22",
+      "id": "adm-a1-w29-ex75",
       "type": "multiple-choice",
-      "question": "Why use 'Auto-pay' for rent?",
-      "options": ["To save battery", "To never forget the due date", "To make the bank happy", "To change the currency"],
-      "correctAnswer": 1,
-      "explanation": "Auto-pay ensures you are always on time with important payments."
-    },
-    {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "The due date is ________ Friday.",
-      "answer": "on",
-      "explanation": "Use 'on' for days of the week."
-    },
-    {
-      "id": "ex24",
-      "type": "vocabulary-match",
-      "question": "Digital Billing icons:",
-      "pairs": [
-        { "term": "Bell", "definition": "Notifications" },
-        { "term": "Calendar", "definition": "Scheduled dates" },
-        { "term": "Document", "definition": "Invoices / Bills" }
-      ]
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "If you pay 'On time', you pay...",
-      "options": ["Before the due date", "Exactly when needed", "After the due date", "Never"],
-      "correctAnswer": 1,
-      "explanation": "'On time' means meeting the deadline perfectly."
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I have a meeting on Tuesday.",
+        "I has a meeting on Tuesday.",
+        "I am meeting on Tuesday.",
+        "I have a meeting in Tuesday."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I have' + 'meeting' + 'on' (for days) is the correct structure."
     }
   ]
 }

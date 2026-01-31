@@ -22,11 +22,6 @@
       "content": "1. **personally identifiable information (PII)** — Any data that can be used to identify a specific person.\n2. **data controller** — The person or organisation that determines the purpose of data processing.\n3. **data processor** — A third party that processes data on behalf of the controller.\n4. **to be in compliance with** — To follow the rules and regulations correctly.\n5. **to exercise a right** — To use a legal right (e.g., the right to be forgotten).\n6. **to redact information** — To black out or remove sensitive information from a document.\n7. **security breach** — An incident that results in unauthorised access to data.\n8. **encryption** — The process of converting information into a code to prevent unauthorised access.\n9. **opt-in / opt-out** — Choosing to participate or not participate in data collection.\n10. **third-party disclosure** — Sharing data with an external company.\n11. **non-disclosure agreement (NDA)** — A contract preventing the sharing of confidential info.\n12. **due diligence** — The care that a reasonable person exercises to avoid harm.\n13. **to mitigate risk** — To make a risk less severe.\n14. **sensitive data** — Data that requires higher protection (e.g., health or ethnic origin).\n15. **anonymisation** — Removing identifying markers so data is no longer PII."
     },
     {
-      "id": "deliverable",
-      "title": "Weekly Deliverable (Portfolio)",
-      "content": "### Task: Data Privacy Internal Audit\nPerform a 'mini-audit' of your current (or a hypothetical) workspace and write a 250-word report.\n\n**Structure:**\n1. **Observation**: Identify two potential privacy risks (e.g., unlocked filing cabinets, passwords on sticky notes).\n2. **Evaluation**: Use **complex passives** to describe how these risks are perceived (e.g., 'It is thought that...').\n3. **Recommendations**: Suggest two actions to ensure the office is 'in compliance' with GDPR."
-    },
-    {
       "id": "dpia-protocol",
       "title": "Data Protection Impact Assessments (DPIAs)",
       "content": "A **DPIA** is a process designed to help you identify and minimise the data protection risks of a project. It is mandatory under GDPR for any processing that is likely to result in a high risk to individuals.\n\n### When is a DPIA required?\n- When using new technologies (e.g., AI in recruitment).\n- Large-scale processing of sensitive data (health, criminal records).\n- Systematic monitoring of a public area (CCTV).\n\n### Key Steps in a DPIA\n1. **Describe**: Define the nature, scope, and context of the processing.\n2. **Assess**: Evaluate the necessity and proportionality of the data collection.\n3. **Identify Risks**: Look for potential breaches or misuses of data.\n4. **Mitigate**: Implement measures to reduce those risks."
@@ -35,6 +30,16 @@
       "id": "cyber-hygiene",
       "title": "Cyber Hygiene for Administrative Professionals",
       "content": "Daily habits can prevent 80% of data breaches. Administrative staff are the first line of defence against cyber threats.\n\n### Essential Practices\n- **Password Integrity**: Use complex, unique passwords and Multi-Factor Authentication (MFA).\n- **Phishing Awareness**: Be wary of 'Urgent' emails asking for passwords or bank details. **It is estimated that** 90% of successful attacks start with phishing.\n- **Clear Desk Policy**: Ensure no PII is visible on desks or screens when you are away from your workstation.\n- **Secure Disposal**: Use cross-cut shredders for physical documents containing sensitive info."
+    },
+    {
+      "id": "sar-simulation",
+      "title": "RolePlay: Handling a Subject Access Request (SAR)",
+      "content": "### Objective\nPractise the professional intake and processing of a Subject Access Request (SAR) from a former employee.\n\n### Roles\n- **Role A (Admin Coordinator)**: Receive the SAR via phone or email. You must verify the identity of the requester, explain the 30-day timeframe, and use **complex passives** to explain the company's data handling policy (e.g., *'It is required that we verify identity before releasing records'*).\n- **Role B (Requester)**: You are a former employee asking for all email correspondence mentioning your performance. You are impatient and want the data 'ASAP'.\n\n### Evaluation Rubric\n- **Legal Accuracy**: Correct mention of the 30-day window and identity verification.\n- **Grammar**: Effective use of complex passives (*'It is believed that...'*, *'Data is reported to be...'*).\n- **Diplomacy**: Handling an impatient requester with a neutral, professional tone.\n- **Clarity**: Clearly explaining which data can and cannot be shared (redaction)."
+    },
+    {
+      "id": "deliverable",
+      "title": "Weekly Deliverable (Portfolio)",
+      "content": "### Task: Data Privacy Internal Audit\nPerform a 'mini-audit' of your current (or a hypothetical) workspace and write a 250-word report.\n\n**Structure:**\n1. **Observation**: Identify two potential privacy risks (e.g., unlocked filing cabinets, passwords on sticky notes).\n2. **Evaluation**: Use **complex passives** to describe how these risks are perceived (e.g., 'It is thought that...').\n3. **Recommendations**: Suggest two actions to ensure the office is 'in compliance' with GDPR.\n4. **RolePlay Audio**: Submit a 3-minute recording of the SAR intake simulation."
     }
   ],
   "objectives": [

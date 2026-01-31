@@ -17,12 +17,12 @@
         "GDP"
       ],
       "answerIndex": 1,
-      "explanation": "CAPEX (Capital Expenditure) refers to major investments in fixed assets."
+      "explanation": "CAPEX (Capital Expenditure) refers to major investments in fixed assets like hardware or infrastructure."
     },
     {
       "id": "adm-b2-w15-exam-2",
       "type": "multipleChoice",
-      "prompt": "How do you express a regret about a past overspend?",
+      "prompt": "How do you correctly express a regret about a past overspend?",
       "options": [
         "I wish we hadn't overspent.",
         "I wish we didn't overspend.",
@@ -30,12 +30,12 @@
         "I wish we don't overspend."
       ],
       "answerIndex": 0,
-      "explanation": "To express regret about the past, use 'wish + past perfect'."
+      "explanation": "To express regret about a past action that cannot be changed, the Past Perfect (wish + hadn't + past participle) is required."
     },
     {
       "id": "adm-b2-w15-exam-3",
       "type": "multipleChoice",
-      "prompt": "What is 'Variance Analysis' in budgeting?",
+      "prompt": "What is 'Variance Analysis' in a professional administrative context?",
       "options": [
         "A way to calculate staff bonuses",
         "A method of encrypting financial files",
@@ -43,7 +43,7 @@
         "The process of hiring new accountants"
       ],
       "answerIndex": 2,
-      "explanation": "Variance analysis identifies the difference between what was planned and what was actually spent."
+      "explanation": "Variance analysis is the quantitative investigation of the difference between actual and planned financial performance."
     },
     {
       "id": "adm-b2-w15-exam-4",
@@ -56,7 +56,7 @@
         "would had"
       ],
       "answerIndex": 1,
-      "explanation": "To express a wish about the present, use 'wish + past simple'."
+      "explanation": "A wish about a current situation that we want to be different uses the Past Simple form of the verb."
     },
     {
       "id": "adm-b2-w15-exam-5",
@@ -64,12 +64,207 @@
       "prompt": "To 'justify the spend' means:",
       "options": [
         "To hide the receipts from the manager",
-        "To explain why a particular expense was necessary",
+        "To provide a valid business reason for an expenditure",
         "To spend as much money as possible",
         "To move money between different bank accounts"
       ],
       "answerIndex": 1,
-      "explanation": "Justifying a spend involves providing a valid reason for an expenditure."
+      "explanation": "Justifying a spend involves demonstrating that the expense is necessary and aligned with business goals."
+    },
+    {
+      "id": "adm-b2-w15-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Which budgeting methodology requires every expense to be justified as if it were the first time, starting from a 'zero base'?",
+      "options": [
+        "Incremental Budgeting",
+        "Fixed Budgeting",
+        "Zero-Based Budgeting (ZBB)",
+        "Rolling Budgeting"
+      ],
+      "answerIndex": 2,
+      "explanation": "Zero-Based Budgeting (ZBB) eliminates 'automatic' budget renewals by requiring justification for every cost every period."
+    },
+    {
+      "id": "adm-b2-w15-exam-7",
+      "type": "multipleChoice",
+      "prompt": "In accounting, a 'Cost Center' is a department that:",
+      "options": [
+        "Directly generates the company's profit",
+        "Costs money to operate but does not directly contribute to profit",
+        "Is responsible for paying all company taxes",
+        "Only exists in non-profit organizations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Administrative, IT, and HR departments are cost centers; they provide essential services but are not direct revenue generators."
+    },
+    {
+      "id": "adm-b2-w15-exam-8",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Fixed Cost' for an office?",
+      "options": [
+        "Stationery (paper, pens)",
+        "Courier fees",
+        "Monthly rent",
+        "Electricity usage"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fixed costs remain constant regardless of the volume of business activity or production."
+    },
+    {
+      "id": "adm-b2-w15-exam-9",
+      "type": "multipleChoice",
+      "prompt": "What is 'Petty Cash Reconciliation'?",
+      "options": [
+        "Buying more snacks for the breakroom",
+        "The process of ensuring cash on hand plus vouchers matches the original float",
+        "Asking the manager for a personal loan",
+        "Closing the company's main bank account"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reconciliation is the control process of verifying that the petty cash box records are accurate."
+    },
+    {
+      "id": "adm-b2-w15-exam-10",
+      "type": "multipleChoice",
+      "prompt": "A 'Favorable Variance' in an expense report occurs when:",
+      "options": [
+        "Actual spending is lower than the budgeted amount",
+        "Actual spending is higher than the budgeted amount",
+        "The budget is exactly zero",
+        "The company goes bankrupt"
+      ],
+      "answerIndex": 0,
+      "explanation": "A favorable variance means you spent less than you planned, resulting in a saving."
+    },
+    {
+      "id": "adm-b2-w15-exam-11",
+      "type": "multipleChoice",
+      "prompt": "Which term describes the ease with which an asset can be converted into cash?",
+      "options": [
+        "Solvency",
+        "Liquidity",
+        "Compliance",
+        "Allocation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Liquidity refers to how quickly assets can be accessed as cash to pay immediate obligations."
+    },
+    {
+      "id": "adm-b2-w15-exam-12",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence with the correct professional chunk: 'We must ___ our discretionary spend to stay within budget.'",
+      "options": [
+        "increase",
+        "curb",
+        "ignore",
+        "forecast"
+      ],
+      "answerIndex": 1,
+      "explanation": "To 'curb' spend means to restrain or limit it, especially non-essential (discretionary) costs."
+    },
+    {
+      "id": "adm-b2-w15-exam-13",
+      "type": "multipleChoice",
+      "prompt": "How should an admin professionally 'flag a discrepancy'?",
+      "options": [
+        "By ignoring the error until next year",
+        "By pointing it out clearly to the relevant person for investigation",
+        "By deleting the incorrect records",
+        "By paying the difference with their own money"
+      ],
+      "answerIndex": 1,
+      "explanation": "Flagging involves identifying a problem (like a mismatch in figures) and bringing it to light for resolution."
+    },
+    {
+      "id": "adm-b2-w15-exam-14",
+      "type": "multipleChoice",
+      "prompt": "Which grammar structure expresses annoyance or a desire for someone else to change their behavior?",
+      "options": [
+        "I wish I had...",
+        "I wish they would...",
+        "I wish I were...",
+        "If only I hadn't..."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Wish + would' is the specific structure used for complaining about a situation or behavior we want to change."
+    },
+    {
+      "id": "adm-b2-w15-exam-15",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Clean Audit Report'?",
+      "options": [
+        "A report that was printed on recycled paper",
+        "A report indicating that financial statements are fair and accurate",
+        "A report that has no text in it",
+        "A report that has been deleted from the server"
+      ],
+      "answerIndex": 1,
+      "explanation": "A clean (or unqualified) audit report is the best possible outcome, showing full compliance."
+    },
+    {
+      "id": "adm-b2-w15-exam-16",
+      "type": "multipleChoice",
+      "prompt": "Which of these is considered 'Discretionary Spend'?",
+      "options": [
+        "Office Rent",
+        "Statutory Insurance",
+        "Employee Welfare Perks (e.g., premium snacks)",
+        "Basic Utility Bills"
+      ],
+      "answerIndex": 2,
+      "explanation": "Discretionary spending is non-essential and can be reduced or eliminated without stopping core operations."
+    },
+    {
+      "id": "adm-b2-w15-exam-17",
+      "type": "multipleChoice",
+      "prompt": "What is the professional term for assigning shared costs to different departments?",
+      "options": [
+        "Liquidation",
+        "Allocation",
+        "Amortization",
+        "Reconciliation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Allocation involves distributing costs (like a shared printer or electricity) across various cost centers."
+    },
+    {
+      "id": "adm-b2-w15-exam-18",
+      "type": "multipleChoice",
+      "prompt": "Express a wish about a current lack of resources: 'I wish we ___ more laptops available.'",
+      "options": [
+        "have",
+        "had",
+        "will have",
+        "would had"
+      ],
+      "answerIndex": 1,
+      "explanation": "Current wishes use the Past Simple form ('had')."
+    },
+    {
+      "id": "adm-b2-w15-exam-19",
+      "type": "multipleChoice",
+      "prompt": "What does it mean if a company is 'Solvent'?",
+      "options": [
+        "It can turn all its assets into water",
+        "It has enough assets to cover its long-term liabilities",
+        "It has no staff members",
+        "It has finished its annual budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "Solvency is the ability of a business to have more assets than liabilities in the long term."
+    },
+    {
+      "id": "adm-b2-w15-exam-20",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is most appropriate for a formal funding request?",
+      "options": [
+        "I want more money for my project.",
+        "We are requesting additional funding to cover a projected overspend.",
+        "The bank is empty, please help.",
+        "I wish the project was cheaper."
+      ],
+      "answerIndex": 1,
+      "explanation": "This phrase is professional, uses the correct terminology, and is polite."
     }
   ]
 }

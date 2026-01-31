@@ -1,30 +1,24 @@
 {
-  "title": "Cards & Modern Payments",
+  "title": "Semana 14: ¿Qué hay en la oficina?",
   "sections": [
     {
-      "id": "vocab-payments",
-      "title": "Vocabulary: Traditional & Digital Money",
-      "content": "We use different methods to pay today:\n\n- **Cash**: Physical notes and coins.\n- **Debit Card**: Direct payment from your bank account.\n- **Credit Card**: Paying with borrowed money (pay later).\n- **Contactless**: Tapping your card or phone to pay instantly.\n- **Mobile Payment**: Using your phone (Apple Pay, Google Pay) as a wallet.\n- **PIN**: Your secret 4-digit code for security."
+      "id": "office-spaces",
+      "title": "Espacios de la Oficina",
+      "content": "Conoce los nombres de las diferentes áreas de tu lugar de trabajo:\n\n- **Reception**: Recepción\n- **Meeting room**: Sala de reuniones\n- **Kitchen / Break room**: Cocina / Sala de descanso\n- **Restroom**: Aseo / Baño\n- **Open office**: Oficina diáfana\n- **Waiting area**: Zona de espera"
     },
     {
-      "id": "diagram-payments",
-      "title": "Payment Methods",
-      "content": "```mermaid\ngraph TD\n    A[Payment] --> B[Physical]\n    A --> C[Digital]\n    B --> D[Cash/Coins]\n    C --> E[Cards]\n    C --> F[Mobile Phone]\n    E --> G[Contactless]\n    E --> H[Chip & PIN]\n```"
-    },
-    {
-      "id": "grammar-demonstratives",
-      "title": "Grammar: Demonstratives (This, That, These, Those)",
-      "content": "Use these words to point to money and cards:\n\n1. **Singular**:\n   - **This**: Close to you. (*This card in my hand.*)\n   - **That**: Far from you. (*That ATM over there.*)\n\n2. **Plural**:\n   - **These**: Close to you. (*These coins in my pocket.*)\n   - **Those**: Far from you. (*Those receipts on the table.*)"
+      "id": "grammar-there-is-are",
+      "title": "Gramática: There is / There are",
+      "content": "Usamos estas estructuras para expresar existencia (Hay):\n\n1. **There is** (Singular):\n   - *There is a printer in the kitchen.*\n2. **There are** (Plural):\n   - *There are two meeting rooms.*\n\n**Forma negativa:**\n- *There is **not** (isn't) a coffee machine.*\n- *There are **not** (aren't) any chairs.*"
     }
   ],
   "objectives": [
-    "Identify traditional and modern digital payment methods",
-    "Use demonstratives to point to financial objects at different distances",
-    "Understand the basic security of PINs and contactless payments"
+    "Identificar las áreas principales de una oficina",
+    "Usar 'There is' y 'There are' para describir el entorno",
+    "Expresar la ausencia de objetos usando la forma negativa"
   ],
   "keyTerms": [
-    { "term": "Contactless", "definition": "A technology that allows you to pay by tapping your card/phone." },
-    { "term": "PIN", "definition": "Personal Identification Number (a secret code)." },
-    { "term": "Physical Cash", "definition": "Money in the form of paper or metal." }
+    { "term": "There is", "definition": "Hay (para una sola cosa)." },
+    { "term": "There are", "definition": "Hay (para varias cosas)." }
   ]
 }

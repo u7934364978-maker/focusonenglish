@@ -6,38 +6,38 @@
   "title": "Digital Statements & Spending Charts",
   "items": [
     {
-      "id": "fin-a1-w23-1",
-      "type": "multipleChoice",
-      "prompt": "A document that shows all your payments is a bank ______.",
+      "id": "adm-a1-w23-1",
+      "type": "multiple-choice",
+      "prompt": "A document that shows all your payments is a report ______.",
       "options": ["Story", "Statement", "Book"],
       "answerIndex": 1,
-      "explanation": "Un extracto bancario es un 'bank statement'."
+      "explanation": "Un reporte de gastos es un 'statement'."
     },
     {
-      "id": "fin-a1-w23-2",
-      "type": "multipleChoice",
+      "id": "adm-a1-w23-2",
+      "type": "multiple-choice",
       "prompt": "A pie chart shows your spending ______.",
       "options": ["Categories", "Passwords", "Friends"],
       "answerIndex": 0,
       "explanation": "Un gráfico muestra las categorías (categories) de gasto."
     },
     {
-      "id": "fin-a1-w23-3",
-      "type": "fillBlanks",
+      "id": "adm-a1-w23-3",
+      "type": "fill-blank",
       "prompt": "I need to [blank] my PDF statement.",
       "answers": ["download"],
       "explanation": "Necesito descargar (download) mi extracto en PDF."
     },
     {
-      "id": "fin-a1-w23-4",
-      "type": "multipleChoice",
+      "id": "adm-a1-w23-4",
+      "type": "multiple-choice",
       "prompt": "The money you have at the end of the month is the ______ balance.",
       "options": ["Opening", "Closing", "Pending"],
       "answerIndex": 1,
       "explanation": "El saldo final es el 'closing balance'."
     },
     {
-      "id": "fin-a1-w23-5",
+      "id": "adm-a1-w23-5",
       "type": "matching",
       "prompt": "Match the category with the item:",
       "pairs": [
@@ -49,36 +49,36 @@
       "explanation": "Relaciona las categorías con los ejemplos de gasto."
     },
     {
-      "id": "fin-a1-w23-6",
-      "type": "fillBlanks",
+      "id": "adm-a1-w23-6",
+      "type": "fill-blank",
       "prompt": "Look at the spending [blank] in the app.",
       "answers": ["chart", "graph"],
       "explanation": "Mira el gráfico (chart/graph) de gastos."
     },
     {
-      "id": "fin-a1-w23-7",
+      "id": "adm-a1-w23-7",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "My highest expense is rent",
       "explanation": "Mi gasto más alto es el alquiler."
     },
     {
-      "id": "fin-a1-w23-8",
-      "type": "multipleChoice",
+      "id": "adm-a1-w23-8",
+      "type": "multiple-choice",
       "prompt": "The 'Transaction History' is a list of ______.",
       "options": ["Past payments", "Future plans", "Safe passwords"],
       "answerIndex": 0,
       "explanation": "El historial de transacciones es una lista de pagos pasados."
     },
     {
-      "id": "fin-a1-w23-9",
+      "id": "adm-a1-w23-9",
       "type": "writing",
       "prompt": "Write the English word for 'Gráfico'.",
       "validation": "Chart",
       "explanation": "Gráfico se dice 'chart' o 'graph'."
     },
     {
-      "id": "fin-a1-w23-10",
+      "id": "adm-a1-w23-10",
       "type": "roleplay",
       "prompt": "You are looking at your spending app. Identify the problem.",
       "scenario": "App Chart:\n- Food: $500\n- Rent: $800\n- Entertainment: $600\nUser: Oh no! ______",
@@ -91,41 +91,526 @@
       "explanation": "Un gasto de $600 en ocio es alto comparado con la comida."
     },
     {
-      "id": "fin-a1-w23-11",
-      "type": "multipleChoice",
+      "id": "adm-a1-w23-11",
+      "type": "multiple-choice",
       "prompt": "The 'Opening Balance' is the money at the ______ of the month.",
       "options": ["Start", "Middle", "End"],
       "answerIndex": 0,
       "explanation": "El saldo inicial (opening balance) es al principio (start) del mes."
     },
     {
-      "id": "fin-a1-w23-12",
-      "type": "fillBlanks",
+      "id": "adm-a1-w23-12",
+      "type": "fill-blank",
       "prompt": "I spent $20 on [blank] today.",
       "answers": ["food", "travel", "coffee", "transport"],
       "explanation": "Cualquier categoría de gasto es válida."
     },
     {
-      "id": "fin-a1-w23-13",
+      "id": "adm-a1-w23-13",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
-      "sentence": "Download the monthly bank statement",
-      "explanation": "Descarga el extracto bancario mensual."
+      "sentence": "Download the monthly expense report",
+      "explanation": "Descarga el reporte de gastos mensual."
     },
     {
-      "id": "fin-a1-w23-14",
-      "type": "multipleChoice",
+      "id": "adm-a1-w23-14",
+      "type": "multiple-choice",
       "prompt": "Which category is for 'Electricity'?",
       "options": ["Bills", "Entertainment", "Shopping"],
       "answerIndex": 0,
       "explanation": "La electricidad entra en la categoría de facturas (bills)."
     },
     {
-      "id": "fin-a1-w23-15",
-      "type": "fillBlanks",
+      "id": "adm-a1-w23-15",
+      "type": "fill-blank",
       "prompt": "My closing [blank] is $1,200.",
       "answers": ["balance"],
       "explanation": "Mi saldo final es $1,200."
+    },
+    {
+      "id": "adm-a1-w23-16",
+      "type": "listening",
+      "prompt": "Listen and choose the word you hear.",
+      "audio_prompt": "Could I download the statement?",
+      "options": ["Station", "Statement", "Standard"],
+      "answerIndex": 1,
+      "explanation": "La palabra es 'statement' (extracto/estado de cuenta)."
+    },
+    {
+      "id": "adm-a1-w23-17",
+      "type": "listening",
+      "prompt": "Listen and choose the category.",
+      "audio_prompt": "I spent fifty dollars on food.",
+      "options": ["Travel", "Food", "Bills"],
+      "answerIndex": 1,
+      "explanation": "Menciona 'food' (comida)."
+    },
+    {
+      "id": "adm-a1-w23-18",
+      "type": "reading",
+      "prompt": "Read the report: 'Opening: $1000, Closing: $800'. How much did the person spend?",
+      "options": ["$1000", "$800", "$200"],
+      "answerIndex": 2,
+      "explanation": "1000 (inicial) - 800 (final) = 200 gastados."
+    },
+    {
+      "id": "adm-a1-w23-19",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the pie chart, please?",
+      "options": ["see", "listening", "to see"],
+      "answerIndex": 0,
+      "explanation": "Después de 'could' usamos el verbo en base (see)."
+    },
+    {
+      "id": "adm-a1-w23-20",
+      "type": "fill-blank",
+      "prompt": "A [blank] chart looks like a circle.",
+      "answers": ["pie"],
+      "explanation": "Un gráfico de sectores se llama 'pie chart' (gráfico de pastel)."
+    },
+    {
+      "id": "adm-a1-w23-21",
+      "type": "multiple-choice",
+      "prompt": "The ______ balance is the money at the beginning.",
+      "options": ["opening", "closing", "middle"],
+      "answerIndex": 0,
+      "explanation": "'Opening balance' es el saldo inicial."
+    },
+    {
+      "id": "adm-a1-w23-22",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "Could I have the report?",
+      "explanation": "¿Podría darme el reporte?"
+    },
+    {
+      "id": "adm-a1-w23-23",
+      "type": "matching",
+      "prompt": "Match the term with the definition:",
+      "pairs": [
+        { "left": "Statement", "right": "Transaction record" },
+        { "left": "Pie Chart", "right": "Circular graph" },
+        { "left": "Bar Graph", "right": "Graph with bars" },
+        { "left": "Budget", "right": "Spending plan" }
+      ],
+      "explanation": "Relaciona los términos financieros con su definición."
+    },
+    {
+      "id": "adm-a1-w23-24",
+      "type": "multiple-choice",
+      "prompt": "Which one is a spending category?",
+      "options": ["Password", "Travel", "Login"],
+      "answerIndex": 1,
+      "explanation": "'Travel' (viajes) es una categoría de gasto."
+    },
+    {
+      "id": "adm-a1-w23-25",
+      "type": "fill-blank",
+      "prompt": "Check the transaction [blank] for the date.",
+      "answers": ["history"],
+      "explanation": "'Transaction history' es el historial de transacciones."
+    },
+    {
+      "id": "adm-a1-w23-26",
+      "type": "listening",
+      "prompt": "Listen and choose the amount.",
+      "audio_prompt": "The balance is four hundred dollars.",
+      "options": ["$40", "$400", "$4,000"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'four hundred' (400)."
+    },
+    {
+      "id": "adm-a1-w23-27",
+      "type": "reading",
+      "prompt": "Text: 'Category: Travel - $450'. Where is this money?",
+      "options": ["In the bank", "Spent on travel", "For food"],
+      "answerIndex": 1,
+      "explanation": "El texto indica que se gastó en viajes."
+    },
+    {
+      "id": "adm-a1-w23-28",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the expenses?",
+      "options": ["check", "checking", "checks"],
+      "answerIndex": 0,
+      "explanation": "Forma base del verbo: 'check'."
+    },
+    {
+      "id": "adm-a1-w23-29",
+      "type": "fill-blank",
+      "prompt": "The [blank] balance is $0.",
+      "answers": ["closing", "opening"],
+      "explanation": "Puede ser el saldo inicial o final."
+    },
+    {
+      "id": "adm-a1-w23-30",
+      "type": "reorder",
+      "prompt": "Reorder: ",
+      "sentence": "This chart shows our expenses",
+      "explanation": "Este gráfico muestra nuestros gastos."
+    },
+    {
+      "id": "adm-a1-w23-31",
+      "type": "multiple-choice",
+      "prompt": "If you spend money on a taxi, the category is ______.",
+      "options": ["Bills", "Travel", "Entertainment"],
+      "answerIndex": 1,
+      "explanation": "Taxi pertenece a 'Travel'."
+    },
+    {
+      "id": "adm-a1-w23-32",
+      "type": "listening",
+      "prompt": "Listen and complete.",
+      "audio_prompt": "Could I see the bar graph?",
+      "options": ["Bar graph", "Pie chart", "Bank statement"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'bar graph'."
+    },
+    {
+      "id": "adm-a1-w23-33",
+      "type": "multiple-choice",
+      "prompt": "A ______ shows information in a simple way.",
+      "options": ["chart", "game", "secret"],
+      "answerIndex": 0,
+      "explanation": "Un 'chart' (gráfico) muestra información."
+    },
+    {
+      "id": "adm-a1-w23-34",
+      "type": "fill-blank",
+      "prompt": "I spend $500 on [blank] every month.",
+      "answers": ["rent", "food", "bills"],
+      "explanation": "Cualquier gasto común es válido."
+    },
+    {
+      "id": "adm-a1-w23-35",
+      "type": "multiple-choice",
+      "prompt": "Which word is for 'Gasto'?",
+      "options": ["Income", "Expense", "Saving"],
+      "answerIndex": 1,
+      "explanation": "'Expense' significa gasto."
+    },
+    {
+      "id": "adm-a1-w23-36",
+      "type": "listening",
+      "prompt": "Listen and choose the request.",
+      "audio_prompt": "Could I download the PDF?",
+      "options": ["Can I pay?", "Could I download the PDF?", "Is it free?"],
+      "answerIndex": 1,
+      "explanation": "Se escucha la solicitud de descarga."
+    },
+    {
+      "id": "adm-a1-w23-37",
+      "type": "reading",
+      "prompt": "Report: 'Monday: $10, Tuesday: $20, Wednesday: $30'. Is the spending increasing?",
+      "options": ["Yes", "No", "I don't know"],
+      "answerIndex": 0,
+      "explanation": "Los gastos suben cada día (10, 20, 30)."
+    },
+    {
+      "id": "adm-a1-w23-38",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ a question?",
+      "options": ["ask", "asking", "to ask"],
+      "answerIndex": 0,
+      "explanation": "'Could I ask...' es la forma correcta."
+    },
+    {
+      "id": "adm-a1-w23-39",
+      "type": "fill-blank",
+      "prompt": "Download the [blank] statement from the website.",
+      "answers": ["bank"],
+      "explanation": "Extracto bancario es 'bank statement'."
+    },
+    {
+      "id": "adm-a1-w23-40",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "The closing balance is high",
+      "explanation": "El saldo final es alto."
+    },
+    {
+      "id": "adm-a1-w23-41",
+      "type": "multiple-choice",
+      "prompt": "The 'Highest Expense' is the category where you spend ______ money.",
+      "options": ["no", "little", "the most"],
+      "answerIndex": 2,
+      "explanation": "El gasto más alto es donde gastas más dinero."
+    },
+    {
+      "id": "adm-a1-w23-42",
+      "type": "listening",
+      "prompt": "Listen and identify the category.",
+      "audio_prompt": "My bills are two hundred dollars.",
+      "options": ["Bills", "Food", "Entertainment"],
+      "answerIndex": 0,
+      "explanation": "Menciona 'bills' (facturas)."
+    },
+    {
+      "id": "adm-a1-w23-43",
+      "type": "multiple-choice",
+      "prompt": "Where can you see a list of payments?",
+      "options": ["In the bin", "In the transaction history", "In the trash"],
+      "answerIndex": 1,
+      "explanation": "En el historial de transacciones."
+    },
+    {
+      "id": "adm-a1-w23-44",
+      "type": "fill-blank",
+      "prompt": "The pie [blank] is blue and red.",
+      "answers": ["chart"],
+      "explanation": "El gráfico de pastel."
+    },
+    {
+      "id": "adm-a1-w23-45",
+      "type": "matching",
+      "prompt": "Match the category with the expense:",
+      "pairs": [
+        { "left": "Entertainment", "right": "Disney+" },
+        { "left": "Travel", "right": "Gasoline" },
+        { "left": "Food", "right": "Restaurant" },
+        { "left": "Bills", "right": "Internet" }
+      ],
+      "explanation": "Relaciona servicios con sus categorías."
+    },
+    {
+      "id": "adm-a1-w23-46",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the closing balance?",
+      "options": ["know", "knowing", "to know"],
+      "answerIndex": 0,
+      "explanation": "Verbo en infinitivo sin 'to'."
+    },
+    {
+      "id": "adm-a1-w23-47",
+      "type": "listening",
+      "prompt": "Listen and choose the balance.",
+      "audio_prompt": "The opening balance is zero.",
+      "options": ["$0", "$10", "$100"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'zero'."
+    },
+    {
+      "id": "adm-a1-w23-48",
+      "type": "reading",
+      "prompt": "Text: 'Netflix: $15, Spotify: $10'. Category: Entertainment. Total?",
+      "options": ["$15", "$25", "$10"],
+      "answerIndex": 1,
+      "explanation": "15 + 10 = 25."
+    },
+    {
+      "id": "adm-a1-w23-49",
+      "type": "fill-blank",
+      "prompt": "I need a [blank] to plan my spending.",
+      "answers": ["budget"],
+      "explanation": "Necesito un presupuesto (budget)."
+    },
+    {
+      "id": "adm-a1-w23-50",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Could I have a discount?",
+      "explanation": "¿Podría tener un descuento?"
+    },
+    {
+      "id": "adm-a1-w23-51",
+      "type": "multiple-choice",
+      "prompt": "Is a PDF statement a physical document?",
+      "options": ["Yes", "No", "Sometimes"],
+      "answerIndex": 1,
+      "explanation": "Un PDF es digital."
+    },
+    {
+      "id": "adm-a1-w23-52",
+      "type": "listening",
+      "prompt": "Listen and choose the word.",
+      "audio_prompt": "Categories.",
+      "options": ["Catalogs", "Categories", "Cars"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'categories'."
+    },
+    {
+      "id": "adm-a1-w23-53",
+      "type": "multiple-choice",
+      "prompt": "A ______ graph uses vertical or horizontal lines.",
+      "options": ["pie", "bar", "circle"],
+      "answerIndex": 1,
+      "explanation": "Un gráfico de barras ('bar graph')."
+    },
+    {
+      "id": "adm-a1-w23-54",
+      "type": "fill-blank",
+      "prompt": "My highest [blank] is food.",
+      "answers": ["expense"],
+      "explanation": "Mi mayor gasto es la comida."
+    },
+    {
+      "id": "adm-a1-w23-55",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the budget?",
+      "options": ["update", "updating", "updates"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'update'."
+    },
+    {
+      "id": "adm-a1-w23-56",
+      "type": "listening",
+      "prompt": "Listen and choose the number.",
+      "audio_prompt": "Twenty-three transactions.",
+      "options": ["23", "33", "13"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'twenty-three'."
+    },
+    {
+      "id": "adm-a1-w23-57",
+      "type": "reading",
+      "prompt": "Table: 'Rent: $1000, Water: $20, Electric: $80'. What are Water and Electric?",
+      "options": ["Food", "Bills", "Travel"],
+      "answerIndex": 1,
+      "explanation": "Agua y luz son facturas (bills)."
+    },
+    {
+      "id": "adm-a1-w23-58",
+      "type": "fill-blank",
+      "prompt": "Look at the spending [blank] for January.",
+      "answers": ["report", "chart", "statement"],
+      "explanation": "Reporte, gráfico o extracto."
+    },
+    {
+      "id": "adm-a1-w23-59",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "I download the PDF file",
+      "explanation": "Descargo el archivo PDF."
+    },
+    {
+      "id": "adm-a1-w23-60",
+      "type": "multiple-choice",
+      "prompt": "Which one is NOT a category?",
+      "options": ["Bills", "Food", "Monday"],
+      "answerIndex": 2,
+      "explanation": "Lunes no es una categoría de gasto."
+    },
+    {
+      "id": "adm-a1-w23-61",
+      "type": "listening",
+      "prompt": "Listen and choose the correct sentence.",
+      "audio_prompt": "The closing balance is low.",
+      "options": ["The opening balance is low.", "The closing balance is low.", "The closing balance is high."],
+      "answerIndex": 1,
+      "explanation": "Se escucha que el saldo final es bajo."
+    },
+    {
+      "id": "adm-a1-w23-62",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the document to my phone?",
+      "options": ["save", "saving", "to save"],
+      "answerIndex": 0,
+      "explanation": "Verbo en forma base: 'save'."
+    },
+    {
+      "id": "adm-a1-w23-63",
+      "type": "fill-blank",
+      "prompt": "The [blank] chart is colorful.",
+      "answers": ["spending", "pie", "bar"],
+      "explanation": "Cualquier tipo de gráfico es válido."
+    },
+    {
+      "id": "adm-a1-w23-64",
+      "type": "matching",
+      "prompt": "Match the verb with the noun:",
+      "pairs": [
+        { "left": "Download", "right": "Statement" },
+        { "left": "Check", "right": "Balance" },
+        { "left": "Pay", "right": "Bills" },
+        { "left": "Create", "right": "Budget" }
+      ],
+      "explanation": "Combinaciones comunes de verbos y sustantivos."
+    },
+    {
+      "id": "adm-a1-w23-65",
+      "type": "multiple-choice",
+      "prompt": "If you see a list of payments from last week, it is the ______ history.",
+      "options": ["future", "transaction", "call"],
+      "answerIndex": 1,
+      "explanation": "Historial de transacciones."
+    },
+    {
+      "id": "adm-a1-w23-66",
+      "type": "listening",
+      "prompt": "Listen and choose the request.",
+      "audio_prompt": "Could I have the closing balance?",
+      "options": ["Could I have the closing balance?", "Could I have the opening balance?", "Is the balance high?"],
+      "answerIndex": 0,
+      "explanation": "Se solicita el saldo final."
+    },
+    {
+      "id": "adm-a1-w23-67",
+      "type": "reading",
+      "prompt": "Text: 'Monthly Budget: $2000. Spent: $2500.' Is the person over budget?",
+      "options": ["Yes", "No", "Exactly"],
+      "answerIndex": 0,
+      "explanation": "Gastó 2500 y el presupuesto era 2000. Sí."
+    },
+    {
+      "id": "adm-a1-w23-68",
+      "type": "fill-blank",
+      "prompt": "The opening [blank] was $1,500.",
+      "answers": ["balance"],
+      "explanation": "El saldo inicial."
+    },
+    {
+      "id": "adm-a1-w23-69",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "This bar graph is clear",
+      "explanation": "Este gráfico de barras es claro."
+    },
+    {
+      "id": "adm-a1-w23-70",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the spending categories?",
+      "options": ["edit", "editing", "to edit"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'edit'."
+    },
+    {
+      "id": "adm-a1-w23-71",
+      "type": "listening",
+      "prompt": "Listen and choose the word.",
+      "audio_prompt": "Transaction history.",
+      "options": ["Transaction history", "Translation history", "Transport history"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'transaction history'."
+    },
+    {
+      "id": "adm-a1-w23-72",
+      "type": "multiple-choice",
+      "prompt": "Which category is for 'Cinema'?",
+      "options": ["Bills", "Entertainment", "Food"],
+      "answerIndex": 1,
+      "explanation": "Cine es entretenimiento."
+    },
+    {
+      "id": "adm-a1-w23-73",
+      "type": "fill-blank",
+      "prompt": "I spend too much on [blank].",
+      "answers": ["travel", "food", "entertainment", "bills"],
+      "explanation": "Cualquier categoría negativa es válida."
+    },
+    {
+      "id": "adm-a1-w23-74",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ a bank statement?",
+      "options": ["get", "getting", "gets"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'get'."
+    },
+    {
+      "id": "adm-a1-w23-75",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Check the highest expense now",
+      "explanation": "Revisa el gasto más alto ahora."
     }
   ]
 }

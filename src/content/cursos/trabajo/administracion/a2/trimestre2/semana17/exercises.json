@@ -6,398 +6,602 @@
   "title": "Ejercicios: Banca Móvil",
   "items": [
     {
-      "id": "fin-a2-w17-1",
+      "id": "adm-a2-w17-ex01",
       "type": "multipleChoice",
       "prompt": "________ the app on your phone to start.",
       "options": ["Open", "Opens", "Opening", "To open"],
       "answerIndex": 0,
-      "explanation": "Imperative for an instruction: 'Open'."
+      "explanation": "Imperativo para dar una instrucción: 'Open' (abre)."
     },
     {
-      "id": "fin-a2-w17-2",
+      "id": "adm-a2-w17-ex02",
       "type": "multipleChoice",
       "prompt": "You need a ________ to access your account.",
       "options": ["password", "paper", "picture", "pencil"],
       "answerIndex": 0,
-      "explanation": "A password is a secret code for security."
+      "explanation": "Una 'password' (contraseña) es necesaria para la seguridad."
     },
     {
-      "id": "fin-a2-w17-3",
+      "id": "adm-a2-w17-ex03",
       "type": "multipleChoice",
       "prompt": "________ your username in the first box.",
       "options": ["Enter", "Enters", "Entering", "To enter"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Enter' (introduce)."
+      "explanation": "Imperativo 'Enter' (introduce)."
     },
     {
-      "id": "fin-a2-w17-4",
+      "id": "adm-a2-w17-ex04",
       "type": "multipleChoice",
       "prompt": "I want to ________ money to my friend.",
       "options": ["transfer", "translate", "transport", "transmit"],
       "answerIndex": 0,
-      "explanation": "To transfer money means to move it to another account."
+      "explanation": "Transferir (transfer) dinero de una cuenta a otra."
     },
     {
-      "id": "fin-a2-w17-5",
+      "id": "adm-a2-w17-ex05",
       "type": "multipleChoice",
       "prompt": "________ the 'Login' button.",
       "options": ["Press", "Presses", "Pressing", "To press"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Press' (pulsa)."
+      "explanation": "Imperativo 'Press' (pulsa)."
     },
     {
-      "id": "fin-a2-w17-6",
+      "id": "adm-a2-w17-ex06",
       "type": "multipleChoice",
       "prompt": "You have a new ________ from the bank.",
       "options": ["notification", "notebook", "newspaper", "novel"],
       "answerIndex": 0,
-      "explanation": "A notification is an alert on your phone."
+      "explanation": "Una 'notification' (notificación) es una alerta en el móvil."
     },
     {
-      "id": "fin-a2-w17-7",
+      "id": "adm-a2-w17-ex07",
       "type": "multipleChoice",
       "prompt": "________ share your secret code with anyone.",
       "options": ["Don't", "No", "Not", "Doesn't"],
       "answerIndex": 0,
-      "explanation": "Negative imperative: 'Don't' + verb."
+      "explanation": "Imperativo negativo: 'Don't' + verbo."
     },
     {
-      "id": "fin-a2-w17-8",
+      "id": "adm-a2-w17-ex08",
       "type": "multipleChoice",
       "prompt": "Click here to see your account ________.",
       "options": ["balance", "ball", "bank", "base"],
       "answerIndex": 0,
-      "explanation": "The balance is the amount of money in the account."
+      "explanation": "El 'balance' (saldo) es la cantidad de dinero en la cuenta."
     },
     {
-      "id": "fin-a2-w17-9",
+      "id": "adm-a2-w17-ex09",
       "type": "multipleChoice",
       "prompt": "________ the transaction now.",
       "options": ["Confirm", "Confirms", "Confirming", "To confirm"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Confirm'."
+      "explanation": "Imperativo 'Confirm' (confirma)."
     },
     {
-      "id": "fin-a2-w17-10",
+      "id": "adm-a2-w17-ex10",
       "type": "multipleChoice",
       "prompt": "I pay my electricity ________ with the app.",
       "options": ["bill", "bell", "ball", "bull"],
       "answerIndex": 0,
-      "explanation": "A bill (factura) is a request for payment."
+      "explanation": "Una 'bill' es una factura o recibo de pago."
     },
     {
-      "id": "fin-a2-w17-11",
+      "id": "adm-a2-w17-ex11",
       "type": "multipleChoice",
       "prompt": "________ on 'Send Money'.",
       "options": ["Tap", "Taps", "Tapping", "To tap"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Tap' (toca/pulsa en la pantalla)."
+      "explanation": "Imperativo 'Tap' (toca o pulsa en la pantalla)."
     },
     {
-      "id": "fin-a2-w17-12",
+      "id": "adm-a2-w17-ex12",
       "type": "multipleChoice",
       "prompt": "Wait for the ________ on your phone.",
       "options": ["SMS", "SOS", "Sun", "Sea"],
       "answerIndex": 0,
-      "explanation": "SMS is a text message."
+      "explanation": "El 'SMS' es el mensaje de texto de verificación."
     },
     {
-      "id": "fin-a2-w17-13",
+      "id": "adm-a2-w17-ex13",
       "type": "multipleChoice",
       "prompt": "________ your password every three months.",
       "options": ["Change", "Changes", "Changing", "To change"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Change' (cambia)."
+      "explanation": "Imperativo 'Change' (cambia)."
     },
     {
-      "id": "fin-a2-w17-14",
+      "id": "adm-a2-w17-ex14",
       "type": "multipleChoice",
       "prompt": "The app is very ________ to use.",
       "options": ["easy", "hard", "difficult", "angry"],
       "answerIndex": 0,
-      "explanation": "'Easy' (fácil) is the opposite of 'difficult'."
+      "explanation": "'Easy' (fácil) es lo opuesto a difícil."
     },
     {
-      "id": "fin-a2-w17-15",
+      "id": "adm-a2-w17-ex15",
       "type": "multipleChoice",
       "prompt": "________ 'Sign out' when you finish.",
       "options": ["Select", "Selecting", "To select", "Selected"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Select' (selecciona)."
+      "explanation": "Imperativo 'Select' (selecciona)."
     },
     {
-      "id": "fin-a2-w17-16",
+      "id": "adm-a2-w17-ex16",
       "type": "multipleChoice",
       "prompt": "I use ________ to log in with my face.",
       "options": ["Face ID", "Face Mask", "Face Book", "Face Time"],
       "answerIndex": 0,
-      "explanation": "Face ID is a biometric security feature."
+      "explanation": "Face ID es un sistema de seguridad biométrico."
     },
     {
-      "id": "fin-a2-w17-17",
+      "id": "adm-a2-w17-ex17",
       "type": "multipleChoice",
       "prompt": "________ your fingerprint here.",
       "options": ["Scan", "Scanning", "Scanned", "To scan"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Scan' (escanea)."
+      "explanation": "Imperativo 'Scan' (escanea)."
     },
     {
-      "id": "fin-a2-w17-18",
+      "id": "adm-a2-w17-ex18",
       "type": "multipleChoice",
       "prompt": "You need an internet ________ to use the app.",
       "options": ["connection", "computer", "collection", "correct"],
       "answerIndex": 0,
-      "explanation": "A connection is needed for the internet to work."
+      "explanation": "Se necesita conexión (connection) a internet."
     },
     {
-      "id": "fin-a2-w17-19",
+      "id": "adm-a2-w17-ex19",
       "type": "multipleChoice",
       "prompt": "________ on 'History' to see your spending.",
       "options": ["Click", "Clicks", "Clicking", "To click"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Click' (haz clic)."
+      "explanation": "Imperativo 'Click' (haz clic)."
     },
     {
-      "id": "fin-a2-w17-20",
+      "id": "adm-a2-w17-ex20",
       "type": "multipleChoice",
       "prompt": "Your ________ is a 4-digit code.",
       "options": ["PIN", "PAN", "PEN", "PUN"],
       "answerIndex": 0,
-      "explanation": "A PIN is a Personal Identification Number."
+      "explanation": "El PIN es el número de identificación personal."
     },
     {
-      "id": "fin-a2-w17-21",
+      "id": "adm-a2-w17-ex21",
       "type": "multipleChoice",
       "prompt": "________ wait for the verification code.",
       "options": ["Please", "Pleasing", "Pleased", "Pleasant"],
       "answerIndex": 0,
-      "explanation": "'Please' makes instructions more polite."
+      "explanation": "'Please' (por favor) se usa para dar instrucciones amables."
     },
     {
-      "id": "fin-a2-w17-22",
+      "id": "adm-a2-w17-ex22",
       "type": "multipleChoice",
       "prompt": "I want to pay my ________ bill.",
       "options": ["phone", "photo", "park", "plane"],
       "answerIndex": 0,
-      "explanation": "A phone bill is a common expense."
+      "explanation": "La factura del teléfono (phone bill) es un gasto común."
     },
     {
-      "id": "fin-a2-w17-23",
+      "id": "adm-a2-w17-ex23",
       "type": "multipleChoice",
       "prompt": "________ the app to the latest version.",
       "options": ["Update", "Updating", "To update", "Updated"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Update' (actualiza)."
+      "explanation": "Imperativo 'Update' (actualiza)."
     },
     {
-      "id": "fin-a2-w17-24",
+      "id": "adm-a2-w17-ex24",
       "type": "multipleChoice",
       "prompt": "The app is ________. Please wait.",
       "options": ["loading", "load", "to load", "loaded"],
       "answerIndex": 0,
-      "explanation": "Present continuous: 'The app is loading'."
+      "explanation": "Presente continuo: 'The app is loading' (está cargando)."
     },
     {
-      "id": "fin-a2-w17-25",
+      "id": "adm-a2-w17-ex25",
       "type": "multipleChoice",
       "prompt": "________ on 'Settings' to change your profile.",
       "options": ["Go", "Going", "To go", "Gone"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Go' (ve)."
+      "explanation": "Imperativo 'Go' (ve)."
     },
     {
-      "id": "fin-a2-w17-26",
-      "type": "fillBlanks",
-      "text": "[Open] the app and [enter] your secret [password].",
-      "answers": ["Open", "enter", "password"],
-      "explanation": "Simple instructions for using a banking app."
+      "id": "adm-a2-w17-ex26",
+      "type": "fillInTheBlank",
+      "prompt": "________ the app and enter your password.",
+      "answer": "Open",
+      "explanation": "Instrucción simple: abre (Open) la aplicación."
     },
     {
-      "id": "fin-a2-w17-27",
-      "type": "fillBlanks",
-      "text": "[Don't] share your PIN. Always [logout] when you [finish].",
-      "answers": ["Don't", "logout", "finish"],
-      "explanation": "Security advice using imperatives."
+      "id": "adm-a2-w17-ex27",
+      "type": "fillInTheBlank",
+      "prompt": "________ share your secret PIN with anyone.",
+      "answer": "Don't",
+      "explanation": "Instrucción de seguridad: no (Don't) compartas tu PIN."
     },
     {
-      "id": "fin-a2-w17-28",
+      "id": "adm-a2-w17-ex28",
       "type": "multipleChoice",
       "prompt": "________ 'Yes' to save this contact.",
       "options": ["Choose", "Choosing", "To choose", "Chosen"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Choose'."
+      "explanation": "Imperativo 'Choose' (elige o selecciona)."
     },
     {
-      "id": "fin-a2-w17-29",
+      "id": "adm-a2-w17-ex29",
       "type": "multipleChoice",
       "prompt": "I can pay with my phone at the ________.",
       "options": ["supermarket", "sky", "sea", "sun"],
       "answerIndex": 0,
-      "explanation": "Supermarkets accept mobile payments."
+      "explanation": "Se puede pagar con el móvil en el supermercado."
     },
     {
-      "id": "fin-a2-w17-30",
+      "id": "adm-a2-w17-ex30",
       "type": "multipleChoice",
       "prompt": "________ your phone close to the card reader.",
       "options": ["Hold", "Holding", "To hold", "Held"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Hold' (sujeta/mantén)."
+      "explanation": "Imperativo 'Hold' (sujeta o mantén)."
     },
     {
-      "id": "fin-a2-w17-31",
+      "id": "adm-a2-w17-ex31",
       "type": "multipleChoice",
       "prompt": "My app has a ________ of my transactions.",
       "options": ["list", "lost", "last", "less"],
       "answerIndex": 0,
-      "explanation": "A list shows items in order."
+      "explanation": "Una 'list' (lista) muestra los movimientos en orden."
     },
     {
-      "id": "fin-a2-w17-32",
+      "id": "adm-a2-w17-ex32",
       "type": "multipleChoice",
       "prompt": "________ for a few seconds.",
       "options": ["Wait", "Waiting", "To wait", "Waited"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Wait'."
+      "explanation": "Imperativo 'Wait' (espera)."
     },
     {
-      "id": "fin-a2-w17-33",
+      "id": "adm-a2-w17-ex33",
       "type": "multipleChoice",
       "prompt": "I need to ________ my password.",
       "options": ["reset", "rest", "rust", "rise"],
       "answerIndex": 0,
-      "explanation": "To reset (restablecer) a password."
+      "explanation": "'Reset' significa restablecer o cambiar una contraseña olvidada."
     },
     {
-      "id": "fin-a2-w17-34",
+      "id": "adm-a2-w17-ex34",
       "type": "multipleChoice",
       "prompt": "________ the QR code on the bill.",
       "options": ["Scan", "Scanning", "To scan", "Scanned"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Scan'."
+      "explanation": "Imperativo 'Scan' (escanea)."
     },
     {
-      "id": "fin-a2-w17-35",
+      "id": "adm-a2-w17-ex35",
       "type": "multipleChoice",
       "prompt": "The app is ________ for free.",
       "options": ["available", "away", "alone", "about"],
       "answerIndex": 0,
-      "explanation": "Available (disponible) means you can get it."
+      "explanation": "'Available' significa que está disponible."
     },
     {
-      "id": "fin-a2-w17-36",
-      "type": "fillBlanks",
-      "text": "First, [tap] on 'Transfers'. Then, [type] the amount. Finally, [press] confirm.",
-      "answers": ["tap", "type", "press"],
-      "explanation": "Steps to make a transfer."
+      "id": "adm-a2-w17-ex36",
+      "type": "fillInTheBlank",
+      "prompt": "First, ________ on 'Transfers'.",
+      "answer": "tap",
+      "explanation": "Primero, pulsa (tap) en transferencias."
     },
     {
-      "id": "fin-a2-w17-37",
+      "id": "adm-a2-w17-ex37",
       "type": "multipleChoice",
       "prompt": "________ your profile picture here.",
       "options": ["Upload", "Upstairs", "Update", "Upon"],
       "answerIndex": 0,
-      "explanation": "To upload (subir) a file or picture."
+      "explanation": "'Upload' significa subir un archivo o foto."
     },
     {
-      "id": "fin-a2-w17-38",
+      "id": "adm-a2-w17-ex38",
       "type": "multipleChoice",
       "prompt": "I use the app to ________ my expenses.",
-      "options": ["track", "truck", "trick", "track"],
+      "options": ["track", "truck", "trick", "trash"],
       "answerIndex": 0,
-      "explanation": "To track (seguir/rastrear) means to monitor something."
+      "explanation": "'Track' significa hacer un seguimiento de los gastos."
     },
     {
-      "id": "fin-a2-w17-39",
+      "id": "adm-a2-w17-ex39",
       "type": "multipleChoice",
       "prompt": "________ 'Cancel' if you make a mistake.",
       "options": ["Press", "Presses", "Pressing", "To press"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Press'."
+      "explanation": "Imperativo 'Press' (pulsa)."
     },
     {
-      "id": "fin-a2-w17-40",
+      "id": "adm-a2-w17-ex40",
       "type": "multipleChoice",
       "prompt": "You can send money to ________ in your contacts.",
       "options": ["anyone", "anything", "anywhere", "anyway"],
       "answerIndex": 0,
-      "explanation": "Anyone (cualquiera/cualquier persona)."
+      "explanation": "'Anyone' significa a cualquier persona."
     },
     {
-      "id": "fin-a2-w17-41",
-      "type": "reorder",
-      "sentences": ["the", "Open", "app"],
-      "correctOrder": [1, 0, 2],
-      "explanation": "Correct order: 'Open the app'."
+      "id": "adm-a2-w17-ex41",
+      "type": "wordOrdering",
+      "prompt": "Order the words: app / the / Open",
+      "sentence": "Open the app",
+      "explanation": "Estructura básica del imperativo: Verbo + Complemento."
     },
     {
-      "id": "fin-a2-w17-42",
-      "type": "reorder",
-      "sentences": ["your", "Enter", "password"],
-      "correctOrder": [1, 0, 2],
-      "explanation": "Correct order: 'Enter your password'."
+      "id": "adm-a2-w17-ex42",
+      "type": "wordOrdering",
+      "prompt": "Order the words: password / your / Enter",
+      "sentence": "Enter your password",
+      "explanation": "Estructura de instrucción directa."
     },
     {
-      "id": "fin-a2-w17-43",
-      "type": "reorder",
-      "sentences": ["Don't", "share", "your", "PIN"],
-      "correctOrder": [0, 1, 2, 3],
-      "explanation": "Correct order: 'Don't share your PIN'."
+      "id": "adm-a2-w17-ex43",
+      "type": "wordOrdering",
+      "prompt": "Order the words: PIN / share / your / Don't",
+      "sentence": "Don't share your PIN",
+      "explanation": "Estructura del imperativo negativo."
     },
     {
-      "id": "fin-a2-w17-44",
+      "id": "adm-a2-w17-ex44",
       "type": "multipleChoice",
       "prompt": "________ 'Help' if you have a question.",
       "options": ["Select", "Selecting", "To select", "Selected"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Select'."
+      "explanation": "Imperativo 'Select' (selecciona)."
     },
     {
-      "id": "fin-a2-w17-45",
+      "id": "adm-a2-w17-ex45",
       "type": "multipleChoice",
       "prompt": "Is the app ________?",
       "options": ["secure", "second", "seven", "small"],
       "answerIndex": 0,
-      "explanation": "Secure (seguro) is important for banking."
+      "explanation": "'Secure' (seguro) es fundamental para la banca."
     },
     {
-      "id": "fin-a2-w17-46",
+      "id": "adm-a2-w17-ex46",
       "type": "multipleChoice",
       "prompt": "________ the amount in the box.",
       "options": ["Write", "Writing", "To write", "Wrote"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Write' (escribe)."
+      "explanation": "Imperativo 'Write' (escribe)."
     },
     {
-      "id": "fin-a2-w17-47",
+      "id": "adm-a2-w17-ex47",
       "type": "multipleChoice",
       "prompt": "I check my ________ once a week.",
       "options": ["balance", "beach", "book", "bus"],
       "answerIndex": 0,
-      "explanation": "Reviewing account balance regularly."
+      "explanation": "Revisar el saldo (balance) regularmente es un buen hábito."
     },
     {
-      "id": "fin-a2-w17-48",
+      "id": "adm-a2-w17-ex48",
       "type": "multipleChoice",
       "prompt": "________ the notification to read it.",
       "options": ["Tap", "Taps", "Tapping", "To tap"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Tap'."
+      "explanation": "Imperativo 'Tap' (pulsa)."
     },
     {
-      "id": "fin-a2-w17-49",
+      "id": "adm-a2-w17-ex49",
       "type": "multipleChoice",
       "prompt": "The app says 'Connection ________'.",
       "options": ["Error", "Eating", "Eagle", "Empty"],
       "answerIndex": 0,
-      "explanation": "A common error message."
+      "explanation": "Mensaje común cuando falla la conexión."
     },
     {
-      "id": "fin-a2-w17-50",
+      "id": "adm-a2-w17-ex50",
       "type": "multipleChoice",
       "prompt": "________ 'Finish' to exit.",
       "options": ["Press", "Presses", "Pressing", "To press"],
       "answerIndex": 0,
-      "explanation": "Imperative 'Press'."
+      "explanation": "Imperativo 'Press' (pulsa)."
+    },
+    {
+      "id": "adm-a2-w17-ex51",
+      "type": "fillInTheBlank",
+      "prompt": "Please ________ (type) your username.",
+      "answer": "type",
+      "explanation": "Imperativo: escribe o teclea (type)."
+    },
+    {
+      "id": "adm-a2-w17-ex52",
+      "type": "fillInTheBlank",
+      "prompt": "________ (not) forget to log out.",
+      "answer": "Don't",
+      "explanation": "Imperativo negativo: Don't + verbo."
+    },
+    {
+      "id": "adm-a2-w17-ex53",
+      "type": "fillInTheBlank",
+      "prompt": "________ (click) on the link to verify your email.",
+      "answer": "Click",
+      "explanation": "Instrucción directa: haz clic (Click)."
+    },
+    {
+      "id": "adm-a2-w17-ex54",
+      "type": "matching",
+      "prompt": "Match the app functions with their meanings:",
+      "pairs": [
+        { "left": "Login", "right": "Access the account" },
+        { "left": "Transfer", "right": "Send money to others" },
+        { "left": "Balance", "right": "Total money available" },
+        { "left": "Logout", "right": "Exit the account" }
+      ],
+      "explanation": "Funciones básicas de una aplicación bancaria."
+    },
+    {
+      "id": "adm-a2-w17-ex55",
+      "type": "wordOrdering",
+      "prompt": "Order the words: bill / the / Pay / now",
+      "sentence": "Pay the bill now",
+      "explanation": "Instrucción directa sobre un pago."
+    },
+    {
+      "id": "adm-a2-w17-ex56",
+      "type": "multipleChoice",
+      "prompt": "________ your account every day for security.",
+      "options": ["Check", "Checks", "Checking", "To check"],
+      "answerIndex": 0,
+      "explanation": "Imperativo 'Check' (revisa)."
+    },
+    {
+      "id": "adm-a2-w17-ex57",
+      "type": "multipleChoice",
+      "prompt": "If you lose your phone, ________ the bank immediately.",
+      "options": ["call", "calling", "to call", "calls"],
+      "answerIndex": 0,
+      "explanation": "Imperativo 'call' (llama)."
+    },
+    {
+      "id": "adm-a2-w17-ex58",
+      "type": "fillInTheBlank",
+      "prompt": "________ (scan) your face to unlock the app.",
+      "answer": "Scan",
+      "explanation": "Instrucción para usar biometría."
+    },
+    {
+      "id": "adm-a2-w17-ex59",
+      "type": "fillInTheBlank",
+      "prompt": "________ (not) write your password on paper.",
+      "answer": "Don't",
+      "explanation": "Consejo de seguridad en imperativo negativo."
+    },
+    {
+      "id": "adm-a2-w17-ex60",
+      "type": "wordOrdering",
+      "prompt": "Order the words: settings / your / Update / profile",
+      "sentence": "Update your profile settings",
+      "explanation": "Instrucción para configurar la cuenta."
+    },
+    {
+      "id": "adm-a2-w17-ex61",
+      "type": "multipleChoice",
+      "prompt": "You can use ________ to pay in shops.",
+      "options": ["Apple Pay", "Apple Pie", "Apple Tree", "Apple Core"],
+      "answerIndex": 0,
+      "explanation": "Apple Pay es un método de pago móvil."
+    },
+    {
+      "id": "adm-a2-w17-ex62",
+      "type": "multipleChoice",
+      "prompt": "________ 'OK' to authorize the payment.",
+      "options": ["Press", "Presses", "Pressing", "To press"],
+      "answerIndex": 0,
+      "explanation": "Imperativo 'Press' (pulsa)."
+    },
+    {
+      "id": "adm-a2-w17-ex63",
+      "type": "fillInTheBlank",
+      "prompt": "________ (look) at the screen carefully.",
+      "answer": "Look",
+      "explanation": "Instrucción directa: mira (Look)."
+    },
+    {
+      "id": "adm-a2-w17-ex64",
+      "type": "matching",
+      "prompt": "Match the icons with their typical functions:",
+      "pairs": [
+        { "left": "House icon", "right": "Home screen" },
+        { "left": "Arrow icon", "right": "Transfers" },
+        { "left": "Gear icon", "right": "Settings" },
+        { "left": "Bell icon", "right": "Notifications" }
+      ],
+      "explanation": "Iconografía común en aplicaciones móviles."
+    },
+    {
+      "id": "adm-a2-w17-ex65",
+      "type": "wordOrdering",
+      "prompt": "Order the words: verification / for / code / Wait / the",
+      "sentence": "Wait for the verification code",
+      "explanation": "Paso necesario en la seguridad digital."
+    },
+    {
+      "id": "adm-a2-w17-ex66",
+      "type": "multipleChoice",
+      "prompt": "What is 'username' in Spanish?",
+      "options": ["Nombre de usuario", "Nombre real", "Contraseña", "Apellido"],
+      "answerIndex": 0,
+      "explanation": "'Username' es el nombre de usuario para acceder."
+    },
+    {
+      "id": "adm-a2-w17-ex67",
+      "type": "multipleChoice",
+      "prompt": "________ 'Allow' for notifications.",
+      "options": ["Select", "Selecting", "To select", "Selected"],
+      "answerIndex": 0,
+      "explanation": "Imperativo 'Select' (selecciona)."
+    },
+    {
+      "id": "adm-a2-w17-ex68",
+      "type": "fillInTheBlank",
+      "prompt": "________ (not) use public Wi-Fi for banking.",
+      "answer": "Don't",
+      "explanation": "Consejo de seguridad: no (Don't) uses Wi-Fi pública."
+    },
+    {
+      "id": "adm-a2-w17-ex69",
+      "type": "fillInTheBlank",
+      "prompt": "________ (create) a strong password.",
+      "answer": "Create",
+      "explanation": "Instrucción directa: crea (Create)."
+    },
+    {
+      "id": "adm-a2-w17-ex70",
+      "type": "wordOrdering",
+      "prompt": "Order the words: instructions / Read / the / carefully",
+      "sentence": "Read the instructions carefully",
+      "explanation": "Consejo general importante."
+    },
+    {
+      "id": "adm-a2-w17-ex71",
+      "type": "multipleChoice",
+      "prompt": "________ the screen to refresh the data.",
+      "options": ["Swipe", "Swiping", "To swipe", "Swiped"],
+      "answerIndex": 0,
+      "explanation": "'Swipe' (deslizar) es un gesto común en móviles."
+    },
+    {
+      "id": "adm-a2-w17-ex72",
+      "type": "multipleChoice",
+      "prompt": "Is there a ________ fee for using the app?",
+      "options": ["service", "seven", "sun", "sea"],
+      "answerIndex": 0,
+      "explanation": "Pregunta por una comisión de servicio (service fee)."
+    },
+    {
+      "id": "adm-a2-w17-ex73",
+      "type": "fillInTheBlank",
+      "prompt": "________ (log in) to see your balance.",
+      "answer": "Log in",
+      "explanation": "Instrucción para acceder a la cuenta."
+    },
+    {
+      "id": "adm-a2-w17-ex74",
+      "type": "matching",
+      "prompt": "Match the actions with the buttons:",
+      "pairs": [
+        { "left": "Add a new friend", "right": "Add Contact" },
+        { "left": "Cancel a payment", "right": "Cancel" },
+        { "left": "Confirm a transfer", "right": "Send" },
+        { "left": "See old payments", "right": "History" }
+      ],
+      "explanation": "Acciones y botones correspondientes."
+    },
+    {
+      "id": "adm-a2-w17-ex75",
+      "type": "crossword",
+      "prompt": "Mobile Banking Crossword",
+      "words": [
+        { "word": "LOGIN", "clue": "To enter your account" },
+        { "word": "PASSWORD", "clue": "Secret code to access" },
+        { "word": "TRANSFER", "clue": "Move money to another account" },
+        { "word": "BALANCE", "clue": "Total money you have" },
+        { "word": "PIN", "clue": "4-digit security number" }
+      ],
+      "explanation": "Repaso de vocabulario de banca móvil."
     }
   ]
 }

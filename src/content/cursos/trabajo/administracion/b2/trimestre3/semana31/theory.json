@@ -17,6 +17,26 @@
       "content": "In strategic planning and CRM management, we use the future continuous to describe ongoing actions and the future perfect to describe completed milestones in the future.\n\n### Future Continuous (will be + -ing)\nUsed for actions that will be in progress at a certain time in the future.\n- **By this time next month, we will be using** the new CRM system.\n- **I will be monitoring** the NPS scores throughout the quarter.\n\n### Future Perfect (will have + past participle)\nUsed for actions that will be finished by a certain time in the future.\n- **By the end of the year, we will have migrated** all client data to the cloud.\n- **Will you have completed** the customer journey map by the Friday meeting?\n\n### Future Perfect Continuous (will have been + -ing)\nUsed to show how long an action will have been in progress by a specific point.\n- **Next month, I will have been managing** this CRM database for five years."
     },
     {
+      "id": "journey-mapping",
+      "title": "Customer Journey Mapping & Touchpoints",
+      "content": "A customer journey map is a visual representation of the process a customer goes through with a company.\n\n### Key Stages:\n1. **Awareness**: The customer discovers the brand.\n2. **Consideration**: The customer researches and compares options.\n3. **Purchase**: The transaction occurs.\n4. **Retention**: The company works to keep the customer.\n5. **Advocacy**: The customer recommends the brand to others.\n\n### Touchpoints:\nEvery interaction (an ad, an email, a phone call, a social media post) is a touchpoint. Improving these is the core of CX management."
+    },
+    {
+      "id": "crm-data-mgmt",
+      "title": "CRM Data Management & Data Integrity",
+      "content": "A CRM is only as good as the data it contains. Administrators must ensure high data integrity.\n\n### Data Hygiene Practices:\n- **Deduplication**: Removing duplicate records for the same customer.\n- **Validation**: Ensuring email addresses and phone numbers are correctly formatted.\n- **Regular Audits**: Checking for outdated information (e.g., customers who have moved jobs).\n- **Data Privacy**: Ensuring the CRM is compliant with GDPR (see Week 30)."
+    },
+    {
+      "id": "segmentation-personalisation",
+      "title": "Personalisation & Customer Segmentation",
+      "content": "Generic communication is no longer effective. We use CRM data to segment and personalise.\n\n### Segmentation Types:\n- **Demographic**: Based on age, gender, or location.\n- **Behavioural**: Based on purchase history or website interactions.\n- **Psychographic**: Based on interests and values.\n\n### Personalisation:\nUsing the customer's name, suggesting products based on past buys, and sending relevant content increases engagement and NPS."
+    },
+    {
+      "id": "grievance-handling",
+      "title": "Handling Customer Grievances & Service Recovery",
+      "content": "When things go wrong, the way a company handles a grievance can determine whether the customer stays or leaves.\n\n### Service Recovery Steps:\n1. **Listen**: Allow the customer to express their frustration fully.\n2. **Apologise**: Sincerely acknowledge the mistake.\n3. **Solve**: Provide a fair and quick solution.\n4. **Follow Up**: Check back later to ensure the customer is satisfied.\n5. **Learn**: Use the CRM to log the issue and prevent it from happening again."
+    },
+    {
       "id": "deliverable",
       "title": "Weekly Deliverable: CX Improvement Plan",
       "content": "Draft a short 'CX Improvement Plan' (150 words) for a specific touchpoint (e.g., the onboarding email or helpdesk response). Include:\n1. **Current Issue** (High churn, low satisfaction).\n2. **Proposed Solution** (Automation, personalisation).\n3. **Future Milestones** (Using Future Perfect: *By Q3, we will have implemented...*).\n4. **Ongoing Monitoring** (Using Future Continuous: *We will be tracking...*)."

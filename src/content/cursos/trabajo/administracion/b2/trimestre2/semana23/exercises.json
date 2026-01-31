@@ -124,6 +124,486 @@
       "options": ["formal", "informal", "spoken", "casual"],
       "answerIndex": 0,
       "explanation": "Nominalization is a hallmark of formal, academic, and professional writing."
+    },
+    {
+      "id": "adm-b2-w23-16",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'They expanded the business.' -> 'The ________ of the business was rapid.'",
+      "options": ["expansion", "expanding", "expandable", "expander"],
+      "answerIndex": 0,
+      "explanation": "'Expansion' is the nominalized form of 'expand'."
+    },
+    {
+      "id": "adm-b2-w23-17",
+      "type": "multipleChoice",
+      "prompt": "In a contract, ________ refers to something of value exchanged between parties.",
+      "options": ["consideration", "acceptance", "offer", "jurisdiction"],
+      "answerIndex": 0,
+      "explanation": "Consideration is a legal requirement for a contract (the exchange of value)."
+    },
+    {
+      "id": "adm-b2-w23-18",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We must protect the data.' -> 'The ________ of data is a priority.'",
+      "options": ["protection", "protecting", "protective", "protector"],
+      "answerIndex": 0,
+      "explanation": "'Protection' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-19",
+      "type": "multipleChoice",
+      "prompt": "The ________ clause specifies which country's laws will apply to the contract.",
+      "options": ["jurisdiction", "termination", "liability", "indemnity"],
+      "answerIndex": 0,
+      "explanation": "Jurisdiction clauses determine the legal authority and applicable laws."
+    },
+    {
+      "id": "adm-b2-w23-20",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The team cooperated well.' -> 'The ________ between team members was excellent.'",
+      "options": ["cooperation", "cooperating", "cooperative", "cooperator"],
+      "answerIndex": 0,
+      "explanation": "'Cooperation' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-21",
+      "type": "multipleChoice",
+      "prompt": "A contract requires both an ________ and an ________ to be valid.",
+      "options": ["offer; acceptance", "NDA; IP", "liability; breach", "litigation; duty"],
+      "answerIndex": 0,
+      "explanation": "Offer and acceptance are the foundation of a contract."
+    },
+    {
+      "id": "adm-b2-w23-22",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We need to simplify the process.' -> 'The ________ of the process is necessary.'",
+      "options": ["simplification", "simplifying", "simple", "simplicity"],
+      "answerIndex": 0,
+      "explanation": "'Simplification' is the nominalized form of 'simplify'."
+    },
+    {
+      "id": "adm-b2-w23-23",
+      "type": "multipleChoice",
+      "prompt": "The ________ clause defines when and how a contract can be legally ended.",
+      "options": ["termination", "consideration", "breach", "NDA"],
+      "answerIndex": 0,
+      "explanation": "Termination clauses outline the exit strategy for a contract."
+    },
+    {
+      "id": "adm-b2-w23-24",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The software failed.' -> 'The ________ of the software caused delays.'",
+      "options": ["failure", "failing", "failed", "failer"],
+      "answerIndex": 0,
+      "explanation": "'Failure' is the noun form of 'fail'."
+    },
+    {
+      "id": "adm-b2-w23-25",
+      "type": "multipleChoice",
+      "prompt": "If a contract is ________, it means it can be upheld in a court of law.",
+      "options": ["enforceable", "liable", "nominalized", "breached"],
+      "answerIndex": 0,
+      "explanation": "Enforceability is the ability to have the law back up the agreement."
+    },
+    {
+      "id": "adm-b2-w23-26",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We must verify the results.' -> 'The ________ of results is mandatory.'",
+      "options": ["verification", "verifying", "verifiable", "verifier"],
+      "answerIndex": 0,
+      "explanation": "'Verification' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-27",
+      "type": "multipleChoice",
+      "prompt": "________ is a hallmark of formal business English because it removes the personal subject.",
+      "options": ["Nominalization", "Litigation", "Liability", "Breach"],
+      "answerIndex": 0,
+      "explanation": "Nominalization creates a more objective and detached tone."
+    },
+    {
+      "id": "adm-b2-w23-28",
+      "type": "multipleChoice",
+      "prompt": "The ________ fee is the amount paid if one party wants to end the contract early.",
+      "options": ["termination", "consideration", "nominal", "IP"],
+      "answerIndex": 0,
+      "explanation": "Termination fees are common in service contracts."
+    },
+    {
+      "id": "adm-b2-w23-29",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The company grew quickly.' -> 'The rapid ________ of the company was impressive.'",
+      "options": ["growth", "growing", "grown", "grower"],
+      "answerIndex": 0,
+      "explanation": "'Growth' is the noun form of 'grow'."
+    },
+    {
+      "id": "adm-b2-w23-30",
+      "type": "multipleChoice",
+      "prompt": "A verbal agreement can be a contract, but a written one is easier to ________.",
+      "options": ["enforce", "breach", "nominalize", "litigate"],
+      "answerIndex": 0,
+      "explanation": "Written contracts provide better evidence for enforceability."
+    },
+    {
+      "id": "adm-b2-w23-31",
+      "type": "multipleChoice",
+      "prompt": "________ occurs when an employee is forced to resign because of the employer's behavior.",
+      "options": ["Constructive dismissal", "Wrongful termination", "Statutory rights", "Fiduciary duty"],
+      "answerIndex": 0,
+      "explanation": "Constructive dismissal happens when the employer's actions make staying impossible."
+    },
+    {
+      "id": "adm-b2-w23-32",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We must recruit more staff.' -> 'The ________ of more staff is urgent.'",
+      "options": ["recruitment", "recruiting", "recruited", "recruiter"],
+      "answerIndex": 0,
+      "explanation": "'Recruitment' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-33",
+      "type": "multipleChoice",
+      "prompt": "Minimum wage and maternity leave are examples of ________ rights.",
+      "options": ["statutory", "fiduciary", "intellectual", "litigation"],
+      "answerIndex": 0,
+      "explanation": "Statutory rights are those established by law (statutes)."
+    },
+    {
+      "id": "adm-b2-w23-34",
+      "type": "multipleChoice",
+      "prompt": "If a company fires someone without following the contract, it is ________.",
+      "options": ["wrongful termination", "constructive dismissal", "equal opportunity", "due diligence"],
+      "answerIndex": 0,
+      "explanation": "Wrongful termination is a breach of the employment contract."
+    },
+    {
+      "id": "adm-b2-w23-35",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The HR manager evaluated the performance.' -> 'The ________ of performance was conducted by HR.'",
+      "options": ["evaluation", "evaluating", "evaluated", "evaluator"],
+      "answerIndex": 0,
+      "explanation": "'Evaluation' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-36",
+      "type": "multipleChoice",
+      "prompt": "The ________ policy ensures that no applicant is discriminated against during hiring.",
+      "options": ["equal opportunities", "non-disclosure", "litigation", "fiduciary"],
+      "answerIndex": 0,
+      "explanation": "Equal opportunities policies prevent discrimination."
+    },
+    {
+      "id": "adm-b2-w23-37",
+      "type": "multipleChoice",
+      "prompt": "________ rights exist even if they are not explicitly written in the employment contract.",
+      "options": ["Statutory", "Nominal", "Breached", "Liable"],
+      "answerIndex": 0,
+      "explanation": "Statutory rights (like the right to a safe workplace) are guaranteed by law."
+    },
+    {
+      "id": "adm-b2-w23-38",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The CEO resigned suddenly.' -> 'The sudden ________ of the CEO surprised everyone.'",
+      "options": ["resignation", "resigning", "resigned", "resign"],
+      "answerIndex": 0,
+      "explanation": "'Resignation' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-39",
+      "type": "multipleChoice",
+      "prompt": "An employer has a duty to provide a safe working environment, which is a ________ obligation.",
+      "options": ["legal", "nominal", "litigious", "fiduciary"],
+      "answerIndex": 0,
+      "explanation": "Health and safety is a fundamental legal requirement for employers."
+    },
+    {
+      "id": "adm-b2-w23-40",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We must notify the employees.' -> 'The ________ of employees must be done by Friday.'",
+      "options": ["notification", "notifying", "notified", "notifier"],
+      "answerIndex": 0,
+      "explanation": "'Notification' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-41",
+      "type": "multipleChoice",
+      "prompt": "The ________ tribunal is where legal disputes between employers and employees are settled.",
+      "options": ["employment", "intellectual", "nominal", "fiduciary"],
+      "answerIndex": 0,
+      "explanation": "Employment tribunals handle specific labor-related legal claims."
+    },
+    {
+      "id": "adm-b2-w23-42",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'They identified the risk.' -> 'The ________ of the risk was a key step.'",
+      "options": ["identification", "identifying", "identified", "identifier"],
+      "answerIndex": 0,
+      "explanation": "'Identification' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-43",
+      "type": "multipleChoice",
+      "prompt": "Employees are entitled to ________ pay if they are made redundant.",
+      "options": ["severance", "indemnity", "liability", "compliance"],
+      "answerIndex": 0,
+      "explanation": "Severance pay is compensation for job loss through no fault of the employee."
+    },
+    {
+      "id": "adm-b2-w23-44",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We need to adjust the budget.' -> 'An ________ to the budget is required.'",
+      "options": ["adjustment", "adjusting", "adjusted", "adjuster"],
+      "answerIndex": 0,
+      "explanation": "'Adjustment' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-45",
+      "type": "multipleChoice",
+      "prompt": "A ________ term in a contract is one that is so important that its breach allows for termination.",
+      "options": ["fundamental", "nominal", "liable", "indemnity"],
+      "answerIndex": 0,
+      "explanation": "Fundamental terms (conditions) are central to the agreement."
+    },
+    {
+      "id": "adm-b2-w23-46",
+      "type": "multipleChoice",
+      "prompt": "A ________ occurs when an employee's personal interests could influence their official duties.",
+      "options": ["conflict of interest", "fiduciary duty", "transparency", "whistleblowing"],
+      "answerIndex": 0,
+      "explanation": "Conflict of interest compromises objectivity."
+    },
+    {
+      "id": "adm-b2-w23-47",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We must ensure transparency.' -> 'The ________ of transparency is vital for trust.'",
+      "options": ["ensurance", "ensuring", "ensure", "assurance"],
+      "answerIndex": 1,
+      "explanation": "'Ensuring' is the gerund/noun form here."
+    },
+    {
+      "id": "adm-b2-w23-48",
+      "type": "multipleChoice",
+      "prompt": "A director has a ________ duty to act in the best interest of the shareholders.",
+      "options": ["fiduciary", "nominal", "statutory", "litigious"],
+      "answerIndex": 0,
+      "explanation": "Fiduciary duty is a high level of legal obligation to another party."
+    },
+    {
+      "id": "adm-b2-w23-49",
+      "type": "multipleChoice",
+      "prompt": "________ is the act of reporting illegal or unethical behavior within an organisation.",
+      "options": ["Whistleblowing", "Transparency", "Litigation", "Compliance"],
+      "answerIndex": 0,
+      "explanation": "Whistleblowing is essential for corporate accountability."
+    },
+    {
+      "id": "adm-b2-w23-50",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'They failed to comply.' -> 'Their ________ to comply resulted in a fine.'",
+      "options": ["failure", "failing", "fail", "failed"],
+      "answerIndex": 0,
+      "explanation": "'Failure' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-51",
+      "type": "multipleChoice",
+      "prompt": "Organisational ________ means being open and honest about financial and operational decisions.",
+      "options": ["transparency", "liability", "indemnity", "breach"],
+      "answerIndex": 0,
+      "explanation": "Transparency builds stakeholder trust."
+    },
+    {
+      "id": "adm-b2-w23-52",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We observed the behavior.' -> 'Our ________ of the behavior was documented.'",
+      "options": ["observation", "observing", "observed", "observer"],
+      "answerIndex": 0,
+      "explanation": "'Observation' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-53",
+      "type": "multipleChoice",
+      "prompt": "A ________ of interest must be declared immediately to avoid legal repercussions.",
+      "options": ["conflict", "breach", "liability", "duty"],
+      "answerIndex": 0,
+      "explanation": "Declaring a conflict of interest is a standard ethical procedure."
+    },
+    {
+      "id": "adm-b2-w23-54",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'They decided to merge.' -> 'The ________ to merge was approved by the board.'",
+      "options": ["decision", "deciding", "decided", "decisive"],
+      "answerIndex": 0,
+      "explanation": "'Decision' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-55",
+      "type": "multipleChoice",
+      "prompt": "Corporate ________ involves the rules and processes by which a company is directed.",
+      "options": ["governance", "litigation", "nominalization", "compliance"],
+      "answerIndex": 0,
+      "explanation": "Governance ensures the company is managed fairly and legally."
+    },
+    {
+      "id": "adm-b2-w23-56",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'We must assess the impact.' -> 'An ________ of the impact is necessary.'",
+      "options": ["assessment", "assessing", "assessed", "assessor"],
+      "answerIndex": 0,
+      "explanation": "'Assessment' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-57",
+      "type": "multipleChoice",
+      "prompt": "A ________ policy protects whistleblowers from retaliation by the company.",
+      "options": ["whistleblowing", "non-disclosure", "fiduciary", "liability"],
+      "answerIndex": 0,
+      "explanation": "Anti-retaliation policies are crucial for effective whistleblowing."
+    },
+    {
+      "id": "adm-b2-w23-58",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The price fluctuated.' -> 'The ________ in price was significant.'",
+      "options": ["fluctuation", "fluctuating", "fluctuated", "fluctuate"],
+      "answerIndex": 0,
+      "explanation": "'Fluctuation' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-59",
+      "type": "multipleChoice",
+      "prompt": "Directors have a duty of care, meaning they must act with ________.",
+      "options": ["diligence", "negligence", "laziness", "indifference"],
+      "answerIndex": 0,
+      "explanation": "Due diligence and care are legal requirements for directors."
+    },
+    {
+      "id": "adm-b2-w23-60",
+      "type": "multipleChoice",
+      "prompt": "Transform: 'The policy was implemented.' -> 'The ________ of the policy was successful.'",
+      "options": ["implementation", "implementing", "implement", "implemented"],
+      "answerIndex": 0,
+      "explanation": "'Implementation' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-61",
+      "type": "multipleChoice",
+      "prompt": "According to the legal counsel, what is the current status of Multi-Factor Authentication (MFA) implementation?",
+      "options": ["It is an optional security measure", "It is no longer optional for compliance", "It is being phased out", "It is only for senior management"],
+      "answerIndex": 1,
+      "explanation": "The counsel states that the implementation of MFA is no longer optional; it is a requirement for compliance."
+    },
+    {
+      "id": "adm-b2-w23-62",
+      "type": "multipleChoice",
+      "prompt": "By what day must employees sign the new Non-Disclosure Agreement (NDA) to protect intellectual property?",
+      "options": ["Monday", "Wednesday", "Friday", "The following month"],
+      "answerIndex": 2,
+      "explanation": "The transcript specifies that every employee must sign the new NDA by Friday."
+    },
+    {
+      "id": "adm-b2-w23-63",
+      "type": "multipleChoice",
+      "prompt": "Under the new employment law rules, when can employees request flexible working?",
+      "options": ["After 26 weeks of service", "After one year of service", "From day one of employment", "Only after the probationary period"],
+      "answerIndex": 2,
+      "explanation": "The memo states that the 26-week requirement has been abolished and employees can request it from day one."
+    },
+    {
+      "id": "adm-b2-w23-64",
+      "type": "multipleChoice",
+      "prompt": "Which department is responsible for handling wrongful termination claims related to flexible working requests?",
+      "options": ["Human Resources", "The Legal Department", "The Finance Team", "The Board of Directors"],
+      "answerIndex": 1,
+      "explanation": "The memo explicitly states that such claims will be handled by the legal department directly."
+    },
+    {
+      "id": "adm-b2-w23-65",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct nominalized form to complete this formal sentence: 'The ________ of internal data flows revealed a need for better protection.'",
+      "options": ["evaluation", "evaluating", "evaluate", "evaluated"],
+      "answerIndex": 0,
+      "explanation": "'Evaluation' is the nominalized noun form of the verb 'evaluate', making the tone more formal and objective."
+    },
+    {
+      "id": "adm-b2-w23-66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Law. A ________ agreement is also known as a confidentiality agreement.",
+      "options": ["non-disclosure", "nominalization", "litigious", "statutory"],
+      "answerIndex": 0,
+      "explanation": "NDA and confidentiality agreement are synonyms."
+    },
+    {
+      "id": "adm-b2-w23-67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Rights. 'Constructive dismissal' involves the ________ resigning.",
+      "options": ["employee", "employer", "client", "shareholder"],
+      "answerIndex": 0,
+      "explanation": "The employee resigns due to the employer's breach."
+    },
+    {
+      "id": "adm-b2-w23-68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Terms. 'Intellectual Property' covers things like ________.",
+      "options": ["patents and trademarks", "office buildings", "company cars", "cash reserves"],
+      "answerIndex": 0,
+      "explanation": "IP covers intangible creations."
+    },
+    {
+      "id": "adm-b2-w23-69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Grammar. Nominalize 'We concluded the meeting.' -> 'The ________ of the meeting was...'",
+      "options": ["conclusion", "concluding", "concluded", "concluder"],
+      "answerIndex": 0,
+      "explanation": "'Conclusion' is the noun form."
+    },
+    {
+      "id": "adm-b2-w23-70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Ethics. 'Transparency' is the opposite of ________.",
+      "options": ["secrecy", "honesty", "openness", "clarity"],
+      "answerIndex": 0,
+      "explanation": "Transparency involves being open; secrecy is the opposite."
+    },
+    {
+      "id": "adm-b2-w23-71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Compliance. GDPR is primarily about protecting ________.",
+      "options": ["personal data", "corporate logos", "tax records", "physical assets"],
+      "answerIndex": 0,
+      "explanation": "GDPR is the General Data Protection Regulation."
+    },
+    {
+      "id": "adm-b2-w23-72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Law. 'Due diligence' is often done ________ a merger.",
+      "options": ["before", "during", "after", "instead of"],
+      "answerIndex": 0,
+      "explanation": "It's a preliminary investigation."
+    },
+    {
+      "id": "adm-b2-w23-73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Grammar. Noun form of 'fail' is ________.",
+      "options": ["failure", "failing", "fail", "failed"],
+      "answerIndex": 0,
+      "explanation": "'Failure' is the nominalized form."
+    },
+    {
+      "id": "adm-b2-w23-74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Terms. A 'breach of contract' is a ________ of the agreement.",
+      "options": ["violation", "confirmation", "extension", "nominalization"],
+      "answerIndex": 0,
+      "explanation": "A breach is a failure to keep the agreement."
+    },
+    {
+      "id": "adm-b2-w23-75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Review. Nominalization helps make a text feel more ________.",
+      "options": ["objective", "emotional", "casual", "confusing"],
+      "answerIndex": 0,
+      "explanation": "It removes the 'actor' and focuses on the 'action'."
     }
   ]
 }

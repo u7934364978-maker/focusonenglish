@@ -2,7 +2,7 @@
   "title": "A2 Week 4 Exam: Bank Comparisons & Competitive Features",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w04-q01",
       "question": "APY stands for Annual Percentage:",
       "options": [
         "Year",
@@ -10,10 +10,11 @@
         "Yard",
         "York"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "APY stands for Annual Percentage Yield, which represents the real rate of return on savings."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w04-q02",
       "question": "A neobank is often _______ than a legacy bank.",
       "options": [
         "cheaper",
@@ -21,10 +22,11 @@
         "cheapier",
         "cheapest"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "For the short adjective 'cheap', we add -er to form the comparative 'cheaper'."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w04-q03",
       "question": "UX refers to the app's User:",
       "options": [
         "Exchange",
@@ -32,10 +34,11 @@
         "Exit",
         "Entry"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "UX stands for User Experience, focusing on how a user interacts with and experiences a product."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w04-q04",
       "question": "Digital onboarding is _______ than going to a branch.",
       "options": [
         "fast",
@@ -43,10 +46,11 @@
         "more fast",
         "fastest"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The comparative of 'fast' is 'faster'."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w04-q05",
       "question": "What is the irregular comparative of 'good'?",
       "options": [
         "Gooder",
@@ -54,10 +58,11 @@
         "Best",
         "More good"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Good' is an irregular adjective; its comparative form is 'better'."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w04-q06",
       "question": "The interest rate is _______ than last month.",
       "options": [
         "high",
@@ -65,10 +70,11 @@
         "more high",
         "highest"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The comparative of 'high' is 'higher'."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w04-q07",
       "question": "Customer support via chat is _______ convenient than phone support.",
       "options": [
         "more",
@@ -76,10 +82,11 @@
         "most",
         "better"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "For long adjectives like 'convenient', we use 'more' to form the comparative."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w04-q08",
       "question": "A 'Legacy Bank' is a _______ bank.",
       "options": [
         "new",
@@ -87,10 +94,11 @@
         "virtual",
         "mobile"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A legacy bank refers to an established, traditional financial institution."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w04-q09",
       "question": "The premium card is _______ than the basic one.",
       "options": [
         "heavyer",
@@ -98,10 +106,11 @@
         "more heavy",
         "heaviest"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "For adjectives ending in -y like 'heavy', we change -y to -i and add -er."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w04-q10",
       "question": "What is the comparative of 'bad'?",
       "options": [
         "Badder",
@@ -109,10 +118,11 @@
         "Worst",
         "More bad"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Bad' is irregular; its comparative form is 'worse'."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w04-q11",
       "question": "Which term describes charges that are not clearly stated?",
       "options": [
         "Free fees",
@@ -120,10 +130,11 @@
         "Hidden fees",
         "Bonus fees"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Hidden fees are charges that are not immediately obvious or disclosed upfront."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w04-q12",
       "question": "Neobanks have _______ maintenance fees than old banks.",
       "options": [
         "lower",
@@ -131,10 +142,11 @@
         "more low",
         "lowest"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "The comparative of 'low' is 'lower'."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w04-q13",
       "question": "The verification process is _______ today.",
       "options": [
         "simple",
@@ -142,10 +154,11 @@
         "more simple",
         "simplest"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The comparative of 'simple' is 'simpler'."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w04-q14",
       "question": "A higher APY is _______ for your savings.",
       "options": [
         "badder",
@@ -153,10 +166,11 @@
         "best",
         "gooder"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Higher yield is 'better' for earning more interest on savings."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w04-q15",
       "question": "Comparing 'secure': This app is _______ than that one.",
       "options": [
         "securer",
@@ -164,10 +178,11 @@
         "most secure",
         "secureer"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "As a long adjective, 'secure' takes 'more' to form its comparative: 'more secure'."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w04-q16",
       "question": "The opposite of 'cheap' is:",
       "options": [
         "Expensive",
@@ -175,10 +190,11 @@
         "Fast",
         "Safe"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "'Expensive' is the direct opposite of 'cheap' in a financial context."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w04-q17",
       "question": "Which is correct: 'Plan A is _______ than Plan B'?",
       "options": [
         "more good",
@@ -186,10 +202,11 @@
         "gooder",
         "best"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The correct comparative form is 'better', not 'gooder' or 'more good'."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w04-q18",
       "question": "If money moves instantly, the transaction speed is:",
       "options": [
         "Slow",
@@ -197,10 +214,11 @@
         "Fast",
         "Hidden"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Instant movement implies 'fast' transaction speed."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w04-q19",
       "question": "This neobank is _______ for young professionals.",
       "options": [
         "more efficient",
@@ -208,10 +226,11 @@
         "most efficient",
         "efficient"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "'Efficient' is a long adjective, so it uses 'more efficient' for comparison."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w04-q20",
       "question": "A 'Seamless' experience is one that is:",
       "options": [
         "Broken",
@@ -219,7 +238,8 @@
         "Loud",
         "Expensive"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Seamless' means smooth and without any interruptions or problems."
     }
   ]
 }

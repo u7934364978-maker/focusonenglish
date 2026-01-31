@@ -1,29 +1,24 @@
 {
-  "title": "What Time Is It? Global Banking",
+  "title": "Semana 6: Países y Nacionalidades",
+  "description": "Aprende a hablar de tu origen y el de tus colegas en un entorno de oficina internacional.",
+  "objectives": [
+    "Identificar países y nacionalidades comunes",
+    "Preguntar y responder sobre el origen ('Where are you from?')",
+    "Usar el verbo 'to be' en forma negativa y de pregunta"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Time in the Bank",
-      "content": "Being punctual is important for meetings and transactions.\n\n- **What time is it?**: ¿Qué hora es?\n- **O'clock**: En punto (e.g., 9:00 - nine o'clock)\n- **Half past**: Y media (e.g., 9:30 - half past nine)\n- **Quarter past**: Y cuarto\n- **Quarter to**: Menos cuarto\n- **AM / PM**: Mañana / Tarde-Noche\n- **Noon**: Mediodía"
+      "title": "Países y Nacionalidades (Countries & Nationalities)",
+      "content": "En oficinas internacionales, trabajamos con personas de todo el mundo:\n\n- **Spain / Spanish**: España / Español-a\n- **United Kingdom / British**: Reino Unido / Británico-a\n- **USA / American**: Estados Unidos / Americano-a\n- **Germany / German**: Alemania / Alemán-a\n- **France / French**: Francia / Francés-a\n- **Mexico / Mexican**: México / Mexicano-a"
     },
     {
-      "id": "global-time",
-      "title": "Modern Banking: Time Zones",
-      "content": "Digital banking is global. We need to know different **Time Zones**.\n\n- **Time Zone**: Zona horaria\n- **London Time**: Hora de Londres\n- **Local Time**: Hora local\n- **World Clock**: Reloj mundial\n\n### Global Example\n```mermaid\ngraph LR\n    A[London: 9:00 AM] -- +1 hour --> B[Madrid: 10:00 AM]\n    A -- -5 hours --> C[New York: 4:00 AM]\n```"
+      "title": "Preguntar el Origen",
+      "content": "Para saber de dónde es alguien, usamos la pregunta:\n\n- **Where are you from?** (¿De dónde eres?)\n- **I am from** Spain. (Soy de España)\n\nPara preguntar por la nacionalidad:\n- **Are you Spanish?** (¿Eres español?)\n- **Yes, I am.** / **No, I'm not.**"
     },
     {
-      "id": "grammar",
-      "title": "Grammar: Present Simple Negative",
-      "content": "To say something does not happen, we use **don't** or **doesn't**.\n\n**Structure (I/You/We/They + don't + verb):**\n- I **don't work** on Saturdays.\n- We **don't open** at midnight.\n\n**Structure (He/She/It + doesn't + verb):**\n- The bank **doesn't close** at noon.\n- The app **doesn't stop** at night."
+      "title": "Verbo 'To Be': Negativo y Preguntas",
+      "content": "**Negativo:**\n- I am **not** from Germany.\n- He **is not (isn't)** American.\n- They **are not (aren't)** British.\n\n**Preguntas:**\n- **Is** she Mexican?\n- **Are** they from France?"
     }
   ],
-  "objectives": [
-    "Tell and understand the time in English",
-    "Understand basic time zone differences in global banking",
-    "Use the negative form of the present simple"
-  ],
-  "keyTerms": [
-    { "term": "Time Zone", "definition": "A region of the globe that observes a uniform standard time." },
-    { "term": "Appointment", "definition": "A meeting at a specific time." }
-  ]
+  "audioUrl": ""
 }

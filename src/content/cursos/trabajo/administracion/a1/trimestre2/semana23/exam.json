@@ -3,47 +3,167 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana23",
-  "title": "Examen: Problemas, Soluciones y Repaso",
+  "title": "Examen: Reportes de Gastos y Gráficos",
   "items": [
     {
-      "id": "fin-a1-w23-e1",
-      "type": "multipleChoice",
-      "prompt": "I ___ my wallet on the bus.",
-      "options": ["lost", "broke", "wrong", "found"],
+      "id": "adm-a1-w23-e1",
+      "type": "multiple-choice",
+      "prompt": "A document that shows your transactions is a ___.",
+      "options": ["statement", "book", "story", "login"],
       "answerIndex": 0,
-      "explanation": "We use 'lost' when we can't find something."
+      "explanation": "A statement is a record of transactions."
     },
     {
-      "id": "fin-a1-w23-e2",
-      "type": "multipleChoice",
-      "prompt": "The ATM is ___. I can't get cash.",
-      "options": ["broken", "wrong", "lost", "safe"],
+      "id": "adm-a1-w23-e2",
+      "type": "multiple-choice",
+      "prompt": "A pie chart shows your spending ___.",
+      "options": ["categories", "passwords", "friends", "emails"],
       "answerIndex": 0,
-      "explanation": "If the ATM doesn't work, it's broken."
+      "explanation": "Charts show categories like 'Food' or 'Travel'."
     },
     {
-      "id": "fin-a1-w23-e3",
-      "type": "multipleChoice",
-      "prompt": "Could you ___ the manager, please?",
-      "options": ["call", "pay", "cost", "buy"],
-      "answerIndex": 0,
-      "explanation": "We call the manager for assistance."
+      "id": "adm-a1-w23-e3",
+      "type": "multiple-choice",
+      "prompt": "The money at the end of the month is the ___ balance.",
+      "options": ["opening", "closing", "pending", "locked"],
+      "answerIndex": 1,
+      "explanation": "Closing balance is the final amount."
     },
     {
-      "id": "fin-a1-w23-e4",
-      "type": "multipleChoice",
-      "prompt": "I'm sorry, I don't ___.",
-      "options": ["understand", "help", "wait", "welcome"],
+      "id": "adm-a1-w23-e4",
+      "type": "multiple-choice",
+      "prompt": "I need to ___ my PDF report.",
+      "options": ["download", "pay", "buy", "cost"],
       "answerIndex": 0,
-      "explanation": "Standard phrase: I don't understand."
+      "explanation": "We download digital documents."
     },
     {
-      "id": "fin-a1-w23-e5",
-      "type": "multipleChoice",
-      "prompt": "There ___ a problem with this card.",
-      "options": ["is", "are", "am", "be"],
+      "id": "adm-a1-w23-e5",
+      "type": "multiple-choice",
+      "prompt": "Which category is for 'Electricity'?",
+      "options": ["bills", "entertainment", "food", "travel"],
       "answerIndex": 0,
-      "explanation": "Singular 'a problem' needs 'is'."
+      "explanation": "Electricity is a bill."
+    },
+    {
+      "id": "adm-a1-w23-e6",
+      "type": "multiple-choice",
+      "prompt": "Could I ___ the spending chart?",
+      "options": ["see", "seeing", "saw", "to see"],
+      "answerIndex": 0,
+      "explanation": "Use the base form of the verb after 'could'."
+    },
+    {
+      "id": "adm-a1-w23-e7",
+      "type": "multiple-choice",
+      "prompt": "The money at the start of the month is the ___ balance.",
+      "options": ["opening", "closing", "final", "total"],
+      "answerIndex": 0,
+      "explanation": "Opening balance is the starting amount."
+    },
+    {
+      "id": "adm-a1-w23-e8",
+      "type": "multiple-choice",
+      "prompt": "A circular graph is called a ___ chart.",
+      "options": ["bar", "pie", "line", "box"],
+      "answerIndex": 1,
+      "explanation": "A circular graph is a pie chart."
+    },
+    {
+      "id": "adm-a1-w23-e9",
+      "type": "multiple-choice",
+      "prompt": "The 'Transaction History' shows ___ payments.",
+      "options": ["past", "future", "planned", "fake"],
+      "answerIndex": 0,
+      "explanation": "History shows what happened in the past."
+    },
+    {
+      "id": "adm-a1-w23-e10",
+      "type": "multiple-choice",
+      "prompt": "Which category is for 'Uber' or 'Taxi'?",
+      "options": ["Food", "Travel", "Bills", "Rent"],
+      "answerIndex": 1,
+      "explanation": "Taxis belong to the Travel category."
+    },
+    {
+      "id": "adm-a1-w23-e11",
+      "type": "multiple-choice",
+      "prompt": "Could I ___ a question about the budget?",
+      "options": ["ask", "asking", "asks", "asked"],
+      "answerIndex": 0,
+      "explanation": "Base form 'ask' is used with 'could'."
+    },
+    {
+      "id": "adm-a1-w23-e12",
+      "type": "multiple-choice",
+      "prompt": "The 'Highest Expense' is where you spend the ___ money.",
+      "options": ["least", "most", "no", "same"],
+      "answerIndex": 1,
+      "explanation": "Highest means the maximum amount."
+    },
+    {
+      "id": "adm-a1-w23-e13",
+      "type": "multiple-choice",
+      "prompt": "A spending ___ helps you plan your money.",
+      "options": ["chart", "budget", "game", "password"],
+      "answerIndex": 1,
+      "explanation": "A budget is a financial plan."
+    },
+    {
+      "id": "adm-a1-w23-e14",
+      "type": "multiple-choice",
+      "prompt": "Where do you find the 'Download' button?",
+      "options": ["In the bin", "On the website or app", "In the trash", "On the floor"],
+      "answerIndex": 1,
+      "explanation": "Digital buttons are on apps or websites."
+    },
+    {
+      "id": "adm-a1-w23-e15",
+      "type": "multiple-choice",
+      "prompt": "If Opening is $500 and Closing is $400, you spent ___.",
+      "options": ["$500", "$400", "$100", "$900"],
+      "answerIndex": 2,
+      "explanation": "500 - 400 = 100."
+    },
+    {
+      "id": "adm-a1-w23-e16",
+      "type": "multiple-choice",
+      "prompt": "Which category is for 'Netflix'?",
+      "options": ["Bills", "Food", "Entertainment", "Travel"],
+      "answerIndex": 2,
+      "explanation": "Netflix is entertainment."
+    },
+    {
+      "id": "adm-a1-w23-e17",
+      "type": "multiple-choice",
+      "prompt": "Could I ___ the monthly report?",
+      "options": ["get", "getting", "got", "to get"],
+      "answerIndex": 0,
+      "explanation": "Base form 'get' is correct."
+    },
+    {
+      "id": "adm-a1-w23-e18",
+      "type": "multiple-choice",
+      "prompt": "A ___ graph uses bars to show data.",
+      "options": ["pie", "bar", "circle", "dot"],
+      "answerIndex": 1,
+      "explanation": "Bar graphs use bars."
+    },
+    {
+      "id": "adm-a1-w23-e19",
+      "type": "multiple-choice",
+      "prompt": "What is the English word for 'Extracto Bancario'?",
+      "options": ["Bank story", "Bank statement", "Bank book", "Bank paper"],
+      "answerIndex": 1,
+      "explanation": "Extracto bancario = bank statement."
+    },
+    {
+      "id": "adm-a1-w23-e20",
+      "type": "multiple-choice",
+      "prompt": "Is the budget a plan for the future?",
+      "options": ["Yes", "No", "Never", "Maybe"],
+      "answerIndex": 0,
+      "explanation": "Yes, a budget plans future spending."
     }
   ]
 }

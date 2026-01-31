@@ -1,103 +1,200 @@
 {
-  "title": "Week 35 Assessment: Professional Ethics & CSR",
-  "questions": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana35",
+  "title": "Exam: Professional Ethics & CSR",
+  "description": "Assessment of administrative ethics, CSR frameworks, and advanced reporting structures.",
+  "items": [
     {
-      "id": "q1",
-      "type": "multiple-choice",
-      "question": "What is 'Whistleblowing'?",
+      "id": "adm-b2-w35-exam-q1",
+      "type": "multipleChoice",
+      "prompt": "What is the primary definition of 'Whistleblowing'?",
       "options": [
-        "Playing a musical instrument in the office",
-        "Reporting illegal or unethical activities within a company",
-        "Hiring new employees from a competitor",
-        "Quitting a job without giving notice"
+        "Starting a new marketing campaign",
+        "Reporting illegal or unethical activities within an organisation",
+        "Negotiating a salary increase",
+        "Participating in a corporate merger"
       ],
-      "answer": "Reporting illegal or unethical activities within a company"
+      "answerIndex": 1,
+      "explanation": "Whistleblowing involves reporting internal misconduct to authorities or management."
     },
     {
-      "id": "q2",
-      "type": "multiple-choice",
-      "question": "A 'Conflict of Interest' occurs when ______.",
+      "id": "adm-b2-w35-exam-q2",
+      "type": "fillBlanks",
+      "prompt": "The CEO ________ (refuse / comment) on the allegations of fraud during the press conference.",
+      "answers": ["refused to comment"],
+      "explanation": "Refuse + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w35-exam-q3",
+      "type": "multipleChoice",
+      "prompt": "A 'Conflict of Interest' occurs when ______.",
       "options": [
-        "Two employees disagree on a project",
+        "Two departments share the same budget",
         "A person's private interests interfere with their professional duties",
-        "The company loses money in a new market",
-        "The manager gives too much work to the team"
+        "A company opens a new branch abroad",
+        "Employees disagree on the office temperature"
       ],
-      "answer": "A person's private interests interfere with their professional duties"
+      "answerIndex": 1,
+      "explanation": "Conflicts of interest compromise professional objectivity."
     },
     {
-      "id": "q3",
-      "type": "multiple-choice",
-      "question": "Which reporting verb is followed by a gerund?",
-      "options": ["Agree", "Refuse", "Suggest", "Promise"],
-      "answer": "Suggest"
+      "id": "adm-b2-w35-exam-q4",
+      "type": "fillBlanks",
+      "prompt": "The auditors suggested ________ (review) the internal control system immediately.",
+      "answers": ["reviewing", "suggested reviewing"],
+      "explanation": "Suggest + gerund (-ing)."
     },
     {
-      "id": "q4",
-      "type": "multiple-choice",
-      "question": "Choose the correct sentence:",
+      "id": "adm-b2-w35-exam-q5",
+      "type": "multipleChoice",
+      "prompt": "Which dimension is NOT part of the Triple Bottom Line (TBL)?",
+      "options": ["People", "Profit", "Prestige", "Planet"],
+      "answerIndex": 2,
+      "explanation": "The TBL focus is on People, Profit, and Planet."
+    },
+    {
+      "id": "adm-b2-w35-exam-q6",
+      "type": "fillBlanks",
+      "prompt": "It is widely ________ (rumour) that the company is considering a merger.",
+      "answers": ["rumoured"],
+      "explanation": "Passive reporting: It is + past participle."
+    },
+    {
+      "id": "adm-b2-w35-exam-q7",
+      "type": "multipleChoice",
+      "prompt": "To 'adhere to' a code of conduct means to ______.",
       "options": [
-        "He denied to take the bribe.",
-        "He denied taking the bribe.",
-        "He denied take the bribe.",
-        "He denied for taking the bribe."
+        "Rewrite the rules",
+        "Follow the rules strictly",
+        "Ignore the rules",
+        "Translate the rules"
       ],
-      "answer": "He denied taking the bribe."
+      "answerIndex": 1,
+      "explanation": "Adherence refers to strict compliance."
     },
     {
-      "id": "q5",
-      "type": "multiple-choice",
-      "question": "What is 'Corporate Social Responsibility' (CSR)?",
+      "id": "adm-b2-w35-exam-q8",
+      "type": "fillBlanks",
+      "prompt": "The manager denied ________ (leak) the confidential documents to the press.",
+      "answers": ["leaking", "denied leaking"],
+      "explanation": "Deny + gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w35-exam-q9",
+      "type": "multipleChoice",
+      "prompt": "In a DEI context, 'Equity' refers to ______.",
       "options": [
-        "A legal requirement to pay corporate taxes",
-        "A business model that integrates social and environmental concerns",
-        "The responsibility of employees to socialize together",
-        "A marketing strategy to sell more products"
+        "Treating everyone exactly the same",
+        "Ensuring processes are impartial and provide equal possible outcomes",
+        "The total value of company shares",
+        "Hiring only from one specific demographic"
       ],
-      "answer": "A business model that integrates social and environmental concerns"
+      "answerIndex": 1,
+      "explanation": "Equity focuses on fairness and equal outcomes, not just equal treatment."
     },
     {
-      "id": "q6",
-      "type": "fill-in-the-blank",
-      "question": "The CEO promised ______ (to address / addressing) the shareholders' concerns.",
-      "answer": "to address"
+      "id": "adm-b2-w35-exam-q10",
+      "type": "fillBlanks",
+      "prompt": "The board ________ (promise / increase) transparency in the next financial report.",
+      "answers": ["promised to increase"],
+      "explanation": "Promise + to-infinitive."
     },
     {
-      "id": "q7",
-      "type": "fill-in-the-blank",
-      "question": "The consultant recommended ______ (to conduct / conducting) a full ethical audit.",
-      "answer": "conducting"
-    },
-    {
-      "id": "q8",
-      "type": "multiple-choice",
-      "question": "What does it mean to 'adhere to a code of conduct'?",
+      "id": "adm-b2-w35-exam-q11",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Ethical Audit'?",
       "options": [
-        "To write a new set of rules",
-        "To follow the existing rules strictly",
-        "To ignore the rules when they are inconvenient",
-        "To teach the rules to others"
+        "A check of the company's bank accounts",
+        "An evaluation of an organisation's ethical performance",
+        "A marketing survey",
+        "A physical inventory check"
       ],
-      "answer": "To follow the existing rules strictly"
+      "answerIndex": 1,
+      "explanation": "Ethical audits assess compliance with ethical standards."
     },
     {
-      "id": "q9",
-      "type": "multiple-choice",
-      "question": "Which verb is followed by an infinitive?",
-      "options": ["Recommend", "Deny", "Admit", "Refuse"],
-      "answer": "Refuse"
+      "id": "adm-b2-w35-exam-q12",
+      "type": "fillBlanks",
+      "prompt": "The project is expected ________ (finish) by the end of the month.",
+      "answers": ["to finish"],
+      "explanation": "Subject + passive verb + to-infinitive."
     },
     {
-      "id": "q10",
-      "type": "multiple-choice",
-      "question": "'Sustainability' refers to ______.",
+      "id": "adm-b2-w35-exam-q13",
+      "type": "multipleChoice",
+      "prompt": "The quality of being honest and having strong moral principles is ______.",
+      "options": ["Compliance", "Accountability", "Integrity", "Philanthropy"],
+      "answerIndex": 2,
+      "explanation": "Integrity is a core value in professional ethics."
+    },
+    {
+      "id": "adm-b2-w35-exam-q14",
+      "type": "fillBlanks",
+      "prompt": "It has been ________ (agree) that the audit will begin on Monday.",
+      "answers": ["agreed"],
+      "explanation": "It + passive verb (perfect) + that clause."
+    },
+    {
+      "id": "adm-b2-w35-exam-q15",
+      "type": "multipleChoice",
+      "prompt": "What does CSR stand for?",
       "options": [
-        "Maximizing short-term profits",
-        "Meeting current needs without compromising future generations",
-        "Using only the cheapest materials available",
-        "Expanding the business as fast as possible"
+        "Corporate Social Responsibility",
+        "Company System Reform",
+        "Customer Service Relations",
+        "Creative Strategy Response"
       ],
-      "answer": "Meeting current needs without compromising future generations"
+      "answerIndex": 0,
+      "explanation": "CSR is the integration of social/environmental concerns into business."
+    },
+    {
+      "id": "adm-b2-w35-exam-q16",
+      "type": "fillBlanks",
+      "prompt": "He is said ________ (leave) the company due to a conflict of interest.",
+      "answers": ["to have left"],
+      "explanation": "Personal passive for past events (to have + past participle)."
+    },
+    {
+      "id": "adm-b2-w35-exam-q17",
+      "type": "multipleChoice",
+      "prompt": "A 'Stakeholder' is someone who ______.",
+      "options": [
+        "Only works in the office",
+        "Lends money to the company",
+        "Has an interest or concern in an organisation",
+        "Sells office supplies"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stakeholders include employees, customers, shareholders, and the community."
+    },
+    {
+      "id": "adm-b2-w35-exam-q18",
+      "type": "fillBlanks",
+      "prompt": "The consultant recommended ________ (conduct) a thorough risk assessment.",
+      "answers": ["conducting", "recommended conducting"],
+      "explanation": "Recommend + gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w35-exam-q19",
+      "type": "multipleChoice",
+      "prompt": "To 'mitigate damage' means to ______.",
+      "options": [
+        "Ignore the problem",
+        "Reduce the severity or impact of something negative",
+        "Blame others",
+        "Increase the budget"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mitigation aims to minimize negative consequences."
+    },
+    {
+      "id": "adm-b2-w35-exam-q20",
+      "type": "fillBlanks",
+      "prompt": "They are required ________ (sign) the new code of conduct by Friday.",
+      "answers": ["to sign"],
+      "explanation": "Are required + to-infinitive."
     }
   ]
 }

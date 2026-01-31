@@ -6,44 +6,164 @@
   "title": "Examen: Seguros y Coberturas",
   "items": [
     {
-      "id": "fin-a2-w15-e1",
+      "id": "adm-a2-w15-q01",
       "type": "multipleChoice",
       "prompt": "You ___ have problems if you don't have insurance.",
       "options": ["will", "do", "are", "have"],
       "answerIndex": 0,
-      "explanation": "If + present simple, will + verb."
+      "explanation": "Primer condicional: If + presente simple, will + verbo."
     },
     {
-      "id": "fin-a2-w15-e2",
+      "id": "adm-a2-w15-q02",
       "type": "multipleChoice",
       "prompt": "How much is the monthly ___ for this life insurance?",
       "options": ["premium", "claim", "policy", "coverage"],
       "answerIndex": 0,
-      "explanation": "Premium is the regular payment for insurance."
+      "explanation": "La 'premium' (prima) es el pago regular que se hace por un seguro."
     },
     {
-      "id": "fin-a2-w15-e3",
+      "id": "adm-a2-w15-q03",
       "type": "multipleChoice",
       "prompt": "If you ___ the contract, you will see the coverage.",
       "options": ["read", "will read", "reading", "reads"],
       "answerIndex": 0,
-      "explanation": "If + present simple."
+      "explanation": "En la parte del 'if' usamos presente simple."
     },
     {
-      "id": "fin-a2-w15-e4",
+      "id": "adm-a2-w15-q04",
       "type": "multipleChoice",
       "prompt": "I need to call the company to make a ___.",
       "options": ["premium", "policy", "claim", "budget"],
       "answerIndex": 2,
-      "explanation": "You make a claim after an event (like a crash)."
+      "explanation": "Se hace una 'claim' (reclamación) después de un siniestro."
     },
     {
-      "id": "fin-a2-w15-e5",
+      "id": "adm-a2-w15-q05",
       "type": "multipleChoice",
       "prompt": "The car insurance ___ pay for the repairs.",
       "options": ["will", "is going", "does", "if"],
       "answerIndex": 0,
-      "explanation": "Will describes the future action of the company."
+      "explanation": "Usamos 'will' para expresar la consecuencia futura."
+    },
+    {
+      "id": "adm-a2-w15-q06",
+      "type": "multipleChoice",
+      "prompt": "If she ___ the rules, she will not get coverage.",
+      "options": ["breaks", "break", "will break", "breaking"],
+      "answerIndex": 0,
+      "explanation": "Tercera persona del singular en presente simple: 'she breaks'."
+    },
+    {
+      "id": "adm-a2-w15-q07",
+      "type": "multipleChoice",
+      "prompt": "A ___ insurance policy protects your house.",
+      "options": ["home", "life", "health", "car"],
+      "answerIndex": 0,
+      "explanation": "'Home insurance' es el seguro de hogar."
+    },
+    {
+      "id": "adm-a2-w15-q08",
+      "type": "multipleChoice",
+      "prompt": "What ___ happen if I lose my job?",
+      "options": ["will", "does", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre la consecuencia futura en el primer condicional."
+    },
+    {
+      "id": "adm-a2-w15-q09",
+      "type": "multipleChoice",
+      "prompt": "If you have a medical emergency, the ___ insurance will help.",
+      "options": ["health", "life", "home", "travel"],
+      "answerIndex": 0,
+      "explanation": "El seguro médico (health insurance) cubre emergencias médicas."
+    },
+    {
+      "id": "adm-a2-w15-q10",
+      "type": "multipleChoice",
+      "prompt": "They ___ not cover the damage if it is intentional.",
+      "options": ["will", "do", "are", "have"],
+      "answerIndex": 0,
+      "explanation": "'Will not' se usa para la consecuencia negativa."
+    },
+    {
+      "id": "adm-a2-w15-q11",
+      "type": "multipleChoice",
+      "prompt": "The total ___ in this policy is $50,000.",
+      "options": ["coverage", "premium", "claim", "rate"],
+      "answerIndex": 0,
+      "explanation": "La 'coverage' es la cantidad máxima de protección."
+    },
+    {
+      "id": "adm-a2-w15-q12",
+      "type": "multipleChoice",
+      "prompt": "If we ___ a high premium, we will have better coverage.",
+      "options": ["pay", "will pay", "paying", "paid"],
+      "answerIndex": 0,
+      "explanation": "If + presente simple."
+    },
+    {
+      "id": "adm-a2-w15-q13",
+      "type": "multipleChoice",
+      "prompt": "Will you ___ the policy documents tomorrow?",
+      "options": ["send", "sending", "sent", "sends"],
+      "answerIndex": 0,
+      "explanation": "Después de 'will' el verbo va en infinitivo sin 'to'."
+    },
+    {
+      "id": "adm-a2-w15-q14",
+      "type": "multipleChoice",
+      "prompt": "If the insurance company ___ our claim, we will be happy.",
+      "options": ["accepts", "accept", "will accept", "accepting"],
+      "answerIndex": 0,
+      "explanation": "Sujeto singular (the company) + verbo en presente (accepts)."
+    },
+    {
+      "id": "adm-a2-w15-q15",
+      "type": "multipleChoice",
+      "prompt": "A ___ is the document that contains the insurance contract.",
+      "options": ["policy", "premium", "claim", "receipt"],
+      "answerIndex": 0,
+      "explanation": "La 'policy' es la póliza o documento del contrato."
+    },
+    {
+      "id": "adm-a2-w15-q16",
+      "type": "multipleChoice",
+      "prompt": "If you ___ travel insurance, you will be protected abroad.",
+      "options": ["buy", "will buy", "buying", "buys"],
+      "answerIndex": 0,
+      "explanation": "Estructura del primer condicional con 'if'."
+    },
+    {
+      "id": "adm-a2-w15-q17",
+      "type": "multipleChoice",
+      "prompt": "Who ___ pay for the medical bills?",
+      "options": ["will", "does", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre la acción futura de pago."
+    },
+    {
+      "id": "adm-a2-w15-q18",
+      "type": "multipleChoice",
+      "prompt": "If I ___ an accident, I will call my agent.",
+      "options": ["have", "will have", "has", "having"],
+      "answerIndex": 0,
+      "explanation": "If + presente simple."
+    },
+    {
+      "id": "adm-a2-w15-q19",
+      "type": "multipleChoice",
+      "prompt": "The ___ is the amount you pay regularly.",
+      "options": ["premium", "policy", "coverage", "claim"],
+      "answerIndex": 0,
+      "explanation": "La prima (premium) es el coste periódico del seguro."
+    },
+    {
+      "id": "adm-a2-w15-q20",
+      "type": "multipleChoice",
+      "prompt": "If you don't pay, the company ___ cancel your policy.",
+      "options": ["will", "is", "does", "do"],
+      "answerIndex": 0,
+      "explanation": "Consecuencia futura ante el impago."
     }
   ]
 }

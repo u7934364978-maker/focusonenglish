@@ -3,44 +3,44 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana15",
-  "title": "Examen: Localización en el Banco",
+  "title": "Examen: Distribución de la Oficina",
   "items": [
     {
-      "id": "fin-a1-w15-e1",
-      "type": "multipleChoice",
-      "prompt": "Is there an ATM ___ the bank?",
+      "id": "adm-a1-w15-e1",
+      "type": "multiple-choice",
+      "prompt": "Is there a printer ___ the office?",
       "options": ["Inside", "Opposite", "Between", "Next to"],
       "answerIndex": 0,
-      "explanation": "Inside asks if it's within the bank."
+      "explanation": "Inside asks if it's within the office."
     },
     {
-      "id": "fin-a1-w15-e2",
-      "type": "multipleChoice",
+      "id": "adm-a1-w15-e2",
+      "type": "multiple-choice",
       "prompt": "The bathroom is ___ the stairs.",
       "options": ["Next to", "Between", "Inside", "Those"],
       "answerIndex": 0,
       "explanation": "Next to means beside."
     },
     {
-      "id": "fin-a1-w15-e3",
-      "type": "multipleChoice",
+      "id": "adm-a1-w15-e3",
+      "type": "multiple-choice",
       "prompt": "The security guard is ___ the door.",
       "options": ["Opposite", "Between", "Inside", "In front of"],
       "answerIndex": 3,
       "explanation": "In front of means delante de."
     },
     {
-      "id": "fin-a1-w15-e4",
-      "type": "multipleChoice",
+      "id": "adm-a1-w15-e4",
+      "type": "multiple-choice",
       "prompt": "Your money is ___ the envelope.",
       "options": ["Inside", "Opposite", "Between", "Those"],
       "answerIndex": 0,
       "explanation": "Inside means within."
     },
     {
-      "id": "fin-a1-w15-e5",
-      "type": "multipleChoice",
-      "prompt": "The ATM is ___ the pharmacy and the cafe.",
+      "id": "adm-a1-w15-e5",
+      "type": "multiple-choice",
+      "prompt": "The printer is ___ the pharmacy and the cafe.",
       "options": ["Next to", "Between", "Opposite", "Inside"],
       "answerIndex": 1,
       "explanation": "Between is used for two locations."

@@ -20,18 +20,46 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: Variance Analysis Report",
       "content": "Review a simulated department budget and draft a short report. Include:\n1. **Summary of spending** (Actual vs. Budget).\n2. **Explanation of variances** (Using wishes/regrets: *I wish we had...*).\n3. **Proposed corrective actions** to stay on track for the next quarter."
+    },
+    {
+      "id": "budget-methodologies",
+      "title": "Budgeting Methodologies: ZBB vs. Incremental",
+      "content": "Companies use different methods to build their annual or quarterly budgets. Understanding these helps admins justify requests.\n\n### Incremental Budgeting:\n- **Definition**: Using the previous period's budget as a baseline and adding/subtracting a percentage.\n- **Pros**: Quick and easy to implement.\n- **Cons**: Can lead to 'slack' (keeping unnecessary costs just because they were there last year).\n\n### Zero-Based Budgeting (ZBB):\n- **Definition**: Starting from a 'zero base' every period. Every single expense must be justified as if it were the first time.\n- **Pros**: Eliminates waste and focuses on current needs.\n- **Cons**: Extremely time-consuming for administrative staff."
+    },
+    {
+      "id": "cost-centers",
+      "title": "Cost Centers & Resource Allocation",
+      "content": "A **Cost Center** is a department or function within an organization that does not directly add to profit but still costs the organization money to operate. Admins are usually responsible for tracking spend within their specific cost center.\n\n### Key Terms:\n- **Allocation**: The process of assigning costs to different cost centers (e.g., splitting electricity bills between HR and IT).\n- **Fixed Costs**: Costs that do not change with activity levels (e.g., office rent).\n- **Variable Costs**: Costs that fluctuate (e.g., office supplies, courier fees).\n- **Discretionary Spend**: Non-essential spending that can be reduced if necessary (e.g., office perks, premium stationery)."
+    },
+    {
+      "id": "reporting-audits",
+      "title": "Financial Reporting & Internal Audits",
+      "content": "Admins often assist in preparing data for monthly reports and annual audits. Accuracy and transparency are vital.\n\n### The Audit Process:\n1. **Preparation**: Gathering receipts, invoices, and ledger entries.\n2. **Fieldwork**: Auditors review the documents and ask questions.\n3. **Reporting**: Findings are documented, highlighting any discrepancies.\n4. **Follow-up**: Implementing changes to address audit findings.\n\n### Professional Language for Reporting:\n- **To reconcile**: To ensure two sets of records (e.g., bank statement and ledger) match.\n- **To flag a discrepancy**: To point out a difference between expected and actual figures.\n- **To be in compliance**: To follow the financial regulations and company policies."
+    },
+    {
+      "id": "cash-flow",
+      "title": "Cash Flow & Petty Cash Management",
+      "content": "While Finance handles the main accounts, admins often manage **Petty Cash** and monitor departmental **Cash Flow** (the movement of money in and out).\n\n### Managing Petty Cash:\n- **The Float**: The small amount of cash kept in the office for minor expenses.\n- **Vouchers**: Every time money is taken, a voucher must be signed and a receipt attached.\n- **Reconciliation**: At the end of the month, the cash remaining plus the vouchers must equal the original float.\n\n### Vocabulary:\n- **Liquidity**: How quickly assets can be turned into cash.\n- **Reimbursement**: Paying someone back for money they spent on behalf of the company.\n- **Solvent**: Having enough money to pay all debts."
     }
   ],
   "objectives": [
     "Differentiate between OPEX and CAPEX",
     "Conduct a simple variance analysis for an admin budget",
     "Express regrets and desires using 'wish' and 'if only'",
-    "Justify administrative expenses and request funding formally"
+    "Justify administrative expenses and request funding formally",
+    "Compare Zero-Based Budgeting and Incremental Budgeting",
+    "Identify fixed and variable costs within a cost center",
+    "Prepare documentation for internal financial audits",
+    "Perform a petty cash reconciliation"
   ],
   "keyTerms": [
     { "term": "OPEX", "definition": "Operating Expenses: the ongoing costs for running a product, business, or system." },
     { "term": "CAPEX", "definition": "Capital Expenditure: money spent by a business or organization on acquiring or maintaining fixed assets, such as land, buildings, and equipment." },
     { "term": "Variance", "definition": "The difference between the budgeted or baseline amount of expense or revenue, and the actual amount." },
-    { "term": "Ledger", "definition": "A book or other collection of financial accounts of a particular type." }
+    { "term": "Ledger", "definition": "A book or other collection of financial accounts of a particular type." },
+    { "term": "ZBB", "definition": "Zero-Based Budgeting: a method of budgeting in which all expenses must be justified for each new period." },
+    { "term": "Cost Center", "definition": "A department or function which does not directly contribute to profit but still costs money to operate." },
+    { "term": "Reconciliation", "definition": "The process of ensuring that two sets of records are in agreement." },
+    { "term": "Petty Cash", "definition": "A small amount of discretionary funds in the form of cash used for expenditures where it is not sensible to make a disbursement by check." }
   ]
 }

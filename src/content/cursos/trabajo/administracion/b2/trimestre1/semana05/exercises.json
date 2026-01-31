@@ -495,6 +495,312 @@
       "prompt": "You are overseeing a project where a junior colleague has made a mistake, and your manager is demanding a 'dashboard view' of the fix. 1) Write an SBI feedback sentence for the junior. 2) Use a causative form to explain how you will fix it. 3) Describe how you will 'manage up' with your manager.",
       "modelAnswer": "1) In the Q3 report (S), two budget lines were swapped (B), which led to an incorrect total being presented (I). 2) I'll get IT to re-run the extraction script immediately. 3) I will provide Sarah with a one-page dashboard showing the corrected figures and a red/green status for the remaining tasks.",
       "keywords": ["SBI", "causative", "dashboard", "manage up"]
+    },
+    {
+      "id": "adm-b2-w5-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: EQ Pillars. Which pillar of Emotional Intelligence involves recognizing your own triggers?",
+      "options": [
+        "Self-Awareness",
+        "Self-Regulation",
+        "Social Awareness",
+        "Relationship Management"
+      ],
+      "answerIndex": 0,
+      "explanation": "Self-awareness is the ability to recognize one's own emotions and triggers."
+    },
+    {
+      "id": "adm-b2-w5-ex47",
+      "type": "writingTask",
+      "prompt": "Exercise 47: Self-Regulation. Write a professional response to an angry email from a vendor, demonstrating self-regulation (don't react emotionally).",
+      "modelAnswer": "Thank you for your email. I understand your concerns regarding the payment delay. I am currently investigating the matter with our finance department and will provide an update by the end of the day.",
+      "keywords": ["investigating", "update", "end of the day"]
+    },
+    {
+      "id": "adm-b2-w5-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Social Awareness. What does 'reading the room' mean in a professional context?",
+      "options": [
+        "Reading the books on the office shelf.",
+        "Understanding the underlying dynamics and emotions of a group interaction.",
+        "Counting how many people are in the room.",
+        "Decorating the room for a party."
+      ],
+      "answerIndex": 1,
+      "explanation": "Social awareness involves picking up on social cues and the emotional state of a group."
+    },
+    {
+      "id": "adm-b2-w5-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Relationship Management. Write a short 'rapport-building' message to a colleague you haven't spoken to in a week.",
+      "modelAnswer": "Hi Jane, I hope you're having a good week! I'd love to touch base briefly on the upcoming project whenever you have a moment. Best, Alex",
+      "keywords": ["hope", "touch base", "moment"]
+    },
+    {
+      "id": "adm-b2-w5-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: EQ and Conflict. When a colleague is angry, a high-EQ response is to:",
+      "options": [
+        "Argue back immediately.",
+        "Take it personally and get upset.",
+        "Recognize that their anger might not be personal and remain calm.",
+        "Tell everyone else in the office what happened."
+      ],
+      "answerIndex": 2,
+      "explanation": "High EQ involves recognizing that others' emotions are often about their own stress, not you."
+    },
+    {
+      "id": "adm-b2-w5-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Causative 'Have'. Rewrite: 'The technician is fixing the AC.' (I am...)",
+      "modelAnswer": "I am having the AC fixed.",
+      "keywords": ["having", "AC", "fixed"]
+    },
+    {
+      "id": "adm-b2-w5-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Delegation. Why is 'follow through' important after delegating?",
+      "options": [
+        "To make sure you can take all the credit.",
+        "To ensure the task is actually completed to the required standard.",
+        "Because you don't trust your colleagues.",
+        "It isn't important; once delegated, it's not your problem."
+      ],
+      "answerIndex": 1,
+      "explanation": "Accountability requires ensuring that delegated tasks are successfully finished."
+    },
+    {
+      "id": "adm-b2-w5-ex53",
+      "type": "writingTask",
+      "prompt": "Exercise 53: Managing Up. You notice your manager is extremely stressed this morning. What is a proactive 'managing up' action you could take?",
+      "modelAnswer": "I could offer to handle a minor task for them or ask if there's a specific briefing they need prepared for their next meeting to save them time.",
+      "keywords": ["offer", "handle", "save time"]
+    },
+    {
+      "id": "adm-b2-w5-ex54",
+      "type": "multipleChoice",
+      "prompt": "Exercise 54: PhraseBank. What does it mean to 'iron out the details'?",
+      "options": [
+        "To iron your office clothes.",
+        "To resolve minor problems or clarify small points.",
+        "To cancel the project completely.",
+        "To start from the beginning."
+      ],
+      "answerIndex": 1,
+      "explanation": "Ironing out details refers to finalizing the smaller parts of a plan."
+    },
+    {
+      "id": "adm-b2-w5-ex55",
+      "type": "writingTask",
+      "prompt": "Exercise 55: Causative 'Get'. Report: 'I asked the manager to sign the invoice.' (I got...)",
+      "modelAnswer": "I got the manager to sign the invoice.",
+      "keywords": ["got", "manager", "to", "sign"]
+    },
+    {
+      "id": "adm-b2-w5-ex56",
+      "type": "multipleChoice",
+      "prompt": "Exercise 56: Feedback (SBI). In the SBI model, the 'Behavior' should be:",
+      "options": [
+        "Your opinion of the person.",
+        "A specific, observable action without judgment.",
+        "A list of the person's character flaws.",
+        "How you felt about what happened."
+      ],
+      "answerIndex": 1,
+      "explanation": "Effective feedback focuses on objective behavior, not subjective personality."
+    },
+    {
+      "id": "adm-b2-w5-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Conflict Resolution (LEAP). A client is complaining about a billing error. Write an 'Empathize' sentence.",
+      "modelAnswer": "I completely understand how frustrating it is to see an incorrect charge on your statement.",
+      "keywords": ["understand", "frustrating", "incorrect"]
+    },
+    {
+      "id": "adm-b2-w5-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Vocabulary. To 'empower' someone means:",
+      "options": [
+        "To take away their job.",
+        "To give them the authority or power to do something.",
+        "To give them a pay cut.",
+        "To ignore their suggestions."
+      ],
+      "answerIndex": 1,
+      "explanation": "Empowerment involves giving others the autonomy to make decisions."
+    },
+    {
+      "id": "adm-b2-w5-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Causative 'Have' (Instructions). Form a sentence: 'The director / have / the secretary / draft / the letter'.",
+      "modelAnswer": "The director had the secretary draft the letter.",
+      "keywords": ["had", "secretary", "draft"]
+    },
+    {
+      "id": "adm-b2-w5-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Professional Boundaries. When 'managing up', alignment means:",
+      "options": [
+        "Agreeing with everything your boss says.",
+        "Working towards the same goals and understanding your boss's priorities.",
+        "Sitting in the same chair as your boss.",
+        "Following your boss home."
+      ],
+      "answerIndex": 1,
+      "explanation": "Alignment is about shared professional objectives and effective collaboration."
+    },
+    {
+      "id": "adm-b2-w5-ex61",
+      "type": "writingTask",
+      "prompt": "Exercise 61: SBI Model (Situation). Create a 'Situation' sentence for feedback regarding a missed deadline.",
+      "modelAnswer": "During our weekly status update yesterday afternoon...",
+      "keywords": ["yesterday", "afternoon", "meeting"]
+    },
+    {
+      "id": "adm-b2-w5-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Vocabulary. 'Constructive criticism' is feedback that is:",
+      "options": [
+        "Mean and intended to hurt someone's feelings.",
+        "Helpful and intended to improve something.",
+        "Given only by the CEO.",
+        "Optional to follow."
+      ],
+      "answerIndex": 1,
+      "explanation": "Constructive criticism focuses on improvement and growth."
+    },
+    {
+      "id": "adm-b2-w5-ex63",
+      "type": "writingTask",
+      "prompt": "Exercise 63: PhraseBank. Use 'bridge the gap' in a sentence about two departments that disagree.",
+      "modelAnswer": "We held a joint meeting to bridge the gap between the sales and marketing teams.",
+      "keywords": ["bridge the gap", "sales", "marketing"]
+    },
+    {
+      "id": "adm-b2-w5-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Causative Forms. Which sentence is incorrect?",
+      "options": [
+        "I had the team review the files.",
+        "I got the team to review the files.",
+        "I had the team to review the files.",
+        "I'll have my assistant call you."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Have + person' is followed by the bare infinitive (no 'to')."
+    },
+    {
+      "id": "adm-b2-w5-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Managing Up (Adaptability). If your manager prefers detailed emails, how would you update them on a minor delay?",
+      "modelAnswer": "I would send a structured email explaining the reason for the delay, the current status, and the new expected completion time.",
+      "keywords": ["structured email", "reason", "status", "completion time"]
+    },
+    {
+      "id": "adm-b2-w5-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: EQ Pillar (Self-Regulation). Which action demonstrates good self-regulation?",
+      "options": [
+        "Sending a frustrated reply immediately.",
+        "Taking a 5-minute walk to calm down before responding to a stressful request.",
+        "Blaming a colleague for your mistake.",
+        "Quitting your job on the spot."
+      ],
+      "answerIndex": 1,
+      "explanation": "Self-regulation involves managing impulsive reactions to stress."
+    },
+    {
+      "id": "adm-b2-w5-ex67",
+      "type": "writingTask",
+      "prompt": "Exercise 67: Vocabulary Review. Define 'Accountability' vs 'Responsibility' based on the text.",
+      "modelAnswer": "Responsibility is the duty to perform a task; Accountability is taking ownership of the final result, whether good or bad.",
+      "keywords": ["duty", "ownership", "result"]
+    },
+    {
+      "id": "adm-b2-w5-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Conflict (Common Ground). Finding common ground means:",
+      "options": [
+        "Buying the same shoes as someone else.",
+        "Finding shared interests or goals to help resolve a dispute.",
+        "Standing on the same piece of carpet.",
+        "Agreeing that everyone is wrong."
+      ],
+      "answerIndex": 1,
+      "explanation": "Common ground is the basis for compromise and resolution."
+    },
+    {
+      "id": "adm-b2-w5-ex69",
+      "type": "writingTask",
+      "prompt": "Exercise 69: Causative 'Have' (Service). Change 'The cleaners washed the windows' into a causative.",
+      "modelAnswer": "I had the windows washed.",
+      "keywords": ["had", "windows", "washed"]
+    },
+    {
+      "id": "adm-b2-w5-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Managing Up (Solutions). Why should you always propose a solution?",
+      "options": [
+        "To show you are smarter than your boss.",
+        "To reduce the cognitive load on your manager and show initiative.",
+        "Because you are not allowed to talk about problems.",
+        "To make the meeting last longer."
+      ],
+      "answerIndex": 1,
+      "explanation": "Proposing solutions shows you are actively working to resolve issues, not just reporting them."
+    },
+    {
+      "id": "adm-b2-w5-ex71",
+      "type": "writingTask",
+      "prompt": "Exercise 71: SBI Model (Impact). Complete: 'When you didn't check the room booking (Behavior), the client had to wait in the lobby for 20 minutes, which...'",
+      "modelAnswer": "...which made the company look unprofessional and delayed the start of the presentation.",
+      "keywords": ["unprofessional", "delayed", "presentation"]
+    },
+    {
+      "id": "adm-b2-w5-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: EQ (Social Awareness). You notice two colleagues are having a tense conversation in a hallway. The best action is to:",
+      "options": [
+        "Join in and ask what's wrong.",
+        "Walk past quietly and give them space, recognizing the tension.",
+        "Record them on your phone.",
+        "Tell everyone in the breakroom."
+      ],
+      "answerIndex": 1,
+      "explanation": "Social awareness involves recognizing and respecting social dynamics."
+    },
+    {
+      "id": "adm-b2-w5-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: PhraseBank. Use 'loop someone in' in a professional request.",
+      "modelAnswer": "Could you please loop me in on the email thread regarding the office refurbishment?",
+      "keywords": ["loop me in", "email thread"]
+    },
+    {
+      "id": "adm-b2-w5-ex74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Leadership. 'Anticipating needs' is best described as:",
+      "options": [
+        "Being psychic.",
+        "Thinking ahead and preparing what will be needed for a task or meeting.",
+        "Asking your boss every 5 minutes what they want.",
+        "Doing only what is in your job description."
+      ],
+      "answerIndex": 1,
+      "explanation": "Proactive thinking is a key administrative leadership trait."
+    },
+    {
+      "id": "adm-b2-w5-ex75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Comprehensive Review. Effective team support requires:",
+      "options": [
+        "Only doing the work you are told to do.",
+        "A combination of initiative, effective delegation, and high emotional intelligence.",
+        "Being the loudest person in the room.",
+        "Avoiding all conflict by never speaking."
+      ],
+      "answerIndex": 1,
+      "explanation": "Success in administrative leadership comes from a mix of proactivity, management skills, and EQ."
     }
   ]
 }

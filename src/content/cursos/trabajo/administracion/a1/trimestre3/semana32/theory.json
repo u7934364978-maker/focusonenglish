@@ -1,31 +1,30 @@
 {
-  "title": "Fintech & Digital Economy Review",
+  "title": "Emails and Communication Review",
   "sections": [
     {
-      "id": "review-fintech-ecosystem",
-      "title": "The Modern Fintech Ecosystem",
-      "content": "Throughout this trimester, we transitioned from traditional banking to a **digital-first ecosystem**. We now manage money using mobile apps, biometrics, and automated tools.\n\n### Key Concepts Recap:\n1. **Digital Operations**: Using QR codes and NFC for cardless ATM withdrawals (Week 25).\n2. **Security**: Protecting accounts with Face ID, Fingerprint, and Multi-Factor Authentication (MFA) (Week 26).\n3. **Global Wallets**: Managing multi-currency 'Pockets' and real-time exchange rates (Week 27).\n4. **Automated Savings**: Utilizing Round-ups and Digital Vaults for effortless saving (Week 28).\n5. **Subscription Economy**: Managing recurring payments and paperless direct debits (Week 29).\n6. **Smart Spending**: Using BNPL (Buy Now, Pay Later) and digital checkout codes (Week 30).\n7. **Financial Growth**: Understanding APY and compound interest in high-yield accounts (Week 31).",
-      "mermaid": "graph TD\n    User((User)) --> App[Fintech App]\n    App --> Security{Security: MFA/FaceID}\n    Security --> Operations[Operations: QR/NFC ATM]\n    Security --> Spending[Spending: BNPL/Subscriptions]\n    Security --> Savings[Savings: Vaults/Round-ups]\n    Security --> Global[Global: Multi-currency Pockets]"
+      "id": "module-summary",
+      "title": "Module 3 Summary",
+      "content": "In this module, we have learned the essentials of professional email communication. From the first greeting to the final thank you, each part of an email is important for clear and polite communication.\n\n### Key Topics Recap:\n1. **Email Structure**: Subject lines, greetings, body, and closings (Week 25-26).\n2. **Requests**: Using 'Can' and 'Could' for polite requests (Week 27).\n3. **Attachments**: Managing documents and files (Week 28).\n4. **Meetings**: Scheduling and confirming appointments (Week 29).\n5. **Gratitude**: Sending thanks and follow-ups (Week 30).\n6. **Action Verbs**: Managing the inbox with 'Reply', 'Forward', and 'Save' (Week 31)."
     },
     {
-      "id": "review-grammar",
-      "title": "Grammar for the Digital Age",
-      "content": "Let's review the core structures used in financial English:\n\n- **Imperatives**: Used for machine instructions (*'Scan the QR code'*, *'Enter your PIN'*).\n- **Prepositions of Place**: Navigating interfaces (*'On the dashboard'*, *'In the pocket'*).\n- **Quantifiers**: Managing money (*'How much interest?'*, *'How many transactions?'*).\n- **Modals**: Permissions and advice (*'You can set a limit'*, *'You should use MFA'*).\n- **Demonstratives**: Identifying items (*'This transaction'*, *'Those installments'*)."
+      "id": "grammar-recap",
+      "title": "Grammar Recap",
+      "content": "Review the main grammar points for professional emails:\n\n- **Modals (Can/Could)**: *'Could you help me?'*\n- **Present Simple**: *'Does the meeting start at 10?'*\n- **Object Pronouns**: *'I will call him later.'*\n- **Imperatives**: *'Please attach the file.'*"
     },
     {
-      "id": "review-final",
-      "title": "Ready for the Future",
-      "content": "By completing Level A1, you can now navigate a modern financial environment in English. You are ready to discuss digital payments, security settings, and basic investment concepts with confidence."
+      "id": "the-perfect-email",
+      "title": "The Perfect Professional Email",
+      "content": "A standard professional email follows this flow:\n\n1. **Subject Line**: Clear and short (e.g., 'Meeting Confirmation').\n2. **Greeting**: 'Dear Mr. Smith' or 'Hi John'.\n3. **Purpose**: 'I am writing to...' or 'Could you please...'.\n4. **Call to Action**: 'Please let me know' or 'Reply by Friday'.\n5. **Closing**: 'Best regards' or 'Sincerely'.\n6. **Signature**: Your name and title."
     }
   ],
   "objectives": [
-    "Recap the modern fintech vocabulary learned in Trimestre 3",
-    "Consolidate grammar structures within digital contexts",
-    "Finalize the A1 Level English for Banking and Finance"
+    "Review all professional email communication skills from Module 3",
+    "Consolidate grammar structures (Modals, Present Simple, Pronouns, Imperatives)",
+    "Prepare for the final course project and evaluation"
   ],
   "keyTerms": [
-    { "term": "Fintech", "definition": "Financial technology used to automate and improve financial services." },
-    { "term": "Ecosystem", "definition": "A complex network or interconnected system of financial tools." },
-    { "term": "MFA", "definition": "Multi-Factor Authentication; a security process requiring two or more proofs of identity." }
+    { "term": "Subject Line", "definition": "The title of an email that tells the recipient what it is about." },
+    { "term": "Closing", "definition": "The final phrase of an email before the sender's name." },
+    { "term": "Tone", "definition": "The style or manner of expression in writing (formal or informal)." }
   ]
 }

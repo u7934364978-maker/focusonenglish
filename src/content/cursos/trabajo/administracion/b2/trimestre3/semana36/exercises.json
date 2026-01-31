@@ -1,48 +1,599 @@
 {
-  "exercises": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana36",
+  "title": "Exercises: Final Review & Synthesis",
+  "items": [
     {
-      "id": "term-review",
-      "title": "Comprehensive Vocabulary Review",
-      "type": "matching",
-      "questions": [
-        { "question": "Due Diligence", "answer": "Detailed investigation of a business before a merger" },
-        { "question": "Whistleblowing", "answer": "Reporting internal misconduct" },
-        { "question": "Fiduciary Duty", "answer": "Legal obligation to act in a shareholder's interest" },
-        { "question": "Intellectual Property", "answer": "Legal rights over creations of the mind" },
-        { "question": "Change Agent", "answer": "Catalyst for organizational transformation" }
-      ]
+      "id": "adm-b2-w36-ex01",
+      "type": "multipleChoice",
+      "prompt": "Exercise 1: Vocabulary Review. What is the detailed investigation of a business before a merger?",
+      "options": ["Market Research", "Due Diligence", "Financial Audit", "Asset Management"],
+      "answerIndex": 1,
+      "explanation": "Due Diligence is the appraisal of a business before an acquisition or merger."
     },
     {
-      "id": "grammar-mix",
-      "title": "Advanced Grammar Integration",
-      "type": "multiple-choice",
-      "questions": [
-        {
-          "question": "If we ______ more careful during due diligence, we ______ facing this legal issue now.",
-          "options": ["were / wouldn't be", "had been / wouldn't be", "are / won't be"],
-          "answer": "had been / wouldn't be"
-        },
-        {
-          "question": "It ______ that the CEO will announce his resignation tomorrow.",
-          "options": ["believes", "is believed", "is believing"],
-          "answer": "is believed"
-        },
-        {
-          "question": "By this time next year, the company ______ its digital transformation.",
-          "options": ["will be completing", "will have completed", "will complete"],
-          "answer": "will have completed"
-        },
-        {
-          "question": "The merger was approved, ______ the concerns raised by the audit committee.",
-          "options": ["notwithstanding", "albeit", "whereas"],
-          "answer": "notwithstanding"
-        },
-        {
-          "question": "The manager recommended ______ the new security protocols immediately.",
-          "options": ["to adopt", "adopting", "adopt"],
-          "answer": "adopting"
-        }
-      ]
+      "id": "adm-b2-w36-ex02",
+      "type": "multipleChoice",
+      "prompt": "Exercise 2: Vocabulary Review. Reporting internal misconduct or illegal activities is known as:",
+      "options": ["Liaising", "Whistleblowing", "Auditing", "Philanthropy"],
+      "answerIndex": 1,
+      "explanation": "Whistleblowing is the act of reporting wrongdoing within an organisation."
+    },
+    {
+      "id": "adm-b2-w36-ex03",
+      "type": "multipleChoice",
+      "prompt": "Exercise 3: Vocabulary Review. A legal obligation to act in a shareholder's best interest is a:",
+      "options": ["Fiduciary Duty", "Conflict of Interest", "Strategic Partnership", "Synergy"],
+      "answerIndex": 0,
+      "explanation": "Fiduciary duty involves a legal trust to act in someone else's interest."
+    },
+    {
+      "id": "adm-b2-w36-ex04",
+      "type": "multipleChoice",
+      "prompt": "Exercise 4: Vocabulary Review. Legal rights over creations of the mind (patents, copyrights) are:",
+      "options": ["Real Estate", "Intellectual Property", "Fixed Assets", "Liquid Assets"],
+      "answerIndex": 1,
+      "explanation": "Intellectual Property refers to legal rights for creative and intellectual work."
+    },
+    {
+      "id": "adm-b2-w36-ex05",
+      "type": "multipleChoice",
+      "prompt": "Exercise 5: Vocabulary Review. A catalyst for organizational transformation is called a:",
+      "options": ["Stakeholder", "Change Agent", "Liquidator", "Auditor"],
+      "answerIndex": 1,
+      "explanation": "A Change Agent is someone who promotes and facilitates change within an organisation."
+    },
+    {
+      "id": "adm-b2-w36-ex06",
+      "type": "multipleChoice",
+      "prompt": "Exercise 6: Mixed Conditionals. If we ______ more careful during due diligence, we ______ facing this legal issue now.",
+      "options": ["were / wouldn't be", "had been / wouldn't be", "are / won't be", "were / won't be"],
+      "answerIndex": 1,
+      "explanation": "Mixed conditional: Third conditional (past cause) + Second conditional (present result)."
+    },
+    {
+      "id": "adm-b2-w36-ex07",
+      "type": "multipleChoice",
+      "prompt": "Exercise 7: Passive Reporting. It ______ that the CEO will announce his resignation tomorrow.",
+      "options": ["believes", "is believed", "is believing", "has believed"],
+      "answerIndex": 1,
+      "explanation": "Passive reporting structure: It + is + past participle + that clause."
+    },
+    {
+      "id": "adm-b2-w36-ex08",
+      "type": "multipleChoice",
+      "prompt": "Exercise 8: Future Perfect. By this time next year, the company ______ its digital transformation.",
+      "options": ["will be completing", "will have completed", "will complete", "completes"],
+      "answerIndex": 1,
+      "explanation": "The Future Perfect is used for actions that will be finished by a specific time in the future."
+    },
+    {
+      "id": "adm-b2-w36-ex09",
+      "type": "multipleChoice",
+      "prompt": "Exercise 9: Connectors. The merger was approved, ______ the concerns raised by the audit committee.",
+      "options": ["notwithstanding", "albeit", "whereas", "consequently"],
+      "answerIndex": 0,
+      "explanation": "Notwithstanding means 'in spite of' or 'despite'."
+    },
+    {
+      "id": "adm-b2-w36-ex10",
+      "type": "multipleChoice",
+      "prompt": "Exercise 10: Verb Patterns. The manager recommended ______ the new security protocols immediately.",
+      "options": ["to adopt", "adopting", "adopt", "to adopting"],
+      "answerIndex": 1,
+      "explanation": "'Recommend' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w36-ex11",
+      "type": "multipleChoice",
+      "prompt": "Exercise 11: Trimester Review. What does 'M&A' stand for?",
+      "options": ["Management & Administration", "Mergers & Acquisitions", "Marketing & Advertising", "Money & Assets"],
+      "answerIndex": 1,
+      "explanation": "M&A stands for Mergers and Acquisitions."
+    },
+    {
+      "id": "adm-b2-w36-ex12",
+      "type": "multipleChoice",
+      "prompt": "Exercise 12: Trimester Review. A violation of a law, right, or agreement is an:",
+      "options": ["Infringement", "Insolvency", "Incumbrance", "Inventory"],
+      "answerIndex": 0,
+      "explanation": "Infringement is the action of breaking the terms of a law or agreement."
+    },
+    {
+      "id": "adm-b2-w36-ex13",
+      "type": "multipleChoice",
+      "prompt": "Exercise 13: Trimester Review. A methodology based on continuous improvement and iteration is:",
+      "options": ["Waterfall", "Agile", "Bureaucratic", "Stagnant"],
+      "answerIndex": 1,
+      "explanation": "Agile methodologies focus on iterative development and flexibility."
+    },
+    {
+      "id": "adm-b2-w36-ex14",
+      "type": "multipleChoice",
+      "prompt": "Exercise 14: Trimester Review. What is 'BYOD'?",
+      "options": ["Build Your Own Dashboard", "Bring Your Own Device", "Buy Your Own Domain", "Book Your Own Desk"],
+      "answerIndex": 1,
+      "explanation": "BYOD is a policy where employees use their personal devices for work."
+    },
+    {
+      "id": "adm-b2-w36-ex15",
+      "type": "multipleChoice",
+      "prompt": "Exercise 15: Trimester Review. Which law governs data privacy in the EU?",
+      "options": ["SEC", "GDPR", "FTC", "EPA"],
+      "answerIndex": 1,
+      "explanation": "GDPR (General Data Protection Regulation) is the EU's data privacy law."
+    },
+    {
+      "id": "adm-b2-w36-ex16",
+      "type": "multipleChoice",
+      "prompt": "Exercise 16: Trimester Review. What does 'CRM' stand for?",
+      "options": ["Corporate Risk Management", "Customer Relationship Management", "Core Resource Mapping", "Cost Reduction Method"],
+      "answerIndex": 1,
+      "explanation": "CRM stands for Customer Relationship Management."
+    },
+    {
+      "id": "adm-b2-w36-ex17",
+      "type": "multipleChoice",
+      "prompt": "Exercise 17: Trimester Review. Anyone affected by an organisation's activities is a:",
+      "options": ["Shareholder", "Stakeholder", "Competitor", "Regulator"],
+      "answerIndex": 1,
+      "explanation": "Stakeholders include employees, customers, suppliers, and the community."
+    },
+    {
+      "id": "adm-b2-w36-ex18",
+      "type": "multipleChoice",
+      "prompt": "Exercise 18: Trimester Review. Standard trade terms for international shipping are called:",
+      "options": ["Incoterms", "Lexicon", "Provisions", "Statutes"],
+      "answerIndex": 0,
+      "explanation": "Incoterms define the responsibilities of buyers and sellers in international trade."
+    },
+    {
+      "id": "adm-b2-w36-ex19",
+      "type": "multipleChoice",
+      "prompt": "Exercise 19: Trimester Review. What is CSR?",
+      "options": ["Corporate Social Responsibility", "Customer Service Relations", "Core Sales Revenue", "Capital Stock Reserve"],
+      "answerIndex": 0,
+      "explanation": "CSR is a business model where companies integrate social and environmental concerns."
+    },
+    {
+      "id": "adm-b2-w36-ex20",
+      "type": "multipleChoice",
+      "prompt": "Exercise 20: Trimester Review. The inability to pay one's debts is:",
+      "options": ["Liquidity", "Insolvency", "Inflation", "Investment"],
+      "answerIndex": 1,
+      "explanation": "Insolvency occurs when a person or company cannot meet financial obligations."
+    },
+    {
+      "id": "adm-b2-w36-ex21",
+      "type": "multipleChoice",
+      "prompt": "Exercise 21: Trimester Review. Settling a dispute outside of court with a neutral third party is:",
+      "options": ["Litigation", "Arbitration", "Prosecution", "Indictment"],
+      "answerIndex": 1,
+      "explanation": "Arbitration is a private process for dispute resolution."
+    },
+    {
+      "id": "adm-b2-w36-ex22",
+      "type": "multipleChoice",
+      "prompt": "Exercise 22: Trimester Review. Careful and persistent work or effort (or business investigation) is:",
+      "options": ["Diligence", "Indifference", "Negligence", "Apathy"],
+      "answerIndex": 0,
+      "explanation": "Diligence refers to thoroughness and persistence."
+    },
+    {
+      "id": "adm-b2-w36-ex23",
+      "type": "multipleChoice",
+      "prompt": "Exercise 23: Trimester Review. A relationship involving trust, especially regarding finances, is:",
+      "options": ["Hostile", "Fiduciary", "Speculative", "Arbitrary"],
+      "answerIndex": 1,
+      "explanation": "Fiduciary relationships are based on trust and legal responsibility."
+    },
+    {
+      "id": "adm-b2-w36-ex24",
+      "type": "multipleChoice",
+      "prompt": "Exercise 24: Trimester Review. A project carried out in gradual stages is:",
+      "options": ["Abrupt", "Phased", "Immediate", "Spontaneous"],
+      "answerIndex": 1,
+      "explanation": "Phased implementation happens in distinct stages."
+    },
+    {
+      "id": "adm-b2-w36-ex25",
+      "type": "multipleChoice",
+      "prompt": "Exercise 25: Trimester Review. The time between starting and finishing a process is the:",
+      "options": ["Deadline", "Lead Time", "Lag Time", "Real Time"],
+      "answerIndex": 1,
+      "explanation": "Lead time is the duration required for a process from start to finish."
+    },
+    {
+      "id": "adm-b2-w36-ex26",
+      "type": "multipleChoice",
+      "prompt": "Exercise 26: Conditionals. If they ______ the contract yesterday, we ______ start work today.",
+      "options": ["had signed / could", "signed / would have", "had signed / would have", "sign / will"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: Past condition (had signed) with present consequence (could start)."
+    },
+    {
+      "id": "adm-b2-w36-ex27",
+      "type": "multipleChoice",
+      "prompt": "Exercise 27: Conditionals. We ______ the disaster if we ______ the warning signs.",
+      "options": ["might avoid / had seen", "could have avoided / had seen", "would avoid / saw", "avoided / saw"],
+      "answerIndex": 1,
+      "explanation": "Third conditional for hypothetical past situations: could have + past participle."
+    },
+    {
+      "id": "adm-b2-w36-ex28",
+      "type": "multipleChoice",
+      "prompt": "Exercise 28: Modals. The board ______ aware of the situation, but they did nothing.",
+      "options": ["must have been", "should have been", "could be", "ought to be"],
+      "answerIndex": 0,
+      "explanation": "'Must have been' expresses strong deduction about a past situation."
+    },
+    {
+      "id": "adm-b2-w36-ex29",
+      "type": "multipleChoice",
+      "prompt": "Exercise 29: Conditionals. I ______ better at my job if I ______ more training last year.",
+      "options": ["would be / had received", "would have been / received", "am / had received", "will be / receive"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: Past cause (had received) + Present result (would be)."
+    },
+    {
+      "id": "adm-b2-w36-ex30",
+      "type": "multipleChoice",
+      "prompt": "Exercise 30: Modals. They ______ the meeting by now; it started three hours ago.",
+      "options": ["must have finished", "should finish", "can have finished", "finish"],
+      "answerIndex": 0,
+      "explanation": "'Must have finished' indicates a strong logical conclusion about the past."
+    },
+    {
+      "id": "adm-b2-w36-ex31",
+      "type": "multipleChoice",
+      "prompt": "Exercise 31: Conditionals. If she ______ so much experience, she ______ the job.",
+      "options": ["didn't have / wouldn't have got", "hadn't / wouldn't get", "doesn't have / won't get", "had / got"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: General state (didn't have) + Past event (wouldn't have got)."
+    },
+    {
+      "id": "adm-b2-w36-ex32",
+      "type": "multipleChoice",
+      "prompt": "Exercise 32: Modals. We ______ have told him the truth; now he is angry.",
+      "options": ["should", "must", "might", "can"],
+      "answerIndex": 0,
+      "explanation": "'Should have' expresses regret or criticism about a past action."
+    },
+    {
+      "id": "adm-b2-w36-ex33",
+      "type": "multipleChoice",
+      "prompt": "Exercise 33: Conditionals. If the audit ______ successful, we ______ expanding now.",
+      "options": ["had been / would be", "was / would have been", "has been / will be", "is / are"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: Past event (had been) + Present state (would be)."
+    },
+    {
+      "id": "adm-b2-w36-ex34",
+      "type": "multipleChoice",
+      "prompt": "Exercise 34: Modals. He ______ forgotten about the appointment.",
+      "options": ["might have", "should have", "ought to", "must"],
+      "answerIndex": 0,
+      "explanation": "'Might have' expresses a possibility about the past."
+    },
+    {
+      "id": "adm-b2-w36-ex35",
+      "type": "multipleChoice",
+      "prompt": "Exercise 35: Conditionals. If you ______ me earlier, I ______ able to help you now.",
+      "options": ["had told / would be", "told / would have been", "tell / will be", "were telling / am"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: Past action (had told) + Present result (would be)."
+    },
+    {
+      "id": "adm-b2-w36-ex36",
+      "type": "multipleChoice",
+      "prompt": "Exercise 36: Passive Reporting. The company is said ______ a record profit this year.",
+      "options": ["to make", "to have made", "making", "made"],
+      "answerIndex": 1,
+      "explanation": "Passive infinitive structure: is said + to have + past participle for past actions."
+    },
+    {
+      "id": "adm-b2-w36-ex37",
+      "type": "multipleChoice",
+      "prompt": "Exercise 37: Reporting. It has been reported ______ several employees were involved in the leak.",
+      "options": ["that", "which", "as", "how"],
+      "answerIndex": 0,
+      "explanation": "Passive reporting with 'It + passive verb + that clause'."
+    },
+    {
+      "id": "adm-b2-w36-ex38",
+      "type": "multipleChoice",
+      "prompt": "Exercise 38: Verb Patterns. The manager admitted ______ a mistake in the calculations.",
+      "options": ["to make", "making", "make", "to making"],
+      "answerIndex": 1,
+      "explanation": "'Admit' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w36-ex39",
+      "type": "multipleChoice",
+      "prompt": "Exercise 39: Passive Reporting. He is believed ______ currently hiding in Switzerland.",
+      "options": ["to be", "being", "is", "be"],
+      "answerIndex": 0,
+      "explanation": "Personal passive structure: subject + is believed + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w36-ex40",
+      "type": "multipleChoice",
+      "prompt": "Exercise 40: Verb Patterns. They promised ______ the issue as a matter of urgency.",
+      "options": ["to resolve", "resolving", "resolve", "to resolving"],
+      "answerIndex": 0,
+      "explanation": "'Promise' is followed by an infinitive (to + verb)."
+    },
+    {
+      "id": "adm-b2-w36-ex41",
+      "type": "multipleChoice",
+      "prompt": "Exercise 41: Passive Reporting. It is expected ______ the new CEO will start next month.",
+      "options": ["that", "which", "for", "to"],
+      "answerIndex": 0,
+      "explanation": "Impersonal passive structure with 'that' clause."
+    },
+    {
+      "id": "adm-b2-w36-ex42",
+      "type": "multipleChoice",
+      "prompt": "Exercise 42: Verb Patterns. The auditors recommended ______ the internal controls.",
+      "options": ["strengthening", "to strengthen", "strengthen", "to strengthening"],
+      "answerIndex": 0,
+      "explanation": "'Recommend' is followed by a gerund (-ing)."
+    },
+    {
+      "id": "adm-b2-w36-ex43",
+      "type": "multipleChoice",
+      "prompt": "Exercise 43: Passive Reporting. She is reported ______ from her position yesterday.",
+      "options": ["to have resigned", "resigning", "to resign", "resigned"],
+      "answerIndex": 0,
+      "explanation": "Passive reporting: subject + is reported + to have + past participle for past actions."
+    },
+    {
+      "id": "adm-b2-w36-ex44",
+      "type": "multipleChoice",
+      "prompt": "Exercise 44: Verb Patterns. The suspect refused ______ any information to the police.",
+      "options": ["to give", "giving", "give", "to giving"],
+      "answerIndex": 0,
+      "explanation": "'Refuse' is followed by an infinitive (to + verb)."
+    },
+    {
+      "id": "adm-b2-w36-ex45",
+      "type": "multipleChoice",
+      "prompt": "Exercise 45: Passive Reporting. It was claimed ______ the software was bug-free.",
+      "options": ["that", "to", "what", "which"],
+      "answerIndex": 0,
+      "explanation": "Past passive reporting: It + was claimed + that clause."
+    },
+    {
+      "id": "adm-b2-w36-ex46",
+      "type": "gap-fill",
+      "prompt": "Exercise 46: Future Tech. By the end of this decade, artificial intelligence ______ have transformed administrative roles.",
+      "acceptedAnswers": ["will"],
+      "explanation": "Future Perfect: will + have + past participle."
+    },
+    {
+      "id": "adm-b2-w36-ex47",
+      "type": "gap-fill",
+      "prompt": "Exercise 47: Future Tech. In the future, we ______ be spending less time on routine tasks.",
+      "acceptedAnswers": ["will"],
+      "explanation": "Future Continuous for projected activities: will + be + -ing."
+    },
+    {
+      "id": "adm-b2-w36-ex48",
+      "type": "gap-fill",
+      "prompt": "Exercise 48: Future Tech. Most companies ______ have integrated automated systems by then.",
+      "acceptedAnswers": ["will"],
+      "explanation": "Future Perfect for completed future actions."
+    },
+    {
+      "id": "adm-b2-w36-ex49",
+      "type": "gap-fill",
+      "prompt": "Exercise 49: Future Tech. They will integrate systems into their ______ chains.",
+      "acceptedAnswers": ["supply"],
+      "explanation": "A supply chain is the network between a company and its suppliers."
+    },
+    {
+      "id": "adm-b2-w36-ex50",
+      "type": "gap-fill",
+      "prompt": "Exercise 50: Future Tech. While some jobs ______ disappear, new ones will be created.",
+      "acceptedAnswers": ["may", "might", "will"],
+      "explanation": "Modals of possibility (may/might) or future certainty (will)."
+    },
+    {
+      "id": "adm-b2-w36-ex51",
+      "type": "gap-fill",
+      "prompt": "Exercise 51: Future Tech. New roles ______ be created as a result of AI.",
+      "acceptedAnswers": ["will"],
+      "explanation": "Future simple passive: will + be + past participle."
+    },
+    {
+      "id": "adm-b2-w36-ex52",
+      "type": "gap-fill",
+      "prompt": "Exercise 52: Future Tech. We will ______ working in much more flexible environments.",
+      "acceptedAnswers": ["be"],
+      "explanation": "Future Continuous: will + be + -ing."
+    },
+    {
+      "id": "adm-b2-w36-ex53",
+      "type": "gap-fill",
+      "prompt": "Exercise 53: Future Tech. Professionals will work in more ______ environments, like remote setups.",
+      "acceptedAnswers": ["agile"],
+      "explanation": "Agile environments are flexible and responsive."
+    },
+    {
+      "id": "adm-b2-w36-ex54",
+      "type": "gap-fill",
+      "prompt": "Exercise 54: Future Tech. Professionals who ______ have mastered these tools will succeed.",
+      "acceptedAnswers": ["will"],
+      "explanation": "Future Perfect in a relative clause."
+    },
+    {
+      "id": "adm-b2-w36-ex55",
+      "type": "gap-fill",
+      "prompt": "Exercise 55: Future Tech. Mastering new tools will help them ______ a significant edge.",
+      "acceptedAnswers": ["gain"],
+      "explanation": "To 'gain an edge' means to get a competitive advantage."
+    },
+    {
+      "id": "adm-b2-w36-ex56",
+      "type": "multipleChoice",
+      "prompt": "Exercise 56: Connectors. The plan was successful, ______ difficult to implement.",
+      "options": ["albeit", "whereas", "notwithstanding", "consequently"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' means 'even though it was'."
+    },
+    {
+      "id": "adm-b2-w36-ex57",
+      "type": "multipleChoice",
+      "prompt": "Exercise 57: Connectors. ______ the high costs, the project went ahead.",
+      "options": ["Notwithstanding", "Albeit", "Whereas", "While"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite' or 'in spite of'."
+    },
+    {
+      "id": "adm-b2-w36-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Connectors. He likes tea, ______ she prefers coffee.",
+      "options": ["whereas", "albeit", "notwithstanding", "despite"],
+      "answerIndex": 0,
+      "explanation": "'Whereas' is used to compare or contrast two facts."
+    },
+    {
+      "id": "adm-b2-w36-ex59",
+      "type": "multipleChoice",
+      "prompt": "Exercise 59: Connectors. I'll go to the party ______ I'm tired.",
+      "options": ["even though", "notwithstanding", "albeit", "despite"],
+      "answerIndex": 0,
+      "explanation": "'Even though' introduces a concession clause."
+    },
+    {
+      "id": "adm-b2-w36-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Connectors. The car is old; ______, it is reliable.",
+      "options": ["nevertheless", "whereas", "albeit", "while"],
+      "answerIndex": 0,
+      "explanation": "'Nevertheless' means 'however' or 'in spite of that'."
+    },
+    {
+      "id": "adm-b2-w36-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Connectors. ______ the rain, the match continued.",
+      "options": ["Despite", "Albeit", "Whereas", "While"],
+      "answerIndex": 0,
+      "explanation": "'Despite' is followed by a noun or gerund."
+    },
+    {
+      "id": "adm-b2-w36-ex62",
+      "type": "multipleChoice",
+      "prompt": "Exercise 62: Connectors. I don't like him; ______, I respect him.",
+      "options": ["however", "whereas", "albeit", "while"],
+      "answerIndex": 0,
+      "explanation": "'However' is used to introduce a contrasting statement."
+    },
+    {
+      "id": "adm-b2-w36-ex63",
+      "type": "multipleChoice",
+      "prompt": "Exercise 63: Connectors. ______ I understand your point, I disagree.",
+      "options": ["While", "Albeit", "Notwithstanding", "Despite"],
+      "answerIndex": 0,
+      "explanation": "'While' can mean 'although' in formal contexts."
+    },
+    {
+      "id": "adm-b2-w36-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Connectors. He is very rich, ______ he is not happy.",
+      "options": ["yet", "whereas", "albeit", "while"],
+      "answerIndex": 0,
+      "explanation": "'Yet' is used to introduce a surprising contrast."
+    },
+    {
+      "id": "adm-b2-w36-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: Connectors. The task was hard, ______ they finished on time.",
+      "options": ["but", "whereas", "albeit", "notwithstanding"],
+      "answerIndex": 0,
+      "explanation": "'But' is a basic coordinating conjunction of contrast."
+    },
+    {
+      "id": "adm-b2-w36-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Error Correction. Identify the error: 'If I was you, I would have signed the contract.'",
+      "options": ["was", "would have", "signed", "contract"],
+      "answerIndex": 0,
+      "explanation": "In second/mixed conditionals, 'were' is used with 'I' (subjunctive mood)."
+    },
+    {
+      "id": "adm-b2-w36-ex67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Error Correction. Identify the error: 'The company is believe to have lost millions.'",
+      "options": ["is", "believe", "to have lost", "millions"],
+      "answerIndex": 1,
+      "explanation": "Passive structure requires the past participle: 'is believed'."
+    },
+    {
+      "id": "adm-b2-w36-ex68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Error Correction. Identify the error: 'I suggested to hire a consultant.'",
+      "options": ["suggested", "to hire", "consultant", "none"],
+      "answerIndex": 1,
+      "explanation": "'Suggest' cannot be followed by a to-infinitive. Use 'suggested hiring' or 'suggested that we hire'."
+    },
+    {
+      "id": "adm-b2-w36-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Error Correction. Identify the error: 'By next year, we will finished the project.'",
+      "options": ["By", "will", "finished", "the"],
+      "answerIndex": 2,
+      "explanation": "Future Perfect requires 'will have finished'."
+    },
+    {
+      "id": "adm-b2-w36-ex70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Error Correction. Identify the error: 'Notwithstanding he was tired, he kept working.'",
+      "options": ["Notwithstanding", "was", "kept", "working"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' is a preposition/adverb and cannot introduce a clause. Use 'Although'."
+    },
+    {
+      "id": "adm-b2-w36-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Error Correction. Identify the error: 'He must have be at the meeting yesterday.'",
+      "options": ["must have", "be", "at", "yesterday"],
+      "answerIndex": 1,
+      "explanation": "Perfect modals require the past participle: 'must have been'."
+    },
+    {
+      "id": "adm-b2-w36-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Error Correction. Identify the error: 'I am not used to work so hard.'",
+      "options": ["am not", "used to", "work", "hard"],
+      "answerIndex": 2,
+      "explanation": "'Be used to' is followed by a gerund: 'used to working'."
+    },
+    {
+      "id": "adm-b2-w36-ex73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Error Correction. Identify the error: 'Unless you don't call me, I'll be there.'",
+      "options": ["Unless", "don't call", "I'll be", "there"],
+      "answerIndex": 1,
+      "explanation": "'Unless' already means 'if not', so a double negative is incorrect. Use 'Unless you call'."
+    },
+    {
+      "id": "adm-b2-w36-ex74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Error Correction. Identify the error: 'The information is relevant for the case.'",
+      "options": ["information", "relevant", "for", "the"],
+      "answerIndex": 2,
+      "explanation": "The correct preposition is 'relevant to'."
+    },
+    {
+      "id": "adm-b2-w36-ex75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Error Correction. Identify the error: 'She denied to have stolen the data.'",
+      "options": ["denied", "to have", "stolen", "data"],
+      "answerIndex": 1,
+      "explanation": "'Deny' is followed by a gerund: 'denied having stolen' or 'denied stealing'."
     }
   ]
 }

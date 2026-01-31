@@ -17,6 +17,26 @@
       "content": "When providing safety instructions or facility guidelines, we use a range of formal imperative structures and modal verbs of obligation.\n\n### Direct Imperatives (Standard)\n- **Ensure** that all fire exits remain clear.\n- **Do not use** the lifts in the event of a fire.\n\n### Formal Passive Imperatives (Common in Notices)\n- **Smoking is strictly prohibited** on the premises.\n- **ID badges must be worn** at all times.\n\n### Obligation & Permission Modals\n- **Must/Shall**: *All staff shall attend the mandatory safety briefing.* (Formal obligation)\n- **Should**: *Visitors should sign in at reception.* (Strong recommendation)\n- **May not**: *Guests may not enter the server room without an escort.* (Formal prohibition)"
     },
     {
+      "id": "space-planning",
+      "title": "Space Planning & Agile Workspaces",
+      "content": "Modern FM focuses on **Agile Working**—giving employees the freedom to choose where and how they work. This requires strategic space planning.\n\n### Key Concepts:\n- **Hot-desking**: Employees do not have assigned desks and choose any available spot.\n- **Hoteling**: A reservation-based system for booking desks or meeting rooms.\n- **Zoning**: Dividing the office into quiet zones, collaborative zones, and social zones.\n- **Occupancy Rates**: Measuring how much of the office space is actually used at any given time to optimise costs."
+    },
+    {
+      "id": "maintenance-vendors",
+      "title": "Maintenance & Vendor Management",
+      "content": "Facility managers must oversee both **preventative** and **reactive** maintenance while managing external contractors (vendors).\n\n### Maintenance Types:\n- **Preventative**: Regularly scheduled checks to prevent equipment failure (e.g., HVAC servicing).\n- **Reactive**: Fixing things that have already broken (e.g., a burst pipe).\n- **SLA (Service Level Agreement)**: A contract that defines the level of service expected from a vendor (e.g., 'repairs must be completed within 24 hours')."
+    },
+    {
+      "id": "sustainability-fm",
+      "title": "Sustainability & CSR in FM",
+      "content": "Sustainability is now a core pillar of FM, linked to Corporate Social Responsibility (CSR).\n\n### Sustainable Practices:\n- **Energy Management**: Implementing LED lighting and smart sensors to reduce consumption.\n- **Waste Management**: Following the 'Reduce, Reuse, Recycle' principle and managing hazardous waste correctly.\n- **Procurement**: Choosing eco-friendly supplies and ethical vendors.\n- **Carbon Footprint**: Measuring and reducing the total greenhouse gas emissions caused by the facility."
+    },
+    {
+      "id": "incident-reporting",
+      "title": "Incident Reporting & Legal Compliance",
+      "content": "In the event of an accident or a 'near miss', strict reporting protocols must be followed to ensure legal compliance and prevent future occurrences.\n\n### The Reporting Process:\n1. **Immediate Action**: Secure the area and provide first aid if necessary.\n2. **Documentation**: Fill out an **Incident Report Form** detailing the time, location, and nature of the event.\n3. **Investigation**: Determine the root cause (e.g., faulty equipment, human error).\n4. **RIDDOR (UK specific)**: Reporting of Injuries, Diseases and Dangerous Occurrences Regulations requires certain incidents to be reported to the HSE."
+    },
+    {
       "id": "deliverable",
       "title": "Weekly Deliverable: Health & Safety Notice",
       "content": "Draft a formal 'Health & Safety Notice' for the office kitchen or communal area. Include:\n1. **Purpose of the notice**.\n2. **List of rules and safety guidelines** (Using formal imperatives: *Ensure..., Do not...*).\n3. **Instructions for reporting issues**.\n4. **Contact details of the H&S officer**."

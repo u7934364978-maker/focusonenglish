@@ -20,18 +20,46 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: The Post-Mortem Report",
       "content": "This week, you will draft a 'Post-Mortem' report after a simulated operational crisis. You must include:\n1. **Timeline of events** (What happened and when).\n2. **Root cause analysis** (Using advanced passives: *It is thought that...*).\n3. **Effectiveness of the workaround** (*The workaround is believed to have...*).\n4. **Recommendations for the BCP**."
+    },
+    {
+      "id": "internal-comms-crisis",
+      "title": "Internal Messaging during a Crisis",
+      "content": "When a crisis occurs, internal communication must be **swift**, **transparent**, and **authoritative**. Administrators play a key role in cascading information from leadership to the rest of the staff. \n\n### The 'Three Cs' of Crisis Comms:\n1. **Clarity**: Use simple language to avoid **ambiguity**. \n2. **Consistency**: Ensure all departments receive the same message to prevent **rumours**. \n3. **Control**: Use designated channels (e.g., Slack 'Announcements' or the company Intranet) to manage the flow of information.\n\n### Vocabulary Definitions:\n- **Swift**: Happening quickly or promptly.\n- **Authoritative**: Commanding and self-confident; likely to be respected and obeyed.\n- **Ambiguity**: The quality of being open to more than one interpretation; inexactness.\n- **Rumour**: A currently circulating story or report of uncertain or doubtful truth.\n- **Cascade**: To pass (information, a process, etc.) on to a succession of others."
+    },
+    {
+      "id": "risk-mitigation",
+      "title": "Risk Mitigation Strategies",
+      "content": "Risk mitigation is about reducing the probability or impact of a potential threat. In administration, this often involves **redundancy** and **diversification**.\n\n### Mitigation Techniques:\n- **Redundancy**: Having a secondary system or person ready to take over if the primary fails (e.g., dual-homed internet connections).\n- **Diversification**: Spreading critical tasks across different platforms or locations so that a single failure doesn't halt all operations.\n- **Preventative Maintenance**: Regularly checking systems to catch issues before they escalate into a crisis."
+    },
+    {
+      "id": "post-crisis-evaluation",
+      "title": "Post-Crisis Evaluation & Debriefing",
+      "content": "Once operations have returned to **Business as Usual (BAU)**, the focus shifts to evaluation. A **debriefing** session is held to capture lessons learned.\n\n### Key Evaluation Metrics:\n- **Downtime Analysis**: Exactly how long was the service unavailable?\n- **Response Time**: How quickly was the BCP triggered?\n- **Root Cause**: The fundamental reason the crisis occurred.\n\n### Vocabulary Definitions:\n- **Debriefing**: A meeting to question someone about a completed mission or undertaking.\n- **Incur**: To become subject to (something unwelcome or unpleasant) as a result of one's own behaviour or actions (e.g., to incur costs).\n- **Rectify**: To put right; correct."
+    },
+    {
+      "id": "building-resilience",
+      "title": "Building Organizational Resilience",
+      "content": "Resilience is the ability of an organization to absorb and adapt in a changing environment. It goes beyond just 'recovering'; it involves evolving to be stronger after a disruption.\n\n### Strategies for Resilience:\n- **Cross-training**: Ensuring staff can perform multiple roles to prevent dependencies on single individuals.\n- **Knowledge Management**: Documenting all workarounds and procedures in a central, accessible database.\n- **Stress Testing**: Deliberately simulating failures to test the effectiveness of the BCP."
     }
   ],
   "objectives": [
     "Define and apply Business Continuity Planning (BCP) terminology",
     "Describe operational workarounds during a crisis",
     "Use advanced reporting passives in formal administrative reports",
-    "Analyse root causes and propose improvements after a disruption"
+    "Analyse root causes and propose improvements after a disruption",
+    "Apply the 'Three Cs' of internal communication during a crisis",
+    "Evaluate risk mitigation strategies such as redundancy and diversification",
+    "Conduct a post-crisis debriefing and downtime analysis",
+    "Develop strategies for organizational resilience through cross-training and stress testing"
   ],
   "keyTerms": [
     { "term": "BCP", "definition": "Business Continuity Plan: a document that outlines how a business will continue operating during an unplanned disruption in service." },
     { "term": "Downtime", "definition": "The period during which a system or machine is unavailable for use." },
     { "term": "Workaround", "definition": "A method for overcoming a problem or limitation in a program or system." },
-    { "term": "Post-mortem", "definition": "An analysis or discussion of an event after it is over, especially to determine why it failed." }
+    { "term": "Post-mortem", "definition": "An analysis or discussion of an event after it is over, especially to determine why it failed." },
+    { "term": "Mitigation", "definition": "The action of reducing the severity, seriousness, or painfulness of something." },
+    { "term": "Redundancy", "definition": "The inclusion of extra components which are not strictly necessary to functioning, in case of failure in other components." },
+    { "term": "Resilience", "definition": "The capacity to recover quickly from difficulties; toughness." },
+    { "term": "Debrief", "definition": "To interview someone in order to get information about a task they have just finished." }
   ]
 }

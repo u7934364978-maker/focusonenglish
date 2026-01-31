@@ -20,18 +20,32 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: Draft Press Release",
       "content": "Draft a short press release (120-150 words) announcing a new partnership. Include:\n1. **Clear headline**.\n2. **The 'Who, What, Where, When, and Why'**.\n3. **A quote from a company official** (using advanced passives: *The partnership is expected to...*).\n4. **Media contact information**."
+    },
+    {
+      "id": "stakeholder-comms",
+      "title": "Stakeholder Communication Strategies",
+      "content": "Stakeholders are any individuals or groups affected by the company's actions. Effective administrative management involves tailoring communication to different stakeholder groups.\n\n### Primary vs. Secondary Stakeholders:\n- **Primary**: Employees, customers, investors, and suppliers (directly affected).\n- **Secondary**: Local community, media, government, and trade unions (indirectly affected).\n\n### Communication Channels:\n- **Investors**: Annual reports, earnings calls, and formal letters.\n- **Employees**: Internal newsletters, town hall meetings, and Slack/Teams updates.\n- **Customers**: Social media, press releases, and direct email marketing.\n\n### Vocabulary:\n- **To be transparent**: To provide clear and honest information.\n- **Top-down communication**: Information flowing from senior management to employees.\n- **Bottom-up communication**: Feedback flowing from employees to management."
+    },
+    {
+      "id": "crisis-media",
+      "title": "Crisis Management & Media Relations",
+      "content": "When a crisis occurs (e.g., a data breach or product recall), the administration office is often the 'first line of defense' for media enquiries.\n\n### The Golden Rules of Crisis PR:\n1. **Speed**: Respond within the first hour if possible (The 'Golden Hour').\n2. **Accuracy**: Never guess; only provide verified facts.\n3. **Accountability**: Take responsibility without necessarily admitting legal liability immediately.\n4. **Consistency**: Ensure everyone in the company is giving the same message.\n\n### Key Terms:\n- **Damage Control**: Measures taken to offset or minimize the negative impact of an event.\n- **Press Kit**: A pre-packaged set of promotional materials or background info for journalists.\n- **Off the record**: Information provided to a journalist that cannot be directly quoted or attributed."
     }
   ],
   "objectives": [
     "Define and use PR and media management terminology",
     "Identify the components of an effective press release",
     "Apply advanced passive structures in formal public statements",
-    "Manage stakeholder communication during organisational changes"
+    "Manage stakeholder communication during organisational changes",
+    "Differentiate between primary and secondary stakeholders",
+    "Implement basic crisis communication protocols"
   ],
   "keyTerms": [
     { "term": "Press Release", "definition": "A formal announcement sent to the media to provide information on a specific event or issue." },
     { "term": "Stakeholder", "definition": "A person, group, or organisation that has interest or concern in an organisation." },
     { "term": "Liaise", "definition": "To establish a working relationship, typically in order to cooperate on a matter of mutual interest." },
-    { "term": "Reputation", "definition": "The beliefs or opinions that are generally held about someone or something." }
+    { "term": "Reputation", "definition": "The beliefs or opinions that are generally held about someone or something." },
+    { "term": "Damage Control", "definition": "Actions taken to limit the negative effects of a mistake or bad publicity." },
+    { "term": "Press Kit", "definition": "A set of information and photos given to reporters by an organization." }
   ]
 }

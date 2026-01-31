@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { 
   Rocket, 
@@ -16,6 +16,7 @@ import {
   Calendar,
   Clock
 } from 'lucide-react'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 
 interface MethodologyCard {
   id: string
@@ -32,96 +33,108 @@ interface MethodologyCard {
   href: string
 }
 
-const methodologies: MethodologyCard[] = [
-  {
-    id: 'abp',
-    title: 'Aprendizaje Basado en Proyectos',
-    subtitle: 'Project-Based Learning',
-    description: 'Supera retos reales como grabar podcasts, simulaciones de negocios o presentaciones profesionales en lugar de exámenes tradicionales.',
-    icon: <Rocket className="w-12 h-12" />,
-    gradient: 'from-purple-500 to-pink-500',
-    stats: [
-      { label: 'Proyectos', value: 3, icon: <Target className="w-5 h-5" /> },
-      { label: 'Completados', value: 0, icon: <Award className="w-5 h-5" /> },
-      { label: 'En Progreso', value: 1, icon: <Clock className="w-5 h-5" /> }
-    ],
-    href: '/metodologias-innovadoras/proyectos'
-  },
-  {
-    id: 'gamification',
-    title: 'Microlearning & Gamificación',
-    subtitle: 'Bite-sized Learning with Points',
-    description: 'Lecciones de 5-10 minutos con sistema de puntos, niveles, medallas y recompensas que mantienen tu motivación alta.',
-    icon: <Gamepad2 className="w-12 h-12" />,
-    gradient: 'from-orange-500 to-pink-500',
-    stats: [
-      { label: 'Nivel', value: 1, icon: <TrendingUp className="w-5 h-5" /> },
-      { label: 'XP', value: 0, icon: <Zap className="w-5 h-5" /> },
-      { label: 'Medallas', value: '0/6', icon: <Award className="w-5 h-5" /> }
-    ],
-    href: '/metodologias-innovadoras/gamificacion'
-  },
-  {
-    id: 'social',
-    title: 'Inmersión Social',
-    subtitle: 'Community Learning',
-    description: 'Clubes de conversación en vivo, foros de debate y conexión con estudiantes internacionales para practicar inglés real.',
-    icon: <Users className="w-12 h-12" />,
-    gradient: 'from-blue-500 to-purple-500',
-    stats: [
-      { label: 'Clubes', value: 5, icon: <Calendar className="w-5 h-5" /> },
-      { label: 'Miembros', value: 45, icon: <Users className="w-5 h-5" /> },
-      { label: 'Inscritos', value: 1, icon: <Award className="w-5 h-5" /> }
-    ],
-    href: '/metodologias-innovadoras/social'
-  },
-  {
-    id: 'ai-tutor',
-    title: 'IA Conversacional 24/7',
-    subtitle: 'AI Tutors Always Available',
-    description: 'Practica conversación con tutores de IA especializados en cualquier momento. Feedback instantáneo y personalizado.',
-    icon: <Bot className="w-12 h-12" />,
-    gradient: 'from-cyan-500 to-blue-500',
-    stats: [
-      { label: 'Conversaciones', value: 12, icon: <Bot className="w-5 h-5" /> },
-      { label: 'Minutos', value: 347, icon: <Clock className="w-5 h-5" /> },
-      { label: 'Fluidez', value: '78%', icon: <TrendingUp className="w-5 h-5" /> }
-    ],
-    href: '/metodologias-innovadoras/ia-conversacion'
-  },
-  {
-    id: 'ar',
-    title: 'Realidad Aumentada',
-    subtitle: 'AR Vocabulary Learning',
-    description: 'Aprende vocabulario proyectando objetos en tu espacio real. Contextualiza palabras en situaciones cotidianas.',
-    icon: <Glasses className="w-12 h-12" />,
-    gradient: 'from-emerald-500 to-teal-500',
-    stats: [
-      { label: 'Palabras', value: 6, icon: <Target className="w-5 h-5" /> },
-      { label: 'Aprendidas', value: 2, icon: <Award className="w-5 h-5" /> },
-      { label: 'Hoy', value: 8, icon: <Calendar className="w-5 h-5" /> }
-    ],
-    href: '/metodologias-innovadoras/realidad-aumentada'
-  },
-  {
-    id: 'pronunciation',
-    title: 'Feedback de Pronunciación',
-    subtitle: 'Real-time Pronunciation Analysis',
-    description: 'Corrección inmediata de tu pronunciación con IA. Detecta errores y sugiere mejoras al instante.',
-    icon: <Mic className="w-12 h-12" />,
-    gradient: 'from-indigo-500 to-purple-500',
-    stats: [
-      { label: 'Promedio', value: '85%', icon: <TrendingUp className="w-5 h-5" /> },
-      { label: 'Prácticas', value: 47, icon: <Mic className="w-5 h-5" /> },
-      { label: 'Mejoradas', value: 23, icon: <Award className="w-5 h-5" /> }
-    ],
-    href: '/metodologias-innovadoras/pronunciacion'
-  }
-]
-
 export default function MetodologiasInnovadorasPage() {
   const router = useRouter()
+  const { fetchAllProgress } = useMethodologyProgress()
   const [hoveredCard, setHoveredCard] = useState<string | null>(null)
+  const [dbData, setDbData] = useState<any>(null)
+  const [isLoading, setIsLoading] = useState(true)
+
+  useEffect(() => {
+    async function load() {
+      const data = await fetchAllProgress()
+      setDbData(data)
+      setIsLoading(false)
+    }
+    load()
+  }, [fetchAllProgress])
+
+  const methodologies: MethodologyCard[] = [
+    {
+      id: 'abp',
+      title: 'Aprendizaje Basado en Proyectos',
+      subtitle: 'Project-Based Learning',
+      description: 'Supera retos reales como grabar podcasts, simulaciones de negocios o presentaciones profesionales en lugar de exámenes tradicionales.',
+      icon: <Rocket className="w-12 h-12" />,
+      gradient: 'from-purple-500 to-pink-500',
+      stats: [
+        { label: 'Proyectos', value: 3, icon: <Target className="w-5 h-5" /> },
+        { label: 'Completados', value: dbData?.projects?.filter((p: any) => p.status === 'completed').length || 0, icon: <Award className="w-5 h-5" /> },
+        { label: 'En Progreso', value: dbData?.projects?.filter((p: any) => p.status === 'in_progress').length || 0, icon: <Clock className="w-5 h-5" /> }
+      ],
+      href: '/metodologias-innovadoras/proyectos'
+    },
+    {
+      id: 'gamification',
+      title: 'Microlearning & Gamificación',
+      subtitle: 'Bite-sized Learning with Points',
+      description: 'Lecciones de 5-10 minutos con sistema de puntos, niveles, medallas y recompensas que mantienen tu motivación alta.',
+      icon: <Gamepad2 className="w-12 h-12" />,
+      gradient: 'from-orange-500 to-pink-500',
+      stats: [
+        { label: 'Nivel', value: Math.floor((dbData?.lessons?.reduce((acc: number, curr: any) => acc + (curr.xp_earned || 0), 0) || 0) / 500) + 1, icon: <TrendingUp className="w-5 h-5" /> },
+        { label: 'XP', value: dbData?.lessons?.reduce((acc: number, curr: any) => acc + (curr.xp_earned || 0), 0) || 0, icon: <Zap className="w-5 h-5" /> },
+        { label: 'Medallas', value: `${dbData?.lessons?.filter((l: any) => l.completed).length || 0}/11`, icon: <Award className="w-5 h-5" /> }
+      ],
+      href: '/metodologias-innovadoras/gamificacion'
+    },
+    {
+      id: 'social',
+      title: 'Inmersión Social',
+      subtitle: 'Community Learning',
+      description: 'Clubes de conversación en vivo, foros de debate y conexión con estudiantes internacionales para practicar inglés real.',
+      icon: <Users className="w-12 h-12" />,
+      gradient: 'from-blue-500 to-purple-500',
+      stats: [
+        { label: 'Clubes', value: 5, icon: <Calendar className="w-5 h-5" /> },
+        { label: 'Miembros', value: 45, icon: <Users className="w-5 h-5" /> },
+        { label: 'Inscritos', value: dbData?.stats?.social_clubs_joined || 0, icon: <Award className="w-5 h-5" /> }
+      ],
+      href: '/metodologias-innovadoras/social'
+    },
+    {
+      id: 'ai-tutor',
+      title: 'IA Conversacional 24/7',
+      subtitle: 'AI Tutors Always Available',
+      description: 'Practica conversación con tutores de IA especializados en cualquier momento. Feedback instantáneo y personalizado.',
+      icon: <Bot className="w-12 h-12" />,
+      gradient: 'from-cyan-500 to-blue-500',
+      stats: [
+        { label: 'Conversaciones', value: dbData?.stats?.ai_conversations_count || 0, icon: <Bot className="w-5 h-5" /> },
+        { label: 'Minutos', value: dbData?.stats?.ai_total_minutes || 0, icon: <Clock className="w-5 h-5" /> },
+        { label: 'Fluidez', value: `${dbData?.stats?.ai_average_fluency || 0}%`, icon: <TrendingUp className="w-5 h-5" /> }
+      ],
+      href: '/metodologias-innovadoras/ia-conversacion'
+    },
+    {
+      id: 'ar',
+      title: 'Realidad Aumentada',
+      subtitle: 'AR Vocabulary Learning',
+      description: 'Aprende vocabulario proyectando objetos en tu espacio real. Contextualiza palabras en situaciones cotidianas.',
+      icon: <Glasses className="w-12 h-12" />,
+      gradient: 'from-emerald-500 to-teal-500',
+      stats: [
+        { label: 'Palabras', value: 6, icon: <Target className="w-5 h-5" /> },
+        { label: 'Aprendidas', value: dbData?.arWords?.filter((w: any) => w.learned).length || 0, icon: <Award className="w-5 h-5" /> },
+        { label: 'Hoy', value: 8, icon: <Calendar className="w-5 h-5" /> }
+      ],
+      href: '/metodologias-innovadoras/realidad-aumentada'
+    },
+    {
+      id: 'pronunciation',
+      title: 'Feedback de Pronunciación',
+      subtitle: 'Real-time Pronunciation Analysis',
+      description: 'Corrección inmediata de tu pronunciación con IA. Detecta errores y sugiere mejoras al instante.',
+      icon: <Mic className="w-12 h-12" />,
+      gradient: 'from-indigo-500 to-purple-500',
+      stats: [
+        { label: 'Promedio', value: `${dbData?.stats?.pronunciation_average_score || 0}%`, icon: <TrendingUp className="w-5 h-5" /> },
+        { label: 'Prácticas', value: dbData?.stats?.pronunciation_practices_count || 0, icon: <Mic className="w-5 h-5" /> },
+        { label: 'Mejoradas', value: 23, icon: <Award className="w-5 h-5" /> }
+      ],
+      href: '/metodologias-innovadoras/pronunciacion'
+    }
+  ]
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">

@@ -6,7 +6,7 @@
   "title": "Smart Billing & Recurring Payments",
   "items": [
     {
-      "id": "fin-a2-w08-1",
+      "id": "adm-a2-w08-ex01",
       "type": "multipleChoice",
       "prompt": "I am ______ to set up Autopay for my Netflix subscription.",
       "options": ["go", "going", "gone"],
@@ -14,7 +14,7 @@
       "explanation": "I am going to set up (futuro de intención)."
     },
     {
-      "id": "fin-a2-w08-2",
+      "id": "adm-a2-w08-ex02",
       "type": "multipleChoice",
       "prompt": "The ______ for my utility bill is tomorrow.",
       "options": ["due date", "billing cycle", "paperless"],
@@ -22,7 +22,7 @@
       "explanation": "La fecha de vencimiento es el 'due date'."
     },
     {
-      "id": "fin-a2-w08-3",
+      "id": "adm-a2-w08-ex03",
       "type": "multipleChoice",
       "prompt": "Are you ______ to cancel your gym subscription?",
       "options": ["go", "going", "goes"],
@@ -30,7 +30,7 @@
       "explanation": "¿Vas a cancelar...? (Are you going to...)."
     },
     {
-      "id": "fin-a2-w08-4",
+      "id": "adm-a2-w08-ex04",
       "type": "multipleChoice",
       "prompt": "My ______ payment for Spotify is $9.99 every month.",
       "options": ["recurring", "overdue", "paperless"],
@@ -38,7 +38,7 @@
       "explanation": "Un pago que se repite es un 'recurring payment'."
     },
     {
-      "id": "fin-a2-w08-5",
+      "id": "adm-a2-w08-ex05",
       "type": "multipleChoice",
       "prompt": "We are ______ to pay for physical paper statements anymore.",
       "options": ["not going", "no going", "not go"],
@@ -46,28 +46,28 @@
       "explanation": "No vamos a pagar (We are not going to pay)."
     },
     {
-      "id": "fin-a2-w08-6",
+      "id": "adm-a2-w08-ex06",
       "type": "fillBlanks",
       "prompt": "I'm [blank] [blank] [blank] switch to paperless billing.",
       "answers": ["going to"],
       "explanation": "I'm going to switch (Voy a cambiar a facturación sin papel)."
     },
     {
-      "id": "fin-a2-w08-7",
+      "id": "adm-a2-w08-ex07",
       "type": "fillBlanks",
       "prompt": "The electricity [blank] is higher this month.",
       "answers": ["bill"],
       "explanation": "La factura de electricidad (electricity bill) es más alta."
     },
     {
-      "id": "fin-a2-w08-8",
+      "id": "adm-a2-w08-ex08",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "He is going to pay the subscription",
       "explanation": "Él va a pagar la suscripción."
     },
     {
-      "id": "fin-a2-w08-9",
+      "id": "adm-a2-w08-ex09",
       "type": "multipleChoice",
       "prompt": "A ______ records energy usage and sends it to the provider.",
       "options": ["smart meter", "billing cycle", "direct debit"],
@@ -75,7 +75,7 @@
       "explanation": "Un 'smart meter' registra y envía el consumo de energía."
     },
     {
-      "id": "fin-a2-w08-10",
+      "id": "adm-a2-w08-ex10",
       "type": "multipleChoice",
       "prompt": "Is she ______ to move to a green energy provider?",
       "options": ["going", "go", "gone"],
@@ -83,14 +83,14 @@
       "explanation": "¿Va ella a cambiarse? (Is she going to...)."
     },
     {
-      "id": "fin-a2-w08-11",
+      "id": "adm-a2-w08-ex11",
       "type": "fillBlanks",
       "prompt": "I have an [blank] payment for my internet service.",
       "answers": ["automatic", "automated"],
       "explanation": "Tengo un pago automático."
     },
     {
-      "id": "fin-a2-w08-12",
+      "id": "adm-a2-w08-ex12",
       "type": "multipleChoice",
       "prompt": "Don't forget the ______ is next Friday.",
       "options": ["due date", "smart meter", "subscription"],
@@ -98,14 +98,14 @@
       "explanation": "No olvides que la fecha de vencimiento (due date) es el próximo viernes."
     },
     {
-      "id": "fin-a2-w08-13",
+      "id": "adm-a2-w08-ex13",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "Are you going to use Autopay?",
       "explanation": "¿Vas a usar Autopay?"
     },
     {
-      "id": "fin-a2-w08-14",
+      "id": "adm-a2-w08-ex14",
       "type": "multipleChoice",
       "prompt": "The neobank is ______ to categorize your bills.",
       "options": ["going", "go", "goes"],
@@ -113,14 +113,14 @@
       "explanation": "El neobanco va a categorizar tus facturas."
     },
     {
-      "id": "fin-a2-w08-15",
+      "id": "adm-a2-w08-ex15",
       "type": "fillBlanks",
       "prompt": "The [blank] [blank] is usually 30 days.",
       "answers": ["billing cycle"],
       "explanation": "El ciclo de facturación (billing cycle) suele ser de 30 días."
     },
     {
-      "id": "fin-a2-w08-16",
+      "id": "adm-a2-w08-ex16",
       "type": "multipleChoice",
       "prompt": "They ______ going to miss any more payments.",
       "options": ["are not", "is not", "am not"],
@@ -128,14 +128,14 @@
       "explanation": "Ellos no van a (They are not going to)."
     },
     {
-      "id": "fin-a2-w08-17",
+      "id": "adm-a2-w08-ex17",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "Water is a basic utility service",
       "explanation": "El agua es un servicio básico."
     },
     {
-      "id": "fin-a2-w08-18",
+      "id": "adm-a2-w08-ex18",
       "type": "multipleChoice",
       "prompt": "I ______ going to check my smart meter data.",
       "options": ["am", "is", "are"],
@@ -143,14 +143,14 @@
       "explanation": "Yo voy a (I am going to)."
     },
     {
-      "id": "fin-a2-w08-19",
+      "id": "adm-a2-w08-ex19",
       "type": "fillBlanks",
       "prompt": "The [blank] debit is set up in the app.",
       "answers": ["direct"],
       "explanation": "La domiciliación bancaria (direct debit) está configurada en la app."
     },
     {
-      "id": "fin-a2-w08-20",
+      "id": "adm-a2-w08-ex20",
       "type": "multipleChoice",
       "prompt": "When ______ you going to pay the rent?",
       "options": ["are", "is", "am"],
@@ -158,21 +158,21 @@
       "explanation": "¿Cuándo vas a pagar? (When are you going to...)."
     },
     {
-      "id": "fin-a2-w08-21",
+      "id": "adm-a2-w08-ex21",
       "type": "reorder",
       "prompt": "Reorder the question:",
       "sentence": "Is he going to call the utility company?",
       "explanation": "¿Va él a llamar a la compañía de servicios?"
     },
     {
-      "id": "fin-a2-w08-22",
+      "id": "adm-a2-w08-ex22",
       "type": "fillBlanks",
       "prompt": "I'm going to pay the [blank] bill online.",
       "answers": ["gas", "water", "electricity"],
       "explanation": "Cualquier factura de servicios."
     },
     {
-      "id": "fin-a2-w08-23",
+      "id": "adm-a2-w08-ex23",
       "type": "multipleChoice",
       "prompt": "If a bill is not paid on time, it is ______.",
       "options": ["overdue", "recurring", "paperless"],
@@ -180,14 +180,14 @@
       "explanation": "Si no se paga a tiempo, está vencida (overdue)."
     },
     {
-      "id": "fin-a2-w08-24",
+      "id": "adm-a2-w08-ex24",
       "type": "fillBlanks",
       "prompt": "We [blank] [blank] going to pay late ever again.",
       "answers": ["are not"],
       "explanation": "No vamos a pagar tarde nunca más."
     },
     {
-      "id": "fin-a2-w08-25",
+      "id": "adm-a2-w08-ex25",
       "type": "multipleChoice",
       "prompt": "Is your ______ cycle monthly or quarterly?",
       "options": ["billing", "direct", "paperless"],
@@ -195,14 +195,14 @@
       "explanation": "¿Tu ciclo de facturación es mensual o trimestral?"
     },
     {
-      "id": "fin-a2-w08-26",
+      "id": "adm-a2-w08-ex26",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "Prices are going to increase soon",
       "explanation": "Los precios van a subir pronto."
     },
     {
-      "id": "fin-a2-w08-27",
+      "id": "adm-a2-w08-ex27",
       "type": "multipleChoice",
       "prompt": "What ______ you going to do about the error?",
       "options": ["are", "is", "am"],
@@ -210,14 +210,14 @@
       "explanation": "¿Qué vas a hacer?"
     },
     {
-      "id": "fin-a2-w08-28",
+      "id": "adm-a2-w08-ex28",
       "type": "fillBlanks",
       "prompt": "I'm going to [blank] my recurring payments.",
       "answers": ["review", "check", "monitor"],
       "explanation": "Voy a revisar mis pagos recurrentes."
     },
     {
-      "id": "fin-a2-w08-29",
+      "id": "adm-a2-w08-ex29",
       "type": "multipleChoice",
       "prompt": "______ billing saves trees and reduces costs.",
       "options": ["Paperless", "Overdue", "Monthly"],
@@ -225,14 +225,14 @@
       "explanation": "La facturación sin papel (paperless) ahorra árboles."
     },
     {
-      "id": "fin-a2-w08-30",
+      "id": "adm-a2-w08-ex30",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "The water bill is very expensive",
       "explanation": "La factura del agua es muy cara."
     },
     {
-      "id": "fin-a2-w08-31",
+      "id": "adm-a2-w08-ex31",
       "type": "multipleChoice",
       "prompt": "Who ______ going to pay for the upgrade?",
       "options": ["is", "are", "am"],
@@ -240,14 +240,14 @@
       "explanation": "¿Quién va a pagar por la mejora?"
     },
     {
-      "id": "fin-a2-w08-32",
+      "id": "adm-a2-w08-ex32",
       "type": "fillBlanks",
       "prompt": "I'm going to [blank] Autopay today.",
       "answers": ["enable", "setup", "activate"],
       "explanation": "Voy a activar Autopay hoy."
     },
     {
-      "id": "fin-a2-w08-33",
+      "id": "adm-a2-w08-ex33",
       "type": "multipleChoice",
       "prompt": "The ______ for the payment was yesterday!",
       "options": ["due date", "billing cycle", "smart meter"],
@@ -255,14 +255,14 @@
       "explanation": "¡La fecha de vencimiento fue ayer!"
     },
     {
-      "id": "fin-a2-w08-34",
+      "id": "adm-a2-w08-ex34",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "I am going to check the tax",
       "explanation": "Voy a revisar el impuesto."
     },
     {
-      "id": "fin-a2-w08-35",
+      "id": "adm-a2-w08-ex35",
       "type": "multipleChoice",
       "prompt": "Are they ______ to launch a new app?",
       "options": ["going", "go", "gone"],
@@ -270,14 +270,14 @@
       "explanation": "¿Van ellos a lanzar una nueva app?"
     },
     {
-      "id": "fin-a2-w08-36",
+      "id": "adm-a2-w08-ex36",
       "type": "fillBlanks",
       "prompt": "The [blank] rate is 21%.",
       "answers": ["VAT", "tax"],
       "explanation": "La tasa de IVA es del 21%."
     },
     {
-      "id": "fin-a2-w08-37",
+      "id": "adm-a2-w08-ex37",
       "type": "multipleChoice",
       "prompt": "We ______ going to cancel the service.",
       "options": ["are", "is", "am"],
@@ -285,14 +285,14 @@
       "explanation": "Vamos a cancelar el servicio."
     },
     {
-      "id": "fin-a2-w08-38",
+      "id": "adm-a2-w08-ex38",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "Direct debit is a good option",
       "explanation": "La domiciliación es una buena opción."
     },
     {
-      "id": "fin-a2-w08-39",
+      "id": "adm-a2-w08-ex39",
       "type": "multipleChoice",
       "prompt": "I am ______ to save energy this month.",
       "options": ["going", "go", "goes"],
@@ -300,14 +300,14 @@
       "explanation": "Voy a ahorrar energía este mes."
     },
     {
-      "id": "fin-a2-w08-40",
+      "id": "adm-a2-w08-ex40",
       "type": "fillBlanks",
       "prompt": "The [blank] bill is overdue.",
       "answers": ["utility", "phone", "electricity"],
       "explanation": "La factura está vencida."
     },
     {
-      "id": "fin-a2-w08-41",
+      "id": "adm-a2-w08-ex41",
       "type": "multipleChoice",
       "prompt": "Is he ______ to pay the bill now?",
       "options": ["going", "go", "gone"],
@@ -315,14 +315,14 @@
       "explanation": "¿Va él a pagar la factura ahora?"
     },
     {
-      "id": "fin-a2-w08-42",
+      "id": "adm-a2-w08-ex42",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "I am not going to pay",
       "explanation": "No voy a pagar."
     },
     {
-      "id": "fin-a2-w08-43",
+      "id": "adm-a2-w08-ex43",
       "type": "multipleChoice",
       "prompt": "You ______ going to receive a digital receipt.",
       "options": ["are", "is", "am"],
@@ -330,14 +330,14 @@
       "explanation": "Vas a recibir un recibo digital."
     },
     {
-      "id": "fin-a2-w08-44",
+      "id": "adm-a2-w08-ex44",
       "type": "fillBlanks",
       "prompt": "The bill is [blank] in two days.",
       "answers": ["due"],
       "explanation": "La factura vence en dos días."
     },
     {
-      "id": "fin-a2-w08-45",
+      "id": "adm-a2-w08-ex45",
       "type": "multipleChoice",
       "prompt": "We ______ going to change our subscription plan.",
       "options": ["are", "is", "am"],
@@ -345,14 +345,14 @@
       "explanation": "Vamos a cambiar nuestro plan de suscripción."
     },
     {
-      "id": "fin-a2-w08-46",
+      "id": "adm-a2-w08-ex46",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "The bill is already paid",
       "explanation": "La factura ya está pagada."
     },
     {
-      "id": "fin-a2-w08-47",
+      "id": "adm-a2-w08-ex47",
       "type": "multipleChoice",
       "prompt": "Is the ______ meter working correctly?",
       "options": ["smart", "bill", "tax"],
@@ -360,14 +360,14 @@
       "explanation": "¿Funciona correctamente el medidor inteligente?"
     },
     {
-      "id": "fin-a2-w08-48",
+      "id": "adm-a2-w08-ex48",
       "type": "fillBlanks",
       "prompt": "I'm [blank] to [blank] my recurring expenses.",
       "answers": ["going", "check", "track"],
       "explanation": "Voy a revisar/rastrear mis gastos recurrentes."
     },
     {
-      "id": "fin-a2-w08-49",
+      "id": "adm-a2-w08-ex49",
       "type": "multipleChoice",
       "prompt": "Are you ______ to help me with Autopay?",
       "options": ["going", "go", "goes"],
@@ -375,47 +375,214 @@
       "explanation": "¿Vas a ayudarme con Autopay?"
     },
     {
-      "id": "fin-a2-w08-50",
-      "type": "crossword",
-      "title": "Smart Billing Crossword",
-      "instructions": "Complete the crossword puzzle with billing terms.",
-      "items": [
-        {
-          "word": "AUTOPAY",
-          "clue": "System where the bank automatically pays your bills.",
-          "direction": "across",
-          "row": 0,
-          "col": 0
-        },
-        {
-          "word": "UTILITY",
-          "clue": "Public service like water, gas, or electricity.",
-          "direction": "down",
-          "row": 0,
-          "col": 1
-        },
-        {
-          "word": "OVERDUE",
-          "clue": "A payment that was not made by the due date.",
-          "direction": "across",
-          "row": 4,
-          "col": 0
-        },
-        {
-          "word": "RECURRING",
-          "clue": "A payment that happens repeatedly at fixed intervals.",
-          "direction": "down",
-          "row": 2,
-          "col": 4
-        },
-        {
-          "word": "SUBSCRIPTION",
-          "clue": "Regular payment for a service like Netflix or Spotify.",
-          "direction": "across",
-          "row": 8,
-          "col": 0
-        }
-      ]
+      "id": "adm-a2-w08-ex50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "What are you going to do?",
+      "explanation": "¿Qué vas a hacer?"
+    },
+    {
+      "id": "adm-a2-w08-ex51",
+      "type": "matching",
+      "prompt": "Match the billing terms with their meanings:",
+      "questions": [
+        { "question": "Due date", "answer": "The final day to pay a bill" },
+        { "question": "Billing cycle", "answer": "The period between two statements" },
+        { "question": "Recurring", "answer": "Something that happens repeatedly" },
+        { "question": "Paperless", "answer": "Digital-only statements" },
+        { "question": "Overdue", "answer": "A payment that is late" }
+      ],
+      "explanation": "Vocabulario esencial para la gestión de facturas y pagos."
+    },
+    {
+      "id": "adm-a2-w08-ex52",
+      "type": "multipleChoice",
+      "prompt": "I ______ going to pay the gas bill now.",
+      "options": ["am", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "Yo voy a pagar (I am going to pay)."
+    },
+    {
+      "id": "adm-a2-w08-ex53",
+      "type": "fillBlanks",
+      "prompt": "The [blank] [blank] is next Monday.",
+      "answers": ["due date"],
+      "explanation": "La fecha de vencimiento es el próximo lunes."
+    },
+    {
+      "id": "adm-a2-w08-ex54",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Is she going to cancel the contract?",
+      "explanation": "¿Va ella a cancelar el contrato?"
+    },
+    {
+      "id": "adm-a2-w08-ex55",
+      "type": "multipleChoice",
+      "prompt": "We are going to ______ our water consumption.",
+      "options": ["reduce", "reduce going", "reducing"],
+      "answerIndex": 0,
+      "explanation": "Vamos a reducir (be going to + infinitivo)."
+    },
+    {
+      "id": "adm-a2-w08-ex56",
+      "type": "fillBlanks",
+      "prompt": "I want to setup a [blank] [blank].",
+      "answers": ["direct debit", "recurring payment"],
+      "explanation": "Quiero configurar un débito directo o pago recurrente."
+    },
+    {
+      "id": "adm-a2-w08-ex57",
+      "type": "multipleChoice",
+      "prompt": "They are ______ to upgrade the billing system.",
+      "options": ["going", "go", "gone"],
+      "answerIndex": 0,
+      "explanation": "Ellos van a actualizar el sistema de facturación."
+    },
+    {
+      "id": "adm-a2-w08-ex58",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The billing cycle is 30 days long",
+      "explanation": "El ciclo de facturación dura 30 días."
+    },
+    {
+      "id": "adm-a2-w08-ex59",
+      "type": "fillBlanks",
+      "prompt": "The bill [blank] $50.",
+      "answers": ["is", "costs"],
+      "explanation": "La factura es de $50."
+    },
+    {
+      "id": "adm-a2-w08-ex60",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ to use the smart meter?",
+      "options": ["going", "go", "gone"],
+      "answerIndex": 0,
+      "explanation": "¿Vas a usar el medidor inteligente?"
+    },
+    {
+      "id": "adm-a2-w08-ex61",
+      "type": "matching",
+      "prompt": "Match the intentions with the correct structure:",
+      "questions": [
+        { "question": "I / pay", "answer": "I am going to pay" },
+        { "question": "You / save", "answer": "You are going to save" },
+        { "question": "He / check", "answer": "He is going to check" },
+        { "question": "We / cancel", "answer": "We are going to cancel" },
+        { "question": "They / start", "answer": "They are going to start" }
+      ],
+      "explanation": "Práctica de la estructura 'be going to' para planes futuros."
+    },
+    {
+      "id": "adm-a2-w08-ex62",
+      "type": "multipleChoice",
+      "prompt": "He ______ going to buy a new smart meter.",
+      "options": ["is", "are", "am"],
+      "answerIndex": 0,
+      "explanation": "Él va a comprar (He is going to)."
+    },
+    {
+      "id": "adm-a2-w08-ex63",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is already overdue.",
+      "answers": ["payment", "bill"],
+      "explanation": "El pago/factura ya está vencido."
+    },
+    {
+      "id": "adm-a2-w08-ex64",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am not going to waste energy",
+      "explanation": "No voy a desperdiciar energía."
+    },
+    {
+      "id": "adm-a2-w08-ex65",
+      "type": "multipleChoice",
+      "prompt": "What are they ______ to do?",
+      "options": ["going", "go", "gone"],
+      "answerIndex": 0,
+      "explanation": "¿Qué van a hacer ellos?"
+    },
+    {
+      "id": "adm-a2-w08-ex66",
+      "type": "fillBlanks",
+      "prompt": "I'm going to [blank] my email for the invoice.",
+      "answers": ["check", "search"],
+      "explanation": "Voy a revisar mi email para ver la factura."
+    },
+    {
+      "id": "adm-a2-w08-ex67",
+      "type": "multipleChoice",
+      "prompt": "Is it ______ to pay via the app?",
+      "options": ["possible", "possibility", "possibly"],
+      "answerIndex": 0,
+      "explanation": "¿Es posible pagar por la app?"
+    },
+    {
+      "id": "adm-a2-w08-ex68",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He is going to call the bank",
+      "explanation": "Él va a llamar al banco."
+    },
+    {
+      "id": "adm-a2-w08-ex69",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is very high this month.",
+      "answers": ["tax", "amount"],
+      "explanation": "El impuesto/monto es muy alto este mes."
+    },
+    {
+      "id": "adm-a2-w08-ex70",
+      "type": "multipleChoice",
+      "prompt": "Who ______ going to check the meter?",
+      "options": ["is", "are", "am"],
+      "answerIndex": 0,
+      "explanation": "¿Quién va a revisar el medidor?"
+    },
+    {
+      "id": "adm-a2-w08-ex71",
+      "type": "matching",
+      "prompt": "Match the service with its utility type:",
+      "questions": [
+        { "question": "Electricity", "answer": "Energy" },
+        { "question": "Tap water", "answer": "Water" },
+        { "question": "Fiber optic", "answer": "Internet" },
+        { "question": "Heating", "answer": "Gas" },
+        { "question": "Recycling", "answer": "Waste management" }
+      ],
+      "explanation": "Diferentes tipos de servicios básicos (utilities)."
+    },
+    {
+      "id": "adm-a2-w08-ex72",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ to pay for paperless billing?",
+      "options": ["going", "go", "goes"],
+      "answerIndex": 0,
+      "explanation": "¿Vas a pagar por facturación sin papel? (Irónico, suele ser gratis)."
+    },
+    {
+      "id": "adm-a2-w08-ex73",
+      "type": "fillBlanks",
+      "prompt": "The [blank] cycle ends today.",
+      "answers": ["billing"],
+      "explanation": "El ciclo de facturación termina hoy."
+    },
+    {
+      "id": "adm-a2-w08-ex74",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am going to save more money",
+      "explanation": "Voy a ahorrar más dinero."
+    },
+    {
+      "id": "adm-a2-w08-ex75",
+      "type": "multipleChoice",
+      "prompt": "Is the invoice ______?",
+      "options": ["correct", "incorrectly", "correction"],
+      "answerIndex": 0,
+      "explanation": "¿Es correcta la factura?"
     }
   ]
 }

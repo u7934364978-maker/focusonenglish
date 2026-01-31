@@ -1,44 +1,44 @@
 [
   {
-    "id": 1,
+    "id": "adm-a2-w21-ex01",
     "type": "multiple-choice",
     "question": "What is a 'scam'?",
     "options": ["A legal bank account", "A trick to steal money", "A type of insurance", "A credit card reward"],
     "correctAnswer": 1,
-    "explanation": "A scam is an illegal plan for making money, especially one that involves tricking people."
+    "explanation": "Un 'scam' es un plan ilegal para ganar dinero, especialmente uno que implica engañar a la gente."
   },
   {
-    "id": 2,
+    "id": "adm-a2-w21-ex02",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) share your password with anyone.",
     "correctAnswer": "mustn't",
-    "explanation": "Sharing passwords is prohibited for security."
+    "explanation": "Compartir contraseñas está prohibido por seguridad; usamos 'mustn't' para prohibiciones."
   },
   {
-    "id": 3,
+    "id": "adm-a2-w21-ex03",
     "type": "multiple-choice",
     "question": "What is 'phishing'?",
     "options": ["A sport", "Fake emails to steal passwords", "Opening a savings account", "Buying a new phone"],
     "correctAnswer": 1,
-    "explanation": "Phishing is a fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity."
+    "explanation": "El 'phishing' es un intento fraudulento de obtener información confidencial haciéndose pasar por una entidad de confianza."
   },
   {
-    "id": 4,
+    "id": "adm-a2-w21-ex04",
     "type": "fill-in-the-blank",
     "question": "If you lose your card, you ___________ (must/mustn't) block it immediately.",
     "correctAnswer": "must",
-    "explanation": "Blocking a lost card is a necessary obligation."
+    "explanation": "Bloquear una tarjeta perdida es una obligación necesaria; usamos 'must'."
   },
   {
-    "id": 5,
+    "id": "adm-a2-w21-ex05",
     "type": "multiple-choice",
     "question": "Identity theft occurs when someone uses your ___________ illegally.",
     "options": ["Old clothes", "Personal data", "Bicycle", "Favorite book"],
     "correctAnswer": 1,
-    "explanation": "Identity theft involves stealing personal information like names and IDs."
+    "explanation": "El robo de identidad implica el robo de información personal como nombres y documentos de identidad."
   },
   {
-    "id": 6,
+    "id": "adm-a2-w21-ex06",
     "type": "matching",
     "question": "Match the safety terms:",
     "pairs": [
@@ -48,150 +48,150 @@
     ]
   },
   {
-    "id": 7,
+    "id": "adm-a2-w21-ex07",
     "type": "multiple-choice",
     "question": "What does 'suspicious activity' mean in a bank statement?",
     "options": ["Buying groceries", "Transactions you didn't make", "Paying your rent", "Receiving your salary"],
     "correctAnswer": 1,
-    "explanation": "Suspicious activity refers to unusual or unrecognized movements."
+    "explanation": "La actividad sospechosa se refiere a movimientos inusuales o no reconocidos en la cuenta."
   },
   {
-    "id": 8,
+    "id": "adm-a2-w21-ex08",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) use a very simple password like '1234'.",
     "correctAnswer": "mustn't",
-    "explanation": "Simple passwords are easy to hack and should be avoided."
+    "explanation": "Las contraseñas simples son fáciles de hackear y deben evitarse."
   },
   {
-    "id": 9,
+    "id": "adm-a2-w21-ex09",
     "type": "multiple-choice",
     "question": "To 'verify' means to:",
     "options": ["Check that something is true", "Lose money", "Sell a house", "Sleep"],
     "correctAnswer": 0,
-    "explanation": "Verification is the process of establishing the truth or accuracy of something."
+    "explanation": "Verificar es el proceso de establecer la verdad o exactitud de algo."
   },
   {
-    "id": 10,
+    "id": "adm-a2-w21-ex10",
     "type": "fill-in-the-blank",
     "question": "The bank ___________ (must/mustn't) protect the customers' data.",
     "correctAnswer": "must",
-    "explanation": "Banks have a legal and ethical obligation to protect data."
+    "explanation": "Los bancos tienen la obligación legal y ética de proteger los datos de sus clientes."
   },
   {
-    "id": 11,
+    "id": "adm-a2-w21-ex11",
     "type": "multiple-choice",
     "question": "What is '2FA'?",
     "options": ["Two-factor authentication", "Two financial accounts", "Twice a year", "To file an application"],
     "correctAnswer": 0,
-    "explanation": "2FA adds an extra layer of security beyond just a password."
+    "explanation": "2FA añade una capa extra de seguridad más allá de la simple contraseña."
   },
   {
-    "id": 12,
+    "id": "adm-a2-w21-ex12",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) write your PIN on the back of your card.",
     "correctAnswer": "mustn't",
-    "explanation": "Writing your PIN on your card is a major security risk."
+    "explanation": "Escribir el PIN en la tarjeta es un riesgo de seguridad grave; es una prohibición."
   },
   {
-    "id": 13,
+    "id": "adm-a2-w21-ex13",
     "type": "multiple-choice",
     "question": "A 'reliable' website is one that is:",
     "options": ["Dangerous", "Trustworthy and safe", "Colorful", "Expensive"],
     "correctAnswer": 1,
-    "explanation": "Reliable means consistently good in quality or performance; able to be trusted."
+    "explanation": "Fiable ('reliable') significa que es de buena calidad constante y se puede confiar en ella."
   },
   {
-    "id": 14,
+    "id": "adm-a2-w21-ex14",
     "type": "fill-in-the-blank",
     "question": "Employees ___________ (must/mustn't) ask for your password over the phone.",
     "correctAnswer": "mustn't",
-    "explanation": "Legitimate bank employees will never ask for your password."
+    "explanation": "Los empleados bancarios legítimos nunca pedirán tu contraseña por teléfono."
   },
   {
-    "id": 15,
+    "id": "adm-a2-w21-ex15",
     "type": "multiple-choice",
     "question": "What should you do if you receive a suspicious email from 'your bank'?",
     "options": ["Click all the links", "Reply with your info", "Delete it and call your bank", "Forward it to friends"],
     "correctAnswer": 2,
-    "explanation": "Deleting suspicious emails and contacting the bank directly is the safest action."
+    "explanation": "Eliminar correos sospechosos y contactar directamente con el banco es la acción más segura."
   },
   {
-    "id": 16,
+    "id": "adm-a2-w21-ex16",
     "type": "fill-in-the-blank",
     "question": "Passwords ___________ (must/mustn't) be strong and unique.",
     "correctAnswer": "must",
-    "explanation": "Strong passwords are essential for account security."
+    "explanation": "Las contraseñas fuertes son esenciales para la seguridad de la cuenta."
   },
   {
-    "id": 17,
+    "id": "adm-a2-w21-ex17",
     "type": "multiple-choice",
     "question": "What is 'biometrics'?",
     "options": ["A type of bank loan", "Using fingerprints or facial recognition", "A credit card fee", "An annual report"],
     "correctAnswer": 1,
-    "explanation": "Biometrics uses physical characteristics for identification."
+    "explanation": "La biometría utiliza características físicas para la identificación."
   },
   {
-    "id": 18,
+    "id": "adm-a2-w21-ex18",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) leave your computer unlocked in a public place.",
     "correctAnswer": "mustn't",
-    "explanation": "Unlocked computers allow unauthorized access to your data."
+    "explanation": "Dejar el ordenador desbloqueado permite el acceso no autorizado a tus datos."
   },
   {
-    "id": 19,
+    "id": "adm-a2-w21-ex19",
     "type": "multiple-choice",
     "question": "What is 'encryption'?",
     "options": ["Deleting money", "Encoding information to keep it secret", "Printing a receipt", "Signing a contract"],
     "correctAnswer": 1,
-    "explanation": "Encryption is the process of converting information into a code."
+    "explanation": "El cifrado ('encryption') es el proceso de convertir información en un código secreto."
   },
   {
-    "id": 20,
+    "id": "adm-a2-w21-ex20",
     "type": "fill-in-the-blank",
     "question": "We ___________ (must/mustn't) follow the security protocols.",
     "correctAnswer": "must",
-    "explanation": "Following protocols is a necessary obligation."
+    "explanation": "Seguir los protocolos es una obligación necesaria."
   },
   {
-    "id": 21,
+    "id": "adm-a2-w21-ex21",
     "type": "multiple-choice",
     "question": "A 'secure connection' starts with:",
     "options": ["http://", "https://", "www.", "ftp://"],
     "correctAnswer": 1,
-    "explanation": "The 's' in https stands for secure."
+    "explanation": "La 's' en 'https' significa 'secure' (segura)."
   },
   {
-    "id": 22,
+    "id": "adm-a2-w21-ex22",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) trust every phone call you receive.",
     "correctAnswer": "mustn't",
-    "explanation": "Scammers often use phone calls (vishing) to trick people."
+    "explanation": "Los estafadores a menudo usan llamadas telefónicas ('vishing') para engañar a la gente."
   },
   {
-    "id": 23,
+    "id": "adm-a2-w21-ex23",
     "type": "multiple-choice",
     "question": "What is 'skimming'?",
     "options": ["Reading a book quickly", "Illegal copying of credit card information", "Saving money", "Painting a wall"],
     "correctAnswer": 1,
-    "explanation": "Skimming is a method used by criminals to capture card data at ATMs or terminals."
+    "explanation": "El 'skimming' es un método utilizado por criminales para capturar datos de tarjetas en cajeros o terminales."
   },
   {
-    "id": 24,
+    "id": "adm-a2-w21-ex24",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) report a scam to the authorities.",
     "correctAnswer": "must",
-    "explanation": "Reporting scams helps prevent more victims."
+    "explanation": "Informar sobre estafas ayuda a prevenir que haya más víctimas."
   },
   {
-    "id": 25,
+    "id": "adm-a2-w21-ex25",
     "type": "multiple-choice",
     "question": "A 'strong password' should include:",
     "options": ["Only your name", "Letters, numbers, and symbols", "Only '0000'", "Your birthday"],
     "correctAnswer": 1,
-    "explanation": "Complexity increases password security."
+    "explanation": "La complejidad aumenta la seguridad de la contraseña."
   },
   {
-    "id": 26,
+    "id": "adm-a2-w21-ex26",
     "type": "matching",
     "question": "Match the actions:",
     "pairs": [
@@ -201,158 +201,150 @@
     ]
   },
   {
-    "id": 27,
+    "id": "adm-a2-w21-ex27",
     "type": "multiple-choice",
     "question": "What is a 'fake website' used for in fraud?",
     "options": ["Selling cheap clothes", "Stealing login details", "Watching movies", "Downloading music"],
     "correctAnswer": 1,
-    "explanation": "Fake websites (spoofing) are designed to look real to capture user data."
+    "explanation": "Los sitios web falsos están diseñados para parecer reales y capturar datos del usuario."
   },
   {
-    "id": 28,
+    "id": "adm-a2-w21-ex28",
     "type": "fill-in-the-blank",
     "question": "Customers ___________ (must/mustn't) ignore suspicious messages.",
     "correctAnswer": "mustn't",
-    "explanation": "Suspicious messages should be investigated, not ignored."
+    "explanation": "Los mensajes sospechosos deben investigarse, no ignorarse."
   },
   {
-    "id": 29,
+    "id": "adm-a2-w21-ex29",
     "type": "multiple-choice",
     "question": "What does 'unauthorized' mean?",
     "options": ["Having permission", "Without permission", "Very expensive", "Fast"],
     "correctAnswer": 1,
-    "explanation": "Unauthorized means not having official permission."
+    "explanation": "'Unauthorized' significa que no se tiene permiso oficial."
   },
   {
-    "id": 30,
+    "id": "adm-a2-w21-ex30",
     "type": "fill-in-the-blank",
     "question": "The bank ___________ (must/mustn't) monitor for unusual transactions.",
     "correctAnswer": "must",
-    "explanation": "Monitoring is a core security duty for banks."
+    "explanation": "El monitoreo es un deber de seguridad principal para los bancos."
   },
   {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "What is a 'scam'?",
-    "options": ["A legal bank account", "A trick to steal money", "A type of insurance", "A credit card reward"],
-    "correctAnswer": 1,
-    "explanation": "A scam is an illegal plan for making money, especially one that involves tricking people."
-  },
-  {
-    "id": 31,
+    "id": "adm-a2-w21-ex31",
     "type": "multiple-choice",
     "question": "If someone asks for your 'SMS code' on the phone, they are:",
     "options": ["Probably a scammer", "Your best friend", "The bank manager", "The police"],
     "correctAnswer": 0,
-    "explanation": "Banks never ask for SMS codes."
+    "explanation": "Los bancos nunca piden códigos SMS por teléfono; es una señal de estafa."
   },
   {
-    "id": 32,
+    "id": "adm-a2-w21-ex32",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) keep your PIN private.",
     "correctAnswer": "must",
-    "explanation": "Privacy is essential for PIN security."
+    "explanation": "La privacidad es esencial para la seguridad del PIN."
   },
   {
-    "id": 33,
+    "id": "adm-a2-w21-ex33",
     "type": "multiple-choice",
     "question": "What is a 'firewall' in computer security?",
     "options": ["A wall that is on fire", "A system to block unauthorized access", "A type of bank vault", "A fast internet connection"],
     "correctAnswer": 1,
-    "explanation": "A firewall acts as a barrier between a trusted and an untrusted network."
+    "explanation": "Un cortafuegos ('firewall') actúa como una barrera entre una red de confianza y otra que no lo es."
   },
   {
-    "id": 34,
+    "id": "adm-a2-w21-ex34",
     "type": "fill-in-the-blank",
     "question": "Banks ___________ (must/mustn't) use advanced security technology.",
     "correctAnswer": "must",
-    "explanation": "Using modern security is a requirement."
+    "explanation": "Usar tecnología de seguridad moderna es un requisito para las instituciones financieras."
   },
   {
-    "id": 35,
+    "id": "adm-a2-w21-ex35",
     "type": "multiple-choice",
     "question": "What is 'vishing'?",
     "options": ["Fishing in a boat", "Phishing over a voice call", "A type of investment", "A bank holiday"],
     "correctAnswer": 1,
-    "explanation": "Vishing is voice phishing."
+    "explanation": "'Vishing' es el phishing realizado a través de una llamada de voz."
   },
   {
-    "id": 36,
+    "id": "adm-a2-w21-ex36",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) download attachments from unknown senders.",
     "correctAnswer": "mustn't",
-    "explanation": "Attachments can contain malware."
+    "explanation": "Los archivos adjuntos pueden contener software malicioso ('malware')."
   },
   {
-    "id": 37,
+    "id": "adm-a2-w21-ex37",
     "type": "multiple-choice",
     "question": "A 'data breach' is when:",
     "options": ["The bank closes", "Confidential info is accessed illegally", "You lose your wallet", "You get a bonus"],
     "correctAnswer": 1,
-    "explanation": "A breach involves unauthorized access to data."
+    "explanation": "Una filtración de datos ('data breach') implica el acceso no autorizado a información confidencial."
   },
   {
-    "id": 38,
+    "id": "adm-a2-w21-ex38",
     "type": "fill-in-the-blank",
     "question": "Users ___________ (must/mustn't) update their software regularly.",
     "correctAnswer": "must",
-    "explanation": "Updates often include security patches."
+    "explanation": "Las actualizaciones a menudo incluyen parches de seguridad críticos."
   },
   {
-    "id": 39,
+    "id": "adm-a2-w21-ex39",
     "type": "multiple-choice",
     "question": "What is 'malware'?",
     "options": ["Friendly software", "Harmful software like viruses", "A type of bank account", "An online shop"],
     "correctAnswer": 1,
-    "explanation": "Malware is malicious software."
+    "explanation": "'Malware' es software malicioso diseñado para dañar o infiltrarse en sistemas."
   },
   {
-    "id": 40,
+    "id": "adm-a2-w21-ex40",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) use the same password for everything.",
     "correctAnswer": "mustn't",
-    "explanation": "If one account is hacked, all are at risk."
+    "explanation": "Si una cuenta es hackeada, todas las demás estarían en riesgo si usan la misma contraseña."
   },
   {
-    "id": 41,
+    "id": "adm-a2-w21-ex41",
     "type": "multiple-choice",
     "question": "What is a 'lock icon' in the browser address bar?",
     "options": ["The website is closed", "The connection is secure", "The website is slow", "A game icon"],
     "correctAnswer": 1,
-    "explanation": "The lock indicates SSL/TLS security."
+    "explanation": "El candado indica que la conexión es segura (usando SSL/TLS)."
   },
   {
-    "id": 42,
+    "id": "adm-a2-w21-ex42",
     "type": "fill-in-the-blank",
     "question": "Everyone ___________ (must/mustn't) be careful online.",
     "correctAnswer": "must",
-    "explanation": "Caution is a general requirement for online safety."
+    "explanation": "La precaución es un requisito general para la seguridad en línea."
   },
   {
-    "id": 43,
+    "id": "adm-a2-w21-ex43",
     "type": "multiple-choice",
     "question": "What does 'compromised' mean in security?",
     "options": ["Very safe", "Exposed or no longer secure", "Very expensive", "New"],
     "correctAnswer": 1,
-    "explanation": "A compromised account is one that has been hacked."
+    "explanation": "Una cuenta comprometida es aquella que ha sido hackeada o expuesta."
   },
   {
-    "id": 44,
+    "id": "adm-a2-w21-ex44",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) share your ID number with strangers.",
     "correctAnswer": "mustn't",
-    "explanation": "ID numbers are sensitive personal data."
+    "explanation": "Los números de identificación son datos personales sensibles que no deben compartirse."
   },
   {
-    "id": 45,
+    "id": "adm-a2-w21-ex45",
     "type": "multiple-choice",
     "question": "What is a 'security question'?",
     "options": ["A question about the weather", "A question to verify your identity", "A test in a bank", "A type of insurance"],
     "correctAnswer": 1,
-    "explanation": "Security questions add a layer of verification."
+    "explanation": "Las preguntas de seguridad añaden una capa adicional de verificación de identidad."
   },
   {
-    "id": 46,
+    "id": "adm-a2-w21-ex46",
     "type": "matching",
     "question": "Match the risk with the protection:",
     "pairs": [
@@ -362,33 +354,221 @@
     ]
   },
   {
-    "id": 47,
+    "id": "adm-a2-w21-ex47",
     "type": "multiple-choice",
     "question": "A 'privacy policy' explains:",
     "options": ["The history of the bank", "How your data is used", "The price of loans", "The bank's address"],
     "correctAnswer": 1,
-    "explanation": "Privacy policies detail data handling practices."
+    "explanation": "Las políticas de privacidad detallan las prácticas de manejo y protección de datos."
   },
   {
-    "id": 48,
+    "id": "adm-a2-w21-ex48",
     "type": "fill-in-the-blank",
     "question": "Banks ___________ (must/mustn't) have a clear privacy policy.",
     "correctAnswer": "must",
-    "explanation": "Transparency is a regulatory requirement."
+    "explanation": "La transparencia en el uso de datos es una obligación regulatoria."
   },
   {
-    "id": 49,
+    "id": "adm-a2-w21-ex49",
     "type": "multiple-choice",
     "question": "To 'log out' means:",
     "options": ["To open an account", "To close a secure session", "To buy a computer", "To change your name"],
     "correctAnswer": 1,
-    "explanation": "Logging out ends your access to a secure area."
+    "explanation": "Cerrar sesión ('log out') finaliza el acceso a un área segura."
   },
   {
-    "id": 50,
+    "id": "adm-a2-w21-ex50",
     "type": "fill-in-the-blank",
     "question": "You ___________ (must/mustn't) log out from public computers.",
     "correctAnswer": "must",
-    "explanation": "If you don't log out, others can access your account."
+    "explanation": "Si no cierras sesión, otros podrían acceder a tu cuenta."
+  },
+  {
+    "id": "adm-a2-w21-ex51",
+    "type": "multiple-choice",
+    "question": "What is 'shoulder surfing'?",
+    "options": ["Surfing at the beach", "Looking over someone's shoulder to see their PIN", "Buying a new bag", "Exercise for the shoulders"],
+    "correctAnswer": 1,
+    "explanation": "El 'shoulder surfing' consiste en mirar por encima del hombro de alguien para robar códigos o PINs."
+  },
+  {
+    "id": "adm-a2-w21-ex52",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) cover the keypad when entering your PIN.",
+    "correctAnswer": "must",
+    "explanation": "Cubrir el teclado es una obligación para evitar que otros vean tu PIN."
+  },
+  {
+    "id": "adm-a2-w21-ex53",
+    "type": "multiple-choice",
+    "question": "Which of these is a 'strong' password?",
+    "options": ["password123", "qwerty", "B4nk_S3cure!", "admin"],
+    "correctAnswer": 2,
+    "explanation": "Una contraseña fuerte debe incluir letras, números y símbolos."
+  },
+  {
+    "id": "adm-a2-w21-ex54",
+    "type": "fill-in-the-blank",
+    "question": "Employees ___________ (must/mustn't) leave sensitive documents on their desks.",
+    "correctAnswer": "mustn't",
+    "explanation": "Dejar documentos sensibles a la vista es una prohibición por seguridad de datos."
+  },
+  {
+    "id": "adm-a2-w21-ex55",
+    "type": "multiple-choice",
+    "question": "What is 'identity verification'?",
+    "options": ["Sending a gift", "Checking that a person is who they say they are", "Buying a car", "Closing a bank"],
+    "correctAnswer": 1,
+    "explanation": "La verificación de identidad consiste en confirmar que una persona es realmente quien dice ser."
+  },
+  {
+    "id": "adm-a2-w21-ex56",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) use public Wi-Fi for banking.",
+    "correctAnswer": "mustn't",
+    "explanation": "El Wi-Fi público no es seguro para transacciones bancarias; es una prohibición recomendada."
+  },
+  {
+    "id": "adm-a2-w21-ex57",
+    "type": "multiple-choice",
+    "question": "What is 'social engineering'?",
+    "options": ["Building bridges", "Manipulating people into giving up confidential info", "A type of marketing", "Learning about society"],
+    "correctAnswer": 1,
+    "explanation": "La ingeniería social es la manipulación de personas para obtener información confidencial."
+  },
+  {
+    "id": "adm-a2-w21-ex58",
+    "type": "fill-in-the-blank",
+    "question": "Companies ___________ (must/mustn't) train their staff about security.",
+    "correctAnswer": "must",
+    "explanation": "Capacitar al personal es una obligación para mantener la seguridad corporativa."
+  },
+  {
+    "id": "adm-a2-w21-ex59",
+    "type": "multiple-choice",
+    "question": "What does 'fraudulent' mean?",
+    "options": ["Expensive", "Obtained or done by deception", "Fast", "Legal"],
+    "correctAnswer": 1,
+    "explanation": "Fraudulento significa obtenido o realizado mediante engaño."
+  },
+  {
+    "id": "adm-a2-w21-ex60",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) click on pop-up ads that claim you won a prize.",
+    "correctAnswer": "mustn't",
+    "explanation": "Los anuncios emergentes de premios suelen ser estafas; no se debe hacer clic en ellos."
+  },
+  {
+    "id": "adm-a2-w21-ex61",
+    "type": "multiple-choice",
+    "question": "What is an 'antivirus'?",
+    "options": ["A type of medicine", "Software to protect against malware", "A fast internet connection", "A bank employee"],
+    "correctAnswer": 1,
+    "explanation": "Un antivirus es software diseñado para detectar y eliminar programas maliciosos."
+  },
+  {
+    "id": "adm-a2-w21-ex62",
+    "type": "fill-in-the-blank",
+    "question": "The bank ___________ (must/mustn't) notify you of a data breach.",
+    "correctAnswer": "must",
+    "explanation": "Es obligatorio que el banco informe a los usuarios si sus datos han sido expuestos."
+  },
+  {
+    "id": "adm-a2-w21-ex63",
+    "type": "multiple-choice",
+    "question": "What is 'smishing'?",
+    "options": ["Phishing via SMS messages", "Smiling at a customer", "Phishing via email", "A type of small bank"],
+    "correctAnswer": 0,
+    "explanation": "'Smishing' es el phishing realizado a través de mensajes de texto (SMS)."
+  },
+  {
+    "id": "adm-a2-w21-ex64",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) destroy old bank statements before throwing them away.",
+    "correctAnswer": "must",
+    "explanation": "Destruir documentos con información sensible es una obligación para prevenir el robo de identidad."
+  },
+  {
+    "id": "adm-a2-w21-ex65",
+    "type": "multiple-choice",
+    "question": "What is 'whaling' in cyber security?",
+    "options": ["Fishing for whales", "A phishing attack aimed at high-level executives", "A big bank loan", "A type of sea travel"],
+    "correctAnswer": 1,
+    "explanation": "'Whaling' es un ataque de phishing dirigido específicamente a altos ejecutivos."
+  },
+  {
+    "id": "adm-a2-w21-ex66",
+    "type": "fill-in-the-blank",
+    "question": "Account holders ___________ (must/mustn't) provide false information.",
+    "correctAnswer": "mustn't",
+    "explanation": "Proporcionar información falsa es ilegal y está prohibido."
+  },
+  {
+    "id": "adm-a2-w21-ex67",
+    "type": "multiple-choice",
+    "question": "What is 'Two-Step Verification'?",
+    "options": ["Walking twice", "A security process with two levels of ID", "Buying two items", "A type of dance"],
+    "correctAnswer": 1,
+    "explanation": "La verificación en dos pasos requiere dos formas de identificación para acceder a una cuenta."
+  },
+  {
+    "id": "adm-a2-w21-ex68",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) keep your banking app updated.",
+    "correctAnswer": "must",
+    "explanation": "Mantener la app actualizada es una obligación para tener las últimas protecciones de seguridad."
+  },
+  {
+    "id": "adm-a2-w21-ex69",
+    "type": "multiple-choice",
+    "question": "What does it mean to 'revoke access'?",
+    "options": ["To give permission", "To take away permission", "To open a door", "To start a session"],
+    "correctAnswer": 1,
+    "explanation": "'Revoke access' significa retirar o cancelar el permiso de acceso."
+  },
+  {
+    "id": "adm-a2-w21-ex70",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) trust websites that don't have 'https'.",
+    "correctAnswer": "mustn't",
+    "explanation": "No se debe confiar en sitios sin 'https' para manejar datos sensibles."
+  },
+  {
+    "id": "adm-a2-w21-ex71",
+    "type": "multiple-choice",
+    "question": "What is 'identity protection'?",
+    "options": ["Buying a mask", "Tools and services to keep personal data safe", "A type of insurance for cars", "Changing your name"],
+    "correctAnswer": 1,
+    "explanation": "La protección de identidad se refiere a los servicios y herramientas para mantener seguros los datos personales."
+  },
+  {
+    "id": "adm-a2-w21-ex72",
+    "type": "fill-in-the-blank",
+    "question": "Security guards ___________ (must/mustn't) check the ID of visitors.",
+    "correctAnswer": "must",
+    "explanation": "Es una obligación de los guardias de seguridad verificar la identidad de los visitantes."
+  },
+  {
+    "id": "adm-a2-w21-ex73",
+    "type": "multiple-choice",
+    "question": "What is a 'transaction limit'?",
+    "options": ["The time a transaction takes", "The maximum amount of money you can send", "The name of the bank", "A type of credit card"],
+    "correctAnswer": 1,
+    "explanation": "Un límite de transacción es el importe máximo que se puede enviar o retirar en una sola operación."
+  },
+  {
+    "id": "adm-a2-w21-ex74",
+    "type": "fill-in-the-blank",
+    "question": "You ___________ (must/mustn't) allow anyone to use your bank account.",
+    "correctAnswer": "mustn't",
+    "explanation": "Está prohibido permitir que otros usen tu cuenta bancaria por motivos de seguridad y legales."
+  },
+  {
+    "id": "adm-a2-w21-ex75",
+    "type": "multiple-choice",
+    "question": "What is 'multifactor authentication' (MFA)?",
+    "options": ["Using only one password", "Using several different methods to verify identity", "A type of multiple-choice test", "Opening many accounts"],
+    "correctAnswer": 1,
+    "explanation": "MFA utiliza varios métodos distintos (como contraseña y huella) para verificar la identidad."
   }
 ]

@@ -3,7 +3,7 @@
   "passingScore": 70,
   "items": [
     {
-      "id": "adm-b2-w24-exam-1",
+      "id": "adm-b2-w24-q1",
       "type": "multipleChoice",
       "prompt": "Which framework is most appropriate for evaluating internal 'Weaknesses' and external 'Opportunities'?",
       "options": ["PESTLE", "SWOT", "QMS", "BCP"],
@@ -11,7 +11,7 @@
       "explanation": "SWOT analysis evaluates Strengths, Weaknesses, Opportunities, and Threats."
     },
     {
-      "id": "adm-b2-w24-exam-2",
+      "id": "adm-b2-w24-q2",
       "type": "multipleChoice",
       "prompt": "Complete the sentence with the correct passive reporting structure: It ________ that the new regulations will impact small businesses significantly.",
       "options": ["is thought", "thinks", "has thought", "is thinking"],
@@ -19,7 +19,7 @@
       "explanation": "Passive reporting: It + is + past participle + that clause."
     },
     {
-      "id": "adm-b2-w24-exam-3",
+      "id": "adm-b2-w24-q3",
       "type": "multipleChoice",
       "prompt": "What is the primary goal of a Business Continuity Plan (BCP)?",
       "options": ["To increase sales", "To ensure operations continue during a crisis", "To hire new staff", "To design a new logo"],
@@ -27,7 +27,7 @@
       "explanation": "A BCP ensures an organisation can maintain or resume operations after a disruption."
     },
     {
-      "id": "adm-b2-w24-exam-4",
+      "id": "adm-b2-w24-q4",
       "type": "multipleChoice",
       "prompt": "Inversion: ________ the CEO to resign, the share price would likely plummet.",
       "options": ["Were", "Had", "Should", "If"],
@@ -35,7 +35,7 @@
       "explanation": "Inverted Type 2 conditional: Were + subject + to-infinitive."
     },
     {
-      "id": "adm-b2-w24-exam-5",
+      "id": "adm-b2-w24-q5",
       "type": "multipleChoice",
       "prompt": "Which term describes the process of passing goods through a border in international trade?",
       "options": ["Customs clearance", "Freight forwarding", "Incoterms", "Lead time"],
@@ -43,7 +43,7 @@
       "explanation": "Customs clearance is the formal process of entering or leaving a country's territory."
     },
     {
-      "id": "adm-b2-w24-exam-6",
+      "id": "adm-b2-w24-q6",
       "type": "multipleChoice",
       "prompt": "Mixed Conditional: If we ________ the software last year, we ________ so many bugs now.",
       "options": ["had updated / wouldn't have", "updated / wouldn't be having", "had updated / wouldn't be having", "update / won't have"],
@@ -51,7 +51,7 @@
       "explanation": "Mixed conditional (3rd + 2nd): past action affecting present result."
     },
     {
-      "id": "adm-b2-w24-exam-7",
+      "id": "adm-b2-w24-q7",
       "type": "multipleChoice",
       "prompt": "Nominalization: The ________ of the budget was approved by the board yesterday.",
       "options": ["revising", "revision", "revise", "revised"],
@@ -59,7 +59,7 @@
       "explanation": "Revision is the noun form of 'revise'."
     },
     {
-      "id": "adm-b2-w24-exam-8",
+      "id": "adm-b2-w24-q8",
       "type": "multipleChoice",
       "prompt": "What does 'Greenwashing' refer to?",
       "options": ["Investing in green energy", "Misleading consumers about environmental practices", "Recycling office paper", "Using water-based paints"],
@@ -67,7 +67,7 @@
       "explanation": "Greenwashing is deceptive marketing regarding eco-friendliness."
     },
     {
-      "id": "adm-b2-w24-exam-9",
+      "id": "adm-b2-w24-q9",
       "type": "multipleChoice",
       "prompt": "Which Incoterm means the seller delivers the goods on board the vessel nominated by the buyer?",
       "options": ["FOB (Free On Board)", "CIF (Cost, Insurance, and Freight)", "EXW (Ex Works)", "DDP (Delivered Duty Paid)"],
@@ -75,7 +75,7 @@
       "explanation": "FOB is a standard Incoterm for sea freight."
     },
     {
-      "id": "adm-b2-w24-exam-10",
+      "id": "adm-b2-w24-q10",
       "type": "multipleChoice",
       "prompt": "Past Modal: The manager ________ signed the NDA; he wasn't even in the office that day.",
       "options": ["must have", "can't have", "should have", "might have"],
@@ -83,7 +83,7 @@
       "explanation": "Can't have + past participle expresses high certainty that something did NOT happen."
     },
     {
-      "id": "adm-b2-w24-exam-11",
+      "id": "adm-b2-w24-q11",
       "type": "multipleChoice",
       "prompt": "What is 'Due Diligence'?",
       "options": ["A type of insurance", "The investigation of a business before a contract is signed", "A disciplinary procedure", "A method of filing documents"],
@@ -91,7 +91,7 @@
       "explanation": "Due diligence is the verification process before a transaction."
     },
     {
-      "id": "adm-b2-w24-exam-12",
+      "id": "adm-b2-w24-q12",
       "type": "multipleChoice",
       "prompt": "Which of these is a 'Legal' factor in a PESTLE analysis?",
       "options": ["Inflation rates", "Employment laws", "Social media trends", "Carbon emissions"],
@@ -99,7 +99,7 @@
       "explanation": "Employment laws are specific legal factors."
     },
     {
-      "id": "adm-b2-w24-exam-13",
+      "id": "adm-b2-w24-q13",
       "type": "multipleChoice",
       "prompt": "Wish/Regret: I wish the company ________ more in employee training five years ago.",
       "options": ["invested", "had invested", "would invest", "has invested"],
@@ -107,7 +107,7 @@
       "explanation": "Wish + Past Perfect for past regrets."
     },
     {
-      "id": "adm-b2-w24-exam-14",
+      "id": "adm-b2-w24-q14",
       "type": "multipleChoice",
       "prompt": "What is 'Scalability' in IT administration?",
       "options": ["The ability to measure weight", "The capability of a system to handle growth", "The process of fixing bugs", "The cost of hardware"],
@@ -115,7 +115,7 @@
       "explanation": "Scalability refers to a system's ability to enlarge to accommodate growth."
     },
     {
-      "id": "adm-b2-w24-exam-15",
+      "id": "adm-b2-w24-q15",
       "type": "multipleChoice",
       "prompt": "Contrast: The new ERP system is very efficient, ________ expensive to maintain.",
       "options": ["albeit", "notwithstanding", "even so", "much as"],
@@ -123,7 +123,7 @@
       "explanation": "Albeit + adjective is used for concession."
     },
     {
-      "id": "adm-b2-w24-exam-16",
+      "id": "adm-b2-w24-q16",
       "type": "multipleChoice",
       "prompt": "Which term describes a collection of data that is not accessible by other groups in the same company?",
       "options": ["Data silo", "Cloud storage", "Big data", "Encryption"],
@@ -131,7 +131,7 @@
       "explanation": "A data silo is isolated information within an organisation."
     },
     {
-      "id": "adm-b2-w24-exam-17",
+      "id": "adm-b2-w24-q17",
       "type": "multipleChoice",
       "prompt": "Inversion: ________ you encounter any technical issues with the portal, please contact the helpdesk.",
       "options": ["Should", "Had", "Were", "Would"],
@@ -139,7 +139,7 @@
       "explanation": "Should + subject + verb is the formal inverted Type 1 conditional."
     },
     {
-      "id": "adm-b2-w24-exam-18",
+      "id": "adm-b2-w24-q18",
       "type": "multipleChoice",
       "prompt": "Which concept focuses on Profit, People, and Planet?",
       "options": ["Triple Bottom Line", "SWOT", "PESTLE", "ROI"],
@@ -147,7 +147,7 @@
       "explanation": "The Triple Bottom Line is a core concept of CSR."
     },
     {
-      "id": "adm-b2-w24-exam-19",
+      "id": "adm-b2-w24-q19",
       "type": "multipleChoice",
       "prompt": "Nominalization: 'We analysed the results.' -> 'The ________ of the results took place last week.'",
       "options": ["analysing", "analysis", "analyser", "analytically"],
@@ -155,7 +155,7 @@
       "explanation": "'Analysis' is the nominalized form of 'analyse'."
     },
     {
-      "id": "adm-b2-w24-exam-20",
+      "id": "adm-b2-w24-q20",
       "type": "multipleChoice",
       "prompt": "What is 'Change Fatigue'?",
       "options": ["Being tired after a long meeting", "Apathy or resentment towards constant organisational changes", "The process of changing a password", "A physical illness caused by stress"],

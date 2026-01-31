@@ -1,0 +1,349 @@
+{
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana35",
+  "title": "Exercises: Receiving Visitors",
+  "items": [
+    {
+      "id": "adm-a1-w35-ex01",
+      "type": "multiple-choice",
+      "prompt": "How do you welcome someone to your company?",
+      "options": [
+        "Go away.",
+        "Welcome to Focus English.",
+        "What do you want?",
+        "I am busy."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Welcome to [Company Name]' is the standard professional greeting."
+    },
+    {
+      "id": "adm-a1-w35-ex02",
+      "type": "multiple-choice",
+      "prompt": "What do you ask to know if they have a scheduled meeting?",
+      "options": [
+        "Do you have an appointment?",
+        "Are you hungry?",
+        "What is the time?",
+        "Do you like coffee?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Appointment' refers to a scheduled meeting."
+    },
+    {
+      "id": "adm-a1-w35-ex03",
+      "type": "multiple-choice",
+      "prompt": "If you want the visitor to sit down, you say:",
+      "options": [
+        "Please stand up.",
+        "Please have a seat.",
+        "Go to the kitchen.",
+        "Sit on the floor."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Have a seat' is a polite way to invite someone to sit."
+    },
+    {
+      "id": "adm-a1-w35-ex04",
+      "type": "multiple-choice",
+      "prompt": "What does 'Sign in' mean?",
+      "options": [
+        "To sing a song.",
+        "To write your name on a visitor list.",
+        "To leave the building.",
+        "To call a friend."
+      ],
+      "answerIndex": 1,
+      "explanation": "Signing in is the process of registering your arrival."
+    },
+    {
+      "id": "adm-a1-w35-ex05",
+      "type": "multiple-choice",
+      "prompt": "Which drink is a standard office courtesy?",
+      "options": [
+        "A milkshake",
+        "Water or coffee",
+        "Wine",
+        "A smoothie"
+      ],
+      "answerIndex": 1,
+      "explanation": "Offering water or coffee is common professional courtesy."
+    },
+    {
+      "id": "adm-a1-w35-ex06",
+      "type": "multiple-choice",
+      "prompt": "Complete: Mr. Smith will be with you ________.",
+      "options": [
+        "long time",
+        "shortly",
+        "never",
+        "yesterday"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Shortly' means in a very short time."
+    },
+    {
+      "id": "adm-a1-w35-ex07",
+      "type": "multiple-choice",
+      "prompt": "How do you ask for a visitor's name?",
+      "options": [
+        "Who are you?",
+        "What is your name, please?",
+        "Name now.",
+        "You name?"
+      ],
+      "answerIndex": 1,
+      "explanation": "'What is your name, please?' is the polite and professional form."
+    },
+    {
+      "id": "adm-a1-w35-ex08",
+      "type": "multiple-choice",
+      "prompt": "Where does a visitor usually wait?",
+      "options": [
+        "In the parking lot",
+        "In the reception area",
+        "In the manager's office",
+        "In the restroom"
+      ],
+      "answerIndex": 1,
+      "explanation": "The reception or waiting area is for visitors."
+    },
+    {
+      "id": "adm-a1-w35-ex09",
+      "type": "multiple-choice",
+      "prompt": "What should a visitor wear for security?",
+      "options": [
+        "A hat",
+        "A visitor badge",
+        "A uniform",
+        "Sunglasses"
+      ],
+      "answerIndex": 1,
+      "explanation": "A visitor badge identifies the person as a guest."
+    },
+    {
+      "id": "adm-a1-w35-ex10",
+      "type": "multiple-choice",
+      "prompt": "How do you offer help?",
+      "options": [
+        "How can I help you?",
+        "Help me please.",
+        "What do you do?",
+        "Why are you here?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'How can I help you?' is the standard receptionist greeting."
+    },
+    {
+      "id": "adm-a1-w35-ex11",
+      "type": "listening",
+      "prompt": "Listen and answer: What does the receptionist offer?",
+      "transcript": "Welcome. Would you like some water or coffee while you wait?",
+      "options": [
+        "Lunch",
+        "A seat",
+        "Water or coffee",
+        "A pen"
+      ],
+      "answerIndex": 2,
+      "explanation": "The receptionist asks: 'Would you like some water or coffee'."
+    },
+    {
+      "id": "adm-a1-w35-ex12",
+      "type": "listening",
+      "prompt": "Listen and answer: Does the visitor have an appointment?",
+      "transcript": "Good morning. I have an appointment with Mr. Miller at 10:30.",
+      "options": [
+        "No, he doesn't.",
+        "Yes, he does.",
+        "He is late.",
+        "He wants to cancel."
+      ],
+      "answerIndex": 1,
+      "explanation": "The visitor says: 'I have an appointment'."
+    },
+    {
+      "id": "adm-a1-w35-ex13",
+      "type": "listening",
+      "prompt": "Listen and answer: What should the visitor do first?",
+      "transcript": "Please sign in here and wear this visitor badge.",
+      "options": [
+        "Sit down.",
+        "Sign in and wear a badge.",
+        "Go to the elevator.",
+        "Call Mr. Miller."
+      ],
+      "answerIndex": 1,
+      "explanation": "The instruction is to 'sign in... and wear this... badge'."
+    },
+    {
+      "id": "adm-a1-w35-ex14",
+      "type": "listening",
+      "prompt": "Listen and identify the person: 'Who will be with the visitor?'",
+      "transcript": "Please have a seat. Ms. Garcia will be with you shortly.",
+      "options": [
+        "Mr. Garcia",
+        "Ms. Garcia",
+        "The manager",
+        "The director"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'Ms. Garcia'."
+    },
+    {
+      "id": "adm-a1-w35-ex15",
+      "type": "listening",
+      "prompt": "Listen and answer: Where should the visitor wait?",
+      "transcript": "The meeting room is busy. Please wait here in the reception.",
+      "options": [
+        "In the kitchen",
+        "In the meeting room",
+        "In the reception",
+        "Outside"
+      ],
+      "answerIndex": 2,
+      "explanation": "The speaker says 'wait here in the reception'."
+    },
+    {
+      "id": "adm-a1-w35-ex16",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the company name?",
+      "transcript": "Welcome to Global Solutions. How can I help you today?",
+      "options": [
+        "Focus English",
+        "Global Solutions",
+        "Tech Office",
+        "Modern Admin"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'Welcome to Global Solutions'."
+    },
+    {
+      "id": "adm-a1-w35-ex17",
+      "type": "listening",
+      "prompt": "Listen and complete: 'Please ________.'",
+      "transcript": "Thank you for coming. Please have a seat.",
+      "options": [
+        "stand up",
+        "have a seat",
+        "sign in",
+        "wait"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'have a seat'."
+    },
+    {
+      "id": "adm-a1-w35-ex18",
+      "type": "listening",
+      "prompt": "Listen and answer: Is the manager ready?",
+      "transcript": "Mr. Roberts is in a meeting right now. Can you wait 5 minutes?",
+      "options": [
+        "Yes, he is ready.",
+        "No, he is in a meeting.",
+        "He is at lunch.",
+        "He is not in the office."
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'Mr. Roberts is in a meeting'."
+    },
+    {
+      "id": "adm-a1-w35-ex19",
+      "type": "listening",
+      "prompt": "Listen and answer: Which company is the visitor from?",
+      "transcript": "My name is Alice Thompson, and I am from HR Tech.",
+      "options": [
+        "Global Solutions",
+        "HR Tech",
+        "Focus English",
+        "Admin Pro"
+      ],
+      "answerIndex": 1,
+      "explanation": "The visitor says 'I am from HR Tech'."
+    },
+    {
+      "id": "adm-a1-w35-ex20",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the instruction?",
+      "transcript": "Please follow me to the conference room.",
+      "options": [
+        "Wait here.",
+        "Follow the speaker.",
+        "Go to the kitchen.",
+        "Sign in."
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says 'Please follow me'."
+    },
+    {
+      "id": "adm-a1-w35-ex21",
+      "type": "fill-blank",
+      "prompt": "________ (Bienvenido) to our office.",
+      "answer": "Welcome",
+      "explanation": "'Welcome' is the greeting for visitors."
+    },
+    {
+      "id": "adm-a1-w35-ex22",
+      "type": "fill-blank",
+      "prompt": "Do you have an ________ (cita)?",
+      "answer": "appointment",
+      "explanation": "'Appointment' is a formal meeting."
+    },
+    {
+      "id": "adm-a1-w35-ex23",
+      "type": "fill-blank",
+      "prompt": "Please ________ (tome) a seat.",
+      "answer": "have",
+      "explanation": "The phrase is 'have a seat'."
+    },
+    {
+      "id": "adm-a1-w35-ex24",
+      "type": "fill-blank",
+      "prompt": "Please ________ (regístrese) here.",
+      "answer": "sign in",
+      "explanation": "'Sign in' means to register upon arrival."
+    },
+    {
+      "id": "adm-a1-w35-ex25",
+      "type": "fill-blank",
+      "prompt": "Which ________ (empresa) are you from?",
+      "answer": "company",
+      "explanation": "'Company' is the place where someone works."
+    },
+    {
+      "id": "adm-a1-w35-ex26",
+      "type": "fill-blank",
+      "prompt": "Ms. Jones is ________ (esperándole) for you.",
+      "answer": "waiting",
+      "explanation": "'Waiting' is the action of staying for someone."
+    },
+    {
+      "id": "adm-a1-w35-ex27",
+      "type": "fill-blank",
+      "prompt": "Would you like some ________ (agua)?",
+      "answer": "water",
+      "explanation": "'Water' is a common courtesy offering."
+    },
+    {
+      "id": "adm-a1-w35-ex28",
+      "type": "fill-blank",
+      "prompt": "She will be with you ________ (en breve).",
+      "answer": "shortly",
+      "explanation": "'Shortly' means in a short period of time."
+    },
+    {
+      "id": "adm-a1-w35-ex29",
+      "type": "fill-blank",
+      "prompt": "Please ________ (espere) in the reception.",
+      "answer": "wait",
+      "explanation": "'Wait' is the instruction to stay until ready."
+    },
+    {
+      "id": "adm-a1-w35-ex30",
+      "type": "fill-blank",
+      "prompt": "I'll ________ (informar) the manager you are here.",
+      "answer": "inform",
+      "explanation": "To 'inform' or 'tell' the manager."
+    }
+  ]
+}

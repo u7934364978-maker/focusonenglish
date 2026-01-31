@@ -1,522 +1,834 @@
 {
-  "title": "Bank Comparisons & Comparatives Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana04",
+  "title": "Legacy Banks vs Fintech Challengers Exercises",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a2-w04-ex01",
       "type": "multiple-choice",
-      "question": "What does APY stand for?",
+      "prompt": "What does APY stand for?",
       "options": [
         "Annual Percentage Yield",
         "Average Price Yearly",
         "Asset Portfolio Yield",
         "Account Payment Yearly"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "APY is the real rate of return on your savings."
     },
     {
-      "id": "ex2",
+      "id": "adm-a2-w04-ex02",
       "type": "multiple-choice",
-      "question": "The ease of use of an app is its:",
+      "prompt": "The ease of use of an app is its:",
       "options": [
         "URL",
         "UX",
         "USB",
         "UFO"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "UX stands for User Experience."
     },
     {
-      "id": "ex3",
-      "type": "fill-in-the-blank",
-      "question": "This neobank is ________ (cheap) than the traditional one.",
+      "id": "adm-a2-w04-ex03",
+      "type": "fill-blank",
+      "prompt": "This neobank is ________ (cheap) than the traditional one.",
       "answer": "cheaper",
       "explanation": "For short adjectives like 'cheap', we add -er."
     },
     {
-      "id": "ex4",
+      "id": "adm-a2-w04-ex04",
       "type": "multiple-choice",
-      "question": "A monthly charge for your account is a:",
+      "prompt": "A monthly charge for your account is a:",
       "options": [
         "Maintenance fee",
         "Gift",
         "Bonus",
         "Refund"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Many traditional accounts have monthly maintenance fees."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "Digital banking is ________ (convenient) than visiting a branch.",
+      "id": "adm-a2-w04-ex05",
+      "type": "fill-blank",
+      "prompt": "Digital banking is ________ (convenient) than visiting a branch.",
       "answer": "more convenient",
       "explanation": "For long adjectives like 'convenient', we use 'more'."
     },
     {
-      "id": "ex6",
+      "id": "adm-a2-w04-ex06",
       "type": "multiple-choice",
-      "question": "If a banking app is 'Seamless', it means:",
+      "prompt": "If a banking app is 'Seamless', it means:",
       "options": [
         "It is very expensive",
         "It is smooth and works without problems",
         "It has many hidden fees",
         "It requires a paper application"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Seamless means a smooth user experience."
     },
     {
-      "id": "ex7",
+      "id": "adm-a2-w04-ex07",
       "type": "multiple-choice",
-      "question": "A higher APY means:",
+      "prompt": "A higher APY means:",
       "options": [
         "You pay more fees",
         "You earn more interest on savings",
         "The app is slower",
         "Your card is blocked"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Higher yield is better for savings."
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "Opening a digital account is ________ (fast) than the old way.",
+      "id": "adm-a2-w04-ex08",
+      "type": "fill-blank",
+      "prompt": "Opening a digital account is ________ (fast) than the old way.",
       "answer": "faster",
       "explanation": "The comparative of 'fast' is 'faster'."
     },
     {
-      "id": "ex9",
+      "id": "adm-a2-w04-ex09",
       "type": "multiple-choice",
-      "question": "Which of these is a 'pros' of neobanks?",
+      "prompt": "Which of these is a 'pros' of neobanks?",
       "options": [
         "No physical branches",
         "Lower maintenance fees",
         "Old technology",
         "Paper statements"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Neobanks usually have lower overhead and lower fees."
     },
     {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "The savings plan A is ________ (good) than plan B.",
+      "id": "adm-a2-w04-ex10",
+      "type": "fill-blank",
+      "prompt": "The savings plan A is ________ (good) than plan B.",
       "answer": "better",
       "explanation": "'Good' is irregular; the comparative is 'better'."
     },
     {
-      "id": "ex11",
+      "id": "adm-a2-w04-ex11",
       "type": "multiple-choice",
-      "question": "Transaction speed refers to:",
+      "prompt": "Transaction speed refers to:",
       "options": [
         "How fast you can run to the bank",
         "How fast money moves between accounts",
         "How fast you can type your password",
         "The price of the phone"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Fintechs often offer real-time transaction speed."
     },
     {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "This app's design is ________ (friendly) than the competitor's.",
+      "id": "adm-a2-w04-ex12",
+      "type": "fill-blank",
+      "prompt": "This app's design is ________ (friendly) than the competitor's.",
       "answer": "friendlier",
       "explanation": "Adjectives ending in -y change to -ier."
     },
     {
-      "id": "ex13",
+      "id": "adm-a2-w04-ex13",
       "type": "multiple-choice",
-      "question": "If a process is 'seamless', it is:",
+      "prompt": "If a process is 'seamless', it is:",
       "options": [
         "Full of errors",
         "Very difficult",
         "Smooth and easy",
         "Expensive"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Seamless processes have no 'seams' or interruptions."
     },
     {
-      "id": "ex14",
+      "id": "adm-a2-w04-ex14",
       "type": "multiple-choice",
-      "question": "What does 'UX' stand for in the context of mobile apps?",
+      "prompt": "What does 'UX' stand for in the context of mobile apps?",
       "options": [
         "Unit Exchange",
         "User Experience",
         "Universal X-ray",
         "Utility Expansion"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "UX refers to how a user interacts with and experiences an app."
     },
     {
-      "id": "ex15",
-      "type": "fill-in-the-blank",
-      "question": "The new security update is ________ (advanced) than the last one.",
+      "id": "adm-a2-w04-ex15",
+      "type": "fill-blank",
+      "prompt": "The new security update is ________ (advanced) than the last one.",
       "answer": "more advanced",
       "explanation": "Long adjective uses 'more'."
     },
     {
-      "id": "ex16",
+      "id": "adm-a2-w04-ex16",
       "type": "multiple-choice",
-      "question": "What is the opposite of 'High fees'?",
+      "prompt": "What is the opposite of 'High fees'?",
       "options": [
         "Tall fees",
         "Low fees",
         "Short fees",
         "Big fees"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Low is the opposite of high in finance."
     },
     {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "Traditional banks are often ________ (slow) to innovate.",
+      "id": "adm-a2-w04-ex17",
+      "type": "fill-blank",
+      "prompt": "Traditional banks are often ________ (slow) to innovate.",
       "answer": "slower",
       "explanation": "The comparative of 'slow' is 'slower'."
     },
     {
-      "id": "ex18",
+      "id": "adm-a2-w04-ex18",
       "type": "multiple-choice",
-      "question": "A 'Scalable' system can:",
+      "prompt": "A 'Scalable' system can:",
       "options": [
         "Handle more users easily",
         "Be used for climbing",
         "Only work for one person",
         "Calculate weights"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Scalability is key for growing fintechs."
     },
     {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "The customer support is ________ (bad) today than yesterday.",
+      "id": "adm-a2-w04-ex19",
+      "type": "fill-blank",
+      "prompt": "The customer support is ________ (bad) today than yesterday.",
       "answer": "worse",
       "explanation": "'Bad' is irregular; the comparative is 'worse'."
     },
     {
-      "id": "ex20",
+      "id": "adm-a2-w04-ex20",
       "type": "multiple-choice",
-      "question": "What are 'Hidden Fees'?",
+      "prompt": "What are 'Hidden Fees'?",
       "options": [
         "Fees you pay in the dark",
         "Unexpected charges not clearly stated",
         "Discounts for students",
         "Fees that are very small"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Always check the terms for hidden fees."
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "Bitcoin is ________ (volatile) than the Dollar.",
+      "id": "adm-a2-w04-ex21",
+      "type": "fill-blank",
+      "prompt": "Bitcoin is ________ (volatile) than the Dollar.",
       "answer": "more volatile",
       "explanation": "Long adjective uses 'more'."
     },
     {
-      "id": "ex22",
+      "id": "adm-a2-w04-ex22",
       "type": "multiple-choice",
-      "question": "Which comparative is correct?",
+      "prompt": "Which comparative is correct?",
       "options": [
         "Easyer",
         "Easier",
         "More easy",
         "Easyier"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Change -y to -ier."
     },
     {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "The premium card is ________ (heavy) than the plastic one.",
+      "id": "adm-a2-w04-ex23",
+      "type": "fill-blank",
+      "prompt": "The premium card is ________ (heavy) than the plastic one.",
       "answer": "heavier",
       "explanation": "Change -y to -ier."
     },
     {
-      "id": "ex24",
+      "id": "adm-a2-w04-ex24",
       "type": "multiple-choice",
-      "question": "Neobanks are ________ (flexible) than legacy banks.",
+      "prompt": "Neobanks are ________ (flexible) than legacy banks.",
       "options": [
         "Flexibler",
         "More flexible",
         "Flexiblier",
         "Flexibleer"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Long adjective uses 'more'."
     },
     {
-      "id": "ex25",
-      "type": "fill-in-the-blank",
-      "question": "My new phone is ________ (safe) for banking than the old one.",
+      "id": "adm-a2-w04-ex25",
+      "type": "fill-blank",
+      "prompt": "My new phone is ________ (safe) for banking than the old one.",
       "answer": "safer",
       "explanation": "Short adjective ending in 'e', just add 'r'."
     },
     {
-      "id": "ex26",
+      "id": "adm-a2-w04-ex26",
       "type": "multiple-choice",
-      "question": "Which is the comparative of 'efficient'?",
+      "prompt": "Which is the comparative of 'efficient'?",
       "options": [
         "Efficienter",
         "More efficient",
         "Efficients",
         "Efficientlier"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Long adjective."
     },
     {
-      "id": "ex27",
-      "type": "fill-in-the-blank",
-      "question": "The interest rate is ________ (high) this month.",
+      "id": "adm-a2-w04-ex27",
+      "type": "fill-blank",
+      "prompt": "The interest rate is ________ (high) this month.",
       "answer": "higher",
       "explanation": "Add -er."
     },
     {
-      "id": "ex28",
+      "id": "adm-a2-w04-ex28",
       "type": "multiple-choice",
-      "question": "Comparative of 'Big' (one syllable, CVC):",
+      "prompt": "Comparative of 'Big' (one syllable, CVC):",
       "options": [
         "Biger",
         "Bigger",
         "More big",
         "Bigest"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Double the final consonant (Bigger)."
     },
     {
-      "id": "ex29",
-      "type": "fill-in-the-blank",
-      "question": "The UX of Revolut is ________ (modern) than my local bank.",
+      "id": "adm-a2-w04-ex29",
+      "type": "fill-blank",
+      "prompt": "The UX of Revolut is ________ (modern) than my local bank.",
       "answer": "more modern",
       "explanation": "Modern is usually treated as a long adjective."
     },
     {
-      "id": "ex30",
+      "id": "adm-a2-w04-ex30",
       "type": "multiple-choice",
-      "question": "Which is the irregular comparative of 'bad'?",
+      "prompt": "Which is the irregular comparative of 'bad'?",
       "options": [
         "Badder",
         "Worse",
         "Worst",
         "Baddest"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Bad -> Worse."
     },
     {
-      "id": "ex31",
-      "type": "fill-in-the-blank",
-      "question": "A virtual card is ________ (simple) to create than a physical one.",
+      "id": "adm-a2-w04-ex31",
+      "type": "fill-blank",
+      "prompt": "A virtual card is ________ (simple) to create than a physical one.",
       "answer": "simpler",
       "explanation": "Simple can be 'simpler' or 'more simple', but 'simpler' is common."
     },
     {
-      "id": "ex32",
+      "id": "adm-a2-w04-ex32",
       "type": "multiple-choice",
-      "question": "Comparative of 'Reliable':",
+      "prompt": "Comparative of 'Reliable':",
       "options": [
         "Reliabler",
         "More reliable",
         "Reliablest",
         "Reliablier"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Long adjective."
     },
     {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "Transferring money to friends is ________ (easy) with an app.",
+      "id": "adm-a2-w04-ex33",
+      "type": "fill-blank",
+      "prompt": "Transferring money to friends is ________ (easy) with an app.",
       "answer": "easier",
       "explanation": "Change -y to -ier."
     },
     {
-      "id": "ex34",
+      "id": "adm-a2-w04-ex34",
       "type": "multiple-choice",
-      "question": "If something is 'Better than' before, it is:",
+      "prompt": "If something is 'Better than' before, it is:",
       "options": [
         "More good",
         "Improved",
         "Worse",
         "The same"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Better is the comparative of good."
     },
     {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "Face ID is ________ (secure) than a 4-digit PIN.",
+      "id": "adm-a2-w04-ex35",
+      "type": "fill-blank",
+      "prompt": "Face ID is ________ (secure) than a 4-digit PIN.",
       "answer": "more secure",
       "explanation": "Long adjective."
     },
     {
-      "id": "ex36",
+      "id": "adm-a2-w04-ex36",
       "type": "multiple-choice",
-      "question": "Comparative of 'Late':",
+      "prompt": "Comparative of 'Late':",
       "options": [
         "Later",
         "Latter",
         "More late",
         "Latest"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Late -> Later."
     },
     {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "This loan has a ________ (low) interest rate.",
+      "id": "adm-a2-w04-ex37",
+      "type": "fill-blank",
+      "prompt": "This loan has a ________ (low) interest rate.",
       "answer": "lower",
       "explanation": "Add -er."
     },
     {
-      "id": "ex38",
+      "id": "adm-a2-w04-ex38",
       "type": "multiple-choice",
-      "question": "Correct sentence:",
+      "prompt": "Correct sentence:",
       "options": [
         "Cash is more fast than cards.",
         "Cards are faster than cash.",
         "Cards are more fast than cash.",
         "Cash is fasterer than cards."
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Fast -> Faster."
     },
     {
-      "id": "ex39",
-      "type": "fill-in-the-blank",
-      "question": "The metal card is ________ (expensive) than the plastic one.",
+      "id": "adm-a2-w04-ex39",
+      "type": "fill-blank",
+      "prompt": "The metal card is ________ (expensive) than the plastic one.",
       "answer": "more expensive",
       "explanation": "Long adjective."
     },
     {
-      "id": "ex40",
+      "id": "adm-a2-w04-ex40",
       "type": "multiple-choice",
-      "question": "Comparative of 'Far' (distance):",
+      "prompt": "Comparative of 'Far' (distance):",
       "options": [
         "Farer",
         "Further",
         "More far",
         "Farest"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Far -> Further (or Farther) is irregular."
     },
     {
-      "id": "ex41",
+      "id": "adm-a2-w04-ex41",
       "type": "multiple-choice",
-      "question": "Which is the correct comparative form of the adjective 'busy'?",
+      "prompt": "Which is the correct comparative form of the adjective 'busy'?",
       "options": [
         "Busyier",
         "More busy",
         "Busier",
         "Busyest"
       ],
-      "correctAnswer": 2,
+      "answerIndex": 2,
       "explanation": "Adjectives ending in -y change to -ier in the comparative form."
     },
     {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "This transaction was ________ (slow) than the last one.",
+      "id": "adm-a2-w04-ex42",
+      "type": "fill-blank",
+      "prompt": "This transaction was ________ (slow) than the last one.",
       "answer": "slower",
       "explanation": "Add -er."
     },
     {
-      "id": "ex43",
+      "id": "adm-a2-w04-ex43",
       "type": "multiple-choice",
-      "question": "A 'Legacy Bank' is:",
+      "prompt": "A 'Legacy Bank' is:",
       "options": [
         "A brand new neobank",
         "An old, traditional bank",
         "A bank for children",
         "A type of cryptocurrency"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Legacy refers to traditional systems."
     },
     {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "The fintech sector is ________ (dynamic) than the insurance sector.",
+      "id": "adm-a2-w04-ex44",
+      "type": "fill-blank",
+      "prompt": "The fintech sector is ________ (dynamic) than the insurance sector.",
       "answer": "more dynamic",
       "explanation": "Long adjective."
     },
     {
-      "id": "ex45",
+      "id": "adm-a2-w04-ex45",
       "type": "multiple-choice",
-      "question": "Comparing two things using 'than':",
+      "prompt": "Comparing two things using 'than':",
       "options": [
         "A is more better than B.",
         "A is better than B.",
         "A is gooder than B.",
         "A is more gooder than B."
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Never use 'more' with 'better'."
     },
     {
-      "id": "ex46",
-      "type": "fill-in-the-blank",
-      "question": "The gold plan is ________ (profitable) for the bank.",
+      "id": "adm-a2-w04-ex46",
+      "type": "fill-blank",
+      "prompt": "The gold plan is ________ (profitable) for the bank.",
       "answer": "more profitable",
       "explanation": "Long adjective."
     },
     {
-      "id": "ex47",
+      "id": "adm-a2-w04-ex47",
       "type": "multiple-choice",
-      "question": "What is the comparative of 'small'?",
+      "prompt": "What is the comparative of 'small'?",
       "options": [
         "Smaller",
         "Smallier",
         "More small",
         "Smallest"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Small -> Smaller."
     },
     {
-      "id": "ex48",
-      "type": "fill-in-the-blank",
-      "question": "The verification process is now ________ (short) than before.",
+      "id": "adm-a2-w04-ex48",
+      "type": "fill-blank",
+      "prompt": "The verification process is now ________ (short) than before.",
       "answer": "shorter",
       "explanation": "Add -er."
     },
     {
-      "id": "ex49",
+      "id": "adm-a2-w04-ex49",
       "type": "multiple-choice",
-      "question": "Which of these is 'more secure'?",
+      "prompt": "Which of these is 'more secure'?",
       "options": [
         "Writing your PIN on a napkin",
         "Using 2FA (Two-Factor Authentication)",
         "Telling your password to a stranger",
         "Having no password"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "2FA adds extra security layers."
     },
     {
-      "id": "ex50",
-      "type": "crossword",
-      "title": "Bank Comparisons Crossword",
-      "instructions": "Complete the crossword with comparison and banking terms.",
-      "items": [
-        { "word": "CHEAPER", "clue": "Comparative of cheap", "direction": "across", "row": 0, "col": 0 },
-        { "word": "BETTER", "clue": "Comparative of good", "direction": "down", "row": 0, "col": 1 },
-        { "word": "SEAMLESS", "clue": "Smooth and problem-free", "direction": "across", "row": 2, "col": 0 },
-        { "word": "FEES", "clue": "Extra costs for a service", "direction": "down", "row": 2, "col": 5 }
-      ]
+      "id": "adm-a2-w04-ex50",
+      "type": "multiple-choice",
+      "prompt": "Comparative of 'Happy':",
+      "options": [
+        "Happyer",
+        "Happier",
+        "More happy",
+        "Happyest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Change -y to -ier."
+    },
+    {
+      "id": "adm-a2-w04-ex51",
+      "type": "matching",
+      "prompt": "Match the banking feature to its definition.",
+      "pairs": [
+        { "left": "APY", "right": "Interest earned on savings" },
+        { "left": "UX", "right": "How the app feels to the user" },
+        { "left": "Maintenance Fee", "right": "Monthly account charge" },
+        { "left": "Hidden Fee", "right": "Unclear or unexpected charge" }
+      ],
+      "explanation": "Understanding these terms helps in comparing different banking products."
+    },
+    {
+      "id": "adm-a2-w04-ex52",
+      "type": "matching",
+      "prompt": "Match the adjective to its comparative form.",
+      "pairs": [
+        { "left": "Good", "right": "Better" },
+        { "left": "Bad", "right": "Worse" },
+        { "left": "Secure", "right": "More secure" },
+        { "left": "Fast", "right": "Faster" }
+      ],
+      "explanation": "Reviewing irregular and regular comparatives is essential for A2 level."
+    },
+    {
+      "id": "adm-a2-w04-ex53",
+      "type": "matching",
+      "prompt": "Match the bank type to its characteristic.",
+      "pairs": [
+        { "left": "Legacy Bank", "right": "Has physical branches" },
+        { "left": "Neobank", "right": "Mobile-first experience" },
+        { "left": "Challenger", "right": "A new fintech competitor" },
+        { "left": "Credit Union", "right": "Member-owned institution" }
+      ],
+      "explanation": "Each bank type offers different advantages depending on the user's needs."
+    },
+    {
+      "id": "adm-a2-w04-ex54",
+      "type": "fill-blank",
+      "prompt": "This smartphone is ________ (useful) for mobile banking than the old tablet.",
+      "answer": "more useful",
+      "explanation": "Useful is a long adjective."
+    },
+    {
+      "id": "adm-a2-w04-ex55",
+      "type": "multiple-choice",
+      "prompt": "Comparative of 'Thin' (CVC):",
+      "options": [
+        "Thiner",
+        "Thinner",
+        "More thin",
+        "Thinest"
+      ],
+      "answerIndex": 1,
+      "explanation": "Double the last consonant for CVC adjectives."
+    },
+    {
+      "id": "adm-a2-w04-ex56",
+      "type": "audio",
+      "prompt": "Listen to the bank comparison and answer: Which bank has the highest APY?",
+      "transcript": "Customer: I am looking for a better savings account. Agent: Well, Legacy Bank offers 0.5% APY, but our Neobank Plus account offers 3.5% APY. It is much more profitable for your savings.",
+      "options": [
+        "Legacy Bank",
+        "Neobank Plus",
+        "Both are the same",
+        "None of them"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent states that Neobank Plus offers 3.5%, which is higher than 0.5%."
+    },
+    {
+      "id": "adm-a2-w04-ex57",
+      "type": "audio",
+      "prompt": "Listen and answer: Why is the customer complaining?",
+      "transcript": "Customer: My old bank was slower and the app was very difficult to use. This new app is much more intuitive and faster.",
+      "options": [
+        "The new app is slow",
+        "The old bank was better",
+        "The old app was difficult and slow",
+        "She lost her card"
+      ],
+      "answerIndex": 2,
+      "explanation": "The customer mentions the old bank was slower and difficult to use."
+    },
+    {
+      "id": "adm-a2-w04-ex58",
+      "type": "audio",
+      "prompt": "Listen and answer: Which feature is 'seamless'?",
+      "transcript": "Agent: Our onboarding process is completely seamless. You just take a photo of your ID, and the account is ready in minutes.",
+      "options": [
+        "The maintenance fees",
+        "The onboarding process",
+        "The physical branches",
+        "The credit card"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent explicitly says the onboarding process is seamless."
+    },
+    {
+      "id": "adm-a2-w04-ex59",
+      "type": "audio",
+      "prompt": "Listen and answer: How does the agent describe the maintenance fees?",
+      "transcript": "Agent: Unlike traditional banks, we have no monthly maintenance fees. Our service is much cheaper for daily use.",
+      "options": [
+        "They are high",
+        "They are hidden",
+        "There are no maintenance fees",
+        "They are paid yearly"
+      ],
+      "answerIndex": 2,
+      "explanation": "The agent says they have 'no monthly maintenance fees'."
+    },
+    {
+      "id": "adm-a2-w04-ex60",
+      "type": "audio",
+      "prompt": "Listen and answer: What is the main advantage of the Premium Plan?",
+      "transcript": "Agent: The Premium Plan is more expensive, but it is also more secure because it includes purchase insurance.",
+      "options": [
+        "It is cheaper",
+        "It is more secure",
+        "It has no app",
+        "It is slower"
+      ],
+      "answerIndex": 1,
+      "explanation": "The agent mentions it is more secure due to purchase insurance."
+    },
+    {
+      "id": "adm-a2-w04-ex61",
+      "type": "audio",
+      "prompt": "Listen and answer: Which bank has better customer support according to the user?",
+      "transcript": "User: I think Fintech X is better because their chat support is more responsive than the phone line at my old bank.",
+      "options": [
+        "The old bank",
+        "Fintech X",
+        "Neither",
+        "The phone line"
+      ],
+      "answerIndex": 1,
+      "explanation": "The user prefers Fintech X for its responsive chat support."
+    },
+    {
+      "id": "adm-a2-w04-ex62",
+      "type": "audio",
+      "prompt": "Listen and answer: What adjective does the user use for the interest rates?",
+      "transcript": "User: The interest rates at neobanks are usually higher than at traditional institutions.",
+      "options": [
+        "Lower",
+        "Higher",
+        "Better",
+        "More high"
+      ],
+      "answerIndex": 1,
+      "explanation": "The user says the rates are 'higher'."
+    },
+    {
+      "id": "adm-a2-w04-ex63",
+      "type": "audio",
+      "prompt": "Listen and answer: Is the account opening process fast?",
+      "transcript": "Customer: I opened my account in two minutes. It was much faster than I expected.",
+      "options": [
+        "Yes, it was faster than expected",
+        "No, it was slow",
+        "It took two hours",
+        "It was difficult"
+      ],
+      "answerIndex": 0,
+      "explanation": "The customer says it took two minutes and was faster than expected."
+    },
+    {
+      "id": "adm-a2-w04-ex64",
+      "type": "audio",
+      "prompt": "Listen and answer: What is 'more convenient' for the user?",
+      "transcript": "User: Using the mobile app to pay bills is more convenient than going to the office.",
+      "options": [
+        "Going to the office",
+        "Paying with cash",
+        "The mobile app",
+        "Calling the bank"
+      ],
+      "answerIndex": 2,
+      "explanation": "The user finds the mobile app more convenient for paying bills."
+    },
+    {
+      "id": "adm-a2-w04-ex65",
+      "type": "audio",
+      "prompt": "Listen and answer: How is the new card described?",
+      "transcript": "Customer: My new metal card is heavier than my old plastic one, but it looks much better.",
+      "options": [
+        "Lighter",
+        "Heavier",
+        "The same",
+        "Cheaper"
+      ],
+      "answerIndex": 1,
+      "explanation": "The customer describes the new card as 'heavier'."
+    },
+    {
+      "id": "adm-a2-w04-ex66",
+      "type": "reading",
+      "prompt": "Read the text and answer: What is one main advantage of neobanks mentioned in the text?",
+      "text": "The Rise of Challenger Banks. In the last decade, neobanks have become more popular than traditional banks for young professionals. One reason is that they offer lower fees and a better User Experience (UX). Unlike legacy banks, which have many physical branches and high maintenance costs, neobanks operate entirely online. This makes them more scalable and efficient. However, some people still prefer traditional banks because they feel safer with a physical building they can visit.",
+      "options": [
+        "They have physical branches",
+        "They offer lower fees",
+        "They are only for children",
+        "They are slower"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text mentions lower fees as a reason for their popularity."
+    },
+    {
+      "id": "adm-a2-w04-ex67",
+      "type": "reading",
+      "prompt": "Read the text and answer: Why are traditional banks more expensive to operate?",
+      "text": "The Rise of Challenger Banks. In the last decade, neobanks have become more popular than traditional banks for young professionals. One reason is that they offer lower fees and a better User Experience (UX). Unlike legacy banks, which have many physical branches and high maintenance costs, neobanks operate entirely online. This makes them more scalable and efficient. However, some people still prefer traditional banks because they feel safer with a physical building they can visit.",
+      "options": [
+        "Because they have no customers",
+        "Because they have physical branches and maintenance costs",
+        "Because they use too much paper",
+        "Because their apps are too good"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text states they have physical branches and high maintenance costs."
+    },
+    {
+      "id": "adm-a2-w04-ex68",
+      "type": "reading",
+      "prompt": "Read the text and answer: Who is the primary target for neobanks according to the text?",
+      "text": "The Rise of Challenger Banks. In the last decade, neobanks have become more popular than traditional banks for young professionals. One reason is that they offer lower fees and a better User Experience (UX). Unlike legacy banks, which have many physical branches and high maintenance costs, neobanks operate entirely online. This makes them more scalable and efficient. However, some people still prefer traditional banks because they feel safer with a physical building they can visit.",
+      "options": [
+        "Retirees",
+        "Young professionals",
+        "Government officials",
+        "Construction workers"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text mentions 'young professionals' specifically."
+    },
+    {
+      "id": "adm-a2-w04-ex69",
+      "type": "reading",
+      "prompt": "Read the text and answer: What does 'scalable' mean in this context?",
+      "text": "The Rise of Challenger Banks. In the last decade, neobanks have become more popular than traditional banks for young professionals. One reason is that they offer lower fees and a better User Experience (UX). Unlike legacy banks, which have many physical branches and high maintenance costs, neobanks operate entirely online. This makes them more scalable and efficient. However, some people still prefer traditional banks because they feel safer with a physical building they can visit.",
+      "options": [
+        "Difficult to climb",
+        "Able to grow and handle more users",
+        "Small and limited",
+        "Related to weight scales"
+      ],
+      "answerIndex": 1,
+      "explanation": "Scalable in business/fintech means the ability to handle growth efficiently."
+    },
+    {
+      "id": "adm-a2-w04-ex70",
+      "type": "reading",
+      "prompt": "Read the text and answer: Why do some people still prefer traditional banks?",
+      "text": "The Rise of Challenger Banks. In the last decade, neobanks have become more popular than traditional banks for young professionals. One reason is that they offer lower fees and a better User Experience (UX). Unlike legacy banks, which have many physical branches and high maintenance costs, neobanks operate entirely online. This makes them more scalable and efficient. However, some people still prefer traditional banks because they feel safer with a physical building they can visit.",
+      "options": [
+        "Because they are faster",
+        "Because they feel safer with a physical building",
+        "Because they have better apps",
+        "Because they are cheaper"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text states some people feel safer with a physical building."
+    },
+    {
+      "id": "adm-a2-w04-ex71",
+      "type": "fill-blank",
+      "prompt": "A neobank is usually ________ (modern) than a legacy bank.",
+      "answer": "more modern",
+      "explanation": "Modern is treated as a long adjective."
+    },
+    {
+      "id": "adm-a2-w04-ex72",
+      "type": "multiple-choice",
+      "prompt": "Which of these is 'more important' for a savings account?",
+      "options": [
+        "The color of the app",
+        "A high APY",
+        "The location of the headquarters",
+        "The name of the CEO"
+      ],
+      "answerIndex": 1,
+      "explanation": "A high APY (interest) is the most important factor for savings growth."
+    },
+    {
+      "id": "adm-a2-w04-ex73",
+      "type": "writing",
+      "prompt": "Write a short sentence comparing the fees of two banks. Use 'cheaper than'.",
+      "answer": "Bank A is cheaper than Bank B.",
+      "explanation": "This exercise reinforces the use of 'cheaper than' in a financial context."
+    },
+    {
+      "id": "adm-a2-w04-ex74",
+      "type": "writing",
+      "prompt": "Write a sentence comparing the transaction speed of two systems. Use 'faster than'.",
+      "answer": "A wire transfer is faster than a paper check.",
+      "explanation": "Reinforces 'faster than' with relevant vocabulary (wire transfer vs check)."
+    },
+    {
+      "id": "adm-a2-w04-ex75",
+      "type": "writing",
+      "prompt": "Write a sentence comparing the security of two methods. Use 'more secure than'.",
+      "answer": "Biometrics are more secure than a password.",
+      "explanation": "Reinforces 'more secure than' with modern security terms."
     }
   ]
 }

@@ -2,7 +2,8 @@
   "title": "A2 Week 2 Exam: Fintech Statements & Irregular Verbs",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w02-q01",
+      "type": "multiple-choice",
       "question": "The name of the business in a transaction is the:",
       "options": [
         "Category",
@@ -10,10 +11,12 @@
         "Settlement",
         "Tag"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A merchant is the business or seller involved in a transaction."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w02-q02",
+      "type": "multiple-choice",
       "question": "What is the past simple of 'buy'?",
       "options": [
         "Buyed",
@@ -21,10 +24,12 @@
         "Boughten",
         "Brought"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'buy' is 'bought'. Don't confuse it with 'brought' (past of 'bring')."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w02-q03",
+      "type": "multiple-choice",
       "question": "Grouping transactions into 'Food' or 'Travel' is called:",
       "options": [
         "Tagging",
@@ -32,10 +37,12 @@
         "Reversing",
         "Settling"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Categorization is the process of assigning transactions to specific spending groups."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w02-q04",
+      "type": "multiple-choice",
       "question": "I _______ the bill using my neobank app.",
       "options": [
         "payed",
@@ -43,10 +50,12 @@
         "pay",
         "paying"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'pay' is 'paid'. 'Payed' is incorrect in this context."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w02-q05",
+      "type": "multiple-choice",
       "question": "What does 'Pending' mean on a bank statement?",
       "options": [
         "The money was returned",
@@ -54,10 +63,12 @@
         "The transaction was declined",
         "The merchant is unknown"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Pending means the transaction is authorized but not yet settled or finalized."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w02-q06",
+      "type": "multiple-choice",
       "question": "He _______ too much money on crypto last month.",
       "options": [
         "spend",
@@ -65,10 +76,12 @@
         "spent",
         "spending"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The past simple of 'spend' is 'spent'."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w02-q07",
+      "type": "multiple-choice",
       "question": "A recurring payment for a service like Spotify is a:",
       "options": [
         "Cashback",
@@ -76,10 +89,12 @@
         "Subscription",
         "Deposit"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Subscriptions are regular, automatic payments for services."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w02-q08",
+      "type": "multiple-choice",
       "question": "The app _______ me an alert about the transaction.",
       "options": [
         "send",
@@ -87,10 +102,12 @@
         "sent",
         "sending"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The past simple of 'send' is 'sent'."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w02-q09",
+      "type": "multiple-choice",
       "question": "What is 'Cashback'?",
       "options": [
         "A fee for using cash",
@@ -98,10 +115,12 @@
         "Returning an item to a store",
         "A type of bank loan"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Cashback is a benefit where a percentage of your spending is returned to you."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w02-q10",
+      "type": "multiple-choice",
       "question": "They _______ their shares when the market crashed.",
       "options": [
         "sell",
@@ -109,10 +128,12 @@
         "sold",
         "selling"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The past simple of 'sell' is 'sold'."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w02-q11",
+      "type": "multiple-choice",
       "question": "Custom labels like #Vacation are called:",
       "options": [
         "Tags",
@@ -120,10 +141,12 @@
         "Keys",
         "Folders"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Tags are used to label and filter specific transactions for better tracking."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w02-q12",
+      "type": "multiple-choice",
       "question": "We _______ to the ATM to get some cash.",
       "options": [
         "go",
@@ -131,10 +154,12 @@
         "went",
         "goed"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The past simple of 'go' is 'went'."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w02-q13",
+      "type": "multiple-choice",
       "question": "AI-driven analysis of your spending is called:",
       "options": [
         "Refunds",
@@ -142,10 +167,12 @@
         "Reversals",
         "Deposits"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Insights are analytical data points that help users understand their financial behavior."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w02-q14",
+      "type": "multiple-choice",
       "question": "The bank _______ me a better interest rate.",
       "options": [
         "gave",
@@ -153,10 +180,12 @@
         "gived",
         "given"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "The past simple of 'give' is 'gave'."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w02-q15",
+      "type": "multiple-choice",
       "question": "What is the past simple of 'take'?",
       "options": [
         "Taked",
@@ -164,10 +193,12 @@
         "Taken",
         "Toke"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'take' is 'took'."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w02-q16",
+      "type": "multiple-choice",
       "question": "A transaction that is complete and the funds moved is:",
       "options": [
         "Pending",
@@ -175,10 +206,12 @@
         "Reversed",
         "Declined"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Settled transactions are finalized and the money has been transferred."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w02-q17",
+      "type": "multiple-choice",
       "question": "I _______ a mistake on my tax return.",
       "options": [
         "made",
@@ -186,10 +219,12 @@
         "maked",
         "making"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "The past simple of 'make' is 'made'."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w02-q18",
+      "type": "multiple-choice",
       "question": "Which category is appropriate for 'Uber'?",
       "options": [
         "Groceries",
@@ -197,10 +232,12 @@
         "Health",
         "Utilities"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Uber is a ride-sharing service, so it falls under the Transport category."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w02-q19",
+      "type": "multiple-choice",
       "question": "She _______ her password for the mobile app.",
       "options": [
         "forget",
@@ -208,10 +245,12 @@
         "forgetted",
         "forgotten"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The past simple of 'forget' is 'forgot'."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w02-q20",
+      "type": "multiple-choice",
       "question": "When money is returned for a return, it is a:",
       "options": [
         "Deposit",
@@ -219,7 +258,8 @@
         "Withdrawal",
         "Fee"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A refund is a repayment of funds, typically after returning goods."
     }
   ]
 }

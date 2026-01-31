@@ -3,129 +3,646 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana18",
-  "title": "Digital Support & Transaction Status",
+  "title": "Time, Schedules & Appointments",
   "items": [
     {
-      "id": "fin-a1-w18-1",
-      "type": "multipleChoice",
-      "prompt": "An AI that answers your questions in an app is a ______.",
-      "options": ["Banker", "Chatbot", "ATM"],
-      "answerIndex": 1,
-      "explanation": "Un Chatbot es un programa de IA que responde preguntas."
-    },
-    {
-      "id": "fin-a1-w18-2",
-      "type": "multipleChoice",
-      "prompt": "If a payment is 'Pending', it means it is ______.",
-      "options": ["Finished", "Waiting", "Deleted"],
-      "answerIndex": 1,
-      "explanation": "Pending significa que está en espera, no ha terminado."
-    },
-    {
-      "id": "fin-a1-w18-3",
-      "type": "fillBlanks",
-      "prompt": "I need help. I want to talk to [blank] chat.",
-      "answers": ["live"],
-      "explanation": "'Live chat' es el chat en vivo con una persona real."
-    },
-    {
-      "id": "fin-a1-w18-4",
-      "type": "multipleChoice",
-      "prompt": "A transaction that finished correctly is ______.",
-      "options": ["Failed", "Declined", "Completed"],
-      "answerIndex": 2,
-      "explanation": "'Completed' significa que la transacción terminó con éxito."
-    },
-    {
-      "id": "fin-a1-w18-5",
+      "id": "adm-a1-w18-01",
       "type": "matching",
-      "prompt": "Match the status with its meaning:",
-      "pairs": [
-        { "left": "Pending", "right": "In progress / Waiting" },
-        { "left": "Completed", "right": "Success / Finished" },
-        { "left": "Failed", "right": "Error / Not accepted" },
-        { "left": "Refunded", "right": "Money sent back" }
+      "prompt": "Match the times with their English names:",
+      "matchingData": [
+        { "left": "9:00", "right": "Nine o'clock" },
+        { "left": "10:15", "right": "Ten fifteen" },
+        { "left": "11:30", "right": "Eleven thirty" },
+        { "left": "12:45", "right": "Twelve forty-five" }
       ],
-      "explanation": "Relaciona los estados de transacción con sus significados."
+      "explanation": "These are common ways to say the time in an office environment."
     },
     {
-      "id": "fin-a1-w18-6",
-      "type": "fillBlanks",
-      "prompt": "My payment [blank]. I need to call support.",
-      "answers": ["failed", "declined"],
-      "explanation": "Si el pago falla (failed/declined), necesitas ayuda."
+      "id": "adm-a1-w18-02",
+      "type": "multiple-choice",
+      "prompt": "The meeting is ______ 10:00 AM.",
+      "options": ["at", "on", "in"],
+      "answerIndex": 0,
+      "explanation": "We use 'at' for specific times."
     },
     {
-      "id": "fin-a1-w18-7",
+      "id": "adm-a1-w18-03",
+      "type": "multiple-choice",
+      "prompt": "We have a deadline ______ Friday.",
+      "options": ["on", "at", "in"],
+      "answerIndex": 0,
+      "explanation": "We use 'on' for days of the week."
+    },
+    {
+      "id": "adm-a1-w18-04",
+      "type": "multiple-choice",
+      "prompt": "I check my emails ______ the morning.",
+      "options": ["in", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "We use 'in the morning', 'in the afternoon', and 'in the evening'."
+    },
+    {
+      "id": "adm-a1-w18-05",
+      "type": "fill-blank",
+      "prompt": "What [blank] is it? It is 3:00 PM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["time"], "caseSensitive": false }
+      ],
+      "explanation": "The standard question is 'What time is it?'."
+    },
+    {
+      "id": "adm-a1-w18-06",
       "type": "reorder",
-      "prompt": "Reorder the support request:",
-      "sentence": "I want to talk to an agent",
-      "explanation": "Quiero hablar con un agente."
+      "prompt": "Reorder the sentence:",
+      "sentence": "The meeting starts at nine",
+      "explanation": "La reunión empieza a las nueve."
     },
     {
-      "id": "fin-a1-w18-8",
-      "type": "multipleChoice",
-      "prompt": "Where can I find common questions and answers?",
-      "options": ["In the bin", "In the Help Center", "In the camera"],
-      "answerIndex": 1,
-      "explanation": "El 'Help Center' contiene las preguntas frecuentes."
+      "id": "adm-a1-w18-07",
+      "type": "matching",
+      "prompt": "Match the vocabulary words with their meanings:",
+      "matchingData": [
+        { "left": "Schedule", "right": "Horario" },
+        { "left": "Appointment", "right": "Cita" },
+        { "left": "Deadline", "right": "Fecha límite" },
+        { "left": "Busy", "right": "Ocupado" }
+      ],
+      "explanation": "Important terms for office organization."
     },
     {
-      "id": "fin-a1-w18-9",
+      "id": "adm-a1-w18-08",
+      "type": "multiple-choice",
+      "prompt": "I ______ free at 2:00 PM today.",
+      "options": ["am", "is", "are"],
+      "answerIndex": 0,
+      "explanation": "Use 'am' with 'I'."
+    },
+    {
+      "id": "adm-a1-w18-09",
+      "type": "fill-blank",
+      "prompt": "The lunch break is [blank] 1:00 PM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["at"], "caseSensitive": false }
+      ],
+      "explanation": "Use 'at' for specific times."
+    },
+    {
+      "id": "adm-a1-w18-10",
+      "type": "multiple-choice",
+      "prompt": "Is the manager ______ now?",
+      "options": ["busy", "free", "late"],
+      "answerIndex": 0,
+      "explanation": "'Busy' means the manager is currently working or in a meeting."
+    },
+    {
+      "id": "adm-a1-w18-11",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "What time is the meeting",
+      "explanation": "¿A qué hora es la reunión?"
+    },
+    {
+      "id": "adm-a1-w18-12",
+      "type": "matching",
+      "prompt": "Match the day with the abbreviation:",
+      "matchingData": [
+        { "left": "Monday", "right": "Mon." },
+        { "left": "Tuesday", "right": "Tue." },
+        { "left": "Wednesday", "right": "Wed." },
+        { "left": "Thursday", "right": "Thu." }
+      ],
+      "explanation": "Standard office abbreviations for days."
+    },
+    {
+      "id": "adm-a1-w18-13",
+      "type": "multiple-choice",
+      "prompt": "We don't work ______ the weekend.",
+      "options": ["on", "at", "in"],
+      "answerIndex": 0,
+      "explanation": "In American English, 'on the weekend' is standard (also 'at the weekend' in British English, but 'on' is very common)."
+    },
+    {
+      "id": "adm-a1-w18-14",
+      "type": "fill-blank",
+      "prompt": "I have an [blank] with the client at 4:00.",
+      "blankValidation": [
+        { "index": 0, "answers": ["appointment", "meeting"], "caseSensitive": false }
+      ],
+      "explanation": "An 'appointment' or 'meeting' with a client."
+    },
+    {
+      "id": "adm-a1-w18-15",
       "type": "writing",
-      "prompt": "Write a message to the chatbot asking for help.",
-      "validation": "I need help",
-      "explanation": "Una forma sencilla es 'I need help'."
+      "prompt": "Translate: 'La oficina abre a las 8 AM.'",
+      "example": "The office opens at 8 AM.",
+      "explanation": "Use 'opens at' for the schedule."
     },
     {
-      "id": "fin-a1-w18-10",
-      "type": "roleplay",
-      "prompt": "The chatbot asks: 'How can I help you today?'. Choose the best response for a blocked card.",
-      "scenario": "Chatbot: Hello! I am your virtual assistant. How can I help you?\nUser: ______",
-      "options": [
-        "My card is blocked.",
-        "The weather is nice.",
-        "I like the app."
-      ],
+      "id": "adm-a1-w18-16",
+      "type": "multiple-choice",
+      "prompt": "Does the office ______ at 5:00 PM?",
+      "options": ["close", "closes", "closing"],
       "answerIndex": 0,
-      "explanation": "Si tu tarjeta está bloqueada, debes informarlo: 'My card is blocked'."
+      "explanation": "Use the base form 'close' after 'Does'."
     },
     {
-      "id": "fin-a1-w18-11",
-      "type": "multipleChoice",
-      "prompt": "If the bank sends the money back, the transaction is ______.",
-      "options": ["Refunded", "Pending", "Cost"],
-      "answerIndex": 0,
-      "explanation": "'Refunded' significa que el dinero ha sido devuelto."
-    },
-    {
-      "id": "fin-a1-w18-12",
-      "type": "fillBlanks",
-      "prompt": "Open a [blank] to report the problem.",
-      "answers": ["ticket", "case"],
-      "explanation": "En soporte técnico, se abre un 'ticket' o 'case'."
-    },
-    {
-      "id": "fin-a1-w18-13",
+      "id": "adm-a1-w18-17",
       "type": "reorder",
-      "prompt": "Reorder the question to the bot:",
-      "sentence": "Where is my refund?",
-      "explanation": "¿Dónde está mi reembolso?"
+      "prompt": "Reorder the sentence:",
+      "sentence": "I am busy in the afternoon",
+      "explanation": "Estoy ocupado por la tarde."
     },
     {
-      "id": "fin-a1-w18-14",
-      "type": "multipleChoice",
-      "prompt": "A virtual assistant is usually ______.",
-      "options": ["A person", "A bot", "A building"],
-      "answerIndex": 1,
-      "explanation": "Un asistente virtual suele ser un 'bot'."
+      "id": "adm-a1-w18-18",
+      "type": "matching",
+      "prompt": "Match the time expressions:",
+      "matchingData": [
+        { "left": "8:00 AM", "right": "8 in the morning" },
+        { "left": "12:00 PM", "right": "Noon" },
+        { "left": "4:00 PM", "right": "4 in the afternoon" },
+        { "left": "12:00 AM", "right": "Midnight" }
+      ],
+      "explanation": "Alternative ways to say specific times."
     },
     {
-      "id": "fin-a1-w18-15",
-      "type": "fillBlanks",
-      "prompt": "The transaction is [blank]. Please wait.",
-      "answers": ["pending"],
-      "explanation": "Si está pendiente (pending), hay que esperar."
+      "id": "adm-a1-w18-19",
+      "type": "multiple-choice",
+      "prompt": "The training is ______ Tuesdays and Thursdays.",
+      "options": ["on", "at", "in"],
+      "answerIndex": 0,
+      "explanation": "Use 'on' for days (even in plural)."
+    },
+    {
+      "id": "adm-a1-w18-20",
+      "type": "fill-blank",
+      "prompt": "She is [blank] for the meeting.",
+      "blankValidation": [
+        { "index": 0, "answers": ["late", "ready", "here"], "caseSensitive": false }
+      ],
+      "explanation": "'Late' is common when someone is not on time."
+    },
+    {
+      "id": "adm-a1-w18-21",
+      "type": "multiple-choice",
+      "prompt": "I ______ late for work.",
+      "options": ["am never", "never am", "am usually"],
+      "answerIndex": 0,
+      "explanation": "The verb 'to be' goes before the adverb of frequency."
+    },
+    {
+      "id": "adm-a1-w18-22",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The deadline is tomorrow at noon",
+      "explanation": "La fecha límite es mañana al mediodía."
+    },
+    {
+      "id": "adm-a1-w18-23",
+      "type": "matching",
+      "prompt": "Match the periods of time:",
+      "matchingData": [
+        { "left": "60 seconds", "right": "One minute" },
+        { "left": "60 minutes", "right": "One hour" },
+        { "left": "24 hours", "right": "One day" },
+        { "left": "7 days", "right": "One week" }
+      ],
+      "explanation": "Basic time units."
+    },
+    {
+      "id": "adm-a1-w18-24",
+      "type": "multiple-choice",
+      "prompt": "What ______ is your appointment?",
+      "options": ["day", "time", "hour"],
+      "answerIndex": 0,
+      "explanation": "Both 'day' and 'time' are possible, but 'What day...' is very common for appointments."
+    },
+    {
+      "id": "adm-a1-w18-25",
+      "type": "fill-blank",
+      "prompt": "I arrive [blank] work at 8:30.",
+      "blankValidation": [
+        { "index": 0, "answers": ["at"], "caseSensitive": false }
+      ],
+      "explanation": "Arrive at + place."
+    },
+    {
+      "id": "adm-a1-w18-26",
+      "type": "multiple-choice",
+      "prompt": "The office ______ open on Sundays.",
+      "options": ["isn't", "don't", "doesn't"],
+      "answerIndex": 0,
+      "explanation": "'The office isn't open' (Adjective) or 'The office doesn't open' (Verb). Both are correct but 'isn't' is common for status."
+    },
+    {
+      "id": "adm-a1-w18-27",
+      "type": "writing",
+      "prompt": "Translate: '¿Estás libre el miércoles?'",
+      "example": "Are you free on Wednesday?",
+      "explanation": "Use 'Are you free' for the question."
+    },
+    {
+      "id": "adm-a1-w18-28",
+      "type": "multiple-choice",
+      "prompt": "He has a meeting ______ an hour.",
+      "options": ["in", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "Use 'in' to mean 'after this period of time'."
+    },
+    {
+      "id": "adm-a1-w18-29",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "My schedule is very busy",
+      "explanation": "Mi horario está muy ocupado."
+    },
+    {
+      "id": "adm-a1-w18-30",
+      "type": "matching",
+      "prompt": "Match the questions with answers:",
+      "matchingData": [
+        { "left": "When is the meeting?", "right": "On Monday." },
+        { "left": "What time is it?", "right": "It's 10:30." },
+        { "left": "Are you free?", "right": "Yes, I am." },
+        { "left": "Is she late?", "right": "No, she isn't." }
+      ],
+      "explanation": "Questions about schedules and time."
+    },
+    {
+      "id": "adm-a1-w18-31",
+      "type": "multiple-choice",
+      "prompt": "We ______ work until 6:00 PM.",
+      "options": ["usually", "is", "at"],
+      "answerIndex": 0,
+      "explanation": "Adverb of frequency 'usually' before the verb 'work'."
+    },
+    {
+      "id": "adm-a1-w18-32",
+      "type": "fill-blank",
+      "prompt": "The report is [blank] today.",
+      "blankValidation": [
+        { "index": 0, "answers": ["due", "ready", "finished"], "caseSensitive": false }
+      ],
+      "explanation": "'Due' means it must be submitted today."
+    },
+    {
+      "id": "adm-a1-w18-33",
+      "type": "multiple-choice",
+      "prompt": "They ______ here at 9:00 AM.",
+      "options": ["are always", "always are", "always is"],
+      "answerIndex": 0,
+      "explanation": "Verb 'to be' + adverb."
+    },
+    {
+      "id": "adm-a1-w18-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She has a dentist appointment at two",
+      "explanation": "Ella tiene una cita con el dentista a las dos."
+    },
+    {
+      "id": "adm-a1-w18-35",
+      "type": "multiple-choice",
+      "prompt": "Please be ______ for the presentation.",
+      "options": ["punctual", "late", "busy"],
+      "answerIndex": 0,
+      "explanation": "'Punctual' means on time."
+    },
+    {
+      "id": "adm-a1-w18-36",
+      "type": "matching",
+      "prompt": "Match the parts of the day:",
+      "matchingData": [
+        { "left": "Morning", "right": "8:00 AM - 12:00 PM" },
+        { "left": "Afternoon", "right": "12:00 PM - 6:00 PM" },
+        { "left": "Evening", "right": "6:00 PM - 9:00 PM" },
+        { "left": "Night", "right": "9:00 PM - 12:00 AM" }
+      ],
+      "explanation": "General parts of the day."
+    },
+    {
+      "id": "adm-a1-w18-37",
+      "type": "multiple-choice",
+      "prompt": "It's a ______ to five.",
+      "options": ["quarter", "half", "fifteen"],
+      "answerIndex": 0,
+      "explanation": "'A quarter to five' means 4:45."
+    },
+    {
+      "id": "adm-a1-w18-38",
+      "type": "fill-blank",
+      "prompt": "The office is [blank] from 9 to 5.",
+      "blankValidation": [
+        { "index": 0, "answers": ["open"], "caseSensitive": false }
+      ],
+      "explanation": "Status of the office."
+    },
+    {
+      "id": "adm-a1-w18-39",
+      "type": "multiple-choice",
+      "prompt": "We have a break ______ noon.",
+      "options": ["at", "on", "in"],
+      "answerIndex": 0,
+      "explanation": "Use 'at noon'."
+    },
+    {
+      "id": "adm-a1-w18-40",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He checks his schedule every morning",
+      "explanation": "Él revisa su horario cada mañana."
+    },
+    {
+      "id": "adm-a1-w18-41",
+      "type": "writing",
+      "prompt": "Translate: 'Tengo una reunión en diez minutos.'",
+      "example": "I have a meeting in ten minutes.",
+      "explanation": "Use 'in' for a future period of time."
+    },
+    {
+      "id": "adm-a1-w18-42",
+      "type": "multiple-choice",
+      "prompt": "______ you have time for a quick call?",
+      "options": ["Do", "Does", "Are"],
+      "answerIndex": 0,
+      "explanation": "Use 'Do' for 'you'."
+    },
+    {
+      "id": "adm-a1-w18-43",
+      "type": "fill-blank",
+      "prompt": "My [blank] is very full today.",
+      "blankValidation": [
+        { "index": 0, "answers": ["agenda", "schedule", "calendar"], "caseSensitive": false }
+      ],
+      "explanation": "Words to describe your daily plan."
+    },
+    {
+      "id": "adm-a1-w18-44",
+      "type": "multiple-choice",
+      "prompt": "The printer is ______ today.",
+      "options": ["out of order", "at time", "on work"],
+      "answerIndex": 0,
+      "explanation": "'Out of order' means it is not working."
+    },
+    {
+      "id": "adm-a1-w18-45",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "Is the manager free at three",
+      "explanation": "¿Está libre el gerente a las tres?"
+    },
+    {
+      "id": "adm-a1-w18-46",
+      "type": "matching",
+      "prompt": "Match the days of the week:",
+      "matchingData": [
+        { "left": "Monday", "right": "Lunes" },
+        { "left": "Wednesday", "right": "Miércoles" },
+        { "left": "Friday", "right": "Viernes" },
+        { "left": "Sunday", "right": "Domingo" }
+      ],
+      "explanation": "Basic days of the week."
+    },
+    {
+      "id": "adm-a1-w18-47",
+      "type": "multiple-choice",
+      "prompt": "She works ______ 8:30 AM to 4:30 PM.",
+      "options": ["from", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "Use 'from... to...' for a range of time."
+    },
+    {
+      "id": "adm-a1-w18-48",
+      "type": "fill-blank",
+      "prompt": "I'm sorry, I am [blank] right now.",
+      "blankValidation": [
+        { "index": 0, "answers": ["busy", "occupied"], "caseSensitive": false }
+      ],
+      "explanation": "Common response when you cannot talk."
+    },
+    {
+      "id": "adm-a1-w18-49",
+      "type": "multiple-choice",
+      "prompt": "The next meeting is ______ October 5th.",
+      "options": ["on", "at", "in"],
+      "answerIndex": 0,
+      "explanation": "Use 'on' for specific dates."
+    },
+    {
+      "id": "adm-a1-w18-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The office closes at six PM",
+      "explanation": "La oficina cierra a las seis de la tarde."
+    },
+    {
+      "id": "adm-a1-w18-51",
+      "type": "writing",
+      "prompt": "Translate: '¿Cuál es tu horario?'",
+      "example": "What is your schedule?",
+      "explanation": "Asking about work hours."
+    },
+    {
+      "id": "adm-a1-w18-52",
+      "type": "multiple-choice",
+      "prompt": "I have ______ at 1:00 PM.",
+      "options": ["lunch", "the lunch", "a lunch"],
+      "answerIndex": 0,
+      "explanation": "We usually say 'have lunch' without an article."
+    },
+    {
+      "id": "adm-a1-w18-53",
+      "type": "fill-blank",
+      "prompt": "See you [blank] Monday!",
+      "blankValidation": [
+        { "index": 0, "answers": ["on"], "caseSensitive": false }
+      ],
+      "explanation": "Use 'on' for days."
+    },
+    {
+      "id": "adm-a1-w18-54",
+      "type": "multiple-choice",
+      "prompt": "We ______ have meetings on Fridays.",
+      "options": ["sometimes", "is", "at"],
+      "answerIndex": 0,
+      "explanation": "Adverb 'sometimes' before the verb."
+    },
+    {
+      "id": "adm-a1-w18-55",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I arrive at the office early",
+      "explanation": "Llego temprano a la oficina."
+    },
+    {
+      "id": "adm-a1-w18-56",
+      "type": "matching",
+      "prompt": "Match the frequency adverbs (review):",
+      "matchingData": [
+        { "left": "Always", "right": "100%" },
+        { "left": "Usually", "right": "80%" },
+        { "left": "Sometimes", "right": "50%" },
+        { "left": "Never", "right": "0%" }
+      ],
+      "explanation": "Review of adverbs used with routines."
+    },
+    {
+      "id": "adm-a1-w18-57",
+      "type": "multiple-choice",
+      "prompt": "The manager is ______ on vacation.",
+      "options": ["currently", "now", "at"],
+      "answerIndex": 0,
+      "explanation": "'Currently' is a professional way to say 'now'."
+    },
+    {
+      "id": "adm-a1-w18-58",
+      "type": "fill-blank",
+      "prompt": "I have to [blank] a meeting.",
+      "blankValidation": [
+        { "index": 0, "answers": ["attend", "have", "organize"], "caseSensitive": false }
+      ],
+      "explanation": "Verbs for meetings."
+    },
+    {
+      "id": "adm-a1-w18-59",
+      "type": "multiple-choice",
+      "prompt": "Our office is ______ in London.",
+      "options": ["located", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "'Located' describes the place."
+    },
+    {
+      "id": "adm-a1-w18-60",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I finish work in an hour",
+      "explanation": "Termino de trabajar en una hora."
+    },
+    {
+      "id": "adm-a1-w18-61",
+      "type": "writing",
+      "prompt": "Translate: '¿A qué hora termina la reunión?'",
+      "example": "What time does the meeting finish?",
+      "explanation": "Question about the end of an event."
+    },
+    {
+      "id": "adm-a1-w18-62",
+      "type": "multiple-choice",
+      "prompt": "I'm ______ I'm late.",
+      "options": ["sorry", "happy", "busy"],
+      "answerIndex": 0,
+      "explanation": "Professional apology for being late."
+    },
+    {
+      "id": "adm-a1-w18-63",
+      "type": "fill-blank",
+      "prompt": "Could we [blank] the meeting?",
+      "blankValidation": [
+        { "index": 0, "answers": ["reschedule", "start", "cancel"], "caseSensitive": false }
+      ],
+      "explanation": "Verbs for changing plans."
+    },
+    {
+      "id": "adm-a1-w18-64",
+      "type": "multiple-choice",
+      "prompt": "We work ______ Monday to Friday.",
+      "options": ["from", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "Range of days."
+    },
+    {
+      "id": "adm-a1-w18-65",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The boss is in a meeting",
+      "explanation": "El jefe está en una reunión."
+    },
+    {
+      "id": "adm-a1-w18-66",
+      "type": "matching",
+      "prompt": "Match the digital time with the spoken time:",
+      "matchingData": [
+        { "left": "14:00", "right": "2:00 PM" },
+        { "left": "08:00", "right": "8:00 AM" },
+        { "left": "17:30", "right": "5:30 PM" },
+        { "left": "11:15", "right": "11:15 AM" }
+      ],
+      "explanation": "24-hour to 12-hour conversion."
+    },
+    {
+      "id": "adm-a1-w18-67",
+      "type": "multiple-choice",
+      "prompt": "The team has a ______ every morning.",
+      "options": ["stand-up", "sit-down", "run-up"],
+      "answerIndex": 0,
+      "explanation": "A 'stand-up' meeting is a short daily update."
+    },
+    {
+      "id": "adm-a1-w18-68",
+      "type": "fill-blank",
+      "prompt": "Don't be [blank] for the interview.",
+      "blankValidation": [
+        { "index": 0, "answers": ["late"], "caseSensitive": false }
+      ],
+      "explanation": "Importance of punctuality."
+    },
+    {
+      "id": "adm-a1-w18-69",
+      "type": "multiple-choice",
+      "prompt": "I am ______ right now, can I call you later?",
+      "options": ["on a call", "at a call", "in a call"],
+      "answerIndex": 0,
+      "explanation": "Use 'on a call'."
+    },
+    {
+      "id": "adm-a1-w18-70",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "We have a lot of work today",
+      "explanation": "Tenemos mucho trabajo hoy."
+    },
+    {
+      "id": "adm-a1-w18-71",
+      "type": "writing",
+      "prompt": "Translate: 'La fecha límite es el viernes.'",
+      "example": "The deadline is on Friday.",
+      "explanation": "Talking about deadlines."
+    },
+    {
+      "id": "adm-a1-w18-72",
+      "type": "multiple-choice",
+      "prompt": "It's half ______ ten.",
+      "options": ["past", "to", "at"],
+      "answerIndex": 0,
+      "explanation": "'Half past ten' is 10:30."
+    },
+    {
+      "id": "adm-a1-w18-73",
+      "type": "fill-blank",
+      "prompt": "Wait a [blank], please.",
+      "blankValidation": [
+        { "index": 0, "answers": ["minute", "moment", "second"], "caseSensitive": false }
+      ],
+      "explanation": "Polite request for time."
+    },
+    {
+      "id": "adm-a1-w18-74",
+      "type": "multiple-choice",
+      "prompt": "I work ______ 40 hours a week.",
+      "options": ["for", "at", "on"],
+      "answerIndex": 0,
+      "explanation": "Duration of work."
+    },
+    {
+      "id": "adm-a1-w18-75",
+      "type": "roleplay",
+      "prompt": "Role-play: Ask a colleague about their schedule. Example: 'What time do you start work?' -> 'I start at 9:00 AM.'",
+      "scenario": "Getting to know a colleague's routine.",
+      "suggestedPhrases": [
+        "What time do you...?",
+        "When is your break?",
+        "Do you work on...?",
+        "I usually finish at..."
+      ]
     }
   ]
 }

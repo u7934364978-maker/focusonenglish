@@ -1,45 +1,145 @@
 {
-  "title": "Examen: Tiempo y Horarios Bancarios",
+  "title": "Examen Semana 5: Profesiones y Presente Simple",
   "questions": [
     {
-      "id": "q1",
-      "question": "What are 'Opening hours'?",
-      "options": [
-        "The time when the bank is closed",
-        "The time when the bank is available for customers",
-        "The lunch break of the employees",
-        "The time the manager arrives at home"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Opening hours are the hours during which a business is open to the public."
+      "id": "adm-a1-w05-q01",
+      "question": "Which of the following is the English word for 'Contable'?",
+      "options": ["Architect", "Accountant", "Assistant", "Attorney"],
+      "answerIndex": 1,
+      "explanation": "An accountant is a professional who manages financial records (contable)."
     },
     {
-      "id": "q2",
-      "question": "Select the correct plural form: 'The banks ________ on Saturdays.'",
-      "options": ["open", "opens", "opening", "are open"],
-      "correctAnswer": 0,
-      "explanation": "With plural subjects (the banks), we don't add 's' to the verb."
+      "id": "adm-a1-w05-q02",
+      "question": "Choose the correct verb form: 'She ______ as a receptionist in a large hotel.'",
+      "options": ["work", "works", "working", "worker"],
+      "answerIndex": 1,
+      "explanation": "In the Present Simple, we add '-s' to the verb for 'she'."
     },
     {
-      "id": "q3",
-      "question": "Which day is part of the 'Weekend'?",
-      "options": ["Wednesday", "Monday", "Sunday", "Thursday"],
-      "correctAnswer": 2,
-      "explanation": "The weekend consists of Saturday and Sunday."
+      "id": "adm-a1-w05-q03",
+      "question": "What is the meaning of 'CEO'?",
+      "options": ["Chief Energy Officer", "Chief Executive Officer", "Central Executive Office", "Company Executive Officer"],
+      "answerIndex": 1,
+      "explanation": "CEO stands for Chief Executive Officer, the highest-ranking person in a company."
     },
     {
-      "id": "q4",
-      "question": "Complete the sentence: 'The ATM ________ 24 hours a day.'",
-      "options": ["work", "works", "working", "is work"],
-      "correctAnswer": 1,
-      "explanation": "The ATM (It) takes the 's' ending in the present simple."
+      "id": "adm-a1-w05-q04",
+      "question": "Complete the sentence: 'We ______ to the office at 9:00 AM.'",
+      "options": ["goes", "go", "going", "are go"],
+      "answerIndex": 1,
+      "explanation": "With the pronoun 'We', we use the base form of the verb."
     },
     {
-      "id": "q5",
-      "question": "How do you say 'Jueves' in English?",
-      "options": ["Tuesday", "Thursday", "Tuesday", "Friday"],
-      "correctAnswer": 1,
-      "explanation": "Jueves is Thursday."
+      "id": "adm-a1-w05-q05",
+      "question": "Which professional is responsible for designing software?",
+      "options": ["Graphic Designer", "Developer", "Engineer", "Manager"],
+      "answerIndex": 1,
+      "explanation": "A developer (or software developer) creates and maintains computer programs."
+    },
+    {
+      "id": "adm-a1-w05-q06",
+      "question": "Choose the correct form: 'The manager ______ the reports every morning.'",
+      "options": ["check", "checks", "checking", "is check"],
+      "answerIndex": 1,
+      "explanation": "The manager (he or she) requires the '-s' form of the verb."
+    },
+    {
+      "id": "adm-a1-w05-q07",
+      "question": "What is 'Lawyer' in Spanish?",
+      "options": ["Arquitecto", "Abogado", "Médico", "Ingeniero"],
+      "answerIndex": 1,
+      "explanation": "A lawyer is an 'abogado' in Spanish."
+    },
+    {
+      "id": "adm-a1-w05-q08",
+      "question": "Complete the sentence: 'I ______ my emails before the meeting.'",
+      "options": ["read", "reads", "reading", "am read"],
+      "answerIndex": 0,
+      "explanation": "With 'I', we use the base form of the verb 'read'."
+    },
+    {
+      "id": "adm-a1-w05-q09",
+      "question": "Which department is responsible for hiring employees?",
+      "options": ["Finance", "Marketing", "Human Resources", "Sales"],
+      "answerIndex": 2,
+      "explanation": "Human Resources (HR) handles recruitment and employee relations."
+    },
+    {
+      "id": "adm-a1-w05-q10",
+      "question": "Choose the correct form: 'My colleague ______ very fast.'",
+      "options": ["type", "types", "typing", "is type"],
+      "answerIndex": 1,
+      "explanation": "My colleague (he/she) is third person singular, so we add '-s' to 'type'."
+    },
+    {
+      "id": "adm-a1-w05-q11",
+      "question": "What is a 'Sales Representative'?",
+      "options": ["A person who cleans the office", "A person who sells products", "A person who fixes computers", "A person who manages the bank account"],
+      "answerIndex": 1,
+      "explanation": "A sales representative is responsible for selling products or services."
+    },
+    {
+      "id": "adm-a1-w05-q12",
+      "question": "Complete: 'They ______ English in the meeting.'",
+      "options": ["speaks", "speaking", "speak", "are speak"],
+      "answerIndex": 2,
+      "explanation": "With 'They', we use the base form 'speak'."
+    },
+    {
+      "id": "adm-a1-w05-q13",
+      "question": "What is 'Engineer' in Spanish?",
+      "options": ["Ingeniero", "Enfermero", "Escritor", "Electricista"],
+      "answerIndex": 0,
+      "explanation": "Engineer translates to 'ingeniero' in Spanish."
+    },
+    {
+      "id": "adm-a1-w05-q14",
+      "question": "Choose the correct verb: 'John ______ coffee in the breakroom.'",
+      "options": ["drink", "drinks", "drinking", "is drink"],
+      "answerIndex": 1,
+      "explanation": "John (he) requires the '-s' form: 'drinks'."
+    },
+    {
+      "id": "adm-a1-w05-q15",
+      "question": "Which professional designs buildings?",
+      "options": ["Architect", "Assistant", "Accountant", "Actor"],
+      "answerIndex": 0,
+      "explanation": "An architect is the person who designs and plans buildings."
+    },
+    {
+      "id": "adm-a1-w05-q16",
+      "question": "Complete the sentence: 'You ______ the project requirements very well.'",
+      "options": ["understands", "understand", "understanding", "is understand"],
+      "answerIndex": 1,
+      "explanation": "With 'You', we use the base form 'understand'."
+    },
+    {
+      "id": "adm-a1-w05-q17",
+      "question": "Which department handles the company's money?",
+      "options": ["Logistics", "Marketing", "Finance", "Sales"],
+      "answerIndex": 2,
+      "explanation": "The Finance department is in charge of financial management."
+    },
+    {
+      "id": "adm-a1-w05-q18",
+      "question": "Choose the correct form: 'The company ______ new computers every year.'",
+      "options": ["buy", "buys", "buying", "is buy"],
+      "answerIndex": 1,
+      "explanation": "The company (it) is singular, so we use 'buys'."
+    },
+    {
+      "id": "adm-a1-w05-q19",
+      "question": "What is 'Secretary' in Spanish?",
+      "options": ["Socio", "Secretario/a", "Soldado", "Sastre"],
+      "answerIndex": 1,
+      "explanation": "Secretary is 'secretario' or 'secretaria' in Spanish."
+    },
+    {
+      "id": "adm-a1-w05-q20",
+      "question": "Complete: 'My boss ______ the meeting at 10:00 AM.'",
+      "options": ["start", "starts", "starting", "is start"],
+      "answerIndex": 1,
+      "explanation": "My boss (he/she) requires the third-person singular '-s': 'starts'."
     }
   ]
 }

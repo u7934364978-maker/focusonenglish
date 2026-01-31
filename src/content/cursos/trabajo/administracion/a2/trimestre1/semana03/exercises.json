@@ -1,518 +1,835 @@
 {
-  "title": "Security & Fraud Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana03",
+  "title": "Card Security & Fraud Investigation Exercises",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a2-w03-ex01",
       "type": "multiple-choice",
-      "question": "If you 'freeze' your card, it means:",
+      "prompt": "If you 'freeze' your card, it means:",
       "options": [
         "You put it in the freezer",
         "You temporarily disable it from the app",
         "You cancel it forever",
         "You change the PIN"
       ],
-      "correctAnswer": 1,
+      "answerIndex": 1,
       "explanation": "Freezing is a temporary measure to stop transactions."
     },
     {
-      "id": "ex2",
+      "id": "adm-a2-w03-ex02",
       "type": "multiple-choice",
-      "question": "A digital card that is destroyed after one use is a:",
+      "prompt": "A digital card that is destroyed after one use is a:",
       "options": [
         "Disposable card",
         "Permanent card",
         "Metal card",
         "Gold card"
       ],
-      "correctAnswer": 0,
+      "answerIndex": 0,
       "explanation": "Disposable cards are great for security during one-time online purchases."
     },
     {
-      "id": "ex3",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (not / authorize) that $500 charge at the electronics store.",
+      "id": "adm-a2-w03-ex03",
+      "type": "fill-blank",
+      "prompt": "I ________ (not / authorize) that $500 charge at the electronics store.",
       "answer": "didn't authorize",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (authorize)."
     },
     {
-      "id": "ex4",
+      "id": "adm-a2-w03-ex04",
       "type": "multiple-choice",
-      "question": "What is 'Phishing'?",
+      "prompt": "What is 'Phishing'?",
       "options": [
         "A hobby at the lake",
         "A scam using fake emails to steal information",
         "A way to withdraw money faster",
         "A type of bank account"
       ],
-      "correctAnswer": 1,
-      "explanation": "Phishing is a very common cyber-attack."
+      "answerIndex": 1,
+      "explanation": "Phishing is a common cyber-attack where scammers pretend to be a trusted entity."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "________ (you / lose) your wallet at the airport?",
+      "id": "adm-a2-w03-ex05",
+      "type": "fill-blank",
+      "prompt": "________ (you / lose) your wallet at the airport?",
       "answer": "Did you lose",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (lose)."
     },
     {
-      "id": "ex6",
+      "id": "adm-a2-w03-ex06",
       "type": "multiple-choice",
-      "question": "When a bank account is 'Compromised', it means:",
+      "prompt": "When a bank account is 'Compromised', it means:",
       "options": [
         "It is being upgraded",
         "It is no longer secure",
         "It has reached its limit",
         "It is shared with a friend"
       ],
-      "correctAnswer": 1,
-      "explanation": "Compromised means security has been breached."
+      "answerIndex": 1,
+      "explanation": "Compromised means security has been breached and unauthorized people may have access."
     },
     {
-      "id": "ex7",
+      "id": "adm-a2-w03-ex07",
       "type": "multiple-choice",
-      "question": "Requesting a refund for a fraudulent transaction is a:",
+      "prompt": "Requesting a refund for a fraudulent transaction is a:",
       "options": [
         "Chargeback",
         "Cashback",
         "Deposit",
         "Transfer"
       ],
-      "correctAnswer": 0,
-      "explanation": "Chargebacks are used to recover money from fraud."
+      "answerIndex": 0,
+      "explanation": "Chargebacks are used to recover money from fraudulent or disputed transactions."
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "The bank ________ (not / notify) me about the login attempt.",
+      "id": "adm-a2-w03-ex08",
+      "type": "fill-blank",
+      "prompt": "The bank ________ (not / notify) me about the login attempt.",
       "answer": "didn't notify",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (notify)."
     },
     {
-      "id": "ex9",
+      "id": "adm-a2-w03-ex09",
       "type": "multiple-choice",
-      "question": "What should you do first if your card is stolen?",
+      "prompt": "What should you do first if your card is stolen?",
       "options": [
         "Call your family",
         "Freeze the card in the app",
         "Go to the shopping mall",
         "Wait for two days"
       ],
-      "correctAnswer": 1,
-      "explanation": "Freezing the card immediately prevents further theft."
+      "answerIndex": 1,
+      "explanation": "Freezing the card immediately prevents further theft and unauthorized spending."
     },
     {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "________ (the support agent / help) you with the report?",
+      "id": "adm-a2-w03-ex10",
+      "type": "fill-blank",
+      "prompt": "________ (the support agent / help) you with the report?",
       "answer": "Did the support agent help",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (help)."
     },
     {
-      "id": "ex11",
+      "id": "adm-a2-w03-ex11",
       "type": "multiple-choice",
-      "question": "Face ID and fingerprints are examples of:",
+      "prompt": "Face ID and fingerprints are examples of:",
       "options": [
         "Cryptography",
         "Biometrics",
         "Phishing",
         "Categorization"
       ],
-      "correctAnswer": 1,
-      "explanation": "Biometrics use physical traits for identity."
+      "answerIndex": 1,
+      "explanation": "Biometrics use physical traits for identity and security."
     },
     {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (not / share) our password with the caller.",
+      "id": "adm-a2-w03-ex12",
+      "type": "fill-blank",
+      "prompt": "We ________ (not / share) our password with the caller.",
       "answer": "didn't share",
-      "explanation": "Never share your password with anyone."
+      "explanation": "Negative past simple: didn't + base form (share)."
     },
     {
-      "id": "ex13",
+      "id": "adm-a2-w03-ex13",
       "type": "multiple-choice",
-      "question": "A 'Scam' is:",
+      "prompt": "A 'Scam' is:",
       "options": [
         "A legal bank process",
         "A fraudulent scheme",
         "A type of interest rate",
         "A savings goal"
       ],
-      "correctAnswer": 1,
-      "explanation": "A scam is a dishonest way to get money."
+      "answerIndex": 1,
+      "explanation": "A scam is a dishonest way to get money or information from someone."
     },
     {
-      "id": "ex14",
+      "id": "adm-a2-w03-ex14",
       "type": "multiple-choice",
-      "question": "What does it mean to 'Report' a fraudulent transaction?",
+      "prompt": "What does it mean to 'Report' a fraudulent transaction?",
       "options": [
         "To ignore it",
         "To tell the bank about the problem",
         "To pay for it",
         "To share it on social media"
       ],
-      "correctAnswer": 1,
-      "explanation": "Reporting is the first step in resolving fraud."
+      "answerIndex": 1,
+      "explanation": "Reporting is the official act of informing the bank about security issues."
     },
     {
-      "id": "ex15",
-      "type": "fill-in-the-blank",
-      "question": "________ (he / recognize) the merchant on the statement?",
+      "id": "adm-a2-w03-ex15",
+      "type": "fill-blank",
+      "prompt": "________ (he / recognize) the merchant on the statement?",
       "answer": "Did he recognize",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (recognize)."
     },
     {
-      "id": "ex16",
+      "id": "adm-a2-w03-ex16",
       "type": "multiple-choice",
-      "question": "If your account is 'compromised', you should:",
+      "prompt": "If your account is 'compromised', you should:",
       "options": [
         "Ignore it",
         "Change your password immediately",
         "Post it on social media",
         "Buy more things"
       ],
-      "correctAnswer": 1,
-      "explanation": "Changing your password is a critical security step."
+      "answerIndex": 1,
+      "explanation": "Changing your password is a critical security step to regain control."
     },
     {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "They ________ (not / send) the replacement card to the right address.",
+      "id": "adm-a2-w03-ex17",
+      "type": "fill-blank",
+      "prompt": "They ________ (not / send) the replacement card to the right address.",
       "answer": "didn't send",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (send)."
     },
     {
-      "id": "ex18",
+      "id": "adm-a2-w03-ex18",
       "type": "multiple-choice",
-      "question": "Which of these is a sign of phishing?",
+      "prompt": "Which of these is a sign of phishing?",
       "options": [
         "An email with many spelling mistakes asking for your PIN",
         "A monthly statement from your bank",
         "A notification that you received a payment",
         "A message from a friend saying 'Hello'"
       ],
-      "correctAnswer": 0,
-      "explanation": "Phishing emails often have errors and ask for sensitive info."
+      "answerIndex": 0,
+      "explanation": "Phishing emails often have errors and ask for sensitive information like a PIN."
     },
     {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "________ (you / change) your spending limits yesterday?",
+      "id": "adm-a2-w03-ex19",
+      "type": "fill-blank",
+      "prompt": "________ (you / change) your spending limits yesterday?",
       "answer": "Did you change",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (change)."
     },
     {
-      "id": "ex20",
+      "id": "adm-a2-w03-ex20",
       "type": "multiple-choice",
-      "question": "What is a 'Virtual Card' used for?",
+      "prompt": "What is a 'Virtual Card' used for?",
       "options": [
         "Withdrawing cash from an ATM",
         "Shopping online securely",
         "Buying things in a physical supermarket",
         "Opening a physical door"
       ],
-      "correctAnswer": 1,
-      "explanation": "Virtual cards exist only in the app and are for online use."
+      "answerIndex": 1,
+      "explanation": "Virtual cards exist only in the app and are used for online transactions."
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (not / see) my card in my bag.",
+      "id": "adm-a2-w03-ex21",
+      "type": "fill-blank",
+      "prompt": "I ________ (not / see) my card in my bag.",
       "answer": "didn't see",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (see)."
     },
     {
-      "id": "ex22",
+      "id": "adm-a2-w03-ex22",
       "type": "multiple-choice",
-      "question": "The question form of 'She lost her card' is:",
+      "prompt": "The question form of 'She lost her card' is:",
       "options": [
         "Did she lost her card?",
         "Did she lose her card?",
         "Does she lost her card?",
         "Lost she her card?"
       ],
-      "correctAnswer": 1,
-      "explanation": "Did + base form (lose)."
+      "answerIndex": 1,
+      "explanation": "Questions in the past simple use 'Did' + base form of the verb (lose)."
     },
     {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "________ (they / block) your access to the app?",
+      "id": "adm-a2-w03-ex23",
+      "type": "fill-blank",
+      "prompt": "________ (they / block) your access to the app?",
       "answer": "Did they block",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (block)."
     },
     {
-      "id": "ex24",
+      "id": "adm-a2-w03-ex24",
       "type": "multiple-choice",
-      "question": "The negative of 'We went to the bank' is:",
+      "prompt": "The negative of 'We went to the bank' is:",
       "options": [
         "We didn't went to the bank",
         "We didn't go to the bank",
         "We no went to the bank",
         "We not go to the bank"
       ],
-      "correctAnswer": 1,
-      "explanation": "Didn't + base form (go)."
+      "answerIndex": 1,
+      "explanation": "Negative past simple: didn't + base form (go)."
     },
     {
-      "id": "ex25",
-      "type": "fill-in-the-blank",
-      "question": "He ________ (not / answer) the suspicious phone call.",
+      "id": "adm-a2-w03-ex25",
+      "type": "fill-blank",
+      "prompt": "He ________ (not / answer) the suspicious phone call.",
       "answer": "didn't answer",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (answer)."
     },
     {
-      "id": "ex26",
+      "id": "adm-a2-w03-ex26",
       "type": "multiple-choice",
-      "question": "Which sentence is correct?",
+      "prompt": "Which sentence is correct?",
       "options": [
         "Did you spoke to the manager?",
         "Did you speak to the manager?",
         "You did speak to the manager?",
         "Did you spoken to the manager?"
       ],
-      "correctAnswer": 1,
-      "explanation": "Did + base form (speak)."
+      "answerIndex": 1,
+      "explanation": "Questions use 'Did' + base form of the verb (speak)."
     },
     {
-      "id": "ex27",
-      "type": "fill-in-the-blank",
-      "question": "________ (you / receive) the code via SMS?",
+      "id": "adm-a2-w03-ex27",
+      "type": "fill-blank",
+      "prompt": "________ (you / receive) the code via SMS?",
       "answer": "Did you receive",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (receive)."
     },
     {
-      "id": "ex28",
+      "id": "adm-a2-w03-ex28",
       "type": "multiple-choice",
-      "question": "What is the negative of 'I paid the fine'?",
+      "prompt": "What is the negative of 'I paid the fine'?",
       "options": [
         "I didn't paid the fine",
         "I didn't pay the fine",
         "I no paid the fine",
         "I not paid the fine"
       ],
-      "correctAnswer": 1,
-      "explanation": "Didn't + base form (pay)."
+      "answerIndex": 1,
+      "explanation": "Negative past simple: didn't + base form (pay)."
     },
     {
-      "id": "ex29",
-      "type": "fill-in-the-blank",
-      "question": "The hacker ________ (not / guess) my password.",
+      "id": "adm-a2-w03-ex29",
+      "type": "fill-blank",
+      "prompt": "The hacker ________ (not / guess) my password.",
       "answer": "didn't guess",
-      "explanation": "Strong passwords are hard to guess."
+      "explanation": "Negative past simple: didn't + base form (guess)."
     },
     {
-      "id": "ex30",
+      "id": "adm-a2-w03-ex30",
       "type": "multiple-choice",
-      "question": "Correct question: 'Did he _______ his identity?'",
+      "prompt": "Correct question: 'Did he _______ his identity?'",
       "options": [
         "verified",
         "verify",
         "verifying",
         "verifies"
       ],
-      "correctAnswer": 1,
-      "explanation": "Use the base form after 'Did'."
+      "answerIndex": 1,
+      "explanation": "Use the base form (verify) after 'Did' in questions."
     },
     {
-      "id": "ex31",
-      "type": "fill-in-the-blank",
-      "question": "We ________ (not / find) our passports yesterday.",
+      "id": "adm-a2-w03-ex31",
+      "type": "fill-blank",
+      "prompt": "We ________ (not / find) our passports yesterday.",
       "answer": "didn't find",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (find)."
     },
     {
-      "id": "ex32",
+      "id": "adm-a2-w03-ex32",
       "type": "multiple-choice",
-      "question": "Which is correct?",
+      "prompt": "Which is correct?",
       "options": [
         "I didn't took the money",
         "I didn't take the money",
         "I not took the money",
         "I no take the money"
       ],
-      "correctAnswer": 1,
-      "explanation": "Didn't + base form (take)."
+      "answerIndex": 1,
+      "explanation": "Negative past simple: didn't + base form (take)."
     },
     {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "________ (they / cancel) your subscription by mistake?",
+      "id": "adm-a2-w03-ex33",
+      "type": "fill-blank",
+      "prompt": "________ (they / cancel) your subscription by mistake?",
       "answer": "Did they cancel",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (cancel)."
     },
     {
-      "id": "ex34",
+      "id": "adm-a2-w03-ex34",
       "type": "multiple-choice",
-      "question": "The negative of 'He gave me the receipt' is:",
+      "prompt": "The negative of 'He gave me the receipt' is:",
       "options": [
         "He didn't give me the receipt",
         "He didn't gave me the receipt",
         "He no give me the receipt",
         "He not gave me the receipt"
       ],
-      "correctAnswer": 0,
-      "explanation": "Didn't + base form (give)."
+      "answerIndex": 0,
+      "explanation": "Negative past simple: didn't + base form (give)."
     },
     {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (not / buy) anything on that website.",
+      "id": "adm-a2-w03-ex35",
+      "type": "fill-blank",
+      "prompt": "I ________ (not / buy) anything on that website.",
       "answer": "didn't buy",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (buy)."
     },
     {
-      "id": "ex36",
+      "id": "adm-a2-w03-ex36",
       "type": "multiple-choice",
-      "question": "Which question is NOT correct?",
+      "prompt": "Which question is NOT correct?",
       "options": [
         "Did you see the fraud?",
         "Did they called the police?",
         "Did he report the theft?",
         "Did we receive a refund?"
       ],
-      "correctAnswer": 1,
-      "explanation": "It should be 'Did they call' (base form)."
+      "answerIndex": 1,
+      "explanation": "Incorrect: 'Did they called'. Correct: 'Did they call' (base form)."
     },
     {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "________ (she / take) a screenshot of the message?",
+      "id": "adm-a2-w03-ex37",
+      "type": "fill-blank",
+      "prompt": "________ (she / take) a screenshot of the message?",
       "answer": "Did she take",
-      "explanation": "Past simple question: Did + subject + base form."
+      "explanation": "Past simple question: Did + subject + base form (take)."
     },
     {
-      "id": "ex38",
+      "id": "adm-a2-w03-ex38",
       "type": "multiple-choice",
-      "question": "Negative of 'I felt safe':",
+      "prompt": "Negative of 'I felt safe':",
       "options": [
         "I no feel safe",
         "I didn't feel safe",
         "I didn't felt safe",
         "I not feel safe"
       ],
-      "correctAnswer": 1,
-      "explanation": "Didn't + base form (feel)."
+      "answerIndex": 1,
+      "explanation": "Negative past simple: didn't + base form (feel)."
     },
     {
-      "id": "ex39",
-      "type": "fill-in-the-blank",
-      "question": "The bank ________ (not / accept) my explanation.",
+      "id": "adm-a2-w03-ex39",
+      "type": "fill-blank",
+      "prompt": "The bank ________ (not / accept) my explanation.",
       "answer": "didn't accept",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (accept)."
     },
     {
-      "id": "ex40",
+      "id": "adm-a2-w03-ex40",
       "type": "multiple-choice",
-      "question": "Correct question: 'Did you _______ the app?'",
+      "prompt": "What does a 'replacement card' mean?",
       "options": [
-        "updated",
-        "update",
-        "updating",
-        "updates"
+        "A second card for a friend",
+        "A new card to replace a lost or stolen one",
+        "A card from a different bank",
+        "A card made of gold"
       ],
-      "correctAnswer": 1,
-      "explanation": "Use the base form after 'Did'."
+      "answerIndex": 1,
+      "explanation": "Replacement cards are issued when the original is no longer usable or secure."
     },
     {
-      "id": "ex41",
+      "id": "adm-a2-w03-ex41",
+      "type": "fill-blank",
+      "prompt": "________ (you / find) any other unauthorized charges?",
+      "answer": "Did you find",
+      "explanation": "Past simple question: Did + subject + base form (find)."
+    },
+    {
+      "id": "adm-a2-w03-ex42",
       "type": "multiple-choice",
-      "question": "Identity theft involves:",
+      "prompt": "If you 'block' a merchant, it means:",
       "options": [
-        "Stealing someone's wallet",
-        "Stealing personal info to act as someone else",
-        "Losing your own ID card",
-        "Renewing your passport"
+        "You visit their shop",
+        "You stop them from taking money from your account",
+        "You give them your password",
+        "You buy more things from them"
       ],
-      "correctAnswer": 1,
-      "explanation": "Identity theft is a serious form of fraud where someone impersonates you."
+      "answerIndex": 1,
+      "explanation": "Blocking a merchant prevents them from processing further transactions."
     },
     {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (not / tell) anyone my password.",
+      "id": "adm-a2-w03-ex43",
+      "type": "fill-blank",
+      "prompt": "I ________ (not / forget) to freeze the card.",
+      "answer": "didn't forget",
+      "explanation": "Negative past simple: didn't + base form (forget)."
+    },
+    {
+      "id": "adm-a2-w03-ex44",
+      "type": "multiple-choice",
+      "prompt": "Which of these is 'Two-Factor Authentication' (2FA)?",
+      "options": [
+        "Using two different banks",
+        "Using a password and a code from your phone",
+        "Having two credit cards",
+        "Talking to two agents"
+      ],
+      "answerIndex": 1,
+      "explanation": "2FA adds an extra layer of security beyond just a password."
+    },
+    {
+      "id": "adm-a2-w03-ex45",
+      "type": "fill-blank",
+      "prompt": "________ (the app / crash) when you opened the security tab?",
+      "answer": "Did the app crash",
+      "explanation": "Past simple question: Did + subject + base form (crash)."
+    },
+    {
+      "id": "adm-a2-w03-ex46",
+      "type": "multiple-choice",
+      "prompt": "A 'Strong Password' should have:",
+      "options": [
+        "Only numbers",
+        "Your birthday",
+        "A mix of letters, numbers, and symbols",
+        "The word 'password'"
+      ],
+      "answerIndex": 2,
+      "explanation": "Complexity makes passwords harder for hackers to guess or crack."
+    },
+    {
+      "id": "adm-a2-w03-ex47",
+      "type": "fill-blank",
+      "prompt": "He ________ (not / tell) the truth about the transaction.",
       "answer": "didn't tell",
-      "explanation": "Negative past simple: didn't + base form."
+      "explanation": "Negative past simple: didn't + base form (tell)."
     },
     {
-      "id": "ex43",
+      "id": "adm-a2-w03-ex48",
       "type": "multiple-choice",
-      "question": "What is a 'Disposable Card'?",
+      "prompt": "If you see a charge from 'Unknown Merchant', you should:",
       "options": [
-        "A card made of paper",
-        "A virtual card destroyed after one use",
-        "A card you throw in the bin",
-        "A card for buying coffee"
+        "Wait and see",
+        "Freeze the card and investigate",
+        "Assume it's a gift",
+        "Pay it immediately"
       ],
-      "correctAnswer": 1,
-      "explanation": "Disposable cards are for one-time secure use."
+      "answerIndex": 1,
+      "explanation": "Unknown charges should be treated as suspicious immediately."
     },
     {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "________ (you / contact) the fraud department?",
-      "answer": "Did you contact",
-      "explanation": "Past simple question: Did + subject + base form."
+      "id": "adm-a2-w03-ex49",
+      "type": "fill-blank",
+      "prompt": "________ (you / speak) to the fraud department yet?",
+      "answer": "Did you speak",
+      "explanation": "Past simple question: Did + subject + base form (speak)."
     },
     {
-      "id": "ex45",
+      "id": "adm-a2-w03-ex50",
       "type": "multiple-choice",
-      "question": "A 'Limit' on your card is:",
+      "prompt": "A 'Chargeback' is successful when:",
       "options": [
-        "The minimum you must spend",
-        "The maximum amount allowed for transactions",
-        "The date the card expires",
-        "The number of times you can use the ATM"
+        "The bank gives the money back to the merchant",
+        "The bank returns the funds to your account",
+        "The hacker gets the money",
+        "The card is destroyed"
       ],
-      "correctAnswer": 1,
-      "explanation": "Limits help control spending and reduce fraud impact."
+      "answerIndex": 1,
+      "explanation": "A successful chargeback results in the customer getting their money back."
     },
     {
-      "id": "ex46",
-      "type": "fill-in-the-blank",
-      "question": "The customer ________ (not / understand) the terms.",
-      "answer": "didn't understand",
-      "explanation": "Negative past simple: didn't + base form."
+      "id": "adm-a2-w03-ex51",
+      "type": "fill-blank",
+      "prompt": "I ________ (not / receive) any push notification for the $1000 spend.",
+      "answer": "didn't receive",
+      "explanation": "Negative past simple: didn't + base form (receive)."
     },
     {
-      "id": "ex47",
+      "id": "adm-a2-w03-ex52",
       "type": "multiple-choice",
-      "question": "If you 'Unfreeze' your card, you make it:",
+      "prompt": "What does 'Suspicious Activity' mean?",
       "options": [
-        "Cold",
-        "Active again",
-        "Disabled",
-        "New"
+        "Buying your usual groceries",
+        "Transactions that don't match your normal habits",
+        "Checking your balance daily",
+        "Changing your profile picture"
       ],
-      "correctAnswer": 1,
-      "explanation": "Unfreezing restores the card's functionality."
+      "answerIndex": 1,
+      "explanation": "Banks flag activity that seems unusual or out of character for a user."
     },
     {
-      "id": "ex48",
-      "type": "fill-in-the-blank",
-      "question": "________ (the bank / refund) the stolen money?",
-      "answer": "Did the bank refund",
-      "explanation": "Past simple question: Did + subject + base form."
+      "id": "adm-a2-w03-ex53",
+      "type": "fill-blank",
+      "prompt": "________ (the merchant / refund) the money voluntarily?",
+      "answer": "Did the merchant refund",
+      "explanation": "Past simple question: Did + subject + base form (refund)."
     },
     {
-      "id": "ex49",
+      "id": "adm-a2-w03-ex54",
       "type": "multiple-choice",
-      "question": "Biometric login is safer than a password because:",
+      "prompt": "What is the role of a 'Fraud Investigator'?",
       "options": [
-        "It is faster",
-        "It is unique to your body",
-        "It is cheaper",
-        "It doesn't need electricity"
+        "To steal money",
+        "To look for and stop fraudulent activity",
+        "To sell bank accounts",
+        "To design the bank's logo"
       ],
-      "correctAnswer": 1,
-      "explanation": "Faces and fingerprints are much harder to steal than text."
+      "answerIndex": 1,
+      "explanation": "Investigators analyze suspicious patterns to protect the bank and customers."
     },
     {
-      "id": "ex50",
-      "type": "word-search",
-      "title": "Security & Fraud Word Search",
-      "instructions": "Find the security terms in the grid.",
-      "words": ["PHISHING", "BIOMETRICS", "SCAM", "FREEZE", "FRAUD", "VIRTUAL", "LIMIT", "REFUND"],
-      "gridSize": 10
+      "id": "adm-a2-w03-ex55",
+      "type": "fill-blank",
+      "prompt": "We ________ (not / know) that the website was fake.",
+      "answer": "didn't know",
+      "explanation": "Negative past simple: didn't + base form (know)."
+    },
+    {
+      "id": "adm-a2-w03-ex56",
+      "type": "multiple-choice",
+      "prompt": "If an email asks for your 'Full PIN', it is likely:",
+      "options": [
+        "Official",
+        "A scam",
+        "A mistake",
+        "A gift"
+      ],
+      "answerIndex": 1,
+      "explanation": "Banks never ask for your full PIN or password via email."
+    },
+    {
+      "id": "adm-a2-w03-ex57",
+      "type": "fill-blank",
+      "prompt": "________ (you / write) down your password on a piece of paper?",
+      "answer": "Did you write",
+      "explanation": "Past simple question: Did + subject + base form (write)."
+    },
+    {
+      "id": "adm-a2-w03-ex58",
+      "type": "multiple-choice",
+      "prompt": "Why are 'Spending Limits' useful for security?",
+      "options": [
+        "They make the app look better",
+        "They prevent a thief from spending all your money at once",
+        "They help you win prizes",
+        "They hide your balance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Limits restrict the maximum amount that can be stolen in a single day or transaction."
+    },
+    {
+      "id": "adm-a2-w03-ex59",
+      "type": "fill-blank",
+      "prompt": "She ________ (not / log in) from a public computer.",
+      "answer": "didn't log in",
+      "explanation": "Negative past simple: didn't + base form (log in)."
+    },
+    {
+      "id": "adm-a2-w03-ex60",
+      "type": "multiple-choice",
+      "prompt": "A 'Security Breach' is when:",
+      "options": [
+        "You open the app",
+        "Data is accessed without authorization",
+        "You pay your bills",
+        "You change your email"
+      ],
+      "answerIndex": 1,
+      "explanation": "Breaches expose sensitive data to unauthorized parties."
+    },
+    {
+      "id": "adm-a2-w03-ex61",
+      "type": "matching",
+      "prompt": "Match the security actions with their purpose.",
+      "pairs": [
+        { "term": "Freeze Card", "definition": "Stop all transactions temporarily" },
+        { "term": "Change Password", "definition": "Secure a compromised account" },
+        { "term": "Report Fraud", "definition": "Start a legal investigation" },
+        { "term": "Set Limit", "definition": "Restrict maximum spending" }
+      ]
+    },
+    {
+      "id": "adm-a2-w03-ex62",
+      "type": "matching",
+      "prompt": "Match the term with its negative past simple form.",
+      "pairs": [
+        { "term": "Authorize", "definition": "Didn't authorize" },
+        { "term": "See", "definition": "Didn't see" },
+        { "term": "Know", "definition": "Didn't know" },
+        { "term": "Tell", "definition": "Didn't tell" }
+      ]
+    },
+    {
+      "id": "adm-a2-w03-ex63",
+      "type": "reading",
+      "title": "The Phishing Attempt",
+      "text": "Yesterday, Robert **received** a strange email. It **looked** like it **came** from his bank. The email **said**: 'Your account is blocked. Please click here to verify your identity.' Robert **didn't click** the link. Instead, he **opened** his bank app and **checked** his status. Everything **was** fine. He **realized** it **was** a phishing scam. He **didn't reply** to the email; he **forwarded** it to the bank's security department and then **deleted** it.",
+      "questions": [
+        {
+          "question": "What did the email ask Robert to do?",
+          "options": ["To buy a new card", "To click a link and verify identity", "To call a friend", "To go to a branch"],
+          "answerIndex": 1,
+          "explanation": "The email said 'Please click here to verify your identity'."
+        },
+        {
+          "question": "Did Robert click the link?",
+          "options": ["Yes, immediately", "No, he didn't", "He clicked it twice", "He asked his wife to click it"],
+          "answerIndex": 1,
+          "explanation": "The text states 'Robert didn't click the link'."
+        },
+        {
+          "question": "What did he do with the email finally?",
+          "options": ["He saved it", "He forwarded it and deleted it", "He replied to the hacker", "He ignored it completely"],
+          "answerIndex": 1,
+          "explanation": "He forwarded it to security and then deleted it."
+        }
+      ]
+    },
+    {
+      "id": "adm-a2-w03-ex64",
+      "type": "listening",
+      "title": "Fraud Investigation Call",
+      "transcript": "Agent: Good morning, this is the Global Bank Fraud Department. Did you authorize a $900 payment to 'London Electronics' today?\nCustomer: No, I didn't! I'm in Madrid right now. I didn't buy anything in London.\nAgent: I see. Did you lose your physical card?\nCustomer: No, I have it here in my wallet. Wait... I didn't see it this morning. Oh no, it's gone!\nAgent: Don't worry. I blocked the card now. Did you use the card yesterday?\nCustomer: Yes, I used it at a restaurant. I think I left it there.",
+      "questions": [
+        {
+          "question": "Where is the customer right now?",
+          "options": ["London", "Madrid", "The bank", "A restaurant"],
+          "answerIndex": 1,
+          "explanation": "The customer says 'I'm in Madrid right now'."
+        },
+        {
+          "question": "Does the customer have the card?",
+          "options": ["Yes, in the wallet", "No, it is gone", "It is in the car", "The hacker has it"],
+          "answerIndex": 1,
+          "explanation": "The customer realizes 'it's gone!' after checking the wallet."
+        },
+        {
+          "question": "Where did the customer probably leave the card?",
+          "options": ["At work", "At a restaurant", "In the airport", "In a shop"],
+          "answerIndex": 1,
+          "explanation": "The customer says 'I used it at a restaurant. I think I left it there'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a2-w03-ex65",
+      "type": "multiple-choice",
+      "prompt": "The past simple of 'scam' is:",
+      "options": [
+        "Scamed",
+        "Scammed",
+        "Scaming",
+        "Scam"
+      ],
+      "answerIndex": 1,
+      "explanation": "For 'scam', we double the final consonant and add -ed: scammed."
+    },
+    {
+      "id": "adm-a2-w03-ex66",
+      "type": "fill-blank",
+      "prompt": "The hacker ________ (scam) three people yesterday.",
+      "answer": "scammed",
+      "explanation": "The past simple of 'scam' is 'scammed'."
+    },
+    {
+      "id": "adm-a2-w03-ex67",
+      "type": "multiple-choice",
+      "prompt": "What is a 'compromised password'?",
+      "options": [
+        "A very long password",
+        "A password that someone else knows or stole",
+        "A password you forgot",
+        "A password for two different apps"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compromised means the secret is no longer secret."
+    },
+    {
+      "id": "adm-a2-w03-ex68",
+      "type": "fill-blank",
+      "prompt": "I ________ (not / find) any suspicious emails in my inbox.",
+      "answer": "didn't find",
+      "explanation": "Negative past simple: didn't + base form (find)."
+    },
+    {
+      "id": "adm-a2-w03-ex69",
+      "type": "multiple-choice",
+      "prompt": "What does it mean to 'verify' a transaction?",
+      "options": [
+        "To delete it",
+        "To confirm that it is legitimate",
+        "To pay for it twice",
+        "To hide it from the bank"
+      ],
+      "answerIndex": 1,
+      "explanation": "Verification is the process of proving a transaction is real and authorized."
+    },
+    {
+      "id": "adm-a2-w03-ex70",
+      "type": "fill-blank",
+      "prompt": "________ (you / report) the lost card to the police?",
+      "answer": "Did you report",
+      "explanation": "Past simple question: Did + subject + base form (report)."
+    },
+    {
+      "id": "adm-a2-w03-ex71",
+      "type": "reading",
+      "title": "Secure Online Shopping",
+      "text": "Last week, Sarah **wanted** to buy a new laptop online. She **didn't use** her main debit card. Instead, she **created** a disposable virtual card in her neobank app. She **set** a limit of $1000. She **bought** the laptop and then the app **destroyed** the card automatically. Later, a hacker **tried** to use the same card details, but the transaction **failed**. Sarah **felt** very safe with this technology.",
+      "questions": [
+        {
+          "question": "What kind of card did Sarah use?",
+          "options": ["A physical gold card", "A disposable virtual card", "Her friend's card", "A paper card"],
+          "answerIndex": 1,
+          "explanation": "She created a 'disposable virtual card'."
+        },
+        {
+          "question": "What happened to the card after the purchase?",
+          "options": ["It was renewed", "It was destroyed automatically", "It was lost", "It was blocked by the bank"],
+          "answerIndex": 1,
+          "explanation": "The text says 'the app destroyed the card automatically'."
+        },
+        {
+          "question": "Why did the hacker's attempt fail?",
+          "options": ["Because Sarah had no money", "Because the card no longer existed", "Because the bank was closed", "Because the hacker used the wrong PIN"],
+          "answerIndex": 1,
+          "explanation": "Since the card was disposable and destroyed after one use, it couldn't be used again."
+        }
+      ]
+    },
+    {
+      "id": "adm-a2-w03-ex72",
+      "type": "listening",
+      "title": "Setting Spending Limits",
+      "transcript": "Agent: Customer service, how can I help?\nCustomer: Hi, I want to set a daily limit on my card. I'm worried about security.\nAgent: Of course. I can do that for you. What limit do you want?\nCustomer: Can we set it to $500 per day?\nAgent: Yes. I updated your settings now. Did you also activate the push notifications?\nCustomer: Yes, I did that yesterday. I receive an alert for every cent I spend now.\nAgent: Perfect. That is very safe.",
+      "questions": [
+        {
+          "question": "Why does the customer want a spending limit?",
+          "options": ["To save money", "Because of security worries", "To win a prize", "To pay less taxes"],
+          "answerIndex": 1,
+          "explanation": "The customer says 'I'm worried about security'."
+        },
+        {
+          "question": "What is the new daily limit?",
+          "options": ["$100", "$500", "$1000", "$50"],
+          "answerIndex": 1,
+          "explanation": "The customer asks for '$500 per day'."
+        },
+        {
+          "question": "When did the customer activate push notifications?",
+          "options": ["Today", "Yesterday", "Last week", "A month ago"],
+          "answerIndex": 1,
+          "explanation": "The customer says 'I did that yesterday'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a2-w03-ex73",
+      "type": "fill-blank",
+      "prompt": "The thief ________ (not / steal) my phone, only my wallet.",
+      "answer": "didn't steal",
+      "explanation": "Negative past simple: didn't + base form (steal)."
+    },
+    {
+      "id": "adm-a2-w03-ex74",
+      "type": "multiple-choice",
+      "prompt": "If you 'dispute' a charge, you:",
+      "options": [
+        "Agree to pay it",
+        "Formally disagree with the charge and ask for an investigation",
+        "Pay it twice",
+        "Send a thank you note to the merchant"
+      ],
+      "answerIndex": 1,
+      "explanation": "Disputing is the official process for challenging a transaction on your statement."
+    },
+    {
+      "id": "adm-a2-w03-ex75",
+      "type": "writing",
+      "title": "Reporting Fraud",
+      "prompt": "Write a short email (30-50 words) to your bank. Explain that you didn't recognize a charge and you froze your card. Use 'didn't' and 'did'.",
+      "modelAnswer": "Subject: Unauthorized Charge. Hello, I checked my statement today and I didn't recognize a charge for $200 from 'TechWorld'. I froze my card immediately. Did you receive other reports about this merchant? Please investigate. Thank you.",
+      "keywords": ["didn't", "recognize", "froze", "investigate"]
     }
   ]
 }

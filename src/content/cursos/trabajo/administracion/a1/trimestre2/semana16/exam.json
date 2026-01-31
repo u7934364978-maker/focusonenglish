@@ -3,47 +3,87 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana16",
-  "title": "Examen: Objetos Financieros y Adjetivos",
+  "title": "Module 2: Week 16 Exam - Daily Routines",
   "items": [
     {
-      "id": "fin-a1-w16-e1",
-      "type": "multipleChoice",
-      "prompt": "Is your debit card ___?",
-      "options": ["new", "these", "there are", "next to"],
+      "id": "adm-a1-w16-exam-01",
+      "type": "multiple-choice",
+      "prompt": "I ______ my emails every morning at 8:30.",
+      "options": ["check", "checks", "checking"],
       "answerIndex": 0,
-      "explanation": "New is an adjective to describe the card."
+      "explanation": "With 'I', we use the base form of the verb."
     },
     {
-      "id": "fin-a1-w16-e2",
-      "type": "multipleChoice",
-      "prompt": "The internet in this office is very ___.",
-      "options": ["slow", "between", "those", "opposite"],
-      "answerIndex": 0,
-      "explanation": "Slow describes the speed."
+      "id": "adm-a1-w16-exam-02",
+      "type": "multiple-choice",
+      "prompt": "She always ______ the phone quickly.",
+      "options": ["answer", "answers", "answering"],
+      "answerIndex": 1,
+      "explanation": "With 'She', we add '-s' to the verb in the Present Simple."
     },
     {
-      "id": "fin-a1-w16-e3",
-      "type": "multipleChoice",
-      "prompt": "We have a ___ budget this year.",
-      "options": ["large", "these", "inside", "behind"],
-      "answerIndex": 0,
-      "explanation": "Large describes the size of the budget."
+      "id": "adm-a1-w16-exam-03",
+      "type": "fill-blank",
+      "prompt": "We [blank] a meeting every Monday.",
+      "blankValidation": [
+        { "index": 0, "answers": ["have", "attend", "start"], "caseSensitive": false }
+      ],
+      "explanation": "'We have a meeting' is a standard routine expression."
     },
     {
-      "id": "fin-a1-w16-e4",
-      "type": "multipleChoice",
-      "prompt": "That bank is very ___.",
-      "options": ["old", "opposite", "between", "these"],
-      "answerIndex": 0,
-      "explanation": "Old describes the building/institution."
+      "id": "adm-a1-w16-exam-04",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He finishes work at five",
+      "explanation": "Subject + Verb + Object + Time."
     },
     {
-      "id": "fin-a1-w16-e5",
-      "type": "multipleChoice",
-      "prompt": "This is a ___ mistake.",
-      "options": ["small", "opposite", "next to", "inside"],
+      "id": "adm-a1-w16-exam-05",
+      "type": "multiple-choice",
+      "prompt": "They ______ in the human resources department.",
+      "options": ["work", "works", "working"],
       "answerIndex": 0,
-      "explanation": "Small describes the error."
+      "explanation": "With 'They', we use the base form 'work'."
+    },
+    {
+      "id": "adm-a1-w16-exam-06",
+      "type": "multiple-choice",
+      "prompt": "The assistant ______ the documents every Friday.",
+      "options": ["file", "files", "filing"],
+      "answerIndex": 1,
+      "explanation": "'The assistant' is 3rd person singular, so we use 'files'."
+    },
+    {
+      "id": "adm-a1-w16-exam-07",
+      "type": "fill-blank",
+      "prompt": "I [blank] at work at 9:00 AM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["arrive", "start"], "caseSensitive": false }
+      ],
+      "explanation": "'I arrive' or 'I start' are correct for 'I'."
+    },
+    {
+      "id": "adm-a1-w16-exam-08",
+      "type": "multiple-choice",
+      "prompt": "You ______ a great job in the office.",
+      "options": ["do", "does", "doing"],
+      "answerIndex": 0,
+      "explanation": "With 'You', we use 'do'."
+    },
+    {
+      "id": "adm-a1-w16-exam-09",
+      "type": "multiple-choice",
+      "prompt": "The manager ______ the reports every month.",
+      "options": ["write", "writes", "writing"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'writes'."
+    },
+    {
+      "id": "adm-a1-w16-exam-10",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "We take a break at ten",
+      "explanation": "Nosotros tomamos un descanso a las diez."
     }
   ]
 }

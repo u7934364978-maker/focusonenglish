@@ -7,146 +7,866 @@
   "items": [
     {
       "id": "adm-b2-w17-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: Recruitment Progress Update (Doc A)",
-      "text": "Doc A — Internal HR Update: Project Manager Recruitment\n\nStatus Update:\n- Having reviewed over 100 applications, we have successfully shortlisted 5 candidates for the final interview stage.\n- Interviews are scheduled for next Tuesday and Wednesday. Hired for their extensive experience in Agile methodologies, these candidates represent the top 5% of our talent pool.\n- Reference checks are currently in progress for the top two choices. \n\nOnboarding Prep:\nKnowing that the successful candidate will need immediate access to the Jira board, I have requested IT to prepare the accounts in advance. Having completed the initial induction plan, we are now assigning a 'buddy' from the senior admin team to assist during the first week.",
-      "questions": [
-        {
-          "question": "How many candidates have been shortlisted for the final interview stage?",
-          "options": ["100", "5", "2"],
-          "answerIndex": 1,
-          "explanation": "Doc A states: 'we have successfully shortlisted 5 candidates'."
-        },
-        {
-          "question": "What has already been completed regarding the new hire's integration?",
-          "options": ["The Jira account setup", "The initial induction plan", "The first-week salary payment"],
-          "answerIndex": 1,
-          "explanation": "Doc A says: 'Having completed the initial induction plan...'"
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "According to the HR Update (Doc A), how many candidates have been shortlisted for the final interview stage?\n\nDoc A — Internal HR Update:\n- Having reviewed over 100 applications, we have successfully shortlisted 5 candidates for the final interview stage.\n- Interviews are scheduled for next Tuesday and Wednesday.",
+      "options": ["100", "5", "2", "10"],
+      "answerIndex": 1,
+      "explanation": "Doc A explicitly mentions that 5 candidates have been shortlisted."
     },
     {
       "id": "adm-b2-w17-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: HR Terminology. What is the process of integrating a new employee into the organisation called?",
+      "prompt": "Based on Doc A, what task is currently 'in progress' regarding the top two candidates?\n\nDoc A snippet: 'Reference checks are currently in progress for the top two choices.'",
       "options": [
-        "Sourcing",
-        "Shortlisting",
-        "Onboarding",
-        "Vetting"
+        "Jira account setup",
+        "Initial induction plan",
+        "Reference checks",
+        "Final contract signing"
       ],
       "answerIndex": 2,
-      "explanation": "Onboarding is the term for integrating a new hire."
+      "explanation": "The text states that reference checks are in progress for the top two choices."
     },
     {
       "id": "adm-b2-w17-ex03",
       "type": "multipleChoice",
-      "prompt": "Exercise 3: Induction. What is the main purpose of a 'buddy' during onboarding?",
+      "prompt": "What is the primary role of a 'buddy' in the onboarding process as described in the HR Update?\n\nDoc A snippet: 'we are now assigning a \"buddy\" from the senior admin team to assist during the first week.'",
       "options": [
-        "To monitor the new hire's work 24/7",
-        "To provide informal support and help the new hire settle in",
-        "To conduct the formal performance review",
-        "To replace the manager"
+        "To conduct the final interview",
+        "To assist the new hire during their first week",
+        "To monitor the new hire's internet usage",
+        "To replace the department manager"
       ],
       "answerIndex": 1,
-      "explanation": "A buddy provides informal guidance and support to help the new starter adjust."
+      "explanation": "The buddy is assigned to assist the new starter during their first week."
     },
     {
       "id": "adm-b2-w17-ex04",
       "type": "multipleChoice",
-      "prompt": "Exercise 4: Operational Chunks. Complete the sentence: 'We need to ___ a job description and then ___ the candidate's references.'",
-      "options": [
-        "draft / check",
-        "write / lose",
-        "send / ignore",
-        "read / hire"
-      ],
-      "answerIndex": 0,
-      "explanation": "Standard HR tasks involve 'drafting a job description' and 'checking references'."
+      "prompt": "Which HR term refers to the process of selecting the most suitable candidates from a large pool of applicants?",
+      "options": ["Onboarding", "Induction", "Shortlisting", "Vetting"],
+      "answerIndex": 2,
+      "explanation": "Shortlisting is the specific stage where the best candidates are selected for further consideration."
     },
     {
       "id": "adm-b2-w17-ex05",
-      "type": "writingTask",
-      "prompt": "Exercise 5: Present Participle. Combine these two sentences into one using an -ing participle clause: 'She works as an HR administrator. She manages all interview schedules.'",
-      "modelAnswer": "Working as an HR administrator, she manages all interview schedules.",
-      "keywords": ["Working", "manages"]
+      "type": "multipleChoice",
+      "prompt": "What does 'Onboarding' involve in an administrative context?",
+      "options": [
+        "Firing underperforming staff",
+        "Integrating a new employee and providing necessary equipment/access",
+        "Calculating the annual tax returns",
+        "Booking holiday travel for the CEO"
+      ],
+      "answerIndex": 1,
+      "explanation": "Onboarding is the process of integrating new hires into the company."
     },
     {
       "id": "adm-b2-w17-ex06",
-      "type": "writingTask",
-      "prompt": "Exercise 6: Perfect Participle. Combine these two sentences into one using a 'Having + Past Participle' clause: 'The recruiter reviewed the CVs. Then he sent the shortlist to the manager.'",
-      "modelAnswer": "Having reviewed the CVs, the recruiter sent the shortlist to the manager.",
-      "keywords": ["Having reviewed", "sent"]
+      "type": "multipleChoice",
+      "prompt": "In the recruitment lifecycle, 'Job Profiling' is defined as:",
+      "options": [
+        "Checking a candidate's social media",
+        "Defining the role and required competencies",
+        "Writing a rejection email",
+        "Setting the budget for the Christmas party"
+      ],
+      "answerIndex": 1,
+      "explanation": "Job profiling is the initial step of defining what the role entails and the skills required."
     },
     {
       "id": "adm-b2-w17-ex07",
-      "type": "writingTask",
-      "prompt": "Exercise 7: Extracting Data. Based on Doc A, list the two things that have been prepared or requested for the new hire's first week.",
-      "modelAnswer": "1. Jira board access (requested from IT). 2. Initial induction plan (completed).",
-      "keywords": ["Jira", "IT", "induction"]
+      "type": "multipleChoice",
+      "prompt": "What is the purpose of a 'screening call'?",
+      "options": [
+        "To offer the job immediately",
+        "To conduct a short initial interview to check basic suitability",
+        "To discuss salary and pension benefits in detail",
+        "To test the candidate's typing speed"
+      ],
+      "answerIndex": 1,
+      "explanation": "A screening call is a brief initial conversation to filter out unsuitable candidates."
     },
     {
       "id": "adm-b2-w17-ex08",
       "type": "multipleChoice",
-      "prompt": "Exercise 8: Courtesy Modals. How would you professionally ask a candidate to provide a missing reference?",
-      "options": [
-        "Send your reference now.",
-        "You forgot your reference.",
-        "Could you please provide the contact details for your second reference by the end of the day?",
-        "I wish you had sent the reference."
-      ],
-      "answerIndex": 2,
-      "explanation": "This is a polite and direct request using professional language."
+      "prompt": "Complete the HR task chunk: 'The HR manager is ready to ___ the contract.'",
+      "options": ["write", "issue", "ignore", "lose"],
+      "answerIndex": 1,
+      "explanation": "In a professional context, we 'issue' a contract to a new hire."
     },
     {
       "id": "adm-b2-w17-ex09",
-      "type": "writingTask",
-      "prompt": "Exercise 9: Interview Invitation Email. Write a short email (50-70 words) to a candidate inviting them to a second interview on Thursday at 10 AM. Include the location (Microsoft Teams).",
-      "modelAnswer": "Dear Alex, following our initial screening call, I’m pleased to invite you to a second interview this Thursday at 10 AM UK time. The interview will be conducted via Microsoft Teams; please find the link attached. We look forward to discussing the role further with you. Best regards, [Your Name]",
-      "keywords": ["invite", "second interview", "Teams", "link"]
+      "type": "multipleChoice",
+      "prompt": "Which task is considered a 'Pre-arrival' onboarding task?",
+      "options": [
+        "Setting up the new hire's laptop and email",
+        "Giving an office tour",
+        "Conducting the first 1-to-1 meeting",
+        "Introducing the employee to the CEO"
+      ],
+      "answerIndex": 0,
+      "explanation": "Technical setup like laptop and email must be done before the employee arrives."
     },
     {
       "id": "adm-b2-w17-ex10",
       "type": "multipleChoice",
-      "prompt": "Exercise 10: Candidate Vetting. What is a 'screening call'?",
-      "options": ["A long technical exam", "A short initial call to check basic suitability", "A final contract negotiation", "An exit interview"],
+      "prompt": "What is an 'Induction'?",
+      "options": [
+        "A formal exit interview",
+        "A formal introduction to a new job or organization",
+        "A method of firing people",
+        "A training session for senior managers only"
+      ],
       "answerIndex": 1,
-      "explanation": "A screening call is a brief initial interview used to filter candidates."
+      "explanation": "An induction is the structured process of introducing a new hire to the company and their role."
     },
     {
       "id": "adm-b2-w17-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Onboarding Intro. Record a 2-minute audio welcoming a new employee. Use at least one participle clause (e.g., 'Having joined the team...').",
-      "modelAnswer": "[Audio Upload Required] Rubric: Warmth, Clarity of induction steps, Correct use of Participle Clause.",
-      "keywords": ["welcome", "Having", "induction"]
+      "type": "multipleChoice",
+      "prompt": "Choose the most professional way to ask a candidate for their references:",
+      "options": [
+        "Give me your references now.",
+        "Why didn't you send your references?",
+        "Could you please provide the contact details for your two references by tomorrow morning?",
+        "I hope you have references."
+      ],
+      "answerIndex": 2,
+      "explanation": "This option is polite, clear, and provides a specific deadline."
     },
     {
       "id": "adm-b2-w17-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Candidate Feedback. Record a 60-second clip providing neutral feedback to a candidate who was not successful. Use 'Having considered your application...' to start.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Diplomatic tone, Clear message, Use of Participle Clause.",
-      "keywords": ["Having considered", "unsuccessful"]
+      "type": "multipleChoice",
+      "prompt": "What does a 'Reference Check' verify?",
+      "options": [
+        "The candidate's age",
+        "The candidate's professional history and character",
+        "The candidate's favorite food",
+        "The candidate's political views"
+      ],
+      "answerIndex": 1,
+      "explanation": "References are used to confirm previous employment and professional conduct."
     },
     {
       "id": "adm-b2-w17-ex13",
-      "type": "writingTask",
-      "prompt": "Exercise 13: Recruitment Summary Report (Portfolio). Write a 150-word summary of a recent recruitment campaign. Use at least three participle clauses to keep the report concise.",
-      "modelAnswer": "Recruitment Summary: Senior Ops Coordinator\n\nHaving launched the campaign in early March, we received 75 applications through our corporate portal. Working closely with the department head, I filtered the applicants based on their previous administrative experience. \n\nScreened for their technical proficiency, 10 candidates were invited to an initial call. Having completed the first round of interviews, we shortlisted three exceptional individuals for the final assessment. \n\nKnowing that the team is currently understaffed, we prioritized the reference checks and offered the position to Sarah Jenkins. Having accepted the offer, Sarah is scheduled to start on the 1st of next month. We have already initiated the onboarding process, including the IT setup and the assignment of an office buddy.",
-      "keywords": ["Summary", "Having launched", "Working", "Screened", "shortlisted"]
+      "type": "multipleChoice",
+      "prompt": "In an HR context, what is 'Vetting'?",
+      "options": [
+        "The process of cleaning the office",
+        "The background check and evaluation of a candidate's suitability",
+        "A type of medical insurance",
+        "A retirement party"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vetting is the thorough background checking of a candidate."
     },
     {
       "id": "adm-b2-w17-ex14",
-      "type": "writingTask",
-      "prompt": "Exercise 14: Onboarding Checklist Template. Complete a checklist for a 'New Starter'. Include: Pre-arrival, Day 1, and Week 1 tasks.",
-      "modelAnswer": "Pre-arrival: Laptop setup, Email creation. Day 1: Office tour, HR paperwork. Week 1: 1-to-1 with manager, System training.",
-      "keywords": ["Pre-arrival", "Day 1", "Week 1"]
+      "type": "multipleChoice",
+      "prompt": "Which document is essential for 'Right to Work' compliance in many countries?",
+      "options": [
+        "A valid passport or work permit",
+        "A library card",
+        "A high school diploma",
+        "A utility bill from 5 years ago"
+      ],
+      "answerIndex": 0,
+      "explanation": "Passports and work permits are standard proof of legal right to work."
     },
     {
       "id": "adm-b2-w17-ex15",
-      "type": "writingTask",
-      "prompt": "Exercise 15: Weekly Mini-test. 1) Define 'Shortlisting'. 2) What is an 'Induction'? 3) Complete the participle clause: '___ (finish) the report, I sent it to HR.' 4) What is the role of an office 'buddy'?",
-      "modelAnswer": "1) Selecting top candidates from a pool. 2) Introduction to a new role. 3) Having finished. 4) To provide informal support to a new hire.",
-      "keywords": ["Selecting", "Introduction", "Having", "informal"]
+      "type": "multipleChoice",
+      "prompt": "What is the main goal of a 'First-day schedule' for a new hire?",
+      "options": [
+        "To make them work 12 hours",
+        "To provide a structured and welcoming introduction to the team and office",
+        "To test their knowledge of the company handbook",
+        "To ensure they don't talk to anyone"
+      ],
+      "answerIndex": 1,
+      "explanation": "A first-day schedule helps the new starter feel integrated and informed."
+    },
+    {
+      "id": "adm-b2-w17-ex16",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'We need to ___ a job description for the new Admin Assistant role.'",
+      "options": ["draw", "draft", "sketch", "paint"],
+      "answerIndex": 1,
+      "explanation": "The professional term for writing a preliminary version of a document is 'to draft'."
+    },
+    {
+      "id": "adm-b2-w17-ex17",
+      "type": "multipleChoice",
+      "prompt": "When should an 'Initial Induction Plan' be completed?",
+      "options": [
+        "After the employee leaves the company",
+        "During the first few days or weeks of employment",
+        "Only if the employee asks for it",
+        "Once every five years"
+      ],
+      "answerIndex": 1,
+      "explanation": "Induction plans are for the start of the employment period."
+    },
+    {
+      "id": "adm-b2-w17-ex18",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a typical 'First-week milestone' for a new hire?",
+      "options": [
+        "Winning 'Employee of the Year'",
+        "Completing mandatory health and safety training",
+        "Getting a 50% pay rise",
+        "Taking a two-week holiday"
+      ],
+      "answerIndex": 1,
+      "explanation": "Basic training completion is a standard early milestone."
+    },
+    {
+      "id": "adm-b2-w17-ex19",
+      "type": "multipleChoice",
+      "prompt": "What is the administrative benefit of using an 'Onboarding Checklist'?",
+      "options": [
+        "It makes the process longer",
+        "It ensures no critical steps (like IT setup) are missed",
+        "It is required by law in every country",
+        "It replaces the need for a manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "Checklists help maintain consistency and ensure all tasks are completed."
+    },
+    {
+      "id": "adm-b2-w17-ex20",
+      "type": "multipleChoice",
+      "prompt": "How would you professionally inform a candidate that they were NOT successful after an interview?",
+      "options": [
+        "You failed the interview. Goodbye.",
+        "We found someone better than you.",
+        "Thank you for your time, but we have decided to move forward with another candidate who more closely matches our requirements.",
+        "We didn't like your answers."
+      ],
+      "answerIndex": 2,
+      "explanation": "This is a polite and standard way to deliver negative news in a professional setting."
+    },
+    {
+      "id": "adm-b2-w17-ex21",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Present Participle** (-ing) of the verb: '___ (work) as the HR lead, she managed over 50 recruitments last year.'",
+      "validation": [
+        { "rule": "^Working$", "isCorrect": true, "message": "Correct! 'Working' acts as a reason or circumstance." }
+      ],
+      "explanation": "The present participle '-ing' can describe the reason for the main action (Because she worked as...)."
+    },
+    {
+      "id": "adm-b2-w17-ex22",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Perfect Participle** (Having + Past Participle): '___ (review) the CVs, the team started the shortlisting process.'",
+      "validation": [
+        { "rule": "^Having reviewed$", "isCorrect": true, "message": "Correct! This shows the action was completed before the next one began." }
+      ],
+      "explanation": "The perfect participle shows that one action finished before another started."
+    },
+    {
+      "id": "adm-b2-w17-ex23",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Past Participle** (-ed): '___ (hire) for his technical skills, Alex soon became the team lead.'",
+      "validation": [
+        { "rule": "^Hired$", "isCorrect": true, "message": "Correct! The past participle has a passive meaning here (Because he was hired)." }
+      ],
+      "explanation": "The past participle 'Hired' indicates that the subject received the action."
+    },
+    {
+      "id": "adm-b2-w17-ex24",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Perfect Participle**: '___ (complete) the induction, the new starter was ready to begin work.'",
+      "validation": [
+        { "rule": "^Having completed$", "isCorrect": true, "message": "Correct! This indicates sequence." }
+      ],
+      "explanation": "Use 'Having + Past Participle' to show that the induction happened before being ready for work."
+    },
+    {
+      "id": "adm-b2-w17-ex25",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Present Participle**: '___ (know) the candidate's history, I felt confident in the recommendation.'",
+      "validation": [
+        { "rule": "^Knowing$", "isCorrect": true, "message": "Correct! This expresses the reason for feeling confident." }
+      ],
+      "explanation": "The present participle '-ing' can replace 'Because I knew...'"
+    },
+    {
+      "id": "adm-b2-w17-ex26",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Past Participle**: '___ (see) from an administrative perspective, the process is quite efficient.'",
+      "validation": [
+        { "rule": "^Seen$", "isCorrect": true, "message": "Correct! 'Seen' here means 'If it is seen...'" }
+      ],
+      "explanation": "The past participle can be used in conditional-style clauses with a passive sense."
+    },
+    {
+      "id": "adm-b2-w17-ex27",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Perfect Participle**: '___ (identify) a skill gap, the manager booked a workshop.'",
+      "validation": [
+        { "rule": "^Having identified$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Sequence: First the gap was identified, then the workshop was booked."
+    },
+    {
+      "id": "adm-b2-w17-ex28",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Present Participle**: '___ (want) to improve retention, the company introduced flexible hours.'",
+      "validation": [
+        { "rule": "^Wanting$", "isCorrect": true, "message": "Correct! This shows the motivation behind the action." }
+      ],
+      "explanation": "Present participles are often used to show purpose or reason."
+    },
+    {
+      "id": "adm-b2-w17-ex29",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Past Participle**: '___ (focus) on advanced CRM management, the training will last three days.'",
+      "validation": [
+        { "rule": "^Focused$", "isCorrect": true, "message": "Correct! (Because it is focused...)" }
+      ],
+      "explanation": "Past participles provide passive background information."
+    },
+    {
+      "id": "adm-b2-w17-ex30",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Perfect Participle**: '___ (process) the paperwork, the HR team issued the employee ID.'",
+      "validation": [
+        { "rule": "^Having processed$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "This shows the completion of the paperwork preceded the issuance of the ID."
+    },
+    {
+      "id": "adm-b2-w17-ex31",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Present Participle**: '___ (manage) the budget, he noticed several discrepancies.'",
+      "validation": [
+        { "rule": "^Managing$", "isCorrect": true, "message": "Correct! (While he was managing...)" }
+      ],
+      "explanation": "The present participle can indicate simultaneous actions (While...)."
+    },
+    {
+      "id": "adm-b2-w17-ex32",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Past Participle**: '___ (equip) with the latest software, the admin team worked faster.'",
+      "validation": [
+        { "rule": "^Equipped$", "isCorrect": true, "message": "Correct! (Because they were equipped...)" }
+      ],
+      "explanation": "Past participles can function as 'Because' clauses for passive states."
+    },
+    {
+      "id": "adm-b2-w17-ex33",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Perfect Participle**: '___ (conduct) the exit interview, the HR officer wrote a summary.'",
+      "validation": [
+        { "rule": "^Having conducted$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "The exit interview was finished before the summary was written."
+    },
+    {
+      "id": "adm-b2-w17-ex34",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Present Participle**: '___ (recognize) the importance of mental health, we offer wellness days.'",
+      "validation": [
+        { "rule": "^Recognizing$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Present participles express reasons or attitudes."
+    },
+    {
+      "id": "adm-b2-w17-ex35",
+      "type": "gap-fill",
+      "prompt": "Complete the sentence using the **Past Participle**: '___ (base) on the feedback, we have updated the induction checklist.'",
+      "validation": [
+        { "rule": "^Based$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Past participles are common in fixed phrases like 'Based on...'"
+    },
+    {
+      "id": "adm-b2-w17-ex36",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Grievance Procedure' in an HR context?",
+      "options": [
+        "A way to celebrate birthdays",
+        "A formal process for employees to raise complaints",
+        "A method for calculating bonuses",
+        "A system for tracking office supplies"
+      ],
+      "answerIndex": 1,
+      "explanation": "A grievance is a formal complaint raised by an employee."
+    },
+    {
+      "id": "adm-b2-w17-ex37",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Disciplinary Procedure' address?",
+      "options": [
+        "Employee misconduct or poor performance",
+        "Excellent sales results",
+        "The need for new office furniture",
+        "Planning the company picnic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Disciplinary procedures are used when rules are broken or performance is consistently low."
+    },
+    {
+      "id": "adm-b2-w17-ex38",
+      "type": "multipleChoice",
+      "prompt": "In workplace disputes, what is 'Mediation'?",
+      "options": [
+        "Firing both employees involved in a fight",
+        "Using a neutral third party to help resolve a conflict",
+        "Increasing the salary of the complaining employee",
+        "Ignoring the problem until it goes away"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mediation is a voluntary and confidential process for resolving disputes with help from a neutral party."
+    },
+    {
+      "id": "adm-b2-w17-ex39",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Employment Tribunal'?",
+      "options": [
+        "A type of office desk",
+        "A specialized court that hears disputes between employers and employees",
+        "A meeting to discuss marketing strategy",
+        "A software for tracking time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tribunals are legal bodies that settle workplace disputes."
+    },
+    {
+      "id": "adm-b2-w17-ex40",
+      "type": "multipleChoice",
+      "prompt": "What is 'Summary Dismissal'?",
+      "options": [
+        "Giving an employee a promotion",
+        "Termination of employment without notice, usually for gross misconduct",
+        "A short summary of a project",
+        "Sending an employee on a training course"
+      ],
+      "answerIndex": 1,
+      "explanation": "Summary dismissal is immediate firing for very serious offenses."
+    },
+    {
+      "id": "adm-b2-w17-ex41",
+      "type": "multipleChoice",
+      "prompt": "What does the term 'Attrition' refer to in HR?",
+      "options": [
+        "The hiring of new graduates",
+        "The gradual reduction of the workforce as people leave and are not replaced",
+        "The increase in office rent",
+        "The training of existing staff"
+      ],
+      "answerIndex": 1,
+      "explanation": "Attrition (or turnover) is the pace at which employees leave an organization."
+    },
+    {
+      "id": "adm-b2-w17-ex42",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of an 'Exit Interview'?",
+      "options": [
+        "To get the employee to change their mind",
+        "To understand why an employee is leaving and gather feedback",
+        "To give the employee a final warning",
+        "To calculate their final tax"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exit interviews help companies improve by learning from departing staff."
+    },
+    {
+      "id": "adm-b2-w17-ex43",
+      "type": "multipleChoice",
+      "prompt": "Which strategy is most effective for 'Employee Retention'?",
+      "options": [
+        "Never giving feedback",
+        "Offering professional development and career growth pathways",
+        "Making everyone work on weekends",
+        "Reducing the number of coffee breaks"
+      ],
+      "answerIndex": 1,
+      "explanation": "Growth opportunities are a key driver for employees to stay at a company."
+    },
+    {
+      "id": "adm-b2-w17-ex44",
+      "type": "multipleChoice",
+      "prompt": "What is 'Employee Engagement'?",
+      "options": [
+        "The process of getting married at work",
+        "The level of motivation and emotional commitment an employee has to their organization",
+        "The number of hours an employee is at their desk",
+        "The cost of hiring new staff"
+      ],
+      "answerIndex": 1,
+      "explanation": "Engagement reflects how connected and committed an employee feels to their work."
+    },
+    {
+      "id": "adm-b2-w17-ex45",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'To reduce the high ___ rate, we need to improve our workplace culture.'",
+      "options": ["attrition", "addition", "induction", "inflation"],
+      "answerIndex": 0,
+      "explanation": "Attrition rate is a standard HR metric for staff turnover."
+    },
+    {
+      "id": "adm-b2-w17-ex46",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Performance Appraisal'?",
+      "options": [
+        "A meeting to discuss a pay cut",
+        "A formal assessment of an employee's work performance and development",
+        "A session to fix broken computers",
+        "A recruitment event for external candidates"
+      ],
+      "answerIndex": 1,
+      "explanation": "Appraisals are regular reviews of how an employee is doing against their goals."
+    },
+    {
+      "id": "adm-b2-w17-ex47",
+      "type": "multipleChoice",
+      "prompt": "In the context of goal setting, what does the 'S' in SMART stand for?",
+      "options": ["Simple", "Specific", "Sudden", "Standard"],
+      "answerIndex": 1,
+      "explanation": "SMART goals must be Specific to be effective."
+    },
+    {
+      "id": "adm-b2-w17-ex48",
+      "type": "multipleChoice",
+      "prompt": "What does it mean for a goal to be 'Measurable' (the M in SMART)?",
+      "options": [
+        "It can be completed in a week",
+        "Progress can be tracked with data or evidence",
+        "It is a very big goal",
+        "It is relevant to the manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "Measurable goals have criteria to track progress and success."
+    },
+    {
+      "id": "adm-b2-w17-ex49",
+      "type": "multipleChoice",
+      "prompt": "A 'Time-bound' goal (the T in SMART) must have:",
+      "options": [
+        "A lot of money attached to it",
+        "A specific deadline or timeframe",
+        "A very long description",
+        "The approval of the whole team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Time-bound means there is a clear end date for completion."
+    },
+    {
+      "id": "adm-b2-w17-ex50",
+      "type": "multipleChoice",
+      "prompt": "What is the administrative role in 'Appraisals'?",
+      "options": [
+        "To tell the employee what they did wrong",
+        "To track review dates and prepare the necessary templates/documentation",
+        "To decide the employee's new salary",
+        "To conduct the entire meeting without the manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "Admins provide the logical and documentary support for the appraisal process."
+    },
+    {
+      "id": "adm-b2-w17-ex51",
+      "type": "multipleChoice",
+      "prompt": "Why is 'Follow-up' important after an appraisal meeting?",
+      "options": [
+        "To ensure the employee doesn't forget their goals",
+        "To monitor progress through regular 1-to-1s and provide support",
+        "To catch the employee making a mistake",
+        "To fill up the manager's calendar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Follow-up ensures that the goals set during the appraisal are being worked on."
+    },
+    {
+      "id": "adm-b2-w17-ex52",
+      "type": "multipleChoice",
+      "prompt": "What is a '1-to-1' meeting?",
+      "options": [
+        "A meeting between two rival companies",
+        "A regular, informal meeting between a manager and an employee to discuss work and wellbeing",
+        "A formal disciplinary hearing",
+        "A training session for 100 people"
+      ],
+      "answerIndex": 1,
+      "explanation": "1-to-1s are vital for continuous performance management."
+    },
+    {
+      "id": "adm-b2-w17-ex53",
+      "type": "multipleChoice",
+      "prompt": "What does 'Achievable' mean in the SMART framework?",
+      "options": [
+        "The goal is easy and requires no effort",
+        "The goal is realistic given the available resources and time",
+        "The goal is the most important one in the company",
+        "The goal has already been completed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Achievable goals are those that are possible to reach with effort."
+    },
+    {
+      "id": "adm-b2-w17-ex54",
+      "type": "multipleChoice",
+      "prompt": "How does 'Relevant' (the R in SMART) apply to an employee's goals?",
+      "options": [
+        "The goal should be related to the employee's hobbies",
+        "The goal should align with the broader business objectives and the employee's role",
+        "The goal should be interesting to read",
+        "The goal should be set by the HR department only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Relevant goals ensure that the employee's work contributes to the company's success."
+    },
+    {
+      "id": "adm-b2-w17-ex55",
+      "type": "multipleChoice",
+      "prompt": "Which document is often used for 'Self-assessment' before an appraisal?",
+      "options": ["A CV", "An appraisal preparation form", "A payroll report", "A job advertisement"],
+      "answerIndex": 1,
+      "explanation": "Preparation forms allow employees to reflect on their own performance before the meeting."
+    },
+    {
+      "id": "adm-b2-w17-ex56",
+      "type": "multipleChoice",
+      "prompt": "What is 'GDPR'?",
+      "options": [
+        "A type of HR software",
+        "A regulation in EU law on data protection and privacy",
+        "A method for calculating overtime pay",
+        "A global recruitment agency"
+      ],
+      "answerIndex": 1,
+      "explanation": "GDPR (General Data Protection Regulation) is a critical legal framework for handling personal data."
+    },
+    {
+      "id": "adm-b2-w17-ex57",
+      "type": "multipleChoice",
+      "prompt": "Who is a 'DPO' in a company?",
+      "options": [
+        "Director of Personnel Operations",
+        "Data Protection Officer",
+        "Digital Printing Operator",
+        "Departmental Project Organizer"
+      ],
+      "answerIndex": 1,
+      "explanation": "The DPO oversees data protection compliance within the organization."
+    },
+    {
+      "id": "adm-b2-w17-ex58",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Privacy Notice'?",
+      "options": [
+        "A sign on a manager's office door",
+        "A document explaining how a company handles and protects personal information",
+        "An email about a secret office party",
+        "A type of password"
+      ],
+      "answerIndex": 1,
+      "explanation": "Privacy notices are required by law to inform people about data processing."
+    },
+    {
+      "id": "adm-b2-w17-ex59",
+      "type": "multipleChoice",
+      "prompt": "In payroll, what is 'Gross Pay'?",
+      "options": [
+        "The amount you take home after tax",
+        "The total amount earned BEFORE any deductions are made",
+        "The amount of money the company owes the bank",
+        "The cost of employee insurance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gross pay is the full salary before tax, pension, etc."
+    },
+    {
+      "id": "adm-b2-w17-ex60",
+      "type": "multipleChoice",
+      "prompt": "What is 'Net Pay'?",
+      "options": [
+        "The total amount before tax",
+        "The 'take-home' pay after all deductions (tax, pension, etc.) have been made",
+        "The amount of a performance bonus",
+        "The cost of the office internet"
+      ],
+      "answerIndex": 1,
+      "explanation": "Net pay is what actually arrives in the employee's bank account."
+    },
+    {
+      "id": "adm-b2-w17-ex61",
+      "type": "multipleChoice",
+      "prompt": "What does 'Overtime' refer to?",
+      "options": [
+        "Time spent on coffee breaks",
+        "Additional pay for hours worked beyond the standard contract",
+        "Being late for work",
+        "Working on a difficult project"
+      ],
+      "answerIndex": 1,
+      "explanation": "Overtime pay is given for extra hours worked."
+    },
+    {
+      "id": "adm-b2-w17-ex62",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Pension Scheme'?",
+      "options": [
+        "A plan for office renovations",
+        "A system for saving money for retirement",
+        "A type of health insurance",
+        "A recruitment strategy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pensions are long-term savings for life after work."
+    },
+    {
+      "id": "adm-b2-w17-ex63",
+      "type": "multipleChoice",
+      "prompt": "In HR, what is 'Equality & Diversity'?",
+      "options": [
+        "Hiring people who all have the same degree",
+        "Ensuring the workplace is inclusive and free from discrimination",
+        "Making sure everyone has the same desk",
+        "Paying everyone the exact same salary"
+      ],
+      "answerIndex": 1,
+      "explanation": "Diversity and inclusion policies ensure fairness for all backgrounds."
+    },
+    {
+      "id": "adm-b2-w17-ex64",
+      "type": "multipleChoice",
+      "prompt": "Complete the payroll term: '___ contributions' (money taken from salary for retirement).",
+      "options": ["Tax", "Pension", "Health", "Social"],
+      "answerIndex": 1,
+      "explanation": "Employees often pay 'pension contributions' into a retirement fund."
+    },
+    {
+      "id": "adm-b2-w17-ex65",
+      "type": "multipleChoice",
+      "prompt": "What is 'Annual Leave'?",
+      "options": [
+        "Leaving the company once a year",
+        "Paid time off for holidays",
+        "A yearly performance review",
+        "A sick day"
+      ],
+      "answerIndex": 1,
+      "explanation": "Annual leave is the formal term for holiday entitlement."
+    },
+    {
+      "id": "adm-b2-w17-ex66",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Skill Gap'?",
+      "options": [
+        "A type of bridge",
+        "The difference between the skills required for a job and the skills an employee possesses",
+        "The time it takes to learn a new skill",
+        "A high level of expertise in one area"
+      ],
+      "answerIndex": 1,
+      "explanation": "A skill gap identifies where training is needed."
+    },
+    {
+      "id": "adm-b2-w17-ex67",
+      "type": "multipleChoice",
+      "prompt": "What does 'L&D' stand for in business?",
+      "options": [
+        "Logistics and Distribution",
+        "Learning and Development",
+        "Law and Discipline",
+        "Lead and Deliver"
+      ],
+      "answerIndex": 1,
+      "explanation": "L&D is the department or function focused on employee training."
+    },
+    {
+      "id": "adm-b2-w17-ex68",
+      "type": "multipleChoice",
+      "prompt": "What is 'Ergonomics' in the workplace?",
+      "options": [
+        "The study of office finance",
+        "The design of workspaces to fit the user's physical needs and prevent strain",
+        "A type of economic theory",
+        "The rules for office dress codes"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ergonomics ensures that desks, chairs, and tools are comfortable and safe."
+    },
+    {
+      "id": "adm-b2-w17-ex69",
+      "type": "multipleChoice",
+      "prompt": "What is 'E-learning'?",
+      "options": [
+        "Learning how to send emails",
+        "Online training modules that can be completed at the learner's own pace",
+        "An expensive type of university degree",
+        "Reading a book about technology"
+      ],
+      "answerIndex": 1,
+      "explanation": "E-learning is digital or electronic learning."
+    },
+    {
+      "id": "adm-b2-w17-ex70",
+      "type": "multipleChoice",
+      "prompt": "What is the purpose of a 'Training Needs Analysis' (TNA)?",
+      "options": [
+        "To decide who to fire",
+        "To identify specifically what training is required for a team or individual",
+        "To calculate the cost of office furniture",
+        "To hire new interns"
+      ],
+      "answerIndex": 1,
+      "explanation": "TNA helps plan effective training programs."
+    },
+    {
+      "id": "adm-b2-w17-ex71",
+      "type": "gap-fill",
+      "prompt": "Complete with the correct participle form: '___ (know) that the candidate needed a visa, I contacted the legal team.'",
+      "validation": [
+        { "rule": "^Knowing$", "isCorrect": true, "message": "Correct! (Because I knew...)" }
+      ],
+      "explanation": "Present participle used to show reason."
+    },
+    {
+      "id": "adm-b2-w17-ex72",
+      "type": "gap-fill",
+      "prompt": "Complete with the correct participle form: '___ (finish) the payroll run, Sarah went home.'",
+      "validation": [
+        { "rule": "^Having finished$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Perfect participle used for sequence."
+    },
+    {
+      "id": "adm-b2-w17-ex73",
+      "type": "gap-fill",
+      "prompt": "Complete with the correct participle form: 'The report, ___ (write) by the HR intern, was surprisingly detailed.'",
+      "validation": [
+        { "rule": "^written$", "isCorrect": true, "message": "Correct!" }
+      ],
+      "explanation": "Past participle used in a passive sense."
+    },
+    {
+      "id": "adm-b2-w17-ex74",
+      "type": "multipleChoice",
+      "prompt": "Which 'Wellbeing' initiative focuses on mental health?",
+      "options": [
+        "New office chairs",
+        "Access to counseling or wellness days",
+        "Free coffee",
+        "Faster internet"
+      ],
+      "answerIndex": 1,
+      "explanation": "Counseling and wellness days directly support mental wellbeing."
+    },
+    {
+      "id": "adm-b2-w17-ex75",
+      "type": "multipleChoice",
+      "prompt": "What is the role of HR administration in 'Health & Safety'?",
+      "options": [
+        "To ignore it",
+        "To track certifications, incident reports, and ensure policies are up to date",
+        "To put out actual fires",
+        "To perform surgery on injured staff"
+      ],
+      "answerIndex": 1,
+      "explanation": "HR admins manage the documentation and compliance side of safety."
     }
   ]
 }

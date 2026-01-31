@@ -1,35 +1,24 @@
 {
-  "title": "Dates & Deadlines",
+  "title": "Semana 11: Repaso del Módulo 1",
+  "description": "Repasa los conceptos clave de presentaciones, números y tareas diarias antes del examen final del trimestre.",
+  "objectives": [
+    "Repasar saludos y presentaciones profesionales",
+    "Consolidar el uso de números, fechas y horas",
+    "Reforzar el Present Simple para tareas y rutinas básicas"
+  ],
   "sections": [
     {
-      "id": "vocab-months",
-      "title": "Vocabulary: Months & Financial Cycles",
-      "content": "In finance, we use months to talk about the **Fiscal Year** (año fiscal) and deadlines:\n\n- **January - March**: First quarter (Q1).\n- **April - June**: Second quarter (Q2).\n- **July - September**: Third quarter (Q3).\n- **October - December**: Fourth quarter (Q4).\n\n*Remember: Months always start with a Capital Letter (January, February...)*"
+      "title": "Repaso: Quién Soy y Qué Hago",
+      "content": "Asegúrate de poder responder a estas preguntas con fluidez:\n\n- \"What is your name and job title?\"\n- \"Where are you from?\"\n- \"What do you do every day at work?\"\n- \"Do you use a computer?\""
     },
     {
-      "id": "diagram-billing",
-      "title": "Typical Billing Cycle",
-      "content": "```mermaid\ngraph TD\n    A[1st: Start of Month] --> B[15th: Invoice Sent]\n    B --> C[30th: Deadline/Due Date]\n    C -->|If not paid| D[Next Month: Late Fee]\n```"
+      "title": "Repaso: Datos de Contacto",
+      "content": "Practica dictar y entender:\n\n- Números de teléfono (uno a uno).\n- Direcciones de correo electrónico (at, dot).\n- Deletreo de nombres y apellidos."
     },
     {
-      "id": "vocab-dates",
-      "title": "Vocabulary: Ordinal Numbers for Deadlines",
-      "content": "We use ordinal numbers for specific days:\n\n- **1st** (First): *My salary arrives on the 1st.*\n- **15th** (Fifteenth): *The mid-month payment.*\n- **30th/31st** (Thirtieth/Thirty-first): *The end of the month.*\n- **Due Date**: The final day to pay (fecha de vencimiento)."
-    },
-    {
-      "id": "grammar-prepositions",
-      "title": "Grammar: Prepositions for Time (In, On, At)",
-      "content": "Use these rules for financial appointments:\n\n1. **In**: For months and years.\n   - *The report is due in March.*\n\n2. **On**: For specific days and dates.\n   - *The meeting is on Tuesday.*\n   - *The payment is on July 10th.*\n\n3. **At**: For specific times.\n   - *The bank closes at 4:30 PM.*"
+      "title": "Gramática Consolidada",
+      "content": "Puntos clave a recordar:\n\n- **Verb 'To Be'**: I am, you are, he is...\n- **Present Simple**: I work, I don't work, Do you work?\n- **Possessives**: My, your, his, her...\n- **Articles**: A, an, the."
     }
   ],
-  "objectives": [
-    "Identify months and quarters in a financial context",
-    "Use ordinal numbers to specify payment dates and deadlines",
-    "Apply 'in', 'on', and 'at' correctly to schedule financial tasks"
-  ],
-  "keyTerms": [
-    { "term": "Due Date", "definition": "The day you must finish a payment or task." },
-    { "term": "Fiscal Year", "definition": "A 12-month period used for government and business accounting." },
-    { "term": "Quarter", "definition": "A period of three months (Q1, Q2, Q3, Q4)." }
-  ]
+  "audioUrl": ""
 }

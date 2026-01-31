@@ -1,9 +1,13 @@
 {
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana10",
   "title": "Week 10 Final Exam: Digital Credit & Experience",
   "description": "Assessment on modern lending products like BNPL, credit scoring, and the grammar of life experiences using Present Perfect.",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w10-q01",
       "question": "What does BNPL allow a consumer to do?",
       "options": [
         "Pay for everything in cash immediately",
@@ -11,10 +15,11 @@
         "Borrow money from a friend via an app",
         "Invest in the stock market with high risk"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "BNPL (Buy Now, Pay Later) permite comprar algo ahora y pagarlo después en cuotas."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w10-q02",
       "question": "Which term describes the numerical representation of your creditworthiness?",
       "options": [
         "Credit Limit",
@@ -22,10 +27,11 @@
         "Credit Score",
         "APR"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "El 'Credit Score' es la puntuación numérica que indica qué tan fiable eres para recibir un crédito."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w10-q03",
       "question": "Complete the experience: 'I __________ never used a BNPL service for my shopping.'",
       "options": [
         "has",
@@ -33,10 +39,11 @@
         "have",
         "do"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Con el sujeto 'I', usamos 'have' para formar el presente perfecto de experiencias."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w10-q04",
       "question": "What is 'Instant Approval' in the context of digital loans?",
       "options": [
         "Waiting 3 weeks for a bank letter",
@@ -44,10 +51,11 @@
         "Asking your parents for money",
         "Paying a fee to get a faster response"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "La aprobación instantánea ocurre cuando un algoritmo decide si te dan el préstamo en segundos."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w10-q05",
       "question": "What is the past participle of the verb 'take'?",
       "options": [
         "Took",
@@ -55,10 +63,11 @@
         "Taken",
         "Taking"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "El participio pasado de 'take' es 'taken'."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w10-q06",
       "question": "Which of these is the annual cost of borrowing money, expressed as a percentage?",
       "options": [
         "Balance",
@@ -66,10 +75,11 @@
         "Grace Period",
         "Installment"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El APR (tipo de interés anual) es el coste total de pedir dinero prestado."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w10-q07",
       "question": "Complete the question: '__________ you ever applied for a credit limit increase?'",
       "options": [
         "Has",
@@ -77,10 +87,11 @@
         "Are",
         "Have"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "Para preguntas sobre experiencias en presente perfecto con 'you', usamos 'Have'."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w10-q08",
       "question": "If you 'default' on a loan, what have you done?",
       "options": [
         "Paid the full balance early",
@@ -88,10 +99,11 @@
         "Increased your credit score",
         "Signed a new contract"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Estar en 'default' significa que no has cumplido con los pagos acordados."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w10-q09",
       "question": "Complete the sentence: 'Sarah __________ already paid four installments of her car loan.'",
       "options": [
         "have",
@@ -99,10 +111,11 @@
         "has",
         "does"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Para la tercera persona singular (Sarah), usamos el auxiliar 'has'."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w10-q10",
       "question": "What is the 'Grace Period' on a credit card?",
       "options": [
         "The time when you can spend more than your limit",
@@ -110,10 +123,11 @@
         "The time it takes for a physical card to arrive",
         "The time you spend talking to a bank teller"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El periodo de gracia es el tiempo en el que no pagas intereses si liquidas tu deuda a tiempo."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w10-q11",
       "question": "Which verb is used in the Present Perfect for submitting a loan request?",
       "options": [
         "Applied",
@@ -121,10 +135,11 @@
         "Applies",
         "Apply"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "El participio pasado de 'apply' es 'applied'."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w10-q12",
       "question": "The total amount currently owed on a credit account is the...",
       "options": [
         "Limit",
@@ -132,10 +147,11 @@
         "Balance",
         "Default"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "El 'balance' es el saldo o cantidad total que le debes al banco actualmente."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w10-q13",
       "question": "Choose the correct sentence for a financial experience:",
       "options": [
         "I have pay the debt yesterday.",
@@ -143,10 +159,11 @@
         "I paid the debt since last year.",
         "I am paying the debt already."
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "La estructura correcta de presente perfecto es 'have' + participio pasado ('paid')."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w10-q14",
       "question": "What does a 'Micro-loan' usually refer to?",
       "options": [
         "A loan for millions of dollars",
@@ -154,10 +171,11 @@
         "A small, short-term loan often accessed via an app",
         "A loan that never has to be paid back"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Un micro-préstamo es un préstamo pequeño y de corta duración, común en apps de fintech."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w10-q15",
       "question": "Complete the negative experience: 'We __________ not received the funds in our account yet.'",
       "options": [
         "has",
@@ -165,10 +183,11 @@
         "have",
         "do"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Con 'We', el auxiliar correcto es 'have' para el presente perfecto."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w10-q16",
       "question": "What is the past participle of 'pay'?",
       "options": [
         "Payed",
@@ -176,10 +195,11 @@
         "Paying",
         "Pays"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El participio pasado de 'pay' es irregular: 'paid'."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w10-q17",
       "question": "Why is a high credit score important?",
       "options": [
         "It means you have a lot of friends",
@@ -187,10 +207,11 @@
         "It makes your phone work faster",
         "It hides your balance from the bank"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Un score alto te da acceso a mejores condiciones y menores tipos de interés."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w10-q18",
       "question": "In the Present Perfect, which word do we often use in questions about experiences?",
       "options": [
         "Never",
@@ -198,10 +219,11 @@
         "Ever",
         "Usually"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "'Ever' se usa en preguntas para preguntar si alguien ha hecho algo 'alguna vez'."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w10-q19",
       "question": "What is a 'Credit Limit'?",
       "options": [
         "The minimum you must pay each month",
@@ -209,10 +231,11 @@
         "The cost of the plastic card",
         "The date the card expires"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El límite de crédito es la cantidad máxima que el banco te permite gastar o pedir prestada."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w10-q20",
       "question": "Complete: 'Has he __________ his credit report this month?'",
       "options": [
         "check",
@@ -220,7 +243,8 @@
         "checked",
         "checks"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Después de 'has', necesitamos el participio pasado 'checked'."
     }
   ]
 }

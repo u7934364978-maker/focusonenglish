@@ -1,98 +1,215 @@
 {
-  "title": "Week 34 Assessment: Global Trade & Logistics",
-  "questions": [
+  "goal": "administracion",
+  "level": "B2",
+  "trimester": 3,
+  "weekId": "semana34",
+  "examId": "adm-b2-w34-exam",
+  "title": "Exam: Global Trade, Logistics & Supply Chain Management",
+  "items": [
     {
-      "id": "q1",
-      "type": "multiple-choice",
-      "question": "What are Incoterms?",
+      "id": "adm-b2-w34-exam-1",
+      "type": "multipleChoice",
+      "prompt": "What are Incoterms?",
       "options": [
         "Internal accounting terms",
         "International Commercial Terms for trade",
         "Taxes on imported services",
         "Types of freight insurance"
       ],
-      "answer": "International Commercial Terms for trade"
+      "answerIndex": 1,
+      "explanation": "Incoterms define the responsibilities of buyers and sellers in international trade."
     },
     {
-      "id": "q2",
-      "type": "multiple-choice",
-      "question": "What does 'Lead Time' refer to?",
+      "id": "adm-b2-w34-exam-2",
+      "type": "multipleChoice",
+      "prompt": "What does 'Lead Time' refer to in logistics?",
       "options": [
         "The time the leader spends in meetings",
-        "The total time from order to delivery",
+        "The total time from the initiation to the completion of a process",
         "The weight of the shipment",
-        "The cost of the materials"
+        "The cost of the raw materials"
       ],
-      "answer": "The total time from order to delivery"
+      "answerIndex": 1,
+      "explanation": "Lead time is the duration between starting and finishing a production or delivery process."
     },
     {
-      "id": "q3",
-      "type": "multiple-choice",
-      "question": "Which preposition follows 'comply'?",
+      "id": "adm-b2-w34-exam-3",
+      "type": "multipleChoice",
+      "prompt": "Which preposition correctly follows 'comply'?",
       "options": ["to", "for", "with", "by"],
-      "answer": "with"
+      "answerIndex": 2,
+      "explanation": "We say 'comply with' regulations or rules."
     },
     {
-      "id": "q4",
-      "type": "multiple-choice",
-      "question": "Identify the correct combination: 'The demand ______ skilled logistics managers is rising.'",
+      "id": "adm-b2-w34-exam-4",
+      "type": "multipleChoice",
+      "prompt": "Identify the correct combination: 'The demand ______ skilled logistics managers is rising.'",
       "options": ["of", "for", "on", "in"],
-      "answer": "for"
+      "answerIndex": 1,
+      "explanation": "The correct collocation is 'demand for'."
     },
     {
-      "id": "q5",
-      "type": "multiple-choice",
-      "question": "What is a 'Bill of Lading'?",
+      "id": "adm-b2-w34-exam-5",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Bill of Lading'?",
       "options": [
         "A final invoice for the customer",
-        "A document detailing the cargo and its destination",
+        "A document detailing the cargo and acting as a receipt from the carrier",
         "A permit to export restricted goods",
         "A certificate of origin"
       ],
-      "answer": "A document detailing the cargo and its destination"
+      "answerIndex": 1,
+      "explanation": "The Bill of Lading is a critical legal document in international shipping."
     },
     {
-      "id": "q6",
-      "type": "fill-in-the-blank",
-      "question": "They specialize ______ (in / on) international maritime law.",
-      "answer": "in"
+      "id": "adm-b2-w34-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: 'They specialize ______ international maritime law.'",
+      "options": ["on", "at", "in", "to"],
+      "answerIndex": 2,
+      "explanation": "To 'specialize in' means to focus on a particular area of expertise."
     },
     {
-      "id": "q7",
-      "type": "fill-in-the-blank",
-      "question": "The port congestion had a negative impact ______ (at / on) our quarterly results.",
-      "answer": "on"
+      "id": "adm-b2-w34-exam-7",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct preposition: 'The port congestion had a negative impact ______ our quarterly results.'",
+      "options": ["at", "on", "in", "with"],
+      "answerIndex": 1,
+      "explanation": "An 'impact' is always 'on' something."
     },
     {
-      "id": "q8",
-      "type": "multiple-choice",
-      "question": "What is 'Customs Clearance'?",
+      "id": "adm-b2-w34-exam-8",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customs Clearance'?",
       "options": [
         "Cleaning the customs office",
-        "The process of getting goods through a border",
-        "Paying all company taxes",
+        "The process of passing goods through a border and paying duties",
+        "Paying all internal company taxes",
         "Hiring new warehouse staff"
       ],
-      "answer": "The process of getting goods through a border"
+      "answerIndex": 1,
+      "explanation": "Customs clearance is the formal entry/exit process for goods."
     },
     {
-      "id": "q9",
-      "type": "multiple-choice",
-      "question": "Which verb means to 'explain' or 'be the cause of'?",
+      "id": "adm-b2-w34-exam-9",
+      "type": "multipleChoice",
+      "prompt": "Which verb phrase means 'to explain' or 'to be the cause of'?",
       "options": ["Account for", "Benefit from", "Specialize in", "Comply with"],
-      "answer": "Account for"
+      "answerIndex": 0,
+      "explanation": "For example: 'Logistics costs account for 10% of our budget.'"
     },
     {
-      "id": "q10",
-      "type": "multiple-choice",
-      "question": "A 'Freight Forwarder' is responsible for ______.",
+      "id": "adm-b2-w34-exam-10",
+      "type": "multipleChoice",
+      "prompt": "A 'Freight Forwarder' is primarily responsible for:",
       "options": [
         "Manufacturing the products",
-        "Arranging the transportation of goods",
+        "Arranging the transportation of goods for other companies",
         "Selling the goods to the end consumer",
         "Designing the packaging"
       ],
-      "answer": "Arranging the transportation of goods"
+      "answerIndex": 1,
+      "explanation": "Freight forwarders act as expert intermediaries in logistics."
+    },
+    {
+      "id": "adm-b2-w34-exam-11",
+      "type": "multipleChoice",
+      "prompt": "Which Incoterm means the buyer is responsible for everything from the seller's factory?",
+      "options": ["FOB", "EXW", "CIF", "DDP"],
+      "answerIndex": 1,
+      "explanation": "EXW (Ex Works) represents the minimum obligation for the seller."
+    },
+    {
+      "id": "adm-b2-w34-exam-12",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'Exporters may be eligible ______ tax rebates if they meet the criteria.'",
+      "options": ["to", "for", "with", "at"],
+      "answerIndex": 1,
+      "explanation": "To be 'eligible for' something means you are qualified to receive it."
+    },
+    {
+      "id": "adm-b2-w34-exam-13",
+      "type": "multipleChoice",
+      "prompt": "What does 'DDP' stand for in Incoterms?",
+      "options": [
+        "Delivery During Production",
+        "Delivered Duty Paid",
+        "Direct Delivery Process",
+        "Department of Delivery Protocol"
+      ],
+      "answerIndex": 1,
+      "explanation": "DDP means the seller handles all costs and duties until delivery."
+    },
+    {
+      "id": "adm-b2-w34-exam-14",
+      "type": "multipleChoice",
+      "prompt": "Which term refers to a tax on imported goods?",
+      "options": ["Rebate", "Tariff", "Lead time", "Premises"],
+      "answerIndex": 1,
+      "explanation": "Tariffs are duties imposed by governments on imports."
+    },
+    {
+      "id": "adm-b2-w34-exam-15",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'The company is liable ______ the damage to the containers.'",
+      "options": ["to", "for", "with", "at"],
+      "answerIndex": 1,
+      "explanation": "To be 'liable for' means to be legally responsible for a cost."
+    },
+    {
+      "id": "adm-b2-w34-exam-16",
+      "type": "multipleChoice",
+      "prompt": "What is 'safety stock' used for?",
+      "options": [
+        "To increase profits",
+        "To buffer against unexpected delays or demand",
+        "To replace old machines",
+        "To pay the employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Safety stock mitigates the risk of running out of inventory."
+    },
+    {
+      "id": "adm-b2-w34-exam-17",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct preposition: 'This software is not compatible ______ our ERP.'",
+      "options": ["to", "with", "for", "at"],
+      "answerIndex": 1,
+      "explanation": "'Compatible' is followed by 'with'."
+    },
+    {
+      "id": "adm-b2-w34-exam-18",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Procurement' phase of a supply chain?",
+      "options": [
+        "Selling the product",
+        "Finding and acquiring raw materials",
+        "Storing the goods",
+        "Fixing broken products"
+      ],
+      "answerIndex": 1,
+      "explanation": "Procurement is the sourcing and acquisition stage."
+    },
+    {
+      "id": "adm-b2-w34-exam-19",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'They are exempt ______ import duties due to the trade agreement.'",
+      "options": ["to", "of", "from", "at"],
+      "answerIndex": 2,
+      "explanation": "To be 'exempt from' means a rule or tax does not apply."
+    },
+    {
+      "id": "adm-b2-w34-exam-20",
+      "type": "multipleChoice",
+      "prompt": "What does a 'Carrier' do?",
+      "options": [
+        "Manufactures goods",
+        "Transports goods professionally",
+        "Sells goods to customers",
+        "Hires new employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carriers (ships, trucks, planes) move the cargo."
     }
   ]
 }

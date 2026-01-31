@@ -3,165 +3,782 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana13",
-  "title": "Prices & Office Purchases",
+  "title": "Exercises: Office Supplies and Articles",
   "items": [
     {
-      "id": "fin-a1-w13-01",
-      "type": "matching",
-      "prompt": "Match the term with its description:",
-      "pairs": [
-        { "left": "E-receipt", "right": "A digital proof of payment" },
-        { "left": "Budget", "right": "The total money you can spend" },
-        { "left": "Cashless", "right": "Paying with apps or cards" },
-        { "left": "Bulk buy", "right": "Buying 100 pens to save money" }
-      ],
-      "explanation": "These terms are common in modern business shopping."
-    },
-    {
-      "id": "fin-a1-w13-02",
+      "id": "adm-a1-w13-ex01",
       "type": "multipleChoice",
-      "prompt": "I don't want paper. Please send me an ______.",
-      "options": ["E-receipt", "Expensive", "ATM"],
-      "answerIndex": 0,
-      "explanation": "An e-receipt is sent via email or app."
-    },
-    {
-      "id": "fin-a1-w13-03",
-      "type": "multipleChoice",
-      "prompt": "______ three new laptops in the budget.",
-      "options": ["There is", "There are", "Is there"],
+      "prompt": "How do you say 'bolígrafo' in English?",
+      "options": ["Pencil", "Pen", "Paper", "Folder"],
       "answerIndex": 1,
-      "explanation": "Use 'There are' for plural (three laptops)."
+      "explanation": "A 'pen' is a bolígrafo. A 'pencil' is a lápiz."
     },
     {
-      "id": "fin-a1-w13-04",
-      "type": "fillBlanks",
-      "prompt": "This store is [blank]. They do not accept cash.",
-      "answers": ["cashless"],
-      "explanation": "Cashless stores only accept digital payments."
-    },
-    {
-      "id": "fin-a1-w13-05",
+      "id": "adm-a1-w13-ex02",
       "type": "multipleChoice",
-      "prompt": "Is there a ______ for the delivery?",
-      "options": ["fee", "cheap", "any"],
+      "prompt": "Choose the correct article: I need ___ eraser.",
+      "options": ["a", "an", "the", "none"],
+      "answerIndex": 1,
+      "explanation": "Use 'an' before words starting with a vowel sound (eraser)."
+    },
+    {
+      "id": "adm-a1-w13-ex03",
+      "type": "multipleChoice",
+      "prompt": "What is 'grapadora' in English?",
+      "options": ["Scissors", "Stapler", "Tape", "Glue"],
+      "answerIndex": 1,
+      "explanation": "'Stapler' is the word for grapadora."
+    },
+    {
+      "id": "adm-a1-w13-ex04",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: Please give me ___ pen on the table.",
+      "options": ["a", "an", "the", "any"],
+      "answerIndex": 2,
+      "explanation": "Use 'the' for specific objects already identified (the one on the table)."
+    },
+    {
+      "id": "adm-a1-w13-ex05",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'carpeta' in English?",
+      "options": ["Notebook", "File", "Folder", "Desk"],
+      "answerIndex": 2,
+      "explanation": "'Folder' is the most common word for a physical folder (carpeta)."
+    },
+    {
+      "id": "adm-a1-w13-ex06",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: This is ___ new office.",
+      "options": ["a", "an", "the", "none"],
       "answerIndex": 0,
-      "explanation": "A fee is an extra cost for a service."
+      "explanation": "Use 'a' before words starting with a consonant sound (new)."
     },
     {
-      "id": "fin-a1-w13-06",
-      "type": "writing",
-      "prompt": "Write a sentence using 'There are' to say there are two printers in your office.",
-      "example": "There are two printers in my office.",
-      "explanation": "Remember to use 'are' for plural."
+      "id": "adm-a1-w13-ex07",
+      "type": "multipleChoice",
+      "prompt": "Where do you sit in the office?",
+      "options": ["On a desk", "On a chair", "On a stapler", "On a folder"],
+      "answerIndex": 1,
+      "explanation": "You sit on a chair. A desk is the table where you work."
     },
     {
-      "id": "fin-a1-w13-07",
-      "type": "rolePlay",
-      "prompt": "Role-play: You are buying a new desk. Ask the seller: 'How much is this desk?' and 'Is there a delivery fee?'",
-      "scenario": "Buying office furniture.",
-      "suggestedPhrases": [
-        "How much is it?",
-        "Is there a discount?",
-        "Can I have an e-receipt?"
+      "id": "adm-a1-w13-ex08",
+      "type": "multipleChoice",
+      "prompt": "What is 'cuaderno' in English?",
+      "options": ["Book", "Magazine", "Notebook", "Newspaper"],
+      "answerIndex": 2,
+      "explanation": "'Notebook' is a cuaderno."
+    },
+    {
+      "id": "adm-a1-w13-ex09",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: She has ___ orange folder.",
+      "options": ["a", "an", "the", "some"],
+      "answerIndex": 1,
+      "explanation": "Use 'an' before 'orange' because it starts with a vowel."
+    },
+    {
+      "id": "adm-a1-w13-ex10",
+      "type": "multipleChoice",
+      "prompt": "What do you use to cut paper?",
+      "options": ["Scissors", "Glue", "Tape", "A pen"],
+      "answerIndex": 0,
+      "explanation": "Scissors are used for cutting."
+    },
+    {
+      "id": "adm-a1-w13-ex11",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: I have ___ meeting at 2 PM.",
+      "options": ["a", "an", "the", "any"],
+      "answerIndex": 0,
+      "explanation": "Use 'a' before 'meeting' (consonant sound)."
+    },
+    {
+      "id": "adm-a1-w13-ex12",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'escritorio' in English?",
+      "options": ["Table", "Chair", "Desk", "Shelves"],
+      "answerIndex": 2,
+      "explanation": "'Desk' is the specific word for an office table."
+    },
+    {
+      "id": "adm-a1-w13-ex13",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: Where is ___ printer?",
+      "options": ["a", "an", "the", "any"],
+      "answerIndex": 2,
+      "explanation": "Usually we use 'the' for the office printer because everyone knows which one it is."
+    },
+    {
+      "id": "adm-a1-w13-ex14",
+      "type": "multipleChoice",
+      "prompt": "What is 'pegamento' in English?",
+      "options": ["Glue", "Tape", "Sticker", "Label"],
+      "answerIndex": 0,
+      "explanation": "'Glue' is pegamento."
+    },
+    {
+      "id": "adm-a1-w13-ex15",
+      "type": "multipleChoice",
+      "prompt": "What is 'cinta adhesiva' in English?",
+      "options": ["String", "Tape", "Paper", "Rubber band"],
+      "answerIndex": 1,
+      "explanation": "'Tape' (or adhesive tape) is cinta adhesiva."
+    },
+    {
+      "id": "adm-a1-w13-ex16",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: I am using ___ old computer.",
+      "options": ["a", "an", "the", "none"],
+      "answerIndex": 1,
+      "explanation": "'An' is used before 'old' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w13-ex17",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'papelería' (the supplies themselves)?",
+      "options": ["Stationery", "Furniture", "Equipment", "Garbage"],
+      "answerIndex": 0,
+      "explanation": "'Stationery' refers to pens, paper, envelopes, etc."
+    },
+    {
+      "id": "adm-a1-w13-ex18",
+      "type": "multipleChoice",
+      "prompt": "What is 'sujetapapeles' (clips)?",
+      "options": ["Paper clips", "Staplers", "Folders", "Pens"],
+      "answerIndex": 0,
+      "explanation": "'Paper clips' are small metal or plastic items to hold papers together."
+    },
+    {
+      "id": "adm-a1-w13-ex19",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: Look at ___ whiteboard.",
+      "options": ["a", "an", "the", "any"],
+      "answerIndex": 2,
+      "explanation": "Use 'the' for a specific whiteboard in the room."
+    },
+    {
+      "id": "adm-a1-w13-ex20",
+      "type": "multipleChoice",
+      "prompt": "What is 'agenda' (the physical book)?",
+      "options": ["Diary / Planner", "Notebook", "Folder", "Paper"],
+      "answerIndex": 0,
+      "explanation": "A 'planner' or 'diary' is used to record appointments."
+    },
+    {
+      "id": "adm-a1-w13-ex21",
+      "type": "multipleChoice",
+      "prompt": "How do you say 'sobres' in English?",
+      "options": ["Papers", "Envelopes", "Cards", "Letters"],
+      "answerIndex": 1,
+      "explanation": "'Envelopes' is the word for sobres."
+    },
+    {
+      "id": "adm-a1-w13-ex22",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: We need ___ assistant.",
+      "options": ["a", "an", "the", "some"],
+      "answerIndex": 1,
+      "explanation": "'An' before 'assistant' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w13-ex23",
+      "type": "multipleChoice",
+      "prompt": "What is 'sacapuntas'?",
+      "options": ["Pencil sharpener", "Eraser", "Ruler", "Marker"],
+      "answerIndex": 0,
+      "explanation": "'Pencil sharpener' is sacapuntas."
+    },
+    {
+      "id": "adm-a1-w13-ex24",
+      "type": "multipleChoice",
+      "prompt": "What is 'regla' in English?",
+      "options": ["Rule", "Ruler", "Tape", "Level"],
+      "answerIndex": 1,
+      "explanation": "'Ruler' is the object used to measure or draw straight lines."
+    },
+    {
+      "id": "adm-a1-w13-ex25",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct article: He is ___ administrator.",
+      "options": ["a", "an", "the", "no"],
+      "answerIndex": 1,
+      "explanation": "Use 'an' with professions starting with a vowel."
+    },
+    {
+      "id": "adm-a1-w13-ex26",
+      "type": "fillBlanks",
+      "prompt": "I need ___ (un) pencil, please.",
+      "blankValidation": [
+        { "index": 0, "answer": "a" }
+      ],
+      "explanation": "'A' before consonant 'pencil'."
+    },
+    {
+      "id": "adm-a1-w13-ex27",
+      "type": "fillBlanks",
+      "prompt": "Can you give me ___ (el) blue folder?",
+      "blankValidation": [
+        { "index": 0, "answer": "the" }
+      ],
+      "explanation": "'The' for a specific object."
+    },
+    {
+      "id": "adm-a1-w13-ex28",
+      "type": "fillBlanks",
+      "prompt": "There is ___ (un) eraser in the drawer.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "'An' before vowel 'eraser'."
+    },
+    {
+      "id": "adm-a1-w13-ex29",
+      "type": "fillBlanks",
+      "prompt": "Where is the ___ (grapadora)?",
+      "blankValidation": [
+        { "index": 0, "answer": "stapler" }
+      ],
+      "explanation": "Grapadora is 'stapler'."
+    },
+    {
+      "id": "adm-a1-w13-ex30",
+      "type": "fillBlanks",
+      "prompt": "I have ___ (una) idea for the meeting.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "'An' before vowel 'idea'."
+    },
+    {
+      "id": "adm-a1-w13-ex31",
+      "type": "fillBlanks",
+      "prompt": "Put the papers in the ___ (carpeta).",
+      "blankValidation": [
+        { "index": 0, "answer": "folder" }
+      ],
+      "explanation": "Carpeta is 'folder'."
+    },
+    {
+      "id": "adm-a1-w13-ex32",
+      "type": "fillBlanks",
+      "prompt": "The ___ (silla) is very comfortable.",
+      "blankValidation": [
+        { "index": 0, "answer": "chair" }
+      ],
+      "explanation": "Silla is 'chair'."
+    },
+    {
+      "id": "adm-a1-w13-ex33",
+      "type": "fillBlanks",
+      "prompt": "I need ___ (un) new desk.",
+      "blankValidation": [
+        { "index": 0, "answer": "a" }
+      ],
+      "explanation": "'A' before consonant 'new'."
+    },
+    {
+      "id": "adm-a1-w13-ex34",
+      "type": "fillBlanks",
+      "prompt": "Is there ___ (una) printer in this room?",
+      "blankValidation": [
+        { "index": 0, "answer": "a" }
+      ],
+      "explanation": "'A' before consonant 'printer'."
+    },
+    {
+      "id": "adm-a1-w13-ex35",
+      "type": "fillBlanks",
+      "prompt": "Open the ___ (sobre) carefully.",
+      "blankValidation": [
+        { "index": 0, "answer": "envelope" }
+      ],
+      "explanation": "Sobre is 'envelope'."
+    },
+    {
+      "id": "adm-a1-w13-ex36",
+      "type": "fillBlanks",
+      "prompt": "I use a ___ (cuaderno) for my notes.",
+      "blankValidation": [
+        { "index": 0, "answer": "notebook" }
+      ],
+      "explanation": "Cuaderno is 'notebook'."
+    },
+    {
+      "id": "adm-a1-w13-ex37",
+      "type": "fillBlanks",
+      "prompt": "We need more ___ (papel).",
+      "blankValidation": [
+        { "index": 0, "answer": "paper" }
+      ],
+      "explanation": "Papel is 'paper'."
+    },
+    {
+      "id": "adm-a1-w13-ex38",
+      "type": "fillBlanks",
+      "prompt": "She wants ___ (una) expensive pen.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "'An' before 'expensive' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w13-ex39",
+      "type": "fillBlanks",
+      "prompt": "Where are the ___ (tijeras)?",
+      "blankValidation": [
+        { "index": 0, "answer": "scissors" }
+      ],
+      "explanation": "Tijeras is 'scissors'."
+    },
+    {
+      "id": "adm-a1-w13-ex40",
+      "type": "fillBlanks",
+      "prompt": "I have ___ (una) urgent email.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "'An' before 'urgent' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w13-ex41",
+      "type": "fillBlanks",
+      "prompt": "Please buy a ___ (regla) at the shop.",
+      "blankValidation": [
+        { "index": 0, "answer": "ruler" }
+      ],
+      "explanation": "Regla is 'ruler'."
+    },
+    {
+      "id": "adm-a1-w13-ex42",
+      "type": "fillBlanks",
+      "prompt": "He is ___ (un) honest employee.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "Wait, 'honest' starts with a silent 'h', so we use 'an' because the sound is a vowel."
+    },
+    {
+      "id": "adm-a1-w13-ex43",
+      "type": "fillBlanks",
+      "prompt": "Do you have ___ (una) highlighter?",
+      "blankValidation": [
+        { "index": 0, "answer": "a" }
+      ],
+      "explanation": "'Highlighter' starts with a consonant sound 'h', so use 'a'."
+    },
+    {
+      "id": "adm-a1-w13-ex44",
+      "type": "fillBlanks",
+      "prompt": "I need ___ (el) report on my desk.",
+      "blankValidation": [
+        { "index": 0, "answer": "the" }
+      ],
+      "explanation": "'The' for a specific object."
+    },
+    {
+      "id": "adm-a1-w13-ex45",
+      "type": "fillBlanks",
+      "prompt": "Is this ___ (un) office supply?",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "'An' before vowel 'office'."
+    },
+    {
+      "id": "adm-a1-w13-ex46",
+      "type": "matching",
+      "prompt": "Match the supplies with their translations:",
+      "matchingData": [
+        { "term": "Pen", "definition": "Bolígrafo" },
+        { "term": "Pencil", "definition": "Lápiz" },
+        { "term": "Paper", "definition": "Papel" },
+        { "term": "Folder", "definition": "Carpeta" }
+      ],
+      "explanation": "Basic office stationery terms."
+    },
+    {
+      "id": "adm-a1-w13-ex47",
+      "type": "matching",
+      "prompt": "Match the furniture with their translations:",
+      "matchingData": [
+        { "term": "Desk", "definition": "Escritorio" },
+        { "term": "Chair", "definition": "Silla" },
+        { "term": "Shelf", "definition": "Estantería" },
+        { "term": "Drawer", "definition": "Cajón" }
+      ],
+      "explanation": "Basic office furniture."
+    },
+    {
+      "id": "adm-a1-w13-ex48",
+      "type": "matching",
+      "prompt": "Match the action with the tool:",
+      "matchingData": [
+        { "term": "To cut", "definition": "Scissors" },
+        { "term": "To write", "definition": "Pen" },
+        { "term": "To staple", "definition": "Stapler" },
+        { "term": "To erase", "definition": "Eraser" }
+      ],
+      "explanation": "Tools and their functions."
+    },
+    {
+      "id": "adm-a1-w13-ex49",
+      "type": "matching",
+      "prompt": "Match the article rule with the example:",
+      "matchingData": [
+        { "term": "A", "definition": "A notebook" },
+        { "term": "An", "definition": "An office" },
+        { "term": "The", "definition": "The blue pen" }
+      ],
+      "explanation": "Article usage examples."
+    },
+    {
+      "id": "adm-a1-w13-ex50",
+      "type": "matching",
+      "prompt": "Match the stationery terms:",
+      "matchingData": [
+        { "term": "Envelope", "definition": "Sobre" },
+        { "term": "Tape", "definition": "Cinta" },
+        { "term": "Glue", "definition": "Pegamento" },
+        { "term": "Clip", "definition": "Clip / Sujetapapeles" }
+      ],
+      "explanation": "More office supplies."
+    },
+    {
+      "id": "adm-a1-w13-ex51",
+      "type": "matching",
+      "prompt": "Match the synonyms or related terms:",
+      "matchingData": [
+        { "term": "Notebook", "definition": "Pad" },
+        { "term": "Planner", "definition": "Diary" },
+        { "term": "Folder", "definition": "File" },
+        { "term": "Supplies", "definition": "Stationery" }
+      ],
+      "explanation": "Commonly related terms in the office."
+    },
+    {
+      "id": "adm-a1-w13-ex52",
+      "type": "matching",
+      "prompt": "Match the English term with the Spanish:",
+      "matchingData": [
+        { "term": "Pencil sharpener", "definition": "Sacapuntas" },
+        { "term": "Ruler", "definition": "Regla" },
+        { "term": "Highlighter", "definition": "Subrayador" },
+        { "term": "Marker", "definition": "Rotulador" }
+      ],
+      "explanation": "Writing and marking tools."
+    },
+    {
+      "id": "adm-a1-w13-ex53",
+      "type": "matching",
+      "prompt": "Match the plural with the singular:",
+      "matchingData": [
+        { "term": "Pens", "definition": "Pen" },
+        { "term": "Boxes", "definition": "Box" },
+        { "term": "Folders", "definition": "Folder" },
+        { "term": "Desks", "definition": "Desk" }
+      ],
+      "explanation": "Singular and plural forms of office items."
+    },
+    {
+      "id": "adm-a1-w13-ex54",
+      "type": "matching",
+      "prompt": "Match the word to its first letter sound (for articles):",
+      "matchingData": [
+        { "term": "Stapler", "definition": "Consonant (A)" },
+        { "term": "Assistant", "definition": "Vowel (An)" },
+        { "term": "Manager", "definition": "Consonant (A)" },
+        { "term": "Expert", "definition": "Vowel (An)" }
+      ],
+      "explanation": "Determining which article to use."
+    },
+    {
+      "id": "adm-a1-w13-ex55",
+      "type": "matching",
+      "prompt": "Match the equipment with the supply:",
+      "matchingData": [
+        { "term": "Printer", "definition": "Ink / Paper" },
+        { "term": "Stapler", "definition": "Staples" },
+        { "term": "Pencil", "definition": "Lead / Graphite" },
+        { "term": "Tape dispenser", "definition": "Tape" }
+      ],
+      "explanation": "Related items."
+    },
+    {
+      "id": "adm-a1-w13-ex56",
+      "type": "matching",
+      "prompt": "Match the supply with the location:",
+      "matchingData": [
+        { "term": "Chair", "definition": "On the floor" },
+        { "term": "Pen", "definition": "In the drawer" },
+        { "term": "Computer", "definition": "On the desk" },
+        { "term": "Paper", "definition": "In the printer" }
+      ],
+      "explanation": "Typical locations for items."
+    },
+    {
+      "id": "adm-a1-w13-ex57",
+      "type": "matching",
+      "prompt": "Match the office objects:",
+      "matchingData": [
+        { "term": "Whiteboard", "definition": "Pizarra" },
+        { "term": "Projector", "definition": "Proyector" },
+        { "term": "Screen", "definition": "Pantalla" },
+        { "term": "Keyboard", "definition": "Teclado" }
+      ],
+      "explanation": "Office and computer hardware."
+    },
+    {
+      "id": "adm-a1-w13-ex58",
+      "type": "matching",
+      "prompt": "Match the quantities:",
+      "matchingData": [
+        { "term": "A", "definition": "One (Consonant)" },
+        { "term": "An", "definition": "One (Vowel)" },
+        { "term": "The", "definition": "Specific" }
+      ],
+      "explanation": "Rules summary."
+    },
+    {
+      "id": "adm-a1-w13-ex59",
+      "type": "matching",
+      "prompt": "Match the Spanish with the English:",
+      "matchingData": [
+        { "term": "Goma", "definition": "Eraser" },
+        { "term": "Lápiz", "definition": "Pencil" },
+        { "term": "Papel", "definition": "Paper" },
+        { "term": "Sobre", "definition": "Envelope" }
+      ],
+      "explanation": "Vocabulary review."
+    },
+    {
+      "id": "adm-a1-w13-ex60",
+      "type": "matching",
+      "prompt": "Match the department with the typical item:",
+      "matchingData": [
+        { "term": "Reception", "definition": "Visitor log" },
+        { "term": "Accounting", "definition": "Calculator" },
+        { "term": "HR", "definition": "Employee files" },
+        { "term": "IT", "definition": "Cables / Servers" }
+      ],
+      "explanation": "Contextual items."
+    },
+    {
+      "id": "adm-a1-w13-ex61",
+      "type": "reading-comprehension",
+      "passage": "John is a new administrator. Today is his first day. On his desk, there is a computer, a black chair, and a notebook. He needs a pen and an eraser. He looks in the drawer. He finds a pencil and some paper clips. He says, 'I need to go to the supply room to get the stapler and the glue.'",
+      "questions": [
+        {
+          "question": "What is John's job?",
+          "options": ["Manager", "Administrator", "IT technician", "Teacher"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What color is the chair?",
+          "options": ["Blue", "Red", "Black", "White"],
+          "answerIndex": 2
+        },
+        {
+          "question": "What does he find in the drawer?",
+          "options": ["A stapler", "A pencil", "Glue", "A computer"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Where does he need to go?",
+          "options": ["To the kitchen", "To the supply room", "To the meeting room", "Home"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Which article is used before 'eraser' in the text?",
+          "options": ["a", "an", "the", "some"],
+          "answerIndex": 1
+        }
       ]
     },
     {
-      "id": "fin-a1-w13-08",
-      "type": "multipleChoice",
-      "prompt": "______ a manager in the office today?",
-      "options": ["Is there", "Are there", "There is"],
-      "answerIndex": 0,
-      "explanation": "Use 'Is there' for singular questions."
+      "id": "adm-a1-w13-ex62",
+      "type": "reading-comprehension",
+      "passage": "We have a big order of stationery today. We need 500 envelopes, 20 boxes of paper, and 10 new folders. The manager also wants a whiteboard for the meeting room. We don't have an extra stapler, so we need to buy one. The total cost is 200 dollars.",
+      "questions": [
+        {
+          "question": "How many envelopes do they need?",
+          "options": ["50", "100", "500", "200"],
+          "answerIndex": 2
+        },
+        {
+          "question": "What does the manager want?",
+          "options": ["A printer", "A whiteboard", "A desk", "A chair"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Do they have an extra stapler?",
+          "options": ["Yes, they do", "No, they don't", "Maybe", "They have ten"],
+          "answerIndex": 1
+        },
+        {
+          "question": "How many boxes of paper are in the order?",
+          "options": ["10", "20", "50", "200"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What is the total cost?",
+          "options": ["100 dollars", "200 dollars", "500 dollars", "Free"],
+          "answerIndex": 1
+        }
+      ]
     },
     {
-      "id": "fin-a1-w13-09",
-      "type": "multipleChoice",
-      "prompt": "This chair is only $10. It is very ______.",
-      "options": ["cheap", "expensive", "budget"],
-      "answerIndex": 0,
-      "explanation": "Cheap means it doesn't cost much money."
+      "id": "adm-a1-w13-ex63",
+      "type": "reading-comprehension",
+      "passage": "My desk is very organized. I have a computer in the center. On the left, there is a lamp and a notebook. On the right, there is a cup of coffee and a pen. I have an organizer for my folders. I like a clean workspace.",
+      "questions": [
+        {
+          "question": "Where is the computer?",
+          "options": ["On the left", "On the right", "In the center", "Under the desk"],
+          "answerIndex": 2
+        },
+        {
+          "question": "What is on the left?",
+          "options": ["A cup of coffee", "A lamp and a notebook", "A printer", "A stapler"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What is on the right?",
+          "options": ["A lamp", "A notebook", "A cup of coffee and a pen", "A computer"],
+          "answerIndex": 2
+        },
+        {
+          "question": "Does the person have an organizer?",
+          "options": ["Yes, for folders", "No", "Yes, for pens", "Maybe"],
+          "answerIndex": 0
+        },
+        {
+          "question": "What kind of workspace does the person like?",
+          "options": ["Messy", "Clean", "Big", "Small"],
+          "answerIndex": 1
+        }
+      ]
     },
     {
-      "id": "fin-a1-w13-10",
+      "id": "adm-a1-w13-ex64",
+      "type": "reading-comprehension",
+      "passage": "Office supplies are expensive. A good chair costs 150 euros. A desk costs 200 euros. Stationery like pens and paper are cheap. An eraser is only 50 cents. It is important to save materials.",
+      "questions": [
+        {
+          "question": "How much does a chair cost?",
+          "options": ["100 euros", "150 euros", "200 euros", "50 euros"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What is cheap according to the text?",
+          "options": ["Chairs", "Desks", "Stationery", "Computers"],
+          "answerIndex": 2
+        },
+        {
+          "question": "How much is an eraser?",
+          "options": ["1 euro", "50 cents", "2 euros", "Free"],
+          "answerIndex": 1
+        },
+        {
+          "question": "Which item costs 200 euros?",
+          "options": ["Chair", "Desk", "Computer", "Printer"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What is important to do?",
+          "options": ["Spend money", "Save materials", "Buy chairs", "Work hard"],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w13-ex65",
+      "type": "writingTask",
+      "instructions": "Write a sentence using the word 'stapler' and the article 'a'.",
+      "example": "I need a stapler for these documents.",
+      "explanation": "Practices vocabulary and article usage."
+    },
+    {
+      "id": "adm-a1-w13-ex66",
+      "type": "writingTask",
+      "instructions": "Write a sentence using 'an' and 'eraser'.",
+      "example": "She has an eraser in her pencil case.",
+      "explanation": "Practices 'an' before a vowel sound."
+    },
+    {
+      "id": "adm-a1-w13-ex67",
+      "type": "writingTask",
+      "instructions": "Describe one item on your desk in English.",
+      "example": "There is a blue notebook on my desk.",
+      "explanation": "Descriptive writing in an office context."
+    },
+    {
+      "id": "adm-a1-w13-ex68",
+      "type": "writingTask",
+      "instructions": "Write a short request for a new folder.",
+      "example": "Please, I need a new folder for the client file.",
+      "explanation": "Practices making simple requests."
+    },
+    {
+      "id": "adm-a1-w13-ex69",
+      "type": "writingTask",
+      "instructions": "Write a sentence using 'the' to refer to a specific printer.",
+      "example": "The printer is in the hallway.",
+      "explanation": "Practices definite article usage."
+    },
+    {
+      "id": "adm-a1-w13-ex70",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT stationery?",
+      "options": ["Envelopes", "A chair", "Paper clips", "Markers"],
+      "answerIndex": 1,
+      "explanation": "A chair is furniture, not stationery."
+    },
+    {
+      "id": "adm-a1-w13-ex71",
+      "type": "multipleChoice",
+      "prompt": "I see ___ apple on the desk.",
+      "options": ["a", "an", "the", "none"],
+      "answerIndex": 1,
+      "explanation": "Use 'an' before 'apple' (vowel sound)."
+    },
+    {
+      "id": "adm-a1-w13-ex72",
       "type": "fillBlanks",
-      "prompt": "We need to check the [blank] before we buy the computer.",
-      "answers": ["budget"],
-      "explanation": "You check the budget to see if you have enough money."
+      "prompt": "___ (El) manager is in the meeting.",
+      "blankValidation": [
+        { "index": 0, "answer": "The" }
+      ],
+      "explanation": "Specific person: The manager."
     },
     {
-      "id": "fin-a1-w13-11",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
-      "sentence": "Is there a receipt in the bag?",
-      "explanation": "¿Hay un recibo en la bolsa?"
-    },
-    {
-      "id": "fin-a1-w13-12",
-      "type": "multipleChoice",
-      "prompt": "The total ______ is 50 euros.",
-      "options": ["price", "change", "bulk"],
-      "answerIndex": 0,
-      "explanation": "Price is the total amount to pay."
-    },
-    {
-      "id": "fin-a1-w13-13",
+      "id": "adm-a1-w13-ex73",
       "type": "fillBlanks",
-      "prompt": "I have my money in my [blank].",
-      "answers": ["wallet"],
-      "explanation": "You keep cash and cards in a wallet."
+      "prompt": "We need ___ (una) old desk for the storage room.",
+      "blankValidation": [
+        { "index": 0, "answer": "an" }
+      ],
+      "explanation": "'An' before 'old'."
     },
     {
-      "id": "fin-a1-w13-14",
+      "id": "adm-a1-w13-ex74",
+      "type": "matching",
+      "prompt": "Match the colors with the supply (typical combinations):",
+      "matchingData": [
+        { "term": "Black", "definition": "Ink" },
+        { "term": "White", "definition": "Paper" },
+        { "term": "Yellow", "definition": "Highlighter" },
+        { "term": "Silver", "definition": "Paper clips" }
+      ],
+      "explanation": "Common office item descriptions."
+    },
+    {
+      "id": "adm-a1-w13-ex75",
       "type": "multipleChoice",
-      "prompt": "I don't have ______ cash today.",
-      "options": ["any", "some", "a"],
-      "answerIndex": 0,
-      "explanation": "Use 'any' for negative sentences."
-    },
-    {
-      "id": "fin-a1-w13-15",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "There are three pens in the drawer",
-      "explanation": "Hay tres bolígrafos en el cajón."
-    },
-    {
-      "id": "fin-a1-w13-16",
-      "type": "writing",
-      "prompt": "Translate to English: '¿Hay un cajero cerca?'",
-      "example": "Is there an ATM near here?",
-      "explanation": "Use 'Is there' for '¿Hay?' (singular)."
-    },
-    {
-      "id": "fin-a1-w13-17",
-      "type": "multipleChoice",
-      "prompt": "This laptop costs $3000. It is very ______.",
-      "options": ["expensive", "cheap", "bulk"],
-      "answerIndex": 0,
-      "explanation": "Expensive means it costs a lot."
-    },
-    {
-      "id": "fin-a1-w13-18",
-      "type": "fillBlanks",
-      "prompt": "Can I pay [blank] credit card?",
-      "answers": ["by"],
-      "explanation": "We say 'pay by card'."
-    },
-    {
-      "id": "fin-a1-w13-19",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "There is a new computer",
-      "explanation": "Hay un ordenador nuevo."
-    },
-    {
-      "id": "fin-a1-w13-20",
-      "type": "multipleChoice",
-      "prompt": "______ any chairs in the meeting room?",
-      "options": ["Are there", "Is there", "There are"],
-      "answerIndex": 0,
-      "explanation": "Use 'Are there' for plural questions."
+      "prompt": "What is the correct way to say 'Unas tijeras' (plural)?",
+      "options": ["A scissors", "An scissors", "Some scissors", "A pair of scissors"],
+      "answerIndex": 3,
+      "explanation": "In English, we say 'a pair of scissors' for one item that is grammatically plural."
     }
   ]
 }

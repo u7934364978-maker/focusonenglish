@@ -1,208 +1,909 @@
 {
-  "title": "Digital Shopping Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana30",
+  "title": "Exercises: Professional Thanks and Follow-ups",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a1-w30-ex01",
       "type": "multiple-choice",
-      "question": "Where do you put items before you pay online?",
-      "options": ["In the mailbox", "In the shopping cart", "In the vault", "In the cloud"],
-      "correctAnswer": 1,
-      "explanation": "The 'shopping cart' or 'basket' holds items you plan to buy."
+      "prompt": "Which phrase is used to thank someone for their time?",
+      "options": [
+        "I appreciate your time.",
+        "I need your time.",
+        "Time is money.",
+        "What time is it?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'I appreciate your time' is a formal and polite way to say thank you."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "________ (este) phone on my screen is very expensive.",
-      "answer": "This",
-      "explanation": "'This' is for a singular item near you (or on your screen)."
+      "id": "adm-a1-w30-ex02",
+      "type": "multiple-choice",
+      "prompt": "What does 'Feedback' mean?",
+      "options": [
+        "Comida rápida",
+        "Retroalimentación/Comentarios",
+        "Una llamada",
+        "Un calendario"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Feedback' refers to the comments or reactions given about a task or performance."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the shopping terms:",
+      "id": "adm-a1-w30-ex03",
+      "type": "fill-blank",
+      "prompt": "Can you help ________ (mí)? I have a problem.",
+      "answer": "me",
+      "explanation": "'Me' is the object pronoun for the first person singular."
+    },
+    {
+      "id": "adm-a1-w30-ex04",
+      "type": "multiple-choice",
+      "prompt": "How do you start a follow-up email?",
+      "options": [
+        "I am writing to follow up on our meeting.",
+        "I am follow up.",
+        "Follow up me please.",
+        "I follow up on you."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I am writing to follow up on...' is a standard professional opening."
+    },
+    {
+      "id": "adm-a1-w30-ex05",
+      "type": "matching",
+      "prompt": "Match the subject pronouns with the object pronouns:",
       "pairs": [
-        { "term": "Promo Code", "definition": "Digital discount" },
-        { "term": "Checkout", "definition": "Final payment step" },
-        { "term": "Wishlist", "definition": "Items for later" }
+        { "term": "I", "definition": "Me" },
+        { "term": "He", "definition": "Him" },
+        { "term": "She", "definition": "Her" },
+        { "term": "They", "definition": "Them" }
       ]
     },
     {
-      "id": "ex4",
+      "id": "adm-a1-w30-ex06",
       "type": "multiple-choice",
-      "question": "What does 'BNPL' mean?",
-      "options": ["Bank Notes Pay Low", "Buy Now, Pay Later", "Business New Price List", "Big National Payment Loan"],
-      "correctAnswer": 1,
-      "explanation": "BNPL allows you to buy an item and pay in parts (installments)."
+      "prompt": "Translate: 'Gracias por la información'.",
+      "options": [
+        "Thank you for the information.",
+        "Thanks by the information.",
+        "Thank you to the information.",
+        "Thanks the information."
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'Thank you for' + the reason for thanks."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "I want to buy ________ (esos) shoes from that other website.",
-      "answer": "those",
-      "explanation": "'Those' is for plural items far away (or on another site)."
+      "id": "adm-a1-w30-ex07",
+      "type": "fill-blank",
+      "prompt": "I saw ________ (a él) in the hallway this morning.",
+      "answer": "him",
+      "explanation": "'Him' is the object pronoun for 'he'."
     },
     {
-      "id": "ex6",
+      "id": "adm-a1-w30-ex08",
       "type": "multiple-choice",
-      "question": "If a product is 'Overpriced', it is...",
-      "options": ["Cheap", "A bargain", "Too expensive", "Free"],
-      "correctAnswer": 2,
-      "explanation": "Overpriced means the price is higher than the value."
+      "prompt": "What is the purpose of a follow-up email?",
+      "options": [
+        "To say hello only.",
+        "To continue a previous conversation or action.",
+        "To complain about the weather.",
+        "To delete a file."
+      ],
+      "answerIndex": 1,
+      "explanation": "A follow-up is intended to maintain momentum on a previous topic or task."
     },
     {
-      "id": "ex7",
-      "type": "vocabulary-match",
-      "question": "Match the demonstratives:",
+      "id": "adm-a1-w30-ex09",
+      "type": "fill-blank",
+      "prompt": "Thank you for ________ (ayudar) me with the report.",
+      "answer": "helping",
+      "explanation": "After the preposition 'for', we use the gerund (-ing) form of the verb."
+    },
+    {
+      "id": "adm-a1-w30-ex10",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I called she yesterday.",
+        "I called her yesterday.",
+        "I called she's yesterday.",
+        "I called hers yesterday."
+      ],
+      "answerIndex": 1,
+      "explanation": "We use the object pronoun 'her' after the verb 'called'."
+    },
+    {
+      "id": "adm-a1-w30-ex11",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the speaker thankful for?",
+      "transcript": "Dear team, many thanks for your support during the busy season. We appreciate all your hard work.",
+      "options": ["The coffee", "The support", "The vacation", "The weather"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'many thanks for your support'."
+    },
+    {
+      "id": "adm-a1-w30-ex12",
+      "type": "listening",
+      "prompt": "Listen and identify the pronoun used:",
+      "transcript": "Please send the file to them as soon as possible.",
+      "options": ["Us", "Them", "Him", "Her"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'send the file to them'."
+    },
+    {
+      "id": "adm-a1-w30-ex13",
+      "type": "listening",
+      "prompt": "Listen and answer: Why is the speaker writing?",
+      "transcript": "Hello Sarah, I am writing to follow up on the invoice I sent last Friday. Has it been processed?",
+      "options": ["To say thank you", "To follow up on an invoice", "To cancel a meeting", "To ask for a day off"],
+      "answerIndex": 1,
+      "explanation": "The speaker explicitly says: 'I am writing to follow up on the invoice'."
+    },
+    {
+      "id": "adm-a1-w30-ex14",
+      "type": "listening",
+      "prompt": "Listen and complete the phrase: 'I ________ your feedback.'",
+      "transcript": "Thank you for the presentation. I really appreciate your feedback.",
+      "options": ["need", "appreciate", "want", "like"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'I really appreciate your feedback'."
+    },
+    {
+      "id": "adm-a1-w30-ex15",
+      "type": "listening",
+      "prompt": "Listen and identify who received the help:",
+      "transcript": "The manager helped us with the difficult client yesterday. We are very grateful.",
+      "options": ["Me", "Them", "Us", "Him"],
+      "answerIndex": 2,
+      "explanation": "The speaker says: 'The manager helped us'."
+    },
+    {
+      "id": "adm-a1-w30-ex16",
+      "type": "listening",
+      "prompt": "Listen and answer: When will the speaker follow up again?",
+      "transcript": "I will follow up with you again on Wednesday morning.",
+      "options": ["Monday", "Tuesday", "Wednesday", "Friday"],
+      "answerIndex": 2,
+      "explanation": "The speaker mentions 'Wednesday morning'."
+    },
+    {
+      "id": "adm-a1-w30-ex17",
+      "type": "listening",
+      "prompt": "Listen and answer: What did the person provide?",
+      "transcript": "Thank you for providing the update on the project status.",
+      "options": ["A coffee", "An update", "A pen", "A computer"],
+      "answerIndex": 1,
+      "explanation": "The speaker thanks the person for 'providing the update'."
+    },
+    {
+      "id": "adm-a1-w30-ex18",
+      "type": "listening",
+      "prompt": "Listen and identify the object:",
+      "transcript": "I found it on the desk. You can take it now.",
+      "options": ["He", "She", "It", "They"],
+      "answerIndex": 2,
+      "explanation": "The speaker uses the pronoun 'it'."
+    },
+    {
+      "id": "adm-a1-w30-ex19",
+      "type": "listening",
+      "prompt": "Listen and answer: Who is the speaker thanking?",
+      "transcript": "Thank you, Mr. Henderson, for the opportunity to interview with your company.",
+      "options": ["A colleague", "A friend", "Mr. Henderson", "A secretary"],
+      "answerIndex": 2,
+      "explanation": "The speaker says: 'Thank you, Mr. Henderson'."
+    },
+    {
+      "id": "adm-a1-w30-ex20",
+      "type": "listening",
+      "prompt": "Listen and complete: 'Could you please help ________?'",
+      "transcript": "I am lost in the building. Could you please help me?",
+      "options": ["her", "him", "me", "us"],
+      "answerIndex": 2,
+      "explanation": "The speaker asks: 'Could you please help me?'"
+    },
+    {
+      "id": "adm-a1-w30-ex21",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a polite way to close a thank you email?",
+      "options": [
+        "Best regards,",
+        "Whatever,",
+        "I am out,",
+        "No thanks,"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Best regards' is a standard professional closing."
+    },
+    {
+      "id": "adm-a1-w30-ex22",
+      "type": "fill-blank",
+      "prompt": "We appreciate ________ (tu) support.",
+      "answer": "your",
+      "explanation": "'Your' is the possessive adjective used before a noun like 'support'."
+    },
+    {
+      "id": "adm-a1-w30-ex23",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'Agradéceles por el regalo'.",
+      "options": [
+        "Thank them for the gift.",
+        "Thank they for the gift.",
+        "Thank us for the gift.",
+        "Thank him for the gift."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Them' is the correct object pronoun for 'ellos'."
+    },
+    {
+      "id": "adm-a1-w30-ex24",
+      "type": "fill-blank",
+      "prompt": "I will send ________ (a ella) the details later.",
+      "answer": "her",
+      "explanation": "'Her' is the object pronoun for 'she'."
+    },
+    {
+      "id": "adm-a1-w30-ex25",
+      "type": "matching",
+      "prompt": "Match the phrases with their meanings:",
       "pairs": [
-        { "term": "Singular, Near", "definition": "This" },
-        { "term": "Singular, Far", "definition": "That" },
-        { "term": "Plural, Near", "definition": "These" }
+        { "term": "Follow up", "definition": "Dar seguimiento" },
+        { "term": "Appreciate", "definition": "Agradecer/Valorar" },
+        { "term": "Support", "definition": "Apoyo/Ayuda" },
+        { "term": "Opportunity", "definition": "Oportunidad" }
       ]
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "Look at ________ (estos) reviews on this page. They are great!",
-      "answer": "these",
-      "explanation": "'These' is for plural items near you."
-    },
-    {
-      "id": "ex9",
+      "id": "adm-a1-w30-ex26",
       "type": "multiple-choice",
-      "question": "What is a 'Bargain'?",
-      "options": ["A very expensive item", "A very cheap and good item", "A broken item", "A digital wallet"],
-      "correctAnswer": 1,
-      "explanation": "A bargain is a great deal for a low price."
+      "prompt": "What follows 'Thank you for...' when using a verb?",
+      "options": [
+        "The base verb (help)",
+        "The -ing form (helping)",
+        "The past form (helped)",
+        "The plural form (helps)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prepositions like 'for' are followed by the gerund (-ing) form of verbs."
     },
     {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "Enter your ________ code to get 10% off.",
-      "answer": "promo",
-      "explanation": "Short for promotional code."
+      "id": "adm-a1-w30-ex27",
+      "type": "fill-blank",
+      "prompt": "They called ________ (a nosotros) for a meeting.",
+      "answer": "us",
+      "explanation": "'Us' is the object pronoun for 'we'."
     },
     {
-      "id": "ex11",
-      "type": "vocabulary-match",
-      "question": "Match the value words:",
+      "id": "adm-a1-w30-ex28",
+      "type": "multiple-choice",
+      "prompt": "Which phrase is common in a follow-up about a job?",
+      "options": [
+        "Thank you for the opportunity.",
+        "I don't like this job.",
+        "Where is my money?",
+        "See you at the party."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Thank you for the opportunity' is standard after an interview or job offer."
+    },
+    {
+      "id": "adm-a1-w30-ex29",
+      "type": "fill-blank",
+      "prompt": "I don't have the file. Can you send ________ (ello) to me?",
+      "answer": "it",
+      "explanation": "'It' is used for singular objects like 'file'."
+    },
+    {
+      "id": "adm-a1-w30-ex30",
+      "type": "multiple-choice",
+      "prompt": "What is 'Appreciation'?",
+      "options": [
+        "The act of recognizing quality or value",
+        "The act of being angry",
+        "The act of deleting emails",
+        "The act of being late"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Appreciation' (agradecimiento/aprecio) is the noun form of 'appreciate'."
+    },
+    {
+      "id": "adm-a1-w30-ex31",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct sentence:",
+      "options": [
+        "Please listen to him.",
+        "Please listen to he.",
+        "Please listen him.",
+        "Please listen he."
+      ],
+      "answerIndex": 0,
+      "explanation": "We use the object pronoun 'him' after the preposition 'to'."
+    },
+    {
+      "id": "adm-a1-w30-ex32",
+      "type": "fill-blank",
+      "prompt": "I ________ (agradezco) your help with the project.",
+      "answer": "appreciate",
+      "explanation": "'Appreciate' is the verb for 'agradecer' or 'valorar'."
+    },
+    {
+      "id": "adm-a1-w30-ex33",
+      "type": "multiple-choice",
+      "prompt": "Translate: '¿Lo viste?' (a un documento/objeto)",
+      "options": [
+        "Did you see it?",
+        "Did you see him?",
+        "Did you see her?",
+        "Did you see them?"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'it' for objects or things."
+    },
+    {
+      "id": "adm-a1-w30-ex34",
+      "type": "fill-blank",
+      "prompt": "Many ________ (gracias) for your quick response.",
+      "answer": "thanks",
+      "explanation": "'Many thanks' is a common professional alternative to 'Thank you'."
+    },
+    {
+      "id": "adm-a1-w30-ex35",
+      "type": "matching",
+      "prompt": "Match the prepositions with the phrases:",
       "pairs": [
-        { "term": "Affordable", "definition": "Good price, I can pay" },
-        { "term": "Overpriced", "definition": "Too much money" },
-        { "term": "Free", "definition": "€0.00" }
+        { "term": "Follow up", "definition": "on" },
+        { "term": "Thank you", "definition": "for" },
+        { "term": "Listen", "definition": "to" },
+        { "term": "Wait", "definition": "for" }
       ]
     },
     {
-      "id": "ex12",
+      "id": "adm-a1-w30-ex36",
       "type": "multiple-choice",
-      "question": "Which is an 'E-commerce' site?",
-      "options": ["A park", "Amazon / eBay", "A physical bank", "A swimming pool"],
-      "correctAnswer": 1,
-      "explanation": "Amazon and eBay are famous e-commerce websites."
+      "prompt": "How do you say 'Danos un minuto'?",
+      "options": [
+        "Give us a minute.",
+        "Give we a minute.",
+        "Give our a minute.",
+        "Give me a minute."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Us' is the object pronoun for 'we'."
     },
     {
-      "id": "ex13",
-      "type": "fill-in-the-blank",
-      "question": "Do you see ________ (esa) ad on that billboard?",
-      "answer": "that",
-      "explanation": "'That' is for a singular item far away."
+      "id": "adm-a1-w30-ex37",
+      "type": "fill-blank",
+      "prompt": "I am writing to ________ (dar seguimiento) on our conversation.",
+      "answer": "follow up",
+      "explanation": "'Follow up' is the phrasal verb for 'dar seguimiento'."
     },
     {
-      "id": "ex14",
+      "id": "adm-a1-w30-ex38",
       "type": "multiple-choice",
-      "question": "What is the final step before the order is confirmed?",
-      "options": ["Adding to cart", "Reading reviews", "Checkout", "Searching for items"],
-      "correctAnswer": 2,
-      "explanation": "The checkout is where you finalize the payment."
+      "prompt": "Which word describes helpful comments?",
+      "options": [
+        "Feedback",
+        "Food",
+        "Foot",
+        "Fast"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Feedback' is the correct term for professional comments."
     },
     {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the payment methods:",
-      "pairs": [
-        { "term": "Apple Pay", "definition": "Digital Wallet" },
-        { "term": "Visa", "definition": "Credit Card" },
-        { "term": "Klarna", "definition": "BNPL" }
+      "id": "adm-a1-w30-ex39",
+      "type": "fill-blank",
+      "prompt": "Tell ________ (a ellos) about the meeting change.",
+      "answer": "them",
+      "explanation": "'Them' is the object pronoun for 'they'."
+    },
+    {
+      "id": "adm-a1-w30-ex40",
+      "type": "multiple-choice",
+      "prompt": "What does 'Grateful' mean?",
+      "options": [
+        "Agradecido",
+        "Enojado",
+        "Cansado",
+        "Aburrido"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Grateful' is an adjective meaning 'agradecido'."
+    },
+    {
+      "id": "adm-a1-w30-ex41",
+      "type": "multiple-choice",
+      "prompt": "Identify the error: 'Can you help I with this task?'",
+      "options": ["Can", "help", "I", "task"],
+      "answerIndex": 2,
+      "explanation": "It should be 'me' instead of the subject pronoun 'I'."
+    },
+    {
+      "id": "adm-a1-w30-ex42",
+      "type": "fill-blank",
+      "prompt": "Thank you ________ (por) everything.",
+      "answer": "for",
+      "explanation": "We use 'for' after 'Thank you' to specify the reason."
+    },
+    {
+      "id": "adm-a1-w30-ex43",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'A ella le gusta ello'.",
+      "options": [
+        "She likes it.",
+        "Her likes it.",
+        "She likes her.",
+        "She like it."
+      ],
+      "answerIndex": 0,
+      "explanation": "Subject 'She' + verb 'likes' + object 'it'."
+    },
+    {
+      "id": "adm-a1-w30-ex44",
+      "type": "fill-blank",
+      "prompt": "The manager wants to see ________ (a ti) in his office.",
+      "answer": "you",
+      "explanation": "'You' is both the subject and object pronoun for the second person."
+    },
+    {
+      "id": "adm-a1-w30-ex45",
+      "type": "multiple-choice",
+      "prompt": "What is 'Follow-up' as a noun?",
+      "options": [
+        "Seguimiento",
+        "Despedida",
+        "Saludo",
+        "Asunto"
+      ],
+      "answerIndex": 0,
+      "explanation": "As a noun, 'Follow-up' means the act of following up."
+    },
+    {
+      "id": "adm-a1-w30-ex46",
+      "type": "reading",
+      "text": "Dear Mr. Garcia,\n\nThank you for meeting with me yesterday. I really appreciate the time you spent explaining the new project. I am very interested in the opportunity to work with your team.\n\nI look forward to hearing from you soon.\n\nBest regards,\nLaura Martinez",
+      "questions": [
+        {
+          "prompt": "When did the meeting take place?",
+          "options": ["Today", "Yesterday", "Last week", "Tomorrow"],
+          "answerIndex": 1,
+          "explanation": "Laura says: 'Thank you for meeting with me yesterday'."
+        },
+        {
+          "prompt": "What did Mr. Garcia explain?",
+          "options": ["The company history", "The new project", "The salary", "The office rules"],
+          "answerIndex": 1,
+          "explanation": "The text mentions 'explaining the new project'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Appreciate", "definition": "Agradecer" },
+        { "term": "Interested", "definition": "Interesado" },
+        { "term": "Opportunity", "definition": "Oportunidad" }
       ]
     },
     {
-      "id": "ex16",
-      "type": "fill-in-the-blank",
-      "question": "This laptop is ________. It costs €3,000!",
-      "answer": "overpriced",
-      "explanation": "Used when the price is too high."
-    },
-    {
-      "id": "ex17",
-      "type": "multiple-choice",
-      "question": "How do you ask for the price of plural items?",
-      "options": ["How much is this?", "How much are these?", "How much are that?", "How much is those?"],
-      "correctAnswer": 1,
-      "explanation": "We use 'are' and 'these/those' for plural objects."
-    },
-    {
-      "id": "ex18",
-      "type": "fill-in-the-blank",
-      "question": "I use ________ (estos) coupons for my shopping.",
-      "answer": "these",
-      "explanation": "Plural near."
-    },
-    {
-      "id": "ex19",
-      "type": "multiple-choice",
-      "question": "What is a 'Wishlist'?",
-      "options": ["A list of things you already bought", "A list of things you want to buy later", "A list of bank accounts", "A list of passwords"],
-      "correctAnswer": 1,
-      "explanation": "You save items to a wishlist for the future."
-    },
-    {
-      "id": "ex20",
-      "type": "vocabulary-match",
-      "question": "Match the UI locations:",
-      "pairs": [
-        { "term": "Header", "definition": "Top of the page" },
-        { "term": "Footer", "definition": "Bottom of the page" },
-        { "term": "Side Bar", "definition": "Left or right side" }
+      "id": "adm-a1-w30-ex47",
+      "type": "reading",
+      "text": "Hi David,\n\nI am writing to follow up on the sales numbers we discussed on Tuesday. Could you please send them to me when you have a chance? I need them for the weekly meeting tomorrow morning.\n\nThanks,\nSarah",
+      "questions": [
+        {
+          "prompt": "What does 'them' refer to in the text?",
+          "options": ["The clients", "The sales numbers", "The meetings", "The emails"],
+          "answerIndex": 1,
+          "explanation": "'Them' refers back to 'the sales numbers'."
+        },
+        {
+          "prompt": "When is the weekly meeting?",
+          "options": ["Tuesday", "Today", "Tomorrow morning", "Next week"],
+          "answerIndex": 2,
+          "explanation": "Sarah says she needs the numbers 'for the weekly meeting tomorrow morning'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Follow up", "definition": "Dar seguimiento" },
+        { "term": "Discussed", "definition": "Discutido/Hablado" },
+        { "term": "Chance", "definition": "Oportunidad/Posibilidad" }
       ]
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "Is ________ (esa) store online or physical?",
-      "answer": "that",
-      "explanation": "Singular far."
-    },
-    {
-      "id": "ex22",
-      "type": "multiple-choice",
-      "question": "What is the opposite of 'Expensive'?",
-      "options": ["Overpriced", "Cheap", "Total", "New"],
-      "correctAnswer": 1,
-      "explanation": "'Cheap' is the correct opposite."
-    },
-    {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "Click ________ (este) button to buy now.",
-      "answer": "this",
-      "explanation": "Singular near."
-    },
-    {
-      "id": "ex24",
-      "type": "vocabulary-match",
-      "question": "Match the shopping actions:",
-      "pairs": [
-        { "term": "Browse", "definition": "Look at many items" },
-        { "term": "Review", "definition": "Write your opinion" },
-        { "term": "Track", "definition": "Follow your delivery" }
+      "id": "adm-a1-w30-ex48",
+      "type": "reading",
+      "text": "Subject: Thanks for the Feedback\n\nHi Team,\n\nMany thanks for the feedback on the new website design. Your comments are very helpful, and I will use them to improve the final version. Special thanks to Mark for his detailed support.\n\nRegards,\nJenny",
+      "questions": [
+        {
+          "prompt": "What is the feedback about?",
+          "options": ["The new office", "The new website design", "The company party", "The lunch menu"],
+          "answerIndex": 1,
+          "explanation": "The text mentions 'feedback on the new website design'."
+        },
+        {
+          "prompt": "Who gave detailed support?",
+          "options": ["Jenny", "The whole team", "Mark", "The manager"],
+          "answerIndex": 2,
+          "explanation": "Jenny gives 'special thanks to Mark for his detailed support'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Helpful", "definition": "Útil/De ayuda" },
+        { "term": "Improve", "definition": "Mejorar" },
+        { "term": "Detailed", "definition": "Detallado" }
       ]
     },
     {
-      "id": "ex25",
+      "id": "adm-a1-w30-ex49",
+      "type": "reading",
+      "text": "Dear Customers,\n\nWe appreciate your business and your loyalty to our company. Thank you for choosing us as your service provider. We look forward to serving you again in the future.\n\nSincerely,\nThe Management",
+      "questions": [
+        {
+          "prompt": "Who is the email addressed to?",
+          "options": ["Employees", "Managers", "Customers", "Suppliers"],
+          "answerIndex": 2,
+          "explanation": "The email starts with 'Dear Customers'."
+        },
+        {
+          "prompt": "What does the company appreciate?",
+          "options": ["The money", "The business and loyalty", "The complaints", "The holidays"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'We appreciate your business and your loyalty'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Loyalty", "definition": "Lealtad" },
+        { "term": "Choosing", "definition": "Elegir" },
+        { "term": "Serving", "definition": "Servir" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex50",
+      "type": "reading",
+      "text": "Hi Alice,\n\nI am writing to follow up on our phone call earlier today. You mentioned a new report, but I didn't receive it yet. Could you please send it to me by the end of the day?\n\nMany thanks,\nBob",
+      "questions": [
+        {
+          "prompt": "How did Alice and Bob communicate earlier today?",
+          "options": ["Via email", "Via phone call", "In person", "In a meeting"],
+          "answerIndex": 1,
+          "explanation": "Bob mentions 'our phone call earlier today'."
+        },
+        {
+          "prompt": "When does Bob want the report?",
+          "options": ["Now", "Tomorrow", "By the end of the day", "Next week"],
+          "answerIndex": 2,
+          "explanation": "He asks to have it 'by the end of the day'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Earlier", "definition": "Más temprano" },
+        { "term": "Mentioned", "definition": "Mencionó" },
+        { "term": "Yet", "definition": "Todavía/Aún" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex51",
+      "type": "reading",
+      "text": "Subject: A quick thank you\n\nHi Tom,\n\nJust a quick note to say thank you for helping us move the office furniture yesterday. It was a big job and we really appreciate your support.\n\nSee you later,\nLinda and Kevin",
+      "questions": [
+        {
+          "prompt": "What did Tom do yesterday?",
+          "options": ["Sent an email", "Moved office furniture", "Fixed a computer", "Wrote a report"],
+          "answerIndex": 1,
+          "explanation": "The text thanks Tom for 'helping us move the office furniture'."
+        },
+        {
+          "prompt": "Who is thanking Tom?",
+          "options": ["Only Linda", "Only Kevin", "Linda and Kevin", "The whole company"],
+          "answerIndex": 2,
+          "explanation": "The email is signed by 'Linda and Kevin'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Furniture", "definition": "Muebles" },
+        { "term": "Big job", "definition": "Gran trabajo/tarea" },
+        { "term": "Support", "definition": "Apoyo" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex52",
+      "type": "reading",
+      "text": "Dear Ms. White,\n\nI am writing to follow up on my job application for the administrative assistant position. I sent my resume last week. Could you please confirm if you received it?\n\nThank you for your time.\n\nBest regards,\nJames Wilson",
+      "questions": [
+        {
+          "prompt": "What position is James applying for?",
+          "options": ["Manager", "Administrative assistant", "IT technician", "Secretary"],
+          "answerIndex": 1,
+          "explanation": "He mentions the 'administrative assistant position'."
+        },
+        {
+          "prompt": "What does James want Ms. White to confirm?",
+          "options": ["The salary", "If she received his resume", "The interview date", "His phone number"],
+          "answerIndex": 1,
+          "explanation": "He asks: 'Could you please confirm if you received it?' (referring to his resume)."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Application", "definition": "Solicitud" },
+        { "term": "Position", "definition": "Puesto/Cargo" },
+        { "term": "Resume", "definition": "Currículum" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex53",
+      "type": "reading",
+      "text": "Hi everyone,\n\nThank you for the update on the budget. It looks good. Please continue to monitor it and let me know if there are any changes.\n\nGreat work!\nDirector",
+      "questions": [
+        {
+          "prompt": "What does the Director think of the update?",
+          "options": ["It is bad", "It is too late", "It looks good", "It is boring"],
+          "answerIndex": 2,
+          "explanation": "The Director says: 'It looks good'."
+        },
+        {
+          "prompt": "What should the team continue to do?",
+          "options": ["Write more reports", "Monitor the budget", "Spend money", "Go on vacation"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'Please continue to monitor it'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Budget", "definition": "Presupuesto" },
+        { "term": "Monitor", "definition": "Monitorear/Supervisar" },
+        { "term": "Changes", "definition": "Cambios" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex54",
+      "type": "reading",
+      "text": "Subject: Following up on the meeting minutes\n\nHi Peter,\n\nI am writing to follow up on the meeting minutes from Monday. I am attaching them to this email now. Please check them and let me know if they are correct.\n\nBest,\nSecretary",
+      "questions": [
+        {
+          "prompt": "What is the Secretary sending?",
+          "options": ["A budget", "The meeting minutes", "An invoice", "A contract"],
+          "answerIndex": 1,
+          "explanation": "The Secretary says: 'I am attaching them... now' (referring to the meeting minutes)."
+        },
+        {
+          "prompt": "What should Peter do with the attachment?",
+          "options": ["Delete it", "Print it", "Check if they are correct", "Send them to the boss"],
+          "answerIndex": 2,
+          "explanation": "The text says: 'Please check them and let me know if they are correct'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Minutes", "definition": "Actas/Minutas" },
+        { "term": "Correct", "definition": "Correcto" },
+        { "term": "Attaching", "definition": "Adjuntando" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex55",
+      "type": "reading",
+      "text": "Hi team,\n\nI want to thank you all for the great work on the conference. The clients were very happy with us. We appreciate your dedication and support.\n\nEnjoy the weekend!\nManager",
+      "questions": [
+        {
+          "prompt": "Who was happy with the team?",
+          "options": ["The manager", "The clients", "The director", "The neighbors"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'The clients were very happy with us'."
+        },
+        {
+          "prompt": "What does the manager appreciate?",
+          "options": ["The food", "The dedication and support", "The money", "The music"],
+          "answerIndex": 1,
+          "explanation": "The text mentions 'dedication and support'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Conference", "definition": "Conferencia" },
+        { "term": "Dedication", "definition": "Dedicación" },
+        { "term": "Enjoy", "definition": "Disfrutar" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex56",
       "type": "multiple-choice",
-      "question": "Why use a 'Promo Code'?",
-      "options": ["To pay more", "To get a discount", "To see the wishlist", "To delete the cart"],
-      "correctAnswer": 1,
-      "explanation": "Promo codes lower the final price."
+      "prompt": "How do you say 'Me gustas' (profesionalmente, como equipo)?",
+      "options": [
+        "I like you.",
+        "I like your.",
+        "I like yours.",
+        "I like you's."
+      ],
+      "answerIndex": 0,
+      "explanation": "'You' is the object pronoun for the second person singular and plural."
+    },
+    {
+      "id": "adm-a1-w30-ex57",
+      "type": "fill-blank",
+      "prompt": "We ________ (agradecemos) your business.",
+      "answer": "appreciate",
+      "explanation": "'Appreciate' is used to express gratitude for something abstract like 'business' or 'loyalty'."
+    },
+    {
+      "id": "adm-a1-w30-ex58",
+      "type": "multiple-choice",
+      "prompt": "Which pronoun is used for 'él' when it is the object?",
+      "options": [
+        "Him",
+        "He",
+        "His",
+        "He's"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Him' is the object pronoun for 'he'."
+    },
+    {
+      "id": "adm-a1-w30-ex59",
+      "type": "fill-blank",
+      "prompt": "Thank you for ________ (dar) us this opportunity.",
+      "answer": "giving",
+      "explanation": "Verb + -ing after 'for'."
+    },
+    {
+      "id": "adm-a1-w30-ex60",
+      "type": "matching",
+      "prompt": "Match the verbs with their objects:",
+      "pairs": [
+        { "term": "Help", "definition": "me" },
+        { "term": "Send", "definition": "it" },
+        { "term": "Tell", "definition": "them" },
+        { "term": "Join", "definition": "us" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-ex61",
+      "type": "multiple-choice",
+      "prompt": "What does 'Invaluable' mean in a professional context?",
+      "options": [
+        "Sin valor",
+        "Muy valioso (incalculable)",
+        "Barato",
+        "Caro"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Invaluable' means something is so valuable that its worth cannot be calculated."
+    },
+    {
+      "id": "adm-a1-w30-ex62",
+      "type": "fill-blank",
+      "prompt": "I will call ________ (a ellos) tomorrow.",
+      "answer": "them",
+      "explanation": "'Them' is the object pronoun for 'they'."
+    },
+    {
+      "id": "adm-a1-w30-ex63",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'Gracias por venir'?",
+      "options": [
+        "Thank you for coming.",
+        "Thank you for come.",
+        "Thank you for to come.",
+        "Thank you by coming."
+      ],
+      "answerIndex": 0,
+      "explanation": "We use the gerund 'coming' after the preposition 'for'."
+    },
+    {
+      "id": "adm-a1-w30-ex64",
+      "type": "fill-blank",
+      "prompt": "The boss saw ________ (a ella) in the office.",
+      "answer": "her",
+      "explanation": "'Her' is the object pronoun for 'she'."
+    },
+    {
+      "id": "adm-a1-w30-ex65",
+      "type": "multiple-choice",
+      "prompt": "What is 'Support'?",
+      "options": [
+        "Apoyo",
+        "Soporte técnico",
+        "Ambas son correctas",
+        "Ninguna es correcta"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Support' can refer to general help (apoyo) or technical assistance (soporte)."
+    },
+    {
+      "id": "adm-a1-w30-ex66",
+      "type": "fill-blank",
+      "prompt": "Please listen ________ (a) me.",
+      "answer": "to",
+      "explanation": "We use the preposition 'to' after the verb 'listen'."
+    },
+    {
+      "id": "adm-a1-w30-ex67",
+      "type": "multiple-choice",
+      "prompt": "What is 'Follow-up' in Spanish?",
+      "options": [
+        "Seguimiento",
+        "Precedente",
+        "Antecedente",
+        "Consecuente"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Follow-up' is 'Seguimiento'."
+    },
+    {
+      "id": "adm-a1-w30-ex68",
+      "type": "fill-blank",
+      "prompt": "I appreciate ________ (ello).",
+      "answer": "it",
+      "explanation": "We use 'it' to refer to a situation or help in general."
+    },
+    {
+      "id": "adm-a1-w30-ex69",
+      "type": "multiple-choice",
+      "prompt": "Which word means 'agradecido'?",
+      "options": [
+        "Grateful",
+        "Great",
+        "Grace",
+        "Greed"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Grateful' means 'agradecido'."
+    },
+    {
+      "id": "adm-a1-w30-ex70",
+      "type": "fill-blank",
+      "prompt": "I am following up ________ (sobre) the meeting.",
+      "answer": "on",
+      "explanation": "We use the preposition 'on' after 'follow up' to specify the topic."
+    },
+    {
+      "id": "adm-a1-w30-ex71",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'A nosotros'?",
+      "options": [
+        "Us",
+        "We",
+        "Our",
+        "Ours"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Us' is the object pronoun for 'we'."
+    },
+    {
+      "id": "adm-a1-w30-ex72",
+      "type": "fill-blank",
+      "prompt": "I'll help ________ (a ti) with that.",
+      "answer": "you",
+      "explanation": "'You' is the object pronoun for the second person."
+    },
+    {
+      "id": "adm-a1-w30-ex73",
+      "type": "multiple-choice",
+      "prompt": "What is 'Feedback'?",
+      "options": [
+        "Retroalimentación",
+        "Respuesta",
+        "Reacción",
+        "Todas las anteriores"
+      ],
+      "answerIndex": 3,
+      "explanation": "'Feedback' encompasses all these concepts in a professional context."
+    },
+    {
+      "id": "adm-a1-w30-ex74",
+      "type": "fill-blank",
+      "prompt": "Many thanks ________ (por) the information.",
+      "answer": "for",
+      "explanation": "We use 'for' after 'thanks'."
+    },
+    {
+      "id": "adm-a1-w30-ex75",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I see them every day.",
+        "I see they every day.",
+        "I see their every day.",
+        "I see theirs every day."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Them' is the correct object pronoun for 'they'."
     }
   ]
 }

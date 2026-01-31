@@ -17,6 +17,26 @@
       "content": "In business English, using the correct preposition after a noun or verb is essential for precision and professional tone.\n\n### Verbs + Prepositions\n- **Comply with**: *The company must **comply with** all health and safety regulations.*\n- **Account for**: *Logistics costs **account for** 10% of our total expenditure.*\n- **Specialize in**: *They **specialize in** high-value electronics logistics.*\n- **Benefit from**: *We will **benefit from** reduced import duties.*\n\n### Nouns + Prepositions\n- **Demand for**: *There is a high **demand for** sustainable packaging.*\n- **Impact on**: *The port strike had a major **impact on** our delivery schedule.*\n- **Expertise in**: *Her **expertise in** customs law is invaluable to the firm.*\n- **Relationship between**: *The **relationship between** cost and speed is a key logistics trade-off.*"
     },
     {
+      "id": "incoterms-2020",
+      "title": "Understanding Incoterms 2020",
+      "content": "Incoterms define the responsibilities of buyers and sellers in international transactions. Common terms include:\n\n- **EXW (Ex Works)**: The seller makes the goods available at their premises. The buyer bears all risks and costs from there.\n- **FOB (Free on Board)**: The seller is responsible for the goods until they are loaded onto the vessel at the port of shipment.\n- **CIF (Cost, Insurance, and Freight)**: The seller pays for the carriage and insurance to the named port of destination.\n- **DDP (Delivered Duty Paid)**: The seller bears all risks and costs, including duties and taxes, until the goods are delivered to the buyer's premises."
+    },
+    {
+      "id": "supply-chain-lifecycle",
+      "title": "The Supply Chain Life Cycle",
+      "content": "A supply chain is the network of all the individuals, organisations, resources, activities, and technology involved in the creation and sale of a product:\n\n1. **Sourcing/Procurement**: Finding and acquiring the raw materials or components needed.\n2. **Production**: Transforming raw materials into finished goods.\n3. **Distribution**: Transporting goods to warehouses, retailers, or directly to consumers.\n4. **After-sales Service**: Handling returns, repairs, and customer support."
+    },
+    {
+      "id": "logistics-risk-management",
+      "title": "Risk Management in Global Trade",
+      "content": "Global trade is subject to various uncertainties. Effective administrators must plan for:\n\n- **Geopolitical Risks**: Trade wars, sanctions, or political instability in supplier countries.\n- **Operational Risks**: Port congestion, container shortages, or vehicle breakdowns.\n- **Financial Risks**: Currency fluctuations and payment defaults.\n- **Mitigation Strategies**: Using cargo insurance, diversifying suppliers (multi-sourcing), and maintaining 'safety stock'."
+    },
+    {
+      "id": "grammar-adjective-prepositions",
+      "title": "Grammar: Adjective + Preposition Collocations",
+      "content": "Specific adjectives are always followed by specific prepositions in formal writing:\n\n- **Eligible for**: *Only registered exporters are **eligible for** this tax rebate.*\n- **Compatible with**: *The new tracking system is **compatible with** our existing ERP.*\n- **Relevant to**: *Please only include documentation that is **relevant to** the shipment.*\n- **Exempt from**: *Certain medical supplies are **exempt from** import tariffs.*\n- **Liable for**: *The carrier is **liable for** any damage occurring during transit.*"
+    },
+    {
       "id": "deliverable",
       "title": "Weekly Deliverable: Logistics Incident Report",
       "content": "Write a short report (150-180 words) regarding a delay in an international shipment. Include:\n1. **Description of the shipment and the delay**.\n2. **Reason for the delay (e.g., customs issues, weather)**.\n3. **Actions taken to resolve the issue**.\n4. **Grammar Focus** (Use at least five correct verb/noun + preposition combinations, e.g., *comply with, impact on, demand for*)."

@@ -438,6 +438,319 @@
         "provisioning",
         "continuity"
       ]
+    },
+    {
+      "id": "adm-b2-w12-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: The Pitch. What is the main purpose of a 'Hook' in an elevator pitch?",
+      "options": [
+        "To provide a detailed budget breakdown",
+        "To grab the listener's attention immediately",
+        "To list all project team members",
+        "To explain the legal fine print"
+      ],
+      "answerIndex": 1,
+      "explanation": "A hook is designed to capture attention by highlighting a significant fact or pain point."
+    },
+    {
+      "id": "adm-b2-w12-ex47",
+      "type": "multipleChoice",
+      "prompt": "Exercise 47: The Pitch. Which sentence focuses on 'Benefit over Feature'?",
+      "options": [
+        "This software has 15 different modules.",
+        "The system runs on a cloud server.",
+        "Implementing this will save the HR team 20 hours of manual data entry per week.",
+        "The interface is colored blue and white."
+      ],
+      "answerIndex": 2,
+      "explanation": "Saving 20 hours per week is a benefit; the others are just technical features."
+    },
+    {
+      "id": "adm-b2-w12-ex48",
+      "type": "writingTask",
+      "prompt": "Exercise 48: Pitching. Write a 'Hook' for a proposal to automate office supply ordering based on a 10% waste statistic.",
+      "modelAnswer": "Did you know that 10% of our office supplies are currently wasted due to over-ordering?",
+      "keywords": ["waste", "Did you know", "over-ordering"]
+    },
+    {
+      "id": "adm-b2-w12-ex49",
+      "type": "multipleChoice",
+      "prompt": "Exercise 49: Call to Action. Which is the most effective 'Call to Action' for a pitch?",
+      "options": [
+        "Thanks for listening.",
+        "I hope you liked the idea.",
+        "Could we schedule a 10-minute follow-up on Tuesday to discuss the pilot phase?",
+        "Tell me if you need anything else."
+      ],
+      "answerIndex": 2,
+      "explanation": "A strong CTA is specific and suggests a concrete next step."
+    },
+    {
+      "id": "adm-b2-w12-ex50",
+      "type": "writingTask",
+      "prompt": "Exercise 50: Persuasive Language. Rewrite this feature as a benefit: 'The new system has an automated backup feature.'",
+      "modelAnswer": "The automated backup feature ensures our data is always protected, eliminating the risk of manual error and data loss.",
+      "keywords": ["ensures", "protects", "eliminating risk"]
+    },
+    {
+      "id": "adm-b2-w12-ex51",
+      "type": "multipleChoice",
+      "prompt": "Exercise 51: Financial Justification. What does ROI stand for?",
+      "options": [
+        "Record of Information",
+        "Return on Investment",
+        "Resource Optimization Index",
+        "Ratio of Interest"
+      ],
+      "answerIndex": 1,
+      "explanation": "ROI (Return on Investment) measures the gain relative to the cost of an investment."
+    },
+    {
+      "id": "adm-b2-w12-ex52",
+      "type": "multipleChoice",
+      "prompt": "Exercise 52: Finance. Which term refers to 'recurring, day-to-day costs'?",
+      "options": [
+        "CapEx (Capital Expenditure)",
+        "OpEx (Operational Expenditure)",
+        "ROI",
+        "Net Profit"
+      ],
+      "answerIndex": 1,
+      "explanation": "OpEx covers the ongoing costs of running a business or system."
+    },
+    {
+      "id": "adm-b2-w12-ex53",
+      "type": "writingTask",
+      "prompt": "Exercise 53: Financial Logic. Explain the 'Opportunity Cost' of not upgrading an old server that crashes twice a week.",
+      "modelAnswer": "The opportunity cost includes the lost productivity of the staff during downtime and the potential loss of revenue while systems are offline.",
+      "keywords": ["productivity", "downtime", "lost revenue"]
+    },
+    {
+      "id": "adm-b2-w12-ex54",
+      "type": "multipleChoice",
+      "prompt": "Exercise 54: AI Integration. Which task is most suitable for AI automation in an administrative context?",
+      "options": [
+        "Making high-level strategic decisions",
+        "Resolving complex HR disputes between senior executives",
+        "Drafting a baseline SOP from existing meeting notes",
+        "Personally comforting a bereaved employee"
+      ],
+      "answerIndex": 2,
+      "explanation": "AI is excellent for drafting documentation based on data, while human tasks require empathy and judgment."
+    },
+    {
+      "id": "adm-b2-w12-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: AI Ethics. When using AI to summarize a meeting, an administrator should:",
+      "options": [
+        "Send the summary to all stakeholders without checking it",
+        "Review and verify the AI-generated text for accuracy and tone",
+        "Delete the original recording immediately",
+        "Tell everyone that a human wrote it"
+      ],
+      "answerIndex": 1,
+      "explanation": "Human oversight is essential to ensure AI output is accurate and professional."
+    },
+    {
+      "id": "adm-b2-w12-ex56",
+      "type": "writingTask",
+      "prompt": "Exercise 56: AI Prompting. Write a prompt to ask an AI to summarize a 30-minute meeting about budget cuts into 5 key action points.",
+      "modelAnswer": "Summarize the attached transcript of our budget meeting into five clear, actionable points for the finance committee.",
+      "keywords": ["Summarize", "actionable points", "finance committee"]
+    },
+    {
+      "id": "adm-b2-w12-ex57",
+      "type": "multipleChoice",
+      "prompt": "Exercise 57: Peer Review. What is the primary focus of a peer review for a project proposal?",
+      "options": [
+        "To criticize the author's personal style",
+        "To ensure the proposal is robust, clear, and persuasive before final submission",
+        "To rewrite the entire project from scratch",
+        "To check if the author used the right font color"
+      ],
+      "answerIndex": 1,
+      "explanation": "Peer review is a collaborative process to improve the quality of the deliverable."
+    },
+    {
+      "id": "adm-b2-w12-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Feedback Loops. 'Closing the loop' in feedback means:",
+      "options": [
+        "Ignoring the feedback completely",
+        "Acknowledging the feedback but not making changes",
+        "Incorporating relevant feedback and informing the reviewer of the updates",
+        "Arguing with the reviewer about every point"
+      ],
+      "answerIndex": 2,
+      "explanation": "Closing the loop involves using feedback to improve the output and communicating that progress."
+    },
+    {
+      "id": "adm-b2-w12-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Giving Feedback. Provide a professional critique of this sentence from a proposal: 'The system is bad and we need a new one.'",
+      "modelAnswer": "This sentence is too informal. It would be better to say: 'The current system is inefficient, creating a bottleneck that hinders our productivity.'" ,
+      "keywords": ["informal", "inefficient", "bottleneck"]
+    },
+    {
+      "id": "adm-b2-w12-ex60",
+      "type": "multipleChoice",
+      "prompt": "Exercise 60: Grammar Synthesis. Which sentence uses the Future Perfect correctly to describe a project milestone?",
+      "options": [
+        "By next Tuesday, we will be finishing the audit.",
+        "By next Tuesday, we will have finished the audit.",
+        "By next Tuesday, we finish the audit.",
+        "By next Tuesday, we will have finishing the audit."
+      ],
+      "answerIndex": 1,
+      "explanation": "Future Perfect (will have + past participle) is used for completions by a specific time."
+    },
+    {
+      "id": "adm-b2-w12-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Grammar Synthesis. 'If we hadn't ignored the warning signs last month, we wouldn't be in this crisis now.' This is a:",
+      "options": [
+        "Zero Conditional",
+        "First Conditional",
+        "Third Conditional",
+        "Mixed Conditional"
+      ],
+      "answerIndex": 3,
+      "explanation": "This is a mixed conditional linking a past action (hadn't ignored) to a present result (wouldn't be)."
+    },
+    {
+      "id": "adm-b2-w12-ex62",
+      "type": "writingTask",
+      "prompt": "Exercise 62: Modals of Deduction. You find an unsigned report on your desk. You know Sarah was working on it. Write a sentence using 'must have'.",
+      "modelAnswer": "Sarah must have left this report on my desk before she went home.",
+      "keywords": ["must have", "left"]
+    },
+    {
+      "id": "adm-b2-w12-ex63",
+      "type": "multipleChoice",
+      "prompt": "Exercise 63: Relative Clauses. Choose the correct pronoun: 'The stakeholders, ___ were present at the meeting, approved the budget.'",
+      "options": [
+        "which",
+        "whom",
+        "who",
+        "whose"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Who' is used for people in a non-defining relative clause."
+    },
+    {
+      "id": "adm-b2-w12-ex64",
+      "type": "writingTask",
+      "prompt": "Exercise 64: Trimester Review. Define 'BCP' and explain its importance.",
+      "modelAnswer": "BCP stands for Business Continuity Planning. It is important because it ensures that essential functions can continue during and after a disaster.",
+      "keywords": ["Business Continuity Planning", "essential functions"]
+    },
+    {
+      "id": "adm-b2-w12-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: Operational Review. What is 'Scope Creep'?",
+      "options": [
+        "The movement of the project team to a new office",
+        "The uncontrolled expansion of project requirements",
+        "The process of hiring new project managers",
+        "A type of virus that affects project management software"
+      ],
+      "answerIndex": 1,
+      "explanation": "Scope creep refers to requirements growing beyond the original plan."
+    },
+    {
+      "id": "adm-b2-w12-ex66",
+      "type": "writingTask",
+      "prompt": "Exercise 66: SOP Design. Write one step for an SOP on 'Handling Confidential Waste'. Use an imperative verb.",
+      "modelAnswer": "Place all sensitive documents into the designated secure shredding bin immediately after use.",
+      "keywords": ["Place", "secure shredding bin"]
+    },
+    {
+      "id": "adm-b2-w12-ex67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Stakeholder Review. In the Mendelow Matrix, how should you manage stakeholders with 'High Power / Low Interest'?",
+      "options": [
+        "Keep satisfied",
+        "Manage closely",
+        "Keep informed",
+        "Minimal effort"
+      ],
+      "answerIndex": 0,
+      "explanation": "High power / Low interest stakeholders should be kept satisfied to avoid them becoming obstacles."
+    },
+    {
+      "id": "adm-b2-w12-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: Risk Management. Create a 'Mitigation' strategy for the risk: 'Key team member falls ill during the project execution.'",
+      "modelAnswer": "Cross-train at least two other team members on the key responsibilities of each role to ensure continuity.",
+      "keywords": ["Cross-train", "continuity"]
+    },
+    {
+      "id": "adm-b2-w12-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Conflict Resolution. Which 'soft skill' is most important when delivering a difficult project update to a stakeholder?",
+      "options": [
+        "Aggression",
+        "Empathy",
+        "Indifference",
+        "Technical jargon"
+      ],
+      "answerIndex": 1,
+      "explanation": "Empathy helps in understanding the stakeholder's perspective and building rapport during tough conversations."
+    },
+    {
+      "id": "adm-b2-w12-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: Financial Persuasion. You are proposing a $5,000 software upgrade. Write one sentence justifying the 'ROI'.",
+      "modelAnswer": "This investment will yield a full return within six months by reducing administrative errors and accelerating our billing cycle.",
+      "keywords": ["yield", "return", "reducing errors"]
+    },
+    {
+      "id": "adm-b2-w12-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Project Closure. Which task is NOT part of the 'Closure' phase?",
+      "options": [
+        "Conducting a post-mortem meeting",
+        "Reconciling final accounts",
+        "Defining the initial project scope",
+        "Archiving project documentation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Defining the project scope happens during the 'Initiation' or 'Planning' phase."
+    },
+    {
+      "id": "adm-b2-w12-ex72",
+      "type": "writingTask",
+      "prompt": "Exercise 72: Future Continuous. Describe what your team will be doing during the 'Execution' phase of the new office layout project.",
+      "modelAnswer": "During the execution phase, our team will be coordinating with the furniture vendors and overseeing the physical relocation of workstations.",
+      "keywords": ["will be coordinating", "overseeing"]
+    },
+    {
+      "id": "adm-b2-w12-ex73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Grammar Review. 'The proposal, which I submitted yesterday, is still under review.' Is 'which I submitted yesterday' a defining or non-defining relative clause?",
+      "options": [
+        "Defining",
+        "Non-defining",
+        "Neither",
+        "Both"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is non-defining because it adds extra information and is set off by commas."
+    },
+    {
+      "id": "adm-b2-w12-ex74",
+      "type": "writingTask",
+      "prompt": "Exercise 74: Trimester Reflection. Write one sentence about how your 'Professional Persona' in English has changed since Week 1.",
+      "modelAnswer": "I feel much more confident using technical administrative vocabulary and can now lead project meetings with greater grammatical precision.",
+      "keywords": ["confident", "technical", "precision"]
+    },
+    {
+      "id": "adm-b2-w12-ex75",
+      "type": "writingTask",
+      "title": "Exercise 75: Final Synthesis - The Proposal Pitch",
+      "prompt": "Final Task: Combine your skills. Write a 3-sentence pitch for an administrative project. Include: 1) A 'Hook' with a pain point, 2) A 'Solution' using the Future Perfect for a milestone, and 3) A 'Financial Justification' using a conditional.",
+      "modelAnswer": "Did you know our current manual filing system causes a 15% delay in document retrieval? By next month, we will have digitized all active records to eliminate this bottleneck. If we implement this change now, we will see a significant ROI through reduced labor costs and improved operational resilience.",
+      "keywords": ["Did you know", "will have digitized", "If we implement"]
     }
   ]
 }

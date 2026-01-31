@@ -1,35 +1,22 @@
 {
-  "title": "Digital Access & App Security",
+  "title": "Semana 26: Saludos y Despedidas en Emails",
+  "description": "Aprende a abrir y cerrar un correo electrónico de manera profesional según el destinatario.",
+  "objectives": [
+    "Diferenciar entre saludos formales e informales",
+    "Usar despedidas adecuadas en correos",
+    "Saber cuándo usar el nombre o el apellido"
+  ],
   "sections": [
     {
-      "id": "authentication",
-      "title": "Logging In Safely",
-      "content": "To see your money, you must 'authenticate' (prove who you are). \n\n- **Credentials**: Your username and password.\n- **Biometrics**: Using your fingerprint or face to log in quickly.\n- **MFA / 2FA**: A second security step, like a code sent to your phone.\n- **Log in / Sign in**: Entering the app.\n- **Log out / Sign out**: Leaving the app safely."
+      "id": "email-greetings",
+      "title": "Saludos (Greetings)",
+      "content": "Dependiendo de a quién escribas, el saludo cambia:\n\n- **Formal (Si no conoces a la persona)**: Dear Sir/Madam,\n- **Formal (Si conoces el apellido)**: Dear Mr. Smith, / Dear Ms. Jones,\n- **Informal (Colegas cercanos)**: Hi John, / Hello Sarah,"
     },
     {
-      "id": "security-flow",
-      "title": "Secure Login Flow",
-      "content": "```mermaid\ngraph LR\n    A[Open App] --> B[Enter Username]\n    B --> C[Biometrics/Password]\n    C --> D{MFA Check?}\n    D -- Yes --> E[Enter SMS Code]\n    D -- No --> F[Dashboard]\n    E --> F\n```"
-    },
-    {
-      "id": "app-ui",
-      "title": "The App Dashboard",
-      "content": "The 'Dashboard' is the main screen of your app.\n\n- **Menu**: The list of options (usually at the top or bottom).\n- **Profile**: Your personal settings and photo.\n- **Notifications**: Alerts about your money.\n- **Search Bar**: A place to find transactions by name."
-    },
-    {
-      "id": "grammar-prepositions",
-      "title": "Grammar: Prepositions in Digital Banking",
-      "content": "We use **In**, **On**, and **At** to describe where things are in the digital world.\n\n- **In**: Use for the app or folders.\n  - *Your balance is **in** the app.*\n  - *Look **in** the 'Settings' folder.*\n- **On**: Use for the screen, page, or buttons.\n  - *The transfer button is **on** the screen.*\n  - *Click **on** the 'Confirm' button.*\n- **At**: Use for specific locations or points.\n  - *I am **at** the login page.*\n  - *The total is **at** the top of the screen.*"
+      "id": "email-closings",
+      "title": "Despedidas (Closings)",
+      "content": "Para cerrar el correo con profesionalidad:\n\n- **Muy Formal**: Yours faithfully, (Si empezaste con Dear Sir/Madam)\n- **Formal**: Yours sincerely, / Sincerely, (Si usaste el nombre de la persona)\n- **Estándar/Profesional**: Best regards, / Kind regards,\n- **Informal**: Best, / Thanks,"
     }
   ],
-  "objectives": [
-    "Identify different methods of secure authentication",
-    "Navigate the main dashboard of a banking app",
-    "Use prepositions (in, on, at) correctly in digital contexts"
-  ],
-  "keyTerms": [
-    { "term": "Biometrics", "definition": "Security using your body (face, finger)." },
-    { "term": "Dashboard", "definition": "The main information screen." },
-    { "term": "MFA", "definition": "Multi-Factor Authentication (extra security)." }
-  ]
+  "audioUrl": ""
 }

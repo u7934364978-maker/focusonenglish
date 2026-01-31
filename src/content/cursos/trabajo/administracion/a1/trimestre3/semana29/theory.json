@@ -1,35 +1,35 @@
 {
-  "title": "Smart Billing: Subscriptions & Utilities",
+  "title": "Confirming Appointments and Meetings",
   "sections": [
     {
-      "id": "modern-billing",
-      "title": "Automated Payments",
-      "content": "Paying bills manually is the past. Modern banking uses automation.\n\n- **Direct Debit / Auto-pay**: The bank automatically pays your bills (electricity, rent) every month.\n- **E-bill / Paperless**: Your invoice arrives in your app or email, not in your physical mailbox.\n- **Scheduled Payment**: You decide the exact day and time for a transfer.\n- **Subscription Manager**: A tool in the app to see all your monthly services (Netflix, Gym, Spotify)."
+      "id": "confirming-meetings",
+      "title": "Scheduling and Confirming Meetings",
+      "content": "In a professional environment, confirming a meeting via email is essential. You must check availability and confirm the time and place.\n\n- **Checking Availability**: Use questions to see if someone can meet.\n- **Confirming**: Re-stating the time and date to avoid confusion.\n- **Rescheduling**: Suggesting a new time if you are busy."
     },
     {
-      "id": "billing-flow",
-      "title": "Auto-pay Notification Flow",
-      "content": "```mermaid\ngraph TD\n    A[Bill Arrives Digitally] --> B[App Sends Notification]\n    B --> C{Auto-pay Active?}\n    C -- Yes --> D[Money Sent on Due Date]\n    C -- No --> E[User Pays Manually]\n    D --> F[Digital Receipt Saved]\n```"
+      "id": "scheduling-phrases",
+      "title": "Key Phrases for Scheduling",
+      "content": "- **Are you available on...?**: ¿Estás disponible el...?\n- **Does Tuesday work for you?**: ¿Te viene bien el martes?\n- **I can confirm the meeting.**: Puedo confirmar la reunión.\n- **I am busy at that time.**: Estoy ocupado a esa hora.\n- **Please let me know.**: Por favor, házmelo saber."
     },
     {
-      "id": "grammar-time",
-      "title": "Grammar: Prepositions of Time (In, On, At)",
-      "content": "Use these prepositions to talk about when bills are due.\n\n- **At**: For exact times.\n  - *The payment is **at** 9:00 AM.*\n  - *Auto-pay starts **at** midnight.*\n- **On**: For days and specific dates.\n  - *I pay the rent **on** Monday.*\n  - *The due date is **on** June 15th.*\n- **In**: For months, years, or periods of time.\n  - *The bill arrives **in** October.*\n  - *I have a new contract **in** 2024.*"
+      "id": "grammar-present-simple",
+      "title": "Grammar: Present Simple (Questions and Negation)",
+      "content": "We use the Present Simple to talk about schedules and availability.\n\n- **Questions (Do/Does)**:\n  - *Do you have time on Monday?*\n  - *Does the meeting start at 10:00?*\n- **Negation (Don't/Doesn't)**:\n  - *I don't have the calendar here.*\n  - *She doesn't work on Fridays.*"
     },
     {
-      "id": "billing-vocab",
-      "title": "Billing Vocabulary",
-      "content": "- **Due Date**: The deadline for payment.\n- **Overdue**: A payment that is late.\n- **Statement**: A monthly summary of your payments.\n- **Utilities**: Essential services like water, gas, and electricity."
+      "id": "meeting-vocab",
+      "title": "Meeting Vocabulary",
+      "content": "- **Appointment**: Una cita (médica o profesional).\n- **Meeting**: Una reunión.\n- **Schedule / Calendar**: Horario / Calendario.\n- **Available**: Disponible.\n- **Busy**: Ocupado/a."
     }
   ],
   "objectives": [
-    "Differentiate between manual and automated bill payments",
-    "Use prepositions of time (in, on, at) for financial deadlines",
-    "Identify common monthly utilities and digital subscriptions"
+    "Ask for and confirm professional meetings via email",
+    "Use Present Simple in questions and negations for scheduling",
+    "Identify common vocabulary related to office calendars and appointments"
   ],
   "keyTerms": [
-    { "term": "Direct Debit", "definition": "An instruction to your bank to pay a variable amount to a company." },
-    { "term": "Paperless", "definition": "Using digital documents instead of physical paper." },
-    { "term": "Invoice", "definition": "A formal document requesting payment for services." }
+    { "term": "Appointment", "definition": "A formal arrangement to meet someone at a specific time." },
+    { "term": "Available", "definition": "Free to do something or meet someone." },
+    { "term": "Confirm", "definition": "To state that something is definitely true or will happen." }
   ]
 }

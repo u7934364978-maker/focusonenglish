@@ -7,28 +7,32 @@
   "items": [
     {
       "id": "adm-b2-w29-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: Fire Safety Drill Report",
-      "text": "Memo: Results of the Annual Fire Drill\n\nThe annual fire drill was conducted on Tuesday at 10:15 AM. The building was fully evacuated within 4 minutes and 30 seconds, which is within our target of 5 minutes. \n\nObservations:\n1. All fire wardens were present and followed their protocols correctly.\n2. One fire exit in the basement was partially blocked by cleaning supplies. This hazard must be addressed immediately. \n3. A few staff members attempted to take their laptops with them. In the future, ensure that all personal items are left behind to speed up the evacuation.\n\nRemember: In a real emergency, the lifts shall not be used under any circumstances.",
-      "questions": [
-        {
-          "question": "Was the evacuation time successful?",
-          "options": ["No, it was too slow", "Yes, it was under the 5-minute target", "The text doesn't mention the target"],
-          "answerIndex": 1,
-          "explanation": "The text says 'within 4 minutes and 30 seconds, which is within our target of 5 minutes'."
-        },
-        {
-          "question": "What hazard was identified during the drill?",
-          "options": ["A broken fire alarm", "A blocked fire exit", "A malfunctioning lift"],
-          "answerIndex": 1,
-          "explanation": "Observation 2 mentions a fire exit in the basement was partially blocked."
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "Fire Drill Context: 'The building was evacuated within 4 minutes and 30 seconds, within our target of 5 minutes.' Was the evacuation time successful?",
+      "options": [
+        "No, it was too slow",
+        "Yes, it was under the 5-minute target",
+        "The text doesn't mention the target"
+      ],
+      "answerIndex": 1,
+      "explanation": "The report confirms the time was within the required target."
     },
     {
       "id": "adm-b2-w29-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: FM Vocabulary. What does 'HSE' stand for in the UK?",
+      "prompt": "Fire Drill Context: 'One fire exit in the basement was partially blocked by cleaning supplies.' What hazard was identified?",
+      "options": [
+        "A broken fire alarm",
+        "A blocked fire exit",
+        "A malfunctioning lift"
+      ],
+      "answerIndex": 1,
+      "explanation": "Observation 2 in the memo explicitly mentions the blocked exit."
+    },
+    {
+      "id": "adm-b2-w29-ex03",
+      "type": "multipleChoice",
+      "prompt": "Facility Management Vocabulary: What does 'HSE' stand for in the UK?",
       "options": [
         "Health and Safety Executive",
         "Home Security Environment",
@@ -36,26 +40,32 @@
         "Human System Efficiency"
       ],
       "answerIndex": 0,
-      "explanation": "HSE is the UK regulator for workplace health and safety."
-    },
-    {
-      "id": "adm-b2-w29-ex03",
-      "type": "writingTask",
-      "prompt": "Exercise 3: Formal Instructions. Rewrite this informal rule formally: 'Don't smoke in the office.'",
-      "modelAnswer": "Smoking is strictly prohibited on the premises.",
-      "keywords": ["prohibited", "premises"]
+      "explanation": "The Health and Safety Executive (HSE) is the UK's national regulator for workplace health and safety."
     },
     {
       "id": "adm-b2-w29-ex04",
-      "type": "writingTask",
-      "prompt": "Exercise 4: Imperatives. Use a direct imperative to tell staff to wear their ID badges: '____ (wear) your ID badges at all times.'",
-      "modelAnswer": "Wear your ID badges at all times.",
-      "keywords": ["Wear"]
+      "type": "gap-fill",
+      "prompt": "Rewrite this informal rule formally: 'Don't smoke in the office.' -> 'Smoking is strictly ____ on the premises.'",
+      "validation": {
+        "pattern": "prohibited",
+        "errorMessage": "Use a formal word meaning 'not allowed'."
+      },
+      "explanation": "'Prohibited' or 'forbidden' are standard formal terms for rules."
     },
     {
       "id": "adm-b2-w29-ex05",
+      "type": "gap-fill",
+      "prompt": "Use a direct imperative: '____ (wear) your ID badges at all times.'",
+      "validation": {
+        "pattern": "Wear",
+        "errorMessage": "Start the sentence with the base form of the verb."
+      },
+      "explanation": "Imperatives are used for direct instructions and signs."
+    },
+    {
+      "id": "adm-b2-w29-ex06",
       "type": "multipleChoice",
-      "prompt": "Exercise 5: FM Chunks. To 'conduct a risk assessment' means:",
+      "prompt": "Facility Management Chunks: To 'conduct a risk assessment' means:",
       "options": [
         "To systematically evaluate potential dangers in an activity",
         "To ignore the rules and hope for the best",
@@ -63,7 +73,835 @@
         "To fire the safety officer"
       ],
       "answerIndex": 0,
-      "explanation": "A risk assessment is a formal process for identifying and mitigating hazards."
+      "explanation": "A risk assessment identifies hazards and implement control measures."
+    },
+    {
+      "id": "adm-b2-w29-ex07",
+      "type": "multipleChoice",
+      "prompt": "Which term describes a desk booking system where staff reserve a spot in advance?",
+      "options": [
+        "Hot-desking",
+        "Hoteling",
+        "Zoning",
+        "SLA"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hoteling is a reservation-based desk sharing system."
+    },
+    {
+      "id": "adm-b2-w29-ex08",
+      "type": "multipleChoice",
+      "prompt": "What type of maintenance is performed *before* a breakdown occurs?",
+      "options": [
+        "Reactive",
+        "Preventative",
+        "Emergency",
+        "Corrective"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preventative maintenance aims to prevent failure through scheduled checks."
+    },
+    {
+      "id": "adm-b2-w29-ex09",
+      "type": "gap-fill",
+      "prompt": "Use 'shall' for formal obligation: 'The contractor ____ complete all repairs by Friday.'",
+      "validation": {
+        "pattern": "shall",
+        "errorMessage": "Use the formal modal of legal obligation."
+      },
+      "explanation": "'Shall' is common in contracts and formal rules to express obligation."
+    },
+    {
+      "id": "adm-b2-w29-ex10",
+      "type": "multipleChoice",
+      "prompt": "In Facility Management, what does 'SLA' stand for?",
+      "options": [
+        "Standard Legal Agreement",
+        "Service Level Agreement",
+        "System Loading Area",
+        "Safety Level Assessment"
+      ],
+      "answerIndex": 1,
+      "explanation": "An SLA defines the quality and scope of service from a vendor."
+    },
+    {
+      "id": "adm-b2-w29-ex11",
+      "type": "gap-fill",
+      "prompt": "Rewrite 'Wear safety goggles' using a passive structure: 'Safety goggles must be ____.'",
+      "validation": {
+        "pattern": "worn",
+        "errorMessage": "Use the past participle of 'wear'."
+      },
+      "explanation": "Passive imperatives (must be + past participle) are very common on safety signs."
+    },
+    {
+      "id": "adm-b2-w29-ex12",
+      "type": "multipleChoice",
+      "prompt": "A 'near miss' is defined as:",
+      "options": [
+        "An accident that caused minor injury",
+        "An unplanned event that did not result in injury but had the potential to do so",
+        "Failing to hit a target",
+        "Missing a meeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "A near miss is an accident that almost happened."
+    },
+    {
+      "id": "adm-b2-w29-ex13",
+      "type": "multipleChoice",
+      "prompt": "Which FM concept involves dividing an office into areas based on noise levels or activity types?",
+      "options": [
+        "Zoning",
+        "Hot-desking",
+        "Sourcing",
+        "RIDDOR"
+      ],
+      "answerIndex": 0,
+      "explanation": "Zoning creates dedicated spaces for quiet vs. collaborative work."
+    },
+    {
+      "id": "adm-b2-w29-ex14",
+      "type": "gap-fill",
+      "prompt": "Prohibit food formally: 'Staff ____ not consume food in the server room.'",
+      "validation": {
+        "pattern": "may",
+        "errorMessage": "Use 'may' for formal permission or prohibition."
+      },
+      "explanation": "'May not' is a formal way to express prohibition."
+    },
+    {
+      "id": "adm-b2-w29-ex15",
+      "type": "multipleChoice",
+      "prompt": "What is the primary focus of 'Sustainable Procurement'?",
+      "options": [
+        "Buying the cheapest possible items",
+        "Choosing suppliers based on their environmental and ethical standards",
+        "Only buying items that last forever",
+        "Avoiding buying anything at all"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustainable procurement considers social and environmental impacts."
+    },
+    {
+      "id": "adm-b2-w29-ex16",
+      "type": "multipleChoice",
+      "prompt": "RIDDOR is a UK regulation. What does the 'I' stand for?",
+      "options": [
+        "Incidents",
+        "Injuries",
+        "Insurance",
+        "Investigations"
+      ],
+      "answerIndex": 1,
+      "explanation": "It stands for Reporting of Injuries, Diseases and Dangerous Occurrences Regulations."
+    },
+    {
+      "id": "adm-b2-w29-ex17",
+      "type": "gap-fill",
+      "prompt": "Complete the instruction: '____ (notify) the facilities team of any leaks immediately.'",
+      "validation": {
+        "pattern": "Notify",
+        "errorMessage": "Use the imperative form."
+      },
+      "explanation": "Notify is a formal alternative to 'tell' or 'inform'."
+    },
+    {
+      "id": "adm-b2-w29-ex18",
+      "type": "multipleChoice",
+      "prompt": "Occupancy rates are used to measure:",
+      "options": [
+        "How fast employees work",
+        "The percentage of utilized space in a building",
+        "The number of visitors per day",
+        "Electricity consumption"
+      ],
+      "answerIndex": 1,
+      "explanation": "Occupancy rates help managers optimize space usage."
+    },
+    {
+      "id": "adm-b2-w29-ex19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Reactive Maintenance'?",
+      "options": [
+        "Cleaning the windows every month",
+        "Fixing a printer after it stops working",
+        "Planning a renovation",
+        "Training staff on safety"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reactive maintenance is done in response to a breakdown."
+    },
+    {
+      "id": "adm-b2-w29-ex20",
+      "type": "gap-fill",
+      "prompt": "Use 'must' for requirement: 'Visitors ____ sign in at reception.'",
+      "validation": {
+        "pattern": "must",
+        "errorMessage": "Use the modal for strong obligation."
+      },
+      "explanation": "'Must' indicates a mandatory requirement."
+    },
+    {
+      "id": "adm-b2-w29-ex21",
+      "type": "multipleChoice",
+      "prompt": "A 'Carbon Footprint' is:",
+      "options": [
+        "A black mark on the floor",
+        "The total amount of greenhouse gases produced by an organization",
+        "The cost of coal",
+        "A type of recycling bin"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carbon footprint is a measure of environmental impact."
+    },
+    {
+      "id": "adm-b2-w29-ex22",
+      "type": "multipleChoice",
+      "prompt": "Which document is used to record the details of an accident in the workplace?",
+      "options": [
+        "Invoice",
+        "Incident Report Form",
+        "Timesheet",
+        "SLA"
+      ],
+      "answerIndex": 1,
+      "explanation": "Incident forms are legal requirements for tracking workplace accidents."
+    },
+    {
+      "id": "adm-b2-w29-ex23",
+      "type": "multipleChoice",
+      "prompt": "What is the main goal of 'Agile Working'?",
+      "options": [
+        "To force everyone to work faster",
+        "To provide flexibility in how and where work is done",
+        "To eliminate all desks",
+        "To reduce vacation time"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile working focuses on productivity and flexibility over fixed location."
+    },
+    {
+      "id": "adm-b2-w29-ex24",
+      "type": "gap-fill",
+      "prompt": "Complete the instruction: '____ (ensure) all electronic devices are switched off before leaving.'",
+      "validation": {
+        "pattern": "Ensure",
+        "errorMessage": "Use the imperative form."
+      },
+      "explanation": "Ensure is a common formal imperative in safety instructions."
+    },
+    {
+      "id": "adm-b2-w29-ex25",
+      "type": "multipleChoice",
+      "prompt": "In Health & Safety, a 'hazard' is:",
+      "options": [
+        "The result of an accident",
+        "A potential source of harm",
+        "A safety rule",
+        "An insurance policy"
+      ],
+      "answerIndex": 1,
+      "explanation": "A hazard is anything that *could* cause harm."
+    },
+    {
+      "id": "adm-b2-w29-ex26",
+      "type": "multipleChoice",
+      "prompt": "What does 'Waste Management' include?",
+      "options": [
+        "Hiring new staff",
+        "Reducing, reusing, and recycling office materials",
+        "Paying taxes",
+        "Cleaning the windows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waste management follows the 3 Rs: Reduce, Reuse, Recycle."
+    },
+    {
+      "id": "adm-b2-w29-ex27",
+      "type": "gap-fill",
+      "prompt": "Use 'should' for a recommendation: 'Staff ____ report any faulty equipment to the helpdesk.'",
+      "validation": {
+        "pattern": "should",
+        "errorMessage": "Use the modal for recommendation."
+      },
+      "explanation": "'Should' is used for strong suggestions or standard procedures."
+    },
+    {
+      "id": "adm-b2-w29-ex28",
+      "type": "multipleChoice",
+      "prompt": "What is 'Preventative Maintenance' often called?",
+      "options": [
+        "Break-fix",
+        "Planned Maintenance",
+        "Emergency Repair",
+        "Reactive Care"
+      ],
+      "answerIndex": 1,
+      "explanation": "Planned maintenance is scheduled to avoid surprises."
+    },
+    {
+      "id": "adm-b2-w29-ex29",
+      "type": "multipleChoice",
+      "prompt": "A 'Fire Warden' is responsible for:",
+      "options": [
+        "Putting out all fires personally",
+        "Assisting in the safe evacuation of a building",
+        "Checking the internet connection",
+        "Ordering office supplies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fire wardens lead people to safety during drills or real emergencies."
+    },
+    {
+      "id": "adm-b2-w29-ex30",
+      "type": "gap-fill",
+      "prompt": "Use 'shall' for formal instruction: 'All visitors ____ be accompanied by a staff member.'",
+      "validation": {
+        "pattern": "shall",
+        "errorMessage": "Use the formal modal of obligation."
+      },
+      "explanation": "'Shall' is used for formal mandates."
+    },
+    {
+      "id": "adm-b2-w29-ex31",
+      "type": "multipleChoice",
+      "prompt": "What is 'Hot-desking'?",
+      "options": [
+        "A desk that is too warm",
+        "A system where desks are shared and not assigned to individuals",
+        "A specialized desk for IT staff",
+        "A desk with a built-in heater"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hot-desking means users do not have a permanent assigned desk."
+    },
+    {
+      "id": "adm-b2-w29-ex32",
+      "type": "multipleChoice",
+      "prompt": "CSR stands for:",
+      "options": [
+        "Corporate Social Responsibility",
+        "Customer Service Representative",
+        "Company Safety Regulations",
+        "Contractual Service Rate"
+      ],
+      "answerIndex": 0,
+      "explanation": "CSR is how companies manage their social and environmental impact."
+    },
+    {
+      "id": "adm-b2-w29-ex33",
+      "type": "gap-fill",
+      "prompt": "Rewrite using 'prohibited': 'Do not use phones.' -> 'The use of phones is strictly ____.'",
+      "validation": {
+        "pattern": "prohibited",
+        "errorMessage": "Use the formal term."
+      },
+      "explanation": "Prohibited is a high-register term for forbidden."
+    },
+    {
+      "id": "adm-b2-w29-ex34",
+      "type": "multipleChoice",
+      "prompt": "What is the purpose of a 'Risk Assessment'?",
+      "options": [
+        "To find someone to blame",
+        "To identify hazards and implement control measures",
+        "To increase the cost of a project",
+        "To satisfy the marketing team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Risk assessments prevent accidents through identification and mitigation."
+    },
+    {
+      "id": "adm-b2-w29-ex35",
+      "type": "multipleChoice",
+      "prompt": "An 'HSE Audit' is:",
+      "options": [
+        "A financial review",
+        "An official inspection of health and safety standards",
+        "A training session for new hires",
+        "A meeting with the CEO"
+      ],
+      "answerIndex": 1,
+      "explanation": "An audit checks compliance with safety laws."
+    },
+    {
+      "id": "adm-b2-w29-ex36",
+      "type": "gap-fill",
+      "prompt": "Use a negative imperative: '____ (not leave) bags unattended.'",
+      "validation": {
+        "pattern": "Do not leave",
+        "errorMessage": "Use the formal 'Do not' structure."
+      },
+      "explanation": "Negative imperatives are used for prohibitions."
+    },
+    {
+      "id": "adm-b2-w29-ex37",
+      "type": "multipleChoice",
+      "prompt": "What does 'HVAC' stand for?",
+      "options": [
+        "High Voltage Air Control",
+        "Heating, Ventilation, and Air Conditioning",
+        "Heavy Vehicle Access Code",
+        "Health, Value, and Care"
+      ],
+      "answerIndex": 1,
+      "explanation": "HVAC systems control temperature and air quality."
+    },
+    {
+      "id": "adm-b2-w29-ex38",
+      "type": "multipleChoice",
+      "prompt": "Ergonomics in the office refers to:",
+      "options": [
+        "The study of office economics",
+        "Designing the workspace to fit the user's physical needs",
+        "How to save energy",
+        "The hierarchy of management"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ergonomics matches the job to the person (e.g., proper chair height)."
+    },
+    {
+      "id": "adm-b2-w29-ex39",
+      "type": "gap-fill",
+      "prompt": "Use 'may' for permission: 'Staff ____ book the conference room via the portal.'",
+      "validation": {
+        "pattern": "may",
+        "errorMessage": "Use the modal for permission."
+      },
+      "explanation": "'May' is more formal than 'can' for permission."
+    },
+    {
+      "id": "adm-b2-w29-ex40",
+      "type": "multipleChoice",
+      "prompt": "What is 'Hazardous Waste'?",
+      "options": [
+        "Old newspapers",
+        "Waste that is dangerous to human health or the environment",
+        "Leftover food from the canteen",
+        "Shredded paper"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hazardous waste requires special disposal (e.g., chemicals)."
+    },
+    {
+      "id": "adm-b2-w29-ex41",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Near Miss' report?",
+      "options": [
+        "A report on a successful sale",
+        "A report on a potential accident that almost happened",
+        "A report on a missed deadline",
+        "A report on a late employee"
+      ],
+      "answerIndex": 1,
+      "explanation": "Near miss reports prevent future accidents."
+    },
+    {
+      "id": "adm-b2-w29-ex42",
+      "type": "gap-fill",
+      "prompt": "Complete the safety sign: '____ (extinguish) all cigarettes before entering.'",
+      "validation": {
+        "pattern": "Extinguish",
+        "errorMessage": "Use the formal imperative form."
+      },
+      "explanation": "Extinguish is the formal term for putting out a fire or cigarette."
+    },
+    {
+      "id": "adm-b2-w29-ex43",
+      "type": "multipleChoice",
+      "prompt": "What does 'Space Planning' involve?",
+      "options": [
+        "Buying more land for the company",
+        "Arranging furniture and equipment to maximize efficiency",
+        "Planning a trip to outer space",
+        "Selling office equipment"
+      ],
+      "answerIndex": 1,
+      "explanation": "Space planning optimizes building layout."
+    },
+    {
+      "id": "adm-b2-w29-ex44",
+      "type": "multipleChoice",
+      "prompt": "A 'Service Level Agreement' (SLA) is usually between:",
+      "options": [
+        "Two employees",
+        "A company and a service provider",
+        "The CEO and the board",
+        "The HR and Marketing departments"
+      ],
+      "answerIndex": 1,
+      "explanation": "SLAs are contracts between clients and vendors."
+    },
+    {
+      "id": "adm-b2-w29-ex45",
+      "type": "gap-fill",
+      "prompt": "Use 'shall not' for prohibition: 'Employees ____ share their security badges.'",
+      "validation": {
+        "pattern": "shall not",
+        "errorMessage": "Use the formal modal of prohibition."
+      },
+      "explanation": "'Shall not' is standard in formal rulebooks."
+    },
+    {
+      "id": "adm-b2-w29-ex46",
+      "type": "multipleChoice",
+      "prompt": "What is 'Soft FM'?",
+      "options": [
+        "Maintaining the physical structure of a building",
+        "Services that make the workplace more comfortable (cleaning, catering)",
+        "IT software development",
+        "Management training"
+      ],
+      "answerIndex": 1,
+      "explanation": "Soft FM includes non-structural services like cleaning and security."
+    },
+    {
+      "id": "adm-b2-w29-ex47",
+      "type": "multipleChoice",
+      "prompt": "What is 'Hard FM'?",
+      "options": [
+        "Difficult management tasks",
+        "Physical services built into the structure of a building (electrical, plumbing)",
+        "Strict health and safety rules",
+        "Hardware procurement"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hard FM refers to structural and mechanical maintenance."
+    },
+    {
+      "id": "adm-b2-w29-ex48",
+      "type": "gap-fill",
+      "prompt": "Complete: 'Please ____ (report) any suspicious activity to security.'",
+      "validation": {
+        "pattern": "report",
+        "errorMessage": "Use the imperative form."
+      },
+      "explanation": "Reporting is a vital security protocol."
+    },
+    {
+      "id": "adm-b2-w29-ex49",
+      "type": "multipleChoice",
+      "prompt": "The 'Hierarchy of Controls' in safety starts with:",
+      "options": [
+        "Using PPE (Personal Protective Equipment)",
+        "Eliminating the hazard",
+        "Warning signs",
+        "Training"
+      ],
+      "answerIndex": 1,
+      "explanation": "Eliminating the source of danger is always the best first step."
+    },
+    {
+      "id": "adm-b2-w29-ex50",
+      "type": "multipleChoice",
+      "prompt": "What does 'PPE' stand for?",
+      "options": [
+        "Personal Protective Equipment",
+        "Professional Policy Entry",
+        "Physical Prevention Exercise",
+        "Private Personnel Exit"
+      ],
+      "answerIndex": 0,
+      "explanation": "PPE is the last line of defense in safety."
+    },
+    {
+      "id": "adm-b2-w29-ex51",
+      "type": "gap-fill",
+      "prompt": "Formal Passive: 'The manager must approve all repairs.' -> 'All repairs must be ____ by the manager.'",
+      "validation": {
+        "pattern": "approved",
+        "errorMessage": "Use the past participle."
+      },
+      "explanation": "Passive structures shift focus to the action or object."
+    },
+    {
+      "id": "adm-b2-w29-ex52",
+      "type": "multipleChoice",
+      "prompt": "What is 'Lifecycle Costing' in FM?",
+      "options": [
+        "The cost of health insurance for staff",
+        "The total cost of an asset over its entire life",
+        "The cost of recycling",
+        "The cost of employee benefits"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lifecycle costing includes purchase, maintenance, and disposal."
+    },
+    {
+      "id": "adm-b2-w29-ex53",
+      "type": "multipleChoice",
+      "prompt": "First Aid at work is:",
+      "options": [
+        "A full medical hospital on site",
+        "Immediate assistance given to someone injured or taken ill",
+        "A type of insurance",
+        "A monthly health check-up"
+      ],
+      "answerIndex": 1,
+      "explanation": "First aid is an emergency response before professional help."
+    },
+    {
+      "id": "adm-b2-w29-ex54",
+      "type": "gap-fill",
+      "prompt": "Prohibit access formally: 'Unauthorized personnel ____ not enter the warehouse.'",
+      "validation": {
+        "pattern": "may",
+        "errorMessage": "Use the modal for formal prohibition."
+      },
+      "explanation": "'May not' is the standard formal prohibition."
+    },
+    {
+      "id": "adm-b2-w29-ex55",
+      "type": "multipleChoice",
+      "prompt": "What is 'Outsourcing' in FM?",
+      "options": [
+        "Firing all staff",
+        "Hiring external companies to handle specific tasks",
+        "Working from home",
+        "Moving the office"
+      ],
+      "answerIndex": 1,
+      "explanation": "Outsourcing leverages external vendor expertise."
+    },
+    {
+      "id": "adm-b2-w29-ex56",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Maintenance Log'?",
+      "options": [
+        "A piece of wood used for repairs",
+        "A record of all maintenance work performed on equipment",
+        "A list of employees who are late",
+        "A diary"
+      ],
+      "answerIndex": 1,
+      "explanation": "Logs provide an audit trail for maintenance compliance."
+    },
+    {
+      "id": "adm-b2-w29-ex57",
+      "type": "gap-fill",
+      "prompt": "Complete the instruction: '____ (disinfect) your workstation daily.'",
+      "validation": {
+        "pattern": "Disinfect",
+        "errorMessage": "Use the imperative form."
+      },
+      "explanation": "Disinfection is part of Soft FM and health protocols."
+    },
+    {
+      "id": "adm-b2-w29-ex58",
+      "type": "multipleChoice",
+      "prompt": "What is sustainability in building management?",
+      "options": [
+        "Making the building last forever",
+        "Meeting current needs without compromising future generations",
+        "Painting the building green",
+        "Reducing employee count"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustainability balances environmental and social needs."
+    },
+    {
+      "id": "adm-b2-w29-ex59",
+      "type": "multipleChoice",
+      "prompt": "Which of these is an 'Environmental Impact'?",
+      "options": [
+        "A promotion",
+        "Energy consumption",
+        "A new office chair",
+        "A company holiday"
+      ],
+      "answerIndex": 1,
+      "explanation": "Energy use directly affects environmental metrics."
+    },
+    {
+      "id": "adm-b2-w29-ex60",
+      "type": "gap-fill",
+      "prompt": "Use 'should' for recommendation: 'All staff ____ familiarize themselves with the evacuation route.'",
+      "validation": {
+        "pattern": "should",
+        "errorMessage": "Use the modal for recommendation."
+      },
+      "explanation": "'Should' expresses a strong recommendation for safety."
+    },
+    {
+      "id": "adm-b2-w29-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is 'Benchmarking' in FM?",
+      "options": [
+        "Sitting on a bench to think",
+        "Comparing performance against industry standards or other buildings",
+        "Marking a desk",
+        "Buying new benches"
+      ],
+      "answerIndex": 1,
+      "explanation": "Benchmarking identifies how well a facility is performing."
+    },
+    {
+      "id": "adm-b2-w29-ex62",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Safety Data Sheet' (SDS)?",
+      "options": [
+        "A sheet of paper that is safe to touch",
+        "A document providing information on chemical product hazards",
+        "A list of emergency phone numbers",
+        "A map"
+      ],
+      "answerIndex": 1,
+      "explanation": "SDSs provide technical safety info for chemicals."
+    },
+    {
+      "id": "adm-b2-w29-ex63",
+      "type": "gap-fill",
+      "prompt": "Use 'must' for requirement: 'Ladders ____ be inspected for damage before use.'",
+      "validation": {
+        "pattern": "must",
+        "errorMessage": "Use the modal for obligation."
+      },
+      "explanation": "'Must' indicates a non-negotiable safety check."
+    },
+    {
+      "id": "adm-b2-w29-ex64",
+      "type": "multipleChoice",
+      "prompt": "What is 'Corrective Maintenance'?",
+      "options": [
+        "Maintenance performed after an asset has failed",
+        "Maintenance performed to prevent failure",
+        "Cleaning the office",
+        "Changing lightbulbs"
+      ],
+      "answerIndex": 0,
+      "explanation": "Corrective (reactive) maintenance fixes what is broken."
+    },
+    {
+      "id": "adm-b2-w29-ex65",
+      "type": "multipleChoice",
+      "prompt": "What is 'Procurement'?",
+      "options": [
+        "Selling old equipment",
+        "The process of acquiring goods or services from an external source",
+        "Curing a disease",
+        "Managing HR"
+      ],
+      "answerIndex": 1,
+      "explanation": "Procurement involves sourcing, negotiation, and purchasing."
+    },
+    {
+      "id": "adm-b2-w29-ex66",
+      "type": "gap-fill",
+      "prompt": "Rewrite using 'mandatory': 'You must attend.' -> 'Attendance is ____.'",
+      "validation": {
+        "pattern": "mandatory",
+        "errorMessage": "Use the formal adjective."
+      },
+      "explanation": "Mandatory is the formal adjective for 'must'."
+    },
+    {
+      "id": "adm-b2-w29-ex67",
+      "type": "multipleChoice",
+      "prompt": "What is 'Asset Management'?",
+      "options": [
+        "Managing the company's bank account",
+        "The systematic process of maintaining assets cost-effectively",
+        "Hiring new employees",
+        "Writing a business plan"
+      ],
+      "answerIndex": 1,
+      "explanation": "Asset management focuses on the lifecycle of physical items."
+    },
+    {
+      "id": "adm-b2-w29-ex68",
+      "type": "multipleChoice",
+      "prompt": "What is 'Occupational Health'?",
+      "options": [
+        "The health of the business",
+        "Wellbeing of employees in the workplace",
+        "A type of insurance",
+        "The study of office furniture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Occupational health prevents work-related illnesses."
+    },
+    {
+      "id": "adm-b2-w29-ex69",
+      "type": "gap-fill",
+      "prompt": "Use 'shall' for instruction: 'The premises ____ be vacated by 8 PM.'",
+      "validation": {
+        "pattern": "shall",
+        "errorMessage": "Use the formal modal."
+      },
+      "explanation": "'Shall' is the modal for formal rules and orders."
+    },
+    {
+      "id": "adm-b2-w29-ex70",
+      "type": "multipleChoice",
+      "prompt": "What is 'Vendor Management'?",
+      "options": [
+        "Managing the sales team",
+        "Controlling costs and reducing risks related to suppliers",
+        "Selling products",
+        "Hiring interns"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vendor management optimizes external service relationships."
+    },
+    {
+      "id": "adm-b2-w29-ex71",
+      "type": "multipleChoice",
+      "prompt": "A 'Work Permit' in safety is:",
+      "options": [
+        "A visa",
+        "A formal document giving permission to perform dangerous work",
+        "A job contract",
+        "A badge"
+      ],
+      "answerIndex": 1,
+      "explanation": "Permits to work ensure safety protocols for risky jobs."
+    },
+    {
+      "id": "adm-b2-w29-ex72",
+      "type": "gap-fill",
+      "prompt": "Negative imperative: '____ (not block) the fire exits.'",
+      "validation": {
+        "pattern": "Do not block",
+        "errorMessage": "Use the formal 'Do not' structure."
+      },
+      "explanation": "Direct prohibition of safety hazards."
+    },
+    {
+      "id": "adm-b2-w29-ex73",
+      "type": "multipleChoice",
+      "prompt": "What is 'Emergency Preparedness'?",
+      "options": [
+        "Having a first aid kit",
+        "Activities to prepare an organization for an emergency (fire, flood)",
+        "Buying insurance",
+        "Hiring security"
+      ],
+      "answerIndex": 1,
+      "explanation": "Preparedness involves planning and drills for disasters."
+    },
+    {
+      "id": "adm-b2-w29-ex74",
+      "type": "gap-fill",
+      "prompt": "Use 'must' for obligation: 'All accidents ____ be recorded in the accident book.'",
+      "validation": {
+        "pattern": "must",
+        "errorMessage": "Use the modal for obligation."
+      },
+      "explanation": "Recording accidents is a legal mandatory requirement."
+    },
+    {
+      "id": "adm-b2-w29-ex75",
+      "type": "multipleChoice",
+      "prompt": "What is 'Total Facilities Management' (TFM)?",
+      "options": [
+        "Managing only one building",
+        "Outsourcing all facility services to a single provider",
+        "Doing all maintenance in-house",
+        "A type of software"
+      ],
+      "answerIndex": 1,
+      "explanation": "TFM consolidates all facility needs under one vendor."
     }
   ]
 }

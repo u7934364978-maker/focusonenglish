@@ -6,6 +6,7 @@ import {
   getCurriculum, 
   getTopicsByCategory, 
   getRandomTopic,
+  getAllTopics,
   type CEFRLevel 
 } from '@/lib/cambridge-curriculum';
 import { generateExercise, type Exercise } from '@/lib/exercise-generator';
@@ -38,7 +39,7 @@ function PracticeContent({ level }: PracticePageProps) {
       if (topicId) {
         // Specific topic requested
         const allTopics = getAllTopics(level);
-        topic = allTopics.find(t => t.id === topicId);
+        topic = allTopics.find((t: any) => t.id === topicId);
         if (!topic) {
           throw new Error(`Topic not found: ${topicId}`);
         }

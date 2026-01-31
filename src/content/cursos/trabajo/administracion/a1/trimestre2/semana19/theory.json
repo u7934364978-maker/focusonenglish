@@ -1,30 +1,29 @@
 {
-  "title": "Online Transfers & Instant Payments",
+  "title": "Semana 19: Introducción a la Correspondencia de Negocios",
   "sections": [
     {
-      "id": "transfer-vocab",
-      "title": "Transfer Vocabulary",
-      "content": "Sending money digitally is fast and easy.\n\n- **Send**: Mandar / Enviar dinero.\n- **Receive**: Recibir dinero.\n- **Recipient / Payee**: The person who receives the money.\n- **Instant Transfer**: Money that arrives in seconds.\n- **Standard Transfer**: Money that arrives in 1-2 days.\n- **Reference**: A short note for the payment (e.g., 'Rent')."
+      "id": "email-parts",
+      "title": "Partes de un Correo Electrónico",
+      "content": "Escribir correos claros es fundamental en la administración. Las partes principales son:\n\n- **Subject line**: El asunto (de qué trata el correo).\n- **Salutation**: Saludo inicial.\n- **Body**: El cuerpo o mensaje.\n- **Closing**: Despedida.\n- **Signature**: Tu firma profesional."
     },
     {
-      "id": "time-transfers",
-      "title": "When is the money arriving?",
-      "content": "Use prepositions of time to talk about transfers:\n\n- The money arrives **at** 5:00 PM.\n- Send the payment **on** Monday.\n- The transfer is completed **in** 10 minutes.\n- **Instant**: Right now / immediately."
+      "id": "salutations-closings",
+      "title": "Saludos y Despedidas",
+      "content": "Dependiendo de la formalidad, usamos diferentes expresiones:\n\n**Saludos (Greetings):**\n- *Dear Mr./Ms. [Last Name]* (Formal)\n- *Hello [Name]* (Informal/Neutral)\n- *Hi [Name]* (Informal)\n\n**Despedidas (Closings):**\n- *Best regards,* (Muy común y profesional)\n- *Sincerely,* (Formal)\n- *Thanks,* (Informal)"
     },
     {
-      "id": "diagram-transfer",
-      "title": "Transfer Process",
-      "content": "```mermaid\ngraph LR\n    A[Enter Amount] --> B[Select Recipient]\n    B --> C[Security Code/OTP]\n    C --> D{Verification}\n    D -- Success --> E[Money Sent!]\n    E --> F[Instant Arrival]\n```"
+      "id": "common-phrases",
+      "title": "Frases Comunes",
+      "content": "Frases útiles para empezar o terminar un correo:\n\n- **I am writing to...**: Escribo para...\n- **Please find attached...**: Adjunto encontrará...\n- **Thank you for your help**: Gracias por su ayuda.\n- **I look forward to hearing from you**: Quedo a la espera de sus noticias."
     }
   ],
   "objectives": [
-    "Identify 'Send' and 'Receive' actions in a banking app",
-    "Differentiate between 'Instant' and 'Standard' transfers",
-    "Use 'at', 'on', and 'in' to describe when money arrives"
+    "Identificar las partes básicas de un correo profesional",
+    "Elegir saludos y despedidas apropiados según el contexto",
+    "Comprender frases comunes de apertura y cierre en emails"
   ],
   "keyTerms": [
-    { "term": "Recipient", "definition": "The person or business receiving the money." },
-    { "term": "Instant", "definition": "Happening immediately, without delay." },
-    { "term": "OTP", "definition": "One-Time Password; a security code sent to your phone." }
+    { "term": "Attachment", "definition": "A file sent together with an email." },
+    { "term": "Recipient", "definition": "The person who receives the email." }
   ]
 }

@@ -124,6 +124,486 @@
       "options": ["Even so", "Albeit", "Notwithstanding", "Much as"],
       "answerIndex": 0,
       "explanation": "'Even so' is used to transition to a contrasting but logical next step."
+    },
+    {
+      "id": "adm-b2-w22-16",
+      "type": "multipleChoice",
+      "prompt": "The trade mission was a success, ________ expensive for the company.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' is used before an adjective to mean 'although'."
+    },
+    {
+      "id": "adm-b2-w22-17",
+      "type": "multipleChoice",
+      "prompt": "________ the complexity of the new customs forms, we managed to submit them without errors.",
+      "options": ["Notwithstanding", "Albeit", "Even so", "Much as"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite' and is followed by a noun phrase."
+    },
+    {
+      "id": "adm-b2-w22-18",
+      "type": "multipleChoice",
+      "prompt": "________ we value our partnership with your firm, we cannot accept these new terms.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' expresses a strong contrast, like 'although'."
+    },
+    {
+      "id": "adm-b2-w22-19",
+      "type": "multipleChoice",
+      "prompt": "The cargo arrived damaged. ________, we must file a claim with the insurance company immediately.",
+      "options": ["Even so", "Albeit", "Notwithstanding", "Much as"],
+      "answerIndex": 0,
+      "explanation": "'Even so' introduces a logical step despite the previous negative statement."
+    },
+    {
+      "id": "adm-b2-w22-20",
+      "type": "multipleChoice",
+      "prompt": "Our lead times have improved, ________ slightly, since we switched freight forwarders.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit slightly' means 'although only by a little'."
+    },
+    {
+      "id": "adm-b2-w22-21",
+      "type": "multipleChoice",
+      "prompt": "________ the global shortage of containers, we have managed to secure our monthly quota.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' is followed by a noun phrase to mean 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-22",
+      "type": "multipleChoice",
+      "prompt": "________ we need to cut costs, we shouldn't compromise on the quality of our packaging.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' introduces a contrastive clause."
+    },
+    {
+      "id": "adm-b2-w22-23",
+      "type": "multipleChoice",
+      "prompt": "The regulations are strict. ________, we have found a way to comply without increasing prices.",
+      "options": ["Even so", "Albeit", "Notwithstanding", "Much as"],
+      "answerIndex": 0,
+      "explanation": "'Even so' means 'nevertheless'."
+    },
+    {
+      "id": "adm-b2-w22-24",
+      "type": "multipleChoice",
+      "prompt": "He accepted the job offer, ________ with some hesitation about the relocation package.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' can be followed by a prepositional phrase."
+    },
+    {
+      "id": "adm-b2-w22-25",
+      "type": "multipleChoice",
+      "prompt": "________ the high tariffs, the demand for our luxury products in China remains high.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-26",
+      "type": "multipleChoice",
+      "prompt": "________ we want to support local suppliers, their lead times are currently unacceptable.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' is used for strong contrast."
+    },
+    {
+      "id": "adm-b2-w22-27",
+      "type": "multipleChoice",
+      "prompt": "The port is congested. ________, our shipment is expected to be unloaded by Friday.",
+      "options": ["Even so", "Albeit", "Notwithstanding", "Much as"],
+      "answerIndex": 0,
+      "explanation": "'Even so' indicates a contrast to the congestion."
+    },
+    {
+      "id": "adm-b2-w22-28",
+      "type": "multipleChoice",
+      "prompt": "The negotiation was productive, ________ long and exhausting for all parties involved.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' followed by adjectives."
+    },
+    {
+      "id": "adm-b2-w22-29",
+      "type": "multipleChoice",
+      "prompt": "________ the risks involved, the company is proceeding with the expansion into South America.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-30",
+      "type": "multipleChoice",
+      "prompt": "________ we understand the delay, we must insist on a discount for the inconvenience.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' is used for emphasis in contrast."
+    },
+    {
+      "id": "adm-b2-w22-31",
+      "type": "multipleChoice",
+      "prompt": "The ________ strategy involves keeping extra stock to avoid running out during a crisis.",
+      "options": ["Just-in-Time", "Just-in-Case", "Bottleneck", "Modal Shift"],
+      "answerIndex": 1,
+      "explanation": "Just-in-Case (JIC) is a strategy for resilience through inventory."
+    },
+    {
+      "id": "adm-b2-w22-32",
+      "type": "multipleChoice",
+      "prompt": "A ________ in the packing department is delaying all our outgoing shipments.",
+      "options": ["bottleneck", "diversification", "lead time", "Incoterm"],
+      "answerIndex": 0,
+      "explanation": "A bottleneck is a point of congestion that slows the whole process."
+    },
+    {
+      "id": "adm-b2-w22-33",
+      "type": "multipleChoice",
+      "prompt": "________ the move towards JIC, many companies still prefer JIT for its cost efficiency.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-34",
+      "type": "multipleChoice",
+      "prompt": "Supplier ________ is the best way to ensure we aren't too dependent on one factory.",
+      "options": ["diversification", "localisation", "offsetting", "clearance"],
+      "answerIndex": 0,
+      "explanation": "Diversification reduces risk by spreading sources."
+    },
+    {
+      "id": "adm-b2-w22-35",
+      "type": "multipleChoice",
+      "prompt": "The factory uses ________ manufacturing to reduce waste and only produce what is ordered.",
+      "options": ["Just-in-Time", "Just-in-Case", "Bottleneck", "Economies of Scale"],
+      "answerIndex": 0,
+      "explanation": "Just-in-Time (JIT) minimizes inventory and waste."
+    },
+    {
+      "id": "adm-b2-w22-36",
+      "type": "multipleChoice",
+      "prompt": "________ the logistical challenges in the region, our expansion has been profitable.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even so"],
+      "answerIndex": 0,
+      "explanation": "Notwithstanding + noun phrase."
+    },
+    {
+      "id": "adm-b2-w22-37",
+      "type": "multipleChoice",
+      "prompt": "We identified a ________ in the supply chain where the lack of raw materials was stopping production.",
+      "options": ["bottleneck", "lead time", "customs", "consignment"],
+      "answerIndex": 0,
+      "explanation": "Bottlenecks stop or slow down the entire process."
+    },
+    {
+      "id": "adm-b2-w22-38",
+      "type": "multipleChoice",
+      "prompt": "________ we would like to offer 24-hour delivery, the current port strikes make it impossible.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' expresses a strong contrast."
+    },
+    {
+      "id": "adm-b2-w22-39",
+      "type": "multipleChoice",
+      "prompt": "To increase resilience, we are moving from a single-source model to supplier ________.",
+      "options": ["diversification", "scaling", "barrier", "offsetting"],
+      "answerIndex": 0,
+      "explanation": "Diversification is a key risk management strategy."
+    },
+    {
+      "id": "adm-b2-w22-40",
+      "type": "multipleChoice",
+      "prompt": "The cost of storage increased significantly. ________, we decided to keep the safety stock.",
+      "options": ["Even so", "Albeit", "Notwithstanding", "Much as"],
+      "answerIndex": 0,
+      "explanation": "'Even so' indicates a choice made despite the cost."
+    },
+    {
+      "id": "adm-b2-w22-41",
+      "type": "multipleChoice",
+      "prompt": "________ the need for speed, we have opted for sea freight to reduce costs.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-42",
+      "type": "multipleChoice",
+      "prompt": "Switching from JIT to JIC has increased our ________ but reduced our risk of stockouts.",
+      "options": ["overhead costs", "lead times", "trade barriers", "customs duties"],
+      "answerIndex": 0,
+      "explanation": "Keeping more inventory (JIC) increases storage and overhead costs."
+    },
+    {
+      "id": "adm-b2-w22-43",
+      "type": "multipleChoice",
+      "prompt": "________ the audit was thorough, it failed to identify the bottleneck in the shipping department.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' is followed by a clause."
+    },
+    {
+      "id": "adm-b2-w22-44",
+      "type": "multipleChoice",
+      "prompt": "The new warehouse is very efficient, ________ more expensive to run than the old one.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' followed by an adjective phrase."
+    },
+    {
+      "id": "adm-b2-w22-45",
+      "type": "multipleChoice",
+      "prompt": "________ the global instability, our supply chain has remained surprisingly resilient.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-46",
+      "type": "multipleChoice",
+      "prompt": "________ delivery is often the most expensive and least environmentally friendly part of the process.",
+      "options": ["Last-mile", "First-leg", "Middle-tier", "Reverse"],
+      "answerIndex": 0,
+      "explanation": "Last-mile delivery is the final step to the end user."
+    },
+    {
+      "id": "adm-b2-w22-47",
+      "type": "multipleChoice",
+      "prompt": "________ the cost, we are investing in carbon offsetting to reach our sustainability goals.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-48",
+      "type": "multipleChoice",
+      "prompt": "Online returns are handled by our ________ logistics department.",
+      "options": ["reverse", "forward", "3PL", "green"],
+      "answerIndex": 0,
+      "explanation": "Reverse logistics handles returns, repairs, and recycling."
+    },
+    {
+      "id": "adm-b2-w22-49",
+      "type": "multipleChoice",
+      "prompt": "________ we are based in Europe, we have fulfillment centres in the US to speed up delivery.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' introduces a contrastive clause."
+    },
+    {
+      "id": "adm-b2-w22-50",
+      "type": "multipleChoice",
+      "prompt": "A ________ shift from air to sea freight can reduce our CO2 emissions by up to 90%.",
+      "options": ["modal", "logical", "postal", "retail"],
+      "answerIndex": 0,
+      "explanation": "A modal shift is switching transport modes."
+    },
+    {
+      "id": "adm-b2-w22-51",
+      "type": "multipleChoice",
+      "prompt": "________ the new VAT rules for e-commerce, our sales in the UK have continued to grow.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-52",
+      "type": "multipleChoice",
+      "prompt": "We outsource our warehousing and shipping to a ________ provider.",
+      "options": ["3PL", "VAT", "JIT", "ICC"],
+      "answerIndex": 0,
+      "explanation": "3PL stands for Third-Party Logistics."
+    },
+    {
+      "id": "adm-b2-w22-53",
+      "type": "multipleChoice",
+      "prompt": "________ we offer free returns, we encourage customers to check sizes carefully to reduce our carbon footprint.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' introduces a contrastive clause."
+    },
+    {
+      "id": "adm-b2-w22-54",
+      "type": "multipleChoice",
+      "prompt": "Successful ________ requires adapting our website's currency and language to the local market.",
+      "options": ["localisation", "carbon offsetting", "reverse logistics", "fulfillment"],
+      "answerIndex": 0,
+      "explanation": "Localisation is adapting to a specific local market."
+    },
+    {
+      "id": "adm-b2-w22-55",
+      "type": "multipleChoice",
+      "prompt": "The new green initiative is ambitious, ________ slightly impractical for our smaller suppliers.",
+      "options": ["albeit", "notwithstanding", "even so", "much as"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' followed by an adjective."
+    },
+    {
+      "id": "adm-b2-w22-56",
+      "type": "multipleChoice",
+      "prompt": "Our ________ centre in Singapore handles all our Southeast Asian online orders.",
+      "options": ["fulfillment", "customs", "barrier", "scale"],
+      "answerIndex": 0,
+      "explanation": "Fulfillment centres handle online order processing and shipping."
+    },
+    {
+      "id": "adm-b2-w22-57",
+      "type": "multipleChoice",
+      "prompt": "________ the difficulties of cross-border trade, it remains our fastest-growing segment.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Notwithstanding' means 'despite'."
+    },
+    {
+      "id": "adm-b2-w22-58",
+      "type": "multipleChoice",
+      "prompt": "________ is the practice of compensating for emissions by funding environmental projects.",
+      "options": ["Carbon offsetting", "Reverse logistics", "Localisation", "Lead time"],
+      "answerIndex": 0,
+      "explanation": "Carbon offsetting compensates for CO2 emissions."
+    },
+    {
+      "id": "adm-b2-w22-59",
+      "type": "multipleChoice",
+      "prompt": "________ we have expanded our product range, we have kept our core logistics team small.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Even so"],
+      "answerIndex": 0,
+      "explanation": "'Much as' used for contrast."
+    },
+    {
+      "id": "adm-b2-w22-60",
+      "type": "multipleChoice",
+      "prompt": "Export duties were higher than expected. ________, the market demand made it worth the cost.",
+      "options": ["Even so", "Albeit", "Notwithstanding", "Much as"],
+      "answerIndex": 0,
+      "explanation": "'Even so' means 'nevertheless'."
+    },
+    {
+      "id": "adm-b2-w22-61",
+      "type": "multipleChoice",
+      "prompt": "Listening Review: According to the Logistics Manager, why are they moving to a Just-in-Case model?",
+      "options": ["To lower storage costs", "Recent global disruptions exposed vulnerabilities", "To speed up production", "To fire the IT team"],
+      "answerIndex": 1,
+      "explanation": "The manager stated that disruptions exposed vulnerabilities in the lean JIT model."
+    },
+    {
+      "id": "adm-b2-w22-62",
+      "type": "multipleChoice",
+      "prompt": "Listening Review: What is the trade-off for the modal shift to rail for inland distribution?",
+      "options": ["Higher CO2 emissions", "A slightly longer lead time", "Lower safety standards", "Higher packaging costs"],
+      "answerIndex": 1,
+      "explanation": "The manager mentioned it comes with a slightly longer lead time."
+    },
+    {
+      "id": "adm-b2-w22-63",
+      "type": "multipleChoice",
+      "prompt": "Reading Review: What percentage of packaging material does the reverse logistics program currently recover?",
+      "options": ["40%", "85%", "15%", "90%"],
+      "answerIndex": 1,
+      "explanation": "The text explicitly states that 85% of packaging material is recovered."
+    },
+    {
+      "id": "adm-b2-w22-64",
+      "type": "multipleChoice",
+      "prompt": "Reading Review: Besides ethics, what other advantage is mentioned for the Green Logistics changes?",
+      "options": ["Better employee morale", "Long-term cost advantages", "Tax exemptions", "Faster air shipping"],
+      "answerIndex": 1,
+      "explanation": "The text mentions efficiency and carbon offsetting savings as cost advantages."
+    },
+    {
+      "id": "adm-b2-w22-65",
+      "type": "fillBlanks",
+      "prompt": "Complete the report excerpt: [Notwithstanding] our rigorous scheduling, the consignment of raw materials has been delayed.",
+      "text": "[Notwithstanding] our rigorous scheduling, the consignment of raw materials has been delayed.",
+      "answers": ["Notwithstanding"],
+      "explanation": "Formal concession used to introduce a contrast to 'rigorous scheduling'."
+    },
+    {
+      "id": "adm-b2-w22-66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Vocabulary. 'Lead time' is the period between ________ and ________.",
+      "options": ["order; delivery", "production; sale", "loading; unloading", "payment; shipping"],
+      "answerIndex": 0,
+      "explanation": "Lead time covers the entire process from start to finish."
+    },
+    {
+      "id": "adm-b2-w22-67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Grammar. 'Albeit' is most similar in meaning to ________.",
+      "options": ["although", "because", "therefore", "instead"],
+      "answerIndex": 0,
+      "explanation": "Albeit is a formal synonym for although."
+    },
+    {
+      "id": "adm-b2-w22-68",
+      "type": "multipleChoice",
+      "prompt": "Exercise 68: Logistics. Which Incoterm requires the seller to pay for insurance and freight?",
+      "options": ["FOB", "CIF", "EXW", "DDP"],
+      "answerIndex": 1,
+      "explanation": "CIF stands for Cost, Insurance, and Freight."
+    },
+    {
+      "id": "adm-b2-w22-69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Strategy. A 'modal shift' involves changing the ________.",
+      "options": ["transport method", "price point", "supplier", "destination"],
+      "answerIndex": 0,
+      "explanation": "It refers to switching between modes like sea, air, rail, or road."
+    },
+    {
+      "id": "adm-b2-w22-70",
+      "type": "multipleChoice",
+      "prompt": "Exercise 70: Terms. 'Freight forwarding' is a service that ________ shipping.",
+      "options": ["arranges", "manufactures", "buys", "taxes"],
+      "answerIndex": 0,
+      "explanation": "Freight forwarders organize and arrange the shipping of goods."
+    },
+    {
+      "id": "adm-b2-w22-71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Grammar. Invert this (mentally): 'Notwithstanding the rain, the event was a success.' -> ________.",
+      "options": ["The rain notwithstanding, ...", "Albeit the rain, ...", "Much as the rain, ...", "Even so the rain, ..."],
+      "answerIndex": 0,
+      "explanation": "Notwithstanding can be placed before or after the noun."
+    },
+    {
+      "id": "adm-b2-w22-72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: E-commerce. Fulfillment centres primarily handle ________.",
+      "options": ["order processing", "raw materials", "factory labor", "legal disputes"],
+      "answerIndex": 0,
+      "explanation": "They manage the storage and shipping of online orders."
+    },
+    {
+      "id": "adm-b2-w22-73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Sustainability. Reverse logistics is crucial for ________.",
+      "options": ["recycling", "exporting", "customs", "advertising"],
+      "answerIndex": 0,
+      "explanation": "It handles the return flow of goods and materials."
+    },
+    {
+      "id": "adm-b2-w22-74",
+      "type": "multipleChoice",
+      "prompt": "Exercise 74: Operations. JIT stands for ________.",
+      "options": ["Just-in-Time", "Joint-Inter-Trade", "Just-in-Case", "Junior-IT"],
+      "answerIndex": 0,
+      "explanation": "Just-in-Time is a lean inventory model."
+    },
+    {
+      "id": "adm-b2-w22-75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Grammar. 'Much as' is usually followed by a ________.",
+      "options": ["full clause", "single noun", "adjective only", "preposition"],
+      "answerIndex": 0,
+      "explanation": "Much as + subject + verb (e.g., 'Much as we like it...')."
     }
   ]
 }

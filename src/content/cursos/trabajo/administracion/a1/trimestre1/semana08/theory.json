@@ -1,29 +1,24 @@
 {
-  "title": "Daily Actions: Traditional and Digital",
+  "title": "Semana 8: Preguntas y Negaciones en el Trabajo",
+  "description": "Aprende a decir lo que no haces y a hacer preguntas básicas sobre las tareas de otros.",
+  "objectives": [
+    "Formar oraciones negativas con 'don't'",
+    "Hacer preguntas simples con 'Do you...?'",
+    "Responder con respuestas cortas (Yes, I do / No, I don't)"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Action Verbs",
-      "content": "What do we do every day at the bank?\n\n- **To pay**: Pagar\n- **To withdraw**: Retirar dinero\n- **To deposit**: Depositar\n- **To sign**: Firmar\n- **To check**: Comprobar / Revisar\n\n### Modern Actions\n- **To scan**: Escanear (e.g., *scan a QR code*)\n- **To transfer**: Transferir dinero\n- **To click**: Hacer clic\n- **To download**: Descargar (the app)"
+      "title": "Negación: Don't",
+      "content": "Para decir que no realizas una acción, usamos **don't** (do not) antes del verbo:\n\n- **I don't work** on Saturdays. (No trabajo los sábados)\n- **I don't use** a Mac. (No uso un Mac)\n- **I don't call** clients in the morning. (No llamo a clientes por la mañana)"
     },
     {
-      "id": "action-flow",
-      "title": "Modern Task: Digital Transfer",
-      "content": "How to move money today.\n\n### Transfer Steps\n```mermaid\ngraph LR\n    A[Open App] --> B[Enter Amount]\n    B --> C[Click Transfer]\n    C --> D[Done!]\n```"
+      "title": "Preguntas: Do you...?",
+      "content": "Para preguntar a otra persona sobre su rutina, usamos **Do** al principio:\n\n- **Do you work** here? (¿Trabajas aquí?)\n- **Do you use** Excel? (¿Usas Excel?)\n- **Do you email** the manager? (¿Envías correos al gerente?)"
     },
     {
-      "id": "grammar",
-      "title": "Grammar: Present Simple Review",
-      "content": "Reviewing Affirmative, Negative, and Interrogative forms.\n\n**Affirmative:**\n- I **transfer** money. / He **transfers** money.\n\n**Negative:**\n- I **don't scan** the code. / He **doesn't scan** the code.\n\n**Interrogative:**\n- **Do** you **pay** with your phone? / **Does** she **pay** with her phone?\n\n**Short Answers:**\n- Yes, I **do**. / No, I **don't**.\n- Yes, he **does**. / No, he **doesn't**."
+      "title": "Respuestas Cortas (Short Answers)",
+      "content": "En inglés es común responder de forma corta:\n\n- \"Do you work in Sales?\"\n- \"**Yes, I do.**\" (Sí)\n- \"**No, I don't.**\" (No)"
     }
   ],
-  "objectives": [
-    "Describe basic daily tasks using traditional and digital financial verbs",
-    "Master the different forms of the present simple",
-    "Understand modern digital actions in a banking context"
-  ],
-  "keyTerms": [
-    { "term": "Transfer", "definition": "To move money from one account to another." },
-    { "term": "Routine", "definition": "The usual way of doing things." }
-  ]
+  "audioUrl": ""
 }

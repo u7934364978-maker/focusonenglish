@@ -1,386 +1,574 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "What is the 'exchange rate'?",
-    "options": ["The price of a flight", "The value of one currency compared to another", "The name of a bank", "A type of credit card"],
-    "correctAnswer": 1,
-    "explanation": "Exchange rate is the value of one currency for the purpose of conversion to another."
-  },
-  {
-    "id": 2,
-    "type": "fill-in-the-blank",
-    "question": "This is the ___________ (good) bank in the city.",
-    "correctAnswer": "best",
-    "explanation": "The superlative of 'good' is 'the best'."
-  },
-  {
-    "id": 3,
-    "type": "multiple-choice",
-    "question": "Where can you change money?",
-    "options": ["In a supermarket", "At a bureau de change", "In a library", "At a cinema"],
-    "correctAnswer": 1,
-    "explanation": "A bureau de change is a place where you can exchange currencies."
-  },
-  {
-    "id": 4,
-    "type": "fill-in-the-blank",
-    "question": "I need to ___________ (withdraw) some cash from the ATM.",
-    "correctAnswer": "withdraw",
-    "explanation": "'To withdraw' means to take money out of a bank account."
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "Which is the ___________ (expensive) city in the world?",
-    "options": ["most expensive", "expensivest", "more expensive", "expensive"],
-    "correctAnswer": 0,
-    "explanation": "For long adjectives like 'expensive', we use 'the most'."
-  },
-  {
-    "id": 6,
-    "type": "matching",
-    "question": "Match the terms:",
-    "pairs": [
-      { "left": "ATM", "right": "Cash machine" },
-      { "left": "Fee", "right": "Commission" },
-      { "left": "Local currency", "right": "Money of the country" }
-    ]
-  },
-  {
-    "id": 7,
-    "type": "multiple-choice",
-    "question": "A 'foreign currency' is:",
-    "options": ["Your own country's money", "Money from another country", "Fake money", "Digital money only"],
-    "correctAnswer": 1,
-    "explanation": "Foreign currency is any currency other than the local one."
-  },
-  {
-    "id": 8,
-    "type": "fill-in-the-blank",
-    "question": "That is the ___________ (cheap) flight I found.",
-    "correctAnswer": "cheapest",
-    "explanation": "Superlative of 'cheap' is 'the cheapest'."
-  },
-  {
-    "id": 9,
-    "type": "multiple-choice",
-    "question": "What does 'local currency' mean?",
-    "options": ["Money used in your home", "Money used in the country you are visiting", "Old money", "Gold coins"],
-    "correctAnswer": 1,
-    "explanation": "Local currency is the currency used in a specific place."
-  },
-  {
-    "id": 10,
-    "type": "fill-in-the-blank",
-    "question": "The exchange ___________ is very low today.",
-    "correctAnswer": "rate",
-    "explanation": "The term is 'exchange rate'."
-  },
-  {
-    "id": 11,
-    "type": "multiple-choice",
-    "question": "This ATM has the ___________ (low) commission.",
-    "options": ["lowest", "lower", "most low", "low"],
-    "correctAnswer": 0,
-    "explanation": "Superlative of 'low' is 'the lowest'."
-  },
-  {
-    "id": 12,
-    "type": "fill-in-the-blank",
-    "question": "You ___________ (must/best) notify your bank before traveling.",
-    "correctAnswer": "must",
-    "explanation": "'Must' is used for obligation."
-  },
-  {
-    "id": 13,
-    "type": "multiple-choice",
-    "question": "What is a 'surcharge'?",
-    "options": ["A discount", "An extra fee", "A type of wallet", "A bank manager"],
-    "correctAnswer": 1,
-    "explanation": "A surcharge is an additional charge."
-  },
-  {
-    "id": 14,
-    "type": "fill-in-the-blank",
-    "question": "The ___________ (near) bank is two blocks away.",
-    "correctAnswer": "nearest",
-    "explanation": "Superlative of 'near' is 'the nearest'."
-  },
-  {
-    "id": 15,
-    "type": "multiple-choice",
-    "question": "If you use a credit card abroad, you might pay a ___________.",
-    "options": ["gift", "foreign transaction fee", "salary", "bonus"],
-    "correctAnswer": 1,
-    "explanation": "Banks often charge a fee for transactions in other currencies."
-  },
-  {
-    "id": 16,
-    "type": "fill-in-the-blank",
-    "question": "Traveling is ___________ (expensive) than staying at home.",
-    "correctAnswer": "more expensive",
-    "explanation": "This is a comparison between two things (comparative)."
-  },
-  {
-    "id": 17,
-    "type": "multiple-choice",
-    "question": "Which word is an irregular superlative?",
-    "options": ["Fastest", "Best", "Slowest", "Smallest"],
-    "correctAnswer": 1,
-    "explanation": "'Best' is the irregular superlative of 'good'."
-  },
-  {
-    "id": 18,
-    "type": "fill-in-the-blank",
-    "question": "I want to change Euros ___________ Dollars.",
-    "correctAnswer": "into",
-    "explanation": "We say 'change (currency A) into (currency B)'."
-  },
-  {
-    "id": 19,
-    "type": "multiple-choice",
-    "question": "What is 'cash'?",
-    "options": ["A credit card", "Money in notes and coins", "A bank loan", "An insurance policy"],
-    "correctAnswer": 1,
-    "explanation": "Cash refers to physical money."
-  },
-  {
-    "id": 20,
-    "type": "fill-in-the-blank",
-    "question": "This is the ___________ (bad) exchange rate of the month.",
-    "correctAnswer": "worst",
-    "explanation": "Superlative of 'bad' is 'the worst'."
-  },
-  {
-    "id": 21,
-    "type": "multiple-choice",
-    "question": "To 'convert' money means:",
-    "options": ["To lose it", "To change it from one currency to another", "To save it in a box", "To buy a car"],
-    "correctAnswer": 1,
-    "explanation": "Convert means to change the form or character of something."
-  },
-  {
-    "id": 22,
-    "type": "fill-in-the-blank",
-    "question": "Is there a bureau de ___________ nearby?",
-    "correctAnswer": "change",
-    "explanation": "The term is 'bureau de change'."
-  },
-  {
-    "id": 23,
-    "type": "multiple-choice",
-    "question": "The 'most convenient' option is the one that is:",
-    "options": ["Hardest to use", "Easiest and most useful", "Most expensive", "Farthest away"],
-    "correctAnswer": 1,
-    "explanation": "Convenient means fitting in well with a person's needs or plans."
-  },
-  {
-    "id": 24,
-    "type": "fill-in-the-blank",
-    "question": "He is the ___________ (rich) person in the bank.",
-    "correctAnswer": "richest",
-    "explanation": "Superlative of 'rich' is 'the richest'."
-  },
-  {
-    "id": 25,
-    "type": "multiple-choice",
-    "question": "What should you do if you lose your card abroad?",
-    "options": ["Nothing", "Call the police only", "Block the card immediately", "Wait until you get home"],
-    "correctAnswer": 2,
-    "explanation": "You must block the card to prevent fraud."
-  },
-  {
-    "id": 26,
-    "type": "matching",
-    "question": "Match the superlatives:",
-    "pairs": [
-      { "left": "Small", "right": "The smallest" },
-      { "left": "Large", "right": "The largest" },
-      { "left": "Busy", "right": "The busiest" }
-    ]
-  },
-  {
-    "id": 27,
-    "type": "multiple-choice",
-    "question": "Which of these is a 'note' (money)?",
-    "options": ["A round metal object", "A piece of paper money", "A credit card", "A signature"],
-    "correctAnswer": 1,
-    "explanation": "A note (or bill) is paper currency."
-  },
-  {
-    "id": 28,
-    "type": "fill-in-the-blank",
-    "question": "This hotel is the ___________ (comfortable) in town.",
-    "correctAnswer": "most comfortable",
-    "explanation": "Superlative of a long adjective."
-  },
-  {
-    "id": 29,
-    "type": "multiple-choice",
-    "question": "What is 'traveler's insurance' for?",
-    "options": ["Buying souvenirs", "Protecting against accidents or loss during a trip", "Paying for dinner", "Booking a hotel"],
-    "correctAnswer": 1,
-    "explanation": "Travel insurance covers risks while traveling."
-  },
-  {
-    "id": 30,
-    "type": "fill-in-the-blank",
-    "question": "The ___________ (fast) way to get money is the ATM.",
-    "correctAnswer": "fastest",
-    "explanation": "Superlative of 'fast'."
-  },
-  {
-    "id": 31,
-    "type": "multiple-choice",
-    "question": "What is a 'daily limit' on an ATM card?",
-    "options": ["The total money in the bank", "The maximum you can withdraw in one day", "The number of cards you have", "The time the bank closes"],
-    "correctAnswer": 1,
-    "explanation": "A daily limit restricts how much cash you can take out in 24 hours."
-  },
-  {
-    "id": 32,
-    "type": "fill-in-the-blank",
-    "question": "We want to find the ___________ (low) prices.",
-    "correctAnswer": "lowest",
-    "explanation": "Superlative of 'low'."
-  },
-  {
-    "id": 33,
-    "type": "multiple-choice",
-    "question": "If a service is 'free of charge', it costs:",
-    "options": ["$100", "Nothing", "$1", "A lot"],
-    "correctAnswer": 1,
-    "explanation": "'Free of charge' means it costs zero."
-  },
-  {
-    "id": 34,
-    "type": "fill-in-the-blank",
-    "question": "She has the ___________ (interesting) job in the bank.",
-    "correctAnswer": "most interesting",
-    "explanation": "Superlative of 'interesting'."
-  },
-  {
-    "id": 35,
-    "type": "multiple-choice",
-    "question": "What is 'commission'?",
-    "options": ["A type of money", "A fee for a service", "A bank building", "A credit card PIN"],
-    "correctAnswer": 1,
-    "explanation": "Commission is a fee paid to an agent or employee for transacting a piece of business."
-  },
-  {
-    "id": 36,
-    "type": "fill-in-the-blank",
-    "question": "London is one of the ___________ (expensive) cities.",
-    "correctAnswer": "most expensive",
-    "explanation": "Superlative of 'expensive'."
-  },
-  {
-    "id": 37,
-    "type": "multiple-choice",
-    "question": "To 'exchange' means:",
-    "options": ["To give and receive something else in return", "To throw away", "To keep forever", "To hide"],
-    "correctAnswer": 0,
-    "explanation": "Exchange means to swap one thing for another."
-  },
-  {
-    "id": 38,
-    "type": "fill-in-the-blank",
-    "question": "He is the ___________ (helpful) teller.",
-    "correctAnswer": "most helpful",
-    "explanation": "Superlative of 'helpful'."
-  },
-  {
-    "id": 39,
-    "type": "multiple-choice",
-    "question": "What is a 'transaction'?",
-    "options": ["A type of car", "A piece of business (like buying or selling)", "A holiday", "A language"],
-    "correctAnswer": 1,
-    "explanation": "A transaction is an instance of buying or selling something."
-  },
-  {
-    "id": 40,
-    "type": "fill-in-the-blank",
-    "question": "This is the ___________ (important) rule.",
-    "correctAnswer": "most important",
-    "explanation": "Superlative of 'important'."
-  },
-  {
-    "id": 41,
-    "type": "multiple-choice",
-    "question": "When you travel, 'ID' usually refers to your:",
-    "options": ["Bag", "Passport or identity card", "Hotel key", "Wallet color"],
-    "correctAnswer": 1,
-    "explanation": "ID stands for identification."
-  },
-  {
-    "id": 42,
-    "type": "fill-in-the-blank",
-    "question": "That bank is the ___________ (far) from here.",
-    "correctAnswer": "farthest",
-    "explanation": "Superlative of 'far' is 'farthest' or 'furthest'."
-  },
-  {
-    "id": 43,
-    "type": "multiple-choice",
-    "question": "What is 'boarding'?",
-    "options": ["Getting on a plane or ship", "Sleeping in a hotel", "Changing money", "Eating lunch"],
-    "correctAnswer": 0,
-    "explanation": "Boarding is the act of getting on a vehicle."
-  },
-  {
-    "id": 44,
-    "type": "fill-in-the-blank",
-    "question": "The dollar is the ___________ (common) currency for travel.",
-    "correctAnswer": "most common",
-    "explanation": "Superlative of 'common'."
-  },
-  {
-    "id": 45,
-    "type": "multiple-choice",
-    "question": "A 'receipt' shows:",
-    "options": ["How much you paid", "Your name", "The weather", "A map"],
-    "correctAnswer": 0,
-    "explanation": "A receipt is proof of payment."
-  },
-  {
-    "id": 46,
-    "type": "matching",
-    "question": "Match the opposite superlatives:",
-    "pairs": [
-      { "left": "The best", "right": "The worst" },
-      { "left": "The cheapest", "right": "The most expensive" },
-      { "left": "The nearest", "right": "The farthest" }
-    ]
-  },
-  {
-    "id": 47,
-    "type": "multiple-choice",
-    "question": "What is a 'wallet'?",
-    "options": ["A place to keep money and cards", "A type of shoe", "A big bank", "A plane ticket"],
-    "correctAnswer": 0,
-    "explanation": "A wallet is a small, flat case for carrying personal items like cash and cards."
-  },
-  {
-    "id": 48,
-    "type": "fill-in-the-blank",
-    "question": "It was the ___________ (wonderful) trip.",
-    "correctAnswer": "most wonderful",
-    "explanation": "Superlative of 'wonderful'."
-  },
-  {
-    "id": 49,
-    "type": "multiple-choice",
-    "question": "Why should you compare exchange rates?",
-    "options": ["To find the most beautiful coins", "To get the most money for your currency", "To meet new people", "To learn a new language"],
-    "correctAnswer": 1,
-    "explanation": "Comparing rates helps you save money during conversion."
-  },
-  {
-    "id": 50,
-    "type": "fill-in-the-blank",
-    "question": "This is the ___________ (late) update on the rate.",
-    "correctAnswer": "latest",
-    "explanation": "Superlative of 'late' (meaning most recent) is 'latest'."
-  }
-]
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana20",
+  "title": "Banca Internacional y Viajes",
+  "items": [
+    {
+      "id": "adm-a2-w20-ex01",
+      "type": "multipleChoice",
+      "prompt": "The ________ rate tells you how much your money is worth in another currency.",
+      "options": ["exchange", "interest", "tax", "bonus"],
+      "answerIndex": 0,
+      "explanation": "El tipo de cambio (exchange rate) determina el valor de una moneda frente a otra."
+    },
+    {
+      "id": "adm-a2-w20-ex02",
+      "type": "multipleChoice",
+      "prompt": "This bank has the ________ (low) fees for international transfers.",
+      "options": ["lowest", "lower", "most low", "low"],
+      "answerIndex": 0,
+      "explanation": "Usamos el superlativo 'lowest' (las más bajas) para comparar más de dos opciones."
+    },
+    {
+      "id": "adm-a2-w20-ex03",
+      "type": "multipleChoice",
+      "prompt": "A bureau de ________ is a place where you can swap currencies.",
+      "options": ["change", "charge", "chance", "check"],
+      "answerIndex": 0,
+      "explanation": "La oficina de cambio se llama 'bureau de change'."
+    },
+    {
+      "id": "adm-a2-w20-ex04",
+      "type": "multipleChoice",
+      "prompt": "I need to ________ some cash from that ATM over there.",
+      "options": ["withdraw", "deposit", "lend", "borrow"],
+      "answerIndex": 0,
+      "explanation": "'Withdraw' significa retirar dinero del cajero."
+    },
+    {
+      "id": "adm-a2-w20-ex05",
+      "type": "multipleChoice",
+      "prompt": "That is the ________ (expensive) city I have ever visited.",
+      "options": ["most expensive", "expensivest", "more expensive", "expensive"],
+      "answerIndex": 0,
+      "explanation": "Para adjetivos largos, el superlativo es 'the most expensive'."
+    },
+    {
+      "id": "adm-a2-w20-ex06",
+      "type": "fillInTheBlank",
+      "prompt": "Is this the ________ (near) bank to the airport?",
+      "answer": "nearest",
+      "explanation": "El superlativo de 'near' (cerca) es 'nearest' (el más cercano)."
+    },
+    {
+      "id": "adm-a2-w20-ex07",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (good) exchange rate of the day.",
+      "answer": "best",
+      "explanation": "El superlativo irregular de 'good' es 'the best' (el mejor)."
+    },
+    {
+      "id": "adm-a2-w20-ex08",
+      "type": "wordOrdering",
+      "prompt": "Order the words: the / best / rate / This / is",
+      "sentence": "This is the best rate",
+      "explanation": "Sujeto + is + superlativo + sustantivo."
+    },
+    {
+      "id": "adm-a2-w20-ex09",
+      "type": "multipleChoice",
+      "prompt": "A ________ is an extra charge for a service.",
+      "options": ["fee", "gift", "bonus", "reward"],
+      "answerIndex": 0,
+      "explanation": "Una comisión o cargo se dice 'fee'."
+    },
+    {
+      "id": "adm-a2-w20-ex10",
+      "type": "multipleChoice",
+      "prompt": "Always check for the ________ (small) details in the travel insurance.",
+      "options": ["smallest", "smaller", "small", "most small"],
+      "answerIndex": 0,
+      "explanation": "El superlativo de 'small' es 'smallest' (el más pequeño)."
+    },
+    {
+      "id": "adm-a2-w20-ex11",
+      "type": "fillInTheBlank",
+      "prompt": "What is the ________ (bad) thing about traveling?",
+      "answer": "worst",
+      "explanation": "El superlativo irregular de 'bad' es 'the worst' (lo peor)."
+    },
+    {
+      "id": "adm-a2-w20-ex12",
+      "type": "multipleChoice",
+      "prompt": "I have some ________ (foreign) currency in my wallet.",
+      "options": ["foreign", "local", "fake", "digital"],
+      "answerIndex": 0,
+      "explanation": "Moneda extranjera se dice 'foreign currency'."
+    },
+    {
+      "id": "adm-a2-w20-ex13",
+      "type": "wordOrdering",
+      "prompt": "Order the words: most / expensive / hotel / That / is / the",
+      "sentence": "That is the most expensive hotel",
+      "explanation": "Estructura del superlativo para adjetivos largos."
+    },
+    {
+      "id": "adm-a2-w20-ex14",
+      "type": "multipleChoice",
+      "prompt": "A ________ is paper money.",
+      "options": ["note", "coin", "card", "cheque"],
+      "answerIndex": 0,
+      "explanation": "Un billete de papel se llama 'note'."
+    },
+    {
+      "id": "adm-a2-w20-ex15",
+      "type": "fillInTheBlank",
+      "prompt": "Who is the ________ (rich) person in the world?",
+      "answer": "richest",
+      "explanation": "El superlativo de 'rich' es 'richest'."
+    },
+    {
+      "id": "adm-a2-w20-ex16",
+      "type": "multipleChoice",
+      "prompt": "Before traveling, you must ________ your bank.",
+      "options": ["notify", "ignore", "forget", "hide"],
+      "answerIndex": 0,
+      "explanation": "Debes avisar o notificar (notify) a tu banco."
+    },
+    {
+      "id": "adm-a2-w20-ex17",
+      "type": "wordOrdering",
+      "prompt": "Order the words: the / richest / He / is / man",
+      "sentence": "He is the richest man",
+      "explanation": "Él es el hombre más rico."
+    },
+    {
+      "id": "adm-a2-w20-ex18",
+      "type": "multipleChoice",
+      "prompt": "The ________ currency in Spain is the Euro.",
+      "options": ["local", "foreign", "old", "private"],
+      "answerIndex": 0,
+      "explanation": "La moneda local (local currency) de España es el Euro."
+    },
+    {
+      "id": "adm-a2-w20-ex19",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (large) ATM network in the country.",
+      "answer": "largest",
+      "explanation": "Superlativo de 'large' (grande) es 'largest'."
+    },
+    {
+      "id": "adm-a2-w20-ex20",
+      "type": "multipleChoice",
+      "prompt": "Which of these is the ________ (safe) way to carry money?",
+      "options": ["safest", "safer", "most safe", "safe"],
+      "answerIndex": 0,
+      "explanation": "El superlativo de 'safe' es 'safest' (el más seguro)."
+    },
+    {
+      "id": "adm-a2-w20-ex21",
+      "type": "wordOrdering",
+      "prompt": "Order the words: largest / the / city / London / is",
+      "sentence": "London is the largest city",
+      "explanation": "Londres es la ciudad más grande."
+    },
+    {
+      "id": "adm-a2-w20-ex22",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (easy) way to change money.",
+      "answer": "easiest",
+      "explanation": "Adjetivo en 'y': cambiamos 'y' por 'i' + est."
+    },
+    {
+      "id": "adm-a2-w20-ex23",
+      "type": "multipleChoice",
+      "prompt": "You need a ________ to use an ATM.",
+      "options": ["PIN", "PAN", "PEN", "PUN"],
+      "answerIndex": 0,
+      "explanation": "Necesitas el PIN (número secreto)."
+    },
+    {
+      "id": "adm-a2-w20-ex24",
+      "type": "fillInTheBlank",
+      "prompt": "He is the ________ (helpful) employee here.",
+      "answer": "most helpful",
+      "explanation": "Adjetivo largo: 'the most helpful' (el más atento)."
+    },
+    {
+      "id": "adm-a2-w20-ex25",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a metal piece of money.",
+      "options": ["coin", "note", "card", "bill"],
+      "answerIndex": 0,
+      "explanation": "Una moneda de metal se llama 'coin'."
+    },
+    {
+      "id": "adm-a2-w20-ex26",
+      "type": "multipleChoice",
+      "prompt": "Which exchange office is the ________ (convenient)?",
+      "options": ["most convenient", "convenientest", "more convenient", "convenient"],
+      "answerIndex": 0,
+      "explanation": "Superlativo de 'convenient' (conveniente/práctico)."
+    },
+    {
+      "id": "adm-a2-w20-ex27",
+      "type": "fillInTheBlank",
+      "prompt": "The airport is the ________ (far) place from here.",
+      "answer": "farthest",
+      "explanation": "Superlativos de 'far': 'farthest' o 'furthest'."
+    },
+    {
+      "id": "adm-a2-w20-ex28",
+      "type": "wordOrdering",
+      "prompt": "Order the words: cheapest / the / way / is / That",
+      "sentence": "That is the cheapest way",
+      "explanation": "Esa es la forma más barata."
+    },
+    {
+      "id": "adm-a2-w20-ex29",
+      "type": "multipleChoice",
+      "prompt": "If you use a credit card abroad, you might pay a ________ surcharge.",
+      "options": ["surcharge", "discount", "gift", "refund"],
+      "answerIndex": 0,
+      "explanation": "Un recargo adicional se llama 'surcharge'."
+    },
+    {
+      "id": "adm-a2-w20-ex30",
+      "type": "fillInTheBlank",
+      "prompt": "Is this the ________ (fast) ATM in the building?",
+      "answer": "fastest",
+      "explanation": "Superlatico de 'fast' es 'fastest'."
+    },
+    {
+      "id": "adm-a2-w20-ex31",
+      "type": "multipleChoice",
+      "prompt": "What is 'cash' in Spanish?",
+      "options": ["Efectivo", "Tarjeta", "Deuda", "Seguro"],
+      "answerIndex": 0,
+      "explanation": "'Cash' significa dinero en efectivo."
+    },
+    {
+      "id": "adm-a2-w20-ex32",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (important) rule for travel.",
+      "answer": "most important",
+      "explanation": "Superlativo de adjetivo largo: 'the most important'."
+    },
+    {
+      "id": "adm-a2-w20-ex33",
+      "type": "wordOrdering",
+      "prompt": "Order the words: common / most / The / is / currency / dollar",
+      "sentence": "The dollar is the most common currency",
+      "explanation": "El dólar es la moneda más común."
+    },
+    {
+      "id": "adm-a2-w20-ex34",
+      "type": "multipleChoice",
+      "prompt": "A ________ shows proof of your payment.",
+      "options": ["receipt", "recipe", "reception", "record"],
+      "answerIndex": 0,
+      "explanation": "Un recibo o comprobante de pago es un 'receipt'."
+    },
+    {
+      "id": "adm-a2-w20-ex35",
+      "type": "fillInTheBlank",
+      "prompt": "Which city has the ________ (high) cost of living?",
+      "answer": "highest",
+      "explanation": "Superlativo de 'high' es 'highest'."
+    },
+    {
+      "id": "adm-a2-w20-ex36",
+      "type": "multipleChoice",
+      "prompt": "To 'convert' money is to swop it into another ________.",
+      "options": ["currency", "current", "correct", "country"],
+      "answerIndex": 0,
+      "explanation": "Convertir dinero en otra divisa o moneda (currency)."
+    },
+    {
+      "id": "adm-a2-w20-ex37",
+      "type": "wordOrdering",
+      "prompt": "Order the words: lowest / The / commission / is / here",
+      "sentence": "The commission is lowest here",
+      "explanation": "La comisión es la más baja aquí."
+    },
+    {
+      "id": "adm-a2-w20-ex38",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (bad) trip I have had.",
+      "answer": "worst",
+      "explanation": "El superlativo irregular de 'bad' es 'the worst'."
+    },
+    {
+      "id": "adm-a2-w20-ex39",
+      "type": "multipleChoice",
+      "prompt": "What is a 'daily limit' on an ATM card?",
+      "options": ["Maximum withdrawal", "Bank's phone number", "Card's color", "Expiration date"],
+      "answerIndex": 0,
+      "explanation": "El 'daily limit' es el límite máximo de retiro diario."
+    },
+    {
+      "id": "adm-a2-w20-ex40",
+      "type": "fillInTheBlank",
+      "prompt": "The ________ (busy) day at the bank is Friday.",
+      "answer": "busiest",
+      "explanation": "El superlativo de 'busy' (concurrido) es 'busiest'."
+    },
+    {
+      "id": "adm-a2-w20-ex41",
+      "type": "multipleChoice",
+      "prompt": "A ________ case is for your passport and cards.",
+      "options": ["wallet", "suitcase", "basket", "box"],
+      "answerIndex": 0,
+      "explanation": "Una billetera o cartera es un 'wallet'."
+    },
+    {
+      "id": "adm-a2-w20-ex42",
+      "type": "wordOrdering",
+      "prompt": "Order the words: nearest / the / Where / is / ATM / ?",
+      "sentence": "Where is the nearest ATM?",
+      "explanation": "¿Dónde está el cajero más cercano?"
+    },
+    {
+      "id": "adm-a2-w20-ex43",
+      "type": "fillInTheBlank",
+      "prompt": "The euro is ________ (strong) than the peso.",
+      "answer": "stronger",
+      "explanation": "Comparativo (no superlativo): 'stronger' (más fuerte)."
+    },
+    {
+      "id": "adm-a2-w20-ex44",
+      "type": "multipleChoice",
+      "prompt": "What is 'boarding'?",
+      "options": ["Getting on a plane", "Sleeping", "Buying food", "Changing money"],
+      "answerIndex": 0,
+      "explanation": "Embarcar (boarding) es subir al avión o barco."
+    },
+    {
+      "id": "adm-a2-w20-ex45",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (long) flight in the world.",
+      "answer": "longest",
+      "explanation": "El superlativo de 'long' es 'longest'."
+    },
+    {
+      "id": "adm-a2-w20-ex46",
+      "type": "multipleChoice",
+      "prompt": "A ________ transaction fee is for using cards in other countries.",
+      "options": ["foreign", "local", "home", "easy"],
+      "answerIndex": 0,
+      "explanation": "La comisión por transacción en el extranjero (foreign transaction fee)."
+    },
+    {
+      "id": "adm-a2-w20-ex47",
+      "type": "wordOrdering",
+      "prompt": "Order the words: my / want / withdraw / I / money / to",
+      "sentence": "I want to withdraw my money",
+      "explanation": "Quiero retirar mi dinero."
+    },
+    {
+      "id": "adm-a2-w20-ex48",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (modern) bank in town.",
+      "answer": "most modern",
+      "explanation": "Adjetivo largo: 'the most modern'."
+    },
+    {
+      "id": "adm-a2-w20-ex49",
+      "type": "multipleChoice",
+      "prompt": "What is 'fee' in Spanish?",
+      "options": ["Comisión", "Regalo", "Billete", "Cuenta"],
+      "answerIndex": 0,
+      "explanation": "'Fee' significa comisión o cargo por un servicio."
+    },
+    {
+      "id": "adm-a2-w20-ex50",
+      "type": "fillInTheBlank",
+      "prompt": "Is the dollar the ________ (useful) currency for you?",
+      "answer": "most useful",
+      "explanation": "Superlativo de 'useful' es 'most useful'."
+    },
+    {
+      "id": "adm-a2-w20-ex51",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a ________ (metal) object?",
+      "options": ["coin", "note", "cheque", "receipt"],
+      "answerIndex": 0,
+      "explanation": "Una moneda (coin) es un objeto de metal."
+    },
+    {
+      "id": "adm-a2-w20-ex52",
+      "type": "multipleChoice",
+      "prompt": "You should ________ travel insurance before your trip.",
+      "options": ["buy", "sell", "lose", "break"],
+      "answerIndex": 0,
+      "explanation": "Debes comprar (buy) un seguro de viaje."
+    },
+    {
+      "id": "adm-a2-w20-ex53",
+      "type": "fillInTheBlank",
+      "prompt": "The ________ (small) bill is 5 euros.",
+      "answer": "smallest",
+      "explanation": "El billete más pequeño (smallest) es de 5 euros."
+    },
+    {
+      "id": "adm-a2-w20-ex54",
+      "type": "fillInTheBlank",
+      "prompt": "The city center is the ________ (busy) area.",
+      "answer": "busiest",
+      "explanation": "La zona con más actividad o gente es 'the busiest'."
+    },
+    {
+      "id": "adm-a2-w20-ex55",
+      "type": "wordOrdering",
+      "prompt": "Order the words: always / Check / rate / the / exchange",
+      "sentence": "Always check the exchange rate",
+      "explanation": "Revisa siempre el tipo de cambio."
+    },
+    {
+      "id": "adm-a2-w20-ex56",
+      "type": "multipleChoice",
+      "prompt": "What is 'withdraw' in Spanish?",
+      "options": ["Retirar", "Ingresar", "Prestar", "Gastar"],
+      "answerIndex": 0,
+      "explanation": "'Withdraw' significa retirar dinero."
+    },
+    {
+      "id": "adm-a2-w20-ex57",
+      "type": "multipleChoice",
+      "prompt": "The ________ (large) note in euros is 500.",
+      "options": ["largest", "larger", "large", "most large"],
+      "answerIndex": 0,
+      "explanation": "El billete más grande (largest) es de 500."
+    },
+    {
+      "id": "adm-a2-w20-ex58",
+      "type": "fillInTheBlank",
+      "prompt": "Is this the ________ (reliable) bureau de change?",
+      "answer": "most reliable",
+      "explanation": "Superlativo de 'reliable' (fiable) es 'most reliable'."
+    },
+    {
+      "id": "adm-a2-w20-ex59",
+      "type": "fillInTheBlank",
+      "prompt": "The ________ (late) news about the rate is good.",
+      "answer": "latest",
+      "explanation": "Las últimas noticias (latest news)."
+    },
+    {
+      "id": "adm-a2-w20-ex60",
+      "type": "wordOrdering",
+      "prompt": "Order the words: your / Block / card / immediately",
+      "sentence": "Block your card immediately",
+      "explanation": "Bloquea tu tarjeta inmediatamente."
+    },
+    {
+      "id": "adm-a2-w20-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is 'bureau de change' in Spanish?",
+      "options": ["Casa de cambio", "Banco central", "Tienda de ropa", "Cajero"],
+      "answerIndex": 0,
+      "explanation": "Es el establecimiento para cambiar moneda."
+    },
+    {
+      "id": "adm-a2-w20-ex62",
+      "type": "multipleChoice",
+      "prompt": "A ________ is an identity document for traveling.",
+      "options": ["passport", "card", "bill", "key"],
+      "answerIndex": 0,
+      "explanation": "El pasaporte (passport) es el documento de identidad para viajar."
+    },
+    {
+      "id": "adm-a2-w20-ex63",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (expensive) meal of the trip.",
+      "answer": "most expensive",
+      "explanation": "Superlativo de 'expensive'."
+    },
+    {
+      "id": "adm-a2-w20-ex64",
+      "type": "fillInTheBlank",
+      "prompt": "The ________ (cheap) way to travel is by bus.",
+      "answer": "cheapest",
+      "explanation": "La forma más barata (cheapest) es el autobús."
+    },
+    {
+      "id": "adm-a2-w20-ex65",
+      "type": "wordOrdering",
+      "prompt": "Order the words: money / change / to / I / want / some",
+      "sentence": "I want to change some money",
+      "explanation": "Quiero cambiar algo de dinero."
+    },
+    {
+      "id": "adm-a2-w20-ex66",
+      "type": "multipleChoice",
+      "prompt": "When the exchange rate is ________, you get more money.",
+      "options": ["high", "low", "bad", "small"],
+      "answerIndex": 0,
+      "explanation": "Cuando el tipo de cambio es alto (high), recibes más dinero."
+    },
+    {
+      "id": "adm-a2-w20-ex67",
+      "type": "multipleChoice",
+      "prompt": "When the exchange rate is ________, you get less money.",
+      "options": ["low", "high", "good", "big"],
+      "answerIndex": 0,
+      "explanation": "Cuando el tipo de cambio es bajo (low), recibes menos dinero."
+    },
+    {
+      "id": "adm-a2-w20-ex68",
+      "type": "fillInTheBlank",
+      "prompt": "This is the ________ (beautiful) coin in my collection.",
+      "answer": "most beautiful",
+      "explanation": "Superlativo de adjetivo largo: 'the most beautiful'."
+    },
+    {
+      "id": "adm-a2-w20-ex69",
+      "type": "fillInTheBlank",
+      "prompt": "Is that the ________ (new) model of ATM?",
+      "answer": "newest",
+      "explanation": "El superlativo de 'new' es 'newest'."
+    },
+    {
+      "id": "adm-a2-w20-ex70",
+      "type": "wordOrdering",
+      "prompt": "Order the words: secure / This / is / the / method / most",
+      "sentence": "This is the most secure method",
+      "explanation": "Este es el método más seguro."
+    },
+    {
+      "id": "adm-a2-w20-ex71",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a person who works in a bank.",
+      "options": ["banker", "baker", "butcher", "barber"],
+      "answerIndex": 0,
+      "explanation": "Un 'banker' es un banquero o empleado de banca."
+    },
+    {
+      "id": "adm-a2-w20-ex72",
+      "type": "multipleChoice",
+      "prompt": "What is the ________ (important) thing to bring?",
+      "options": ["most important", "importantest", "more important", "important"],
+      "answerIndex": 0,
+      "explanation": "Superlativo de 'important'."
+    },
+    {
+      "id": "adm-a2-w20-ex73",
+      "type": "matching",
+      "prompt": "Match the superlatives with their opposites:",
+      "pairs": [
+        { "left": "The best", "right": "The worst" },
+        { "left": "The nearest", "right": "The farthest" },
+        { "left": "The most expensive", "right": "The cheapest" },
+        { "left": "The fastest", "right": "The slowest" }
+      ],
+      "explanation": "Superlativos opuestos."
+    },
+    {
+      "id": "adm-a2-w20-ex74",
+      "type": "fillInTheBlank",
+      "prompt": "The dollar is ________ (stable) than the ruble.",
+      "answer": "more stable",
+      "explanation": "Comparativo (no superlativo): 'more stable'."
+    },
+    {
+      "id": "adm-a2-w20-ex75",
+      "type": "multipleChoice",
+      "prompt": "I need to ________ my passport for the flight.",
+      "options": ["show", "hide", "lose", "break"],
+      "answerIndex": 0,
+      "explanation": "Necesito mostrar (show) mi pasaporte."
+    }
+  ]
+}

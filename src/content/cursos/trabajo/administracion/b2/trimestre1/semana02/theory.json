@@ -30,6 +30,16 @@
       "id": "stakeholder-updates",
       "title": "Stakeholder Communication during Disruption",
       "content": "Communicating during an operational crisis requires transparency and a focus on resolution. Stakeholders (clients, managers, other departments) need frequent, structured updates.\n\n### The 'Update' Formula\n**[Current Status] + [Impact] + [Estimated Time of Resolution (ETR)] + [Next Update].**\n\n*Example:* 'We are currently experiencing a server outage affecting the Dublin office. 15% of users are unable to access the CRM. ETR is 2pm. Next update at 12:30pm.'\n\n### Professional Tone during Crises\n- **Avoid**: 'I'm sorry, everything is a mess.' (Unprofessional/Panic)\n- **Use**: 'We are actively investigating the issue and have deployed the engineering team. Our priority is restoring service for the Dublin office.'"
+    },
+    {
+      "id": "roleplay-handover",
+      "title": "RolePlay: The Shift Handover",
+      "content": "### Objective\nConduct a high-stakes shift handover between an outgoing Operations Coordinator and an incoming one during a period of system instability.\n\n### Roles\n- **Role A (Outgoing Coordinator)**: You have had a difficult shift with a major system bottleneck. Deliver a structured handover using the 7-block structure. Emphasize what is blocked and the current risks.\n- **Role B (Incoming Coordinator)**: Listen to the handover, ask clarifying questions about dependencies, and confirm the next steps and owners.\n\n### Evaluation Rubric\n- **Structure**: Adherence to the 7-block template.\n- **Clarity**: Use of signposting (*'The key point is...'*, *'Next steps are...'*) and precise timing (*'Friday EOD'*, *'COB'*).\n- **Factual Tone**: Focus on root causes and mitigation rather than blame.\n- **Risk Awareness**: Clear identification of potential schedule slips."
+    },
+    {
+      "id": "deliverable-week2",
+      "title": "Weekly Deliverable (Portfolio)",
+      "content": "Submit the following documents for your professional portfolio:\n1. **Handover Email (WritingTask)**: A 150-word email following the 7-block structure for a project of your choice.\n2. **Incident Report (RCA)**: A one-page report on a hypothetical operational failure using the 5 Whys technique.\n3. **Audio/Video Recording**: A 3-minute recording of the RolePlay shift handover, demonstrating professional signposting and precise timing."
     }
   ],
   "objectives": [

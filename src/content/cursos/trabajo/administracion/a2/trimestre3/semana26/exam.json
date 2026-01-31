@@ -1,50 +1,152 @@
-{
-  "goal": "administracion",
-  "level": "A2",
-  "trimester": 3,
-  "weekId": "semana26",
-  "examId": "fin-a2-w26-exam",
-  "title": "Examen: Préstamos Personales y Crédito",
-  "items": [
-    {
-      "id": "fin-a2-w26-exam-1",
-      "type": "multipleChoice",
-      "prompt": "When you need money for a house, you ask for a ________.",
-      "options": ["Mortgage", "Debit", "Wallet", "Coin"],
-      "answerIndex": 0,
-      "explanation": "A mortgage is a specific loan for buying property."
-    },
-    {
-      "id": "fin-a2-w26-exam-2",
-      "type": "multipleChoice",
-      "prompt": "________ I borrow 5,000 euros from the bank?",
-      "options": ["Cans", "Could", "Am", "Do"],
-      "answerIndex": 1,
-      "explanation": "We use 'Could' for polite requests or possibility."
-    },
-    {
-      "id": "fin-a2-w26-exam-3",
-      "type": "multipleChoice",
-      "prompt": "A 'Lender' is someone who:",
-      "options": ["Borrows money", "Gives money to be returned later", "Steals money", "Prints money"],
-      "answerIndex": 1,
-      "explanation": "The lender (usually a bank) provides the loan."
-    },
-    {
-      "id": "fin-a2-w26-exam-4",
-      "type": "multipleChoice",
-      "prompt": "Ten years ago, I ________ not get a credit card.",
-      "options": ["can", "could", "couldn't", "can't"],
-      "answerIndex": 2,
-      "explanation": "We use 'couldn't' for past inability."
-    },
-    {
-      "id": "fin-a2-w26-exam-5",
-      "type": "multipleChoice",
-      "prompt": "What is 'Collateral'?",
-      "options": ["A type of bank account", "An asset used to secure a loan", "A bank manager's office", "A type of tax"],
-      "answerIndex": 1,
-      "explanation": "Collateral is something of value (like a house) that secures a loan."
-    }
-  ]
-}
+[
+  {
+    "id": "adm-a2-w26-q01",
+    "type": "multiple-choice",
+    "question": "What is 'Principal' in a loan agreement?",
+    "options": ["The bank manager", "The original amount of money borrowed", "The interest rate", "The monthly fee"],
+    "correctAnswer": 1,
+    "explanation": "El 'principal' es la cantidad de dinero original que pides prestada, sin incluir intereses."
+  },
+  {
+    "id": "adm-a2-w26-q02",
+    "type": "fill-in-the-blank",
+    "question": "I ________ (no pude) pay the installment last month.",
+    "correctAnswer": "couldn't",
+    "explanation": "Usamos 'couldn't' para expresar una incapacidad o imposibilidad en el pasado."
+  },
+  {
+    "id": "adm-a2-w26-q03",
+    "type": "multiple-choice",
+    "question": "The person who borrows money is called the:",
+    "options": ["Lender", "Borrower", "Banker", "Teller"],
+    "correctAnswer": 1,
+    "explanation": "El 'borrower' es el prestatario, la persona que recibe el dinero prestado."
+  },
+  {
+    "id": "adm-a2-w26-q04",
+    "type": "fill-in-the-blank",
+    "question": "________ (puedes) you explain the interest rate to me?",
+    "correctAnswer": "Can",
+    "explanation": "Usamos 'Can' para pedir algo de forma directa en el presente."
+  },
+  {
+    "id": "adm-a2-w26-q05",
+    "type": "multiple-choice",
+    "question": "What is 'Collateral'?",
+    "options": ["A type of bank account", "An asset used to secure a loan", "A bank fee", "The interest paid"],
+    "correctAnswer": 1,
+    "explanation": "La garantía (collateral) es un bien (como un coche o casa) que asegura el pago del préstamo."
+  },
+  {
+    "id": "adm-a2-w26-q06",
+    "type": "fill-in-the-blank",
+    "question": "The bank ________ (prestó) me 10,000 euros.",
+    "correctAnswer": "lent",
+    "explanation": "'Lent' es el pasado del verbo 'lend' (prestar)."
+  },
+  {
+    "id": "adm-a2-w26-q07",
+    "type": "multiple-choice",
+    "question": "An 'installment' is:",
+    "options": ["A one-time payment", "A regular monthly payment", "A bank contract", "A type of card"],
+    "correctAnswer": 1,
+    "explanation": "Una 'installment' es una cuota o pago regular para devolver una deuda."
+  },
+  {
+    "id": "adm-a2-w26-q08",
+    "type": "fill-in-the-blank",
+    "question": "We ________ (podríamos) apply for a personal loan next week.",
+    "correctAnswer": "could",
+    "explanation": "Usamos 'could' para expresar una posibilidad en el futuro o presente."
+  },
+  {
+    "id": "adm-a2-w26-q09",
+    "type": "multiple-choice",
+    "question": "What does 'APR' stand for?",
+    "options": ["Annual Percentage Rate", "Automatic Payment Receipt", "Account Personal Record", "Annual Price Reduction"],
+    "correctAnswer": 0,
+    "explanation": "APR (Tasa de Porcentaje Anual) representa el coste total anual del préstamo, incluyendo intereses y comisiones."
+  },
+  {
+    "id": "adm-a2-w26-q10",
+    "type": "fill-in-the-blank",
+    "question": "I need to ________ (pedir prestado) some money for a new car.",
+    "correctAnswer": "borrow",
+    "explanation": "El verbo 'borrow' significa pedir prestado."
+  },
+  {
+    "id": "adm-a2-w26-q11",
+    "type": "multiple-choice",
+    "question": "A 'fixed interest rate' means:",
+    "options": ["The rate changes every month", "The rate stays the same during the term", "There is no interest", "The rate is very high"],
+    "correctAnswer": 1,
+    "explanation": "Un tipo de interés fijo no varía durante la duración del préstamo."
+  },
+  {
+    "id": "adm-a2-w26-q12",
+    "type": "fill-in-the-blank",
+    "question": "Last year, they ________ (no pudieron) get a mortgage.",
+    "correctAnswer": "couldn't",
+    "explanation": "Pasado negativo de 'can' para expresar imposibilidad."
+  },
+  {
+    "id": "adm-a2-w26-q13",
+    "type": "multiple-choice",
+    "question": "What is a 'co-signer'?",
+    "options": ["A person who works at the bank", "Someone who signs the loan with you and shares responsibility", "A type of digital signature", "The bank's lawyer"],
+    "correctAnswer": 1,
+    "explanation": "Un avalista o co-firmante es quien asume la responsabilidad del préstamo junto al prestatario."
+  },
+  {
+    "id": "adm-a2-w26-q14",
+    "type": "fill-in-the-blank",
+    "question": "________ (podrías) you sign here, please?",
+    "correctAnswer": "Could",
+    "explanation": "Usamos 'Could' para hacer peticiones de manera más educada y formal."
+  },
+  {
+    "id": "adm-a2-w26-q15",
+    "type": "multiple-choice",
+    "question": "To 'repay' a loan means:",
+    "options": ["To ask for more money", "To pay back the money you borrowed", "To cancel the contract", "To lose the money"],
+    "correctAnswer": 1,
+    "explanation": "'Repay' significa devolver el dinero que se ha recibido en préstamo."
+  },
+  {
+    "id": "adm-a2-w26-q16",
+    "type": "fill-in-the-blank",
+    "question": "Your credit ________ (historial) is very good.",
+    "correctAnswer": "history",
+    "explanation": "El historial crediticio muestra tu comportamiento pasado con las deudas."
+  },
+  {
+    "id": "adm-a2-w26-q17",
+    "type": "multiple-choice",
+    "question": "If your loan is 'approved', it means:",
+    "options": ["The bank said no", "The bank said yes", "The bank is still thinking", "You already paid it"],
+    "correctAnswer": 1,
+    "explanation": "'Approved' significa que el préstamo ha sido aceptado o concedido."
+  },
+  {
+    "id": "adm-a2-w26-q18",
+    "type": "fill-in-the-blank",
+    "question": "I ________ (puedo) afford the monthly payments now.",
+    "correctAnswer": "can",
+    "explanation": "Habilidad o capacidad económica en el presente."
+  },
+  {
+    "id": "adm-a2-w26-q19",
+    "type": "multiple-choice",
+    "question": "What is 'debt'?",
+    "options": ["Money you have in the bank", "Money you owe to someone else", "A type of bank card", "A discount"],
+    "correctAnswer": 1,
+    "explanation": "'Debt' (deuda) es el dinero que se debe a otra persona o entidad."
+  },
+  {
+    "id": "adm-a2-w26-q20",
+    "type": "fill-in-the-blank",
+    "question": "The loan ________ (plazo) is five years.",
+    "correctAnswer": "term",
+    "explanation": "El 'term' es el periodo de tiempo acordado para devolver el préstamo."
+  }
+]

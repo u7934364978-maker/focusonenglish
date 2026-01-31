@@ -3,47 +3,167 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana20",
-  "title": "Examen: Repaso de Conceptos",
+  "title": "Examen: Cyber Security & Data Privacy",
   "items": [
     {
-      "id": "fin-a1-w20-e1",
-      "type": "multipleChoice",
-      "prompt": "I need to withdraw ___ from the ATM.",
-      "options": ["cash", "receipt", "appointment", "PIN"],
-      "answerIndex": 0,
-      "explanation": "We withdraw cash from an ATM."
-    },
-    {
-      "id": "fin-a1-w20-e2",
-      "type": "multipleChoice",
-      "prompt": "Please ___ your PIN.",
-      "options": ["enter", "pay", "buy", "cost"],
-      "answerIndex": 0,
-      "explanation": "We use the imperative 'enter' for PINs."
-    },
-    {
-      "id": "fin-a1-w20-e3",
-      "type": "multipleChoice",
-      "prompt": "The meeting is ___ the manager's office.",
-      "options": ["at", "on", "in", "to"],
+      "id": "adm-a1-w20-e1",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Strong' password?",
+      "options": ["1234", "password", "P@ssw0rd!2024"],
       "answerIndex": 2,
-      "explanation": "We use 'in' for locations like offices."
+      "explanation": "Strong passwords use letters, numbers, and symbols."
     },
     {
-      "id": "fin-a1-w20-e4",
-      "type": "multipleChoice",
-      "prompt": "There ___ two customers waiting.",
-      "options": ["is", "are", "am", "be"],
-      "answerIndex": 1,
-      "explanation": "Plural subject 'two customers' needs 'are'."
-    },
-    {
-      "id": "fin-a1-w20-e5",
-      "type": "multipleChoice",
-      "prompt": "This is ___ debit card.",
-      "options": ["my", "me", "I", "mine is"],
+      "id": "adm-a1-w20-e2",
+      "type": "multiple-choice",
+      "prompt": "What should you do before you leave your desk?",
+      "options": ["Lock the screen", "Open the window", "Turn off the phone"],
       "answerIndex": 0,
-      "explanation": "Possessive adjective 'my' before the noun."
+      "explanation": "Always lock your screen to protect company data."
+    },
+    {
+      "id": "adm-a1-w20-e3",
+      "type": "multiple-choice",
+      "prompt": "Phishing is a trick to steal your ______.",
+      "options": ["Computer", "Password", "Chair"],
+      "answerIndex": 1,
+      "explanation": "Phishing targets sensitive information like passwords."
+    },
+    {
+      "id": "adm-a1-w20-e4",
+      "type": "multiple-choice",
+      "prompt": "What does 2FA use plus your password?",
+      "options": ["A photo", "A code from your phone", "A physical key"],
+      "answerIndex": 1,
+      "explanation": "2FA typically uses a secondary code for verification."
+    },
+    {
+      "id": "adm-a1-w20-e5",
+      "type": "multiple-choice",
+      "prompt": "Is public Wi-Fi safe for company data?",
+      "options": ["Yes", "No", "Only on Fridays"],
+      "answerIndex": 1,
+      "explanation": "Public Wi-Fi is insecure; hackers can see your traffic."
+    },
+    {
+      "id": "adm-a1-w20-e6",
+      "type": "multiple-choice",
+      "prompt": "You should change your password ______.",
+      "options": ["Every day", "Regularly (e.g., every 90 days)", "Never"],
+      "answerIndex": 1,
+      "explanation": "Regular updates help maintain account security."
+    },
+    {
+      "id": "adm-a1-w20-e7",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Data Breach'?",
+      "options": ["A software update", "When private data is stolen", "A new computer"],
+      "answerIndex": 1,
+      "explanation": "A data breach involves unauthorized access to data."
+    },
+    {
+      "id": "adm-a1-w20-e8",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a 'Symbol'?",
+      "options": ["A", "5", "@"],
+      "answerIndex": 2,
+      "explanation": "@ is a symbol commonly used in passwords."
+    },
+    {
+      "id": "adm-a1-w20-e9",
+      "type": "multiple-choice",
+      "prompt": "A colleague asks for your password. What do you do?",
+      "options": ["Give it to them", "Say no, it is secret", "Write it on a paper"],
+      "answerIndex": 1,
+      "explanation": "Never share your professional passwords."
+    },
+    {
+      "id": "adm-a1-w20-e10",
+      "type": "multiple-choice",
+      "prompt": "What is 'Malware'?",
+      "options": ["Professional software", "Dangerous software", "Social media"],
+      "answerIndex": 1,
+      "explanation": "Malware is malicious software designed to harm systems."
+    },
+    {
+      "id": "adm-a1-w20-e11",
+      "type": "multiple-choice",
+      "prompt": "What does 'Lowercase' mean?",
+      "options": ["A, B, C", "a, b, c", "1, 2, 3"],
+      "answerIndex": 1,
+      "explanation": "Lowercase refers to small letters."
+    },
+    {
+      "id": "adm-a1-w20-e12",
+      "type": "multiple-choice",
+      "prompt": "What does 'Uppercase' mean?",
+      "options": ["A, B, C", "a, b, c", "!, @, #"],
+      "answerIndex": 0,
+      "explanation": "Uppercase refers to capital letters."
+    },
+    {
+      "id": "adm-a1-w20-e13",
+      "type": "multiple-choice",
+      "prompt": "A 'Scam' is a trick to ______.",
+      "options": ["Help you", "Steal money or data", "Update your computer"],
+      "answerIndex": 1,
+      "explanation": "Scams are fraudulent attempts to steal."
+    },
+    {
+      "id": "adm-a1-w20-e14",
+      "type": "multiple-choice",
+      "prompt": "Where do you 'Log out'?",
+      "options": ["To start a session", "To finish a session", "To change the volume"],
+      "answerIndex": 1,
+      "explanation": "Logging out ends your current session securely."
+    },
+    {
+      "id": "adm-a1-w20-e15",
+      "type": "multiple-choice",
+      "prompt": "Is '1111' a strong PIN?",
+      "options": ["Yes", "No", "Maybe"],
+      "answerIndex": 1,
+      "explanation": "Simple repeating numbers are very weak."
+    },
+    {
+      "id": "adm-a1-w20-e16",
+      "type": "multiple-choice",
+      "prompt": "Who helps with computer security at work?",
+      "options": ["The Cleaner", "The IT Department", "The Customer"],
+      "answerIndex": 1,
+      "explanation": "The IT department manages digital security."
+    },
+    {
+      "id": "adm-a1-w20-e17",
+      "type": "multiple-choice",
+      "prompt": "What is 'Biometric' authentication?",
+      "options": ["Using a password", "Using a fingerprint or face scan", "Using a physical key"],
+      "answerIndex": 1,
+      "explanation": "Biometrics use biological traits for identification."
+    },
+    {
+      "id": "adm-a1-w20-e18",
+      "type": "multiple-choice",
+      "prompt": "An 'Encrypted' file is ______.",
+      "options": ["Public", "Protected with a code", "Deleted"],
+      "answerIndex": 1,
+      "explanation": "Encryption protects data by making it unreadable without a key."
+    },
+    {
+      "id": "adm-a1-w20-e19",
+      "type": "multiple-choice",
+      "prompt": "What should you do with a suspicious link?",
+      "options": ["Click it", "Do not click it", "Send it to a friend"],
+      "answerIndex": 1,
+      "explanation": "Never click on links from untrusted sources."
+    },
+    {
+      "id": "adm-a1-w20-e20",
+      "type": "multiple-choice",
+      "prompt": "2FA stands for ______ Factor Authentication.",
+      "options": ["Total", "Two", "Time"],
+      "answerIndex": 1,
+      "explanation": "It stands for Two-Factor Authentication."
     }
   ]
 }

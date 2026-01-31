@@ -1,35 +1,22 @@
 {
-  "title": "Global Money: Multi-currency Wallets",
+  "title": "Semana 27: Solicitud de Información",
+  "description": "Aprende a redactar correos electrónicos para pedir información, documentos o ayuda de manera educada.",
+  "objectives": [
+    "Usar frases comunes para solicitar información",
+    "Aprender a usar 'Can' y 'Could' para peticiones",
+    "Estructurar un correo de consulta básico"
+  ],
   "sections": [
     {
-      "id": "digital-exchange",
-      "title": "The Digital Wallet",
-      "content": "Modern apps allow you to hold many currencies at once. \n\n- **Multi-currency Wallet**: One app with different 'pots' for Euro, Dollar, and Pound.\n- **Real-time Rate**: The exact value of a currency at this second.\n- **Conversion**: Changing one currency into another inside the app.\n- **Transparent Fees**: Knowing exactly how much the app charges (no hidden costs)."
+      "id": "request-phrases",
+      "title": "Frases para Solicitar (Requesting)",
+      "content": "Para pedir algo en un email, usamos frases de cortesía:\n\n- **I am writing to ask about...**: Escribo para preguntar sobre...\n- **Could you please send me...?**: ¿Podría enviarme...?\n- **I would like to know...**: Me gustaría saber...\n- **Please let me know...**: Por favor, hágamelo saber..."
     },
     {
-      "id": "conversion-flow",
-      "title": "Digital Conversion Flow",
-      "content": "```mermaid\ngraph LR\n    A[Select EUR Pot] --> B[Click Convert]\n    B --> C[Choose USD]\n    C --> D[Check Live Rate]\n    D --> E[Enter Amount]\n    E --> F[Confirm & Swap]\n```"
-    },
-    {
-      "id": "grammar-quantities",
-      "title": "Grammar: How much vs. How many",
-      "content": "We use different questions for different types of money.\n\n- **How much**: Use for 'Money' (uncountable) or prices.\n  - *How much money is in your wallet?*\n  - *How much is the fee?*\n- **How many**: Use for specific currencies or coins (countable).\n  - *How many Dollars do you want?*\n  - *How many Euros do I have left?*\n\n**Rule**: Money = much. Dollars/Euros/Pounds = many."
-    },
-    {
-      "id": "travel-fintech",
-      "title": "Spending Abroad",
-      "content": "When you travel, your app handles the exchange automatically.\n\n- **Base Currency**: Your main currency (e.g., Euro).\n- **Target Currency**: The currency you need (e.g., Yen).\n- **Markup**: An extra cost some banks add to the rate (try to avoid this!)."
+      "id": "polite-modal-verbs",
+      "title": "Cortesía con Can y Could",
+      "content": "Usamos verbos modales para sonar más profesionales:\n\n- **Can you...?**: ¿Puedes...? (Estándar/Informal)\n- **Could you...?**: ¿Podría...? (Formal/Más educado)\n\n**Ejemplo:**\n\"Could you please send the monthly report?\""
     }
   ],
-  "objectives": [
-    "Understand how to manage multiple currencies in a digital app",
-    "Differentiate between How much and How many for financial quantities",
-    "Identify the steps for instant currency conversion"
-  ],
-  "keyTerms": [
-    { "term": "FX", "definition": "Foreign Exchange (changing currencies)." },
-    { "term": "Pot / Pocket", "definition": "A sub-account for a specific currency." },
-    { "term": "Transparent", "definition": "Clear and easy to see (no secrets)." }
-  ]
+  "audioUrl": ""
 }

@@ -6,44 +6,164 @@
   "title": "Examen: Predicciones Económicas",
   "items": [
     {
-      "id": "fin-a2-w16-e1",
+      "id": "adm-a2-w16-q01",
       "type": "multipleChoice",
       "prompt": "We expect a 3% ___ in the economy.",
       "options": ["inflation", "growth", "trend", "policy"],
       "answerIndex": 1,
-      "explanation": "Growth (crecimiento) is positive economic progress."
+      "explanation": "El 'growth' (crecimiento) indica un progreso económico positivo."
     },
     {
-      "id": "fin-a2-w16-e2",
+      "id": "adm-a2-w16-q02",
       "type": "multipleChoice",
       "prompt": "Inflation ___ probably increase in June.",
       "options": ["will", "is", "goes", "does"],
       "answerIndex": 0,
-      "explanation": "Will + probably is common for predictions."
+      "explanation": "Usamos 'will' para hacer predicciones sobre la inflación."
     },
     {
-      "id": "fin-a2-w16-e3",
+      "id": "adm-a2-w16-q03",
       "type": "multipleChoice",
       "prompt": "The current ___ is to invest in green energy.",
       "options": ["inflation", "trend", "claim", "premium"],
       "answerIndex": 1,
-      "explanation": "Trend refers to what is popular or common now."
+      "explanation": "Una 'trend' (tendencia) es la dirección predominante del mercado."
     },
     {
-      "id": "fin-a2-w16-e4",
+      "id": "adm-a2-w16-q04",
       "type": "multipleChoice",
       "prompt": "Do you think interest rates ___ go up?",
       "options": ["will", "are", "do", "going to"],
       "answerIndex": 0,
-      "explanation": "Question about a future prediction."
+      "explanation": "Pregunta sobre una predicción futura con 'will'."
     },
     {
-      "id": "fin-a2-w16-e5",
+      "id": "adm-a2-w16-q05",
       "type": "multipleChoice",
       "prompt": "A lot of people ___ lose money if the market crashes.",
       "options": ["will", "going to", "do", "are"],
       "answerIndex": 0,
-      "explanation": "Prediction about a possible consequence."
+      "explanation": "Predicción de una consecuencia futura posible."
+    },
+    {
+      "id": "adm-a2-w16-q06",
+      "type": "multipleChoice",
+      "prompt": "___ is the general increase in the price of goods.",
+      "options": ["Inflation", "Growth", "Market", "Trend"],
+      "answerIndex": 0,
+      "explanation": "La 'inflation' (inflación) hace que los productos sean más caros."
+    },
+    {
+      "id": "adm-a2-w16-q07",
+      "type": "multipleChoice",
+      "prompt": "I don't think the dollar ___ be weaker tomorrow.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Predicción negativa sobre el valor de una moneda."
+    },
+    {
+      "id": "adm-a2-w16-q08",
+      "type": "multipleChoice",
+      "prompt": "The experts predict that oil prices ___ drop.",
+      "options": ["will", "won't", "is", "does"],
+      "answerIndex": 0,
+      "explanation": "Predicción de los expertos sobre la bajada de precios."
+    },
+    {
+      "id": "adm-a2-w16-q09",
+      "type": "multipleChoice",
+      "prompt": "Economic ___ is necessary for creating new jobs.",
+      "options": ["growth", "inflation", "market", "policy"],
+      "answerIndex": 0,
+      "explanation": "El crecimiento económico (growth) es clave para el empleo."
+    },
+    {
+      "id": "adm-a2-w16-q10",
+      "type": "multipleChoice",
+      "prompt": "___ is very high in some developing countries.",
+      "options": ["Inflation", "Growth", "Trend", "Budget"],
+      "answerIndex": 0,
+      "explanation": "La inflación (inflation) es un problema común en economías en desarrollo."
+    },
+    {
+      "id": "adm-a2-w16-q11",
+      "type": "multipleChoice",
+      "prompt": "The market ___ react positively to the news.",
+      "options": ["will", "is", "does", "are"],
+      "answerIndex": 0,
+      "explanation": "Predicción de la reacción de los inversores."
+    },
+    {
+      "id": "adm-a2-w16-q12",
+      "type": "multipleChoice",
+      "prompt": "Is the global ___ stable right now?",
+      "options": ["market", "inflation", "growth", "trend"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre la estabilidad del mercado global."
+    },
+    {
+      "id": "adm-a2-w16-q13",
+      "type": "multipleChoice",
+      "prompt": "New technologies ___ create many opportunities.",
+      "options": ["will", "are", "do", "going to"],
+      "answerIndex": 0,
+      "explanation": "Predicción sobre el impacto de la tecnología."
+    },
+    {
+      "id": "adm-a2-w16-q14",
+      "type": "multipleChoice",
+      "prompt": "A negative ___ can be dangerous for small businesses.",
+      "options": ["trend", "inflation", "growth", "policy"],
+      "answerIndex": 0,
+      "explanation": "Una tendencia (trend) negativa puede perjudicar a las empresas."
+    },
+    {
+      "id": "adm-a2-w16-q15",
+      "type": "multipleChoice",
+      "prompt": "I believe that taxes ___ go down next year.",
+      "options": ["will", "won't", "is", "does"],
+      "answerIndex": 0,
+      "explanation": "Creencia o esperanza sobre una medida futura."
+    },
+    {
+      "id": "adm-a2-w16-q16",
+      "type": "multipleChoice",
+      "prompt": "___ can reduce the value of your savings.",
+      "options": ["Inflation", "Growth", "Market", "Trend"],
+      "answerIndex": 0,
+      "explanation": "La inflación reduce el valor real del dinero ahorrado."
+    },
+    {
+      "id": "adm-a2-w16-q17",
+      "type": "multipleChoice",
+      "prompt": "The prices of houses ___ likely rise.",
+      "options": ["will", "is", "are", "do"],
+      "answerIndex": 0,
+      "explanation": "'Will' se usa para predecir subidas de precios."
+    },
+    {
+      "id": "adm-a2-w16-q18",
+      "type": "multipleChoice",
+      "prompt": "Will the unemployment rate ___ decrease?",
+      "options": ["decrease", "inflation", "growth", "market"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre si bajará la tasa de desempleo."
+    },
+    {
+      "id": "adm-a2-w16-q19",
+      "type": "multipleChoice",
+      "prompt": "Analysts say that the recession ___ end in December.",
+      "options": ["will", "is", "does", "won't"],
+      "answerIndex": 0,
+      "explanation": "Predicción de los analistas sobre el fin de la crisis."
+    },
+    {
+      "id": "adm-a2-w16-q20",
+      "type": "multipleChoice",
+      "prompt": "The stock ___ is very active this morning.",
+      "options": ["market", "inflation", "growth", "trend"],
+      "answerIndex": 0,
+      "explanation": "El mercado de valores (stock market) está muy activo."
     }
   ]
 }

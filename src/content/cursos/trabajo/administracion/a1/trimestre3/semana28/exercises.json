@@ -1,208 +1,924 @@
 {
-  "title": "Smart Savings Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana28",
+  "title": "Exercises: Attachments and Files",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a1-w28-ex01",
       "type": "multiple-choice",
-      "question": "What is a 'Vault' in a banking app?",
-      "options": ["A physical box for money", "A digital space for savings", "A type of credit card", "A bank employee"],
-      "correctAnswer": 1,
-      "explanation": "A vault (or pocket) is a digital sub-account used specifically for saving."
+      "prompt": "Which phrase is most common for mentioning an attachment?",
+      "options": [
+        "Please find attached the report.",
+        "Look at the file on the table.",
+        "I am giving you the paper.",
+        "The document is in the office."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Please find attached...' is the standard formal way to refer to an attachment."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "I ________ save €100 if I don't buy expensive coffee.",
-      "answer": "can",
-      "explanation": "We use 'can' for possibilities."
+      "id": "adm-a1-w28-ex02",
+      "type": "multiple-choice",
+      "prompt": "What is the meaning of 'Spreadsheet'?",
+      "options": [
+        "Una carta",
+        "Una hoja de cálculo",
+        "Una presentación",
+        "Un sobre"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Spreadsheet' refers to an Excel-style document used for data and calculations."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the saving features:",
+      "id": "adm-a1-w28-ex03",
+      "type": "fill-blank",
+      "prompt": "I am ________ (adjuntando) the invoice to this email.",
+      "answer": "attaching",
+      "explanation": "'Attaching' is the present continuous form of 'attach'."
+    },
+    {
+      "id": "adm-a1-w28-ex04",
+      "type": "multiple-choice",
+      "prompt": "Which word describes a 'PowerPoint' file in a professional context?",
+      "options": [
+        "Spreadsheet",
+        "Presentation",
+        "PDF",
+        "Document"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'Presentation' is the general term for slides used in meetings."
+    },
+    {
+      "id": "adm-a1-w28-ex05",
+      "type": "matching",
+      "prompt": "Match the English terms with their Spanish meanings:",
       "pairs": [
-        { "term": "Round-up", "definition": "Save the small change" },
-        { "term": "Auto-save", "definition": "Regular monthly transfers" },
-        { "term": "Interest", "definition": "Reward for saving" }
+        { "term": "Attachment", "definition": "Archivo adjunto" },
+        { "term": "Folder", "definition": "Carpeta" },
+        { "term": "File", "definition": "Archivo/Fichero" },
+        { "term": "Invoice", "definition": "Factura" }
       ]
     },
     {
-      "id": "ex4",
+      "id": "adm-a1-w28-ex06",
       "type": "multiple-choice",
-      "question": "How do 'Round-ups' work?",
-      "options": ["The bank takes your money", "The app saves the change from your payments", "You must go to the bank", "You lose your money"],
-      "correctAnswer": 1,
-      "explanation": "Round-ups automatically save the difference between your payment and the next whole number."
+      "prompt": "Complete the sentence: 'Please ________ the attached file for more details.'",
+      "options": [
+        "watch",
+        "see",
+        "look",
+        "check"
+      ],
+      "answerIndex": 3,
+      "explanation": "'Check' is frequently used to ask someone to review a document."
     },
     {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "We ________ spend our savings. They are for the future.",
-      "answer": "can't",
-      "explanation": "We use 'can't' (cannot) for limits or rules."
+      "id": "adm-a1-w28-ex07",
+      "type": "fill-blank",
+      "prompt": "Here ________ (está) the document you requested.",
+      "answer": "is",
+      "explanation": "We use 'is' because 'document' is singular."
     },
     {
-      "id": "ex6",
+      "id": "adm-a1-w28-ex08",
       "type": "multiple-choice",
-      "question": "Which is a 'Long-term Goal'?",
-      "options": ["Buying lunch", "Saving for a house", "Buying a cinema ticket", "Paying the phone bill"],
-      "correctAnswer": 1,
-      "explanation": "Long-term goals take a long time (years) to achieve."
+      "prompt": "What does 'Please find attached' imply?",
+      "options": [
+        "The file is missing.",
+        "The file is included in the email.",
+        "The file will be sent tomorrow.",
+        "The email is empty."
+      ],
+      "answerIndex": 1,
+      "explanation": "It indicates that an electronic file is part of the email communication."
     },
     {
-      "id": "ex7",
-      "type": "vocabulary-match",
-      "question": "Match the goals to the time:",
+      "id": "adm-a1-w28-ex09",
+      "type": "fill-blank",
+      "prompt": "Can you please ________ (abrir) the attachment?",
+      "answer": "open",
+      "explanation": "'Open' is the action of accessing the content of a file."
+    },
+    {
+      "id": "adm-a1-w28-ex10",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'He adjuntado el informe'.",
+      "options": [
+        "I attach the report.",
+        "I am attaching the report.",
+        "I have attached the report.",
+        "I will attach the report."
+      ],
+      "answerIndex": 2,
+      "explanation": "'I have attached' uses the present perfect to indicate the action is completed."
+    },
+    {
+      "id": "adm-a1-w28-ex11",
+      "type": "listening",
+      "prompt": "Listen to the office worker and answer: What is the speaker sending?",
+      "transcript": "Hello Sarah, I am writing to send you the weekly report. Please find attached the spreadsheet with the sales numbers. Let me know if you have any questions.",
+      "options": ["A letter", "A spreadsheet", "A folder", "A photo"],
+      "answerIndex": 1,
+      "explanation": "The speaker explicitly mentions: 'Please find attached the spreadsheet'."
+    },
+    {
+      "id": "adm-a1-w28-ex12",
+      "type": "listening",
+      "prompt": "Listen and choose the correct action requested:",
+      "transcript": "Could you please check the attached PDF? I need your feedback by 5 PM.",
+      "options": ["Print the file", "Delete the file", "Check the file", "Send the file"],
+      "answerIndex": 2,
+      "explanation": "The speaker asks: 'Could you please check the attached PDF?'"
+    },
+    {
+      "id": "adm-a1-w28-ex13",
+      "type": "listening",
+      "prompt": "Listen and identify the document mentioned:",
+      "transcript": "I have attached the invoice for the new office chairs. Please process the payment today.",
+      "options": ["Presentation", "Invoice", "Contract", "Resume"],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'I have attached the invoice'."
+    },
+    {
+      "id": "adm-a1-w28-ex14",
+      "type": "listening",
+      "prompt": "Listen and complete: 'I am ________ the presentation for tomorrow's meeting.'",
+      "transcript": "Hi Team, I am attaching the presentation for tomorrow's meeting. Please review the slides.",
+      "options": ["sending", "attaching", "writing", "opening"],
+      "answerIndex": 1,
+      "explanation": "The transcript states: 'I am attaching the presentation'."
+    },
+    {
+      "id": "adm-a1-w28-ex15",
+      "type": "listening",
+      "prompt": "Listen and answer: Where is the schedule?",
+      "transcript": "Please find the meeting schedule attached to this email.",
+      "options": ["In the office", "Attached to the email", "On the website", "In the folder"],
+      "answerIndex": 1,
+      "explanation": "The speaker says it is 'attached to this email'."
+    },
+    {
+      "id": "adm-a1-w28-ex16",
+      "type": "listening",
+      "prompt": "Listen and identify the problem:",
+      "transcript": "I'm sorry, I forgot to attach the file in my previous email. Here it is.",
+      "options": ["The file is wrong", "The email is late", "The speaker forgot the attachment", "The computer is broken"],
+      "answerIndex": 2,
+      "explanation": "The speaker admits: 'I forgot to attach the file'."
+    },
+    {
+      "id": "adm-a1-w28-ex17",
+      "type": "listening",
+      "prompt": "Listen and answer: What should the receiver do?",
+      "transcript": "Please open the attached folder and find the 'contracts' document.",
+      "options": ["Delete the folder", "Open the attached folder", "Rename the folder", "Close the folder"],
+      "answerIndex": 1,
+      "explanation": "The instruction is: 'Please open the attached folder'."
+    },
+    {
+      "id": "adm-a1-w28-ex18",
+      "type": "listening",
+      "prompt": "Listen and complete: 'Could you ________ the attached document?'",
+      "transcript": "Could you sign the attached document and send it back to me?",
+      "options": ["read", "sign", "write", "check"],
+      "answerIndex": 1,
+      "explanation": "The speaker asks: 'Could you sign the attached document?'"
+    },
+    {
+      "id": "adm-a1-w28-ex19",
+      "type": "listening",
+      "prompt": "Listen and answer: Who sent the attachment?",
+      "transcript": "Attached is the budget report from the accounting department.",
+      "options": ["Marketing", "HR", "Accounting", "IT"],
+      "answerIndex": 2,
+      "explanation": "The report is 'from the accounting department'."
+    },
+    {
+      "id": "adm-a1-w28-ex20",
+      "type": "listening",
+      "prompt": "Listen and identify the file type:",
+      "transcript": "I am sending the data in a spreadsheet format.",
+      "options": ["PDF", "Word", "Spreadsheet", "Image"],
+      "answerIndex": 2,
+      "explanation": "The speaker mentions a 'spreadsheet format'."
+    },
+    {
+      "id": "adm-a1-w28-ex21",
+      "type": "multiple-choice",
+      "prompt": "Which of these is NOT a file type?",
+      "options": [
+        "PDF",
+        "Spreadsheet",
+        "Coffee",
+        "Document"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Coffee' is a beverage, not a digital file format."
+    },
+    {
+      "id": "adm-a1-w28-ex22",
+      "type": "fill-blank",
+      "prompt": "Please ________ (encontrar) the files attached below.",
+      "answer": "find",
+      "explanation": "'Find' is the verb used in the formal phrase 'Please find attached'."
+    },
+    {
+      "id": "adm-a1-w28-ex23",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'factura' in English?",
+      "options": [
+        "Investment",
+        "Invoice",
+        "Invite",
+        "Inventory"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Invoice' is the correct term for a bill or 'factura' in business."
+    },
+    {
+      "id": "adm-a1-w28-ex24",
+      "type": "fill-blank",
+      "prompt": "The presentation ________ (está) attached for your review.",
+      "answer": "is",
+      "explanation": "Singular subject 'presentation' takes the verb 'is'."
+    },
+    {
+      "id": "adm-a1-w28-ex25",
+      "type": "matching",
+      "prompt": "Match the verbs with their objects:",
       "pairs": [
-        { "term": "Short-term", "definition": "Next week / month" },
-        { "term": "Long-term", "definition": "Next year / decade" },
-        { "term": "Emergency", "definition": "Right now / unexpected" }
+        { "term": "Attach", "definition": "A file" },
+        { "term": "Open", "definition": "An attachment" },
+        { "term": "Sign", "definition": "A contract" },
+        { "term": "Send", "definition": "An email" }
       ]
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "The ________ bar shows how close you are to your goal.",
-      "answer": "progress",
-      "explanation": "A progress bar is a visual indicator of success."
-    },
-    {
-      "id": "ex9",
+      "id": "adm-a1-w28-ex26",
       "type": "multiple-choice",
-      "question": "If you pay €4.60 and use round-ups, how much do you save?",
-      "options": ["€0.40", "€1.00", "€4.00", "€0.60"],
-      "correctAnswer": 0,
-      "explanation": "€4.60 + €0.40 = €5.00. The app saves the €0.40 change."
+      "prompt": "What do you do if you 'download' a file?",
+      "options": [
+        "Lo envías por correo",
+        "Lo guardas de internet a tu computadora",
+        "Lo borras para siempre",
+        "Lo imprimes en papel"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Download' (descargar) means transferring a file to your local device."
     },
     {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "________ the app save money automatically? Yes, it can!",
-      "answer": "Can",
-      "explanation": "We use 'Can' at the start of a question."
+      "id": "adm-a1-w28-ex27",
+      "type": "fill-blank",
+      "prompt": "I have ________ (enviado) the attached PDF to the manager.",
+      "answer": "sent",
+      "explanation": "'Sent' is the past participle of 'send'."
     },
     {
-      "id": "ex11",
-      "type": "vocabulary-match",
-      "question": "Match the saving words:",
+      "id": "adm-a1-w28-ex28",
+      "type": "multiple-choice",
+      "prompt": "Which phrase is correct?",
+      "options": [
+        "Attached is the file.",
+        "Attached are the file.",
+        "Attaching is the file.",
+        "Attach is the file."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Attached is the file' is a grammatically correct way to introduce a single attachment."
+    },
+    {
+      "id": "adm-a1-w28-ex29",
+      "type": "fill-blank",
+      "prompt": "The documents ________ (están) attached to the message.",
+      "answer": "are",
+      "explanation": "Plural subject 'documents' requires 'are'."
+    },
+    {
+      "id": "adm-a1-w28-ex30",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Folder'?",
+      "options": [
+        "A piece of paper",
+        "A digital container for files",
+        "A computer screen",
+        "A mouse"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'Folder' (carpeta) is used to organize multiple files."
+    },
+    {
+      "id": "adm-a1-w28-ex31",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'Could you ________ the file as a PDF?'",
+      "options": [
+        "send",
+        "save",
+        "open",
+        "delete"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Save as a PDF' is a common request in office work."
+    },
+    {
+      "id": "adm-a1-w28-ex32",
+      "type": "fill-blank",
+      "prompt": "Please let me know if you cannot ________ (abrir) the attachment.",
+      "answer": "open",
+      "explanation": "'Open' is the base form used after the modal-like helper 'cannot'."
+    },
+    {
+      "id": "adm-a1-w28-ex33",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'Por favor revise los archivos adjuntos'.",
+      "options": [
+        "Please check the attached files.",
+        "Please open the files.",
+        "Please send the files.",
+        "Please write the files."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Please check the attached files' is the most accurate translation."
+    },
+    {
+      "id": "adm-a1-w28-ex34",
+      "type": "fill-blank",
+      "prompt": "I am attaching the meeting ________ (minutas).",
+      "answer": "minutes",
+      "explanation": "'Minutes' (minutas/actas) refers to the notes taken during a meeting."
+    },
+    {
+      "id": "adm-a1-w28-ex35",
+      "type": "matching",
+      "prompt": "Match the terms with their abbreviations/symbols:",
       "pairs": [
-        { "term": "Set aside", "definition": "Put money away" },
-        { "term": "Grow", "definition": "Increase in amount" },
-        { "term": "Reward", "definition": "Something good you get" }
+        { "term": "Document", "definition": "doc/docx" },
+        { "term": "Spreadsheet", "definition": "xls/xlsx" },
+        { "term": "Presentation", "definition": "ppt/pptx" },
+        { "term": "Image", "definition": "jpg/png" }
       ]
     },
     {
-      "id": "ex12",
+      "id": "adm-a1-w28-ex36",
       "type": "multiple-choice",
-      "question": "Why is 'Auto-save' good?",
-      "options": ["You forget to save", "It saves money for you every month", "It is very expensive", "It deletes your account"],
-      "correctAnswer": 1,
-      "explanation": "Auto-save is consistent and requires no effort."
+      "prompt": "What does 'Attached please find' mean?",
+      "options": [
+        "It's an informal way to say hi.",
+        "It's a formal way to introduce an attachment.",
+        "It's a way to ask for a coffee.",
+        "It's a way to complain about a file."
+      ],
+      "answerIndex": 1,
+      "explanation": "It is a standard inversion of 'Please find attached'."
     },
     {
-      "id": "ex13",
-      "type": "fill-in-the-blank",
-      "question": "I can ________ my progress on the dashboard.",
-      "answer": "see",
-      "explanation": "Base verb after 'can'."
+      "id": "adm-a1-w28-ex37",
+      "type": "fill-blank",
+      "prompt": "The manager is ________ (revisando) the attached spreadsheet.",
+      "answer": "checking",
+      "explanation": "'Checking' (revisando) fits the context of reviewing a file."
     },
     {
-      "id": "ex14",
+      "id": "adm-a1-w28-ex38",
       "type": "multiple-choice",
-      "question": "What is 'Interest' in savings?",
-      "options": ["A feeling of curiosity", "Extra money the bank gives you", "A fee you pay", "A type of password"],
-      "correctAnswer": 1,
-      "explanation": "Interest is the percentage reward for keeping money in a savings account."
+      "prompt": "Which verb is used for 'subir' a file to a server?",
+      "options": [
+        "Download",
+        "Upload",
+        "Update",
+        "Upgrade"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Upload' is used for sending a file from a local computer to a server or cloud."
     },
     {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the UI elements:",
-      "pairs": [
-        { "term": "Icon", "definition": "Small image" },
-        { "term": "Graph", "definition": "Visual data line" },
-        { "term": "Button", "definition": "Clickable element" }
+      "id": "adm-a1-w28-ex39",
+      "type": "fill-blank",
+      "prompt": "I have ________ (adjuntado) two files to this email.",
+      "answer": "attached",
+      "explanation": "'Attached' is the past participle used with 'have'."
+    },
+    {
+      "id": "adm-a1-w28-ex40",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Digital signature'?",
+      "options": [
+        "Una firma hecha a mano en papel",
+        "Una firma electrónica",
+        "Un tipo de letra",
+        "Un correo sin asunto"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'Digital signature' is used to sign documents electronically."
+    },
+    {
+      "id": "adm-a1-w28-ex41",
+      "type": "multiple-choice",
+      "prompt": "Identify the file: 'It contains rows and columns for numbers.'",
+      "options": [
+        "Presentation",
+        "Spreadsheet",
+        "PDF",
+        "Folder"
+      ],
+      "answerIndex": 1,
+      "explanation": "This describes a 'Spreadsheet' (like Excel)."
+    },
+    {
+      "id": "adm-a1-w28-ex42",
+      "type": "fill-blank",
+      "prompt": "Please save the ________ (documento) in the shared folder.",
+      "answer": "document",
+      "explanation": "'Document' (documento) is the standard singular noun."
+    },
+    {
+      "id": "adm-a1-w28-ex43",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'Estoy adjuntando la agenda'.",
+      "options": [
+        "I attach the agenda.",
+        "I am attaching the agenda.",
+        "I have attached the agenda.",
+        "I will attach the agenda."
+      ],
+      "answerIndex": 1,
+      "explanation": "'I am attaching' is the present continuous form."
+    },
+    {
+      "id": "adm-a1-w28-ex44",
+      "type": "fill-blank",
+      "prompt": "Did you ________ (recibir) the attached file?",
+      "answer": "receive",
+      "explanation": "We use the base form 'receive' in a question with 'Did'."
+    },
+    {
+      "id": "adm-a1-w28-ex45",
+      "type": "multiple-choice",
+      "prompt": "Which file extension is for a spreadsheet?",
+      "options": [
+        ".jpg",
+        ".xlsx",
+        ".mp3",
+        ".txt"
+      ],
+      "answerIndex": 1,
+      "explanation": ".xlsx is the standard extension for Microsoft Excel spreadsheets."
+    },
+    {
+      "id": "adm-a1-w28-ex46",
+      "type": "reading",
+      "text": "Subject: Monthly Sales Report\n\nDear Mr. Thompson,\n\nI am writing to send you the sales report for May. Please find attached the spreadsheet with the detailed numbers. I have also attached a PDF presentation for the meeting tomorrow. \n\nPlease let me know if you cannot open the files.\n\nBest regards,\n\nMark Evans",
+      "questions": [
+        {
+          "prompt": "What documents are attached to the email?",
+          "options": [
+            "A spreadsheet and a PDF",
+            "A spreadsheet and a photo",
+            "A PDF and a Word document",
+            "Only a spreadsheet"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text says: 'attached the spreadsheet... also attached a PDF presentation'."
+        },
+        {
+          "prompt": "Who is the sender of the email?",
+          "options": ["Mr. Thompson", "Mark Evans", "The Manager", "The Secretary"],
+          "answerIndex": 1,
+          "explanation": "The email is signed by 'Mark Evans'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Sales report", "definition": "Informe de ventas" },
+        { "term": "Detailed", "definition": "Detallado" },
+        { "term": "Tomorrow", "definition": "Mañana" }
       ]
     },
     {
-      "id": "ex16",
-      "type": "fill-in-the-blank",
-      "question": "You can't ________ your goal if you spend all your money.",
-      "answer": "reach",
-      "explanation": "To 'reach' a goal is to achieve it."
-    },
-    {
-      "id": "ex17",
-      "type": "multiple-choice",
-      "question": "A 'Short-term Goal' example is...",
-      "options": ["Retirement", "Buying a new bike", "Buying a castle", "Paying for college"],
-      "correctAnswer": 1,
-      "explanation": "A bike is a manageable goal for a few months."
-    },
-    {
-      "id": "ex18",
-      "type": "fill-in-the-blank",
-      "question": "The app ________ save money when I am sleeping.",
-      "answer": "can",
-      "explanation": "Automation works 24/7."
-    },
-    {
-      "id": "ex19",
-      "type": "multiple-choice",
-      "question": "Which sentence is correct?",
-      "options": ["I can't save money.", "I don't can save money.", "I am not can save money.", "I can not saving money."],
-      "correctAnswer": 0,
-      "explanation": "'I can't' is the correct contraction for 'I cannot'."
-    },
-    {
-      "id": "ex20",
-      "type": "vocabulary-match",
-      "question": "Match the saving actions:",
-      "pairs": [
-        { "term": "Analyze", "definition": "Check spending habits" },
-        { "term": "Categorize", "definition": "Group expenses" },
-        { "term": "Visualize", "definition": "See the goal" }
+      "id": "adm-a1-w28-ex47",
+      "type": "reading",
+      "text": "Hi Team,\n\nI am attaching the updated office schedule in the 'Shared Documents' folder. Please download it and check your hours. If there is an error, please inform me by Friday.\n\nThanks,\nLaura",
+      "questions": [
+        {
+          "prompt": "What should the team do with the schedule?",
+          "options": ["Delete it", "Print it", "Download and check it", "Ignore it"],
+          "answerIndex": 2,
+          "explanation": "Laura says: 'Please download it and check your hours'."
+        },
+        {
+          "prompt": "Where is the schedule?",
+          "options": [
+            "In an email attachment",
+            "In the 'Shared Documents' folder",
+            "On the bulletin board",
+            "In the mail"
+          ],
+          "answerIndex": 1,
+          "explanation": "She mentions it is 'in the Shared Documents folder'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Updated", "definition": "Actualizado" },
+        { "term": "Schedule", "definition": "Horario/Calendario" },
+        { "term": "Error", "definition": "Error" }
       ]
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "My savings ________ every day with round-ups.",
-      "answer": "grow",
-      "explanation": "To 'grow' means to become larger."
-    },
-    {
-      "id": "ex22",
-      "type": "multiple-choice",
-      "question": "What is an 'Emergency Fund'?",
-      "options": ["Money for a party", "Money for unexpected problems", "Money for a new car", "Money for a gift"],
-      "correctAnswer": 1,
-      "explanation": "An emergency fund is for repairs, health, or sudden job loss."
-    },
-    {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "________ you help me set a budget? Yes, I can.",
-      "answer": "Can",
-      "explanation": "Asking for help."
-    },
-    {
-      "id": "ex24",
-      "type": "vocabulary-match",
-      "question": "Match the percentages to the progress:",
-      "pairs": [
-        { "term": "10%", "definition": "Just starting" },
-        { "term": "50%", "definition": "Halfway there" },
-        { "term": "100%", "definition": "Goal reached!" }
+      "id": "adm-a1-w28-ex48",
+      "type": "reading",
+      "text": "Dear Client,\n\nPlease find attached the invoice for your recent order. The total amount is $500. Please sign the attached terms and conditions document and return it to us via email.\n\nThank you for your business.",
+      "questions": [
+        {
+          "prompt": "What is the total amount mentioned?",
+          "options": ["$50", "$500", "$5", "$5000"],
+          "answerIndex": 1,
+          "explanation": "The text explicitly states '$500'."
+        },
+        {
+          "prompt": "What does the client need to sign?",
+          "options": ["The invoice", "The order", "The terms and conditions document", "The check"],
+          "answerIndex": 2,
+          "explanation": "The text asks to 'sign the attached terms and conditions document'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Invoice", "definition": "Factura" },
+        { "term": "Order", "definition": "Pedido/Orden" },
+        { "term": "Terms and conditions", "definition": "Términos y condiciones" }
       ]
     },
     {
-      "id": "ex25",
+      "id": "adm-a1-w28-ex49",
+      "type": "reading",
+      "text": "Subject: New Employee Handbook\n\nWelcome to the company! Attached to this email is the employee handbook. It contains all the information about our office policies. Please read the PDF carefully before your first day on Monday.\n\nRegards,\nHuman Resources",
+      "questions": [
+        {
+          "prompt": "What is the format of the handbook?",
+          "options": ["Spreadsheet", "PDF", "Physical book", "Video"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'Please read the PDF carefully'."
+        },
+        {
+          "prompt": "What information does the handbook contain?",
+          "options": ["Client names", "Office policies", "Food menu", "Sales numbers"],
+          "answerIndex": 1,
+          "explanation": "It contains 'information about our office policies'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Handbook", "definition": "Manual" },
+        { "term": "Policies", "definition": "Políticas" },
+        { "term": "Carefully", "definition": "Cuidadosamente" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex50",
+      "type": "reading",
+      "text": "Hi Bob,\n\nI am sending the photos for the website in a zip folder. There are 10 images in total. Please confirm when you receive the attachment.\n\nBest,\nJenny",
+      "questions": [
+        {
+          "prompt": "How many images are there?",
+          "options": ["1", "5", "10", "20"],
+          "answerIndex": 2,
+          "explanation": "The text states: 'There are 10 images in total'."
+        },
+        {
+          "prompt": "What is the format of the attachment?",
+          "options": ["PDF", "Spreadsheet", "Zip folder", "Word document"],
+          "answerIndex": 2,
+          "explanation": "The photos are in a 'zip folder'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Photos", "definition": "Fotos" },
+        { "term": "Images", "definition": "Imágenes" },
+        { "term": "Confirm", "definition": "Confirmar" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex51",
+      "type": "reading",
+      "text": "Hello,\n\nI have attached the contract for the new project. Please print it, sign it, and scan it back to me. If you have any questions, feel free to ask.\n\nRegards,\nPeter",
+      "questions": [
+        {
+          "prompt": "What is the document about?",
+          "options": ["A report", "A contract", "An invoice", "An agenda"],
+          "answerIndex": 1,
+          "explanation": "The text mentions 'the contract for the new project'."
+        },
+        {
+          "prompt": "What is the third action requested?",
+          "options": ["Print", "Sign", "Scan it back", "Delete"],
+          "answerIndex": 2,
+          "explanation": "The sequence is: print, sign, and 'scan it back'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Contract", "definition": "Contrato" },
+        { "term": "Scan", "definition": "Escanear" },
+        { "term": "Feel free", "definition": "Sentirse libre (tener confianza)" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex52",
+      "type": "reading",
+      "text": "Subject: Resending the file\n\nDear Alice,\n\nIt seems the previous attachment was corrupted and could not be opened. I am resending the spreadsheet now. Please let me know if it works this time.\n\nApologies,\nSam",
+      "questions": [
+        {
+          "prompt": "What happened to the first attachment?",
+          "options": ["It was too big", "It was corrupted", "It was deleted", "It was a virus"],
+          "answerIndex": 1,
+          "explanation": "The text says it 'was corrupted'."
+        },
+        {
+          "prompt": "What is Sam doing now?",
+          "options": ["Deleting the email", "Resending the spreadsheet", "Calling Alice", "Writing a report"],
+          "answerIndex": 1,
+          "explanation": "Sam says: 'I am resending the spreadsheet now'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Resending", "definition": "Reenviando" },
+        { "term": "Corrupted", "definition": "Corrupto/Dañado" },
+        { "term": "Previous", "definition": "Previo/Anterior" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex53",
+      "type": "reading",
+      "text": "Hi everyone,\n\nAttached is the agenda for our meeting this afternoon. Please read it before 2 PM. We will discuss the new budget in the first section.\n\nSee you later,\nManager",
+      "questions": [
+        {
+          "prompt": "When is the meeting?",
+          "options": ["This morning", "Tomorrow", "This afternoon", "Next week"],
+          "answerIndex": 2,
+          "explanation": "The text says 'this afternoon'."
+        },
+        {
+          "prompt": "What is the first topic of discussion?",
+          "options": ["New office", "New budget", "Vacations", "The schedule"],
+          "answerIndex": 1,
+          "explanation": "They will 'discuss the new budget in the first section'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Agenda", "definition": "Orden del día/Agenda" },
+        { "term": "Afternoon", "definition": "Tarde" },
+        { "term": "Section", "definition": "Sección" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex54",
+      "type": "reading",
+      "text": "Subject: Price List Request\n\nHi Sales Team,\n\nCould you please send me the latest price list? I have attached a list of the items we are interested in. \n\nThank you,\nSusan",
+      "questions": [
+        {
+          "prompt": "What does Susan want the sales team to send?",
+          "options": ["A report", "The price list", "An invoice", "A contract"],
+          "answerIndex": 1,
+          "explanation": "She asks: 'Could you please send me the latest price list?'"
+        },
+        {
+          "prompt": "What did Susan attach to her email?",
+          "options": ["A price list", "A list of items", "A photo", "A spreadsheet"],
+          "answerIndex": 1,
+          "explanation": "She says: 'I have attached a list of the items'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Latest", "definition": "Más reciente" },
+        { "term": "Items", "definition": "Artículos/Ítems" },
+        { "term": "Interested", "definition": "Interesado" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex55",
+      "type": "reading",
+      "text": "Dear Team,\n\nI have uploaded the new presentation to the company portal. It is in the 'Presentations' folder. Please do not attach it to external emails as it is confidential.\n\nRegards,\nSecurity Office",
+      "questions": [
+        {
+          "prompt": "Where is the new presentation?",
+          "options": ["Attached to the email", "In the company portal", "On a USB drive", "In the mail"],
+          "answerIndex": 1,
+          "explanation": "The text says: 'I have uploaded the new presentation to the company portal'."
+        },
+        {
+          "prompt": "Why shouldn't the team attach it to external emails?",
+          "options": ["It is too big", "It is boring", "It is confidential", "It is wrong"],
+          "answerIndex": 2,
+          "explanation": "The text states: 'it is confidential'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Uploaded", "definition": "Subido/Cargado" },
+        { "term": "Portal", "definition": "Portal" },
+        { "term": "Confidential", "definition": "Confidencial" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex56",
       "type": "multiple-choice",
-      "question": "Why do people use 'Pockets' or 'Vaults'?",
-      "options": ["To hide money from the bank", "To separate savings from daily spending", "To make the app look pretty", "To pay bills faster"],
-      "correctAnswer": 1,
-      "explanation": "Separation helps you avoid spending your savings by mistake."
+      "prompt": "What does 'Attached' mean in Spanish?",
+      "options": [
+        "Adjunto",
+        "Enviado",
+        "Recibido",
+        "Borrador"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Attached' translates to 'Adjunto'."
+    },
+    {
+      "id": "adm-a1-w28-ex57",
+      "type": "fill-blank",
+      "prompt": "I am ________ (enviando) the files now.",
+      "answer": "sending",
+      "explanation": "'Sending' is the continuous form of 'send'."
+    },
+    {
+      "id": "adm-a1-w28-ex58",
+      "type": "multiple-choice",
+      "prompt": "Which phrase is correct for plural files?",
+      "options": [
+        "Attached is the files.",
+        "Attached are the files.",
+        "Attached be the files.",
+        "Attach are the files."
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'are' for plural subjects like 'files'."
+    },
+    {
+      "id": "adm-a1-w28-ex59",
+      "type": "fill-blank",
+      "prompt": "Please ________ (adjuntar) the invoice before sending the email.",
+      "answer": "attach",
+      "explanation": "'Attach' is the imperative form used after 'Please'."
+    },
+    {
+      "id": "adm-a1-w28-ex60",
+      "type": "matching",
+      "prompt": "Match the email actions:",
+      "pairs": [
+        { "term": "Forward", "definition": "Reenviar a otra persona" },
+        { "term": "Reply", "definition": "Responder al mensaje" },
+        { "term": "Delete", "definition": "Eliminar el mensaje" },
+        { "term": "Compose", "definition": "Redactar un nuevo mensaje" }
+      ]
+    },
+    {
+      "id": "adm-a1-w28-ex61",
+      "type": "multiple-choice",
+      "prompt": "How do you say 'presentación' in English?",
+      "options": [
+        "Present",
+        "Presentation",
+        "Presence",
+        "Presenter"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Presentation' is the correct noun."
+    },
+    {
+      "id": "adm-a1-w28-ex62",
+      "type": "fill-blank",
+      "prompt": "Can you ________ (abrir) the attached Word document?",
+      "answer": "open",
+      "explanation": "We use the base form 'open' after 'Can you'."
+    },
+    {
+      "id": "adm-a1-w28-ex63",
+      "type": "multiple-choice",
+      "prompt": "Which file is for numbers and calculations?",
+      "options": [
+        "PDF",
+        "Spreadsheet",
+        "Image",
+        "Document"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spreadsheets are used for numbers and calculations."
+    },
+    {
+      "id": "adm-a1-w28-ex64",
+      "type": "fill-blank",
+      "prompt": "The PDF ________ (está) attached below.",
+      "answer": "is",
+      "explanation": "Singular subject 'PDF' takes 'is'."
+    },
+    {
+      "id": "adm-a1-w28-ex65",
+      "type": "multiple-choice",
+      "prompt": "What does 'Review' mean?",
+      "options": [
+        "Revisar",
+        "Borrar",
+        "Copiar",
+        "Pegar"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Review' (revisar/reseñar) is common when asking someone to look at an attachment."
+    },
+    {
+      "id": "adm-a1-w28-ex66",
+      "type": "fill-blank",
+      "prompt": "I have ________ (adjuntado) the document you requested.",
+      "answer": "attached",
+      "explanation": "Past participle 'attached' follows 'have'."
+    },
+    {
+      "id": "adm-a1-w28-ex67",
+      "type": "multiple-choice",
+      "prompt": "Translate: 'Adjunto envío el informe'.",
+      "options": [
+        "Attached I send the report.",
+        "Please find attached the report.",
+        "Report is attached.",
+        "Sending attached report."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Please find attached the report' is the most professional equivalent."
+    },
+    {
+      "id": "adm-a1-w28-ex68",
+      "type": "fill-blank",
+      "prompt": "Please find ________ (adjunto) the meeting agenda.",
+      "answer": "attached",
+      "explanation": "'Attached' is the adjective part of the formal phrase."
+    },
+    {
+      "id": "adm-a1-w28-ex69",
+      "type": "multiple-choice",
+      "prompt": "Which word means 'descargar'?",
+      "options": [
+        "Upload",
+        "Download",
+        "Load",
+        "Reload"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Download' means 'descargar'."
+    },
+    {
+      "id": "adm-a1-w28-ex70",
+      "type": "fill-blank",
+      "prompt": "I am sending you the ________ (archivo) via email.",
+      "answer": "file",
+      "explanation": "'File' (archivo) is a general term for a digital document."
+    },
+    {
+      "id": "adm-a1-w28-ex71",
+      "type": "multiple-choice",
+      "prompt": "What is 'PDF' an abbreviation for?",
+      "options": [
+        "Personal Data File",
+        "Portable Document Format",
+        "Public Digital File",
+        "Print Document Format"
+      ],
+      "answerIndex": 1,
+      "explanation": "PDF stands for Portable Document Format."
+    },
+    {
+      "id": "adm-a1-w28-ex72",
+      "type": "fill-blank",
+      "prompt": "Here ________ (están) the documents for the meeting.",
+      "answer": "are",
+      "explanation": "Plural 'documents' requires 'are'."
+    },
+    {
+      "id": "adm-a1-w28-ex73",
+      "type": "multiple-choice",
+      "prompt": "Which of these is used to store multiple files together?",
+      "options": [
+        "PDF",
+        "Folder",
+        "Spreadsheet",
+        "Email"
+      ],
+      "answerIndex": 1,
+      "explanation": "A 'Folder' (carpeta) stores multiple files."
+    },
+    {
+      "id": "adm-a1-w28-ex74",
+      "type": "fill-blank",
+      "prompt": "I forgot to ________ (adjuntar) the invoice. Sorry!",
+      "answer": "attach",
+      "explanation": "Base form 'attach' after 'to'."
+    },
+    {
+      "id": "adm-a1-w28-ex75",
+      "type": "multiple-choice",
+      "prompt": "Translate: '¿Puede ver el archivo adjunto?'",
+      "options": [
+        "Can you see the attached file?",
+        "Can you see the file attached?",
+        "Are you see the attached file?",
+        "Do you saw the attached file?"
+      ],
+      "answerIndex": 0,
+      "explanation": "'Can you see the attached file?' is the correct question structure."
     }
   ]
 }

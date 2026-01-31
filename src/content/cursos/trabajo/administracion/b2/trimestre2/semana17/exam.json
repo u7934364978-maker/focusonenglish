@@ -10,12 +10,7 @@
       "id": "adm-b2-w17-exam-1",
       "type": "multipleChoice",
       "prompt": "What is the term for a formal introduction to a new job or organization?",
-      "options": [
-        "Onboarding",
-        "Induction",
-        "Shortlisting",
-        "Vetting"
-      ],
+      "options": ["Onboarding", "Induction", "Shortlisting", "Vetting"],
       "answerIndex": 1,
       "explanation": "An induction is the formal process of introducing a new employee to their role and the company."
     },
@@ -23,12 +18,7 @@
       "id": "adm-b2-w17-exam-2",
       "type": "multipleChoice",
       "prompt": "Choose the correct perfect participle clause: '____ the CVs, the team started the shortlisting process.'",
-      "options": [
-        "Reviewing",
-        "Reviewed",
-        "Having reviewed",
-        "To have reviewed"
-      ],
+      "options": ["Reviewing", "Reviewed", "Having reviewed", "To have reviewed"],
       "answerIndex": 2,
       "explanation": "The perfect participle (Having + past participle) shows that one action was completed before another."
     },
@@ -36,12 +26,7 @@
       "id": "adm-b2-w17-exam-3",
       "type": "multipleChoice",
       "prompt": "When selecting the most suitable candidates from a large pool, you are ____ them.",
-      "options": [
-        "shortlisting",
-        "onboarding",
-        "profiling",
-        "screening"
-      ],
+      "options": ["shortlisting", "onboarding", "profiling", "screening"],
       "answerIndex": 0,
       "explanation": "Shortlisting is the process of selecting a small group of candidates for the next stage (usually interviews)."
     },
@@ -49,12 +34,7 @@
       "id": "adm-b2-w17-exam-4",
       "type": "multipleChoice",
       "prompt": "Complete the sentence with a participle clause: '____ as the HR lead, she managed over 50 recruitments.'",
-      "options": [
-        "Worked",
-        "Working",
-        "To work",
-        "Having work"
-      ],
+      "options": ["Worked", "Working", "To work", "Having work"],
       "answerIndex": 1,
       "explanation": "A present participle (-ing) clause can be used to explain the reason or circumstances of the main action."
     },
@@ -70,6 +50,181 @@
       ],
       "answerIndex": 1,
       "explanation": "References are used to confirm the accuracy of a candidate's background and performance in previous roles."
+    },
+    {
+      "id": "adm-b2-w17-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Which term describes termination of employment without notice, usually for gross misconduct?",
+      "options": [
+        "Summary dismissal",
+        "Redundancy",
+        "Resignation",
+        "Attrition"
+      ],
+      "answerIndex": 0,
+      "explanation": "Summary dismissal is an immediate termination for very serious offenses."
+    },
+    {
+      "id": "adm-b2-w17-exam-7",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct participle form: '____ for his technical expertise, he was assigned to the CRM project.'",
+      "options": ["Knowing", "Known", "Know", "Having know"],
+      "answerIndex": 1,
+      "explanation": "The past participle 'Known' is used here to mean 'Because he was known'."
+    },
+    {
+      "id": "adm-b2-w17-exam-8",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Grievance' in an HR context?",
+      "options": [
+        "A list of holiday requests",
+        "A formal complaint made by an employee",
+        "A type of performance review",
+        "A method of paying tax"
+      ],
+      "answerIndex": 1,
+      "explanation": "A grievance is the formal term for an employee raising a problem or complaint with their employer."
+    },
+    {
+      "id": "adm-b2-w17-exam-9",
+      "type": "multipleChoice",
+      "prompt": "The 'attrition rate' refers to:",
+      "options": [
+        "The speed at which new employees are hired",
+        "The pace at which people leave a company",
+        "The percentage of employees who get a bonus",
+        "The cost of training a new team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Attrition is another word for staff turnover or loss of employees."
+    },
+    {
+      "id": "adm-b2-w17-exam-10",
+      "type": "multipleChoice",
+      "prompt": "In the SMART framework for objectives, what does the 'M' stand for?",
+      "options": ["Manageable", "Measurable", "Motivated", "Maintained"],
+      "answerIndex": 1,
+      "explanation": "Objectives must be Measurable so that progress can be tracked."
+    },
+    {
+      "id": "adm-b2-w17-exam-11",
+      "type": "multipleChoice",
+      "prompt": "Which of these is a 'Pre-arrival' onboarding task?",
+      "options": [
+        "Giving an office tour",
+        "Setting up IT accounts and equipment",
+        "Conducting the first 1-to-1",
+        "Assigning a mentor"
+      ],
+      "answerIndex": 1,
+      "explanation": "IT setup should be completed before the employee's first day."
+    },
+    {
+      "id": "adm-b2-w17-exam-12",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of 'Mediation'?",
+      "options": [
+        "To decide who is right in a dispute",
+        "To help parties reach a voluntary agreement through a neutral third party",
+        "To fire employees who cannot agree",
+        "To legally punish a manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mediation focuses on resolving conflict through neutral facilitation."
+    },
+    {
+      "id": "adm-b2-w17-exam-13",
+      "type": "multipleChoice",
+      "prompt": "Complete with the correct participle form: '____ the workshop, the admin felt much more confident.'",
+      "options": [
+        "Having completed",
+        "Complete",
+        "Completing",
+        "Completed"
+      ],
+      "answerIndex": 0,
+      "explanation": "The perfect participle (Having completed) shows the sequence of events."
+    },
+    {
+      "id": "adm-b2-w17-exam-14",
+      "type": "multipleChoice",
+      "prompt": "What does 'Gross Pay' mean?",
+      "options": [
+        "The amount taken home after tax",
+        "The total amount earned before any deductions",
+        "The amount paid into a pension fund",
+        "The cost of travel expenses"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gross pay is the salary before tax and other contributions are deducted."
+    },
+    {
+      "id": "adm-b2-w17-exam-15",
+      "type": "multipleChoice",
+      "prompt": "Which regulation governs data protection and privacy in the EU?",
+      "options": ["L&D", "GDPR", "TNA", "KPI"],
+      "answerIndex": 1,
+      "explanation": "GDPR (General Data Protection Regulation) is the primary law for data privacy."
+    },
+    {
+      "id": "adm-b2-w17-exam-16",
+      "type": "multipleChoice",
+      "prompt": "A 'Skill Gap' is:",
+      "options": [
+        "A specialized skill used in HR",
+        "The difference between the skills needed and the skills an employee has",
+        "A period where an employee is not working",
+        "A type of physical exercise"
+      ],
+      "answerIndex": 1,
+      "explanation": "Identifying a skill gap helps plan necessary training (L&D)."
+    },
+    {
+      "id": "adm-b2-w17-exam-17",
+      "type": "multipleChoice",
+      "prompt": "What is 'Ergonomics' concerned with?",
+      "options": [
+        "Economic trends in the office",
+        "Designing the workspace to fit the user's physical needs",
+        "The rules for office etiquette",
+        "The process of hiring international staff"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ergonomics focuses on physical comfort and efficiency in the workspace."
+    },
+    {
+      "id": "adm-b2-w17-exam-18",
+      "type": "multipleChoice",
+      "prompt": "What is an 'Exit Interview' used for?",
+      "options": [
+        "To convince an employee to stay",
+        "To gather feedback from a departing employee",
+        "To test a new employee",
+        "To discuss a future promotion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Exit interviews help companies understand why people leave."
+    },
+    {
+      "id": "adm-b2-w17-exam-19",
+      "type": "multipleChoice",
+      "prompt": "Complete the sentence: '____ to improve retention, the company offered better benefits.'",
+      "options": ["Wanting", "Wanted", "Want", "To want"],
+      "answerIndex": 0,
+      "explanation": "The present participle 'Wanting' acts as a reason (Because they wanted...)."
+    },
+    {
+      "id": "adm-b2-w17-exam-20",
+      "type": "multipleChoice",
+      "prompt": "Which document explains how a company handles personal data?",
+      "options": [
+        "A job description",
+        "A privacy notice",
+        "A payslip",
+        "A reference letter"
+      ],
+      "answerIndex": 1,
+      "explanation": "Privacy notices are a key part of GDPR compliance."
     }
   ]
 }

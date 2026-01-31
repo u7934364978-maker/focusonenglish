@@ -7,28 +7,24 @@
   "items": [
     {
       "id": "adm-b2-w31-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: CRM Implementation Update",
-      "text": "Strategy Brief: Q4 CRM Migration\n\nNext quarter, we will be transitioning to a new omnichannel CRM platform. This move is designed to enhance our customer journey and reduce the friction at key touchpoints. \n\nBy December 31st, we will have migrated all active customer records from the legacy system. During the transition, the support team will be monitoring the churn rate closely to ensure no customers are lost. \n\nBy this time next year, we will have been using the new system for 12 months, and we expect that our NPS will have increased by at least 15 points. We will be providing training sessions throughout October.",
-      "questions": [
-        {
-          "question": "When will the migration of customer records be finished?",
-          "options": ["In October", "By December 31st", "Next year"],
-          "answerIndex": 1,
-          "explanation": "The text states: 'By December 31st, we will have migrated all active customer records'."
-        },
-        {
-          "question": "Which verb tense is used to describe an action that will be ongoing in October?",
-          "options": ["Future Perfect", "Future Continuous", "Present Simple"],
-          "answerIndex": 1,
-          "explanation": "'We will be providing training sessions' is future continuous, describing an ongoing action."
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "Context: 'By December 31st, we will have migrated all active customer records from the legacy system.' When will the migration be finished?",
+      "options": ["In October", "By December 31st", "Next year"],
+      "answerIndex": 1,
+      "explanation": "The text states: 'By December 31st, we will have migrated all active customer records'."
     },
     {
       "id": "adm-b2-w31-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: CX Vocabulary. What does 'NPS' measure?",
+      "prompt": "Context: 'We will be providing training sessions throughout October.' Which verb tense is used here to describe an ongoing action?",
+      "options": ["Future Perfect", "Future Continuous", "Present Simple"],
+      "answerIndex": 1,
+      "explanation": "'We will be providing training sessions' is future continuous, describing an ongoing action."
+    },
+    {
+      "id": "adm-b2-w31-ex03",
+      "type": "multipleChoice",
+      "prompt": "In CX vocabulary, what does 'NPS' measure?",
       "options": [
         "Net Profit Share",
         "New Product Success",
@@ -39,31 +35,865 @@
       "explanation": "NPS is a metric for customer loyalty and satisfaction."
     },
     {
-      "id": "adm-b2-w31-ex03",
-      "type": "writingTask",
-      "prompt": "Exercise 3: Future Perfect. Complete the sentence: 'By the time the manager arrives, the team ____ (finalize) the NPS report.'",
-      "modelAnswer": "By the time the manager arrives, the team will have finalized the NPS report.",
-      "keywords": ["will have finalized"]
-    },
-    {
       "id": "adm-b2-w31-ex04",
-      "type": "writingTask",
-      "prompt": "Exercise 4: Future Continuous. Complete the sentence: 'This time tomorrow, I ____ (train) the new staff on the CRM software.'",
-      "modelAnswer": "This time tomorrow, I will be training the new staff on the CRM software.",
-      "keywords": ["will be training"]
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By the time the manager arrives, the team ___ (finalize) the NPS report.'",
+      "validation": {
+        "pattern": "^will have finalized$",
+        "flags": "i"
+      },
+      "explanation": "Use Future Perfect (will have + past participle) for an action finished by a certain time."
     },
     {
       "id": "adm-b2-w31-ex05",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'This time tomorrow, I ___ (train) the new staff on the CRM software.'",
+      "validation": {
+        "pattern": "^will be training$",
+        "flags": "i"
+      },
+      "explanation": "Use Future Continuous (will be + gerund) for an action in progress at a specific future time."
+    },
+    {
+      "id": "adm-b2-w31-ex06",
       "type": "multipleChoice",
-      "prompt": "Exercise 5: CX Chunks. To 'reduce the churn rate' means:",
+      "prompt": "To 'reduce the churn rate' means:",
       "options": [
         "To increase the number of customers leaving",
         "To decrease the percentage of customers who stop using the service",
-        "To buy a new butter churn for the kitchen",
+        "To buy a new butter churn",
         "To fire the customer service manager"
       ],
       "answerIndex": 1,
       "explanation": "Churn reduction is about improving customer retention."
+    },
+    {
+      "id": "adm-b2-w31-ex07",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Touchpoint' in the customer journey?",
+      "options": [
+        "A physical button on a product",
+        "Any point of interaction between a customer and a business",
+        "A fingerprint scanner",
+        "The end of a customer's contract"
+      ],
+      "answerIndex": 1,
+      "explanation": "Touchpoints include emails, ads, phone calls, and website visits."
+    },
+    {
+      "id": "adm-b2-w31-ex08",
+      "type": "multipleChoice",
+      "prompt": "What does 'Customer Segmentation' involve?",
+      "options": [
+        "Treating all customers exactly the same",
+        "Dividing a customer base into groups with similar characteristics",
+        "Firing customers who don't spend enough money",
+        "Combining all customer data into one single file"
+      ],
+      "answerIndex": 1,
+      "explanation": "Segmentation allows for more targeted marketing."
+    },
+    {
+      "id": "adm-b2-w31-ex09",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By next Friday, we ___ (update) all the customer profiles.'",
+      "validation": {
+        "pattern": "^will have updated$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect is used for completion by a future deadline."
+    },
+    {
+      "id": "adm-b2-w31-ex10",
+      "type": "multipleChoice",
+      "prompt": "What is 'Omnichannel Support'?",
+      "options": [
+        "Support provided only via telephone",
+        "Providing a seamless customer experience across multiple channels",
+        "A support team that works 24/7",
+        "Support provided in every language"
+      ],
+      "answerIndex": 1,
+      "explanation": "Omnichannel means the customer gets consistent service regardless of the channel used."
+    },
+    {
+      "id": "adm-b2-w31-ex11",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'This time next week, I ___ (attend) a CRM training workshop.'",
+      "validation": {
+        "pattern": "^will be attending$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous is for actions that will be happening at a specific time."
+    },
+    {
+      "id": "adm-b2-w31-ex12",
+      "type": "multipleChoice",
+      "prompt": "In CRM, what is 'Deduplication'?",
+      "options": [
+        "Adding more data to a profile",
+        "Identifying and removing duplicate records for the same customer",
+        "Deleting inactive customers",
+        "Sharing customer data with third parties"
+      ],
+      "answerIndex": 1,
+      "explanation": "Deduplication ensures each customer has a single, accurate record."
+    },
+    {
+      "id": "adm-b2-w31-ex13",
+      "type": "multipleChoice",
+      "prompt": "'Service Recovery' refers to:",
+      "options": [
+        "Recovering a deleted database",
+        "Fixing a customer relationship after a service failure",
+        "Hiring new customer service staff",
+        "Opening a new office"
+      ],
+      "answerIndex": 1,
+      "explanation": "Service recovery restores customer trust after something goes wrong."
+    },
+    {
+      "id": "adm-b2-w31-ex14",
+      "type": "gap-fill",
+      "prompt": "Future Perfect Continuous: 'By December, she ___ (manage) the CRM database for ten years.'",
+      "validation": {
+        "pattern": "^will have been managing$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect Continuous emphasizes the duration of an ongoing action."
+    },
+    {
+      "id": "adm-b2-w31-ex15",
+      "type": "multipleChoice",
+      "prompt": "What is the main goal of 'Personalisation'?",
+      "options": [
+        "To make the company look bigger",
+        "To tailor services and communication to individual customer needs",
+        "To reduce the number of employees",
+        "To save money on marketing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Personalisation makes the experience more relevant for each customer."
+    },
+    {
+      "id": "adm-b2-w31-ex16",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Retention' stage of the customer journey?",
+      "options": [
+        "When a customer first hears about the company",
+        "The stage where the company works to keep existing customers",
+        "When a customer makes their first purchase",
+        "When a customer leaves"
+      ],
+      "answerIndex": 1,
+      "explanation": "Retention is about building long-term relationships to prevent churn."
+    },
+    {
+      "id": "adm-b2-w31-ex17",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By the end of the quarter, our NPS ___ (increase) significantly.'",
+      "validation": {
+        "pattern": "^will have increased$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect is used for a predicted result by a future point."
+    },
+    {
+      "id": "adm-b2-w31-ex18",
+      "type": "multipleChoice",
+      "prompt": "What is 'Behavioural Segmentation'?",
+      "options": [
+        "Segmenting customers based on where they live",
+        "Segmenting customers based on purchase history and interactions",
+        "Segmenting based on age",
+        "Segmenting based on job title"
+      ],
+      "answerIndex": 1,
+      "explanation": "Behavioural data tracks actions like purchase frequency and website visits."
+    },
+    {
+      "id": "adm-b2-w31-ex19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Hygiene' in the context of CRM?",
+      "options": [
+        "Cleaning the server room",
+        "Ensuring data is accurate, up-to-date, and free of errors",
+        "Encrypting all data",
+        "Protecting data from viruses"
+      ],
+      "answerIndex": 1,
+      "explanation": "Good data hygiene is essential for maintaining a reliable database."
+    },
+    {
+      "id": "adm-b2-w31-ex20",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'Throughout the summer, we ___ (monitor) customer feedback daily.'",
+      "validation": {
+        "pattern": "^will be monitoring$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous describes an ongoing state or activity in the future."
+    },
+    {
+      "id": "adm-b2-w31-ex21",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Grievance' in a business context?",
+      "options": [
+        "A formal complaint made by a customer or employee",
+        "A type of financial report",
+        "A new product launch",
+        "A company celebration"
+      ],
+      "answerIndex": 0,
+      "explanation": "A grievance is an official expression of dissatisfaction."
+    },
+    {
+      "id": "adm-b2-w31-ex22",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Journey Mapping'?",
+      "options": [
+        "A map of physical store locations",
+        "A visual representation of every experience a customer has with a company",
+        "A GPS for delivery drivers",
+        "A diagram of company hierarchy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Journey mapping helps identify pain points in the customer experience."
+    },
+    {
+      "id": "adm-b2-w31-ex23",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Awareness' stage?",
+      "options": [
+        "When a customer buys a product",
+        "When a customer first learns about a brand",
+        "When a customer returns a product",
+        "When a customer writes a review"
+      ],
+      "answerIndex": 1,
+      "explanation": "Awareness is the very first stage where a customer discovers a business."
+    },
+    {
+      "id": "adm-b2-w31-ex24",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By 5 PM, the system ___ (send) the survey to all participants.'",
+      "validation": {
+        "pattern": "^will have sent$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect is for an action that will be completed by a set time."
+    },
+    {
+      "id": "adm-b2-w31-ex25",
+      "type": "multipleChoice",
+      "prompt": "In CX, what is 'Empathy'?",
+      "options": [
+        "Selling products quickly",
+        "Understanding and sharing the feelings of a customer",
+        "A type of management software",
+        "A financial metric"
+      ],
+      "answerIndex": 1,
+      "explanation": "Empathy is the human ability to understand the customer's perspective."
+    },
+    {
+      "id": "adm-b2-w31-ex26",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Advocacy'?",
+      "options": [
+        "When a customer sues a company",
+        "When a customer actively promotes a brand to others",
+        "Hiring a lawyer for the customer",
+        "A marketing campaign"
+      ],
+      "answerIndex": 1,
+      "explanation": "Advocates are loyal customers who provide positive word-of-mouth."
+    },
+    {
+      "id": "adm-b2-w31-ex27",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'Next year, our team ___ (work) on a new personalisation strategy.'",
+      "validation": {
+        "pattern": "^will be working$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous describes a planned ongoing action."
+    },
+    {
+      "id": "adm-b2-w31-ex28",
+      "type": "multipleChoice",
+      "prompt": "What is 'Churn Rate'?",
+      "options": [
+        "The speed of a boat",
+        "The percentage of customers who stop using a service over time",
+        "The number of new customers",
+        "The total revenue"
+      ],
+      "answerIndex": 1,
+      "explanation": "Churn rate is a key indicator of customer dissatisfaction or competition."
+    },
+    {
+      "id": "adm-b2-w31-ex29",
+      "type": "multipleChoice",
+      "prompt": "What is 'Data Validation' in a CRM?",
+      "options": [
+        "Ensuring data is formatted correctly (e.g., valid email addresses)",
+        "Encrypting the database",
+        "Deleting old customer files",
+        "Selling data"
+      ],
+      "answerIndex": 0,
+      "explanation": "Validation checks that the data entered meets the required rules."
+    },
+    {
+      "id": "adm-b2-w31-ex30",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By the time you return, we ___ (fix) the CRM bug.'",
+      "validation": {
+        "pattern": "^will have fixed$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for a finished action in the future."
+    },
+    {
+      "id": "adm-b2-w31-ex31",
+      "type": "multipleChoice",
+      "prompt": "What is 'Psychographic Segmentation'?",
+      "options": [
+        "Segmenting based on location",
+        "Segmenting based on values, interests, and lifestyle",
+        "Segmenting based on age",
+        "Segmenting based on salary"
+      ],
+      "answerIndex": 1,
+      "explanation": "Psychographics delve into the psychological traits of consumers."
+    },
+    {
+      "id": "adm-b2-w31-ex32",
+      "type": "multipleChoice",
+      "prompt": "What is 'Demographic Segmentation'?",
+      "options": [
+        "Segmenting based on purchase behavior",
+        "Segmenting based on quantifiable characteristics like age and income",
+        "Segmenting based on personality",
+        "Segmenting based on hobbies"
+      ],
+      "answerIndex": 1,
+      "explanation": "Demographics use objective statistics to group customers."
+    },
+    {
+      "id": "adm-b2-w31-ex33",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'At 10 AM tomorrow, the CEO ___ (present) the new CX vision.'",
+      "validation": {
+        "pattern": "^will be presenting$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous for a specific event in progress."
+    },
+    {
+      "id": "adm-b2-w31-ex34",
+      "type": "multipleChoice",
+      "prompt": "What is 'Friction' in the customer journey?",
+      "options": [
+        "Two parts rubbing together",
+        "Any obstacle that makes it harder for a customer to achieve their goal",
+        "A type of marketing campaign",
+        "Healthy competition"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reducing friction (like slow loading or long forms) improves CX."
+    },
+    {
+      "id": "adm-b2-w31-ex35",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Promoter' in NPS?",
+      "options": [
+        "Someone who gets paid to advertise",
+        "A customer who scores 9 or 10 and would recommend the brand",
+        "The marketing head",
+        "An unhappy customer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Promoters are the most loyal and satisfied customer segment."
+    },
+    {
+      "id": "adm-b2-w31-ex36",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By Monday, I ___ (finish) the segmentation analysis.'",
+      "validation": {
+        "pattern": "^will have finished$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for completion by a deadline."
+    },
+    {
+      "id": "adm-b2-w31-ex37",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Detractor' in NPS?",
+      "options": [
+        "A type of farm equipment",
+        "A customer who scores 0 to 6 and is unhappy",
+        "A customer who doesn't answer",
+        "A competitor"
+      ],
+      "answerIndex": 1,
+      "explanation": "Detractors are at risk of leaving and spreading negative reviews."
+    },
+    {
+      "id": "adm-b2-w31-ex38",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Service Recovery Paradox'?",
+      "options": [
+        "When service is too good",
+        "When a customer is more loyal after a failure is fixed than if no failure occurred",
+        "When fixing a problem is too expensive",
+        "When the team is too small"
+      ],
+      "answerIndex": 1,
+      "explanation": "This paradox highlights the value of turning a negative into a positive."
+    },
+    {
+      "id": "adm-b2-w31-ex39",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'By 2026, we ___ (deliver) most of our services via the app.'",
+      "validation": {
+        "pattern": "^will be delivering$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous for an ongoing future state."
+    },
+    {
+      "id": "adm-b2-w31-ex40",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Lifetime Value' (CLV)?",
+      "options": [
+        "The total amount a customer spends over their entire relationship with a company",
+        "The price of one product",
+        "Acquisition cost",
+        "Duration of stay"
+      ],
+      "answerIndex": 0,
+      "explanation": "CLV measures the total worth of a customer to a business."
+    },
+    {
+      "id": "adm-b2-w31-ex41",
+      "type": "multipleChoice",
+      "prompt": "What is 'Touchpoint Optimization'?",
+      "options": [
+        "Using fewer touchpoints",
+        "Improving interactions to make them more effective",
+        "Changing logos",
+        "Hiring sales staff"
+      ],
+      "answerIndex": 1,
+      "explanation": "Optimization ensures every interaction is as smooth as possible."
+    },
+    {
+      "id": "adm-b2-w31-ex42",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'The team ___ (resolve) all outstanding tickets by the weekend.'",
+      "validation": {
+        "pattern": "^will have resolved$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for finishing a list of tasks."
+    },
+    {
+      "id": "adm-b2-w31-ex43",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Sentiment'?",
+      "options": [
+        "The customer's balance",
+        "The underlying emotion or attitude toward a brand",
+        "A loyalty program",
+        "Job title"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sentiment analysis uses language processing to detect feelings."
+    },
+    {
+      "id": "adm-b2-w31-ex44",
+      "type": "multipleChoice",
+      "prompt": "What is 'Voice of the Customer' (VoC)?",
+      "options": [
+        "Recording calls",
+        "Research methods to collect customer feedback and expectations",
+        "Hiring a spokesperson",
+        "A call center mic"
+      ],
+      "answerIndex": 1,
+      "explanation": "VoC programs gather deep insights into what customers want."
+    },
+    {
+      "id": "adm-b2-w31-ex45",
+      "type": "gap-fill",
+      "prompt": "Future Perfect Continuous: 'By the time I retire, I ___ (use) CRM systems for thirty years.'",
+      "validation": {
+        "pattern": "^will have been using$",
+        "flags": "i"
+      },
+      "explanation": "Emphasis on duration up to a future point."
+    },
+    {
+      "id": "adm-b2-w31-ex46",
+      "type": "multipleChoice",
+      "prompt": "What is 'Proactive Support'?",
+      "options": [
+        "Fast response",
+        "Resolving issues before the customer notices or complains",
+        "Only helping when asked",
+        "Charging more"
+      ],
+      "answerIndex": 1,
+      "explanation": "Proactive support prevents problems before they affect the customer."
+    },
+    {
+      "id": "adm-b2-w31-ex47",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Onboarding'?",
+      "options": [
+        "Joining the board",
+        "The process of introducing new customers to a service",
+        "Office tours",
+        "Firing a customer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Onboarding is the critical first stage of usage."
+    },
+    {
+      "id": "adm-b2-w31-ex48",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'Next quarter, we ___ (implement) a new chatbot.'",
+      "validation": {
+        "pattern": "^will be implementing$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous for a scheduled project."
+    },
+    {
+      "id": "adm-b2-w31-ex49",
+      "type": "multipleChoice",
+      "prompt": "What is 'Churn Prediction'?",
+      "options": [
+        "Guessing names",
+        "Using data to identify at-risk customers",
+        "A historical report",
+        "Asking if they will leave"
+      ],
+      "answerIndex": 1,
+      "explanation": "Prediction uses AI to flag customers likely to quit."
+    },
+    {
+      "id": "adm-b2-w31-ex50",
+      "type": "multipleChoice",
+      "prompt": "What is 'CES' (Customer Effort Score)?",
+      "options": [
+        "Product cost",
+        "Metric measuring how hard it is to get an issue resolved",
+        "Hours spent on site",
+        "Product weight"
+      ],
+      "answerIndex": 1,
+      "explanation": "CES focuses on the ease of the service experience."
+    },
+    {
+      "id": "adm-b2-w31-ex51",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'Hopefully, we ___ (reach) our target NPS by Q4.'",
+      "validation": {
+        "pattern": "^will have reached$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for meeting a target."
+    },
+    {
+      "id": "adm-b2-w31-ex52",
+      "type": "multipleChoice",
+      "prompt": "What is 'CSAT' (Customer Satisfaction Score)?",
+      "options": [
+        "Short-term satisfaction with a specific interaction",
+        "Long-term loyalty",
+        "Marketing cost",
+        "Management training"
+      ],
+      "answerIndex": 0,
+      "explanation": "CSAT is usually a 1-5 scale rating for a recent event."
+    },
+    {
+      "id": "adm-b2-w31-ex53",
+      "type": "multipleChoice",
+      "prompt": "What is 'Closing the Loop'?",
+      "options": [
+        "Ending a call",
+        "Following up with a customer after feedback",
+        "Completing a sale",
+        "Closing an account"
+      ],
+      "answerIndex": 1,
+      "explanation": "Closing the loop is the final step in feedback management."
+    },
+    {
+      "id": "adm-b2-w31-ex54",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'At this time tomorrow, the support team ___ (test) the software.'",
+      "validation": {
+        "pattern": "^will be testing$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous for an action in progress."
+    },
+    {
+      "id": "adm-b2-w31-ex55",
+      "type": "multipleChoice",
+      "prompt": "What is 'Self-Service' in CX?",
+      "options": [
+        "Making customers work",
+        "Providing tools like FAQs for customers to solve issues independently",
+        "Employee snacks",
+        "Total automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Self-service empowers customers to find quick answers."
+    },
+    {
+      "id": "adm-b2-w31-ex56",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Personalized Recommendation'?",
+      "options": [
+        "Friend's advice",
+        "Suggesting items based on unique customer data",
+        "Best-seller list",
+        "Random list"
+      ],
+      "answerIndex": 1,
+      "explanation": "Personalization algorithms drive these specific suggestions."
+    },
+    {
+      "id": "adm-b2-w31-ex57",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By Friday, the CRM team ___ (clean) the entire database.'",
+      "validation": {
+        "pattern": "^will have cleaned$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for a completed cleanup."
+    },
+    {
+      "id": "adm-b2-w31-ex58",
+      "type": "multipleChoice",
+      "prompt": "What is 'User Interface' (UI)?",
+      "options": [
+        "Talking to a company",
+        "The visual elements users interact with",
+        "Software license price",
+        "Internet speed"
+      ],
+      "answerIndex": 1,
+      "explanation": "UI refers to the design and layout of a system."
+    },
+    {
+      "id": "adm-b2-w31-ex59",
+      "type": "multipleChoice",
+      "prompt": "What is 'User Experience' (UX)?",
+      "options": [
+        "The overall experience using a product or service",
+        "Years of computer use",
+        "Technical manual",
+        "Hiring a user"
+      ],
+      "answerIndex": 0,
+      "explanation": "UX encompasses the entire feeling of the interaction."
+    },
+    {
+      "id": "adm-b2-w31-ex60",
+      "type": "gap-fill",
+      "prompt": "Future Perfect Continuous: 'Next June, we ___ (map) journeys for five years.'",
+      "validation": {
+        "pattern": "^will have been mapping$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect Continuous for long-term duration."
+    },
+    {
+      "id": "adm-b2-w31-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is 'SaaS'?",
+      "options": [
+        "Software as a Service",
+        "System and Analytical Support",
+        "Standardized Administrative System",
+        "Secure Storage"
+      ],
+      "answerIndex": 0,
+      "explanation": "SaaS refers to software hosted in the cloud."
+    },
+    {
+      "id": "adm-b2-w31-ex62",
+      "type": "multipleChoice",
+      "prompt": "What is 'CRM Integration'?",
+      "options": [
+        "Buying many CRMs",
+        "Connecting CRM with other business tools",
+        "Deleting the system",
+        "Local server move"
+      ],
+      "answerIndex": 1,
+      "explanation": "Integration creates a unified tech stack."
+    },
+    {
+      "id": "adm-b2-w31-ex63",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'The developers ___ (launch) the new portal by October.'",
+      "validation": {
+        "pattern": "^will have launched$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for a software release deadline."
+    },
+    {
+      "id": "adm-b2-w31-ex64",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Touchpoint Map'?",
+      "options": [
+        "Customer location map",
+        "Document listing every interaction point",
+        "Office map",
+        "Competitor list"
+      ],
+      "answerIndex": 1,
+      "explanation": "A touchpoint map lists all potential contact moments."
+    },
+    {
+      "id": "adm-b2-w31-ex65",
+      "type": "multipleChoice",
+      "prompt": "What is 'First Contact Resolution' (FCR)?",
+      "options": [
+        "Resolving an issue in the very first interaction",
+        "Resolving on the 1st of the month",
+        "Meeting a customer",
+        "Resolution in one hour"
+      ],
+      "answerIndex": 0,
+      "explanation": "FCR measures how often issues are solved without callbacks."
+    },
+    {
+      "id": "adm-b2-w31-ex66",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'This time next year, we ___ (expand) our team to Asia.'",
+      "validation": {
+        "pattern": "^will be expanding$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous for future expansion plans."
+    },
+    {
+      "id": "adm-b2-w31-ex67",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Loyalty'?",
+      "options": [
+        "Only buying from one place",
+        "The likelihood of a customer to stay and repeat business",
+        "Working for the company",
+        "Social media follows"
+      ],
+      "answerIndex": 1,
+      "explanation": "Loyalty is the result of long-term satisfaction."
+    },
+    {
+      "id": "adm-b2-w31-ex68",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Churn'?",
+      "options": [
+        "Acquiring customers",
+        "When customers stop doing business with you",
+        "Marketing emails",
+        "Profit per customer"
+      ],
+      "answerIndex": 1,
+      "explanation": "Churn represents the loss of customer base."
+    },
+    {
+      "id": "adm-b2-w31-ex69",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By 2025, AI ___ (transform) customer service.'",
+      "validation": {
+        "pattern": "^will have transformed$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for a major predicted change."
+    },
+    {
+      "id": "adm-b2-w31-ex70",
+      "type": "multipleChoice",
+      "prompt": "What is 'Automated Workflow' in CRM?",
+      "options": [
+        "Robot work",
+        "Tasks triggered by specific customer actions",
+        "Physical assembly line",
+        "Manual data entry"
+      ],
+      "answerIndex": 1,
+      "explanation": "Workflows automate repetitive tasks like follow-up emails."
+    },
+    {
+      "id": "adm-b2-w31-ex71",
+      "type": "multipleChoice",
+      "prompt": "What is 'Customer Intelligence'?",
+      "options": [
+        "The customer's IQ",
+        "The process of collecting and analyzing customer data",
+        "Hiring smart customers",
+        "Spying on customers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Intelligence provides the insights needed for strategic decisions."
+    },
+    {
+      "id": "adm-b2-w31-ex72",
+      "type": "gap-fill",
+      "prompt": "Future Continuous: 'At midnight, the servers ___ (process) the monthly data.'",
+      "validation": {
+        "pattern": "^will be processing$",
+        "flags": "i"
+      },
+      "explanation": "Future Continuous for a background process."
+    },
+    {
+      "id": "adm-b2-w31-ex73",
+      "type": "multipleChoice",
+      "prompt": "What is 'B2B CRM'?",
+      "options": [
+        "CRM for selling to other businesses",
+        "CRM for selling to individual consumers",
+        "CRM for internal staff",
+        "A type of bank account"
+      ],
+      "answerIndex": 0,
+      "explanation": "B2B (Business to Business) focuses on longer sales cycles."
+    },
+    {
+      "id": "adm-b2-w31-ex74",
+      "type": "multipleChoice",
+      "prompt": "What is 'B2C CRM'?",
+      "options": [
+        "CRM for businesses",
+        "CRM for selling directly to individual consumers",
+        "CRM for charities",
+        "A type of credit card"
+      ],
+      "answerIndex": 1,
+      "explanation": "B2C (Business to Consumer) handles high volumes of individuals."
+    },
+    {
+      "id": "adm-b2-w31-ex75",
+      "type": "gap-fill",
+      "prompt": "Future Perfect: 'By the end of this exercise, you ___ (master) the future tenses.'",
+      "validation": {
+        "pattern": "^will have mastered$",
+        "flags": "i"
+      },
+      "explanation": "Future Perfect for achieving a goal."
     }
   ]
 }

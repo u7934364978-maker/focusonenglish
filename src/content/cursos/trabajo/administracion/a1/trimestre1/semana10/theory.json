@@ -1,30 +1,24 @@
 {
-  "title": "Payment Methods & Requests",
+  "title": "Semana 10: La Tarjeta de Visita",
+  "description": "Aprende a leer y extraer información importante de las tarjetas de visita profesionales.",
+  "objectives": [
+    "Identificar los elementos de una tarjeta de visita (Business Card)",
+    "Extraer datos de contacto de perfiles profesionales",
+    "Repasar toda la información personal profesional aprendida"
+  ],
   "sections": [
     {
-      "id": "vocab-payments",
-      "title": "Vocabulary: Modern Payment Methods",
-      "content": "Today, we have many ways to pay. It is not just cash anymore:\n\n- **Cash**: Physical money (notes and coins).\n- **Debit/Credit Card**: Plastic cards for payments.\n- **Contactless**: Paying by tapping your card or phone.\n- **Digital Wallet**: Apps like Apple Pay or Google Pay on your smartphone.\n- **QR Code**: Scanning a square code to pay instantly.\n- **Bank Transfer**: Sending money from your app to another person.\n- **BNPL (Buy Now, Pay Later)**: Paying for things in small parts over time."
+      "title": "Elementos de la Tarjeta (Card Elements)",
+      "content": "Una tarjeta de visita suele incluir:\n\n- **Company Name**: Nombre de la empresa\n- **Full Name**: Nombre completo\n- **Job Title**: Cargo / Puesto\n- **Department**: Departamento\n- **Contact Info**: Teléfono, Email, Web"
     },
     {
-      "id": "diagram-payment",
-      "title": "How a Digital Payment Works",
-      "content": "```mermaid\ngraph LR\n    A[Customer] -->|Taps Phone| B[Terminal]\n    B -->|Sends Data| C[Bank]\n    C -->|Approves| B\n    B -->|Receipt| A\n```"
+      "title": "Lectura de Perfiles",
+      "content": "Cuando recibes una tarjeta, puedes confirmar los datos:\n\n- \"You are the Marketing Manager, correct?\"\n- \"Is this your work email?\"\n- \"Where is your office located?\""
     },
     {
-      "id": "grammar-can-could",
-      "title": "Grammar: Can and Could for Requests",
-      "content": "We use these words to ask for things politely at the bank or in a shop:\n\n1. **Can I...?**: Standard polite request.\n   - *Can I pay with my phone?* (¿Puedo pagar con el móvil?)\n\n2. **Could I...?**: More formal and very polite.\n   - *Could I have a QR code, please?* (¿Podría darme un código QR, por favor?)\n\n3. **Can you...?**: Asking another person to do something.\n   - *Can you show me how to use the app?* (¿Puede enseñarme a usar la aplicación?)"
+      "title": "Repaso de Información Personal",
+      "content": "Asegúrate de saber pedir y dar estos datos:\n\n- **First name / Last name**\n- **Job title** (Accountant, Manager...)\n- **Company**\n- **Phone number**\n- **Email address**"
     }
   ],
-  "objectives": [
-    "Identify traditional and modern payment methods (Digital Wallets, QR codes)",
-    "Use 'Can' and 'Could' to make polite requests in financial situations",
-    "Understand the basic process of a digital payment"
-  ],
-  "keyTerms": [
-    { "term": "Digital Wallet", "definition": "An app that stores your card information on your phone." },
-    { "term": "QR Code", "definition": "A black and white square you scan with your phone to pay." },
-    { "term": "Contactless", "definition": "A way to pay without inserting your card into a machine." }
-  ]
+  "audioUrl": ""
 }

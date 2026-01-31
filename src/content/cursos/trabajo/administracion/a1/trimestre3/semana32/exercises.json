@@ -1,398 +1,856 @@
 {
-  "title": "Exercises: Fintech & Digital Economy Review",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana32",
+  "title": "Exercises: Final Module Review",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a1-w32-ex01",
       "type": "multiple-choice",
-      "question": "How do you withdraw money without a physical card?",
-      "options": ["Using a QR code", "Using a paper check", "Using a letter", "Using a key"],
-      "correctAnswer": 0,
-      "explanation": "Modern ATMs allow cardless withdrawals using QR codes or NFC."
+      "prompt": "Which subject line is best for a job application?",
+      "options": [
+        "Hello!",
+        "Application for Admin Assistant - John Doe",
+        "I want a job",
+        "My CV"
+      ],
+      "answerIndex": 1,
+      "explanation": "A professional subject line should be specific and include your name and the purpose."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "I am ________ (pagar) the subscription now.",
-      "answer": "paying",
-      "explanation": "Present continuous (am + verb-ing) for current actions."
+      "id": "adm-a1-w32-ex02",
+      "type": "multiple-choice",
+      "prompt": "What is the most polite way to ask for a file?",
+      "options": [
+        "Give me the file.",
+        "Could you please send me the file?",
+        "I need the file now.",
+        "Send file."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Could you please...' is the standard for polite professional requests."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the fintech security terms:",
+      "id": "adm-a1-w32-ex03",
+      "type": "multiple-choice",
+      "prompt": "When you share a received email with someone else, you are:",
+      "options": [
+        "Deleting it",
+        "Forwarding it",
+        "Replying to it",
+        "Archiving it"
+      ],
+      "answerIndex": 1,
+      "explanation": "Forwarding is the act of sending a received message to a new person."
+    },
+    {
+      "id": "adm-a1-w32-ex04",
+      "type": "multiple-choice",
+      "prompt": "Which closing is appropriate for a very formal email?",
+      "options": [
+        "Cheers,",
+        "See you,",
+        "Sincerely,",
+        "Bye,"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Sincerely' is used in formal business correspondence."
+    },
+    {
+      "id": "adm-a1-w32-ex05",
+      "type": "multiple-choice",
+      "prompt": "What does 'Available' mean in a meeting context?",
+      "options": [
+        "That you are busy.",
+        "That you are free to meet.",
+        "That you are out of the office.",
+        "That you are on vacation."
+      ],
+      "answerIndex": 1,
+      "explanation": "If you are available, it means you have time in your schedule."
+    },
+    {
+      "id": "adm-a1-w32-ex06",
+      "type": "multiple-choice",
+      "prompt": "How do you translate: 'Le agradezco su tiempo'?",
+      "options": [
+        "I appreciate your time.",
+        "I like your time.",
+        "I want your time.",
+        "Thank your time."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I appreciate your time' is a professional way to express gratitude."
+    },
+    {
+      "id": "adm-a1-w32-ex07",
+      "type": "multiple-choice",
+      "prompt": "What follows 'Don't' in a negative instruction?",
+      "options": [
+        "The verb with -ing",
+        "The base form of the verb",
+        "The past form of the verb",
+        "The verb with 's'"
+      ],
+      "answerIndex": 1,
+      "explanation": "Negative imperatives use 'Don't' + base verb (e.g., Don't delete)."
+    },
+    {
+      "id": "adm-a1-w32-ex08",
+      "type": "multiple-choice",
+      "prompt": "Which word refers to 'Retroalimentación'?",
+      "options": [
+        "Food",
+        "Feedback",
+        "Backyard",
+        "Forward"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Feedback' is the professional term for comments on performance or a task."
+    },
+    {
+      "id": "adm-a1-w32-ex09",
+      "type": "multiple-choice",
+      "prompt": "How do you start a follow-up email?",
+      "options": [
+        "I am writing to follow up on our meeting.",
+        "I am writing for following up.",
+        "Follow up me please.",
+        "I following up on you."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I am writing to follow up on...' is the standard professional opening."
+    },
+    {
+      "id": "adm-a1-w32-ex10",
+      "type": "multiple-choice",
+      "prompt": "What does the abbreviation 'CC' stand for?",
+      "options": [
+        "Clear Copy",
+        "Carbon Copy",
+        "Client Call",
+        "Company Center"
+      ],
+      "answerIndex": 1,
+      "explanation": "CC stands for Carbon Copy, used to send a copy to another person."
+    },
+    {
+      "id": "adm-a1-w32-ex11",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a greeting for a group of people?",
+      "options": [
+        "Dear Mr. Smith,",
+        "Hi everyone,",
+        "Sincerely,",
+        "To whom it may concern,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Hi everyone' is a common informal/semi-formal greeting for a team."
+    },
+    {
+      "id": "adm-a1-w32-ex12",
+      "type": "multiple-choice",
+      "prompt": "What is the phrasal verb for 'Apagar'?",
+      "options": [
+        "Turn on",
+        "Turn off",
+        "Log in",
+        "Sign up"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Turn off' is used for lights, computers, and electronics."
+    },
+    {
+      "id": "adm-a1-w32-ex13",
+      "type": "multiple-choice",
+      "prompt": "If you 'Archive' an email, you are:",
+      "options": [
+        "Deleting it permanently.",
+        "Saving it for future reference.",
+        "Replying to the sender.",
+        "Printing it out."
+      ],
+      "answerIndex": 1,
+      "explanation": "Archiving is a way to organize and keep emails without cluttering the inbox."
+    },
+    {
+      "id": "adm-a1-w32-ex14",
+      "type": "multiple-choice",
+      "prompt": "Which modal is used for a less formal request?",
+      "options": [
+        "Could",
+        "Can",
+        "Must",
+        "Should"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Can' is slightly less formal than 'Could', but still polite."
+    },
+    {
+      "id": "adm-a1-w32-ex15",
+      "type": "multiple-choice",
+      "prompt": "What does 'ASAP' mean?",
+      "options": [
+        "As soon as possible",
+        "Always send all papers",
+        "After some action plan",
+        "At seven after pm"
+      ],
+      "answerIndex": 0,
+      "explanation": "ASAP stands for 'As Soon As Possible'."
+    },
+    {
+      "id": "adm-a1-w32-ex16",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the speaker's main request?",
+      "transcript": "Could you please send me the updated invoice by tomorrow morning?",
+      "options": [
+        "To attend a meeting",
+        "To send an invoice",
+        "To call a client",
+        "To print a report"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker asks: 'Could you please send me the updated invoice'."
+    },
+    {
+      "id": "adm-a1-w32-ex17",
+      "type": "listening",
+      "prompt": "Listen and answer: When is the meeting?",
+      "transcript": "I am writing to confirm our meeting for Friday at 3 PM.",
+      "options": [
+        "Monday at 3 PM",
+        "Friday at 3 PM",
+        "Friday at 10 AM",
+        "Thursday at 3 PM"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker confirms 'Friday at 3 PM'."
+    },
+    {
+      "id": "adm-a1-w32-ex18",
+      "type": "listening",
+      "prompt": "Listen and identify the object pronoun: 'I will call ________ later.'",
+      "transcript": "The manager is busy now, but I will call him later.",
+      "options": [
+        "her",
+        "them",
+        "him",
+        "us"
+      ],
+      "answerIndex": 2,
+      "explanation": "The speaker says: 'call him later'."
+    },
+    {
+      "id": "adm-a1-w32-ex19",
+      "type": "listening",
+      "prompt": "Listen and answer: What should the person do with the attachment?",
+      "transcript": "Please check the attachment for any errors before you print it.",
+      "options": [
+        "Delete it",
+        "Check it for errors",
+        "Forward it",
+        "Archive it"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'check the attachment for any errors'."
+    },
+    {
+      "id": "adm-a1-w32-ex20",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the instruction?",
+      "transcript": "Don't forget to CC the director on your response.",
+      "options": [
+        "Reply to the director",
+        "Don't CC the director",
+        "CC the director",
+        "Forward to the director"
+      ],
+      "answerIndex": 2,
+      "explanation": "The speaker says: 'CC the director'."
+    },
+    {
+      "id": "adm-a1-w32-ex21",
+      "type": "listening",
+      "prompt": "Listen and complete the phrase: 'Please ________ the email.'",
+      "transcript": "I received your message. Please forward the email to the marketing team.",
+      "options": [
+        "reply",
+        "forward",
+        "save",
+        "print"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'forward the email'."
+    },
+    {
+      "id": "adm-a1-w32-ex22",
+      "type": "listening",
+      "prompt": "Listen and answer: Why is the speaker thanking the person?",
+      "transcript": "Many thanks for your quick response to my query.",
+      "options": [
+        "For the help",
+        "For the quick response",
+        "For the gift",
+        "For the invitation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'thanks for your quick response'."
+    },
+    {
+      "id": "adm-a1-w32-ex23",
+      "type": "listening",
+      "prompt": "Listen and answer: What should be done at the end of the day?",
+      "transcript": "Remember to close all programs and turn off the computer before you leave.",
+      "options": [
+        "Log out only",
+        "Turn off the computer",
+        "Restart the computer",
+        "Leave the lights on"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'turn off the computer'."
+    },
+    {
+      "id": "adm-a1-w32-ex24",
+      "type": "listening",
+      "prompt": "Listen and identify the pronoun: 'Please send ________ the details.'",
+      "transcript": "We are ready for the project. Please send us the details.",
+      "options": [
+        "me",
+        "them",
+        "us",
+        "it"
+      ],
+      "answerIndex": 2,
+      "explanation": "The speaker says: 'send us the details'."
+    },
+    {
+      "id": "adm-a1-w32-ex25",
+      "type": "listening",
+      "prompt": "Listen and answer: What is the subject of the follow-up?",
+      "transcript": "Hello, I am following up on the meeting request I sent last Tuesday.",
+      "options": [
+        "An invoice",
+        "A meeting request",
+        "A job application",
+        "A vacation request"
+      ],
+      "answerIndex": 1,
+      "explanation": "The speaker says: 'following up on the meeting request'."
+    },
+    {
+      "id": "adm-a1-w32-ex26",
+      "type": "fill-blank",
+      "prompt": "________ (Podría) you help me with the scanner?",
+      "answer": "Could",
+      "explanation": "'Could' is the modal for polite requests."
+    },
+    {
+      "id": "adm-a1-w32-ex27",
+      "type": "fill-blank",
+      "prompt": "Please ________ (no abras) that file. It has a virus.",
+      "answer": "don't open",
+      "explanation": "Negative imperative: 'Don't open'."
+    },
+    {
+      "id": "adm-a1-w32-ex28",
+      "type": "fill-blank",
+      "prompt": "I see the report. I will read ________ (ello) now.",
+      "answer": "it",
+      "explanation": "'It' is the object pronoun for singular things like 'report'."
+    },
+    {
+      "id": "adm-a1-w32-ex29",
+      "type": "fill-blank",
+      "prompt": "________ the meeting start at 10:00 AM? (Auxiliar)",
+      "answer": "Does",
+      "explanation": "We use 'Does' for questions with 'it' (the meeting) in Present Simple."
+    },
+    {
+      "id": "adm-a1-w32-ex30",
+      "type": "fill-blank",
+      "prompt": "Thank you for ________ (ayudar) me yesterday.",
+      "answer": "helping",
+      "explanation": "After 'for', we use the gerund (-ing) form of the verb."
+    },
+    {
+      "id": "adm-a1-w32-ex31",
+      "type": "fill-blank",
+      "prompt": "I need to talk to the team. Please call ________ (a ellos).",
+      "answer": "them",
+      "explanation": "'Them' is the object pronoun for 'they'."
+    },
+    {
+      "id": "adm-a1-w32-ex32",
+      "type": "fill-blank",
+      "prompt": "________ (Guarda) the changes before you log out.",
+      "answer": "Save",
+      "explanation": "Imperative form for 'Guardar'."
+    },
+    {
+      "id": "adm-a1-w32-ex33",
+      "type": "fill-blank",
+      "prompt": "Please ________ (adjunta) your CV to the email.",
+      "answer": "attach",
+      "explanation": "'Attach' is the verb for 'adjuntar'."
+    },
+    {
+      "id": "adm-a1-w32-ex34",
+      "type": "fill-blank",
+      "prompt": "Can you hear ________ (a mí)? The connection is bad.",
+      "answer": "me",
+      "explanation": "'Me' is the object pronoun for 'I'."
+    },
+    {
+      "id": "adm-a1-w32-ex35",
+      "type": "fill-blank",
+      "prompt": "________ (No borres) the original spreadsheet.",
+      "answer": "Don't delete",
+      "explanation": "Negative imperative for 'No borres'."
+    },
+    {
+      "id": "adm-a1-w32-ex36",
+      "type": "fill-blank",
+      "prompt": "We appreciate ________ (tu) support.",
+      "answer": "your",
+      "explanation": "'Your' is the possessive adjective for 'tú/usted'."
+    },
+    {
+      "id": "adm-a1-w32-ex37",
+      "type": "fill-blank",
+      "prompt": "________ (Reenvía) the invitation to Mr. Brown.",
+      "answer": "Forward",
+      "explanation": "'Forward' is the verb for 'reenviar'."
+    },
+    {
+      "id": "adm-a1-w32-ex38",
+      "type": "fill-blank",
+      "prompt": "I ________ (agradezco) your patience.",
+      "answer": "appreciate",
+      "explanation": "'Appreciate' is a formal way to say thank you."
+    },
+    {
+      "id": "adm-a1-w32-ex39",
+      "type": "fill-blank",
+      "prompt": "Does she ________ (trabajar) in the administrative department?",
+      "answer": "work",
+      "explanation": "In questions with 'Does', we use the base form of the verb."
+    },
+    {
+      "id": "adm-a1-w32-ex40",
+      "type": "fill-blank",
+      "prompt": "Please ________ (responde) to the client today.",
+      "answer": "reply",
+      "explanation": "'Reply' is the verb for 'responder' in emails."
+    },
+    {
+      "id": "adm-a1-w32-ex41",
+      "type": "matching",
+      "prompt": "Match the email components:",
       "pairs": [
-        { "term": "Face ID", "definition": "Biometric recognition" },
-        { "term": "MFA", "definition": "Multi-Factor Authentication" },
-        { "term": "Passcode", "definition": "Numerical access code" }
+        { "term": "Subject Line", "definition": "Meeting Agenda" },
+        { "term": "Greeting", "definition": "Dear Mr. Smith," },
+        { "term": "Call to Action", "definition": "Please let me know." },
+        { "term": "Closing", "definition": "Best regards," }
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "Which preposition for months (e.g., in July)?",
-      "options": ["At", "In", "On", "By"],
-      "correctAnswer": 1,
-      "explanation": "We use 'In' for months and years."
-    },
-    {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "The installment is due ________ Monday.",
-      "answer": "on",
-      "explanation": "We use 'On' for specific days of the week."
-    },
-    {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "What is 'BNPL'?",
-      "options": ["Bank National Private Loan", "Buy Now, Pay Later", "Business New Payment Line", "Basic Network Price List"],
-      "correctAnswer": 1,
-      "explanation": "BNPL allows you to pay for purchases in installments."
-    },
-    {
-      "id": "ex7",
-      "type": "fill-in-the-blank",
-      "question": "The transaction is ________ 10:30 AM.",
-      "answer": "at",
-      "explanation": "We use 'At' for specific times."
-    },
-    {
-      "id": "ex8",
-      "type": "vocabulary-match",
-      "question": "Match the app features:",
+      "id": "adm-a1-w32-ex42",
+      "type": "matching",
+      "prompt": "Match the verbs with their Spanish equivalents:",
       "pairs": [
-        { "term": "Dashboard", "definition": "Main screen" },
-        { "term": "Vault", "definition": "Savings container" },
-        { "term": "Pocket", "definition": "Multi-currency wallet" }
+        { "term": "Reply", "definition": "Responder" },
+        { "term": "Forward", "definition": "Reenviar" },
+        { "term": "Attach", "definition": "Adjuntar" },
+        { "term": "Archive", "definition": "Archivar" }
       ]
     },
     {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "Where do you find the 'Log out' button?",
-      "options": ["In the kitchen", "On the dashboard", "In the street", "In the car"],
-      "correctAnswer": 1,
-      "explanation": "The Log out button is located on the app's dashboard or settings."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "You ________ (deberías) enable Face ID for security.",
-      "answer": "should",
-      "explanation": "'Should' is used for giving advice."
-    },
-    {
-      "id": "ex11",
-      "type": "multiple-choice",
-      "question": "What is a 'Round-up'?",
-      "options": ["A type of card", "Saving the spare change", "A bank branch", "A loan"],
-      "correctAnswer": 1,
-      "explanation": "Round-ups save the difference to the nearest whole number."
-    },
-    {
-      "id": "ex12",
-      "type": "fill-in-the-blank",
-      "question": "What is your savings ________? (meta)",
-      "answer": "goal",
-      "explanation": "A financial goal is a target for saving money."
-    },
-    {
-      "id": "ex13",
-      "type": "multiple-choice",
-      "question": "How much ________ this digital subscription?",
-      "options": ["is", "are", "am", "be"],
-      "correctAnswer": 0,
-      "explanation": "Use 'is' for singular subjects."
-    },
-    {
-      "id": "ex14",
-      "type": "fill-in-the-blank",
-      "question": "How many ________ (transacciones) are there?",
-      "answer": "transactions",
-      "explanation": "Use 'How many' for countable plural nouns."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the opposites:",
+      "id": "adm-a1-w32-ex43",
+      "type": "matching",
+      "prompt": "Match the request levels:",
       "pairs": [
-        { "term": "Deposit", "definition": "Withdraw" },
-        { "term": "Save", "definition": "Spend" },
-        { "term": "Enable", "definition": "Disable" }
+        { "term": "Direct", "definition": "Send the report." },
+        { "term": "Polite", "definition": "Could you send the report?" },
+        { "term": "Negative", "definition": "Don't send the report." },
+        { "term": "Information", "definition": "I am sending the report." }
       ]
     },
     {
-      "id": "ex16",
-      "type": "multiple-choice",
-      "question": "Which is correct for a current action?",
-      "options": ["I is saving", "I am saving", "I are saving", "I saveing"],
-      "correctAnswer": 1,
-      "explanation": "Subject 'I' takes 'am' + verb-ing."
-    },
-    {
-      "id": "ex17",
-      "type": "fill-in-the-blank",
-      "question": "Enter the promo ________ for a discount.",
-      "answer": "code",
-      "explanation": "A promo code provides a discount at checkout."
-    },
-    {
-      "id": "ex18",
-      "type": "multiple-choice",
-      "question": "What is 'APY'?",
-      "options": ["Apple Pay Yearly", "Annual Percentage Yield", "Automatic Payment Yield", "Account Private Yield"],
-      "correctAnswer": 1,
-      "explanation": "APY is the real rate of return earned on an investment in one year."
-    },
-    {
-      "id": "ex19",
-      "type": "fill-in-the-blank",
-      "question": "The app download is ________ (gratis).",
-      "answer": "free",
-      "explanation": "Free means it costs no money ($0)."
-    },
-    {
-      "id": "ex20",
-      "type": "multiple-choice",
-      "question": "What is 'Interest'?",
-      "options": ["Money paid for using money", "A type of app", "A bank manager", "A security code"],
-      "correctAnswer": 0,
-      "explanation": "Interest is the cost of borrowing money or the reward for saving it."
-    },
-    {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "Don't ________ (compartir) your MFA code.",
-      "answer": "share",
-      "explanation": "Imperative negative: Don't + base verb."
-    },
-    {
-      "id": "ex22",
-      "type": "vocabulary-match",
-      "question": "Match the digital terms:",
+      "id": "adm-a1-w32-ex44",
+      "type": "matching",
+      "prompt": "Match the abbreviations:",
       "pairs": [
-        { "term": "NFC", "definition": "Contactless payment" },
-        { "term": "QR Code", "definition": "Scannable matrix barcode" },
-        { "term": "Biometrics", "definition": "Physical identity traits" }
+        { "term": "ASAP", "definition": "As soon as possible" },
+        { "term": "CC", "definition": "Carbon Copy" },
+        { "term": "FW", "definition": "Forward" },
+        { "term": "CV", "definition": "Curriculum Vitae" }
       ]
     },
     {
-      "id": "ex23",
-      "type": "multiple-choice",
-      "question": "Can I pay ________ Apple Pay?",
-      "options": ["with", "at", "on", "in"],
-      "correctAnswer": 0,
-      "explanation": "We say 'pay WITH' a specific service or app."
-    },
-    {
-      "id": "ex24",
-      "type": "fill-in-the-blank",
-      "question": "I have $50 ________ my travel pocket.",
-      "answer": "in",
-      "explanation": "We use 'In' for containers or digital spaces like pockets."
-    },
-    {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "What is 'MFA'?",
-      "options": ["Money For All", "Multi-Factor Authentication", "Mobile Finance App", "Main Financial Account"],
-      "correctAnswer": 1,
-      "explanation": "MFA adds an extra layer of security to your account."
-    },
-    {
-      "id": "ex26",
-      "type": "fill-in-the-blank",
-      "question": "I need to ________ (intercambiar) Euros for Dollars.",
-      "answer": "exchange",
-      "explanation": "To exchange is to swap one currency for another."
-    },
-    {
-      "id": "ex27",
-      "type": "multiple-choice",
-      "question": "What is 'Real-time'?",
-      "options": ["Happening now", "Happening tomorrow", "Happening yesterday", "Never happening"],
-      "correctAnswer": 0,
-      "explanation": "Real-time means updated immediately as it happens."
-    },
-    {
-      "id": "ex28",
-      "type": "fill-in-the-blank",
-      "question": "Check the ________ rate before sending money.",
-      "answer": "exchange",
-      "explanation": "The exchange rate determines how much one currency is worth in another."
-    },
-    {
-      "id": "ex29",
-      "type": "multiple-choice",
-      "question": "Where do you scan a QR code?",
-      "options": ["With the camera", "With the speaker", "With the battery", "With the volume button"],
-      "correctAnswer": 0,
-      "explanation": "QR codes are scanned using the mobile device camera."
-    },
-    {
-      "id": "ex30",
-      "type": "fill-in-the-blank",
-      "question": "Your ________ (huella dactilar) is a biometric.",
-      "answer": "fingerprint",
-      "explanation": "Fingerprints are unique biological identifiers."
-    },
-    {
-      "id": "ex31",
-      "type": "vocabulary-match",
-      "question": "Match the verbs:",
+      "id": "adm-a1-w32-ex45",
+      "type": "matching",
+      "prompt": "Match the pronouns:",
       "pairs": [
-        { "term": "Scan", "definition": "Capture a code" },
-        { "term": "Authorize", "definition": "Give permission" },
-        { "term": "Link", "definition": "Connect accounts" }
+        { "term": "He", "definition": "Him" },
+        { "term": "She", "definition": "Her" },
+        { "term": "They", "definition": "Them" },
+        { "term": "We", "definition": "Us" }
       ]
     },
     {
-      "id": "ex32",
-      "type": "multiple-choice",
-      "question": "What is 'Checkout'?",
-      "options": ["The final step of a purchase", "A type of bank", "A savings goal", "A security code"],
-      "correctAnswer": 0,
-      "explanation": "Checkout is where you review and pay for your items."
-    },
-    {
-      "id": "ex33",
-      "type": "fill-in-the-blank",
-      "question": "Please ________ (autorizar) the payment.",
-      "answer": "authorize",
-      "explanation": "Imperative: Use the base form of the verb."
-    },
-    {
-      "id": "ex34",
-      "type": "multiple-choice",
-      "question": "Which of these is a 'subscription'?",
-      "options": ["Netflix", "A one-time pizza", "A single bus ticket", "A pair of shoes"],
-      "correctAnswer": 0,
-      "explanation": "Netflix is a recurring service paid via subscription."
-    },
-    {
-      "id": "ex35",
-      "type": "fill-in-the-blank",
-      "question": "This is ________ (mi) virtual card.",
-      "answer": "my",
-      "explanation": "Possessive adjective for 'I'."
-    },
-    {
-      "id": "ex36",
-      "type": "multiple-choice",
-      "question": "What is an 'Installment'?",
-      "options": ["A partial payment", "A bank manager", "A full price", "A gift"],
-      "correctAnswer": 0,
-      "explanation": "Installments are small, regular payments to pay off a total amount."
-    },
-    {
-      "id": "ex37",
-      "type": "fill-in-the-blank",
-      "question": "The auto-save is ________ (trabajando) well.",
-      "answer": "working",
-      "explanation": "Present continuous: is + verb-ing."
-    },
-    {
-      "id": "ex38",
-      "type": "vocabulary-match",
-      "question": "Match the quantities:",
+      "id": "adm-a1-w32-ex46",
+      "type": "matching",
+      "prompt": "Match the phrasal verbs with their functions:",
       "pairs": [
-        { "term": "How much", "definition": "Uncountable (Money)" },
-        { "term": "How many", "definition": "Countable (Coins)" },
-        { "term": "Total", "definition": "Final amount" }
+        { "term": "Turn off", "definition": "Stop a machine" },
+        { "term": "Log in", "definition": "Start a session" },
+        { "term": "Write down", "definition": "Take notes" },
+        { "term": "Follow up", "definition": "Check progress" }
       ]
     },
     {
-      "id": "ex39",
-      "type": "multiple-choice",
-      "question": "What is 'Balance'?",
-      "options": ["Total money available", "A type of debt", "A bank branch", "A promo code"],
-      "correctAnswer": 0,
-      "explanation": "Your balance is the amount of money you have in your account."
-    },
-    {
-      "id": "ex40",
-      "type": "fill-in-the-blank",
-      "question": "The vault is ________ (bloqueado).",
-      "answer": "locked",
-      "explanation": "Locked means access is restricted."
-    },
-    {
-      "id": "ex41",
-      "type": "multiple-choice",
-      "question": "Which is a 'Direct Debit'?",
-      "options": ["Automatic bill payment", "Manual cash payment", "Physical check", "ATM withdrawal"],
-      "correctAnswer": 0,
-      "explanation": "Direct Debit automates recurring payments from your account."
-    },
-    {
-      "id": "ex42",
-      "type": "fill-in-the-blank",
-      "question": "I am looking ________ the dashboard.",
-      "answer": "at",
-      "explanation": "We say 'look AT' something."
-    },
-    {
-      "id": "ex43",
-      "type": "multiple-choice",
-      "question": "What is 'Compound Interest'?",
-      "options": ["Interest on interest", "A simple fee", "A bank loan", "A physical card"],
-      "correctAnswer": 0,
-      "explanation": "Compound interest is calculated on the principal and previous interest."
-    },
-    {
-      "id": "ex44",
-      "type": "fill-in-the-blank",
-      "question": "The interest rate is ________. (alta)",
-      "answer": "high",
-      "explanation": "'High' refers to a large percentage or amount."
-    },
-    {
-      "id": "ex45",
-      "type": "vocabulary-match",
-      "question": "Financial actions:",
+      "id": "adm-a1-w32-ex47",
+      "type": "matching",
+      "prompt": "Match the email parts with their purpose:",
       "pairs": [
-        { "term": "Invest", "definition": "Grow your money" },
-        { "term": "Transfer", "definition": "Move money" },
-        { "term": "Budget", "definition": "Plan spending" }
+        { "term": "Subject Line", "definition": "To summarize content" },
+        { "term": "Body", "definition": "To explain details" },
+        { "term": "Attachment", "definition": "To add a document" },
+        { "term": "Signature", "definition": "To identify the sender" }
       ]
     },
     {
-      "id": "ex46",
+      "id": "adm-a1-w32-ex48",
+      "type": "matching",
+      "prompt": "Match the synonyms:",
+      "pairs": [
+        { "term": "Appreciate", "definition": "Value" },
+        { "term": "Reply", "definition": "Respond" },
+        { "term": "Check", "definition": "Verify" },
+        { "term": "Start", "definition": "Begin" }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex49",
+      "type": "matching",
+      "prompt": "Match the office actions:",
+      "pairs": [
+        { "term": "Print", "definition": "Paper copy" },
+        { "term": "Save", "definition": "Digital copy" },
+        { "term": "Delete", "definition": "Trash" },
+        { "term": "Archive", "definition": "Folder" }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex50",
+      "type": "matching",
+      "prompt": "Match the question words with their purpose:",
+      "pairs": [
+        { "term": "When", "definition": "Time" },
+        { "term": "Where", "definition": "Place" },
+        { "term": "Who", "definition": "Person" },
+        { "term": "What", "definition": "Object/Action" }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex51",
+      "type": "matching",
+      "prompt": "Match the meeting verbs:",
+      "pairs": [
+        { "term": "Confirm", "definition": "Say yes" },
+        { "term": "Cancel", "definition": "Say no" },
+        { "term": "Postpone", "definition": "Say later" },
+        { "term": "Schedule", "definition": "Set a date" }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex52",
+      "type": "matching",
+      "prompt": "Match the email tones:",
+      "pairs": [
+        { "term": "Formal", "definition": "Dear Sir," },
+        { "term": "Informal", "definition": "Hey!" },
+        { "term": "Semi-formal", "definition": "Hi John," },
+        { "term": "Professional", "definition": "Best regards," }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex53",
+      "type": "matching",
+      "prompt": "Match the Spanish and English formal closings:",
+      "pairs": [
+        { "term": "Atentamente", "definition": "Sincerely" },
+        { "term": "Saludos cordiales", "definition": "Best regards" },
+        { "term": "Gracias de antemano", "definition": "Thanks in advance" },
+        { "term": "Quedo a la espera", "definition": "I look forward to..." }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex54",
+      "type": "matching",
+      "prompt": "Match the buttons in an email program:",
+      "pairs": [
+        { "term": "Paperclip", "definition": "Attach" },
+        { "term": "Trash can", "definition": "Delete" },
+        { "term": "Enlarging glass", "definition": "Search" },
+        { "term": "Plus sign", "definition": "New message" }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex55",
+      "type": "matching",
+      "prompt": "Match the meeting logistics:",
+      "pairs": [
+        { "term": "Agenda", "definition": "List of topics" },
+        { "term": "Minutes", "definition": "Notes from meeting" },
+        { "term": "Link", "definition": "Online meeting" },
+        { "term": "Room", "definition": "Physical location" }
+      ]
+    },
+    {
+      "id": "adm-a1-w32-ex56",
       "type": "multiple-choice",
-      "question": "What should you do if your account is hacked?",
-      "options": ["Freeze the account", "Go to sleep", "Buy more things", "Tell no one"],
-      "correctAnswer": 0,
-      "explanation": "Freezing the account prevents further unauthorized transactions."
+      "prompt": "READING: 'Subject: Invoice #402. Dear Mr. Lee, Please find attached the invoice for last month. Could you please confirm receipt? Best regards, Alice.' What is the attachment?",
+      "options": [
+        "A resume",
+        "An invoice",
+        "A photo",
+        "A map"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alice says 'Please find attached the invoice'."
     },
     {
-      "id": "ex47",
-      "type": "fill-in-the-blank",
-      "question": "I ________ (olvidé) my passcode.",
-      "answer": "forgot",
-      "explanation": "Past tense of 'forget'."
-    },
-    {
-      "id": "ex48",
+      "id": "adm-a1-w32-ex57",
       "type": "multiple-choice",
-      "question": "What is 'Paperless'?",
-      "options": ["Digital documents only", "Only using notebooks", "No internet", "No money"],
-      "correctAnswer": 0,
-      "explanation": "Paperless means using electronic versions instead of physical paper."
+      "prompt": "READING: 'Subject: Meeting tomorrow. Hi team, the meeting is postponed to Thursday at 10 AM. Don't go to the conference room today. - Mark.' When is the new meeting time?",
+      "options": [
+        "Today at 10 AM",
+        "Tomorrow at 10 AM",
+        "Thursday at 10 AM",
+        "Friday at 10 AM"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mark says it is 'postponed to Thursday at 10 AM'."
     },
     {
-      "id": "ex49",
-      "type": "fill-in-the-blank",
-      "question": "Where is the ________? (ajustes)",
-      "answer": "settings",
-      "explanation": "The settings menu allows you to configure your app."
-    },
-    {
-      "id": "ex50",
+      "id": "adm-a1-w32-ex58",
       "type": "multiple-choice",
-      "question": "Are you ready for Level A2?",
-      "options": ["Yes!", "Maybe", "I need more review", "No"],
-      "correctAnswer": 0,
-      "explanation": "Congratulations on completing Level A1!"
+      "prompt": "READING: 'Hi Sarah, please forward the client feedback to me. Then, save it in the project folder. Thanks, Paul.' What should Sarah do with the feedback?",
+      "options": [
+        "Forward and then save it.",
+        "Delete and then reply.",
+        "Print and then archive.",
+        "Forward and then delete."
+      ],
+      "answerIndex": 0,
+      "explanation": "The instructions are 'forward... then, save it'."
+    },
+    {
+      "id": "adm-a1-w32-ex59",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Important: Don't forget to CC the manager on your reply to Mr. Henderson.' Who should be in CC?",
+      "options": [
+        "Mr. Henderson",
+        "The manager",
+        "Sarah",
+        "Alice"
+      ],
+      "answerIndex": 1,
+      "explanation": "The instruction is to 'CC the manager'."
+    },
+    {
+      "id": "adm-a1-w32-ex60",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Subject: Out of Office. I am available again on Monday morning. Please contact Susan for urgent matters. - John.' When will John return?",
+      "options": [
+        "Friday",
+        "Sunday",
+        "Monday morning",
+        "Tuesday afternoon"
+      ],
+      "answerIndex": 2,
+      "explanation": "John says 'I am available again on Monday morning'."
+    },
+    {
+      "id": "adm-a1-w32-ex61",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Dear Team, many thanks for your hard work on the report. I appreciate it. - Director.' What is the Director's message?",
+      "options": [
+        "A complaint",
+        "An expression of gratitude",
+        "A meeting request",
+        "A new rule"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Director says 'many thanks' and 'I appreciate it'."
+    },
+    {
+      "id": "adm-a1-w32-ex62",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Please print 20 copies of the agenda for the 2 PM meeting.' How many copies are needed?",
+      "options": [
+        "2",
+        "12",
+        "20",
+        "200"
+      ],
+      "answerIndex": 2,
+      "explanation": "The text asks for '20 copies'."
+    },
+    {
+      "id": "adm-a1-w32-ex63",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Check your inbox for the link to the webinar. It starts in 10 minutes.' Where is the link?",
+      "options": [
+        "In the trash",
+        "In the inbox",
+        "On the desk",
+        "In the spam folder"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text says 'Check your inbox for the link'."
+    },
+    {
+      "id": "adm-a1-w32-ex64",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Don't delete the backup files. We need them for the update.' Why should you keep the files?",
+      "options": [
+        "For a meeting",
+        "For the update",
+        "For the client",
+        "For the manager"
+      ],
+      "answerIndex": 1,
+      "explanation": "They are needed 'for the update'."
+    },
+    {
+      "id": "adm-a1-w32-ex65",
+      "type": "multiple-choice",
+      "prompt": "READING: 'Could you please confirm your attendance by Friday at noon?' What is the deadline?",
+      "options": [
+        "Friday at noon",
+        "Friday at 5 PM",
+        "Monday morning",
+        "Thursday evening"
+      ],
+      "answerIndex": 0,
+      "explanation": "The deadline is 'Friday at noon'."
+    },
+    {
+      "id": "adm-a1-w32-ex66",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Please to help me.",
+        "Could you help me?",
+        "Could you helping me?",
+        "Can you to help me?"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Could you' is followed by the base form of the verb."
+    },
+    {
+      "id": "adm-a1-w32-ex67",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "I called she.",
+        "I called her.",
+        "I called she's.",
+        "I called hers."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Her' is the object pronoun used after the verb."
+    },
+    {
+      "id": "adm-a1-w32-ex68",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Don't delete not the file.",
+        "Don't delete the file.",
+        "No delete the file.",
+        "Not delete the file."
+      ],
+      "answerIndex": 1,
+      "explanation": "Negative imperative is 'Don't' + base verb."
+    },
+    {
+      "id": "adm-a1-w32-ex69",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Does the meeting starts at 9?",
+        "Do the meeting start at 9?",
+        "Does the meeting start at 9?",
+        "Is the meeting start at 9?"
+      ],
+      "answerIndex": 2,
+      "explanation": "In questions with 'Does', use the base form 'start'."
+    },
+    {
+      "id": "adm-a1-w32-ex70",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Thanks for helping.",
+        "Thanks for help.",
+        "Thanks for to help.",
+        "Thanks by help."
+      ],
+      "answerIndex": 0,
+      "explanation": "Prepositions like 'for' are followed by the -ing form."
+    },
+    {
+      "id": "adm-a1-w32-ex71",
+      "type": "fill-blank",
+      "prompt": "I see the reports. I will send ________ (a ellos) to you now.",
+      "answer": "them",
+      "explanation": "'Them' is the object pronoun for plural objects like 'reports'."
+    },
+    {
+      "id": "adm-a1-w32-ex72",
+      "type": "fill-blank",
+      "prompt": "Please ________ (no reenvíes) this private message.",
+      "answer": "don't forward",
+      "explanation": "Negative imperative for 'No reenvíes'."
+    },
+    {
+      "id": "adm-a1-w32-ex73",
+      "type": "multiple-choice",
+      "prompt": "What is the best closing for a polite email to a colleague?",
+      "options": [
+        "Whatever,",
+        "Best regards,",
+        "I am out,",
+        "Bye bye,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Best regards' is standard and professional."
+    },
+    {
+      "id": "adm-a1-w32-ex74",
+      "type": "fill-blank",
+      "prompt": "________ (Podemos) we meet at 4 PM today?",
+      "answer": "Can",
+      "explanation": "'Can' is used to ask about possibility or permission."
+    },
+    {
+      "id": "adm-a1-w32-ex75",
+      "type": "multiple-choice",
+      "prompt": "What should you check before clicking 'Send'?",
+      "options": [
+        "The spelling",
+        "The attachment",
+        "The recipient's email",
+        "All of the above"
+      ],
+      "answerIndex": 3,
+      "explanation": "Professionalism requires checking spelling, attachments, and recipients."
     }
   ]
 }

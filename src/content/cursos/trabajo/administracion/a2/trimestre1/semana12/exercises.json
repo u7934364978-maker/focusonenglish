@@ -6,7 +6,7 @@
   "title": "Trimester Review & The Future of Fintech",
   "items": [
     {
-      "id": "fin-a2-w12-1",
+      "id": "adm-a2-w12-ex01",
       "type": "multipleChoice",
       "prompt": "Which structure is used for a fixed arrangement with a specific time?",
       "options": ["Past simple", "Present continuous", "Present simple", "Going to"],
@@ -14,7 +14,7 @@
       "explanation": "El presente continuo se usa para planes fijos programados."
     },
     {
-      "id": "fin-a2-w12-2",
+      "id": "adm-a2-w12-ex02",
       "type": "multipleChoice",
       "prompt": "You ______ ever share your One-Time Password (OTP) with anyone.",
       "options": ["must", "mustn't", "can", "are"],
@@ -22,7 +22,7 @@
       "explanation": "Prohibición: You mustn't share (no debes compartir)."
     },
     {
-      "id": "fin-a2-w12-3",
+      "id": "adm-a2-w12-ex03",
       "type": "multipleChoice",
       "prompt": "This digital wallet is the ______ one available in the app store.",
       "options": ["goodest", "better", "best", "good"],
@@ -30,7 +30,7 @@
       "explanation": "Superlativo: The best (la mejor)."
     },
     {
-      "id": "fin-a2-w12-4",
+      "id": "adm-a2-w12-ex04",
       "type": "multipleChoice",
       "prompt": "I have ______ my portfolio since I started my new job.",
       "options": ["diversify", "diversified", "diversifying", "diversifies"],
@@ -38,7 +38,7 @@
       "explanation": "Presente perfecto: I have diversified (he diversificado)."
     },
     {
-      "id": "fin-a2-w12-5",
+      "id": "adm-a2-w12-ex05",
       "type": "multipleChoice",
       "prompt": "They are ______ to apply for a higher credit limit next month.",
       "options": ["go", "goes", "going", "gone"],
@@ -46,7 +46,7 @@
       "explanation": "Futuro de intención: They are going to apply."
     },
     {
-      "id": "fin-a2-w12-6",
+      "id": "adm-a2-w12-ex06",
       "type": "multipleChoice",
       "prompt": "A ______ email often looks like it's from a real bank but it's fake.",
       "options": ["Phishing", "Shipping", "Pushing", "Vesting"],
@@ -54,7 +54,7 @@
       "explanation": "El phishing es un correo fraudulento que finge ser de un banco."
     },
     {
-      "id": "fin-a2-w12-7",
+      "id": "adm-a2-w12-ex07",
       "type": "multipleChoice",
       "prompt": "There ______ any fees on my statement yesterday.",
       "options": ["wasn't", "weren't", "isn't", "aren't"],
@@ -62,7 +62,7 @@
       "explanation": "Pasado simple plural negativo (fees)."
     },
     {
-      "id": "fin-a2-w12-8",
+      "id": "adm-a2-w12-ex08",
       "type": "multipleChoice",
       "prompt": "How ______ yield did your investments generate last year?",
       "options": ["many", "much", "long", "often"],
@@ -70,7 +70,7 @@
       "explanation": "How much? (¿Cuánto? - incontable)."
     },
     {
-      "id": "fin-a2-w12-9",
+      "id": "adm-a2-w12-ex09",
       "type": "multipleChoice",
       "prompt": "We have held these ETFs ______ five years.",
       "options": ["for", "since", "during", "ago"],
@@ -78,7 +78,7 @@
       "explanation": "For + periodo de tiempo (cinco años)."
     },
     {
-      "id": "fin-a2-w12-10",
+      "id": "adm-a2-w12-ex10",
       "type": "multipleChoice",
       "prompt": "Monthly payments for a loan are called ______.",
       "options": ["installments", "interests", "investments", "defaults"],
@@ -86,7 +86,7 @@
       "explanation": "Los pagos mensuales se llaman 'installments' (cuotas)."
     },
     {
-      "id": "fin-a2-w12-11",
+      "id": "adm-a2-w12-ex11",
       "type": "multipleChoice",
       "prompt": "What is the name of the digital protocol for secure online payments?",
       "options": ["3D Secure", "2D Simple", "4D Safety", "1D Signal"],
@@ -94,7 +94,7 @@
       "explanation": "3D Secure es el estándar de pagos seguros."
     },
     {
-      "id": "fin-a2-w12-12",
+      "id": "adm-a2-w12-ex12",
       "type": "multipleChoice",
       "prompt": "Have you ______ used a robo-advisor for your wealth management?",
       "options": ["never", "ever", "yet", "already"],
@@ -102,7 +102,7 @@
       "explanation": "Ever en preguntas de experiencia."
     },
     {
-      "id": "fin-a2-w12-13",
+      "id": "adm-a2-w12-ex13",
       "type": "multipleChoice",
       "prompt": "The security consultant ______ at the fintech firm every Monday.",
       "options": ["work", "works", "is working", "worked"],
@@ -110,7 +110,7 @@
       "explanation": "Presente simple para rutina (every Monday)."
     },
     {
-      "id": "fin-a2-w12-14",
+      "id": "adm-a2-w12-ex14",
       "type": "multipleChoice",
       "prompt": "This BNPL service is ______ than traditional credit cards.",
       "options": ["cheap", "cheaper", "cheapest", "more cheap"],
@@ -118,7 +118,7 @@
       "explanation": "Comparativo: Cheaper than (más barato que)."
     },
     {
-      "id": "fin-a2-w12-15",
+      "id": "adm-a2-w12-ex15",
       "type": "multipleChoice",
       "prompt": "They ______ at the cybersecurity conference last Tuesday.",
       "options": ["was", "were", "are", "is"],
@@ -126,7 +126,7 @@
       "explanation": "Pasado plural: They were (ellos estaban)."
     },
     {
-      "id": "fin-a2-w12-16",
+      "id": "adm-a2-w12-ex16",
       "type": "multipleChoice",
       "prompt": "A ______ tracks a specific index like the S&P 500.",
       "options": ["ETF", "Dividend", "Yield", "Broker"],
@@ -134,7 +134,7 @@
       "explanation": "Un ETF rastrea un índice específico."
     },
     {
-      "id": "fin-a2-w12-17",
+      "id": "adm-a2-w12-ex17",
       "type": "multipleChoice",
       "prompt": "I ______ never been late with my monthly installments.",
       "options": ["has", "have", "am", "do"],
@@ -142,7 +142,7 @@
       "explanation": "I have never been (nunca he sido/llegado)."
     },
     {
-      "id": "fin-a2-w12-18",
+      "id": "adm-a2-w12-ex18",
       "type": "multipleChoice",
       "prompt": "You ______ follow the KYC (Know Your Customer) procedures.",
       "options": ["must", "mustn't", "are", "don't"],
@@ -150,7 +150,7 @@
       "explanation": "Obligación: You must follow (debes seguir)."
     },
     {
-      "id": "fin-a2-w12-19",
+      "id": "adm-a2-w12-ex19",
       "type": "multipleChoice",
       "prompt": "What is the maximum amount of credit you can use?",
       "options": ["Credit score", "Credit limit", "Balance", "Interest rate"],
@@ -158,7 +158,7 @@
       "explanation": "El 'credit limit' es el máximo disponible."
     },
     {
-      "id": "fin-a2-w12-20",
+      "id": "adm-a2-w12-ex20",
       "type": "multipleChoice",
       "prompt": "How ______ have you been using biometrics for login?",
       "options": ["much", "long", "many", "often"],
@@ -166,210 +166,395 @@
       "explanation": "How long? (¿Cuánto tiempo...?)."
     },
     {
-      "id": "fin-a2-w12-21",
+      "id": "adm-a2-w12-ex21",
       "type": "fillBlanks",
       "prompt": "I have [blank] a user of this neobank since 2019.",
       "answers": ["been"],
       "explanation": "He sido (been) usuario."
     },
     {
-      "id": "fin-a2-w12-22",
+      "id": "adm-a2-w12-ex22",
       "type": "fillBlanks",
       "prompt": "You [blank] reveal your PIN at the ATM.",
       "answers": ["mustn't"],
       "explanation": "No debes revelar (mustn't) tu PIN."
     },
     {
-      "id": "fin-a2-w12-23",
+      "id": "adm-a2-w12-ex23",
       "type": "fillBlanks",
       "prompt": "This is the [blank] payment method in our app.",
       "answers": ["most secure"],
       "explanation": "Superlativo: The most secure (el más seguro)."
     },
     {
-      "id": "fin-a2-w12-24",
+      "id": "adm-a2-w12-ex24",
       "type": "fillBlanks",
       "prompt": "We [blank] [blank] the new virtual card this Friday.",
       "answers": ["are launching"],
       "explanation": "Lanzamos (plan programado) este viernes."
     },
     {
-      "id": "fin-a2-w12-25",
+      "id": "adm-a2-w12-ex25",
       "type": "fillBlanks",
       "prompt": "A [blank] is a numerical representation of your credit reliability.",
       "answers": ["credit score"],
       "explanation": "Credit score (puntuación crediticia)."
     },
     {
-      "id": "fin-a2-w12-26",
+      "id": "adm-a2-w12-ex26",
       "type": "fillBlanks",
       "prompt": "I [blank] reviewed my monthly statement yet.",
       "answers": ["haven't"],
       "explanation": "Aún no he revisado (haven't reviewed)."
     },
     {
-      "id": "fin-a2-w12-27",
+      "id": "adm-a2-w12-ex27",
       "type": "fillBlanks",
       "prompt": "The [blank] [blank] is the annual cost of borrowing.",
       "answers": ["interest rate"],
       "explanation": "Tipo de interés (interest rate)."
     },
     {
-      "id": "fin-a2-w12-28",
+      "id": "adm-a2-w12-ex28",
       "type": "fillBlanks",
       "prompt": "Was the transfer successful? No, it [blank].",
       "answers": ["wasn't"],
       "explanation": "No, no lo fue (wasn't)."
     },
     {
-      "id": "fin-a2-w12-29",
+      "id": "adm-a2-w12-ex29",
       "type": "fillBlanks",
       "prompt": "He has held those shares [blank] ten years.",
       "answers": ["for"],
       "explanation": "For + periodo (diez años)."
     },
     {
-      "id": "fin-a2-w12-30",
+      "id": "adm-a2-w12-ex30",
       "type": "fillBlanks",
       "prompt": "If you suspect fraud, you must [blank] your card.",
       "answers": ["freeze"],
       "explanation": "Debes bloquear/congelar (freeze) tu tarjeta."
     },
     {
-      "id": "fin-a2-w12-31",
+      "id": "adm-a2-w12-ex31",
       "type": "fillBlanks",
       "prompt": "There [blank] several transactions on my account yesterday.",
       "answers": ["were"],
       "explanation": "Hubo (pasado plural) varias transacciones."
     },
     {
-      "id": "fin-a2-w12-32",
+      "id": "adm-a2-w12-ex32",
       "type": "fillBlanks",
       "prompt": "I [blank] [blank] [blank] start an investment plan next month.",
       "answers": ["am going to"],
       "explanation": "Futuro de intención: I am going to start."
     },
     {
-      "id": "fin-a2-w12-33",
+      "id": "adm-a2-w12-ex33",
       "type": "fillBlanks",
       "prompt": "An [blank] uses algorithms to help you invest your savings.",
       "answers": ["robo-advisor"],
       "explanation": "Robo-advisor."
     },
     {
-      "id": "fin-a2-w12-34",
+      "id": "adm-a2-w12-ex34",
       "type": "fillBlanks",
       "prompt": "Has she [blank] the final installment of her loan?",
       "answers": ["paid"],
       "explanation": "¿Ha pagado (paid) la última cuota?"
     },
     {
-      "id": "fin-a2-w12-35",
+      "id": "adm-a2-w12-ex35",
       "type": "fillBlanks",
       "prompt": "The [blank] [blank] allows you to pay without interest for 30 days.",
       "answers": ["grace period"],
       "explanation": "Periodo de cortesía (grace period)."
     },
     {
-      "id": "fin-a2-w12-36",
+      "id": "adm-a2-w12-ex36",
       "type": "fillBlanks",
       "prompt": "We [blank] have enough balance for the transfer.",
       "answers": ["don't"],
       "explanation": "No tenemos (don't have) saldo suficiente."
     },
     {
-      "id": "fin-a2-w12-37",
+      "id": "adm-a2-w12-ex37",
       "type": "fillBlanks",
       "prompt": "Digital assets are often [blank] [blank] than traditional stocks.",
       "answers": ["more volatile"],
       "explanation": "Comparativo: More volatile (más volátiles)."
     },
     {
-      "id": "fin-a2-w12-38",
+      "id": "adm-a2-w12-ex38",
       "type": "fillBlanks",
       "prompt": "I have [blank] this diversified portfolio for a long time.",
       "answers": ["had"],
       "explanation": "He tenido (had) esta cartera."
     },
     {
-      "id": "fin-a2-w12-39",
+      "id": "adm-a2-w12-ex39",
       "type": "fillBlanks",
       "prompt": "The [blank] icon in the browser indicates an encrypted connection.",
       "answers": ["padlock"],
       "explanation": "El icono del candado (padlock)."
     },
     {
-      "id": "fin-a2-w12-40",
+      "id": "adm-a2-w12-ex40",
       "type": "fillBlanks",
       "prompt": "The bank managers [blank] very helpful during the onboarding.",
       "answers": ["were"],
       "explanation": "Los gerentes fueron (were) muy amables."
     },
     {
-      "id": "fin-a2-w12-41",
+      "id": "adm-a2-w12-ex41",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "I have used a neobank since 2020",
       "explanation": "Uso un neobanco desde 2020."
     },
     {
-      "id": "fin-a2-w12-42",
+      "id": "adm-a2-w12-ex42",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "you must avoid sharing your credentials",
       "explanation": "Debes evitar compartir tus credenciales."
     },
     {
-      "id": "fin-a2-w12-43",
+      "id": "adm-a2-w12-ex43",
       "type": "reorder",
       "prompt": "Reorder the question:",
       "sentence": "what is my credit score?",
       "explanation": "¿Cuál es mi puntuación crediticia?"
     },
     {
-      "id": "fin-a2-w12-44",
+      "id": "adm-a2-w12-ex44",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "we are launching the app tomorrow",
       "explanation": "Lanzamos la app mañana."
     },
     {
-      "id": "fin-a2-w12-45",
+      "id": "adm-a2-w12-ex45",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "they have not paid dividends since last July",
       "explanation": "No han pagado dividendos desde julio pasado."
     },
     {
-      "id": "fin-a2-w12-46",
+      "id": "adm-a2-w12-ex46",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "this is the best ETF investment",
       "explanation": "Esta es la mejor inversión en ETF."
     },
     {
-      "id": "fin-a2-w12-47",
+      "id": "adm-a2-w12-ex47",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "he is working in the compliance department",
       "explanation": "Él está trabajando en el departamento de cumplimiento."
     },
     {
-      "id": "fin-a2-w12-48",
+      "id": "adm-a2-w12-ex48",
       "type": "reorder",
       "prompt": "Reorder the question:",
       "sentence": "were there any fees on your statement?",
       "explanation": "¿Hubo comisiones en tu extracto?"
     },
     {
-      "id": "fin-a2-w12-49",
+      "id": "adm-a2-w12-ex49",
       "type": "reorder",
       "prompt": "Reorder the sentence:",
       "sentence": "we are going to use a BNPL service",
       "explanation": "Vamos a usar un servicio BNPL."
     },
     {
-      "id": "fin-a2-w12-50",
+      "id": "adm-a2-w12-ex50",
+      "type": "multipleChoice",
+      "prompt": "What is 'Green Fintech'?",
+      "options": ["Banking for farmers only", "Financial technology focused on environmental sustainability", "Printing money on green paper", "A new type of credit card"],
+      "answerIndex": 1,
+      "explanation": "Green Fintech se enfoca en la sostenibilidad ambiental."
+    },
+    {
+      "id": "adm-a2-w12-ex51",
+      "type": "multipleChoice",
+      "prompt": "What does 'DeFi' stand for?",
+      "options": ["Deferred Finance", "Decentralized Finance", "Digital Fidelity", "Defined Finances"],
+      "answerIndex": 1,
+      "explanation": "DeFi significa Decentralized Finance (Finanzas Descentralizadas)."
+    },
+    {
+      "id": "adm-a2-w12-ex52",
+      "type": "multipleChoice",
+      "prompt": "AI in banking is primarily used to provide ______ advice.",
+      "options": ["physical", "personalized", "random", "manual"],
+      "answerIndex": 1,
+      "explanation": "La IA se usa para ofrecer asesoramiento personalizado."
+    },
+    {
+      "id": "adm-a2-w12-ex53",
+      "type": "multipleChoice",
+      "prompt": "Open Banking allows for secure data ______ between different apps.",
+      "options": ["deletion", "hiding", "sharing", "blocking"],
+      "answerIndex": 2,
+      "explanation": "Open Banking permite compartir datos de forma segura."
+    },
+    {
+      "id": "adm-a2-w12-ex54",
+      "type": "multipleChoice",
+      "prompt": "We ______ never had a security breach since we upgraded our firewall.",
+      "options": ["has", "have", "am", "are"],
+      "answerIndex": 1,
+      "explanation": "I/We have never (nunca hemos tenido)."
+    },
+    {
+      "id": "adm-a2-w12-ex55",
+      "type": "multipleChoice",
+      "prompt": "This interest rate is ______ than the one we had last month.",
+      "options": ["low", "lower", "lowest", "more low"],
+      "answerIndex": 1,
+      "explanation": "Comparativo: Lower than (más bajo que)."
+    },
+    {
+      "id": "adm-a2-w12-ex56",
+      "type": "multipleChoice",
+      "prompt": "You ______ use public Wi-Fi networks for banking transactions.",
+      "options": ["must", "mustn't", "can", "should"],
+      "answerIndex": 1,
+      "explanation": "Prohibición por seguridad: You mustn't (no debes)."
+    },
+    {
+      "id": "adm-a2-w12-ex57",
+      "type": "multipleChoice",
+      "prompt": "Are you ______ the auditor tomorrow morning at 10 AM?",
+      "options": ["meet", "meets", "meeting", "met"],
+      "answerIndex": 2,
+      "explanation": "Presente continuo para planes fijos (meeting)."
+    },
+    {
+      "id": "adm-a2-w12-ex58",
+      "type": "multipleChoice",
+      "prompt": "I ______ my investment portfolio yesterday to reduce risk.",
+      "options": ["rebalance", "rebalanced", "rebalancing", "rebalances"],
+      "answerIndex": 1,
+      "explanation": "Pasado simple (yesterday): rebalanced."
+    },
+    {
+      "id": "adm-a2-w12-ex59",
+      "type": "multipleChoice",
+      "prompt": "Fintech is the ______ sector in the financial industry today.",
+      "options": ["fast", "faster", "fastest", "most fast"],
+      "answerIndex": 2,
+      "explanation": "Superlativo: The fastest (el más rápido)."
+    },
+    {
+      "id": "adm-a2-w12-ex60",
+      "type": "fillBlanks",
+      "prompt": "[blank] banking uses APIs to share financial data.",
+      "answers": ["Open"],
+      "explanation": "Open banking (Banca abierta)."
+    },
+    {
+      "id": "adm-a2-w12-ex61",
+      "type": "fillBlanks",
+      "prompt": "Digital [blank] is the process of registering and verifying new customers.",
+      "answers": ["onboarding"],
+      "explanation": "Digital onboarding (registro digital)."
+    },
+    {
+      "id": "adm-a2-w12-ex62",
+      "type": "fillBlanks",
+      "prompt": "A [blank] card can be frozen instantly from the mobile app.",
+      "answers": ["virtual"],
+      "explanation": "Virtual card (tarjeta virtual)."
+    },
+    {
+      "id": "adm-a2-w12-ex63",
+      "type": "fillBlanks",
+      "prompt": "They [blank] launching a new investment tool next quarter.",
+      "answers": ["are"],
+      "explanation": "They are launching (están lanzando/lanzarán)."
+    },
+    {
+      "id": "adm-a2-w12-ex64",
+      "type": "fillBlanks",
+      "prompt": "We have been using this platform [blank] three months.",
+      "answers": ["for"],
+      "explanation": "For + periodo de tiempo (tres meses)."
+    },
+    {
+      "id": "adm-a2-w12-ex65",
+      "type": "fillBlanks",
+      "prompt": "I [blank] my password yesterday to improve security.",
+      "answers": ["changed"],
+      "explanation": "Pasado simple: I changed (cambié)."
+    },
+    {
+      "id": "adm-a2-w12-ex66",
+      "type": "fillBlanks",
+      "prompt": "[blank] finance uses blockchain to remove intermediaries.",
+      "answers": ["Decentralized"],
+      "explanation": "Decentralized finance (finanzas descentralizadas)."
+    },
+    {
+      "id": "adm-a2-w12-ex67",
+      "type": "fillBlanks",
+      "prompt": "You [blank] verify your identity with a selfie and a document.",
+      "answers": ["must"],
+      "explanation": "Obligación: You must (debes)."
+    },
+    {
+      "id": "adm-a2-w12-ex68",
+      "type": "fillBlanks",
+      "prompt": "This is the [blank] yield we have seen this year.",
+      "answers": ["highest"],
+      "explanation": "Superlativo: The highest (el más alto)."
+    },
+    {
+      "id": "adm-a2-w12-ex69",
+      "type": "fillBlanks",
+      "prompt": "AI-driven [blank] helps banks offer custom financial advice.",
+      "answers": ["personalization"],
+      "explanation": "Personalization (personalización)."
+    },
+    {
+      "id": "adm-a2-w12-ex70",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "we must improve our cybersecurity protocols",
+      "explanation": "Debemos mejorar nuestros protocolos de ciberseguridad."
+    },
+    {
+      "id": "adm-a2-w12-ex71",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "have you ever invested in green fintech?",
+      "explanation": "¿Alguna vez has invertido en fintech verde?"
+    },
+    {
+      "id": "adm-a2-w12-ex72",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "the bank is using AI for data analysis",
+      "explanation": "El banco está usando IA para el análisis de datos."
+    },
+    {
+      "id": "adm-a2-w12-ex73",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "she has had a high credit score since last year",
+      "explanation": "Ella ha tenido una puntuación crediticia alta desde el año pasado."
+    },
+    {
+      "id": "adm-a2-w12-ex74",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "they are going to diversify their assets next month",
+      "explanation": "Van a diversificar sus activos el próximo mes."
+    },
+    {
+      "id": "adm-a2-w12-ex75",
       "type": "crossword",
       "title": "Trimester Review Crossword",
       "instructions": "Complete the crossword puzzle with terms from the trimester.",
@@ -404,10 +589,10 @@
         },
         {
           "word": "YIELD",
-          "clue": "Earnings from an investment.",
+          "clue": "The income return on an investment.",
           "direction": "across",
           "row": 7,
-          "col": 2
+          "col": 1
         }
       ]
     }

@@ -1,30 +1,24 @@
 {
-  "title": "Digital Balances & Security Limits",
+  "title": "Semana 17: Preguntas y Negaciones en la Oficina",
   "sections": [
     {
-      "id": "large-numbers",
-      "title": "Large Numbers in Banking",
-      "content": "In digital banking, we often see large numbers for balances and limits.\n\n- **100**: One hundred\n- **1,000**: One thousand\n- **10,000**: Ten thousand\n- **100,000**: One hundred thousand\n- **1,000,000**: One million\n\n*Note: In English, we use a comma (,) for thousands and a point (.) for decimals.*"
+      "id": "grammar-negative",
+      "title": "Gramática: Presente Simple (Negativo)",
+      "content": "Para decir que NO hacemos algo, usamos el auxiliar **do not (don't)** o **does not (doesn't)**:\n\n1. **I / You / We / They**: Usamos **don't** + verbo.\n   - *I **don't** work on Saturdays.*\n   - *We **don't** have the keys.*\n\n2. **He / She / It**: Usamos **doesn't** + verbo (¡el verbo ya no lleva -s!).\n   - *She **doesn't** check the emails.*\n   - *He **doesn't** finish at 5 PM.*"
     },
     {
-      "id": "security-limits",
-      "title": "Security Limits & Balances",
-      "content": "Modern apps have limits to protect your money.\n\n- **Balance**: The total money in your account.\n- **Daily Limit**: The maximum you can spend in 24 hours.\n- **Transfer Limit**: The maximum amount for one payment.\n- **How much is the limit?**: ¿Cuál es el límite?\n- **My balance is...**: Mi saldo es..."
-    },
-    {
-      "id": "diagram-security",
-      "title": "Security Logic",
-      "content": "```mermaid\ngraph TD\n    A[User Request] --> B{Amount < Limit?}\n    B -- Yes --> C[Transaction Approved]\n    B -- No --> D[Transaction Declined]\n    D --> E[Check Security Settings]\n```"
+      "id": "grammar-interrogative",
+      "title": "Gramática: Presente Simple (Interrogativo)",
+      "content": "Para hacer preguntas, colocamos el auxiliar **Do** o **Does** al principio:\n\n1. **Do** + I / you / we / they + verbo?\n   - ***Do** you work here?*\n   - ***Do** they speak English?*\n\n2. **Does** + he / she / it + verbo? (¡el verbo ya no lleva -s!).\n   - ***Does** she write reports?*\n   - ***Does** the printer work?*"
     }
   ],
   "objectives": [
-    "Read large numbers (thousands and millions) in a banking context",
-    "Identify 'Balance' and 'Limit' on a digital screen",
-    "Ask about transaction limits using 'How much'"
+    "Construir oraciones negativas en Presente Simple",
+    "Realizar preguntas básicas sobre tareas de oficina",
+    "Responder preguntas de forma corta (Yes, I do / No, I don't)"
   ],
   "keyTerms": [
-    { "term": "Balance", "definition": "The amount of money currently in a bank account." },
-    { "term": "Limit", "definition": "The maximum amount of money allowed for a transaction." },
-    { "term": "Thousand", "definition": "The number 1,000." }
+    { "term": "Assistant", "definition": "A person who helps in an office." },
+    { "term": "Meeting", "definition": "An event where people talk about work." }
   ]
 }

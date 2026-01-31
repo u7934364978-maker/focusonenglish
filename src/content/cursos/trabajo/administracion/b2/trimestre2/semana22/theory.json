@@ -10,6 +10,21 @@
       "id": "grammar",
       "title": "Concession & Contrast",
       "content": "Advanced concession and contrast structures allow for nuanced arguments in business reports and negotiations.\n\n- **Albeit**: Means 'although' or 'even though', usually followed by an adjective or a phrase, not a full clause.\n  *Example:* \"The project was successful, **albeit** slightly over budget.\"\n- **Notwithstanding**: Means 'despite' or 'in spite of'. It can be used before or after the noun it modifies.\n  *Example:* \"**Notwithstanding** the logistical delays, the shipment arrived on time.\"\n- **Much as**: Used like 'although' to emphasize a strong contrast.\n  *Example:* \"**Much as** we would like to expand into Asia, the current economic climate is too volatile.\"\n- **Even so**: Used to introduce a statement that contrasts with what was just said (similar to 'nevertheless').\n  *Example:* \"The tariffs have increased. **Even so**, our sales remain strong.\"\n- **In spite of / Despite**: Followed by a noun or -ing form.\n  *Example:* \"**Despite** the trade barriers, we achieved record exports.\""
+    },
+    {
+      "id": "supply-chain",
+      "title": "Supply Chain Resilience & Risk Management",
+      "content": "Modern logistics focuses on resilience to withstand global disruptions such as pandemics, geopolitical tensions, or natural disasters.\n\n- **Just-in-Time (JIT)**: An inventory management method in which goods are received from suppliers only as they are needed.\n- **Just-in-Case (JIC)**: A strategy where companies keep large inventories on hand to avoid stockouts during supply chain disruptions.\n- **Diversification**: The process of sourcing from multiple suppliers or regions to reduce dependency on a single source.\n- **Bottleneck**: A point of congestion in a production system that stops or slows down the entire process."
+    },
+    {
+      "id": "sustainability",
+      "title": "Green Logistics & Sustainability",
+      "content": "Sustainability in logistics involves reducing the environmental impact of shipping and storage.\n\n- **Last-Mile Delivery**: The final stage of the delivery process from a distribution centre to the end user, often the most expensive and least eco-friendly part.\n- **Reverse Logistics**: The process of moving goods from their final destination back to the seller or manufacturer for returns, repairs, or recycling.\n- **Carbon Offsetting**: The practice of compensating for carbon dioxide emissions by participating in schemes designed to make equivalent reductions of carbon dioxide in the atmosphere.\n- **Modal Shift**: Switching from a less efficient transport mode (like air freight) to a more sustainable one (like rail or sea)."
+    },
+    {
+      "id": "ecommerce",
+      "title": "Cross-Border E-commerce Challenges",
+      "content": "E-commerce has transformed international trade, introducing new administrative and logistical hurdles.\n\n- **VAT & Duties**: Taxes and fees applied to international shipments that varies significantly by country.\n- **Localisation**: Adapting a product or service to a specific local market, including language, currency, and cultural preferences.\n- **Fulfillment Centre**: A third-party warehouse that handles the receiving, processing, and shipping of online orders.\n- **Third-Party Logistics (3PL)**: Outsourcing ecommerce logistics processes to a third-party business, including inventory management, warehousing, and fulfillment."
     }
   ],
   "objectives": [

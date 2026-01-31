@@ -6,380 +6,571 @@
   "title": "Salarios e Impuestos",
   "items": [
     {
-      "id": "fin-a2-w18-1",
+      "id": "adm-a2-w18-ex01",
       "type": "multipleChoice",
       "prompt": "Your ______ salary is the money you earn before taxes.",
-      "options": ["net", "gross", "bonus"],
+      "options": ["net", "gross", "bonus", "tax"],
       "answerIndex": 1,
       "explanation": "El salario bruto (gross salary) es el total antes de que se resten los impuestos."
     },
     {
-      "id": "fin-a2-w18-2",
+      "id": "adm-a2-w18-ex02",
       "type": "multipleChoice",
       "prompt": "I receive my ______ every month to see my salary details.",
-      "options": ["payslip", "tax", "budget"],
+      "options": ["payslip", "tax", "budget", "loan"],
       "answerIndex": 0,
       "explanation": "La nómina (payslip) es el documento donde ves los detalles de tu sueldo."
     },
     {
-      "id": "fin-a2-w18-3",
+      "id": "adm-a2-w18-ex03",
       "type": "multipleChoice",
-      "prompt": "You ______ pay your taxes on time.",
-      "options": ["shouldn't", "have to", "don't have to"],
+      "prompt": "You ______ pay your taxes on time to avoid fines.",
+      "options": ["shouldn't", "have to", "don't have to", "might"],
       "answerIndex": 1,
       "explanation": "Pagar impuestos es una obligación legal, por eso usamos 'have to'."
     },
     {
-      "id": "fin-a2-w18-4",
+      "id": "adm-a2-w18-ex04",
       "type": "multipleChoice",
       "prompt": "If you want to save money, you ______ spend all your salary.",
-      "options": ["should", "have to", "shouldn't"],
+      "options": ["should", "have to", "shouldn't", "must"],
       "answerIndex": 2,
       "explanation": "Es un consejo negativo: no deberías gastar todo tu sueldo."
     },
     {
-      "id": "fin-a2-w18-5",
+      "id": "adm-a2-w18-ex05",
       "type": "multipleChoice",
       "prompt": "My ______ salary is what I actually see in my bank account.",
-      "options": ["gross", "net", "tax"],
+      "options": ["gross", "net", "tax", "debt"],
       "answerIndex": 1,
       "explanation": "El salario neto (net salary) es lo que recibes después de impuestos."
     },
     {
-      "id": "fin-a2-w18-6",
-      "type": "fillBlanks",
-      "prompt": "Employees [blank] to pay income tax.",
-      "answers": ["have"],
-      "explanation": "Usamos 'have to' para expresar una obligación."
+      "id": "adm-a2-w18-ex06",
+      "type": "fillInTheBlank",
+      "prompt": "Employees ________ to pay income tax in most countries.",
+      "answer": "have",
+      "explanation": "Usamos 'have to' para expresar una obligación legal."
     },
     {
-      "id": "fin-a2-w18-7",
-      "type": "fillBlanks",
-      "prompt": "You [blank] check your payslip for errors.",
-      "answers": ["should"],
-      "explanation": "Es un buen consejo revisar la nómina."
+      "id": "adm-a2-w18-ex07",
+      "type": "fillInTheBlank",
+      "prompt": "You ________ check your payslip for any errors every month.",
+      "answer": "should",
+      "explanation": "Es un buen consejo (should) revisar la nómina mensualmente."
     },
     {
-      "id": "fin-a2-w18-8",
-      "type": "reorder",
-      "prompt": "Reorder the sentence about taxes:",
+      "id": "adm-a2-w18-ex08",
+      "type": "wordOrdering",
+      "prompt": "Order the words: have / to / You / pay / taxes",
       "sentence": "You have to pay taxes",
       "explanation": "Sujeto + have to + verbo + objeto."
     },
     {
-      "id": "fin-a2-w18-9",
+      "id": "adm-a2-w18-ex09",
       "type": "multipleChoice",
       "prompt": "Income ______ is the money the government takes from your salary.",
-      "options": ["bonus", "tax", "wage"],
+      "options": ["bonus", "tax", "wage", "rent"],
       "answerIndex": 1,
       "explanation": "El impuesto sobre la renta se llama 'income tax'."
     },
     {
-      "id": "fin-a2-w18-10",
+      "id": "adm-a2-w18-ex10",
       "type": "multipleChoice",
       "prompt": "He got a ______ because he worked very hard this year.",
-      "options": ["tax", "bonus", "payslip"],
+      "options": ["tax", "bonus", "payslip", "fine"],
       "answerIndex": 1,
-      "explanation": "Un 'bonus' es una paga extra o gratificación."
+      "explanation": "Un 'bonus' es una paga extra o gratificación por el trabajo."
     },
     {
-      "id": "fin-a2-w18-11",
-      "type": "fillBlanks",
-      "prompt": "Does she [blank] to pay taxes in this country?",
-      "answers": ["have"],
-      "explanation": "En preguntas usamos 'Does ... have to'."
+      "id": "adm-a2-w18-ex11",
+      "type": "fillInTheBlank",
+      "prompt": "Does she ________ to pay taxes in this country?",
+      "answer": "have",
+      "explanation": "En preguntas con 'Does', usamos la forma base 'have to'."
     },
     {
-      "id": "fin-a2-w18-12",
+      "id": "adm-a2-w18-ex12",
       "type": "multipleChoice",
       "prompt": "You ______ save 10% of your net salary every month.",
-      "options": ["should", "have to", "don't have to"],
+      "options": ["should", "have to", "don't have to", "mustn't"],
       "answerIndex": 0,
       "explanation": "Es un consejo financiero, por eso usamos 'should'."
     },
     {
-      "id": "fin-a2-w18-13",
-      "type": "reorder",
-      "prompt": "Reorder the advice:",
+      "id": "adm-a2-w18-ex13",
+      "type": "wordOrdering",
+      "prompt": "Order the words: should / check / gross / You / salary / the",
       "sentence": "You should check the gross salary",
       "explanation": "Sujeto + should + verbo + objeto."
     },
     {
-      "id": "fin-a2-w18-14",
+      "id": "adm-a2-w18-ex14",
       "type": "multipleChoice",
       "prompt": "A ______ is a fixed amount of money you get every month.",
-      "options": ["wage", "salary", "bonus"],
+      "options": ["wage", "salary", "bonus", "tip"],
       "answerIndex": 1,
-      "explanation": "Un 'salary' suele referirse a una cantidad fija mensual."
+      "explanation": "Un 'salary' suele ser una cantidad fija mensual."
     },
     {
-      "id": "fin-a2-w18-15",
-      "type": "fillBlanks",
-      "prompt": "We [blank] not spend more than we earn.",
-      "answers": ["should"],
+      "id": "adm-a2-w18-ex15",
+      "type": "fillInTheBlank",
+      "prompt": "We ________ not spend more than we earn.",
+      "answer": "should",
       "explanation": "'Should not' (o shouldn't) se usa para dar consejos negativos."
     },
     {
-      "id": "fin-a2-w18-16",
+      "id": "adm-a2-w18-ex16",
       "type": "multipleChoice",
       "prompt": "I don't understand my ______. Where is the tax deduction?",
-      "options": ["payslip", "bonus", "salary"],
+      "options": ["payslip", "bonus", "salary", "loan"],
       "answerIndex": 0,
-      "explanation": "Las deducciones se ven en la nómina (payslip)."
+      "explanation": "Las deducciones e impuestos se detallan en la nómina (payslip)."
     },
     {
-      "id": "fin-a2-w18-17",
-      "type": "reorder",
-      "prompt": "Reorder the obligation:",
+      "id": "adm-a2-w18-ex17",
+      "type": "wordOrdering",
+      "prompt": "Order the words: contract / to / sign / have / the / I",
       "sentence": "I have to sign the contract",
       "explanation": "Sujeto + have to + verbo + objeto."
     },
     {
-      "id": "fin-a2-w18-18",
+      "id": "adm-a2-w18-ex18",
       "type": "multipleChoice",
-      "prompt": "The company ______ pay the employees on the 30th of every month.",
-      "options": ["should", "has to", "shouldn't"],
+      "prompt": "The company ______ pay the employees on the last day of the month.",
+      "options": ["should", "has to", "shouldn't", "don't"],
       "answerIndex": 1,
-      "explanation": "Es una obligación de la empresa, usamos 'has to' (tercera persona)."
+      "explanation": "Es una obligación contractual, usamos 'has to' para la empresa."
     },
     {
-      "id": "fin-a2-w18-19",
-      "type": "fillBlanks",
-      "prompt": "The [blank] salary is lower than the gross salary.",
-      "answers": ["net"],
-      "explanation": "El salario neto siempre es menor que el bruto tras los impuestos."
+      "id": "adm-a2-w18-ex19",
+      "type": "fillInTheBlank",
+      "prompt": "The ________ salary is always lower than the gross salary.",
+      "answer": "net",
+      "explanation": "El salario neto siempre es menor tras los impuestos."
     },
     {
-      "id": "fin-a2-w18-20",
+      "id": "adm-a2-w18-ex20",
       "type": "multipleChoice",
-      "prompt": "You ______ pay a lot of taxes if your salary is high.",
-      "options": ["have to", "should", "don't have to"],
+      "prompt": "You ______ pay a lot of taxes if your salary is very high.",
+      "options": ["have to", "should", "don't have to", "might not"],
       "answerIndex": 0,
-      "explanation": "Es una obligación legal proporcional al salario."
+      "explanation": "Es una obligación legal proporcional al ingreso."
     },
     {
-      "id": "fin-a2-w18-21",
-      "type": "reorder",
-      "prompt": "Reorder the negative advice:",
+      "id": "adm-a2-w18-ex21",
+      "type": "wordOrdering",
+      "prompt": "Order the words: shouldn't / your / lose / You / payslip",
       "sentence": "You shouldn't lose your payslip",
       "explanation": "Sujeto + shouldn't + verbo + objeto."
     },
     {
-      "id": "fin-a2-w18-22",
-      "type": "fillBlanks",
-      "prompt": "Gross salary - Taxes = [blank] salary.",
-      "answers": ["Net"],
-      "explanation": "La resta del bruto menos impuestos da el neto."
+      "id": "adm-a2-w18-ex22",
+      "type": "fillInTheBlank",
+      "prompt": "Gross salary minus taxes equals ________ salary.",
+      "answer": "net",
+      "explanation": "El resultado final tras las deducciones es el sueldo neto."
     },
     {
-      "id": "fin-a2-w18-23",
+      "id": "adm-a2-w18-ex23",
       "type": "multipleChoice",
       "prompt": "Do you ______ pay for your own health insurance?",
-      "options": ["have to", "should", "has to"],
+      "options": ["have to", "should", "has to", "are"],
       "answerIndex": 0,
-      "explanation": "En preguntas con 'Do you', usamos 'have to'."
+      "explanation": "En preguntas con 'Do you', se usa 'have to' para obligaciones."
     },
     {
-      "id": "fin-a2-w18-24",
-      "type": "fillBlanks",
-      "prompt": "You [blank] ask for a pay rise if you work hard.",
-      "answers": ["should"],
-      "explanation": "Es un consejo sobre lo que sería bueno hacer."
+      "id": "adm-a2-w18-ex24",
+      "type": "fillInTheBlank",
+      "prompt": "You ________ ask for a pay rise if you work hard.",
+      "answer": "should",
+      "explanation": "Es una sugerencia o consejo razonable."
     },
     {
-      "id": "fin-a2-w18-25",
+      "id": "adm-a2-w18-ex25",
       "type": "multipleChoice",
-      "prompt": "I'm happy because I got a Christmas ______.",
-      "options": ["tax", "bonus", "payslip"],
+      "prompt": "I'm happy because I got a Christmas ______ this year.",
+      "options": ["tax", "bonus", "payslip", "debt"],
       "answerIndex": 1,
-      "explanation": "El bonus de Navidad es común en muchas empresas."
+      "explanation": "La gratificación de Navidad es un 'bonus'."
     },
     {
-      "id": "fin-a2-w18-26",
-      "type": "reorder",
-      "prompt": "Reorder the question:",
+      "id": "adm-a2-w18-ex26",
+      "type": "wordOrdering",
+      "prompt": "Order the words: tax / have / I / pay / Do / to / ?",
       "sentence": "Do I have to pay tax?",
-      "explanation": "Auxiliar + Sujeto + have to + verbo + objeto?"
+      "explanation": "Estructura de pregunta: Auxiliar + Sujeto + have to + verbo."
     },
     {
-      "id": "fin-a2-w18-27",
+      "id": "adm-a2-w18-ex27",
       "type": "multipleChoice",
-      "prompt": "We ______ waste our money on things we don't need.",
-      "options": ["should", "shouldn't", "have to"],
+      "prompt": "We ______ waste our money on things we don't really need.",
+      "options": ["should", "shouldn't", "have to", "must"],
       "answerIndex": 1,
-      "explanation": "Consejo negativo sobre el gasto innecesario."
+      "explanation": "Consejo financiero: no deberíamos (shouldn't) malgastar dinero."
     },
     {
-      "id": "fin-a2-w18-28",
-      "type": "fillBlanks",
-      "prompt": "Is the [blank] salary before or after taxes?",
-      "answers": ["gross"],
-      "explanation": "El salario 'gross' es antes de impuestos."
+      "id": "adm-a2-w18-ex28",
+      "type": "fillInTheBlank",
+      "prompt": "The ________ salary is the total before any deductions.",
+      "answer": "gross",
+      "explanation": "El salario bruto es el total inicial sin descuentos."
     },
     {
-      "id": "fin-a2-w18-29",
+      "id": "adm-a2-w18-ex29",
       "type": "multipleChoice",
-      "prompt": "You ______ tell the bank if you change your address.",
-      "options": ["should", "has to", "don't have to"],
+      "prompt": "You ______ tell the bank if you change your home address.",
+      "options": ["should", "has to", "don't have to", "doesn't"],
       "answerIndex": 0,
-      "explanation": "Es un consejo importante para recibir correspondencia."
+      "explanation": "Es un consejo importante por seguridad y comunicación."
     },
     {
-      "id": "fin-a2-w18-30",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Taxes are important for the country",
-      "explanation": "Los impuestos son importantes para el país."
+      "id": "adm-a2-w18-ex30",
+      "type": "wordOrdering",
+      "prompt": "Order the words: taxes / The / build / hospitals / pay / for",
+      "sentence": "The taxes pay for hospitals",
+      "explanation": "Sujeto + verbo + complemento."
     },
     {
-      "id": "fin-a2-w18-31",
+      "id": "adm-a2-w18-ex31",
       "type": "multipleChoice",
-      "prompt": "The government uses our ______ to build hospitals.",
-      "options": ["bonuses", "taxes", "payslips"],
+      "prompt": "The government uses our ______ to build roads and schools.",
+      "options": ["bonuses", "taxes", "payslips", "wages"],
       "answerIndex": 1,
-      "explanation": "Los impuestos (taxes) financian los servicios públicos."
+      "explanation": "Los impuestos (taxes) financian la infraestructura pública."
     },
     {
-      "id": "fin-a2-w18-32",
-      "type": "fillBlanks",
-      "prompt": "I [blank] to pay my rent every month.",
-      "answers": ["have"],
-      "explanation": "Pagar el alquiler es una obligación."
+      "id": "adm-a2-w18-ex32",
+      "type": "fillInTheBlank",
+      "prompt": "I ________ to pay my rent on the first day of every month.",
+      "answer": "have",
+      "explanation": "Pagar el alquiler es una obligación (have to)."
     },
     {
-      "id": "fin-a2-w18-33",
+      "id": "adm-a2-w18-ex33",
       "type": "multipleChoice",
       "prompt": "My ______ is 2,000 euros, but I only receive 1,600.",
-      "options": ["net salary", "gross salary", "bonus"],
+      "options": ["net salary", "gross salary", "bonus", "tax"],
       "answerIndex": 1,
-      "explanation": "Si recibe menos de lo que dice la cifra principal, es que esa cifra es el bruto."
+      "explanation": "Si recibes menos de la cifra nominal, esa cifra es el bruto."
     },
     {
-      "id": "fin-a2-w18-34",
-      "type": "reorder",
-      "prompt": "Reorder the advice:",
+      "id": "adm-a2-w18-ex34",
+      "type": "wordOrdering",
+      "prompt": "Order the words: should / for / future / save / You / the",
       "sentence": "You should save for the future",
-      "explanation": "Consejo: deberías ahorrar para el futuro."
+      "explanation": "Consejo financiero estándar."
     },
     {
-      "id": "fin-a2-w18-35",
+      "id": "adm-a2-w18-ex35",
       "type": "multipleChoice",
-      "prompt": "Do you ______ work on weekends?",
-      "options": ["should", "have to", "has to"],
+      "prompt": "Do you ______ work on weekends in your current job?",
+      "options": ["should", "have to", "has to", "are"],
       "answerIndex": 1,
-      "explanation": "Pregunta sobre obligación laboral."
+      "explanation": "Pregunta sobre obligaciones laborales."
     },
     {
-      "id": "fin-a2-w18-36",
-      "type": "fillBlanks",
-      "prompt": "You [blank] not pay for this service; it is free.",
-      "answers": ["have"],
-      "explanation": "'Don't have to' (aunque aquí se pide 'have' para completar 'don't have to')."
+      "id": "adm-a2-w18-ex36",
+      "type": "fillInTheBlank",
+      "prompt": "You don't ________ to pay for this service; it is free.",
+      "answer": "have",
+      "explanation": "'Don't have to' indica que no hay obligación."
     },
     {
-      "id": "fin-a2-w18-37",
+      "id": "adm-a2-w18-ex37",
       "type": "multipleChoice",
-      "prompt": "A ______ is usually paid weekly or hourly.",
-      "options": ["salary", "wage", "tax"],
+      "prompt": "A ______ is usually paid weekly or according to hours worked.",
+      "options": ["salary", "wage", "tax", "bonus"],
       "answerIndex": 1,
-      "explanation": "'Wage' suele referirse a pagos por horas o semanas."
+      "explanation": "'Wage' suele referirse al pago por horas o semanas."
     },
     {
-      "id": "fin-a2-w18-38",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
+      "id": "adm-a2-w18-ex38",
+      "type": "wordOrdering",
+      "prompt": "Order the words: work / to / have / doesn't / today / He",
       "sentence": "He doesn't have to work today",
-      "explanation": "No tiene que trabajar hoy (falta de obligación)."
+      "explanation": "Indica ausencia de obligación."
     },
     {
-      "id": "fin-a2-w18-39",
+      "id": "adm-a2-w18-ex39",
       "type": "multipleChoice",
-      "prompt": "You ______ talk to a financial advisor.",
-      "options": ["should", "have to", "shouldn't"],
+      "prompt": "You ______ talk to a financial advisor if you have many debts.",
+      "options": ["should", "have to", "shouldn't", "has to"],
       "answerIndex": 0,
-      "explanation": "Es un buen consejo, por eso usamos 'should'."
+      "explanation": "Es una sugerencia profesional (should)."
     },
     {
-      "id": "fin-a2-w18-40",
-      "type": "fillBlanks",
-      "prompt": "I need a copy of my [blank] for the bank.",
-      "answers": ["payslip"],
-      "explanation": "El banco suele pedir la nómina para préstamos."
+      "id": "adm-a2-w18-ex40",
+      "type": "fillInTheBlank",
+      "prompt": "I need a copy of my ________ for the bank loan application.",
+      "answer": "payslip",
+      "explanation": "El banco pide la nómina (payslip) como garantía."
     },
     {
-      "id": "fin-a2-w18-41",
+      "id": "adm-a2-w18-ex41",
       "type": "multipleChoice",
       "prompt": "The total amount of money you earn is your ______ income.",
-      "options": ["net", "tax", "gross"],
+      "options": ["net", "tax", "gross", "final"],
       "answerIndex": 2,
-      "explanation": "El ingreso total antes de deducciones es 'gross income'."
+      "explanation": "El ingreso total antes de descuentos es 'gross income'."
     },
     {
-      "id": "fin-a2-w18-42",
-      "type": "reorder",
-      "prompt": "Reorder the advice:",
-      "sentence": "You should compare different bank accounts",
-      "explanation": "Consejo: deberías comparar cuentas bancarias."
+      "id": "adm-a2-w18-ex42",
+      "type": "wordOrdering",
+      "prompt": "Order the words: compare / bank / You / should / accounts",
+      "sentence": "You should compare bank accounts",
+      "explanation": "Consejo para elegir la mejor opción."
     },
     {
-      "id": "fin-a2-w18-43",
+      "id": "adm-a2-w18-ex43",
       "type": "multipleChoice",
-      "prompt": "In some jobs, you ______ wear a uniform.",
-      "options": ["should", "have to", "shouldn't"],
+      "prompt": "In some jobs, you ______ wear a uniform for safety.",
+      "options": ["should", "have to", "shouldn't", "don't"],
       "answerIndex": 1,
-      "explanation": "Si es una regla del trabajo, es 'have to'."
+      "explanation": "Si es una norma del trabajo, es una obligación (have to)."
     },
     {
-      "id": "fin-a2-w18-44",
-      "type": "fillBlanks",
-      "prompt": "We [blank] pay our bills every month.",
-      "answers": ["have"],
-      "explanation": "Pagar las facturas es una obligación."
+      "id": "adm-a2-w18-ex44",
+      "type": "fillInTheBlank",
+      "prompt": "We ________ to pay our bills before the deadline.",
+      "answer": "have",
+      "explanation": "Pagar facturas es una obligación (have to)."
     },
     {
-      "id": "fin-a2-w18-45",
+      "id": "adm-a2-w18-ex45",
       "type": "multipleChoice",
-      "prompt": "You ______ use a credit card for everything.",
-      "options": ["should", "shouldn't", "have to"],
+      "prompt": "You ______ use a credit card if you cannot pay it back later.",
+      "options": ["should", "shouldn't", "have to", "must"],
       "answerIndex": 1,
-      "explanation": "Consejo negativo: no deberías usar la tarjeta para todo."
+      "explanation": "Consejo preventivo para evitar deudas."
     },
     {
-      "id": "fin-a2-w18-46",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
+      "id": "adm-a2-w18-ex46",
+      "type": "wordOrdering",
+      "prompt": "Order the words: my / is / net / My / salary / account / in",
       "sentence": "My net salary is in my account",
-      "explanation": "Mi salario neto está en mi cuenta."
+      "explanation": "El salario neto es lo que se deposita finalmente."
     },
     {
-      "id": "fin-a2-w18-47",
+      "id": "adm-a2-w18-ex47",
       "type": "multipleChoice",
-      "prompt": "If you don't pay your ______, you might have legal problems.",
-      "options": ["taxes", "bonuses", "payslips"],
+      "prompt": "If you don't pay your ______, you might face legal consequences.",
+      "options": ["taxes", "bonuses", "payslips", "holidays"],
       "answerIndex": 0,
-      "explanation": "No pagar impuestos conlleva problemas legales."
+      "explanation": "El impago de impuestos (taxes) es un delito."
     },
     {
-      "id": "fin-a2-w18-48",
-      "type": "fillBlanks",
-      "prompt": "Does he [blank] to go to the office?",
-      "answers": ["have"],
-      "explanation": "Pregunta con 'Does ... have to'."
+      "id": "adm-a2-w18-ex48",
+      "type": "fillInTheBlank",
+      "prompt": "Does he ________ to go to the office every day?",
+      "answer": "have",
+      "explanation": "Estructura de pregunta con 'Does ... have to'."
     },
     {
-      "id": "fin-a2-w18-49",
+      "id": "adm-a2-w18-ex49",
       "type": "multipleChoice",
-      "prompt": "You ______ always read the small print in contracts.",
-      "options": ["should", "shouldn't", "don't have to"],
+      "prompt": "You ______ always read the small print in any contract.",
+      "options": ["should", "shouldn't", "don't have to", "mustn't"],
       "answerIndex": 0,
-      "explanation": "Es un consejo muy importante."
+      "explanation": "Es un consejo de precaución fundamental."
     },
     {
-      "id": "fin-a2-w18-50",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
+      "id": "adm-a2-w18-ex50",
+      "type": "wordOrdering",
+      "prompt": "Order the words: want / higher / I / a / salary",
       "sentence": "I want a higher salary",
-      "explanation": "Quiero un salario más alto."
+      "explanation": "Deseo común de mejora económica."
+    },
+    {
+      "id": "adm-a2-w18-ex51",
+      "type": "multipleChoice",
+      "prompt": "Is your ______ salary enough to cover all your expenses?",
+      "options": ["net", "gross", "tax", "bonus"],
+      "answerIndex": 0,
+      "explanation": "El salario neto (net) es lo disponible para gastos."
+    },
+    {
+      "id": "adm-a2-w18-ex52",
+      "type": "multipleChoice",
+      "prompt": "Many people ______ to pay social security contributions.",
+      "options": ["should", "have", "mustn't", "can"],
+      "answerIndex": 1,
+      "explanation": "Es una obligación (have to)."
+    },
+    {
+      "id": "adm-a2-w18-ex53",
+      "type": "fillInTheBlank",
+      "prompt": "I get my ________ by email every month.",
+      "answer": "payslip",
+      "explanation": "La nómina electrónica es muy común."
+    },
+    {
+      "id": "adm-a2-w18-ex54",
+      "type": "fillInTheBlank",
+      "prompt": "He ________ save money for his retirement.",
+      "answer": "should",
+      "explanation": "Es un consejo prudente para el futuro."
+    },
+    {
+      "id": "adm-a2-w18-ex55",
+      "type": "wordOrdering",
+      "prompt": "Order the words: gross / My / is / salary / 3000 / euros",
+      "sentence": "My gross salary is 3000 euros",
+      "explanation": "Cifra total antes de impuestos."
+    },
+    {
+      "id": "adm-a2-w18-ex56",
+      "type": "multipleChoice",
+      "prompt": "The ______ rate changed this year.",
+      "options": ["tax", "bonus", "payslip", "gift"],
+      "answerIndex": 0,
+      "explanation": "El tipo o tasa impositiva (tax rate)."
+    },
+    {
+      "id": "adm-a2-w18-ex57",
+      "type": "multipleChoice",
+      "prompt": "You ______ spend more than your monthly income.",
+      "options": ["should", "shouldn't", "have to", "must"],
+      "answerIndex": 1,
+      "explanation": "Consejo básico de economía personal."
+    },
+    {
+      "id": "adm-a2-w18-ex58",
+      "type": "fillInTheBlank",
+      "prompt": "We ________ to sign the new agreement tomorrow.",
+      "answer": "have",
+      "explanation": "Obligación de firmar (have to)."
+    },
+    {
+      "id": "adm-a2-w18-ex59",
+      "type": "fillInTheBlank",
+      "prompt": "You ________ not pay anything today.",
+      "answer": "don't",
+      "explanation": "'Don't have to' indica que no es obligatorio pagar."
+    },
+    {
+      "id": "adm-a2-w18-ex60",
+      "type": "wordOrdering",
+      "prompt": "Order the words: high / pay / We / taxes",
+      "sentence": "We pay high taxes",
+      "explanation": "Sujeto + verbo + objeto."
+    },
+    {
+      "id": "adm-a2-w18-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is 'payslip' in Spanish?",
+      "options": ["Nómina", "Impuesto", "Ahorro", "Deuda"],
+      "answerIndex": 0,
+      "explanation": "La nómina es el recibo de salarios."
+    },
+    {
+      "id": "adm-a2-w18-ex62",
+      "type": "multipleChoice",
+      "prompt": "What is 'gross' in terms of salary?",
+      "options": ["Bruto", "Neto", "Pequeño", "Falso"],
+      "answerIndex": 0,
+      "explanation": "El salario bruto es el total sin deducciones."
+    },
+    {
+      "id": "adm-a2-w18-ex63",
+      "type": "fillInTheBlank",
+      "prompt": "Income tax is a ________ deduction.",
+      "answer": "legal",
+      "explanation": "Es una deducción obligatoria por ley."
+    },
+    {
+      "id": "adm-a2-w18-ex64",
+      "type": "fillInTheBlank",
+      "prompt": "Does she ________ a bonus every year?",
+      "answer": "get",
+      "explanation": "Pregunta simple sobre recibir un bono."
+    },
+    {
+      "id": "adm-a2-w18-ex65",
+      "type": "wordOrdering",
+      "prompt": "Order the words: have / I / taxes / pay / to",
+      "sentence": "I have to pay taxes",
+      "explanation": "Obligación personal."
+    },
+    {
+      "id": "adm-a2-w18-ex66",
+      "type": "multipleChoice",
+      "prompt": "You ______ check your bank balance frequently.",
+      "options": ["should", "shouldn't", "have to", "has to"],
+      "answerIndex": 0,
+      "explanation": "Es un buen hábito sugerido (should)."
+    },
+    {
+      "id": "adm-a2-w18-ex67",
+      "type": "multipleChoice",
+      "prompt": "The ______ for the late payment was 50 euros.",
+      "options": ["fine", "bonus", "payslip", "gift"],
+      "answerIndex": 0,
+      "explanation": "Una 'fine' es una multa por retraso."
+    },
+    {
+      "id": "adm-a2-w18-ex68",
+      "type": "fillInTheBlank",
+      "prompt": "You ________ (not) forget to include your tax ID.",
+      "answer": "shouldn't",
+      "explanation": "Consejo negativo: no deberías olvidar."
+    },
+    {
+      "id": "adm-a2-w18-ex69",
+      "type": "fillInTheBlank",
+      "prompt": "We ________ to follow the company rules.",
+      "answer": "have",
+      "explanation": "Obligación de seguir las normas."
+    },
+    {
+      "id": "adm-a2-w18-ex70",
+      "type": "wordOrdering",
+      "prompt": "Order the words: is / net / This / my / salary",
+      "sentence": "This is my net salary",
+      "explanation": "Identificación del sueldo final."
+    },
+    {
+      "id": "adm-a2-w18-ex71",
+      "type": "multipleChoice",
+      "prompt": "An ______ is someone who manages taxes.",
+      "options": ["accountant", "actor", "athlete", "artist"],
+      "answerIndex": 0,
+      "explanation": "Un contable (accountant) gestiona los impuestos."
+    },
+    {
+      "id": "adm-a2-w18-ex72",
+      "type": "multipleChoice",
+      "prompt": "I need to file my ______ return.",
+      "options": ["tax", "bonus", "payslip", "book"],
+      "answerIndex": 0,
+      "explanation": "La declaración de impuestos es la 'tax return'."
+    },
+    {
+      "id": "adm-a2-w18-ex73",
+      "type": "matching",
+      "prompt": "Match the terms with their meanings:",
+      "pairs": [
+        { "left": "Gross", "right": "Total before taxes" },
+        { "left": "Net", "right": "Total after taxes" },
+        { "left": "Bonus", "right": "Extra payment" },
+        { "left": "Fine", "right": "Penalty for late payment" }
+      ],
+      "explanation": "Términos financieros clave."
+    },
+    {
+      "id": "adm-a2-w18-ex74",
+      "type": "fillInTheBlank",
+      "prompt": "You ________ better save some money.",
+      "answer": "should",
+      "explanation": "Forma de dar un consejo fuerte."
+    },
+    {
+      "id": "adm-a2-w18-ex75",
+      "type": "multipleChoice",
+      "prompt": "Is the tax ______ automatically from your salary?",
+      "options": ["deducted", "added", "gifted", "sent"],
+      "answerIndex": 0,
+      "explanation": "Los impuestos suelen ser deducidos (deducted) directamente."
     }
   ]
 }

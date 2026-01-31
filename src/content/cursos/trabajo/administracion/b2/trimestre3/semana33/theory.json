@@ -17,6 +17,26 @@
       "content": "In professional contexts, we often use alternatives to 'if' to express conditions more precisely or formally.\n\n### Conditional Linkers\n- **Provided that / Providing that**: More formal than 'if'. Often used in contracts or official statements.\n  - *We will approve the budget **provided that** the ROI exceeds 15%.*\n- **As long as / So long as**: Emphasizes the duration or the strictness of the condition.\n  - ***As long as** employees feel supported, they will adapt to the new processes.*\n- **Unless**: Means 'if not' or 'except if'.\n  - *The merger will fail **unless** both cultures are successfully integrated.*\n- **On condition that**: Very formal. Used for specific agreements.\n  - *The loan was granted **on condition that** the company undergoes an audit.*\n- **Suppose / Supposing**: Used to ask about imaginary situations or to invite speculation.\n  - ***Supposing** the market crashes, what is our contingency plan?*"
     },
     {
+      "id": "change-models",
+      "title": "Models of Organizational Change",
+      "content": "To manage transitions effectively, administrators often use established frameworks:\n\n1. **Lewin’s Three-Step Model**:\n   - **Unfreeze**: Preparing the organisation to accept that change is necessary (breaking down the status quo).\n   - **Change**: The transition period where new behaviours and processes are implemented.\n   - **Refreeze**: Internalising the changes and ensuring they become the new norm.\n2. **Kotter’s 8-Step Process**: A more detailed approach focusing on creating urgency, building a guiding coalition, and anchoring new approaches in the corporate culture."
+    },
+    {
+      "id": "innovation-strategies",
+      "title": "Corporate Innovation Strategies",
+      "content": "Innovation is not just about new products; it's about processes and mindsets:\n\n- **Incremental Innovation**: Making small, continuous improvements to existing products or services (e.g., software updates).\n- **Open Innovation**: Collaborating with external partners (universities, startups) to share knowledge and develop new ideas.\n- **Intrapreneurship**: Encouraging employees to act like entrepreneurs within the company to develop new projects.\n- **R&D (Research & Development)**: The systematic activities a company undertakes to innovate and introduce new products."
+    },
+    {
+      "id": "overcoming-resistance",
+      "title": "Strategies for Overcoming Resistance",
+      "content": "Resistance is a natural human reaction to change. Administrators must use 'soft skills' to manage it:\n\n- **Transparent Communication**: Explaining the *why* behind the change reduces fear of the unknown.\n- **Employee Participation**: Involving staff in the planning process increases 'buy-in' and ownership.\n- **Training and Support**: Providing the necessary tools and coaching to handle new systems.\n- **Negotiation and Agreement**: Offering incentives to those most affected by the transition to ensure cooperation."
+    },
+    {
+      "id": "grammar-inversion",
+      "title": "Grammar: Inversion in Conditionals",
+      "content": "For a very formal tone, we can omit 'if' and use inversion (swapping the subject and the auxiliary verb):\n\n- **Should (First Conditional)**:\n  - *If you have any questions...* → ***Should you** have any questions, please contact HR.*\n- **Were (Second Conditional)**:\n  - *If we were to lose the contract...* → ***Were we** to lose the contract, we would face redundancies.*\n- **Had (Third Conditional)**:\n  - *If we had known about the risks...* → ***Had we** known about the risks, we would not have invested.*"
+    },
+    {
       "id": "deliverable",
       "title": "Weekly Deliverable: Change Management Proposal",
       "content": "Write a short proposal (150-180 words) for implementing a new remote work policy. Include:\n1. **Rational for the change**.\n2. **Potential obstacles (resistance)**.\n3. **Expected benefits**.\n4. **Grammar Focus** (Use at least three advanced conditional linkers, e.g., *provided that, unless, as long as*)."

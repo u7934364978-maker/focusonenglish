@@ -195,6 +195,150 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
     ]
   },
   A1_PREMIUM: A1_PREMIUM_CURRICULUM,
+  TRABAJO_A1: {
+    level: "A1",
+    cefr: "Principiante Pro",
+    description: "Inglés inicial enfocado 100% en el entorno laboral y profesional",
+    duration: "8-10 semanas",
+    modules: [
+      {
+        title: "Módulo 1: Presentaciones y Números en el Trabajo",
+        topics: [
+          "Saludos formales e informales",
+          "Presentaciones personales y de colegas",
+          "Números cardinales y ordinales",
+          "Fechas, meses y años",
+          "La hora y horarios de oficina"
+        ],
+        grammar: [
+          "Verb 'to be' (presente)",
+          "Personal pronouns",
+          "Possessive adjectives",
+          "Present Simple (conceptos básicos)",
+          "Prepositions of time: in, on, at"
+        ],
+        vocabulary: [
+          "Greetings (Hello, Good morning, Nice to meet you)",
+          "Job titles (Manager, Assistant, Developer)",
+          "Numbers 1-1000",
+          "Days of the week and months",
+          "Time expressions"
+        ],
+        skills: {
+          reading: [
+            "Leer tarjetas de visita",
+            "Entender horarios sencillos",
+            "Identificar información personal en perfiles"
+          ],
+          writing: [
+            "Escribir una presentación personal corta",
+            "Completar formularios con datos personales y fechas",
+            "Escribir números y horas correctamente"
+          ],
+          listening: [
+            "Entender presentaciones lentas y claras",
+            "Identificar números y fechas en dictados",
+            "Comprender saludos básicos"
+          ],
+          speaking: [
+            "Presentarse a sí mismo y a otros",
+            "Decir tu profesión y lugar de trabajo",
+            "Preguntar y decir la hora y fechas"
+          ]
+        }
+      },
+      {
+        title: "Módulo 2: El Entorno de Oficina",
+        topics: [
+          "Objetos de oficina y suministros",
+          "Departamentos de la empresa",
+          "Ubicación de objetos y lugares",
+          "Acciones cotidianas en el trabajo",
+          "Equipamiento tecnológico básico"
+        ],
+        grammar: [
+          "Articles: a, an, the",
+          "There is / There are",
+          "Prepositions of place",
+          "Demonstratives (this, that, these, those)",
+          "Present Simple (rutinas laborales)"
+        ],
+        vocabulary: [
+          "Office supplies (desk, chair, computer, printer)",
+          "Departments (Sales, Marketing, HR, Finance)",
+          "Common workplace verbs (work, call, email, send)",
+          "Technology basics (screen, keyboard, mouse)"
+        ],
+        skills: {
+          reading: [
+            "Identificar señales y etiquetas en la oficina",
+            "Leer descripciones cortas de departamentos",
+            "Entender inventarios básicos"
+          ],
+          writing: [
+            "Describir tu lugar de trabajo",
+            "Hacer listas de materiales necesarios",
+            "Escribir frases sobre tu rutina diaria"
+          ],
+          listening: [
+            "Seguir instrucciones espaciales básicas",
+            "Entender descripciones de oficinas",
+            "Identificar departamentos en una conversación"
+          ],
+          speaking: [
+            "Describir qué hay en tu oficina",
+            "Decir en qué departamento trabajas",
+            "Pedir objetos de oficina básicos"
+          ]
+        }
+      },
+      {
+        title: "Módulo 3: Emails y Comunicación Inicial",
+        topics: [
+          "Estructura básica de un email",
+          "Saludos y despedidas en correos",
+          "Frases comunes para solicitar información",
+          "Confirmación de citas y reuniones",
+          "Agradecimientos profesionales"
+        ],
+        grammar: [
+          "Imperative for simple instructions",
+          "Question words (What, Where, When, Who, Why)",
+          "Can for polite requests",
+          "Present Simple (preguntas y negación)",
+          "Object pronouns"
+        ],
+        vocabulary: [
+          "Email terminology (subject, attachment, reply)",
+          "Professional greetings (Dear, Regards, Best wishes)",
+          "Request phrases (Please send, Could you...?)",
+          "Action verbs for emails"
+        ],
+        skills: {
+          reading: [
+            "Comprender emails muy cortos y directos",
+            "Identificar el asunto y la acción requerida",
+            "Leer confirmaciones de reuniones"
+          ],
+          writing: [
+            "Escribir un email de presentación básico",
+            "Redactar solicitudes de información sencillas",
+            "Escribir despedidas adecuadas según el tono"
+          ],
+          listening: [
+            "Entender peticiones simples por teléfono",
+            "Identificar el propósito de un mensaje corto",
+            "Seguir instrucciones de correo electrónico"
+          ],
+          speaking: [
+            "Hacer peticiones educadas básicas",
+            "Confirmar asistencia a una reunión",
+            "Agradecer formalmente por una información"
+          ]
+        }
+      }
+    ]
+  },
   A2: {
     level: "A2",
     cefr: "Elemental",
@@ -1058,8 +1202,14 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
   }
 };
 
-// Helper function to get curriculum by level
-export function getCurriculumByLevel(level: string): LevelCurriculum | null {
+// Helper function to get curriculum by level and optional goal
+export function getCurriculumByLevel(level: string, goal?: string): LevelCurriculum | null {
+  if (goal) {
+    const goalLevelKey = `${goal.toUpperCase()}_${level.toUpperCase()}`;
+    if (CURRICULUM_BY_LEVEL[goalLevelKey]) {
+      return CURRICULUM_BY_LEVEL[goalLevelKey];
+    }
+  }
   return CURRICULUM_BY_LEVEL[level.toUpperCase()] || null;
 }
 

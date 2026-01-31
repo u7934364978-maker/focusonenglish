@@ -5,55 +5,165 @@
   "weekId": "semana24",
   "title": "Examen Final del Segundo Trimestre (A1)",
   "items": [
-    { "id": "fin-a1-w24-e1", "type": "multipleChoice", "prompt": "How much does the computer ___?", "options": ["cost", "pay", "buy", "sell"], "answerIndex": 0, "explanation": "Cost refers to price." },
-    { "id": "fin-a1-w24-e2", "type": "multipleChoice", "prompt": "There ___ three pens on the desk.", "options": ["is", "are", "am", "be"], "answerIndex": 1, "explanation": "Plural subject needs 'are'." },
-    { "id": "fin-a1-w24-e3", "type": "multipleChoice", "prompt": "Is this laptop ___? It's 1000 euros.", "options": ["cheap", "expensive", "old", "new"], "answerIndex": 1, "explanation": "High price means expensive." },
-    { "id": "fin-a1-w24-e4", "type": "multipleChoice", "prompt": "Wait, here is your ___.", "options": ["change", "cost", "price", "login"], "answerIndex": 0, "explanation": "Change is money returned after paying cash." },
-    { "id": "fin-a1-w24-e5", "type": "multipleChoice", "prompt": "___ there a receipt in the bag?", "options": ["Is", "Are", "Am", "Do"], "answerIndex": 0, "explanation": "Question for singular: Is there...?" },
-    { "id": "fin-a1-w24-e6", "type": "multipleChoice", "prompt": "I pay ___ credit card.", "options": ["by", "in", "with", "at"], "answerIndex": 0, "explanation": "We say 'by credit card'." },
-    { "id": "fin-a1-w24-e7", "type": "multipleChoice", "prompt": "___ coins are for the machine.", "options": ["These", "This", "That", "Is"], "answerIndex": 0, "explanation": "Plural and close: these." },
-    { "id": "fin-a1-w24-e8", "type": "multipleChoice", "prompt": "Look at ___ manager in the office over there.", "options": ["that", "this", "these", "those"], "answerIndex": 0, "explanation": "Singular and far: that." },
-    { "id": "fin-a1-w24-e9", "type": "multipleChoice", "prompt": "I keep my money in a ___.", "options": ["wallet", "receipt", "change", "queue"], "answerIndex": 0, "explanation": "Wallets store money." },
-    { "id": "fin-a1-w24-e10", "type": "multipleChoice", "prompt": "The ATM is ___ the bank.", "options": ["inside", "under", "between", "on"], "answerIndex": 0, "explanation": "Preposition of place: inside." },
-    { "id": "fin-a1-w24-e11", "type": "multipleChoice", "prompt": "The manager's office is ___ the counter.", "options": ["opposite", "inside", "under", "between"], "answerIndex": 0, "explanation": "Opposite means across from." },
-    { "id": "fin-a1-w24-e12", "type": "multipleChoice", "prompt": "Your receipt is ___ the envelope.", "options": ["inside", "opposite", "between", "behind"], "answerIndex": 0, "explanation": "Inside the envelope." },
-    { "id": "fin-a1-w24-e13", "type": "multipleChoice", "prompt": "Is the bank ___ the supermarket?", "options": ["next to", "in", "on", "at"], "answerIndex": 0, "explanation": "Next to (al lado de)." },
-    { "id": "fin-a1-w24-e14", "type": "multipleChoice", "prompt": "The office is ___ the first and second floors.", "options": ["between", "next to", "opposite", "inside"], "answerIndex": 0, "explanation": "Between (entre)." },
-    { "id": "fin-a1-w24-e15", "type": "multipleChoice", "prompt": "___ your password to log in.", "options": ["Enter", "Click", "Download", "Logout"], "answerIndex": 0, "explanation": "Imperative: Enter password." },
-    { "id": "fin-a1-w24-e16", "type": "multipleChoice", "prompt": "___ here for more information.", "options": ["Click", "Enter", "Download", "Lock"], "answerIndex": 0, "explanation": "Imperative: Click here." },
-    { "id": "fin-a1-w24-e17", "type": "multipleChoice", "prompt": "___ your PIN with anyone.", "options": ["Don't share", "Share", "Click", "Sign"], "answerIndex": 0, "explanation": "Negative imperative: Don't share." },
-    { "id": "fin-a1-w24-e18", "type": "multipleChoice", "prompt": "Please ___ the bank app.", "options": ["download", "upload", "cost", "pay"], "answerIndex": 0, "explanation": "We download apps." },
-    { "id": "fin-a1-w24-e19", "type": "multipleChoice", "prompt": "___ your computer before you leave.", "options": ["Lock", "Login", "Download", "Click"], "answerIndex": 0, "explanation": "Imperative: Lock computer." },
-    { "id": "fin-a1-w24-e20", "type": "multipleChoice", "prompt": "___ you help me, please?", "options": ["Could", "Are", "Is", "Am"], "answerIndex": 0, "explanation": "Polite request: Could you...?" },
-    { "id": "fin-a1-w24-e21", "type": "multipleChoice", "prompt": "___ I see your identification?", "options": ["Could", "Am", "Is", "Do"], "answerIndex": 0, "explanation": "Polite request for documents." },
-    { "id": "fin-a1-w24-e22", "type": "multipleChoice", "prompt": "___ you repeat that slower?", "options": ["Could", "Are", "Is", "Do"], "answerIndex": 0, "explanation": "Polite request for repetition." },
-    { "id": "fin-a1-w24-e23", "type": "multipleChoice", "prompt": "Excuse me, ___ you tell me the time?", "options": ["could", "are", "do", "am"], "answerIndex": 0, "explanation": "Polite request for information." },
-    { "id": "fin-a1-w24-e24", "type": "multipleChoice", "prompt": "___ you wait a moment, please?", "options": ["Could", "Are", "Is", "Am"], "answerIndex": 0, "explanation": "Polite request to wait." },
-    { "id": "fin-a1-w24-e25", "type": "multipleChoice", "prompt": "The ATM is ___. I can't use it.", "options": ["broken", "wrong", "lost", "safe"], "answerIndex": 0, "explanation": "If it's not working, it's broken." },
-    { "id": "fin-a1-w24-e26", "type": "multipleChoice", "prompt": "I ___ my credit card yesterday.", "options": ["lost", "wait", "welcome", "please"], "answerIndex": 0, "explanation": "We lose things we can't find." },
-    { "id": "fin-a1-w24-e27", "type": "multipleChoice", "prompt": "Sorry, this is the ___ PIN.", "options": ["wrong", "right", "good", "new"], "answerIndex": 0, "explanation": "Wrong means incorrect." },
-    { "id": "fin-a1-w24-e28", "type": "multipleChoice", "prompt": "I forgot my ___.", "options": ["password", "website", "download", "scam"], "answerIndex": 0, "explanation": "We forget passwords." },
-    { "id": "fin-a1-w24-e29", "type": "multipleChoice", "prompt": "The internet is very ___ today.", "options": ["slow", "blue", "loud", "heavy"], "answerIndex": 0, "explanation": "Internet speed can be slow." },
-    { "id": "fin-a1-w24-e30", "type": "multipleChoice", "prompt": "I pay ___ cash for the bus.", "options": ["in", "by", "at", "on"], "answerIndex": 0, "explanation": "We say 'in cash'." },
-    { "id": "fin-a1-w24-e31", "type": "multipleChoice", "prompt": "How ___ is the new office?", "options": ["large", "who", "when", "why"], "answerIndex": 0, "explanation": "Asking for size." },
-    { "id": "fin-a1-w24-e32", "type": "multipleChoice", "prompt": "Is the website ___?", "options": ["safe", "blue", "hungry", "fast"], "answerIndex": 0, "explanation": "We ask if a website is safe (secure)." },
-    { "id": "fin-a1-w24-e33", "type": "multipleChoice", "prompt": "I have an ___ at 3:00.", "options": ["appointment", "o'clock", "time", "day"], "answerIndex": 0, "explanation": "Scheduled meeting is an appointment." },
-    { "id": "fin-a1-w24-e34", "type": "multipleChoice", "prompt": "The bank closes ___ 5:00.", "options": ["at", "in", "on", "to"], "answerIndex": 0, "explanation": "Specific time needs 'at'." },
-    { "id": "fin-a1-w24-e35", "type": "multipleChoice", "prompt": "My birthday is ___ March.", "options": ["in", "at", "on", "by"], "answerIndex": 0, "explanation": "Months need 'in'." },
-    { "id": "fin-a1-w24-e36", "type": "multipleChoice", "prompt": "See you ___ Monday.", "options": ["on", "at", "in", "by"], "answerIndex": 0, "explanation": "Days of the week need 'on'." },
-    { "id": "fin-a1-w24-e37", "type": "multipleChoice", "prompt": "What ___ is it? It's ten o'clock.", "options": ["time", "day", "hour", "week"], "answerIndex": 0, "explanation": "What time is it?" },
-    { "id": "fin-a1-w24-e38", "type": "multipleChoice", "prompt": "There ___ any customers in the queue.", "options": ["aren't", "isn't", "am not", "not"], "answerIndex": 0, "explanation": "Plural negative needs 'aren't'." },
-    { "id": "fin-a1-w24-e39", "type": "multipleChoice", "prompt": "Are there ___ coins in the box?", "options": ["any", "some", "a", "an"], "answerIndex": 0, "explanation": "Use 'any' for questions." },
-    { "id": "fin-a1-w24-e40", "type": "multipleChoice", "prompt": "This is ___ debit card.", "options": ["my", "me", "I", "mine is"], "answerIndex": 0, "explanation": "Possessive adjective 'my'." },
-    { "id": "fin-a1-w24-e41", "type": "multipleChoice", "prompt": "Where are ___ documents?", "options": ["those", "this", "that", "am"], "answerIndex": 0, "explanation": "Plural and far: those." },
-    { "id": "fin-a1-w24-e42", "type": "multipleChoice", "prompt": "___ you help me with this form?", "options": ["Could", "Are", "Is", "Am"], "answerIndex": 0, "explanation": "Polite request." },
-    { "id": "fin-a1-w24-e43", "type": "multipleChoice", "prompt": "I am so ___ for the mistake.", "options": ["sorry", "happy", "blue", "cold"], "answerIndex": 0, "explanation": "Apologizing: so sorry." },
-    { "id": "fin-a1-w24-e44", "type": "multipleChoice", "prompt": "Don't ___ about it.", "options": ["worry", "understand", "wait", "sign"], "answerIndex": 0, "explanation": "Don't worry." },
-    { "id": "fin-a1-w24-e45", "type": "multipleChoice", "prompt": "I don't ___ this word.", "options": ["understand", "help", "wait", "welcome"], "answerIndex": 0, "explanation": "When meaning is unclear." },
-    { "id": "fin-a1-w24-e46", "type": "multipleChoice", "prompt": "Click the ___ to login.", "options": ["button", "scam", "change", "cost"], "answerIndex": 0, "explanation": "Buttons are clicked on websites." },
-    { "id": "fin-a1-w24-e47", "type": "multipleChoice", "prompt": "Is your username ___?", "options": ["private", "public", "open", "green"], "answerIndex": 0, "explanation": "Identifying info like usernames can be private." },
-    { "id": "fin-a1-w24-e48", "type": "multipleChoice", "prompt": "I need a ___ to enter.", "options": ["passcode", "scam", "wait", "cost"], "answerIndex": 0, "explanation": "Passcodes allow entry." },
-    { "id": "fin-a1-w24-e49", "type": "multipleChoice", "prompt": "The ___ is behind the counter.", "options": ["assistant", "customer", "price", "receipt"], "answerIndex": 0, "explanation": "Staff work behind counters." },
-    { "id": "fin-a1-w24-e50", "type": "multipleChoice", "prompt": "Thank you! - ___ welcome.", "options": ["You're", "Your", "You", "Are"], "answerIndex": 0, "explanation": "You are (You're) welcome." }
+    {
+      "id": "adm-a1-w24-e1",
+      "type": "multiple-choice",
+      "prompt": "Is this laptop ______? It is $2,000.",
+      "options": ["cheap", "expensive", "old", "free"],
+      "answerIndex": 1,
+      "explanation": "Un precio alto significa que es caro (expensive)."
+    },
+    {
+      "id": "adm-a1-w24-e2",
+      "type": "multiple-choice",
+      "prompt": "The manager's office is ______ the reception desk.",
+      "options": ["opposite", "under", "between", "inside"],
+      "answerIndex": 0,
+      "explanation": "Opposite significa enfrente de."
+    },
+    {
+      "id": "adm-a1-w24-e3",
+      "type": "multiple-choice",
+      "prompt": "______ your password to access the app.",
+      "options": ["Enter", "Click", "Download", "Pay"],
+      "answerIndex": 0,
+      "explanation": "Se usa 'Enter' para introducir contraseñas."
+    },
+    {
+      "id": "adm-a1-w24-e4",
+      "type": "multiple-choice",
+      "prompt": "Could you ______ the company software?",
+      "options": ["download", "downloading", "to download", "downloads"],
+      "answerIndex": 0,
+      "explanation": "Después de 'could' el verbo va en forma base."
+    },
+    {
+      "id": "adm-a1-w24-e5",
+      "type": "multiple-choice",
+      "prompt": "A transfer that arrives immediately is an ______ transfer.",
+      "options": ["standard", "instant", "pending", "slow"],
+      "answerIndex": 1,
+      "explanation": "Las transferencias inmediatas son 'instant'."
+    },
+    {
+      "id": "adm-a1-w24-e6",
+      "type": "multiple-choice",
+      "prompt": "Which adjective describes an app that is easy to use?",
+      "options": ["Encrypted", "User-friendly", "Traditional", "Broken"],
+      "answerIndex": 1,
+      "explanation": "'User-friendly' significa fácil de usar."
+    },
+    {
+      "id": "adm-a1-w24-e7",
+      "type": "multiple-choice",
+      "prompt": "What does 'SaaS' stand for?",
+      "options": ["System and a Secret", "Software as a Service", "Safe and Secure", "Standard and Simple"],
+      "answerIndex": 1,
+      "explanation": "SaaS = Software as a Service."
+    },
+    {
+      "id": "adm-a1-w24-e8",
+      "type": "multiple-choice",
+      "prompt": "If you pay every month, you have a ______ subscription.",
+      "options": ["annual", "monthly", "disposable", "phishing"],
+      "answerIndex": 1,
+      "explanation": "Pagos mensuales son 'monthly'."
+    },
+    {
+      "id": "adm-a1-w24-e9",
+      "type": "multiple-choice",
+      "prompt": "2FA (Two-Factor Authentication) is used for ______.",
+      "options": ["entertainment", "security", "food", "travel"],
+      "answerIndex": 1,
+      "explanation": "2FA es una medida de seguridad (security)."
+    },
+    {
+      "id": "adm-a1-w24-e10",
+      "type": "multiple-choice",
+      "prompt": "A ______ email tries to steal your password.",
+      "options": ["phishing", "biometric", "user-friendly", "encrypted"],
+      "answerIndex": 0,
+      "explanation": "El phishing es un intento de robo de datos."
+    },
+    {
+      "id": "adm-a1-w24-e11",
+      "type": "multiple-choice",
+      "prompt": "A ______ card is safer for online shopping.",
+      "options": ["plastic", "virtual", "traditional", "paper"],
+      "answerIndex": 1,
+      "explanation": "Las tarjetas virtuales son más seguras para compras online."
+    },
+    {
+      "id": "adm-a1-w24-e12",
+      "type": "multiple-choice",
+      "prompt": "Where do you usually find the 'Settings' icon?",
+      "options": ["In the trash", "In a sidebar or menu", "On the floor", "In the printer"],
+      "answerIndex": 1,
+      "explanation": "Ajustes suele estar en el menú o barra lateral."
+    },
+    {
+      "id": "adm-a1-w24-e13",
+      "type": "multiple-choice",
+      "prompt": "The 'Opening Balance' is the money at the ______ of the month.",
+      "options": ["start", "middle", "end", "next year"],
+      "answerIndex": 0,
+      "explanation": "Opening balance es el saldo inicial (al principio)."
+    },
+    {
+      "id": "adm-a1-w24-e14",
+      "type": "multiple-choice",
+      "prompt": "A circular graph that shows spending categories is a ______.",
+      "options": ["bar graph", "pie chart", "line graph", "dot plot"],
+      "answerIndex": 1,
+      "explanation": "Un gráfico circular es un 'pie chart'."
+    },
+    {
+      "id": "adm-a1-w24-e15",
+      "type": "multiple-choice",
+      "prompt": "If you spend money on a flight, the category is ______.",
+      "options": ["bills", "travel", "food", "entertainment"],
+      "answerIndex": 1,
+      "explanation": "Vuelos pertenecen a la categoría 'travel'."
+    },
+    {
+      "id": "adm-a1-w24-e16",
+      "type": "multiple-choice",
+      "prompt": "Could I have a ______ for my business travel?",
+      "options": ["reimbursement", "phishing", "biometric", "encrypted"],
+      "answerIndex": 0,
+      "explanation": "Reimbursement es un reembolso por gastos."
+    },
+    {
+      "id": "adm-a1-w24-e17",
+      "type": "multiple-choice",
+      "prompt": "Don't ______ your verification code with anyone.",
+      "options": ["share", "click", "download", "pay"],
+      "answerIndex": 0,
+      "explanation": "No compartas (share) códigos de verificación."
+    },
+    {
+      "id": "adm-a1-w24-e18",
+      "type": "multiple-choice",
+      "prompt": "The connection is ______ and secure.",
+      "options": ["broken", "encrypted", "public", "slow"],
+      "answerIndex": 1,
+      "explanation": "Encrypted significa cifrado y seguro."
+    },
+    {
+      "id": "adm-a1-w24-e19",
+      "type": "multiple-choice",
+      "prompt": "What is the 'Transaction History'?",
+      "options": ["A list of future plans", "A list of past payments", "A list of friends", "A list of games"],
+      "answerIndex": 1,
+      "explanation": "El historial de transacciones muestra pagos pasados."
+    },
+    {
+      "id": "adm-a1-w24-e20",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the monthly expense report?",
+      "options": ["see", "seeing", "saw", "to see"],
+      "answerIndex": 0,
+      "explanation": "Forma base del verbo 'see' tras 'could'."
+    }
   ]
 }

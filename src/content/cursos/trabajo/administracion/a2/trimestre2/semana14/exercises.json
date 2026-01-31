@@ -6,404 +6,615 @@
   "title": "Ejercicios: Préstamos Personales",
   "items": [
     {
-      "id": "fin-a2-w14-1",
+      "id": "adm-a2-w14-ex01",
       "type": "multipleChoice",
       "prompt": "Can I ___ 50 euros from you?",
       "options": ["lend", "borrow", "loan", "debt"],
       "answerIndex": 1,
-      "explanation": "Borrow means asking for a loan (pedir prestado)."
+      "explanation": "Pedir prestado (borrow) significa solicitar un préstamo."
     },
     {
-      "id": "fin-a2-w14-2",
+      "id": "adm-a2-w14-ex02",
       "type": "multipleChoice",
       "prompt": "Don't worry, I ___ pay the debt.",
       "options": ["am going", "will", "going to", "borrow"],
       "answerIndex": 1,
-      "explanation": "Will is used for promises."
+      "explanation": "Usamos 'will' para hacer promesas."
     },
     {
-      "id": "fin-a2-w14-3",
+      "id": "adm-a2-w14-ex03",
       "type": "multipleChoice",
       "prompt": "The monthly ___ is 150 euros.",
       "options": ["installment", "interest", "debt", "loan"],
       "answerIndex": 0,
-      "explanation": "Installment is the regular payment."
+      "explanation": "La cuota o plazo (installment) es el pago regular."
     },
     {
-      "id": "fin-a2-w14-4",
+      "id": "adm-a2-w14-ex04",
       "type": "multipleChoice",
       "prompt": "Will the bank ___ me the money?",
       "options": ["borrow", "lend", "debt", "installment"],
       "answerIndex": 1,
-      "explanation": "Lend means giving a loan (prestar)."
+      "explanation": "Prestar (lend) significa dar un préstamo."
     },
     {
-      "id": "fin-a2-w14-5",
+      "id": "adm-a2-w14-ex05",
       "type": "multipleChoice",
       "prompt": "If you have a loan, you have a ___.",
       "options": ["saving", "debt", "budget", "income"],
       "answerIndex": 1,
-      "explanation": "A debt is money you owe."
+      "explanation": "Una deuda (debt) es dinero que debes."
     },
     {
-      "id": "fin-a2-w14-6",
+      "id": "adm-a2-w14-ex06",
       "type": "multipleChoice",
       "prompt": "I think I ___ apply for a small loan.",
       "options": ["will", "am", "going", "borrow"],
       "answerIndex": 0,
-      "explanation": "Will is used for decisions made at the moment."
+      "explanation": "Usamos 'will' para decisiones tomadas en el momento."
     },
     {
-      "id": "fin-a2-w14-7",
+      "id": "adm-a2-w14-ex07",
       "type": "multipleChoice",
       "prompt": "The ___ rate is very high this year.",
       "options": ["interest", "installment", "debt", "borrow"],
       "answerIndex": 0,
-      "explanation": "Interest rate is the cost of borrowing."
+      "explanation": "La tasa de interés (interest rate) es el costo del préstamo."
     },
     {
-      "id": "fin-a2-w14-8",
+      "id": "adm-a2-w14-ex08",
       "type": "multipleChoice",
       "prompt": "He ___ help you with the loan application.",
       "options": ["will", "is", "borrow", "lend"],
       "answerIndex": 0,
-      "explanation": "Will is used for offers."
+      "explanation": "Usamos 'will' para ofrecer ayuda."
     },
     {
-      "id": "fin-a2-w14-9",
+      "id": "adm-a2-w14-ex09",
       "type": "multipleChoice",
       "prompt": "Can you ___ me 20 dollars until Friday?",
       "options": ["lend", "borrow", "debt", "loan"],
       "answerIndex": 0,
-      "explanation": "Lend means to give money temporarily."
+      "explanation": "Prestar (lend) es dar dinero temporalmente."
     },
     {
-      "id": "fin-a2-w14-10",
+      "id": "adm-a2-w14-ex10",
       "type": "multipleChoice",
       "prompt": "I promise I ___ forget to pay the installment.",
       "options": ["won't", "will", "am not", "not"],
       "answerIndex": 0,
-      "explanation": "Won't is the negative of will for promises."
+      "explanation": "'Won't' es el negativo de 'will' para promesas."
     },
     {
-      "id": "fin-a2-w14-11",
+      "id": "adm-a2-w14-ex11",
       "type": "multipleChoice",
       "prompt": "A personal ___ can help you pay for a car.",
       "options": ["loan", "borrow", "debt", "income"],
       "answerIndex": 0,
-      "explanation": "A loan is the sum of money borrowed."
+      "explanation": "Un préstamo (loan) es la suma de dinero prestada."
     },
     {
-      "id": "fin-a2-w14-12",
+      "id": "adm-a2-w14-ex12",
       "type": "multipleChoice",
       "prompt": "Will you ___ me the bank's phone number?",
       "options": ["give", "borrow", "lend", "installment"],
       "answerIndex": 0,
-      "explanation": "Giving information."
+      "explanation": "Dar información usando 'will' para una petición."
     },
     {
-      "id": "fin-a2-w14-13",
+      "id": "adm-a2-w14-ex13",
       "type": "multipleChoice",
       "prompt": "I have too much ___, I need to pay it off.",
       "options": ["debt", "income", "loan", "interest"],
       "answerIndex": 0,
-      "explanation": "Debt is money that is owed."
+      "explanation": "Deuda (debt) es el dinero que se debe."
     },
     {
-      "id": "fin-a2-w14-14",
+      "id": "adm-a2-w14-ex14",
       "type": "multipleChoice",
       "prompt": "The bank ___ send the confirmation email now.",
       "options": ["will", "is", "going", "does"],
       "answerIndex": 0,
-      "explanation": "Will for immediate action."
+      "explanation": "Usamos 'will' para una acción inmediata."
     },
     {
-      "id": "fin-a2-w14-15",
+      "id": "adm-a2-w14-ex15",
       "type": "multipleChoice",
       "prompt": "How many ___ are left to pay?",
       "options": ["installments", "interests", "loans", "borrows"],
       "answerIndex": 0,
-      "explanation": "Installments are the regular payments."
+      "explanation": "Las cuotas (installments) son los pagos regulares."
     },
     {
-      "id": "fin-a2-w14-16",
+      "id": "adm-a2-w14-ex16",
       "type": "multipleChoice",
       "prompt": "I ___ borrow money from my family.",
       "options": ["will", "shall", "won't", "is"],
       "answerIndex": 2,
-      "explanation": "Won't expresses a decision not to do something."
+      "explanation": "'Won't' expresa una decisión de no hacer algo."
     },
     {
-      "id": "fin-a2-w14-17",
+      "id": "adm-a2-w14-ex17",
       "type": "multipleChoice",
       "prompt": "Banks ___ money to people with good credit.",
       "options": ["lend", "borrow", "debt", "interest"],
       "answerIndex": 0,
-      "explanation": "Banks give (lend) money."
+      "explanation": "Los bancos prestan (lend) dinero."
     },
     {
-      "id": "fin-a2-w14-18",
+      "id": "adm-a2-w14-ex18",
       "type": "multipleChoice",
       "prompt": "Wait, I ___ call the manager for you.",
       "options": ["will", "am", "going", "do"],
       "answerIndex": 0,
-      "explanation": "Will for spontaneous offers."
+      "explanation": "Usamos 'will' para ofrecimientos espontáneos."
     },
     {
-      "id": "fin-a2-w14-19",
+      "id": "adm-a2-w14-ex19",
       "type": "multipleChoice",
       "prompt": "The total ___ including interest is 5000 euros.",
       "options": ["debt", "income", "budget", "saving"],
       "answerIndex": 0,
-      "explanation": "Debt includes the principal and interest."
+      "explanation": "La deuda (debt) incluye el capital y los intereses."
     },
     {
-      "id": "fin-a2-w14-20",
+      "id": "adm-a2-w14-ex20",
       "type": "multipleChoice",
       "prompt": "Will the interest rate ___ next month?",
       "options": ["increase", "installment", "borrow", "loan"],
       "answerIndex": 0,
-      "explanation": "Asking about a future change."
+      "explanation": "Preguntando sobre un cambio futuro con 'will'."
     },
     {
-      "id": "fin-a2-w14-21",
+      "id": "adm-a2-w14-ex21",
       "type": "multipleChoice",
       "prompt": "I ___ pay my bills online from now on.",
       "options": ["will", "am", "borrow", "lend"],
       "answerIndex": 0,
-      "explanation": "Will for future intentions/decisions."
+      "explanation": "Usamos 'will' para decisiones de cara al futuro."
     },
     {
-      "id": "fin-a2-w14-22",
+      "id": "adm-a2-w14-ex22",
       "type": "multipleChoice",
       "prompt": "You shouldn't ___ more than you can pay back.",
       "options": ["borrow", "lend", "loan", "debt"],
       "answerIndex": 0,
-      "explanation": "To borrow is to take money from someone."
+      "explanation": "Pedir prestado (borrow) es tomar dinero de alguien."
     },
     {
-      "id": "fin-a2-w14-23",
+      "id": "adm-a2-w14-ex23",
       "type": "multipleChoice",
       "prompt": "The bank ___ charge a fee for late payments.",
       "options": ["will", "is", "going", "does"],
       "answerIndex": 0,
-      "explanation": "Will for future consequences."
+      "explanation": "Usamos 'will' para consecuencias futuras."
     },
     {
-      "id": "fin-a2-w14-24",
+      "id": "adm-a2-w14-ex24",
       "type": "multipleChoice",
       "prompt": "Can you check the ___ on this loan?",
       "options": ["interest", "borrow", "debt", "income"],
       "answerIndex": 0,
-      "explanation": "Interest is a key component of a loan."
+      "explanation": "El interés (interest) es un componente clave de un préstamo."
     },
     {
-      "id": "fin-a2-w14-25",
+      "id": "adm-a2-w14-ex25",
       "type": "multipleChoice",
       "prompt": "I ___ pay the full amount today.",
       "options": ["will", "won't", "am", "going"],
       "answerIndex": 0,
-      "explanation": "Spontaneous decision."
+      "explanation": "Decisión espontánea usando 'will'."
     },
     {
-      "id": "fin-a2-w14-26",
+      "id": "adm-a2-w14-ex26",
       "type": "multipleChoice",
       "prompt": "They ___ lend money without a contract.",
       "options": ["won't", "will", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Won't for refusal or general rules."
+      "explanation": "'Won't' para rechazo o reglas generales."
     },
     {
-      "id": "fin-a2-w14-27",
+      "id": "adm-a2-w14-ex27",
       "type": "multipleChoice",
       "prompt": "The ___ plan is for 24 months.",
       "options": ["installment", "debt", "borrow", "loan"],
       "answerIndex": 0,
-      "explanation": "Installment plan is the schedule of payments."
+      "explanation": "El plan de cuotas (installment plan) es el calendario de pagos."
     },
     {
-      "id": "fin-a2-w14-28",
+      "id": "adm-a2-w14-ex28",
       "type": "multipleChoice",
       "prompt": "Will you ___ the documents tomorrow?",
       "options": ["sign", "borrow", "lend", "debt"],
       "answerIndex": 0,
-      "explanation": "Signing documents."
+      "explanation": "Firmar (sign) documentos."
     },
     {
-      "id": "fin-a2-w14-29",
+      "id": "adm-a2-w14-ex29",
       "type": "multipleChoice",
       "prompt": "I ___ borrow any more money this year.",
       "options": ["won't", "will", "am", "going"],
       "answerIndex": 0,
-      "explanation": "Decision/Promise."
+      "explanation": "Decisión o promesa negativa."
     },
     {
-      "id": "fin-a2-w14-30",
+      "id": "adm-a2-w14-ex30",
       "type": "multipleChoice",
       "prompt": "The bank ___ approve your loan soon.",
       "options": ["will", "is", "going", "does"],
       "answerIndex": 0,
-      "explanation": "Future prediction/possibility."
+      "explanation": "Predicción o posibilidad futura."
     },
     {
-      "id": "fin-a2-w14-31",
+      "id": "adm-a2-w14-ex31",
       "type": "multipleChoice",
       "prompt": "Is the ___ fixed or variable?",
       "options": ["interest", "installment", "debt", "loan"],
       "answerIndex": 0,
-      "explanation": "Interest can be fixed or variable."
+      "explanation": "El interés puede ser fijo o variable."
     },
     {
-      "id": "fin-a2-w14-32",
+      "id": "adm-a2-w14-ex32",
       "type": "multipleChoice",
       "prompt": "I ___ help you calculate the installments.",
       "options": ["will", "am", "going", "do"],
       "answerIndex": 0,
-      "explanation": "Offer of help."
+      "explanation": "Ofrecimiento de ayuda."
     },
     {
-      "id": "fin-a2-w14-33",
+      "id": "adm-a2-w14-ex33",
       "type": "multipleChoice",
       "prompt": "How much did you ___ from the bank?",
       "options": ["borrow", "lend", "loan", "debt"],
       "answerIndex": 0,
-      "explanation": "To take money as a loan."
+      "explanation": "Pedir prestada una cantidad de dinero."
     },
     {
-      "id": "fin-a2-w14-34",
+      "id": "adm-a2-w14-ex34",
       "type": "multipleChoice",
       "prompt": "We ___ need to see your ID.",
       "options": ["will", "is", "going", "does"],
       "answerIndex": 0,
-      "explanation": "Future requirement."
+      "explanation": "Requisito futuro."
     },
     {
-      "id": "fin-a2-w14-35",
+      "id": "adm-a2-w14-ex35",
       "type": "multipleChoice",
       "prompt": "The monthly ___ is due on the 1st.",
       "options": ["installment", "interest", "debt", "loan"],
       "answerIndex": 0,
-      "explanation": "Payment due date."
+      "explanation": "Fecha de vencimiento del pago de la cuota."
     },
     {
-      "id": "fin-a2-w14-36",
+      "id": "adm-a2-w14-ex36",
       "type": "multipleChoice",
       "prompt": "I ___ pay you back as soon as I can.",
       "options": ["will", "won't", "am", "going"],
       "answerIndex": 0,
-      "explanation": "Promise."
+      "explanation": "Promesa de pago."
     },
     {
-      "id": "fin-a2-w14-37",
+      "id": "adm-a2-w14-ex37",
       "type": "multipleChoice",
       "prompt": "Will you ___ me your calculator?",
       "options": ["lend", "borrow", "loan", "debt"],
       "answerIndex": 0,
-      "explanation": "Asking someone to give something temporarily."
+      "explanation": "Pedir a alguien que preste (lend) algo temporalmente."
     },
     {
-      "id": "fin-a2-w14-38",
+      "id": "adm-a2-w14-ex38",
       "type": "multipleChoice",
       "prompt": "Having a high ___ is stressful.",
       "options": ["debt", "income", "budget", "saving"],
       "answerIndex": 0,
-      "explanation": "Debt is a financial burden."
+      "explanation": "La deuda (debt) es una carga financiera."
     },
     {
-      "id": "fin-a2-w14-39",
+      "id": "adm-a2-w14-ex39",
       "type": "multipleChoice",
       "prompt": "I ___ take the money now, thanks.",
       "options": ["will", "is", "going", "does"],
       "answerIndex": 0,
-      "explanation": "Decision at the moment."
+      "explanation": "Decisión tomada en el momento."
     },
     {
-      "id": "fin-a2-w14-40",
+      "id": "adm-a2-w14-ex40",
       "type": "multipleChoice",
       "prompt": "The bank ___ lend to students.",
       "options": ["will", "won't", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Prediction/Fact."
+      "explanation": "Predicción o hecho futuro."
     },
     {
-      "id": "fin-a2-w14-41",
+      "id": "adm-a2-w14-ex41",
       "type": "multipleChoice",
       "prompt": "Don't ___ more than you need.",
       "options": ["borrow", "lend", "loan", "debt"],
       "answerIndex": 0,
-      "explanation": "Advice about borrowing."
+      "explanation": "Consejo sobre pedir prestado."
     },
     {
-      "id": "fin-a2-w14-42",
+      "id": "adm-a2-w14-ex42",
       "type": "multipleChoice",
       "prompt": "Your next ___ is 200 euros.",
       "options": ["installment", "interest", "debt", "loan"],
       "answerIndex": 0,
-      "explanation": "Referring to the upcoming payment."
+      "explanation": "Refiriéndose al próximo pago de la cuota."
     },
     {
-      "id": "fin-a2-w14-43",
+      "id": "adm-a2-w14-ex43",
       "type": "multipleChoice",
       "prompt": "I ___ call you tomorrow about the loan.",
       "options": ["will", "won't", "am", "going"],
       "answerIndex": 0,
-      "explanation": "Future promise."
+      "explanation": "Promesa futura."
     },
     {
-      "id": "fin-a2-w14-44",
+      "id": "adm-a2-w14-ex44",
       "type": "multipleChoice",
       "prompt": "Will they ___ us the money today?",
       "options": ["lend", "borrow", "loan", "debt"],
       "answerIndex": 0,
-      "explanation": "Asking if they will provide the money."
+      "explanation": "Preguntando si nos prestarán el dinero."
     },
     {
-      "id": "fin-a2-w14-45",
+      "id": "adm-a2-w14-ex45",
       "type": "multipleChoice",
       "prompt": "The total ___ must be paid by June.",
       "options": ["debt", "income", "budget", "saving"],
       "answerIndex": 0,
-      "explanation": "Final payment deadline."
+      "explanation": "Fecha límite de pago final de la deuda."
     },
     {
-      "id": "fin-a2-w14-46",
+      "id": "adm-a2-w14-ex46",
       "type": "multipleChoice",
       "prompt": "I ___ forget to bring the contract.",
       "options": ["won't", "will", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Promise not to forget."
+      "explanation": "Promesa de no olvidar."
     },
     {
-      "id": "fin-a2-w14-47",
+      "id": "adm-a2-w14-ex47",
       "type": "multipleChoice",
       "prompt": "Is there any ___ on this credit card?",
       "options": ["interest", "installment", "borrow", "loan"],
       "answerIndex": 0,
-      "explanation": "Interest on credit cards."
+      "explanation": "Interés en tarjetas de crédito."
     },
     {
-      "id": "fin-a2-w14-48",
+      "id": "adm-a2-w14-ex48",
       "type": "multipleChoice",
       "prompt": "I ___ take a loan from another bank.",
       "options": ["will", "is", "going", "does"],
       "answerIndex": 0,
-      "explanation": "Spontaneous decision."
+      "explanation": "Decisión espontánea."
     },
     {
-      "id": "fin-a2-w14-49",
+      "id": "adm-a2-w14-ex49",
       "type": "multipleChoice",
       "prompt": "You ___ get a better rate if you wait.",
       "options": ["will", "won't", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Future prediction."
+      "explanation": "Predicción futura."
     },
     {
-      "id": "fin-a2-w14-50",
+      "id": "adm-a2-w14-ex50",
       "type": "multipleChoice",
-      "prompt": "Please ___ me your pen for a second.",
-      "options": ["lend", "borrow", "loan", "debt"],
+      "prompt": "He ___ probably pay off the debt early.",
+      "options": ["will", "is", "going", "am"],
       "answerIndex": 0,
-      "explanation": "Requesting to use something temporarily."
+      "explanation": "Probabilidad futura con 'will'."
+    },
+    {
+      "id": "adm-a2-w14-ex51",
+      "type": "fillBlanks",
+      "prompt": "I [blank] pay you back tomorrow, I promise.",
+      "answers": ["will"],
+      "explanation": "Usamos 'will' para promesas."
+    },
+    {
+      "id": "adm-a2-w14-ex52",
+      "type": "fillBlanks",
+      "prompt": "The bank [blank] send the money to your account soon.",
+      "answers": ["will"],
+      "explanation": "Acción futura con 'will'."
+    },
+    {
+      "id": "adm-a2-w14-ex53",
+      "type": "fillBlanks",
+      "prompt": "We [blank] not take this loan because the interest is too high.",
+      "answers": ["will"],
+      "explanation": "Negativo del futuro planeado en el momento."
+    },
+    {
+      "id": "adm-a2-w14-ex54",
+      "type": "fillBlanks",
+      "prompt": "[blank] you lend me some money until next month?",
+      "answers": ["Will"],
+      "explanation": "Petición usando 'will'."
+    },
+    {
+      "id": "adm-a2-w14-ex55",
+      "type": "fillBlanks",
+      "prompt": "An [blank] is a regular part of the total debt.",
+      "answers": ["installment"],
+      "explanation": "Una cuota (installment) es parte de la deuda."
+    },
+    {
+      "id": "adm-a2-w14-ex56",
+      "type": "fillBlanks",
+      "prompt": "To [blank] is to receive money from a person or bank temporarily.",
+      "answers": ["borrow"],
+      "explanation": "Pedir prestado (borrow)."
+    },
+    {
+      "id": "adm-a2-w14-ex57",
+      "type": "fillBlanks",
+      "prompt": "To [blank] is to give money to someone temporarily.",
+      "answers": ["lend"],
+      "explanation": "Prestar (lend)."
+    },
+    {
+      "id": "adm-a2-w14-ex58",
+      "type": "fillBlanks",
+      "prompt": "The [blank] is the extra cost of borrowing money.",
+      "answers": ["interest"],
+      "explanation": "El interés (interest) es el costo extra."
+    },
+    {
+      "id": "adm-a2-w14-ex59",
+      "type": "fillBlanks",
+      "prompt": "I [blank] call the bank manager right now.",
+      "answers": ["will"],
+      "explanation": "Decisión inmediata."
+    },
+    {
+      "id": "adm-a2-w14-ex60",
+      "type": "fillBlanks",
+      "prompt": "They [blank] sign the loan contract later this afternoon.",
+      "answers": ["will"],
+      "explanation": "Acción futura."
+    },
+    {
+      "id": "adm-a2-w14-ex61",
+      "type": "fillBlanks",
+      "prompt": "She [blank] not forget to pay her monthly installment.",
+      "answers": ["will"],
+      "explanation": "Promesa negativa."
+    },
+    {
+      "id": "adm-a2-w14-ex62",
+      "type": "fillBlanks",
+      "prompt": "[blank] the interest rate increase next year?",
+      "answers": ["Will"],
+      "explanation": "Pregunta sobre el futuro."
+    },
+    {
+      "id": "adm-a2-w14-ex63",
+      "type": "fillBlanks",
+      "prompt": "I [blank] help you organize all the loan documents.",
+      "answers": ["will"],
+      "explanation": "Ofrecimiento de ayuda."
+    },
+    {
+      "id": "adm-a2-w14-ex64",
+      "type": "fillBlanks",
+      "prompt": "Don't worry about the money, I [blank] pay the debt.",
+      "answers": ["will"],
+      "explanation": "Promesa."
+    },
+    {
+      "id": "adm-a2-w14-ex65",
+      "type": "fillBlanks",
+      "prompt": "The bank [blank] check your credit history before approval.",
+      "answers": ["will"],
+      "explanation": "Acción futura necesaria."
+    },
+    {
+      "id": "adm-a2-w14-ex66",
+      "type": "fillBlanks",
+      "prompt": "We [blank] probably take a small personal loan.",
+      "answers": ["will"],
+      "explanation": "Intención futura."
+    },
+    {
+      "id": "adm-a2-w14-ex67",
+      "type": "fillBlanks",
+      "prompt": "[blank] you help me calculate the interest installments?",
+      "answers": ["Will"],
+      "explanation": "Petición de ayuda."
+    },
+    {
+      "id": "adm-a2-w14-ex68",
+      "type": "fillBlanks",
+      "prompt": "I [blank] return the borrowed money this Friday.",
+      "answers": ["will"],
+      "explanation": "Promesa de devolución."
+    },
+    {
+      "id": "adm-a2-w14-ex69",
+      "type": "fillBlanks",
+      "prompt": "They [blank] not lend any money without a valid ID.",
+      "answers": ["will"],
+      "explanation": "Hecho o regla futura."
+    },
+    {
+      "id": "adm-a2-w14-ex70",
+      "type": "fillBlanks",
+      "prompt": "It [blank] be a twelve-month loan with fixed interest.",
+      "answers": ["will"],
+      "explanation": "Descripción de un plan futuro."
+    },
+    {
+      "id": "adm-a2-w14-ex71",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I will pay the debt",
+      "explanation": "Pagaré la deuda."
+    },
+    {
+      "id": "adm-a2-w14-ex72",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "the bank will lend money",
+      "explanation": "El banco prestará dinero."
+    },
+    {
+      "id": "adm-a2-w14-ex73",
+      "type": "reorder",
+      "prompt": "Reorder the question:",
+      "sentence": "will you sign the contract?",
+      "explanation": "¿Firmarás el contrato?"
+    },
+    {
+      "id": "adm-a2-w14-ex74",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "she will not borrow more",
+      "explanation": "Ella no pedirá más prestado."
+    },
+    {
+      "id": "adm-a2-w14-ex75",
+      "type": "crossword",
+      "title": "Personal Loans Crossword",
+      "instructions": "Complete the crossword with terms related to loans.",
+      "items": [
+        {
+          "word": "LOAN",
+          "clue": "Money borrowed from a bank.",
+          "direction": "across",
+          "row": 0,
+          "col": 0
+        },
+        {
+          "word": "DEBT",
+          "clue": "Money that you owe.",
+          "direction": "down",
+          "row": 0,
+          "col": 2
+        },
+        {
+          "word": "LEND",
+          "clue": "To give money temporarily.",
+          "direction": "across",
+          "row": 2,
+          "col": 0
+        },
+        {
+          "word": "INTEREST",
+          "clue": "The cost of borrowing.",
+          "direction": "down",
+          "row": 0,
+          "col": 4
+        },
+        {
+          "word": "BORROW",
+          "clue": "To take money temporarily.",
+          "direction": "across",
+          "row": 4,
+          "col": 0
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,9 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { Bot, Mic, Send, Volume2, StopCircle, RotateCcw, Settings } from 'lucide-react'
+import { Bot, Mic, Send, Volume2, StopCircle, RotateCcw, Settings, ArrowLeft } from 'lucide-react'
+import { useRouter } from 'next/navigation'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 
 interface Message {
   id: string
@@ -80,6 +82,8 @@ const conversationScenarios = [
 ]
 
 export default function AIConversationSimulator() {
+  const router = useRouter()
+  const { updateMethodologyStats, updateXP } = useMethodologyProgress()
   const [selectedTutor, setSelectedTutor] = useState<AITutor>(aiTutors[0])
   const [selectedScenario, setSelectedScenario] = useState(conversationScenarios[0])
   const [messages, setMessages] = useState<Message[]>([])
@@ -148,6 +152,10 @@ export default function AIConversationSimulator() {
     setConversationStarted(true)
     const welcomeText = `Hi! I'm ${selectedTutor.name}, your AI English tutor. I'm here to help you practice ${selectedScenario.title}. Shall we begin?`
     
+    // Persistir inicio de conversación
+    await updateMethodologyStats({ ai_conversations_count: 1 })
+    await updateXP(10, 'ai_conversation_start')
+
     setIsLoading(true)
     const audioUrl = await playAudio(welcomeText, selectedTutor.voiceId)
     setIsLoading(false)
@@ -196,6 +204,9 @@ export default function AIConversationSimulator() {
       const data = await chatResponse.json()
       
       if (data.success) {
+        // Otorgar XP por mensaje enviado
+        await updateXP(5, 'ai_message_sent')
+        
         // Update user message with feedback if any
         if (data.feedback) {
           setMessages(prev => prev.map(m => 
@@ -291,6 +302,14 @@ export default function AIConversationSimulator() {
 
   return (
     <div className="max-w-7xl mx-auto p-6">
+      <button 
+        onClick={() => router.push('/metodologias-innovadoras')}
+        className="flex items-center gap-2 text-gray-500 hover:text-cyan-600 transition-colors mb-6 group"
+      >
+        <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+        Volver a Metodologías
+      </button>
+
       <audio ref={audioRef} hidden />
       {/* Header */}
       <div className="mb-8">
@@ -600,7 +619,7 @@ export default function AIConversationSimulator() {
                   />
                   
                   <button
-                    onClick={sendMessage}
+                    onClick={() => sendMessage()}
                     className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg transition-all disabled:opacity-50"
                     disabled={!inputText.trim()}
                   >

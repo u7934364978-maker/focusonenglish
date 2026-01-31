@@ -1,50 +1,217 @@
 {
-  "goal": "administracion",
-  "level": "A1",
-  "trimester": 3,
-  "weekId": "semana31",
-  "examId": "fin-a1-w31-exam",
-  "title": "Examen: Ahorro e Intereses Básicos",
-  "items": [
+  "title": "Module 3: Week 31 Exam",
+  "questions": [
     {
-      "id": "fin-a1-w31-exam-1",
-      "type": "multipleChoice",
-      "prompt": "You ________ save money for emergencies.",
-      "options": ["should", "shoulds", "to should", "shoulding"],
-      "answerIndex": 0,
-      "explanation": "'Should' is used to give advice."
+      "id": "adm-a1-w31-q1",
+      "type": "multiple-choice",
+      "question": "Which verb is used to add a PDF to an email?",
+      "options": [
+        "Delete",
+        "Attach",
+        "Print",
+        "Forward"
+      ],
+      "correctAnswer": 1,
+      "explanation": "You 'attach' files to an email when you want to send them as part of the message."
     },
     {
-      "id": "fin-a1-w31-exam-2",
-      "type": "multipleChoice",
-      "prompt": "What is 'Interest' in a savings account?",
-      "options": ["A fee you pay to the bank", "Extra money the bank pays you", "The bank's name", "A type of tax"],
-      "answerIndex": 1,
-      "explanation": "Interest is the money you earn for keeping your money in the bank."
+      "id": "adm-a1-w31-q2",
+      "type": "fill-blank",
+      "question": "Please ________ (no) delete the meeting notes.",
+      "answer": "don't",
+      "explanation": "We use 'don't' to form a negative imperative in English."
     },
     {
-      "id": "fin-a1-w31-exam-3",
-      "type": "multipleChoice",
-      "prompt": "You ________ not spend all your salary.",
-      "options": ["should", "shouldn't", "don't should", "not should"],
-      "answerIndex": 1,
-      "explanation": "We use 'shouldn't' (should not) for negative advice."
+      "id": "adm-a1-w31-q3",
+      "type": "matching",
+      "question": "Match the email verbs with their functions:",
+      "pairs": [
+        { "term": "Forward", "definition": "Send to a new person" },
+        { "term": "Reply", "definition": "Answer the sender" },
+        { "term": "CC", "definition": "Copy someone else" },
+        { "term": "Archive", "definition": "Store for later" }
+      ]
     },
     {
-      "id": "fin-a1-w31-exam-4",
-      "type": "multipleChoice",
-      "prompt": "What is an 'Emergency Fund'?",
-      "options": ["Money for a vacation", "Money saved for unexpected problems", "Money for a new car", "Money for clothes"],
-      "answerIndex": 1,
-      "explanation": "An emergency fund is for unexpected expenses like repairs or medical bills."
+      "id": "adm-a1-w31-q4",
+      "type": "multiple-choice",
+      "question": "Choose the correct polite instruction:",
+      "options": [
+        "Please send the report.",
+        "You send the report please.",
+        "Sending report please.",
+        "Report send please."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Please' + base verb is the most common and professional way to give polite instructions."
     },
     {
-      "id": "fin-a1-w31-exam-5",
-      "type": "multipleChoice",
-      "prompt": "I ________ talk to a financial advisor.",
-      "options": ["should", "shoulds", "am should", "to should"],
-      "answerIndex": 0,
-      "explanation": "'Should' for personal advice/intent."
+      "id": "adm-a1-w31-q5",
+      "type": "fill-blank",
+      "question": "________ (Cierra) all programs before logging out.",
+      "answer": "Close",
+      "explanation": "'Close' is the correct imperative form for 'Cerrar'."
+    },
+    {
+      "id": "adm-a1-w31-q6",
+      "type": "multiple-choice",
+      "question": "What does 'Forward' (FW) mean?",
+      "options": [
+        "To delete the message.",
+        "To send the message to another person.",
+        "To reply to everyone.",
+        "To save as a draft."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Forwarding is sending a message you received to someone else."
+    },
+    {
+      "id": "adm-a1-w31-q7",
+      "type": "fill-blank",
+      "question": "________ (Envía) the email to the manager. (Imperative)",
+      "answer": "Send",
+      "explanation": "'Send' is the base form of the verb used for instructions."
+    },
+    {
+      "id": "adm-a1-w31-q8",
+      "type": "multiple-choice",
+      "question": "Which of these is a negative instruction?",
+      "options": [
+        "No print the file.",
+        "Not print the file.",
+        "Don't print the file.",
+        "Doesn't print the file."
+      ],
+      "correctAnswer": 2,
+      "explanation": "We use 'Don't' + base verb for negative instructions."
+    },
+    {
+      "id": "adm-a1-w31-q9",
+      "type": "matching",
+      "question": "Match the Spanish to English administrative verbs:",
+      "pairs": [
+        { "term": "Adjuntar", "definition": "Attach" },
+        { "term": "Revisar", "definition": "Check" },
+        { "term": "Guardar", "definition": "Save" },
+        { "term": "Imprimir", "definition": "Print" }
+      ]
+    },
+    {
+      "id": "adm-a1-w31-q10",
+      "type": "multiple-choice",
+      "question": "What is the meaning of 'Reply'?",
+      "options": [
+        "Eliminar",
+        "Reenviar",
+        "Responder",
+        "Adjuntar"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Reply' means to answer a message."
+    },
+    {
+      "id": "adm-a1-w31-q11",
+      "type": "fill-blank",
+      "question": "Please ________ (revisa) the spreadsheet for errors.",
+      "answer": "check",
+      "explanation": "'Check' is the verb used for 'revisar' or 'verificar'."
+    },
+    {
+      "id": "adm-a1-w31-q12",
+      "type": "multiple-choice",
+      "question": "If you want to keep an email but remove it from your inbox, you should:",
+      "options": [
+        "Delete it",
+        "Archive it",
+        "Forward it",
+        "Print it"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Archiving saves the email for later while keeping your inbox clean."
+    },
+    {
+      "id": "adm-a1-w31-q13",
+      "type": "fill-blank",
+      "question": "________ (Guarda) your work before you close the program.",
+      "answer": "Save",
+      "explanation": "'Save' is the imperative form for 'Guardar'."
+    },
+    {
+      "id": "adm-a1-w31-q14",
+      "type": "multiple-choice",
+      "question": "Which action removes an email permanently?",
+      "options": [
+        "Reply",
+        "Forward",
+        "Delete",
+        "Save"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Delete' removes the message from your records."
+    },
+    {
+      "id": "adm-a1-w31-q15",
+      "type": "fill-blank",
+      "question": "Please ________ (no abras) suspicious attachments.",
+      "answer": "don't open",
+      "explanation": "Negative imperative for 'No abras'."
+    },
+    {
+      "id": "adm-a1-w31-q16",
+      "type": "multiple-choice",
+      "question": "How do you make the instruction 'Print the document' more polite?",
+      "options": [
+        "Print the document now!",
+        "Please print the document.",
+        "Print the document please.",
+        "You print the document."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adding 'Please' at the beginning is the standard professional way to soften an instruction."
+    },
+    {
+      "id": "adm-a1-w31-q17",
+      "type": "matching",
+      "question": "Match the phrasal verbs with their meanings:",
+      "pairs": [
+        { "term": "Turn off", "definition": "Apagar" },
+        { "term": "Log in", "definition": "Iniciar sesión" },
+        { "term": "Log out", "definition": "Cerrar sesión" },
+        { "term": "Write down", "definition": "Anotar" }
+      ]
+    },
+    {
+      "id": "adm-a1-w31-q18",
+      "type": "multiple-choice",
+      "question": "What follows 'Don't' in a negative instruction?",
+      "options": [
+        "The verb with -ing",
+        "The base form of the verb",
+        "The verb in past tense",
+        "The verb with 'to'"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Negative imperatives use 'Don't' + base verb (e.g., Don't send)."
+    },
+    {
+      "id": "adm-a1-w31-q19",
+      "type": "fill-blank",
+      "question": "Please ________ (reenvía) this email to the HR department.",
+      "answer": "forward",
+      "explanation": "'Forward' is the verb for 'reenviar'."
+    },
+    {
+      "id": "adm-a1-w31-q20",
+      "type": "multiple-choice",
+      "question": "In an office, 'Inbox' refers to:",
+      "options": [
+        "The trash can.",
+        "The folder for new incoming messages.",
+        "The place for sent messages.",
+        "The printer tray."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 'Inbox' is where all your new incoming emails arrive."
     }
   ]
 }

@@ -469,6 +469,331 @@
         "RPO",
         "Recovery"
       ]
+    },
+    {
+      "id": "adm-b2-w11-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Human Risk. What is 'Social Engineering' in a security context?",
+      "options": [
+        "Building a better office layout.",
+        "Manipulating people into giving away confidential information.",
+        "A type of engineering degree.",
+        "Organising a company party."
+      ],
+      "answerIndex": 1,
+      "explanation": "Social engineering targets human psychology to gain unauthorized access."
+    },
+    {
+      "id": "adm-b2-w11-ex47",
+      "type": "fillBlanks",
+      "prompt": "Exercise 47: Fill in the blanks. 'Human ________ is often the ________ cause of security breaches.'",
+      "answers": [
+        "error",
+        "leading"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Risk Strategy. If you decide to stop using a high-risk vendor, you are using:",
+      "options": [
+        "Mitigation",
+        "Transfer",
+        "Avoidance",
+        "Acceptance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Avoidance involves removing the source of the risk entirely."
+    },
+    {
+      "id": "adm-b2-w11-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Third Conditional. Analyze a failed meeting: 'They / not / send / the agenda' / 'The meeting / be / a mess'.",
+      "modelAnswer": "If they had sent the agenda, the meeting wouldn't have been such a mess.",
+      "keywords": [
+        "If they had",
+        "wouldn't have been"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Legal Terms. What is a 'Force Majeure' clause?",
+      "options": [
+        "A clause that requires extra work.",
+        "A clause that frees parties from liability during extraordinary, uncontrollable events.",
+        "A clause that fires the CEO.",
+        "A type of promotion."
+      ],
+      "answerIndex": 1,
+      "explanation": "Force Majeure covers 'acts of God' like natural disasters or wars."
+    },
+    {
+      "id": "adm-b2-w11-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Mixed Conditional. Connect a past action to a present state: 'I / not / save / the file' / 'I / be / in trouble / now'.",
+      "modelAnswer": "If I had saved the file, I wouldn't be in trouble now.",
+      "keywords": [
+        "If I had",
+        "wouldn't be"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex52",
+      "type": "fillBlanks",
+      "prompt": "Exercise 52: Risk Matrix. 'A risk with high ________ and high ________ must be addressed immediately.'",
+      "answers": [
+        "probability",
+        "impact"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex53",
+      "type": "multipleChoice",
+      "prompt": "Exercise 53: Insurance. 'Professional Indemnity' insurance protects you from:",
+      "options": [
+        "Physical injury in the office.",
+        "Claims of negligence or mistakes in your professional work.",
+        "Damage to your personal car.",
+        "Low sales figures."
+      ],
+      "answerIndex": 1,
+      "explanation": "Indemnity insurance is vital for professionals to protect against liability for errors."
+    },
+    {
+      "id": "adm-b2-w11-ex54",
+      "type": "writingTask",
+      "prompt": "Exercise 54: Phrasal Verb Usage. Write a sentence using 'head off' in a project context.",
+      "modelAnswer": "We implemented a new verification step to head off any potential data entry errors.",
+      "keywords": [
+        "head off"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: Security Protocols. The 'Principle of Least Privilege' means:",
+      "options": [
+        "Only the CEO gets a private office.",
+        "Staff only have access to the data they need for their specific job.",
+        "The youngest staff members do all the work.",
+        "Nobody is allowed to use the printer."
+      ],
+      "answerIndex": 1,
+      "explanation": "This principle reduces the risk of accidental or malicious data misuse."
+    },
+    {
+      "id": "adm-b2-w11-ex56",
+      "type": "fillBlanks",
+      "prompt": "Exercise 56: Recovery. 'RTO stands for Recovery ________ Objective.'",
+      "answers": [
+        "Time"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Possibility (Past). Speculate why a deal failed using a Third Conditional: 'The lawyer / be / late'.",
+      "modelAnswer": "The deal might have been successful if the lawyer hadn't been late.",
+      "keywords": [
+        "If",
+        "hadn't been"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Data Security. 'RPO' measures how much ___ the company can tolerate.",
+      "options": [
+        "Money loss",
+        "Data loss (in time)",
+        "Staff turnover",
+        "Customer complaints"
+      ],
+      "answerIndex": 1,
+      "explanation": "RPO (Recovery Point Objective) determines how far back backups must go."
+    },
+    {
+      "id": "adm-b2-w11-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Criticism. Criticize a failure to 'back up' using 'should have'.",
+      "modelAnswer": "You should have backed up the database before starting the migration.",
+      "keywords": [
+        "should have",
+        "backed up"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex60",
+      "type": "fillBlanks",
+      "prompt": "Exercise 60: Risk Chunks. 'We must ________ the risk of a breach by ________ the data.'",
+      "answers": [
+        "mitigate",
+        "encrypting"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Business Continuity. What is the difference between BC and DR?",
+      "options": [
+        "There is no difference.",
+        "BC is about continuing operations during a crisis; DR is about restoring systems after.",
+        "BC is for managers; DR is for technicians.",
+        "DR is more expensive than BC."
+      ],
+      "answerIndex": 1,
+      "explanation": "Business Continuity is the ongoing process, Disaster Recovery is the post-event restoration."
+    },
+    {
+      "id": "adm-b2-w11-ex62",
+      "type": "writingTask",
+      "prompt": "Exercise 62: Hypothetical Result. Rephrase: 'I didn't know about the bug, so I didn't fix it.' use Third Conditional.",
+      "modelAnswer": "If I had known about the bug, I would have fixed it.",
+      "keywords": [
+        "If I had",
+        "would have"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex63",
+      "type": "fillBlanks",
+      "prompt": "Exercise 63: Phrasal Verbs. 'We need to ________ with the compliance issue before the ________.'",
+      "answers": [
+        "deal",
+        "audit"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Corporate Responsibility. 'Liability' refers to:",
+      "options": [
+        "A type of asset.",
+        "The state of being legally responsible for something.",
+        "A quick way of working.",
+        "A mistake in a spreadsheet."
+      ],
+      "answerIndex": 1,
+      "explanation": "Liability is a core concept in risk management and law."
+    },
+    {
+      "id": "adm-b2-w11-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Professional Phrasing. Rewrite: 'The plan failed because we didn't have a backup' -> 'The plan fell through...'",
+      "modelAnswer": "The plan fell through because we lacked a robust contingency plan.",
+      "keywords": [
+        "fell through",
+        "contingency"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Grammar. 'If they ___ the contract, we wouldn't be in court today.'",
+      "options": [
+        "signed",
+        "had signed",
+        "would sign",
+        "have signed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mixed Conditional: Past action (had signed) -> Present result (wouldn't be)."
+    },
+    {
+      "id": "adm-b2-w11-ex67",
+      "type": "fillBlanks",
+      "prompt": "Exercise 67: Risk Transfer. 'Buying ________ is a way to ________ the financial risk of a fire.'",
+      "answers": [
+        "insurance",
+        "transfer"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: Impact Analysis. Explain why a 'skill gap' is a risk for a new software implementation.",
+      "modelAnswer": "A skill gap is a risk because untrained employees may use the software incorrectly, causing data errors or system crashes.",
+      "keywords": [
+        "untrained",
+        "errors"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Security terms. What is an 'Insider Threat'?",
+      "options": [
+        "A threat from a competitor.",
+        "A threat from someone within the organisation, like an employee.",
+        "A virus from the internet.",
+        "A natural disaster."
+      ],
+      "answerIndex": 1,
+      "explanation": "Insider threats come from people with authorized access to the organization."
+    },
+    {
+      "id": "adm-b2-w11-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: Conditional Speculation. 'We didn't use the workaround. The system stayed down for 10 hours.' use Third Conditional.",
+      "modelAnswer": "If we had used the workaround, the system wouldn't have stayed down for 10 hours.",
+      "keywords": [
+        "If we had",
+        "wouldn't have"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex71",
+      "type": "fillBlanks",
+      "prompt": "Exercise 71: Response. 'A ________ is a temporary fix used to ________ off a disaster.'",
+      "answers": [
+        "workaround",
+        "ward"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Terminology. 'Redundancy' in a technical sense means:",
+      "options": [
+        "Firing people.",
+        "The inclusion of extra components which are not strictly necessary to functioning, in case of failure in other components.",
+        "Repeating the same word twice.",
+        "Doing nothing all day."
+      ],
+      "answerIndex": 1,
+      "explanation": "Redundancy provides a safety net for critical systems."
+    },
+    {
+      "id": "adm-b2-w11-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: Mixed Conditional. Write a sentence about a past training and current skills: 'If I / attend / the course / I / know / how to do this now'.",
+      "modelAnswer": "If I had attended the course, I would know how to do this now.",
+      "keywords": [
+        "If I had",
+        "would know"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex74",
+      "type": "fillBlanks",
+      "prompt": "Exercise 74: Logic. 'Qualitative analysis is ________, while quantitative analysis is ________.'",
+      "answers": [
+        "descriptive",
+        "numerical"
+      ]
+    },
+    {
+      "id": "adm-b2-w11-ex75",
+      "type": "writingTask",
+      "prompt": "Exercise 75: Final Synthesis. List two risk response strategies and use a Third Conditional to describe a hypothetical 'lessons learned' scenario.",
+      "modelAnswer": "Strategies: 1) Mitigation, 2) Transfer. Scenario: If we had updated our risk register monthly, we would have identified the vendor delay sooner and could have transferred the order to a local supplier.",
+      "keywords": [
+        "Mitigation",
+        "Transfer",
+        "If we had",
+        "would have"
+      ]
     }
   ]
 }

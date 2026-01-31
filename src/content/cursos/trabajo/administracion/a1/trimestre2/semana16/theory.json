@@ -1,30 +1,24 @@
 {
-  "title": "Describing Modern Banking",
+  "title": "Semana 16: Rutinas Diarias en la Oficina",
   "sections": [
     {
-      "id": "vocab-adjectives",
-      "title": "Vocabulary: Describing Services & Tools",
-      "content": "In modern finance, we use these adjectives to describe our tools:\n\n- **New / Modern**: Latest technology (neobanks).\n- **Old / Traditional**: Classic methods (physical branches).\n- **Fast / High-speed**: Quick transactions and internet.\n- **Slow / Laggy**: Systems that take a long time.\n- **Secure**: Safe from hackers (encrypted).\n- **User-friendly**: Easy to use (apps).\n- **Large / Small**: Describing the size of an office or a budget."
+      "id": "office-routines",
+      "title": "Vocabulario: Acciones Diarias",
+      "content": "Para describir tu día a día en el trabajo, utilizamos verbos de acción comunes:\n\n- **Arrive at work**: Llegar al trabajo\n- **Check emails**: Revisar correos\n- **Answer the phone**: Responder el teléfono\n- **Have a meeting**: Tener una reunión\n- **Write reports**: Escribir informes\n- **File documents**: Archivar documentos\n- **Take a break**: Tomarse un descanso\n- **Finish work**: Terminar de trabajar"
     },
     {
-      "id": "diagram-comparison",
-      "title": "Traditional vs. Modern Banking",
-      "content": "```mermaid\ngraph LR\n    A[Traditional] --> B[Paper-based]\n    B --> C[Slow & Manual]\n    D[Modern] --> E[Digital-first]\n    E --> F[Fast & Automatic]\n```"
-    },
-    {
-      "id": "practice-descriptions",
-      "title": "Combining Adjectives with Nouns",
-      "content": "To describe something, put the adjective **before** the noun:\n\n- *This is a **secure** app.*\n- *That is a **traditional** bank.*\n- *We have a **user-friendly** interface.*\n- *Those are **fast** computers.*"
+      "id": "grammar-present-simple",
+      "title": "Gramática: Presente Simple (Afirmativo)",
+      "content": "Usamos el Presente Simple para hábitos y rutinas:\n\n1. **I / You / We / They**: Usamos la forma base del verbo.\n   - *I **check** my emails every morning.*\n   - *We **have** a meeting at 10 AM.*\n\n2. **He / She / It**: Añadimos **-s** o **-es** al verbo.\n   - *She **checks** the reports.*\n   - *He **finishes** work at 6 PM.*"
     }
   ],
   "objectives": [
-    "Describe financial products using modern and traditional adjectives",
-    "Identify the quality of digital services (secure, fast, user-friendly)",
-    "Correctly place adjectives before nouns in sentences"
+    "Aprender verbos de acción comunes en el entorno administrativo",
+    "Construir oraciones afirmativas en Presente Simple",
+    "Describir una rutina diaria de oficina básica"
   ],
   "keyTerms": [
-    { "term": "User-friendly", "definition": "Easy for the customer to use and understand." },
-    { "term": "Secure", "definition": "Safe and protected from danger or theft." },
-    { "term": "Traditional", "definition": "Following old customs or methods." }
+    { "term": "Routine", "definition": "Una secuencia regular de acciones." },
+    { "term": "Task", "definition": "Una tarea o actividad específica que debe realizarse." }
   ]
 }

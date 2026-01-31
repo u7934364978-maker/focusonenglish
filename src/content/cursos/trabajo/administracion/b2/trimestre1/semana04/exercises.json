@@ -452,6 +452,312 @@
       "prompt": "You are chairing a hybrid meeting. A remote colleague raises their hand via Teams. The boardroom is noisy due to side conversations. 1) State your 'muting protocol' instruction. 2) Use a reporting verb to 'manage meeting flow' and invite the remote colleague. 3) Define how you will record this specific interaction in the minutes.",
       "modelAnswer": "1) 'Could everyone in the room please mute their side conversations so we can hear our remote colleagues?' 2) 'I see Alex has their hand raised; I suggest we hear their input before moving to the next item.' 3) The interaction would be summarized: 'The Chair invited Alex (joining remotely) to provide input on the seating plan.'",
       "keywords": ["mute", "suggest", "invited", "remote"]
+    },
+    {
+      "id": "adm-b2-w4-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Boardroom Procedure. What is a 'seconder' in a formal meeting?",
+      "options": [
+        "The second person to arrive at the meeting.",
+        "A person who formally supports a motion or proposal made by another.",
+        "The person who takes the minutes.",
+        "A timer who tracks how many seconds each person speaks."
+      ],
+      "answerIndex": 1,
+      "explanation": "In formal procedures, a motion needs a proposer and a seconder to be discussed."
+    },
+    {
+      "id": "adm-b2-w4-ex47",
+      "type": "writingTask",
+      "prompt": "Exercise 47: Neutrality in Minutes. Rewrite this biased sentence to be objective: 'The marketing manager complained loudly about the tiny budget.'",
+      "modelAnswer": "The Marketing Manager expressed concern regarding the budget allocation.",
+      "keywords": ["expressed concern", "budget allocation"]
+    },
+    {
+      "id": "adm-b2-w4-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Clarification Phrases. Which phrase is best for an administrator to use if they missed a specific decision?",
+      "options": [
+        "Could you say that again? I wasn't listening.",
+        "Stop talking, I need to write this down.",
+        "I'm sorry, could I just clarify the exact wording of that motion for the record?",
+        "It doesn't matter, I'll guess what you said."
+      ],
+      "answerIndex": 2,
+      "explanation": "Asking to 'clarify for the record' is the most professional way to ensure accuracy."
+    },
+    {
+      "id": "adm-b2-w4-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Executive Summary - Bullet Points. Turn this paragraph into 3 professional bullet points: 'We need to reduce energy costs by 10%. We should also look into switching to LED bulbs. Finally, we must remind staff to turn off computers at night.'",
+      "modelAnswer": "- Implement a 10% reduction in energy costs.\n- Transition to LED bulb usage.\n- Establish a protocol for powering down computers overnight.",
+      "keywords": ["reduction", "LED", "protocol", "overnight"]
+    },
+    {
+      "id": "adm-b2-w4-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Confidentiality. Why should board minutes be stored securely?",
+      "options": [
+        "Because they are very heavy.",
+        "Because they often contain sensitive or strategic data.",
+        "Because the paper is expensive.",
+        "Because no one is allowed to read them ever."
+      ],
+      "answerIndex": 1,
+      "explanation": "Board meetings often discuss sensitive information that is not for general circulation."
+    },
+    {
+      "id": "adm-b2-w4-ex51",
+      "type": "multipleChoice",
+      "prompt": "Exercise 51: Reporting Verbs (Refuse). Which sentence correctly uses the reporting verb 'refuse'?",
+      "options": [
+        "He refused that he would go.",
+        "He refused going to the meeting.",
+        "He refused to attend the additional training session.",
+        "He refused for the agenda."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Refuse' is followed by 'to + infinitive'."
+    },
+    {
+      "id": "adm-b2-w4-ex52",
+      "type": "writingTask",
+      "prompt": "Exercise 52: Action Item Grammar. Correct this sentence: 'Action: John is going to fix the website by Monday.' (Use the standard administrative format).",
+      "modelAnswer": "Action: John to repair the website by Monday.",
+      "keywords": ["Action:", "to repair"]
+    },
+    {
+      "id": "adm-b2-w4-ex53",
+      "type": "multipleChoice",
+      "prompt": "Exercise 53: Virtual Whiteboards. What is the main benefit of using a tool like Miro during a meeting?",
+      "options": [
+        "It replaces the need for a chair.",
+        "It allows for real-time visual collaboration and idea capturing.",
+        "It automatically mutes all participants.",
+        "It records the video of the meeting."
+      ],
+      "answerIndex": 1,
+      "explanation": "Virtual whiteboards facilitate collaborative brainstorming and tracking in real-time."
+    },
+    {
+      "id": "adm-b2-w4-ex54",
+      "type": "writingTask",
+      "prompt": "Exercise 54: PhraseBank Usage. Write a sentence using the term 'unanimous decision' regarding a new office policy.",
+      "modelAnswer": "The board reached a unanimous decision to implement a flexible working policy starting next month.",
+      "keywords": ["unanimous decision", "flexible working"]
+    },
+    {
+      "id": "adm-b2-w4-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: Reporting Verbs (Urge). Which structure is correct for the verb 'urge'?",
+      "options": [
+        "The Chair urged that we must save money.",
+        "The Chair urged the team to find cost-savings.",
+        "The Chair urged to find cost-savings.",
+        "The Chair urged saving money."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Urge' is followed by [object] + [to + infinitive]."
+    },
+    {
+      "id": "adm-b2-w4-ex56",
+      "type": "writingTask",
+      "prompt": "Exercise 56: Executive Summary (ROI). Write a sentence for a proposal summary highlighting the Return on Investment (ROI) for a new software.",
+      "modelAnswer": "Implementing the new CRM software is expected to yield a 15% increase in efficiency, resulting in a full ROI within six months.",
+      "keywords": ["yield", "efficiency", "ROI"]
+    },
+    {
+      "id": "adm-b2-w4-ex57",
+      "type": "multipleChoice",
+      "prompt": "Exercise 57: Meeting Flow. What is the purpose of 'Any Other Business' (AOB)?",
+      "options": [
+        "To discuss items that were not on the original agenda.",
+        "To count the number of people present.",
+        "To approve the minutes from three years ago.",
+        "To finish the meeting early."
+      ],
+      "answerIndex": 0,
+      "explanation": "AOB allows participants to raise minor points that didn't warrant a full agenda item."
+    },
+    {
+      "id": "adm-b2-w4-ex58",
+      "type": "writingTask",
+      "prompt": "Exercise 58: Tense Shift Practice. Convert to reported speech: 'The budget is tight this year.' (She stated that...)",
+      "modelAnswer": "She stated that the budget was tight that year.",
+      "keywords": ["was", "that year"]
+    },
+    {
+      "id": "adm-b2-w4-ex59",
+      "type": "multipleChoice",
+      "prompt": "Exercise 59: Digital Logistics. What does a 'Tech Check' involve?",
+      "options": [
+        "Checking everyone's CV.",
+        "Verifying that audio, video, and connection are stable before starting.",
+        "Updating all software during the meeting.",
+        "Hiring a technician to sit in the room."
+      ],
+      "answerIndex": 1,
+      "explanation": "A tech check ensures the digital tools are functional to avoid delays."
+    },
+    {
+      "id": "adm-b2-w4-ex60",
+      "type": "writingTask",
+      "prompt": "Exercise 60: Action-Oriented Language. Rewrite 'We talked about the new office chairs' to be more action-oriented for minutes.",
+      "modelAnswer": "The committee discussed the procurement of new ergonomic office chairs.",
+      "keywords": ["discussed", "procurement", "ergonomic"]
+    },
+    {
+      "id": "adm-b2-w4-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Professional Tone. Which reporting verb is most objective for a simple statement of fact?",
+      "options": [
+        "Complained",
+        "Pointed out",
+        "Exclaimed",
+        "Admitted"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Pointed out' is a neutral, professional way to report a factual observation."
+    },
+    {
+      "id": "adm-b2-w4-ex62",
+      "type": "writingTask",
+      "prompt": "Exercise 62: SMART Action (M). How do you make 'Write the report' measurable (the 'M' in SMART)?",
+      "modelAnswer": "Action: Alex to write a 10-page report on Q3 sales performance.",
+      "keywords": ["10-page", "report"]
+    },
+    {
+      "id": "adm-b2-w4-ex63",
+      "type": "multipleChoice",
+      "prompt": "Exercise 63: Meeting Terms. What are 'Matters Arising'?",
+      "options": [
+        "New business for next week.",
+        "Updates on items from the previous meeting's minutes.",
+        "A list of people who left early.",
+        "The snack menu for the meeting."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Matters arising' specifically addresses follow-ups from the previous record."
+    },
+    {
+      "id": "adm-b2-w4-ex64",
+      "type": "writingTask",
+      "prompt": "Exercise 64: Executive Summary (Jargon). Rewrite 'We need to leverage our core competencies to optimize our synergy' without jargon.",
+      "modelAnswer": "We need to use our main strengths to work better together.",
+      "keywords": ["strengths", "work better"]
+    },
+    {
+      "id": "adm-b2-w4-ex65",
+      "type": "multipleChoice",
+      "prompt": "Exercise 65: Inclusive Turn-taking. How can a chair ensure remote participants are included?",
+      "options": [
+        "By ignoring the 'Hand Raise' feature.",
+        "By asking for their input specifically after each main agenda item.",
+        "By only letting people in the room speak.",
+        "By ending the meeting early."
+      ],
+      "answerIndex": 1,
+      "explanation": "Proactively inviting remote input prevents them from being 'siloed' out of the conversation."
+    },
+    {
+      "id": "adm-b2-w4-ex66",
+      "type": "writingTask",
+      "prompt": "Exercise 66: Reporting Verbs (Suggest). Report: 'I think we should use a different supplier.' (He suggested...)",
+      "modelAnswer": "He suggested using a different supplier.",
+      "keywords": ["suggested", "using"]
+    },
+    {
+      "id": "adm-b2-w4-ex67",
+      "type": "multipleChoice",
+      "prompt": "Exercise 67: Minutes Format. Where does the 'Next Meeting' date usually go?",
+      "options": [
+        "In the middle of the discussion.",
+        "At the very end of the minutes.",
+        "On the first page only.",
+        "It isn't included in minutes."
+      ],
+      "answerIndex": 1,
+      "explanation": "The date of the next meeting is typically the final item recorded."
+    },
+    {
+      "id": "adm-b2-w4-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: SMART Action (A). How do you make 'Fly to the moon' Achievable (the 'A' in SMART) for an office admin?",
+      "modelAnswer": "Action: Admin to book flight tickets for the Director's trip to London.",
+      "keywords": ["book", "flight", "tickets"]
+    },
+    {
+      "id": "adm-b2-w4-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Professional Phrases. 'For the record' is used to:",
+      "options": [
+        "Play a music album.",
+        "Indicate that something must be officially noted in the minutes.",
+        "Ask someone to stop talking.",
+        "Introduce a joke."
+      ],
+      "answerIndex": 1,
+      "explanation": "'For the record' signals that the following information is critical for the official transcript."
+    },
+    {
+      "id": "adm-b2-w4-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: Reporting Verbs (Agree). Report: 'Yes, I will send the email.' (She agreed...)",
+      "modelAnswer": "She agreed to send the email.",
+      "keywords": ["agreed", "to send"]
+    },
+    {
+      "id": "adm-b2-w4-ex71",
+      "type": "multipleChoice",
+      "prompt": "Exercise 71: Hybrid Meeting Etiquette. If you are in the physical room, you should:",
+      "options": [
+        "Have loud side-conversations.",
+        "Address the camera/microphone so remote users can hear you clearly.",
+        "Turn your back to the screen.",
+        "Only talk to the person sitting next to you."
+      ],
+      "answerIndex": 1,
+      "explanation": "Clear communication with remote participants is key to successful hybrid meetings."
+    },
+    {
+      "id": "adm-b2-w4-ex72",
+      "type": "writingTask",
+      "prompt": "Exercise 72: Action Item 'Chasing'. Write a polite one-sentence 'nudge' to a colleague whose deadline was 'Yesterday'.",
+      "modelAnswer": "I'm just following up on the Q3 report; could you please let me know when it might be ready to circulate?",
+      "keywords": ["following up", "ready", "circulate"]
+    },
+    {
+      "id": "adm-b2-w4-ex73",
+      "type": "multipleChoice",
+      "prompt": "Exercise 73: Executive Summary (Structure). An executive summary should generally be:",
+      "options": [
+        "10 pages long.",
+        "One page or less.",
+        "A series of photos.",
+        "A word-for-word copy of the report."
+      ],
+      "answerIndex": 1,
+      "explanation": "The 'Executive' part implies brevity for senior leaders."
+    },
+    {
+      "id": "adm-b2-w4-ex74",
+      "type": "writingTask",
+      "prompt": "Exercise 74: Vocabulary Review. Define 'Quorum' and 'Adjourn' in your own words.",
+      "modelAnswer": "Quorum is the minimum number of people needed for a valid meeting; Adjourn is to temporarily stop or end a session.",
+      "keywords": ["minimum", "stop", "end"]
+    },
+    {
+      "id": "adm-b2-w4-ex75",
+      "type": "multipleChoice",
+      "prompt": "Exercise 75: Comprehensive Review. Which combination is essential for professional minutes?",
+      "options": [
+        "Verbatim transcript and colorful fonts.",
+        "Objective tone, clear action items, and reporting verbs.",
+        "Personal opinions and detailed descriptions of clothes.",
+        "A list of snacks and a summary of office gossip."
+      ],
+      "answerIndex": 1,
+      "explanation": "Professionalism in minutes relies on objectivity, clarity of tasks, and precise language."
     }
   ]
 }

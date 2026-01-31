@@ -483,6 +483,335 @@
         "who",
         "whom"
       ]
+    },
+    {
+      "id": "adm-b2-w9-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: Conflict Resolution. What is an 'aggrieved' stakeholder?",
+      "options": [
+        "A stakeholder who is very happy with the project.",
+        "A stakeholder who feels unfairly treated or negatively impacted.",
+        "A stakeholder who has no power or interest.",
+        "An external vendor who is charging too much."
+      ],
+      "answerIndex": 1,
+      "explanation": "An aggrieved stakeholder feels resentful or negatively affected by project decisions."
+    },
+    {
+      "id": "adm-b2-w9-ex47",
+      "type": "fillBlanks",
+      "prompt": "Exercise 47: Fill in the blanks. 'To ________ a conflict with a stakeholder, we should use ________ listening and show ________.'",
+      "answers": [
+        "de-escalate",
+        "active",
+        "empathy"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Networking Etiquette. In a 'coffee chat', who usually pays for the coffee?",
+      "options": [
+        "The person who is more senior.",
+        "The person who requested the meeting.",
+        "The person who arrives first.",
+        "They always split the bill."
+      ],
+      "answerIndex": 1,
+      "explanation": "Standard etiquette dictates that the requester pays for the coffee."
+    },
+    {
+      "id": "adm-b2-w9-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Relative Clauses (Whose). Combine: 'The manager is in a meeting. His team is protesting the new policy.'",
+      "modelAnswer": "The manager whose team is protesting the new policy is in a meeting.",
+      "keywords": [
+        "whose"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Business Chunks. What does it mean to 'bring something to the table'?",
+      "options": [
+        "To set the table for lunch.",
+        "To provide specific skills, ideas, or benefits to a project.",
+        "To complain about the office furniture.",
+        "To clean up after a meeting."
+      ],
+      "answerIndex": 1,
+      "explanation": "To 'bring to the table' means providing value or resources."
+    },
+    {
+      "id": "adm-b2-w9-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: De-escalation Phrasing. Rewrite this defensively: 'You're wrong about the budget.' -> 'I understand your concerns...'",
+      "modelAnswer": "I understand your concerns regarding the budget; however, let's look at the data that informed this decision.",
+      "keywords": [
+        "understand",
+        "concerns"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex52",
+      "type": "fillBlanks",
+      "prompt": "Exercise 52: Networking. 'It is important to be ________ of people's time during a ________ chat.'",
+      "answers": [
+        "mindful",
+        "coffee"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex53",
+      "type": "multipleChoice",
+      "prompt": "Exercise 53: Relative Pronouns. 'The stakeholders, ________ we met yesterday, were very supportive.'",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answerIndex": 1,
+      "explanation": "In formal English, 'whom' is used as the object of the verb 'met'."
+    },
+    {
+      "id": "adm-b2-w9-ex54",
+      "type": "writingTask",
+      "prompt": "Exercise 54: Elevator Pitch Logic. List the 3 key components of an elevator pitch.",
+      "modelAnswer": "1. Who you are/your role. 2. What you do/the value you bring. 3. Your goal or call to action.",
+      "keywords": [
+        "role",
+        "value",
+        "goal"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: Matrix Logic. A government regulator with the power to shut down your project but very little interest in daily operations is a:",
+      "options": [
+        "Key Player",
+        "Keep Satisfied",
+        "Keep Informed",
+        "Monitor Only"
+      ],
+      "answerIndex": 1,
+      "explanation": "High Power/Low Interest stakeholders must be 'kept satisfied'."
+    },
+    {
+      "id": "adm-b2-w9-ex56",
+      "type": "fillBlanks",
+      "prompt": "Exercise 56: Relative Clauses. 'The office ________ the relocation will take place is ________ than our current one.'",
+      "answers": [
+        "where",
+        "larger"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Possibility. Combine: 'I met a contact. His expertise is in RPA.' use 'whose'.",
+      "modelAnswer": "I met a contact whose expertise is in RPA.",
+      "keywords": [
+        "whose"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: UK Etiquette. What is the standard 'follow-up' time after a networking event?",
+      "options": [
+        "Within 1 hour.",
+        "Within 24 hours.",
+        "After one week.",
+        "Never; wait for them to contact you."
+      ],
+      "answerIndex": 1,
+      "explanation": "Sending a message within 24 hours is the professional standard."
+    },
+    {
+      "id": "adm-b2-w9-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Formal Follow-up. Write a 1-sentence LinkedIn invitation to a stakeholder you met at a mixer.",
+      "modelAnswer": "It was a pleasure meeting you at the mixer yesterday; I'd love to connect and touch base regarding our shared interest in CRM innovation.",
+      "keywords": [
+        "pleasure",
+        "connect",
+        "touch base"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex60",
+      "type": "fillBlanks",
+      "prompt": "Exercise 60: Stakeholder Strategy. 'For ________ players, we must provide ________ updates and ensure their ________.'",
+      "answers": [
+        "key",
+        "regular",
+        "buy-in"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Relative Clauses. In which case is 'which' used for a whole sentence?",
+      "options": [
+        "The portal is slow, which is annoying.",
+        "The portal which is slow needs fixing.",
+        "Which portal is slow?",
+        "The slow portal, which cost a lot, is annoying."
+      ],
+      "answerIndex": 0,
+      "explanation": "In 'The portal is slow, which is annoying', 'which' refers to the entire previous fact."
+    },
+    {
+      "id": "adm-b2-w9-ex62",
+      "type": "writingTask",
+      "prompt": "Exercise 62: Conciliation. Define 'conciliation' in your own words.",
+      "modelAnswer": "Conciliation is the act of mediated communication to resolve a dispute and stop someone from being angry.",
+      "keywords": [
+        "resolve",
+        "angry",
+        "dispute"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex63",
+      "type": "fillBlanks",
+      "prompt": "Exercise 63: Phrasal Verbs. 'Please keep me in the ________ regarding the ________ with the new vendor.'",
+      "answers": [
+        "loop",
+        "negotiations"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Business Ethics. Why is 'transparency' important when managing aggrieved stakeholders?",
+      "options": [
+        "To show them they are wrong.",
+        "To build trust and explain the rationale behind decisions.",
+        "To make the project look more expensive.",
+        "To avoid paying for their coffee."
+      ],
+      "answerIndex": 1,
+      "explanation": "Transparency helps stakeholders understand the 'why', reducing resentment."
+    },
+    {
+      "id": "adm-b2-w9-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Professional Phrasing. Rephrase: 'I'll call you later to see what's happening' -> 'I'll touch base...'",
+      "modelAnswer": "I'll touch base with you later to discuss the current status of the project.",
+      "keywords": [
+        "touch base",
+        "status"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Relative Clauses. 'The meeting, ________ lasted three hours, was quite productive.'",
+      "options": [
+        "that",
+        "which",
+        "who",
+        "whom"
+      ],
+      "answerIndex": 1,
+      "explanation": "Non-defining clauses for objects must use 'which', not 'that'."
+    },
+    {
+      "id": "adm-b2-w9-ex67",
+      "type": "fillBlanks",
+      "prompt": "Exercise 67: Reciprocity. 'Building a network on ________ means offering ________ before asking for a ________.'",
+      "answers": [
+        "reciprocity",
+        "value",
+        "favour"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: Coffee Chat Agenda. Write 3 questions for a coffee chat with a 'Head of Innovation'.",
+      "modelAnswer": "1. What was the biggest challenge in your recent CRM pivot? 2. How do you see AI impacting our administrative workflows next year? 3. What advice would you give to someone looking to streamline cross-departmental communication?",
+      "keywords": [
+        "challenge",
+        "AI",
+        "advice"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Logic. If a stakeholder's power increases, they should move on the matrix from:",
+      "options": [
+        "Keep Informed to Key Player",
+        "Key Player to Monitor Only",
+        "Keep Satisfied to Monitor Only",
+        "Keep Informed to Monitor Only"
+      ],
+      "answerIndex": 0,
+      "explanation": "If power increases while interest is high, they move from 'Keep Informed' to 'Key Player'."
+    },
+    {
+      "id": "adm-b2-w9-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: Formal Introduction. Use 'with whom' in a sentence introducing a collaborator.",
+      "modelAnswer": "This is Dr. Smith, with whom I am collaborating on the stakeholder engagement report.",
+      "keywords": [
+        "with whom"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex71",
+      "type": "fillBlanks",
+      "prompt": "Exercise 71: Communication. 'To ________ a stakeholder's grievance, we must find a way to ________ the negative impact.'",
+      "answers": [
+        "address",
+        "mitigate"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Terminology. 'Synergy' in a business context refers to:",
+      "options": [
+        "A type of energy drink.",
+        "The interaction of two or more agents to produce a combined effect greater than the sum of their separate effects.",
+        "A formal disagreement between stakeholders.",
+        "The process of firing a vendor."
+      ],
+      "answerIndex": 1,
+      "explanation": "Synergy is about creating more value through collaboration."
+    },
+    {
+      "id": "adm-b2-w9-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: Relative Clause (When). Combine: 'I remember the day. We signed the first major contract then.'",
+      "modelAnswer": "I remember the day when we signed the first major contract.",
+      "keywords": [
+        "when"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex74",
+      "type": "fillBlanks",
+      "prompt": "Exercise 74: Networking Logic. 'An ________ pitch should be ________ enough to deliver between floors in a lift.'",
+      "answers": [
+        "elevator",
+        "short"
+      ]
+    },
+    {
+      "id": "adm-b2-w9-ex75",
+      "type": "writingTask",
+      "prompt": "Exercise 75: Final Synthesis. List two 'Key Players' for an office relocation and use a non-defining relative clause to describe one's role.",
+      "modelAnswer": "Key Players: 1) The CEO, 2) The Operations Manager. The CEO, who has final approval on the budget, must be kept updated weekly.",
+      "keywords": [
+        "CEO",
+        "Operations",
+        "who"
+      ]
     }
   ]
 }

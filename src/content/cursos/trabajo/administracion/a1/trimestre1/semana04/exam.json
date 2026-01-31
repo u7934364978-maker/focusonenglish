@@ -1,40 +1,165 @@
 {
-  "title": "Examen: Cortesía y Comunicación Básica",
+  "title": "Examen: Posesivos y Rutinas",
   "questions": [
     {
-      "id": "q1",
-      "question": "Which phrase is used when you arrive at a meeting at 3:00 PM?",
-      "options": ["Good morning", "Good afternoon", "Good night", "Goodbye"],
-      "correctAnswer": 1,
-      "explanation": "3:00 PM is in the afternoon."
+      "id": "adm-a1-w04-q01",
+      "question": "Which sentence is correct?",
+      "options": [
+        "I works in an office.",
+        "I work in an office.",
+        "I am work in an office.",
+        "I working in an office."
+      ],
+      "answerIndex": 1,
+      "explanation": "With 'I', we use the base form of the verb in Present Simple."
     },
     {
-      "id": "q2",
-      "question": "What should you say if you want to pass through a crowded hallway?",
-      "options": ["I'm sorry", "Excuse me", "You're welcome", "Hi"],
-      "correctAnswer": 1,
-      "explanation": "We use 'Excuse me' to politely ask someone to move or to get attention."
+      "id": "adm-a1-w04-q02",
+      "question": "Choose the correct possessive: 'John is here. ______ car is outside.'",
+      "options": ["His", "Her", "Its", "Their"],
+      "answerIndex": 0,
+      "explanation": "We use 'His' for male ownership."
     },
     {
-      "id": "q3",
-      "question": "Complete the dialogue: 'A: Have a nice day! B: Thanks, ________!'",
-      "options": ["You're welcome", "You too", "Please", "Excuse me"],
-      "correctAnswer": 1,
-      "explanation": "'You too' is the polite response to 'Have a nice day'."
+      "id": "adm-a1-w04-q03",
+      "question": "What is a 'Desk'?",
+      "options": [
+        "A place to sleep",
+        "A table to work at",
+        "A type of computer",
+        "A telephone"
+      ],
+      "answerIndex": 1,
+      "explanation": "A desk is a piece of furniture with a flat top for working."
     },
     {
-      "id": "q4",
-      "question": "What is the polite way to ask for something?",
-      "options": ["Now", "Give me", "Please", "Hello"],
-      "correctAnswer": 2,
-      "explanation": "We use 'Please' to make a request polite."
+      "id": "adm-a1-w04-q04",
+      "question": "Complete: 'We are colleagues. ______ manager is Mr. Smith.'",
+      "options": ["Our", "Your", "Their", "My"],
+      "answerIndex": 0,
+      "explanation": "We use 'Our' as the possessive for 'We'."
     },
     {
-      "id": "q5",
-      "question": "If you spill coffee on a colleague's desk, you should say:",
-      "options": ["You're welcome", "I'm sorry", "Good morning", "Goodbye"],
-      "correctAnswer": 1,
-      "explanation": "We use 'I'm sorry' to apologize for a mistake or accident."
+      "id": "adm-a1-w04-q05",
+      "question": "How do you say 'Escribir un correo' in English?",
+      "options": [
+        "Read an email",
+        "Write an email",
+        "Send a letter",
+        "Call a client"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Write an email' is the correct translation."
+    },
+    {
+      "id": "adm-a1-w04-q06",
+      "question": "Complete the sentence: 'She ______ her laptop for all her projects.'",
+      "options": ["use", "uses", "using", "user"],
+      "answerIndex": 1,
+      "explanation": "In Present Simple, we add 's' to the verb for third person singular (She uses)."
+    },
+    {
+      "id": "adm-a1-w04-q07",
+      "question": "What possessive adjective corresponds to 'They'?",
+      "options": ["Our", "Their", "Theirs", "His"],
+      "answerIndex": 1,
+      "explanation": "'Their' is the possessive adjective for the pronoun 'They'."
+    },
+    {
+      "id": "adm-a1-w04-q08",
+      "question": "Which office object do you use to type?",
+      "options": ["Mouse", "Keyboard", "Chair", "Desk"],
+      "answerIndex": 1,
+      "explanation": "A keyboard is the device used for inputting text."
+    },
+    {
+      "id": "adm-a1-w04-q09",
+      "question": "Complete: 'This is my company. ______ logo is blue and white.'",
+      "options": ["Its", "It's", "His", "Her"],
+      "answerIndex": 0,
+      "explanation": "We use 'Its' (without apostrophe) as the possessive for things or companies."
+    },
+    {
+      "id": "adm-a1-w04-q10",
+      "question": "Choose the correct verb: 'I ______ work at 8:00 AM every morning.'",
+      "options": ["starts", "starting", "start", "am start"],
+      "answerIndex": 2,
+      "explanation": "The base form 'start' is used with 'I' in the Present Simple."
+    },
+    {
+      "id": "adm-a1-w04-q11",
+      "question": "What is the correct way to say 'Su oficina' (de ella)?",
+      "options": ["His office", "Her office", "Your office", "Their office"],
+      "answerIndex": 1,
+      "explanation": "We use 'Her' for the third person singular female possessive."
+    },
+    {
+      "id": "adm-a1-w04-q12",
+      "question": "Which of these is NOT an office object?",
+      "options": ["Laptop", "Mouse", "Keyboard", "Garden"],
+      "answerIndex": 3,
+      "explanation": "A garden is not typically an office tool or object."
+    },
+    {
+      "id": "adm-a1-w04-q13",
+      "question": "Select the correct sentence:",
+      "options": [
+        "Do you have a meeting?",
+        "Does you have a meeting?",
+        "Are you have a meeting?",
+        "You having a meeting?"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'Do' for questions with 'you' in the Present Simple."
+    },
+    {
+      "id": "adm-a1-w04-q14",
+      "question": "Complete: 'Mr. Wilson is in ______ office right now.'",
+      "options": ["him", "his", "he", "her"],
+      "answerIndex": 1,
+      "explanation": "'His' is the possessive adjective used for a man."
+    },
+    {
+      "id": "adm-a1-w04-q15",
+      "question": "What does 'Finish work' mean?",
+      "options": ["Empezar a trabajar", "Terminar de trabajar", "Ir a una reunión", "Escribir un reporte"],
+      "answerIndex": 1,
+      "explanation": "'Finish' means to end an activity; in this case, the workday."
+    },
+    {
+      "id": "adm-a1-w04-q16",
+      "question": "Choose the correct possessive for 'You': 'Is this ______ notebook?'",
+      "options": ["you", "your", "yours", "our"],
+      "answerIndex": 1,
+      "explanation": "'Your' is the possessive adjective for 'You'."
+    },
+    {
+      "id": "adm-a1-w04-q17",
+      "question": "Complete: 'They ______ for a large international firm.'",
+      "options": ["works", "working", "work", "is work"],
+      "answerIndex": 2,
+      "explanation": "With 'They', we use the base form 'work' in the Present Simple."
+    },
+    {
+      "id": "adm-a1-w04-q18",
+      "question": "How do you say 'Ratón' (de ordenador) in English?",
+      "options": ["Rat", "Mouth", "Mouse", "Moose"],
+      "answerIndex": 2,
+      "explanation": "A computer mouse is called 'mouse' in English."
+    },
+    {
+      "id": "adm-a1-w04-q19",
+      "question": "Complete: 'We have ______ lunch break at 1:30 PM.'",
+      "options": ["our", "their", "your", "us"],
+      "answerIndex": 0,
+      "explanation": "'Our' is the possessive adjective for 'We'."
+    },
+    {
+      "id": "adm-a1-w04-q20",
+      "question": "Which verb is used for 'emails'?",
+      "options": ["Drink", "Check", "Eat", "Sleep"],
+      "answerIndex": 1,
+      "explanation": "We typically 'check', 'write', or 'send' emails."
     }
   ]
 }

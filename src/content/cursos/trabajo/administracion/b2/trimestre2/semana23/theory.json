@@ -10,6 +10,21 @@
       "id": "grammar",
       "title": "Nominalization",
       "content": "Nominalization is the process of turning verbs or adjectives into nouns. In professional and academic writing, it is used to make the tone more objective, formal, and concise.\n\n**Examples of Verb to Noun:**\n- *Verb:* We **analysed** the data.\n- *Nominalized:* Our **analysis** of the data revealed...\n- *Verb:* The management **implemented** the new policy.\n- *Nominalized:* The **implementation** of the new policy occurred last month.\n\n**Examples of Adjective to Noun:**\n- *Adjective:* The system is **efficient**.\n- *Nominalized:* The **efficiency** of the system is remarkable.\n\n**Why use it?**\nIt shifts the focus from the person doing the action to the action itself or the result, which is common in formal reporting and legal documentation."
+    },
+    {
+      "id": "contracts",
+      "title": "Essentials of Contract Law",
+      "content": "A contract is a legally binding agreement between two or more parties. Administrators often handle the preparation and filing of these documents.\n\n- **Offer and Acceptance**: The basic requirement for a contract; one party makes an offer, and the other accepts it.\n- **Consideration**: Something of value exchanged between parties (e.g., money for services).\n- **Enforceability**: The ability of a contract to be upheld in a court of law.\n- **Termination Clause**: A section of a contract that defines the conditions under which the agreement can be ended.\n- **Jurisdiction**: The official power to make legal decisions and judgments, usually defined by a specific geographical area or legal authority in a contract."
+    },
+    {
+      "id": "employment",
+      "title": "Employment Law & Workplace Rights",
+      "content": "Employment law governs the relationship between employers and employees, ensuring fair treatment and legal protection.\n\n- **Constructive Dismissal**: When an employee resigns because the employer has created a hostile work environment or breached a fundamental term of the contract.\n- **Wrongful Termination**: Ending an employee's contract in a way that breaches the terms of the employment agreement or law.\n- **Statutory Rights**: Rights that are based on laws passed by parliament (e.g., minimum wage, maternity leave).\n- **Equal Opportunities**: The policy of treating all employees and applicants fairly, without discrimination based on race, gender, age, or disability."
+    },
+    {
+      "id": "ethics",
+      "title": "Corporate Governance & Professional Ethics",
+      "content": "Corporate governance refers to the system of rules, practices, and processes by which a company is directed and controlled.\n\n- **Fiduciary Duty**: A legal obligation of one party to act in the best interest of another (e.g., a director's duty to the shareholders).\n- **Transparency**: The obligation of an organisation to be open and honest about its actions and financial status.\n- **Whistleblowing**: The act of an employee reporting illegal or unethical activity within their organisation to the authorities.\n- **Conflict of Interest**: A situation in which a person has a private or personal interest sufficient to appear to influence the objective exercise of their official duties."
     }
   ],
   "objectives": [

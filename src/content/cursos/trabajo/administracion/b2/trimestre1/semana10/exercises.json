@@ -462,6 +462,329 @@
         "Sign-off",
         "Charter"
       ]
+    },
+    {
+      "id": "adm-b2-w10-ex46",
+      "type": "multipleChoice",
+      "prompt": "Exercise 46: The Triple Constraint. If you increase the project scope but the budget remains fixed, what usually happens?",
+      "options": [
+        "The project finishes faster.",
+        "The time (schedule) must increase or the quality will decrease.",
+        "The project cost goes down.",
+        "The IT department gets a bonus."
+      ],
+      "answerIndex": 1,
+      "explanation": "According to the triple constraint, changes in scope must be balanced by changes in time or cost/quality."
+    },
+    {
+      "id": "adm-b2-w10-ex47",
+      "type": "fillBlanks",
+      "prompt": "Exercise 47: Fill in the blanks. 'To address over-allocation, we need to perform resource ________ and ________ our tasks.'",
+      "answers": [
+        "levelling",
+        "prioritise"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex48",
+      "type": "multipleChoice",
+      "prompt": "Exercise 48: Risk Management. What is a 'Contingency Plan'?",
+      "options": [
+        "A plan to celebrate the project's end.",
+        "A pre-defined 'Plan B' to be used if a specific risk occurs.",
+        "A document that fires the project manager.",
+        "A type of budget spreadsheet."
+      ],
+      "answerIndex": 1,
+      "explanation": "A contingency plan prepares the team for unforeseen but possible negative events."
+    },
+    {
+      "id": "adm-b2-w10-ex49",
+      "type": "writingTask",
+      "prompt": "Exercise 49: Grammar (Future Perfect Continuous). Describe how long a team will have been working on a project by its completion: 'By June / work / 1 year'.",
+      "modelAnswer": "By June, the team will have been working on the project for one year.",
+      "keywords": [
+        "will have been working"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex50",
+      "type": "multipleChoice",
+      "prompt": "Exercise 50: Project Tracking. What does it mean to 'sign off' on a phase?",
+      "options": [
+        "To quit the project.",
+        "To give official approval that the phase is complete and correct.",
+        "To write your name on a wall.",
+        "To send an email to everyone."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Signing off' is the formal act of approval."
+    },
+    {
+      "id": "adm-b2-w10-ex51",
+      "type": "writingTask",
+      "prompt": "Exercise 51: Future Continuous. Speculate about a colleague's activity: 'Tomorrow at 3 PM / she / lead / the board meeting'.",
+      "modelAnswer": "Tomorrow at 3 PM, she will be leading the board meeting.",
+      "keywords": [
+        "will be leading"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex52",
+      "type": "fillBlanks",
+      "prompt": "Exercise 52: Project Terms. 'During the ________ phase, we conduct a ________ to analyze success and failures.'",
+      "answers": [
+        "closure",
+        "post-mortem"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex53",
+      "type": "multipleChoice",
+      "prompt": "Exercise 53: Methodology. Which methodology uses 'Sprints'?",
+      "options": [
+        "Waterfall",
+        "Agile",
+        "Structural",
+        "Traditional"
+      ],
+      "answerIndex": 1,
+      "explanation": "Agile project management breaks work into short cycles called sprints."
+    },
+    {
+      "id": "adm-b2-w10-ex54",
+      "type": "writingTask",
+      "prompt": "Exercise 54: Deadline Prediction. Write a sentence using 'Future Perfect' about when the new server will be live.",
+      "modelAnswer": "By Monday morning, the new server will have gone live and all data will have been migrated.",
+      "keywords": [
+        "will have gone",
+        "will have been migrated"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex55",
+      "type": "multipleChoice",
+      "prompt": "Exercise 55: Risk Mitigation. If a vendor is delayed, which action is a form of 'mitigation'?",
+      "options": [
+        "Waiting for them to call.",
+        "Sourcing an alternative local supplier immediately.",
+        "Cancelling the whole project.",
+        "Ignoring the delay in the status report."
+      ],
+      "answerIndex": 1,
+      "explanation": "Finding an alternative supplier reduces the negative impact of the risk."
+    },
+    {
+      "id": "adm-b2-w10-ex56",
+      "type": "fillBlanks",
+      "prompt": "Exercise 56: Constraints. 'The triple constraint involves ________, ________, and cost.'",
+      "answers": [
+        "scope",
+        "time"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex57",
+      "type": "writingTask",
+      "prompt": "Exercise 57: Possibility. Speculate about a project delay using 'will likely have': 'The bad weather / delay / the construction'.",
+      "modelAnswer": "The bad weather will likely have delayed the construction by the time we arrive.",
+      "keywords": [
+        "will",
+        "likely",
+        "have"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex58",
+      "type": "multipleChoice",
+      "prompt": "Exercise 58: Project Initiation. What is the primary purpose of a 'Feasibility Study'?",
+      "options": [
+        "To hire new staff.",
+        "To determine if a project is technically and financially viable.",
+        "To celebrate the project launch.",
+        "To design the company logo."
+      ],
+      "answerIndex": 1,
+      "explanation": "A feasibility study assesses whether the project can and should be done."
+    },
+    {
+      "id": "adm-b2-w10-ex59",
+      "type": "writingTask",
+      "prompt": "Exercise 59: Criticism. Criticize a team's failure to 'follow through' using 'should have'.",
+      "modelAnswer": "The team should have followed through on the stakeholder feedback gathered during the planning phase.",
+      "keywords": [
+        "should have",
+        "followed through"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex60",
+      "type": "fillBlanks",
+      "prompt": "Exercise 60: Status Phrasing. 'We have slightly ________ behind, but we expect to ________ up by Friday.'",
+      "answers": [
+        "fallen",
+        "catch"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex61",
+      "type": "multipleChoice",
+      "prompt": "Exercise 61: Resource Management. 'Resource Levelling' aims to:",
+      "options": [
+        "Fire the most expensive employees.",
+        "Balance the workload to avoid over-allocating staff.",
+        "Increase the project budget.",
+        "Make everyone work on the same task at once."
+      ],
+      "answerIndex": 1,
+      "explanation": "Resource leveling ensures a sustainable and realistic workload for the team."
+    },
+    {
+      "id": "adm-b2-w10-ex62",
+      "type": "writingTask",
+      "prompt": "Exercise 62: Future Expectation. You are 50% through a 2-week task. Describe your status for 'next Wednesday' using 'Future Perfect'.",
+      "modelAnswer": "By next Wednesday, I will have completed the entire task.",
+      "keywords": [
+        "will have completed"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex63",
+      "type": "fillBlanks",
+      "prompt": "Exercise 63: Closure. 'A ________ session helps the team identify ________ for future projects.'",
+      "answers": [
+        "lessons learned",
+        "improvements"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex64",
+      "type": "multipleChoice",
+      "prompt": "Exercise 64: Project Logic. Why is it dangerous to 'run over' budget early in the project?",
+      "options": [
+        "Because it makes the spreadsheets look messy.",
+        "Because it reduces the contingency funds available for later risks.",
+        "Because the CEO will stop speaking to you.",
+        "Because it means the project is too successful."
+      ],
+      "answerIndex": 1,
+      "explanation": "Running over budget early leaves the project vulnerable to future unforeseen costs."
+    },
+    {
+      "id": "adm-b2-w10-ex65",
+      "type": "writingTask",
+      "prompt": "Exercise 65: Professional Phrasing. Rewrite: 'We are doing the work now' -> 'We are currently in the...'",
+      "modelAnswer": "We are currently in the execution phase of the project.",
+      "keywords": [
+        "execution phase"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex66",
+      "type": "multipleChoice",
+      "prompt": "Exercise 66: Grammar. 'At this time tomorrow, the auditors ___ the financial records.'",
+      "options": [
+        "will have reviewed",
+        "will be reviewing",
+        "reviewed",
+        "have reviewed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Future Continuous is used for an action in progress at a specific future time."
+    },
+    {
+      "id": "adm-b2-w10-ex67",
+      "type": "fillBlanks",
+      "prompt": "Exercise 67: KPIs. 'To measure success, we must define clear ________ that are ________.'",
+      "answers": [
+        "KPIs",
+        "measurable"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex68",
+      "type": "writingTask",
+      "prompt": "Exercise 68: Risk Analysis. Identify one potential risk for a 'Global Logistics' project and suggest a 'Plan B'.",
+      "modelAnswer": "Risk: Port strike delaying shipments. Plan B: Pivot to air freight for mission-critical components.",
+      "keywords": [
+        "Risk",
+        "Plan B"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex69",
+      "type": "multipleChoice",
+      "prompt": "Exercise 69: Logic. 'Mission-critical' means a task is:",
+      "options": [
+        "Optional.",
+        "Extremely important for the success of the project.",
+        "Related to space travel.",
+        "Only for the IT department."
+      ],
+      "answerIndex": 1,
+      "explanation": "Mission-critical tasks are those that the project cannot succeed without."
+    },
+    {
+      "id": "adm-b2-w10-ex70",
+      "type": "writingTask",
+      "prompt": "Exercise 70: Duration Forecast. Use 'Future Perfect Continuous' to describe a server migration: 'By midnight / the migration / run / for 12 hours'.",
+      "modelAnswer": "By midnight, the migration will have been running for 12 hours.",
+      "keywords": [
+        "will have been running"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex71",
+      "type": "fillBlanks",
+      "prompt": "Exercise 71: Approval. 'Once the board has ________ off on the charter, we can ________ with resource allocation.'",
+      "answers": [
+        "signed",
+        "proceed"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex72",
+      "type": "multipleChoice",
+      "prompt": "Exercise 72: Terminology. 'Resource allocation' refers to:",
+      "options": [
+        "Buying more office snacks.",
+        "Assigning specific people, money, or equipment to project tasks.",
+        "Designing the project logo.",
+        "Firing the project manager."
+      ],
+      "answerIndex": 1,
+      "explanation": "Resource allocation is the distribution of assets to complete project work."
+    },
+    {
+      "id": "adm-b2-w10-ex73",
+      "type": "writingTask",
+      "prompt": "Exercise 73: Future Accomplishment. Write a sentence about your own career using 'Future Perfect': 'In five years / I / reach / my goal'.",
+      "modelAnswer": "In five years, I will have reached my goal of becoming a Project Director.",
+      "keywords": [
+        "will have reached"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex74",
+      "type": "fillBlanks",
+      "prompt": "Exercise 74: Methodology Logic. 'Agile is ________ and iterative, while Waterfall is ________ and linear.'",
+      "answers": [
+        "flexible",
+        "predictable"
+      ]
+    },
+    {
+      "id": "adm-b2-w10-ex75",
+      "type": "writingTask",
+      "prompt": "Exercise 75: Final Synthesis. List the 4 project phases and use one future tense to describe the end of the 'Closure' phase.",
+      "modelAnswer": "Phases: 1. Initiation, 2. Planning, 3. Execution, 4. Closure. By the end of the month, we will have completed the lessons learned session and closed the project.",
+      "keywords": [
+        "Initiation",
+        "Planning",
+        "Execution",
+        "Closure",
+        "will have"
+      ]
     }
   ]
 }

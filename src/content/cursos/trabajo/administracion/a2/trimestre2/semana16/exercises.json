@@ -6,404 +6,608 @@
   "title": "Ejercicios: Predicciones Económicas",
   "items": [
     {
-      "id": "fin-a2-w16-1",
+      "id": "adm-a2-w16-ex01",
       "type": "multipleChoice",
       "prompt": "I think the market ___ grow this year.",
       "options": ["will", "is going to", "goes", "doing"],
       "answerIndex": 0,
-      "explanation": "Will is used for general predictions."
+      "explanation": "Se usa 'will' para predicciones generales sobre el futuro."
     },
     {
-      "id": "fin-a2-w16-2",
+      "id": "adm-a2-w16-ex02",
       "type": "multipleChoice",
       "prompt": "___ is when prices go up.",
       "options": ["Trend", "Inflation", "Growth", "Interest"],
       "answerIndex": 1,
-      "explanation": "Inflation means prices are increasing."
+      "explanation": "'Inflation' (inflación) es el aumento general de los precios."
     },
     {
-      "id": "fin-a2-w16-3",
+      "id": "adm-a2-w16-ex03",
       "type": "multipleChoice",
       "prompt": "The experts say the economy ___ decrease.",
       "options": ["will", "is going", "does", "going"],
       "answerIndex": 0,
-      "explanation": "Will is used for predictions about the economy."
+      "explanation": "Usamos 'will' para expresar lo que los expertos creen que pasará."
     },
     {
-      "id": "fin-a2-w16-4",
+      "id": "adm-a2-w16-ex04",
       "type": "multipleChoice",
       "prompt": "A ___ is a direction the market is moving.",
       "options": ["inflation", "trend", "growth", "budget"],
       "answerIndex": 1,
-      "explanation": "A trend (tendencia) shows the direction."
+      "explanation": "Una 'trend' (tendencia) indica la dirección del mercado."
     },
     {
-      "id": "fin-a2-w16-5",
+      "id": "adm-a2-w16-ex05",
       "type": "multipleChoice",
       "prompt": "Prices ___ go down next month.",
       "options": ["not will", "won't", "don't will", "aren't will"],
       "answerIndex": 1,
-      "explanation": "Won't is the contraction of will not."
+      "explanation": "'Won't' es la contracción de 'will not', para predicciones negativas."
     },
     {
-      "id": "fin-a2-w16-6",
+      "id": "adm-a2-w16-ex06",
       "type": "multipleChoice",
       "prompt": "___ in the technology sector is very fast.",
       "options": ["Growth", "Inflation", "Debt", "Premium"],
       "answerIndex": 0,
-      "explanation": "Growth (crecimiento) describes expansion."
+      "explanation": "'Growth' (crecimiento) describe la expansión de un sector."
     },
     {
-      "id": "fin-a2-w16-7",
+      "id": "adm-a2-w16-ex07",
       "type": "multipleChoice",
       "prompt": "Analysts believe the dollar ___ increase in value.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Will for future predictions."
+      "explanation": "Usamos 'will' para predicciones basadas en creencias o análisis."
     },
     {
-      "id": "fin-a2-w16-8",
+      "id": "adm-a2-w16-ex08",
       "type": "multipleChoice",
       "prompt": "If demand is low, prices ___ go down.",
       "options": ["will", "won't", "is", "are"],
       "answerIndex": 0,
-      "explanation": "Prediction based on a condition."
+      "explanation": "Predicción de una consecuencia lógica en el mercado."
     },
     {
-      "id": "fin-a2-w16-9",
+      "id": "adm-a2-w16-ex09",
       "type": "multipleChoice",
       "prompt": "The current ___ is positive for investors.",
       "options": ["trend", "inflation", "growth", "budget"],
       "answerIndex": 0,
-      "explanation": "A positive trend attracts investors."
+      "explanation": "Una tendencia (trend) positiva atrae la inversión."
     },
     {
-      "id": "fin-a2-w16-10",
+      "id": "adm-a2-w16-ex10",
       "type": "multipleChoice",
       "prompt": "Oil prices ___ probably rise soon.",
       "options": ["will", "are", "do", "be"],
       "answerIndex": 0,
-      "explanation": "Will is often used with 'probably' for predictions."
+      "explanation": "'Will' se combina a menudo con 'probably' para predicciones probables."
     },
     {
-      "id": "fin-a2-w16-11",
+      "id": "adm-a2-w16-ex11",
       "type": "multipleChoice",
       "prompt": "High ___ reduces people's purchasing power.",
       "options": ["inflation", "growth", "market", "trend"],
       "answerIndex": 0,
-      "explanation": "Inflation makes things more expensive."
+      "explanation": "La alta inflación reduce el poder adquisitivo de la gente."
     },
     {
-      "id": "fin-a2-w16-12",
+      "id": "adm-a2-w16-ex12",
       "type": "multipleChoice",
       "prompt": "Do you think the interest rates ___ decrease?",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Asking for a prediction."
+      "explanation": "Pregunta sobre una predicción futura."
     },
     {
-      "id": "fin-a2-w16-13",
+      "id": "adm-a2-w16-ex13",
       "type": "multipleChoice",
       "prompt": "The company's revenue ___ increase by 10%.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Future prediction about revenue."
+      "explanation": "Predicción sobre el aumento de ingresos."
     },
     {
-      "id": "fin-a2-w16-14",
+      "id": "adm-a2-w16-ex14",
       "type": "multipleChoice",
       "prompt": "We ___ see a recovery in the next quarter.",
       "options": ["will", "won't", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Prediction of a future event."
+      "explanation": "Predicción de un suceso futuro (recuperación)."
     },
     {
-      "id": "fin-a2-w16-15",
+      "id": "adm-a2-w16-ex15",
       "type": "multipleChoice",
       "prompt": "The stock ___ is very volatile today.",
       "options": ["market", "inflation", "growth", "trend"],
       "answerIndex": 0,
-      "explanation": "The stock market (bolsa) is where shares are traded."
+      "explanation": "El 'stock market' es el mercado de valores o bolsa."
     },
     {
-      "id": "fin-a2-w16-16",
+      "id": "adm-a2-w16-ex16",
       "type": "multipleChoice",
       "prompt": "Sales ___ go up during the holidays.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "General prediction/expectation."
+      "explanation": "Expectativa general sobre el futuro."
     },
     {
-      "id": "fin-a2-w16-17",
+      "id": "adm-a2-w16-ex17",
       "type": "multipleChoice",
       "prompt": "A decrease in taxes ___ stimulate the economy.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction of economic impact."
+      "explanation": "Predicción de impacto económico."
     },
     {
-      "id": "fin-a2-w16-18",
+      "id": "adm-a2-w16-ex18",
       "type": "multipleChoice",
       "prompt": "I don't think the government ___ change the law.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction about government action."
+      "explanation": "Predicción sobre acciones gubernamentales."
     },
     {
-      "id": "fin-a2-w16-19",
+      "id": "adm-a2-w16-ex19",
       "type": "multipleChoice",
       "prompt": "Is the economy in a period of ___?",
       "options": ["growth", "inflation", "market", "trend"],
       "answerIndex": 0,
-      "explanation": "Growth is a positive economic period."
+      "explanation": "El crecimiento (growth) es una fase económica positiva."
     },
     {
-      "id": "fin-a2-w16-20",
+      "id": "adm-a2-w16-ex20",
       "type": "multipleChoice",
       "prompt": "Prices ___ remain stable for a few months.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction about price stability."
+      "explanation": "Predicción sobre la estabilidad de precios."
     },
     {
-      "id": "fin-a2-w16-21",
+      "id": "adm-a2-w16-ex21",
       "type": "multipleChoice",
       "prompt": "The ___ for the euro is looking better.",
       "options": ["outlook", "inflation", "growth", "market"],
       "answerIndex": 0,
-      "explanation": "Outlook (perspectiva) is used for future expectations."
+      "explanation": "'Outlook' (perspectiva) se usa para expectativas futuras."
     },
     {
-      "id": "fin-a2-w16-22",
+      "id": "adm-a2-w16-ex22",
       "type": "multipleChoice",
       "prompt": "I'm sure they ___ lose money on this deal.",
       "options": ["won't", "will", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Positive prediction with 'won't'."
+      "explanation": "Predicción de que NO pasará algo (won't = will not)."
     },
     {
-      "id": "fin-a2-w16-23",
+      "id": "adm-a2-w16-ex23",
       "type": "multipleChoice",
       "prompt": "How ___ the market react to the news?",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "Question about future reaction."
+      "explanation": "Pregunta sobre la reacción futura del mercado."
     },
     {
-      "id": "fin-a2-w16-24",
+      "id": "adm-a2-w16-ex24",
       "type": "multipleChoice",
       "prompt": "New jobs ___ be created in the energy sector.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Future job creation."
+      "explanation": "Predicción de creación de empleo."
     },
     {
-      "id": "fin-a2-w16-25",
+      "id": "adm-a2-w16-ex25",
       "type": "multipleChoice",
       "prompt": "The gap between rich and poor ___ grow.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Social/Economic prediction."
+      "explanation": "Predicción socio-económica sobre el futuro."
     },
     {
-      "id": "fin-a2-w16-26",
+      "id": "adm-a2-w16-ex26",
       "type": "multipleChoice",
       "prompt": "___ is a major problem for developing countries.",
       "options": ["Inflation", "Growth", "Market", "Trend"],
       "answerIndex": 0,
-      "explanation": "Inflation can be very damaging."
+      "explanation": "La inflación puede ser un problema grave para el desarrollo."
     },
     {
-      "id": "fin-a2-w16-27",
+      "id": "adm-a2-w16-ex27",
       "type": "multipleChoice",
       "prompt": "Will the price of gold ___ next week?",
       "options": ["increase", "inflation", "market", "trend"],
       "answerIndex": 0,
-      "explanation": "Asking about a price change."
+      "explanation": "Pregunta sobre un cambio en el precio."
     },
     {
-      "id": "fin-a2-w16-28",
+      "id": "adm-a2-w16-ex28",
       "type": "multipleChoice",
       "prompt": "I hope the unemployment rate ___ go down.",
       "options": ["will", "won't", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Expressing a hopeful prediction."
+      "explanation": "Expresando una esperanza sobre el futuro."
     },
     {
-      "id": "fin-a2-w16-29",
+      "id": "adm-a2-w16-ex29",
       "type": "multipleChoice",
       "prompt": "The ___ of online shopping is continuing.",
       "options": ["trend", "inflation", "growth", "market"],
       "answerIndex": 0,
-      "explanation": "A continuing pattern is a trend."
+      "explanation": "Un patrón que continúa es una tendencia (trend)."
     },
     {
-      "id": "fin-a2-w16-30",
+      "id": "adm-a2-w16-ex30",
       "type": "multipleChoice",
       "prompt": "Technology ___ change the banking industry forever.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Long-term prediction."
+      "explanation": "Predicción a largo plazo sobre el sector bancario."
     },
     {
-      "id": "fin-a2-w16-31",
+      "id": "adm-a2-w16-ex31",
       "type": "multipleChoice",
       "prompt": "Will you ___ in the stock market?",
       "options": ["invest", "inflation", "growth", "market"],
       "answerIndex": 0,
-      "explanation": "To invest (invertir) is to put money in the market."
+      "explanation": "'Invest' (invertir) es poner dinero en el mercado."
     },
     {
-      "id": "fin-a2-w16-32",
+      "id": "adm-a2-w16-ex32",
       "type": "multipleChoice",
       "prompt": "The global economy ___ grow faster in 2026.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Future growth prediction."
+      "explanation": "Predicción de crecimiento económico global."
     },
     {
-      "id": "fin-a2-w16-33",
+      "id": "adm-a2-w16-ex33",
       "type": "multipleChoice",
       "prompt": "Inflation ___ probably reach 5% this year.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction with 'probably'."
+      "explanation": "Predicción probable sobre la tasa de inflación."
     },
     {
-      "id": "fin-a2-w16-34",
+      "id": "adm-a2-w16-ex34",
       "type": "multipleChoice",
       "prompt": "The real estate ___ is slowing down.",
       "options": ["market", "inflation", "growth", "trend"],
       "answerIndex": 0,
-      "explanation": "The market for houses and property."
+      "explanation": "El mercado inmobiliario (real estate market) está desacelerando."
     },
     {
-      "id": "fin-a2-w16-35",
+      "id": "adm-a2-w16-ex35",
       "type": "multipleChoice",
       "prompt": "Competition ___ keep prices low for consumers.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Economic theory prediction."
+      "explanation": "Predicción basada en teoría económica."
     },
     {
-      "id": "fin-a2-w16-36",
+      "id": "adm-a2-w16-ex36",
       "type": "multipleChoice",
       "prompt": "I ___ buy any more stocks until the market is stable.",
       "options": ["won't", "will", "is", "not"],
       "answerIndex": 0,
-      "explanation": "Negative future decision/prediction."
+      "explanation": "Decisión futura de NO hacer algo (won't)."
     },
     {
-      "id": "fin-a2-w16-37",
+      "id": "adm-a2-w16-ex37",
       "type": "multipleChoice",
       "prompt": "Economic ___ is essential for development.",
       "options": ["growth", "inflation", "market", "trend"],
       "answerIndex": 0,
-      "explanation": "Growth is necessary for progress."
+      "explanation": "El crecimiento (growth) es vital para el desarrollo."
     },
     {
-      "id": "fin-a2-w16-38",
+      "id": "adm-a2-w16-ex38",
       "type": "multipleChoice",
       "prompt": "Analysts predict that exports ___ increase.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Reporting a prediction."
+      "explanation": "Transmitiendo una predicción de analistas."
     },
     {
-      "id": "fin-a2-w16-39",
+      "id": "adm-a2-w16-ex39",
       "type": "multipleChoice",
       "prompt": "A negative ___ can hurt consumer confidence.",
       "options": ["trend", "inflation", "growth", "market"],
       "answerIndex": 0,
-      "explanation": "Trends affect how people feel about spending."
+      "explanation": "Una tendencia negativa afecta a la confianza del consumidor."
     },
     {
-      "id": "fin-a2-w16-40",
+      "id": "adm-a2-w16-ex40",
       "type": "multipleChoice",
       "prompt": "The bank ___ lower the interest rates tomorrow.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Scheduled or predicted action."
+      "explanation": "Acción futura prevista del banco."
     },
     {
-      "id": "fin-a2-w16-41",
+      "id": "adm-a2-w16-ex41",
       "type": "multipleChoice",
       "prompt": "Is ___ still a concern for the central bank?",
       "options": ["inflation", "growth", "market", "trend"],
       "answerIndex": 0,
-      "explanation": "Central banks monitor inflation."
+      "explanation": "Los bancos centrales vigilan la inflación."
     },
     {
-      "id": "fin-a2-w16-42",
+      "id": "adm-a2-w16-ex42",
       "type": "multipleChoice",
       "prompt": "I believe the crisis ___ end soon.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Personal belief about the future."
+      "explanation": "Creencia personal sobre el fin de una situación."
     },
     {
-      "id": "fin-a2-w16-43",
+      "id": "adm-a2-w16-ex43",
       "type": "multipleChoice",
       "prompt": "Will you ___ a profit this year?",
       "options": ["make", "inflation", "growth", "market"],
       "answerIndex": 0,
-      "explanation": "To make a profit (ganar dinero)."
+      "explanation": "'Make a profit' significa obtener beneficios o ganancias."
     },
     {
-      "id": "fin-a2-w16-44",
+      "id": "adm-a2-w16-ex44",
       "type": "multipleChoice",
       "prompt": "The price of electricity ___ go up again.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction about costs."
+      "explanation": "Predicción sobre costes de energía."
     },
     {
-      "id": "fin-a2-w16-45",
+      "id": "adm-a2-w16-ex45",
       "type": "multipleChoice",
       "prompt": "A global ___ affects everyone.",
       "options": ["market", "inflation", "growth", "trend"],
       "answerIndex": 0,
-      "explanation": "The global market is interconnected."
+      "explanation": "El mercado global está interconectado."
     },
     {
-      "id": "fin-a2-w16-46",
+      "id": "adm-a2-w16-ex46",
       "type": "multipleChoice",
       "prompt": "Investors ___ be happy with the results.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction about investor sentiment."
+      "explanation": "Predicción sobre el sentimiento de los inversores."
     },
     {
-      "id": "fin-a2-w16-47",
+      "id": "adm-a2-w16-ex47",
       "type": "multipleChoice",
       "prompt": "There ___ be more opportunities in the future.",
       "options": ["will", "is", "does", "are"],
       "answerIndex": 0,
-      "explanation": "General future prediction."
+      "explanation": "Predicción general sobre el futuro."
     },
     {
-      "id": "fin-a2-w16-48",
+      "id": "adm-a2-w16-ex48",
       "type": "multipleChoice",
       "prompt": "Does the ___ show an increase in prices?",
       "options": ["trend", "inflation", "growth", "market"],
       "answerIndex": 0,
-      "explanation": "Trends show changes over time."
+      "explanation": "Las tendencias muestran los cambios en el tiempo."
     },
     {
-      "id": "fin-a2-w16-49",
+      "id": "adm-a2-w16-ex49",
       "type": "multipleChoice",
       "prompt": "We ___ achieve our targets by December.",
       "options": ["will", "is", "does", "be"],
       "answerIndex": 0,
-      "explanation": "Prediction about reaching goals."
+      "explanation": "Predicción sobre alcanzar objetivos."
     },
     {
-      "id": "fin-a2-w16-50",
+      "id": "adm-a2-w16-ex50",
       "type": "multipleChoice",
-      "prompt": "Economic ___ is slow but steady.",
-      "options": ["growth", "inflation", "market", "trend"],
+      "prompt": "Do you think the dollar ___ stay strong?",
+      "options": ["will", "does", "is", "has"],
       "answerIndex": 0,
-      "explanation": "Describing the current state of growth."
+      "explanation": "Pregunta sobre la estabilidad de una moneda."
+    },
+    {
+      "id": "adm-a2-w16-ex51",
+      "type": "fillInTheBlank",
+      "prompt": "I believe that inflation ___ (go up) next month.",
+      "answer": "will go up",
+      "explanation": "Usamos 'will' seguido del infinitivo para predicciones."
+    },
+    {
+      "id": "adm-a2-w16-ex52",
+      "type": "fillInTheBlank",
+      "prompt": "The market ___ not recover until next year.",
+      "answer": "will",
+      "explanation": "Estructura negativa para el futuro: 'will not'."
+    },
+    {
+      "id": "adm-a2-w16-ex53",
+      "type": "fillInTheBlank",
+      "prompt": "The government ___ (increase) taxes soon.",
+      "answer": "will increase",
+      "explanation": "Predicción sobre acciones futuras oficiales."
+    },
+    {
+      "id": "adm-a2-w16-ex54",
+      "type": "matching",
+      "prompt": "Match the economic terms with their meanings:",
+      "pairs": [
+        { "left": "Inflation", "right": "Increase in prices" },
+        { "left": "Growth", "right": "Economic expansion" },
+        { "left": "Trend", "right": "Market direction" },
+        { "left": "Market", "right": "Place for trading" }
+      ],
+      "explanation": "Vocabulario básico de economía."
+    },
+    {
+      "id": "adm-a2-w16-ex55",
+      "type": "wordOrdering",
+      "prompt": "Order the words: think / I / will / growth / be / slow",
+      "sentence": "I think growth will be slow",
+      "explanation": "Estructura de una predicción personal con 'will'."
+    },
+    {
+      "id": "adm-a2-w16-ex56",
+      "type": "multipleChoice",
+      "prompt": "If the economy grows, unemployment ___ decrease.",
+      "options": ["will", "is", "does", "won't"],
+      "answerIndex": 0,
+      "explanation": "Consecuencia lógica del crecimiento económico."
+    },
+    {
+      "id": "adm-a2-w16-ex57",
+      "type": "multipleChoice",
+      "prompt": "The new policy ___ probably affect small businesses.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Predicción probable (will probably)."
+    },
+    {
+      "id": "adm-a2-w16-ex58",
+      "type": "fillInTheBlank",
+      "prompt": "Interest rates ___ (not fall) this year.",
+      "answer": "will not fall",
+      "explanation": "Predicción negativa en el futuro."
+    },
+    {
+      "id": "adm-a2-w16-ex59",
+      "type": "fillInTheBlank",
+      "prompt": "The analyst ___ (predict) a 2% growth.",
+      "answer": "predicts",
+      "explanation": "Presente simple para acciones habituales de analistas."
+    },
+    {
+      "id": "adm-a2-w16-ex60",
+      "type": "wordOrdering",
+      "prompt": "Order the words: will / prices / next / year / increase",
+      "sentence": "Prices will increase next year",
+      "explanation": "Estructura básica de futuro para precios."
+    },
+    {
+      "id": "adm-a2-w16-ex61",
+      "type": "multipleChoice",
+      "prompt": "A 'bull market' is a period of economic ___.",
+      "options": ["growth", "inflation", "recession", "stability"],
+      "answerIndex": 0,
+      "explanation": "En bolsa, un 'bull market' indica crecimiento y optimismo."
+    },
+    {
+      "id": "adm-a2-w16-ex62",
+      "type": "multipleChoice",
+      "prompt": "Do you think the company ___ go bankrupt?",
+      "options": ["will", "is", "does", "has"],
+      "answerIndex": 0,
+      "explanation": "Pregunta sobre un posible suceso futuro negativo."
+    },
+    {
+      "id": "adm-a2-w16-ex63",
+      "type": "fillInTheBlank",
+      "prompt": "Investors ___ (be) worried if the inflation rises.",
+      "answer": "will be",
+      "explanation": "Consecuencia futura de una condición."
+    },
+    {
+      "id": "adm-a2-w16-ex64",
+      "type": "matching",
+      "prompt": "Match the verbs with their opposites:",
+      "pairs": [
+        { "left": "Increase", "right": "Decrease" },
+        { "left": "Go up", "right": "Go down" },
+        { "left": "Buy", "right": "Sell" },
+        { "left": "Profit", "right": "Loss" }
+      ],
+      "explanation": "Antónimos económicos comunes."
+    },
+    {
+      "id": "adm-a2-w16-ex65",
+      "type": "wordOrdering",
+      "prompt": "Order the words: won't / prices / stable / stay",
+      "sentence": "Prices won't stay stable",
+      "explanation": "Predicción negativa sobre la estabilidad."
+    },
+    {
+      "id": "adm-a2-w16-ex66",
+      "type": "multipleChoice",
+      "prompt": "Which word describes a general fall in prices?",
+      "options": ["Deflation", "Inflation", "Growth", "Interest"],
+      "answerIndex": 0,
+      "explanation": "'Deflation' es lo opuesto a 'inflation'."
+    },
+    {
+      "id": "adm-a2-w16-ex67",
+      "type": "multipleChoice",
+      "prompt": "The tech sector ___ continue to dominate.",
+      "options": ["will", "is", "does", "be"],
+      "answerIndex": 0,
+      "explanation": "Predicción de continuidad."
+    },
+    {
+      "id": "adm-a2-w16-ex68",
+      "type": "fillInTheBlank",
+      "prompt": "If you invest now, you ___ (make) money later.",
+      "answer": "will make",
+      "explanation": "Primer condicional: if + presente, will + verbo."
+    },
+    {
+      "id": "adm-a2-w16-ex69",
+      "type": "fillInTheBlank",
+      "prompt": "Inflation ___ (be) a challenge for the new CEO.",
+      "answer": "will be",
+      "explanation": "Predicción sobre un reto futuro."
+    },
+    {
+      "id": "adm-a2-w16-ex70",
+      "type": "wordOrdering",
+      "prompt": "Order the words: experts / the / predict / recovery / will / slow / be",
+      "sentence": "The experts predict recovery will be slow",
+      "explanation": "Estructura para reportar predicciones de expertos."
+    },
+    {
+      "id": "adm-a2-w16-ex71",
+      "type": "multipleChoice",
+      "prompt": "A ___ is a direction where the market is going.",
+      "options": ["trend", "budget", "loan", "debt"],
+      "answerIndex": 0,
+      "explanation": "Una 'trend' marca la dirección o tendencia."
+    },
+    {
+      "id": "adm-a2-w16-ex72",
+      "type": "multipleChoice",
+      "prompt": "We ___ see new regulations this year.",
+      "options": ["will", "won't", "is", "not"],
+      "answerIndex": 0,
+      "explanation": "Predicción de nuevos cambios legales."
+    },
+    {
+      "id": "adm-a2-w16-ex73",
+      "type": "fillInTheBlank",
+      "prompt": "The market ___ (not reach) a new high today.",
+      "answer": "will not reach",
+      "explanation": "Predicción negativa para el día de hoy."
+    },
+    {
+      "id": "adm-a2-w16-ex74",
+      "type": "matching",
+      "prompt": "Match the nouns with the adjectives:",
+      "pairs": [
+        { "left": "Market", "right": "Volatile" },
+        { "left": "Growth", "right": "Slow" },
+        { "left": "Inflation", "right": "High" },
+        { "left": "Prices", "right": "Stable" }
+      ],
+      "explanation": "Adjetivos comunes para describir términos económicos."
+    },
+    {
+      "id": "adm-a2-w16-ex75",
+      "type": "crossword",
+      "prompt": "Economic Trends Crossword",
+      "words": [
+        { "word": "INFLATION", "clue": "General increase in prices" },
+        { "word": "GROWTH", "clue": "Economic expansion" },
+        { "word": "TREND", "clue": "General direction of change" },
+        { "word": "MARKET", "clue": "Where shares are traded" },
+        { "word": "INVEST", "clue": "Put money into a business" }
+      ],
+      "explanation": "Repaso de términos clave sobre tendencias económicas."
     }
   ]
 }

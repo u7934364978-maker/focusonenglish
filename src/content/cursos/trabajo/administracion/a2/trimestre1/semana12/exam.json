@@ -3,7 +3,7 @@
   "description": "Comprehensive final exam covering digital onboarding, everyday neobanking, cybersecurity protocols, digital credit, and wealth management.",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w12-q01",
       "question": "Which of these is a typical step in digital onboarding for a neobank?",
       "options": [
         "Mailing a physical letter",
@@ -11,10 +11,11 @@
         "Visiting a brick-and-mortar branch",
         "Writing a check for the initial deposit"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El registro digital (onboarding) suele incluir la verificación biométrica con un selfie."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w12-q02",
       "question": "What is the correct sentence for a fixed financial appointment tomorrow?",
       "options": [
         "I am meeting the auditor at 9 AM tomorrow.",
@@ -22,10 +23,11 @@
         "I was meeting the auditor tomorrow.",
         "I meeting the auditor tomorrow."
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Se utiliza el presente continuo para hablar de planes o citas fijas ya programadas."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w12-q03",
       "question": "A fraudulent practice of manipulating people into giving away secrets is...",
       "options": [
         "Tokenization",
@@ -33,10 +35,11 @@
         "Biometric Scanning",
         "Smart Billing"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "La ingeniería social es la manipulación psicológica para que las personas revelen información confidencial."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w12-q04",
       "question": "Complete the experience: 'I __________ used a virtual card for three years.'",
       "options": [
         "has",
@@ -44,10 +47,11 @@
         "have",
         "do"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "El presente perfecto ('have' + participio) se usa para hablar de experiencias pasadas."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w12-q05",
       "question": "Which modal verb expresses a strict security requirement?",
       "options": [
         "Can",
@@ -55,10 +59,11 @@
         "Might",
         "Could"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El verbo modal 'must' se utiliza para expresar obligación o requisitos estrictos."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w12-q06",
       "question": "What does BNPL stand for?",
       "options": [
         "Bank Now Pay Less",
@@ -66,10 +71,11 @@
         "Borrow Now Profit Later",
         "Budget Now Plan Later"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "BNPL significa 'Buy Now Pay Later' (Compra ahora, paga después)."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w12-q07",
       "question": "What is a collection of diverse financial investments called?",
       "options": [
         "Broker",
@@ -77,10 +83,11 @@
         "Dividend",
         "Yield"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Un portafolio o cartera es un conjunto de diferentes inversiones financieras."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w12-q08",
       "question": "Complete the duration: 'The fintech company has been profitable __________ 2021.'",
       "options": [
         "for",
@@ -88,10 +95,11 @@
         "since",
         "during"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Se usa 'since' para indicar el momento exacto en el que comenzó una acción en el pasado."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w12-q09",
       "question": "What should you look for in a browser to ensure a website is encrypted?",
       "options": [
         "A red warning star",
@@ -99,10 +107,11 @@
         "A flashing 'Pay Now' button",
         "A low price tag"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El icono del candado y el protocolo HTTPS indican que la conexión es segura y está cifrada."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w12-q10",
       "question": "Which term describes the monthly payments made to repay a digital loan?",
       "options": [
         "Yields",
@@ -110,10 +119,11 @@
         "Dividends",
         "Assets"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Los pagos mensuales para devolver un préstamo se denominan 'installments' (cuotas)."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w12-q11",
       "question": "Choose the correct comparative sentence:",
       "options": [
         "Traditional banks are more fast than neobanks.",
@@ -121,10 +131,11 @@
         "Traditional banks are fastest than neobanks.",
         "Neobanks are more fast than traditional banks."
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Para adjetivos cortos de una sílaba como 'fast', se añade '-er' para formar el comparativo."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w12-q12",
       "question": "What is an 'ETF'?",
       "options": [
         "An Electronic Transfer of Funds",
@@ -132,10 +143,11 @@
         "A type of physical bank vault",
         "A social media app for bankers"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Un ETF (Exchange-Traded Fund) es un fondo que cotiza en bolsa y rastrea varios activos."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w12-q13",
       "question": "Complete: 'You __________ share your PIN or OTP with anyone.'",
       "options": [
         "must",
@@ -143,10 +155,11 @@
         "mustn't",
         "are"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Se usa 'mustn't' para expresar una prohibición estricta, en este caso por seguridad."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w12-q14",
       "question": "What does a 'Robo-advisor' use to manage your money?",
       "options": [
         "Physical documents",
@@ -154,10 +167,11 @@
         "Personal phone calls",
         "Cash deposits"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Un robo-advisor utiliza algoritmos e inteligencia artificial para gestionar inversiones automáticamente."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w12-q15",
       "question": "Complete the sentence: 'We __________ going to invest in green fintech next month.'",
       "options": [
         "is",
@@ -165,10 +179,11 @@
         "are",
         "be"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Se usa 'are going to' con el sujeto 'we' para expresar una intención futura."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w12-q16",
       "question": "If an investment has 'high volatility', its price...",
       "options": [
         "Never changes",
@@ -176,10 +191,11 @@
         "Changes quickly and unpredictably",
         "Only goes up"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "La alta volatilidad significa que los precios fluctúan de forma rápida e impredecible."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w12-q17",
       "question": "What is '3D Secure' used for?",
       "options": [
         "Viewing products in three dimensions",
@@ -187,10 +203,11 @@
         "Measuring the depth of a bank vault",
         "Printing physical credit cards"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "3D Secure es una capa adicional de seguridad para verificar la identidad en pagos online."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w12-q18",
       "question": "Complete the experience: 'Has he __________ checked his annual yield yet?'",
       "options": [
         "never",
@@ -198,10 +215,11 @@
         "ever",
         "yet"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Se usa 'ever' en preguntas de presente perfecto para preguntar si alguien ha hecho algo alguna vez."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w12-q19",
       "question": "Which term describes your total reliability as a borrower?",
       "options": [
         "Credit limit",
@@ -209,10 +227,11 @@
         "Interest rate",
         "Grace period"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "El 'credit score' es la puntuación que representa la fiabilidad crediticia de una persona."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w12-q20",
       "question": "What is 'DeFi'?",
       "options": [
         "Deposits in Financial Institutions",
@@ -220,7 +239,8 @@
         "Deferred Financial Interests",
         "Detailed Finance Reports"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "DeFi (Decentralized Finance) son servicios financieros que funcionan sobre blockchain sin intermediarios tradicionales."
     }
   ]
 }

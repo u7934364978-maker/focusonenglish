@@ -1,41 +1,153 @@
 [
   {
-    "id": 1,
+    "id": "adm-a2-w22-q01",
     "type": "multiple-choice",
     "question": "Which question is common in a job interview?",
     "options": ["What is your favorite color?", "Tell me about your experience.", "Where is the bathroom?", "Do you like pizza?"],
     "correctAnswer": 1,
-    "explanation": "Asking about experience is a standard part of any job interview."
+    "explanation": "Preguntar sobre la experiencia es una parte estándar de cualquier entrevista de trabajo."
   },
   {
-    "id": 2,
+    "id": "adm-a2-w22-q02",
     "type": "multiple-choice",
     "question": "What does a 'Candidate' do?",
     "options": ["Hires people", "Applies for a job", "Pays taxes", "Sells products"],
     "correctAnswer": 1,
-    "explanation": "A candidate is a person who is being considered for a job."
+    "explanation": "Un candidato es una persona que solicita o es considerada para un puesto de trabajo."
   },
   {
-    "id": 3,
+    "id": "adm-a2-w22-q03",
     "type": "fill-in-the-blank",
     "question": "__________ you ever (be) to London for work?",
     "correctAnswer": "Have... been",
-    "explanation": "We use 'Have... been' for the question form of Present Perfect with 'ever'."
+    "explanation": "Usamos 'Have... been' para la forma interrogativa del Present Perfect con 'ever'."
   },
   {
-    "id": 4,
+    "id": "adm-a2-w22-q04",
     "type": "multiple-choice",
     "question": "What are 'Soft skills'?",
     "options": ["Technical knowledge", "Programming", "Communication and teamwork", "Writing a check"],
     "correctAnswer": 2,
-    "explanation": "Soft skills are personal attributes like communication, teamwork, and problem-solving."
+    "explanation": "Las 'soft skills' (habilidades blandas) son atributos personales como la comunicación, el trabajo en equipo y la resolución de problemas."
   },
   {
-    "id": 5,
+    "id": "adm-a2-w22-q05",
     "type": "multiple-choice",
     "question": "She ________ a lot of success in her career.",
     "options": ["have had", "has have", "has had", "had had"],
     "correctAnswer": 2,
-    "explanation": "Third person singular 'She' takes 'has' + past participle 'had'."
+    "explanation": "La tercera persona del singular ('She') lleva 'has' + el participio pasado 'had'."
+  },
+  {
+    "id": "adm-a2-w22-q06",
+    "type": "fill-in-the-blank",
+    "question": "I have __________ (just/yet) finished my interview.",
+    "correctAnswer": "just",
+    "explanation": "Usamos 'just' para indicar que algo acaba de ocurrir."
+  },
+  {
+    "id": "adm-a2-w22-q07",
+    "type": "multiple-choice",
+    "question": "What is 'Experience' in a professional context?",
+    "options": ["The time you spend at home", "Knowledge gained from doing a job", "A type of bank account", "The name of a bank"],
+    "correctAnswer": 1,
+    "explanation": "La experiencia es el conocimiento o la habilidad obtenida a través de la práctica laboral."
+  },
+  {
+    "id": "adm-a2-w22-q08",
+    "type": "fill-in-the-blank",
+    "question": "We haven't received the contract __________ (yet/already).",
+    "correctAnswer": "yet",
+    "explanation": "Usamos 'yet' al final de oraciones negativas para significar 'todavía'."
+  },
+  {
+    "id": "adm-a2-w22-q09",
+    "type": "multiple-choice",
+    "question": "What is the 'HQ' of a company?",
+    "options": ["A small branch", "The main central office", "A type of employee", "A computer system"],
+    "correctAnswer": 1,
+    "explanation": "HQ (Headquarters) es la sede o oficina central de una organización."
+  },
+  {
+    "id": "adm-a2-w22-q10",
+    "type": "fill-in-the-blank",
+    "question": "He __________ (already/yet) sent his CV.",
+    "correctAnswer": "already",
+    "explanation": "Usamos 'already' para indicar que una acción ya ha sido completada."
+  },
+  {
+    "id": "adm-a2-w22-q11",
+    "type": "multiple-choice",
+    "question": "What is 'onboarding'?",
+    "options": ["Leaving a company", "The process of starting a new job", "A type of bank fee", "Opening a savings account"],
+    "correctAnswer": 1,
+    "explanation": "El 'onboarding' es el proceso de inducción e integración de un nuevo empleado."
+  },
+  {
+    "id": "adm-a2-w22-q12",
+    "type": "fill-in-the-blank",
+    "question": "I __________ (never/already) worked in a bank before.",
+    "correctAnswer": "never",
+    "explanation": "Usamos 'never' con el Present Perfect para hablar de cosas que no hemos hecho nunca."
+  },
+  {
+    "id": "adm-a2-w22-q13",
+    "type": "multiple-choice",
+    "question": "What does 'promotion' mean?",
+    "options": ["Losing your job", "Moving to a higher position", "Working fewer hours", "Changing your bank"],
+    "correctAnswer": 1,
+    "explanation": "Una promoción es un ascenso a un puesto de mayor rango o responsabilidad."
+  },
+  {
+    "id": "adm-a2-w22-q14",
+    "type": "fill-in-the-blank",
+    "question": "They __________ (just/already) moved to the new office.",
+    "correctAnswer": "just",
+    "explanation": "Usamos 'just' para indicar que la acción de mudarse acaba de ocurrir."
+  },
+  {
+    "id": "adm-a2-w22-q15",
+    "type": "multiple-choice",
+    "question": "What is a 'CV' (Curriculum Vitae)?",
+    "options": ["A bank card", "A document with your work history", "A type of loan", "An office building"],
+    "correctAnswer": 1,
+    "explanation": "Un CV es el documento que resume la formación y experiencia laboral de una persona."
+  },
+  {
+    "id": "adm-a2-w22-q16",
+    "type": "fill-in-the-blank",
+    "question": "Has she __________ (find) a new job yet?",
+    "correctAnswer": "found",
+    "explanation": "'Found' es el participio pasado del verbo irregular 'find'."
+  },
+  {
+    "id": "adm-a2-w22-q17",
+    "type": "multiple-choice",
+    "question": "What is a 'branch manager'?",
+    "options": ["A person who plants trees", "The head of a local bank office", "A customer", "A security guard"],
+    "correctAnswer": 1,
+    "explanation": "El 'branch manager' es el director o gerente de una sucursal bancaria local."
+  },
+  {
+    "id": "adm-a2-w22-q18",
+    "type": "fill-in-the-blank",
+    "question": "We __________ (work) together for many years.",
+    "correctAnswer": "have worked",
+    "explanation": "Usamos 'have worked' para hablar de una acción que empezó en el pasado y continúa."
+  },
+  {
+    "id": "adm-a2-w22-q19",
+    "type": "multiple-choice",
+    "question": "What is 'full-time' work?",
+    "options": ["Working 5 hours a week", "Working the standard number of hours", "Working only on weekends", "Not working at all"],
+    "correctAnswer": 1,
+    "explanation": "El trabajo a tiempo completo ('full-time') es la jornada laboral completa estándar."
+  },
+  {
+    "id": "adm-a2-w22-q20",
+    "type": "fill-in-the-blank",
+    "question": "You __________ (not/sign) the contract yet.",
+    "correctAnswer": "haven't signed",
+    "explanation": "Forma negativa del Present Perfect ('have not' + participio)."
   }
 ]

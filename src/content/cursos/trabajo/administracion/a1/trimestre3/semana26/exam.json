@@ -1,50 +1,265 @@
 {
-  "goal": "administracion",
-  "level": "A1",
-  "trimester": 3,
-  "weekId": "semana26",
-  "examId": "fin-a1-w26-exam",
-  "title": "Examen: Cajero Automático y Banca Online",
-  "items": [
+  "title": "Examen Semana 26: Saludos y Despedidas en Emails",
+  "questions": [
     {
-      "id": "fin-a1-w26-exam-1",
-      "type": "multipleChoice",
-      "prompt": "What does ATM stand for?",
-      "options": ["Automatic Transfer Money", "Automated Teller Machine", "All Time Money", "Account Transfer Method"],
+      "id": "adm-a1-w26-q01",
+      "type": "multiple-choice",
+      "question": "Which greeting is used when you don't know the recipient's name?",
+      "options": [
+        "Hi John,",
+        "Dear Sir/Madam,",
+        "Dear Mr. Smith,",
+        "Hello Sarah,"
+      ],
       "answerIndex": 1,
-      "explanation": "ATM stands for Automated Teller Machine."
+      "explanation": "'Dear Sir/Madam' is the formal opening for an unknown recipient."
     },
     {
-      "id": "fin-a1-w26-exam-2",
-      "type": "multipleChoice",
-      "prompt": "Where is the receipt? 'It is ________ the machine.'",
-      "options": ["under", "between", "inside", "among"],
-      "answerIndex": 2,
-      "explanation": "The receipt usually comes out from 'inside' the machine."
-    },
-    {
-      "id": "fin-a1-w26-exam-3",
-      "type": "multipleChoice",
-      "prompt": "To use online banking, you need a ________.",
-      "options": ["Atm", "Cash", "Password", "Coin"],
-      "answerIndex": 2,
-      "explanation": "Passwords are required for security in online banking."
-    },
-    {
-      "id": "fin-a1-w26-exam-4",
-      "type": "multipleChoice",
-      "prompt": "Complete: 'The bank is ________ the supermarket and the pharmacy.'",
-      "options": ["on", "between", "at", "to"],
+      "id": "adm-a1-w26-q02",
+      "type": "multiple-choice",
+      "question": "If you start with 'Dear Sir/Madam', how should you close formally?",
+      "options": [
+        "Sincerely,",
+        "Yours faithfully,",
+        "Best,",
+        "Cheers,"
+      ],
       "answerIndex": 1,
-      "explanation": "Use 'between' for something in the middle of two things."
+      "explanation": "Traditionally, 'Yours faithfully' matches 'Dear Sir/Madam'."
     },
     {
-      "id": "fin-a1-w26-exam-5",
-      "type": "multipleChoice",
-      "prompt": "What do you do with a 'Transfer'?",
-      "options": ["Send money from one account to another", "Buy a new wallet", "Print a document", "Eat in a restaurant"],
+      "id": "adm-a1-w26-q03",
+      "type": "multiple-choice",
+      "question": "What is the professional title for any woman, regardless of marital status?",
+      "options": [
+        "Mr.",
+        "Mrs.",
+        "Ms.",
+        "Miss"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Ms.' is the standard, neutral professional title for women."
+    },
+    {
+      "id": "adm-a1-w26-q04",
+      "type": "multiple-choice",
+      "question": "Which closing is appropriate for a standard professional email to a client you know?",
+      "options": [
+        "Later,",
+        "Kind regards,",
+        "Bye bye,",
+        "XOXO"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Kind regards' is polite and professional for known clients."
+    },
+    {
+      "id": "adm-a1-w26-q05",
+      "type": "multiple-choice",
+      "question": "How do you address a man named James Brown formally?",
+      "options": [
+        "Dear James,",
+        "Dear Mr. Brown,",
+        "Hi Mr. James,",
+        "Hello Brown,"
+      ],
+      "answerIndex": 1,
+      "explanation": "Formal address uses 'Dear Mr. [Last Name]'."
+    },
+    {
+      "id": "adm-a1-w26-q06",
+      "type": "multiple-choice",
+      "question": "Which of these is an INFORMAL greeting?",
+      "options": [
+        "Dear Ms. Jenkins,",
+        "Hi Mark,",
+        "To whom it may concern,",
+        "Dear Sir,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Hi [First Name]' is used for informal communication."
+    },
+    {
+      "id": "adm-a1-w26-q07",
+      "type": "multiple-choice",
+      "question": "What is the common closing for an email to a close colleague?",
+      "options": [
+        "Yours faithfully,",
+        "Respectfully,",
+        "Best,",
+        "To whom it may concern,"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Best,' or 'Thanks,' is common for internal or informal emails."
+    },
+    {
+      "id": "adm-a1-w26-q08",
+      "type": "multiple-choice",
+      "question": "When do you use 'To whom it may concern'?",
+      "options": [
+        "When writing to your boss",
+        "When you don't have a specific contact or department",
+        "When writing to a friend",
+        "When you are angry"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is used for formal letters to an organization when no name is available."
+    },
+    {
+      "id": "adm-a1-w26-q09",
+      "type": "multiple-choice",
+      "question": "Which title is used for a married woman specifically?",
+      "options": [
+        "Mr.",
+        "Ms.",
+        "Mrs.",
+        "Miss"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Mrs.' traditionally refers to a married woman."
+    },
+    {
+      "id": "adm-a1-w26-q10",
+      "type": "multiple-choice",
+      "question": "If you address someone as 'Dear Mr. Smith', what is a formal matching closing?",
+      "options": [
+        "Yours faithfully,",
+        "Yours sincerely,",
+        "Cheers,",
+        "Later,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Yours sincerely' is used when the recipient's name is known."
+    },
+    {
+      "id": "adm-a1-w26-q11",
+      "type": "multiple-choice",
+      "question": "What usually follows the greeting line (e.g., Dear John,)?",
+      "options": [
+        "A signature",
+        "An attachment",
+        "An opening sentence (e.g., I hope you are well)",
+        "The subject line"
+      ],
+      "answerIndex": 2,
+      "explanation": "The opening sentence sets the tone after the greeting."
+    },
+    {
+      "id": "adm-a1-w26-q12",
+      "type": "multiple-choice",
+      "question": "Which of these is the most formal closing?",
+      "options": [
+        "Best regards,",
+        "Yours faithfully,",
+        "Thanks,",
+        "Best,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Yours faithfully' is at the top of the formality scale."
+    },
+    {
+      "id": "adm-a1-w26-q13",
+      "type": "multiple-choice",
+      "question": "How do you address a group of people in an email?",
+      "options": [
+        "Dear Mr. and Mrs.,",
+        "Hello Team,",
+        "Dear Sir/Madam,",
+        "Yours truly,"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Hello Team' or 'Hi Everyone' is standard for groups."
+    },
+    {
+      "id": "adm-a1-w26-q14",
+      "type": "multiple-choice",
+      "question": "Which punctuation is used after the greeting in most business emails?",
+      "options": [
+        "Period (.)",
+        "Comma (,)",
+        "Exclamation mark (!)",
+        "Slash (/)"
+      ],
+      "answerIndex": 1,
+      "explanation": "A comma is the standard punctuation for email greetings."
+    },
+    {
+      "id": "adm-a1-w26-q15",
+      "type": "multiple-choice",
+      "question": "In an informal UK email, 'Cheers' means:",
+      "options": [
+        "Hello",
+        "Thanks / Goodbye",
+        "Subject",
+        "Attachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "In the UK, 'Cheers' is used as a casual way to say thanks or bye."
+    },
+    {
+      "id": "adm-a1-w26-q16",
+      "type": "multiple-choice",
+      "question": "What is 'Sincerely' in Spanish?",
+      "options": [
+        "Hola",
+        "Atentamente / Sinceramente",
+        "De nada",
+        "Por favor"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Sincerely' is the formal equivalent of 'atentamente'."
+    },
+    {
+      "id": "adm-a1-w26-q17",
+      "type": "multiple-choice",
+      "question": "When should you use first names in business emails?",
+      "options": [
+        "Always",
+        "When the other person uses yours or you know them well",
+        "Never",
+        "Only when you are the boss"
+      ],
+      "answerIndex": 1,
+      "explanation": "First name usage depends on the existing relationship and company culture."
+    },
+    {
+      "id": "adm-a1-w26-q18",
+      "type": "multiple-choice",
+      "question": "Which abbreviation is used for 'Doctor'?",
+      "options": [
+        "Doc.",
+        "Dt.",
+        "Dr.",
+        "Dtr."
+      ],
+      "answerIndex": 2,
+      "explanation": "'Dr.' is the standard abbreviation."
+    },
+    {
+      "id": "adm-a1-w26-q19",
+      "type": "multiple-choice",
+      "question": "Where do you place the 'Closing'?",
+      "options": [
+        "At the very top",
+        "In the middle",
+        "Before the signature",
+        "In the subject line"
+      ],
+      "answerIndex": 2,
+      "explanation": "The closing comes after the body and before your name."
+    },
+    {
+      "id": "adm-a1-w26-q20",
+      "type": "multiple-choice",
+      "question": "Choose the correct spelling:",
+      "options": [
+        "Faithfully",
+        "Faithfuly",
+        "Faythfully",
+        "Faithfuley"
+      ],
       "answerIndex": 0,
-      "explanation": "A transfer is moving money between accounts."
+      "explanation": "The correct spelling is F-A-I-T-H-F-U-L-L-Y."
     }
   ]
 }

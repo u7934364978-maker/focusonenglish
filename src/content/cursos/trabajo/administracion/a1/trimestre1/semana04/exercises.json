@@ -3,63 +3,770 @@
   "level": "A1",
   "trimester": 1,
   "weekId": "semana04",
-  "title": "Exercises: Greetings and Politeness",
+  "title": "Exercises: Possessives & Work Routine",
   "items": [
     {
-      "id": "fin-a1-w4-q1",
-      "type": "multipleChoice",
-      "prompt": "What do you say at 9:00 AM?",
-      "options": [
-        "Good morning",
-        "Good afternoon",
-        "Good evening",
-        "Good night"
-      ],
+      "id": "adm-a1-w04-ex01",
+      "type": "multiple-choice",
+      "prompt": "Which possessive adjective is used for 'She'?",
+      "options": ["His", "Her", "Its", "My"],
+      "answerIndex": 1,
+      "explanation": "We use 'Her' when something belongs to a woman or girl."
+    },
+    {
+      "id": "adm-a1-w04-ex02",
+      "type": "multiple-choice",
+      "prompt": "Complete the sentence: 'I ______ in the finance department.'",
+      "options": ["work", "works", "working", "worker"],
       "answerIndex": 0,
-      "explanation": "We say 'Good morning' from sunrise until noon."
+      "explanation": "In the Present Simple, the base form of the verb is used with 'I'."
     },
     {
-      "id": "fin-a1-w4-q2",
-      "type": "multipleChoice",
-      "prompt": "An AI Assistant is...?",
+      "id": "adm-a1-w04-ex03",
+      "type": "multiple-choice",
+      "prompt": "What is 'Laptop' in Spanish?",
+      "options": ["Teclado", "Ratón", "Escritorio", "Ordenador portátil"],
+      "answerIndex": 3,
+      "explanation": "A laptop is a portable computer, known as 'ordenador portátil' in Spanish."
+    },
+    {
+      "id": "adm-a1-w04-ex04",
+      "type": "multiple-choice",
+      "prompt": "Which possessive adjective corresponds to 'We'?",
+      "options": ["Your", "Their", "Our", "His"],
+      "answerIndex": 2,
+      "explanation": "'Our' is the possessive adjective for 'We'."
+    },
+    {
+      "id": "adm-a1-w04-ex05",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'This is Mr. Smith. ______ office is on the second floor.'",
+      "options": ["Her", "His", "Their", "Your"],
+      "answerIndex": 1,
+      "explanation": "We use 'His' for the third person singular male (Mr. Smith)."
+    },
+    {
+      "id": "adm-a1-w04-ex06",
+      "type": "multiple-choice",
+      "prompt": "What do you use to type emails?",
+      "options": ["Mouse", "Keyboard", "Chair", "Desk"],
+      "answerIndex": 1,
+      "explanation": "A keyboard is the device used for typing text into a computer."
+    },
+    {
+      "id": "adm-a1-w04-ex07",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct verb: 'They ______ work at 8:30 AM.'",
+      "options": ["starts", "starting", "start", "is start"],
+      "answerIndex": 2,
+      "explanation": "With 'They', we use the base form 'start' in the Present Simple."
+    },
+    {
+      "id": "adm-a1-w04-ex08",
+      "type": "multiple-choice",
+      "prompt": "Which possessive is for 'Things' or 'Animals'?",
+      "options": ["Its", "It's", "His", "Her"],
+      "answerIndex": 0,
+      "explanation": "'Its' (without apostrophe) is the possessive adjective for things or animals."
+    },
+    {
+      "id": "adm-a1-w04-ex09",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'Where is ______ pen? I can't find it.'",
+      "options": ["I", "my", "me", "mine"],
+      "answerIndex": 1,
+      "explanation": "'My' is the possessive adjective used before a noun (pen)."
+    },
+    {
+      "id": "adm-a1-w04-ex10",
+      "type": "multiple-choice",
+      "prompt": "What do you use to move the cursor on the screen?",
+      "options": ["Screen", "Printer", "Mouse", "Laptop"],
+      "answerIndex": 2,
+      "explanation": "A computer mouse is used to control the cursor on a graphical user interface."
+    },
+    {
+      "id": "adm-a1-w04-ex11",
+      "type": "multiple-choice",
+      "prompt": "Select the correct sentence:",
       "options": [
-        "A physical person",
-        "A computer program",
-        "A bank branch",
-        "A credit card"
+        "I has a new laptop.",
+        "I have a new laptop.",
+        "I having a new laptop.",
+        "I is have a new laptop."
       ],
       "answerIndex": 1,
-      "explanation": "An AI Assistant is a software program that helps with tasks."
+      "explanation": "With 'I', the correct form of the verb to have is 'have'."
     },
     {
-      "id": "fin-a1-w4-grammar-1",
-      "type": "multipleChoice",
-      "prompt": "Complete: '___ the AI assistant helpful?' 'Yes, it ___.'",
-      "options": [
-        "Am / am",
-        "Is / is",
-        "Are / are",
-        "Be / be"
-      ],
+      "id": "adm-a1-w04-ex12",
+      "type": "multiple-choice",
+      "prompt": "Possessive for 'You' (singular and plural):",
+      "options": ["Your", "Yours", "You", "Our"],
+      "answerIndex": 0,
+      "explanation": "'Your' is the possessive adjective for 'You'."
+    },
+    {
+      "id": "adm-a1-w04-ex13",
+      "type": "multiple-choice",
+      "prompt": "What is 'Desk' in Spanish?",
+      "options": ["Silla", "Escritorio", "Lámpara", "Ventana"],
       "answerIndex": 1,
-      "explanation": "The subject (AI assistant) is singular, so we use 'Is...?' and 'Yes, it is'."
+      "explanation": "A desk is a piece of furniture used for working, called 'escritorio' in Spanish."
     },
     {
-      "id": "fin-a1-w4-matching-1",
+      "id": "adm-a1-w04-ex14",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'Mary and Paul are here. ______ laptops are on the table.'",
+      "options": ["His", "Her", "Our", "Their"],
+      "answerIndex": 3,
+      "explanation": "We use 'Their' for the third person plural (Mary and Paul)."
+    },
+    {
+      "id": "adm-a1-w04-ex15",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct phrase: 'I ______ a meeting every Monday.'",
+      "options": ["have", "has", "am having", "is have"],
+      "answerIndex": 0,
+      "explanation": "'I have' is the correct form for expressing a recurring event in the routine."
+    },
+    {
+      "id": "adm-a1-w04-ex16",
+      "type": "fill-in-the-blanks",
+      "text": "Every day, I [start] work at 9:00. I [use] my laptop and I [check] my emails.",
+      "answers": ["start", "use", "check"],
+      "explanation": "Basic routine verbs in the first person singular."
+    },
+    {
+      "id": "adm-a1-w04-ex17",
+      "type": "fill-in-the-blanks",
+      "text": "This is [my] desk. That is [your] chair. [His] computer is new.",
+      "answers": ["my", "your", "His"],
+      "explanation": "Using possessive adjectives to identify ownership of office objects."
+    },
+    {
+      "id": "adm-a1-w04-ex18",
+      "type": "fill-in-the-blanks",
+      "text": "We [work] for a big company. [Our] office is in Madrid. They [have] a meeting now.",
+      "answers": ["work", "Our", "have"],
+      "explanation": "Verb forms and possessive adjectives for 'We' and 'They'."
+    },
+    {
+      "id": "adm-a1-w04-ex19",
+      "type": "fill-in-the-blanks",
+      "text": "A: Is this [your] keyboard?\nB: No, it's [her] keyboard. My [laptop] is here.",
+      "answers": ["your", "her", "laptop"],
+      "explanation": "Dialogue focusing on possessives and office objects."
+    },
+    {
+      "id": "adm-a1-w04-ex20",
+      "type": "fill-in-the-blanks",
+      "text": "I [have] a phone on my [desk]. I [use] it to call clients.",
+      "answers": ["have", "desk", "use"],
+      "explanation": "Describing the workspace and its use."
+    },
+    {
+      "id": "adm-a1-w04-ex21",
+      "type": "fill-in-the-blanks",
+      "text": "The company [is] Global Tech. [Its] logo is blue. [Their] employees are friendly.",
+      "answers": ["is", "Its", "Their"],
+      "explanation": "Possessives for companies (Its) and groups (Their)."
+    },
+    {
+      "id": "adm-a1-w04-ex22",
+      "type": "fill-in-the-blanks",
+      "text": "In the morning, I [drink] coffee and [read] reports. My boss [is] Mr. Jones.",
+      "answers": ["drink", "read", "is"],
+      "explanation": "Common morning work activities."
+    },
+    {
+      "id": "adm-a1-w04-ex23",
+      "type": "fill-in-the-blanks",
+      "text": "Is [his] name Robert? No, [his] name is Richard. [His] job is Sales Manager.",
+      "answers": ["his", "his", "His"],
+      "explanation": "Practicing the possessive 'his'."
+    },
+    {
+      "id": "adm-a1-w04-ex24",
+      "type": "fill-in-the-blanks",
+      "text": "I [need] a new [mouse]. My [keyboard] is also very old.",
+      "answers": ["need", "mouse", "keyboard"],
+      "explanation": "Identifying office equipment needs."
+    },
+    {
+      "id": "adm-a1-w04-ex25",
+      "type": "fill-in-the-blanks",
+      "text": "You [have] a meeting at 10:00. Please [bring] [your] notebook.",
+      "answers": ["have", "bring", "your"],
+      "explanation": "Giving instructions and using possessives."
+    },
+    {
+      "id": "adm-a1-w04-ex26",
+      "type": "fill-in-the-blanks",
+      "text": "She [is] a designer. [Her] office is creative. [Her] laptop is a Mac.",
+      "answers": ["is", "Her", "Her"],
+      "explanation": "Using 'is' and 'her' for a female professional."
+    },
+    {
+      "id": "adm-a1-w04-ex27",
+      "type": "fill-in-the-blanks",
+      "text": "The [phone] is ringing. Please [answer] it. It's on [your] desk.",
+      "answers": ["phone", "answer", "your"],
+      "explanation": "Workplace situational vocabulary."
+    },
+    {
+      "id": "adm-a1-w04-ex28",
+      "type": "fill-in-the-blanks",
+      "text": "I [start] at 8:00 and I [finish] at 5:00. This [is] my daily routine.",
+      "answers": ["start", "finish", "is"],
+      "explanation": "Describing the work schedule."
+    },
+    {
+      "id": "adm-a1-w04-ex29",
+      "type": "fill-in-the-blanks",
+      "text": "We [use] a [printer] to print documents. [Our] printer is very fast.",
+      "answers": ["use", "printer", "Our"],
+      "explanation": "Office equipment and possessive 'our'."
+    },
+    {
+      "id": "adm-a1-w04-ex30",
+      "type": "fill-in-the-blanks",
+      "text": "They [are] in a meeting. [Their] phones [are] off. Please [wait] here.",
+      "answers": ["are", "Their", "are", "wait"],
+      "explanation": "Third person plural verbs and possessive."
+    },
+    {
+      "id": "adm-a1-w04-ex31",
+      "type": "reading",
+      "title": "My Work Day",
+      "text": "My name is Elena. I work in an office in Valencia. I start my work at 8:30 AM. I have a big desk and a new laptop. I use my computer to write emails and organize files. At 11:00 AM, I have a meeting with my team. We discuss our projects.",
+      "vocabulary": [
+        { "word": "organize", "definition": "To arrange things in a structured way." },
+        { "word": "discuss", "definition": "To talk about something with other people." }
+      ],
+      "questions": [
+        {
+          "question": "Where does Elena work?",
+          "options": ["In a shop", "In an office", "In a school", "In a hospital"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What time does she start?",
+          "options": ["8:00 AM", "9:00 AM", "8:30 AM", "11:00 AM"],
+          "answerIndex": 2
+        },
+        {
+          "question": "What does she use to write emails?",
+          "options": ["Her phone", "Her laptop", "A pen", "Her tablet"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Testing reading skills for workplace routines and objects."
+    },
+    {
+      "id": "adm-a1-w04-ex32",
+      "type": "reading",
+      "title": "The Tech Team",
+      "text": "This is our IT department. Mark and Sophie work here. Mark is a developer. His laptop is very fast. Sophie is a technician. Her job is to help with computer problems. They use many keyboards and mice every day. Their office is very modern.",
+      "vocabulary": [
+        { "word": "developer", "definition": "A person who creates computer software." },
+        { "word": "technician", "definition": "A person skilled in technical equipment." }
+      ],
+      "questions": [
+        {
+          "question": "What is Mark's job?",
+          "options": ["Technician", "Manager", "Developer", "Designer"],
+          "answerIndex": 2
+        },
+        {
+          "question": "Whose job is to help with computer problems?",
+          "options": ["Mark's", "Sophie's", "The manager's", "The client's"],
+          "answerIndex": 1
+        },
+        {
+          "question": "How is their office described?",
+          "options": ["Old", "Modern", "Small", "Dark"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Identifying roles and possessives in a short text."
+    },
+    {
+      "id": "adm-a1-w04-ex33",
+      "type": "reading",
+      "title": "A Clean Desk",
+      "text": "Mr. Brown is very organized. His desk is always clean. He has a phone, a mouse, and a keyboard. He starts his routine by cleaning his screen. He says, 'My tools are important for my work.'",
+      "vocabulary": [
+        { "word": "organized", "definition": "Systematic and efficient." },
+        { "word": "tools", "definition": "Equipment used to perform a task." }
+      ],
+      "questions": [
+        {
+          "question": "Who is organized?",
+          "options": ["Mr. Smith", "Mr. Brown", "The assistant", "The cleaner"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What does he clean first?",
+          "options": ["His desk", "His screen", "His phone", "His keyboard"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Focusing on office objects and possessives."
+    },
+    {
+      "id": "adm-a1-w04-ex34",
+      "type": "reading",
+      "title": "The Morning Meeting",
+      "text": "Every Tuesday, our company has a morning meeting. Our CEO, Mrs. Green, starts the meeting at 10:00. She uses a projector. We listen to her plans. Then, we go back to our desks.",
+      "vocabulary": [
+        { "word": "CEO", "definition": "Chief Executive Officer, the highest-ranking person in a company." },
+        { "word": "projector", "definition": "A device that throws an image onto a screen." }
+      ],
+      "questions": [
+        {
+          "question": "When is the meeting?",
+          "options": ["Monday", "Tuesday", "Wednesday", "Friday"],
+          "answerIndex": 1
+        },
+        {
+          "question": "What time does it start?",
+          "options": ["9:00", "10:00", "11:00", "8:00"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Reading about company routines and hierarchy."
+    },
+    {
+      "id": "adm-a1-w04-ex35",
+      "type": "reading",
+      "title": "Office Supplies",
+      "text": "We have a small room for office supplies. There are pens, notebooks, and paper. Their location is next to the kitchen. I go there to get a new mouse for my computer.",
+      "vocabulary": [
+        { "word": "supplies", "definition": "Materials or items needed for a particular purpose." },
+        { "word": "location", "definition": "A particular place or position." }
+      ],
+      "questions": [
+        {
+          "question": "Where are the office supplies?",
+          "options": ["Next to the kitchen", "In the CEO's office", "Under the desk", "In the car"],
+          "answerIndex": 0
+        }
+      ],
+      "explanation": "Locating items in an office environment."
+    },
+    {
+      "id": "adm-a1-w04-ex36",
+      "type": "reading",
+      "title": "New Laptop",
+      "text": "I have a new laptop. Its color is silver. Its screen is very big. I love my new computer. It is very light and I take it to all my meetings.",
+      "vocabulary": [
+        { "word": "silver", "definition": "A shiny grey-white color." },
+        { "word": "light", "definition": "Not heavy; easy to carry." }
+      ],
+      "questions": [
+        {
+          "question": "What color is the laptop?",
+          "options": ["Black", "White", "Silver", "Blue"],
+          "answerIndex": 2
+        }
+      ],
+      "explanation": "Describing objects using 'its'."
+    },
+    {
+      "id": "adm-a1-w04-ex37",
+      "type": "reading",
+      "title": "Work from Home",
+      "text": "Today, I work from home. My desk is in my living room. I use my home Wi-Fi. My routine is the same: I start at 9:00 and finish at 6:00.",
+      "vocabulary": [
+        { "word": "Wi-Fi", "definition": "Wireless network connection." },
+        { "word": "routine", "definition": "A sequence of actions regularly followed." }
+      ],
+      "questions": [
+        {
+          "question": "Where is the desk today?",
+          "options": ["In the office", "In the living room", "In the kitchen", "In the bedroom"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Describing a remote work setup."
+    },
+    {
+      "id": "adm-a1-w04-ex38",
+      "type": "reading",
+      "title": "The Shared Office",
+      "text": "This is a shared office. Many people work here. Their desks are close to each other. They use laptops because they move a lot. Our company likes this space.",
+      "vocabulary": [
+        { "word": "shared", "definition": "Used by more than one person." },
+        { "word": "space", "definition": "An area or location." }
+      ],
+      "questions": [
+        {
+          "question": "Why do they use laptops?",
+          "options": ["Because they are cheap", "Because they move a lot", "Because they are big", "Because they are blue"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Understanding workplace environments."
+    },
+    {
+      "id": "adm-a1-w04-ex39",
+      "type": "reading",
+      "title": "Lunch Break",
+      "text": "At 2:00 PM, we have our lunch break. We go to a cafe near our office. Their sandwiches are excellent. We return to our work at 3:00 PM.",
+      "vocabulary": [
+        { "word": "excellent", "definition": "Extremely good; outstanding." },
+        { "word": "return", "definition": "To come or go back to a place." }
+      ],
+      "questions": [
+        {
+          "question": "What time is the lunch break?",
+          "options": ["1:00 PM", "2:00 PM", "3:00 PM", "12:00 PM"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Reading about daily work schedule breaks."
+    },
+    {
+      "id": "adm-a1-w04-ex40",
+      "type": "reading",
+      "title": "Email Routine",
+      "text": "I write many emails every day. My first task in the morning is to check my inbox. I reply to my clients and my boss. Then, I organize my folders.",
+      "vocabulary": [
+        { "word": "inbox", "definition": "The main folder where new emails arrive." },
+        { "word": "reply", "definition": "To answer someone." }
+      ],
+      "questions": [
+        {
+          "question": "What is the first task in the morning?",
+          "options": ["Drink coffee", "Check the inbox", "Go to a meeting", "Call a friend"],
+          "answerIndex": 1
+        }
+      ],
+      "explanation": "Identifying primary work duties."
+    },
+    {
+      "id": "adm-a1-w04-ex41",
       "type": "matching",
-      "prompt": "Match the phrase with the context.",
+      "question": "Match the pronoun with the correct possessive adjective.",
       "pairs": [
-        {"term": "Thank you", "definition": "Gratitude"},
-        {"term": "Excuse me", "definition": "Attention"},
-        {"term": "AI Assistant", "definition": "Helpful Tool"}
+        { "term": "I", "definition": "My" },
+        { "term": "You", "definition": "Your" },
+        { "term": "He", "definition": "His" },
+        { "term": "She", "definition": "Her" }
+      ],
+      "explanation": "Fundamental pronoun-possessive pairing."
+    },
+    {
+      "id": "adm-a1-w04-ex42",
+      "type": "matching",
+      "question": "Match the plural pronoun with the correct possessive adjective.",
+      "pairs": [
+        { "term": "We", "definition": "Our" },
+        { "term": "They", "definition": "Their" },
+        { "term": "It", "definition": "Its" },
+        { "term": "You (all)", "definition": "Your" }
+      ],
+      "explanation": "Plural and neutral possessive adjectives."
+    },
+    {
+      "id": "adm-a1-w04-ex43",
+      "type": "matching",
+      "question": "Match the office object with its Spanish translation.",
+      "pairs": [
+        { "term": "Laptop", "definition": "Portátil" },
+        { "term": "Desk", "definition": "Escritorio" },
+        { "term": "Keyboard", "definition": "Teclado" },
+        { "term": "Mouse", "definition": "Ratón" }
+      ],
+      "explanation": "Basic office vocabulary translation."
+    },
+    {
+      "id": "adm-a1-w04-ex44",
+      "type": "matching",
+      "question": "Match the verb with its object or complement.",
+      "pairs": [
+        { "term": "Start", "definition": "Work at 9:00" },
+        { "term": "Check", "definition": "Emails" },
+        { "term": "Have", "definition": "A meeting" },
+        { "term": "Use", "definition": "A laptop" }
+      ],
+      "explanation": "Common collocations in a work context."
+    },
+    {
+      "id": "adm-a1-w04-ex45",
+      "type": "matching",
+      "question": "Match the action with the time (from the theory/examples).",
+      "pairs": [
+        { "term": "Start work", "definition": "8:30 or 9:00" },
+        { "term": "Meeting", "definition": "11:00 AM" },
+        { "term": "Lunch", "definition": "2:00 PM" },
+        { "term": "Finish", "definition": "5:00 or 6:00" }
+      ],
+      "explanation": "Relating actions to typical schedule times."
+    },
+    {
+      "id": "adm-a1-w04-ex46",
+      "type": "matching",
+      "question": "Match the subject with the correct form of the verb 'to have'.",
+      "pairs": [
+        { "term": "I", "definition": "Have" },
+        { "term": "She", "definition": "Has" },
+        { "term": "They", "definition": "Have" },
+        { "term": "He", "definition": "Has" }
+      ],
+      "explanation": "Subject-verb agreement for 'have/has'."
+    },
+    {
+      "id": "adm-a1-w04-ex47",
+      "type": "matching",
+      "question": "Match the workplace tool with its function.",
+      "pairs": [
+        { "term": "Screen", "definition": "To see the image" },
+        { "term": "Keyboard", "definition": "To type letters" },
+        { "term": "Mouse", "definition": "To click and move" },
+        { "term": "Phone", "definition": "To call people" }
+      ],
+      "explanation": "Functional vocabulary for office equipment."
+    },
+    {
+      "id": "adm-a1-w04-ex48",
+      "type": "matching",
+      "question": "Match the professional with their possessive adjective.",
+      "pairs": [
+        { "term": "The CEO (man)", "definition": "His office" },
+        { "term": "The Manager (woman)", "definition": "Her plan" },
+        { "term": "The Company", "definition": "Its logo" },
+        { "term": "The Workers", "definition": "Their desks" }
+      ],
+      "explanation": "Applying possessives to professional roles."
+    },
+    {
+      "id": "adm-a1-w04-ex49",
+      "type": "matching",
+      "question": "Match the workplace greeting with the time.",
+      "pairs": [
+        { "term": "Good morning", "definition": "9:00 AM" },
+        { "term": "Good afternoon", "definition": "3:00 PM" },
+        { "term": "Good evening", "definition": "7:00 PM" },
+        { "term": "Goodbye", "definition": "5:00 PM (end)" }
+      ],
+      "explanation": "Reviewing greetings in a routine context."
+    },
+    {
+      "id": "adm-a1-w04-ex50",
+      "type": "matching",
+      "question": "Match the job with the typical department.",
+      "pairs": [
+        { "term": "Accountant", "definition": "Finance" },
+        { "term": "Sales Manager", "definition": "Sales" },
+        { "term": "IT Technician", "definition": "IT" },
+        { "term": "Recruiter", "definition": "Human Resources" }
+      ],
+      "explanation": "Connecting roles with departments."
+    },
+    {
+      "id": "adm-a1-w04-ex51",
+      "type": "fill-in-the-blanks",
+      "text": "A: Hello, is this [your] desk?\nB: No, it's [his] desk. Mr. Garcia works here.",
+      "answers": ["your", "his"],
+      "explanation": "Simple workplace dialogue with possessives."
+    },
+    {
+      "id": "adm-a1-w04-ex52",
+      "type": "fill-in-the-blanks",
+      "text": "A: Where is [my] laptop?\nB: It's in [your] bag. Check it!",
+      "answers": ["my", "your"],
+      "explanation": "Dialogue about personal belongings."
+    },
+    {
+      "id": "adm-a1-w04-ex53",
+      "type": "fill-in-the-blanks",
+      "text": "A: Does Mary [have] her mouse?\nB: Yes, she [has] it on her desk.",
+      "answers": ["have", "has"],
+      "explanation": "Practicing have/has in a dialogue."
+    },
+    {
+      "id": "adm-a1-w04-ex54",
+      "type": "fill-in-the-blanks",
+      "text": "A: What time do you [start] work?\nB: I [start] at 8:00 AM every day.",
+      "answers": ["start", "start"],
+      "explanation": "Routine inquiry dialogue."
+    },
+    {
+      "id": "adm-a1-w04-ex55",
+      "type": "fill-in-the-blanks",
+      "text": "A: Is the meeting in [our] office?\nB: No, it's in [their] office on the third floor.",
+      "answers": ["our", "their"],
+      "explanation": "Differentiating between 'our' and 'their'."
+    },
+    {
+      "id": "adm-a1-w04-ex56",
+      "type": "fill-in-the-blanks",
+      "text": "A: This computer is very slow. [Its] screen is old.\nB: You [need] a new laptop.",
+      "answers": ["Its", "need"],
+      "explanation": "Dialogue about technical issues."
+    },
+    {
+      "id": "adm-a1-w04-ex57",
+      "type": "fill-in-the-blanks",
+      "text": "A: Do they [work] in London?\nB: No, they [work] in Manchester. [Their] office is big.",
+      "answers": ["work", "work", "Their"],
+      "explanation": "Information exchange about location and company."
+    },
+    {
+      "id": "adm-a1-w04-ex58",
+      "type": "fill-in-the-blanks",
+      "text": "A: I [use] a Mac for [my] design work.\nB: I [use] a PC for my spreadsheets.",
+      "answers": ["use", "my", "use"],
+      "explanation": "Comparing tools and routines."
+    },
+    {
+      "id": "adm-a1-w04-ex59",
+      "type": "fill-in-the-blanks",
+      "text": "A: Please [write] the report now.\nB: I [have] a meeting in 5 minutes. Is [it] okay later?",
+      "answers": ["write", "have", "it"],
+      "explanation": "Prioritizing tasks in a dialogue."
+    },
+    {
+      "id": "adm-a1-w04-ex60",
+      "type": "fill-in-the-blanks",
+      "text": "A: [Our] company [is] growing.\nB: Yes, [its] reputation is very good.",
+      "answers": ["Our", "is", "its"],
+      "explanation": "Positive professional dialogue."
+    },
+    {
+      "id": "adm-a1-w04-ex61",
+      "type": "writing",
+      "prompt": "Write a sentence using 'my' and an office object (e.g., laptop, desk).",
+      "modelAnswer": "My laptop is on my desk.",
+      "explanation": "Practicing personal possessives and vocabulary."
+    },
+    {
+      "id": "adm-a1-w04-ex62",
+      "type": "writing",
+      "prompt": "Write a sentence about your morning routine at work using the verb 'start'.",
+      "modelAnswer": "I start work at 9:00 AM.",
+      "explanation": "Constructing simple routine sentences."
+    },
+    {
+      "id": "adm-a1-w04-ex63",
+      "type": "writing",
+      "prompt": "Look at the subject 'She'. Write a sentence about her office using a possessive adjective.",
+      "modelAnswer": "Her office is very big.",
+      "explanation": "Using third-person possessives correctly."
+    },
+    {
+      "id": "adm-a1-w04-ex64",
+      "type": "writing",
+      "prompt": "List three office objects you use every day in English.",
+      "modelAnswer": "Laptop, keyboard, and mouse.",
+      "explanation": "Vocabulary recall."
+    },
+    {
+      "id": "adm-a1-w04-ex65",
+      "type": "writing",
+      "prompt": "Translate to English: 'Nuestra empresa es moderna'.",
+      "modelAnswer": "Our company is modern.",
+      "explanation": "Translating possessives and basic adjectives."
+    },
+    {
+      "id": "adm-a1-w04-ex66",
+      "type": "writing",
+      "prompt": "Change the sentence to use 'Their': 'The workers have laptops'.",
+      "modelAnswer": "Their laptops are new.",
+      "explanation": "Transforming sentences to use possessive adjectives."
+    },
+    {
+      "id": "adm-a1-w04-ex67",
+      "type": "writing",
+      "prompt": "Write a question to ask someone what time they start work.",
+      "modelAnswer": "What time do you start work?",
+      "explanation": "Forming questions about routines."
+    },
+    {
+      "id": "adm-a1-w04-ex68",
+      "type": "writing",
+      "prompt": "Write a sentence about a company using 'its'. (e.g., logo, name).",
+      "modelAnswer": "Its name is TechCorp.",
+      "explanation": "Using the neutral possessive 'its'."
+    },
+    {
+      "id": "adm-a1-w04-ex69",
+      "type": "writing",
+      "prompt": "Describe what you use to write an email in one sentence.",
+      "modelAnswer": "I use my keyboard to write an email.",
+      "explanation": "Combining verbs, possessives, and objects."
+    },
+    {
+      "id": "adm-a1-w04-ex70",
+      "type": "writing",
+      "prompt": "Translate to English: 'Tengo una reunión a las diez'.",
+      "modelAnswer": "I have a meeting at ten.",
+      "explanation": "Routine expression translation."
+    },
+    {
+      "id": "adm-a1-w04-ex71",
+      "type": "multiple-choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "This is he office.",
+        "This is him office.",
+        "This is his office.",
+        "This is he's office."
+      ],
+      "answerIndex": 2,
+      "explanation": "'His' is the possessive adjective for 'he'."
+    },
+    {
+      "id": "adm-a1-w04-ex72",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct verb: 'We ______ many emails every morning.'",
+      "options": ["writes", "write", "writing", "is write"],
+      "answerIndex": 1,
+      "explanation": "With 'We', we use the base form 'write'."
+    },
+    {
+      "id": "adm-a1-w04-ex73",
+      "type": "listening",
+      "title": "Daily Schedule",
+      "transcript": "I start my work at nine o'clock. I usually check my emails first, and then I have a meeting with my manager at eleven.",
+      "questions": [
+        {
+          "question": "What time does the speaker start work?",
+          "options": ["8:00", "9:00", "11:00"],
+          "answerIndex": 1,
+          "explanation": "The transcript says: 'I start my work at nine o'clock'."
+        }
       ]
     },
     {
-      "id": "fin-a1-w4-writing-1",
-      "type": "writingTask",
-      "prompt": "Write a polite greeting to a colleague. Example: 'Good morning, Mark. How are you?'",
-      "modelAnswer": "Good morning. How are you?",
-      "keywords": ["Good", "morning", "How", "are"]
+      "id": "adm-a1-w04-ex74",
+      "type": "listening",
+      "title": "Office Ownership",
+      "transcript": "Is this your desk, Sarah? No, it's his desk. My desk is near the window.",
+      "questions": [
+        {
+          "question": "Whose desk is it?",
+          "options": ["Sarah's", "His", "Near the window"],
+          "answerIndex": 1,
+          "explanation": "Sarah says: 'No, it's his desk'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w04-ex75",
+      "type": "listening",
+      "title": "New Equipment",
+      "transcript": "We have a new printer in our office. Its name is PrintFast 500. It is very quiet.",
+      "questions": [
+        {
+          "question": "What is new in the office?",
+          "options": ["A laptop", "A printer", "A desk"],
+          "answerIndex": 1,
+          "explanation": "The speaker says: 'We have a new printer'."
+        }
+      ]
     }
   ]
 }

@@ -20,18 +20,46 @@
       "id": "deliverable",
       "title": "Weekly Deliverable: Employee Engagement Proposal",
       "content": "Draft a short proposal (150 words) to improve employee engagement in your department. Include:\n1. **Analysis of the current situation**.\n2. **Proposed initiatives** (e.g., flexible working, recognition programs).\n3. **Expected benefits** (Reduced turnover, higher morale).\n4. **Grammar Focus** (Use at least two verbs that change meaning with gerunds/infinitives, e.g., *We should try implementing...*)."
+    },
+    {
+      "id": "motivation-types",
+      "title": "Intrinsic vs. Extrinsic Motivation",
+      "content": "Understanding where motivation comes from is crucial for administrators managing staff or projects.\n\n### Extrinsic Motivation:\nDriven by external rewards or avoiding punishment. \n- **Examples**: Bonuses, salary increases, promotions, fear of disciplinary action.\n- **Pros**: Effective for short-term goals and repetitive tasks.\n- **Cons**: Can lose effectiveness over time; may lead to 'working for the reward' rather than quality.\n\n### Intrinsic Motivation:\nDriven by internal satisfaction and interest in the task itself.\n- **Examples**: Personal growth, sense of achievement, autonomy, purpose.\n- **Pros**: Leads to higher creativity, better problem-solving, and long-term commitment.\n- **Cons**: Harder to influence from the outside; requires a supportive culture."
+    },
+    {
+      "id": "leadership-styles",
+      "title": "Leadership Styles & Motivation",
+      "content": "The way a manager leads directly impacts the psychology of the team.\n\n### Key Styles:\n- **Transformational**: Inspires employees through a shared vision and intellectual stimulation. Focuses on intrinsic motivation.\n- **Transactional**: Focuses on the exchange of work for rewards. Clear structure, but relies heavily on extrinsic motivation.\n- **Laissez-faire**: 'Hands-off' approach. Can be highly motivating for expert teams but demotivating for those needing guidance.\n- **Democratic**: Involves the team in decision-making, increasing a sense of 'ownership' and engagement."
+    },
+    {
+      "id": "group-dynamics",
+      "title": "Managing Conflict & Group Dynamics",
+      "content": "Teams go through psychological stages as they develop. Administrators must navigate these to maintain productivity.\n\n### Tuckman's Stages of Group Development:\n1. **Forming**: High dependence on leader for guidance. Members are polite but guarded.\n2. **Storming**: Conflict arises as members vie for position. Ideas are challenged.\n3. **Norming**: Agreement and consensus begin. Roles and responsibilities are clear.\n4. **Performing**: The team is strategically aware; they know why they are doing what they do.\n\n### Conflict Resolution:\n- **Competing**: I win, you lose.\n- **Collaborating**: Win-win (best for long-term relationships).\n- **Compromising**: Both give up something (middle ground).\n- **Avoiding**: Delaying the issue (rarely effective long-term)."
+    },
+    {
+      "id": "wellbeing",
+      "title": "Mental Health & Wellbeing in the Workplace",
+      "content": "A healthy organization is one where employees feel psychologically safe and supported.\n\n### Key Concepts:\n- **Psychological Safety**: The belief that one will not be punished or humiliated for speaking up with ideas, questions, or mistakes.\n- **Work-Life Balance**: Maintaining a healthy boundary between professional and personal time.\n- **Burnout**: A state of emotional, physical, and mental exhaustion caused by excessive and prolonged stress.\n\n### Admin Role in Wellbeing:\n- **Monitoring**: Identifying early signs of stress or disengagement.\n- **Signposting**: Directing employees to resources like EAPs (Employee Assistance Programs).\n- **Environment**: Ensuring the physical and social environment supports focus and reduces unnecessary stress."
     }
   ],
   "objectives": [
     "Identify core theories of organizational psychology and motivation",
     "Apply psychological principles to improve workplace culture",
     "Master the use of verbs that change meaning with gerunds and infinitives",
-    "Develop proposals to enhance employee engagement and morale"
+    "Develop proposals to enhance employee engagement and morale",
+    "Differentiate between intrinsic and extrinsic motivational drivers",
+    "Analyze how different leadership styles affect team psychology",
+    "Identify the stages of team development (Tuckman's Model)",
+    "Evaluate strategies for promoting mental health and psychological safety"
   ],
   "keyTerms": [
     { "term": "Morale", "definition": "The confidence, enthusiasm, and discipline of a person or group at a particular time." },
     { "term": "Engagement", "definition": "The level of enthusiasm and dedication a worker feels toward their job." },
     { "term": "Turnover", "definition": "The rate at which employees leave a workforce and are replaced." },
-    { "term": "Hygiene Factors", "definition": "Factors that do not give positive satisfaction or lead to higher motivation, though dissatisfaction results from their absence." }
+    { "term": "Hygiene Factors", "definition": "Factors that do not give positive satisfaction or lead to higher motivation, though dissatisfaction results from their absence." },
+    { "term": "Intrinsic", "definition": "Belonging naturally; essential. In motivation, it refers to internal rewards." },
+    { "term": "Extrinsic", "definition": "Not part of the essential nature of someone or something; coming from the outside." },
+    { "term": "Burnout", "definition": "State of emotional, physical, and mental exhaustion caused by excessive and prolonged stress." },
+    { "term": "Psychological Safety", "definition": "The ability to show and employ oneself without fear of negative consequences to self-image, status or career." }
   ]
 }

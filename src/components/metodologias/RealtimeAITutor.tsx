@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { Bot, Mic, Power, RotateCcw, MessageSquare, Volume2, ShieldAlert, ArrowLeft } from 'lucide-react'
 import { useRealtimeAI } from '@/hooks/use-realtime-ai'
+import { useMethodologyProgress } from '@/hooks/use-methodology-progress'
 import VoiceVisualizer from './VoiceVisualizer'
 
 interface AITutor {

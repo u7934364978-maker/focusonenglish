@@ -41,6 +41,126 @@
       "options": ["Legacy", "Scalable", "Interoperable", "Mature"],
       "answerIndex": 0,
       "explanation": "Legacy is the term for outdated but critical systems."
+    },
+    {
+      "id": "adm-b2-w21-q6",
+      "type": "multipleChoice",
+      "prompt": "________ the company to ignore digital trends, it would quickly lose its market share.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive (hypothetical future)."
+    },
+    {
+      "id": "adm-b2-w21-q7",
+      "type": "multipleChoice",
+      "prompt": "________ any employee experience issues with the new CRM, they should report it to the helpdesk.",
+      "options": ["Should", "Had", "Were", "Was"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1: Should + subject + verb (formal replacement for 'If')."
+    },
+    {
+      "id": "adm-b2-w21-q8",
+      "type": "multipleChoice",
+      "prompt": "________ we not updated our firewall, the Ransomware would have encrypted all our files.",
+      "options": ["Should", "Were", "Had", "If"],
+      "answerIndex": 2,
+      "explanation": "Inverted Type 3: Had + subject + not + past participle."
+    },
+    {
+      "id": "adm-b2-w21-q9",
+      "type": "multipleChoice",
+      "prompt": "________ there be a delay in the server migration, we will notify you by 5 PM.",
+      "options": ["Should", "Were", "Had", "Would"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 1 using 'there' as the subject."
+    },
+    {
+      "id": "adm-b2-w21-q10",
+      "type": "multipleChoice",
+      "prompt": "________ the CEO to approve the upskilling budget, we would begin training next week.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 2: Were + subject + to-infinitive."
+    },
+    {
+      "id": "adm-b2-w21-q11",
+      "type": "multipleChoice",
+      "prompt": "What does 'SaaS' stand for in the context of cloud computing?",
+      "options": ["System as a Security", "Software as a Service", "Servers as a Solution", "Security as a Standard"],
+      "answerIndex": 1,
+      "explanation": "SaaS stands for Software as a Service."
+    },
+    {
+      "id": "adm-b2-w21-q12",
+      "type": "multipleChoice",
+      "prompt": "The ability of different systems and software to communicate and exchange data is called ________.",
+      "options": ["Scalability", "Interoperability", "Data Siloing", "Legacy"],
+      "answerIndex": 1,
+      "explanation": "Interoperability is the correct term for system communication."
+    },
+    {
+      "id": "adm-b2-w21-q13",
+      "type": "multipleChoice",
+      "prompt": "________ refers to the capability of a system to handle a growing amount of work or its potential to be enlarged.",
+      "options": ["Maturity", "Migration", "Scalability", "Siloing"],
+      "answerIndex": 2,
+      "explanation": "Scalability is the ability to grow and manage increased demand."
+    },
+    {
+      "id": "adm-b2-w21-q14",
+      "type": "multipleChoice",
+      "prompt": "Which of the following describes 'Data Silos'?",
+      "options": ["Unified databases", "Secure cloud storage", "Isolated data held by one department", "High-speed servers"],
+      "answerIndex": 2,
+      "explanation": "Data silos are collections of data held by one group that are not easily accessible by others."
+    },
+    {
+      "id": "adm-b2-w21-q15",
+      "type": "multipleChoice",
+      "prompt": "An integrated software suite used to manage core business processes like finance, HR, and supply chain is an ________.",
+      "options": ["ERP", "MFA", "SaaS", "API"],
+      "answerIndex": 0,
+      "explanation": "ERP stands for Enterprise Resource Planning."
+    },
+    {
+      "id": "adm-b2-w21-q16",
+      "type": "multipleChoice",
+      "prompt": "Under GDPR, which entity determines the purposes and means of processing personal data?",
+      "options": ["Data Processor", "Data Subject", "Data Controller", "Data Breach"],
+      "answerIndex": 2,
+      "explanation": "The Data Controller is the entity that decides the 'why' and 'how' of data processing."
+    },
+    {
+      "id": "adm-b2-w21-q17",
+      "type": "multipleChoice",
+      "prompt": "What security measure requires at least two pieces of evidence to verify a user's identity?",
+      "options": ["SaaS", "GDPR", "MFA", "ERP"],
+      "answerIndex": 2,
+      "explanation": "MFA stands for Multi-Factor Authentication."
+    },
+    {
+      "id": "adm-b2-w21-q18",
+      "type": "multipleChoice",
+      "prompt": "The process of teaching employees new skills to adapt to digital changes is known as ________.",
+      "options": ["Downsizing", "Upskilling", "Outsourcing", "Siloing"],
+      "answerIndex": 1,
+      "explanation": "Upskilling is essential for digital transformation."
+    },
+    {
+      "id": "adm-b2-w21-q19",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Right to be Forgotten' in the context of data privacy?",
+      "options": ["The right to ignore emails", "The right to have personal data erased", "The right to use a fake name", "The right to access free software"],
+      "answerIndex": 1,
+      "explanation": "The Right to be Forgotten (or Erasure) is a key part of GDPR."
+    },
+    {
+      "id": "adm-b2-w21-20",
+      "type": "multipleChoice",
+      "prompt": "Which methodology emphasizes iterative development, collaboration, and flexibility in IT projects?",
+      "options": ["Waterfall", "Agile", "Legacy", "Siloed"],
+      "answerIndex": 1,
+      "explanation": "Agile is a project management methodology used widely in software development."
     }
   ]
 }

@@ -1,43 +1,574 @@
-[
-  {
-    "id": 1,
-    "type": "multiple-choice",
-    "question": "What is 'Investment' in Spanish?",
-    "options": ["Gasto", "Inversión", "Ahorro", "Deuda"],
-    "correctAnswer": 1,
-    "explanation": "'Investment' translates to 'Inversión'."
-  },
-  {
-    "id": 2,
-    "type": "fill-in-the-blank",
-    "question": "Stocks are __________ (risk) than savings accounts.",
-    "correctAnswer": "riskier",
-    "explanation": "We use the comparative form 'riskier' because 'risk' is a short adjective ending in 'y'."
-  },
-  {
-    "id": 3,
-    "type": "multiple-choice",
-    "question": "Which one is a part of a company that you can buy?",
-    "options": ["Bond", "Stock", "Loan", "Tax"],
-    "correctAnswer": 1,
-    "explanation": "A 'Stock' or 'Share' represents ownership in a company."
-  },
-  {
-    "id": 4,
-    "type": "matching",
-    "question": "Match the term with its meaning:",
-    "pairs": [
-      { "left": "Profit", "right": "Money earned" },
-      { "left": "Loss", "right": "Money lost" },
-      { "left": "Risk", "right": "Possibility of loss" }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "multiple-choice",
-    "question": "Choose the correct comparative: 'Bonds are _______ than stocks.'",
-    "options": ["safer", "more safe", "safest", "as safe"],
-    "correctAnswer": 0,
-    "explanation": "'Safe' is a short adjective, so we add '-er' to form the comparative: 'safer'."
-  }
-]
+{
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 2,
+  "weekId": "semana19",
+  "title": "Introducción a las Inversiones",
+  "items": [
+    {
+      "id": "adm-a2-w19-ex01",
+      "type": "multipleChoice",
+      "prompt": "An ________ is when you put money into something to make a profit.",
+      "options": ["investment", "expense", "invoice", "debt"],
+      "answerIndex": 0,
+      "explanation": "Una inversión (investment) es poner dinero en algo para obtener beneficios."
+    },
+    {
+      "id": "adm-a2-w19-ex02",
+      "type": "multipleChoice",
+      "prompt": "Stocks are usually ________ than savings accounts.",
+      "options": ["riskier", "risky", "riskiest", "more risky"],
+      "answerIndex": 0,
+      "explanation": "Usamos el comparativo 'riskier' (más arriesgado) para comparar dos cosas."
+    },
+    {
+      "id": "adm-a2-w19-ex03",
+      "type": "multipleChoice",
+      "prompt": "If you buy ________, you own a small part of a company.",
+      "options": ["shares", "bonds", "taxes", "loans"],
+      "answerIndex": 0,
+      "explanation": "Las acciones (shares o stocks) representan una parte de la propiedad de una empresa."
+    },
+    {
+      "id": "adm-a2-w19-ex04",
+      "type": "multipleChoice",
+      "prompt": "The stock ________ is where people buy and sell shares.",
+      "options": ["market", "office", "bank", "shop"],
+      "answerIndex": 0,
+      "explanation": "El mercado de valores se llama 'stock market'."
+    },
+    {
+      "id": "adm-a2-w19-ex05",
+      "type": "multipleChoice",
+      "prompt": "A ________ is when you lose money on an investment.",
+      "options": ["loss", "profit", "gain", "bonus"],
+      "answerIndex": 0,
+      "explanation": "Una pérdida (loss) ocurre cuando el valor de la inversión baja."
+    },
+    {
+      "id": "adm-a2-w19-ex06",
+      "type": "fillInTheBlank",
+      "prompt": "A bond is ________ (safe) than a stock.",
+      "answer": "safer",
+      "explanation": "El comparativo de 'safe' es 'safer' (más seguro)."
+    },
+    {
+      "id": "adm-a2-w19-ex07",
+      "type": "fillInTheBlank",
+      "prompt": "Gold is ________ (expensive) than silver.",
+      "answer": "more expensive",
+      "explanation": "Para adjetivos largos como 'expensive', usamos 'more' para el comparativo."
+    },
+    {
+      "id": "adm-a2-w19-ex08",
+      "type": "wordOrdering",
+      "prompt": "Order the words: are / Bonds / than / safer / stocks",
+      "sentence": "Bonds are safer than stocks",
+      "explanation": "Estructura comparativa: Sujeto + are + adjetivo-er + than + objeto."
+    },
+    {
+      "id": "adm-a2-w19-ex09",
+      "type": "multipleChoice",
+      "prompt": "ROI stands for ________ on Investment.",
+      "options": ["Return", "Risk", "Rate", "Real"],
+      "answerIndex": 0,
+      "explanation": "ROI significa 'Return on Investment' (Retorno de la Inversión)."
+    },
+    {
+      "id": "adm-a2-w19-ex10",
+      "type": "multipleChoice",
+      "prompt": "In finance, ________ is the possibility of losing money.",
+      "options": ["risk", "profit", "share", "asset"],
+      "answerIndex": 0,
+      "explanation": "El riesgo (risk) es la probabilidad de pérdida."
+    },
+    {
+      "id": "adm-a2-w19-ex11",
+      "type": "fillInTheBlank",
+      "prompt": "The new investment is ________ (good) than the old one.",
+      "answer": "better",
+      "explanation": "El comparativo irregular de 'good' es 'better'."
+    },
+    {
+      "id": "adm-a2-w19-ex12",
+      "type": "multipleChoice",
+      "prompt": "Real estate is often ________ than the stock market.",
+      "options": ["more stable", "stabler", "stable", "most stable"],
+      "answerIndex": 0,
+      "explanation": "Para 'stable' solemos usar 'more stable' (más estable)."
+    },
+    {
+      "id": "adm-a2-w19-ex13",
+      "type": "wordOrdering",
+      "prompt": "Order the words: than / riskier / Stocks / are / bonds",
+      "sentence": "Stocks are riskier than bonds",
+      "explanation": "Las acciones son más arriesgadas que los bonos."
+    },
+    {
+      "id": "adm-a2-w19-ex14",
+      "type": "multipleChoice",
+      "prompt": "A ________ is the money you make after costs.",
+      "options": ["profit", "loss", "tax", "debt"],
+      "answerIndex": 0,
+      "explanation": "Un beneficio o ganancia es un 'profit'."
+    },
+    {
+      "id": "adm-a2-w19-ex15",
+      "type": "fillInTheBlank",
+      "prompt": "This year's profit is ________ (high) than last year's.",
+      "answer": "higher",
+      "explanation": "El comparativo de 'high' es 'higher' (más alto)."
+    },
+    {
+      "id": "adm-a2-w19-ex16",
+      "type": "multipleChoice",
+      "prompt": "When you ________ money, you hope it grows over time.",
+      "options": ["invest", "waste", "lose", "borrow"],
+      "answerIndex": 0,
+      "explanation": "Invertir (invest) es esperar que el dinero crezca."
+    },
+    {
+      "id": "adm-a2-w19-ex17",
+      "type": "wordOrdering",
+      "prompt": "Order the words: better / Profit / is / loss / than",
+      "sentence": "Profit is better than loss",
+      "explanation": "La ganancia es mejor que la pérdida."
+    },
+    {
+      "id": "adm-a2-w19-ex18",
+      "type": "multipleChoice",
+      "prompt": "Diversifying means having ________ types of investments.",
+      "options": ["different", "same", "one", "zero"],
+      "answerIndex": 0,
+      "explanation": "Diversificar significa tener diferentes (different) tipos de inversiones."
+    },
+    {
+      "id": "adm-a2-w19-ex19",
+      "type": "fillInTheBlank",
+      "prompt": "Is the stock market ________ (bad) than last month?",
+      "answer": "worse",
+      "explanation": "El comparativo irregular de 'bad' es 'worse' (peor)."
+    },
+    {
+      "id": "adm-a2-w19-ex20",
+      "type": "multipleChoice",
+      "prompt": "High risk often means ________ potential profit.",
+      "options": ["higher", "lower", "same", "zero"],
+      "answerIndex": 0,
+      "explanation": "A mayor riesgo, mayor (higher) beneficio potencial."
+    },
+    {
+      "id": "adm-a2-w19-ex21",
+      "type": "wordOrdering",
+      "prompt": "Order the words: higher / The / is / ROI / now",
+      "sentence": "The ROI is higher now",
+      "explanation": "El retorno de la inversión es más alto ahora."
+    },
+    {
+      "id": "adm-a2-w19-ex22",
+      "type": "fillInTheBlank",
+      "prompt": "Savings are ________ (slow) than stocks to grow.",
+      "answer": "slower",
+      "explanation": "El comparativo de 'slow' es 'slower' (más lento)."
+    },
+    {
+      "id": "adm-a2-w19-ex23",
+      "type": "multipleChoice",
+      "prompt": "People who invest are called ________.",
+      "options": ["investors", "managers", "employees", "sellers"],
+      "answerIndex": 0,
+      "explanation": "Las personas que invierten son 'investors' (inversores)."
+    },
+    {
+      "id": "adm-a2-w19-ex24",
+      "type": "fillInTheBlank",
+      "prompt": "Real estate is ________ (profitable) than many bonds.",
+      "answer": "more profitable",
+      "explanation": "Para adjetivos largos, usamos 'more' + adjetivo."
+    },
+    {
+      "id": "adm-a2-w19-ex25",
+      "type": "multipleChoice",
+      "prompt": "A ________ market is when stock prices are going down.",
+      "options": ["bear", "bull", "lion", "tiger"],
+      "answerIndex": 0,
+      "explanation": "Un 'bear market' es cuando los precios de la bolsa bajan (mercado bajista)."
+    },
+    {
+      "id": "adm-a2-w19-ex26",
+      "type": "multipleChoice",
+      "prompt": "A ________ market is when stock prices are going up.",
+      "options": ["bull", "bear", "bird", "fish"],
+      "answerIndex": 0,
+      "explanation": "Un 'bull market' es cuando los precios suben (mercado alcista)."
+    },
+    {
+      "id": "adm-a2-w19-ex27",
+      "type": "fillInTheBlank",
+      "prompt": "This portfolio is ________ (diverse) than the other.",
+      "answer": "more diverse",
+      "explanation": "Usamos 'more' para comparar con el adjetivo 'diverse'."
+    },
+    {
+      "id": "adm-a2-w19-ex28",
+      "type": "wordOrdering",
+      "prompt": "Order the words: low / High / risk / is / than / better",
+      "sentence": "Low risk is better than high risk",
+      "explanation": "El bajo riesgo es mejor que el alto riesgo."
+    },
+    {
+      "id": "adm-a2-w19-ex29",
+      "type": "multipleChoice",
+      "prompt": "What is 'share' in the context of the stock market?",
+      "options": ["Acción", "Compartir", "Dividir", "Regalo"],
+      "answerIndex": 0,
+      "explanation": "En finanzas, una 'share' es una acción de una empresa."
+    },
+    {
+      "id": "adm-a2-w19-ex30",
+      "type": "fillInTheBlank",
+      "prompt": "Is investing ________ (difficult) than saving?",
+      "answer": "more difficult",
+      "explanation": "Adjetivo largo: usamos 'more difficult' (más difícil)."
+    },
+    {
+      "id": "adm-a2-w19-ex31",
+      "type": "multipleChoice",
+      "prompt": "To minimize risk, you should not put all your ________ in one basket.",
+      "options": ["eggs", "money", "shares", "bonds"],
+      "answerIndex": 0,
+      "explanation": "Expresión común: 'Don't put all your eggs in one basket' (no te lo juegues todo a una carta)."
+    },
+    {
+      "id": "adm-a2-w19-ex32",
+      "type": "fillInTheBlank",
+      "prompt": "New York's market is ________ (big) than Madrid's.",
+      "answer": "bigger",
+      "explanation": "Adjetivo corto CVC: duplicamos la última consonante y añadimos -er."
+    },
+    {
+      "id": "adm-a2-w19-ex33",
+      "type": "wordOrdering",
+      "prompt": "Order the words: important / Risk / is / analysis / very",
+      "sentence": "Risk analysis is very important",
+      "explanation": "El análisis de riesgo es muy importante."
+    },
+    {
+      "id": "adm-a2-w19-ex34",
+      "type": "multipleChoice",
+      "prompt": "If an investment is ________, it gives you a lot of money back.",
+      "options": ["profitable", "poor", "small", "quick"],
+      "answerIndex": 0,
+      "explanation": "'Profitable' significa que da beneficios o es rentable."
+    },
+    {
+      "id": "adm-a2-w19-ex35",
+      "type": "fillInTheBlank",
+      "prompt": "The interest rate is ________ (low) than yesterday.",
+      "answer": "lower",
+      "explanation": "El comparativo de 'low' es 'lower' (más bajo)."
+    },
+    {
+      "id": "adm-a2-w19-ex36",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a debt security where you lend money to an organization.",
+      "options": ["bond", "share", "stock", "cash"],
+      "answerIndex": 0,
+      "explanation": "Un 'bond' (bono) es un título de deuda."
+    },
+    {
+      "id": "adm-a2-w19-ex37",
+      "type": "wordOrdering",
+      "prompt": "Order the words: than / more / gold / Silver / is / cheap",
+      "sentence": "Silver is cheaper than gold",
+      "explanation": "La plata es más barata que el oro."
+    },
+    {
+      "id": "adm-a2-w19-ex38",
+      "type": "fillInTheBlank",
+      "prompt": "This broker is ________ (fast) than the previous one.",
+      "answer": "faster",
+      "explanation": "El comparativo de 'fast' es 'faster' (más rápido)."
+    },
+    {
+      "id": "adm-a2-w19-ex39",
+      "type": "multipleChoice",
+      "prompt": "What is 'loss' in Spanish?",
+      "options": ["Pérdida", "Ganancia", "Préstamo", "Sueldo"],
+      "answerIndex": 0,
+      "explanation": "'Loss' significa pérdida en el contexto económico."
+    },
+    {
+      "id": "adm-a2-w19-ex40",
+      "type": "fillInTheBlank",
+      "prompt": "Investing for the long term is ________ (wise) than for the short term.",
+      "answer": "wiser",
+      "explanation": "El comparativo de 'wise' (sabio/prudente) es 'wiser'."
+    },
+    {
+      "id": "adm-a2-w19-ex41",
+      "type": "multipleChoice",
+      "prompt": "We need to analyze the potential ________ of this project.",
+      "options": ["profit", "office", "desk", "paper"],
+      "answerIndex": 0,
+      "explanation": "Necesitamos analizar el beneficio (profit) potencial."
+    },
+    {
+      "id": "adm-a2-w19-ex42",
+      "type": "wordOrdering",
+      "prompt": "Order the words: than / more / risky / stocks / Bonds / are / less",
+      "sentence": "Bonds are less risky than stocks",
+      "explanation": "Los bonos son menos arriesgados que las acciones."
+    },
+    {
+      "id": "adm-a2-w19-ex43",
+      "type": "fillInTheBlank",
+      "prompt": "Is the dollar ________ (strong) than the euro today?",
+      "answer": "stronger",
+      "explanation": "El comparativo de 'strong' es 'stronger' (más fuerte)."
+    },
+    {
+      "id": "adm-a2-w19-ex44",
+      "type": "multipleChoice",
+      "prompt": "The opposite of 'profit' is ________.",
+      "options": ["loss", "gain", "bonus", "salary"],
+      "answerIndex": 0,
+      "explanation": "Lo opuesto a beneficio es pérdida (loss)."
+    },
+    {
+      "id": "adm-a2-w19-ex45",
+      "type": "fillInTheBlank",
+      "prompt": "My new strategy is ________ (effective) than the old one.",
+      "answer": "more effective",
+      "explanation": "Adjetivo largo: 'more effective' (más eficaz)."
+    },
+    {
+      "id": "adm-a2-w19-ex46",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a collection of investments.",
+      "options": ["portfolio", "purse", "pocket", "paper"],
+      "answerIndex": 0,
+      "explanation": "Un 'portfolio' (cartera) es el conjunto de inversiones."
+    },
+    {
+      "id": "adm-a2-w19-ex47",
+      "type": "wordOrdering",
+      "prompt": "Order the words: check / You / should / ROI / the",
+      "sentence": "You should check the ROI",
+      "explanation": "Deberías comprobar el retorno de la inversión."
+    },
+    {
+      "id": "adm-a2-w19-ex48",
+      "type": "fillInTheBlank",
+      "prompt": "This option is ________ (cheap) than that one.",
+      "answer": "cheaper",
+      "explanation": "El comparativo de 'cheap' es 'cheaper'."
+    },
+    {
+      "id": "adm-a2-w19-ex49",
+      "type": "multipleChoice",
+      "prompt": "What is 'stock market' in Spanish?",
+      "options": ["Bolsa de valores", "Tienda de ropa", "Supermercado", "Banco"],
+      "answerIndex": 0,
+      "explanation": "'Stock market' es la bolsa o mercado de valores."
+    },
+    {
+      "id": "adm-a2-w19-ex50",
+      "type": "fillInTheBlank",
+      "prompt": "Is technology ________ (interesting) than real estate?",
+      "answer": "more interesting",
+      "explanation": "Adjetivo largo: 'more interesting' (más interesante)."
+    },
+    {
+      "id": "adm-a2-w19-ex51",
+      "type": "multipleChoice",
+      "prompt": "The ________ price changed dramatically today.",
+      "options": ["stock", "stable", "stick", "stack"],
+      "answerIndex": 0,
+      "explanation": "El precio de la acción (stock price) cambió hoy."
+    },
+    {
+      "id": "adm-a2-w19-ex52",
+      "type": "multipleChoice",
+      "prompt": "To get a high ________, you often need to take a risk.",
+      "options": ["return", "reset", "retail", "refuse"],
+      "answerIndex": 0,
+      "explanation": "Un alto retorno (return) suele requerir riesgo."
+    },
+    {
+      "id": "adm-a2-w19-ex53",
+      "type": "fillInTheBlank",
+      "prompt": "Inflation is ________ (high) this year than last year.",
+      "answer": "higher",
+      "explanation": "La inflación es más alta (higher) este año."
+    },
+    {
+      "id": "adm-a2-w19-ex54",
+      "type": "fillInTheBlank",
+      "prompt": "Cryptocurrencies are ________ (unstable) than gold.",
+      "answer": "more unstable",
+      "explanation": "Usamos 'more' para comparar con 'unstable'."
+    },
+    {
+      "id": "adm-a2-w19-ex55",
+      "type": "wordOrdering",
+      "prompt": "Order the words: diversify / You / should / portfolio / your",
+      "sentence": "You should diversify your portfolio",
+      "explanation": "Deberías diversificar tu cartera."
+    },
+    {
+      "id": "adm-a2-w19-ex56",
+      "type": "multipleChoice",
+      "prompt": "A ________ is when a company pays part of its profit to shareholders.",
+      "options": ["dividend", "debt", "deduction", "discount"],
+      "answerIndex": 0,
+      "explanation": "Un 'dividend' (dividendo) es el reparto de beneficios."
+    },
+    {
+      "id": "adm-a2-w19-ex57",
+      "type": "multipleChoice",
+      "prompt": "You should check the ________ of your investment regularly.",
+      "options": ["performance", "perfection", "permission", "personality"],
+      "answerIndex": 0,
+      "explanation": "Debes revisar el rendimiento (performance) de tu inversión."
+    },
+    {
+      "id": "adm-a2-w19-ex58",
+      "type": "fillInTheBlank",
+      "prompt": "This fund is ________ (popular) than the other one.",
+      "answer": "more popular",
+      "explanation": "Adjetivo largo: 'more popular' (más popular)."
+    },
+    {
+      "id": "adm-a2-w19-ex59",
+      "type": "fillInTheBlank",
+      "prompt": "The market is ________ (busy) in the morning than in the evening.",
+      "answer": "busier",
+      "explanation": "Adjetivo que termina en 'y': cambiamos 'y' por 'i' + er."
+    },
+    {
+      "id": "adm-a2-w19-ex60",
+      "type": "wordOrdering",
+      "prompt": "Order the words: long-term / is / Investing / a / strategy",
+      "sentence": "Investing is a long-term strategy",
+      "explanation": "Invertir es una estrategia a largo plazo."
+    },
+    {
+      "id": "adm-a2-w19-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is 'dividend' in Spanish?",
+      "options": ["Dividendo", "Deuda", "Descuento", "Dinero"],
+      "answerIndex": 0,
+      "explanation": "'Dividend' significa dividendo en finanzas."
+    },
+    {
+      "id": "adm-a2-w19-ex62",
+      "type": "multipleChoice",
+      "prompt": "A ________ is a market participant who buys and sells for others.",
+      "options": ["broker", "baker", "boxer", "butcher"],
+      "answerIndex": 0,
+      "explanation": "Un 'broker' (corredor) opera por cuenta de otros."
+    },
+    {
+      "id": "adm-a2-w19-ex63",
+      "type": "fillInTheBlank",
+      "prompt": "Is gold ________ (useful) than cash?",
+      "answer": "more useful",
+      "explanation": "Adjetivo largo: 'more useful' (más útil)."
+    },
+    {
+      "id": "adm-a2-w19-ex64",
+      "type": "fillInTheBlank",
+      "prompt": "The risk is ________ (small) if you diversify.",
+      "answer": "smaller",
+      "explanation": "El riesgo es más pequeño (smaller) si diversificas."
+    },
+    {
+      "id": "adm-a2-w19-ex65",
+      "type": "wordOrdering",
+      "prompt": "Order the words: your / money / Don't / lose",
+      "sentence": "Don't lose your money",
+      "explanation": "No pierdas tu dinero."
+    },
+    {
+      "id": "adm-a2-w19-ex66",
+      "type": "multipleChoice",
+      "prompt": "When the value ________, you make a profit.",
+      "options": ["increases", "decreases", "stops", "falls"],
+      "answerIndex": 0,
+      "explanation": "Cuando el valor aumenta (increases), obtienes beneficio."
+    },
+    {
+      "id": "adm-a2-w19-ex67",
+      "type": "multipleChoice",
+      "prompt": "When the value ________, you have a loss.",
+      "options": ["decreases", "rises", "grows", "climbs"],
+      "answerIndex": 0,
+      "explanation": "Cuando el valor decrece (decreases), tienes una pérdida."
+    },
+    {
+      "id": "adm-a2-w19-ex68",
+      "type": "fillInTheBlank",
+      "prompt": "Online banking is ________ (convenient) than visiting the office.",
+      "answer": "more convenient",
+      "explanation": "Adjetivo largo: 'more convenient' (más conveniente)."
+    },
+    {
+      "id": "adm-a2-w19-ex69",
+      "type": "fillInTheBlank",
+      "prompt": "Is the market ________ (active) today?",
+      "answer": "active",
+      "explanation": "Aquí no se pide comparativo, solo el adjetivo."
+    },
+    {
+      "id": "adm-a2-w19-ex70",
+      "type": "wordOrdering",
+      "prompt": "Order the words: market / The / is / volatile / today",
+      "sentence": "The market is volatile today",
+      "explanation": "El mercado está volátil hoy."
+    },
+    {
+      "id": "adm-a2-w19-ex71",
+      "type": "multipleChoice",
+      "prompt": "A ________ investment is easy to convert into cash.",
+      "options": ["liquid", "solid", "gas", "hard"],
+      "answerIndex": 0,
+      "explanation": "Una inversión 'liquid' (líquida) se convierte fácil en efectivo."
+    },
+    {
+      "id": "adm-a2-w19-ex72",
+      "type": "multipleChoice",
+      "prompt": "What is 'ROI' related to?",
+      "options": ["Profitability", "Security", "Taxation", "Location"],
+      "answerIndex": 0,
+      "explanation": "El ROI está relacionado con la rentabilidad (profitability)."
+    },
+    {
+      "id": "adm-a2-w19-ex73",
+      "type": "matching",
+      "prompt": "Match the animal terms with their meanings:",
+      "pairs": [
+        { "left": "Bull Market", "right": "Prices are rising" },
+        { "left": "Bear Market", "right": "Prices are falling" },
+        { "left": "Chicken", "right": "Investor afraid of risk" },
+        { "left": "Whale", "right": "Very large investor" }
+      ],
+      "explanation": "Jerga común en los mercados financieros."
+    },
+    {
+      "id": "adm-a2-w19-ex74",
+      "type": "fillInTheBlank",
+      "prompt": "This report is ________ (accurate) than the last one.",
+      "answer": "more accurate",
+      "explanation": "Adjetivo largo: 'more accurate' (más preciso)."
+    },
+    {
+      "id": "adm-a2-w19-ex75",
+      "type": "multipleChoice",
+      "prompt": "We need to set a long-term ________.",
+      "options": ["goal", "goat", "gold", "golf"],
+      "answerIndex": 0,
+      "explanation": "Necesitamos establecer una meta (goal) a largo plazo."
+    }
+  ]
+}

@@ -20,6 +20,26 @@
       "id": "professional-phrasing",
       "title": "Professional Phrasing for Change Proposals",
       "content": "- \"We are proposing to **streamline** our administrative workflows.\"\n- \"To ensure **buy-in**, we will hold a series of workshops.\"\n- \"The current system is reaching a **bottleneck**, necessitating a **pivot** in our strategy.\"\n- \"We anticipate some **initial resistance**, which we will address through training.\"\n- \"During the **UAT phase**, we identified several key areas for **incremental** improvement.\"\n- \"Replacing the **legacy system** is a **disruptive** but necessary step for our growth.\""
+    },
+    {
+      "id": "stakeholder-expectations",
+      "title": "Managing Stakeholder Expectations",
+      "content": "Stakeholders are individuals or groups with an interest in the outcome of a project. Managing their expectations is critical to avoiding friction during transitions.\n\n### Stakeholder Management Strategies\n- **Proactive Communication**: Providing updates before stakeholders ask for them.\n- **Feedback Loops**: Creating channels (surveys, meetings) for stakeholders to voice concerns.\n- **Setting Realistic Milestones**: Avoiding over-promising on delivery dates or system capabilities.\n- **Impact Analysis**: Clearly explaining how the change will affect different departments.\n\n### Useful Vocabulary\n- **Stakeholder**: Anyone affected by the change (employees, clients, shareholders).\n- **Alignment**: Ensuring all parties have the same goals and understanding.\n- **Friction**: Conflict or resistance arising from differing opinions or lack of information.\n- **Milestone**: A significant stage or event in the development of something."
+    },
+    {
+      "id": "ai-automation-integration",
+      "title": "Technological Integration: AI & Automation",
+      "content": "Modern administrative innovation often involves integrating Artificial Intelligence (AI) and Robotic Process Automation (RPA) to handle repetitive tasks.\n\n### Automation in the Office\n- **Data Entry**: Automating the transfer of information between spreadsheets and databases.\n- **Scheduling**: Using AI assistants to coordinate meetings across multiple calendars.\n- **Predictive Analytics**: Using historical data to forecast future bottlenecks.\n\n### Implementation Challenges\n- **Up-skilling**: Training staff to work alongside new technologies rather than feeling replaced by them.\n- **Data Integrity**: Ensuring that automated systems are working with accurate, clean data.\n- **Ethical Considerations**: Transparency regarding how AI makes decisions or handles sensitive employee data."
+    },
+    {
+      "id": "roleplay-migration-debrief",
+      "title": "RolePlay: The Migration Debrief",
+      "content": "In this scenario, you are the Lead Administrator debriefing the executive team after a major software migration.\n\n### The Situation\nThe transition to the cloud-based HR system is complete. UAT was successful, but there was a minor bottleneck during the data migration phase. One department resisted the change initially but has now achieved a 'short-term win'.\n\n### Key Phrases for the Debrief\n- \"Looking back, we **must have underestimated** the time required for data cleaning.\"\n- \"We **should have engaged** the Finance department earlier to ensure full alignment.\"\n- \"Despite initial friction, we have successfully **anchored** the new workflow.\"\n- \"Our focus now is on **upscaling** the automation features to further streamline reporting.\""
+    },
+    {
+      "id": "weekly-deliverable",
+      "title": "Weekly Deliverable: Change Proposal Report",
+      "content": "Your task this week is to draft a formal **Change Proposal Report** for an administrative process of your choice (e.g., travel bookings, expense claims, or document filing).\n\n### Report Structure\n1. **Executive Summary**: A high-level overview of the proposed change.\n2. **Current State Analysis**: Identifying the 'bottlenecks' and 'legacy' issues.\n3. **Proposed Solution**: Describing the 'pivot' and 'innovation' type (incremental/disruptive).\n4. **Implementation Roadmap**: Outlining the 8 steps (Kotter’s Model) including 'UAT' and 'Anchoring'.\n5. **Expected Outcomes**: Quantifiable benefits (e.g., '30% reduction in processing time')."
     }
   ],
   "objectives": [

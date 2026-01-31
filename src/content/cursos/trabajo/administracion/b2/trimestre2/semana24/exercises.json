@@ -124,6 +124,486 @@
       "options": ["audit", "strategic", "lead", "logistics"],
       "answerIndex": 0,
       "explanation": "An audit trail is a chronological record of changes."
+    },
+    {
+      "id": "adm-b2-w24-16",
+      "type": "multipleChoice",
+      "prompt": "We need to distinguish between ________ (day-to-day costs) and CAPEX (capital investments) in the Q3 report.",
+      "options": ["OPEX", "ROI", "BOD", "VAT"],
+      "answerIndex": 0,
+      "explanation": "OPEX stands for Operational Expenditure."
+    },
+    {
+      "id": "adm-b2-w24-17",
+      "type": "multipleChoice",
+      "prompt": "The server crash proved that our ________ was robust enough to maintain operations.",
+      "options": ["BCP", "KPI", "GDPR", "CSR"],
+      "answerIndex": 0,
+      "explanation": "BCP (Business Continuity Plan) ensures operations continue during a disaster."
+    },
+    {
+      "id": "adm-b2-w24-18",
+      "type": "multipleChoice",
+      "prompt": "By adopting a ________ philosophy, the team identifies small improvements every day.",
+      "options": ["Kaizen", "Silo", "Tariff", "Nominal"],
+      "answerIndex": 0,
+      "explanation": "Kaizen is a Japanese philosophy of continuous improvement."
+    },
+    {
+      "id": "adm-b2-w24-19",
+      "type": "multipleChoice",
+      "prompt": "The ________ cycle begins with identifying a need and ends with the final payment to the supplier.",
+      "options": ["procurement", "onboarding", "retention", "compliance"],
+      "answerIndex": 0,
+      "explanation": "Procurement is the process of acquiring goods or services."
+    },
+    {
+      "id": "adm-b2-w24-20",
+      "type": "multipleChoice",
+      "prompt": "If a vendor fails to meet the ________, they may face financial penalties.",
+      "options": ["SLA", "PESTLE", "SWOT", "CSR"],
+      "answerIndex": 0,
+      "explanation": "SLA (Service Level Agreement) defines the level of service expected."
+    },
+    {
+      "id": "adm-b2-w24-21",
+      "type": "multipleChoice",
+      "prompt": "It ________ that the company will reach its revenue targets by the end of the year.",
+      "options": ["is anticipated", "anticipates", "has anticipated", "was anticipating"],
+      "answerIndex": 0,
+      "explanation": "Reporting passive 'It is anticipated that...' for formal objectivity."
+    },
+    {
+      "id": "adm-b2-w24-22",
+      "type": "multipleChoice",
+      "prompt": "If we ________ the budget earlier, we would have more liquidity today.",
+      "options": ["had approved", "approved", "would approve", "approve"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: past action (had approved) with present result (would have)."
+    },
+    {
+      "id": "adm-b2-w24-23",
+      "type": "multipleChoice",
+      "prompt": "Seldom ________ such a detailed audit of our logistics chain.",
+      "options": ["have we seen", "we have seen", "did we see", "we saw"],
+      "answerIndex": 0,
+      "explanation": "Inversion with the negative adverb 'Seldom'."
+    },
+    {
+      "id": "adm-b2-w24-24",
+      "type": "multipleChoice",
+      "prompt": "Under ________ terms, the seller is responsible for delivering the goods to the buyer's premises, including duties.",
+      "options": ["DDP", "EXW", "FOB", "CIF"],
+      "answerIndex": 0,
+      "explanation": "DDP (Delivered Duty Paid) places maximum obligation on the seller."
+    },
+    {
+      "id": "adm-b2-w24-25",
+      "type": "multipleChoice",
+      "prompt": "Quality ________ focuses on preventing defects, while Quality Control focuses on identifying them.",
+      "options": ["Assurance", "Nominalization", "Litigation", "Arbitration"],
+      "answerIndex": 0,
+      "explanation": "Quality Assurance (QA) is proactive process-oriented."
+    },
+    {
+      "id": "adm-b2-w24-26",
+      "type": "multipleChoice",
+      "prompt": "The factory uses a ________ inventory system to minimize storage costs.",
+      "options": ["just-in-time", "lead-time", "silo", "redundant"],
+      "answerIndex": 0,
+      "explanation": "Just-in-time (JIT) minimizes inventory by receiving goods only as needed."
+    },
+    {
+      "id": "adm-b2-w24-27",
+      "type": "multipleChoice",
+      "prompt": "Accurate demand ________ is essential for effective resource allocation.",
+      "options": ["forecasting", "onboarding", "headhunting", "whistleblowing"],
+      "answerIndex": 0,
+      "explanation": "Forecasting predicts future demand."
+    },
+    {
+      "id": "adm-b2-w24-28",
+      "type": "multipleChoice",
+      "prompt": "The risk ________ strategy includes diversifying our supplier base.",
+      "options": ["mitigation", "elimination", "nominalization", "litigation"],
+      "answerIndex": 0,
+      "explanation": "Mitigation reduces the severity or impact of a risk."
+    },
+    {
+      "id": "adm-b2-w24-29",
+      "type": "multipleChoice",
+      "prompt": "Logistics ________ at the border caused a significant delay in the supply chain.",
+      "options": ["bottlenecks", "milestones", "roadmaps", "pipelines"],
+      "answerIndex": 0,
+      "explanation": "A bottleneck is a point of congestion that slows down a process."
+    },
+    {
+      "id": "adm-b2-w24-30",
+      "type": "multipleChoice",
+      "prompt": "Building supply chain ________ is crucial for surviving global disruptions.",
+      "options": ["resilience", "fragility", "nominalization", "arbitration"],
+      "answerIndex": 0,
+      "explanation": "Resilience is the ability to recover quickly from difficulties."
+    },
+    {
+      "id": "adm-b2-w24-31",
+      "type": "multipleChoice",
+      "prompt": "The new hire's ________ lasted two weeks and covered all administrative protocols.",
+      "options": ["onboarding", "offboarding", "headhunting", "appraisal"],
+      "answerIndex": 0,
+      "explanation": "Onboarding is the process of integrating new employees."
+    },
+    {
+      "id": "adm-b2-w24-32",
+      "type": "multipleChoice",
+      "prompt": "A ________ feedback system includes input from peers, subordinates, and managers.",
+      "options": ["360-degree", "top-down", "bottom-up", "siloed"],
+      "answerIndex": 0,
+      "explanation": "360-degree feedback provides a comprehensive view of performance."
+    },
+    {
+      "id": "adm-b2-w24-33",
+      "type": "multipleChoice",
+      "prompt": "High employee ________ is often a sign of poor management or low morale.",
+      "options": ["turnover", "retention", "onboarding", "engagement"],
+      "answerIndex": 0,
+      "explanation": "Turnover refers to the rate at which employees leave a company."
+    },
+    {
+      "id": "adm-b2-w24-34",
+      "type": "multipleChoice",
+      "prompt": "The IT department is conducting ________ training to prevent phishing attacks.",
+      "options": ["cybersecurity", "GDPR", "CSR", "BCP"],
+      "answerIndex": 0,
+      "explanation": "Cybersecurity training helps protect company data from digital threats."
+    },
+    {
+      "id": "adm-b2-w24-35",
+      "type": "multipleChoice",
+      "prompt": "Failure to comply with ________ regulations can result in massive fines for data breaches.",
+      "options": ["GDPR", "KPI", "SLA", "BOD"],
+      "answerIndex": 0,
+      "explanation": "GDPR (General Data Protection Regulation) governs data privacy in the EU."
+    },
+    {
+      "id": "adm-b2-w24-36",
+      "type": "multipleChoice",
+      "prompt": "Migrating to the ________ allowed us to access data from any location.",
+      "options": ["cloud", "silo", "firewall", "mainframe"],
+      "answerIndex": 0,
+      "explanation": "Cloud computing provides on-demand access to shared resources over the internet."
+    },
+    {
+      "id": "adm-b2-w24-37",
+      "type": "multipleChoice",
+      "prompt": "Digital ________ requires a mindset shift across the entire organization.",
+      "options": ["culture", "litigation", "arbitration", "nominalization"],
+      "answerIndex": 0,
+      "explanation": "Digital culture is the set of values and behaviors that support digital transformation."
+    },
+    {
+      "id": "adm-b2-w24-38",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the annual bonus was a difficult decision for the HR director.",
+      "options": ["cancellation", "cancelling", "cancel", "cancelled"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of the verb 'cancel'."
+    },
+    {
+      "id": "adm-b2-w24-39",
+      "type": "multipleChoice",
+      "prompt": "The manager wishes she ________ more time on the recruitment process last month.",
+      "options": ["had spent", "spent", "would spend", "spends"],
+      "answerIndex": 0,
+      "explanation": "Wish about a past situation uses the past perfect (had + past participle)."
+    },
+    {
+      "id": "adm-b2-w24-40",
+      "type": "multipleChoice",
+      "prompt": "Implementing ________ in administration can automate repetitive tasks like data entry.",
+      "options": ["AI", "CSR", "BCP", "KPI"],
+      "answerIndex": 0,
+      "explanation": "Artificial Intelligence (AI) can improve efficiency through automation."
+    },
+    {
+      "id": "adm-b2-w24-41",
+      "type": "multipleChoice",
+      "prompt": "We hired a ________ firm to find a candidate for the Chief Technology Officer position.",
+      "options": ["headhunting", "whistleblowing", "procurement", "litigation"],
+      "answerIndex": 0,
+      "explanation": "Headhunting is the practice of recruiting top talent from other companies."
+    },
+    {
+      "id": "adm-b2-w24-42",
+      "type": "multipleChoice",
+      "prompt": "The new ________ policy allows employees to work from home three days a week.",
+      "options": ["remote work", "onboarding", "offboarding", "appraisal"],
+      "answerIndex": 0,
+      "explanation": "Remote work policies define the rules for working outside the office."
+    },
+    {
+      "id": "adm-b2-w24-43",
+      "type": "multipleChoice",
+      "prompt": "To keep up with digital trends, the company invested in employee ________ programs.",
+      "options": ["upskilling", "downsizing", "onboarding", "litigation"],
+      "answerIndex": 0,
+      "explanation": "Upskilling involves teaching employees new skills."
+    },
+    {
+      "id": "adm-b2-w24-44",
+      "type": "multipleChoice",
+      "prompt": "According to Kotter, creating a sense of ________ is the first step in change management.",
+      "options": ["urgency", "complacency", "nominalization", "arbitration"],
+      "answerIndex": 0,
+      "explanation": "Kotter's 8-step model starts with creating a sense of urgency."
+    },
+    {
+      "id": "adm-b2-w24-45",
+      "type": "multipleChoice",
+      "prompt": "________ you have any questions regarding the new remote work policy, please contact HR.",
+      "options": ["Were", "Should", "Had", "Would"],
+      "answerIndex": 1,
+      "explanation": "Inverted Type 1 conditional (Should you have...) for formal guidance."
+    },
+    {
+      "id": "adm-b2-w24-46",
+      "type": "multipleChoice",
+      "prompt": "High ________ on imported steel have increased our manufacturing costs.",
+      "options": ["tariffs", "subsidies", "quotas", "Incoterms"],
+      "answerIndex": 0,
+      "explanation": "Tariffs are taxes imposed on imported goods."
+    },
+    {
+      "id": "adm-b2-w24-47",
+      "type": "multipleChoice",
+      "prompt": "Expanding into ________ markets like Vietnam and Brazil offers high growth potential.",
+      "options": ["emerging", "saturated", "stagnant", "recessive"],
+      "answerIndex": 0,
+      "explanation": "Emerging markets are economies in the process of rapid growth."
+    },
+    {
+      "id": "adm-b2-w24-48",
+      "type": "multipleChoice",
+      "prompt": "Our ________ initiatives include reducing carbon emissions and supporting local charities.",
+      "options": ["CSR", "BCP", "GDPR", "KPI"],
+      "answerIndex": 0,
+      "explanation": "CSR (Corporate Social Responsibility) focuses on a company's social and environmental impact."
+    },
+    {
+      "id": "adm-b2-w24-49",
+      "type": "multipleChoice",
+      "prompt": "The ________ focuses on social, environmental, and financial performance.",
+      "options": ["triple bottom line", "P&L statement", "balance sheet", "audit trail"],
+      "answerIndex": 0,
+      "explanation": "The triple bottom line measures People, Planet, and Profit."
+    },
+    {
+      "id": "adm-b2-w24-50",
+      "type": "multipleChoice",
+      "prompt": "A breach of ________ can lead to severe legal consequences for the employee.",
+      "options": ["contract", "onboarding", "appraisal", "nominalization"],
+      "answerIndex": 0,
+      "explanation": "A breach of contract is a failure to fulfill the terms of a legal agreement."
+    },
+    {
+      "id": "adm-b2-w24-51",
+      "type": "multipleChoice",
+      "prompt": "We must protect our ________ Property, including patents, trademarks, and copyrights.",
+      "options": ["Intellectual", "Tangible", "Liquid", "Fixed"],
+      "answerIndex": 0,
+      "explanation": "Intellectual Property (IP) refers to creations of the mind protected by law."
+    },
+    {
+      "id": "adm-b2-w24-52",
+      "type": "multipleChoice",
+      "prompt": "The legal team is performing ________ on the target company before the merger.",
+      "options": ["due diligence", "litigation", "arbitration", "nominalization"],
+      "answerIndex": 0,
+      "explanation": "Due diligence is the comprehensive appraisal of a business."
+    },
+    {
+      "id": "adm-b2-w24-53",
+      "type": "multipleChoice",
+      "prompt": "The parties agreed to ________ to settle the dispute outside of court.",
+      "options": ["arbitration", "litigation", "whistleblowing", "headhunting"],
+      "answerIndex": 0,
+      "explanation": "Arbitration is a private process for settling disputes."
+    },
+    {
+      "id": "adm-b2-w24-54",
+      "type": "multipleChoice",
+      "prompt": "________ the economic downturn, the company managed to increase its market share.",
+      "options": ["Notwithstanding", "Albeit", "Much as", "Even though"],
+      "answerIndex": 0,
+      "explanation": "Notwithstanding means 'in spite of'."
+    },
+    {
+      "id": "adm-b2-w24-55",
+      "type": "multipleChoice",
+      "prompt": "The expansion was successful, ________ slow.",
+      "options": ["albeit", "notwithstanding", "much as", "despite"],
+      "answerIndex": 0,
+      "explanation": "'Albeit' is used to introduce a concession."
+    },
+    {
+      "id": "adm-b2-w24-56",
+      "type": "multipleChoice",
+      "prompt": "________ the union's demands are high, we must find a way to compromise.",
+      "options": ["Much as", "Albeit", "Notwithstanding", "Despite"],
+      "answerIndex": 0,
+      "explanation": "'Much as' is used for strong contrast/concession before a clause."
+    },
+    {
+      "id": "adm-b2-w24-57",
+      "type": "multipleChoice",
+      "prompt": "Only after the investigation was complete ________ the legal notice.",
+      "options": ["did they issue", "they issued", "have they issued", "they had issued"],
+      "answerIndex": 0,
+      "explanation": "Inversion after 'Only after...'."
+    },
+    {
+      "id": "adm-b2-w24-58",
+      "type": "multipleChoice",
+      "prompt": "The Data Protection Officer ensures the company follows all data ________ laws.",
+      "options": ["privacy", "litigation", "arbitration", "procurement"],
+      "answerIndex": 0,
+      "explanation": "Data privacy laws regulate how personal information is handled."
+    },
+    {
+      "id": "adm-b2-w24-59",
+      "type": "multipleChoice",
+      "prompt": "Internal ________ audits are conducted twice a year to ensure regulatory adherence.",
+      "options": ["compliance", "onboarding", "appraisal", "nominalization"],
+      "answerIndex": 0,
+      "explanation": "Compliance audits verify adherence to laws and policies."
+    },
+    {
+      "id": "adm-b2-w24-60",
+      "type": "multipleChoice",
+      "prompt": "Global companies are now required to provide ________ reports alongside financial ones.",
+      "options": ["sustainability", "tariffs", "quotas", "silos"],
+      "answerIndex": 0,
+      "explanation": "Sustainability reports disclose environmental and social performance."
+    },
+    {
+      "id": "adm-b2-w24-61",
+      "type": "multipleChoice",
+      "prompt": "The manager's ________ of the findings was brilliant; she condensed 100 pages into 5.",
+      "options": ["synthesis", "forecasting", "onboarding", "arbitration"],
+      "answerIndex": 0,
+      "explanation": "Synthesis is the combination of ideas to form a theory or system."
+    },
+    {
+      "id": "adm-b2-w24-62",
+      "type": "multipleChoice",
+      "prompt": "The candidate's ________ presence made a strong impression on the board of directors.",
+      "options": ["executive", "nominal", "litigious", "arbitrary"],
+      "answerIndex": 0,
+      "explanation": "Executive presence is the ability to project confidence and command a room."
+    },
+    {
+      "id": "adm-b2-w24-63",
+      "type": "multipleChoice",
+      "prompt": "Using ________ rhetoric can help convince stakeholders to support a controversial project.",
+      "options": ["persuasive", "redundant", "siloed", "complacent"],
+      "answerIndex": 0,
+      "explanation": "Persuasive rhetoric is the art of using language to influence others."
+    },
+    {
+      "id": "adm-b2-w24-64",
+      "type": "multipleChoice",
+      "prompt": "Data ________ tools like Tableau help administrators identify trends quickly.",
+      "options": ["visualisation", "mitigation", "arbitration", "nominalization"],
+      "answerIndex": 0,
+      "explanation": "Data visualization presents complex data in a graphical format."
+    },
+    {
+      "id": "adm-b2-w24-65",
+      "type": "multipleChoice",
+      "prompt": "Achieving ________ alignment is crucial before launching a major organizational change.",
+      "options": ["stakeholder", "tariff", "procurement", "litigation"],
+      "answerIndex": 0,
+      "explanation": "Stakeholder alignment ensures all parties are working toward the same goal."
+    },
+    {
+      "id": "adm-b2-w24-66",
+      "type": "multipleChoice",
+      "prompt": "We used a fishbone diagram for the ________ Analysis to find out why the production line stopped.",
+      "options": ["Root Cause", "PESTLE", "SWOT", "CSR"],
+      "answerIndex": 0,
+      "explanation": "Root Cause Analysis (RCA) identifies the fundamental cause of a problem."
+    },
+    {
+      "id": "adm-b2-w24-67",
+      "type": "multipleChoice",
+      "prompt": "Efficient ________ allocation ensures that the most important projects have enough funding and staff.",
+      "options": ["resource", "tariff", "nominal", "arbitrary"],
+      "answerIndex": 0,
+      "explanation": "Resource allocation is the process of assigning assets to support goals."
+    },
+    {
+      "id": "adm-b2-w24-68",
+      "type": "multipleChoice",
+      "prompt": "The ________ of the new strategy led to a 20% increase in efficiency.",
+      "options": ["adoption", "adopting", "adopt", "adopted"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of the verb 'adopt'."
+    },
+    {
+      "id": "adm-b2-w24-69",
+      "type": "multipleChoice",
+      "prompt": "It ________ that the merger will be finalized by the end of the fiscal year.",
+      "options": ["is understood", "understands", "has understood", "was understanding"],
+      "answerIndex": 0,
+      "explanation": "Reporting passive 'It is understood that...'."
+    },
+    {
+      "id": "adm-b2-w24-70",
+      "type": "multipleChoice",
+      "prompt": "If they ________ the risks earlier, the project wouldn't be failing now.",
+      "options": ["had identified", "identified", "would identify", "identify"],
+      "answerIndex": 0,
+      "explanation": "Mixed conditional: past action (had identified) with present result (wouldn't be)."
+    },
+    {
+      "id": "adm-b2-w24-71",
+      "type": "multipleChoice",
+      "prompt": "The audit ________ identified the error; otherwise, we wouldn't have found it.",
+      "options": ["must have", "can't have", "should have", "might have"],
+      "answerIndex": 0,
+      "explanation": "Modal of deduction (must have) expressing high certainty about a past event."
+    },
+    {
+      "id": "adm-b2-w24-72",
+      "type": "multipleChoice",
+      "prompt": "________ the company to go bankrupt, the creditors would take over its assets.",
+      "options": ["Were", "Should", "Had", "Would"],
+      "answerIndex": 0,
+      "explanation": "Inverted Type 2 conditional (Were the company to...)."
+    },
+    {
+      "id": "adm-b2-w24-73",
+      "type": "multipleChoice",
+      "prompt": "The board requested a formal ________ of the company's environmental impact.",
+      "options": ["assessment", "assessing", "assess", "assessed"],
+      "answerIndex": 0,
+      "explanation": "Nominalization of 'assess'."
+    },
+    {
+      "id": "adm-b2-w24-74",
+      "type": "multipleChoice",
+      "prompt": "________ the high cost of the software, its benefits justify the investment.",
+      "options": ["Despite", "Albeit", "Much as", "Notwithstanding"],
+      "answerIndex": 0,
+      "explanation": "'Despite' followed by a noun phrase for contrast."
+    },
+    {
+      "id": "adm-b2-w24-75",
+      "type": "multipleChoice",
+      "prompt": "The ________ analysis revealed that political instability was the biggest threat to our expansion.",
+      "options": ["PESTLE", "SWOT", "CSR", "BCP"],
+      "answerIndex": 0,
+      "explanation": "PESTLE analysis looks at Political, Economic, Social, Technological, Legal, and Environmental factors."
     }
   ]
 }

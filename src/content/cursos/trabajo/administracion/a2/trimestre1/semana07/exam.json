@@ -1,8 +1,12 @@
 {
+  "goal": "administracion",
+  "level": "A2",
+  "trimester": 1,
+  "weekId": "semana07",
   "title": "Exam: Contactless Payments & Wearable Tech Security",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w07-q01",
       "question": "What does 'NFC' stand for in the context of mobile payments?",
       "options": [
         "National Finance Corporation",
@@ -11,11 +15,11 @@
         "New Financial Contact"
       ],
       "correctAnswer": 1,
-      "explanation": "NFC (Near Field Communication) es la tecnología inalámbrica de corto alcance para pagos."
+      "explanation": "NFC (Near Field Communication) es la tecnología inalámbrica de corto alcance para realizar pagos sin contacto."
     },
     {
-      "id": "q2",
-      "question": "Which sentence correctly uses 'must' for security?",
+      "id": "adm-a2-w07-q02",
+      "question": "Which sentence correctly uses 'must' to express a security obligation?",
       "options": [
         "You must to lock your phone.",
         "You must locking your phone.",
@@ -23,23 +27,23 @@
         "You musts lock your phone."
       ],
       "correctAnswer": 2,
-      "explanation": "Después de 'must', el verbo va en infinitivo sin 'to'."
+      "explanation": "Después del verbo modal 'must', el verbo principal siempre va en infinitivo sin 'to'."
     },
     {
-      "id": "q3",
-      "question": "What is 'Tokenization'?",
+      "id": "adm-a2-w07-q03",
+      "question": "What is 'Tokenization' in digital payments?",
       "options": [
         "Exchanging physical coins for digital ones",
-        "Replacing sensitive card data with a unique identifier",
-        "A type of physical bank vault",
-        "A method of printing plastic cards"
+        "Replacing sensitive card data with a unique identifier or 'token'",
+        "A type of physical bank vault used for gold",
+        "A method of printing plastic credit cards"
       ],
       "correctAnswer": 1,
-      "explanation": "La tokenización protege los datos de la tarjeta reemplazándolos con un código único."
+      "explanation": "La tokenización protege los datos reales de la tarjeta reemplazándolos con un código único durante la transacción."
     },
     {
-      "id": "q4",
-      "question": "Choose the correct prohibition:",
+      "id": "adm-a2-w07-q04",
+      "question": "Choose the correct way to express a prohibition in English:",
       "options": [
         "You mustn't share your digital wallet passcode.",
         "You mustn't to share your digital wallet passcode.",
@@ -47,174 +51,189 @@
         "You don't must share your digital wallet passcode."
       ],
       "correctAnswer": 0,
-      "explanation": "'Mustn't' se usa para prohibiciones seguido del verbo base."
+      "explanation": "'Mustn't' (must not) se utiliza para prohibiciones, seguido del verbo en su forma base."
     },
     {
-      "id": "q5",
-      "question": "What is a 'Digital Wallet'?",
+      "id": "adm-a2-w07-q05",
+      "question": "What is the primary function of a 'Digital Wallet'?",
       "options": [
-        "A physical wallet with a solar panel",
-        "An application that stores payment information on a device",
-        "A website where you buy physical wallets",
-        "A ledger used by traditional accountants"
+        "To charge the phone's battery via solar energy",
+        "To store payment information securely on a mobile device",
+        "To provide physical cash from the phone screen",
+        "To track the physical location of a leather wallet"
       ],
       "correctAnswer": 1,
-      "explanation": "Una billetera digital es una app que guarda info de pago en un dispositivo."
+      "explanation": "Una billetera digital (como Apple Pay o Google Pay) almacena virtualmente tus tarjetas de pago."
     },
     {
-      "id": "q6",
-      "question": "If you see a suspicious device on a payment terminal, you ______ use it.",
+      "id": "adm-a2-w07-q06",
+      "question": "If you see a suspicious device attached to a reader, you ______ use it.",
       "options": ["must", "can", "mustn't", "could"],
       "correctAnswer": 2,
-      "explanation": "No debes (mustn't) usar un terminal sospechoso."
+      "explanation": "Es una prohibición de seguridad: no debes (mustn't) usar terminales que parezcan manipulados."
     },
     {
-      "id": "q7",
-      "question": "What are 'Biometrics' in payment security?",
+      "id": "adm-a2-w07-q07",
+      "question": "Which of these is an example of 'Biometric Authentication'?",
       "options": [
-        "Physical signatures on paper",
-        "Biological data like fingerprints or face scans",
-        "The size and weight of a credit card",
-        "A list of your previous transactions"
+        "Signing a paper receipt with a pen",
+        "Using a fingerprint or face scan to unlock a payment",
+        "Showing a physical ID card to a cashier",
+        "Typing a 4-digit PIN on a keypad"
       ],
       "correctAnswer": 1,
-      "explanation": "La biometría usa datos biológicos como huellas o escaneos faciales."
+      "explanation": "La biometría utiliza rasgos físicos únicos (huella, rostro) para verificar la identidad."
     },
     {
-      "id": "q8",
-      "question": "Which of these is an example of 'Wearable Tech'?",
+      "id": "adm-a2-w07-q08",
+      "question": "Which device is considered 'Wearable Tech'?",
       "options": [
-        "A desktop computer",
-        "A smartwatch with NFC",
-        "A traditional leather wallet",
-        "A physical ATM machine"
+        "A laptop computer",
+        "A smartwatch with NFC capabilities",
+        "A traditional desktop monitor",
+        "A standard office telephone"
       ],
       "correctAnswer": 1,
-      "explanation": "Un smartwatch es un ejemplo de tecnología vestible (wearable tech)."
+      "explanation": "La tecnología vestible (wearable) incluye dispositivos que se llevan puestos, como relojes inteligentes o anillos."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w07-q09",
       "question": "What is 'Skimming'?",
       "options": [
-        "Reading a book very fast",
+        "Reading a book very quickly to find keywords",
         "Illegally capturing data from a card's magnetic stripe",
-        "Sending a digital receipt via email",
-        "Updating the software on your phone"
+        "Transferring money between two digital wallets",
+        "Updating the operating system of a smartphone"
       ],
       "correctAnswer": 1,
-      "explanation": "El skimming es la captura ilegal de datos de la banda magnética de una tarjeta."
+      "explanation": "El skimming es el robo de información de tarjetas mediante dispositivos fraudulentos en lectores físicos."
     },
     {
-      "id": "q10",
-      "question": "Complete the sentence: 'You ______ report a stolen device immediately.'",
+      "id": "adm-a2-w07-q10",
+      "question": "Complete the security rule: 'You ______ report a stolen smartwatch immediately.'",
       "options": ["mustn't", "must", "can't", "won't"],
       "correctAnswer": 1,
-      "explanation": "Es una obligación fuerte reportar un dispositivo robado (must report)."
+      "explanation": "Se usa 'must' para expresar una obligación o regla crítica de seguridad."
     },
     {
-      "id": "q11",
-      "question": "What does 'Tap to Pay' refer to?",
+      "id": "adm-a2-w07-q11",
+      "question": "What does the term 'Tap to Pay' mean?",
       "options": [
-        "Paying with water from a tap",
-        "Contactless payment by touching a device to a reader",
-        "Typing a long password on a keyboard",
-        "Calling the bank to authorize a payment"
+        "Paying for water from a public tap",
+        "Using contactless technology by touching a device to a terminal",
+        "Clicking repeatedly on a website button",
+        "Typing a password very fast on a phone"
       ],
       "correctAnswer": 1,
-      "explanation": "'Tap to Pay' es el pago sin contacto al tocar un lector con el dispositivo."
+      "explanation": "'Tap to Pay' es el acto de pagar acercando o tocando el lector con un dispositivo NFC."
     },
     {
-      "id": "q12",
-      "question": "What is the primary benefit of 'Encryption'?",
+      "id": "adm-a2-w07-q12",
+      "question": "What is the main benefit of 'Data Encryption'?",
       "options": [
-        "It makes the app look more beautiful",
-        "It protects data by converting it into a secret code",
-        "It increases the battery life of the phone",
-        "It allows you to print money at home"
+        "It makes the app icons look bigger",
+        "It converts data into an unreadable code to prevent hacking",
+        "It makes the phone internet connection faster",
+        "It allows users to use the app without a battery"
       ],
       "correctAnswer": 1,
-      "explanation": "El cifrado protege los datos convirtiéndolos en un código secreto."
+      "explanation": "El cifrado (encryption) protege la información sensible convirtiéndola en código secreto."
     },
     {
-      "id": "q13",
-      "question": "Identify the grammatically correct sentence:",
+      "id": "adm-a2-w07-q13",
+      "question": "Which sentence follows correct English grammar for prohibition?",
       "options": [
-        "We mustn't writing our PIN on the phone.",
-        "We mustn't write our PIN on the phone.",
-        "We mustn't to write our PIN on the phone.",
-        "We not must write our PIN on the phone."
+        "We mustn't writing our PIN on a piece of paper.",
+        "We mustn't write our PIN on a piece of paper.",
+        "We mustn't to write our PIN on a piece of paper.",
+        "We not must write our PIN on a piece of paper."
       ],
       "correctAnswer": 1,
-      "explanation": "Mustn't + verbo base (write)."
+      "explanation": "La estructura correcta es: Sujeto + mustn't + verbo base."
     },
     {
-      "id": "q14",
-      "question": "Why is 'Find My Device' important for fintech users?",
+      "id": "adm-a2-w07-q14",
+      "question": "Why is 'Remote Wipe' a useful security feature?",
       "options": [
-        "To find the nearest physical bank branch",
-        "To remotely lock or wipe a lost device with payment cards",
-        "To see where friends are shopping",
-        "To get discounts at local stores"
+        "To clean the dust off the phone screen",
+        "To delete all data from a lost device from a distance",
+        "To increase the storage capacity of the device",
+        "To change the wallpaper of the phone"
       ],
       "correctAnswer": 1,
-      "explanation": "Permite bloquear o borrar remotamente un dispositivo perdido que tiene tarjetas."
+      "explanation": "El borrado remoto (remote wipe) permite eliminar tus datos bancarios si pierdes el dispositivo."
     },
     {
-      "id": "q15",
-      "question": "Which modal verb is used for strong internal obligation or a rule?",
-      "options": ["Can", "May", "Must", "Could"],
-      "correctAnswer": 2,
-      "explanation": "'Must' se usa para obligaciones fuertes o reglas."
-    },
-    {
-      "id": "q16",
-      "question": "What should you do before tapping your phone on a public reader?",
+      "id": "adm-a2-w07-q15",
+      "question": "When do we use the modal verb 'Must'?",
       "options": [
-        "Take a photo of the cashier",
-        "Ensure the terminal is secure and not tampered with",
-        "Shout your PIN out loud",
-        "Restart your phone three times"
+        "For things that are optional or fun",
+        "For strong obligations, rules, or necessities",
+        "For things that happened in the past",
+        "Only when asking for permission"
       ],
       "correctAnswer": 1,
-      "explanation": "Debes asegurarte de que el terminal sea seguro y no haya sido manipulado."
+      "explanation": "'Must' se utiliza para expresar obligaciones fuertes, leyes o necesidades imperativas."
     },
     {
-      "id": "q17",
-      "question": "A payment ring is an example of ______ technology.",
-      "options": ["ATM", "Contactless wearable", "Physical cash", "Desktop"],
-      "correctAnswer": 1,
-      "explanation": "Un anillo de pago es tecnología 'wearable' sin contacto."
-    },
-    {
-      "id": "q18",
-      "question": "Correct the error: 'You mustn't sharing your Face ID.'",
+      "id": "adm-a2-w07-q16",
+      "question": "Before using a public payment reader, what should you do?",
       "options": [
-        "You mustn't share your Face ID.",
-        "You must share your Face ID.",
-        "You mustn't to share your Face ID.",
-        "You don't must share your Face ID."
+        "Restart your smartwatch",
+        "Check for any signs of tampering or suspicious parts",
+        "Ask the cashier for their personal phone number",
+        "Disable the internet on your phone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Es fundamental inspeccionar el terminal para evitar ser víctima de skimming."
+    },
+    {
+      "id": "adm-a2-w07-q17",
+      "question": "A 'Payment Ring' is an example of:",
+      "options": [
+        "Traditional physical currency",
+        "Contactless wearable technology",
+        "A desktop-only banking tool",
+        "A type of bank insurance"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un anillo de pago es un dispositivo 'wearable' que permite pagar mediante NFC."
+    },
+    {
+      "id": "adm-a2-w07-q18",
+      "question": "Correct the grammar error: 'You mustn't sharing your security codes.'",
+      "options": [
+        "You mustn't share your security codes.",
+        "You must share your security codes.",
+        "You mustn't to share your security codes.",
+        "You don't must share your security codes."
       ],
       "correctAnswer": 0,
-      "explanation": "Se debe usar el verbo base 'share' después de 'mustn't'."
+      "explanation": "Se debe usar el infinitivo sin 'to' (share) después de 'mustn't'."
     },
     {
-      "id": "q19",
-      "question": "What is the 'magnetic stripe' used for?",
+      "id": "adm-a2-w07-q19",
+      "question": "What is the purpose of the 'Magnetic Stripe' on old cards?",
       "options": [
-        "To make the card look shiny",
-        "To store data on traditional plastic cards",
-        "To attach the card to a refrigerator",
-        "To measure the temperature of the wallet"
+        "To help the card slide better into the wallet",
+        "To store account data that can be read by swiping",
+        "To decorate the back of the card",
+        "To measure the length of the card"
       ],
       "correctAnswer": 1,
-      "explanation": "La banda magnética guarda datos en las tarjetas plásticas tradicionales."
+      "explanation": "La banda magnética es la tecnología antigua que almacena datos de la cuenta."
     },
     {
-      "id": "q20",
-      "question": "If your smartwatch is stolen, you ______ deactivate the digital cards.",
-      "options": ["mustn't", "must", "won't", "couldn't"],
+      "id": "adm-a2-w07-q20",
+      "question": "If your device is lost, you ______ deactivate your virtual cards via the bank app.",
+      "options": [
+        "mustn't",
+        "must",
+        "won't",
+        "couldn't"
+      ],
       "correctAnswer": 1,
-      "explanation": "Debes desactivar las tarjetas digitales (must deactivate)."
+      "explanation": "Es obligatorio (must) desactivar las tarjetas para prevenir fraudes tras una pérdida."
     }
   ]
 }

@@ -1,29 +1,24 @@
 {
-  "title": "Personal Information and Modern Identity",
+  "title": "Semana 3: Información Personal y Tarjetas de Visita",
+  "description": "Aprende a dar tu información profesional y a leer tarjetas de visita de otros colegas.",
+  "objectives": [
+    "Pedir y dar información personal profesional",
+    "Entender los datos en una tarjeta de visita (Business Card)",
+    "Hacer preguntas básicas con el verbo 'to be'"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Personal Data",
-      "content": "Essential words for bank forms and identity.\n\n- **Name**: Nombre\n- **Surname**: Apellido\n- **Address**: Dirección\n- **Date of Birth**: Fecha de nacimiento\n- **ID Card**: DNI\n- **Phone Number**: Número de teléfono\n- **Email**: Correo electrónico\n- **Signature**: Firma"
+      "title": "Datos Profesionales",
+      "content": "Para completar formularios o registros en la oficina, necesitas estos términos:\n\n- **First name**: Nombre\n- **Last name / Surname**: Apellido\n- **Job title**: Puesto de trabajo\n- **Department**: Departamento\n- **Email address**: Dirección de correo\n- **Work phone**: Teléfono del trabajo"
     },
     {
-      "id": "modern-id",
-      "title": "Modern Identity: Biometrics",
-      "content": "Today, we don't always use a signature. We use **Biometrics**.\n\n- **Face ID**: Reconocimiento facial\n- **Fingerprint**: Huella dactilar\n- **Security**: Seguridad\n- **Scan**: Escanear\n\n### Identity Flow\n```mermaid\ngraph LR\n    A[Customer] --> B{Scan}\n    B --> C[Face ID]\n    B --> D[Fingerprint]\n    C --> E[Access Account]\n    D --> E\n```"
+      "title": "Tarjetas de Visita (Business Cards)",
+      "content": "Una tarjeta de visita suele contener:\n- **Company Name**: Nombre de la empresa\n- **Logo**: Logotipo\n- **Employee name & Position**: Nombre y cargo\n- **Contact details**: Datos de contacto\n\n**Ejemplo de diálogo:**\n- \"Can I have your business card?\"\n- \"Sure, here it is.\"\n- \"Thank you. You are the Marketing Manager, right?\"\n- \"Yes, that's right.\""
     },
     {
-      "id": "grammar",
-      "title": "Questions with 'To Be'",
-      "content": "To ask for information, we change the word order.\n\n**Structure: Verb + Subject + ...?**\n- **Are you** a customer? (¿Eres cliente?)\n- **Is it** your ID card? (¿Es tu DNI?)\n- **Is Face ID** secure? (¿Es seguro el Face ID?)\n\n**Short Answers:**\n- Yes, **I am**. / No, **I'm not**.\n- Yes, **it is**. / No, **it isn't**."
+      "title": "Preguntas con 'To Be'",
+      "content": "Para obtener información, invertimos el orden del verbo:\n\n- **Are you** the new assistant? (¿Eres el nuevo asistente?)\n- **Is he** the manager? (¿Es él el gerente?)\n- **Is your email** correct? (¿Es tu email correcto?)\n\n**Respuestas cortas:**\n- Yes, I am. / No, I'm not.\n- Yes, he is. / No, he isn't.\n- Yes, it is. / No, it isn't."
     }
   ],
-  "objectives": [
-    "Complete a basic bank form with personal data",
-    "Understand modern biometric security terms",
-    "Ask and answer simple questions with the verb 'to be'"
-  ],
-  "keyTerms": [
-    { "term": "Biometrics", "definition": "Using your body (face, finger) to confirm who you are." },
-    { "term": "Secure", "definition": "Safe and protected." }
-  ]
+  "audioUrl": ""
 }

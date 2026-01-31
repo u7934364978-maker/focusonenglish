@@ -20,6 +20,26 @@
       "id": "professional-growth",
       "title": "Reflecting on Professional Growth",
       "content": "Self-reflection is a key part of the 'Closure' phase. Review your **Portfolio** and consider:\n- Which administrative **Competencies** have you mastered?\n- In which scenarios do you still feel a lack of **Fluency**?\n- How has your **Professional Persona** evolved in English-speaking contexts?"
+    },
+    {
+      "id": "persuasive-pitching",
+      "title": "The Art of the Pitch: Persuasive Communication",
+      "content": "A proposal is only as good as its delivery. To secure buy-in from senior management, you must master the 'Elevator Pitch'.\n\n### Key Techniques:\n- **The Hook**: Start with a compelling fact or a 'pain point' (e.g., *'Did you know we lose 15 hours a week on manual entry?'*).\n- **Benefit over Feature**: Don't just describe the tool; describe the **Outcome** (e.g., *'This will free up our team for high-value analysis'*).\n- **Call to Action**: End with a clear request for a follow-up meeting or a pilot approval."
+    },
+    {
+      "id": "financial-justification",
+      "title": "Financial Justification: ROI & Budgeting",
+      "content": "Administrative projects often require financial approval. You must be able to justify the **Investment**.\n\n### Core Concepts:\n- **ROI (Return on Investment)**: Calculating the gain from a project relative to its cost.\n- **OpEx vs CapEx**: Understanding the difference between Operational Expenditure (recurring costs) and Capital Expenditure (one-time investments).\n- **Opportunity Cost**: What we lose by *not* doing the project (e.g., continued inefficiencies)."
+    },
+    {
+      "id": "ai-integration",
+      "title": "AI Integration for Administrative Workflows",
+      "content": "Modern B2 administrators must leverage AI to remain efficient. This review includes the ethical and practical use of LLMs.\n\n### Practical Applications:\n- **Automated Summarisation**: Using AI to generate minutes from recorded meetings.\n- **Drafting SOPs**: Creating baseline documentation that is then refined by human expertise.\n- **Data Analysis**: Identifying trends in vendor performance or resource allocation using AI-driven spreadsheets."
+    },
+    {
+      "id": "peer-review",
+      "title": "Final Project Peer Review & Feedback Loops",
+      "content": "Before final submission, the **Peer Review** process ensures your proposal is robust.\n\n### Feedback Criteria:\n- **Clarity**: Is the 'bottleneck' clearly defined?\n- **Grammatical Precision**: Are future tenses and conditionals used accurately?\n- **Professional Tone**: Is the language appropriately formal and persuasive?\n- **Closing the Loop**: How do you incorporate feedback to improve the final **Deliverable**?"
     }
   ],
   "objectives": [

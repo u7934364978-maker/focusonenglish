@@ -1,36 +1,24 @@
 {
-  "title": "Numbers, Currencies, and Digital Money",
+  "title": "Semana 1: Saludos en la Oficina",
+  "description": "Aprende los saludos más comunes y básicos para empezar tu día en el trabajo.",
+  "objectives": [
+    "Usar saludos formales e informales",
+    "Aprender a decir adiós correctamente",
+    "Entender las partes del día para saludar"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Currencies and Money",
-      "content": "In this lesson, we learn about common currencies and physical money.\n\n- **Dollar**: Dólar ($)\n- **Euro**: Euro (€)\n- **Pound**: Libra (£)\n- **Cash**: Efectivo\n- **Coins**: Monedas\n- **Notes / Bills**: Billetes\n- **Credit Card**: Tarjeta de crédito"
+      "title": "Saludos (Greetings)",
+      "content": "En la oficina, el saludo es el primer paso para una buena comunicación.\n\n- **Hello / Hi**: Hola (General/Informal)\n- **Good morning**: Buenos días (Hasta las 12:00 PM)\n- **Good afternoon**: Buenas tardes (De 12:00 PM a 6:00 PM)\n- **Good evening**: Buenas noches/tardes (Después de las 6:00 PM)"
     },
     {
-      "id": "digital-money",
-      "title": "Digital Money",
-      "content": "Today, we also use money on our phones and computers.\n\n- **E-wallet**: Monedero electrónico (e.g., Apple Pay, Google Pay)\n- **Online Banking**: Banca en línea\n- **Crypto / Bitcoin**: Criptomonedas\n- **Transfer**: Transferencia\n\n### Simple Flow: Online Payment\n```mermaid\ngraph LR\n    A[Customer] --> B[E-wallet]\n    B --> C[Store]\n```"
+      "title": "Despedidas (Farewells)",
+      "content": "Al terminar el día o una conversación:\n\n- **Goodbye / Bye**: Adiós\n- **Have a nice day**: Que tenga un buen día\n- **See you later**: Nos vemos luego\n- **Good night**: Buenas noches (Solo para despedirse al irse a dormir o al final de la noche)"
     },
     {
-      "id": "numbers",
-      "title": "Large Numbers",
-      "content": "In finance, we use large numbers every day.\n\n- **One hundred**: 100\n- **Five hundred**: 500\n- **One thousand**: 1,000\n- **Ten thousand**: 10,000\n- **One million**: 1,000,000"
-    },
-    {
-      "id": "grammar",
-      "title": "Grammar: Verb 'to be'",
-      "content": "The verb 'to be' is essential for describing money.\n\n- **I am** a banker. (Yo soy banquero)\n- **It is** ten dollars. (Son diez dólares)\n- **They are** euros. (Son euros)\n\n**Negative:**\n- It **is not** (isn't) expensive. (No es caro)\n- They **are not** (aren't) pounds. (No son libras)"
+      "title": "Preguntas de Cortesía",
+      "content": "Después de saludar, solemos preguntar cómo está la otra persona:\n\n- **How are you?**: ¿Cómo estás?\n- **I am fine, thank you**: Estoy bien, gracias.\n- **And you?**: ¿Y tú?"
     }
   ],
-  "objectives": [
-    "Identify major international currencies",
-    "Count up to one million in English",
-    "Understand basic digital money terms",
-    "Use the verb 'to be' to describe money and professions"
-  ],
-  "keyTerms": [
-    { "term": "Currency", "definition": "The system of money used in a particular country." },
-    { "term": "Amount", "definition": "A quantity of money." },
-    { "term": "Digital", "definition": "Using computer technology." }
-  ]
+  "audioUrl": ""
 }

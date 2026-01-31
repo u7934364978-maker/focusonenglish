@@ -1,30 +1,24 @@
 {
-  "title": "Days of the Week and Banking Hours",
+  "title": "Semana 5: Profesiones y Cargos en la Oficina",
+  "description": "Aprende los nombres de los puestos de trabajo más comunes y cómo describir tu cargo y el de tus colegas.",
+  "objectives": [
+    "Identificar cargos profesionales comunes (Manager, Assistant, etc.)",
+    "Usar el verbo 'to be' para describir profesiones",
+    "Presentar a colegas y sus puestos de trabajo"
+  ],
   "sections": [
     {
-      "id": "vocab",
-      "title": "Days and Time",
-      "content": "When is the bank open? Let's learn the days of the week.\n\n- **Monday**: Lunes\n- **Tuesday**: Martes\n- **Wednesday**: Miércoles\n- **Thursday**: Jueves\n- **Friday**: Viernes\n- **Saturday**: Sábado\n- **Sunday**: Domingo\n- **Opening hours**: Horario de apertura\n- **Weekend**: Fin de semana"
+      "title": "Cargos Profesionales (Job Titles)",
+      "content": "En una oficina, cada persona tiene un rol específico:\n\n- **Manager**: Gerente / Director\n- **Assistant**: Asistente / Auxiliar\n- **Receptionist**: Recepcionista\n- **Accountant**: Contable\n- **Developer**: Desarrollador / Programador\n- **CEO**: Director Ejecutivo"
     },
     {
-      "id": "modern-hours",
-      "title": "Modern Banking: 24/7 Support",
-      "content": "A physical bank branch closes, but a Neobank is always open.\n\n- **24/7**: 24 horas, 7 días a la semana\n- **Always open**: Siempre abierto\n- **Chatbot**: Chat de ayuda (IA)\n- **Support**: Soporte / Ayuda\n\n### Comparison\n```mermaid\ngraph TD\n    A[Traditional Branch] --> B[9:00 AM - 2:00 PM]\n    C[Digital App] --> D[Always Open 24/7]\n```"
+      "title": "Uso del Verbo 'To Be' con Profesiones",
+      "content": "Para decir qué puesto ocupa alguien, usamos el verbo 'to be':\n\n- **I am** the Manager. (Yo soy el gerente)\n- **You are** the Assistant. (Tú eres el asistente)\n- **He is** an Accountant. (Él es contable)\n- **She is** a Developer. (Ella es desarrolladora)\n\n**Nota:** Usamos 'a' o 'an' antes de la profesión si es en singular."
     },
     {
-      "id": "grammar",
-      "title": "Present Simple for Schedules",
-      "content": "We use the Present Simple for things that are always true, like bank hours.\n\n- The bank **opens** at 9:00 AM.\n- We **close** on Sundays.\n- The app **works** 24/7.\n\n**Structure (He/She/It + verb-s):**\n- The ATM **works** (It works).\n- The chatbot **helps** (It helps)."
+      "title": "Presentando a Colegas",
+      "content": "Cuando presentas a alguien, puedes decir:\n- \"This is John. He is our CEO.\"\n- \"This is Maria. She is the receptionist.\"\n- \"They are our new developers.\""
     }
   ],
-  "objectives": [
-    "Name the days of the week in English",
-    "Describe bank opening and closing times",
-    "Understand the '24/7' concept in modern banking",
-    "Use the present simple for banking schedules"
-  ],
-  "keyTerms": [
-    { "term": "Working day", "definition": "A day when the bank is open (Monday to Friday)." },
-    { "term": "Chatbot", "definition": "An AI program that helps you at any time." }
-  ]
+  "audioUrl": ""
 }

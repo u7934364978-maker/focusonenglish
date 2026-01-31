@@ -7,28 +7,34 @@
   "items": [
     {
       "id": "adm-b2-w15-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: Variance Analysis Report (Doc A)",
-      "text": "Doc A — Q3 Administrative Budget Review\n\nSummary Table:\n- Item: Office Stationery | Budget: £500 | Actual: £850 | Variance: +£350 (Overspend)\n- Item: Software Subscriptions | Budget: £1,200 | Actual: £1,100 | Variance: -£100 (Underspend)\n- Item: Staff Training | Budget: £3,000 | Actual: £500 | Variance: -£2,500 (Significant Underspend)\n\nNotes:\n- The overspend in stationery was due to the unexpected bulk purchase of ergonomic chairs (CAPEX incorrectly logged as OPEX).\n- The underspend in training is a major concern. I wish we had started the leadership program in July as planned. If only the vendor had confirmed the dates sooner, we would have been on track.\n- We must justify the stationery overspend to the Finance Director by Friday.",
-      "questions": [
-        {
-          "question": "Why was there an overspend in the 'Office Stationery' category?",
-          "options": ["Too many pens were bought", "Ergonomic chairs were incorrectly logged as OPEX", "The prices of paper increased"],
-          "answerIndex": 1,
-          "explanation": "Doc A explains the overspend was due to chairs being logged incorrectly as OPEX."
-        },
-        {
-          "question": "What does the writer regret regarding staff training?",
-          "options": ["Spending too much money", "Not starting the leadership program in July", "Choosing the wrong vendor"],
-          "answerIndex": 1,
-          "explanation": "The writer says: 'I wish we had started the leadership program in July as planned.'"
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "Based on the Q3 Budget Review, why was there an overspend in the 'Office Stationery' category?\n\nDoc A — Q3 Administrative Budget Review\n- Item: Office Stationery | Budget: £500 | Actual: £850 | Variance: +£350 (Overspend)\nNote: The overspend was due to the unexpected bulk purchase of ergonomic chairs (CAPEX incorrectly logged as OPEX).",
+      "options": [
+        "Too many pens were bought",
+        "Ergonomic chairs were incorrectly logged as OPEX",
+        "The prices of paper increased",
+        "The budget was reduced mid-quarter"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text explicitly states the overspend was due to chairs being logged incorrectly as OPEX."
     },
     {
       "id": "adm-b2-w15-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: Budgeting Concepts. Which term refers to day-to-day operational costs like rent and utilities?",
+      "prompt": "According to Doc A, what does the writer regret regarding staff training?\n\nDoc A — Staff Training | Budget: £3,000 | Actual: £500 | Variance: -£2,500\nNote: The underspend in training is a major concern. I wish we had started the leadership program in July as planned. If only the vendor had confirmed the dates sooner.",
+      "options": [
+        "Spending too much money on training",
+        "Not starting the leadership program in July",
+        "Choosing the wrong vendor for the chairs",
+        "Cancelling the training program entirely"
+      ],
+      "answerIndex": 1,
+      "explanation": "The writer says: 'I wish we had started the leadership program in July as planned.'"
+    },
+    {
+      "id": "adm-b2-w15-ex03",
+      "type": "multipleChoice",
+      "prompt": "Which term refers to day-to-day operational costs like rent, utilities, and stationery?",
       "options": [
         "CAPEX",
         "OPEX",
@@ -39,9 +45,9 @@
       "explanation": "OPEX (Operating Expenses) covers the ongoing costs of running a business."
     },
     {
-      "id": "adm-b2-w15-ex03",
+      "id": "adm-b2-w15-ex04",
       "type": "multipleChoice",
-      "prompt": "Exercise 3: Variance Analysis. If your budget was £1,000 and you spent £1,200, what is the variance?",
+      "prompt": "If your budget was £1,000 and you spent £1,200, what is the variance?",
       "options": [
         "+£200 (Underspend)",
         "+£200 (Overspend)",
@@ -52,9 +58,9 @@
       "explanation": "Spending more than the budget results in an overspend (variance of +£200)."
     },
     {
-      "id": "adm-b2-w15-ex04",
+      "id": "adm-b2-w15-ex05",
       "type": "multipleChoice",
-      "prompt": "Exercise 4: Operational Chunks. Complete the sentence: 'We need to ___ the spend on the new hardware before we can ___ the funds.'",
+      "prompt": "Complete the sentence: 'We need to ___ the spend on the new hardware before we can ___ the funds.'",
       "options": [
         "justify / allocate",
         "lose / find",
@@ -65,30 +71,58 @@
       "explanation": "In a professional context, you 'justify the spend' and then 'allocate the funds'."
     },
     {
-      "id": "adm-b2-w15-ex05",
-      "type": "writingTask",
-      "prompt": "Exercise 5: Present Wishes. Use 'I wish' to express a desire for more staff in your department (currently you are understaffed).",
-      "modelAnswer": "I wish we had more staff in our department.",
-      "keywords": ["I wish", "had", "staff"]
-    },
-    {
       "id": "adm-b2-w15-ex06",
-      "type": "writingTask",
-      "prompt": "Exercise 6: Past Regrets. Use 'If only' to express regret that you didn't book the flights when they were cheaper last month.",
-      "modelAnswer": "If only I had booked the flights when they were cheaper last month.",
-      "keywords": ["If only", "had", "booked"]
+      "type": "gap-fill",
+      "prompt": "Use 'I wish' to express a desire for more staff in your department (currently you are understaffed): 'I ___ more staff in our department.'",
+      "validation": [
+        {
+          "rule": "I wish we had",
+          "isCorrect": true,
+          "message": "Correct! 'I wish we had' expresses a desire for a different present situation."
+        },
+        {
+          "rule": "^I wish we have$",
+          "isCorrect": false,
+          "message": "Use the Past Simple ('had') for present wishes."
+        }
+      ],
+      "explanation": "Present wishes are expressed using 'wish + Past Simple'."
     },
     {
       "id": "adm-b2-w15-ex07",
-      "type": "writingTask",
-      "prompt": "Exercise 7: Extracting Data. Based on Doc A, identify which items were underspent and which were overspent.",
-      "modelAnswer": "Overspent: Office Stationery. Underspent: Software Subscriptions, Staff Training.",
-      "keywords": ["Overspent", "Stationery", "Underspent", "Training"]
+      "type": "gap-fill",
+      "prompt": "Use 'If only' to express regret that you didn't book the flights earlier: '___ I had booked the flights when they were cheaper last month.'",
+      "validation": [
+        {
+          "rule": "If only",
+          "isCorrect": true,
+          "message": "Correct! 'If only' is used for strong regrets."
+        },
+        {
+          "rule": "^Only if$",
+          "isCorrect": false,
+          "message": "The correct phrase is 'If only'."
+        }
+      ],
+      "explanation": "Past regrets are often introduced by 'If only' + Past Perfect."
     },
     {
       "id": "adm-b2-w15-ex08",
       "type": "multipleChoice",
-      "prompt": "Exercise 8: Courtesy Modals. How would you professionally ask a vendor for a discount on a large order?",
+      "prompt": "Based on the Q3 report (Doc A), which category showed a 'Significant Underspend'?",
+      "options": [
+        "Office Stationery",
+        "Software Subscriptions",
+        "Staff Training",
+        "Rent"
+      ],
+      "answerIndex": 2,
+      "explanation": "Doc A shows a variance of -£2,500 for Staff Training, labeled as 'Significant Underspend'."
+    },
+    {
+      "id": "adm-b2-w15-ex09",
+      "type": "multipleChoice",
+      "prompt": "How would you professionally ask a vendor for a discount on a large order?",
       "options": [
         "Make it cheaper or I won't buy.",
         "Your prices are too high.",
@@ -96,57 +130,875 @@
         "I wish you were cheaper."
       ],
       "answerIndex": 2,
-      "explanation": "This is a polite and professional way to negotiate a discount."
-    },
-    {
-      "id": "adm-b2-w15-ex09",
-      "type": "writingTask",
-      "prompt": "Exercise 9: Funding Request Email. Write a short email (50-75 words) to your manager requesting additional funding for a new software license. Mention that the current budget is exhausted.",
-      "modelAnswer": "Hi Mark, I’m writing to request additional funding for the Adobe Creative Cloud license. Our current OPEX budget for software is unfortunately exhausted due to the unexpected price increase last month. I wish we had forecasted this earlier, but the license is essential for the marketing team to meet their Q4 deadlines. Could we allocate some of the underspend from the travel budget? Thanks, [Your Name]",
-      "keywords": ["additional funding", "exhausted", "wish", "allocate"]
+      "explanation": "This is a polite and professional way to negotiate a volume discount."
     },
     {
       "id": "adm-b2-w15-ex10",
       "type": "multipleChoice",
-      "prompt": "Exercise 10: Financial Ledger. Where are all financial accounts of a particular type collected?",
-      "options": ["A diary", "A ledger", "A post-mortem", "A BCP"],
+      "prompt": "In an email requesting additional funding, which phrase is most appropriate when the budget is finished?",
+      "options": [
+        "The budget is broken.",
+        "The budget is exhausted.",
+        "The money is gone.",
+        "We lost the ledger."
+      ],
       "answerIndex": 1,
-      "explanation": "A ledger is the collection of financial accounts."
+      "explanation": "'Exhausted' is the professional term for a budget that has been fully spent."
     },
     {
       "id": "adm-b2-w15-ex11",
-      "type": "writingTask",
-      "prompt": "Exercise 11: Oral Budget Review. Record a 2-minute audio explaining a budget variance to your team. Use 'I wish' or 'If only' to discuss a past mistake.",
-      "modelAnswer": "[Audio Upload Required] Rubric: Clarity, Use of terms (OPEX, variance), Correct use of wishes/regrets.",
-      "keywords": ["variance", "wish", "spent"]
+      "type": "multipleChoice",
+      "prompt": "Where are all financial accounts of a particular type collected and recorded?",
+      "options": [
+        "A diary",
+        "A ledger",
+        "A post-mortem",
+        "A BCP"
+      ],
+      "answerIndex": 1,
+      "explanation": "A ledger is the formal collection of financial accounts."
     },
     {
       "id": "adm-b2-w15-ex12",
-      "type": "writingTask",
-      "prompt": "Exercise 12: Oral Cost-Cutting Suggestion. Record a 60-second audio suggesting a way to cut costs in the office. Use 'I wish they would...' to complain politely about a current waste of money.",
-      "modelAnswer": "[Audio Upload Required] Checklist: Professional suggestion, Use of 'I wish they would...', Polite tone.",
-      "keywords": ["cut costs", "wish they would"]
+      "type": "multipleChoice",
+      "prompt": "When explaining a budget variance to a team, what is the best way to introduce a past mistake?",
+      "options": [
+        "I wish we hadn't made that mistake.",
+        "I wish we would make mistakes.",
+        "If only we make that mistake.",
+        "I wish we didn't make mistakes."
+      ],
+      "answerIndex": 0,
+      "explanation": "'I wish we hadn't [Past Participle]' is the standard way to express regret about a past action."
     },
     {
       "id": "adm-b2-w15-ex13",
-      "type": "writingTask",
-      "prompt": "Exercise 13: Budget Justification Report (Portfolio). Draft a 150-word report justifying an overspend on 'IT Equipment' (CAPEX). Use wishes and regrets to explain why the initial budget was insufficient.",
-      "modelAnswer": "Budget Justification: IT Equipment Overspend\n\nDuring Q3, the IT Equipment budget was exceeded by 15%. This overspend occurred because we had to replace five laptops that were damaged during the office flood. \n\nI wish we had known about the risk of flooding in the basement storage area earlier. If only we had invested in waterproof cabinets last year, this cost could have been avoided. However, the laptops were essential to maintain BAU for the support team.\n\nTo compensate for this overspend, we have identified an underspend in 'Office Events' which we propose to reallocate. Moving forward, I wish management would approve a small 'contingency fund' for such emergencies. We will also ensure all future equipment purchases are correctly logged as CAPEX rather than OPEX.",
-      "keywords": ["Justification", "overspend", "wish", "If only", "allocate"]
+      "type": "multipleChoice",
+      "prompt": "Which phrase expresses a desire for a third party to change their behavior (polite complaint)?",
+      "options": [
+        "I wish they would approve the invoice faster.",
+        "I wish they had approved it.",
+        "I wish they approved it.",
+        "If only they approved it."
+      ],
+      "answerIndex": 0,
+      "explanation": "'Wish + would' is used to express annoyance or a desire for someone else to change their behavior."
     },
     {
       "id": "adm-b2-w15-ex14",
-      "type": "writingTask",
-      "prompt": "Exercise 14: Expense Tracking Template. Complete an expense entry for a 'New Office Printer'. Include: Date, Category (OPEX/CAPEX), Amount, and Justification.",
-      "modelAnswer": "Date: 14th March. Category: CAPEX. Amount: £450. Justification: Replacement of broken printer in the HR department.",
-      "keywords": ["Date", "Category", "Amount", "Justification"]
+      "type": "multipleChoice",
+      "prompt": "What is the correct category for an investment in a new company-wide ERP software system (long-term asset)?",
+      "options": [
+        "OPEX",
+        "CAPEX",
+        "Petty Cash",
+        "Discretionary Spend"
+      ],
+      "answerIndex": 1,
+      "explanation": "Significant investments in long-term infrastructure are Capital Expenditures (CAPEX)."
     },
     {
       "id": "adm-b2-w15-ex15",
-      "type": "writingTask",
-      "prompt": "Exercise 15: Weekly Mini-test. 1) Define CAPEX. 2) What is 'Variance Analysis'? 3) Complete: 'I wish we ___ (buy) the software last week.' 4) What is the difference between an overspend and an underspend?",
-      "modelAnswer": "1) Capital Expenditure for assets. 2) Comparing budget vs actual spend. 3) ...had bought... 4) Overspend is spending more than budget; underspend is spending less.",
-      "keywords": ["asset", "Comparing", "had bought", "more"]
+      "type": "gap-fill",
+      "prompt": "Complete the expense entry: 'Replacement of broken printer. Category: ___.'",
+      "validation": [
+        {
+          "rule": "^CAPEX$",
+          "isCorrect": true,
+          "message": "Correct! Hardware purchases are usually CAPEX."
+        },
+        {
+          "rule": "^OPEX$",
+          "isCorrect": false,
+          "message": "Printers are assets, so they are usually CAPEX."
+        }
+      ],
+      "explanation": "Equipment like printers are capital assets (CAPEX)."
+    },
+    {
+      "id": "adm-b2-w15-ex16",
+      "type": "multipleChoice",
+      "prompt": "Which budgeting method requires every single expense to be justified from scratch for each new period?",
+      "options": [
+        "Incremental Budgeting",
+        "Zero-Based Budgeting (ZBB)",
+        "Fixed Budgeting",
+        "Rolling Budgeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "ZBB starts from a 'zero base' and requires justification for every expense regardless of previous spending."
+    },
+    {
+      "id": "adm-b2-w15-ex17",
+      "type": "multipleChoice",
+      "prompt": "In corporate accounting, a department that costs money to operate but does not directly generate revenue is a:",
+      "options": [
+        "Profit Center",
+        "Cost Center",
+        "Revenue Stream",
+        "Investment Portfolio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Departments like HR, IT, and Admin are typical cost centers."
+    },
+    {
+      "id": "adm-b2-w15-ex18",
+      "type": "multipleChoice",
+      "prompt": "What do you call the process of assigning costs (like a shared office electricity bill) to different departments?",
+      "options": [
+        "Amortization",
+        "Allocation",
+        "Liquidation",
+        "Reconciliation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Allocation is the assignment of shared costs to various cost centers."
+    },
+    {
+      "id": "adm-b2-w15-ex19",
+      "type": "multipleChoice",
+      "prompt": "Which of the following is typically a fixed cost for an administrative department?",
+      "options": [
+        "Office supplies",
+        "Courier fees",
+        "Monthly office rent",
+        "Overtime payments"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fixed costs like rent do not change based on the level of activity."
+    },
+    {
+      "id": "adm-b2-w15-ex20",
+      "type": "multipleChoice",
+      "prompt": "Which item is considered 'discretionary spend' and could be cut during a budget crisis?",
+      "options": [
+        "Essential software licenses",
+        "Premium coffee and office snacks",
+        "Health insurance for staff",
+        "Office heating and electricity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Discretionary spend refers to non-essential perks and items."
+    },
+    {
+      "id": "adm-b2-w15-ex21",
+      "type": "multipleChoice",
+      "prompt": "According to the CFO's memo, what was a negative side effect of Incremental Budgeting?\n\nMemo: 'In the past, we simply added 3% to last year’s figures, which led to significant budget slack and unmonitored discretionary spend.'",
+      "options": [
+        "It was too fast to implement",
+        "It led to 'budget slack' and unmonitored spending",
+        "It made the departments too competitive",
+        "It was illegal under the new tax laws"
+      ],
+      "answerIndex": 1,
+      "explanation": "The memo explicitly mentions budget slack and unmonitored spending as results of the incremental approach."
+    },
+    {
+      "id": "adm-b2-w15-ex22",
+      "type": "multipleChoice",
+      "prompt": "Under the new Zero-Based Budgeting (ZBB) framework, what happens to fixed costs like rent?",
+      "options": [
+        "They are itemized by each department",
+        "They are handled centrally by the Finance team",
+        "They are eliminated",
+        "They are ignored until the end of the year"
+      ],
+      "answerIndex": 1,
+      "explanation": "The memo states: 'Fixed costs like rent will be handled centrally'."
+    },
+    {
+      "id": "adm-b2-w15-ex23",
+      "type": "multipleChoice",
+      "prompt": "Complete the professional chunk: 'If we want to avoid another overspend, we must ___ our discretionary spend.'",
+      "options": [
+        "increase",
+        "allocate",
+        "curb",
+        "ignore"
+      ],
+      "answerIndex": 2,
+      "explanation": "'To curb spend' means to restrain or control it."
+    },
+    {
+      "id": "adm-b2-w15-ex24",
+      "type": "gap-fill",
+      "prompt": "Rewrite using 'If only' for a past regret: 'We didn't use ZBB last year, and we wasted money.' -> 'If only we ___ ZBB last year, we wouldn't have wasted money.'",
+      "validation": [
+        {
+          "rule": "had used",
+          "isCorrect": true,
+          "message": "Correct! Past regrets use 'had' + past participle."
+        }
+      ],
+      "explanation": "The Past Perfect ('had used') is used with 'If only' to express regret about the past."
+    },
+    {
+      "id": "adm-b2-w15-ex25",
+      "type": "gap-fill",
+      "prompt": "Rewrite using 'I wish' for a present desire: 'Our budget is very small.' -> 'I wish our budget ___ larger.'",
+      "validation": [
+        {
+          "rule": "^(were|was)$",
+          "isCorrect": true,
+          "message": "Correct! 'Were' or 'was' are used for present wishes (though 'were' is more formal)."
+        }
+      ],
+      "explanation": "The Past Simple is used to express a wish for a different present situation."
+    },
+    {
+      "id": "adm-b2-w15-ex26",
+      "type": "multipleChoice",
+      "prompt": "What is the primary purpose of a 'Monthly Variance Report'?",
+      "options": [
+        "To record daily employee attendance",
+        "To show the difference between planned and actual spending",
+        "To list the names of all company vendors",
+        "To announce quarterly profits to shareholders"
+      ],
+      "answerIndex": 1,
+      "explanation": "Variance reports track deviations from the budget."
+    },
+    {
+      "id": "adm-b2-w15-ex27",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT typically a cost center?",
+      "options": [
+        "Human Resources (HR)",
+        "Information Technology (IT)",
+        "Direct Sales Department",
+        "Legal Department"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sales department generates revenue directly, making it a profit center, not a cost center."
+    },
+    {
+      "id": "adm-b2-w15-ex28",
+      "type": "gap-fill",
+      "prompt": "Complete the justification: 'I am requesting a 10% increase in the courier budget ___ the higher volume of shipments.'",
+      "validation": [
+        {
+          "rule": "due to",
+          "isCorrect": true,
+          "message": "Correct! 'Due to' introduces the reason for the request."
+        },
+        {
+          "rule": "because",
+          "isCorrect": true,
+          "message": "Correct! 'Because of' or 'because' can be used to explain reasons."
+        }
+      ],
+      "explanation": "Justifying an expense requires a clear link to a business need (due to/because of)."
+    },
+    {
+      "id": "adm-b2-w15-ex29",
+      "type": "multipleChoice",
+      "prompt": "What does it mean to 'reconcile' a petty cash account?",
+      "options": [
+        "To spend all the money in the box",
+        "To ensure the remaining cash plus receipts equal the original total",
+        "To ask the manager for more money",
+        "To throw away old receipts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reconciliation is the process of matching records with physical evidence (cash/receipts)."
+    },
+    {
+      "id": "adm-b2-w15-ex30",
+      "type": "multipleChoice",
+      "prompt": "In petty cash management, what is 'The Float'?",
+      "options": [
+        "A type of bank account",
+        "The set amount of cash kept in the office for minor expenses",
+        "The interest earned on the budget",
+        "A financial loss"
+      ],
+      "answerIndex": 1,
+      "explanation": "The float is the starting sum of petty cash."
+    },
+    {
+      "id": "adm-b2-w15-ex31",
+      "type": "multipleChoice",
+      "prompt": "Why is 'Variance Analysis' considered a tool for 'Financial Control'?",
+      "options": [
+        "It prevents people from spending any money",
+        "It allows management to identify and correct budget deviations",
+        "It makes the budget look bigger than it is",
+        "It is required by the fire department"
+      ],
+      "answerIndex": 1,
+      "explanation": "Control is about monitoring performance and taking corrective action when needed."
+    },
+    {
+      "id": "adm-b2-w15-ex32",
+      "type": "gap-fill",
+      "prompt": "Complete the regret: 'If only we ___ (not spend) all our training budget in Q1!'",
+      "validation": [
+        {
+          "rule": "hadn't spent",
+          "isCorrect": true,
+          "message": "Correct! 'Hadn't spent' is the past perfect for past regret."
+        }
+      ],
+      "explanation": "Past regrets use 'had/hadn't + past participle'."
+    },
+    {
+      "id": "adm-b2-w15-ex33",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is used to justify an overspend by pointing to an unexpected event?",
+      "options": [
+        "It was planned since January.",
+        "Due to an unforeseen equipment failure...",
+        "We wanted to spend more money.",
+        "I wish it was cheaper."
+      ],
+      "answerIndex": 1,
+      "explanation": "'Unforeseen' is a formal way to describe something unexpected that affected the budget."
+    },
+    {
+      "id": "adm-b2-w15-ex34",
+      "type": "multipleChoice",
+      "prompt": "In an internal audit, what is the role of the administrative assistant?",
+      "options": [
+        "To hide mistakes from the auditors",
+        "To provide documentation like receipts and invoices",
+        "To sign the final audit report for the CEO",
+        "To perform the audit on their own department"
+      ],
+      "answerIndex": 1,
+      "explanation": "Admins support audits by organizing and presenting financial records."
+    },
+    {
+      "id": "adm-b2-w15-ex35",
+      "type": "multipleChoice",
+      "prompt": "What is the difference between an 'Under-spend' and an 'Over-spend'?",
+      "options": [
+        "Under-spend is spending more; Over-spend is spending less",
+        "Under-spend is spending less than budget; Over-spend is spending more",
+        "They are the same thing",
+        "Under-spend only applies to CAPEX"
+      ],
+      "answerIndex": 1,
+      "explanation": "These terms describe whether the actual spend was above or below the budgeted amount."
+    },
+    {
+      "id": "adm-b2-w15-ex36",
+      "type": "multipleChoice",
+      "prompt": "What is the professional term for paying an employee back for money they spent for the company?",
+      "options": [
+        "Reward",
+        "Reimbursement",
+        "Refund",
+        "Bonus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reimbursement is the act of paying someone back for out-of-pocket expenses."
+    },
+    {
+      "id": "adm-b2-w15-ex37",
+      "type": "multipleChoice",
+      "prompt": "If a company is worried about 'Liquidity', what are they most concerned with?",
+      "options": [
+        "The number of desks in the office",
+        "Their ability to turn assets into cash to pay immediate bills",
+        "The flavor of the coffee in the breakroom",
+        "The color of the company logo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Liquidity is the ease of converting assets to cash."
+    },
+    {
+      "id": "adm-b2-w15-ex38",
+      "type": "gap-fill",
+      "prompt": "Complete the email: 'I am writing to confirm that the petty cash for June has been successfully ___.'",
+      "validation": [
+        {
+          "rule": "reconciled",
+          "isCorrect": true,
+          "message": "Correct! 'Reconciled' is the verb for checking financial accounts."
+        }
+      ],
+      "explanation": "Reconciliation is the standard process for verifying accounts."
+    },
+    {
+      "id": "adm-b2-w15-ex39",
+      "type": "multipleChoice",
+      "prompt": "When you find a £50 difference between records, you should ___ a discrepancy.",
+      "options": [
+        "hide",
+        "flag",
+        "ignore",
+        "delete"
+      ],
+      "answerIndex": 1,
+      "explanation": "'To flag' means to bring something to someone's attention for investigation."
+    },
+    {
+      "id": "adm-b2-w15-ex40",
+      "type": "multipleChoice",
+      "prompt": "Which asset is the MOST liquid?",
+      "options": [
+        "A company car",
+        "An office building",
+        "Cash in hand",
+        "A printer"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cash is already in its most liquid form."
+    },
+    {
+      "id": "adm-b2-w15-ex41",
+      "type": "gap-fill",
+      "prompt": "Complete the regret: 'I wish I ___ (not forget) to attach the receipt!'",
+      "validation": [
+        {
+          "rule": "hadn't forgotten",
+          "isCorrect": true,
+          "message": "Correct! Past regret."
+        }
+      ],
+      "explanation": "Use Past Perfect for past regrets."
+    },
+    {
+      "id": "adm-b2-w15-ex42",
+      "type": "multipleChoice",
+      "prompt": "What is the definition of 'Solvency'?",
+      "options": [
+        "The ability to solve math problems",
+        "The ability of a company to meet its long-term financial obligations",
+        "The process of cleaning a ledger",
+        "A type of cost center"
+      ],
+      "answerIndex": 1,
+      "explanation": "Solvency refers to long-term financial health (ability to pay debts)."
+    },
+    {
+      "id": "adm-b2-w15-ex43",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of financial 'Compliance'?",
+      "options": [
+        "To make the office look professional",
+        "To ensure the company follows legal regulations and internal policies",
+        "To increase the speed of budget creation",
+        "To reduce the number of employees"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compliance ensures legal and ethical standards are met."
+    },
+    {
+      "id": "adm-b2-w15-ex44",
+      "type": "multipleChoice",
+      "prompt": "Before an internal audit, an admin should prepare:",
+      "options": [
+        "A new coffee machine",
+        "All invoices, receipts, and bank statements",
+        "A vacation request",
+        "A list of complaints about the office"
+      ],
+      "answerIndex": 1,
+      "explanation": "Documentation is the foundation of a successful audit."
+    },
+    {
+      "id": "adm-b2-w15-ex45",
+      "type": "multipleChoice",
+      "prompt": "Why is 'Petty Cash Reconciliation' important to prevent fraud?",
+      "options": [
+        "Because it makes the box heavier",
+        "Because it ensures every penny spent has a matching receipt",
+        "Because it requires the CEO's signature every day",
+        "Because cash is easy to print"
+      ],
+      "answerIndex": 1,
+      "explanation": "Matching cash to receipts ensures transparency and prevents unauthorized spending."
+    },
+    {
+      "id": "adm-b2-w15-ex46",
+      "type": "multipleChoice",
+      "prompt": "A 'favorable variance' in a cost center usually means:",
+      "options": [
+        "Actual costs were higher than planned",
+        "Actual costs were lower than planned",
+        "The department made a profit",
+        "The budget was doubled"
+      ],
+      "answerIndex": 1,
+      "explanation": "In expenses, a 'favorable' result is spending LESS than budgeted (an underspend)."
+    },
+    {
+      "id": "adm-b2-w15-ex47",
+      "type": "multipleChoice",
+      "prompt": "Buying a new office building is classified as:",
+      "options": [
+        "OPEX",
+        "CAPEX",
+        "Petty Cash",
+        "Discretionary Spend"
+      ],
+      "answerIndex": 1,
+      "explanation": "Major assets are Capital Expenditure (CAPEX)."
+    },
+    {
+      "id": "adm-b2-w15-ex48",
+      "type": "gap-fill",
+      "prompt": "Express annoyance: 'I wish the supplier ___ (send) the invoices in the correct currency.'",
+      "validation": [
+        {
+          "rule": "would send",
+          "isCorrect": true,
+          "message": "Correct! 'Wish + would' expresses annoyance or a desire for change."
+        }
+      ],
+      "explanation": "Use 'would' to complain about a repeated behavior."
+    },
+    {
+      "id": "adm-b2-w15-ex49",
+      "type": "gap-fill",
+      "prompt": "Express regret: 'If only we ___ (renew) the subscription before the price hike!'",
+      "validation": [
+        {
+          "rule": "had renewed",
+          "isCorrect": true,
+          "message": "Correct! Past Perfect for past regrets."
+        }
+      ],
+      "explanation": "The subscription was not renewed in the past, so we use 'had renewed'."
+    },
+    {
+      "id": "adm-b2-w15-ex50",
+      "type": "multipleChoice",
+      "prompt": "What is the main goal of 'Variance Analysis'?",
+      "options": [
+        "To find someone to blame",
+        "To understand why actual spending differs from the budget",
+        "To automatically increase next year's budget",
+        "To eliminate all OPEX costs"
+      ],
+      "answerIndex": 1,
+      "explanation": "It's an analytical tool to identify the 'why' behind financial discrepancies."
+    },
+    {
+      "id": "adm-b2-w15-ex51",
+      "type": "multipleChoice",
+      "prompt": "Complete: 'We need to ___ some of the underspend to cover the IT deficit.'",
+      "options": [
+        "reallocate",
+        "remove",
+        "delete",
+        "ignore"
+      ],
+      "answerIndex": 0,
+      "explanation": "Reallocating funds means moving them from one category to another."
+    },
+    {
+      "id": "adm-b2-w15-ex52",
+      "type": "multipleChoice",
+      "prompt": "Why does 'Discretionary Spend' require more justification than 'Fixed Costs'?",
+      "options": [
+        "Because it's mandatory",
+        "Because it's non-essential and easily reduced if needed",
+        "Because it's usually more expensive",
+        "Because it's handled by the CEO only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Since discretionary items aren't vital, you must prove they are worth the money."
+    },
+    {
+      "id": "adm-b2-w15-ex53",
+      "type": "multipleChoice",
+      "prompt": "Where should the petty cash box be kept for security?",
+      "options": [
+        "On the front desk",
+        "In a locked safe or drawer with restricted access",
+        "In the breakroom",
+        "In an envelope under the keyboard"
+      ],
+      "answerIndex": 1,
+      "explanation": "Security of cash is a fundamental administrative responsibility."
+    },
+    {
+      "id": "adm-b2-w15-ex54",
+      "type": "gap-fill",
+      "prompt": "Express a current wish: 'I wish we ___ (have) an automated tracking system.'",
+      "validation": [
+        {
+          "rule": "had",
+          "isCorrect": true,
+          "message": "Correct! Past Simple for present wish."
+        }
+      ],
+      "explanation": "A present wish uses the past form of the verb."
+    },
+    {
+      "id": "adm-b2-w15-ex55",
+      "type": "multipleChoice",
+      "prompt": "What does a 'clean audit report' indicate?",
+      "options": [
+        "The office was clean when the auditors arrived",
+        "The financial records are accurate and follow all rules",
+        "The auditors found many mistakes but ignored them",
+        "The company has no more debts"
+      ],
+      "answerIndex": 1,
+      "explanation": "A clean report is a positive outcome showing compliance and accuracy."
+    },
+    {
+      "id": "adm-b2-w15-ex56",
+      "type": "multipleChoice",
+      "prompt": "An overspend caused by a printer breakdown is an example of:",
+      "options": [
+        "Poor planning",
+        "An unforeseen variable cost",
+        "A fixed cost increase",
+        "Capital expenditure"
+      ],
+      "answerIndex": 1,
+      "explanation": "Equipment failure is often an unpredictable variable expense."
+    },
+    {
+      "id": "adm-b2-w15-ex57",
+      "type": "multipleChoice",
+      "prompt": "What is a financial 'Forecast'?",
+      "options": [
+        "A report on last year's spending",
+        "A prediction of future spending and revenue",
+        "A type of bank tax",
+        "A list of company assets"
+      ],
+      "answerIndex": 1,
+      "explanation": "Forecasting helps in planning for future periods."
+    },
+    {
+      "id": "adm-b2-w15-ex58",
+      "type": "multipleChoice",
+      "prompt": "What does it mean 'to stay within budget'?",
+      "options": [
+        "To spend exactly the amount allocated or less",
+        "To spend more than the budget but justify it",
+        "To hide expenses in another category",
+        "To ask for a budget increase every month"
+      ],
+      "answerIndex": 0,
+      "explanation": "Staying within budget means not exceeding the financial limit."
+    },
+    {
+      "id": "adm-b2-w15-ex59",
+      "type": "multipleChoice",
+      "prompt": "Which department is primarily responsible for 'Cost Allocation' policies?",
+      "options": [
+        "Marketing",
+        "Finance",
+        "Logistics",
+        "Customer Support"
+      ],
+      "answerIndex": 1,
+      "explanation": "Finance sets the standards for how costs are shared across the company."
+    },
+    {
+      "id": "adm-b2-w15-ex60",
+      "type": "gap-fill",
+      "prompt": "Complete the past regret: 'If only I ___ (check) the VAT details before paying!'",
+      "validation": [
+        {
+          "rule": "had checked",
+          "isCorrect": true,
+          "message": "Correct! Past regret."
+        }
+      ],
+      "explanation": "Past regrets use 'had' + past participle."
+    },
+    {
+      "id": "adm-b2-w15-ex61",
+      "type": "multipleChoice",
+      "prompt": "What is a major advantage of Zero-Based Budgeting (ZBB)?",
+      "options": [
+        "It is very quick to complete",
+        "It eliminates redundant or obsolete costs by questioning every expense",
+        "It doesn't require any receipts",
+        "It allows for unlimited discretionary spend"
+      ],
+      "answerIndex": 1,
+      "explanation": "ZBB is effective at cutting waste because it assumes nothing is 'automatic'."
+    },
+    {
+      "id": "adm-b2-w15-ex62",
+      "type": "multipleChoice",
+      "prompt": "Incremental budgeting is often criticized because it encourages a ___ mentality.",
+      "options": [
+        "save money",
+        "spend it or lose it",
+        "wait and see",
+        "work harder"
+      ],
+      "answerIndex": 1,
+      "explanation": "Incremental budgets often lead departments to spend their remaining funds just to justify next year's budget."
+    },
+    {
+      "id": "adm-b2-w15-ex63",
+      "type": "multipleChoice",
+      "prompt": "In cash flow terms, 'Inflow' is:",
+      "options": [
+        "Money leaving the business",
+        "Money coming into the business",
+        "The number of new customers",
+        "The total value of office furniture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Inflow is the movement of cash into the company's accounts."
+    },
+    {
+      "id": "adm-b2-w15-ex64",
+      "type": "gap-fill",
+      "prompt": "Express a desire for change: 'I wish management ___ (be) more transparent about the cuts.'",
+      "validation": [
+        {
+          "rule": "would be",
+          "isCorrect": true,
+          "message": "Correct! 'Wish + would' for a desired change in others."
+        }
+      ],
+      "explanation": "Use 'would' to express a desire for others to change their behavior."
+    },
+    {
+      "id": "adm-b2-w15-ex65",
+      "type": "multipleChoice",
+      "prompt": "What does it mean to 'approve an invoice'?",
+      "options": [
+        "To write the invoice for a customer",
+        "To formally authorize the payment of a bill from a supplier",
+        "To delete a record from the ledger",
+        "To ask for a refund"
+      ],
+      "answerIndex": 1,
+      "explanation": "Approval is the formal authorization step in the accounts payable process."
+    },
+    {
+      "id": "adm-b2-w15-ex66",
+      "type": "multipleChoice",
+      "prompt": "According to the Digital Archives Proposal, why is the migration classified as CAPEX?\n\nExtract: 'Cost Classification: This is a one-time investment in infrastructure, therefore it is classified as CAPEX.'",
+      "options": [
+        "It is a monthly subscription",
+        "It is a one-time investment in infrastructure",
+        "It is for buying stationery",
+        "It is a variable operational cost"
+      ],
+      "answerIndex": 1,
+      "explanation": "The text explicitly links the classification to it being a 'one-time investment in infrastructure'."
+    },
+    {
+      "id": "adm-b2-w15-ex67",
+      "type": "multipleChoice",
+      "prompt": "According to the proposal, what risk is associated with delaying the project?\n\nExtract: 'Risk: If the migration is not completed by December, we will incur additional storage rental fees.'",
+      "options": [
+        "Lower electricity bills",
+        "Additional storage rental fees",
+        "The cloud server will be deleted",
+        "Staff will lose their bonuses"
+      ],
+      "answerIndex": 1,
+      "explanation": "The risk mentioned is the cost of 'additional storage rental fees'."
+    },
+    {
+      "id": "adm-b2-w15-ex68",
+      "type": "gap-fill",
+      "prompt": "Express a past regret: 'I wish I ___ (attend) the budget workshop last month.'",
+      "validation": [
+        {
+          "rule": "had attended",
+          "isCorrect": true,
+          "message": "Correct! Past regret."
+        }
+      ],
+      "explanation": "Use Past Perfect for things you didn't do in the past."
+    },
+    {
+      "id": "adm-b2-w15-ex69",
+      "type": "multipleChoice",
+      "prompt": "Which of these is NOT typically a cost center?",
+      "options": [
+        "Legal department",
+        "Facilities management",
+        "Revenue-generating Sales team",
+        "Internal Audit team"
+      ],
+      "answerIndex": 2,
+      "explanation": "A sales team that generates revenue is a profit center."
+    },
+    {
+      "id": "adm-b2-w15-ex70",
+      "type": "multipleChoice",
+      "prompt": "Which phrase is the most professional for requesting money for an emergency?",
+      "options": [
+        "We need cash fast.",
+        "We urgently need to request additional funding for emergency repairs.",
+        "The building is broken, please send money.",
+        "I wish the HVAC worked."
+      ],
+      "answerIndex": 1,
+      "explanation": "This phrase is formal, clear, and professional."
+    },
+    {
+      "id": "adm-b2-w15-ex71",
+      "type": "multipleChoice",
+      "prompt": "In petty cash, what is a 'Voucher'?",
+      "options": [
+        "A discount coupon for lunch",
+        "A document that proves and authorizes a small expenditure",
+        "A type of company car insurance",
+        "A recommendation letter"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vouchers are the internal receipts used to track petty cash use."
+    },
+    {
+      "id": "adm-b2-w15-ex72",
+      "type": "gap-fill",
+      "prompt": "Express a present wish: 'I wish the company ___ (have) more green policies.'",
+      "validation": [
+        {
+          "rule": "had",
+          "isCorrect": true,
+          "message": "Correct! Past Simple for present wish."
+        }
+      ],
+      "explanation": "Wishes about the present state use the past tense."
+    },
+    {
+      "id": "adm-b2-w15-ex73",
+      "type": "multipleChoice",
+      "prompt": "What does 'Budget slack' refer to?",
+      "options": [
+        "The budget being too tight",
+        "Intentionally overestimating expenses to provide a 'cushion'",
+        "A mistake in the bank statement",
+        "The time it takes to print a report"
+      ],
+      "answerIndex": 1,
+      "explanation": "Slack is 'extra room' built into a budget to make it easier to meet targets."
+    },
+    {
+      "id": "adm-b2-w15-ex74",
+      "type": "multipleChoice",
+      "prompt": "Which strategy is the best way for an admin to 'cut costs'?",
+      "options": [
+        "Stop paying for electricity",
+        "Implement a centralized procurement system for bulk-buy discounts",
+        "Delete all the files on the server",
+        "Work in the dark"
+      ],
+      "answerIndex": 1,
+      "explanation": "Centralized procurement saves money through economies of scale."
+    },
+    {
+      "id": "adm-b2-w15-ex75",
+      "type": "multipleChoice",
+      "prompt": "How do 'Reconciliation' and 'Variance Analysis' work together?",
+      "options": [
+        "They don't; they are separate processes",
+        "Reconciliation ensures records are accurate, which allows for valid variance analysis",
+        "Reconciliation is for CAPEX and Variance is for OPEX only",
+        "They both involve hiding money from the tax office"
+      ],
+      "answerIndex": 1,
+      "explanation": "You cannot analyze variances accurately if your basic records (reconciliation) are wrong."
     }
   ]
 }

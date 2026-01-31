@@ -70,6 +70,201 @@
       ],
       "answerIndex": 1,
       "explanation": "Intrinsic motivation comes from within the individual (e.g., pride in work, personal growth)."
+    },
+    {
+      "id": "adm-b2-w28-exam-6",
+      "type": "multipleChoice",
+      "prompt": "Which grammar structure is used for formal announcements of bad news?",
+      "options": [
+        "Regret + gerund",
+        "Regret + infinitive",
+        "Regret + past participle",
+        "Regret + base form"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Regret + infinitive' (e.g., I regret to inform you) is used for formal bad news in the present."
+    },
+    {
+      "id": "adm-b2-w28-exam-7",
+      "type": "multipleChoice",
+      "prompt": "What is 'Psychological Safety' in a team context?",
+      "options": [
+        "The presence of security guards in the office",
+        "A belief that one will not be punished for making a mistake or speaking up",
+        "The use of ergonomic chairs to prevent injury",
+        "Having a therapist available for the team"
+      ],
+      "answerIndex": 1,
+      "explanation": "Psychological safety is the shared belief that the team is safe for interpersonal risk-taking."
+    },
+    {
+      "id": "adm-b2-w28-exam-8",
+      "type": "multipleChoice",
+      "prompt": "Select the correct form: 'The company stopped ____ (hire) new staff during the recession.'",
+      "options": [
+        "to hire",
+        "hiring",
+        "hire",
+        "hired"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Stop + gerund' means to discontinue or end an activity."
+    },
+    {
+      "id": "adm-b2-w28-exam-9",
+      "type": "multipleChoice",
+      "prompt": "In Maslow's Hierarchy of Needs, which level is at the very top?",
+      "options": [
+        "Physiological needs",
+        "Safety needs",
+        "Esteem needs",
+        "Self-actualisation"
+      ],
+      "answerIndex": 3,
+      "explanation": "Self-actualisation (achieving one's full potential) is the peak of Maslow's hierarchy."
+    },
+    {
+      "id": "adm-b2-w28-exam-10",
+      "type": "multipleChoice",
+      "prompt": "In Tuckman's stages of group development, which stage is characterized by conflict and competition?",
+      "options": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "answerIndex": 1,
+      "explanation": "Storming is the stage where individual personalities clash and members vie for position."
+    },
+    {
+      "id": "adm-b2-w28-exam-11",
+      "type": "multipleChoice",
+      "prompt": "Choose the correct sentence: 'I forgot ____ (lock) the safe yesterday, so I am worried today.'",
+      "options": [
+        "locking",
+        "to lock",
+        "lock",
+        "locked"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Forget + infinitive' means you did not perform the task or duty."
+    },
+    {
+      "id": "adm-b2-w28-exam-12",
+      "type": "multipleChoice",
+      "prompt": "What is the core idea of 'Equity Theory'?",
+      "options": [
+        "Employees are motivated by owning company shares (equity)",
+        "Employees are motivated when they perceive their rewards as fair relative to others",
+        "Everyone should receive exactly the same salary",
+        "Motivation is purely based on physical survival"
+      ],
+      "answerIndex": 1,
+      "explanation": "Equity theory focuses on the perception of fairness and the ratio of effort to reward compared to peers."
+    },
+    {
+      "id": "adm-b2-w28-exam-13",
+      "type": "multipleChoice",
+      "prompt": "A 'Transformational' leader is primarily focused on:",
+      "options": [
+        "Micro-managing daily tasks",
+        "Punishing mistakes immediately",
+        "Inspiring the team with a shared vision",
+        "Maintaining the status quo"
+      ],
+      "answerIndex": 2,
+      "explanation": "Transformational leaders inspire and motivate by creating a vision and encouraging growth."
+    },
+    {
+      "id": "adm-b2-w28-exam-14",
+      "type": "multipleChoice",
+      "prompt": "Which term describes a state of physical and mental exhaustion caused by prolonged stress?",
+      "options": [
+        "Morale",
+        "Turnover",
+        "Burnout",
+        "Storming"
+      ],
+      "answerIndex": 2,
+      "explanation": "Burnout is the result of excessive and long-term stress, leading to a loss of motivation and energy."
+    },
+    {
+      "id": "adm-b2-w28-exam-15",
+      "type": "multipleChoice",
+      "prompt": "What is the purpose of a 'Culture Audit'?",
+      "options": [
+        "To check the company's bank accounts",
+        "To assess the values, beliefs, and behaviors within the organization",
+        "To count the number of computers in the office",
+        "To review the legal contracts with clients"
+      ],
+      "answerIndex": 1,
+      "explanation": "A culture audit assesses the 'health' of the organizational environment and values."
+    },
+    {
+      "id": "adm-b2-w28-exam-16",
+      "type": "multipleChoice",
+      "prompt": "A 'Democratic' leadership style is best described as:",
+      "options": [
+        "Hands-off, with no guidance",
+        "Authoritarian, with all decisions made by the leader",
+        "Consultative, involving the team in decision-making",
+        "Transactional, based only on rewards"
+      ],
+      "answerIndex": 2,
+      "explanation": "Democratic leaders encourage participation and value input from team members."
+    },
+    {
+      "id": "adm-b2-w28-exam-17",
+      "type": "multipleChoice",
+      "prompt": "Which of these is an 'intrinsic reward'?",
+      "options": [
+        "A monthly salary",
+        "A company car",
+        "A sense of accomplishment after a difficult task",
+        "A performance-based bonus"
+      ],
+      "answerIndex": 2,
+      "explanation": "Intrinsic rewards are internal and psychological, such as pride, satisfaction, or growth."
+    },
+    {
+      "id": "adm-b2-w28-exam-18",
+      "type": "multipleChoice",
+      "prompt": "In workplace wellbeing, what does 'signposting' mean?",
+      "options": [
+        "Putting up physical signs in the building",
+        "Directing employees to professional support or resources",
+        "Marking the exits in case of fire",
+        "Giving people difficult tasks without help"
+      ],
+      "answerIndex": 1,
+      "explanation": "Signposting is the act of pointing someone toward the correct resource or expert (e.g., HR, counseling)."
+    },
+    {
+      "id": "adm-b2-w28-exam-19",
+      "type": "multipleChoice",
+      "prompt": "An employee with a 'Growth Mindset' believes that:",
+      "options": [
+        "Their intelligence is fixed and cannot change",
+        "Skills can be developed through dedication and hard work",
+        "Failure is a sign that they should quit",
+        "They don't need to learn anything new"
+      ],
+      "answerIndex": 1,
+      "explanation": "A growth mindset is the belief that basic abilities can be developed through effort and learning."
+    },
+    {
+      "id": "adm-b2-w28-exam-20",
+      "type": "multipleChoice",
+      "prompt": "What is the primary goal of applying psychology in the workplace?",
+      "options": [
+        "To control employees' thoughts",
+        "To optimize performance and employee wellbeing",
+        "To reduce the number of employees",
+        "To avoid paying bonuses"
+      ],
+      "answerIndex": 1,
+      "explanation": "Organizational psychology aims to improve both the efficiency of the organization and the quality of life for employees."
     }
   ]
 }

@@ -1,208 +1,1064 @@
 {
-  "title": "Digital Operations Exercises",
-  "exercises": [
+  "goal": "administracion",
+  "level": "A1",
+  "trimester": 3,
+  "weekId": "semana25",
+  "title": "Exercises: Professional Email Basics",
+  "items": [
     {
-      "id": "ex1",
+      "id": "adm-a1-w25-ex01",
       "type": "multiple-choice",
-      "question": "Which action means putting money into your account?",
-      "options": ["Withdrawal", "Deposit", "Cancel", "Delete"],
-      "correctAnswer": 1,
-      "explanation": "A 'Deposit' is when you put money into your bank account."
+      "prompt": "What is the 'Subject line'?",
+      "options": [
+        "Your signature",
+        "The title of the email",
+        "The person who receives the email",
+        "An attachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "The subject line tells the receiver what the email is about."
     },
     {
-      "id": "ex2",
-      "type": "fill-in-the-blank",
-      "question": "Please ________ your 4-digit PIN on the keypad.",
-      "answer": "enter",
-      "explanation": "We use 'enter' for typing numbers or information into a machine."
+      "id": "adm-a1-w25-ex02",
+      "type": "multiple-choice",
+      "prompt": "Where do you write the main message?",
+      "options": [
+        "In the subject line",
+        "In the body",
+        "In the signature",
+        "In the attachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "The 'body' of the email contains the main content."
     },
     {
-      "id": "ex3",
-      "type": "vocabulary-match",
-      "question": "Match the ATM button to its function:",
+      "id": "adm-a1-w25-ex03",
+      "type": "multiple-choice",
+      "prompt": "What is the 'Inbox'?",
+      "options": [
+        "The folder for sent messages",
+        "The folder for received messages",
+        "The folder for deleted messages",
+        "The folder for unfinished messages"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Inbox is where you find your received emails."
+    },
+    {
+      "id": "adm-a1-w25-ex04",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a folder for unfinished emails?",
+      "options": [
+        "Sent",
+        "Inbox",
+        "Drafts",
+        "Trash"
+      ],
+      "answerIndex": 2,
+      "explanation": "Drafts are emails that you started but did not send yet."
+    },
+    {
+      "id": "adm-a1-w25-ex05",
+      "type": "multiple-choice",
+      "prompt": "What is an 'Attachment'?",
+      "options": [
+        "A formal greeting",
+        "A file sent with the email",
+        "The sender's name",
+        "A type of closing"
+      ],
+      "answerIndex": 1,
+      "explanation": "An attachment is a document or file included in the email."
+    },
+    {
+      "id": "adm-a1-w25-ex06",
+      "type": "multiple-choice",
+      "prompt": "How do you call the greeting at the start of an email?",
+      "options": [
+        "Closing",
+        "Body",
+        "Salutation",
+        "Subject"
+      ],
+      "answerIndex": 2,
+      "explanation": "Salutation is the formal word for a greeting."
+    },
+    {
+      "id": "adm-a1-w25-ex07",
+      "type": "multiple-choice",
+      "prompt": "Which folder contains emails you have already mailed?",
+      "options": [
+        "Inbox",
+        "Drafts",
+        "Sent",
+        "Spam"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'Sent' folder stores messages you have mailed."
+    },
+    {
+      "id": "adm-a1-w25-ex08",
+      "type": "multiple-choice",
+      "prompt": "What is 'Reply' used for?",
+      "options": [
+        "To delete an email",
+        "To answer an email",
+        "To send to a new person",
+        "To create a new folder"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Reply' is used to write back to the sender."
+    },
+    {
+      "id": "adm-a1-w25-ex09",
+      "type": "multiple-choice",
+      "prompt": "What is 'Forward' used for?",
+      "options": [
+        "To answer the sender",
+        "To send the email to a new recipient",
+        "To save as a draft",
+        "To change the subject"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Forward' sends the message to another person."
+    },
+    {
+      "id": "adm-a1-w25-ex10",
+      "type": "multiple-choice",
+      "prompt": "Where is your name and contact info located?",
+      "options": [
+        "In the Subject line",
+        "In the Salutation",
+        "In the Signature",
+        "In the Attachment"
+      ],
+      "answerIndex": 2,
+      "explanation": "The signature at the end contains your professional details."
+    },
+    {
+      "id": "adm-a1-w25-ex11",
+      "type": "multiple-choice",
+      "prompt": "Which of these is a common 'Closing'?",
+      "options": [
+        "Dear Mr. Smith",
+        "Best regards",
+        "Hi there",
+        "Subject: Meeting"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Best regards' is a standard professional closing."
+    },
+    {
+      "id": "adm-a1-w25-ex12",
+      "type": "multiple-choice",
+      "prompt": "What does 'CC' mean in an email?",
+      "options": [
+        "Company Contact",
+        "Carbon Copy",
+        "Correct Closing",
+        "Central Communications"
+      ],
+      "answerIndex": 1,
+      "explanation": "CC stands for Carbon Copy, used to send a copy to someone else."
+    },
+    {
+      "id": "adm-a1-w25-ex13",
+      "type": "multiple-choice",
+      "prompt": "Which one is a formal salutation?",
+      "options": [
+        "Hey!",
+        "Dear Ms. Jones,",
+        "What's up?",
+        "Bye bye"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Dear [Name]' is the most formal way to start a professional email."
+    },
+    {
+      "id": "adm-a1-w25-ex14",
+      "type": "multiple-choice",
+      "prompt": "The 'Recipient' is the person who:",
+      "options": [
+        "Sends the email",
+        "Receives the email",
+        "Writes the email",
+        "Deletes the email"
+      ],
+      "answerIndex": 1,
+      "explanation": "The recipient is the 'To:' person in the email."
+    },
+    {
+      "id": "adm-a1-w25-ex15",
+      "type": "multiple-choice",
+      "prompt": "What should the 'Subject line' be?",
+      "options": [
+        "Long and detailed",
+        "Short and clear",
+        "Blank",
+        "A full paragraph"
+      ],
+      "answerIndex": 1,
+      "explanation": "Professional subject lines must be concise and descriptive."
+    },
+    {
+      "id": "adm-a1-w25-ex16",
+      "type": "multiple-choice",
+      "prompt": "Complete: 'Please ________ the attached file.'",
+      "options": [
+        "open",
+        "find",
+        "write",
+        "both A and B"
+      ],
+      "answerIndex": 3,
+      "explanation": "You can ask someone to 'find' or 'open' an attachment."
+    },
+    {
+      "id": "adm-a1-w25-ex17",
+      "type": "multiple-choice",
+      "prompt": "Which is an informal closing?",
+      "options": [
+        "Sincerely",
+        "Yours faithfully",
+        "Cheers",
+        "Respectfully"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Cheers' is used in informal or friendly business emails."
+    },
+    {
+      "id": "adm-a1-w25-ex18",
+      "type": "multiple-choice",
+      "prompt": "When do you use 'Dear Sir/Madam'?",
+      "options": [
+        "When you know the person well",
+        "When you don't know the name of the person",
+        "In an internal memo",
+        "To your boss"
+      ],
+      "answerIndex": 1,
+      "explanation": "Use 'Dear Sir/Madam' if you don't have a specific contact name."
+    },
+    {
+      "id": "adm-a1-w25-ex19",
+      "type": "multiple-choice",
+      "prompt": "The 'BCC' field is used to:",
+      "options": [
+        "Send to a group visible to all",
+        "Send a blind copy (hidden from others)",
+        "Attach large files",
+        "Set the priority to high"
+      ],
+      "answerIndex": 1,
+      "explanation": "BCC (Blind Carbon Copy) hides recipients from each other."
+    },
+    {
+      "id": "adm-a1-w25-ex20",
+      "type": "multiple-choice",
+      "prompt": "What is a 'Thread' in email?",
+      "options": [
+        "A single message",
+        "A series of connected messages (conversation)",
+        "The trash folder",
+        "A type of attachment"
+      ],
+      "answerIndex": 1,
+      "explanation": "An email thread is the history of the conversation."
+    },
+    {
+      "id": "adm-a1-w25-ex21",
+      "type": "multiple-choice",
+      "prompt": "Choose the correct spelling:",
+      "options": [
+        "Attachement",
+        "Atachment",
+        "Attachment",
+        "Atachmint"
+      ],
+      "answerIndex": 2,
+      "explanation": "The correct spelling is A-T-T-A-C-H-M-E-N-T."
+    },
+    {
+      "id": "adm-a1-w25-ex22",
+      "type": "multiple-choice",
+      "prompt": "What does 'ASAP' mean in an email?",
+      "options": [
+        "As soon as possible",
+        "Always send all papers",
+        "After some additional people",
+        "At seven after past"
+      ],
+      "answerIndex": 0,
+      "explanation": "ASAP is a common acronym for 'as soon as possible'."
+    },
+    {
+      "id": "adm-a1-w25-ex23",
+      "type": "multiple-choice",
+      "prompt": "Identify the 'Salutation':",
+      "options": [
+        "Thanks,",
+        "Dear Team,",
+        "Subject: News",
+        "Sent from my iPhone"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Dear Team' is a group salutation."
+    },
+    {
+      "id": "adm-a1-w25-ex24",
+      "type": "multiple-choice",
+      "prompt": "Where is the '@' symbol used?",
+      "options": [
+        "In the Subject line",
+        "In the email address",
+        "In the signature",
+        "Only in attachments"
+      ],
+      "answerIndex": 1,
+      "explanation": "The '@' (at) symbol is essential for email addresses."
+    },
+    {
+      "id": "adm-a1-w25-ex25",
+      "type": "multiple-choice",
+      "prompt": "What is 'Spam'?",
+      "options": [
+        "Important work emails",
+        "Unwanted or junk emails",
+        "Personal messages",
+        "Encrypted files"
+      ],
+      "answerIndex": 1,
+      "explanation": "Spam refers to unsolicited commercial or junk mail."
+    },
+    {
+      "id": "adm-a1-w25-ex26",
+      "type": "multiple-choice",
+      "prompt": "Which button creates a NEW message?",
+      "options": [
+        "Reply",
+        "Forward",
+        "Compose",
+        "Archive"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Compose' (or 'New Email') is the button to start a fresh message."
+    },
+    {
+      "id": "adm-a1-w25-ex27",
+      "type": "multiple-choice",
+      "prompt": "What is the 'Footer' of an email?",
+      "options": [
+        "The subject line",
+        "The top part",
+        "The bottom part (signature area)",
+        "The attachment name"
+      ],
+      "answerIndex": 2,
+      "explanation": "The footer is the area at the bottom of the email."
+    },
+    {
+      "id": "adm-a1-w25-ex28",
+      "type": "multiple-choice",
+      "prompt": "Which is more formal?",
+      "options": [
+        "Hi John",
+        "Dear Mr. Smith",
+        "Hello all",
+        "B and C are equal"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Dear [Title] [Last Name]' is the most formal."
+    },
+    {
+      "id": "adm-a1-w25-ex29",
+      "type": "multiple-choice",
+      "prompt": "What is 'Out of Office' (OOO)?",
+      "options": [
+        "A meeting location",
+        "An automatic reply when you are away",
+        "A type of spam",
+        "A signature style"
+      ],
+      "answerIndex": 1,
+      "explanation": "OOO is an automated message when you are on vacation or away."
+    },
+    {
+      "id": "adm-a1-w25-ex30",
+      "type": "multiple-choice",
+      "prompt": "How do you say '.' in an email address?",
+      "options": [
+        "Point",
+        "Dot",
+        "Stop",
+        "Comma"
+      ],
+      "answerIndex": 1,
+      "explanation": "In email/web contexts, we say 'dot'."
+    },
+    {
+      "id": "adm-a1-w25-ex31",
+      "type": "fill-in-the-blanks",
+      "prompt": "The ________ (asunto) of the email is 'Project Update'.",
+      "correctAnswer": "subject",
+      "explanation": "'Subject' translates to 'asunto' in the context of emails."
+    },
+    {
+      "id": "adm-a1-w25-ex32",
+      "type": "fill-in-the-blanks",
+      "prompt": "I am sending a PDF ________ (archivo adjunto).",
+      "correctAnswer": "attachment",
+      "explanation": "'Attachment' is the standard term for a file sent with an email."
+    },
+    {
+      "id": "adm-a1-w25-ex33",
+      "type": "fill-in-the-blanks",
+      "prompt": "Please ________ (responder) to this message by Friday.",
+      "correctAnswer": "reply",
+      "explanation": "'Reply' is the action of answering an email."
+    },
+    {
+      "id": "adm-a1-w25-ex34",
+      "type": "fill-in-the-blanks",
+      "prompt": "Check your ________ (bandeja de entrada) for new messages.",
+      "correctAnswer": "inbox",
+      "explanation": "The 'inbox' is where received emails arrive."
+    },
+    {
+      "id": "adm-a1-w25-ex35",
+      "type": "fill-in-the-blanks",
+      "prompt": "Your professional ________ (firma) should include your phone number.",
+      "correctAnswer": "signature",
+      "explanation": "The 'signature' is the contact block at the end of an email."
+    },
+    {
+      "id": "adm-a1-w25-ex36",
+      "type": "fill-in-the-blanks",
+      "prompt": "Can you ________ (reenviar) this email to the manager?",
+      "correctAnswer": "forward",
+      "explanation": "'Forward' means sending an existing email to a third person."
+    },
+    {
+      "id": "adm-a1-w25-ex37",
+      "type": "fill-in-the-blanks",
+      "prompt": "I have an unfinished email in my ________ (borradores).",
+      "correctAnswer": "drafts",
+      "explanation": "'Drafts' are saved but unsent messages."
+    },
+    {
+      "id": "adm-a1-w25-ex38",
+      "type": "fill-in-the-blanks",
+      "prompt": "The email ________ (cuerpo) contains the main details.",
+      "correctAnswer": "body",
+      "explanation": "The 'body' is the main text area of the email."
+    },
+    {
+      "id": "adm-a1-w25-ex39",
+      "type": "fill-in-the-blanks",
+      "prompt": "Don't forget the ________ (saludo) like 'Dear Mr. Brown'.",
+      "correctAnswer": "salutation",
+      "explanation": "Salutation (or greeting) is the start of the email."
+    },
+    {
+      "id": "adm-a1-w25-ex40",
+      "type": "fill-in-the-blanks",
+      "prompt": "Click '________' (redactar) to start a new message.",
+      "correctAnswer": "compose",
+      "explanation": "'Compose' is the button used to create a new email."
+    },
+    {
+      "id": "adm-a1-w25-ex41",
+      "type": "fill-in-the-blanks",
+      "prompt": "Type the ________ (dirección) of the recipient in the 'To' field.",
+      "correctAnswer": "address",
+      "explanation": "You need the email 'address' to send a message."
+    },
+    {
+      "id": "adm-a1-w25-ex42",
+      "type": "fill-in-the-blanks",
+      "prompt": "Wait, I need to ________ (borrar) this junk mail.",
+      "correctAnswer": "delete",
+      "explanation": "'Delete' removes the email from your inbox."
+    },
+    {
+      "id": "adm-a1-w25-ex43",
+      "type": "fill-in-the-blanks",
+      "prompt": "The ________ (carpeta) for deleted items is the Trash.",
+      "correctAnswer": "folder",
+      "explanation": "'Folder' is a directory in your email account."
+    },
+    {
+      "id": "adm-a1-w25-ex44",
+      "type": "fill-in-the-blanks",
+      "prompt": "I will ________ (enviar) the report now.",
+      "correctAnswer": "send",
+      "explanation": "'Send' is the verb for mailing the message."
+    },
+    {
+      "id": "adm-a1-w25-ex45",
+      "type": "fill-in-the-blanks",
+      "prompt": "'Best regards' is a professional ________ (despedida).",
+      "correctAnswer": "closing",
+      "explanation": "A 'closing' ends the email professionally."
+    },
+    {
+      "id": "adm-a1-w25-ex46",
+      "type": "matching",
+      "prompt": "Match the email parts with their Spanish meanings:",
       "pairs": [
-        { "term": "Confirm", "definition": "Accept the transaction" },
-        { "term": "Cancel", "definition": "Stop the operation" },
-        { "term": "Correction", "definition": "Fix a mistake" }
+        { "term": "Subject line", "definition": "Línea de asunto" },
+        { "term": "Attachment", "definition": "Archivo adjunto" },
+        { "term": "Body", "definition": "Cuerpo del mensaje" },
+        { "term": "Signature", "definition": "Firma" }
+      ],
+      "explanation": "These are the main structural components of a professional email."
+    },
+    {
+      "id": "adm-a1-w25-ex47",
+      "type": "matching",
+      "prompt": "Match the folders with their content:",
+      "pairs": [
+        { "term": "Inbox", "definition": "Received emails" },
+        { "term": "Sent", "definition": "Mailed emails" },
+        { "term": "Drafts", "definition": "Unfinished emails" },
+        { "term": "Trash", "definition": "Deleted emails" }
+      ],
+      "explanation": "Each folder has a specific function in email management."
+    },
+    {
+      "id": "adm-a1-w25-ex48",
+      "type": "matching",
+      "prompt": "Match the actions with their purpose:",
+      "pairs": [
+        { "term": "Reply", "definition": "Answer the sender" },
+        { "term": "Forward", "definition": "Send to a new person" },
+        { "term": "Compose", "definition": "Start a new message" },
+        { "term": "Archive", "definition": "Save for later" }
+      ],
+      "explanation": "These verbs describe common email actions."
+    },
+    {
+      "id": "adm-a1-w25-ex49",
+      "type": "matching",
+      "prompt": "Match the salutations with the context:",
+      "pairs": [
+        { "term": "Dear Mr. Smith", "definition": "Formal" },
+        { "term": "Hi John", "definition": "Informal/Internal" },
+        { "term": "Dear Sir/Madam", "definition": "Name unknown" },
+        { "term": "Hello Team", "definition": "Group message" }
+      ],
+      "explanation": "Salutations change based on formality and the recipient."
+    },
+    {
+      "id": "adm-a1-w25-ex50",
+      "type": "matching",
+      "prompt": "Match the closings with their style:",
+      "pairs": [
+        { "term": "Sincerely", "definition": "Very formal" },
+        { "term": "Best regards", "definition": "Standard professional" },
+        { "term": "Cheers", "definition": "Casual" },
+        { "term": "Thanks", "definition": "Neutral/Brief" }
+      ],
+      "explanation": "Closings should match the tone of the entire email."
+    },
+    {
+      "id": "adm-a1-w25-ex51",
+      "type": "matching",
+      "prompt": "Match the abbreviations with their meanings:",
+      "pairs": [
+        { "term": "ASAP", "definition": "As soon as possible" },
+        { "term": "CC", "definition": "Carbon Copy" },
+        { "term": "BCC", "definition": "Blind Carbon Copy" },
+        { "term": "FYI", "definition": "For your information" }
+      ],
+      "explanation": "Abbreviations are common in professional email shorthand."
+    },
+    {
+      "id": "adm-a1-w25-ex52",
+      "type": "matching",
+      "prompt": "Match the punctuation with its email term:",
+      "pairs": [
+        { "term": "@", "definition": "At" },
+        { "term": ".", "definition": "Dot" },
+        { "term": "-", "definition": "Hyphen/Dash" },
+        { "term": "_", "definition": "Underscore" }
+      ],
+      "explanation": "Correct pronunciation of symbols is important for sharing email addresses."
+    },
+    {
+      "id": "adm-a1-w25-ex53",
+      "type": "matching",
+      "prompt": "Match the email fields with what you enter:",
+      "pairs": [
+        { "term": "To", "definition": "Main recipient" },
+        { "term": "Subject", "definition": "Title/Topic" },
+        { "term": "BCC", "definition": "Hidden recipient" },
+        { "term": "Attachment", "definition": "File/Document" }
+      ],
+      "explanation": "These fields define the metadata of the email."
+    },
+    {
+      "id": "adm-a1-w25-ex54",
+      "type": "matching",
+      "prompt": "Match the email statuses:",
+      "pairs": [
+        { "term": "Unread", "definition": "New message" },
+        { "term": "Read", "definition": "Opened message" },
+        { "term": "Flagged", "definition": "Important message" },
+        { "term": "Junk", "definition": "Spam message" }
+      ],
+      "explanation": "Icons and labels help organize your inbox by status."
+    },
+    {
+      "id": "adm-a1-w25-ex55",
+      "type": "matching",
+      "prompt": "Match the professional roles with typical email needs:",
+      "pairs": [
+        { "term": "Accountant", "definition": "Sends invoices" },
+        { "term": "Manager", "definition": "Schedules meetings" },
+        { "term": "IT Support", "definition": "Fixes email issues" },
+        { "term": "Assistant", "definition": "Organizes the inbox" }
+      ],
+      "explanation": "Email is a tool used differently by different professionals."
+    },
+    {
+      "id": "adm-a1-w25-ex56",
+      "type": "reading",
+      "title": "A New Email",
+      "text": "From: sarah.lee@office.com\nTo: mark.jones@office.com\nSubject: Project Report\n\nDear Mark,\n\nPlease find the project report attached to this email. Let me know if you have any questions.\n\nBest regards,\nSarah Lee\nAdministrator",
+      "questions": [
+        {
+          "question": "What is the subject of the email?",
+          "options": ["Sarah Lee", "Project Report", "Office questions"],
+          "answerIndex": 1,
+          "explanation": "The 'Subject' line clearly states 'Project Report'."
+        },
+        {
+          "question": "Who is the recipient?",
+          "options": ["Sarah Lee", "Mark Jones", "Administrator"],
+          "answerIndex": 1,
+          "explanation": "The email is addressed 'To: mark.jones@office.com'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Attached", "definition": "Adjunto" },
+        { "term": "Recipient", "definition": "Destinatario" }
       ]
     },
     {
-      "id": "ex4",
-      "type": "multiple-choice",
-      "question": "What is a 'Cardless Withdrawal'?",
-      "options": ["Using a paper check", "Taking cash using a QR code", "Buying things online", "Asking a teller for money"],
-      "correctAnswer": 1,
-      "explanation": "A cardless withdrawal uses an app (often with a QR code) instead of a physical card."
-    },
-    {
-      "id": "ex5",
-      "type": "fill-in-the-blank",
-      "question": "________ your card into the slot to start.",
-      "answer": "insert",
-      "explanation": "You 'insert' a card into the ATM machine."
-    },
-    {
-      "id": "ex6",
-      "type": "multiple-choice",
-      "question": "If you want to see how much money you have, you check your...",
-      "options": ["PIN", "Balance", "Slot", "NFC"],
-      "correctAnswer": 1,
-      "explanation": "The 'Balance' is the total amount of money in your account."
-    },
-    {
-      "id": "ex7",
-      "type": "vocabulary-match",
-      "question": "Match the UI terms:",
-      "pairs": [
-        { "term": "Screen", "definition": "The visual display" },
-        { "term": "Keypad", "definition": "The buttons for numbers" },
-        { "term": "Slot", "definition": "The opening for the card" }
+      "id": "adm-a1-w25-ex57",
+      "type": "reading",
+      "title": "Email Management",
+      "text": "John is very busy today. His inbox has 50 unread messages. He needs to reply to his boss first. Then, he must forward the invoice to the accounting department. Finally, he will delete the spam messages.",
+      "questions": [
+        {
+          "question": "What is John's first task?",
+          "options": ["Forward an invoice", "Reply to his boss", "Delete spam"],
+          "answerIndex": 1,
+          "explanation": "The text says he needs to reply to his boss first."
+        },
+        {
+          "question": "How many new messages does he have?",
+          "options": ["15", "50", "Unknown"],
+          "answerIndex": 1,
+          "explanation": "He has 50 'unread' (new) messages."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Unread", "definition": "No leído" },
+        { "term": "Invoice", "definition": "Factura" }
       ]
     },
     {
-      "id": "ex8",
-      "type": "fill-in-the-blank",
-      "question": "Don't ________ your PIN with anyone. It is a secret!",
-      "answer": "share",
-      "explanation": "For security, you must never share your PIN."
-    },
-    {
-      "id": "ex9",
-      "type": "multiple-choice",
-      "question": "What does 'Remove your card' mean?",
-      "options": ["Put the card inside", "Take the card out", "Clean the card", "Destroy the card"],
-      "correctAnswer": 1,
-      "explanation": "'Remove' means to take something out."
-    },
-    {
-      "id": "ex10",
-      "type": "fill-in-the-blank",
-      "question": "I want to ________ $50 from the ATM.",
-      "answer": "withdraw",
-      "explanation": "'Withdraw' is the verb for taking money out."
-    },
-    {
-      "id": "ex11",
-      "type": "vocabulary-match",
-      "question": "Match the technology terms:",
-      "pairs": [
-        { "term": "QR Code", "definition": "A square barcode to scan" },
-        { "term": "NFC", "definition": "Tap your phone or card" },
-        { "term": "Biometrics", "definition": "Fingerprint or face ID" }
+      "id": "adm-a1-w25-ex58",
+      "type": "reading",
+      "title": "Drafting an Email",
+      "text": "When you write a professional email, always start with a salutation. Use 'Dear' for formal messages. Write the main information in the body. End with a closing like 'Best regards'. Finally, add your signature with your name and job title.",
+      "questions": [
+        {
+          "question": "What should you use for formal messages?",
+          "options": ["Hi", "Hey", "Dear"],
+          "answerIndex": 2,
+          "explanation": "The text recommends 'Dear' for formal messages."
+        },
+        {
+          "question": "Where do you put your name and job title?",
+          "options": ["Subject line", "Body", "Signature"],
+          "answerIndex": 2,
+          "explanation": "The signature contains your name and title."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Salutation", "definition": "Saludo" },
+        { "term": "Job title", "definition": "Cargo/Puesto" }
       ]
     },
     {
-      "id": "ex12",
-      "type": "multiple-choice",
-      "question": "Choose the correct instruction for an ATM:",
-      "options": ["Select the amount", "Selecting the amount", "You select the amount", "To select the amount"],
-      "correctAnswer": 0,
-      "explanation": "Instructions use the imperative form (base verb)."
-    },
-    {
-      "id": "ex13",
-      "type": "fill-in-the-blank",
-      "question": "Please ________ a moment while we process your request.",
-      "answer": "wait",
-      "explanation": "'Wait' is the imperative for 'esperar'."
-    },
-    {
-      "id": "ex14",
-      "type": "multiple-choice",
-      "question": "Where can you see your recent transactions?",
-      "options": ["In the PIN", "In the history", "In the slot", "In the keypad"],
-      "correctAnswer": 1,
-      "explanation": "The 'Transaction History' shows your recent activity."
-    },
-    {
-      "id": "ex15",
-      "type": "vocabulary-match",
-      "question": "Match the opposites:",
-      "pairs": [
-        { "term": "Deposit", "definition": "Withdraw" },
-        { "term": "Insert", "definition": "Remove" },
-        { "term": "Confirm", "definition": "Cancel" }
+      "id": "adm-a1-w25-ex59",
+      "type": "reading",
+      "title": "The Wrong Address",
+      "text": "Alice sent an email to bob@office.con. The email did not arrive because the address was wrong. It should be bob@office.com. Alice needs to check the 'Sent' folder and resend the message correctly.",
+      "questions": [
+        {
+          "question": "Why did the email not arrive?",
+          "options": ["Bob is busy", "The address was wrong", "There was no attachment"],
+          "answerIndex": 1,
+          "explanation": "She wrote '.con' instead of '.com'."
+        },
+        {
+          "question": "Where can Alice find the email she tried to send?",
+          "options": ["Inbox", "Sent folder", "Trash"],
+          "answerIndex": 1,
+          "explanation": "Emails you attempt to send are stored in the 'Sent' folder."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Wrong", "definition": "Incorrecto" },
+        { "term": "Resend", "definition": "Volver a enviar" }
       ]
     },
     {
-      "id": "ex16",
-      "type": "fill-in-the-blank",
-      "question": "I made a mistake. I need to press ________.",
-      "answer": "correction",
-      "explanation": "The 'Correction' or 'Clear' button fixes typing errors."
-    },
-    {
-      "id": "ex17",
-      "type": "multiple-choice",
-      "question": "How do you say 'Comprobante' or 'Recibo'?",
-      "options": ["Ticket", "Receipt", "Paper", "Note"],
-      "correctAnswer": 1,
-      "explanation": "'Receipt' is the document that proves a transaction."
-    },
-    {
-      "id": "ex18",
-      "type": "fill-in-the-blank",
-      "question": "The ATM says: '________ your cash now.'",
-      "answer": "take",
-      "explanation": "The machine tells you to 'take' the money."
-    },
-    {
-      "id": "ex19",
-      "type": "multiple-choice",
-      "question": "A '4-digit PIN' has how many numbers?",
-      "options": ["Two", "Four", "Six", "Eight"],
-      "correctAnswer": 1,
-      "explanation": "A 4-digit PIN has 4 numbers (e.g., 1234)."
-    },
-    {
-      "id": "ex20",
-      "type": "vocabulary-match",
-      "question": "Match the actions to the UI:",
-      "pairs": [
-        { "term": "Tap", "definition": "NFC / Contactless" },
-        { "term": "Type", "definition": "Keypad" },
-        { "term": "Scan", "definition": "QR Code" }
+      "id": "adm-a1-w25-ex60",
+      "type": "reading",
+      "title": "Email Security",
+      "text": "Be careful with your email password. Never share it with anyone. If you receive a strange email with an attachment from a stranger, do not open it. It could be a virus. Delete it immediately and report it as spam.",
+      "questions": [
+        {
+          "question": "Should you share your password?",
+          "options": ["Yes, with colleagues", "No, never", "Only with the boss"],
+          "answerIndex": 1,
+          "explanation": "The text says 'Never share it with anyone'."
+        },
+        {
+          "question": "What should you do with a strange attachment?",
+          "options": ["Open it", "Do not open it", "Forward it"],
+          "answerIndex": 1,
+          "explanation": "You should not open strange attachments to avoid viruses."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Share", "definition": "Compartir" },
+        { "term": "Stranger", "definition": "Desconocido" }
       ]
     },
     {
-      "id": "ex21",
-      "type": "fill-in-the-blank",
-      "question": "Do ________ leave your receipt in the ATM.",
-      "answer": "not",
-      "explanation": "We use 'Do not' or 'Don't' for negative instructions."
-    },
-    {
-      "id": "ex22",
-      "type": "multiple-choice",
-      "question": "What is the best way to check your balance at night?",
-      "options": ["Go to the bank office", "Use the mobile app", "Call a friend", "Write a letter"],
-      "correctAnswer": 1,
-      "explanation": "Apps are available 24/7 for balance checks."
-    },
-    {
-      "id": "ex23",
-      "type": "fill-in-the-blank",
-      "question": "Enter your PIN ________. Don't let others see.",
-      "answer": "carefully",
-      "explanation": "'Carefully' is an adverb describing how to enter the PIN safely."
-    },
-    {
-      "id": "ex24",
-      "type": "vocabulary-match",
-      "question": "ATM Screen Options:",
-      "pairs": [
-        { "term": "Quick Cash", "definition": "Withdraw a standard amount" },
-        { "term": "Other amounts", "definition": "Choose a specific number" },
-        { "term": "Exit", "definition": "End the session" }
+      "id": "adm-a1-w25-ex61",
+      "type": "reading",
+      "title": "The CC Field",
+      "text": "I am sending the invoice to the client. I am also putting my manager in the CC field. This way, my manager can see the email too. The client is the main recipient, and the manager receives a copy.",
+      "questions": [
+        {
+          "question": "Who is the main recipient?",
+          "options": ["The manager", "The client", "The accountant"],
+          "answerIndex": 1,
+          "explanation": "The text says 'sending... to the client'."
+        },
+        {
+          "question": "Why is the manager in the CC field?",
+          "options": ["To hide the email", "To receive a copy", "To pay the invoice"],
+          "answerIndex": 1,
+          "explanation": "CC is used to send a copy to another person."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Field", "definition": "Campo" },
+        { "term": "Copy", "definition": "Copia" }
       ]
     },
     {
-      "id": "ex25",
-      "type": "multiple-choice",
-      "question": "If you lose your card, you should...",
-      "options": ["Wait a week", "Freeze it in the app", "Tell a neighbor", "Do nothing"],
-      "correctAnswer": 1,
-      "explanation": "Freezing or blocking the card in the app is the fastest security step."
+      "id": "adm-a1-w25-ex62",
+      "type": "reading",
+      "title": "Subject Line Importance",
+      "text": "A good subject line is very important. It helps the receiver understand the message quickly. For example, use 'Meeting at 10 AM' instead of just 'Hello'. If the subject is clear, people open the email faster.",
+      "questions": [
+        {
+          "question": "What is the benefit of a good subject line?",
+          "options": ["It looks pretty", "It helps the receiver understand quickly", "It saves space"],
+          "answerIndex": 1,
+          "explanation": "A clear subject line communicates the topic immediately."
+        },
+        {
+          "question": "Which subject line is better?",
+          "options": ["Hello", "Question", "Meeting at 10 AM"],
+          "answerIndex": 2,
+          "explanation": "'Meeting at 10 AM' is specific and professional."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Receiver", "definition": "Receptor" },
+        { "term": "Quickly", "definition": "Rápidamente" }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex63",
+      "type": "reading",
+      "title": "Automated Replies",
+      "text": "When employees go on vacation, they set an 'Out of Office' reply. This is an automatic message. It tells people: 'I am not in the office. I will reply when I return.' It usually includes the date of return.",
+      "questions": [
+        {
+          "question": "When do you use an 'Out of Office' reply?",
+          "options": ["When you are busy", "When you are on vacation", "Every morning"],
+          "answerIndex": 1,
+          "explanation": "It is used when you are away from work."
+        },
+        {
+          "question": "What information does it usually include?",
+          "options": ["Your password", "Your home address", "The date of return"],
+          "answerIndex": 2,
+          "explanation": "It informs others when you will be back."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Automatic", "definition": "Automático" },
+        { "term": "Return", "definition": "Regreso" }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex64",
+      "type": "reading",
+      "title": "Email Signatures",
+      "text": "Company policy requires a standard signature. It must have your full name, your job title, the company logo, and your phone number. Do not use informal colors or many different fonts. Keep it professional and simple.",
+      "questions": [
+        {
+          "question": "What must be included in the signature?",
+          "options": ["Your favorite hobby", "Your phone number", "Your home photo"],
+          "answerIndex": 1,
+          "explanation": "Phone number is listed as a requirement."
+        },
+        {
+          "question": "How should the signature look?",
+          "options": ["Colorful and complex", "Professional and simple", "No signature needed"],
+          "answerIndex": 1,
+          "explanation": "The text advises to 'Keep it professional and simple'."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Policy", "definition": "Política/Norma" },
+        { "term": "Fonts", "definition": "Fuentes/Letras" }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex65",
+      "type": "reading",
+      "title": "The Forward Action",
+      "text": "I received an email from a client with a technical problem. I don't know the answer. I will forward the email to the IT department. They can help the client better than me.",
+      "questions": [
+        {
+          "question": "Why is the person forwarding the email?",
+          "options": ["Because they are lazy", "Because they don't know the answer", "To delete the email"],
+          "answerIndex": 1,
+          "explanation": "The sender forwards it to someone who can solve the problem."
+        },
+        {
+          "question": "Who will receive the forwarded email?",
+          "options": ["The client", "The IT department", "The manager"],
+          "answerIndex": 1,
+          "explanation": "The email is being sent to IT."
+        }
+      ],
+      "vocabulary": [
+        { "term": "Technical", "definition": "Técnico" },
+        { "term": "Forward", "definition": "Reenviar" }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex66",
+      "type": "listening",
+      "title": "Listening: Checking the Inbox",
+      "transcript": "Speaker: Hi Maria, did you check the inbox? We have a new email from the director. The subject is 'Emergency Meeting'. Please reply to him immediately.",
+      "questions": [
+        {
+          "question": "Who sent the new email?",
+          "options": ["Maria", "The director", "The assistant"],
+          "answerIndex": 1,
+          "explanation": "The transcript says 'from the director'."
+        },
+        {
+          "question": "What is the subject of the email?",
+          "options": ["Project Update", "Emergency Meeting", "Holiday"],
+          "answerIndex": 1,
+          "explanation": "The subject is explicitly mentioned as 'Emergency Meeting'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex67",
+      "type": "listening",
+      "title": "Listening: Sending an Attachment",
+      "transcript": "Speaker: Hello, this is David. I am sending you the contract now. I am attaching it as a PDF. Please confirm when you receive the attachment.",
+      "questions": [
+        {
+          "question": "What is David sending?",
+          "options": ["An invoice", "A contract", "A photo"],
+          "answerIndex": 1,
+          "explanation": "David says 'I am sending you the contract'."
+        },
+        {
+          "question": "In what format is the file?",
+          "options": ["Word", "PDF", "Excel"],
+          "answerIndex": 1,
+          "explanation": "He mentions 'attaching it as a PDF'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex68",
+      "type": "listening",
+      "title": "Listening: Forwarding a Message",
+      "transcript": "Speaker: Oh, I see an email from the HR department. It's about the new office rules. I will forward it to the whole team so everyone can read it.",
+      "questions": [
+        {
+          "question": "Which department sent the email?",
+          "options": ["Accounting", "HR", "Sales"],
+          "answerIndex": 1,
+          "explanation": "The speaker mentions the 'HR department'."
+        },
+        {
+          "question": "What will the speaker do with the email?",
+          "options": ["Delete it", "Forward it", "Reply to it"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'I will forward it'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex69",
+      "type": "listening",
+      "title": "Listening: Email Problems",
+      "transcript": "Speaker: I can't send any emails today! My 'Sent' folder is empty and I keep getting error messages. I think the server is down. I need to call IT Support.",
+      "questions": [
+        {
+          "question": "What is the problem?",
+          "options": ["The speaker forgot the password", "The server is down", "The inbox is full"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'I think the server is down'."
+        },
+        {
+          "question": "Who will the speaker call?",
+          "options": ["The boss", "IT Support", "The client"],
+          "answerIndex": 1,
+          "explanation": "The speaker needs to call IT Support for technical help."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex70",
+      "type": "listening",
+      "title": "Listening: Formal vs Informal",
+      "transcript": "Speaker: When you email Mr. Henderson, remember to be formal. Use 'Dear Mr. Henderson' and end with 'Sincerely'. Don't just say 'Hi'.",
+      "questions": [
+        {
+          "question": "How should the email to Mr. Henderson be?",
+          "options": ["Informal", "Formal", "Short"],
+          "answerIndex": 1,
+          "explanation": "The speaker explicitly says 'remember to be formal'."
+        },
+        {
+          "question": "Which closing is recommended?",
+          "options": ["Best", "Cheers", "Sincerely"],
+          "answerIndex": 2,
+          "explanation": "The speaker suggests using 'Sincerely'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex71",
+      "type": "listening",
+      "title": "Listening: Junk Mail",
+      "transcript": "Speaker: Ugh, my inbox is full of junk! I have ten emails about winning a lottery and five about cheap watches. I'm going to mark them all as spam.",
+      "questions": [
+        {
+          "question": "What kind of emails did the speaker receive?",
+          "options": ["Work reports", "Junk mail / Spam", "Meeting invites"],
+          "answerIndex": 1,
+          "explanation": "Lottery and sales emails are 'junk'."
+        },
+        {
+          "question": "What action will the speaker take?",
+          "options": ["Reply to them", "Mark as spam", "Forward to the boss"],
+          "answerIndex": 1,
+          "explanation": "The speaker is going to 'mark them all as spam'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex72",
+      "type": "listening",
+      "title": "Listening: The Draft Folder",
+      "transcript": "Speaker: I started writing the reply to the client yesterday, but I didn't finish it. It's in my 'Drafts' folder. I will finish it and send it now.",
+      "questions": [
+        {
+          "question": "Why is the email in the 'Drafts' folder?",
+          "options": ["It was already sent", "It is unfinished", "It is important"],
+          "answerIndex": 1,
+          "explanation": "Drafts are for unfinished, unsent messages."
+        },
+        {
+          "question": "When did the speaker start the email?",
+          "options": ["Today", "Yesterday", "Last week"],
+          "answerIndex": 1,
+          "explanation": "The transcript says 'started... yesterday'."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex73",
+      "type": "listening",
+      "title": "Listening: Dictating an Email Address",
+      "transcript": "Speaker: My email is info at office dot com. That's I-N-F-O, then the 'at' symbol, O-F-F-I-C-E, then dot, then C-O-M.",
+      "questions": [
+        {
+          "question": "What is the first part of the address?",
+          "options": ["office", "info", "admin"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'info at...'"
+        },
+        {
+          "question": "What does 'dot' represent?",
+          "options": ["@", "-", "."],
+          "answerIndex": 2,
+          "explanation": "In email addresses, 'dot' is the period symbol."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex74",
+      "type": "listening",
+      "title": "Listening: Subject Line Request",
+      "transcript": "Speaker: Please, when you send me the files, use a clear subject line. Put your name and the word 'Documents'. It helps me find your email later.",
+      "questions": [
+        {
+          "question": "What does the speaker want in the subject line?",
+          "options": ["Only the word 'Hi'", "Name and 'Documents'", "The date"],
+          "answerIndex": 1,
+          "explanation": "The speaker asks for 'name and the word Documents'."
+        },
+        {
+          "question": "Why is this important?",
+          "options": ["To save money", "To find the email later", "To be funny"],
+          "answerIndex": 1,
+          "explanation": "It helps organize and locate the email in a busy inbox."
+        }
+      ]
+    },
+    {
+      "id": "adm-a1-w25-ex75",
+      "type": "listening",
+      "title": "Listening: Signature Update",
+      "transcript": "Speaker: Team, please update your signatures. We have a new company logo. You can find the new logo file in the shared folder. Attach it to your signature by Friday.",
+      "questions": [
+        {
+          "question": "What needs to be updated?",
+          "options": ["The password", "The signature", "The inbox"],
+          "answerIndex": 1,
+          "explanation": "The speaker says 'update your signatures'."
+        },
+        {
+          "question": "What is new?",
+          "options": ["A new office", "A new company logo", "A new boss"],
+          "answerIndex": 1,
+          "explanation": "The company has a new logo to include in signatures."
+        }
+      ]
     }
   ]
 }

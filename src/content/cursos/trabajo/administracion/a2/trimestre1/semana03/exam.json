@@ -2,7 +2,7 @@
   "title": "A2 Week 3 Exam: Card Security & Fraud Investigation",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w03-q01",
       "question": "Temporarily disabling your card in an app is called:",
       "options": [
         "Cancelling",
@@ -10,10 +10,11 @@
         "Deleting",
         "Reporting"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Freezing is a temporary safety measure to stop transactions without permanently cancelling the card."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w03-q02",
       "question": "Correct negative: 'I _______ that charge'.",
       "options": [
         "not authorize",
@@ -21,10 +22,11 @@
         "didn't authorized",
         "no authorize"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "In the past simple, we use 'didn't' followed by the base form of the verb (authorize)."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w03-q03",
       "question": "A digital card used for one-time secure shopping is a:",
       "options": [
         "Permanent card",
@@ -32,10 +34,11 @@
         "Disposable card",
         "Credit card"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Disposable cards are designed for single use to prevent card details from being stolen for future transactions."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w03-q04",
       "question": "Correct question: '_______ you lose your card?'",
       "options": [
         "Do",
@@ -43,10 +46,11 @@
         "Does",
         "Done"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "We use the auxiliary 'Did' to form questions in the past simple."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w03-q05",
       "question": "A scam where criminals use fake emails to steal logins is:",
       "options": [
         "Phishing",
@@ -54,10 +58,11 @@
         "Pushing",
         "Phasing"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Phishing is a specific type of cybercrime where scammers masquerade as a trusted entity."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w03-q06",
       "question": "I _______ the bank about the stolen wallet.",
       "options": [
         "didn't called",
@@ -65,10 +70,11 @@
         "no called",
         "not call"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The auxiliary 'didn't' is always followed by the infinitive form without 'to' (call)."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w03-q07",
       "question": "Requesting your money back from a fraud is a:",
       "options": [
         "Cashback",
@@ -76,10 +82,11 @@
         "Payback",
         "Checkback"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A chargeback is the official process of reversing a transaction due to fraud or dispute."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w03-q08",
       "question": "Correct question: 'Did they _______ your password?'",
       "options": [
         "changed",
@@ -87,10 +94,11 @@
         "changing",
         "changes"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "After 'Did', we use the base form of the verb (change), not the past form."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w03-q09",
       "question": "Fingerprint and Face ID are types of:",
       "options": [
         "Passwords",
@@ -98,10 +106,11 @@
         "Analytics",
         "Limits"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Biometrics refer to identity verification based on physical characteristics."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w03-q10",
       "question": "We _______ the email from the hacker.",
       "options": [
         "didn't answer",
@@ -109,10 +118,11 @@
         "no answer",
         "not answered"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "Negative past simple requires 'didn't' + base form (answer)."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w03-q11",
       "question": "A 'Limit' on a card controls:",
       "options": [
         "The number of apps you have",
@@ -120,10 +130,11 @@
         "The color of the card",
         "The speed of the bank app"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Spending limits are security features that restrict the maximum transaction amount."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w03-q12",
       "question": "Correct question: 'Did you _______ a notification?'",
       "options": [
         "got",
@@ -131,10 +142,11 @@
         "getting",
         "gets"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Past simple questions use 'Did' + base form (get)."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w03-q13",
       "question": "When your account is no longer secure, it is:",
       "options": [
         "Compromised",
@@ -142,10 +154,11 @@
         "Cancelled",
         "Calculated"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "A compromised account means that security has been breached by an unauthorized party."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w03-q14",
       "question": "She _______ her PIN with anyone.",
       "options": [
         "didn't shared",
@@ -153,10 +166,11 @@
         "no share",
         "not shared"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Negative past simple: didn't + base form (share)."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w03-q15",
       "question": "A 'Scam' is a scheme that is:",
       "options": [
         "Honest",
@@ -164,10 +178,11 @@
         "Efficient",
         "Free"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "A scam is defined as a fraudulent or dishonest scheme to deceive someone."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w03-q16",
       "question": "Correct question: 'Did he _______ the merchant?'",
       "options": [
         "recognized",
@@ -175,10 +190,11 @@
         "recognizing",
         "recognizes"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "In past simple questions, we use 'Did' + base form (recognize)."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w03-q17",
       "question": "To get a new card after losing one, you must _______ it.",
       "options": [
         "repeat",
@@ -186,10 +202,11 @@
         "repair",
         "return"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Replacing a card means ordering a new one with a different number for security."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w03-q18",
       "question": "I _______ my credit card on the bus.",
       "options": [
         "didn't left",
@@ -197,10 +214,11 @@
         "no leave",
         "not left"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Negative past simple: didn't + base form (leave)."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w03-q19",
       "question": "What should you do if you see an unauthorized charge?",
       "options": [
         "Wait for the next month",
@@ -208,10 +226,11 @@
         "Delete the app",
         "Call the merchant and say thank you"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Freezing the card stops more fraud, and reporting it starts the investigation process."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w03-q20",
       "question": "Correct question: 'Did the app _______ properly?'",
       "options": [
         "worked",
@@ -219,7 +238,8 @@
         "working",
         "works"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Past simple question: Did + base form (work)."
     }
   ]
 }

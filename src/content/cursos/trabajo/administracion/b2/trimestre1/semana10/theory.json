@@ -19,7 +19,27 @@
     {
       "id": "project-phrasal-verbs",
       "title": "Phrasal Verbs for Project Tracking",
-      "content": "Effective project updates often use these idiomatic expressions:\n\n- **To fall behind**: To fail to keep up with a schedule. (*\"We've **fallen behind** on the documentation phase.\"*)\n- **To catch up**: To reach the same level or point as the schedule. (*\"We'll need to work overtime to **catch up** with the deadline.\"*)\n- **To run over**: To exceed a limit (time or budget). (*\"The project is likely to **run over** by two weeks.\"*)\n- **To sign off on**: To give official approval. (*\"The CEO has finally **signed off on** the budget reallocation.\"*)\n- **To follow through**: To complete an initial action. (*\"We must **follow through** on our commitment to stakeholders.\""
+      "content": "Effective project updates often use these idiomatic expressions:\n\n- **To fall behind**: To fail to keep up with a schedule. (*\"We've **fallen behind** on the documentation phase.\"*)\n- **To catch up**: To reach the same level or point as the schedule. (*\"We'll need to work overtime to **catch up** with the deadline.\"*)\n- **To run over**: To exceed a limit (time or budget). (*\"The project is likely to **run over** by two weeks.\"*)\n- **To sign off on**: To give official approval. (*\"The CEO has finally **signed off on** the budget reallocation.\"*)\n- **To follow through**: To complete an initial action. (*\"We must **follow through** on our commitment to stakeholders.\"*)"
+    },
+    {
+      "id": "resource-constraints",
+      "title": "Managing Resource Constraints",
+      "content": "A **resource constraint** is a limitation on the resources available for a project, which can include time, budget, personnel, or equipment.\n\n### The Triple Constraint Triangle\nProject success is often defined by the balance between three factors:\n1. **Scope**: What the project will deliver.\n2. **Time**: The schedule for delivery.\n3. **Cost**: The budget allocated.\n*Note: If one of these changes (e.g., the scope expands), at least one of the others must also change (e.g., more time or more money).* \n\n### Administrative Handling of Constraints\n- **Resource Levelling**: Adjusting the project schedule to address over-allocation (e.g., ensuring one employee isn't assigned to two 40-hour tasks in the same week).\n- **Prioritisation**: Deciding which tasks are 'mission-critical' and which can be delayed if resources run low."
+    },
+    {
+      "id": "risk-mitigation",
+      "title": "Risk Mitigation & Contingency Planning",
+      "content": "Every project involves risks. **Risk Mitigation** is the process of developing options and actions to enhance opportunities and reduce threats to project objectives.\n\n### Common Administrative Risks\n- **Vendor Delay**: A supplier fails to deliver hardware on time.\n- **Technical Glitch**: The new software has bugs discovered during UAT.\n- **Key Person Risk**: A critical team member becomes unavailable.\n\n### The Contingency Plan\nA **Contingency Plan** (or 'Plan B') is a pre-defined set of actions to be taken if a specific risk occurs. \n- *Example: If the main server fails during migration, we will revert to the backup server within 30 minutes.*"
+    },
+    {
+      "id": "roleplay-post-mortem",
+      "title": "RolePlay: The Post-Mortem Meeting",
+      "content": "In this scenario, you are the Project Administrator leading a 'Lessons Learned' session after the successful relocation of the regional office.\n\n### Meeting Objectives\n- Celebrate the successful completion (Zero down-time).\n- Discuss the 'Scope Creep' incident in Week 3.\n- Identify why the team 'fell behind' in Week 2.\n\n### Key Phrases for the Session\n- \"By the end of the project, we **will have learned** that vendor communication is key.\"\n- \"Although we **ran over** on the cabling budget, we **caught up** on the physical move.\"\n- \"What measures **will we be implementing** to prevent similar scope creep in the future?\"\n- \"We need the Steering Committee to **sign off on** the final report.\""
+    },
+    {
+      "id": "weekly-deliverable",
+      "title": "Weekly Deliverable: Project Charter Draft",
+      "content": "Your task is to draft a 1-page **Project Charter** for a 'New Employee Onboarding Automation' project.\n\n### Charter Requirements\n1. **Project Title & ID**.\n2. **Business Case**: Why are we doing this? (e.g., to reduce manual data entry by 40%).\n3. **High-Level Scope**: What is included and what is excluded.\n4. **Milestones**: List at least 4 key dates using 'Future Perfect' (e.g., 'By Week 3, we will have...').\n5. **KPIs**: 2 measurable success factors."
     }
   ],
   "objectives": [

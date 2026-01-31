@@ -10,6 +10,21 @@
       "id": "grammar",
       "title": "Advanced Inversion (Conditional)",
       "content": "In formal business English, we often use inversion to replace 'if' in conditional sentences. This makes the tone more professional and urgent.\n\n**1. Type 1 Inversion (Should)**\n*Standard:* If you require further assistance, please contact us.\n*Inverted:* **Should you require** further assistance, please contact us.\n\n**2. Type 2 Inversion (Were)**\n*Standard:* If the system were more reliable, we would use it.\n*Inverted:* **Were the system** more reliable, we would use it.\n*Standard:* If it weren't for the cloud backup, we would have lost all data.\n*Inverted:* **Were it not for** the cloud backup, we would have lost all data.\n\n**3. Type 3 Inversion (Had)**\n*Standard:* If we had known about the bug, we would have postponed the launch.\n*Inverted:* **Had we known** about the bug, we would have postponed the launch."
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Managing Cybersecurity Risks",
+      "content": "Administrative staff play a crucial role in maintaining cybersecurity by following protocols and identifying potential threats.\n\n- **Phishing**: A fraudulent attempt to obtain sensitive information by disguising as a trustworthy entity in an electronic communication.\n- **Multi-Factor Authentication (MFA)**: A security system that requires more than one method of authentication from independent categories of credentials to verify the user's identity.\n- **Data Breach**: A security incident in which sensitive, protected, or confidential data is copied, transmitted, viewed, or stolen by an individual unauthorised to do so.\n- **Endpoint Security**: The practice of securing endpoints or entry points of end-user devices such as desktops, laptops, and mobile devices from being exploited by malicious actors."
+    },
+    {
+      "id": "privacy",
+      "title": "Data Privacy & GDPR Compliance",
+      "content": "Organisations must comply with regulations like GDPR to ensure the privacy and security of personal data.\n\n- **Data Controller**: The entity that determines the purposes and means of processing personal data.\n- **Data Processor**: The entity that processes personal data on behalf of the controller.\n- **Right to be Forgotten**: The right of an individual to have their personal data erased by a data controller.\n- **Consent**: A clear affirmative act establishing a freely given, specific, informed, and unambiguous indication of the data subject's agreement to the processing of personal data."
+    },
+    {
+      "id": "culture",
+      "title": "Leading a Digital Culture Change",
+      "content": "Digital transformation is not just about technology; it's about shifting the organisational culture to be more agile and data-driven.\n\n- **Agile Methodology**: A way of managing projects by breaking them down into several stages, involving constant collaboration with stakeholders and continuous improvement.\n- **Upskilling**: The process of learning new skills or of teaching workers new skills.\n- **Change Management**: The process, tools, and techniques to manage the people side of change to achieve a required business outcome.\n- **Data-Driven Decision Making**: The process of making organisational decisions based on actual data rather than intuition or observation alone."
     }
   ],
   "objectives": [

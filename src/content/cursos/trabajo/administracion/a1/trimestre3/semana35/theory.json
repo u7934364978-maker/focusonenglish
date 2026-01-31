@@ -1,0 +1,32 @@
+{
+  "title": "Semana 35: Recepción de Visitantes",
+  "description": "Aprende las frases básicas para saludar, registrar y atender a los visitantes en la oficina.",
+  "objectives": [
+    "Saludar y dar la bienvenida a visitantes",
+    "Solicitar información de registro (nombre, empresa)",
+    "Ofrecer cortesías básicas (asiento, bebida)"
+  ],
+  "sections": [
+    {
+      "id": "welcoming-visitors",
+      "title": "Dar la Bienvenida (Welcoming)",
+      "content": "Como administrativo, eres la primera cara que ve un visitante:\n\n- **Welcome to [Company Name]**: Bienvenido a [Nombre de la Empresa].\n- **Good morning. How can I help you?**: Buenos días. ¿Cómo puedo ayudarle?\n- **Do you have an appointment?**: ¿Tiene una cita?\n- **Please, have a seat**: Por favor, tome asiento."
+    },
+    {
+      "id": "registration-process",
+      "title": "Registro (Sign in)",
+      "content": "Es importante registrar quién entra en la oficina:\n\n- **Please sign in here**: Por favor, regístrese aquí.\n- **What is your name, please?**: ¿Cuál es su nombre, por favor?\n- **Which company are you from?**: ¿De qué empresa viene?\n- **Could you wear this ID badge?**: ¿Podría ponerse esta tarjeta de identificación?"
+    },
+    {
+      "id": "waiting-and-courtesy",
+      "title": "Espera y Cortesía (Courtesy)",
+      "content": "Mientras el visitante espera, usamos frases amables:\n\n- **Mr./Ms. [Name] will be with you shortly**: El Sr./La Sra. [Nombre] estará con usted en breve.\n- **Would you like some water or coffee?**: ¿Le gustaría un poco de agua o café?\n- **Please wait here**: Por favor, espere aquí."
+    }
+  ],
+  "keyTerms": [
+    { "term": "Visitor", "definition": "A person who comes to see someone or a place." },
+    { "term": "Appointment", "definition": "A formal arrangement to meet at a specific time." },
+    { "term": "Receptionist", "definition": "A person who greets and deals with visitors in an office." }
+  ],
+  "audioUrl": ""
+}

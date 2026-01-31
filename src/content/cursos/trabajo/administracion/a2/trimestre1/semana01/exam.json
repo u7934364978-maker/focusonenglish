@@ -2,7 +2,8 @@
   "title": "A2 Week 1 Exam: Digital Banking & Past Actions",
   "questions": [
     {
-      "id": "q1",
+      "id": "adm-a2-w01-q01",
+      "type": "multiple-choice",
       "question": "A digital-only bank with no physical branches is a:",
       "options": [
         "Traditional bank",
@@ -10,10 +11,12 @@
         "Central bank",
         "Credit Union"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Neobanks operate entirely online through apps and websites."
     },
     {
-      "id": "q2",
+      "id": "adm-a2-w01-q02",
+      "type": "multiple-choice",
       "question": "What is the past simple of 'scan'?",
       "options": [
         "Scaned",
@@ -21,10 +24,12 @@
         "Scanned",
         "Scands"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "For the verb 'scan', we double the final consonant and add -ed: scanned."
     },
     {
-      "id": "q3",
+      "id": "adm-a2-w01-q03",
+      "type": "multiple-choice",
       "question": "The process of verifying a new customer's identity is called:",
       "options": [
         "KYC",
@@ -32,10 +37,12 @@
         "PIN",
         "SWIFT"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "KYC stands for 'Know Your Customer', a standard identity verification process."
     },
     {
-      "id": "q4",
+      "id": "adm-a2-w01-q04",
+      "type": "multiple-choice",
       "question": "I _______ the mobile app last night.",
       "options": [
         "download",
@@ -43,10 +50,12 @@
         "downloading",
         "downloads"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Downloaded' is the past simple form of the regular verb 'download'."
     },
     {
-      "id": "q5",
+      "id": "adm-a2-w01-q05",
+      "type": "multiple-choice",
       "question": "What is 'Selfie Verification'?",
       "options": [
         "Taking a photo for Instagram",
@@ -54,10 +63,12 @@
         "A way to choose a background for the app",
         "Sending a photo to a friend"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Selfie verification is a biometric measure used to confirm identity during account setup."
     },
     {
-      "id": "q6",
+      "id": "adm-a2-w01-q06",
+      "type": "multiple-choice",
       "question": "The bank _______ my new account in 10 minutes.",
       "options": [
         "approves",
@@ -65,10 +76,12 @@
         "approved",
         "approve"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "'Approved' is the past simple form of 'approve'."
     },
     {
-      "id": "q7",
+      "id": "adm-a2-w01-q07",
+      "type": "multiple-choice",
       "question": "An electronic version of your bank statement is an:",
       "options": [
         "iStatement",
@@ -76,10 +89,12 @@
         "Web-paper",
         "Digital-doc"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The 'E' in E-statement stands for electronic."
     },
     {
-      "id": "q8",
+      "id": "adm-a2-w01-q08",
+      "type": "multiple-choice",
       "question": "She _______ the money to her savings account this morning.",
       "options": [
         "transfered",
@@ -87,10 +102,12 @@
         "transfer",
         "transfering"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "The verb 'transfer' doubles the final 'r' in the past simple: transferred."
     },
     {
-      "id": "q9",
+      "id": "adm-a2-w01-q09",
+      "type": "multiple-choice",
       "question": "What do we use 'Did' for in the past simple?",
       "options": [
         "Affirmative sentences",
@@ -98,10 +115,12 @@
         "Only plural subjects",
         "Only regular verbs"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Did' and 'didn't' are auxiliary verbs for questions and negative sentences in the past simple."
     },
     {
-      "id": "q10",
+      "id": "adm-a2-w01-q10",
+      "type": "multiple-choice",
       "question": "Which term describes an alert sent to your phone?",
       "options": [
         "Pull request",
@@ -109,10 +128,12 @@
         "Pop-up email",
         "Fast message"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Push notifications are instant alerts sent to your mobile device by apps."
     },
     {
-      "id": "q11",
+      "id": "adm-a2-w01-q11",
+      "type": "multiple-choice",
       "question": "He _______ to his account but forgot his password.",
       "options": [
         "logged in",
@@ -120,10 +141,12 @@
         "logging in",
         "login"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "'Logged in' is the correct past simple form of the phrasal verb 'log in'."
     },
     {
-      "id": "q12",
+      "id": "adm-a2-w01-q12",
+      "type": "multiple-choice",
       "question": "A 'Mobile-first' bank is designed primarily for:",
       "options": [
         "Desktop computers",
@@ -131,10 +154,12 @@
         "Physical branches",
         "Fax machines"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Mobile-first means the service is optimized for smartphones and apps."
     },
     {
-      "id": "q13",
+      "id": "adm-a2-w01-q13",
+      "type": "multiple-choice",
       "question": "Negative form: 'I scanned the code' -> 'I _______ the code'.",
       "options": [
         "didn't scanned",
@@ -142,10 +167,12 @@
         "no scanned",
         "not scanned"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "In negatives, we use 'didn't' + base form of the verb (scan)."
     },
     {
-      "id": "q14",
+      "id": "adm-a2-w01-q14",
+      "type": "multiple-choice",
       "question": "What is a 'Minimum Balance'?",
       "options": [
         "The most money you can have",
@@ -153,10 +180,12 @@
         "A type of loan",
         "The amount of your first deposit"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Minimum balance is the lowest amount you must keep in your account to avoid maintenance charges."
     },
     {
-      "id": "q15",
+      "id": "adm-a2-w01-q15",
+      "type": "multiple-choice",
       "question": "They _______ for the verification email for an hour.",
       "options": [
         "wait",
@@ -164,10 +193,12 @@
         "waiting",
         "waits"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Waited' is the past simple form of 'wait'."
     },
     {
-      "id": "q16",
+      "id": "adm-a2-w01-q16",
+      "type": "multiple-choice",
       "question": "Which document is proof of address?",
       "options": [
         "A utility bill",
@@ -175,10 +206,12 @@
         "A photo of your house",
         "A library book"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "A utility bill (water, electricity) is commonly used as proof of residence."
     },
     {
-      "id": "q17",
+      "id": "adm-a2-w01-q17",
+      "type": "multiple-choice",
       "question": "The app _______ because of a connection error.",
       "options": [
         "crash",
@@ -186,10 +219,12 @@
         "crashing",
         "crashes"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "'Crashed' is the past simple form of 'crash'."
     },
     {
-      "id": "q18",
+      "id": "adm-a2-w01-q18",
+      "type": "multiple-choice",
       "question": "An account shared by two people is a:",
       "options": [
         "Single account",
@@ -197,10 +232,12 @@
         "Joint account",
         "Shared wallet"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "A joint account is a bank account held by more than one person."
     },
     {
-      "id": "q19",
+      "id": "adm-a2-w01-q19",
+      "type": "multiple-choice",
       "question": "I _______ my credit card after I lost it.",
       "options": [
         "blocked",
@@ -208,10 +245,12 @@
         "blocking",
         "block"
       ],
-      "correctAnswer": 0
+      "correctAnswer": 0,
+      "explanation": "'Blocked' is the past simple form of 'block'."
     },
     {
-      "id": "q20",
+      "id": "adm-a2-w01-q20",
+      "type": "multiple-choice",
       "question": "What does the 'E' in E-statement stand for?",
       "options": [
         "Easy",
@@ -219,7 +258,8 @@
         "External",
         "Efficient"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "E-statement refers to an Electronic statement."
     }
   ]
 }

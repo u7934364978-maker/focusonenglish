@@ -3,165 +3,646 @@
   "level": "A1",
   "trimester": 2,
   "weekId": "semana16",
-  "title": "Describing Modern Banking",
+  "title": "Daily Office Routines & Present Simple",
   "items": [
     {
-      "id": "fin-a1-w16-01",
+      "id": "adm-a1-w16-01",
       "type": "matching",
-      "prompt": "Match the adjective with its meaning:",
-      "pairs": [
-        { "left": "Secure", "right": "Safe from hackers" },
-        { "left": "User-friendly", "right": "Easy to use" },
-        { "left": "Traditional", "right": "Old or classic" },
-        { "left": "Fast", "right": "High-speed" }
+      "prompt": "Match the office actions with their Spanish meanings:",
+      "matchingData": [
+        { "left": "Check emails", "right": "Revisar correos" },
+        { "left": "Answer the phone", "right": "Responder el teléfono" },
+        { "left": "File documents", "right": "Archivar documentos" },
+        { "left": "Take a break", "right": "Tomarse un descanso" }
       ],
-      "explanation": "These adjectives are essential for describing modern financial services."
+      "explanation": "These are common daily tasks in an administrative environment."
     },
     {
-      "id": "fin-a1-w16-02",
-      "type": "multipleChoice",
-      "prompt": "I like this app. It is very ______ and easy to understand.",
-      "options": ["user-friendly", "slow", "old"],
+      "id": "adm-a1-w16-02",
+      "type": "multiple-choice",
+      "prompt": "I ______ at the office at 8:00 AM every morning.",
+      "options": ["arrive", "arrives", "arriving"],
       "answerIndex": 0,
-      "explanation": "User-friendly means something is easy for the user."
+      "explanation": "With 'I', we use the base form of the verb."
     },
     {
-      "id": "fin-a1-w16-03",
-      "type": "multipleChoice",
-      "prompt": "This is a ______ bank. It has many physical branches.",
-      "options": ["traditional", "fast", "digital"],
+      "id": "adm-a1-w16-03",
+      "type": "multiple-choice",
+      "prompt": "She ______ the reports on Mondays.",
+      "options": ["write", "writes", "writing"],
+      "answerIndex": 1,
+      "explanation": "With 'She', we add '-s' to the verb in the Present Simple."
+    },
+    {
+      "id": "adm-a1-w16-04",
+      "type": "fill-blank",
+      "prompt": "He [blank] work at 5:00 PM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["finishes", "ends"], "caseSensitive": false }
+      ],
+      "explanation": "For 'He', the verb 'finish' becomes 'finishes'."
+    },
+    {
+      "id": "adm-a1-w16-05",
+      "type": "multiple-choice",
+      "prompt": "We ______ a meeting every Tuesday morning.",
+      "options": ["has", "have", "having"],
+      "answerIndex": 1,
+      "explanation": "We use 'have' with 'We'."
+    },
+    {
+      "id": "adm-a1-w16-06",
+      "type": "reorder",
+      "prompt": "Reorder the sentence about a routine:",
+      "sentence": "I check my emails every morning",
+      "explanation": "Subject + Verb + Object + Time Expression."
+    },
+    {
+      "id": "adm-a1-w16-07",
+      "type": "matching",
+      "prompt": "Match the verb with the correct object:",
+      "matchingData": [
+        { "left": "Answer", "right": "the phone" },
+        { "left": "Write", "right": "a report" },
+        { "left": "File", "right": "the documents" },
+        { "left": "Take", "right": "a break" }
+      ],
+      "explanation": "Collocations are common word pairings in English."
+    },
+    {
+      "id": "adm-a1-w16-08",
+      "type": "multiple-choice",
+      "prompt": "They ______ in the accounting department.",
+      "options": ["work", "works", "working"],
       "answerIndex": 0,
-      "explanation": "Traditional banks often have many physical offices."
+      "explanation": "With 'They', we use the base form 'work'."
     },
     {
-      "id": "fin-a1-w16-04",
-      "type": "fillBlanks",
-      "prompt": "Our new banking system is very [blank]. The transfers are instant.",
-      "answers": ["fast", "high-speed"],
-      "explanation": "Modern systems are very fast."
+      "id": "adm-a1-w16-09",
+      "type": "fill-blank",
+      "prompt": "The manager [blank] emails in the afternoon.",
+      "blankValidation": [
+        { "index": 0, "answers": ["sends", "checks", "writes"], "caseSensitive": false }
+      ],
+      "explanation": "The manager (He/She) requires a verb ending in 's'."
     },
     {
-      "id": "fin-a1-w16-05",
-      "type": "multipleChoice",
-      "prompt": "Is your password ______? Yes, I use 12 characters.",
-      "options": ["secure", "slow", "small"],
+      "id": "adm-a1-w16-10",
+      "type": "multiple-choice",
+      "prompt": "You ______ very well in this team.",
+      "options": ["work", "works", "working"],
       "answerIndex": 0,
-      "explanation": "A long password makes your account more secure."
+      "explanation": "With 'You', we use the base form."
     },
     {
-      "id": "fin-a1-w16-06",
+      "id": "adm-a1-w16-11",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She files documents in the cabinet",
+      "explanation": "Ella archiva documentos en el armario."
+    },
+    {
+      "id": "adm-a1-w16-12",
+      "type": "matching",
+      "prompt": "Match the frequency adverbs with Spanish:",
+      "matchingData": [
+        { "left": "Always", "right": "Siempre" },
+        { "left": "Usually", "right": "Normalmente" },
+        { "left": "Sometimes", "right": "A veces" },
+        { "left": "Never", "right": "Nunca" }
+      ],
+      "explanation": "Adverbs of frequency describe how often we do things."
+    },
+    {
+      "id": "adm-a1-w16-13",
+      "type": "multiple-choice",
+      "prompt": "It ______ a lot of time to file these papers.",
+      "options": ["take", "takes", "taking"],
+      "answerIndex": 1,
+      "explanation": "'It' requires the '-s' form 'takes'."
+    },
+    {
+      "id": "adm-a1-w16-14",
+      "type": "fill-blank",
+      "prompt": "We [blank] a break at 11:00 AM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["take", "have"], "caseSensitive": false }
+      ],
+      "explanation": "'Take a break' or 'have a break' are both correct for 'We'."
+    },
+    {
+      "id": "adm-a1-w16-15",
       "type": "writing",
-      "prompt": "Write a sentence to describe a new computer using the adjective 'fast'.",
-      "example": "The new computer is very fast.",
-      "explanation": "Put the adjective after 'is' or before the noun."
+      "prompt": "Translate: 'Yo reviso mis correos todos los días.'",
+      "example": "I check my emails every day.",
+      "explanation": "Remember to use the Present Simple for daily habits."
     },
     {
-      "id": "fin-a1-w16-07",
-      "type": "rolePlay",
-      "prompt": "Role-play: You are helping a friend with a new banking app. Say: 'This app is very user-friendly' and 'It is very secure'.",
-      "scenario": "Showing a friend a new Fintech app.",
+      "id": "adm-a1-w16-16",
+      "type": "multiple-choice",
+      "prompt": "My colleague ______ coffee at 9:00 AM.",
+      "options": ["drink", "drinks", "drinking"],
+      "answerIndex": 1,
+      "explanation": "'My colleague' (He/She) takes the 's' form."
+    },
+    {
+      "id": "adm-a1-w16-17",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He finishes work at six",
+      "explanation": "Él termina de trabajar a las seis."
+    },
+    {
+      "id": "adm-a1-w16-18",
+      "type": "matching",
+      "prompt": "Match the subject with the correct verb form:",
+      "matchingData": [
+        { "left": "I", "right": "start" },
+        { "left": "She", "right": "starts" },
+        { "left": "They", "right": "start" },
+        { "left": "The boss", "right": "starts" }
+      ],
+      "explanation": "Remember the 3rd person singular 's' rule."
+    },
+    {
+      "id": "adm-a1-w16-19",
+      "type": "multiple-choice",
+      "prompt": "We always ______ the phone quickly.",
+      "options": ["answer", "answers", "answering"],
+      "answerIndex": 0,
+      "explanation": "Adverbs of frequency go before the main verb 'answer' for 'We'."
+    },
+    {
+      "id": "adm-a1-w16-20",
+      "type": "fill-blank",
+      "prompt": "The receptionist [blank] the visitors.",
+      "blankValidation": [
+        { "index": 0, "answers": ["greets", "welcomes", "helps"], "caseSensitive": false }
+      ],
+      "explanation": "The receptionist (3rd person) needs a verb with 's'."
+    },
+    {
+      "id": "adm-a1-w16-21",
+      "type": "multiple-choice",
+      "prompt": "I ______ my desk every Friday.",
+      "options": ["clean", "cleans", "cleaning"],
+      "answerIndex": 0,
+      "explanation": "'I clean' is the correct form."
+    },
+    {
+      "id": "adm-a1-w16-22",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "We have a meeting now",
+      "explanation": "Tenemos una reunión ahora."
+    },
+    {
+      "id": "adm-a1-w16-23",
+      "type": "matching",
+      "prompt": "Match the daily routine verbs:",
+      "matchingData": [
+        { "left": "Arrive", "right": "Llegar" },
+        { "left": "Finish", "right": "Terminar" },
+        { "left": "Check", "right": "Revisar" },
+        { "left": "Answer", "right": "Responder" }
+      ],
+      "explanation": "Basic office verbs."
+    },
+    {
+      "id": "adm-a1-w16-24",
+      "type": "multiple-choice",
+      "prompt": "John ______ the invoices.",
+      "options": ["process", "processes", "processing"],
+      "answerIndex": 1,
+      "explanation": "Verbs ending in 'ss', 'sh', 'ch', 'x' add '-es' for He/She/It."
+    },
+    {
+      "id": "adm-a1-w16-25",
+      "type": "fill-blank",
+      "prompt": "They [blank] to work by bus.",
+      "blankValidation": [
+        { "index": 0, "answers": ["go", "travel", "come"], "caseSensitive": false }
+      ],
+      "explanation": "'They go' is the base form."
+    },
+    {
+      "id": "adm-a1-w16-26",
+      "type": "multiple-choice",
+      "prompt": "The printer ______ every day.",
+      "options": ["work", "works", "working"],
+      "answerIndex": 1,
+      "explanation": "'The printer' is 'It', so we use 'works'."
+    },
+    {
+      "id": "adm-a1-w16-27",
+      "type": "writing",
+      "prompt": "Translate: 'Ella llega a las 9 de la mañana.'",
+      "example": "She arrives at 9 AM.",
+      "explanation": "Use 'arrives' for 'She'."
+    },
+    {
+      "id": "adm-a1-w16-28",
+      "type": "multiple-choice",
+      "prompt": "We ______ documents in the blue folder.",
+      "options": ["file", "files", "filing"],
+      "answerIndex": 0,
+      "explanation": "'We file' is correct."
+    },
+    {
+      "id": "adm-a1-w16-29",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "You write a report every week",
+      "explanation": "Escribes un informe cada semana."
+    },
+    {
+      "id": "adm-a1-w16-30",
+      "type": "matching",
+      "prompt": "Match the time expressions:",
+      "matchingData": [
+        { "left": "Every day", "right": "Todos los días" },
+        { "left": "Once a week", "right": "Una vez a la semana" },
+        { "left": "In the morning", "right": "Por la mañana" },
+        { "left": "At noon", "right": "Al mediodía" }
+      ],
+      "explanation": "These expressions are used with the Present Simple."
+    },
+    {
+      "id": "adm-a1-w16-31",
+      "type": "multiple-choice",
+      "prompt": "The assistant ______ the mail.",
+      "options": ["organize", "organizes", "organizing"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'organizes'."
+    },
+    {
+      "id": "adm-a1-w16-32",
+      "type": "fill-blank",
+      "prompt": "I [blank] lunch at 1:00 PM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["have", "eat", "take"], "caseSensitive": false }
+      ],
+      "explanation": "'Have lunch' or 'eat lunch' are common."
+    },
+    {
+      "id": "adm-a1-w16-33",
+      "type": "multiple-choice",
+      "prompt": "They ______ the office at 6:00 PM.",
+      "options": ["leave", "leaves", "leaving"],
+      "answerIndex": 0,
+      "explanation": "'They leave' is correct."
+    },
+    {
+      "id": "adm-a1-w16-34",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He checks the calendar every day",
+      "explanation": "Él revisa el calendario todos los días."
+    },
+    {
+      "id": "adm-a1-w16-35",
+      "type": "multiple-choice",
+      "prompt": "She ______ the documents on the desk.",
+      "options": ["put", "puts", "putting"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'puts'."
+    },
+    {
+      "id": "adm-a1-w16-36",
+      "type": "matching",
+      "prompt": "Match the questions with answers:",
+      "matchingData": [
+        { "left": "When do you start?", "right": "At 8:00 AM." },
+        { "left": "What do you check?", "right": "My emails." },
+        { "left": "Who files the reports?", "right": "The assistant." },
+        { "left": "Where do you work?", "right": "In the office." }
+      ],
+      "explanation": "Common questions about work routines."
+    },
+    {
+      "id": "adm-a1-w16-37",
+      "type": "multiple-choice",
+      "prompt": "We ______ a lot of coffee in the office.",
+      "options": ["drink", "drinks", "drinking"],
+      "answerIndex": 0,
+      "explanation": "'We drink' is correct."
+    },
+    {
+      "id": "adm-a1-w16-38",
+      "type": "fill-blank",
+      "prompt": "She [blank] the phone in the morning.",
+      "blankValidation": [
+        { "index": 0, "answers": ["answers", "picks up"], "caseSensitive": false }
+      ],
+      "explanation": "3rd person singular 'answers'."
+    },
+    {
+      "id": "adm-a1-w16-39",
+      "type": "multiple-choice",
+      "prompt": "The manager ______ the team.",
+      "options": ["lead", "leads", "leading"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'leads'."
+    },
+    {
+      "id": "adm-a1-w16-40",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "They work in the human resources department",
+      "explanation": "Ellos trabajan en el departamento de recursos humanos."
+    },
+    {
+      "id": "adm-a1-w16-41",
+      "type": "writing",
+      "prompt": "Translate: 'Nosotros tomamos un descanso a las 10.'",
+      "example": "We take a break at 10.",
+      "explanation": "Use 'take a break' for 'Nosotros'."
+    },
+    {
+      "id": "adm-a1-w16-42",
+      "type": "multiple-choice",
+      "prompt": "He ______ the photocopies.",
+      "options": ["make", "makes", "making"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'makes'."
+    },
+    {
+      "id": "adm-a1-w16-43",
+      "type": "fill-blank",
+      "prompt": "You [blank] the documents in the cabinet.",
+      "blankValidation": [
+        { "index": 0, "answers": ["file", "keep", "store"], "caseSensitive": false }
+      ],
+      "explanation": "Base form 'file' for 'You'."
+    },
+    {
+      "id": "adm-a1-w16-44",
+      "type": "multiple-choice",
+      "prompt": "The computer ______ fast.",
+      "options": ["run", "runs", "running"],
+      "answerIndex": 1,
+      "explanation": "'The computer' is 'It', so 'runs'."
+    },
+    {
+      "id": "adm-a1-w16-45",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "I answer the phone every morning",
+      "explanation": "Respondo al teléfono todas las mañanas."
+    },
+    {
+      "id": "adm-a1-w16-46",
+      "type": "matching",
+      "prompt": "Match the subject with the verb ending:",
+      "matchingData": [
+        { "left": "I / You / We / They", "right": "Base form (no -s)" },
+        { "left": "He / She / It", "right": "Add -s or -es" },
+        { "left": "The students", "right": "Base form (no -s)" },
+        { "left": "The teacher", "right": "Add -s or -es" }
+      ],
+      "explanation": "Grammar rule for the Present Simple affirmative."
+    },
+    {
+      "id": "adm-a1-w16-47",
+      "type": "multiple-choice",
+      "prompt": "She ______ the files in the computer.",
+      "options": ["save", "saves", "saving"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'saves'."
+    },
+    {
+      "id": "adm-a1-w16-48",
+      "type": "fill-blank",
+      "prompt": "We [blank] work at 8:30 AM.",
+      "blankValidation": [
+        { "index": 0, "answers": ["start", "begin"], "caseSensitive": false }
+      ],
+      "explanation": "Base form 'start' for 'We'."
+    },
+    {
+      "id": "adm-a1-w16-49",
+      "type": "multiple-choice",
+      "prompt": "They ______ meetings every morning.",
+      "options": ["have", "has", "having"],
+      "answerIndex": 0,
+      "explanation": "'They have' is correct."
+    },
+    {
+      "id": "adm-a1-w16-50",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The assistant writes the reports",
+      "explanation": "El asistente escribe los informes."
+    },
+    {
+      "id": "adm-a1-w16-51",
+      "type": "writing",
+      "prompt": "Translate: 'Él archiva los documentos.'",
+      "example": "He files the documents.",
+      "explanation": "Use 'files' for 'He'."
+    },
+    {
+      "id": "adm-a1-w16-52",
+      "type": "multiple-choice",
+      "prompt": "I ______ the mail at 10:00 AM.",
+      "options": ["receive", "receives", "receiving"],
+      "answerIndex": 0,
+      "explanation": "'I receive' is correct."
+    },
+    {
+      "id": "adm-a1-w16-53",
+      "type": "fill-blank",
+      "prompt": "She [blank] her boss every day.",
+      "blankValidation": [
+        { "index": 0, "answers": ["helps", "assists", "calls"], "caseSensitive": false }
+      ],
+      "explanation": "3rd person singular 'helps'."
+    },
+    {
+      "id": "adm-a1-w16-54",
+      "type": "multiple-choice",
+      "prompt": "We ______ new clients every week.",
+      "options": ["call", "calls", "calling"],
+      "answerIndex": 0,
+      "explanation": "'We call' is correct."
+    },
+    {
+      "id": "adm-a1-w16-55",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "You use the computer all day",
+      "explanation": "Usas el ordenador todo el día."
+    },
+    {
+      "id": "adm-a1-w16-56",
+      "type": "matching",
+      "prompt": "Match the objects with the actions:",
+      "matchingData": [
+        { "left": "Email", "right": "Write / Check" },
+        { "left": "Phone", "right": "Answer / Call" },
+        { "left": "Documents", "right": "File / Print" },
+        { "left": "Meeting", "right": "Have / Attend" }
+      ],
+      "explanation": "Common action-object pairings."
+    },
+    {
+      "id": "adm-a1-w16-57",
+      "type": "multiple-choice",
+      "prompt": "The boss ______ at the office early.",
+      "options": ["arrive", "arrives", "arriving"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'arrives'."
+    },
+    {
+      "id": "adm-a1-w16-58",
+      "type": "fill-blank",
+      "prompt": "I [blank] my computer in the morning.",
+      "blankValidation": [
+        { "index": 0, "answers": ["start", "turn on", "open"], "caseSensitive": false }
+      ],
+      "explanation": "'I start' or 'I turn on' are common."
+    },
+    {
+      "id": "adm-a1-w16-59",
+      "type": "multiple-choice",
+      "prompt": "They ______ reports every month.",
+      "options": ["prepare", "prepares", "preparing"],
+      "answerIndex": 0,
+      "explanation": "'They prepare' is correct."
+    },
+    {
+      "id": "adm-a1-w16-60",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "She drinks tea in the office",
+      "explanation": "Ella bebe té en la oficina."
+    },
+    {
+      "id": "adm-a1-w16-61",
+      "type": "writing",
+      "prompt": "Translate: 'Ellos trabajan muy duro.'",
+      "example": "They work very hard.",
+      "explanation": "Use 'work' for 'They'."
+    },
+    {
+      "id": "adm-a1-w16-62",
+      "type": "multiple-choice",
+      "prompt": "I ______ the printer when it's broken.",
+      "options": ["fix", "fixes", "fixing"],
+      "answerIndex": 0,
+      "explanation": "'I fix' is correct."
+    },
+    {
+      "id": "adm-a1-w16-63",
+      "type": "fill-blank",
+      "prompt": "The technician [blank] the computers.",
+      "blankValidation": [
+        { "index": 0, "answers": ["fixes", "repairs", "checks"], "caseSensitive": false }
+      ],
+      "explanation": "3rd person singular 'fixes'."
+    },
+    {
+      "id": "adm-a1-w16-64",
+      "type": "multiple-choice",
+      "prompt": "We ______ our office every evening.",
+      "options": ["close", "closes", "closing"],
+      "answerIndex": 0,
+      "explanation": "'We close' is correct."
+    },
+    {
+      "id": "adm-a1-w16-65",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "He uses the photocopier often",
+      "explanation": "Él usa la fotocopiadora a menudo."
+    },
+    {
+      "id": "adm-a1-w16-66",
+      "type": "matching",
+      "prompt": "Match the adverbs with their meaning:",
+      "matchingData": [
+        { "left": "Often", "right": "A menudo" },
+        { "left": "Rarely", "right": "Raramente" },
+        { "left": "Daily", "right": "Diariamente" },
+        { "left": "Monthly", "right": "Mensualmente" }
+      ],
+      "explanation": "More frequency and time adverbs."
+    },
+    {
+      "id": "adm-a1-w16-67",
+      "type": "multiple-choice",
+      "prompt": "She ______ her password every month.",
+      "options": ["change", "changes", "changing"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'changes'."
+    },
+    {
+      "id": "adm-a1-w16-68",
+      "type": "fill-blank",
+      "prompt": "I [blank] my password every month.",
+      "blankValidation": [
+        { "index": 0, "answers": ["change", "update"], "caseSensitive": false }
+      ],
+      "explanation": "Base form 'change' for 'I'."
+    },
+    {
+      "id": "adm-a1-w16-69",
+      "type": "multiple-choice",
+      "prompt": "They ______ help to the customers.",
+      "options": ["give", "gives", "giving"],
+      "answerIndex": 0,
+      "explanation": "'They give' is correct."
+    },
+    {
+      "id": "adm-a1-w16-70",
+      "type": "reorder",
+      "prompt": "Reorder the sentence:",
+      "sentence": "The company has many employees",
+      "explanation": "La empresa tiene muchos empleados."
+    },
+    {
+      "id": "adm-a1-w16-71",
+      "type": "writing",
+      "prompt": "Translate: 'Yo uso el teléfono mucho.'",
+      "example": "I use the phone a lot.",
+      "explanation": "Use 'use' for 'I'."
+    },
+    {
+      "id": "adm-a1-w16-72",
+      "type": "multiple-choice",
+      "prompt": "She ______ the documents to the client.",
+      "options": ["send", "sends", "sending"],
+      "answerIndex": 1,
+      "explanation": "3rd person singular 'sends'."
+    },
+    {
+      "id": "adm-a1-w16-73",
+      "type": "fill-blank",
+      "prompt": "We [blank] reports on Fridays.",
+      "blankValidation": [
+        { "index": 0, "answers": ["finish", "write", "send"], "caseSensitive": false }
+      ],
+      "explanation": "Base form 'finish' for 'We'."
+    },
+    {
+      "id": "adm-a1-w16-74",
+      "type": "multiple-choice",
+      "prompt": "They ______ very busy today.",
+      "options": ["are", "is", "am"],
+      "answerIndex": 0,
+      "explanation": "The verb 'to be' in Present Simple: They are."
+    },
+    {
+      "id": "adm-a1-w16-75",
+      "type": "roleplay",
+      "prompt": "Role-play: Talk about your routine. Example: 'I arrive at 8 AM, I check my emails and then I have a coffee.'",
+      "scenario": "A new colleague asks about your typical day.",
       "suggestedPhrases": [
-        "The interface is modern.",
-        "It is faster than the old bank.",
-        "Is it secure?"
+        "First, I...",
+        "Then, I...",
+        "After that...",
+        "I finish work at..."
       ]
-    },
-    {
-      "id": "fin-a1-w16-08",
-      "type": "multipleChoice",
-      "prompt": "That ______ office only has two desks.",
-      "options": ["small", "large", "fast"],
-      "answerIndex": 0,
-      "explanation": "Small describes the size."
-    },
-    {
-      "id": "fin-a1-w16-09",
-      "type": "fillBlanks",
-      "prompt": "We need a [blank] meeting room for 50 people.",
-      "answers": ["large", "big"],
-      "explanation": "Large is the opposite of small."
-    },
-    {
-      "id": "fin-a1-w16-10",
-      "type": "multipleChoice",
-      "prompt": "The internet is very ______ today. I can't open the app.",
-      "options": ["slow", "fast", "new"],
-      "answerIndex": 0,
-      "explanation": "Slow internet makes it difficult to use apps."
-    },
-    {
-      "id": "fin-a1-w16-11",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "This is a new credit card",
-      "explanation": "Esta es una tarjeta de crédito nueva."
-    },
-    {
-      "id": "fin-a1-w16-12",
-      "type": "multipleChoice",
-      "prompt": "Those ______ computers are from 2010.",
-      "options": ["old", "new", "fast"],
-      "answerIndex": 0,
-      "explanation": "Old describes something from the past."
-    },
-    {
-      "id": "fin-a1-w16-13",
-      "type": "fillBlanks",
-      "prompt": "This ATM is very [blank]. It is from last week.",
-      "answers": ["new", "modern"],
-      "explanation": "New means it was recently made."
-    },
-    {
-      "id": "fin-a1-w16-14",
-      "type": "multipleChoice",
-      "prompt": "Is that a ______ wallet? No, it is small.",
-      "options": ["large", "new", "fast"],
-      "answerIndex": 0,
-      "explanation": "Large is the opposite of small."
-    },
-    {
-      "id": "fin-a1-w16-15",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "The bank is very busy today",
-      "explanation": "El banco está muy concurrido hoy."
-    },
-    {
-      "id": "fin-a1-w16-16",
-      "type": "writing",
-      "prompt": "Translate to English: 'Nuestra oficina es muy moderna.'",
-      "example": "Our office is very modern.",
-      "explanation": "Modern is the same as 'moderna'."
-    },
-    {
-      "id": "fin-a1-w16-17",
-      "type": "multipleChoice",
-      "prompt": "This connection is ______ (safe).",
-      "options": ["secure", "slow", "old"],
-      "answerIndex": 0,
-      "explanation": "Secure is a synonym for safe in technology."
-    },
-    {
-      "id": "fin-a1-w16-18",
-      "type": "fillBlanks",
-      "prompt": "The manager is very [blank] today.",
-      "answers": ["busy"],
-      "explanation": "Busy means having a lot to do."
-    },
-    {
-      "id": "fin-a1-w16-19",
-      "type": "reorder",
-      "prompt": "Reorder the sentence:",
-      "sentence": "Those large boxes are heavy",
-      "explanation": "Esas cajas grandes son pesadas."
-    },
-    {
-      "id": "fin-a1-w16-20",
-      "type": "multipleChoice",
-      "prompt": "A neobank is a ______ bank.",
-      "options": ["digital", "traditional", "old"],
-      "answerIndex": 0,
-      "explanation": "Neobanks are 100% digital."
     }
   ]
 }

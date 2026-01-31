@@ -7,28 +7,24 @@
   "items": [
     {
       "id": "adm-b2-w32-ex01",
-      "type": "reading-comprehension",
-      "title": "Exercise 1: CEO's Letter to Shareholders",
-      "text": "Dear Shareholders,\n\nNotwithstanding the significant market volatility encountered this year, our company has maintained its commitment to high standards of corporate governance. \n\nWe have successfully implemented our new ESG strategy, albeit with some minor delays in the initial reporting phase. Whereas our competitors have focused solely on short-term profits, we have prioritized long-term sustainability and transparency. \n\nDirectors have continued to discharge their fiduciary duties diligently, ensuring that every decision aligns with our core strategic objectives. Even so, we recognize that there is still room for improvement in our stakeholder engagement processes.",
-      "questions": [
-        {
-          "question": "What is the tone of the CEO's letter?",
-          "options": ["Informal and apologetic", "Formal, professional, and accountable", "Aggressive and dismissive"],
-          "answerIndex": 1,
-          "explanation": "The use of formal connectors and the focus on governance, fiduciary duties, and ESG indicates a professional tone."
-        },
-        {
-          "question": "Which connector is used to show concession regarding the ESG strategy?",
-          "options": ["Notwithstanding", "Albeit", "Whereas"],
-          "answerIndex": 1,
-          "explanation": "'Albeit' is used to concede that there were minor delays while maintaining that the implementation was successful."
-        }
-      ]
+      "type": "multipleChoice",
+      "prompt": "Read the following and identify the tone: 'Notwithstanding the significant market volatility encountered this year, our company has maintained its commitment to high standards of corporate governance. We have successfully implemented our new ESG strategy, albeit with some minor delays.'",
+      "options": ["Informal and apologetic", "Formal, professional, and accountable", "Aggressive and dismissive"],
+      "answerIndex": 1,
+      "explanation": "The use of formal connectors and the focus on governance and ESG indicates a professional tone."
     },
     {
       "id": "adm-b2-w32-ex02",
       "type": "multipleChoice",
-      "prompt": "Exercise 2: Governance Vocabulary. 'Fiduciary duty' is a legal obligation to:",
+      "prompt": "Based on the text: 'We have successfully implemented our new ESG strategy, albeit with some minor delays in the initial reporting phase.' Which connector is used to show concession regarding the ESG strategy?",
+      "options": ["Notwithstanding", "Albeit", "Whereas"],
+      "answerIndex": 1,
+      "explanation": "'Albeit' is used to concede that there were minor delays while maintaining that the implementation was successful."
+    },
+    {
+      "id": "adm-b2-w32-ex03",
+      "type": "multipleChoice",
+      "prompt": "'Fiduciary duty' is a legal obligation to:",
       "options": [
         "Act in the best interest of the shareholders",
         "Make as much money for yourself as possible",
@@ -39,23 +35,33 @@
       "explanation": "Fiduciary duty is the primary legal responsibility of company directors."
     },
     {
-      "id": "adm-b2-w32-ex03",
-      "type": "writingTask",
-      "prompt": "Exercise 3: Contrast Connectors. Combine these sentences using 'whereas': 'The North office is highly efficient. The South office is struggling with morale.'",
-      "modelAnswer": "The North office is highly efficient, whereas the South office is struggling with morale.",
-      "keywords": ["whereas"]
-    },
-    {
       "id": "adm-b2-w32-ex04",
-      "type": "writingTask",
-      "prompt": "Exercise 4: Concession. Rewrite using 'Notwithstanding': 'In spite of the high costs, the board approved the expansion.'",
-      "modelAnswer": "Notwithstanding the high costs, the board approved the expansion.",
-      "keywords": ["Notwithstanding"]
+      "type": "gap-fill",
+      "prompt": "Combine these sentences using 'whereas': 'The North office is highly efficient. The South office is struggling with morale.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^The North office is highly efficient, whereas the South office is struggling with morale\\.?$"
+        }
+      ],
+      "explanation": "'Whereas' is used to show a direct contrast between two clauses."
     },
     {
       "id": "adm-b2-w32-ex05",
+      "type": "gap-fill",
+      "prompt": "Rewrite using 'Notwithstanding': 'In spite of the high costs, the board approved the expansion.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Notwithstanding the high costs, the board approved the expansion\\.?$"
+        }
+      ],
+      "explanation": "'Notwithstanding' is a formal alternative to 'in spite of'."
+    },
+    {
+      "id": "adm-b2-w32-ex06",
       "type": "multipleChoice",
-      "prompt": "Exercise 5: Leadership Chunks. To 'align with strategic objectives' means:",
+      "prompt": "To 'align with strategic objectives' means:",
       "options": [
         "To disagree with the company's goals",
         "To ensure that actions support the long-term plans of the organization",
@@ -64,6 +70,682 @@
       ],
       "answerIndex": 1,
       "explanation": "Alignment ensures that all parts of the organization are working toward the same goals."
+    },
+    {
+      "id": "adm-b2-w32-ex07",
+      "type": "multipleChoice",
+      "prompt": "Which term describes a director who is NOT an employee of the company?",
+      "options": ["Executive Director", "Non-Executive Director (NED)", "Managing Director", "Operational Director"],
+      "answerIndex": 1,
+      "explanation": "NEDs provide independent oversight and are not part of the daily management team."
+    },
+    {
+      "id": "adm-b2-w32-ex08",
+      "type": "multipleChoice",
+      "prompt": "What does the 'S' in ESG stand for?",
+      "options": ["Systemic", "Social", "Strategic", "Sustainability"],
+      "answerIndex": 1,
+      "explanation": "ESG stands for Environmental, Social, and Governance."
+    },
+    {
+      "id": "adm-b2-w32-ex09",
+      "type": "gap-fill",
+      "prompt": "Use 'Albeit' to concede a point: 'The results were positive, ____ (even if) they were slightly below target.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^albeit$"
+        }
+      ],
+      "explanation": "'Albeit' introduces a concession, often followed by an adjective or phrase."
+    },
+    {
+      "id": "adm-b2-w32-ex10",
+      "type": "multipleChoice",
+      "prompt": "'Shareholder Activism' involves:",
+      "options": [
+        "Shareholders selling all their shares",
+        "Shareholders using their voting rights to influence company policy",
+        "Shareholders working in the office",
+        "Shareholders complaining to the media"
+      ],
+      "answerIndex": 1,
+      "explanation": "Activists use their power to push for changes in areas like ESG or executive pay."
+    },
+    {
+      "id": "adm-b2-w32-ex11",
+      "type": "gap-fill",
+      "prompt": "Contrast. Use 'Conversely' to show an opposite idea: 'High-interest rates hurt borrowers. ____, they benefit savers.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Conversely$"
+        }
+      ],
+      "explanation": "'Conversely' introduces a statement that is the opposite of the previous one."
+    },
+    {
+      "id": "adm-b2-w32-ex12",
+      "type": "multipleChoice",
+      "prompt": "A 'Whistleblowing Policy' is designed to:",
+      "options": [
+        "Encourage staff to work faster",
+        "Protect employees who report unethical or illegal behavior",
+        "Reward the most productive employees",
+        "Prevent employees from talking to each other"
+      ],
+      "answerIndex": 1,
+      "explanation": "Whistleblowing is a key component of ethical corporate governance."
+    },
+    {
+      "id": "adm-b2-w32-ex13",
+      "type": "multipleChoice",
+      "prompt": "What is the primary role of the 'Audit Committee'?",
+      "options": [
+        "To design the company logo",
+        "To oversee financial reporting and internal controls",
+        "To hire new interns",
+        "To plan the company holiday party"
+      ],
+      "answerIndex": 1,
+      "explanation": "The audit committee ensures the integrity of the company's financial statements."
+    },
+    {
+      "id": "adm-b2-w32-ex14",
+      "type": "gap-fill",
+      "prompt": "Concession. Use 'Notwithstanding' at the start: '____ (despite) the risks, we proceeded with the merger.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Notwithstanding$"
+        }
+      ],
+      "explanation": "'Notwithstanding' is used as a formal preposition meaning 'despite'."
+    },
+    {
+      "id": "adm-b2-w32-ex15",
+      "type": "multipleChoice",
+      "prompt": "In governance, 'Transparency' refers to:",
+      "options": [
+        "Having glass walls in the office",
+        "The open disclosure of relevant information to stakeholders",
+        "Hiding mistakes from shareholders",
+        "Only talking to the CEO"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transparency builds trust between the company and its investors/public."
+    },
+    {
+      "id": "adm-b2-w32-ex16",
+      "type": "multipleChoice",
+      "prompt": "What is 'Board Diversity'?",
+      "options": [
+        "Having directors with different backgrounds, skills, and perspectives",
+        "Having directors from only one country",
+        "Having a large number of directors",
+        "Changing the board members every month"
+      ],
+      "answerIndex": 0,
+      "explanation": "Diversity is increasingly seen as a driver of better decision-making and governance."
+    },
+    {
+      "id": "adm-b2-w32-ex17",
+      "type": "gap-fill",
+      "prompt": "Contrast. Combine: 'Sales are up. Profits are down.' use 'whereas'.",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Sales are up, whereas profits are down\\.?$"
+        }
+      ],
+      "explanation": "'Whereas' is effective for contrasting two trends in the same sentence."
+    },
+    {
+      "id": "adm-b2-w32-ex18",
+      "type": "multipleChoice",
+      "prompt": "'Executive Compensation' refers to:",
+      "options": [
+        "The punishment for bad managers",
+        "The pay and benefits packages provided to top-level managers",
+        "The cost of a new office",
+        "A type of business insurance"
+      ],
+      "answerIndex": 1,
+      "explanation": "Governance rules often require transparency regarding executive pay."
+    },
+    {
+      "id": "adm-b2-w32-ex19",
+      "type": "multipleChoice",
+      "prompt": "What is 'Strategic Change'?",
+      "options": [
+        "Changing the office furniture",
+        "A fundamental shift in an organization's direction or business model",
+        "Hiring a new receptionist",
+        "Changing the company's social media password"
+      ],
+      "answerIndex": 1,
+      "explanation": "Strategic change is usually driven by external factors like technology or competition."
+    },
+    {
+      "id": "adm-b2-w32-ex20",
+      "type": "gap-fill",
+      "prompt": "Concession. Use 'Even so': 'The market is volatile. ____ (despite that), we remain confident.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Even so$"
+        }
+      ],
+      "explanation": "'Even so' is a transition phrase used to introduce a statement that contrasts with what has just been said."
+    },
+    {
+      "id": "adm-b2-w32-ex21",
+      "type": "multipleChoice",
+      "prompt": "A 'Stewardship Code' is intended to:",
+      "options": [
+        "Help employees with their career path",
+        "Ensure institutional investors act responsibly in relation to the companies they invest in",
+        "Control the company's budget",
+        "Protect the company from hackers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stewardship codes promote long-term value creation and accountability."
+    },
+    {
+      "id": "adm-b2-w32-ex22",
+      "type": "multipleChoice",
+      "prompt": "Which connector is MOST appropriate for formal concession in a legal statement?",
+      "options": ["But", "Albeit", "Notwithstanding", "However"],
+      "answerIndex": 2,
+      "explanation": "'Notwithstanding' is highly formal and commonly used in legal and governance contexts."
+    },
+    {
+      "id": "adm-b2-w32-ex23",
+      "type": "multipleChoice",
+      "prompt": "Non-Executive Directors (NEDs) primarily focus on:",
+      "options": ["Managing daily operations", "Hiring administrative staff", "Providing independent oversight and strategy", "Handling customer complaints"],
+      "answerIndex": 2,
+      "explanation": "NEDs provide a 'check and balance' on the executive management."
+    },
+    {
+      "id": "adm-b2-w32-ex24",
+      "type": "multipleChoice",
+      "prompt": "'Embedded' processes in corporate culture are:",
+      "options": ["Temporarily used", "Deeply integrated and permanent", "Hidden from the public", "Illegal"],
+      "answerIndex": 1,
+      "explanation": "Successful change management ensures new processes are embedded in the culture."
+    },
+    {
+      "id": "adm-b2-w32-ex25",
+      "type": "gap-fill",
+      "prompt": "Use 'albeit' to describe a decision: 'The board approved the budget, ____ (even though it was) smaller than requested.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^albeit$"
+        }
+      ],
+      "explanation": "'Albeit' is used here to concede a negative aspect of the budget while noting it was still approved."
+    },
+    {
+      "id": "adm-b2-w32-ex26",
+      "type": "multipleChoice",
+      "prompt": "A 'Conflict of Interest' occurs when:",
+      "options": ["Two people disagree", "Personal interests clash with professional duties", "A company has no money", "The CEO resigns"],
+      "answerIndex": 1,
+      "explanation": "Managing conflicts of interest is a core part of ethical governance."
+    },
+    {
+      "id": "adm-b2-w32-ex27",
+      "type": "multipleChoice",
+      "prompt": "What is the primary focus of 'Environmental' criteria in ESG?",
+      "options": ["Employee safety", "Carbon footprint and waste management", "Board diversity", "Executive pay"],
+      "answerIndex": 1,
+      "explanation": "Environmental criteria look at energy use, waste, and natural resource conservation."
+    },
+    {
+      "id": "adm-b2-w32-ex28",
+      "type": "gap-fill",
+      "prompt": "Combine with 'While': 'The marketing plan is ambitious. It lacks specific KPIs.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^While the marketing plan is ambitious, it lacks specific KPIs\\.?$"
+        }
+      ],
+      "explanation": "'While' can be used at the start of a sentence to show concession or contrast."
+    },
+    {
+      "id": "adm-b2-w32-ex29",
+      "type": "multipleChoice",
+      "prompt": "'Shareholder Primacy' is the idea that:",
+      "options": ["Employees come first", "The primary goal of a company is to maximize shareholder value", "The government controls the company", "Customers are always right"],
+      "answerIndex": 1,
+      "explanation": "This is a traditional view of governance, now often balanced with stakeholder theory."
+    },
+    {
+      "id": "adm-b2-w32-ex30",
+      "type": "multipleChoice",
+      "prompt": "In 'albeit slower than expected', 'albeit' is functioning as a:",
+      "options": ["Noun", "Verb", "Conjunction showing concession", "Preposition"],
+      "answerIndex": 2,
+      "explanation": "'Albeit' introduces a concessive clause or phrase."
+    },
+    {
+      "id": "adm-b2-w32-ex31",
+      "type": "multipleChoice",
+      "prompt": "'Diligence' in a professional context means:",
+      "options": ["Being fast", "Being careful and thorough", "Being loud", "Being expensive"],
+      "answerIndex": 1,
+      "explanation": "Due diligence and discharging duties require high levels of care and thoroughness."
+    },
+    {
+      "id": "adm-b2-w32-ex32",
+      "type": "multipleChoice",
+      "prompt": "Which of the following is a 'Social' factor in ESG?",
+      "options": ["Anti-bribery", "Climate change", "Diversity and labor practices", "Audit quality"],
+      "answerIndex": 2,
+      "explanation": "Social factors include relationships with employees, suppliers, and the community."
+    },
+    {
+      "id": "adm-b2-w32-ex33",
+      "type": "gap-fill",
+      "prompt": "Use 'Notwithstanding' at the end of a sentence: 'The CEO's resignation was surprising, the rumors ____.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^notwithstanding$"
+        }
+      ],
+      "explanation": "'Notwithstanding' can be placed after the noun it refers to for emphasis."
+    },
+    {
+      "id": "adm-b2-w32-ex34",
+      "type": "multipleChoice",
+      "prompt": "'Board Oversight' means:",
+      "options": ["The board ignoring mistakes", "The board monitoring and supervising management", "The board doing all the secretarial work", "The board working for the government"],
+      "answerIndex": 1,
+      "explanation": "Oversight ensures accountability and compliance."
+    },
+    {
+      "id": "adm-b2-w32-ex35",
+      "type": "multipleChoice",
+      "prompt": "A 'Remuneration Committee' decides:",
+      "options": ["The company's taxes", "The pay packages for senior executives", "The office budget", "The employee training schedule"],
+      "answerIndex": 1,
+      "explanation": "This committee ensures that executive pay is fair and aligned with performance."
+    },
+    {
+      "id": "adm-b2-w32-ex36",
+      "type": "gap-fill",
+      "prompt": "Contrast. Use 'Conversely': 'Digital sales are rising. ____, physical store traffic is declining.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Conversely$"
+        }
+      ],
+      "explanation": "'Conversely' is used to introduce an idea that is the inverse of the one just mentioned."
+    },
+    {
+      "id": "adm-b2-w32-ex37",
+      "type": "multipleChoice",
+      "prompt": "'Regulatory Compliance' involves:",
+      "options": ["Creating new laws", "Following existing rules and laws", "Breaking the law to make money", "Ignoring the government"],
+      "answerIndex": 1,
+      "explanation": "Compliance is a vital part of risk management in governance."
+    },
+    {
+      "id": "adm-b2-w32-ex38",
+      "type": "multipleChoice",
+      "prompt": "'Stakeholder Theory' suggests that:",
+      "options": ["Only shareholders matter", "Companies should create value for all stakeholders (employees, customers, etc.)", "The company belongs to the CEO", "Managers should ignore the board"],
+      "answerIndex": 1,
+      "explanation": "Stakeholder theory argues for a broader focus than just shareholder profits."
+    },
+    {
+      "id": "adm-b2-w32-ex39",
+      "type": "gap-fill",
+      "prompt": "Concession. Rewrite: 'Even though she had no experience, she was appointed.' Use 'Notwithstanding'.",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Notwithstanding her lack of experience, she was appointed\\.?$"
+        }
+      ],
+      "explanation": "'Notwithstanding' is followed by a noun or noun phrase."
+    },
+    {
+      "id": "adm-b2-w32-ex40",
+      "type": "multipleChoice",
+      "prompt": "What is the 'Board of Directors' primary body for?",
+      "options": ["Marketing products", "Corporate governance", "Customer service", "Software development"],
+      "answerIndex": 1,
+      "explanation": "The board is the primary body responsible for directing and controlling the company."
+    },
+    {
+      "id": "adm-b2-w32-ex41",
+      "type": "multipleChoice",
+      "prompt": "A 'Fiduciary' relationship is based on:",
+      "options": ["Fear", "Trust", "Competition", "Randomness"],
+      "answerIndex": 1,
+      "explanation": "Trust is the core element of any fiduciary relationship."
+    },
+    {
+      "id": "adm-b2-w32-ex42",
+      "type": "gap-fill",
+      "prompt": "Contrast. Use 'Whereas': 'The UK branch is profitable. The French branch is struggling.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^The UK branch is profitable, whereas the French branch is struggling\\.?$"
+        }
+      ],
+      "explanation": "'Whereas' creates a clear comparison between two geographical units."
+    },
+    {
+      "id": "adm-b2-w32-ex43",
+      "type": "gap-fill",
+      "prompt": "Rewrite using 'Notwithstanding' as a preposition: 'Despite the objections from the board, the CEO proceeded.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Notwithstanding the objections from the board, the CEO proceeded\\.?$"
+        }
+      ],
+      "explanation": "'Notwithstanding' functions as a formal preposition here."
+    },
+    {
+      "id": "adm-b2-w32-ex44",
+      "type": "multipleChoice",
+      "prompt": "'Board Accountability' means:",
+      "options": ["The board doing all the math", "The board being responsible for the company's performance and decisions", "The board answering the phones", "The board ignoring the shareholders"],
+      "answerIndex": 1,
+      "explanation": "Accountability ensures that directors answer for their actions."
+    },
+    {
+      "id": "adm-b2-w32-ex45",
+      "type": "multipleChoice",
+      "prompt": "What is 'Executive Succession Planning'?",
+      "options": ["Firing all the managers", "A process for identifying and developing new leaders to replace old ones", "Planning the office party", "Creating a new social media account"],
+      "answerIndex": 1,
+      "explanation": "Succession planning ensures continuity in leadership."
+    },
+    {
+      "id": "adm-b2-w32-ex46",
+      "type": "gap-fill",
+      "prompt": "Contrast. Use 'While' to start: '____ (although) the revenue grew, profit margins shrank.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^While$"
+        }
+      ],
+      "explanation": "'While' is often used at the beginning of a sentence to introduce a contrasting clause."
+    },
+    {
+      "id": "adm-b2-w32-ex47",
+      "type": "multipleChoice",
+      "prompt": "'Ethical Leadership' is defined as:",
+      "options": ["Following the law only when caught", "Leading by example and promoting values within the organization", "Doing whatever is necessary to make a profit", "Hiring people who don't ask questions"],
+      "answerIndex": 1,
+      "explanation": "Ethical leaders prioritize values and integrity."
+    },
+    {
+      "id": "adm-b2-w32-ex48",
+      "type": "multipleChoice",
+      "prompt": "What is a 'Proxy Vote'?",
+      "options": ["A fake vote", "A vote cast by one person on behalf of another", "A vote for a new receptionist", "A type of business insurance"],
+      "answerIndex": 1,
+      "explanation": "Shareholders often use proxy votes in governance meetings."
+    },
+    {
+      "id": "adm-b2-w32-ex49",
+      "type": "gap-fill",
+      "prompt": "Use 'Albeit' to contrast two adjectives: 'The strategy is innovative, ____ (but) risky.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^albeit$"
+        }
+      ],
+      "explanation": "'Albeit' is commonly used between two adjectives to show concession."
+    },
+    {
+      "id": "adm-b2-w32-ex50",
+      "type": "multipleChoice",
+      "prompt": "'Risk Oversight' is a responsibility of:",
+      "options": ["Only the junior staff", "The Board of Directors", "The cleaning crew", "The local government"],
+      "answerIndex": 1,
+      "explanation": "The board must ensure that management is identifying and managing risks effectively."
+    },
+    {
+      "id": "adm-b2-w32-ex51",
+      "type": "multipleChoice",
+      "prompt": "Which connector means 'Despite the fact that'?",
+      "options": ["Whereas", "Albeit", "Notwithstanding", "Conversely"],
+      "answerIndex": 2,
+      "explanation": "'Notwithstanding' is a formal synonym for 'despite' or 'in spite of'."
+    },
+    {
+      "id": "adm-b2-w32-ex52",
+      "type": "multipleChoice",
+      "prompt": "'Sustainable Development' in governance means:",
+      "options": ["Building new offices every year", "Meeting needs today without compromising tomorrow", "Only using solar power", "Never changing the company strategy"],
+      "answerIndex": 1,
+      "explanation": "Sustainability is a key part of modern ESG-focused governance."
+    },
+    {
+      "id": "adm-b2-w32-ex53",
+      "type": "gap-fill",
+      "prompt": "Combine with 'whereas': 'Executive directors are internal. NEDs are external.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Executive directors are internal, whereas NEDs are external\\.?$"
+        }
+      ],
+      "explanation": "'Whereas' contrasts the internal/external nature of directors."
+    },
+    {
+      "id": "adm-b2-w32-ex54",
+      "type": "multipleChoice",
+      "prompt": "What is 'Board Independence'?",
+      "options": ["The board working without a CEO", "The presence of directors who have no material ties to the company", "The board moving to a different country", "The board having no rules"],
+      "answerIndex": 1,
+      "explanation": "Independence helps prevent conflicts of interest."
+    },
+    {
+      "id": "adm-b2-w32-ex55",
+      "type": "multipleChoice",
+      "prompt": "'Duty of Care' requires directors to:",
+      "options": ["Clean the office", "Make decisions with reasonable care and skill", "Hire their friends", "Ignore financial reports"],
+      "answerIndex": 1,
+      "explanation": "Duty of care is a fundamental legal obligation in governance."
+    },
+    {
+      "id": "adm-b2-w32-ex56",
+      "type": "gap-fill",
+      "prompt": "Use 'Notwithstanding' at the start: '____ (although there was) a lack of evidence, the board launched an inquiry.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Notwithstanding$"
+        }
+      ],
+      "explanation": "'Notwithstanding' is used as a formal connector to introduce a concession."
+    },
+    {
+      "id": "adm-b2-w32-ex57",
+      "type": "multipleChoice",
+      "prompt": "'Greenwashing' is when a company:",
+      "options": ["Cleans its office with green soap", "Misleads investors about its environmental performance", "Invests only in forests", "Changes its logo to green"],
+      "answerIndex": 1,
+      "explanation": "Greenwashing is an ethical risk in ESG reporting."
+    },
+    {
+      "id": "adm-b2-w32-ex58",
+      "type": "multipleChoice",
+      "prompt": "What is 'Executive Liability'?",
+      "options": ["The CEO's bank account", "The legal responsibility of executives for their actions", "The cost of a company car", "A type of software"],
+      "answerIndex": 1,
+      "explanation": "Executives can be held legally responsible for corporate wrongdoing."
+    },
+    {
+      "id": "adm-b2-w32-ex59",
+      "type": "gap-fill",
+      "prompt": "Use 'Albeit' to contrast: 'The change was necessary, ____ (but) painful.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^albeit$"
+        }
+      ],
+      "explanation": "'Albeit' is a formal way to introduce a concessive adjective."
+    },
+    {
+      "id": "adm-b2-w32-ex60",
+      "type": "multipleChoice",
+      "prompt": "'Corporate Governance Codes' are:",
+      "options": ["Passwords for the office door", "Sets of non-binding recommendations for how companies should be run", "Laws that send you to jail", "The company's secret recipes"],
+      "answerIndex": 1,
+      "explanation": "Many countries have codes (like the UK Corporate Governance Code) that follow a 'comply or explain' model."
+    },
+    {
+      "id": "adm-b2-w32-ex61",
+      "type": "multipleChoice",
+      "prompt": "In governance, what does 'Comply or Explain' mean?",
+      "options": ["Do it or go to jail", "Follow the rules or explain why you didn't", "Explain the rules to the staff", "Comply with the CEO's orders only"],
+      "answerIndex": 1,
+      "explanation": "This is a key principle in many corporate governance codes."
+    },
+    {
+      "id": "adm-b2-w32-ex62",
+      "type": "multipleChoice",
+      "prompt": "'Fiduciary' comes from the Latin word for:",
+      "options": ["Money", "Trust", "Law", "Board"],
+      "answerIndex": 1,
+      "explanation": "Fiduciary relationships are based on a high degree of trust."
+    },
+    {
+      "id": "adm-b2-w32-ex63",
+      "type": "gap-fill",
+      "prompt": "Use 'Conversely' to show a shift: 'In 2022, we grew by 5%. ____, in 2023, we saw a slight contraction.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^Conversely$"
+        }
+      ],
+      "explanation": "'Conversely' introduces the opposite scenario or result."
+    },
+    {
+      "id": "adm-b2-w32-ex64",
+      "type": "multipleChoice",
+      "prompt": "'Shareholder Engagement' means:",
+      "options": ["Asking shareholders to get married", "Communication and dialogue between a company and its owners", "Selling more shares", "Ignoring shareholder questions"],
+      "answerIndex": 1,
+      "explanation": "Engagement helps align management with shareholder interests."
+    },
+    {
+      "id": "adm-b2-w32-ex65",
+      "type": "multipleChoice",
+      "prompt": "What is 'Risk Appetite'?",
+      "options": ["Being hungry for business", "The amount and type of risk that an organisation is willing to take", "A type of insurance policy", "A safety training course"],
+      "answerIndex": 1,
+      "explanation": "Setting the risk appetite is a key board responsibility."
+    },
+    {
+      "id": "adm-b2-w32-ex66",
+      "type": "gap-fill",
+      "prompt": "Use 'Notwithstanding' as an adverb: 'The evidence was weak; the board fired him ____.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^notwithstanding$"
+        }
+      ],
+      "explanation": "When used at the end of a clause, 'notwithstanding' functions as an adverb meaning 'nevertheless'."
+    },
+    {
+      "id": "adm-b2-w32-ex67",
+      "type": "multipleChoice",
+      "prompt": "'Tone at the Top' refers to:",
+      "options": ["The volume of the CEO's voice", "The ethical atmosphere created by an organisation's leadership", "The color of the CEO's office", "The company's hold music"],
+      "answerIndex": 1,
+      "explanation": "Leadership sets the ethical standard for the entire company."
+    },
+    {
+      "id": "adm-b2-w32-ex68",
+      "type": "multipleChoice",
+      "prompt": "'Integrated Reporting' combines:",
+      "options": ["Email and social media", "Financial and non-financial (ESG) information in one report", "Two different companies' reports", "The report and the marketing brochure"],
+      "answerIndex": 1,
+      "explanation": "Integrated reporting provides a holistic view of value creation."
+    },
+    {
+      "id": "adm-b2-w32-ex69",
+      "type": "gap-fill",
+      "prompt": "Use 'Albeit' with an adverb: 'The project finished on time, ____ (even if) barely.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^albeit$"
+        }
+      ],
+      "explanation": "'Albeit' can be used with adverbs to show concession."
+    },
+    {
+      "id": "adm-b2-w32-ex70",
+      "type": "multipleChoice",
+      "prompt": "A 'Guiding Coalition' in change management is:",
+      "options": ["A map for the office", "A group of influential people who lead the change effort", "A set of rules for the receptionist", "A type of business merger"],
+      "answerIndex": 1,
+      "explanation": "Kotter's model emphasizes the need for a strong group to drive change."
+    },
+    {
+      "id": "adm-b2-w32-ex71",
+      "type": "multipleChoice",
+      "prompt": "'Materiality' in reporting means:",
+      "options": ["Buying new materials", "The importance of an event or information to a reasonable investor", "Building a new factory", "The weight of the paper used for reports"],
+      "answerIndex": 1,
+      "explanation": "Companies must disclose 'material' information."
+    },
+    {
+      "id": "adm-b2-w32-ex72",
+      "type": "multipleChoice",
+      "prompt": "Which of the following is NOT part of ESG?",
+      "options": ["Environmental", "Social", "Governance", "Speculation"],
+      "answerIndex": 3,
+      "explanation": "ESG stands for Environmental, Social, and Governance."
+    },
+    {
+      "id": "adm-b2-w32-ex73",
+      "type": "gap-fill",
+      "prompt": "Contrast. Use 'While' at the start: '____ (although) we respect his opinion, we will not follow it.'",
+      "validation": [
+        {
+          "type": "regex",
+          "value": "^While$"
+        }
+      ],
+      "explanation": "'While' is used here to mean 'although'."
+    },
+    {
+      "id": "adm-b2-w32-ex74",
+      "type": "multipleChoice",
+      "prompt": "'Corporate Citizenship' refers to:",
+      "options": ["The CEO's passport", "A company's responsibilities toward society", "The company's legal address", "Hiring people from different countries"],
+      "answerIndex": 1,
+      "explanation": "This is a key part of the 'S' in ESG."
+    },
+    {
+      "id": "adm-b2-w32-ex75",
+      "type": "multipleChoice",
+      "prompt": "'Agency Theory' focuses on the conflict between:",
+      "options": ["Marketing and Sales", "Principals (shareholders) and Agents (managers)", "The company and the government", "Employees and customers"],
+      "answerIndex": 1,
+      "explanation": "Governance aims to align the interests of agents with those of principals."
     }
   ]
 }

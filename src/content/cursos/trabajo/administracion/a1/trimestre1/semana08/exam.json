@@ -1,55 +1,265 @@
 {
-  "title": "Examen: Rutina y Gramática del Presente",
+  "title": "Examen Semana 8: Preguntas y Negaciones (I, You, We, They)",
   "questions": [
     {
-      "id": "q1",
-      "question": "What is the opposite of 'To withdraw'?",
-      "options": ["To pay", "To sign", "To deposit", "To talk"],
-      "correctAnswer": 2,
-      "explanation": "To deposit (put money in) is the opposite of to withdraw (take money out)."
-    },
-    {
-      "id": "q2",
-      "question": "Which question is correct?",
+      "id": "adm-a1-w08-q01",
+      "type": "multiple-choice",
+      "question": "Which auxiliary verb do we use to make questions with 'you' in the Present Simple?",
       "options": [
-        "Do he help the customers?",
-        "Does he helps the customers?",
-        "Does he help the customers?",
-        "Do he helps the customers?"
+        "Are",
+        "Do",
+        "Is",
+        "Does"
       ],
-      "correctAnswer": 2,
-      "explanation": "Does + subject (he) + base form (help)."
+      "answerIndex": 1,
+      "explanation": "We use 'Do' for questions with 'I', 'you', 'we', and 'they'."
     },
     {
-      "id": "q3",
-      "question": "If you want to say that the bank doesn't open on Sunday, you say:",
+      "id": "adm-a1-w08-q02",
+      "type": "multiple-choice",
+      "question": "What is the correct negative form of 'I work on Saturdays'?",
       "options": [
-        "The bank don't open on Sunday.",
-        "The bank doesn't open on Sunday.",
-        "The bank not open on Sunday.",
-        "The bank doesn't opens on Sunday."
+        "I no work on Saturdays.",
+        "I not work on Saturdays.",
+        "I don't work on Saturdays.",
+        "I am not work on Saturdays."
       ],
-      "correctAnswer": 1,
-      "explanation": "The bank (it) takes 'doesn't' + base form."
+      "answerIndex": 2,
+      "explanation": "We use 'don't' (do not) for negative sentences in the Present Simple."
     },
     {
-      "id": "q4",
-      "question": "What does 'To sign' mean?",
+      "id": "adm-a1-w08-q03",
+      "type": "multiple-choice",
+      "question": "Complete the question: '______ they speak English in the office?'",
       "options": [
-        "To write your name on a document",
-        "To count money",
-        "To speak with the manager",
-        "To use the ATM"
+        "Is",
+        "Are",
+        "Do",
+        "Does"
       ],
-      "correctAnswer": 0,
-      "explanation": "To sign is to write one's name as a way of agreeing or identifying."
+      "answerIndex": 2,
+      "explanation": "We use 'Do' to start a question with 'they'."
     },
     {
-      "id": "q5",
-      "question": "Select the correct short answer: 'Do you work here?'",
-      "options": ["Yes, I am.", "Yes, I do.", "Yes, I work.", "Yes, I does."],
-      "correctAnswer": 1,
-      "explanation": "Questions with 'Do you...?' are answered with 'Yes, I do' or 'No, I don't'."
+      "id": "adm-a1-w08-q04",
+      "type": "multiple-choice",
+      "question": "Which is the correct short answer to: 'Do you need help?'",
+      "options": [
+        "Yes, I am.",
+        "Yes, I need.",
+        "Yes, I do.",
+        "Yes, I does."
+      ],
+      "answerIndex": 2,
+      "explanation": "The short affirmative answer for a 'Do' question is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w08-q05",
+      "type": "multiple-choice",
+      "question": "Choose the correct negative sentence:",
+      "options": [
+        "We not write reports.",
+        "We don't write reports.",
+        "We no write reports.",
+        "We doesn't write reports."
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'don't' with 'we' to form a negative sentence."
+    },
+    {
+      "id": "adm-a1-w08-q06",
+      "type": "multiple-choice",
+      "question": "What is the correct way to ask '¿Ellos usan Excel?'?",
+      "options": [
+        "Use they Excel?",
+        "Are they use Excel?",
+        "Do they use Excel?",
+        "They use Excel?"
+      ],
+      "answerIndex": 2,
+      "explanation": "We use 'Do' + Subject + Verb for questions."
+    },
+    {
+      "id": "adm-a1-w08-q07",
+      "type": "multiple-choice",
+      "question": "Complete the sentence: 'I ______ like long meetings.'",
+      "options": [
+        "not",
+        "no",
+        "don't",
+        "am not"
+      ],
+      "answerIndex": 2,
+      "explanation": "With 'I', we use 'don't' for negatives."
+    },
+    {
+      "id": "adm-a1-w08-q08",
+      "type": "multiple-choice",
+      "question": "Short negative answer: 'Do you and Sarah email the clients?'",
+      "options": [
+        "No, we aren't.",
+        "No, we don't.",
+        "No, they don't.",
+        "No, we no."
+      ],
+      "answerIndex": 1,
+      "explanation": "The negative short answer for 'we' (you and Sarah) is 'No, we don't'."
+    },
+    {
+      "id": "adm-a1-w08-q09",
+      "type": "multiple-choice",
+      "question": "Complete the question: '______ we have a meeting at 10:00?'",
+      "options": [
+        "Do",
+        "Are",
+        "Is",
+        "Have"
+      ],
+      "answerIndex": 0,
+      "explanation": "We use 'Do' to start a question with 'we'."
+    },
+    {
+      "id": "adm-a1-w08-q10",
+      "type": "multiple-choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "They don't need a new laptop.",
+        "They no need a new laptop.",
+        "They not need a new laptop.",
+        "They doesn't need a new laptop."
+      ],
+      "answerIndex": 0,
+      "explanation": "With 'they', we use 'don't' for the negative."
+    },
+    {
+      "id": "adm-a1-w08-q11",
+      "type": "multiple-choice",
+      "question": "Complete the question: '______ you know the new manager?'",
+      "options": [
+        "Are",
+        "Is",
+        "Do",
+        "Know"
+      ],
+      "answerIndex": 2,
+      "explanation": "The question form is 'Do you know...?'"
+    },
+    {
+      "id": "adm-a1-w08-q12",
+      "type": "multiple-choice",
+      "question": "Affirmative short answer: 'Do they work in London?'",
+      "options": [
+        "Yes, they work.",
+        "Yes, they are.",
+        "Yes, they do.",
+        "Yes, they does."
+      ],
+      "answerIndex": 2,
+      "explanation": "The short answer for 'they' is 'Yes, they do'."
+    },
+    {
+      "id": "adm-a1-w08-q13",
+      "type": "multiple-choice",
+      "question": "What is the English for 'Yo no entiendo'?",
+      "options": [
+        "I no understand",
+        "I not understand",
+        "I don't understand",
+        "I am not understand"
+      ],
+      "answerIndex": 2,
+      "explanation": "We use 'don't' + 'understand'."
+    },
+    {
+      "id": "adm-a1-w08-q14",
+      "type": "multiple-choice",
+      "question": "Complete the question: '______ you have the reports?'",
+      "options": [
+        "Have",
+        "Do",
+        "Are",
+        "Is"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'Do' for questions with 'you'."
+    },
+    {
+      "id": "adm-a1-w08-q15",
+      "type": "multiple-choice",
+      "question": "Negative short answer: 'Do we need a break?'",
+      "options": [
+        "No, we no.",
+        "No, we don't.",
+        "No, we aren't.",
+        "No, we doesn't."
+      ],
+      "answerIndex": 1,
+      "explanation": "The short negative answer for 'we' is 'No, we don't'."
+    },
+    {
+      "id": "adm-a1-w08-q16",
+      "type": "multiple-choice",
+      "question": "Complete the sentence: 'You ______ need to call the client today.'",
+      "options": [
+        "no",
+        "not",
+        "don't",
+        "isn't"
+      ],
+      "answerIndex": 2,
+      "explanation": "With 'you', the negative is 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-q17",
+      "type": "multiple-choice",
+      "question": "Which is the correct way to ask '¿Ellos hablan inglés?'?",
+      "options": [
+        "Speak they English?",
+        "Do they speak English?",
+        "Are they speak English?",
+        "They speak English?"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'Do' + Subject + Verb for questions."
+    },
+    {
+      "id": "adm-a1-w08-q18",
+      "type": "multiple-choice",
+      "question": "Short affirmative answer: 'Do you use a computer at work?'",
+      "options": [
+        "Yes, I do.",
+        "Yes, I am.",
+        "Yes, I use.",
+        "Yes, I does."
+      ],
+      "answerIndex": 0,
+      "explanation": "The short answer for 'you' is 'Yes, I do'."
+    },
+    {
+      "id": "adm-a1-w08-q19",
+      "type": "multiple-choice",
+      "question": "Complete the sentence: 'They ______ work on Sundays.'",
+      "options": [
+        "not",
+        "no",
+        "don't",
+        "doesn't"
+      ],
+      "answerIndex": 2,
+      "explanation": "With 'they', the negative is 'don't'."
+    },
+    {
+      "id": "adm-a1-w08-q20",
+      "type": "multiple-choice",
+      "question": "Which auxiliary is used in negative sentences with 'I', 'You', 'We', and 'They'?",
+      "options": [
+        "Doesn't",
+        "Don't",
+        "Not",
+        "No"
+      ],
+      "answerIndex": 1,
+      "explanation": "We use 'don't' (do not) for these subjects."
     }
   ]
 }

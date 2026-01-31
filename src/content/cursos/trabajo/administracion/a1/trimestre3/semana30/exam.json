@@ -1,50 +1,216 @@
 {
-  "goal": "administracion",
-  "level": "A1",
-  "trimester": 3,
-  "weekId": "semana30",
-  "examId": "fin-a1-w30-exam",
-  "title": "Examen: De Compras: Precios y Pagos",
-  "items": [
+  "title": "Module 3: Week 30 Exam",
+  "questions": [
     {
-      "id": "fin-a1-w30-exam-1",
-      "type": "multipleChoice",
-      "prompt": "________ shoes are very expensive.",
-      "options": ["This", "That", "These", "Them"],
-      "answerIndex": 2,
-      "explanation": "We use 'these' for plural things that are near."
+      "id": "adm-a1-w30-q1",
+      "type": "multiple-choice",
+      "question": "Choose the most professional thank you phrase:",
+      "options": [
+        "Thanks for the things.",
+        "I appreciate your time and help.",
+        "Good job on me.",
+        "You are welcome."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'I appreciate your time and help' is polite and appropriate for a professional setting."
     },
     {
-      "id": "fin-a1-w30-exam-2",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Receipt'?",
-      "options": ["A list of prices", "A document proving you paid for something", "A type of discount", "A credit card"],
-      "answerIndex": 1,
-      "explanation": "A receipt (recibo/ticket) is proof of payment."
+      "id": "adm-a1-w30-q2",
+      "type": "fill-blank",
+      "question": "The manager wants to see us. Please go with ________.",
+      "answer": "him",
+      "explanation": "In English, we use the object pronoun 'him' after prepositions like 'with'."
     },
     {
-      "id": "fin-a1-w30-exam-3",
-      "type": "multipleChoice",
-      "prompt": "Look at ________ car over there! It's beautiful.",
-      "options": ["this", "that", "these", "those"],
-      "answerIndex": 1,
-      "explanation": "We use 'that' for a singular thing that is far away."
+      "id": "adm-a1-w30-q3",
+      "type": "matching",
+      "question": "Match the verbs with the correct object pronoun:",
+      "pairs": [
+        { "term": "Call (I)", "definition": "Call me" },
+        { "term": "Help (We)", "definition": "Help us" },
+        { "term": "Email (They)", "definition": "Email them" }
+      ]
     },
     {
-      "id": "fin-a1-w30-exam-4",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Discount'?",
-      "options": ["A higher price", "A reduction in price", "A new product", "A bank loan"],
-      "answerIndex": 1,
-      "explanation": "A discount is when something costs less than usual."
+      "id": "adm-a1-w30-q4",
+      "type": "multiple-choice",
+      "question": "What is a 'Follow-up' email?",
+      "options": [
+        "An email sent to check on the progress of something.",
+        "An email sent by mistake.",
+        "A spam email.",
+        "A personal email to a friend."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A follow-up email is used to continue communication about a previous topic or event."
     },
     {
-      "id": "fin-a1-w30-exam-5",
-      "type": "multipleChoice",
-      "prompt": "I want to buy ________ books here.",
-      "options": ["this", "that", "these", "those"],
-      "answerIndex": 2,
-      "explanation": "We use 'these' for plural things that are near."
+      "id": "adm-a1-w30-q5",
+      "type": "fill-blank",
+      "question": "Thank you for the feedback. I will read ________ carefully.",
+      "answer": "it",
+      "explanation": "We use 'it' to refer to 'the feedback' (singular/uncountable noun)."
+    },
+    {
+      "id": "adm-a1-w30-q6",
+      "type": "multiple-choice",
+      "question": "How do you translate: 'Gracias por la información'?",
+      "options": [
+        "Thank you for the information.",
+        "Thanks by the information.",
+        "Thank you to the information.",
+        "Thanks the information."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The standard phrase is 'Thank you for' followed by the noun."
+    },
+    {
+      "id": "adm-a1-w30-q7",
+      "type": "fill-blank",
+      "question": "I saw ________ (a él) in the hallway this morning.",
+      "answer": "him",
+      "explanation": "'Him' is the object pronoun for the third person singular masculine."
+    },
+    {
+      "id": "adm-a1-w30-q8",
+      "type": "multiple-choice",
+      "question": "What follows 'Thank you for...' when using a verb?",
+      "options": [
+        "The base verb (help)",
+        "The -ing form (helping)",
+        "The past form (helped)",
+        "The plural form (helps)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prepositions like 'for' must be followed by the gerund (-ing) form of the verb."
+    },
+    {
+      "id": "adm-a1-w30-q9",
+      "type": "matching",
+      "question": "Match the phrases with their professional meanings:",
+      "pairs": [
+        { "term": "Follow up", "definition": "Dar seguimiento" },
+        { "term": "Appreciate", "definition": "Agradecer/Valorar" },
+        { "term": "Support", "definition": "Apoyo/Ayuda" },
+        { "term": "Feedback", "definition": "Retroalimentación" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-q10",
+      "type": "multiple-choice",
+      "question": "Which of these is a polite way to close a professional email?",
+      "options": [
+        "Whatever,",
+        "Best regards,",
+        "I am out,",
+        "No thanks,"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Best regards' is a standard, professional way to end business correspondence."
+    },
+    {
+      "id": "adm-a1-w30-q11",
+      "type": "fill-blank",
+      "question": "Can you help ________ (mí)? I have a problem.",
+      "answer": "me",
+      "explanation": "'Me' is the object pronoun used for the first person singular."
+    },
+    {
+      "id": "adm-a1-w30-q12",
+      "type": "multiple-choice",
+      "question": "How do you start a follow-up email?",
+      "options": [
+        "I am writing to follow up on our meeting.",
+        "I am follow up.",
+        "Follow up me please.",
+        "I follow up on you."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'I am writing to follow up on...' is a standard and polite opening."
+    },
+    {
+      "id": "adm-a1-w30-q13",
+      "type": "fill-blank",
+      "question": "I will send ________ (a ella) the details later.",
+      "answer": "her",
+      "explanation": "'Her' is the object pronoun for the third person singular feminine."
+    },
+    {
+      "id": "adm-a1-w30-q14",
+      "type": "multiple-choice",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "Please listen to he.",
+        "Please listen to him.",
+        "Please listen him.",
+        "Please listen he."
+      ],
+      "correctAnswer": 1,
+      "explanation": "We use the object pronoun 'him' after the preposition 'to'."
+    },
+    {
+      "id": "adm-a1-w30-q15",
+      "type": "fill-blank",
+      "question": "Thank you for ________ (ayudar) me with the report.",
+      "answer": "helping",
+      "explanation": "After the preposition 'for', the verb must be in the gerund form (-ing)."
+    },
+    {
+      "id": "adm-a1-w30-q16",
+      "type": "multiple-choice",
+      "question": "How do you say 'Danos un minuto'?",
+      "options": [
+        "Give us a minute.",
+        "Give we a minute.",
+        "Give our a minute.",
+        "Give me a minute."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Us' is the object pronoun for 'we'."
+    },
+    {
+      "id": "adm-a1-w30-q17",
+      "type": "matching",
+      "question": "Match the prepositions with the correct phrasal verbs:",
+      "pairs": [
+        { "term": "Follow up", "definition": "on" },
+        { "term": "Thank you", "definition": "for" },
+        { "term": "Listen", "definition": "to" },
+        { "term": "Wait", "definition": "for" }
+      ]
+    },
+    {
+      "id": "adm-a1-w30-q18",
+      "type": "multiple-choice",
+      "question": "What does 'Appreciation' mean?",
+      "options": [
+        "The act of recognizing quality or value.",
+        "The act of being angry.",
+        "The act of deleting emails.",
+        "The act of being late."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Appreciation' is the noun form of 'appreciate', meaning to value or be thankful for something."
+    },
+    {
+      "id": "adm-a1-w30-q19",
+      "type": "fill-blank",
+      "question": "I ________ (agradezco) your help with the project.",
+      "answer": "appreciate",
+      "explanation": "'Appreciate' is the verb for 'agradecer' or 'valorar'."
+    },
+    {
+      "id": "adm-a1-w30-q20",
+      "type": "multiple-choice",
+      "question": "Which phrase is common in a follow-up after an interview?",
+      "options": [
+        "Thank you for the opportunity.",
+        "I don't like this job.",
+        "Where is my money?",
+        "See you at the party."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Thank you for the opportunity' is a professional way to express gratitude after an interview."
     }
   ]
 }

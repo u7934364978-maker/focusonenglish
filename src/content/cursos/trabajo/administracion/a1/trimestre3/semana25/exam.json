@@ -1,50 +1,265 @@
 {
-  "goal": "administracion",
-  "level": "A1",
-  "trimester": 3,
-  "weekId": "semana25",
-  "examId": "fin-a1-w25-exam",
-  "title": "Examen: Operaciones Bancarias Básicas",
-  "items": [
+  "title": "Examen Semana 25: Professional Email Basics",
+  "questions": [
     {
-      "id": "fin-a1-w25-exam-1",
-      "type": "multipleChoice",
-      "prompt": "How do you say 'Depósito' in English?",
-      "options": ["Withdrawal", "Deposit", "Balance", "Interest"],
+      "id": "adm-a1-w25-q01",
+      "type": "multiple-choice",
+      "question": "What is an 'attachment'?",
+      "options": [
+        "The greeting",
+        "A file sent with the email",
+        "The subject line",
+        "The signature"
+      ],
       "answerIndex": 1,
-      "explanation": "A deposit is when you put money into your account."
+      "explanation": "An attachment is a document or file included in the email."
     },
     {
-      "id": "fin-a1-w25-exam-2",
-      "type": "multipleChoice",
-      "prompt": "Complete the instruction: 'Please ________ your PIN.'",
-      "options": ["enters", "entering", "enter", "entered"],
+      "id": "adm-a1-w25-q02",
+      "type": "multiple-choice",
+      "question": "Where can you find your received emails?",
+      "options": [
+        "Drafts",
+        "Sent",
+        "Inbox",
+        "Trash"
+      ],
       "answerIndex": 2,
-      "explanation": "We use the imperative (base form) for instructions."
+      "explanation": "Received emails are located in the Inbox."
     },
     {
-      "id": "fin-a1-w25-exam-3",
-      "type": "multipleChoice",
-      "prompt": "What is a 'Withdrawal'?",
-      "options": ["Taking money out of the bank", "Putting money into the bank", "Opening a new account", "Closing the bank"],
-      "answerIndex": 0,
-      "explanation": "A withdrawal is taking money out."
-    },
-    {
-      "id": "fin-a1-w25-exam-4",
-      "type": "multipleChoice",
-      "prompt": "Choose the correct imperative: '________ the form here.'",
-      "options": ["Sign", "Signs", "Signing", "To sign"],
-      "answerIndex": 0,
-      "explanation": "Imperative form: 'Sign the form'."
-    },
-    {
-      "id": "fin-a1-w25-exam-5",
-      "type": "multipleChoice",
-      "prompt": "What does 'Balance' mean in a bank account?",
-      "options": ["The name of the bank", "The amount of money in the account", "The color of the credit card", "The bank's address"],
+      "id": "adm-a1-w25-q03",
+      "type": "multiple-choice",
+      "question": "The 'Subject' of an email is its ________.",
+      "options": [
+        "greeting",
+        "topic/title",
+        "closing",
+        "signature"
+      ],
       "answerIndex": 1,
-      "explanation": "Your balance is how much money you have in your account."
+      "explanation": "The subject indicates the topic of the email."
+    },
+    {
+      "id": "adm-a1-w25-q04",
+      "type": "multiple-choice",
+      "question": "What does 'Reply' mean?",
+      "options": [
+        "To delete",
+        "To send to a new person",
+        "To answer the sender",
+        "To save as a draft"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Reply' is the action of answering the person who sent the email."
+    },
+    {
+      "id": "adm-a1-w25-q05",
+      "type": "multiple-choice",
+      "question": "The message itself is written in the ________.",
+      "options": [
+        "Subject",
+        "Salutation",
+        "Body",
+        "Attachment"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'Body' is the part of the email where the message is written."
+    },
+    {
+      "id": "adm-a1-w25-q06",
+      "type": "multiple-choice",
+      "question": "Which of these is a formal closing?",
+      "options": [
+        "Hey",
+        "Best regards",
+        "Hi there",
+        "What's up"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Best regards' is a standard and professional way to end an email."
+    },
+    {
+      "id": "adm-a1-w25-q07",
+      "type": "multiple-choice",
+      "question": "Where do you find emails you already sent?",
+      "options": [
+        "Inbox",
+        "Drafts",
+        "Sent",
+        "Spam"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'Sent' folder stores messages you have mailed."
+    },
+    {
+      "id": "adm-a1-w25-q08",
+      "type": "multiple-choice",
+      "question": "What is the formal word for a greeting in an email?",
+      "options": [
+        "Footer",
+        "Salutation",
+        "Closing",
+        "Signature"
+      ],
+      "answerIndex": 1,
+      "explanation": "Salutation is the professional term for the opening greeting."
+    },
+    {
+      "id": "adm-a1-w25-q09",
+      "type": "multiple-choice",
+      "question": "Unfinished emails are saved in the ________ folder.",
+      "options": [
+        "Trash",
+        "Inbox",
+        "Drafts",
+        "Archive"
+      ],
+      "answerIndex": 2,
+      "explanation": "Drafts are for messages you are still working on."
+    },
+    {
+      "id": "adm-a1-w25-q10",
+      "type": "multiple-choice",
+      "question": "What does 'Forward' do?",
+      "options": [
+        "Deletes the email",
+        "Answers the sender",
+        "Sends the email to a new person",
+        "Adds an attachment"
+      ],
+      "answerIndex": 2,
+      "explanation": "Forwarding sends the current message to a third party."
+    },
+    {
+      "id": "adm-a1-w25-q11",
+      "type": "multiple-choice",
+      "question": "Your name and contact info at the end is the ________.",
+      "options": [
+        "Subject",
+        "Body",
+        "Signature",
+        "Header"
+      ],
+      "answerIndex": 2,
+      "explanation": "The signature contains your professional identity details."
+    },
+    {
+      "id": "adm-a1-w25-q12",
+      "type": "multiple-choice",
+      "question": "How do you say '.' in an email address like 'info.test@mail.com'?",
+      "options": [
+        "Point",
+        "Stop",
+        "Dot",
+        "Comma"
+      ],
+      "answerIndex": 2,
+      "explanation": "In technical contexts like emails, '.' is pronounced 'dot'."
+    },
+    {
+      "id": "adm-a1-w25-q13",
+      "type": "multiple-choice",
+      "question": "Which field is used to send a 'Blind Carbon Copy'?",
+      "options": [
+        "To",
+        "CC",
+        "BCC",
+        "Subject"
+      ],
+      "answerIndex": 2,
+      "explanation": "BCC hides the recipient list from other viewers."
+    },
+    {
+      "id": "adm-a1-w25-q14",
+      "type": "multiple-choice",
+      "question": "What button do you click to start writing a NEW email?",
+      "options": [
+        "Reply",
+        "Compose",
+        "Forward",
+        "Send"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Compose' (or 'New') is the standard button for a new message."
+    },
+    {
+      "id": "adm-a1-w25-q15",
+      "type": "multiple-choice",
+      "question": "Which of these is an INFORMAL salutation?",
+      "options": [
+        "Dear Mr. Smith",
+        "Hi John",
+        "Dear Sir/Madam",
+        "To whom it may concern"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Hi [First Name]' is used for informal or internal communication."
+    },
+    {
+      "id": "adm-a1-w25-q16",
+      "type": "multiple-choice",
+      "question": "What does 'CC' stand for?",
+      "options": [
+        "Company Copy",
+        "Carbon Copy",
+        "Client Contact",
+        "Correct Code"
+      ],
+      "answerIndex": 1,
+      "explanation": "CC (Carbon Copy) is for sending copies to other people."
+    },
+    {
+      "id": "adm-a1-w25-q17",
+      "type": "multiple-choice",
+      "question": "A professional subject line should be:",
+      "options": [
+        "Very long",
+        "Short and clear",
+        "Emotional",
+        "Empty"
+      ],
+      "answerIndex": 1,
+      "explanation": "Subject lines should be concise and describe the content accurately."
+    },
+    {
+      "id": "adm-a1-w25-q18",
+      "type": "multiple-choice",
+      "question": "Which folder contains unwanted or junk mail?",
+      "options": [
+        "Inbox",
+        "Spam / Junk",
+        "Sent",
+        "Drafts"
+      ],
+      "answerIndex": 1,
+      "explanation": "Unsolicited or malicious mail goes to the Spam/Junk folder."
+    },
+    {
+      "id": "adm-a1-w25-q19",
+      "type": "multiple-choice",
+      "question": "What is 'ASAP' in an email context?",
+      "options": [
+        "Always send all papers",
+        "As soon as possible",
+        "After some additional people",
+        "A standard admin protocol"
+      ],
+      "answerIndex": 1,
+      "explanation": "ASAP indicates that a task is urgent."
+    },
+    {
+      "id": "adm-a1-w25-q20",
+      "type": "multiple-choice",
+      "question": "What should you do before sending a professional email?",
+      "options": [
+        "Check for mistakes",
+        "Delete the signature",
+        "Make the body very long",
+        "Use many colors"
+      ],
+      "answerIndex": 0,
+      "explanation": "Proofreading (checking for mistakes) is essential for professionalism."
     }
   ]
 }

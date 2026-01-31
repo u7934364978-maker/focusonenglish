@@ -6,40 +6,40 @@
   "title": "Trimester 2 Final Capstone Review",
   "items": [
     {
-      "id": "fin-a1-w24-1",
-      "type": "multipleChoice",
+      "id": "adm-a1-w24-1",
+      "type": "multiple-choice",
       "prompt": "An app that is easy to use is ______.",
       "options": ["Encrypted", "User-friendly", "Traditional"],
       "answerIndex": 1,
       "explanation": "User-friendly significa fácil de usar."
     },
     {
-      "id": "fin-a1-w24-2",
-      "type": "multipleChoice",
+      "id": "adm-a1-w24-2",
+      "type": "multiple-choice",
       "prompt": "Where do you see your spending categories in a chart?",
-      "options": ["On a plastic card", "In the banking app", "In the trash"],
+      "options": ["On a plastic card", "In the office app", "In the trash"],
       "answerIndex": 1,
-      "explanation": "Los gráficos de gastos están en la app bancaria."
+      "explanation": "Los gráficos de gastos están en la app de la oficina."
     },
     {
-      "id": "fin-a1-w24-3",
-      "type": "fillBlanks",
+      "id": "adm-a1-w24-3",
+      "type": "fill-blank",
       "prompt": "I need to enter my [blank] code for 2FA.",
       "answers": ["verification", "security"],
       "explanation": "Necesitas el código de verificación para la autenticación de dos factores."
     },
     {
-      "id": "fin-a1-w24-4",
-      "type": "multipleChoice",
+      "id": "adm-a1-w24-4",
+      "type": "multiple-choice",
       "prompt": "A transfer that arrives in seconds is ______.",
       "options": ["Standard", "Instant", "Pending"],
       "answerIndex": 1,
       "explanation": "Una transferencia instantánea llega en segundos."
     },
     {
-      "id": "fin-a1-w24-5",
+      "id": "adm-a1-w24-5",
       "type": "matching",
-      "prompt": "Match the modern banking tools with their functions:",
+      "prompt": "Match the modern office tools with their functions:",
       "pairs": [
         { "left": "Chatbot", "right": "Virtual support" },
         { "left": "Virtual Card", "right": "Secure online shopping" },
@@ -49,83 +49,568 @@
       "explanation": "Relaciona las herramientas modernas con sus funciones."
     },
     {
-      "id": "fin-a1-w24-6",
-      "type": "fillBlanks",
+      "id": "adm-a1-w24-6",
+      "type": "fill-blank",
       "prompt": "Click the [blank] at the bottom of the screen.",
       "answers": ["button"],
       "explanation": "Instrucción de navegación: Haz clic en el botón."
     },
     {
-      "id": "fin-a1-w24-7",
+      "id": "adm-a1-w24-7",
       "type": "reorder",
       "prompt": "Reorder the security advice:",
       "sentence": "Use a strong password for security",
       "explanation": "Usa una contraseña fuerte por seguridad."
     },
     {
-      "id": "fin-a1-w24-8",
-      "type": "multipleChoice",
+      "id": "adm-a1-w24-8",
+      "type": "multiple-choice",
       "prompt": "If you work from home, you can have a ______.",
       "options": ["Remote office", "Physical branch", "Paper statement"],
       "answerIndex": 0,
       "explanation": "Si trabajas desde casa, tienes una 'remote office'."
     },
     {
-      "id": "fin-a1-w24-9",
+      "id": "adm-a1-w24-9",
       "type": "writing",
       "prompt": "Write the opposite of 'Traditional banking'.",
       "validation": "Digital banking",
       "explanation": "Lo opuesto a la banca tradicional es la banca digital (digital banking/fintech)."
     },
     {
-      "id": "fin-a1-w24-10",
+      "id": "adm-a1-w24-10",
       "type": "roleplay",
       "prompt": "The app says 'Suspicious Activity'. What do you say to support?",
       "scenario": "Support: Hello, how can I help you?\nUser: ______",
       "options": [
         "Is my account secure?",
         "I like the blue color.",
-        "Where is the nearest ATM?"
+        "Where is the nearest printer?"
       ],
       "answerIndex": 0,
       "explanation": "Si hay actividad sospechosa, preguntas por la seguridad: 'Is my account secure?'."
     },
     {
-      "id": "fin-a1-w24-11",
-      "type": "multipleChoice",
+      "id": "adm-a1-w24-11",
+      "type": "multiple-choice",
       "prompt": "What is a 'Monthly Fee'?",
-      "options": ["A one-time gift", "A regular subscription payment", "A bank manager's name"],
+      "options": ["A one-time gift", "A regular subscription payment", "An office manager's name"],
       "answerIndex": 1,
       "explanation": "Una cuota mensual es un pago regular de suscripción."
     },
     {
-      "id": "fin-a1-w24-12",
-      "type": "fillBlanks",
+      "id": "adm-a1-w24-12",
+      "type": "fill-blank",
       "prompt": "I want to [blank] my transaction history.",
       "answers": ["see", "view", "check", "download"],
       "explanation": "Quieres ver o descargar tu historial de transacciones."
     },
     {
-      "id": "fin-a1-w24-13",
+      "id": "adm-a1-w24-13",
       "type": "reorder",
       "prompt": "Reorder the question:",
       "sentence": "Is the connection encrypted and secure",
       "explanation": "¿Es la conexión cifrada y segura?"
     },
     {
-      "id": "fin-a1-w24-14",
-      "type": "multipleChoice",
+      "id": "adm-a1-w24-14",
+      "type": "multiple-choice",
       "prompt": "Which category is for 'Netflix'?",
       "options": ["Entertainment", "Bills", "Food"],
       "answerIndex": 0,
       "explanation": "Netflix es ocio (entertainment)."
     },
     {
-      "id": "fin-a1-w24-15",
-      "type": "fillBlanks",
+      "id": "adm-a1-w24-15",
+      "type": "fill-blank",
       "prompt": "Could I have a [blank], please?",
       "answers": ["refund", "reimbursement", "receipt", "card"],
       "explanation": "Petición educada para un reembolso o documento."
+    },
+    {
+      "id": "adm-a1-w24-16",
+      "type": "listening",
+      "prompt": "Listen and choose the digital term.",
+      "audio_prompt": "Two-factor authentication.",
+      "options": ["Two-factor authentication", "Total factory action", "Traditional account"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'Two-factor authentication' (2FA)."
+    },
+    {
+      "id": "adm-a1-w24-17",
+      "type": "listening",
+      "prompt": "Listen and choose the request.",
+      "audio_prompt": "Could I see the transaction history?",
+      "options": ["Could I see the transaction history?", "Can I pay the bill?", "Is it user-friendly?"],
+      "answerIndex": 0,
+      "explanation": "Se solicita ver el historial de transacciones."
+    },
+    {
+      "id": "adm-a1-w24-18",
+      "type": "reading",
+      "prompt": "Read the login screen: 'Enter Password | 2FA Code'. What do you need?",
+      "options": ["A physical key", "Two types of security", "A traditional signature"],
+      "answerIndex": 1,
+      "explanation": "Pide contraseña y código 2FA (dos tipos de seguridad)."
+    },
+    {
+      "id": "adm-a1-w24-19",
+      "type": "multiple-choice",
+      "prompt": "A ______ card is not physical.",
+      "options": ["plastic", "virtual", "traditional"],
+      "answerIndex": 1,
+      "explanation": "Una tarjeta virtual es digital."
+    },
+    {
+      "id": "adm-a1-w24-20",
+      "type": "fill-blank",
+      "prompt": "I use [blank] login with my face.",
+      "answers": ["biometric"],
+      "explanation": "Inicio de sesión biométrico (biometric)."
+    },
+    {
+      "id": "adm-a1-w24-21",
+      "type": "multiple-choice",
+      "prompt": "Which one is a 'Software Subscription'?",
+      "options": ["Adobe Creative Cloud", "A physical chair", "A cup of coffee"],
+      "answerIndex": 0,
+      "explanation": "Adobe CC es un software por suscripción."
+    },
+    {
+      "id": "adm-a1-w24-22",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "The billing cycle is annual",
+      "explanation": "El ciclo de facturación es anual."
+    },
+    {
+      "id": "adm-a1-w24-23",
+      "type": "matching",
+      "prompt": "Match the UI elements:",
+      "pairs": [
+        { "left": "Top", "right": "Header/Title" },
+        { "left": "Bottom", "right": "Footer/Navigation" },
+        { "left": "Center", "right": "Main Content" },
+        { "left": "Sidebar", "right": "Settings/Options" }
+      ],
+      "explanation": "Relaciona las partes de la interfaz de una app."
+    },
+    {
+      "id": "adm-a1-w24-24",
+      "type": "multiple-choice",
+      "prompt": "What do you do if you get a phishing email?",
+      "options": ["Click the link", "Reply with password", "Delete and report"],
+      "answerIndex": 2,
+      "explanation": "Borrar y reportar correos de phishing."
+    },
+    {
+      "id": "adm-a1-w24-25",
+      "type": "fill-blank",
+      "prompt": "I need to [blank] my business expenses.",
+      "answers": ["claim", "reimburse", "report", "track"],
+      "explanation": "Reportar o reclamar gastos de negocio."
+    },
+    {
+      "id": "adm-a1-w24-26",
+      "type": "listening",
+      "prompt": "Listen and choose the amount.",
+      "audio_prompt": "The monthly fee is nine dollars.",
+      "options": ["$90", "$19", "$9"],
+      "answerIndex": 2,
+      "explanation": "Se escucha 'nine dollars' (9)."
+    },
+    {
+      "id": "adm-a1-w24-27",
+      "type": "reading",
+      "prompt": "Text: 'Subscription: $10/mo. Annual: $100/yr.' Which is cheaper for one year?",
+      "options": ["Monthly", "Annual", "They are the same"],
+      "answerIndex": 1,
+      "explanation": "10 * 12 = 120. 100 es más barato."
+    },
+    {
+      "id": "adm-a1-w24-28",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the settings?",
+      "options": ["change", "changing", "to change"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'change'."
+    },
+    {
+      "id": "adm-a1-w24-29",
+      "type": "fill-blank",
+      "prompt": "The app is very [blank]-friendly.",
+      "answers": ["user"],
+      "explanation": "'User-friendly' es fácil de usar."
+    },
+    {
+      "id": "adm-a1-w24-30",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Is the virtual card active",
+      "explanation": "¿Está activa la tarjeta virtual?"
+    },
+    {
+      "id": "adm-a1-w24-31",
+      "type": "multiple-choice",
+      "prompt": "What is 'SaaS'?",
+      "options": ["Software as a Service", "System and a Secret", "Safe and Secure"],
+      "answerIndex": 0,
+      "explanation": "SaaS = Software as a Service."
+    },
+    {
+      "id": "adm-a1-w24-32",
+      "type": "listening",
+      "prompt": "Listen and complete.",
+      "audio_prompt": "Check the closing balance.",
+      "options": ["Check the closing balance.", "Change the opening balance.", "Click the closing button."],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'check the closing balance'."
+    },
+    {
+      "id": "adm-a1-w24-33",
+      "type": "multiple-choice",
+      "prompt": "A ______ chart is used for percentages.",
+      "options": ["pie", "bar", "square"],
+      "answerIndex": 0,
+      "explanation": "El gráfico de pastel (pie chart) es común para porcentajes."
+    },
+    {
+      "id": "adm-a1-w24-34",
+      "type": "fill-blank",
+      "prompt": "I work in a [blank] team from different countries.",
+      "answers": ["remote", "virtual", "digital"],
+      "explanation": "Equipo remoto o virtual."
+    },
+    {
+      "id": "adm-a1-w24-35",
+      "type": "multiple-choice",
+      "prompt": "Which adjective means 'Protected with a code'?",
+      "options": ["Encrypted", "Public", "Broken"],
+      "answerIndex": 0,
+      "explanation": "'Encrypted' significa cifrado/protegido."
+    },
+    {
+      "id": "adm-a1-w24-36",
+      "type": "listening",
+      "prompt": "Listen and choose the UI action.",
+      "audio_prompt": "Click the download button at the top.",
+      "options": ["Download button / Top", "Upload button / Bottom", "Delete button / Center"],
+      "answerIndex": 0,
+      "explanation": "Se indica clic en descargar arriba."
+    },
+    {
+      "id": "adm-a1-w24-37",
+      "type": "reading",
+      "prompt": "Support Chat: 'Bot: Hi! Do you need help with a refund?'. What is the bot's topic?",
+      "options": ["Security", "Money back", "New software"],
+      "answerIndex": 1,
+      "explanation": "Refund = dinero de vuelta."
+    },
+    {
+      "id": "adm-a1-w24-38",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ a verification code?",
+      "options": ["request", "requesting", "requests"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'request'."
+    },
+    {
+      "id": "adm-a1-w24-39",
+      "type": "fill-blank",
+      "prompt": "Auto-[blank] helps with monthly bills.",
+      "answers": ["pay"],
+      "explanation": "'Auto-pay' (pago automático)."
+    },
+    {
+      "id": "adm-a1-w24-40",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Please report the suspicious activity",
+      "explanation": "Por favor reporta la actividad sospechosa."
+    },
+    {
+      "id": "adm-a1-w24-41",
+      "type": "multiple-choice",
+      "prompt": "A ______ password has numbers, letters, and symbols.",
+      "options": ["short", "strong", "simple"],
+      "answerIndex": 1,
+      "explanation": "Una contraseña 'strong' (fuerte)."
+    },
+    {
+      "id": "adm-a1-w24-42",
+      "type": "listening",
+      "prompt": "Listen and choose the word.",
+      "audio_prompt": "Phishing.",
+      "options": ["Fishing", "Phishing", "Pushing"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'phishing' (estafa digital)."
+    },
+    {
+      "id": "adm-a1-w24-43",
+      "type": "multiple-choice",
+      "prompt": "Where do you find 'Settings' usually?",
+      "options": ["In a sidebar or menu", "In the trash", "On the floor"],
+      "answerIndex": 0,
+      "explanation": "Ajustes están en el menú o barra lateral."
+    },
+    {
+      "id": "adm-a1-w24-44",
+      "type": "fill-blank",
+      "prompt": "I need to download my [blank] report.",
+      "answers": ["expense", "monthly", "spending"],
+      "explanation": "Reporte de gastos."
+    },
+    {
+      "id": "adm-a1-w24-45",
+      "type": "matching",
+      "prompt": "Match the category with the expense:",
+      "pairs": [
+        { "left": "Travel", "right": "Hotel / Flight" },
+        { "left": "Food", "right": "Lunch / Grocery" },
+        { "left": "Bills", "right": "Electricity / Rent" },
+        { "left": "Entertainment", "right": "Software Games" }
+      ],
+      "explanation": "Categorización de gastos de oficina."
+    },
+    {
+      "id": "adm-a1-w24-46",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the monthly statement?",
+      "options": ["download", "downloading", "to download"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'download'."
+    },
+    {
+      "id": "adm-a1-w24-47",
+      "type": "listening",
+      "prompt": "Listen and choose the balance.",
+      "audio_prompt": "The opening balance is fifty dollars.",
+      "options": ["$50", "$15", "$500"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'fifty' (50)."
+    },
+    {
+      "id": "adm-a1-w24-48",
+      "type": "reading",
+      "prompt": "Table: 'Uber: $10, Taxi: $20, Bus: $5'. Category: Travel. Total?",
+      "options": ["$30", "$35", "$25"],
+      "answerIndex": 1,
+      "explanation": "10+20+5 = 35."
+    },
+    {
+      "id": "adm-a1-w24-49",
+      "type": "fill-blank",
+      "prompt": "Disposable [blank] are for one-time use.",
+      "answers": ["cards"],
+      "explanation": "'Disposable cards' (tarjetas de un solo uso)."
+    },
+    {
+      "id": "adm-a1-w24-50",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Could I have a reimbursement now",
+      "explanation": "¿Podría tener un reembolso ahora?"
+    },
+    {
+      "id": "adm-a1-w24-51",
+      "type": "multiple-choice",
+      "prompt": "Is 2FA more secure than just a password?",
+      "options": ["Yes", "No", "It is the same"],
+      "answerIndex": 0,
+      "explanation": "Sí, 2FA añade una capa extra de seguridad."
+    },
+    {
+      "id": "adm-a1-w24-52",
+      "type": "listening",
+      "prompt": "Listen and choose the word.",
+      "audio_prompt": "User-friendly.",
+      "options": ["User-friendly", "User-final", "User-Friday"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'user-friendly'."
+    },
+    {
+      "id": "adm-a1-w24-53",
+      "type": "multiple-choice",
+      "prompt": "Which one is a 'Help Center' feature?",
+      "options": ["Chatbot", "A coffee machine", "A physical desk"],
+      "answerIndex": 0,
+      "explanation": "Los chatbots son parte de los centros de ayuda digital."
+    },
+    {
+      "id": "adm-a1-w24-54",
+      "type": "fill-blank",
+      "prompt": "The [blank] fee is $99 per year.",
+      "answers": ["annual"],
+      "explanation": "Cuota anual."
+    },
+    {
+      "id": "adm-a1-w24-55",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ my profile photo?",
+      "options": ["update", "updating", "to update"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'update'."
+    },
+    {
+      "id": "adm-a1-w24-56",
+      "type": "listening",
+      "prompt": "Listen and choose the number.",
+      "audio_prompt": "Eighty-two transactions.",
+      "options": ["18", "82", "80"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'eighty-two'."
+    },
+    {
+      "id": "adm-a1-w24-57",
+      "type": "reading",
+      "prompt": "Ad: 'Unlimited software for $15/mo'. Is there a limit?",
+      "options": ["Yes", "No", "Maybe"],
+      "answerIndex": 1,
+      "explanation": "'Unlimited' significa sin límite."
+    },
+    {
+      "id": "adm-a1-w24-58",
+      "type": "fill-blank",
+      "prompt": "Check the spending [blank] for categories.",
+      "answers": ["chart", "graph"],
+      "explanation": "Gráfico de gastos."
+    },
+    {
+      "id": "adm-a1-w24-59",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "The connection is encrypted and safe",
+      "explanation": "La conexión es cifrada y segura."
+    },
+    {
+      "id": "adm-a1-w24-60",
+      "type": "multiple-choice",
+      "prompt": "What do you enter at the 'Login' screen?",
+      "options": ["Food", "Username and Password", "A budget"],
+      "answerIndex": 1,
+      "explanation": "Usuario y contraseña."
+    },
+    {
+      "id": "adm-a1-w24-61",
+      "type": "listening",
+      "prompt": "Listen and choose the correct sentence.",
+      "audio_prompt": "Could I have a refund?",
+      "options": ["Could I have a refund?", "Can I have a fund?", "Is the refund high?"],
+      "answerIndex": 0,
+      "explanation": "Se escucha la petición de reembolso."
+    },
+    {
+      "id": "adm-a1-w24-62",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the instant transfer?",
+      "options": ["cancel", "canceling", "to cancel"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'cancel'."
+    },
+    {
+      "id": "adm-a1-w24-63",
+      "type": "fill-blank",
+      "prompt": "The [blank] cycle is monthly.",
+      "answers": ["billing"],
+      "explanation": "'Billing cycle' (ciclo de facturación)."
+    },
+    {
+      "id": "adm-a1-w24-64",
+      "type": "matching",
+      "prompt": "Match the adjective with its meaning:",
+      "pairs": [
+        { "left": "Strong", "right": "Secure password" },
+        { "left": "Weak", "right": "Easy to guess" },
+        { "left": "Instant", "right": "Very fast" },
+        { "left": "Annual", "right": "Once a year" }
+      ],
+      "explanation": "Adjetivos técnicos básicos."
+    },
+    {
+      "id": "adm-a1-w24-65",
+      "type": "multiple-choice",
+      "prompt": "What is 'Transaction History'?",
+      "options": ["A list of payments", "A list of friends", "A list of games"],
+      "answerIndex": 0,
+      "explanation": "Lista de pagos/transacciones."
+    },
+    {
+      "id": "adm-a1-w24-66",
+      "type": "listening",
+      "prompt": "Listen and choose the UI location.",
+      "audio_prompt": "Check the sidebar.",
+      "options": ["Top", "Sidebar", "Bottom"],
+      "answerIndex": 1,
+      "explanation": "Se escucha 'sidebar' (barra lateral)."
+    },
+    {
+      "id": "adm-a1-w24-67",
+      "type": "reading",
+      "prompt": "Text: 'Warning: New login from London'. What should you check?",
+      "options": ["The weather", "Account security", "A travel app"],
+      "answerIndex": 1,
+      "explanation": "Aviso de seguridad por inicio de sesión."
+    },
+    {
+      "id": "adm-a1-w24-68",
+      "type": "fill-blank",
+      "prompt": "I need to [blank] my business account.",
+      "answers": ["verify", "check", "secure"],
+      "explanation": "Verificar la cuenta."
+    },
+    {
+      "id": "adm-a1-w24-69",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "This pie chart shows our budget",
+      "explanation": "Este gráfico de pastel muestra nuestro presupuesto."
+    },
+    {
+      "id": "adm-a1-w24-70",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ the help center?",
+      "options": ["visit", "visiting", "to visit"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'visit'."
+    },
+    {
+      "id": "adm-a1-w24-71",
+      "type": "listening",
+      "prompt": "Listen and choose the word.",
+      "audio_prompt": "Biometrics.",
+      "options": ["Biometrics", "Bio-metrics", "Buy-metrics"],
+      "answerIndex": 0,
+      "explanation": "Se escucha 'biometrics'."
+    },
+    {
+      "id": "adm-a1-w24-72",
+      "type": "multiple-choice",
+      "prompt": "Which one is for 'Business expenses'?",
+      "options": ["Personal vacation", "Office internet", "A new game for home"],
+      "answerIndex": 1,
+      "explanation": "Internet de la oficina es un gasto de negocio."
+    },
+    {
+      "id": "adm-a1-w24-73",
+      "type": "fill-blank",
+      "prompt": "The [blank] card is safer for online shopping.",
+      "answers": ["virtual", "disposable"],
+      "explanation": "Tarjeta virtual o desechable."
+    },
+    {
+      "id": "adm-a1-w24-74",
+      "type": "multiple-choice",
+      "prompt": "Could I ______ a question about SaaS?",
+      "options": ["ask", "asking", "to ask"],
+      "answerIndex": 0,
+      "explanation": "Forma base: 'ask'."
+    },
+    {
+      "id": "adm-a1-w24-75",
+      "type": "reorder",
+      "prompt": "Reorder:",
+      "sentence": "Download the PDF statement today",
+      "explanation": "Descarga el extracto en PDF hoy."
     }
   ]
 }
