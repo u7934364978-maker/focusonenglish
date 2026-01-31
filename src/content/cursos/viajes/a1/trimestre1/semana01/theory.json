@@ -1,0 +1,31 @@
+{
+  "title": "Semana 1: Los Primeros Pasos (The First Steps)",
+  "description": "En esta semana piloto, aprenderás las herramientas básicas para presentarte y deletrear tu nombre, algo esencial para cualquier trámite de viaje.",
+  "objectives": [
+    "Aprender el abecedario para deletrear nombres y reservas",
+    "Usar saludos básicos según la hora del día",
+    "Entender los pronombres personales I (Yo) y You (Tú)"
+  ],
+  "sections": [
+    {
+      "title": "El Abecedario (The Alphabet)",
+      "content": "Para un viajero, el abecedario es vital. Te lo pedirán para confirmar tu reserva de hotel o vuelo.\n\nEscucha y repite cada letra. Presta especial atención a las vocales:\n- **A** (ei)\n- **E** (i)\n- **I** (ai)\n- **O** (ou)\n- **U** (iu)",
+      "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_full.mp3"
+    },
+    {
+      "title": "Saludos (Greetings)",
+      "content": "Saludar correctamente abre muchas puertas cuando viajas.\n\n- **Hello / Hi**: Hola\n- **Good morning**: Buenos días\n- **Good afternoon**: Buenas tardes\n- **Good evening**: Buenas noches (al llegar)\n- **Good night**: Buenas noches (al despedirse)",
+      "imageUrl": "/assets/courses/travel-a1/images/greetings_theory.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/greetings_theory.mp3"
+    },
+    {
+      "title": "Presentarse (Introductions)",
+      "content": "Estructura básica para decir quién eres:\n\n- **I am...**: Yo soy...\n- **You are...**: Tú eres...\n- **I am [Name]**: Yo soy [Nombre].\n- **Nice to meet you**: Mucho gusto / Encantado de conocerte.",
+      "imageUrl": "/assets/courses/travel-a1/images/introductions_theory.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/introductions_theory.mp3"
+    }
+  ],
+  "videoUrl": "/videos/courses/travel-a1/semana01/theory.mp4",
+  "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/theory_full.mp3"
+}

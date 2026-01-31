@@ -1,0 +1,61 @@
+{
+  "id": "travel-a1-s1-l2",
+  "title": "Hotel Check-in: Spelling your Name",
+  "description": "Llegas al hotel y necesitan confirmar tu reserva. Aprende a deletrear tu nombre usando el abecedario.",
+  "duration": 12,
+  "objectives": [
+    "Deletrear tu nombre y apellido",
+    "Entender la pregunta 'Can you spell that?'",
+    "Confirmar una reserva básica"
+  ],
+  "videoUrl": "/videos/courses/travel-a1/semana01/lesson2.mp4",
+  "theorySlides": [
+    {
+      "title": "¿Puede deletrearlo?",
+      "content": "En hoteles, es muy común que te pregunten:\n**'Can you spell that, please?'** (¿Puede deletrearlo, por favor?)\n\nEs el momento de usar el abecedario que aprendimos en la teoría.",
+      "imageUrl": "/assets/courses/travel-a1/images/lesson2_slide_0.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson2_slide_0.mp3"
+    },
+    {
+      "title": "Las Vocales Clave",
+      "content": "A veces las letras suenan parecido. Recuerda:\n- **A** como en 'Apple'\n- **E** como en 'Egg'\n- **I** como en 'Ice'\n- **O** como en 'Open'\n- **U** como en 'Up'",
+      "imageUrl": "/assets/courses/travel-a1/images/lesson2_slide_1.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson2_slide_1.mp3",
+      "interactiveCheck": {
+        "id": "check-l2-1",
+        "type": "multiple-choice",
+        "question": "¿Cómo se dice la letra 'E' en inglés?",
+        "options": [
+          "Ei",
+          "i",
+          "Ai"
+        ],
+        "correctAnswer": "i",
+        "explanation": "La letra 'E' suena como nuestra 'i' en español.",
+        "points": 5
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "trv-a1-s1-l2-ex1",
+      "type": "vocabulary",
+      "title": "Letters & Sounds",
+      "instructions": "Escucha y selecciona la letra correcta.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Audio: 'A'",
+          "options": [
+            "A",
+            "E",
+            "I"
+          ],
+          "correctAnswer": "A",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

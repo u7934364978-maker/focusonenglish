@@ -1,0 +1,61 @@
+{
+  "id": "travel-a1-s1-l1",
+  "title": "At the Airport: Information Desk",
+  "description": "Tu primera interacción al bajar del avión. Aprende a saludar y dar tu nombre en el mostrador de información.",
+  "duration": 10,
+  "objectives": [
+    "Usar saludos apropiados al llegar",
+    "Presentarse de forma sencilla",
+    "Entender preguntas básicas sobre el nombre"
+  ],
+  "videoUrl": "/videos/courses/travel-a1/semana01/lesson1.mp4",
+  "theorySlides": [
+    {
+      "title": "Llegada al Aeropuerto",
+      "content": "Cuando llegas a un país nuevo, el mostrador de información (Information Desk) es tu mejor amigo.\n\nRecuerda usar un saludo formal si es la primera vez que hablas con alguien.",
+      "imageUrl": "/assets/courses/travel-a1/images/lesson1_slide_0.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson1_slide_0.mp3"
+    },
+    {
+      "title": "Diciendo tu nombre",
+      "content": "La forma más común es:\n**'Hello, I am [Name].'**\n\nTambién puedes escuchar:\n**'What is your name?'** (¿Cuál es tu nombre?)",
+      "imageUrl": "/assets/courses/travel-a1/images/lesson1_slide_1.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson1_slide_1.mp3",
+      "interactiveCheck": {
+        "id": "check-l1-1",
+        "type": "multiple-choice",
+        "question": "¿Cómo dirías 'Hola, yo soy Ana'?",
+        "options": [
+          "Hello, I am Ana",
+          "Goodbye, Ana",
+          "Hi, you are Ana"
+        ],
+        "correctAnswer": "Hello, I am Ana",
+        "explanation": "'I am' se traduce como 'Yo soy'.",
+        "points": 5
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "trv-a1-s1-l1-ex1",
+      "type": "vocabulary",
+      "title": "Vocabulary: At the Airport",
+      "instructions": "Asocia la palabra con su significado en español.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Information Desk",
+          "options": [
+            "Mostrador de información",
+            "Baño",
+            "Puerta de salida"
+          ],
+          "correctAnswer": "Mostrador de información",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

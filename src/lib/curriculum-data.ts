@@ -340,6 +340,59 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
       }
     ]
   },
+  VIAJES_A1: {
+    level: "A1",
+    cefr: "Viajero Principiante",
+    description: "Inglés desde cero diseñado para sobrevivir y disfrutar tus viajes por el mundo",
+    duration: "36 semanas (9 meses)",
+    modules: [
+      {
+        title: "Módulo 1: Primeros Pasos y Salida",
+        topics: [
+          "Alfabeto y deletreo de nombres",
+          "Saludos y presentaciones básicas",
+          "Números y precios esenciales",
+          "Frases de supervivencia",
+          "El aeropuerto: Check-in y Seguridad"
+        ],
+        grammar: [
+          "Verb 'to be' (I am, You are)",
+          "Personal pronouns",
+          "Possessive adjectives (My, Your)",
+          "Numbers 1-100",
+          "Basic questions (Where, What, How much)"
+        ],
+        vocabulary: [
+          "Greetings (Hello, Good morning, etc.)",
+          "Travel objects (Passport, ticket, suitcase)",
+          "Airport vocabulary",
+          "Polite phrases (Please, Thank you, Excuse me)"
+        ],
+        skills: {
+          reading: [
+            "Leer billetes de avión y tarjetas de embarque",
+            "Identificar señales de aeropuerto",
+            "Leer nombres y precios básicos"
+          ],
+          writing: [
+            "Deletrear tu nombre y apellido",
+            "Completar formularios de inmigración básicos",
+            "Escribir números y precios"
+          ],
+          listening: [
+            "Entender saludos y presentaciones lentas",
+            "Identificar letras y números en anuncios",
+            "Comprender instrucciones de seguridad básicas"
+          ],
+          speaking: [
+            "Saludar y presentarte",
+            "Deletrear tu nombre para una reserva",
+            "Preguntar precios y direcciones simples"
+          ]
+        }
+      }
+    ]
+  },
   A2: {
     level: "A2",
     cefr: "Elemental",

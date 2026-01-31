@@ -3,21 +3,36 @@ import * as path from 'path';
 import { Lesson, Exercise } from '../exercise-types';
 
 export const localCourseService = {
-  async getProfessionalLesson(
-    sector: string,
-    level: string,
-    trimester: string,
-    weekId: string,
+  async getLesson(
+    goal: string,
+    sectorOrLevel: string,
+    levelOrTrimester: string,
+    trimesterOrWeekId: string,
+    weekIdOrLessonId?: string,
     lessonId: string = 'lesson1'
   ): Promise<Lesson | null> {
     try {
-      // Normalize paths
-      const normalizedSector = sector.toLowerCase();
-      const normalizedLevel = level.toLowerCase();
-      const normalizedTrimester = trimester.toLowerCase();
-      const normalizedWeekId = weekId.toLowerCase();
+      const normalizedGoal = goal.toLowerCase();
+      let normalizedPath = '';
 
-      const baseDir = path.resolve(process.cwd(), 'src/content/cursos/trabajo', normalizedSector, normalizedLevel, normalizedTrimester, normalizedWeekId);
+      if (normalizedGoal === 'trabajo') {
+        const sector = sectorOrLevel.toLowerCase();
+        const level = levelOrTrimester.toLowerCase();
+        const trimester = trimesterOrWeekId.toLowerCase();
+        const weekId = weekIdOrLessonId?.toLowerCase() || '';
+        normalizedPath = path.join('src/content/cursos/trabajo', sector, level, trimester, weekId);
+      } else {
+        // Generic path for other goals (like viajes)
+        // Expected params: goal, level, trimester, weekId, lessonId
+        const level = sectorOrLevel.toLowerCase();
+        const trimester = levelOrTrimester.toLowerCase();
+        const weekId = trimesterOrWeekId.toLowerCase();
+        const requestedLessonId = weekIdOrLessonId || lessonId;
+        normalizedPath = path.join('src/content/cursos', normalizedGoal, level, trimester, weekId);
+        lessonId = requestedLessonId;
+      }
+
+      const baseDir = path.resolve(process.cwd(), normalizedPath);
       
       if (!fs.existsSync(baseDir)) {
         return null;
@@ -65,8 +80,8 @@ export const localCourseService = {
       });
       
       const lesson: Lesson = {
-        id: `${sector}-${level}-${trimester}-${weekId}-${lessonId}`,
-        title: theoryData?.title || exercisesData?.title || 'Professional Lesson',
+        id: `${goal}-${sectorOrLevel}-${levelOrTrimester}-${trimesterOrWeekId}-${lessonId}`,
+        title: theoryData?.title || exercisesData?.title || 'Lesson',
         description: theoryData?.description || exercisesData?.description || '',
         duration: theoryData?.duration || 60,
         objectives: theoryData?.objectives || [],
@@ -80,9 +95,28 @@ export const localCourseService = {
 
       return lesson;
     } catch (error) {
-      console.error('Error loading local professional lesson:', error);
+      console.error(`Error loading local ${goal} lesson:`, error);
       return null;
     }
+  },
+
+  async getProfessionalLesson(
+    sector: string,
+    level: string,
+    trimester: string,
+    weekId: string,
+    lessonId: string = 'lesson1'
+  ): Promise<Lesson | null> {
+    return this.getLesson('trabajo', sector, level, trimester, weekId, lessonId);
+  },
+
+  async getTravelLesson(
+    level: string,
+    trimester: string,
+    weekId: string,
+    lessonId: string = 'lesson1'
+  ): Promise<Lesson | null> {
+    return this.getLesson('viajes', level, trimester, weekId, lessonId);
   },
 
   formatTheoryToMarkdown(theoryData: any): string {

@@ -1,0 +1,61 @@
+{
+  "id": "travel-a1-s1-l3",
+  "title": "At the Café: Polite Phrases",
+  "description": "Aprende las 'palabras mágicas' para pedir algo en una cafetería de forma educada.",
+  "duration": 8,
+  "objectives": [
+    "Usar 'Please' y 'Thank you' correctamente",
+    "Pedir un café de forma sencilla",
+    "Usar 'Excuse me' para llamar la atención"
+  ],
+  "videoUrl": "/videos/courses/travel-a1/semana01/lesson3.mp4",
+  "theorySlides": [
+    {
+      "title": "Las Palabras Mágicas",
+      "content": "Ser educado es fundamental en cualquier cultura.\n\n- **Please**: Por favor (se usa al final de la petición).\n- **Thank you**: Gracias.\n- **Excuse me**: Perdón / Disculpe (para llamar la atención).",
+      "imageUrl": "/assets/courses/travel-a1/images/lesson3_slide_0.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson3_slide_0.mp3"
+    },
+    {
+      "title": "Pidiendo un café",
+      "content": "No necesitas frases complejas:\n**'A coffee, please.'**\n\nY cuando lo recibas:\n**'Thank you!'**",
+      "imageUrl": "/assets/courses/travel-a1/images/lesson3_slide_1.png",
+      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/lesson3_slide_1.mp3",
+      "interactiveCheck": {
+        "id": "check-l3-1",
+        "type": "multiple-choice",
+        "question": "¿Qué dices para llamar la atención del camarero?",
+        "options": [
+          "Hello!",
+          "Excuse me",
+          "Please"
+        ],
+        "correctAnswer": "Excuse me",
+        "explanation": "'Excuse me' es la forma más educada de llamar a alguien.",
+        "points": 5
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "trv-a1-s1-l3-ex1",
+      "type": "vocabulary",
+      "title": "Politeness Check",
+      "instructions": "Selecciona la frase adecuada para cada situación.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Recibes tu café. Tú dices:",
+          "options": [
+            "Please",
+            "Thank you",
+            "Excuse me"
+          ],
+          "correctAnswer": "Thank you",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}
