@@ -13,27 +13,27 @@
       "type": "video",
       "title": "Escena: El Mostrador de Ayuda",
       "content": "Mira cómo un viajero se acerca al mostrador de información por primera vez.",
-      "videoUrl": "/videos/courses/travel-a1/semana01/lesson1.mp4"
+      "videoUrl": "https://www.focus-on-english.com/videos/courses/travel-a1/semana01/lesson1.mp4"
     },
     {
       "type": "discovery",
       "title": "¿Qué ves en el mostrador?",
       "content": "Explora los objetos y personas en el Information Desk.",
-      "imageUrl": "/assets/courses/travel-a1/images/info_desk_zoom.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/info_desk_zoom.png",
       "discoveryPoints": [
         {
           "x": 30,
           "y": 45,
           "label": "Map",
           "content": "Un mapa de la ciudad. **'A map, please'**.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/map.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/map.mp3"
         },
         {
           "x": 50,
           "y": 40,
           "label": "Clerk",
           "content": "El empleado que te ayudará. Siempre comienza con un saludo.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/clerk.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/clerk.mp3"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "type": "explanation",
       "title": "Yo soy... (I am)",
       "content": "Para presentarte, simplemente usa:\n\n**'Hello, I am [Nombre]'**\n\nEjemplo: 'Hello, I am David'.",
-      "imageUrl": "/assets/courses/travel-a1/images/introduction_lesson.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/introduction_lesson.png",
       "interactiveCheck": {
         "id": "check-l1-v2",
         "type": "multiple-choice",

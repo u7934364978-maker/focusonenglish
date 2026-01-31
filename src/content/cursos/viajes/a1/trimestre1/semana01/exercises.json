@@ -9,10 +9,10 @@
       "id": "trv-a1-w01-ex01",
       "type": "multiple-choice",
       "prompt": "Listen and select the correct greeting image.",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/hello.mp3",
+      "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/hello.mp3",
       "options": [
-        { "text": "Hello", "imageUrl": "/assets/courses/travel-a1/images/hello_wave.png" },
-        { "text": "Goodbye", "imageUrl": "/assets/courses/travel-a1/images/bye_wave.png" }
+        { "text": "Hello", "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/hello_wave.png" },
+        { "text": "Goodbye", "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/bye_wave.png" }
       ],
       "answerIndex": 0,
       "explanation": "El audio dice 'Hello' (Hola), que se usa para saludar."

@@ -13,27 +13,27 @@
       "type": "video",
       "title": "Escena: Recepción del Hotel",
       "content": "Mira cómo el recepcionista pide los datos al viajero para confirmar su estancia.",
-      "videoUrl": "/videos/courses/travel-a1/semana01/lesson2.mp4"
+      "videoUrl": "https://www.focus-on-english.com/videos/courses/travel-a1/semana01/lesson2.mp4"
     },
     {
       "type": "discovery",
       "title": "En la Recepción",
       "content": "Explora los elementos de la recepción de un hotel.",
-      "imageUrl": "/assets/courses/travel-a1/images/hotel_reception.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/hotel_reception.png",
       "discoveryPoints": [
         {
           "x": 40,
           "y": 50,
           "label": "Reservation",
           "content": "Tu reserva. **'I have a reservation'** (Tengo una reserva).",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/reservation.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/reservation.mp3"
         },
         {
           "x": 70,
           "y": 45,
           "label": "Key Card",
           "content": "La tarjeta de tu habitación. **'Your key, sir'**.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/key_card.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/key_card.mp3"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "type": "explanation",
       "title": "¿Puede deletrearlo?",
       "content": "En hoteles es vital saber deletrear. Escucha la pregunta clave:\n\n**'Can you spell that, please?'**\n\nResponde letra por letra usando el abecedario.",
-      "imageUrl": "/assets/courses/travel-a1/images/spelling_lesson.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/spelling_lesson.png",
       "interactiveCheck": {
         "id": "check-l2-v2",
         "type": "multiple-choice",

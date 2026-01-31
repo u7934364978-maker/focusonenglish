@@ -11,13 +11,13 @@
       "type": "video",
       "title": "¡Bienvenido a tu viaje!",
       "content": "En este video introductorio, veremos la importancia de las primeras interacciones al llegar a un nuevo destino.",
-      "videoUrl": "/videos/courses/travel-a1/semana01/theory.mp4"
+      "videoUrl": "https://www.focus-on-english.com/videos/courses/travel-a1/semana01/theory.mp4"
     },
     {
       "type": "discovery",
       "title": "Llegada al Aeropuerto",
       "content": "Haz clic en los elementos para aprender su nombre en inglés.",
-      "imageUrl": "/assets/courses/travel-a1/images/airport_discovery.png",
+      "imageUrl": "https://www.focus-on-english.comhttps://www.focus-on-english.com/assets/courses/travel-a1/images/airport_discovery.png",
       "vocabulary": [
         { "word": "Passport Control", "definition": "Control de Pasaportes" },
         { "word": "Baggage Claim", "definition": "Reclamo de Equipaje" },
@@ -29,21 +29,21 @@
           "y": 40,
           "label": "Passport Control",
           "content": "Aquí es donde revisan tu pasaporte. **'Passport, please'** es la frase que más escucharás.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/passport_control.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/passport_control.mp3"
         },
         {
           "x": 60,
           "y": 50,
           "label": "Baggage Claim",
           "content": "Donde recoges tus maletas. **'Where is the baggage claim?'**",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/baggage_claim.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/baggage_claim.mp3"
         },
         {
           "x": 80,
           "y": 30,
           "label": "Information Desk",
           "content": "Tu punto de ayuda. Ideal para preguntar por transporte o mapas.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/info_desk.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/info_desk.mp3"
         }
       ]
     },
@@ -51,15 +51,15 @@
       "type": "explanation",
       "title": "El Abecedario (The Alphabet)",
       "content": "Vital para deletrear tu nombre o código de reserva.\n\n### Vowels (Vocales)\n| Letter | Pronunciation | Example |\n| :---: | :--- | :--- |\n| **A** | ei | **A**irport |\n| **E** | i | **E**xit |\n| **I** | ai | **I**sland |\n| **O** | ou | **O**pen |\n| **U** | iu | **U**nit |",
-      "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_full.mp3"
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/alphabet_theory.png",
+      "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_full.mp3"
     },
     {
       "type": "explanation",
       "title": "Letras Problemáticas (Tricky Letters)",
       "content": "Estas letras suelen confundir a los hispanohablantes. ¡Presta mucha atención!\n\n| Letter | Pronunciation | Context |\n| :---: | :--- | :--- |\n| **G** | yi | **G**eneral |\n| **J** | yei | **J**et |\n| **H** | eich | **H**otel |\n| **Y** | uai | **Y**es |\n| **R** | ar | **R**oom |",
-      "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
-      "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_tricky.mp3",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/alphabet_theory.png",
+      "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_tricky.mp3",
       "interactiveCheck": {
         "id": "trv-a1-s1-th-check-tricky",
         "type": "multiple-choice",
@@ -78,7 +78,7 @@
       "type": "explanation",
       "title": "Saludos por Horario",
       "content": "Dependiendo de la hora, usamos diferentes saludos:\n\n- **Morning** (hasta las 12:00): Good morning\n- **Afternoon** (12:00 a 18:00): Good afternoon\n- **Evening** (18:00 en adelante): Good evening",
-      "imageUrl": "/assets/courses/travel-a1/images/greetings_clock.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/greetings_clock.png",
       "vocabulary": [
         { "word": "Morning", "definition": "Mañana (06:00 - 12:00)" },
         { "word": "Afternoon", "definition": "Tarde (12:00 - 18:00)" },

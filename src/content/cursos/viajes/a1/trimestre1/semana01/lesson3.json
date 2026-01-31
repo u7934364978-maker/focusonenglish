@@ -13,34 +13,34 @@
       "type": "video",
       "title": "Escena: En la Cafetería",
       "content": "Mira cómo pedir algo de beber usando las palabras mágicas de la cortesía.",
-      "videoUrl": "/videos/courses/travel-a1/semana01/lesson3.mp4"
+      "videoUrl": "https://www.focus-on-english.com/videos/courses/travel-a1/semana01/lesson3.mp4"
     },
     {
       "type": "discovery",
       "title": "La Barra del Café",
       "content": "Explora el menú y los objetos comunes en un café.",
-      "imageUrl": "/assets/courses/travel-a1/images/cafe_counter.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/cafe_counter.png",
       "discoveryPoints": [
         {
           "x": 30,
           "y": 40,
           "label": "Coffee",
           "content": "Café. **'A coffee, please'**.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/coffee.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/coffee.mp3"
         },
         {
           "x": 60,
           "y": 35,
           "label": "Water",
           "content": "Agua. **'A water, please'**.",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/water.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/water.mp3"
         },
         {
           "x": 80,
           "y": 60,
           "label": "Sugar",
           "content": "Azúcar. **'Sugar?'**",
-          "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/sugar.mp3"
+          "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/sugar.mp3"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "type": "explanation",
       "title": "Palabras Mágicas",
       "content": "La cortesía es fundamental:\n\n- **Please**: Por favor\n- **Thank you**: Gracias\n- **You're welcome**: De nada\n\nSiempre añade 'please' al final de tu pedido.",
-      "imageUrl": "/assets/courses/travel-a1/images/courtesy_lesson.png",
+      "imageUrl": "https://www.focus-on-english.com/assets/courses/travel-a1/images/courtesy_lesson.png",
       "interactiveCheck": {
         "id": "check-l3-v2",
         "type": "multiple-choice",
