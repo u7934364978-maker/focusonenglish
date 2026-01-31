@@ -1967,6 +1967,7 @@ export interface TheorySlide {
   interactiveCheck?: Question; // Optional quiz question for this slide
   isVideoSlide?: boolean; // If true, this slide shows a video instead of image/markdown
   videoUrl?: string;
+  vocabulary?: Array<{ word: string; definition: string }>;
   type?: 'explanation' | 'video' | 'discovery' | 'mini-game' | 'recap';
   discoveryPoints?: Array<{
     x: number;

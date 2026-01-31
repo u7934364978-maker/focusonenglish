@@ -18,6 +18,11 @@
       "title": "Llegada al Aeropuerto",
       "content": "Haz clic en los elementos para aprender su nombre en inglés.",
       "imageUrl": "/assets/courses/travel-a1/images/airport_discovery.png",
+      "vocabulary": [
+        { "word": "Passport Control", "definition": "Control de Pasaportes" },
+        { "word": "Baggage Claim", "definition": "Reclamo de Equipaje" },
+        { "word": "Information Desk", "definition": "Mostrador de Información" }
+      ],
       "discoveryPoints": [
         {
           "x": 25,
@@ -45,14 +50,14 @@
     {
       "type": "explanation",
       "title": "El Abecedario (The Alphabet)",
-      "content": "Vital para deletrear tu nombre o código de reserva.\n\nEscucha con atención:\n- **A** (ei)\n- **E** (i)\n- **I** (ai)\n- **O** (ou)\n- **U** (iu)",
+      "content": "Vital para deletrear tu nombre o código de reserva.\n\n### Vowels (Vocales)\n| Letter | Pronunciation | Example |\n| :---: | :--- | :--- |\n| **A** | ei | **A**irport |\n| **E** | i | **E**xit |\n| **I** | ai | **I**sland |\n| **O** | ou | **O**pen |\n| **U** | iu | **U**nit |",
       "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
       "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_full.mp3"
     },
     {
       "type": "explanation",
       "title": "Letras Problemáticas (Tricky Letters)",
-      "content": "Estas letras suelen confundir a los hispanohablantes. ¡Presta mucha atención!\n\n- **G** (yi) - Como en 'General'\n- **J** (yei) - Como en 'Jet'\n- **H** (eich) - Como en 'Hotel'\n- **Y** (uai) - Como en 'Yes'\n- **R** (ar) - Como en 'Room'",
+      "content": "Estas letras suelen confundir a los hispanohablantes. ¡Presta mucha atención!\n\n| Letter | Pronunciation | Context |\n| :---: | :--- | :--- |\n| **G** | yi | **G**eneral |\n| **J** | yei | **J**et |\n| **H** | eich | **H**otel |\n| **Y** | uai | **Y**es |\n| **R** | ar | **R**oom |",
       "imageUrl": "/assets/courses/travel-a1/images/alphabet_theory.png",
       "audioUrl": "/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_tricky.mp3",
       "interactiveCheck": {
@@ -74,6 +79,12 @@
       "title": "Saludos por Horario",
       "content": "Dependiendo de la hora, usamos diferentes saludos:\n\n- **Morning** (hasta las 12:00): Good morning\n- **Afternoon** (12:00 a 18:00): Good afternoon\n- **Evening** (18:00 en adelante): Good evening",
       "imageUrl": "/assets/courses/travel-a1/images/greetings_clock.png",
+      "vocabulary": [
+        { "word": "Morning", "definition": "Mañana (06:00 - 12:00)" },
+        { "word": "Afternoon", "definition": "Tarde (12:00 - 18:00)" },
+        { "word": "Evening", "definition": "Noche/Tardecita (18:00 - 00:00)" },
+        { "word": "Good night", "definition": "Buenas noches (solo para despedirse)" }
+      ],
       "interactiveCheck": {
         "id": "check-greetings-1",
         "type": "multiple-choice",

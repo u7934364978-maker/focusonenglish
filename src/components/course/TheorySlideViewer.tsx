@@ -161,7 +161,10 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                             )}
                           </div>
                           <div className="prose prose-indigo dark:prose-invert max-w-none text-slate-700 dark:text-slate-300">
-                            <Markdown content={currentSlide.discoveryPoints[activePoint].content} />
+                            <Markdown 
+                              content={currentSlide.discoveryPoints[activePoint].content} 
+                              vocabulary={currentSlide.vocabulary}
+                            />
                           </div>
                         </motion.div>
                       ) : (
@@ -196,14 +199,14 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                       <span>Notas de la Lección</span>
                     </div>
                     <div className="prose prose-slate dark:prose-invert max-w-none text-sm">
-                      <Markdown content={currentSlide.content} />
+                      <Markdown content={currentSlide.content} vocabulary={currentSlide.vocabulary} />
                     </div>
                   </div>
                 </div>
               ) : (
                 <div className="grid md:grid-cols-2 gap-8 items-center flex-1">
                   <div className="prose prose-slate dark:prose-invert max-w-none text-lg">
-                    <Markdown content={currentSlide.content} />
+                    <Markdown content={currentSlide.content} vocabulary={currentSlide.vocabulary} />
                   </div>
                   
                   {currentSlide.imageUrl && (
