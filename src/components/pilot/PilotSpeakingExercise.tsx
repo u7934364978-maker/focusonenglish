@@ -95,8 +95,18 @@ export default function PilotSpeakingExercise({
   return (
     <div className="w-full bg-white dark:bg-slate-900 rounded-3xl p-8 border-2 border-slate-100 dark:border-slate-800 shadow-xl">
       <div className="text-center mb-8">
-        <h4 className="text-2xl font-black text-slate-900 dark:text-white mb-2">{prompt}</h4>
-        <p className="text-slate-500 dark:text-slate-400">Read the phrase clearly into your microphone.</p>
+        <div className="inline-block px-4 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-black uppercase tracking-widest mb-4">
+          Mission Objective
+        </div>
+        <h4 className="text-2xl font-black text-slate-900 dark:text-white mb-4 leading-tight">
+          {prompt.split('. ').map((sentence, i) => (
+            <span key={i} className="block">{sentence}{i === 0 ? '.' : ''}</span>
+          ))}
+        </h4>
+        <div className="flex items-center justify-center gap-2 text-slate-500 dark:text-slate-400">
+          <Mic className="w-4 h-4" />
+          <p className="text-sm font-medium">Click the mic and speak clearly</p>
+        </div>
       </div>
 
       <div className="bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-6 mb-8 border-2 border-dashed border-slate-200 dark:border-slate-700">

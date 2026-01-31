@@ -16,6 +16,7 @@ const PUBLIC_ROUTES = new Set([
   "/generador-b2",
   "/api/generate-exercise",
   "/test-nivel",
+  "/pilot",
 ]);
 
 function isBlogRoute(pathname: string) {

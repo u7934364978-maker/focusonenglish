@@ -1,7 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createServerClient } from '@supabase/ssr';
-import { cookies } from 'next/headers';
-import { hasActiveSubscription } from '@/lib/subscription-helpers';
 
 /**
  * API Route: Get Cloudflare Stream Playback URL
@@ -16,7 +13,8 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Missing videoId' }, { status: 400 });
     }
 
-    // 1. Validate session
+    // 1. Validate session (REMOVED for Pilot Public Access)
+    /*
     const cookieStore = await cookies();
     const supabase = createServerClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -48,6 +46,7 @@ export async function GET(request: NextRequest) {
       // But for now, let's stick to the requirement
       return NextResponse.json({ error: 'Active subscription required' }, { status: 403 });
     }
+    */
 
     // 3. Generate Signed URL Token
     // In a real implementation, we would call Cloudflare API to get a signed token

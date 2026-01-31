@@ -34,11 +34,13 @@ export default function PilotLessonPlayer({ unit, userId, initialProgress }: Pil
     const newCompleted = [...new Set([...completedLessons, currentLesson.lessonId])];
     setCompletedLessons(newCompleted);
 
-    await updatePilotProgress(userId, unit.unitId, {
-      current_lesson_id: currentLesson.lessonId,
-      completed_lessons: newCompleted,
-      scores: lessonScores
-    });
+    if (userId !== 'guest-user') {
+      await updatePilotProgress(userId, unit.unitId, {
+        current_lesson_id: currentLesson.lessonId,
+        completed_lessons: newCompleted,
+        scores: lessonScores
+      });
+    }
 
     if (isLastLesson) {
       setShowCompletion(true);
@@ -169,7 +171,7 @@ export default function PilotLessonPlayer({ unit, userId, initialProgress }: Pil
           disabled={!canContinue}
           className="group relative flex items-center gap-3 px-12 py-5 bg-orange-500 hover:bg-orange-600 text-white rounded-2xl font-black text-xl shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          {isLastLesson ? 'Finalizar Unidad' : 'Siguiente Lección'}
+          {isLastLesson ? 'Complete Mission' : 'Continue Mission'}
           <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
         </button>
       </div>

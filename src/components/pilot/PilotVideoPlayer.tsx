@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Info, HelpCircle, CheckCircle2 } from 'lucide-react';
+import { Info, HelpCircle, CheckCircle2, Video } from 'lucide-react';
 
 interface Interaction {
   type: 'hotspot' | 'mcq';
@@ -30,10 +30,29 @@ export default function PilotVideoPlayer({ streamVideoId, interactions, onComple
   const [mcqAnswer, setMcqAnswer] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
   
+  const [isPlaying, setIsPlaying] = useState(false);
+  
   const videoRef = useRef<HTMLIFrameElement>(null);
+  const mockVideoRef = useRef<HTMLVideoElement>(null);
+
+  // Sync mock video playback
+  useEffect(() => {
+    if (mockVideoRef.current) {
+      if (isPlaying && !activeInteraction) {
+        mockVideoRef.current.play().catch(() => {});
+      } else {
+        mockVideoRef.current.pause();
+      }
+    }
+  }, [isPlaying, activeInteraction]);
 
   // Fetch playback URL
   useEffect(() => {
+    if (streamVideoId === 'mock') {
+      setPlaybackUrl(null);
+      setLoading(false);
+      return;
+    }
     async function fetchPlayback() {
       try {
         const res = await fetch(`/api/stream/playback?videoId=${streamVideoId}`);
@@ -85,14 +104,63 @@ export default function PilotVideoPlayer({ streamVideoId, interactions, onComple
   if (error) return <div className="aspect-video bg-red-50 text-red-600 rounded-2xl flex items-center justify-center p-4 text-center">Error: {error}</div>;
 
   return (
-    <div className="relative w-full aspect-video bg-black rounded-2xl overflow-hidden shadow-2xl">
-      <iframe
-        ref={videoRef}
-        src={playbackUrl || ''}
-        className="absolute inset-0 w-full h-full"
-        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-        allowFullScreen
-      />
+    <div className="relative w-full aspect-video bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800">
+      {streamVideoId === 'mock' ? (
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white space-y-6">
+          {/* Real Video for Simulation Mode */}
+          <video
+            ref={mockVideoRef}
+            className="absolute inset-0 w-full h-full object-cover z-0"
+            playsInline
+            muted={!isPlaying}
+            loop
+            onTimeUpdate={(e) => {
+              if (isPlaying && !activeInteraction) {
+                setCurrentTime(Math.floor(e.currentTarget.currentTime));
+              }
+            }}
+            src="https://media.w3.org/2010/05/sintel/trailer.mp4"
+          />
+          <div className="absolute inset-0 bg-black/20 z-0" />
+          
+          {!isPlaying && (
+            <div className="relative z-10 flex flex-col items-center">
+              <div className="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center animate-pulse shadow-2xl mb-6">
+                <Video className="w-12 h-12" />
+              </div>
+              <h3 className="text-3xl font-black mb-6 text-center">Video Lesson Simulation</h3>
+              <button 
+                onClick={() => setIsPlaying(true)}
+                className="px-10 py-5 bg-white text-slate-900 rounded-2xl font-black text-2xl hover:scale-105 transition-all shadow-2xl"
+              >
+                Play with Audio
+              </button>
+            </div>
+          )}
+          
+          {isPlaying && activeInteraction && (
+            <div className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm z-0" />
+          )}
+        </div>
+      ) : (
+        <iframe
+          ref={videoRef}
+          src={playbackUrl || ''}
+          className="absolute inset-0 w-full h-full"
+          allow="accelerometer; gyroscope; autoplay; encrypted-media"
+          allowFullScreen
+        />
+      )}
+
+      {/* Progress Bar for simulation */}
+      {streamVideoId === 'mock' && (
+        <div className="absolute bottom-0 left-0 right-0 h-2 bg-slate-800">
+          <div 
+            className="h-full bg-orange-500 transition-all duration-1000" 
+            style={{ width: `${Math.min((currentTime / 30) * 100, 100)}%` }}
+          />
+        </div>
+      )}
 
       {/* Interactions Overlay */}
       <AnimatePresence>
@@ -113,7 +181,10 @@ export default function PilotVideoPlayer({ streamVideoId, interactions, onComple
                 </div>
                 <p className="text-slate-600 dark:text-slate-400 mb-6">{activeInteraction.content?.text}</p>
                 <button
-                  onClick={() => setActiveInteraction(null)}
+                  onClick={() => {
+                    setActiveInteraction(null);
+                    if (streamVideoId === 'mock') setCurrentTime(prev => prev + 1);
+                  }}
                   className="w-full py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors"
                 >
                   Continue Video
@@ -175,6 +246,7 @@ export default function PilotVideoPlayer({ streamVideoId, interactions, onComple
                       setActiveInteraction(null);
                       setMcqAnswer(null);
                       setShowExplanation(false);
+                      if (streamVideoId === 'mock') setCurrentTime(prev => prev + 1);
                     }}
                     className="w-full py-4 bg-slate-900 dark:bg-slate-800 text-white font-black rounded-xl transition-all"
                   >

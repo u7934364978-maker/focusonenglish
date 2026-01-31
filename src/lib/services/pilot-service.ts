@@ -4,10 +4,11 @@ export interface PilotProgress {
   unit_id: string;
   current_lesson_id: string;
   completed_lessons: string[];
-  scores: Record<string, any>;
+  scores: Record<string, number | string>;
 }
 
 export async function getPilotProgress(userId: string, unitId: string): Promise<PilotProgress | null> {
+  if (userId === 'guest-user') return null;
   const supabase = createClient();
   if (!supabase) return null;
 
@@ -27,6 +28,10 @@ export async function getPilotProgress(userId: string, unitId: string): Promise<
 }
 
 export async function updatePilotProgress(userId: string, unitId: string, updates: Partial<PilotProgress>) {
+  if (userId === 'guest-user') {
+    // Optionally save to localStorage for guests
+    return;
+  }
   const supabase = createClient();
   if (!supabase) return;
 
