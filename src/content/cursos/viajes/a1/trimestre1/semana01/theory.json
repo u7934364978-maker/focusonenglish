@@ -28,21 +28,21 @@
           "x": 48,
           "y": 42,
           "label": "Passport Control",
-          "content": "Aquí es donde revisan tu pasaporte. **'Passport, please'** es la frase que más escucharás.",
+          "content": "### 🛂 Passport Control\nAquí es donde revisan tu pasaporte. \n\n**Frase Clave:**\n- *\"Passport, please.\"* (Pasaporte, por favor)\n- *\"Where are you coming from?\"* (¿De dónde viene?)\n\n**Tip:** Ten tu pasaporte a mano antes de llegar a la fila.",
           "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/passport_control.mp3"
         },
         {
           "x": 75,
           "y": 65,
           "label": "Baggage Claim",
-          "content": "Donde recoges tus maletas. **'Where is the baggage claim?'**",
+          "content": "### 🧳 Baggage Claim\nDonde recoges tus maletas después del vuelo.\n\n**Frase Clave:**\n- *\"Where is the baggage claim?\"* (¿Dónde está el reclamo de equipaje?)\n- *\"I can't find my suitcase.\"* (No encuentro mi maleta)\n\n**Vocabulario:** *Suitcase* = Maleta.",
           "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/baggage_claim.mp3"
         },
         {
           "x": 22,
           "y": 35,
           "label": "Information Desk",
-          "content": "Tu punto de ayuda. Ideal para preguntar por transporte o mapas.",
+          "content": "### ℹ️ Information Desk\nTu punto de ayuda para cualquier duda sobre transporte o el aeropuerto.\n\n**Frase Clave:**\n- *\"Excuse me, can you help me?\"* (Disculpe, ¿puede ayudarme?)\n- *\"Where is the exit?\"* (¿Dónde está la salida?)\n\n**Tip:** Los mapas del aeropuerto suelen estar aquí.",
           "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/info_desk.mp3"
         }
       ]
@@ -50,14 +50,14 @@
     {
       "type": "explanation",
       "title": "El Abecedario (The Alphabet)",
-      "content": "Vital para deletrear tu nombre o código de reserva.\n\n### Vowels (Vocales)\n| Letter | Pronunciation | Example |\n| :---: | :--- | :--- |\n| **A** | ei | **A**irport |\n| **E** | i | **E**xit |\n| **I** | ai | **I**sland |\n| **O** | ou | **O**pen |\n| **U** | iu | **U**nit |",
+      "content": "Para viajar, es **vital** saber deletrear tu nombre, apellido o código de reserva (*Booking Code*).\n\n### Las Vocales (The Vowels)\nSon las letras que más suelen cambiar de sonido.\n\n| Letter | Pronunciation | Example |\n| :---: | :--- | :--- |\n| **A** | ei | **A**irport (Aeropuerto) |\n| **E** | i | **E**xit (Salida) |\n| **I** | ai | **I**sland (Isla) |\n| **O** | ou | **O**pen (Abierto) |\n| **U** | iu | **U**nit (Unidad) |\n\n> **Tip:** Intenta recordar la letra **E** como un \"I\" de \"Internet\".",
       "imageUrl": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1280",
       "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_full.mp3"
     },
     {
       "type": "explanation",
-      "title": "Letras Problemáticas (Tricky Letters)",
-      "content": "Estas letras suelen confundir a los hispanohablantes. ¡Presta mucha atención!\n\n| Letter | Pronunciation | Context |\n| :---: | :--- | :--- |\n| **G** | yi | **G**eneral |\n| **J** | yei | **J**et |\n| **H** | eich | **H**otel |\n| **Y** | uai | **Y**es |\n| **R** | ar | **R**oom |",
+      "title": "Letras Tramposas (Tricky Letters)",
+      "content": "Estas letras confunden a casi todos los estudiantes. ¡Memorízalas hoy!\n\n| Letter | Pronunciation | Word Example |\n| :---: | :--- | :--- |\n| **G** | yi | **G**eneral |\n| **J** | yei | **J**et |\n| **H** | eich | **H**otel |\n| **Y** | uai | **Y**es |\n| **R** | ar | **R**oom |\n\n¿Sabías que la **H** es muda en español pero en inglés suena como un suspiro suave (eich)?",
       "imageUrl": "https://images.unsplash.com/photo-1544411047-c491e34a2450?q=80&w=1280",
       "audioUrl": "https://www.focus-on-english.com/audio/cursos/viajes/a1/trimestre1/semana01/alphabet_tricky.mp3",
       "interactiveCheck": {
@@ -73,6 +73,17 @@
         "explanation": "La letra 'H' se pronuncia 'eich'.",
         "points": 5
       }
+    },
+    {
+      "type": "explanation",
+      "title": "Haciendo el Check-in",
+      "content": "Al llegar al mostrador de la aerolínea, estas son las preguntas que debes esperar:\n\n- **\"Can I see your passport and booking reference?\"**\n- **\"Are you checking any bags?\"**\n- **\"Would you like a window or an aisle seat?\"**\n\n### Vocabulario del Check-in\n| English | Español |\n| :--- | :--- |\n| **Window seat** | Asiento de ventana |\n| **Aisle seat** | Asiento de pasillo |\n| **Boarding pass** | Tarjeta de embarque |\n| **Gate** | Puerta de embarque |",
+      "imageUrl": "https://images.unsplash.com/photo-1436491865332-7a61a109c0f2?q=80&w=1280",
+      "vocabulary": [
+        { "word": "Window seat", "definition": "Asiento al lado de la ventana." },
+        { "word": "Aisle seat", "definition": "Asiento al lado del pasillo." },
+        { "word": "Boarding pass", "definition": "El documento que te permite subir al avión." }
+      ]
     },
     {
       "type": "explanation",

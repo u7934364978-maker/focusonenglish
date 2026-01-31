@@ -23,6 +23,7 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
 
   const currentSlide = slides[currentSlideIndex];
   const isLastSlide = currentSlideIndex === slides.length - 1;
+  const hasTable = currentSlide.content.includes('|') && currentSlide.content.includes('---');
 
   useEffect(() => {
     // Reset state when slide changes
@@ -75,6 +76,9 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
 
   return (
     <div className="relative w-full max-w-4xl mx-auto bg-white dark:bg-slate-900 rounded-3xl shadow-xl overflow-hidden border border-slate-200 dark:border-slate-800">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-[0.03] dark:opacity-[0.05] pointer-events-none" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234338ca' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` }} />
+      
       {/* Progress Bar */}
       <div className="absolute top-0 left-0 w-full h-1 bg-slate-100 dark:bg-slate-800">
         <motion.div 
@@ -130,10 +134,13 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                             ? 'bg-indigo-600 border-white text-white z-30 scale-125 ring-4 ring-indigo-400/30' 
                             : viewedPoints.has(idx)
                               ? 'bg-green-500 border-white text-white z-10 opacity-90'
-                              : 'bg-white/90 backdrop-blur-sm border-indigo-600 text-indigo-600 z-10 animate-bounce'
+                              : 'bg-white/90 backdrop-blur-sm border-indigo-600 text-indigo-600 z-10'
                         }`}
                         style={{ left: `${point.x}%`, top: `${point.y}%` }}
                       >
+                        {!viewedPoints.has(idx) && activePoint !== idx && (
+                          <span className="absolute inset-0 rounded-full bg-indigo-400 animate-ping opacity-25" />
+                        )}
                         {viewedPoints.has(idx) && activePoint !== idx ? <CheckCircle2 size={24} /> : <Eye size={24} />}
                         <div className={`absolute -bottom-10 left-1/2 -translate-x-1/2 bg-slate-900/80 backdrop-blur-sm text-white text-[10px] px-2 py-0.5 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none uppercase tracking-tighter font-bold`}>
                           {point.label}
@@ -168,12 +175,23 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                           </div>
                         </motion.div>
                       ) : (
-                        <div className="flex-1 flex flex-col items-center justify-center text-center p-8 bg-slate-50 dark:bg-slate-800/50 rounded-3xl border-2 border-dashed border-slate-200 dark:border-slate-700">
-                          <div className="w-16 h-16 bg-indigo-100 dark:bg-indigo-900/50 rounded-full flex items-center justify-center text-indigo-600 mb-4">
-                            <Info size={32} />
+                        <div className="flex-1 flex flex-col items-center justify-center text-center p-8 bg-gradient-to-br from-indigo-50 to-white dark:from-slate-800/50 dark:to-slate-900 rounded-3xl border-2 border-indigo-100 dark:border-indigo-900/30 shadow-inner relative overflow-hidden">
+                          <div className="absolute top-0 right-0 p-4 opacity-10">
+                            <Eye size={120} />
                           </div>
-                          <p className="text-slate-600 dark:text-slate-400 font-medium">
-                            Haz clic en los puntos interactivos de la imagen para explorar el contenido.
+                          <motion.div 
+                            animate={{ 
+                              scale: [1, 1.1, 1],
+                              rotate: [0, 5, -5, 0]
+                            }}
+                            transition={{ duration: 4, repeat: Infinity }}
+                            className="w-20 h-20 bg-white dark:bg-slate-800 rounded-2xl flex items-center justify-center text-indigo-600 mb-6 shadow-lg z-10"
+                          >
+                            <Info size={40} />
+                          </motion.div>
+                          <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2 z-10">¡Momento de Explorar!</h3>
+                          <p className="text-slate-600 dark:text-slate-400 font-medium max-w-[240px] z-10">
+                            Haz clic en los <span className="text-indigo-600 dark:text-indigo-400 font-bold">puntos azules</span> que parpadean en la imagen para descubrir el vocabulario.
                           </p>
                         </div>
                       )}
@@ -204,13 +222,13 @@ export default function TheorySlideViewer({ slides, onComplete, lessonTitle }: T
                   </div>
                 </div>
               ) : (
-                <div className="grid md:grid-cols-2 gap-8 items-center flex-1">
-                  <div className="prose prose-slate dark:prose-invert max-w-none text-lg">
+                <div className={`flex flex-col flex-1 ${hasTable ? 'gap-6' : 'md:grid md:grid-cols-2 md:gap-12 md:items-center'}`}>
+                  <div className={`prose prose-slate dark:prose-invert max-w-none ${hasTable ? 'text-base' : 'text-lg'}`}>
                     <Markdown content={currentSlide.content} vocabulary={currentSlide.vocabulary} />
                   </div>
                   
                   {currentSlide.imageUrl && (
-                    <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800">
+                    <div className={`relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-800 ${hasTable ? 'aspect-[21/9] w-full mt-4' : 'aspect-square'}`}>
                       <img 
                         src={currentSlide.imageUrl} 
                         alt={currentSlide.title}
