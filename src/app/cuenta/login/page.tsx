@@ -28,7 +28,9 @@ function SignInForm() {
     setLoading(true);
 
     try {
+      console.log('Login attempt with:', email);
       const { user, error: authError } = await signIn(email, password);
+      console.log('Login result:', { user: !!user, error: authError?.message });
 
       if (authError || !user) {
         setError('Email o contraseña incorrectos');

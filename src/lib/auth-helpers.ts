@@ -40,10 +40,17 @@ export async function signUp(email: string, password: string, name: string): Pro
  * Iniciar sesión con email y contraseña
  */
 export async function signIn(email: string, password: string): Promise<AuthResponse> {
+  console.log('Attempting sign in for:', email);
   const { data, error } = await supabase.auth.signInWithPassword({
     email,
     password,
   });
+
+  if (error) {
+    console.error('Sign in error:', error.message);
+  } else {
+    console.log('Sign in successful for:', email);
+  }
 
   return {
     user: data.user,
