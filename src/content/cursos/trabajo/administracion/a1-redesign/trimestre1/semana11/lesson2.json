@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s11-l2",
+  "title": "Asking Permission",
+  "description": "May I...? Can I...?",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to Asking Permission",
+    "Understand basic concepts of Asking Permission",
+    "Complete interactive exercises about Asking Permission"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana11/lesson2.mp4",
+  "theorySlides": [
+    {
+      "title": "Formal vs Informal",
+      "content": "May I enter? Can I take this?",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Excuse me",
+      "content": "Getting someone's attention politely.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w11-l2-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for Asking Permission",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

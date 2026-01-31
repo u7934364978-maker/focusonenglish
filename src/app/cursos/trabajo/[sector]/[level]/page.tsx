@@ -120,12 +120,17 @@ export default async function SectorLevelPage({ params }: Props) {
                           <span className="text-coral-600">●</span> Temas Principales
                         </h4>
                         <ul className="space-y-3">
-                          {trimester.topics.map((topic, i) => (
+                          {(trimester.topics || []).map((topic: string, i: number) => (
                             <li key={i} className="text-slate-600 flex items-start gap-2">
                               <span className="text-coral-600/50 mt-1.5">•</span>
                               <span>{topic}</span>
                             </li>
                           ))}
+                          {(!trimester.topics || trimester.topics.length === 0) && trimester.weeks && (
+                            <li className="text-slate-500 italic text-sm">
+                              Este trimestre incluye {trimester.weeks.length} semanas de contenido especializado.
+                            </li>
+                          )}
                         </ul>
                       </div>
                       <div className="bg-slate-50 rounded-2xl p-6">
@@ -133,19 +138,19 @@ export default async function SectorLevelPage({ params }: Props) {
                         <div className="grid grid-cols-2 gap-4 text-sm">
                           <div>
                             <div className="font-bold text-coral-600 text-xs uppercase mb-1">Reading</div>
-                            <div className="text-slate-600">{trimester.skills.reading[0]}</div>
+                            <div className="text-slate-600">{trimester.skills?.reading?.[0] || 'Comprensión lectora sectorial'}</div>
                           </div>
                           <div>
                             <div className="font-bold text-coral-600 text-xs uppercase mb-1">Writing</div>
-                            <div className="text-slate-600">{trimester.skills.writing[0]}</div>
+                            <div className="text-slate-600">{trimester.skills?.writing?.[0] || 'Redacción profesional'}</div>
                           </div>
                           <div>
                             <div className="font-bold text-coral-600 text-xs uppercase mb-1">Listening</div>
-                            <div className="text-slate-600">{trimester.skills.listening[0]}</div>
+                            <div className="text-slate-600">{trimester.skills?.listening?.[0] || 'Comprensión auditiva técnica'}</div>
                           </div>
                           <div>
                             <div className="font-bold text-coral-600 text-xs uppercase mb-1">Speaking</div>
-                            <div className="text-slate-600">{trimester.skills.speaking[0]}</div>
+                            <div className="text-slate-600">{trimester.skills?.speaking?.[0] || 'Fluidez y expresión oral'}</div>
                           </div>
                         </div>
                       </div>
@@ -153,7 +158,7 @@ export default async function SectorLevelPage({ params }: Props) {
                     <div className="px-8 py-6 bg-orange-50/50 border-t border-slate-100">
                       <div className="mb-4">
                         <span className="font-bold text-slate-900 text-sm">Gramática: </span>
-                        <span className="text-slate-600 text-sm">{trimester.grammar.join(', ')}</span>
+                        <span className="text-slate-600 text-sm">{(trimester.grammar || ['Gramática avanzada aplicada']).join(', ')}</span>
                       </div>
                       
                       <div className="space-y-3">
@@ -188,10 +193,10 @@ export default async function SectorLevelPage({ params }: Props) {
                   Además del contenido especializado, el programa incluye la base lingüística necesaria para consolidar el nivel {levelKey} según el Marco Común Europeo.
                 </p>
                 <div className="grid md:grid-cols-2 gap-8">
-                  {baseCurriculum.modules.slice(0, 4).map((mod, i) => (
+                  {(baseCurriculum.modules || []).slice(0, 4).map((mod: any, i: number) => (
                     <div key={i} className="border-b border-slate-100 pb-6 last:border-0">
                       <h4 className="font-bold text-slate-900 mb-2">{mod.title}</h4>
-                      <p className="text-sm text-slate-500 line-clamp-2">{mod.topics.join(', ')}</p>
+                      <p className="text-sm text-slate-500 line-clamp-2">{(mod.topics || []).join(', ')}</p>
                     </div>
                   ))}
                 </div>

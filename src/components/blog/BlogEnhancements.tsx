@@ -10,42 +10,18 @@ export function BlogEnhancements() {
     const handleScroll = () => {
       // Calculate reading progress
       const windowHeight = window.innerHeight;
-      const documentHeight = document.documentElement.scrollHeight - windowHeight;
+      const fullHeight = document.documentElement.scrollHeight;
       const scrolled = window.scrollY;
-      const progress = (scrolled / documentHeight) * 100;
+      
+      // Progress calculation considering footer/bottom space
+      const progress = (scrolled / (fullHeight - windowHeight)) * 100;
       setScrollProgress(Math.min(progress, 100));
 
       // Show/hide scroll to top button
-      setShowScrollTop(scrolled > 400);
-
-      // Animate elements on scroll (intersection observer alternative)
-      const elements = document.querySelectorAll('.article-content > *');
-      elements.forEach((element) => {
-        const rect = element.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight * 0.85;
-        if (isVisible) {
-          element.classList.add('in-view');
-        }
-      });
+      setShowScrollTop(scrolled > 600);
     };
 
-    // Smooth scroll behavior
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener('click', (e) => {
-        e.preventDefault();
-        const target = document.querySelector(
-          anchor.getAttribute('href') || ''
-        );
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
-          });
-        }
-      });
-    });
-
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll(); // Initial call
 
     return () => {
@@ -62,9 +38,9 @@ export function BlogEnhancements() {
 
   return (
     <>
-      {/* Reading Progress Bar */}
+      {/* Reading Progress Bar - Themed to Coral */}
       <div
-        className="reading-progress"
+        className="fixed top-0 left-0 h-1.5 bg-gradient-to-r from-coral-500 to-peach-500 z-[9999] transition-all duration-100 ease-out"
         style={{ width: `${scrollProgress}%` }}
         role="progressbar"
         aria-valuenow={scrollProgress}
@@ -72,14 +48,21 @@ export function BlogEnhancements() {
         aria-valuemax={100}
       />
 
-      {/* Scroll to Top Button */}
+      {/* Scroll to Top Button - Modern Floating Circle */}
       <button
-        className={`scroll-to-top ${showScrollTop ? 'visible' : ''}`}
         onClick={scrollToTop}
+        className={`
+          fixed bottom-8 right-8 w-14 h-14 bg-white text-coral-600 rounded-full shadow-coral-lg 
+          border-2 border-coral-100 flex items-center justify-center transition-all duration-300 z-50
+          hover:bg-coral-600 hover:text-white hover:-translate-y-2
+          ${showScrollTop ? 'opacity-100 scale-100' : 'opacity-0 scale-50 pointer-events-none'}
+        `}
         aria-label="Volver arriba"
         type="button"
       >
-        ↑
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
       </button>
     </>
   );

@@ -119,7 +119,12 @@ export function generateArticleSchema(props: ArticleSchemaProps) {
     "dateModified": props.dateModified,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://focus-on-english.com/blog/${props.slug}`
+      "@id": `https://focus-on-english.com/blog/${props.category}/${props.slug}`
+    },
+    "copyrightYear": new Date().getFullYear(),
+    "copyrightHolder": {
+      "@type": "Organization",
+      "name": "Focus English"
     },
     "wordCount": props.wordCount,
     "articleSection": props.category,

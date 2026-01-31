@@ -1,18 +1,7 @@
 import type { MetadataRoute } from "next";
-import fs from "node:fs";
-import path from "node:path";
+import { getBlogArticles } from "@/lib/blog";
 
 const baseUrl = "https://focus-on-english.com";
-const CONTENT_DIR = "content";
-
-function getSlugsFromDir(relativeDir: string) {
-  const dir = path.join(process.cwd(), relativeDir);
-  if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".mdx") || f.endsWith(".md"))
-    .map((f) => f.replace(/\.mdx?$/, ""));
-}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -97,14 +86,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Add blog posts - Alta prioridad para SEO
-  const blogSlugs = getSlugsFromDir(`${CONTENT_DIR}/blog`);
+  // Add blog content dynamically - Alta prioridad para SEO
+  const articles = getBlogArticles();
+  
+  // 1. Add Category Pages (Subhubs)
+  const categories = Array.from(new Set(articles.map(a => a.category)));
   urls.push(
-    ...blogSlugs.map((slug) => ({
-      url: `${baseUrl}/blog/${slug}`,
+    ...categories.map((category) => ({
+      url: `${baseUrl}/blog/${category}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.75,
+    }))
+  );
+
+  // 2. Add Individual Articles with proper Silo path
+  urls.push(
+    ...articles.map((article) => ({
+      url: `${baseUrl}/blog/${article.category}/${article.slug}`,
       lastModified: now,
       changeFrequency: "monthly" as const,
-      priority: 0.7, // Aumentado de 0.6 a 0.7 (blog es importante para SEO)
+      priority: 0.7,
     }))
   );
 

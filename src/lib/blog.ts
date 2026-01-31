@@ -3,6 +3,8 @@ import path from "path";
 import matter from "gray-matter";
 
 const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
+console.log(`[BlogLib] BLOG_DIR: ${BLOG_DIR}`);
+console.log(`[BlogLib] BLOG_DIR exists: ${fs.existsSync(BLOG_DIR)}`);
 
 export interface BlogPost {
   slug: string;
@@ -14,6 +16,7 @@ export interface BlogPost {
   readTime: string;
   image?: string;
   keywords?: string[];
+  faqs?: { question: string, answer: string }[];
   featured?: boolean;
   content: string;
 }
@@ -55,6 +58,7 @@ export function getBlogArticles(): BlogPost[] {
       readTime: data.readTime || "5 min",
       image: data.image,
       keywords: data.keywords || [],
+      faqs: data.faqs || [],
       featured: data.featured || false,
       content,
     } as BlogPost;
@@ -65,16 +69,22 @@ export function getBlogArticles(): BlogPost[] {
 }
 
 export function getArticleBySlug(slug: string): BlogPost | null {
+  console.log(`[BlogLib] Looking for slug: ${slug}`);
   const allFiles = getAllFiles(BLOG_DIR);
   const filePath = allFiles.find(f => {
     const base = path.basename(f);
     return base === `${slug}.md` || base === `${slug}.mdx`;
   });
 
-  if (!filePath || !fs.existsSync(filePath)) return null;
+  if (!filePath || !fs.existsSync(filePath)) {
+    console.error(`[BlogLib] File NOT found for slug: ${slug}`);
+    return null;
+  }
 
+  console.log(`[BlogLib] Found file: ${filePath}`);
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
+  console.log(`[BlogLib] Extracted content length: ${content?.length || 0}`);
 
   return {
     slug,
@@ -86,6 +96,7 @@ export function getArticleBySlug(slug: string): BlogPost | null {
     readTime: data.readTime || "5 min",
     image: data.image,
     keywords: data.keywords || [],
+    faqs: data.faqs || [],
     featured: data.featured || false,
     content,
   } as BlogPost;
@@ -93,4 +104,11 @@ export function getArticleBySlug(slug: string): BlogPost | null {
 
 export function getArticlesByCategory(category: string): BlogPost[] {
   return getBlogArticles().filter(article => article.category === category);
+}
+
+export function getRelatedArticles(currentSlug: string, category: string, limit: number = 3): BlogPost[] {
+  const allArticles = getBlogArticles();
+  return allArticles
+    .filter(article => article.slug !== currentSlug && article.category === category)
+    .slice(0, limit);
 }

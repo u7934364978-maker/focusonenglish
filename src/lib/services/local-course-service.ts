@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 import { Lesson, Exercise } from '../exercise-types';
 
 export const localCourseService = {
@@ -7,10 +7,17 @@ export const localCourseService = {
     sector: string,
     level: string,
     trimester: string,
-    weekId: string
+    weekId: string,
+    lessonId: string = 'lesson1'
   ): Promise<Lesson | null> {
     try {
-      const baseDir = path.join(process.cwd(), 'src/content/cursos/trabajo', sector, level, trimester, weekId);
+      // Normalize paths
+      const normalizedSector = sector.toLowerCase();
+      const normalizedLevel = level.toLowerCase();
+      const normalizedTrimester = trimester.toLowerCase();
+      const normalizedWeekId = weekId.toLowerCase();
+
+      const baseDir = path.resolve(process.cwd(), 'src/content/cursos/trabajo', normalizedSector, normalizedLevel, normalizedTrimester, normalizedWeekId);
       
       if (!fs.existsSync(baseDir)) {
         return null;
@@ -18,28 +25,34 @@ export const localCourseService = {
 
       const theoryPath = path.join(baseDir, 'theory.json');
       const exercisesPath = path.join(baseDir, 'exercises.json');
+      const interactiveLessonPath = path.join(baseDir, `${lessonId}.json`);
 
       let theoryData = null;
-      if (fs.existsSync(theoryPath)) {
-        theoryData = JSON.parse(fs.readFileSync(theoryPath, 'utf8'));
-      }
-
       let exercisesData = null;
-      if (fs.existsSync(exercisesPath)) {
-        exercisesData = JSON.parse(fs.readFileSync(exercisesPath, 'utf8'));
+      let isRedesigned = false;
+
+      if (fs.existsSync(interactiveLessonPath)) {
+        const lessonData = JSON.parse(fs.readFileSync(interactiveLessonPath, 'utf8'));
+        theoryData = lessonData;
+        exercisesData = lessonData.exercises || [];
+        isRedesigned = true;
+      } else if (lessonId === 'lesson1') {
+        if (fs.existsSync(theoryPath)) {
+          theoryData = JSON.parse(fs.readFileSync(theoryPath, 'utf8'));
+        }
+        if (fs.existsSync(exercisesPath)) {
+          exercisesData = JSON.parse(fs.readFileSync(exercisesPath, 'utf8'));
+        }
       }
 
-      // If neither theory nor exercises exist, return null
       if (!theoryData && !exercisesData) {
         return null;
       }
 
-      // Convert local format to Lesson interface
       const items = Array.isArray(exercisesData) ? exercisesData : (exercisesData?.items || []);
       const exercises = this.convertItemsToExercises(items);
       const caseStudies = theoryData?.caseStudies || exercisesData?.caseStudies || [];
 
-      // Add case study questions to exercises if they exist
       caseStudies.forEach((cs: any) => {
         if (cs.questions && Array.isArray(cs.questions)) {
           const csExercises = this.convertItemsToExercises(cs.questions.map((q: any) => ({
@@ -52,14 +65,15 @@ export const localCourseService = {
       });
       
       const lesson: Lesson = {
-        id: `${sector}-${level}-${trimester}-${weekId}`,
+        id: `${sector}-${level}-${trimester}-${weekId}-${lessonId}`,
         title: theoryData?.title || exercisesData?.title || 'Professional Lesson',
         description: theoryData?.description || exercisesData?.description || '',
-        duration: 60, // Default duration
+        duration: theoryData?.duration || 60,
         objectives: theoryData?.objectives || [],
         audioUrl: theoryData?.audioUrl || exercisesData?.audioUrl,
         videoUrl: theoryData?.videoUrl || exercisesData?.videoUrl,
-        theoryContent: theoryData ? this.formatTheoryToMarkdown(theoryData) : undefined,
+        theoryContent: (!isRedesigned && theoryData) ? this.formatTheoryToMarkdown(theoryData) : undefined,
+        theorySlides: theoryData?.theorySlides,
         exercises: exercises,
         caseStudies: caseStudies
       };
@@ -113,9 +127,10 @@ export const localCourseService = {
     return items.map((item: any) => {
       const questionText = item.question || item.prompt || '';
       const id = item.id?.toString() || Math.random().toString(36).substr(2, 9);
+      const itemType = (item.type || '').toString().toLowerCase().trim();
 
       // Grammar with items (as seen in some JSON files)
-      if (item.type === 'grammar' && item.items && Array.isArray(item.items)) {
+      if (itemType === 'grammar' && item.items && Array.isArray(item.items)) {
         return {
           id: id,
           type: 'grammar',
@@ -129,7 +144,7 @@ export const localCourseService = {
       }
 
       // Multiple Choice
-      if (item.type === 'multipleChoice' || item.type === 'multiple-choice' || item.type === 'multiple_choice' || (item.type === 'grammar' && item.options) || (item.type === 'roleplay' && item.options)) {
+      if (itemType === 'multiplechoice' || itemType === 'multiple-choice' || itemType === 'multiple_choice' || (itemType === 'grammar' && item.options) || (itemType === 'roleplay' && item.options)) {
         let correctAnswer = item.correctAnswer || item.answer;
         if (typeof item.answerIndex === 'number' && item.options) {
           correctAnswer = item.options[item.answerIndex];
@@ -157,8 +172,55 @@ export const localCourseService = {
       }
       
       // Fill in the blanks
-      if (item.type === 'fill-in-the-blank' || item.type === 'fillBlanks' || item.type === 'fill-blank' || item.type === 'fill_in_the_blank') {
+      if (itemType === 'fill-in-the-blank' || itemType === 'fill-in-the-blanks' || itemType === 'fillblanks' || itemType === 'fill-blank' || itemType === 'fill_in_the_blank') {
         const normalized = normalizeAnswer(item.correctAnswer || item.answers || item.answer || '');
+        const text = item.text || item.question || item.prompt || '';
+        
+        // If there are multiple answers or multiple brackets, treat it as a gap-fill
+        const hasMultipleAnswers = Array.isArray(normalized) && normalized.length > 1;
+        const hasBrackets = text.includes('[') && text.includes(']');
+        
+        if (hasBrackets || hasMultipleAnswers) {
+          let gapCount = 0;
+          let processedText = text;
+          const gaps: any[] = [];
+          
+          // If we have brackets like [answer], replace them with [1], [2], etc.
+          if (hasBrackets) {
+            processedText = text.replace(/\[(.*?)\]/g, (match: string, answer: string) => {
+              gapCount++;
+              gaps.push({
+                id: `gap-${gapCount}`,
+                number: gapCount,
+                correctAnswer: answer.trim(),
+                points: 1
+              });
+              return `[${gapCount}]`;
+            });
+          } else if (hasMultipleAnswers && Array.isArray(normalized)) {
+            // Fallback for when we have multiple answers but no brackets (unlikely but possible)
+            normalized.forEach((ans, idx) => {
+              gaps.push({
+                id: `gap-${idx + 1}`,
+                number: idx + 1,
+                correctAnswer: ans,
+                points: 1
+              });
+            });
+          }
+
+          return {
+            id: id,
+            type: 'gap-fill',
+            title: item.title || 'Fill in the Blanks',
+            instructions: item.instructions || 'Complete the text with the correct words.',
+            text: processedText,
+            gaps: gaps,
+            explanation: item.explanation
+          } as any;
+        }
+
+        // Single answer fallback
         return {
           id: id,
           type: 'grammar',
@@ -168,7 +230,7 @@ export const localCourseService = {
             {
               id: id + '-q',
               type: 'fill-blank',
-              question: questionText || item.text || '',
+              question: text.replace(/\[.*?\]/g, '___'),
               correctAnswer: Array.isArray(normalized) ? normalized[0] : normalized,
               acceptableAnswers: Array.isArray(normalized) ? normalized : [normalized],
               explanation: item.explanation,
@@ -179,7 +241,7 @@ export const localCourseService = {
       }
 
       // Matching / Vocabulary Match / Crossword fallback
-      if (item.type === 'matching' || item.type === 'vocabulary-match' || item.type === 'crossword') {
+      if (itemType === 'matching' || itemType === 'vocabulary-match' || itemType === 'crossword') {
         const matchingItems = item.pairs || item.items || [];
         return {
           id: id,
@@ -196,7 +258,7 @@ export const localCourseService = {
         } as any;
       }
 
-      if (item.type === 'reading' || item.type === 'readingComprehension' || item.type === 'reading-comprehension') {
+      if (itemType === 'reading' || itemType === 'readingcomprehension' || itemType === 'reading-comprehension') {
         let correctAnswer = item.correctAnswer;
         if (typeof item.answerIndex === 'number' && item.options) {
           correctAnswer = item.options[item.answerIndex];
@@ -230,7 +292,7 @@ export const localCourseService = {
       }
 
       // Listening Comprehension
-      if (item.type === 'listening-comprehension' || item.type === 'listening') {
+      if (itemType === 'listening-comprehension' || itemType === 'listening') {
         const processedQuestions = (item.questions || []).map((q: any, idx: number) => normalizeQuestion(q, idx, id));
         
         return {
@@ -248,7 +310,7 @@ export const localCourseService = {
       }
 
       // Writing Task
-      if (item.type === 'writingTask' || item.type === 'writing-task' || item.type === 'writing') {
+      if (itemType === 'writingtask' || itemType === 'writing-task' || itemType === 'writing') {
         return {
           id: id,
           type: 'writing',
@@ -265,7 +327,7 @@ export const localCourseService = {
       }
 
       // Roleplay / Speaking
-      if (item.type === 'rolePlayPrompt' || item.type === 'roleplay' || item.type === 'speaking' || item.type === 'rolePlay') {
+      if (itemType === 'roleplayprompt' || itemType === 'roleplay' || itemType === 'speaking' || itemType === 'roleplay') {
         const fullPrompt = item.context ? `${item.context}\n\nTask: ${item.prompt}` : item.prompt;
         return {
           id: id,
@@ -280,7 +342,7 @@ export const localCourseService = {
       }
 
       // Reordering
-      if (item.type === 'reorder' || item.type === 'sentence-reordering' || item.type === 'sentence-ordering') {
+      if (itemType === 'reorder' || itemType === 'sentence-reordering' || itemType === 'sentence-ordering') {
         if (item.sentences && Array.isArray(item.sentences)) {
           return {
             id: id,
@@ -326,7 +388,7 @@ export const localCourseService = {
       }
       
       // Drag and Drop
-      if (item.type === 'drag-and-drop') {
+      if (itemType === 'drag-and-drop' || itemType === 'draganddrop') {
         return {
           ...item,
           id: id,
@@ -335,7 +397,7 @@ export const localCourseService = {
       }
 
       // Word Search fallback
-      if (item.type === 'word-search') {
+      if (itemType === 'word-search' || itemType === 'wordsearch') {
         return {
           id: id,
           type: 'reading',
@@ -356,7 +418,7 @@ export const localCourseService = {
       }
 
       // Graph Analysis
-      if (item.type === 'graph-analysis') {
+      if (itemType === 'graph-analysis' || itemType === 'graphanalysis') {
         return {
           ...item,
           id: id,
@@ -365,7 +427,7 @@ export const localCourseService = {
       }
 
       // Short Answer
-      if (item.type === 'short-answer' || item.type === 'shortAnswer') {
+      if (itemType === 'short-answer' || itemType === 'shortanswer') {
         const normalized = normalizeAnswer(item.correctAnswer || item.answer || '');
         return {
           id: id,

@@ -12,8 +12,19 @@ import { useState, FormEvent, useEffect } from "react";
 import { loadStripe } from '@stripe/stripe-js';
 import { getAllPlans, formatPrice, type SubscriptionPlan } from "@/lib/subscription-plans";
 
-// Inicializar Stripe
-const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
+// Inicializar Stripe de forma segura
+const getStripe = async () => {
+  if (typeof window === "undefined") return null;
+  const key = process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY;
+  if (!key) {
+    console.warn("Stripe publishable key is missing. Stripe features will not work.");
+    return null;
+  }
+  return await loadStripe(key);
+};
+
+// No inicializar globalmente para evitar errores prematuros
+let stripePromise: Promise<any> | null = null;
 
 export default function SignupPage() {
   const plans = getAllPlans();
@@ -112,7 +123,12 @@ export default function SignupPage() {
       if (url) {
         window.location.href = url;
       } else {
+        if (!stripePromise) {
+          stripePromise = getStripe();
+        }
         const stripe = await stripePromise;
+        if (!stripe) throw new Error("Stripe no pudo inicializarse.");
+        
         const result = await (stripe as any).redirectToCheckout({ sessionId });
         
         if (result.error) {

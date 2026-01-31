@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import React, { createContext, useContext, useMemo, useRef } from "react";
+import AudioButton from "./AudioButton";
 
 interface VocabularyItem {
   word: string;
@@ -22,8 +23,9 @@ function VocabularyTooltip({ word, definition, children, position = 'top' }: { w
         "absolute left-1/2 -translate-x-1/2 w-48 p-3 bg-slate-900 dark:bg-slate-800 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700",
         isBottom ? "top-full mt-2" : "bottom-full mb-2"
       ].join(" ")}>
-        <span className="block font-black text-white mb-1 uppercase tracking-widest">
-          Vocabulary: <span className="text-indigo-400">{word}</span>
+        <span className="block font-black text-white mb-1 uppercase tracking-widest flex items-center justify-between gap-2">
+          <span>Vocabulary: <span className="text-indigo-400">{word}</span></span>
+          <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400" />
         </span>
         <span className="block text-slate-300 mt-1 leading-relaxed">
           {definition}

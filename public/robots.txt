@@ -1,0 +1,21 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Host
+Host: https://focus-on-english.com
+
+# Sitemaps
+Sitemap: https://focus-on-english.com/sitemap.xml
+
+# Disallow low-value pages and private areas
+Disallow: /cuenta/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /admin/
+Disallow: /login
+Disallow: /registro
+Disallow: /privacidad
+Disallow: /terminos

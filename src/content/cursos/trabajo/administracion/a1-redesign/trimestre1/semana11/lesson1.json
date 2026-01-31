@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s11-l1",
+  "title": "Polite Words",
+  "description": "Please, Thank you, You're welcome.",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to Polite Words",
+    "Understand basic concepts of Polite Words",
+    "Complete interactive exercises about Polite Words"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana11/lesson1.mp4",
+  "theorySlides": [
+    {
+      "title": "Essential manners",
+      "content": "Using 'Please' for every request.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Responses",
+      "content": "Not at all, no problem, my pleasure.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w11-l1-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for Polite Words",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

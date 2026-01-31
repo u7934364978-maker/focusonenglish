@@ -1,6 +1,7 @@
 import { CurriculumModule } from '../curriculum-data';
+import { ADMIN_A2_FULL_CURRICULUM } from './admin-a2';
 
-export const ADMIN_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
+export const ADMIN_SECTOR_CURRICULUM: Record<string, CurriculumModule[] | any> = {
   A1: [
     {
       title: "Trimestre 1: La Oficina y Presentaciones (Mes 1-3)",
@@ -26,7 +27,21 @@ export const ADMIN_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
         writing: ["Completar formularios de registro de visitantes"],
         listening: ["Entender nombres y números de teléfono"],
         speaking: ["Presentarse y saludar a compañeros"]
-      }
+      },
+      weeks: [
+        { title: "Semana 1: Saludos y Presentaciones", lessons: 3 },
+        { title: "Semana 2: La Hora y Citas", lessons: 3 },
+        { title: "Semana 3: Cargos y Roles Profesionales", lessons: 3 },
+        { title: "Semana 4: Entrevistas y Datos Personales", lessons: 3 },
+        { title: "Semana 5: Emails y Peticiones Formales", lessons: 3 },
+        { title: "Semana 6: Reuniones y Calendarios", lessons: 3 },
+        { title: "Semana 7: Suministros e Inventario", lessons: 3 },
+        { title: "Semana 8: Correspondencia Comercial", lessons: 3 },
+        { title: "Semana 9: Comunicación Telefónica", lessons: 3 },
+        { title: "Semana 10: Uso de Equipos de Oficina", lessons: 3 },
+        { title: "Semana 11: Etiqueta y Protocolo", lessons: 3 },
+        { title: "Semana 12: Repaso y Proyecto Trimestral", lessons: 3 }
+      ]
     },
     {
       title: "Trimestre 2: Horarios y Tareas Diarias (Mes 4-6)",
@@ -52,7 +67,21 @@ export const ADMIN_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
         writing: ["Escribir una lista de tareas (to-do list)"],
         listening: ["Entender instrucciones de dirección básicas"],
         speaking: ["Decir la hora y hablar de la jornada diaria"]
-      }
+      },
+      weeks: [
+        { title: "Semana 13: Preparación de Entrevistas", lessons: 3 },
+        { title: "Semana 14: Preguntas Básicas", lessons: 3 },
+        { title: "Semana 15: Vestimenta y Lenguaje Corporal", lessons: 3 },
+        { title: "Semana 16: Fortalezas y Debilidades", lessons: 3 },
+        { title: "Semana 17: Experiencia Laboral", lessons: 3 },
+        { title: "Semana 18: Educación y Formación", lessons: 3 },
+        { title: "Semana 19: Perfiles en LinkedIn", lessons: 3 },
+        { title: "Semana 20: El Curriculum Vitae", lessons: 3 },
+        { title: "Semana 21: Descripción de Puestos", lessons: 3 },
+        { title: "Semana 22: Tareas Diarias", lessons: 3 },
+        { title: "Semana 23: Responsabilidades", lessons: 3 },
+        { title: "Semana 24: Repaso del Trimestre 2", lessons: 3 }
+      ]
     },
     {
       title: "Trimestre 3: Comunicación Básica (Mes 7-9)",
@@ -78,89 +107,24 @@ export const ADMIN_SECTOR_CURRICULUM: Record<string, CurriculumModule[]> = {
         writing: ["Escribir un mensaje de ausencia corto"],
         listening: ["Identificar tareas en un diálogo simple"],
         speaking: ["Pedir ayuda con equipos de oficina"]
-      }
+      },
+      weeks: [
+        { title: "Semana 25: Introducción a Emails", lessons: 3 },
+        { title: "Semana 26: Saludos y Despedidas en Emails", lessons: 3 },
+        { title: "Semana 27: Solicitudes Cortas", lessons: 3 },
+        { title: "Semana 28: Emails de Ausencia", lessons: 3 },
+        { title: "Semana 29: Introducción a Reuniones", lessons: 3 },
+        { title: "Semana 30: El Orden del Día (Agenda)", lessons: 3 },
+        { title: "Semana 31: Estar de Acuerdo/Desacuerdo", lessons: 3 },
+        { title: "Semana 32: Participación Simple", lessons: 3 },
+        { title: "Semana 33: Etiqueta en Videollamadas", lessons: 3 },
+        { title: "Semana 34: Mensajes de Chat (Slack/Teams)", lessons: 3 },
+        { title: "Semana 35: Preparación de Proyecto Final", lessons: 3 },
+        { title: "Semana 36: Proyecto Final y Repaso", lessons: 3 }
+      ]
     }
   ],
-  A2: [
-    {
-      title: "Trimestre 1: Gestión de Documentos y Pasado (Mes 1-3)",
-      topics: [
-        "Descripción de tareas completadas",
-        "Tipos de documentos administrativos",
-        "Problemas comunes en la oficina (averías)",
-        "Comparación de suministros y servicios"
-      ],
-      grammar: [
-        "Past Simple de verbos regulares e irregulares",
-        "Comparativos y superlativos básicos",
-        "Conectores simples (and, but, because)"
-      ],
-      vocabulary: [
-        "Invoice, Report, Contract, Minutes",
-        "Out of order, Broken, Slow, Missing",
-        "Better, Faster, More efficient, Cheaper",
-        "Last week, Yesterday, Finished, Done"
-      ],
-      skills: {
-        reading: ["Lectura de facturas y reportes breves"],
-        writing: ["Redacción de un email sobre una tarea terminada"],
-        listening: ["Entender una conversación sobre un error documental"],
-        speaking: ["Explicar qué tareas se realizaron ayer"]
-      }
-    },
-    {
-      title: "Trimestre 2: Organización de Reuniones y Futuro (Mes 4-6)",
-      topics: [
-        "Programación de citas y reuniones",
-        "Uso del teléfono: Atender llamadas",
-        "Planes de la oficina y eventos",
-        "Predicciones sobre el trabajo"
-      ],
-      grammar: [
-        "Future with 'going to' para planes confirmados",
-        "Will para decisiones espontáneas y predicciones",
-        "First Conditional (If + Present, Will)"
-      ],
-      vocabulary: [
-        "Appointment, Meeting room, Schedule, Book",
-        "To answer, To hang up, To hold, To transfer",
-        "Conference, Workshop, Training, Party",
-        "Next month, Soon, In the future"
-      ],
-      skills: {
-        reading: ["Lectura de invitaciones a reuniones"],
-        writing: ["Confirmar una cita por correo electrónico"],
-        listening: ["Tomar un mensaje telefónico básico"],
-        speaking: ["Hacer y cambiar una cita por teléfono"]
-      }
-    },
-    {
-      title: "Trimestre 3: Atención al Cliente y Soporte (Mes 7-9)",
-      topics: [
-        "Manejo de consultas básicas de clientes",
-        "Dar instrucciones sobre procedimientos",
-        "Experiencias laborales recientes",
-        "Proyecto Final: Simulación de organización de un evento"
-      ],
-      grammar: [
-        "Present Perfect para experiencias (ever, never)",
-        "Adverbios de modo (quickly, politely)",
-        "Preposiciones de movimiento"
-      ],
-      vocabulary: [
-        "Customer, Client, Request, Information",
-        "First, Then, After that, Finally",
-        "Just, Already, Yet, Recently",
-        "Polite, Helpful, Professional, Efficient"
-      ],
-      skills: {
-        reading: ["Lectura de manuales de procedimientos cortos"],
-        writing: ["Escribir un email de respuesta a una consulta"],
-        listening: ["Entender instrucciones para usar un software"],
-        speaking: ["Explicar cómo se hace un proceso administrativo"]
-      }
-    }
-  ],
+  A2: ADMIN_A2_FULL_CURRICULUM,
   B1: [
     {
       title: "Trimestre 1: Correspondencia Profesional (Mes 1-3)",

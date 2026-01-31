@@ -49,3 +49,8 @@ The "Administración A1" course is missing the last 4 weeks of the third trimest
 ### [x] Step: Verification
 - [x] Validate JSON structure (Manual check and automated validation if applicable)
 - [x] Manually check content for consistency with A1 level.
+
+### [x] Step: Maintenance
+- [x] Complete Week 12 grammar exercises (Final Review Trimester 1)
+- [x] Update `audit-generic.mjs` to support `fill-in-the-blanks` type.
+- [x] Fix `local-course-service.ts` to correctly map `fill-in-the-blanks` and `gap-fill` exercises for the UI.

@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s12-l1",
+  "title": "The Big Review Part 1",
+  "description": "Greetings and Personal Info.",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to The Big Review Part 1",
+    "Understand basic concepts of The Big Review Part 1",
+    "Complete interactive exercises about The Big Review Part 1"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana12/lesson1.mp4",
+  "theorySlides": [
+    {
+      "title": "Everything we learned",
+      "content": "Summary of months 1 and 2.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Quiz time",
+      "content": "Quick check of the basics.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w12-l1-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for The Big Review Part 1",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

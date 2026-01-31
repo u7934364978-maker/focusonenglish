@@ -33,10 +33,13 @@ import TransformationRenderer from '@/components/course/renderers/Transformation
 import GapFillRenderer from '@/components/course/renderers/GapFillRenderer';
 import MatchingRenderer from '@/components/course/renderers/MatchingRenderer';
 import MiscRenderer from '@/components/course/renderers/MiscRenderer';
+import TheorySlideViewer from '@/components/course/TheorySlideViewer';
 import type { 
   Lesson, 
   Exercise, 
   Question, 
+  CaseStudy,
+  TheorySlide,
   SentenceBuildingExercise,
   TextAnswerEvaluationResponse,
   WritingEvaluationResponse,
@@ -68,7 +71,9 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const lessonLevel = getLevel();
   
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
-  const [activeTab, setActiveTab] = useState<'theory' | 'practice'>(lesson.theoryContent ? 'theory' : 'practice');
+  const [activeTab, setActiveTab] = useState<'theory' | 'practice'>(
+    (lesson.theoryContent || (lesson.theorySlides && lesson.theorySlides.length > 0)) ? 'theory' : 'practice'
+  );
   const [answers, setAnswers] = useState<{ [questionId: string]: string }>({});
   const [exerciseScores, setExerciseScores] = useState<{ [exerciseId: string]: number }>({});
   const [showFeedback, setShowFeedback] = useState(false);
@@ -90,6 +95,71 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
 
   const currentExercise = lesson.exercises.length > 0 ? lesson.exercises[currentExerciseIndex] : null;
   const progress = lesson.exercises.length > 0 ? ((currentExerciseIndex + 1) / lesson.exercises.length) * 100 : 0;
+
+  const handleEvaluatePronunciation = async () => {
+    if (!currentExercise) return;
+    const pronExercise = currentExercise as any;
+    setEvaluating(true);
+    
+    try {
+      const recordingsArray = Object.entries(pronunciationRecordings);
+      if (recordingsArray.length === 0) {
+        alert('Please record at least one sentence before evaluating.');
+        setEvaluating(false);
+        return;
+      }
+
+      // Evaluate each recording
+      for (const [idxStr, recording] of recordingsArray) {
+        const idx = parseInt(idxStr);
+        const targetSentence = pronExercise.targetSentences[idx];
+        
+        if (!recording.evaluation) {
+          const response = await fetch('/api/evaluate-speaking', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              transcript: recording.transcript,
+              expectedText: targetSentence.text || targetSentence.sentence,
+              exerciseType: 'pronunciation',
+              level: lessonLevel
+            }),
+          });
+
+          if (!response.ok) {
+            throw new Error('Failed to evaluate pronunciation');
+          }
+
+          const data = await response.json();
+          
+          if (data.success && data.evaluation) {
+            setPronunciationRecordings(prev => ({
+              ...prev,
+              [idx]: {
+                ...prev[idx],
+                evaluation: data.evaluation
+              }
+            }));
+          }
+        }
+      }
+
+      // Calculate overall pronunciation score
+      const evaluatedRecordings = Object.values(pronunciationRecordings).filter(r => r.evaluation);
+      if (evaluatedRecordings.length > 0) {
+        const avgScore = evaluatedRecordings.reduce((sum, r) => sum + (r.evaluation?.overallScore || 0), 0) / evaluatedRecordings.length;
+        setExerciseScores(prev => ({ ...prev, [currentExercise.id]: avgScore }));
+      }
+
+    } catch (error) {
+      console.error('Error evaluating pronunciation:', error);
+      alert('Error evaluating pronunciation. Please try again.');
+    } finally {
+      setEvaluating(false);
+    }
+  };
 
   const handleAnswer = (questionId: string, answer: string) => {
     setAnswers(prev => ({ ...prev, [questionId]: answer }));
@@ -1081,416 +1151,21 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
         );
 
       case 'pronunciation':
-        const pronExercise = currentExercise as any;
-        
-        // Function to evaluate pronunciation recordings
-        const evaluatePronunciationRecordings = async () => {
-          setEvaluating(true);
-          
-          try {
-            const recordingsArray = Object.entries(pronunciationRecordings);
-            if (recordingsArray.length === 0) {
-              alert('Please record at least one sentence before evaluating.');
-              setEvaluating(false);
-              return;
-            }
-
-            // Evaluate each recording
-            for (const [idxStr, recording] of recordingsArray) {
-              const idx = parseInt(idxStr);
-              const targetSentence = pronExercise.targetSentences[idx];
-              
-              if (!recording.evaluation) {
-                const response = await fetch('/api/evaluate-speaking', {
-                  method: 'POST',
-                  headers: {
-                    'Content-Type': 'application/json',
-                  },
-                  body: JSON.stringify({
-                    transcript: recording.transcript,
-                    expectedText: targetSentence.text || targetSentence.sentence,
-                    exerciseType: 'pronunciation',
-                    level: lessonLevel
-                  }),
-                });
-
-                if (!response.ok) {
-                  throw new Error('Failed to evaluate pronunciation');
-                }
-
-                const data = await response.json();
-                
-                if (data.success && data.evaluation) {
-                  setPronunciationRecordings(prev => ({
-                    ...prev,
-                    [idx]: {
-                      ...prev[idx],
-                      evaluation: data.evaluation
-                    }
-                  }));
-                }
-              }
-            }
-
-            // Calculate overall pronunciation score
-            const evaluatedRecordings = Object.values(pronunciationRecordings).filter(r => r.evaluation);
-            if (evaluatedRecordings.length > 0) {
-              const avgScore = evaluatedRecordings.reduce((sum, r) => sum + (r.evaluation?.overallScore || 0), 0) / evaluatedRecordings.length;
-              setExerciseScores(prev => ({ ...prev, [currentExercise.id]: avgScore }));
-            }
-
-          } catch (error) {
-            console.error('Error evaluating pronunciation:', error);
-            alert('Error evaluating pronunciation. Please try again.');
-          } finally {
-            setEvaluating(false);
-          }
-        };
-        
-        // Check if this is an A1-style pronunciation exercise with targetSentences and questions
-        if (pronExercise.targetSentences && pronExercise.questions) {
-          return (
-            <div key={currentExercise.id} className="space-y-6">
-              {/* Header */}
-              <div className="bg-orange-50 rounded-xl p-6 border-2 border-orange-200">
-                <h3 className="text-xl font-bold text-orange-900 mb-2 flex items-center gap-2">
-                  <span>🗣️</span>
-                  <span>{pronExercise.title}</span>
-                </h3>
-                {pronExercise.instructions && (
-                  <p className="text-slate-700 mt-2">💡 {pronExercise.instructions}</p>
-                )}
-                {pronExercise.focusPoints && pronExercise.focusPoints.length > 0 && (
-                  <div className="mt-3">
-                    <p className="text-sm font-semibold text-orange-800 mb-2">Focus Points:</p>
-                    <div className="space-y-1">
-                      {pronExercise.focusPoints.map((point: string, idx: number) => (
-                        <div key={idx} className="text-sm text-orange-700">
-                          • {point}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-
-              {/* Target Sentences with Audio */}
-              <div className="space-y-4">
-                <h4 className="text-lg font-bold text-slate-900">🎧 Listen and Repeat:</h4>
-                {pronExercise.targetSentences.map((item: any, idx: number) => (
-                  <div key={idx} className="bg-white rounded-xl p-6 border-2 border-slate-200">
-                    <div className="flex items-start gap-3">
-                      <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-orange-600 text-white font-bold text-sm flex-shrink-0">
-                        {idx + 1}
-                      </span>
-                      <div className="flex-1 space-y-3">
-                        <p className="text-lg font-semibold text-slate-900">{item.text || item.sentence}</p>
-                        {item.phonetic && (
-                          <p className="text-sm text-orange-700 font-mono">{item.phonetic}</p>
-                        )}
-                        {item.audioUrl && (
-                          <div className="space-y-2">
-                            <p className="text-sm font-semibold text-slate-700">🎧 Listen to the model:</p>
-                            <audio 
-                              controls 
-                              className="w-full"
-                              preload="metadata"
-                            >
-                              <source src={item.audioUrl} type="audio/mpeg" />
-                              Your browser does not support the audio element.
-                            </audio>
-                          </div>
-                        )}
-                        <div className="pt-2">
-                          <p className="text-sm font-semibold text-slate-700 mb-2">🎤 Now you try:</p>
-                          <EnhancedVoiceRecorder
-                            key={`${currentExercise.id}-pron-${idx}`}
-                            exerciseId={`${currentExercise.id}-pron-${idx}`}
-                            prompt="Listen to the model and repeat the sentence as accurately as possible."
-                            targetText={item.text || item.sentence}
-                            onComplete={(blob, transcript) => {
-                              setPronunciationRecordings(prev => ({
-                                ...prev,
-                                [idx]: { blob, transcript }
-                              }));
-                            }}
-                          />
-                          {pronunciationRecordings[idx] && (
-                            <div className="mt-3 p-3 bg-blue-50 rounded-lg border border-blue-200">
-                              <p className="text-sm text-blue-900">
-                                <strong>Your recording:</strong> &quot;{pronunciationRecordings[idx].transcript}&quot;
-                              </p>
-                              {pronunciationRecordings[idx].evaluation && (
-                                <div className="mt-2">
-                                  <div className="flex items-center gap-2 mb-2">
-                                    <span className="text-sm font-semibold">Score:</span>
-                                    <div className="flex-1 bg-gray-200 rounded-full h-2">
-                                      <div 
-                                        className="bg-green-500 h-2 rounded-full transition-all"
-                                        style={{ width: `${pronunciationRecordings[idx].evaluation.overallScore}%` }}
-                                      ></div>
-                                    </div>
-                                    <span className="text-sm font-bold">{pronunciationRecordings[idx].evaluation.overallScore}%</span>
-                                  </div>
-                                  <p className="text-xs text-slate-600 mt-1">
-                                    {pronunciationRecordings[idx].evaluation.feedback}
-                                  </p>
-                                </div>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              {/* Evaluate Pronunciation Button */}
-              {Object.keys(pronunciationRecordings).length > 0 && (
-                <button
-                  onClick={evaluatePronunciationRecordings}
-                  disabled={evaluating || Object.values(pronunciationRecordings).every(r => r.evaluation)}
-                  className="w-full px-6 py-4 bg-orange-600 text-white rounded-xl hover:bg-orange-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {evaluating ? (
-                    <>
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                      <span>Evaluating Pronunciation...</span>
-                    </>
-                  ) : Object.values(pronunciationRecordings).every(r => r.evaluation) ? (
-                    <>
-                      <span>✓</span>
-                      <span>Pronunciation Evaluated</span>
-                    </>
-                  ) : (
-                    <>
-                      <span>🎯</span>
-                      <span>Evaluate My Pronunciation</span>
-                    </>
-                  )}
-                </button>
-              )}
-
-              {/* Questions */}
-              {pronExercise.questions && pronExercise.questions.length > 0 && (
-                <div className="space-y-4">
-                  <h4 className="text-lg font-bold text-slate-900">📝 Pronunciation Questions:</h4>
-                  {pronExercise.questions.map((q: any, idx: number) => (
-                    <div key={q.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                      <p className="font-semibold text-slate-900 mb-3">
-                        {idx + 1}. {q.question} <span className="text-sm text-coral-600">({q.points} point{q.points !== 1 ? 's' : ''})</span>
-                      </p>
-                      
-                      {q.type === 'multiple-choice' && (
-                        <div className="space-y-2">
-                          {q.options.map((option: string, optIdx: number) => (
-                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
-                              <input
-                                type="radio"
-                                name={q.id}
-                                value={option}
-                                checked={answers[q.id] === option}
-                                onChange={(e) => handleAnswer(q.id, e.target.value)}
-                                disabled={showFeedback}
-                                className="w-4 h-4"
-                              />
-                              <span>{option}</span>
-                            </label>
-                          ))}
-                        </div>
-                      )}
-
-                      {q.type === 'true-false' && (
-                        <div className="space-y-2">
-                          {['True', 'False'].map((option: string) => (
-                            <label key={option} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
-                              <input
-                                type="radio"
-                                name={q.id}
-                                value={option}
-                                checked={answers[q.id] === option}
-                                onChange={(e) => handleAnswer(q.id, e.target.value)}
-                                disabled={showFeedback}
-                                className="w-4 h-4"
-                              />
-                              <span>{option}</span>
-                            </label>
-                          ))}
-                        </div>
-                      )}
-
-                      {q.type === 'fill-blank' && (
-                        <input
-                          type="text"
-                          value={answers[q.id] || ''}
-                          onChange={(e) => handleAnswer(q.id, e.target.value)}
-                          disabled={showFeedback}
-                          placeholder="Type your answer here..."
-                          className="w-full px-4 py-3 rounded-lg border-2 border-slate-300 focus:border-coral-500 focus:ring-2 focus:ring-coral-200 transition-all disabled:bg-slate-100"
-                        />
-                      )}
-
-                      {showFeedback && (
-                        <div className={`mt-3 p-3 rounded-lg ${
-                          answers[q.id] === q.correctAnswer || 
-                          (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
-                            ans.toLowerCase() === (answers[q.id] || '').toLowerCase()
-                          ))
-                            ? 'bg-green-50 border-2 border-green-200'
-                            : 'bg-red-50 border-2 border-red-200'
-                        }`}>
-                          <p className="font-semibold mb-1">
-                            {answers[q.id] === q.correctAnswer || 
-                            (q.acceptableAnswers && q.acceptableAnswers.some((ans: string) => 
-                              ans.toLowerCase() === (answers[q.id] || '').toLowerCase()
-                            ))
-                              ? '✓ Correct!' 
-                              : '✗ Incorrect'}
-                          </p>
-                          <p className="text-sm">
-                            <strong>Correct answer:</strong> {q.correctAnswer}
-                          </p>
-                          {q.explanation && (
-                            <p className="text-sm mt-2">
-                              <strong>Explanation:</strong> {q.explanation}
-                            </p>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  ))}
-
-                  {!showFeedback && (
-                    <button
-                      onClick={checkAnswers}
-                      disabled={evaluating}
-                      className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                    >
-                      {evaluating ? (
-                        <>
-                          <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                          <span>Evaluating...</span>
-                        </>
-                      ) : (
-                        'Check Answers'
-                      )}
-                    </button>
-                  )}
-                </div>
-              )}
-            </div>
-          );
-        }
-
-        // Otherwise, use the B2-style PronunciationPractice component
         return (
-          <div key={pronExercise.id} className="space-y-6">
-            <PronunciationPractice
-              exerciseId={pronExercise.id}
-              prompt={pronExercise.prompt}
-              targetText={pronExercise.targetText || ''}
-              modelAudioUrl={pronExercise.modelAudioUrl}
-              hints={pronExercise.hints}
-              onComplete={(exerciseId, score, feedback) => {
-                setExerciseScores(prev => ({ ...prev, [exerciseId]: score }));
-                setPronunciationFeedback(feedback);
-              }}
-            />
-
-            {pronExercise.exercises && pronExercise.exercises.length > 0 && (
-              <div className="space-y-4 mt-6">
-                <h4 className="text-lg font-bold text-slate-900">📝 Pronunciation Exercises:</h4>
-                {pronExercise.exercises.map((exercise: any, idx: number) => (
-                  <div key={exercise.id} className="bg-white rounded-lg p-5 border-2 border-slate-200">
-                    {exercise.type === 'stress-identification' && (
-                      <>
-                        <p className="font-semibold text-slate-900 mb-3">
-                          {idx + 1}. {exercise.question} <span className="text-sm text-coral-600">({exercise.points} points)</span>
-                        </p>
-                        <div className="space-y-2">
-                          {exercise.options.map((option: string, optIdx: number) => (
-                            <label key={optIdx} className="flex items-center gap-3 p-3 rounded-lg border-2 border-slate-200 hover:bg-slate-50 cursor-pointer">
-                              <input
-                                type="radio"
-                                name={exercise.id}
-                                value={option}
-                                checked={answers[exercise.id] === option}
-                                onChange={(e) => handleAnswer(exercise.id, e.target.value)}
-                                disabled={showFeedback}
-                                className="w-4 h-4"
-                              />
-                              <span>{option} syllable</span>
-                            </label>
-                          ))}
-                        </div>
-                        {showFeedback && (
-                          <div className={`mt-3 p-3 rounded-lg ${
-                            answers[exercise.id] === exercise.correctAnswer
-                              ? 'bg-green-50 border-2 border-green-200'
-                              : 'bg-red-50 border-2 border-red-200'
-                          }`}>
-                            <p className="font-semibold mb-1">
-                              {answers[exercise.id] === exercise.correctAnswer ? '✓ Correct!' : '✗ Incorrect'}
-                            </p>
-                            <p className="text-sm">
-                              <strong>Correct answer:</strong> {exercise.correctAnswer} syllable
-                            </p>
-                          </div>
-                        )}
-                      </>
-                    )}
-
-                    {exercise.type === 'minimal-pairs' && (
-                      <>
-                        <p className="font-semibold text-slate-900 mb-3">
-                          {idx + 1}. Minimal Pairs Practice <span className="text-sm text-coral-600">({exercise.points} points)</span>
-                        </p>
-                        <div className="space-y-3">
-                          {exercise.pairs.map((pair: any, pairIdx: number) => (
-                            <div key={pairIdx} className="bg-slate-50 rounded-lg p-4 border border-slate-200">
-                              <div className="flex items-center gap-4 mb-2">
-                                <span className="font-semibold text-lg">{pair.word1}</span>
-                                <span className="text-slate-400">vs</span>
-                                <span className="font-semibold text-lg">{pair.word2}</span>
-                              </div>
-                              <p className="text-sm text-slate-600 italic">
-                                📢 {pair.difference}
-                              </p>
-                            </div>
-                          ))}
-                        </div>
-                        {showFeedback && (
-                          <div className="mt-3 p-3 rounded-lg bg-blue-50 border-2 border-blue-200">
-                            <p className="text-sm text-blue-900">
-                              💡 Practice these pairs to improve your pronunciation accuracy. Pay attention to the differences noted above.
-                            </p>
-                          </div>
-                        )}
-                      </>
-                    )}
-                  </div>
-                ))}
-
-                {!showFeedback && pronExercise.exercises.some((e: any) => e.type === 'stress-identification') && (
-                  <button
-                    onClick={checkAnswers}
-                    disabled={evaluating}
-                    className="w-full px-6 py-4 bg-coral-600 text-white rounded-xl hover:bg-coral-700 transition-colors font-bold text-lg flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {evaluating ? (
-                      <>
-                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
-                        <span>Evaluating...</span>
-                      </>
-                    ) : (
-                      'Check Answers'
-                    )}
-                  </button>
-                )}
-              </div>
-            )}
-          </div>
+          <PronunciationRenderer
+            key={currentExercise.id}
+            exercise={currentExercise}
+            answers={answers}
+            onAnswer={handleAnswer}
+            showFeedback={showFeedback}
+            aiEvaluations={aiEvaluations}
+            onCheck={checkAnswers}
+            evaluating={evaluating}
+            pronunciationRecordings={pronunciationRecordings}
+            setPronunciationRecordings={setPronunciationRecordings}
+            onEvaluateRecordings={handleEvaluatePronunciation}
+            lessonLevel={lessonLevel}
+          />
         );
 
       case 'speaking':
@@ -3240,7 +2915,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
 
             <div className="bg-white rounded-xl p-6 border-2 border-slate-200">
-              <div className="text-lg leading-relaxed text-slate-800">
+              <div className="text-lg leading-relaxed text-slate-800 whitespace-pre-wrap">
                 {(gapExercise.text || '').split(/(\[\d+\]|\(\d+\)___+|___+)/).map((part: string, index: number) => {
                   // Support both [1], [2] and (1)___ patterns
                   const gapMatch = part.match(/\[(\d+)\]/) || part.match(/\((\d+)\)___+/);
@@ -3872,15 +3547,28 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             {lesson.videoUrl && (
               <div className="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-slate-200">
                 <div className="aspect-video bg-black">
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    src={lesson.videoUrl.replace('watch?v=', 'embed/')}
-                    title={lesson.title}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
+                  {lesson.videoUrl.includes('youtube.com') || lesson.videoUrl.includes('youtu.be') ? (
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src={lesson.videoUrl.replace('watch?v=', 'embed/')}
+                      title={lesson.title}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  ) : (
+                    <video
+                      width="100%"
+                      height="100%"
+                      controls
+                      className="w-full h-full"
+                      poster={lesson.theorySlides?.[0]?.imageUrl}
+                    >
+                      <source src={lesson.videoUrl} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  )}
                 </div>
                 <div className="p-4 bg-slate-50 border-t border-slate-200">
                   <p className="text-sm font-semibold text-slate-700 flex items-center gap-2">
@@ -3893,7 +3581,14 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8 border-2 border-slate-200 dark:border-slate-700 transition-colors">
               <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-6">Contenido de la Lección</h2>
               
-              {lesson.theoryContent ? (
+              {lesson.theorySlides && lesson.theorySlides.length > 0 ? (
+                <div className="mb-12">
+                  <TheorySlideViewer 
+                    slides={lesson.theorySlides} 
+                    onComplete={() => setActiveTab('practice')} 
+                  />
+                </div>
+              ) : lesson.theoryContent ? (
                 <div className="text-slate-800 dark:text-slate-200">
                   <Markdown content={lesson.theoryContent} />
                 </div>
@@ -3915,6 +3610,43 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                       <div key={i} className="flex items-start gap-3 bg-orange-50/50 dark:bg-orange-900/10 p-4 rounded-xl border border-orange-100 dark:border-orange-900/30">
                         <span className="text-green-500 font-bold mt-0.5">✓</span>
                         <span className="text-slate-700 dark:text-slate-300 font-medium">{obj}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Case Studies Display */}
+              {lesson.caseStudies && lesson.caseStudies.length > 0 && (
+                <div className="mt-12 pt-8 border-t border-slate-100 dark:border-slate-800">
+                  <h3 className="text-2xl font-black text-slate-900 dark:text-white mb-6 flex items-center gap-3">
+                    <span className="text-3xl">🏢</span> Case Studies
+                  </h3>
+                  <div className="space-y-8">
+                    {lesson.caseStudies.map((cs: CaseStudy, idx: number) => (
+                      <div key={idx} className="bg-gradient-to-br from-indigo-50 to-blue-50 dark:from-indigo-950/20 dark:to-blue-950/20 rounded-2xl p-6 border-2 border-indigo-100 dark:border-indigo-900/30 shadow-sm">
+                        <h4 className="text-xl font-bold text-indigo-900 dark:text-indigo-400 mb-4 flex items-center gap-2">
+                          <span className="bg-indigo-600 text-white w-6 h-6 flex items-center justify-center rounded-full text-xs">{idx + 1}</span>
+                          {cs.title}
+                        </h4>
+                        
+                        <div className="bg-white dark:bg-slate-800 p-4 rounded-xl border border-indigo-200 dark:border-indigo-800 mb-4">
+                          <p className="text-slate-700 dark:text-slate-300 italic">&quot;{cs.scenario}&quot;</p>
+                        </div>
+                        
+                        {cs.objectives && (
+                          <div className="space-y-2">
+                            <p className="text-sm font-bold text-indigo-800 dark:text-indigo-400 uppercase tracking-wider">Misión:</p>
+                            <ul className="space-y-1">
+                              {cs.objectives.map((obj: string, i: number) => (
+                                <li key={i} className="text-sm text-slate-600 dark:text-slate-400 flex items-start gap-2">
+                                  <span className="text-indigo-500">•</span>
+                                  {obj}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>

@@ -1,0 +1,68 @@
+{
+  "id": "administracion-a1-s1-l2",
+  "title": "Introducing Yourself",
+  "description": "Learn basic phrases to introduce yourself and your role in the company.",
+  "duration": 15,
+  "objectives": [
+    "State your name and job title",
+    "Use the verb 'to be' for personal identification",
+    "Respond to others' introductions"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana01/lesson2.mp4",
+  "theorySlides": [
+    {
+      "title": "Basic Introductions",
+      "content": "When you meet someone for the first time, keep it simple:\n\n- **I am [Name]** / **I'm [Name]**\n- **My name is [Name]**\n- **Nice to meet you!**",
+      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Talking About Your Role",
+      "content": "To talk about your job, use **I am a/an [Job Title]**:\n\n- I am **an** assistant.\n- I am **a** manager.\n- I am **an** intern.\n\nNote: Use 'an' before vowel sounds (a, e, i, o, u).",
+      "interactiveCheck": {
+        "id": "check-articles-1",
+        "type": "multiple-choice",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "I am a accountant.",
+          "I am an accountant.",
+          "I am accountant.",
+          "I am assistant."
+        ],
+        "correctAnswer": "I am an accountant.",
+        "explanation": "'Accountant' starts with a vowel sound, so we use 'an'.",
+        "points": 5
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-intro-1",
+      "type": "grammar",
+      "title": "Fill in the Blanks",
+      "instructions": "Complete the introductions with 'am', 'a', or 'an'.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "fill-blank",
+          "question": "I ___ the new manager.",
+          "correctAnswer": "am",
+          "points": 2
+        },
+        {
+          "id": "q2",
+          "type": "fill-blank",
+          "question": "Nice to meet you. I am ___ administrative assistant.",
+          "correctAnswer": "an",
+          "points": 2
+        },
+        {
+          "id": "q3",
+          "type": "fill-blank",
+          "question": "He is ___ receptionist.",
+          "correctAnswer": "a",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

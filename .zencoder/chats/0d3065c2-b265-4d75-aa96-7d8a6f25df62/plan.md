@@ -38,27 +38,49 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/0d3065c2-b265-4d7
 
 Detailed implementation tasks generated from spec.md.
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 - [x] **Task 1: Create shared blog library**
   - Implement `src/lib/blog.ts` with `getBlogArticles`, `getArticleBySlug`, and `getArticlesByCategory`.
   - Define `BlogPost` interface.
   - Verification: Manual test with a dummy markdown file.
 
-- [ ] **Task 2: Create sample articles**
-  - Create 2-3 sample markdown files in `src/content/blog/` with varied categories and "featured" status.
-  - Verification: Verify files exist.
+- [x] **Task 2: Create high-quality articles**
+  - Create 2 SEO-optimized markdown files in `src/content/blog/` ("Guía de Viajes" and "Inglés para Trabajo").
+  - Verification: Verify files exist and content is complete.
 
-- [ ] **Task 3: Refactor individual article page**
+- [x] **Task 3: Refactor individual article page**
   - Update `src/app/blog/[slug]/page.tsx` to use `src/lib/blog.ts`.
   - Verification: Browse to a sample article's slug and ensure it renders correctly.
 
-- [ ] **Task 4: Refactor blog index page**
+- [x] **Task 4: Refactor blog index page**
   - Update `src/app/blog/page.tsx` to fetch articles dynamically.
   - Implement dynamic category grouping and featured article logic.
   - Verification: Verify index page displays sample articles correctly by category.
 
-- [ ] **Task 5: Final Verification**
+- [x] **Task 5: Visual Enhancements**
+  - Implement `TableOfContents` with active states.
+  - Add `BlogEnhancements` (progress bar, scroll to top).
+  - Modernize `ArticleCard` and layout.
+  - Verification: UI looks modern and professional.
+
+- [x] **Task 6: Final Verification**
   - Run `npm run typecheck`.
   - Run `npm run lint`.
   - Verification: All commands pass.
+
+- [x] **Task 7: SEO Audit and Technical Implementation**
+  - Create `robots.txt`.
+  - Fix JSON-LD Schema (Silo paths).
+  - Add metadata and canonical tags to all blog pages.
+  - Implement sitemap with dynamic silo structure.
+
+- [x] **Task 8: Complete Articles Content**
+  - Enrich the 2 created articles with detailed "programmatic" sections:
+    - Phrases ES-EN, Diálogos, Errores comunes.
+    - CTA to trial with card.
+
+- [x] **Task 9: Advanced Visual Enhancements**
+  - Add main images to article pages.
+  - Improve typography and spacing for better readability.
+  - Add category subhub pages with distinct visual identity.

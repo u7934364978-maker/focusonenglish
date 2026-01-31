@@ -6,6 +6,19 @@
   "title": "Digital Banking & Past Simple Exercises",
   "items": [
     {
+      "id": "adm-a2-w01-ex00",
+      "type": "pronunciation",
+      "title": "Pronunciation Practice",
+      "instructions": "Record yourself saying the following banking terms and actions.",
+      "targetSentences": [
+        { "id": "p1", "text": "Digital Onboarding", "translation": "Incorporación digital" },
+        { "id": "p2", "text": "Neobank", "translation": "Neobanco" },
+        { "id": "p3", "text": "I scanned my ID yesterday.", "translation": "Escaneé mi identificación ayer." },
+        { "id": "p4", "text": "She downloaded the app last night.", "translation": "Ella descargó la aplicación anoche." },
+        { "id": "p5", "text": "The bank approved my account.", "translation": "El banco aprobó mi cuenta." }
+      ]
+    },
+    {
       "id": "adm-a2-w01-ex01",
       "type": "multiple-choice",
       "prompt": "What is a 'Neobank'?",

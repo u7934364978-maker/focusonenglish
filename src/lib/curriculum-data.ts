@@ -13,6 +13,7 @@ export interface CurriculumModule {
     listening: string[];
     speaking: string[];
   };
+  weeks?: any[];
 }
 
 export interface LevelCurriculum {

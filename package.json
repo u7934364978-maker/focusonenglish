@@ -31,7 +31,8 @@
     "generate-audio:all": "ts-node --esm scripts/generate-course-audio.ts all",
     "validate-exercises": "node scripts/validate-exercises.mjs",
     "validate-exercise-types": "node scripts/validate-exercise-types.mjs",
-    "validate-weeks": "node scripts/validate-week.mjs src/content/weeks/*.json"
+    "validate-weeks": "node scripts/validate-week.mjs src/content/weeks/*.json",
+    "audit-seo": "node scripts/audit-blog-seo.mjs"
   },
   "dependencies": {
     "@google-cloud/text-to-speech": "^6.4.0",
@@ -42,6 +43,7 @@
     "@supabase/auth-helpers-nextjs": "^0.15.0",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.90.1",
+    "@tailwindcss/typography": "^0.5.19",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "clsx": "^2.1.1",

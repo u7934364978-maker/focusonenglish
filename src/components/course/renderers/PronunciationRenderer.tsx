@@ -5,6 +5,7 @@ import { EvaluationResult } from '@/lib/exercise-types';
 import EnhancedVoiceRecorder from '@/components/course/EnhancedVoiceRecorder';
 import PronunciationPractice from '@/components/course/PronunciationPractice';
 import QuestionRenderer from './QuestionRenderer';
+import AudioButton from '@/components/course/AudioButton';
 
 interface PronunciationRendererProps {
   exercise: any;
@@ -70,7 +71,10 @@ export default function PronunciationRenderer({
                   {idx + 1}
                 </span>
                 <div className="flex-1 space-y-4">
-                  <p className="text-xl font-bold text-slate-900 dark:text-white leading-tight">{item.text || item.sentence}</p>
+                  <div className="flex items-center justify-between gap-4">
+                    <p className="text-xl font-bold text-slate-900 dark:text-white leading-tight">{item.text || item.sentence}</p>
+                    <AudioButton text={item.text || item.sentence} />
+                  </div>
                   {item.phonetic && (
                     <p className="text-sm text-orange-700 dark:text-orange-400 font-mono bg-orange-50 dark:bg-orange-900/20 px-3 py-1 rounded-lg inline-block">{item.phonetic}</p>
                   )}

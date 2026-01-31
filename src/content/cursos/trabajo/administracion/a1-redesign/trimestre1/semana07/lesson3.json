@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s7-l3",
+  "title": "Taking a Message",
+  "description": "Can I take a message?",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to Taking a Message",
+    "Understand basic concepts of Taking a Message",
+    "Complete interactive exercises about Taking a Message"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana07/lesson3.mp4",
+  "theorySlides": [
+    {
+      "title": "Leaving info",
+      "content": "Name, number, and topic.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Confirming",
+      "content": "I will tell him. Thank you for calling.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w7-l3-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for Taking a Message",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

@@ -17,6 +17,40 @@
       "content": "We use the **Past Simple** to talk about completed actions in the past. For regular verbs, we add **-ed**.\n\n**Common Digital Banking Verbs:**\n- **Scan** -> Scanned: *I scanned my ID yesterday.*\n- **Download** -> Downloaded: *She downloaded the app last night.*\n- **Log in** -> Logged in: *He logged in to check his balance.*\n- **Transfer** -> Transferred: *They transferred the funds this morning.*\n- **Approve** -> Approved: *The bank approved my account in 5 minutes.*"
     }
   ],
+  "caseStudies": [
+    {
+      "id": "cs-onboarding-01",
+      "title": "Scenario: The New Digital Customer",
+      "scenario": "A new customer, Sarah, wants to open a business account with your neobank. She is unfamiliar with the process and needs guidance on how to complete the 'Selfie Verification' and 'Digital ID' steps.",
+      "objectives": [
+        "Explain the digital onboarding steps clearly",
+        "Reassure the customer about security measures",
+        "Guide her on how to use her smartphone camera for verification"
+      ],
+      "questions": [
+        {
+          "id": "cs-q1",
+          "type": "multiple-choice",
+          "question": "Sarah asks: 'Why do I need to take a selfie?' What is the best response?",
+          "options": [
+            "It is for our social media page.",
+            "It is a security measure to verify that the person opening the account is the same as on the ID.",
+            "We just want to see if you look good.",
+            "It is optional, you can skip it."
+          ],
+          "answerIndex": 1,
+          "explanation": "Selfie verification is a biometric security step used in digital onboarding."
+        },
+        {
+          "id": "cs-q2",
+          "type": "fill-blank",
+          "question": "To complete the process, Sarah needs to ________ her ID document using the app's camera.",
+          "answer": "scan",
+          "explanation": "Scanning the ID is a required step for digital verification."
+        }
+      ]
+    }
+  ],
   "objectives": [
     "Understand the digital onboarding process in neobanks",
     "Identify key terms for mobile banking security",
@@ -24,6 +58,8 @@
   ],
   "keyTerms": [
     { "term": "Onboarding", "definition": "The process of registering a new customer and opening their account." },
-    { "term": "KYC (Know Your Customer)", "definition": "The legal requirement for banks to verify the identity of their clients." }
+    { "term": "KYC (Know Your Customer)", "definition": "The legal requirement for banks to verify the identity of their clients." },
+    { "term": "Neobank", "definition": "A digital-only bank without physical branches." },
+    { "term": "E-statement", "definition": "An electronic version of your bank statement." }
   ]
 }

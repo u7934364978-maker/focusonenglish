@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s9-l3",
+  "title": "Furniture",
+  "description": "Chair, Desk, Filing cabinet, Shelf.",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to Furniture",
+    "Understand basic concepts of Furniture",
+    "Complete interactive exercises about Furniture"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana09/lesson3.mp4",
+  "theorySlides": [
+    {
+      "title": "The workspace",
+      "content": "Under the desk, on the shelf.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Organization",
+      "content": "Keeping the office tidy.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w9-l3-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for Furniture",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

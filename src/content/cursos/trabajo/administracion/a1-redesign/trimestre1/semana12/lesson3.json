@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s12-l3",
+  "title": "Final Trimester Assessment",
+  "description": "Check your progress!",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to Final Trimester Assessment",
+    "Understand basic concepts of Final Trimester Assessment",
+    "Complete interactive exercises about Final Trimester Assessment"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana12/lesson3.mp4",
+  "theorySlides": [
+    {
+      "title": "Ready for Trimester 2?",
+      "content": "Preview of Job Interviews.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Congratulations!",
+      "content": "You completed the first 3 months.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w12-l3-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for Final Trimester Assessment",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

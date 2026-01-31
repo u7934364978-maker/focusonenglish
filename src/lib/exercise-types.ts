@@ -1930,11 +1930,12 @@ export type Exercise =
   | GraphAnalysisExercise;
 
 export interface CaseStudy {
-  id: string;
+  id?: string;
   title: string;
   scenario: string;
   data?: any;
-  questions: Question[];
+  questions?: Question[];
+  objectives?: string[];
 }
 
 export interface DragAndDropExercise {
@@ -1958,6 +1959,14 @@ export interface GraphAnalysisExercise {
   questions: Question[];
 }
 
+export interface TheorySlide {
+  title: string;
+  content: string; // Markdown supported
+  imageUrl?: string;
+  audioUrl?: string;
+  interactiveCheck?: Question; // Optional quiz question for this slide
+}
+
 export interface Lesson {
   id: string;
   title: string;
@@ -1967,6 +1976,7 @@ export interface Lesson {
   videoUrl?: string;
   audioUrl?: string;
   theoryContent?: string;
+  theorySlides?: TheorySlide[];
   exercises: Exercise[];
   caseStudies?: CaseStudy[];
   completed?: boolean;

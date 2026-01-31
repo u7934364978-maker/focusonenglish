@@ -1,0 +1,46 @@
+{
+  "id": "administracion-a1-s5-l1",
+  "title": "The Alphabet A-Z",
+  "description": "Mastering the English alphabet for spelling.",
+  "duration": 15,
+  "objectives": [
+    "Master the vocabulary related to The Alphabet A-Z",
+    "Understand basic concepts of The Alphabet A-Z",
+    "Complete interactive exercises about The Alphabet A-Z"
+  ],
+  "videoUrl": "/videos/courses/admin-a1/semana05/lesson1.mp4",
+  "theorySlides": [
+    {
+      "title": "Vowels and Consonants",
+      "content": "Tricky letters: A, E, I, O, U, G, J, H.",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      "title": "Spelling your name",
+      "content": "How to spell out loud: 'B as in Bravo...'",
+      "imageUrl": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1000&auto=format&fit=crop"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex-w5-l1-1",
+      "type": "multiple-choice",
+      "title": "Quick Check",
+      "instructions": "Choose the correct option.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "question": "Sample question for The Alphabet A-Z",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C"
+          ],
+          "correctAnswer": "Option A",
+          "points": 5
+        }
+      ]
+    }
+  ]
+}

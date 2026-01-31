@@ -1,7 +1,9 @@
 import { Navigation } from "@/components/sections/Navigation";
 import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
+import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "Cursos de Inglés Online en España | Focus English - Especializado en Trabajo, Viajes y Exámenes",
@@ -17,6 +19,8 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
+  const latestArticles = getBlogArticles().slice(0, 3);
+  
   return (
     <>
       <Navigation />
@@ -273,70 +277,63 @@ export default function HomePage() {
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-12">
               <div>
-                <h2 className="text-4xl font-black text-slate-900 mb-2">Blog</h2>
-                <p className="text-lg text-slate-600">Artículos, guías y recursos para mejorar tu inglés</p>
+                <h2 className="text-4xl font-black text-slate-900 mb-2">Blog y Recursos</h2>
+                <p className="text-lg text-slate-600">Últimas guías para tu éxito profesional y personal</p>
               </div>
               <Link 
                 href="/blog"
-                className="hidden md:inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700"
+                className="hidden md:inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700 transition-colors"
               >
-                Ver todos →
+                <span>Explorar todo el blog</span>
+                <span>→</span>
               </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {latestArticles.map((article) => (
+                <Link 
+                  key={article.slug}
+                  href={`/blog/${article.category}/${article.slug}`}
+                  className="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-1 transition-all group flex flex-col h-full"
+                >
+                  {article.image && (
+                    <div className="relative h-48 w-full overflow-hidden">
+                      <Image
+                        src={article.image}
+                        alt={article.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                  )}
+                  <div className="p-6 flex flex-col flex-1">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-[10px] font-bold uppercase tracking-wider">
+                        {article.category}
+                      </span>
+                      <span className="text-xs text-slate-500">{article.readTime}</span>
+                    </div>
+                    <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-coral-600 transition-colors tracking-tight leading-tight">
+                      {article.title}
+                    </h3>
+                    <p className="text-slate-600 text-sm line-clamp-2 mb-4 flex-1">
+                      {article.excerpt}
+                    </p>
+                    <div className="flex items-center gap-2 text-coral-600 font-bold text-sm">
+                      <span>Leer más</span>
+                      <span className="group-hover:translate-x-1 transition-transform">→</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            
+            <div className="mt-12 text-center md:hidden">
               <Link 
-                href="/blog/ingles-profesional-sectores"
-                className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
+                href="/blog"
+                className="inline-flex items-center gap-2 bg-white border-2 border-slate-200 px-8 py-4 rounded-xl font-bold text-slate-900 hover:border-coral-600 hover:text-coral-600 transition-all"
               >
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-xs font-bold uppercase">
-                    Trabajo
-                  </span>
-                  <span className="text-xs text-slate-500">16 min</span>
-                </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-coral-600 transition-colors tracking-tight">
-                  El Día Que Perdí Un Ascenso Por No Saber Decir 'Implementar' en Inglés
-                </h3>
-                <p className="text-slate-600 text-sm">
-                  Tres profesionales españoles revelan cómo el inglés técnico de su sector transformó sus carreras...
-                </p>
-              </Link>
-
-              <Link 
-                href="/blog/ingles-esencial-viajar"
-                className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
-              >
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-orange-100 text-coral-700 text-xs font-bold uppercase">
-                    Viajes
-                  </span>
-                  <span className="text-xs text-slate-500">15 min</span>
-                </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-coral-600 transition-colors tracking-tight">
-                  La Noche Que Casi Duermo En Heathrow Por No Entender 'Gate Change'
-                </h3>
-                <p className="text-slate-600 text-sm">
-                  Cinco historias reales de viajeros españoles que aprendieron inglés de la forma más dura...
-                </p>
-              </Link>
-
-              <Link 
-                href="/blog/preparar-examenes-oficiales"
-                className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 hover:shadow-xl hover:-translate-y-1 transition-all group"
-              >
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="px-3 py-1 rounded-full bg-amber-100 text-amber-700 text-xs font-bold uppercase">
-                    Exámenes
-                  </span>
-                  <span className="text-xs text-slate-500">18 min</span>
-                </div>
-                <h3 className="font-display text-xl font-bold text-slate-900 mb-2 group-hover:text-amber-600 transition-colors tracking-tight">
-                  Secretos de Una Ex-Examinadora Cambridge: Lo Que Realmente Buscan
-                </h3>
-                <p className="text-slate-600 text-sm">
-                  Después de evaluar más de 3,000 exámenes, Ana Belén García revela insider knowledge exclusivo...
-                </p>
+                Ver todas las guías
               </Link>
             </div>
           </div>
