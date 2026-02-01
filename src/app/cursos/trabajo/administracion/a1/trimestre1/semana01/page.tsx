@@ -12,7 +12,7 @@ export default function AdminA1CoursePage() {
       <Navigation />
       <main className="flex-1 w-full overflow-hidden pt-16">
         <iframe 
-          src="/courses/administracion/a1/index.html" 
+          src="https://my.coursebox.ai/courses/196701/about" 
           className="w-full h-full border-none"
           title="Curso Inglés Administración A1"
           allowFullScreen
