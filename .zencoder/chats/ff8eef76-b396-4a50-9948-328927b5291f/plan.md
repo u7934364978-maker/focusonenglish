@@ -1,24 +1,32 @@
-# Plan: Embed Administration A1 Course
+# Plan: Embed Specialized Courses (Admin & Foreign Trade)
 
 ## Workflow Steps
 
 ### [x] Step: Requirements
-Create a Product Requirements Document (PRD) based on the feature description.
 - Status: Completed
-- PRD: `/Users/lidia/Documents/focusonenglish/.zencoder/chats/ff8eef76-b396-4a50-9948-328927b5291f/requirements.md`
+- PRDs: 
+  - Admin: `requirements.md`
+  - Foreign Trade: `requirements-comercio.md`
 
 ### [x] Step: Technical Specification
-Create a technical specification based on the PRD.
 - Status: Completed
-- Spec: `/Users/lidia/Documents/focusonenglish/.zencoder/chats/ff8eef76-b396-4a50-9948-328927b5291f/spec.md`
+- Specs: 
+  - Admin: `spec.md`
+  - Foreign Trade: `spec-comercio.md`
 
 ### [ ] Step: Implementation
 
+#### Admin A1 Course
 1. **[x] Move SCORM assets to public directory**
-   - Create `public/courses/administracion/a1`
-   - Copy files from `scorm_package_1.2/` to `public/courses/administracion/a1/`
 2. **[x] Create the course page**
-   - Create directories: `src/app/cursos/trabajo/administracion/a1/trimestre1/semana01/`
-   - Create `page.tsx` with iframe embedding
-3. **[x] Verify the implementation**
-   - Check the page layout and iframe functionality
+3. **[x] Fix SCORM LMS error with direct URL**
+
+#### Foreign Trade A1 Course
+1. **[ ] Move SCORM assets to public directory**
+   - Create `public/courses/comercio-exterior/a1`
+   - Copy files from `inglesA1comercioexterior/`
+2. **[ ] Create the course page**
+   - Create `src/app/cursos/trabajo/comercio-exterior/a1/trimestre1/semana01/page.tsx`
+3. **[ ] Update Navigation menu**
+   - Add "Comercio Exterior" submenu in `Navigation.tsx`
+4. **[ ] Verify the implementation**
