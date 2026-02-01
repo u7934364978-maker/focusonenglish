@@ -255,8 +255,8 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                       src={article.image || "/blog/og-image.jpg"}
                       alt={article.title}
                       fill
-                      className="object-cover"
-                      priority
+                      className="object-cover z-0"
+                      sizes="(max-width: 768px) 100vw, 800px"
                     />
                     <div className="absolute top-6 left-6">
                       <span className={`px-4 py-2 rounded-full text-sm font-bold border shadow-sm ${categoryColor}`}>
