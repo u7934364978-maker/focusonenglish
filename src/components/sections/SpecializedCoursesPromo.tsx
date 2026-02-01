@@ -93,10 +93,10 @@ export function SpecializedCoursesPromo() {
                 </li>
               </ul>
               <Link 
-                href="/cursos/viajes/a2"
+                href="/cursos/viajes"
                 className="inline-flex items-center justify-center w-full px-6 py-3 rounded-xl bg-coral-600 text-white font-black hover:bg-coral-700 transition-colors"
               >
-                Ver Niveles
+                Ver Curso
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                 </svg>
