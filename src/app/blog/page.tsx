@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "preparación exámenes oficiales",
   ],
   alternates: {
-    canonical: 'https://focus-on-english.com/blog',
+    canonical: 'https://www.focus-on-english.com/blog',
   },
 };
 

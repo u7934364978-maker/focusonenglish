@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       tags: article.keywords,
       images: [
         {
-          url: ogImage.startsWith('http') ? ogImage : `https://focus-on-english.com${ogImage}`,
+          url: ogImage.startsWith('http') ? ogImage : `https://www.focus-on-english.com${ogImage}`,
           width: 1200,
           height: 630,
           alt: seoTitle,
@@ -61,10 +61,10 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
       card: "summary_large_image",
       title: seoTitle,
       description: article.excerpt,
-      images: [ogImage.startsWith('http') ? ogImage : `https://focus-on-english.com${ogImage}`],
+      images: [ogImage.startsWith('http') ? ogImage : `https://www.focus-on-english.com${ogImage}`],
     },
     alternates: {
-      canonical: `https://focus-on-english.com/blog/${article.category}/${slug}`,
+      canonical: `https://www.focus-on-english.com/blog/${article.category}/${slug}`,
     },
   };
 }
@@ -114,10 +114,10 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
 
   // Generate Breadcrumb Schema
   const breadcrumbSchema = generateBreadcrumbSchema([
-    { name: "Inicio", url: "https://focus-on-english.com" },
-    { name: "Blog", url: "https://focus-on-english.com/blog" },
-    { name: categoryLabel, url: `https://focus-on-english.com/blog/${category}` },
-    { name: article.title, url: `https://focus-on-english.com/blog/${category}/${slug}` },
+    { name: "Inicio", url: "https://www.focus-on-english.com" },
+    { name: "Blog", url: "https://www.focus-on-english.com/blog" },
+    { name: categoryLabel, url: `https://www.focus-on-english.com/blog/${category}` },
+    { name: article.title, url: `https://www.focus-on-english.com/blog/${category}/${slug}` },
   ]);
 
   // Generate FAQ Schema if FAQs exist

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "aprender inglés españa 2026"
   ],
   alternates: {
-    canonical: 'https://focus-on-english.com',
+    canonical: 'https://www.focus-on-english.com',
   },
 };
 

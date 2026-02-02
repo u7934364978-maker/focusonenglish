@@ -23,7 +23,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://focus-on-english.com'),
+  metadataBase: new URL('https://www.focus-on-english.com'),
   title: {
     default: "Cursos de Inglés Online en España | Certificados Oficiales | Focus English",
     template: "%s | Focus English"
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     "academias de inglés online España",
     "mejor curso inglés online España",
   ],
-  authors: [{ name: "Focus English", url: "https://focus-on-english.com" }],
+  authors: [{ name: "Focus English", url: "https://www.focus-on-english.com" }],
   creator: "Focus English",
   publisher: "Focus English",
   formatDetection: {
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_ES",
     siteName: "Focus English",
-    url: "https://focus-on-english.com",
+    url: "https://www.focus-on-english.com",
     images: [
       {
         url: 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop',

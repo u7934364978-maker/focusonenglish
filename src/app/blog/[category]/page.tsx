@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     title: `${meta.name} | Blog Focus English`,
     description: meta.description,
     alternates: {
-      canonical: `https://focus-on-english.com/blog/${category}`,
+      canonical: `https://www.focus-on-english.com/blog/${category}`,
     },
   };
 }

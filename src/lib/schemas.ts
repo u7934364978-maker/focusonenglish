@@ -48,7 +48,7 @@ export function generateCourseSchema(props: CourseSchemaProps) {
     "provider": {
       "@type": "Organization",
       "name": "Focus English",
-      "sameAs": "https://focus-on-english.com"
+      "sameAs": "https://www.focus-on-english.com"
     },
     "offers": {
       "@type": "Offer",
@@ -101,25 +101,25 @@ export function generateArticleSchema(props: ArticleSchemaProps) {
     "@type": "Article",
     "headline": props.title,
     "description": props.description,
-    "image": `https://focus-on-english.com${props.image}`,
+    "image": `https://www.focus-on-english.com${props.image}`,
     "author": {
       "@type": "Organization",
       "name": "Focus English",
-      "url": "https://focus-on-english.com"
+      "url": "https://www.focus-on-english.com"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Focus English",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://focus-on-english.com/logo.png"
+        "url": "https://www.focus-on-english.com/logo.png"
       }
     },
     "datePublished": props.datePublished,
     "dateModified": props.dateModified,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://focus-on-english.com/blog/${props.category}/${props.slug}`
+      "@id": `https://www.focus-on-english.com/blog/${props.category}/${props.slug}`
     },
     "copyrightYear": new Date().getFullYear(),
     "copyrightHolder": {
@@ -212,7 +212,7 @@ export function generateAggregateRatingSchema(ratingValue: number, reviewCount: 
     "itemReviewed": {
       "@type": "EducationalOrganization",
       "name": "Focus English",
-      "url": "https://focus-on-english.com"
+      "url": "https://www.focus-on-english.com"
     }
   };
 }

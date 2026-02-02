@@ -32,6 +32,6 @@ export const metadata: Metadata = {
     description: 'Suscripción mensual desde €6.99. Acceso ilimitado a todos los cursos.',
   },
   alternates: {
-    canonical: 'https://focus-on-english.com/planes',
+    canonical: 'https://www.focus-on-english.com/planes',
   },
 };

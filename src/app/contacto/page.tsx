@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "¿Tienes preguntas sobre nuestros cursos de inglés? Contáctanos y te ayudaremos a encontrar el programa perfecto para ti.",
   keywords: ["contacto focus english", "consulta cursos inglés", "información cursos", "atención al cliente"],
   alternates: {
-    canonical: 'https://focus-on-english.com/contacto',
+    canonical: 'https://www.focus-on-english.com/contacto',
   },
 };
 

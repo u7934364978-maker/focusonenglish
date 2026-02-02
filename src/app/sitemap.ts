@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
-const baseUrl = "https://focus-on-english.com";
+const baseUrl = "https://www.focus-on-english.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

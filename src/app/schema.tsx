@@ -4,8 +4,8 @@ export function OrganizationSchema() {
     "@type": "EducationalOrganization",
     "name": "Focus English",
     "alternateName": "Focus on English",
-    "url": "https://focus-on-english.com",
-    "logo": "https://focus-on-english.com/logo.png",
+    "url": "https://www.focus-on-english.com",
+    "logo": "https://www.focus-on-english.com/logo.png",
     "description": "Cursos de inglés especializados para trabajo, viajes y exámenes oficiales. Programas personalizados de 90 días con metodología probada.",
     "address": {
       "@type": "PostalAddress",
@@ -103,7 +103,7 @@ export function CourseSchema({
     "provider": {
       "@type": "EducationalOrganization",
       "name": "Focus English",
-      "url": "https://focus-on-english.com"
+      "url": "https://www.focus-on-english.com"
     },
     "educationalLevel": level,
     "timeRequired": duration,
@@ -121,7 +121,7 @@ export function CourseSchema({
       "price": price,
       "priceCurrency": currency,
       "availability": "https://schema.org/InStock",
-      "url": "https://focus-on-english.com/planes"
+      "url": "https://www.focus-on-english.com/planes"
     }
   };
 
@@ -155,25 +155,25 @@ export function ArticleSchema({
     "@type": "Article",
     "headline": title,
     "description": description,
-    "image": "https://focus-on-english.com/og-image.jpg",
+    "image": "https://www.focus-on-english.com/og-image.jpg",
     "author": {
       "@type": "Organization",
       "name": author,
-      "url": "https://focus-on-english.com"
+      "url": "https://www.focus-on-english.com"
     },
     "publisher": {
       "@type": "Organization",
       "name": "Focus English",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://focus-on-english.com/logo.png"
+        "url": "https://www.focus-on-english.com/logo.png"
       }
     },
     "datePublished": datePublished,
     "dateModified": dateModified || datePublished,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://focus-on-english.com/blog/${slug}`
+      "@id": `https://www.focus-on-english.com/blog/${slug}`
     },
     "keywords": keywords.join(", ")
   };
@@ -216,7 +216,7 @@ export function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: 
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": `https://focus-on-english.com${item.url}`
+      "item": `https://www.focus-on-english.com${item.url}`
     }))
   };
 
@@ -233,12 +233,12 @@ export function WebsiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Focus English",
-    "url": "https://focus-on-english.com",
+    "url": "https://www.focus-on-english.com",
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://focus-on-english.com/blog?q={search_term_string}"
+        "urlTemplate": "https://www.focus-on-english.com/blog?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }
