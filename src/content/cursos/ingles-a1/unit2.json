@@ -314,7 +314,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"Her is daughter only three years old.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "Her daughter is only three years old."
         },
         {
           "interaction_id": "U2_I42",
@@ -370,7 +371,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"My is mother a very kind person.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "My mother is a very kind person."
         },
         {
           "interaction_id": "U2_I61",
@@ -428,7 +430,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"His is father a famous actor.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "His father is a famous actor."
         },
         {
           "interaction_id": "U2_I68",
@@ -537,7 +540,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"Their is son a very good student.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "Their son is a very good student."
         },
         {
           "interaction_id": "U2_I94",

@@ -33,7 +33,7 @@ def audit_interaction(interaction, filename):
 
     # 2. Add correct_sentence_en for true_false
     if interaction.get('type') == 'true_false':
-        if interaction.get('correct_answer') is False and not interaction.get('correct_sentence_en'):
+        if interaction.get('correct_answer') is False:
             prompt = interaction.get('prompt_es', '')
             # print(f"Found true_false in {filename}: {prompt}")
             match = re.search(r':\s*"([^"]+)"', prompt)
@@ -58,6 +58,10 @@ def audit_interaction(interaction, filename):
                 correct = re.sub(r'\bis envy the of\b', 'is the envy of', correct)
                 correct = re.sub(r'\bsince started I working\b', 'since I started working', correct)
                 
+                # General word order fixes
+                correct = re.sub(r'\b(My|His|Her|Your|Our|Their) is (\w+)\b', r'\1 \2 is', correct)
+                correct = re.sub(r'\b(My|His|Her|Your|Our|Their) are (\w+)\b', r'\1 \2 are', correct)
+                
                 # A2 Specific fixes
                 correct = re.sub(r'\bWe learning are more English\b', 'We are learning more English', correct)
                 correct = re.sub(r'\bThere are a cat\b', 'There is a cat', correct)
@@ -78,6 +82,25 @@ def audit_interaction(interaction, filename):
                 correct = re.sub(r'\bI should to see\b', 'I should see', correct)
                 correct = re.sub(r'\bWe a have very busy itinerary\b', 'We have a very busy itinerary', correct)
                 correct = re.sub(r'\bWe recycle must more\b', 'We must recycle more', correct)
+                
+                # A1 Specific fixes
+                correct = re.sub(r'\bWe very are happy\b', 'We are very happy', correct)
+                correct = re.sub(r'\bI not am\b', 'I am not', correct)
+                correct = re.sub(r'\bYou is\b', 'You are', correct)
+                correct = re.sub(r'\bHe are\b', 'He is', correct)
+                correct = re.sub(r'\bShe are\b', 'She is', correct)
+                correct = re.sub(r'\bIt are\b', 'It is', correct)
+                correct = re.sub(r'\bWe is\b', 'We are', correct)
+                correct = re.sub(r'\bThey is\b', 'They are', correct)
+                correct = re.sub(r'\bLondon a is big city\b', 'London is a big city', correct)
+                correct = re.sub(r'\bThey my are best friends\b', 'They are my best friends', correct)
+                correct = re.sub(r'\bHis is surname Smith\b', 'His surname is Smith', correct)
+                correct = re.sub(r'\bMy is sister a student\b', 'My sister is a student', correct)
+                correct = re.sub(r'\bI got have a new\b', 'I have got a new', correct)
+                correct = re.sub(r'\bMy is name John\b', 'My name is John', correct)
+                correct = re.sub(r'\bIs a he doctor\b', 'Is he a doctor', correct)
+                correct = re.sub(r'\bHe from is Madrid\b', 'He is from Madrid', correct)
+                correct = re.sub(r'\bShe twenty is years old\b', 'She is twenty years old', correct)
                 
                 if correct != wrong_sentence:
                     interaction['correct_sentence_en'] = correct

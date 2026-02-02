@@ -1118,7 +1118,8 @@
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "My dog is a great companion."
         },
         {
           "interaction_id": "U18_I183",

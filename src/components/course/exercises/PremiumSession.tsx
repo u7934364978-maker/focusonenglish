@@ -241,7 +241,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       
       let message = interaction.feedback_correct_es || "¡Excelente trabajo!";
       if (interaction.type === 'true_false' && String(interaction.correct_answer).toLowerCase() === 'false' && interaction.correct_sentence_en) {
-        message = `${message}\n\nCorrect sentence: ${interaction.correct_sentence_en}`;
+        message = `${message}\n\nLa frase correcta es: "${interaction.correct_sentence_en}"`;
       }
       
       setFeedback({ correct: true, message });
@@ -264,7 +264,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       } else {
         message = interaction.feedback_incorrect_es || "Sigue intentándolo, tú puedes.";
         if (interaction.type === 'true_false' && String(interaction.correct_answer).toLowerCase() === 'false' && interaction.correct_sentence_en) {
-           message = `${message}\n\nCorrect sentence: ${interaction.correct_sentence_en}`;
+           message = `${message}\n\nLa frase correcta es: "${interaction.correct_sentence_en}"`;
         }
       }
 
@@ -1163,7 +1163,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     <h3 className={`text-3xl font-black ${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'}`}>
                       {feedback.correct ? '¡Increíble!' : ((failCount[id] || 0) >= 3 ? 'La solución es:' : '¡Uy! Casi...')}
                     </h3>
-                    <p className={`text-xl font-bold ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
+                    <p className={`text-xl font-bold whitespace-pre-line ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
                       {feedback.message}
                     </p>
                   </div>

@@ -585,7 +585,8 @@
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta?: \"She are the most beautiful woman I know.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "She is the most beautiful woman I know."
         },
         {
           "interaction_id": "U1_I129",

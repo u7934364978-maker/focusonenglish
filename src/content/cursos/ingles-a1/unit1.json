@@ -204,7 +204,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"London a is big city in England.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "London is a big city in England."
         },
         {
           "interaction_id": "U1_I19",
@@ -320,7 +321,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"They my are best friends.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "They are my best friends."
         },
         {
           "interaction_id": "U1_I35",
@@ -356,7 +358,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"His is surname Smith.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "His surname is Smith."
         },
         {
           "interaction_id": "U1_I44",
@@ -473,7 +476,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"We very are happy to meet you.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "We are very happy to meet you."
         },
         {
           "interaction_id": "U1_I70",
@@ -545,14 +549,16 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"I not am a student, I am a teacher.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "I am not a student, I am a teacher."
         },
         {
           "interaction_id": "U1_I94",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"My is sister a student at the university.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "My sister is a student at the university."
         },
         {
           "interaction_id": "U1_I100",
@@ -679,14 +685,16 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"I got have a new email address.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "I have got a new email address."
         },
         {
           "interaction_id": "U1_I143",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"My is name John and I am from New York.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "My name is John and I am from New York."
         },
         {
           "interaction_id": "U1_I147",
@@ -743,7 +751,8 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"Is a he doctor or a nurse?\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "Is he a doctor or a nurse?"
         },
         {
           "interaction_id": "U1_I171",
@@ -757,14 +766,16 @@
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"He from is Madrid, the capital of Spain.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "He is from Madrid, the capital of Spain."
         },
         {
           "interaction_id": "U1_I199",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"She twenty is years old.\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "grammar",
+          "correct_sentence_en": "She is twenty years old."
         }
       ]
     }
