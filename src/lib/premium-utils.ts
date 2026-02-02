@@ -13,8 +13,17 @@ export function getSolutionText(interaction: PremiumInteraction): string {
   const prefix = "";
 
   switch (interaction.type) {
-    case 'multiple_choice':
     case 'true_false':
+      if (interaction.correct_sentence_en) {
+        return `${prefix}${interaction.correct_sentence_en}`;
+      }
+      if (interaction.options && interaction.correct_answer) {
+        const correctOption = interaction.options.find(opt => opt.id === interaction.correct_answer);
+        return correctOption ? `${prefix}${correctOption.text}` : "";
+      }
+      break;
+
+    case 'multiple_choice':
     case 'odd_one_out':
     case 'role_play':
       if (interaction.options && interaction.correct_answer) {

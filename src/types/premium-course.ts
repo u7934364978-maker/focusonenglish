@@ -33,6 +33,7 @@ export interface PremiumInteraction {
   example?: string;
   audioUrl?: string;
   tts_en?: string;
+  correct_sentence_en?: string;
   // Cambridge B1 Preliminary Extensions
   main_text?: string; // For gapped_text and cloze
   removed_paragraphs?: Array<{ id: string; text: string; isDistractor?: boolean }>; // For gapped_text
@@ -98,7 +99,7 @@ export interface PremiumCourse {
 
 export interface UnitData {
   course: PremiumCourse;
-  learning_outcomes: string[];
-  mastery_tags: string[];
+  learning_outcomes?: string[];
+  mastery_tags?: string[];
   blocks: PremiumBlock[];
 }

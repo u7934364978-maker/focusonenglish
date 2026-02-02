@@ -48,5 +48,10 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/d8a47327-6c1a-49b
     - [x] Remove/Update links to eliminated URLs in `src/components/sections/Navigation.tsx`.
 - [x] **Task 5: Global Search and Cleanup**
     - [x] Search for any remaining references to `/cursos`, `/diagnostico`, etc., in the codebase and clean them up.
-- [x] **Task 6: Verification**
-    - [x] Run `npm run build` and `npm run lint`.
+- [x] **Task 6: Verification and Fixes**
+    - [x] Fix `TypeError` in `PremiumUnitViewer` (missing `learning_outcomes`).
+    - [ ] Resolve API route "Module not found" build errors.
+    - [ ] Run `npm run build` and `npm run lint`.
+- [ ] **Task 7: Push and Final Confirmation**
+    - [ ] Push changes to repository.
+    - [ ] Provide commit hash to user.

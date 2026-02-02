@@ -91,30 +91,32 @@ export default function PremiumUnitViewer({ unitData }: Props) {
         </header>
 
         {/* Learning Outcomes */}
-        <section className="max-w-2xl mx-auto">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="bg-white rounded-[2.5rem] p-8 border-2 border-slate-100 shadow-xl shadow-slate-200/50 space-y-6"
-          >
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-green-50 rounded-2xl flex items-center justify-center text-green-600">
-                <Target className="w-6 h-6" />
+        {learning_outcomes && learning_outcomes.length > 0 && (
+          <section className="max-w-2xl mx-auto">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="bg-white rounded-[2.5rem] p-8 border-2 border-slate-100 shadow-xl shadow-slate-200/50 space-y-6"
+            >
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-green-50 rounded-2xl flex items-center justify-center text-green-600">
+                  <Target className="w-6 h-6" />
+                </div>
+                <h2 className="text-2xl font-black text-slate-900">Lo que aprenderás</h2>
               </div>
-              <h2 className="text-2xl font-black text-slate-900">Lo que aprenderás</h2>
-            </div>
-            
-            <ul className="space-y-4">
-              {learning_outcomes.map((outcome: string, idx: number) => (
-                <li key={idx} className="flex items-start gap-4 group">
-                  <div className="mt-1.5 w-2 h-2 rounded-full bg-indigo-400 group-hover:scale-150 transition-transform" />
-                  <span className="text-slate-600 font-bold text-lg leading-snug">{outcome}</span>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-        </section>
+              
+              <ul className="space-y-4">
+                {learning_outcomes.map((outcome: string, idx: number) => (
+                  <li key={idx} className="flex items-start gap-4 group">
+                    <div className="mt-1.5 w-2 h-2 rounded-full bg-indigo-400 group-hover:scale-150 transition-transform" />
+                    <span className="text-slate-600 font-bold text-lg leading-snug">{outcome}</span>
+                  </li>
+                ))}
+              </ul>
+            </motion.div>
+          </section>
+        )}
 
         {/* Completion Status */}
         {isCompleted && (
