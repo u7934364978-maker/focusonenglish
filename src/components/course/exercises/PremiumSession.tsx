@@ -64,12 +64,17 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     try {
       if (url) {
         const audio = new Audio(url);
+        // No acelerar sonidos de sistema
+        if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
+          audio.playbackRate = 1.1;
+        }
         await audio.play();
         return;
       }
       if (text) {
         if (audioCache[text]) {
           const audio = new Audio(audioCache[text]);
+          audio.playbackRate = 1.1; // Aumentar ligeramente la velocidad para sonar más natural
           await audio.play();
           return;
         }
@@ -83,6 +88,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         const audioUrl = URL.createObjectURL(blob);
         setAudioCache(prev => ({ ...prev, [text]: audioUrl }));
         const audio = new Audio(audioUrl);
+        audio.playbackRate = 1.1; // Aumentar ligeramente la velocidad
         await audio.play();
       }
     } catch (e) {
