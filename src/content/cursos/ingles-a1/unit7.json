@@ -4,193 +4,543 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U7",
-    "unit_title": "At School",
-    "total_duration_minutes": 60
+    "unit_title": "Comida y bebida",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B7",
-      "title": "At School",
+      "title": "Comida y bebida",
       "content": [
         {
-          "interaction_id": "U7_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U7_Ta1-u7-there-is-are_I0",
+          "title": "There is / There are: A1 Beginner Level",
+          "instructions": "Choose the correct answer for each sentence.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "id": "q1",
+              "question": "______ a cat under the table.",
+              "options": [
+                "A. There is",
+                "B. There are",
+                "C. Is there",
+                "D. Are there"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'There is' para hablar de una sola cosa. Aquí hablamos de un gato, que es singular."
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "id": "q2",
+              "question": "______ five books on the desk.",
+              "options": [
+                "A. There is",
+                "B. There are",
+                "C. Is there",
+                "D. Are there"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'There are' para hablar de varias cosas. Aquí hablamos de cinco libros, que son plurales."
+            },
+            {
+              "id": "q3",
+              "question": "______ a pen in the drawer?",
+              "options": [
+                "A. There is",
+                "B. There are",
+                "C. Is there",
+                "D. Are there"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Para hacer preguntas sobre la existencia de un objeto singular, usamos 'Is there'."
+            },
+            {
+              "id": "q4",
+              "question": "______ any chairs in the room?",
+              "options": [
+                "A. There is",
+                "B. There are",
+                "C. Is there",
+                "D. Are there"
+              ],
+              "correctAnswer": "D",
+              "explanation": "Para hacer preguntas sobre la existencia de objetos plurales, usamos 'Are there'."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_Ta1-u7-likes_I0",
+          "title": "Understanding Likes and Dislikes",
+          "instructions": "Choose the correct answer for each question. Lea atentamente cada pregunta y seleccione la respuesta correcta.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "I ___ apples. They are my favorite fruit.",
+              "options": [
+                "A like",
+                "B don't like",
+                "C hate",
+                "D prefer"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'like' para expresar que algo nos gusta. En este caso, al decir que son la fruta favorita, indicamos que gustan."
+            },
+            {
+              "id": "q2",
+              "question": "She ___ ice cream. She eats it every day.",
+              "options": [
+                "A love",
+                "B don't like",
+                "C hates",
+                "D prefer"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'love' para expresar un gusto muy fuerte. Comer helado todos los días indica que le encanta."
+            },
+            {
+              "id": "q3",
+              "question": "We ___ going to the park on weekends.",
+              "options": [
+                "A hate",
+                "B love",
+                "C prefers",
+                "D don't like"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'love' para mostrar que algo nos gusta mucho, como ir al parque todos los fines de semana."
+            },
+            {
+              "id": "q4",
+              "question": "He ___ vegetables. He never eats them.",
+              "options": [
+                "A like",
+                "B prefer",
+                "C don't like",
+                "D loves"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Usamos 'don't like' para mostrar que algo no gusta, y el hecho de que nunca come verduras lo confirma."
+            }
+          ],
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U7_Ta1-u7-there-is-are_I1",
+          "title": "There is / There are Exercise",
+          "instructions": "Choose the correct option for each sentence.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Look! ___ a cat in the garden.",
+              "options": [
+                "A) There is",
+                "B) There are",
+                "C) It is",
+                "D) They are"
+              ],
+              "correctAnswer": "A) There is",
+              "explanation": "Usamos 'There is' para hablar de una cosa singular que existe. En este caso, solo hay un gato."
+            },
+            {
+              "id": "q2",
+              "question": "___ three apples on the table.",
+              "options": [
+                "A) There is",
+                "B) There are",
+                "C) It is",
+                "D) They are"
+              ],
+              "correctAnswer": "B) There are",
+              "explanation": "Usamos 'There are' para hablar de varias cosas que existen. Aquí hay tres manzanas."
+            },
+            {
+              "id": "q3",
+              "question": "___ a new student in the class.",
+              "options": [
+                "A) There is",
+                "B) There are",
+                "C) It is",
+                "D) They are"
+              ],
+              "correctAnswer": "A) There is",
+              "explanation": "Para una sola persona o cosa, usamos 'There is'. Aquí, se refiere a un solo estudiante nuevo."
+            },
+            {
+              "id": "q4",
+              "question": "___ some books on the shelf.",
+              "options": [
+                "A) There is",
+                "B) There are",
+                "C) It is",
+                "D) They are"
+              ],
+              "correctAnswer": "B) There are",
+              "explanation": "Usamos 'There are' cuando hablamos de varias cosas, en este caso, varios libros."
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_Ta1-u7-likes_I1",
+          "title": "Likes and Dislikes",
+          "instructions": "Read the questions and choose the correct answer.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "He loves ___ apples.",
+              "options": [
+                "A) eat",
+                "B) eats",
+                "C) eating",
+                "D) ate"
+              ],
+              "correctAnswer": "C",
+              "explanation": "En inglés, después de 'love', usamos el gerundio (-ing). Por eso, 'eating' es correcto."
+            },
+            {
+              "id": "q2",
+              "question": "They don't ___ bananas.",
+              "options": [
+                "A) liking",
+                "B) likes",
+                "C) like",
+                "D) liked"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Después de 'don't', usamos el verbo en forma base. Por lo tanto, 'like' es correcto."
+            },
+            {
+              "id": "q3",
+              "question": "I prefer ___ books.",
+              "options": [
+                "A) read",
+                "B) reads",
+                "C) reading",
+                "D) readed"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Usamos el gerundio (-ing) después de 'prefer'. Así que 'reading' es correcto."
+            },
+            {
+              "id": "q4",
+              "question": "She doesn't ___ to music.",
+              "options": [
+                "A) listens",
+                "B) listen",
+                "C) listening",
+                "D) listened"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Después de 'doesn't', usamos el verbo en forma base. Por eso, 'listen' es correcto."
+            }
+          ],
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U7_Ta1-u7-food-vocab_I0",
+          "title": "Basic Grammar and Vocabulary Exercise",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "She ___ a red apple.",
+              "options": [
+                "A. eats",
+                "B. is",
+                "C. has",
+                "D. are"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'eats' porque describe una acción que ella hace. La opción 'is' no es correcta ya que no se trata de una descripción. 'Has' sugeriría posesión y 'are' no es correcto para el sujeto 'she'."
+            },
+            {
+              "id": "q2",
+              "question": "There ___ milk on the table.",
+              "options": [
+                "A. is",
+                "B. are",
+                "C. has",
+                "D. have"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'is' porque 'milk' es un sustantivo incontable, lo cual requiere el uso de 'is'. 'Are' sería correcto para un sustantivo contable plural."
+            },
+            {
+              "id": "q3",
+              "question": "We ___ vegetables every day.",
+              "options": [
+                "A. eat",
+                "B. eats",
+                "C. eating",
+                "D. is"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'eat' ya que 'we' es plural y el verbo debe coincidir en tiempo presente simple. 'Eats' es para tercera persona singular y 'eating' sería presente continuo."
+            },
+            {
+              "id": "q4",
+              "question": "He ___ coffee in the morning.",
+              "options": [
+                "A. drinks",
+                "B. drink",
+                "C. drinking",
+                "D. is"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'drinks' porque 'he' es tercera persona singular y el verbo debe coincidir en tiempo presente simple. 'Drink' sería correcto para 'I, you, we, they'."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
+          "interaction_id": "U7_Ta1-u7-some-any_I0",
+          "questions": [
+            {
+              "sentence": "The cat is ___ the table.",
+              "options": [
+                "on",
+                "in",
+                "under",
+                "next to"
+              ],
+              "answer": "on",
+              "explanation": "La preposición 'on' se usa para indicar que algo está sobre otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "There is ___ apple on the table.",
+              "options": [
+                "a",
+                "an",
+                "the"
+              ],
+              "answer": "an",
+              "explanation": "Usamos 'an' antes de palabras que comienzan con sonido de vocal.",
+              "points": 1
+            },
+            {
+              "sentence": "___ is my brother. He is 10 years old.",
+              "options": [
+                "He",
+                "She",
+                "It",
+                "They"
+              ],
+              "answer": "He",
+              "explanation": "Usamos 'He' para referirnos a un niño o hombre.",
+              "points": 1
+            },
+            {
+              "sentence": "The dog is ___ the box.",
+              "options": [
+                "in",
+                "on",
+                "under",
+                "next to"
+              ],
+              "answer": "in",
+              "explanation": "La preposición 'in' se usa para indicar que algo está dentro de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "___ is my sister. She likes to play.",
+              "options": [
+                "She",
+                "He",
+                "It",
+                "They"
+              ],
+              "answer": "She",
+              "explanation": "Usamos 'She' para referirnos a una niña o mujer.",
+              "points": 1
+            },
+            {
+              "sentence": "There ___ two books on the shelf.",
+              "options": [
+                "is",
+                "are",
+                "am"
+              ],
+              "answer": "are",
+              "explanation": "Usamos 'are' con sustantivos plurales.",
+              "points": 1
+            },
+            {
+              "sentence": "The cat is ___ the chair.",
+              "options": [
+                "on",
+                "in",
+                "under",
+                "next to"
+              ],
+              "answer": "under",
+              "explanation": "La preposición 'under' se usa para indicar que algo está debajo de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "___ apple is red.",
+              "options": [
+                "A",
+                "An",
+                "The"
+              ],
+              "answer": "The",
+              "explanation": "Usamos 'The' cuando nos referimos a algo específico.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 7 of the A1 course.\"",
-          "correct_answer": true,
+          "interaction_id": "U7_Ta1-u7-some-any_I1",
+          "title": "Basic English Grammar Practice",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Is there ____ dog in the garden?",
+              "options": [
+                "A. a",
+                "B. any",
+                "C. some",
+                "D. the"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'any' en preguntas para preguntar si algo existe en algún lugar."
+            },
+            {
+              "id": "q2",
+              "question": "She doesn't have ____ pencils in her bag.",
+              "options": [
+                "A. some",
+                "B. any",
+                "C. the",
+                "D. a"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'any' en oraciones negativas para indicar que no hay nada de eso."
+            },
+            {
+              "id": "q3",
+              "question": "There are ____ apples on the table.",
+              "options": [
+                "A. no",
+                "B. some",
+                "C. any",
+                "D. a"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'some' en oraciones afirmativas para mostrar que hay algo presente."
+            },
+            {
+              "id": "q4",
+              "question": "Do you have ____ brothers or sisters?",
+              "options": [
+                "A. some",
+                "B. any",
+                "C. no",
+                "D. the"
+              ],
+              "correctAnswer": "B",
+              "explanation": "En preguntas, 'any' se utiliza para preguntar sobre la existencia de algo, en este caso, hermanos o hermanas."
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U7_Ta1-u7-food-vocab_I1",
+          "text": "Anna likes to eat healthy food. She starts her day with an (1) ____ and a glass of milk. For lunch, she usually has a sandwich with some kind of (2) ____ like ham or chicken. She always includes (3) ____ like carrots and peas because she knows they are good for her. In the afternoon, Anna enjoys a cup of (4) ____ with a piece of (5) ____ cake. It is her favorite snack. For dinner, she sometimes makes a salad and drinks a lot of (6) ____. Anna tries to eat (7) ____ every day. She thinks it helps her stay fit and feel (8) ____.",
+          "questions": [
             {
-              "id": "w0",
-              "text": "This"
+              "gap": 1,
+              "options": [
+                "apple",
+                "meat",
+                "water",
+                "vegetable"
+              ],
+              "answer": "apple",
+              "explanation": "La palabra 'apple' es la elección correcta porque es común comer una manzana como parte del desayuno. Las otras opciones no son típicamente parte de un desayuno."
             },
             {
-              "id": "w3",
-              "text": "7"
+              "gap": 2,
+              "options": [
+                "bread",
+                "fruit",
+                "meat",
+                "coffee"
+              ],
+              "answer": "meat",
+              "explanation": "La palabra 'meat' es correcta aquí porque los sándwiches generalmente contienen algún tipo de carne. Las otras opciones no son comunes en sándwiches de almuerzo."
             },
             {
-              "id": "w1",
-              "text": "is"
+              "gap": 3,
+              "options": [
+                "fruit",
+                "vegetables",
+                "milk",
+                "coffee"
+              ],
+              "answer": "vegetables",
+              "explanation": "Se usa 'vegetables' ya que las verduras como las zanahorias y los guisantes son buenos para la salud. Las otras opciones no son apropiadas en este contexto."
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "gap": 4,
+              "options": [
+                "water",
+                "coffee",
+                "apple",
+                "bread"
+              ],
+              "answer": "coffee",
+              "explanation": "La palabra 'coffee' es la correcta porque es común disfrutar de una taza de café por la tarde. Las otras opciones no son bebidas típicas de la tarde."
             },
             {
-              "id": "w6",
-              "text": "A1"
+              "gap": 5,
+              "options": [
+                "fruit",
+                "vegetable",
+                "apple",
+                "meat"
+              ],
+              "answer": "apple",
+              "explanation": "El 'apple cake' es un tipo específico de pastel. 'Apple' es la respuesta correcta porque se refiere a un postre común. Las otras opciones no se usan con 'cake'."
             },
             {
-              "id": "w4",
-              "text": "of"
+              "gap": 6,
+              "options": [
+                "milk",
+                "bread",
+                "water",
+                "apple"
+              ],
+              "answer": "water",
+              "explanation": "Se debe seleccionar 'water' ya que es común beber mucha agua durante la cena. Las otras opciones no son correctas aquí."
             },
             {
-              "id": "w5",
-              "text": "the"
+              "gap": 7,
+              "options": [
+                "vegetables",
+                "fruit",
+                "meat",
+                "bread"
+              ],
+              "answer": "fruit",
+              "explanation": "La palabra 'fruit' es correcta porque se recomienda comer frutas todos los días para mantenerse saludable. Las otras opciones no tienen el mismo sentido."
             },
             {
-              "id": "w7",
-              "text": "course"
+              "gap": 8,
+              "options": [
+                "happy",
+                "tired",
+                "hungry",
+                "thirsty"
+              ],
+              "answer": "happy",
+              "explanation": "La palabra 'happy' es la elección correcta ya que comer bien a menudo hace que las personas se sientan felices. Las otras opciones no reflejan este sentimiento."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U7_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "Hello!"
-            },
-            {
-              "id": "c3",
-              "text": "No"
-            },
-            {
-              "id": "c2",
-              "text": "Bye"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Tennis"
-            },
-            {
-              "id": "o1",
-              "text": "Apple"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tennis"
-            },
-            {
-              "id": "o2",
-              "text": "Apple"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I16",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 7 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
         }
       ]
     }

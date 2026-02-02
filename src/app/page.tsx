@@ -6,8 +6,8 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Cursos de Inglés Online en España | Focus English - Especializado en Trabajo, Viajes y Exámenes",
-  description: "Cursos de inglés online desde España, especializados en trabajo, viajes o exámenes oficiales. Programas personalizados de 90 días. Desde €6.99/mes.",
+  title: "Cursos de Inglés Online en España | Focus English",
+  description: "Cursos de inglés online en España certificados. Especializados en trabajo, viajes y exámenes oficiales. Programas de 90 días. Desde €6.99/mes.",
   keywords: [
     "cursos de inglés online españa",
     "inglés para trabajar",
@@ -163,17 +163,17 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/cursos/trabajo"
+                    href="/planes"
                     className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
-                    Ver cursos →
+                    Ver planes →
                   </Link>
                   
                   <Link
-                    href="/blog/ingles-profesional-sectores"
+                    href="/blog/trabajo/guia-definitiva-curso-ingles-profesional"
                     className="block text-center mt-3 text-coral-600 font-semibold hover:text-coral-700"
                   >
-                    Leer artículo completo
+                    Leer guía profesional
                   </Link>
                 </div>
               </div>
@@ -210,17 +210,17 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/cursos/viajes"
+                    href="/planes"
                     className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
-                    Ver cursos →
+                    Ver planes →
                   </Link>
                   
                   <Link
-                    href="/blog/ingles-esencial-viajar"
+                    href="/blog/viajes/guia-maestra-curso-ingles-viajeros"
                     className="block text-center mt-3 text-coral-600 font-semibold hover:text-coral-700"
                   >
-                    Leer artículo completo
+                    Leer guía para viajeros
                   </Link>
                 </div>
               </div>
@@ -257,17 +257,17 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/cursos/examenes"
+                    href="/planes"
                     className="block text-center bg-gradient-to-r from-amber-600 to-amber-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
-                    Ver cursos →
+                    Ver planes →
                   </Link>
                   
                   <Link
-                    href="/blog/preparar-examenes-oficiales"
+                    href="/blog/metodos/clases-de-ingles-guia"
                     className="block text-center mt-3 text-amber-600 font-semibold hover:text-amber-700"
                   >
-                    Leer artículo completo
+                    Leer guía de estudios
                   </Link>
                 </div>
               </div>

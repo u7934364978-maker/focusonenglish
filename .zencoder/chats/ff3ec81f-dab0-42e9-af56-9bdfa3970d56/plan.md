@@ -32,7 +32,7 @@
 ## Phase 3: Metadata & Robots Alignment (Fixing 3XX Canonicals)
 
 5.  [x] **Update Canonical URLs**:
-    - [x] `src/app/layout.tsx`: Update `alternates.canonical` to be fully qualified `https://focus-on-english.com/` (ensuring no trailing slash mismatch with server config).
+    - [x] `src/app/layout.tsx`: Update `alternates.canonical` to be fully qualified `https://www.focus-on-english.com/` (ensuring no trailing slash mismatch with server config).
     - [x] `src/app/blog/[category]/[slug]/page.tsx`: Update `alternates.canonical` to use the full domain to avoid 3XX redirects on relative paths.
 
 6.  [x] **Synchronize Robots configuration**:

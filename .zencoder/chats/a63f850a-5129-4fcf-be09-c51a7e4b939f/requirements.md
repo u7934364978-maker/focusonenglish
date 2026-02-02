@@ -21,9 +21,9 @@ Las siguientes rutas están configuradas como redireccionamientos permanentes (3
 - `/cursos-especializados`, `/certificaciones`, `/trabajo/:nivel`, `/viajes/:nivel`, `/examenes/:nivel` (Redirigen a `/`)
 
 ### Estado Actual de las Canónicas
-- `src/app/layout.tsx`: Define `canonical: 'https://focus-on-english.com'`. Esto es heredado por todas las páginas que no lo sobrescriben.
+- `src/app/layout.tsx`: Define `canonical: 'https://www.focus-on-english.com'`. Esto es heredado por todas las páginas que no lo sobrescriben.
 - `src/app/blog/[category]/page.tsx`: Define `canonical: '/blog/${category}'`. (Correcto, pero relativo).
-- `src/app/blog/[category]/[slug]/page.tsx`: Define `canonical: 'https://focus-on-english.com/blog/${article.category}/${slug}'`. (Correcto, absoluto).
+- `src/app/blog/[category]/[slug]/page.tsx`: Define `canonical: 'https://www.focus-on-english.com/blog/${article.category}/${slug}'`. (Correcto, absoluto).
 
 ## 4. Requerimientos de Implementación
 1. **Modificar `src/app/layout.tsx`**: Eliminar la etiqueta canónica global del objeto `metadata` para evitar herencias incorrectas.
@@ -33,12 +33,12 @@ Las siguientes rutas están configuradas como redireccionamientos permanentes (3
    - `/contacto` (`src/app/contacto/page.tsx`)
    - `/planes` (`src/app/planes/metadata.ts`)
    - `/test-nivel` (`src/app/test-nivel/page.tsx`)
-4. **Verificar consistencia**: Asegurarse de que todas las URLs canónicas utilicen el dominio base correcto (`https://focus-on-english.com`) y no incluyan rutas redirigidas.
+4. **Verificar consistencia**: Asegurarse de que todas las URLs canónicas utilicen el dominio base correcto (`https://www.focus-on-english.com`) y no incluyan rutas redirigidas.
 5. **Normalización**: Preferir el uso de URLs absolutas o asegurarse de que `metadataBase` esté correctamente configurado para resolver URLs relativas de forma consistente.
 
 ## 5. Criterios de Aceptación
-- La página de inicio tiene su canónica apuntando a `https://focus-on-english.com`.
-- La página de contacto tiene su canónica apuntando a `https://focus-on-english.com/contacto`.
-- La página del blog tiene su canónica apuntando a `https://focus-on-english.com/blog`.
+- La página de inicio tiene su canónica apuntando a `https://www.focus-on-english.com`.
+- La página de contacto tiene su canónica apuntando a `https://www.focus-on-english.com/contacto`.
+- La página del blog tiene su canónica apuntando a `https://www.focus-on-english.com/blog`.
 - Ninguna página indexable tiene una canónica que devuelva un código 301/302.
 - Las páginas de blog y categorías mantienen sus canónicas dinámicas correctas.

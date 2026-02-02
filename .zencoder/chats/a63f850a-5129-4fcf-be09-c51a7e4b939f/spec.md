@@ -17,16 +17,16 @@ Se añadirá una entrada de `alternates` con la URL absoluta en los metadatos de
 
 | Página | Archivo | URL Canónica Final |
 |--------|---------|-------------------|
-| Home | `src/app/page.tsx` | `https://focus-on-english.com` |
-| Blog | `src/app/blog/page.tsx` | `https://focus-on-english.com/blog` |
-| Contacto | `src/app/contacto/page.tsx` | `https://focus-on-english.com/contacto` |
-| Planes | `src/app/planes/metadata.ts` | `https://focus-on-english.com/planes` |
-| Test de Nivel | `src/app/test-nivel/page.tsx` | `https://focus-on-english.com/test-nivel` |
+| Home | `src/app/page.tsx` | `https://www.focus-on-english.com` |
+| Blog | `src/app/blog/page.tsx` | `https://www.focus-on-english.com/blog` |
+| Contacto | `src/app/contacto/page.tsx` | `https://www.focus-on-english.com/contacto` |
+| Planes | `src/app/planes/metadata.ts` | `https://www.focus-on-english.com/planes` |
+| Test de Nivel | `src/app/test-nivel/page.tsx` | `https://www.focus-on-english.com/test-nivel` |
 
 ### 2.3. Normalización de Canónicas Dinámicas
 Se revisarán las páginas dinámicas para asegurar que no utilicen rutas relativas que puedan ser malinterpretadas por los motores de búsqueda si la `metadataBase` cambia.
 
-- **Blog Category**: `src/app/blog/[category]/page.tsx` se actualizará de `/blog/${category}` a `https://focus-on-english.com/blog/${category}` para mayor seguridad.
+- **Blog Category**: `src/app/blog/[category]/page.tsx` se actualizará de `/blog/${category}` a `https://www.focus-on-english.com/blog/${category}` para mayor seguridad.
 - **Blog Article**: `src/app/blog/[category]/[slug]/page.tsx` ya utiliza una URL absoluta correcta.
 
 ## 3. Cambios en la Estructura de Código
@@ -35,17 +35,17 @@ Se revisarán las páginas dinámicas para asegurar que no utilicen rutas relati
 1. **`src/app/layout.tsx`**:
    - Eliminar `alternates` de `export const metadata`.
 2. **`src/app/page.tsx`**:
-   - Añadir `alternates: { canonical: 'https://focus-on-english.com' }` a `metadata`.
+   - Añadir `alternates: { canonical: 'https://www.focus-on-english.com' }` a `metadata`.
 3. **`src/app/blog/page.tsx`**:
-   - Añadir `alternates: { canonical: 'https://focus-on-english.com/blog' }` a `metadata`.
+   - Añadir `alternates: { canonical: 'https://www.focus-on-english.com/blog' }` a `metadata`.
 4. **`src/app/contacto/page.tsx`**:
-   - Añadir `alternates: { canonical: 'https://focus-on-english.com/contacto' }` a `metadata`.
+   - Añadir `alternates: { canonical: 'https://www.focus-on-english.com/contacto' }` a `metadata`.
 5. **`src/app/planes/metadata.ts`**:
-   - Añadir `alternates: { canonical: 'https://focus-on-english.com/planes' }` a `metadata`.
+   - Añadir `alternates: { canonical: 'https://www.focus-on-english.com/planes' }` a `metadata`.
 6. **`src/app/test-nivel/page.tsx`**:
-   - Añadir `alternates: { canonical: 'https://focus-on-english.com/test-nivel' }` a `metadata`.
+   - Añadir `alternates: { canonical: 'https://www.focus-on-english.com/test-nivel' }` a `metadata`.
 7. **`src/app/blog/[category]/page.tsx`**:
-   - Cambiar la canónica relativa por absoluta: `canonical: 'https://focus-on-english.com/blog/${category}'`.
+   - Cambiar la canónica relativa por absoluta: `canonical: 'https://www.focus-on-english.com/blog/${category}'`.
 
 ## 4. Verificación
 1. **Inspección de código**: Revisar que ninguna URL canónica coincida con los `redirects` de `next.config.js`.

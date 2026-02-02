@@ -14,7 +14,7 @@ if (!API_KEY) {
 }
 
 const COURSE_DIR = 'src/content/cursos/ingles-a1';
-const EXERCISES_PER_UNIT = 10;
+const EXERCISES_PER_UNIT = 500;
 
 // Simple Global Vocabulary Tracker to pass to AI as negative constraints if needed
 class GlobalVocabTracker {

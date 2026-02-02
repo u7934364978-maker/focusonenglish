@@ -57,6 +57,11 @@ const nextConfig = {
       
       // ELIMINACIÓN DE PÁGINAS Y RUTAS (SEO 301 a Home)
       {
+        source: '/metodologia',
+        destination: '/',
+        permanent: true,
+      },
+      {
         source: '/cursos/:path*',
         destination: '/',
         permanent: true,

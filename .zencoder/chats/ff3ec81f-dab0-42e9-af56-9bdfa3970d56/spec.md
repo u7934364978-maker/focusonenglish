@@ -28,8 +28,8 @@ We will perform a global replacement of legacy routes with their final destinati
 
 ### 2.3 Canonical URL Fix (Fixing 3XX Canonicals)
 - **Update `src/app/layout.tsx`**:
-    - Change `alternates: { canonical: '/' }` to a dynamic absolute URL approach if possible, or ensure it uses the full domain `https://focus-on-english.com/` without causing redirects.
-    - Since Next.js `metadataBase` is already set to `https://focus-on-english.com`, using `canonical: '/'` should resolve to `https://focus-on-english.com/`. We need to verify if the server forces a trailing slash or removes it, and match that in the canonical.
+    - Change `alternates: { canonical: '/' }` to a dynamic absolute URL approach if possible, or ensure it uses the full domain `https://www.focus-on-english.com/` without causing redirects.
+    - Since Next.js `metadataBase` is already set to `https://www.focus-on-english.com`, using `canonical: '/'` should resolve to `https://www.focus-on-english.com/`. We need to verify if the server forces a trailing slash or removes it, and match that in the canonical.
 - **Update `robots.ts` and `robots.txt`**: Synchronize disallow rules and ensure they don't block pages we want to index.
 
 ### 2.4 Middleware Update
