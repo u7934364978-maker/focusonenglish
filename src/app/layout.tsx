@@ -88,9 +88,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://focus-on-english.com',
-  },
 };
 
 export default function RootLayout({

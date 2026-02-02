@@ -4,172 +4,698 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U3",
-    "unit_title": "My House",
-    "total_duration_minutes": 60
+    "unit_title": "Información personal",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B3",
-      "title": "My House",
+      "title": "Información personal",
       "content": [
         {
-          "interaction_id": "U3_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U3_Ta1-u3-jobs_I1",
+          "text": "John is a very busy (1) in the city. He works in an (2). Every day, he helps (3) and (4) with their problems. He likes his (5) because he can help (6) feel better. In the office, he uses a (7) to write notes. After work, John (8) goes home and relaxes.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "number": 1,
+              "options": [
+                "doctor",
+                "teacher",
+                "nurse",
+                "engineer"
+              ],
+              "correctOption": "doctor",
+              "explanation": "La palabra 'doctor' es correcta porque el texto menciona que John ayuda a personas a sentirse mejor. Las otras opciones no son roles que típicamente se asocian con ayudar a las personas a mejorar su salud."
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "number": 2,
+              "options": [
+                "home",
+                "office",
+                "school",
+                "shop"
+              ],
+              "correctOption": "office",
+              "explanation": "La palabra 'office' es correcta porque es el lugar donde típicamente trabaja un doctor. Las otras opciones no son lugares comunes de trabajo para doctores."
+            },
+            {
+              "number": 3,
+              "options": [
+                "cats",
+                "dogs",
+                "people",
+                "robots"
+              ],
+              "correctOption": "people",
+              "explanation": "La palabra 'people' es correcta porque los doctores ayudan a las personas con sus problemas de salud. Las otras opciones no son correctas porque los doctores no trabajan principalmente con ellos."
+            },
+            {
+              "number": 4,
+              "options": [
+                "patients",
+                "students",
+                "customers",
+                "visitors"
+              ],
+              "correctOption": "patients",
+              "explanation": "La palabra 'patients' es correcta porque se refiere a las personas que reciben atención médica. Las otras opciones no se relacionan directamente con los doctores."
+            },
+            {
+              "number": 5,
+              "options": [
+                "place",
+                "job",
+                "hobby",
+                "game"
+              ],
+              "correctOption": "job",
+              "explanation": "La palabra 'job' es correcta porque John está hablando de su trabajo. Las otras opciones no se ajustan al contexto laboral."
+            },
+            {
+              "number": 6,
+              "options": [
+                "them",
+                "it",
+                "us",
+                "me"
+              ],
+              "correctOption": "them",
+              "explanation": "La palabra 'them' es correcta porque se refiere a 'people' mencionados anteriormente. Las otras opciones no concuerdan gramaticalmente con el contexto."
+            },
+            {
+              "number": 7,
+              "options": [
+                "pencil",
+                "computer",
+                "phone",
+                "book"
+              ],
+              "correctOption": "computer",
+              "explanation": "La palabra 'computer' es correcta porque es común que los doctores usen computadoras para escribir notas. Las otras opciones no son herramientas típicas para escribir notas de trabajo."
+            },
+            {
+              "number": 8,
+              "options": [
+                "quickly",
+                "always",
+                "never",
+                "slowly"
+              ],
+              "correctOption": "always",
+              "explanation": "La palabra 'always' es correcta porque indica una acción habitual después del trabajo. Las otras opciones no tienen el mismo sentido de rutina."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
+          "interaction_id": "U3_Ta1-u3-wh-questions_I0",
+          "questions": [
+            {
+              "sentence": "____ is my cat? It is on the chair.",
+              "answer": "Where",
+              "explanation": "Usamos 'Where' para preguntar sobre un lugar o ubicación.",
+              "points": 1
+            },
+            {
+              "sentence": "____ is your brother? He is ten years old.",
+              "answer": "How old",
+              "explanation": "Usamos 'How old' para preguntar la edad de alguien.",
+              "points": 1
+            },
+            {
+              "sentence": "____ is your favorite color? I like blue.",
+              "answer": "What",
+              "explanation": "Usamos 'What' para preguntar sobre una preferencia o elección.",
+              "points": 1
+            },
+            {
+              "sentence": "____ is he? He is my friend.",
+              "answer": "Who",
+              "explanation": "Usamos 'Who' para preguntar sobre una persona.",
+              "points": 1
+            },
+            {
+              "sentence": "____ is the book? It is green and red.",
+              "answer": "What color",
+              "explanation": "Usamos 'What color' para preguntar sobre los colores.",
+              "points": 1
+            },
+            {
+              "sentence": "____ is your school? It is near the park.",
+              "answer": "Where",
+              "explanation": "Usamos 'Where' para preguntar sobre la ubicación.",
+              "points": 1
+            },
+            {
+              "sentence": "____ are your keys? They are on the table.",
+              "answer": "Where",
+              "explanation": "Usamos 'Where' para preguntar sobre el lugar donde se encuentran objetos.",
+              "points": 1
+            },
+            {
+              "sentence": "____ is she? She is very happy.",
+              "answer": "How",
+              "explanation": "Usamos 'How' para preguntar sobre el estado de ánimo o condición de alguien.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 3 of the A1 course.\"",
-          "correct_answer": true,
+          "interaction_id": "U3_Ta1-u3-be-full_I1",
+          "questions": [
+            {
+              "text": "Look at the dog. _______ brown and very small.",
+              "acceptableAnswers": [
+                "It is",
+                "It's"
+              ],
+              "explanation": "Usamos 'It is' o 'It's' para hablar de animales o cosas. Aquí estamos describiendo un perro.",
+              "points": 1
+            },
+            {
+              "text": "Maria _______ in the kitchen. She is cooking.",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' después de un nombre singular como 'Maria' para indicar que está haciendo algo.",
+              "points": 1
+            },
+            {
+              "text": "Tom and Jerry _______ friends. They play together.",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' con sujetos plurales como 'Tom and Jerry'.",
+              "points": 1
+            },
+            {
+              "text": "My parents _______ at home now. They are watching TV.",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' con sujetos plurales como 'my parents'.",
+              "points": 1
+            },
+            {
+              "text": "This book _______ very interesting!",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' con objetos singulares como 'this book'.",
+              "points": 1
+            },
+            {
+              "text": "The cat _______ sleeping. It's awake now.",
+              "acceptableAnswers": [
+                "is not",
+                "isn't"
+              ],
+              "explanation": "Usamos 'is not' o 'isn't' para negar que el gato está durmiendo.",
+              "points": 1
+            },
+            {
+              "text": "My brother and I _______ in the same class.",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' con 'my brother and I' ya que son dos personas, es plural.",
+              "points": 1
+            },
+            {
+              "text": "The lights _______ on. It's dark in here.",
+              "acceptableAnswers": [
+                "are not",
+                "aren't"
+              ],
+              "explanation": "Usamos 'are not' o 'aren't' para negar que las luces están encendidas.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U3_Ta1-u3-be-full_I2",
+          "title": "Verb To Be Practice",
+          "instructions": "Choose the correct form of 'to be' for each sentence.",
+          "questions": [
             {
-              "id": "w3",
-              "text": "English"
+              "id": "q1",
+              "question": "___ my brother. He is funny.",
+              "options": [
+                "A) He is",
+                "B) She is",
+                "C) It is",
+                "D) We are"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'He is' para hablar sobre un hombre o un niño."
             },
             {
-              "id": "w0",
-              "text": "I"
+              "id": "q2",
+              "question": "___ not sunny today.",
+              "options": [
+                "A) He is",
+                "B) It is",
+                "C) It is not",
+                "D) They are"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Usamos 'It is not' para describir el clima cuando no está soleado."
             },
             {
-              "id": "w2",
-              "text": "learning"
+              "id": "q3",
+              "question": "___ my favorite toys.",
+              "options": [
+                "A) It is",
+                "B) We are",
+                "C) They are",
+                "D) She is"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Usamos 'They are' para hablar sobre objetos en plural."
             },
             {
-              "id": "w1",
-              "text": "am"
+              "id": "q4",
+              "question": "___ my sister and I.",
+              "options": [
+                "A) He is",
+                "B) We are",
+                "C) She is",
+                "D) It is"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'We are' para hablar de nosotros mismos y otra persona."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
+          "interaction_id": "U3_Ta1-u3-be-full_I0",
+          "sentences": [
             {
-              "id": "c3",
-              "text": "No"
+              "id": 1,
+              "words": [
+                "is",
+                "blue",
+                "sky",
+                "The",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "sky",
+                "is",
+                "blue",
+                "."
+              ],
+              "translation": "El cielo es azul.",
+              "hint": "Use a simple subject-verb-object structure with 'is'.",
+              "points": 2
             },
             {
-              "id": "c2",
-              "text": "Bye"
+              "id": 2,
+              "words": [
+                "are",
+                "We",
+                "running",
+                "in",
+                "park",
+                "the",
+                "."
+              ],
+              "correctOrder": [
+                "We",
+                "are",
+                "running",
+                "in",
+                "the",
+                "park",
+                "."
+              ],
+              "translation": "Estamos corriendo en el parque.",
+              "hint": "Begin with the subject and follow with the verb 'are'.",
+              "points": 2
             },
             {
-              "id": "c1",
-              "text": "Hello!"
+              "id": 3,
+              "words": [
+                "is",
+                "happy",
+                "She",
+                "."
+              ],
+              "correctOrder": [
+                "She",
+                "is",
+                "happy",
+                "."
+              ],
+              "translation": "Ella está feliz.",
+              "hint": "Start with the subject and use 'is' for the verb.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "at",
+                "It",
+                "five",
+                "is",
+                "clock",
+                "o'",
+                "."
+              ],
+              "correctOrder": [
+                "It",
+                "is",
+                "five",
+                "o'",
+                "clock",
+                "at",
+                "."
+              ],
+              "translation": "Son las cinco en punto.",
+              "hint": "Use 'It is' to tell the time.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "They",
+                "in",
+                "are",
+                "living",
+                "Spain",
+                "."
+              ],
+              "correctOrder": [
+                "They",
+                "are",
+                "living",
+                "in",
+                "Spain",
+                "."
+              ],
+              "translation": "Ellos están viviendo en España.",
+              "hint": "Start with 'They are' for present continuous.",
+              "points": 2
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Manzana",
-          "correct_answer": "Apple",
+          "interaction_id": "U3_Ta1-u3-wh-questions_I2",
+          "title": "Basic English Practice: Simple Questions",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is the sky on a clear day?",
+              "options": [
+                "A. Blue",
+                "B. Red",
+                "C. Green",
+                "D. Yellow"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción correcta es 'Blue' porque el cielo típicamente es azul en un día despejado."
+            },
+            {
+              "id": "q2",
+              "question": "Where is the cat?",
+              "options": [
+                "A. On the table",
+                "B. In the car",
+                "C. At school",
+                "D. With friends"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Elegimos 'On the table' porque estamos preguntando sobre la ubicación del gato, y 'On the table' es una respuesta común para este tipo de situación."
+            },
+            {
+              "id": "q3",
+              "question": "How old is Anna?",
+              "options": [
+                "A. She is 25",
+                "B. She is tall",
+                "C. She is happy",
+                "D. She likes pizza"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta 'She is 25' es correcta porque responde directamente a la pregunta sobre la edad de Anna."
+            },
+            {
+              "id": "q4",
+              "question": "Who is your teacher?",
+              "options": [
+                "A. Mr. Smith",
+                "B. In the classroom",
+                "C. Very nice",
+                "D. 2 o'clock"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta 'Mr. Smith' es correcta porque 'Who' busca identificar a una persona, y 'Mr. Smith' es un nombre."
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_Ta1-u3-jobs_I0",
+          "questions": [
+            {
+              "sentence": "There ___ one doctor in the small office.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "is",
+              "explanation": "Usamos 'there is' para una sola cosa o persona en singular.",
+              "points": 1
+            },
+            {
+              "sentence": "The teacher is ___ the classroom.",
+              "options": [
+                "in",
+                "on",
+                "under"
+              ],
+              "correctAnswer": "in",
+              "explanation": "Usamos 'in' para indicar que algo está dentro de un lugar.",
+              "points": 1
+            },
+            {
+              "sentence": "These ___ my books for work.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "are",
+              "explanation": "Usamos 'these are' para referirnos a varias cosas cercanas en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "The nurse ___ help the patient.",
+              "options": [
+                "can",
+                "can't"
+              ],
+              "correctAnswer": "can",
+              "explanation": "Usamos 'can' para hablar de una habilidad o posibilidad.",
+              "points": 1
+            },
+            {
+              "sentence": "There ___ two engineers in the office.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "are",
+              "explanation": "Usamos 'there are' para varias cosas o personas en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "The office is ___ the school.",
+              "options": [
+                "next to",
+                "under"
+              ],
+              "correctAnswer": "next to",
+              "explanation": "Usamos 'next to' para indicar que algo está al lado de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "This ___ my job.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "is",
+              "explanation": "Usamos 'this is' para referirnos a una sola cosa cercana en singular.",
+              "points": 1
+            },
+            {
+              "sentence": "The engineer can ___ the machine.",
+              "options": [
+                "fix",
+                "fly"
+              ],
+              "correctAnswer": "fix",
+              "explanation": "Usamos 'fix' porque es una habilidad que un ingeniero puede tener.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U3_Ta1-u3-jobs_I2",
+          "text": "Lisa is a nurse. She (1) ______ very hard at the hospital. She helps the doctors and (2) ______ care of the patients. Lisa loves her (3) ______ because she likes to help people. Her friend, Tom, is an engineer. He (4) ______ in an office. Tom uses a computer to (5) ______ buildings. He likes his job because it is (6) ______. Sarah is a teacher. She works at a school. Sarah (7) ______ English to young children. She thinks her job is very (8) ______.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "number": 1,
+              "options": [
+                "work",
+                "works",
+                "working",
+                "worked"
+              ],
+              "correctOption": "works",
+              "explanation": "La opción correcta es 'works' porque es la forma del verbo para la tercera persona singular en presente simple. Las demás opciones no son correctas gramaticalmente en este contexto."
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "number": 2,
+              "options": [
+                "makes",
+                "takes",
+                "does",
+                "has"
+              ],
+              "correctOption": "takes",
+              "explanation": "'Takes care of' es una frase fija que significa 'cuida de'. Las otras opciones, 'makes', 'does', y 'has', no encajan en este contexto."
+            },
+            {
+              "number": 3,
+              "options": [
+                "work",
+                "employee",
+                "job",
+                "occupation"
+              ],
+              "correctOption": "job",
+              "explanation": "La opción 'job' es correcta porque significa 'trabajo' en el sentido de una ocupación. 'Work' es más general, 'employee' significa 'empleado', y 'occupation' es una palabra más avanzada."
+            },
+            {
+              "number": 4,
+              "options": [
+                "works",
+                "do",
+                "make",
+                "be"
+              ],
+              "correctOption": "works",
+              "explanation": "'Works' es la opción correcta porque se usa en tercera persona para describir lo que alguien hace en su trabajo en presente simple. Las demás opciones no son correctas gramáticamente aquí."
+            },
+            {
+              "number": 5,
+              "options": [
+                "design",
+                "play",
+                "sing",
+                "paint"
+              ],
+              "correctOption": "design",
+              "explanation": "La opción 'design' es correcta porque un ingeniero diseña edificios. 'Play', 'sing', y 'paint' no tienen sentido en este contexto."
+            },
+            {
+              "number": 6,
+              "options": [
+                "boring",
+                "interesting",
+                "easy",
+                "hard"
+              ],
+              "correctOption": "interesting",
+              "explanation": "'Interesting' es la opción correcta porque Tom disfruta su trabajo, lo cual implica que lo encuentra interesante. 'Boring', 'easy', y 'hard' no transmiten la misma idea positiva."
+            },
+            {
+              "number": 7,
+              "options": [
+                "teaches",
+                "write",
+                "learns",
+                "reads"
+              ],
+              "correctOption": "teaches",
+              "explanation": "'Teaches' es la opción correcta porque Sarah es maestra y enseña a los niños. 'Write', 'learns', y 'reads' no son correctas en este contexto."
+            },
+            {
+              "number": 8,
+              "options": [
+                "funny",
+                "sad",
+                "important",
+                "difficult"
+              ],
+              "correctOption": "important",
+              "explanation": "'Important' es la opción correcta porque Sarah considera que su trabajo tiene valor. 'Funny', 'sad', y 'difficult' no reflejan la misma valoración positiva."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 3 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U3_Ta1-u3-wh-questions_I1",
+          "title": "Simple Questions with Everyday Verbs",
+          "instructions": "Choose the best answer for each question.",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": "q1",
+              "question": "What color is the sky on a clear day?",
+              "options": [
+                "A. Blue",
+                "B. Green",
+                "C. Yellow",
+                "D. Red"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Blue' porque el cielo normalmente es azul en un día despejado."
             },
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "q2",
+              "question": "Where is the cat?",
+              "options": [
+                "A. In the box",
+                "B. Under the table",
+                "C. On the chair",
+                "D. Behind the door"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Elegimos 'Under the table' ya que la pregunta usa 'Where', indicando ubicación, y esta es una ubicación común para un gato."
+            },
+            {
+              "id": "q3",
+              "question": "How does he go to school?",
+              "options": [
+                "A. By bike",
+                "B. Walking",
+                "C. By bus",
+                "D. By train"
+              ],
+              "correctAnswer": "C",
+              "explanation": "La respuesta 'By bus' es correcta porque es una forma común de transporte escolar."
+            },
+            {
+              "id": "q4",
+              "question": "Who is your teacher?",
+              "options": [
+                "A. Mr. Smith",
+                "B. A student",
+                "C. An engineer",
+                "D. A doctor"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta 'Mr. Smith' es apropiada porque la pregunta 'Who' pide identificar a una persona específica, en este caso, el maestro."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I80",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
           "mastery_tag": "grammar"
         }
       ]

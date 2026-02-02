@@ -4,730 +4,694 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U2",
-    "unit_title": "Family and Friends",
-    "total_duration_minutes": 60
+    "unit_title": "Presentaciones",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B2",
-      "title": "Family and Friends",
+      "title": "Presentaciones",
       "content": [
         {
-          "interaction_id": "U2_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U2_Ta1-u2-possessives_I1",
+          "sentences": [
             {
-              "id": "p0",
-              "left": "Baby",
-              "right": "Bebé"
+              "id": 1,
+              "words": [
+                "is",
+                "my",
+                "blue",
+                "car",
+                "."
+              ],
+              "correctOrder": [
+                "My",
+                "car",
+                "is",
+                "blue",
+                "."
+              ],
+              "translation": "Mi coche es azul.",
+              "hint": "Use 'my' to show possession of the car.",
+              "points": 2
             },
             {
-              "id": "p1",
-              "left": "Uncle",
-              "right": "Tío"
+              "id": 2,
+              "words": [
+                "your",
+                "pen",
+                "is",
+                "this",
+                "?"
+              ],
+              "correctOrder": [
+                "Is",
+                "this",
+                "your",
+                "pen",
+                "?"
+              ],
+              "translation": "¿Es este tu bolígrafo?",
+              "hint": "Use 'your' to ask if the pen belongs to someone.",
+              "points": 2
             },
             {
-              "id": "p2",
-              "left": "Mother",
-              "right": "Madre"
+              "id": 3,
+              "words": [
+                "red",
+                "house",
+                "is",
+                "our",
+                "."
+              ],
+              "correctOrder": [
+                "Our",
+                "house",
+                "is",
+                "red",
+                "."
+              ],
+              "translation": "Nuestra casa es roja.",
+              "hint": "Use 'our' to indicate that the house belongs to us.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "like",
+                "I",
+                "your",
+                "hat",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "like",
+                "your",
+                "hat",
+                "."
+              ],
+              "translation": "Me gusta tu sombrero.",
+              "hint": "Use 'your' to show the hat belongs to someone.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "is",
+                "my",
+                "favorite",
+                "color",
+                "green",
+                "."
+              ],
+              "correctOrder": [
+                "Green",
+                "is",
+                "my",
+                "favorite",
+                "color",
+                "."
+              ],
+              "translation": "El verde es mi color favorito.",
+              "hint": "Use 'my' to express your preference for the color.",
+              "points": 2
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Does he (have) ________ a brother?",
-          "correct_answer": "have",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My aunt and uncle are visiting us today.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-possessives_I0",
+          "title": "Possessive Adjectives Practice",
+          "instructions": "Choose the correct possessive adjective. Explanations are in Spanish.",
+          "questions": [
             {
-              "id": "w6",
-              "text": "sister"
+              "id": "q1",
+              "question": "This is my book. Is that ____ pen?",
+              "options": [
+                "your",
+                "his",
+                "her",
+                "their"
+              ],
+              "correctAnswer": "your",
+              "explanation": "Usamos 'your' cuando hablamos de algo que pertenece a la persona a la que nos dirigimos. Aquí, la pregunta se refiere a la persona que sostiene la pluma."
             },
             {
-              "id": "w0",
-              "text": "I"
+              "id": "q2",
+              "question": "____ name is John. He is my friend.",
+              "options": [
+                "His",
+                "Her",
+                "Your",
+                "My"
+              ],
+              "correctAnswer": "His",
+              "explanation": "'His' se usa para indicar posesión de algo que pertenece a un hombre o niño. En este caso, el nombre que pertenece a John."
             },
             {
-              "id": "w1",
-              "text": "have"
+              "id": "q3",
+              "question": "I have a cat. ____ name is Whiskers.",
+              "options": [
+                "My",
+                "Its",
+                "Your",
+                "His"
+              ],
+              "correctAnswer": "Its",
+              "explanation": "Usamos 'Its' para indicar posesión de algo perteneciente a un objeto o animal cuando el género no es conocido o no es importante."
             },
             {
-              "id": "w2",
-              "text": "two"
-            },
-            {
-              "id": "w4",
-              "text": "and"
-            },
-            {
-              "id": "w3",
-              "text": "brothers"
-            },
-            {
-              "id": "w5",
-              "text": "one"
+              "id": "q4",
+              "question": "____ mother is a doctor. She helps people.",
+              "options": [
+                "My",
+                "Your",
+                "His",
+                "Their"
+              ],
+              "correctAnswer": "My",
+              "explanation": "'My' se usa para indicar que algo pertenece al hablante. Aquí, la madre pertenece a la persona que habla."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Who is that woman?\"",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-pronouns_I2",
+          "questions": [
             {
-              "id": "c1",
-              "text": "She's my mother."
+              "sentence": "______ is my brother. He likes to play football.",
+              "options": [
+                "He",
+                "She",
+                "It"
+              ],
+              "correct_answer": "He",
+              "explanation": "Usamos 'He' para hablar de una persona masculina.",
+              "points": 1
             },
             {
-              "id": "c2",
-              "text": "She's forty."
+              "sentence": "______ is my pen. It is blue.",
+              "options": [
+                "This",
+                "That",
+                "These"
+              ],
+              "correct_answer": "This",
+              "explanation": "Usamos 'This' para hablar de algo cerca en singular.",
+              "points": 1
             },
             {
-              "id": "c3",
-              "text": "She's fine."
+              "sentence": "______ is your sister? She is very friendly.",
+              "options": [
+                "Who",
+                "Where",
+                "When"
+              ],
+              "correct_answer": "Who",
+              "explanation": "Usamos 'Who' para preguntar por personas.",
+              "points": 1
+            },
+            {
+              "sentence": "______ cat is very small. I love it.",
+              "options": [
+                "My",
+                "Your",
+                "His"
+              ],
+              "correct_answer": "My",
+              "explanation": "Usamos 'My' para mostrar posesión de algo.",
+              "points": 1
+            },
+            {
+              "sentence": "______ she like ice cream? Yes, she does.",
+              "options": [
+                "Do",
+                "Does",
+                "Is"
+              ],
+              "correct_answer": "Does",
+              "explanation": "Usamos 'Does' para preguntas en tercera persona singular en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "______ books are on the table over there.",
+              "options": [
+                "These",
+                "Those",
+                "This"
+              ],
+              "correct_answer": "Those",
+              "explanation": "Usamos 'Those' para hablar de cosas lejos en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "______ often go to the park on Sundays.",
+              "options": [
+                "I",
+                "They",
+                "We"
+              ],
+              "correct_answer": "We",
+              "explanation": "Usamos 'We' para hablar de uno mismo y otras personas juntas.",
+              "points": 1
+            },
+            {
+              "sentence": "______ is the time now? It's 3 o'clock.",
+              "options": [
+                "What",
+                "When",
+                "Who"
+              ],
+              "correct_answer": "What",
+              "explanation": "Usamos 'What' para preguntar por información sobre cosas.",
+              "points": 1
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Padres",
-          "correct_answer": "Parents",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Amigo/a' en inglés?",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-pronouns_I1",
+          "instructions": "Fill in the blanks with the correct personal pronoun: I, you, he, she, it, we, they.",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Grandfather"
+              "sentence": "____ am very happy today.",
+              "answers": [
+                "I"
+              ],
+              "explanation": "Usamos 'I' para hablar de nosotros mismos.",
+              "points": 1
             },
             {
-              "id": "o3",
-              "text": "Father"
+              "sentence": "Lisa has a cat. ____ is very cute.",
+              "answers": [
+                "It"
+              ],
+              "explanation": "Usamos 'it' para referirnos a cosas o animales.",
+              "points": 1
             },
             {
-              "id": "o1",
-              "text": "Friend"
+              "sentence": "Mark is my brother. ____ is 10 years old.",
+              "answers": [
+                "He"
+              ],
+              "explanation": "'He' se usa para referirse a un hombre o niño.",
+              "points": 1
+            },
+            {
+              "sentence": "Anna is my friend. ____ likes to play soccer.",
+              "answers": [
+                "She"
+              ],
+              "explanation": "'She' se usa para referirse a una mujer o niña.",
+              "points": 1
+            },
+            {
+              "sentence": "Tom and Jerry are in the park. ____ are playing football.",
+              "answers": [
+                "They"
+              ],
+              "explanation": "'They' se usa para referirse a más de una persona o cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "My sister and I have a new game. ____ play it every day.",
+              "answers": [
+                "We"
+              ],
+              "explanation": "'We' se usa para referirse a nosotros mismos junto con otras personas.",
+              "points": 1
+            },
+            {
+              "sentence": "____ are my favorite teacher.",
+              "answers": [
+                "You"
+              ],
+              "explanation": "'You' se usa para hablar directamente con alguien.",
+              "points": 1
+            },
+            {
+              "sentence": "The book is on the table. ____ is red.",
+              "answers": [
+                "It"
+              ],
+              "explanation": "'It' se usa para referirse a objetos o animales.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "That is (his/him) ________ car.",
-          "correct_answer": "his",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I two have brothers and one sister.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"How many people are in your family?\"",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-pronouns_I0",
+          "title": "Basic Grammar Exercise: Personal Pronouns and Simple Verbs",
+          "instructions": "Choose the right pronoun for each sentence. Recuerda leer cada opción con atención.",
+          "questions": [
             {
-              "id": "c1",
-              "text": "There are four people."
+              "id": "q1",
+              "question": "___ is my brother and he likes pizza.",
+              "options": [
+                "A. He",
+                "B. She",
+                "C. It",
+                "D. They"
+              ],
+              "correctAnswer": "A. He",
+              "explanation": "Usamos 'He' para hablar de un chico o un hombre. En este caso, 'my brother' es masculino."
             },
             {
-              "id": "c2",
-              "text": "I have a dog."
+              "id": "q2",
+              "question": "Where is the cat? ___ is on the chair.",
+              "options": [
+                "A. He",
+                "B. She",
+                "C. It",
+                "D. They"
+              ],
+              "correctAnswer": "C. It",
+              "explanation": "Usamos 'It' para referirnos a animales o cosas. Aquí hablamos del gato."
             },
             {
-              "id": "c3",
-              "text": "They are happy."
+              "id": "q3",
+              "question": "Lisa is my friend. ___ is very nice.",
+              "options": [
+                "A. He",
+                "B. She",
+                "C. It",
+                "D. They"
+              ],
+              "correctAnswer": "B. She",
+              "explanation": "Usamos 'She' para hablar de una chica o una mujer. En este caso, 'Lisa' es femenino."
+            },
+            {
+              "id": "q4",
+              "question": "My family and I love the beach. ___ go every weekend.",
+              "options": [
+                "A. I",
+                "B. You",
+                "C. We",
+                "D. They"
+              ],
+              "correctAnswer": "C. We",
+              "explanation": "Usamos 'We' para referirnos a un grupo que incluye a la persona que habla. Aquí hablamos de 'My family and I'."
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Niño/a' en inglés?",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-be-basic_I2",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Cousin"
+              "context": "Hello! ___ a new student in the class.",
+              "answer": "I'm",
+              "explanation": "Usamos 'I'm' para decir 'yo soy' en inglés.",
+              "points": 1
             },
             {
-              "id": "o3",
-              "text": "Grandfather"
+              "context": "Hi! How are you? ___ very happy today.",
+              "answer": "I'm",
+              "explanation": "Usamos 'I'm' para expresar un estado actual, por ejemplo, estoy feliz.",
+              "points": 1
             },
             {
-              "id": "o1",
-              "text": "Child"
+              "context": "___ a teacher.",
+              "answer": "I am",
+              "explanation": "Se utiliza 'I am' para presentar una ocupación o rol.",
+              "points": 1
+            },
+            {
+              "context": "Where ___ from? ___ from Spain.",
+              "answer": "are, I'm",
+              "explanation": "Usamos 'are' para preguntar 'de dónde eres' y 'I'm' para responder 'soy de'.",
+              "points": 1
+            },
+            {
+              "context": "___ the best friend I have.",
+              "answer": "You're",
+              "explanation": "Usamos 'You're' para decir 'tú eres' en una oración positiva.",
+              "points": 1
+            },
+            {
+              "context": "What ___ your favorite color? ___ blue.",
+              "answer": "is, It's",
+              "explanation": "Se usa 'is' para preguntar por propiedades u opiniones y 'It's' para responder.",
+              "points": 1
+            },
+            {
+              "context": "___ ready for the game?",
+              "answer": "Are you",
+              "explanation": "Usamos 'Are you' para preguntar si alguien está listo.",
+              "points": 1
+            },
+            {
+              "context": "___ my brother.",
+              "answer": "You're",
+              "explanation": "Usamos 'You're' para afirmar que alguien tiene una relación familiar contigo.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Our lives grandmother in a small village.\"",
-          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hija' en inglés?",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-be-basic_I1",
+          "sentences": [
             {
-              "id": "o1",
-              "text": "Daughter"
+              "id": 1,
+              "words": [
+                "I",
+                "am",
+                "student",
+                "a",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "am",
+                "a",
+                "student",
+                "."
+              ],
+              "translation": "Yo soy un estudiante.",
+              "hint": "Use 'I am' for describing yourself.",
+              "points": 2
             },
             {
-              "id": "o2",
-              "text": "Uncle"
+              "id": 2,
+              "words": [
+                "You",
+                "happy",
+                "are",
+                "."
+              ],
+              "correctOrder": [
+                "You",
+                "are",
+                "happy",
+                "."
+              ],
+              "translation": "Tú estás feliz.",
+              "hint": "Use 'You are' for describing someone else.",
+              "points": 2
             },
             {
-              "id": "o3",
-              "text": "Cousin"
+              "id": 3,
+              "words": [
+                "am",
+                "I",
+                "teacher",
+                "a",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "am",
+                "a",
+                "teacher",
+                "."
+              ],
+              "translation": "Yo soy un maestro.",
+              "hint": "Start with 'I am' for personal statements.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "You",
+                "friend",
+                "my",
+                "are",
+                "."
+              ],
+              "correctOrder": [
+                "You",
+                "are",
+                "my",
+                "friend",
+                "."
+              ],
+              "translation": "Tú eres mi amigo.",
+              "hint": "Begin with 'You are' for statements about others.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "am",
+                "I",
+                "tired",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "am",
+                "tired",
+                "."
+              ],
+              "translation": "Yo estoy cansado.",
+              "hint": "Use 'I am' for expressing feelings.",
+              "points": 2
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I26",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"What's your sister's name?\"",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-be-basic_I0",
+          "questions": [
             {
-              "id": "c2",
-              "text": "His name is Tom."
+              "sentence": "______ (you) my friend from school?",
+              "options": [
+                "Are you",
+                "You are"
+              ],
+              "answer": "Are you",
+              "explanation": "Utilizamos 'Are you' para hacer preguntas sobre la identidad de alguien. 'You are' no es correcto aquí porque no es una pregunta.",
+              "points": 1
             },
             {
-              "id": "c1",
-              "text": "Her name is Alice."
+              "sentence": "I ______ (be) happy today.",
+              "options": [
+                "am",
+                "are"
+              ],
+              "answer": "am",
+              "explanation": "'Am' es la forma correcta del verbo 'be' con 'I'. 'Are' se usa con 'you'.",
+              "points": 1
             },
             {
-              "id": "c3",
-              "text": "I'm Alice."
+              "sentence": "______ (you) a student in my class.",
+              "options": [
+                "You are",
+                "Are you"
+              ],
+              "answer": "You are",
+              "explanation": "Usamos 'You are' para afirmar algo sobre la persona. 'Are you' sería para una pregunta.",
+              "points": 1
+            },
+            {
+              "sentence": "______ (I) your new teacher.",
+              "options": [
+                "I am",
+                "Am I"
+              ],
+              "answer": "I am",
+              "explanation": "'I am' se utiliza para hacer una afirmación sobre uno mismo. 'Am I' sería para una pregunta.",
+              "points": 1
+            },
+            {
+              "sentence": "______ (you) at home now?",
+              "options": [
+                "Are you",
+                "You are"
+              ],
+              "answer": "Are you",
+              "explanation": "Para hacer preguntas sobre la ubicación, usamos 'Are you'. 'You are' sería incorrecto aquí porque no es interrogativo.",
+              "points": 1
+            },
+            {
+              "sentence": "______ (I) ready for the test.",
+              "options": [
+                "I am",
+                "Am I"
+              ],
+              "answer": "I am",
+              "explanation": "Usamos 'I am' para indicar que estamos preparados. 'Am I' es para preguntas.",
+              "points": 1
+            },
+            {
+              "sentence": "Why ______ (you) so quiet today?",
+              "options": [
+                "are you",
+                "you are"
+              ],
+              "answer": "are you",
+              "explanation": "Para preguntar razones, 'are you' es correcto. 'You are' sería una afirmación, no una pregunta.",
+              "points": 1
+            },
+            {
+              "sentence": "______ (I) in the right place?",
+              "options": [
+                "Am I",
+                "I am"
+              ],
+              "answer": "Am I",
+              "explanation": "Con 'Am I', formulamos una pregunta sobre nuestra ubicación. 'I am' sería una afirmación.",
+              "points": 1
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Abuelo' en inglés?",
-          "options": [
+          "interaction_id": "U2_Ta1-u2-possessives_I2",
+          "instructions": "Fill in the blanks with the correct word.",
+          "questions": [
             {
-              "id": "o3",
-              "text": "Cousin"
+              "sentence": "Let's go to the park __ play.",
+              "gap": "to",
+              "explanation": "Usamos 'to' para indicar una acción que sigue un verbo como 'go'.",
+              "points": 1
             },
             {
-              "id": "o2",
-              "text": "Child"
+              "sentence": "The book is __ the table.",
+              "gap": "on",
+              "explanation": "Usamos 'on' para indicar que algo está sobre una superficie.",
+              "points": 1
             },
             {
-              "id": "o1",
-              "text": "Grandfather"
+              "sentence": "__ is your favorite color?",
+              "gap": "What",
+              "explanation": "Usamos 'what' para preguntar por información específica, como un color.",
+              "points": 1
+            },
+            {
+              "sentence": "Open __ door, please.",
+              "gap": "the",
+              "explanation": "Usamos 'the' antes de sustantivos específicos, como una puerta mencionada.",
+              "points": 1
+            },
+            {
+              "sentence": "The cat is __ the chair.",
+              "gap": "under",
+              "explanation": "Usamos 'under' para indicar que algo está directamente debajo de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "Let's __ some ice cream.",
+              "gap": "have",
+              "explanation": "Usamos 'have' para sugerir o proponer una acción, como comer algo.",
+              "points": 1
+            },
+            {
+              "sentence": "Where __ my keys?",
+              "gap": "are",
+              "explanation": "Usamos 'are' para preguntar sobre la ubicación de objetos en plural, como 'keys'.",
+              "points": 1
+            },
+            {
+              "sentence": "The ball is __ the box and the chair.",
+              "gap": "between",
+              "explanation": "Usamos 'between' para indicar que algo está en el medio de dos cosas.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Father"
-            },
-            {
-              "id": "o3",
-              "text": "Aunt"
-            },
-            {
-              "id": "o1",
-              "text": "Pet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I37",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (not/have) ________ any pets.",
-          "correct_answer": "don't have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Her is daughter only three years old.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "Her daughter is only three years old."
-        },
-        {
-          "interaction_id": "U2_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Padre' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Children"
-            },
-            {
-              "id": "o1",
-              "text": "Father"
-            },
-            {
-              "id": "o3",
-              "text": "Mother"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We a have lot of friends at school.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I56",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hijo' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Son"
-            },
-            {
-              "id": "o3",
-              "text": "Child"
-            },
-            {
-              "id": "o2",
-              "text": "Daughter"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I59",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My is mother a very kind person.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "My mother is a very kind person."
-        },
-        {
-          "interaction_id": "U2_I61",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Do you have any brothers?\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "Yes, I have one brother."
-            },
-            {
-              "id": "c3",
-              "text": "He's my friend."
-            },
-            {
-              "id": "c2",
-              "text": "No, I'm not."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U2_I63",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Padres' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Parents"
-            },
-            {
-              "id": "o3",
-              "text": "Cousin"
-            },
-            {
-              "id": "o2",
-              "text": "Grandfather"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I65",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "The (children's/childrens') ________ toys.",
-          "correct_answer": "children's",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I66",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"His is father a famous actor.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "His father is a famous actor."
-        },
-        {
-          "interaction_id": "U2_I68",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Is this your brother?\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "He's from Italy."
-            },
-            {
-              "id": "c1",
-              "text": "No, he's my cousin."
-            },
-            {
-              "id": "c2",
-              "text": "Yes, it is."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U2_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Abuela' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Grandmother"
-            },
-            {
-              "id": "o3",
-              "text": "Parents"
-            },
-            {
-              "id": "o2",
-              "text": "Mother"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I72",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (have) ________ a big family.",
-          "correct_answer": "has",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I73",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"His father is a famous actor.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I77",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tío' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Uncle"
-            },
-            {
-              "id": "o3",
-              "text": "Friend"
-            },
-            {
-              "id": "o2",
-              "text": "Child"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I79",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They like (their/them) ________ school.",
-          "correct_answer": "their",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I80",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I have two brothers and one sister.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I86",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Where is (her/she) ________ sister?",
-          "correct_answer": "her",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I87",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Their is son a very good student.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "Their son is a very good student."
-        },
-        {
-          "interaction_id": "U2_I94",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is my sister's favorite toy.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I98",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Madre' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Children"
-            },
-            {
-              "id": "o1",
-              "text": "Mother"
-            },
-            {
-              "id": "o3",
-              "text": "Pet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I100",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "Whose is this? It is (Maria's/Marias) ________.",
-          "correct_answer": "Maria's",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I105",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Primo/a' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cousin"
-            },
-            {
-              "id": "o3",
-              "text": "Parents"
-            },
-            {
-              "id": "o2",
-              "text": "Daughter"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I107",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is (my/me) ________ book.",
-          "correct_answer": "my",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I115",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We have a lot of friends at school.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I119",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tía' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Aunt"
-            },
-            {
-              "id": "o3",
-              "text": "Father"
-            },
-            {
-              "id": "o2",
-              "text": "Grandfather"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I126",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Niños/as' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Children"
-            },
-            {
-              "id": "o3",
-              "text": "Cousin"
-            },
-            {
-              "id": "o2",
-              "text": "Grandmother"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This my is sister's favorite toy.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I147",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Bebé' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Baby"
-            },
-            {
-              "id": "o2",
-              "text": "Father"
-            },
-            {
-              "id": "o3",
-              "text": "Mother"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I149",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "That is my (father's/fathers) ________ hat.",
-          "correct_answer": "father's",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I163",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (cat) ________ is black.",
-          "correct_answer": "cat",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I164",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My mother is a very kind person.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My grandfather is seventy years old.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I192",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He has a big family with five children.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I198",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (have) ________ two sisters.",
-          "correct_answer": "have",
           "mastery_tag": "grammar"
         }
       ]

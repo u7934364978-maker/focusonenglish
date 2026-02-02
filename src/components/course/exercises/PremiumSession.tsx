@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   X, 
@@ -44,6 +44,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const [selectedCategorizationItem, setSelectedCategorizationItem] = useState<string | null>(null);
   const [showSummary, setShowSummary] = useState(false);
   const [audioCache, setAudioCache] = useState<Record<string, string>>({});
+  
+  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const prefetchingRef = useRef<Set<string>>(new Set());
 
   // Flatten all blocks into a single exercise queue
   const queue = useMemo(() => {
@@ -61,9 +64,17 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
   const playAudio = async (url?: string, text?: string) => {
     if (!url && !text) return;
+    
+    // Stop current audio if playing
+    if (currentAudioRef.current) {
+      currentAudioRef.current.pause();
+      currentAudioRef.current = null;
+    }
+
     try {
       if (url) {
         const audio = new Audio(url);
+        currentAudioRef.current = audio;
         // No acelerar sonidos de sistema
         if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
           audio.playbackRate = 1.1;
@@ -71,30 +82,124 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         await audio.play();
         return;
       }
+      
       if (text) {
-        if (audioCache[text]) {
-          const audio = new Audio(audioCache[text]);
-          audio.playbackRate = 1.1; // Aumentar ligeramente la velocidad para sonar más natural
-          await audio.play();
-          return;
+        let audioUrl = audioCache[text];
+        
+        if (!audioUrl) {
+          const response = await fetch('/api/generate-audio', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text }),
+          });
+          if (!response.ok) throw new Error('Failed to generate audio');
+          const blob = await response.blob();
+          audioUrl = URL.createObjectURL(blob);
+          setAudioCache(prev => ({ ...prev, [text]: audioUrl }));
         }
-        const response = await fetch('/api/generate-audio', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ text }),
-        });
-        if (!response.ok) throw new Error('Failed to generate audio');
-        const blob = await response.blob();
-        const audioUrl = URL.createObjectURL(blob);
-        setAudioCache(prev => ({ ...prev, [text]: audioUrl }));
+
         const audio = new Audio(audioUrl);
-        audio.playbackRate = 1.1; // Aumentar ligeramente la velocidad
+        currentAudioRef.current = audio;
+        audio.playbackRate = 1.1; // Aumentar ligeramente la velocidad para sonar más natural
         await audio.play();
       }
     } catch (e) {
       console.error("Audio play failed", e);
     }
   };
+
+  // Pre-fetch audio logic
+  useEffect(() => {
+    const extractTextsToPreload = (item: any): string[] => {
+      const texts: string[] = [];
+      if (!item) return texts;
+
+      if (item.stimulus_en) texts.push(item.stimulus_en);
+      if (item.prompt_en) texts.push(item.prompt_en);
+      if (item.text) texts.push(item.text);
+      
+      if (item.options) {
+        item.options.forEach((opt: any) => {
+          if (opt.text && isLikelyEnglish(opt.text)) texts.push(opt.text);
+        });
+      }
+
+      if (item.pairs) {
+        item.pairs.forEach((p: any) => {
+          if (p.left && isLikelyEnglish(p.left)) texts.push(p.left);
+          if (p.right && isLikelyEnglish(p.right)) texts.push(p.right);
+        });
+      }
+
+      if (item.profiles) {
+        item.profiles.forEach((p: any) => {
+          if (p.name && p.description) texts.push(`${p.name}. ${p.description}`);
+        });
+      }
+
+      if (item.descriptions) {
+        item.descriptions.forEach((d: any) => {
+          if (d.title && d.content) texts.push(`${d.title}. ${d.content}`);
+        });
+      }
+
+      if (item.main_text) {
+        const fullText = item.main_text.replace(/\[GAP \d+\]/g, '...');
+        texts.push(fullText);
+      }
+
+      if (item.removed_paragraphs) {
+        item.removed_paragraphs.forEach((p: any) => {
+          if (p.text) texts.push(p.text);
+        });
+      }
+
+      const solution = getSolutionText(item);
+      if (solution && isLikelyEnglish(solution)) texts.push(solution);
+
+      if (item.type === 'true_false' && item.correct_sentence_en) {
+          texts.push(item.correct_sentence_en);
+      }
+
+      return [...new Set(texts)].filter(t => t.trim().length > 0);
+    };
+
+    const preloadNextAudios = async () => {
+      // Preload current and next 2 items
+      const itemsToPreload = [
+        queue[currentIndex],
+        queue[currentIndex + 1],
+        queue[currentIndex + 2]
+      ].filter(Boolean);
+
+      const allTexts = itemsToPreload.flatMap(extractTextsToPreload);
+      const uniqueTexts = [...new Set(allTexts)];
+
+      for (const text of uniqueTexts) {
+        if (!audioCache[text] && !prefetchingRef.current.has(text)) {
+          prefetchingRef.current.add(text);
+          try {
+            const response = await fetch('/api/generate-audio', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ text }),
+            });
+            if (response.ok) {
+              const blob = await response.blob();
+              const audioUrl = URL.createObjectURL(blob);
+              setAudioCache(prev => ({ ...prev, [text]: audioUrl }));
+            }
+          } catch (e) {
+            console.error("Prefetch failed for:", text);
+          } finally {
+            prefetchingRef.current.delete(text);
+          }
+        }
+      }
+    };
+
+    preloadNextAudios();
+  }, [currentIndex, queue, audioCache]);
 
   useEffect(() => {
     if (currentItem?.video) {

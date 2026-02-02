@@ -31,8 +31,2531 @@
           "pairs": [
             {
               "id": "p0",
+              "left": "Invention",
+              "right": "The action of inventing something"
+            },
+            {
+              "id": "p1",
+              "left": "Design",
+              "right": "A plan or drawing produced to show the look and function"
+            },
+            {
+              "id": "p2",
+              "left": "Collaborate",
+              "right": "Work jointly on an activity or project"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (read) ________ the biography of Steve Jobs?",
+          "correct_answer": "read",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to find more sustainable resources.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "life-changing"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "telephone"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "invention"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Steve Jobs was a visionary leader in the tech industry.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Work jointly on an activity or project\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Collaborate"
+            },
+            {
+              "id": "o2",
+              "text": "Visionary"
+            },
+            {
+              "id": "o3",
+              "text": "Technique"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            },
+            {
+              "id": "p1",
+              "left": "Patent",
+              "right": "A government authority or license"
+            },
+            {
+              "id": "p2",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the police arrived, the thieves (escape) ________.",
+          "correct_answer": "had escaped",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This revolutionary technology will change everyth.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "video"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "several"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w8",
+              "text": "games"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "creator"
+            },
+            {
+              "id": "w6",
+              "text": "popular"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Collaborate"
+            },
+            {
+              "id": "o1",
+              "text": "Patent"
+            },
+            {
+              "id": "o2",
+              "text": "Design"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Prototype",
+              "right": "A first or preliminary model of something"
+            },
+            {
+              "id": "p1",
+              "left": "Design",
+              "right": "A plan or drawing produced to show the look and function"
+            },
+            {
+              "id": "p2",
               "left": "Discovery",
               "right": "The act of finding or learning something for the first time"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (win) ________ several awards for her designs.",
+          "correct_answer": "has won",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is a successful entrepreneur who started her own company.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "telephone"
+            },
+            {
+              "id": "w5",
+              "text": "invention"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "life-changing"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A first or preliminary model of something\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Invention"
+            },
+            {
+              "id": "o3",
+              "text": "Design"
+            },
+            {
+              "id": "o1",
+              "text": "Prototype"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Invention",
+              "right": "The action of inventing something"
+            },
+            {
+              "id": "p1",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            },
+            {
+              "id": "p2",
+              "left": "Prototype",
+              "right": "A first or preliminary model of something"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I was more creative.",
+          "correct_answer": "wish",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They built a to prototype test the design.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "design"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w9",
+              "text": "and"
+            },
+            {
+              "id": "w10",
+              "text": "modern"
+            },
+            {
+              "id": "w5",
+              "text": "car"
+            },
+            {
+              "id": "w7",
+              "text": "very"
+            },
+            {
+              "id": "w8",
+              "text": "sleek"
+            },
+            {
+              "id": "w4",
+              "text": "new"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"They built a prototype to test the design.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Thinking about or planning the future with imagination\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visionary"
+            },
+            {
+              "id": "o2",
+              "text": "Invention"
+            },
+            {
+              "id": "o3",
+              "text": "Creator"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p1",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            },
+            {
+              "id": "p2",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (inspired) ________ by nature.",
+          "correct_answer": "was inspired",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He collaborated with other experts the on project.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "prototype"
+            },
+            {
+              "id": "w7",
+              "text": "design"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "test"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "built"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She uses a special technique to create her paintings.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Work jointly on an activity or project\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Invention"
+            },
+            {
+              "id": "o1",
+              "text": "Collaborate"
+            },
+            {
+              "id": "o3",
+              "text": "Inspirational"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Design",
+              "right": "A plan or drawing produced to show the look and function"
+            },
+            {
+              "id": "p1",
+              "left": "Inspirational",
+              "right": "Providing or showing creative or spiritual inspiration"
+            },
+            {
+              "id": "p2",
+              "left": "Resource",
+              "right": "A stock or supply of money, materials, staff"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the police arrived, the thieves (escape) ________.",
+          "correct_answer": "had escaped",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a special technique to create her paintings.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "scientific"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "was"
+            },
+            {
+              "id": "w3",
+              "text": "true"
+            },
+            {
+              "id": "w5",
+              "text": "genius"
+            },
+            {
+              "id": "w0",
+              "text": "Einstein"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Patent"
+            },
+            {
+              "id": "o3",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o2",
+              "text": "Invention"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
+            },
+            {
+              "id": "p1",
+              "left": "Patent",
+              "right": "A government authority or license"
+            },
+            {
+              "id": "p2",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I was more creative.",
+          "correct_answer": "wish",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is successful a entrepreneur who started her own company.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "invention"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "life-changing"
+            },
+            {
+              "id": "w1",
+              "text": "telephone"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He collaborated with other experts on the project.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who sets up a business or businesses\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Entrepreneur"
+            },
+            {
+              "id": "o3",
+              "text": "Technique"
+            },
+            {
+              "id": "o2",
+              "text": "Genius"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            },
+            {
+              "id": "p1",
+              "left": "Technique",
+              "right": "A way of carrying out a particular task"
+            },
+            {
+              "id": "p2",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (read) ________ the biography of Steve Jobs?",
+          "correct_answer": "read",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There is huge a market for eco-friendly products.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "test"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "built"
+            },
+            {
+              "id": "w7",
+              "text": "design"
+            },
+            {
+              "id": "w3",
+              "text": "prototype"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Her life story is truly inspirational.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A person who sets up a business or businesses\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Entrepreneur"
+            },
+            {
+              "id": "o3",
+              "text": "Collaborate"
+            },
+            {
+              "id": "o2",
+              "text": "Patent"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            },
+            {
+              "id": "p1",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            },
+            {
+              "id": "p2",
+              "left": "Prototype",
+              "right": "A first or preliminary model of something"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The prototype (build) ________ by the engineers.",
+          "correct_answer": "was built",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The telephone was a life-changing invention.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "invention"
+            },
+            {
+              "id": "w1",
+              "text": "telephone"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "life-changing"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"They built a prototype to test the design.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A first or preliminary model of something\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o2",
+              "text": "Technique"
+            },
+            {
+              "id": "o1",
+              "text": "Prototype"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            },
+            {
+              "id": "p1",
+              "left": "Prototype",
+              "right": "A first or preliminary model of something"
+            },
+            {
+              "id": "p2",
+              "left": "Market",
+              "right": "An area or arena in which commercial dealings are conducted"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (invent) ________ a time machine, I would visit the past.",
+          "correct_answer": "invented",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Steve was Jobs a visionary leader in the tech industry.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "will"
+            },
+            {
+              "id": "w5",
+              "text": "everything"
+            },
+            {
+              "id": "w4",
+              "text": "change"
+            },
+            {
+              "id": "w2",
+              "text": "technology"
+            },
+            {
+              "id": "w1",
+              "text": "revolutionary"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I60",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Involving or causing a complete or dramatic change\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o2",
+              "text": "Genius"
+            },
+            {
+              "id": "o3",
+              "text": "Prototype"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Invention",
+              "right": "The action of inventing something"
+            },
+            {
+              "id": "p1",
+              "left": "Market",
+              "right": "An area or arena in which commercial dealings are conducted"
+            },
+            {
+              "id": "p2",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (invent) ________ a time machine, I would visit the past.",
+          "correct_answer": "invented",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her life story is truly inspirational.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "huge"
+            },
+            {
+              "id": "w7",
+              "text": "products"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "eco-friendly"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w4",
+              "text": "market"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She uses a special technique to create her paintings.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way of carrying out a particular task\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Genius"
+            },
+            {
+              "id": "o1",
+              "text": "Technique"
+            },
+            {
+              "id": "o3",
+              "text": "Revolutionary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Collaborate",
+              "right": "Work jointly on an activity or project"
+            },
+            {
+              "id": "p1",
+              "left": "Inspirational",
+              "right": "Providing or showing creative or spiritual inspiration"
+            },
+            {
+              "id": "p2",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (inspired) ________ by nature.",
+          "correct_answer": "was inspired",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein was a true scientific genius.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "huge"
+            },
+            {
+              "id": "w7",
+              "text": "products"
+            },
+            {
+              "id": "w6",
+              "text": "eco-friendly"
+            },
+            {
+              "id": "w4",
+              "text": "market"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The discovery of fire was a turning point for humanity.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Providing or showing creative or spiritual inspiration\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Market"
+            },
+            {
+              "id": "o3",
+              "text": "Entrepreneur"
+            },
+            {
+              "id": "o1",
+              "text": "Inspirational"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p1",
+              "left": "Resource",
+              "right": "A stock or supply of money, materials, staff"
+            },
+            {
+              "id": "p2",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I was more creative.",
+          "correct_answer": "wish",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The telephone was a life-changing invention.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "new"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "sleek"
+            },
+            {
+              "id": "w9",
+              "text": "and"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "design"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "modern"
+            },
+            {
+              "id": "w5",
+              "text": "car"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She uses a special technique to create her paintings.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Entrepreneur"
+            },
+            {
+              "id": "o2",
+              "text": "Visionary"
+            },
+            {
+              "id": "o1",
+              "text": "Patent"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            },
+            {
+              "id": "p1",
+              "left": "Technique",
+              "right": "A way of carrying out a particular task"
+            },
+            {
+              "id": "p2",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I was more creative.",
+          "correct_answer": "wish",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Steve Jobs was a visionary leader in the tech industry.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "point"
+            },
+            {
+              "id": "w1",
+              "text": "discovery"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "fire"
+            },
+            {
+              "id": "w8",
+              "text": "for"
+            },
+            {
+              "id": "w9",
+              "text": "humanity"
+            },
+            {
+              "id": "w4",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "turning"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Discovery"
+            },
+            {
+              "id": "o1",
+              "text": "Patent"
+            },
+            {
+              "id": "o3",
+              "text": "Revolutionary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Patent",
+              "right": "A government authority or license"
+            },
+            {
+              "id": "p1",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            },
+            {
+              "id": "p2",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The patent (expire) ________ last year.",
+          "correct_answer": "expired",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There is a huge market for products. eco-friendly\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "creator"
+            },
+            {
+              "id": "w6",
+              "text": "popular"
+            },
+            {
+              "id": "w8",
+              "text": "games"
+            },
+            {
+              "id": "w7",
+              "text": "video"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "several"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He collaborated with other experts on the project.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who brings something into existence\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o1",
+              "text": "Creator"
+            },
+            {
+              "id": "o2",
+              "text": "Invention"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Collaborate",
+              "right": "Work jointly on an activity or project"
+            },
+            {
+              "id": "p1",
+              "left": "Resource",
+              "right": "A stock or supply of money, materials, staff"
+            },
+            {
+              "id": "p2",
+              "left": "Inspirational",
+              "right": "Providing or showing creative or spiritual inspiration"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "After he (eat) ________, he felt much better.",
+          "correct_answer": "had eaten",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is a successful entrepreneur who started own her company.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "technology"
+            },
+            {
+              "id": "w4",
+              "text": "change"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "will"
+            },
+            {
+              "id": "w1",
+              "text": "revolutionary"
+            },
+            {
+              "id": "w5",
+              "text": "everything"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Einstein was a true scientific genius.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Exceptional intellectual or creative power\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Inspirational"
+            },
+            {
+              "id": "o3",
+              "text": "Design"
+            },
+            {
+              "id": "o1",
+              "text": "Genius"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            },
+            {
+              "id": "p1",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p2",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "After he (eat) ________, he felt much better.",
+          "correct_answer": "had eaten",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She applied for a patent for her new invention.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "several"
+            },
+            {
+              "id": "w3",
+              "text": "creator"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w6",
+              "text": "popular"
+            },
+            {
+              "id": "w7",
+              "text": "video"
+            },
+            {
+              "id": "w8",
+              "text": "games"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Einstein was a true scientific genius.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A stock or supply of money, materials, staff\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Patent"
+            },
+            {
+              "id": "o1",
+              "text": "Resource"
+            },
+            {
+              "id": "o2",
+              "text": "Visionary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Market",
+              "right": "An area or arena in which commercial dealings are conducted"
+            },
+            {
+              "id": "p1",
+              "left": "Technique",
+              "right": "A way of carrying out a particular task"
+            },
+            {
+              "id": "p2",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I104",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (finish/already) ________ the book when I arrived.",
+          "correct_answer": "had already finished",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to find more sustainable resources.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "test"
+            },
+            {
+              "id": "w7",
+              "text": "design"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "built"
+            },
+            {
+              "id": "w3",
+              "text": "prototype"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"They built a prototype to test the design.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I108",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of inventing something\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Prototype"
+            },
+            {
+              "id": "o1",
+              "text": "Invention"
+            },
+            {
+              "id": "o3",
+              "text": "Inspirational"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
             },
             {
               "id": "p1",
@@ -53,51 +2576,192 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I2",
+          "interaction_id": "U22_I110",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "By the time the police arrived, the thieves (escape) ________.",
-          "correct_answer": "had escaped",
+          "stimulus_en": "She (live) ________ in Paris before she moved to London.",
+          "correct_answer": "had lived",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I3",
+          "interaction_id": "U22_I111",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He collaborated other with experts on the project.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a technique special to create her paintings.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I4",
+          "interaction_id": "U22_I112",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "life-changing"
+              "id": "w0",
+              "text": "They"
             },
             {
-              "id": "w3",
-              "text": "a"
+              "id": "w6",
+              "text": "the"
             },
             {
               "id": "w2",
-              "text": "was"
+              "text": "a"
             },
             {
-              "id": "w0",
-              "text": "The"
+              "id": "w7",
+              "text": "design"
+            },
+            {
+              "id": "w3",
+              "text": "prototype"
+            },
+            {
+              "id": "w5",
+              "text": "test"
+            },
+            {
+              "id": "w1",
+              "text": "built"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Einstein was a true scientific genius.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Providing or showing creative or spiritual inspiration\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Patent"
+            },
+            {
+              "id": "o2",
+              "text": "Technique"
+            },
+            {
+              "id": "o1",
+              "text": "Inspirational"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            },
+            {
+              "id": "p1",
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
+            },
+            {
+              "id": "p2",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (develop) ________ this software for two years.",
+          "correct_answer": "have been developing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein was true a scientific genius.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "was"
             },
             {
               "id": "w1",
               "text": "telephone"
             },
             {
+              "id": "w4",
+              "text": "life-changing"
+            },
+            {
               "id": "w5",
               "text": "invention"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -111,81 +2775,18 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U22_I5",
+          "interaction_id": "U22_I119",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"There is a huge market for eco-friendly products.\"",
+          "stimulus_en": "Speaker A: \"She is a successful entrepreneur who started her own company.\"",
           "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U22_I6",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A plan or drawing produced to show the look and function\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Entrepreneur"
             },
-            {
-              "id": "o3",
-              "text": "Market"
-            },
-            {
-              "id": "o1",
-              "text": "Design"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I8",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (win) ________ several awards for her designs.",
-          "correct_answer": "has won",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The telephone a was life-changing invention.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Einstein was a true scientific genius.\"",
-          "options": [
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
             },
             {
               "id": "r3",
@@ -197,61 +2798,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I12",
+          "interaction_id": "U22_I120",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The action of inventing something\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who brings something into existence\"",
           "options": [
             {
-              "id": "o3",
-              "text": "Entrepreneur"
+              "id": "o2",
+              "text": "Genius"
             },
             {
               "id": "o1",
-              "text": "Invention"
-            },
-            {
-              "id": "o2",
-              "text": "Collaborate"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I14",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "They (develop) ________ this software for two years.",
-          "correct_answer": "have been developing",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of fire was a point turning for humanity.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I18",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A first or preliminary model of something\"",
-          "options": [
-            {
-              "id": "o3",
               "text": "Creator"
             },
             {
-              "id": "o2",
-              "text": "Revolutionary"
-            },
-            {
-              "id": "o1",
-              "text": "Prototype"
+              "id": "o3",
+              "text": "Inspirational"
             }
           ],
           "correct_answer": "o1",
@@ -259,61 +2820,129 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I20",
+          "interaction_id": "U22_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inspirational",
+              "right": "Providing or showing creative or spiritual inspiration"
+            },
+            {
+              "id": "p1",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p2",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I122",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "He (finish/already) ________ the book when I arrived.",
-          "correct_answer": "had already finished",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "After he (eat) ________, he felt much better.",
+          "correct_answer": "had eaten",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I21",
+          "interaction_id": "U22_I123",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The telephone was a life-chang invention.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is the creator of popular several video games.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I23",
+          "interaction_id": "U22_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Her"
+            },
+            {
+              "id": "w4",
+              "text": "truly"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "inspirational"
+            },
+            {
+              "id": "w2",
+              "text": "story"
+            },
+            {
+              "id": "w1",
+              "text": "life"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I125",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"They built a prototype to test the design.\"",
+          "stimulus_en": "Speaker A: \"He collaborated with other experts on the project.\"",
           "options": [
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
             },
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
               "id": "r19",
               "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
             }
           ],
-          "correct_answer": "r3",
+          "correct_answer": "r2",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I24",
+          "interaction_id": "U22_I126",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A government authority or license\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way of carrying out a particular task\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Collaborate"
-            },
-            {
               "id": "o1",
-              "text": "Patent"
+              "text": "Technique"
             },
             {
               "id": "o3",
+              "text": "Revolutionary"
+            },
+            {
+              "id": "o2",
               "text": "Market"
             }
           ],
@@ -322,24 +2951,112 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I27",
+          "interaction_id": "U22_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
+            },
+            {
+              "id": "p1",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            },
+            {
+              "id": "p2",
+              "left": "Technique",
+              "right": "A way of carrying out a particular task"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the police arrived, the thieves (escape) ________.",
+          "correct_answer": "had escaped",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I129",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He collaborated with other experts the on project.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He collaborated with other on experts the project.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Her life story is truly inspirational.\"",
+          "interaction_id": "U22_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "w0",
+              "text": "He"
             },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "creator"
+            },
+            {
+              "id": "w7",
+              "text": "video"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "several"
+            },
+            {
+              "id": "w6",
+              "text": "popular"
+            },
+            {
+              "id": "w8",
+              "text": "games"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She applied for a patent for her new invention.\"",
+          "options": [
             {
               "id": "r2",
               "text": "I completely agree, it makes sense."
@@ -347,24 +3064,28 @@
             {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
-          "correct_answer": "r3",
+          "correct_answer": "r1",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I30",
+          "interaction_id": "U22_I132",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A way of carrying out a particular task\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The act of finding or learning something for the first time\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Resource"
+              "id": "o1",
+              "text": "Discovery"
             },
             {
-              "id": "o1",
-              "text": "Technique"
+              "id": "o2",
+              "text": "Prototype"
             },
             {
               "id": "o3",
@@ -376,35 +3097,388 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I32",
+          "interaction_id": "U22_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Collaborate",
+              "right": "Work jointly on an activity or project"
+            },
+            {
+              "id": "p1",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            },
+            {
+              "id": "p2",
+              "left": "Invention",
+              "right": "The action of inventing something"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I134",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (launch) ________ the new product next spring.",
-          "correct_answer": "are launching",
+          "stimulus_en": "She (live) ________ in Paris before she moved to London.",
+          "correct_answer": "had lived",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I33",
+          "interaction_id": "U22_I135",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is the creator of several popular video games.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She applied for a patent for her new invention.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I36",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A person who sets up a business or businesses\"",
+          "interaction_id": "U22_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Entrepreneur"
+              "id": "w4",
+              "text": "life-changing"
+            },
+            {
+              "id": "w1",
+              "text": "telephone"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "invention"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He is the creator of several popular video games.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Design"
             },
             {
               "id": "o3",
+              "text": "Visionary"
+            },
+            {
+              "id": "o1",
+              "text": "Patent"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            },
+            {
+              "id": "p1",
+              "left": "Technique",
+              "right": "A way of carrying out a particular task"
+            },
+            {
+              "id": "p2",
+              "left": "Resource",
+              "right": "A stock or supply of money, materials, staff"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (develop) ________ this software for two years.",
+          "correct_answer": "have been developing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to find more sustainable resources.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "story"
+            },
+            {
+              "id": "w1",
+              "text": "life"
+            },
+            {
+              "id": "w0",
+              "text": "Her"
+            },
+            {
+              "id": "w5",
+              "text": "inspirational"
+            },
+            {
+              "id": "w4",
+              "text": "truly"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He is the creator of several popular video games.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The act of finding or learning something for the first time\"",
+          "options": [
+            {
+              "id": "o1",
               "text": "Discovery"
+            },
+            {
+              "id": "o3",
+              "text": "Technique"
+            },
+            {
+              "id": "o2",
+              "text": "Design"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inspirational",
+              "right": "Providing or showing creative or spiritual inspiration"
+            },
+            {
+              "id": "p1",
+              "left": "Prototype",
+              "right": "A first or preliminary model of something"
+            },
+            {
+              "id": "p2",
+              "left": "Collaborate",
+              "right": "Work jointly on an activity or project"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The patent (expire) ________ last year.",
+          "correct_answer": "expired",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is the creator several of popular video games.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "inspirational"
+            },
+            {
+              "id": "w1",
+              "text": "life"
+            },
+            {
+              "id": "w4",
+              "text": "truly"
+            },
+            {
+              "id": "w2",
+              "text": "story"
+            },
+            {
+              "id": "w0",
+              "text": "Her"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I150",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A plan or drawing produced to show the look and function\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Design"
+            },
+            {
+              "id": "o3",
+              "text": "Technique"
             },
             {
               "id": "o2",
@@ -416,33 +3490,112 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I38",
+          "interaction_id": "U22_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genius",
+              "right": "Exceptional intellectual or creative power"
+            },
+            {
+              "id": "p1",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            },
+            {
+              "id": "p2",
+              "left": "Technique",
+              "right": "A way of carrying out a particular task"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I152",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (wish) ________ I was more creative.",
-          "correct_answer": "wish",
+          "stimulus_en": "After he (eat) ________, he felt much better.",
+          "correct_answer": "had eaten",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I39",
+          "interaction_id": "U22_I153",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is the creator of popular several video games.\"",
-          "correct_answer": false,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a special technique to create her paintings.\"",
+          "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I41",
+          "interaction_id": "U22_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "paintings"
+            },
+            {
+              "id": "w4",
+              "text": "technique"
+            },
+            {
+              "id": "w6",
+              "text": "create"
+            },
+            {
+              "id": "w1",
+              "text": "uses"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w7",
+              "text": "her"
+            },
+            {
+              "id": "w3",
+              "text": "special"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I155",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
           "stimulus_en": "Speaker A: \"This revolutionary technology will change everything.\"",
           "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
             {
               "id": "r3",
               "text": "Could you tell me more? I'm curious."
@@ -450,145 +3603,32 @@
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U22_I42",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Thinking about or planning the future with imagination\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Revolutionary"
-            },
-            {
-              "id": "o1",
-              "text": "Visionary"
-            },
-            {
-              "id": "o3",
-              "text": "Inspirational"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses special a technique to create her paintings.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She is a successful entrepreneur who started her own company.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             }
           ],
-          "correct_answer": "r5",
+          "correct_answer": "r4",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I48",
+          "interaction_id": "U22_I156",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A plan or drawing produced to show the look and function\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Providing or showing creative or spiritual inspiration\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Invention"
-            },
-            {
-              "id": "o3",
+              "id": "o1",
               "text": "Inspirational"
             },
             {
-              "id": "o1",
-              "text": "Design"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I50",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The prototype (build) ________ by the engineers.",
-          "correct_answer": "was built",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I51",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He collaborated with other experts on the project.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I53",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He collaborated with other experts on the project.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U22_I54",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Involving or causing a complete or dramatic change\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Revolutionary"
-            },
-            {
               "id": "o2",
-              "text": "Invention"
+              "text": "Genius"
             },
             {
               "id": "o3",
-              "text": "Technique"
+              "text": "Patent"
             }
           ],
           "correct_answer": "o1",
@@ -596,7 +3636,35 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I56",
+          "interaction_id": "U22_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Patent",
+              "right": "A government authority or license"
+            },
+            {
+              "id": "p1",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            },
+            {
+              "id": "p2",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I158",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
           "stimulus_en": "If I (invent) ________ a time machine, I would visit the past.",
@@ -605,184 +3673,208 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I57",
+          "interaction_id": "U22_I159",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to find sustainable more resources.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She is a successful entrepreneur who her started own company.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I59",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The discovery of fire was a turning point for humanity.\"",
+          "interaction_id": "U22_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
+              "id": "w5",
+              "text": "inspirational"
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "w0",
+              "text": "Her"
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "w2",
+              "text": "story"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "life"
+            },
+            {
+              "id": "w4",
+              "text": "truly"
             }
           ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U22_I60",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A stock or supply of money, materials, staff\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Resource"
-            },
-            {
-              "id": "o3",
-              "text": "Entrepreneur"
-            },
-            {
-              "id": "o2",
-              "text": "Design"
-            }
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
           ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U22_I62",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (recognize/not) ________ him because he had grown a beard.",
-          "correct_answer": "didn't recognize",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Steve Jobs was a visionary leader the in tech industry.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I65",
+          "interaction_id": "U22_I161",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She uses a special technique to create her paintings.\"",
+          "stimulus_en": "Speaker A: \"She is a successful entrepreneur who started her own company.\"",
           "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
             {
               "id": "r4",
               "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U22_I66",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The action of inventing something\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Entrepreneur"
-            },
-            {
-              "id": "o1",
-              "text": "Invention"
-            },
-            {
-              "id": "o2",
-              "text": "Resource"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I68",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "She (live) ________ in Paris before she moved to London.",
-          "correct_answer": "had lived",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This revolutionary technology will change everything.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I72",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A way of carrying out a particular task\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Resource"
-            },
-            {
-              "id": "o3",
-              "text": "Invention"
-            },
-            {
-              "id": "o1",
-              "text": "Technique"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I75",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Steve Jobs was a visionary leader in the tech industry.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I77",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The design of the new car is very sleek and modern.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r19",
               "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Collaborate"
+            },
+            {
+              "id": "o2",
+              "text": "Market"
+            },
+            {
+              "id": "o1",
+              "text": "Patent"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Invention",
+              "right": "The action of inventing something"
+            },
+            {
+              "id": "p1",
+              "left": "Resource",
+              "right": "A stock or supply of money, materials, staff"
+            },
+            {
+              "id": "p2",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The patent (expire) ________ last year.",
+          "correct_answer": "expired",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of fire was a turning point for humanity.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "with"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "other"
+            },
+            {
+              "id": "w7",
+              "text": "project"
+            },
+            {
+              "id": "w4",
+              "text": "experts"
+            },
+            {
+              "id": "w1",
+              "text": "collaborated"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"They built a prototype to test the design.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r15",
@@ -794,21 +3886,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I78",
+          "interaction_id": "U22_I168",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Providing or showing creative or spiritual inspiration\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Thinking about or planning the future with imagination\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Discovery"
-            },
-            {
               "id": "o1",
-              "text": "Inspirational"
+              "text": "Visionary"
             },
             {
               "id": "o3",
-              "text": "Invention"
+              "text": "Prototype"
+            },
+            {
+              "id": "o2",
+              "text": "Resource"
             }
           ],
           "correct_answer": "o1",
@@ -816,101 +3908,285 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her life story is truly inspirational.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I83",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"We need to find more sustainable resources.\"",
-          "options": [
+          "interaction_id": "U22_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
+              "id": "p0",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
             },
             {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
+              "id": "p1",
+              "left": "Patent",
+              "right": "A government authority or license"
             },
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "p2",
+              "left": "Prototype",
+              "right": "A first or preliminary model of something"
             }
           ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U22_I84",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Exceptional intellectual or creative power\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Design"
-            },
-            {
-              "id": "o1",
-              "text": "Genius"
-            },
-            {
-              "id": "o3",
-              "text": "Revolutionary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I86",
+          "interaction_id": "U22_I170",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (hear/never) ________ of this inventor before.",
-          "correct_answer": "had never heard",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (develop) ________ this software for two years.",
+          "correct_answer": "have been developing",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I87",
+          "interaction_id": "U22_I171",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein was a scientific true genius.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to find more sustainable resources.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This revolutionary technology will change everything.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I96",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"An area or arena in which commercial dealings are conducted\"",
+          "interaction_id": "U22_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
+            {
+              "id": "w3",
+              "text": "creator"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "games"
+            },
+            {
+              "id": "w6",
+              "text": "popular"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "video"
+            },
+            {
+              "id": "w5",
+              "text": "several"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The telephone was a life-changing invention.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I174",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A government authority or license\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Patent"
+            },
+            {
+              "id": "o3",
+              "text": "Resource"
+            },
+            {
+              "id": "o2",
+              "text": "Visionary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
+            },
+            {
+              "id": "p1",
+              "left": "Creator",
+              "right": "A person who brings something into existence"
+            },
+            {
+              "id": "p2",
+              "left": "Design",
+              "right": "A plan or drawing produced to show the look and function"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (invent) ________ a time machine, I would visit the past.",
+          "correct_answer": "invented",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is the creator of several popular video games.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "other"
+            },
+            {
+              "id": "w4",
+              "text": "experts"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w2",
+              "text": "with"
+            },
+            {
+              "id": "w7",
+              "text": "project"
+            },
+            {
+              "id": "w1",
+              "text": "collaborated"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He is the creator of several popular video games.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An area or arena in which commercial dealings are conducted\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Technique"
+            },
             {
               "id": "o1",
               "text": "Market"
             },
             {
               "id": "o3",
-              "text": "Collaborate"
-            },
-            {
-              "id": "o2",
               "text": "Invention"
             }
           ],
@@ -919,129 +4195,119 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I98",
+          "interaction_id": "U22_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
+            },
+            {
+              "id": "p1",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p2",
+              "left": "Market",
+              "right": "An area or arena in which commercial dealings are conducted"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I182",
           "type": "transformation",
           "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "The patent (expire) ________ last year.",
-          "correct_answer": "expired",
+          "stimulus_en": "After he (eat) ________, he felt much better.",
+          "correct_answer": "had eaten",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I99",
+          "interaction_id": "U22_I183",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"There is a huge market for eco-friendly products.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of fire was a turning point for humanity.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The act of finding or learning something for the first time\"",
+          "interaction_id": "U22_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Discovery"
+              "id": "w5",
+              "text": "for"
             },
             {
-              "id": "o3",
-              "text": "Entrepreneur"
+              "id": "w8",
+              "text": "invention"
             },
             {
-              "id": "o2",
-              "text": "Design"
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "applied"
+            },
+            {
+              "id": "w4",
+              "text": "patent"
+            },
+            {
+              "id": "w7",
+              "text": "new"
+            },
+            {
+              "id": "w6",
+              "text": "her"
+            },
+            {
+              "id": "w2",
+              "text": "for"
+            },
+            {
+              "id": "w3",
+              "text": "a"
             }
           ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She applied a for patent for her new invention.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I114",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Providing or showing creative or spiritual inspiration\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Creator"
-            },
-            {
-              "id": "o1",
-              "text": "Inspirational"
-            },
-            {
-              "id": "o2",
-              "text": "Discovery"
-            }
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
           ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U22_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein a was true scientific genius.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I120",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A plan or drawing produced to show the look and function\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Inspirational"
-            },
-            {
-              "id": "o2",
-              "text": "Genius"
-            },
-            {
-              "id": "o1",
-              "text": "Design"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a special technique to create her paintings.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I125",
+          "interaction_id": "U22_I185",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He is the creator of several popular video games.\"",
+          "stimulus_en": "Speaker A: \"Her life story is truly inspirational.\"",
           "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
             {
               "id": "r5",
               "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             },
             {
               "id": "r2",
@@ -1053,21 +4319,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I132",
+          "interaction_id": "U22_I186",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Involving or causing a complete or dramatic change\"",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Work jointly on an activity or project\"",
           "options": [
             {
-              "id": "o2",
-              "text": "Invention"
-            },
-            {
               "id": "o3",
-              "text": "Entrepreneur"
+              "text": "Revolutionary"
             },
             {
               "id": "o1",
-              "text": "Revolutionary"
+              "text": "Collaborate"
+            },
+            {
+              "id": "o2",
+              "text": "Design"
             }
           ],
           "correct_answer": "o1",
@@ -1075,31 +4341,249 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I135",
+          "interaction_id": "U22_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p1",
+              "left": "Collaborate",
+              "right": "Work jointly on an activity or project"
+            },
+            {
+              "id": "p2",
+              "left": "Resource",
+              "right": "A stock or supply of money, materials, staff"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (win) ________ several awards for her designs.",
+          "correct_answer": "has won",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I189",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They built a prototype to test the design.\"",
-          "correct_answer": true,
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The discovery of was fire a turning point for humanity.\"",
+          "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Steve Jobs was a visionary leader in the tech industry.\"",
+          "interaction_id": "U22_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w6",
+              "text": "eco-friendly"
+            },
+            {
+              "id": "w3",
+              "text": "huge"
+            },
+            {
+              "id": "w7",
+              "text": "products"
+            },
+            {
+              "id": "w4",
+              "text": "market"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I191",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"There is a huge market for eco-friendly products.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I192",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The act of finding or learning something for the first time\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Collaborate"
+            },
+            {
+              "id": "o1",
+              "text": "Discovery"
+            },
+            {
+              "id": "o2",
+              "text": "Entrepreneur"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inspirational",
+              "right": "Providing or showing creative or spiritual inspiration"
+            },
+            {
+              "id": "p1",
+              "left": "Invention",
+              "right": "The action of inventing something"
+            },
+            {
+              "id": "p2",
+              "left": "Visionary",
+              "right": "Thinking about or planning the future with imagination"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (live) ________ in Paris before she moved to London.",
+          "correct_answer": "had lived",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This revolutionary will technology change everything.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "inspirational"
+            },
+            {
+              "id": "w2",
+              "text": "story"
+            },
+            {
+              "id": "w4",
+              "text": "truly"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "life"
+            },
+            {
+              "id": "w0",
+              "text": "Her"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I197",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She is a successful entrepreneur who started her own company.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
             }
           ],
           "correct_answer": "r10",
@@ -1107,93 +4591,21 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U22_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The design of the new car is very sleek and modern.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I144",
+          "interaction_id": "U22_I198",
           "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Providing or showing creative or spiritual inspiration\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The act of finding or learning something for the first time\"",
           "options": [
-            {
-              "id": "o3",
-              "text": "Genius"
-            },
             {
               "id": "o1",
-              "text": "Inspirational"
-            },
-            {
-              "id": "o2",
-              "text": "Discovery"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"They built a prototype to test design. the\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "They built a prototype to test design."
-        },
-        {
-          "interaction_id": "U22_I150",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Thinking about or planning the future with imagination\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Creator"
-            },
-            {
-              "id": "o2",
               "text": "Discovery"
             },
             {
-              "id": "o1",
-              "text": "Visionary"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U22_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She uses a special to technique create her paintings.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A way of carrying out a particular task\"",
-          "options": [
-            {
               "id": "o3",
-              "text": "Resource"
+              "text": "Revolutionary"
             },
             {
               "id": "o2",
-              "text": "Patent"
-            },
-            {
-              "id": "o1",
-              "text": "Technique"
+              "text": "Prototype"
             }
           ],
           "correct_answer": "o1",
@@ -1201,39 +4613,40 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Steve Jobs was a visionary leader in tech the industry.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
+          "interaction_id": "U22_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Entrepreneur",
+              "right": "A person who sets up a business or businesses"
+            },
+            {
+              "id": "p1",
+              "left": "Discovery",
+              "right": "The act of finding or learning something for the first time"
+            },
+            {
+              "id": "p2",
+              "left": "Revolutionary",
+              "right": "Involving or causing a complete or dramatic change"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He is the creator of several popular games. video\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Einstein was a true scientific genius.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U22_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The telephone was a life-changing invention.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "interaction_id": "U22_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (win) ________ several awards for her designs.",
+          "correct_answer": "has won",
+          "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         }
       ]

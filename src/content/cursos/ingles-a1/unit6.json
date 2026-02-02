@@ -4,192 +4,826 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U6",
-    "unit_title": "Food and Drink",
-    "total_duration_minutes": 60
+    "unit_title": "Familia y descripciones",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B6",
-      "title": "Food and Drink",
+      "title": "Familia y descripciones",
       "content": [
         {
-          "interaction_id": "U6_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U6_Ta1-u6-possessives-adv_I0",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "sentence": "This is Lisa. ____ cat is very playful.",
+              "options": [
+                "Her",
+                "His",
+                "Its",
+                "Their"
+              ],
+              "answer": "Her",
+              "explanation": "Usamos 'Her' porque estamos hablando de Lisa, que es una mujer.",
+              "points": 1
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "sentence": "Mark has a book. ____ book is interesting.",
+              "options": [
+                "Her",
+                "His",
+                "Its",
+                "Their"
+              ],
+              "answer": "His",
+              "explanation": "Usamos 'His' porque estamos hablando de Mark, que es un hombre.",
+              "points": 1
+            },
+            {
+              "sentence": "The dog is cute. ____ tail is very long.",
+              "options": [
+                "Her",
+                "His",
+                "Its",
+                "Their"
+              ],
+              "answer": "Its",
+              "explanation": "Usamos 'Its' porque estamos hablando de un animal.",
+              "points": 1
+            },
+            {
+              "sentence": "They have a car. ____ car is red.",
+              "options": [
+                "Her",
+                "His",
+                "Its",
+                "Their"
+              ],
+              "answer": "Their",
+              "explanation": "Usamos 'Their' porque estamos hablando de ellos (they), que es plural.",
+              "points": 1
+            },
+            {
+              "sentence": "This is my friend. ____ name is Tom.",
+              "options": [
+                "Her",
+                "His",
+                "Its",
+                "Their"
+              ],
+              "answer": "His",
+              "explanation": "Usamos 'His' porque estamos hablando de Tom, que es un hombre.",
+              "points": 1
+            },
+            {
+              "sentence": "Sara and I have a house. ____ house is big.",
+              "options": [
+                "Our",
+                "Her",
+                "His",
+                "Their"
+              ],
+              "answer": "Our",
+              "explanation": "Usamos 'Our' porque estamos hablando de Sara y yo, es decir, nosotros.",
+              "points": 1
+            },
+            {
+              "sentence": "The cat likes milk. ____ bowl is on the floor.",
+              "options": [
+                "Her",
+                "His",
+                "Its",
+                "Their"
+              ],
+              "answer": "Its",
+              "explanation": "Usamos 'Its' porque estamos hablando de un animal.",
+              "points": 1
+            },
+            {
+              "sentence": "John and Mary have bikes. ____ bikes are new.",
+              "options": [
+                "Their",
+                "Her",
+                "His",
+                "Our"
+              ],
+              "answer": "Their",
+              "explanation": "Usamos 'Their' porque estamos hablando de John y Mary, que son ellos (they), plural.",
+              "points": 1
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_Ta1-u6-descriptions_I1",
+          "text": "Anna is a very happy girl. She has a ______ (1) brother and a ______ (2) sister. Her brother is very ______ (3) and he likes to play basketball. Her sister is ______ (4) and she loves to read books. Anna likes to go to school every day. She thinks her teacher is ______ (5) because she always smiles. Anna's best friend is ______ (6) than her. They like to play in the ______ (7) park together. Anna's favorite color is ______ (8) because it makes her happy.",
+          "questions": [
+            {
+              "gap": 1,
+              "options": [
+                "old",
+                "young",
+                "big",
+                "small"
+              ],
+              "answer": "young",
+              "explanation": "La palabra 'young' (joven) es correcta aquí porque se ajusta al contexto de describir a un hermano que es menor. 'Old', 'big' y 'small' no son adecuadas para describir a un hermano en este contexto."
+            },
+            {
+              "gap": 2,
+              "options": [
+                "old",
+                "big",
+                "small",
+                "young"
+              ],
+              "answer": "big",
+              "explanation": "La palabra 'big' (grande) es correcta aquí porque se ajusta al contexto de describir a una hermana mayor o más grande. 'Old' y 'young' describen la edad, mientras que 'small' no es adecuada en este contexto."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "short",
+                "tall",
+                "big",
+                "small"
+              ],
+              "answer": "tall",
+              "explanation": "La palabra 'tall' (alto) es correcta porque el contexto indica que le gusta jugar al baloncesto, lo cual es más fácil para las personas altas. 'Short', 'big' y 'small' no son adecuadas aquí."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "short",
+                "big",
+                "young",
+                "old"
+              ],
+              "answer": "old",
+              "explanation": "La palabra 'old' (mayor) es correcta aquí ya que está hablando de una hermana que ama leer libros, lo que se asocia con ser mayor. 'Short', 'big' y 'young' no encajan bien en este contexto."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "beautiful",
+                "ugly",
+                "small",
+                "big"
+              ],
+              "answer": "beautiful",
+              "explanation": "La palabra 'beautiful' (hermosa) es correcta porque describe a una maestra que siempre sonríe, lo cual es una característica positiva. 'Ugly', 'small' y 'big' no son adecuadas en este contexto."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "older",
+                "younger",
+                "tall",
+                "short"
+              ],
+              "answer": "taller",
+              "explanation": "La palabra 'taller' (más alta) es correcta porque el contexto sugiere que están comparando la altura. 'Older', 'younger' y 'short' no son adecuadas aquí."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "small",
+                "big",
+                "beautiful",
+                "ugly"
+              ],
+              "answer": "big",
+              "explanation": "La palabra 'big' (grande) es correcta aquí porque se refiere a un parque amplio donde pueden jugar. 'Small', 'beautiful' y 'ugly' no son adecuadas en este contexto."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "red",
+                "blue",
+                "yellow",
+                "green"
+              ],
+              "answer": "yellow",
+              "explanation": "La palabra 'yellow' (amarillo) es correcta porque el texto menciona que ese color la hace feliz. 'Red', 'blue' y 'green' son colores que no se mencionan en el contexto de hacerla feliz."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 6 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U6_Ta1-u6-family_I1",
+          "text": "My family is very big. I have one (1) ______ called Mark. He is older than me. I also have a (2) ______ named Sarah. She is younger than me. Our (3) ______ are very kind. My (4) ______ likes to cook dinner every night, and my (5) ______ helps us with our homework. I have a (6) ______ who visits us every weekend. He is my uncle's (7) ______. We also have a (8) ______ who comes to play with us sometimes. She is my aunt's daughter.",
+          "questions": [
             {
-              "id": "w5",
-              "text": "the"
+              "gap": 1,
+              "options": [
+                "brother",
+                "sister",
+                "father",
+                "mother"
+              ],
+              "answer": "brother",
+              "explanation": "La palabra 'brother' se refiere a un hermano masculino. Las otras opciones no son correctas porque se refieren a otros miembros de la familia."
             },
             {
-              "id": "w7",
-              "text": "course"
+              "gap": 2,
+              "options": [
+                "sister",
+                "brother",
+                "mother",
+                "father"
+              ],
+              "answer": "sister",
+              "explanation": "'Sister' es la palabra correcta para referirse a una hermana femenina. Las otras opciones no son correctas porque se refieren a otros miembros de la familia."
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "gap": 3,
+              "options": [
+                "parents",
+                "sisters",
+                "brothers",
+                "sons"
+              ],
+              "answer": "parents",
+              "explanation": "'Parents' es la palabra correcta para referirse a ambos padres. Las otras opciones se refieren a otros miembros de la familia o son plurales incorrectos."
             },
             {
-              "id": "w6",
-              "text": "A1"
+              "gap": 4,
+              "options": [
+                "mother",
+                "father",
+                "brother",
+                "sister"
+              ],
+              "answer": "mother",
+              "explanation": "'Mother' es correcto porque ella es la que normalmente cocina. Las otras opciones se refieren a otros miembros de la familia."
             },
             {
-              "id": "w3",
-              "text": "6"
+              "gap": 5,
+              "options": [
+                "father",
+                "mother",
+                "sister",
+                "brother"
+              ],
+              "answer": "father",
+              "explanation": "'Father' es correcto porque él ayuda con la tarea. Las otras opciones se refieren a otros miembros de la familia."
             },
             {
-              "id": "w0",
-              "text": "This"
+              "gap": 6,
+              "options": [
+                "cousin",
+                "brother",
+                "father",
+                "son"
+              ],
+              "answer": "cousin",
+              "explanation": "'Cousin' es el término correcto para el hijo del tío. Las otras opciones se refieren a otros miembros de la familia."
             },
             {
-              "id": "w1",
-              "text": "is"
+              "gap": 7,
+              "options": [
+                "son",
+                "brother",
+                "father",
+                "mother"
+              ],
+              "answer": "son",
+              "explanation": "'Son' es correcto ya que se trata del hijo de alguien. Las otras opciones no son correctas en este contexto."
             },
             {
-              "id": "w4",
-              "text": "of"
+              "gap": 8,
+              "options": [
+                "cousin",
+                "sister",
+                "mother",
+                "son"
+              ],
+              "answer": "cousin",
+              "explanation": "'Cousin' es correcto porque se refiere a la hija de la tía. Las otras opciones no son correctas porque se refieren a otros miembros de la familia."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U6_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "No"
-            },
-            {
-              "id": "c1",
-              "text": "Hello!"
-            },
-            {
-              "id": "c2",
-              "text": "Bye"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U6_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U6_Ta1-u6-have-got_I1",
+          "sentences": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": 1,
+              "words": [
+                "is",
+                "she",
+                "a",
+                "student",
+                "?"
+              ],
+              "correctOrder": [
+                "Is",
+                "she",
+                "a",
+                "student",
+                "?"
+              ],
+              "translation": "¿Es ella una estudiante?",
+              "hint": "Empieza con el verbo 'to be' para preguntar.",
+              "points": 2
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": 2,
+              "words": [
+                "I",
+                "have",
+                "a",
+                "red",
+                "book",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "have",
+                "a",
+                "red",
+                "book",
+                "."
+              ],
+              "translation": "Tengo un libro rojo.",
+              "hint": "Sujeto seguido del verbo 'have' y un objeto.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "we",
+                "are",
+                "watching",
+                "TV",
+                "."
+              ],
+              "correctOrder": [
+                "We",
+                "are",
+                "watching",
+                "TV",
+                "."
+              ],
+              "translation": "Estamos viendo la tele.",
+              "hint": "Utiliza 'are' para el presente continuo.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "he",
+                "likes",
+                "music",
+                "and",
+                "movies",
+                "."
+              ],
+              "correctOrder": [
+                "He",
+                "likes",
+                "music",
+                "and",
+                "movies",
+                "."
+              ],
+              "translation": "A él le gusta la música y las películas.",
+              "hint": "Recuerda añadir 's' en la tercera persona del singular.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "you",
+                "do",
+                "have",
+                "a",
+                "pen",
+                "?"
+              ],
+              "correctOrder": [
+                "Do",
+                "you",
+                "have",
+                "a",
+                "pen",
+                "?"
+              ],
+              "translation": "¿Tienes un bolígrafo?",
+              "hint": "Empieza con 'do' para una pregunta en presente simple.",
+              "points": 2
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_Ta1-u6-family_I0",
+          "questions": [
+            {
+              "sentence": "My brother ___ playing soccer in the park.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correct_answer": "is",
+              "explanation": "En inglés, usamos 'is' con 'he', 'she' o 'it'.",
+              "points": 1
+            },
+            {
+              "sentence": "There ___ two sisters in my family.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correct_answer": "are",
+              "explanation": "Para indicar plural, utilizamos 'are' con 'there'.",
+              "points": 1
+            },
+            {
+              "sentence": "My mother ___ breakfast every morning.",
+              "options": [
+                "makes",
+                "make"
+              ],
+              "correct_answer": "makes",
+              "explanation": "En presente simple, para 'he', 'she', 'it' añadimos -s al verbo.",
+              "points": 1
+            },
+            {
+              "sentence": "Let's ___ to visit my grandparents.",
+              "options": [
+                "go",
+                "goes"
+              ],
+              "correct_answer": "go",
+              "explanation": "'Let's' se usa para sugerencias y siempre va seguido de un verbo en infinitivo sin 'to'.",
+              "points": 1
+            },
+            {
+              "sentence": "My father ___ a blue car.",
+              "options": [
+                "has",
+                "have"
+              ],
+              "correct_answer": "has",
+              "explanation": "'Has' es la forma correcta del verbo 'have' con 'he', 'she', 'it'.",
+              "points": 1
+            },
+            {
+              "sentence": "My sister ___ always happy.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correct_answer": "is",
+              "explanation": "Usamos 'is' cuando hablamos de 'he', 'she' o 'it'.",
+              "points": 1
+            },
+            {
+              "sentence": "There ___ a new baby in the family.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correct_answer": "is",
+              "explanation": "Para una sola cosa o persona, utilizamos 'is' con 'there'.",
+              "points": 1
+            },
+            {
+              "sentence": "Let's ___ a picture of my son.",
+              "options": [
+                "take",
+                "takes"
+              ],
+              "correct_answer": "take",
+              "explanation": "'Let's' va seguido de un verbo en infinitivo sin 'to'.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U6_Ta1-u6-possessives-adv_I1",
+          "sentences": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "id": 1,
+              "words": [
+                "Sundays",
+                "park",
+                "We",
+                "the",
+                "visit",
+                "."
+              ],
+              "correctOrder": [
+                "We",
+                "visit",
+                "the",
+                "park",
+                "Sundays",
+                "."
+              ],
+              "translation": "Nosotros visitamos el parque los domingos.",
+              "hint": "Usa el presente simple para hablar de actividades regulares.",
+              "points": 2
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "id": 2,
+              "words": [
+                "a",
+                "is",
+                "This",
+                "pencil",
+                "."
+              ],
+              "correctOrder": [
+                "This",
+                "is",
+                "a",
+                "pencil",
+                "."
+              ],
+              "translation": "Esto es un lápiz.",
+              "hint": "Comienza con el demostrativo para identificar un objeto.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "at",
+                "school",
+                "starts",
+                "8",
+                "The",
+                "am",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "school",
+                "starts",
+                "at",
+                "8",
+                "am",
+                "."
+              ],
+              "translation": "La escuela empieza a las 8 am.",
+              "hint": "Usa 'at' para indicar una hora específica.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "that",
+                "is",
+                "a",
+                "car",
+                "It",
+                "."
+              ],
+              "correctOrder": [
+                "It",
+                "is",
+                "a",
+                "car",
+                "that",
+                "."
+              ],
+              "translation": "Eso es un auto.",
+              "hint": "Comienza describiendo lo que es el objeto.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "loves",
+                "to",
+                "She",
+                "music",
+                "listen",
+                "."
+              ],
+              "correctOrder": [
+                "She",
+                "loves",
+                "to",
+                "listen",
+                "music",
+                "."
+              ],
+              "translation": "A ella le encanta escuchar música.",
+              "hint": "Usa 'loves' para expresar gustos.",
+              "points": 2
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_Ta1-u6-descriptions_I0",
+          "questions": [
+            {
+              "sentence": "The book is ______ the table.",
+              "options": [
+                "on",
+                "in",
+                "under"
+              ],
+              "correct_answer": "on",
+              "explanation": "Usamos 'on' para indicar que algo está sobre una superficie.",
+              "points": 1
+            },
+            {
+              "sentence": "The cat is ______ the chair.",
+              "options": [
+                "under",
+                "next to",
+                "in"
+              ],
+              "correct_answer": "under",
+              "explanation": "Utilizamos 'under' cuando algo está debajo de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "The dog is ______ the garden.",
+              "options": [
+                "in",
+                "on",
+                "under"
+              ],
+              "correct_answer": "in",
+              "explanation": "Para indicar que algo está dentro de un área, usamos 'in'.",
+              "points": 1
+            },
+            {
+              "sentence": "The ball is ______ the box.",
+              "options": [
+                "in",
+                "on",
+                "next to"
+              ],
+              "correct_answer": "next to",
+              "explanation": "Usamos 'next to' para decir que algo está al lado de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "We have class ______ Monday.",
+              "options": [
+                "on",
+                "in",
+                "at"
+              ],
+              "correct_answer": "on",
+              "explanation": "'On' se usa con días de la semana.",
+              "points": 1
+            },
+            {
+              "sentence": "I go to bed ______ 10 o'clock.",
+              "options": [
+                "at",
+                "in",
+                "on"
+              ],
+              "correct_answer": "at",
+              "explanation": "Usamos 'at' para horas específicas.",
+              "points": 1
+            },
+            {
+              "sentence": "He can ______ a bike.",
+              "options": [
+                "ride",
+                "rides",
+                "riding"
+              ],
+              "correct_answer": "ride",
+              "explanation": "Usamos el infinitivo sin 'to' después de 'can'.",
+              "points": 1
+            },
+            {
+              "sentence": "This is ______ pencil.",
+              "options": [
+                "my",
+                "I",
+                "mine"
+              ],
+              "correct_answer": "my",
+              "explanation": "Usamos 'my' como adjetivo posesivo para indicar propiedad.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 6 of the A1 course.\"",
-          "correct_answer": true,
+          "interaction_id": "U6_Ta1-u6-have-got_I0",
+          "sentences": [
+            {
+              "id": 1,
+              "words": [
+                "there",
+                "is",
+                "a",
+                "cat",
+                "on",
+                "the",
+                "mat",
+                "."
+              ],
+              "correctOrder": [
+                "there",
+                "is",
+                "a",
+                "cat",
+                "on",
+                "the",
+                "mat",
+                "."
+              ],
+              "translation": "Hay un gato en la alfombra.",
+              "hint": "Use 'there is' to say something exists.",
+              "points": 2
+            },
+            {
+              "id": 2,
+              "words": [
+                "let's",
+                "go",
+                "to",
+                "school",
+                "."
+              ],
+              "correctOrder": [
+                "let's",
+                "go",
+                "to",
+                "school",
+                "."
+              ],
+              "translation": "Vamos a la escuela.",
+              "hint": "Use 'let's' to make a suggestion.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "they",
+                "are",
+                "playing",
+                "football",
+                "."
+              ],
+              "correctOrder": [
+                "they",
+                "are",
+                "playing",
+                "football",
+                "."
+              ],
+              "translation": "Ellos están jugando al fútbol.",
+              "hint": "Present continuous describes actions happening now.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "it",
+                "is",
+                "a",
+                "red",
+                "car",
+                "."
+              ],
+              "correctOrder": [
+                "it",
+                "is",
+                "a",
+                "red",
+                "car",
+                "."
+              ],
+              "translation": "Es un coche rojo.",
+              "hint": "Simple subject-verb-object sentence.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "we",
+                "have",
+                "three",
+                "cats",
+                "."
+              ],
+              "correctOrder": [
+                "we",
+                "have",
+                "three",
+                "cats",
+                "."
+              ],
+              "translation": "Tenemos tres gatos.",
+              "hint": "Use plural nouns for more than one item.",
+              "points": 2
+            }
+          ],
           "mastery_tag": "grammar"
         }
       ]

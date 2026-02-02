@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "cursos inglés especializados",
     "aprender inglés españa 2026"
   ],
+  alternates: {
+    canonical: 'https://focus-on-english.com',
+  },
 };
 
 export default function HomePage() {

@@ -31,4 +31,7 @@ export const metadata: Metadata = {
     title: 'Planes y Precios - Focus English',
     description: 'Suscripción mensual desde €6.99. Acceso ilimitado a todos los cursos.',
   },
+  alternates: {
+    canonical: 'https://focus-on-english.com/planes',
+  },
 };

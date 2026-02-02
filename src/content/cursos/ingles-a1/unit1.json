@@ -4,778 +4,712 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U1",
-    "unit_title": "Personal Information",
-    "total_duration_minutes": 60
+    "unit_title": "Primer contacto con el inglés",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Personal Information",
+      "title": "Primer contacto con el inglés",
       "content": [
         {
-          "interaction_id": "U1_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U1_Ta1-u1-greetings_I0",
+          "title": "Greetings and Farewells Practice",
+          "instructions": "Choose the correct option to complete the sentence.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Address",
-              "right": "Dirección"
+              "id": "q1",
+              "question": "What is the correct way to say goodbye in the morning?",
+              "options": [
+                "A. Good night",
+                "B. Good morning",
+                "C. Bye",
+                "D. Hello"
+              ],
+              "correctAnswer": "C",
+              "explanation": "En la mañana, cuando te despides, 'Bye' es la forma correcta de decir adiós. 'Good night' se usa por la noche y 'Hello' se usa para saludar."
             },
             {
-              "id": "p1",
-              "left": "Brother",
-              "right": "Hermano"
+              "id": "q2",
+              "question": "How do you greet someone at mid-day?",
+              "options": [
+                "A. Good night",
+                "B. Good afternoon",
+                "C. Good morning",
+                "D. Hello"
+              ],
+              "correctAnswer": "D",
+              "explanation": "A mediodía, 'Hello' es una manera común y correcta de saludar a alguien. 'Good afternoon' se usa más tarde durante el día."
             },
             {
-              "id": "p2",
-              "left": "Age",
-              "right": "Edad"
+              "id": "q3",
+              "question": "Which one is a correct greeting?",
+              "options": [
+                "A. Good morning",
+                "B. Bye",
+                "C. Good night",
+                "D. See you"
+              ],
+              "correctAnswer": "A",
+              "explanation": "'Good morning' es una forma correcta de saludar por la mañana. 'Bye' y 'See you' son despedidas."
+            },
+            {
+              "id": "q4",
+              "question": "How do you say farewell before going to bed?",
+              "options": [
+                "A. Hi",
+                "B. Good night",
+                "C. Good morning",
+                "D. Hello"
+              ],
+              "correctAnswer": "B",
+              "explanation": "'Good night' se usa para despedirse antes de dormir. 'Hi' y 'Hello' son saludos, no despedidas."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U1_Ta1-u1-alphabet_I1",
+          "text": "The alphabet has 26 letters. We (1) _______ the letters when we learn to read. The first letter is A, and the last letter is Z. Some letters are easy to (2) _______ like B and D. Others, like Q and X, are (3) _______ hard. We (4) _______ need all the letters to make words. Each letter has a sound. For example, the letter C can sound like S or K. It's important to (5) _______ the letters correctly. Children often (6) _______ the alphabet song to remember the order. Every letter (7) _______ its own place. Learning the alphabet helps us to read and (8) _______.",
+          "questions": [
+            {
+              "gap": "(1)",
+              "options": [
+                "use",
+                "draw",
+                "write",
+                "play"
+              ],
+              "correct": "use",
+              "explanation": "Usamos las letras cuando aprendemos a leer. 'Use' es correcto aquí porque indica el uso de las letras en el contexto de aprender a leer. Las otras opciones no tienen sentido en este contexto."
+            },
+            {
+              "gap": "(2)",
+              "options": [
+                "say",
+                "jump",
+                "dance",
+                "swim"
+              ],
+              "correct": "say",
+              "explanation": "'Say' se usa para indicar cómo pronunciamos las letras. Las otras opciones ('jump', 'dance', 'swim') no son acciones relacionadas con las letras."
+            },
+            {
+              "gap": "(3)",
+              "options": [
+                "very",
+                "more",
+                "much",
+                "many"
+              ],
+              "correct": "very",
+              "explanation": "'Very' es correcto aquí para enfatizar lo difíciles que son algunas letras. 'More', 'much' y 'many' no son adecuados en este contexto."
+            },
+            {
+              "gap": "(4)",
+              "options": [
+                "do",
+                "are",
+                "have",
+                "want"
+              ],
+              "correct": "have",
+              "explanation": "'Have' es correcto en este contexto para mostrar necesidad. 'Do', 'are' y 'want' no expresan la misma idea de necesidad."
+            },
+            {
+              "gap": "(5)",
+              "options": [
+                "spell",
+                "choose",
+                "make",
+                "give"
+              ],
+              "correct": "spell",
+              "explanation": "'Spell' se refiere a cómo se deben formar las palabras correctamente. 'Choose', 'make' y 'give' no son apropiados para el contexto."
+            },
+            {
+              "gap": "(6)",
+              "options": [
+                "sing",
+                "cook",
+                "read",
+                "jump"
+              ],
+              "correct": "sing",
+              "explanation": "'Sing' es la opción correcta porque los niños cantan una canción para recordar el alfabeto. Las otras opciones no son actividades relacionadas con el alfabeto."
+            },
+            {
+              "gap": "(7)",
+              "options": [
+                "has",
+                "is",
+                "be",
+                "are"
+              ],
+              "correct": "has",
+              "explanation": "'Has' es correcto porque se refiere a la posesión del lugar en el alfabeto. 'Is', 'be' y 'are' no son apropiados para el significado del contexto."
+            },
+            {
+              "gap": "(8)",
+              "options": [
+                "write",
+                "run",
+                "eat",
+                "walk"
+              ],
+              "correct": "write",
+              "explanation": "'Write' es correcto porque aprender el alfabeto nos ayuda a escribir. Las otras opciones ('run', 'eat', 'walk') no tienen relación con el contexto de leer y escribir."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "How old (be) ________ you?",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Is he a doctor or a nurse?\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-classroom_I0",
+          "text": "In the classroom, the teacher has a very important role. The teacher helps students when they do not (1) __________ something in the lesson. It is important for students to listen carefully to the teacher. Sometimes, the teacher asks the students to (2) __________ a question. Students must also know which (3) __________ to turn to in their books. They need to open their books to the right (4) __________ to find the information. If a student does not understand, they can (5) __________ their hand and ask for help. The teacher will (6) __________ the question again so the students can (7) __________. It's important that both teacher and student work together to make sure everyone (8) __________ the lesson.",
+          "questions": [
             {
-              "id": "w1",
-              "text": "is"
+              "number": 1,
+              "options": [
+                "write",
+                "understand",
+                "listen",
+                "repeat"
+              ],
+              "correct": "understand",
+              "explanation": "La opción correcta es 'understand' porque el contexto habla de no comprender algo en la lección. Las otras opciones 'write', 'listen' y 'repeat' no se ajustan al contexto de comprensión."
             },
             {
-              "id": "w3",
-              "text": "favorite"
+              "number": 2,
+              "options": [
+                "read",
+                "say",
+                "ask",
+                "answer"
+              ],
+              "correct": "ask",
+              "explanation": "La opción correcta es 'ask' porque el profesor pide a los estudiantes que formulen una pregunta. 'Read', 'say' y 'answer' no se ajustan al contexto de formular una pregunta."
             },
             {
-              "id": "w2",
-              "text": "my"
+              "number": 3,
+              "options": [
+                "page",
+                "door",
+                "desk",
+                "book"
+              ],
+              "correct": "page",
+              "explanation": "La opción correcta es 'page' porque se refiere a la página que los estudiantes deben buscar en sus libros. 'Door', 'desk' y 'book' no son correctas en este contexto."
             },
             {
-              "id": "w4",
-              "text": "teacher"
+              "number": 4,
+              "options": [
+                "word",
+                "page",
+                "color",
+                "class"
+              ],
+              "correct": "page",
+              "explanation": "La opción correcta es 'page' porque los estudiantes abren sus libros en la página correcta para encontrar la información. 'Word', 'color' y 'class' no se ajustan a la acción de abrir en una página."
             },
             {
-              "id": "w0",
-              "text": "She"
+              "number": 5,
+              "options": [
+                "lower",
+                "raise",
+                "leave",
+                "drop"
+              ],
+              "correct": "raise",
+              "explanation": "La opción correcta es 'raise' porque levantar la mano es el gesto típico para pedir ayuda en clase. 'Lower', 'leave' y 'drop' no son correctas en este contexto."
+            },
+            {
+              "number": 6,
+              "options": [
+                "write",
+                "ask",
+                "say",
+                "repeat"
+              ],
+              "correct": "repeat",
+              "explanation": "La opción correcta es 'repeat' porque el profesor repite la pregunta para que los estudiantes la entiendan mejor. 'Write', 'ask' y 'say' no son correctas en este contexto."
+            },
+            {
+              "number": 7,
+              "options": [
+                "listen",
+                "understand",
+                "open",
+                "close"
+              ],
+              "correct": "understand",
+              "explanation": "La opción correcta es 'understand' porque los estudiantes necesitan comprender la pregunta. 'Listen', 'open' y 'close' no se ajustan al contexto de comprensión."
+            },
+            {
+              "number": 8,
+              "options": [
+                "understands",
+                "forgets",
+                "enjoys",
+                "reads"
+              ],
+              "correct": "understands",
+              "explanation": "La opción correcta es 'understands' porque el objetivo final es que todos comprendan la lección. 'Forgets', 'enjoys' y 'reads' no se ajustan a este contexto."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Nice to meet you!\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "Thank you."
-            },
-            {
-              "id": "c2",
-              "text": "Goodbye!"
-            },
-            {
-              "id": "c1",
-              "text": "Nice to meet you too!"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Número de teléfono",
-          "correct_answer": "Phone number",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'España' en inglés?",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-numbers-0-20_I0",
+          "title": "Numbers and Basic Grammar",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
             {
-              "id": "o3",
-              "text": "England"
+              "id": "q1",
+              "question": "What number comes after ten?",
+              "options": [
+                "A. Eleven",
+                "B. Twenty",
+                "C. Two",
+                "D. Zero"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Once (eleven) es el número que sigue después de diez (ten)."
             },
             {
-              "id": "o2",
-              "text": "Teacher"
+              "id": "q2",
+              "question": "How many pencils are there? There are _____ pencils.",
+              "options": [
+                "A. zero",
+                "B. this",
+                "C. that",
+                "D. those"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Zero significa que no hay lápices. Usamos 'zero' cuando no hay nada de algo."
             },
             {
-              "id": "o1",
-              "text": "Spain"
+              "id": "q3",
+              "question": "Which number is bigger, twelve or twenty?",
+              "options": [
+                "A. Twelve",
+                "B. Twenty",
+                "C. Two",
+                "D. One"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Veinte (twenty) es más grande que doce (twelve)."
+            },
+            {
+              "id": "q4",
+              "question": "There are _____ cats. (12)",
+              "options": [
+                "A. twenty",
+                "B. twelve",
+                "C. ten",
+                "D. two"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Doce (twelve) es el número correcto aquí porque el número indicado es 12."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I ________ (not/be) tired.",
-          "correct_answer": "am not",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My name is John and I am from New York.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"How are you today?\"",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-countries_I1",
+          "title": "Countries and Nationalities",
+          "instructions": "Select the correct nationality for each country.",
+          "questions": [
             {
-              "id": "c1",
-              "text": "I'm very well, thank you."
+              "id": "q1",
+              "question": "Maria is from Spain. She is _____.",
+              "options": [
+                "A. Spanish",
+                "B. Spain",
+                "C. Spaniard",
+                "D. Spainer"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'Spanish' como adjetivo para describir la nacionalidad de una persona de España."
             },
             {
-              "id": "c3",
-              "text": "Yes, I am."
+              "id": "q2",
+              "question": "John is from the USA. He is _____.",
+              "options": [
+                "A. American",
+                "B. USAer",
+                "C. Americano",
+                "D. USAn"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La nacionalidad para alguien de los Estados Unidos es 'American'."
             },
             {
-              "id": "c2",
-              "text": "I'm from Spain."
+              "id": "q3",
+              "question": "Anna is from Italy. She is _____.",
+              "options": [
+                "A. Italy",
+                "B. Italian",
+                "C. Italiana",
+                "D. Italic"
+              ],
+              "correctAnswer": "B",
+              "explanation": "El adjetivo 'Italian' se usa para describir la nacionalidad de una persona de Italia."
+            },
+            {
+              "id": "q4",
+              "question": "Alex is from Germany. He is _____.",
+              "options": [
+                "A. German",
+                "B. Germany",
+                "C. Germain",
+                "D. Germani"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Para alguien de Alemania, usamos 'German' como la forma correcta de la nacionalidad."
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hermana' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Address"
-            },
-            {
-              "id": "o3",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Sister"
-            }
-          ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"London a is big city in England.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "London is a big city in England."
-        },
-        {
-          "interaction_id": "U1_I19",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"How old are you?\"",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-greetings_I1",
+          "title": "Greetings and Farewells Exercise",
+          "instructions": "Choose the correct greeting or farewell for each situation.",
+          "questions": [
             {
-              "id": "c3",
-              "text": "I'm a student."
+              "id": "q1",
+              "question": "You see your friend in the morning. What do you say?",
+              "options": [
+                "A) Good night",
+                "B) Hello",
+                "C) Good morning",
+                "D) Bye"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Usamos 'Good morning' al ver a alguien por la mañana."
             },
             {
-              "id": "c2",
-              "text": "I'm happy."
+              "id": "q2",
+              "question": "You are leaving a party. What do you say?",
+              "options": [
+                "A) Hi",
+                "B) Goodbye",
+                "C) Good afternoon",
+                "D) Good night"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Decimos 'Goodbye' cuando nos despedimos al irnos de un lugar."
             },
             {
-              "id": "c1",
-              "text": "I'm twelve years old."
+              "id": "q3",
+              "question": "You meet someone new in the evening. What do you say?",
+              "options": [
+                "A) Good night",
+                "B) Good morning",
+                "C) Hi",
+                "D) Bye"
+              ],
+              "correctAnswer": "C",
+              "explanation": "Usamos 'Hi' o 'Hello' para saludar a alguien nuevo, sin importar la hora del día."
+            },
+            {
+              "id": "q4",
+              "question": "You are going to bed. What do you say?",
+              "options": [
+                "A) Goodbye",
+                "B) Hello",
+                "C) Good morning",
+                "D) Good night"
+              ],
+              "correctAnswer": "D",
+              "explanation": "Decimos 'Good night' cuando nos vamos a dormir, es un saludo de despedida nocturno."
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U1_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Amigo/a' en inglés?",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-countries_I0",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Friend"
+              "sentence": "John ___ (be) from Spain. He ___ (have) a big family.",
+              "gap": [
+                "is",
+                "has"
+              ],
+              "explanation": "Usamos 'is' como forma del verbo 'be' para él en presente simple. Usamos 'has' como forma del verbo 'have' para él en presente simple.",
+              "points": 1
             },
             {
-              "id": "o2",
-              "text": "Teacher"
+              "sentence": "Anna ___ (like) to visit France. She ___ (go) there every summer.",
+              "gap": [
+                "likes",
+                "goes"
+              ],
+              "explanation": "Usamos 'likes' como forma del verbo 'like' para ella en presente simple. Usamos 'goes' como forma del verbo 'go' para ella en presente simple.",
+              "points": 1
             },
             {
-              "id": "o3",
-              "text": "City"
+              "sentence": "We ___ (live) in Mexico. Our house ___ (be) very big.",
+              "gap": [
+                "live",
+                "is"
+              ],
+              "explanation": "Usamos 'live' como forma del verbo 'live' para nosotros en presente simple. Usamos 'is' como forma del verbo 'be' para 'our house' en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "They ___ (be) from Germany. They ___ (have) two cars.",
+              "gap": [
+                "are",
+                "have"
+              ],
+              "explanation": "Usamos 'are' como forma del verbo 'be' para ellos en presente simple. Usamos 'have' como forma del verbo 'have' para ellos en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "I ___ (watch) TV every day. It ___ (be) my favorite activity.",
+              "gap": [
+                "watch",
+                "is"
+              ],
+              "explanation": "Usamos 'watch' como forma del verbo 'watch' para yo en presente simple. Usamos 'is' como forma del verbo 'be' para 'it' en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "Tom ___ (be) from the USA. He ___ (like) hamburgers.",
+              "gap": [
+                "is",
+                "likes"
+              ],
+              "explanation": "Usamos 'is' como forma del verbo 'be' para él en presente simple. Usamos 'likes' como forma del verbo 'like' para él en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "Maria ___ (go) to Italy every year. She ___ (love) pizza.",
+              "gap": [
+                "goes",
+                "loves"
+              ],
+              "explanation": "Usamos 'goes' como forma del verbo 'go' para ella en presente simple. Usamos 'loves' como forma del verbo 'love' para ella en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "You ___ (be) from England. You ___ (have) a nice accent.",
+              "gap": [
+                "are",
+                "have"
+              ],
+              "explanation": "Usamos 'are' como forma del verbo 'be' para tú en presente simple. Usamos 'have' como forma del verbo 'have' para tú en presente simple.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I23",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "________ you from Italy?",
-          "correct_answer": "Are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Are they from France or Germany?\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I26",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hello, what's your name?\"",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-numbers-0-20_I1",
+          "title": "Basic Numbers in English",
+          "instructions": "Choose the correct number for each sentence.",
+          "questions": [
             {
-              "id": "c1",
-              "text": "My name is Peter. Nice to meet you!"
+              "id": "q1",
+              "question": "I have ___ apples.",
+              "options": [
+                "one",
+                "eleven",
+                "twenty",
+                "ten"
+              ],
+              "correctAnswer": "ten",
+              "explanation": "La oración dice que tiene manzanas, indicando plural, lo que significa que es más de uno. 'Ten' es el número correcto en este caso."
             },
             {
-              "id": "c2",
-              "text": "I'm fine, thanks."
+              "id": "q2",
+              "question": "There are ___ books on the table.",
+              "options": [
+                "twenty",
+                "zero",
+                "twelve",
+                "two"
+              ],
+              "correctAnswer": "two",
+              "explanation": "La oración usa 'books', que está en plural, sugiriendo más de uno. 'Two' es el número correcto para esta cantidad."
             },
             {
-              "id": "c3",
-              "text": "I'm ten years old."
+              "id": "q3",
+              "question": "I see ___ birds in the sky.",
+              "options": [
+                "zero",
+                "one",
+                "eleven",
+                "twenty"
+              ],
+              "correctAnswer": "eleven",
+              "explanation": "La oración menciona 'birds', indicando plural. 'Eleven' es el número que coincide con esta cantidad de pájaros."
+            },
+            {
+              "id": "q4",
+              "question": "She has ___ cookies for us.",
+              "options": [
+                "twelve",
+                "one",
+                "zero",
+                "two"
+              ],
+              "correctAnswer": "twelve",
+              "explanation": "La palabra 'cookies' está en plural, lo que significa que hay más de un 'cookie'. 'Twelve' es el número correcto para esta cantidad."
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Teacher"
-            },
-            {
-              "id": "o1",
-              "text": "Address"
-            },
-            {
-              "id": "o3",
-              "text": "Friend"
-            }
-          ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I30",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She ________ (not/be) from London.",
-          "correct_answer": "is not",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"They my are best friends.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "They are my best friends."
-        },
-        {
-          "interaction_id": "U1_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Profesor/a' en inglés?",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-classroom_I1",
+          "text": "In the classroom, the (1) _______ helps the students learn. The students sit and (2) _______ to the teacher. Sometimes, the teacher asks a (3) _______ and the students raise their hands to (4) _______. The students have books on their desks. The teacher says, 'Open your (5) _______ to page five.' Students look at the page and start to (6) _______ the words. If a student does not (7) _______, the teacher can repeat the explanation. The classroom is a place where students can (8) _______ together and have fun learning.",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Address"
+              "gap": 1,
+              "options": [
+                "teacher",
+                "book",
+                "page",
+                "question"
+              ],
+              "correct": "teacher",
+              "explanation": "El 'teacher' es la persona que enseña. Las otras opciones no son adecuados porque no describen a alguien que ayuda a aprender."
             },
             {
-              "id": "o3",
-              "text": "Age"
+              "gap": 2,
+              "options": [
+                "talk",
+                "listen",
+                "write",
+                "close"
+              ],
+              "correct": "listen",
+              "explanation": "'Listen' es lo que hacen los alumnos cuando alguien está hablando. 'Talk', 'write', y 'close' no son acciones que se relacionan con prestar atención a alguien que habla."
             },
             {
-              "id": "o1",
-              "text": "Teacher"
+              "gap": 3,
+              "options": [
+                "page",
+                "book",
+                "question",
+                "teacher"
+              ],
+              "correct": "question",
+              "explanation": "'Question' es algo que se puede preguntar. Las otras opciones no tienen sentido en este contexto."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "answer",
+                "read",
+                "run",
+                "draw"
+              ],
+              "correct": "answer",
+              "explanation": "'Answer' es lo que haces cuando respondes a una pregunta. Las otras acciones no responden a una pregunta."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "teacher",
+                "book",
+                "question",
+                "student"
+              ],
+              "correct": "book",
+              "explanation": "'Book' es lo que los estudiantes abren en el contexto de clase. Las otras opciones no tienen sentido para abrir en este contexto."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "write",
+                "read",
+                "cry",
+                "listen"
+              ],
+              "correct": "read",
+              "explanation": "'Read' es la acción de mirar y entender las palabras. Las otras opciones no son acciones relacionadas con mirar palabras escritas."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "understand",
+                "run",
+                "ask",
+                "finish"
+              ],
+              "correct": "understand",
+              "explanation": "'Understand' es cuando comprendes algo. Las otras opciones no tienen sentido en el contexto de comprender una lección."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "play",
+                "work",
+                "sleep",
+                "eat"
+              ],
+              "correct": "work",
+              "explanation": "'Work' es lo que hacen los estudiantes cuando aprenden juntos. Las otras acciones no se asocian con actividades de aprendizaje en el aula."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U1_I37",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My name ________ (be) Maria.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"His is surname Smith.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "His surname is Smith."
-        },
-        {
-          "interaction_id": "U1_I44",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (be) ________ a teacher.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I have got a new email address.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I51",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "________ he your father?",
-          "correct_answer": "Is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I52",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We are very happy to meet you.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I56",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ciudad' en inglés?",
-          "options": [
+          "interaction_id": "U1_Ta1-u1-alphabet_I0",
+          "title": "Basic English Grammar: A1 Level",
+          "instructions": "Choose the correct answer for each question. Lee las explicaciones en español para entender mejor.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "City"
+              "id": "q1",
+              "question": "Where is the book? It is ___ the table.",
+              "options": [
+                "A. on",
+                "B. under",
+                "C. next to",
+                "D. in"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La preposición 'on' se usa para indicar que algo está sobre una superficie."
             },
             {
-              "id": "o3",
-              "text": "Name"
+              "id": "q2",
+              "question": "He has a car. ___ car is red.",
+              "options": [
+                "A. His",
+                "B. Her",
+                "C. Your",
+                "D. Their"
+              ],
+              "correctAnswer": "A",
+              "explanation": "'His' es un adjetivo posesivo que se usa para referirse a algo que pertenece a él."
             },
             {
-              "id": "o2",
-              "text": "Sister"
+              "id": "q3",
+              "question": "There ___ a cat in the garden.",
+              "options": [
+                "A. is",
+                "B. are",
+                "C. be",
+                "D. have"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'is' con 'there' para decir que hay una sola cosa en un lugar."
+            },
+            {
+              "id": "q4",
+              "question": "Can you see the dog? Yes, I can see ___ .",
+              "options": [
+                "A. it",
+                "B. him",
+                "C. her",
+                "D. them"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos 'it' como pronombre objeto para referirnos a animales o cosas."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I58",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "You (be) ________ my friend.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I61",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Where are you from?\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "No, she isn't."
-            },
-            {
-              "id": "c1",
-              "text": "I'm from London."
-            },
-            {
-              "id": "c2",
-              "text": "My name is Sarah."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I63",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Número de teléfono' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Phone number"
-            },
-            {
-              "id": "o2",
-              "text": "Teacher"
-            },
-            {
-              "id": "o3",
-              "text": "Brother"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I65",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They ________ (be) my brothers.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I66",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We very are happy to meet you.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are very happy to meet you."
-        },
-        {
-          "interaction_id": "U1_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estudiante' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Student"
-            },
-            {
-              "id": "o2",
-              "text": "Email"
-            },
-            {
-              "id": "o3",
-              "text": "Spain"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I72",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "They (be) ________ at home.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I73",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He is from Madrid, the capital of Spain.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I79",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (have got) ________ a red car.",
-          "correct_answer": "have got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I84",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Inglaterra' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "England"
-            },
-            {
-              "id": "o3",
-              "text": "Brother"
-            },
-            {
-              "id": "o2",
-              "text": "Friend"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I87",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I not am a student, I am a teacher.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "I am not a student, I am a teacher."
-        },
-        {
-          "interaction_id": "U1_I94",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My is sister a student at the university.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "My sister is a student at the university."
-        },
-        {
-          "interaction_id": "U1_I100",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "He (be) ________ from Spain.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I101",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My sister is a student at the university.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I105",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Edad' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Phone number"
-            },
-            {
-              "id": "o1",
-              "text": "Age"
-            },
-            {
-              "id": "o3",
-              "text": "Address"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I108",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am not a student, I am a teacher.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I112",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hermano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Brother"
-            },
-            {
-              "id": "o3",
-              "text": "Name"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I115",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"She is twenty years old.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I119",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'País' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Country"
-            },
-            {
-              "id": "o2",
-              "text": "Teacher"
-            },
-            {
-              "id": "o3",
-              "text": "England"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I126",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Apellido' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Surname"
-            },
-            {
-              "id": "o3",
-              "text": "Brother"
-            },
-            {
-              "id": "o2",
-              "text": "Address"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"London is a big city in England.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I136",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I got have a new email address.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "I have got a new email address."
-        },
-        {
-          "interaction_id": "U1_I143",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My is name John and I am from New York.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "My name is John and I am from New York."
-        },
-        {
-          "interaction_id": "U1_I147",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Correo electrónico' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "England"
-            },
-            {
-              "id": "o3",
-              "text": "Brother"
-            },
-            {
-              "id": "o1",
-              "text": "Email"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I154",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nombre' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Name"
-            },
-            {
-              "id": "o2",
-              "text": "Teacher"
-            },
-            {
-              "id": "o3",
-              "text": "Surname"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I156",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (be) ________ happy today.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I164",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Is a he doctor or a nurse?\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "Is he a doctor or a nurse?"
-        },
-        {
-          "interaction_id": "U1_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"What is your phone number?\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I178",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He from is Madrid, the capital of Spain.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "He is from Madrid, the capital of Spain."
-        },
-        {
-          "interaction_id": "U1_I199",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"She twenty is years old.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "She is twenty years old."
         }
       ]
     }

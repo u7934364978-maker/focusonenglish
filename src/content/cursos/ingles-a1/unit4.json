@@ -4,173 +4,762 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U4",
-    "unit_title": "Daily Routine",
-    "total_duration_minutes": 60
+    "unit_title": "Objetos y aula/casa",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B4",
-      "title": "Daily Routine",
+      "title": "Objetos y aula/casa",
       "content": [
         {
-          "interaction_id": "U4_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U4_Ta1-u4-plurals_I1",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "sentence": "I like this book. Can you give it to ____?",
+              "options": [
+                "me"
+              ],
+              "explanation": "En esta oración, 'me' es el pronombre objeto correcto para indicar que la acción es hacia uno mismo.",
+              "points": 1
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "sentence": "____ are my favorite colors.",
+              "options": [
+                "These"
+              ],
+              "explanation": "Usamos 'these' porque nos referimos a colores en plural que están cerca.",
+              "points": 1
+            },
+            {
+              "sentence": "____! Don't touch the stove.",
+              "options": [
+                "Stop"
+              ],
+              "explanation": "El imperativo 'Stop' se usa para dar una orden directa de no tocar algo.",
+              "points": 1
+            },
+            {
+              "sentence": "She ____ a blue car.",
+              "options": [
+                "has"
+              ],
+              "explanation": "Usamos 'has' porque estamos hablando de una posesión en presente simple para 'she'.",
+              "points": 1
+            },
+            {
+              "sentence": "Can you swim? Yes, I ____. ",
+              "options": [
+                "can"
+              ],
+              "explanation": "En la respuesta corta usamos 'can' para confirmar que la habilidad de nadar está presente.",
+              "points": 1
+            },
+            {
+              "sentence": "My brother and I ____ to school every day.",
+              "options": [
+                "go"
+              ],
+              "explanation": "Usamos 'go' porque es una acción habitual en presente simple.",
+              "points": 1
+            },
+            {
+              "sentence": "This is my sister. ____ name is Anna.",
+              "options": [
+                "Her"
+              ],
+              "explanation": "Usamos 'Her' para indicar posesión, refiriéndonos al nombre de la hermana.",
+              "points": 1
+            },
+            {
+              "sentence": "____ you like apples?",
+              "options": [
+                "Do"
+              ],
+              "explanation": "Usamos 'Do' para formar preguntas en presente simple con 'you'.",
+              "points": 1
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_Ta1-u4-articles_I1",
+          "sentences": [
+            {
+              "id": 1,
+              "words": [
+                "is",
+                "dog",
+                "the",
+                "garden",
+                "in",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "dog",
+                "is",
+                "in",
+                "the",
+                "garden",
+                "."
+              ],
+              "translation": "El perro está en el jardín.",
+              "hint": "Usa el presente simple con la preposición de lugar apropiada.",
+              "points": 2
+            },
+            {
+              "id": 2,
+              "words": [
+                "she",
+                "blue",
+                "has",
+                "a",
+                "pen",
+                "."
+              ],
+              "correctOrder": [
+                "She",
+                "has",
+                "a",
+                "blue",
+                "pen",
+                "."
+              ],
+              "translation": "Ella tiene un bolígrafo azul.",
+              "hint": "Usa el presente simple con el verbo 'have'.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "is",
+                "on",
+                "the",
+                "the",
+                "desk",
+                "book",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "book",
+                "is",
+                "on",
+                "the",
+                "desk",
+                "."
+              ],
+              "translation": "El libro está sobre el escritorio.",
+              "hint": "Usa el presente simple con la preposición de lugar adecuada.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "he",
+                "can",
+                "bike",
+                "ride",
+                "a",
+                "."
+              ],
+              "correctOrder": [
+                "He",
+                "can",
+                "ride",
+                "a",
+                "bike",
+                "."
+              ],
+              "translation": "Él puede montar una bicicleta.",
+              "hint": "Usa 'can' para expresar habilidad.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "is",
+                "where",
+                "the",
+                "cat",
+                "?"
+              ],
+              "correctOrder": [
+                "Where",
+                "is",
+                "the",
+                "cat",
+                "?"
+              ],
+              "translation": "¿Dónde está el gato?",
+              "hint": "Usa una palabra de pregunta para preguntar sobre la ubicación.",
+              "points": 2
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_Ta1-u4-colors_I0",
+          "text": "Maria has a beautiful garden. She loves all the colors of her flowers. Her favorite flower is the rose because it is (1) ____. She also has daisies that are (2) ____. There are tulips that are (3) ____ and violets that are (4) ____. Maria plants sunflowers because they are (5) ____. She waters her plants every day to keep them (6) ____. Her garden has a small pond with (7) ____ water. She likes to sit in her garden and watch the (8) ____ sky.",
+          "questions": [
+            {
+              "gap": 1,
+              "options": [
+                "red",
+                "blue",
+                "green",
+                "yellow"
+              ],
+              "correct": "red",
+              "explanation": "La palabra 'rose' se asocia comúnmente con el color 'red'. Las otras opciones no son el color típico de las rosas."
+            },
+            {
+              "gap": 2,
+              "options": [
+                "yellow",
+                "blue",
+                "white",
+                "black"
+              ],
+              "correct": "white",
+              "explanation": "Las margaritas, o 'daisies', son comúnmente 'white'. Las otras opciones no son típicas para margaritas."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "yellow",
+                "red",
+                "green",
+                "blue"
+              ],
+              "correct": "yellow",
+              "explanation": "Los tulipanes son a menudo 'yellow'. Las otras opciones no son comunes para los tulipanes."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "green",
+                "blue",
+                "red",
+                "yellow"
+              ],
+              "correct": "blue",
+              "explanation": "Las violetas, o 'violets', pueden ser 'blue'. Las demás opciones no son correctas para este tipo de flor."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "yellow",
+                "red",
+                "black",
+                "white"
+              ],
+              "correct": "yellow",
+              "explanation": "Los girasoles, 'sunflowers', son 'yellow'. Las demás opciones no son correctas para los girasoles."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "white",
+                "black",
+                "green",
+                "blue"
+              ],
+              "correct": "green",
+              "explanation": "Las plantas saludables suelen ser 'green'. Las otras opciones no describen bien plantas sanas."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "blue",
+                "green",
+                "white",
+                "black"
+              ],
+              "correct": "blue",
+              "explanation": "El agua limpia a menudo se describe como 'blue'. Las demás opciones no describen bien el agua limpia."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "white",
+                "red",
+                "black",
+                "blue"
+              ],
+              "correct": "blue",
+              "explanation": "El cielo suele verse 'blue' durante el día. Las otras opciones no son típicas para el cielo."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
+          "interaction_id": "U4_Ta1-u4-demonstratives_I1",
+          "title": "Understanding Basic Grammar Structures",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is your brother's bike?",
+              "options": [
+                "A. Blue",
+                "B. He is tall",
+                "C. Five",
+                "D. On Monday"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Blue' porque estamos preguntando sobre el color de la bicicleta. Las otras opciones no son colores."
+            },
+            {
+              "id": "q2",
+              "question": "Where are your parents?",
+              "options": [
+                "A. At the park",
+                "B. 12 years old",
+                "C. Reading",
+                "D. Red"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'At the park' porque estamos preguntando sobre una ubicación. Las otras opciones no indican un lugar."
+            },
+            {
+              "id": "q3",
+              "question": "How many cats do you have?",
+              "options": [
+                "A. Two",
+                "B. Yellow",
+                "C. In the house",
+                "D. Is eating"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Two' porque estamos preguntando sobre la cantidad. Las otras opciones no son números."
+            },
+            {
+              "id": "q4",
+              "question": "What is your favorite day of the week?",
+              "options": [
+                "A. Sunday",
+                "B. Blue",
+                "C. Running",
+                "D. 45"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Sunday' porque estamos preguntando sobre un día de la semana. Las otras opciones no son días."
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
+          "interaction_id": "U4_Ta1-u4-demonstratives_I0",
+          "instructions": "Fill in the blanks with 'this', 'that', 'these', or 'those'.",
+          "questions": [
+            {
+              "sentence": "Look at _______ apple. It is red.",
+              "correct_answer": "this",
+              "explanation": "Usamos 'this' para referirnos a algo cercano en singular.",
+              "points": 1
+            },
+            {
+              "sentence": "_______ are my books on the table.",
+              "correct_answer": "These",
+              "explanation": "Usamos 'these' para referirnos a cosas cercanas en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "Can you see _______ dog over there?",
+              "correct_answer": "that",
+              "explanation": "Usamos 'that' para referirnos a algo lejano en singular.",
+              "points": 1
+            },
+            {
+              "sentence": "_______ chairs are blue and yellow.",
+              "correct_answer": "Those",
+              "explanation": "Usamos 'those' para referirnos a cosas lejanas en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "Listen! _______ song is my favorite.",
+              "correct_answer": "This",
+              "explanation": "Usamos 'this' para referirnos a algo que está sucediendo ahora o cerca.",
+              "points": 1
+            },
+            {
+              "sentence": "I don't like _______ shoes. They are too big.",
+              "correct_answer": "those",
+              "explanation": "Usamos 'those' para referirnos a cosas que no están cerca en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "_______ is my mother. She is next to me.",
+              "correct_answer": "This",
+              "explanation": "Usamos 'this' para referirnos a personas o cosas cercanas en singular.",
+              "points": 1
+            },
+            {
+              "sentence": "_______ pencils are new. They are on your desk.",
+              "correct_answer": "These",
+              "explanation": "Usamos 'these' para referirnos a cosas que están cerca en plural.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U4_Ta1-u4-articles_I0",
+          "title": "Basic Grammar Exercise: Prepositions and Present Simple",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
             {
-              "id": "w2",
-              "text": "learning"
+              "id": "q1",
+              "question": "Where is the cat? It is ____ the table.",
+              "options": [
+                "A. on",
+                "B. in",
+                "C. next to",
+                "D. under"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La preposición 'on' significa 'sobre' cuando algo está directamente en la superficie de otra cosa. En este caso, el gato está 'on the table'."
             },
             {
-              "id": "w0",
-              "text": "I"
+              "id": "q2",
+              "question": "What does she do every morning? She ____ breakfast.",
+              "options": [
+                "A. eat",
+                "B. eats",
+                "C. is eat",
+                "D. eating"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Utilizamos 'eats' para la tercera persona del singular en presente simple para acciones habituales. 'She eats breakfast' es correcto para describir su rutina diaria."
             },
             {
-              "id": "w3",
-              "text": "English"
+              "id": "q3",
+              "question": "The dog is ____ the chair.",
+              "options": [
+                "A. in",
+                "B. on",
+                "C. under",
+                "D. with"
+              ],
+              "correctAnswer": "C",
+              "explanation": "La preposición 'under' se usa para indicar que algo está directamente debajo de otra cosa. El perro está 'under the chair'."
             },
             {
-              "id": "w1",
-              "text": "am"
+              "id": "q4",
+              "question": "What color is the book? It is ____ blue.",
+              "options": [
+                "A. a",
+                "B. an",
+                "C. the",
+                "D. no article"
+              ],
+              "correctAnswer": "D",
+              "explanation": "No se necesita un artículo antes de los colores cuando simplemente se describe algo. Por lo tanto, 'It is blue' es correcto."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U4_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
+          "interaction_id": "U4_Ta1-u4-colors_I1",
+          "text": "Anna likes to paint pictures in her free time. She uses many colors. Her favorite color is (1) ____. She thinks it is very bright and happy. Anna also likes (2) ____ because it reminds her of the sky. Sometimes, she paints (3) ____ trees in her pictures. She says they make her paintings look (4) ____. For her birthday, her brother gave her a set of (5) ____ brushes. Anna was very happy. She also got a new (6) ____ to keep her colors. Anna paints every weekend. Her (7) ____ likes her paintings very much. She often gives them to her as (8) ____.",
+          "questions": [
             {
-              "id": "c3",
-              "text": "No"
+              "gap": 1,
+              "options": [
+                "yellow",
+                "black",
+                "green",
+                "white"
+              ],
+              "correct": "yellow",
+              "explanation": "La respuesta correcta es 'yellow' porque Anna dice que es un color feliz y brillante. 'Black', 'green' y 'white' no son conocidos por ser brillantes o particularmente felices."
             },
             {
-              "id": "c2",
-              "text": "Bye"
+              "gap": 2,
+              "options": [
+                "blue",
+                "black",
+                "green",
+                "white"
+              ],
+              "correct": "blue",
+              "explanation": "La respuesta correcta es 'blue' porque Anna dice que le recuerda al cielo, que es típicamente azul. 'Black', 'green' y 'white' no tienen una conexión natural con el cielo."
             },
             {
-              "id": "c1",
-              "text": "Hello!"
+              "gap": 3,
+              "options": [
+                "green",
+                "red",
+                "black",
+                "white"
+              ],
+              "correct": "green",
+              "explanation": "La respuesta correcta es 'green' porque ella pinta árboles y típicamente los árboles son de color verde. 'Red', 'black' y 'white' no son los colores comunes para árboles."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "natural",
+                "dark",
+                "simple",
+                "quick"
+              ],
+              "correct": "natural",
+              "explanation": "La respuesta correcta es 'natural' porque los árboles verdes hacen que las pinturas se vean naturales. 'Dark', 'simple' y 'quick' no tienen una relación directa con la apariencia de árboles en pinturas."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "new",
+                "old",
+                "red",
+                "blue"
+              ],
+              "correct": "new",
+              "explanation": "La respuesta correcta es 'new' porque se menciona como un regalo para su cumpleaños. 'Old', 'red' y 'blue' no describen adecuadamente el conjunto de brochas."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "box",
+                "pencil",
+                "chair",
+                "table"
+              ],
+              "correct": "box",
+              "explanation": "La respuesta correcta es 'box' porque es común guardar colores en una caja. 'Pencil', 'chair' y 'table' no son objetos adecuados para guardar colores."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "sister",
+                "friend",
+                "teacher",
+                "dog"
+              ],
+              "correct": "friend",
+              "explanation": "La respuesta correcta es 'friend' porque es común que los amigos aprecien las pinturas. 'Sister', 'teacher' y 'dog' también podrían admirar las pinturas, pero aquí la opción más lógica es 'friend'."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "gifts",
+                "money",
+                "books",
+                "flowers"
+              ],
+              "correct": "gifts",
+              "explanation": "La respuesta correcta es 'gifts' ya que es común regalar pinturas. 'Money', 'books' y 'flowers' no son lo que se menciona en el texto en relación a entregar pinturas."
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U4_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U4_Ta1-u4-plurals_I0",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Tennis"
+              "sentence": "My brother goes to school ___ Monday.",
+              "answer": "on",
+              "explanation": "Usamos 'on' con días de la semana.",
+              "points": 1
             },
             {
-              "id": "o1",
-              "text": "Apple"
+              "sentence": "There ___ a cat in the garden.",
+              "answer": "is",
+              "explanation": "Usamos 'there is' para singular.",
+              "points": 1
+            },
+            {
+              "sentence": "She ___ like ice cream.",
+              "answer": "doesn't",
+              "explanation": "En tercera persona singular negativa con 'doesn't'.",
+              "points": 1
+            },
+            {
+              "sentence": "We have a meeting ___ 3 o'clock.",
+              "answer": "at",
+              "explanation": "Usamos 'at' con horas específicas.",
+              "points": 1
+            },
+            {
+              "sentence": "My mom ___ to the gym every day.",
+              "answer": "goes",
+              "explanation": "En tercera persona singular usamos verbo + 's'.",
+              "points": 1
+            },
+            {
+              "sentence": "I like to play with ___ every weekend. (my friends)",
+              "answer": "them",
+              "explanation": "Usamos 'them' como pronombre de objeto para 'my friends'.",
+              "points": 1
+            },
+            {
+              "sentence": "There ___ two books on the table.",
+              "answer": "are",
+              "explanation": "Usamos 'there are' para plural.",
+              "points": 1
+            },
+            {
+              "sentence": "He ___ have a pen.",
+              "answer": "doesn't",
+              "explanation": "En la forma negativa con 'he', usamos 'doesn't'.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_Ta1-u4-objects_I0",
+          "title": "Basic Everyday Objects Exercise",
+          "instructions": "Choose the correct option for each question. Focus on everyday objects and basic grammar.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Where is the pen?",
+              "options": [
+                "A. In the bag",
+                "B. Next to the chair",
+                "C. Under the phone",
+                "D. On the window"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción correcta es 'In the bag' porque 'in' se usa para indicar que algo está dentro de otra cosa."
+            },
+            {
+              "id": "q2",
+              "question": "What can you see on the table?",
+              "options": [
+                "A. Phone",
+                "B. Chair",
+                "C. Window",
+                "D. Bag"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción correcta es 'Phone' porque preguntamos qué objetos están sobre la mesa, y 'Phone' es un objeto que típicamente podemos encontrar ahí."
+            },
+            {
+              "id": "q3",
+              "question": "Is the chair next to the window?",
+              "options": [
+                "A. Yes",
+                "B. No",
+                "C. Maybe",
+                "D. Sometimes"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta es 'Yes' porque la pregunta usa 'next to' para indicar que la silla está al lado de la ventana."
+            },
+            {
+              "id": "q4",
+              "question": "Do you like the new bag?",
+              "options": [
+                "A. I buy it",
+                "B. Yes, I do",
+                "C. It's red",
+                "D. No, it not"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La respuesta correcta es 'Yes, I do' porque responde a la pregunta de si te gusta o no, usando la forma correcta del presente simple."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U4_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 4 of the A1 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U4_Ta1-u4-objects_I1",
+          "text": "In the classroom, there is a big (1) ______. The teacher uses it to show things to the students. Next to the desk, there is a nice (2) ______ where the teacher sits. On the desk, you can find a (3) ______ to write notes. Students like to use a (4) ______ to write as well. Each student has a (5) ______ for their books and notebooks. Sometimes, they use a (6) ______ to call their parents. There is a (7) ______ in the corner of the room. It helps to keep the room cool. Finally, there is a large (8) ______ that lets in a lot of light.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "gap": 1,
+              "options": [
+                "table",
+                "phone",
+                "pen",
+                "bag"
+              ],
+              "correct": "table",
+              "explanation": "La palabra 'table' se refiere a un mueble plano donde se pueden colocar objetos, que es común en un aula de clases."
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "gap": 2,
+              "options": [
+                "window",
+                "chair",
+                "computer",
+                "pen"
+              ],
+              "correct": "chair",
+              "explanation": "La 'chair' es un asiento donde una persona puede sentarse, lo cual es lógico al lado de un escritorio."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "computer",
+                "bag",
+                "window",
+                "computer"
+              ],
+              "correct": "computer",
+              "explanation": "En un contexto moderno de aula, un 'computer' es común en el escritorio para mostrar información a los estudiantes."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "pen",
+                "phone",
+                "computer",
+                "table"
+              ],
+              "correct": "pen",
+              "explanation": "Un 'pen' es una herramienta común para escribir notas, adecuada para estudiantes."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "bag",
+                "window",
+                "chair",
+                "phone"
+              ],
+              "correct": "bag",
+              "explanation": "Los estudiantes usan una 'bag' para llevar sus libros y cuadernos."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "phone",
+                "computer",
+                "pen",
+                "window"
+              ],
+              "correct": "phone",
+              "explanation": "Un 'phone' se usa para hacer llamadas, por lo que tiene sentido en este contexto."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "pen",
+                "table",
+                "window",
+                "chair"
+              ],
+              "correct": "window",
+              "explanation": "Una 'window' en la esquina de una sala permite la entrada de aire y luz."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "window",
+                "chair",
+                "bag",
+                "phone"
+              ],
+              "correct": "window",
+              "explanation": "Una 'window' grande es adecuada para dejar entrar mucha luz en una habitación."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 4 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
         }
       ]
     }

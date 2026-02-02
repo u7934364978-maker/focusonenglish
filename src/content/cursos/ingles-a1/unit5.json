@@ -4,173 +4,691 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U5",
-    "unit_title": "Free Time",
-    "total_duration_minutes": 60
+    "unit_title": "Rutinas diarias y horarios",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B5",
-      "title": "Free Time",
+      "title": "Rutinas diarias y horarios",
       "content": [
         {
-          "interaction_id": "U5_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U5_Ta1-u5-present-simple-basic_I0",
+          "sentences": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "id": 1,
+              "words": [
+                "My",
+                "book",
+                "have",
+                "I",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "have",
+                "my",
+                "book",
+                "."
+              ],
+              "translation": "Tengo mi libro.",
+              "hint": "Start with the subject 'I' and follow with the verb.",
+              "points": 2
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "id": 2,
+              "words": [
+                "is",
+                "blue",
+                "Her",
+                "pen",
+                "."
+              ],
+              "correctOrder": [
+                "Her",
+                "pen",
+                "is",
+                "blue",
+                "."
+              ],
+              "translation": "Su bolígrafo es azul.",
+              "hint": "Start with 'Her' and follow with 'pen'.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "They",
+                "go",
+                "to",
+                "school",
+                "every",
+                "day",
+                "."
+              ],
+              "correctOrder": [
+                "They",
+                "go",
+                "to",
+                "school",
+                "every",
+                "day",
+                "."
+              ],
+              "translation": "Ellos van a la escuela todos los días.",
+              "hint": "Start with the subject 'They' and follow with the verb.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "We",
+                "are",
+                "in",
+                "the",
+                "park",
+                "."
+              ],
+              "correctOrder": [
+                "We",
+                "are",
+                "in",
+                "the",
+                "park",
+                "."
+              ],
+              "translation": "Estamos en el parque.",
+              "hint": "Start with 'We' and follow with the verb 'are'.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "Your",
+                "cat",
+                "is",
+                "very",
+                "cute",
+                "."
+              ],
+              "correctOrder": [
+                "Your",
+                "cat",
+                "is",
+                "very",
+                "cute",
+                "."
+              ],
+              "translation": "Tu gato es muy lindo.",
+              "hint": "Start with 'Your' and complete with 'cat'.",
+              "points": 2
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U5_Ta1-u5-adverbs-frequency_I1",
+          "sentences": [
+            {
+              "id": 1,
+              "words": [
+                "dog",
+                "is",
+                "the",
+                "under",
+                "table",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "dog",
+                "is",
+                "under",
+                "the",
+                "table",
+                "."
+              ],
+              "translation": "El perro está debajo de la mesa.",
+              "hint": "Think about where the dog is in relation to the table.",
+              "points": 2
+            },
+            {
+              "id": 2,
+              "words": [
+                "a",
+                "I",
+                "have",
+                "cat",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "have",
+                "a",
+                "cat",
+                "."
+              ],
+              "translation": "Tengo un gato.",
+              "hint": "Identify the subject and the object.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "book",
+                "the",
+                "his",
+                "is",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "book",
+                "is",
+                "his",
+                "."
+              ],
+              "translation": "El libro es suyo.",
+              "hint": "Who owns the book?",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "next",
+                "is",
+                "the",
+                "bus",
+                "to",
+                "stop",
+                "school",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "bus",
+                "stop",
+                "is",
+                "next",
+                "to",
+                "the",
+                "school",
+                "."
+              ],
+              "translation": "La parada de autobús está al lado de la escuela.",
+              "hint": "Where is the bus stop in relation to the school?",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "an",
+                "I",
+                "apple",
+                "want",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "want",
+                "an",
+                "apple",
+                "."
+              ],
+              "translation": "Quiero una manzana.",
+              "hint": "Focus on the desire for an object.",
+              "points": 2
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U5_Ta1-u5-time_I0",
+          "title": "Telling the Time Practice",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What time is it when the clock shows 3:00?",
+              "options": [
+                "A) Three o'clock",
+                "B) Half past three",
+                "C) Quarter to three",
+                "D) Three thirty"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La expresión 'Three o'clock' se usa cuando la hora es exactamente en punto, como 3:00."
+            },
+            {
+              "id": "q2",
+              "question": "It's 4:15. How do you say this time?",
+              "options": [
+                "A) Quarter past four",
+                "B) Four o'clock",
+                "C) Half past four",
+                "D) Quarter to four"
+              ],
+              "correctAnswer": "A",
+              "explanation": "'Quarter past four' significa que son las 4:15, porque un cuarto de hora ha pasado desde las 4:00."
+            },
+            {
+              "id": "q3",
+              "question": "How do you say 5:30 in words?",
+              "options": [
+                "A) Five o'clock",
+                "B) Half past five",
+                "C) Quarter to five",
+                "D) Five fifteen"
+              ],
+              "correctAnswer": "B",
+              "explanation": "'Half past five' significa que son las 5:30, ya que media hora ha pasado desde las 5:00."
+            },
+            {
+              "id": "q4",
+              "question": "If it's 7:45, what's the correct way to say the time?",
+              "options": [
+                "A) Seven thirty",
+                "B) Quarter to eight",
+                "C) Eight o'clock",
+                "D) Half past seven"
+              ],
+              "correctAnswer": "B",
+              "explanation": "'Quarter to eight' significa que faltan 15 minutos para las 8:00, o sea, son las 7:45."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U5_Ta1-u5-time_I1",
+          "title": "Let's Practice Telling the Time",
+          "instructions": "Choose the best answer for each question. Use the options given to find the correct time.",
+          "questions": [
             {
-              "id": "w2",
-              "text": "learning"
+              "id": "q1",
+              "question": "What time is it when the clock shows 7:00?",
+              "options": [
+                "A. Seven o'clock",
+                "B. Seven past",
+                "C. Half past seven",
+                "D. Quarter to seven"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Seven o'clock' porque 'o'clock' se utiliza para indicar una hora exacta sin minutos adicionales."
             },
             {
-              "id": "w3",
-              "text": "English"
+              "id": "q2",
+              "question": "What time is it when the clock shows 3:30?",
+              "options": [
+                "A. Half past three",
+                "B. Quarter past three",
+                "C. Three o'clock",
+                "D. Quarter to three"
+              ],
+              "correctAnswer": "A",
+              "explanation": "'Half past three' es correcto porque 'half past' se refiere a 30 minutos después de la hora completa."
             },
             {
-              "id": "w1",
-              "text": "am"
+              "id": "q3",
+              "question": "What time is it when the clock shows 9:15?",
+              "options": [
+                "A. Quarter past nine",
+                "B. Half past nine",
+                "C. Quarter to nine",
+                "D. Nine o'clock"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta es 'Quarter past nine' porque 'quarter past' indica 15 minutos después de la hora."
             },
             {
-              "id": "w0",
-              "text": "I"
+              "id": "q4",
+              "question": "What time is it when the clock shows 4:45?",
+              "options": [
+                "A. Quarter past four",
+                "B. Half past four",
+                "C. Quarter to five",
+                "D. Four o'clock"
+              ],
+              "correctAnswer": "C",
+              "explanation": "'Quarter to five' es correcto porque faltan 15 minutos para alcanzar la hora siguiente, que es cinco."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U5_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "No"
-            },
-            {
-              "id": "c2",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Hello!"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U5_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Manzana",
-          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U5_Ta1-u5-present-simple-basic_I1",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Apple"
+              "context": "Look at this picture. _______ (this/these) is my dog.",
+              "acceptableAnswers": [
+                "This"
+              ],
+              "explanation": "Usamos 'this' para hablar de algo que está cerca y es singular.",
+              "points": 1
             },
             {
-              "id": "o1",
-              "text": "Tennis"
+              "context": "I have _______ (a/an) apple in my bag.",
+              "acceptableAnswers": [
+                "an"
+              ],
+              "explanation": "Usamos 'an' antes de una vocal (a, e, i, o, u).",
+              "points": 1
+            },
+            {
+              "context": "We _______ (like/likes) to play in the park.",
+              "acceptableAnswers": [
+                "like"
+              ],
+              "explanation": "Con 'we', el verbo no cambia de forma.",
+              "points": 1
+            },
+            {
+              "context": "She _______ (is/are) my sister.",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' con he, she, it.",
+              "points": 1
+            },
+            {
+              "context": "_______ (This/These) are my shoes.",
+              "acceptableAnswers": [
+                "These"
+              ],
+              "explanation": "Usamos 'these' para hablar de cosas plurales que están cerca.",
+              "points": 1
+            },
+            {
+              "context": "My brother _______ (has/have) a bike.",
+              "acceptableAnswers": [
+                "has"
+              ],
+              "explanation": "Con 'my brother', usamos 'has' porque es tercera persona singular.",
+              "points": 1
+            },
+            {
+              "context": "_______ (Do/Does) you like pizza?",
+              "acceptableAnswers": [
+                "Do"
+              ],
+              "explanation": "Usamos 'do' con 'you', 'we', 'they'.",
+              "points": 1
+            },
+            {
+              "context": "There is _______ (a/an) cat in the garden.",
+              "acceptableAnswers": [
+                "a"
+              ],
+              "explanation": "Usamos 'a' antes de una consonante.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U5_Ta1-u5-routines_I1",
+          "text": "Every morning, Anna (1) ______ up at 6 o'clock. She gets out of bed and goes to the bathroom. Anna likes to (2) ______ a shower before breakfast. After her shower, she (3) ______ breakfast with her family. They often eat toast and drink orange juice. At 8 o'clock, Anna (4) ______ to work. She works in a small office. Anna's job is very busy, but she (5) ______ it. In the evening, she comes home and (6) ______ dinner. Then she watches TV or reads a book. At 10 o'clock, Anna goes to bed and (7) ______ asleep. She is very happy with her daily routine. Anna knows that a good night's sleep (8) ______ her feel great the next day.",
+          "questions": [
+            {
+              "gap": 1,
+              "options": [
+                "wake",
+                "wakens",
+                "wakes",
+                "woke"
+              ],
+              "correct": "wakes",
+              "explanation": "La forma correcta del presente simple para la tercera persona singular es 'wakes'. 'Wake' es infinitivo, 'wakens' no es común en este contexto, y 'woke' es pasado."
+            },
+            {
+              "gap": 2,
+              "options": [
+                "take",
+                "make",
+                "do",
+                "have"
+              ],
+              "correct": "have",
+              "explanation": "'Have a shower' es la expresión correcta. 'Take' es más común en inglés americano, 'make' y 'do' no se usan con 'shower'."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "eats",
+                "eats at",
+                "has",
+                "takes"
+              ],
+              "correct": "has",
+              "explanation": "Usamos 'has' para 'have breakfast'. 'Eats' podría ser correcto pero no es lo más común. 'Eats at' y 'takes' no son correctos aquí."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "walks",
+                "goes",
+                "drives",
+                "runs"
+              ],
+              "correct": "goes",
+              "explanation": "'Goes to work' es la frase estándar. 'Walks', 'drives' y 'runs' podrían ser correctos en otros contextos, pero aquí 'goes' es el más adecuado."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "enjoys",
+                "likes",
+                "loves",
+                "hates"
+              ],
+              "correct": "likes",
+              "explanation": "En este contexto, 'likes' es apropiado para expresar gusto. 'Enjoys' y 'loves' son más intensos, y 'hates' es negativo."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "makes",
+                "does",
+                "cooks",
+                "prepares"
+              ],
+              "correct": "makes",
+              "explanation": "'Makes dinner' es común. 'Does' no es apropiado, 'cooks' y 'prepares' son posibles pero 'makes' es más frecuente."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "falls",
+                "goes",
+                "sleeps",
+                "lies"
+              ],
+              "correct": "falls",
+              "explanation": "'Falls asleep' es la expresión correcta. 'Goes', 'sleeps' y 'lies' no expresan bien la acción de dormirse."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "lets",
+                "allows",
+                "makes",
+                "keeps"
+              ],
+              "correct": "makes",
+              "explanation": "'Makes her feel' es la expresión correcta para algo que causa una sensación. 'Lets', 'allows' y 'keeps' no funcionan en este contexto."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U5_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U5_Ta1-u5-adverbs-frequency_I0",
+          "sentences": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": 1,
+              "words": [
+                "at",
+                "I",
+                "homework",
+                "do",
+                "night",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "do",
+                "homework",
+                "at",
+                "night",
+                "."
+              ],
+              "translation": "Hago la tarea por la noche.",
+              "hint": "Usa 'at' para hablar del tiempo.",
+              "points": 2
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": 2,
+              "words": [
+                "is",
+                "in",
+                "the",
+                "cat",
+                "garden",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "cat",
+                "is",
+                "in",
+                "the",
+                "garden",
+                "."
+              ],
+              "translation": "El gato está en el jardín.",
+              "hint": "Empieza con el sujeto y usa 'in' para lugar.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "sister",
+                "my",
+                "has",
+                "a",
+                "doll",
+                "."
+              ],
+              "correctOrder": [
+                "My",
+                "sister",
+                "has",
+                "a",
+                "doll",
+                "."
+              ],
+              "translation": "Mi hermana tiene una muñeca.",
+              "hint": "Sigue el orden sujeto, verbo, objeto.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "dog",
+                "is",
+                "the",
+                "black",
+                "."
+              ],
+              "correctOrder": [
+                "The",
+                "dog",
+                "is",
+                "black",
+                "."
+              ],
+              "translation": "El perro es negro.",
+              "hint": "Empieza con el artículo y el sujeto.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "on",
+                "birthday",
+                "my",
+                "is",
+                "Sunday",
+                "."
+              ],
+              "correctOrder": [
+                "My",
+                "birthday",
+                "is",
+                "on",
+                "Sunday",
+                "."
+              ],
+              "translation": "Mi cumpleaños es el domingo.",
+              "hint": "Usa 'on' para días específicos.",
+              "points": 2
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U5_Ta1-u5-routines_I0",
+          "title": "Daily Activities: Basic Actions",
+          "instructions": "Choose the correct answer.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "I ___ up at 7 o'clock.",
+              "options": [
+                "wake",
+                "wakes",
+                "woken",
+                "waking"
+              ],
+              "correctAnswer": "wake",
+              "explanation": "Usamos 'wake' porque es la forma correcta en presente simple para 'I'."
+            },
+            {
+              "id": "q2",
+              "question": "She ___ breakfast at 8 o'clock.",
+              "options": [
+                "has",
+                "have",
+                "having",
+                "haves"
+              ],
+              "correctAnswer": "has",
+              "explanation": "Usamos 'has' porque es la forma correcta del verbo 'have' para 'she' en presente simple."
+            },
+            {
+              "id": "q3",
+              "question": "___ he go to work by bus?",
+              "options": [
+                "Does",
+                "Do",
+                "Did",
+                "Doing"
+              ],
+              "correctAnswer": "Does",
+              "explanation": "Usamos 'Does' para preguntas en presente simple con 'he'."
+            },
+            {
+              "id": "q4",
+              "question": "We ___ a shower in the morning.",
+              "options": [
+                "take",
+                "takes",
+                "taking",
+                "taken"
+              ],
+              "correctAnswer": "take",
+              "explanation": "Usamos 'take' porque es la forma correcta en presente simple para 'we'."
+            }
+          ],
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U5_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 5 of the A1 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U5_I59",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 5 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
         }
       ]
     }

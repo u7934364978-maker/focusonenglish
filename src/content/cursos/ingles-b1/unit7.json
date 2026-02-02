@@ -31,13 +31,441 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Insomnia",
-              "right": "Habitual sleeplessness; inability to sleep"
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
             },
             {
               "id": "p1",
               "left": "Stamina",
               "right": "The ability to sustain prolonged physical effort"
+            },
+            {
+              "id": "p2",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I2",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (go/usually) ________ for a run in the morning.",
+          "correct_answer": "usually goes",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He decided to start therapy to manage his anxiety.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "his"
+            },
+            {
+              "id": "w1",
+              "text": "decided"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w8",
+              "text": "anxiety"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "manage"
+            },
+            {
+              "id": "w3",
+              "text": "start"
+            },
+            {
+              "id": "w4",
+              "text": "therapy"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Proper hydration is vital during hot weather.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Consisting of different elements in correct proportions\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Balanced"
+            },
+            {
+              "id": "o2",
+              "text": "Symptom"
+            },
+            {
+              "id": "o3",
+              "text": "Stamina"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Wellness",
+              "right": "The state of being in good health"
+            },
+            {
+              "id": "p1",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            },
+            {
+              "id": "p2",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I8",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (be/ought to) ________ more careful.",
+          "correct_answer": "ought to be",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Running every morning has significantly improved my stamina.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Practicing mindfulness can help reduce daily stress.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A physical sign of a disease\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Symptom"
+            },
+            {
+              "id": "o3",
+              "text": "Meditation"
+            },
+            {
+              "id": "o2",
+              "text": "Wellness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            },
+            {
+              "id": "p1",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            },
+            {
+              "id": "p2",
+              "left": "Therapy",
+              "right": "Treatment intended to relieve or heal a disorder"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (rest) ________, you will recover faster.",
+          "correct_answer": "rest",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What the are main symptoms of the flu?\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "wellbeing"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "Good"
+            },
+            {
+              "id": "w4",
+              "text": "foundation"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "physical"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "nutrition"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He decided to start therapy to manage his anxiety.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Consisting of different elements in correct proportions\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Balanced"
+            },
+            {
+              "id": "o2",
+              "text": "Stamina"
+            },
+            {
+              "id": "o3",
+              "text": "Nutritious"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Recovery",
+              "right": "The process of becoming well again"
+            },
+            {
+              "id": "p1",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
             },
             {
               "id": "p2",
@@ -53,25 +481,2029 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I2",
+          "interaction_id": "U7_I20",
           "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "They (have/not) ________ any health problems so far.",
-          "correct_answer": "haven't had",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (try) ________ to quit sugar for a month.",
+          "correct_answer": "has been trying",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I3",
+          "interaction_id": "U7_I21",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A balanced diet is essential good for health.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He decided to start therapy to manage his anxiety.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Insomnia can have a serious impact on your quality of life.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A physical sign of a disease\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Mindfulness"
+            },
+            {
+              "id": "o3",
+              "text": "Wellness"
+            },
+            {
+              "id": "o1",
+              "text": "Symptom"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            },
+            {
+              "id": "p1",
+              "left": "Balanced",
+              "right": "Consisting of different elements in correct proportions"
+            },
+            {
+              "id": "p2",
+              "left": "Recovery",
+              "right": "The process of becoming well again"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I26",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "What (do/should/I) ________ to lose weight?",
+          "correct_answer": "should i do",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Proper hydration is vital during hot weather.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w7",
+              "text": "operation"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w3",
+              "text": "full"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "made"
+            },
+            {
+              "id": "w4",
+              "text": "recovery"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She finds daily meditation very helpful for her focus.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Treatment intended to relieve or heal a disorder\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Treatment"
+            },
+            {
+              "id": "o2",
+              "text": "Recovery"
+            },
+            {
+              "id": "o1",
+              "text": "Therapy"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            },
+            {
+              "id": "p1",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            },
+            {
+              "id": "p2",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I32",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "What (should/do/I) ________ to lose weight?",
+          "correct_answer": "should i do",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Good is nutrition the foundation of physical wellbeing.\"",
           "correct_answer": false,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I4",
+          "interaction_id": "U7_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "offers"
+            },
+            {
+              "id": "w4",
+              "text": "many"
+            },
+            {
+              "id": "w6",
+              "text": "classes"
+            },
+            {
+              "id": "w2",
+              "text": "center"
+            },
+            {
+              "id": "w1",
+              "text": "wellness"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "different"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She finds daily meditation very helpful for her focus.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The process of providing food for health and growth\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Insomnia"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Nutrition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            },
+            {
+              "id": "p1",
+              "left": "Balanced",
+              "right": "Consisting of different elements in correct proportions"
+            },
+            {
+              "id": "p2",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I38",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (see/ought to) ________ a doctor about that cough.",
+          "correct_answer": "ought to see",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What are the main symptoms of flu? the\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "health"
+            },
+            {
+              "id": "w5",
+              "text": "long-term"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "stress"
+            },
+            {
+              "id": "w3",
+              "text": "crucial"
+            },
+            {
+              "id": "w0",
+              "text": "Managing"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Good nutrition is the foundation of physical wellbeing.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The process of causing something to absorb water\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hydration"
+            },
+            {
+              "id": "o2",
+              "text": "Insomnia"
+            },
+            {
+              "id": "o3",
+              "text": "Balanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            },
+            {
+              "id": "p1",
+              "left": "Nutritious",
+              "right": "Providing the substances needed for growth"
+            },
+            {
+              "id": "p2",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I44",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (go/usually) ________ for a run in the morning.",
+          "correct_answer": "usually goes",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You should try to eat more nutritious food.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w8",
+              "text": "focus"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w7",
+              "text": "her"
+            },
+            {
+              "id": "w3",
+              "text": "meditation"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "daily"
+            },
+            {
+              "id": "w5",
+              "text": "helpful"
+            },
+            {
+              "id": "w1",
+              "text": "finds"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Running every morning has significantly improved my stamina.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The action or practice of meditating\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Meditation"
+            },
+            {
+              "id": "o2",
+              "text": "Wellness"
+            },
+            {
+              "id": "o3",
+              "text": "Treatment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            },
+            {
+              "id": "p1",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            },
+            {
+              "id": "p2",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (rest) ________, you will recover faster.",
+          "correct_answer": "rest",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He made a full recovery after operation. the\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Regular exercise is key to maintaining a healthy weight.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A state of mental or emotional strain\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Stamina"
+            },
+            {
+              "id": "o1",
+              "text": "Stress"
+            },
+            {
+              "id": "o3",
+              "text": "Hydration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Therapy",
+              "right": "Treatment intended to relieve or heal a disorder"
+            },
+            {
+              "id": "p1",
+              "left": "Balanced",
+              "right": "Consisting of different elements in correct proportions"
+            },
+            {
+              "id": "p2",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I56",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (used to/not) ________ sleeping so little.",
+          "correct_answer": "am not used to",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness can help reduce daily stress.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "full"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w4",
+              "text": "recovery"
+            },
+            {
+              "id": "w1",
+              "text": "made"
+            },
+            {
+              "id": "w7",
+              "text": "operation"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Proper hydration is vital during hot weather.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I60",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Providing the substances needed for growth\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Insomnia"
+            },
+            {
+              "id": "o2",
+              "text": "Stamina"
+            },
+            {
+              "id": "o1",
+              "text": "Nutritious"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            },
+            {
+              "id": "p1",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            },
+            {
+              "id": "p2",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I62",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (go/usually) ________ for a run in the morning.",
+          "correct_answer": "usually goes",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A balanced diet is essential for good health.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "balanced"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "diet"
+            },
+            {
+              "id": "w7",
+              "text": "health"
+            },
+            {
+              "id": "w4",
+              "text": "essential"
+            },
+            {
+              "id": "w6",
+              "text": "good"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The doctor suggested a new treatment plan.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Habitual sleeplessness; inability to sleep\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Mindfulness"
+            },
+            {
+              "id": "o2",
+              "text": "Nutritious"
+            },
+            {
+              "id": "o1",
+              "text": "Insomnia"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            },
+            {
+              "id": "p1",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            },
+            {
+              "id": "p2",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I68",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (eat/should) ________ more vegetables.",
+          "correct_answer": "should eat",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You should try to eat more nutritious food.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "your"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w0",
+              "text": "Insomnia"
+            },
+            {
+              "id": "w9",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "can"
+            },
+            {
+              "id": "w10",
+              "text": "life"
+            },
+            {
+              "id": "w4",
+              "text": "serious"
+            },
+            {
+              "id": "w8",
+              "text": "quality"
+            },
+            {
+              "id": "w6",
+              "text": "on"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"A balanced diet is essential for good health.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A physical sign of a disease\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Balanced"
+            },
+            {
+              "id": "o1",
+              "text": "Symptom"
+            },
+            {
+              "id": "o2",
+              "text": "Hydration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stress",
+              "right": "A state of mental or emotional strain"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            },
+            {
+              "id": "p2",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (meet) ________ at the gym at 6 PM.",
+          "correct_answer": "are meeting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What are the main symptoms of the flu?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "her"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w3",
+              "text": "meditation"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w8",
+              "text": "focus"
+            },
+            {
+              "id": "w5",
+              "text": "helpful"
+            },
+            {
+              "id": "w1",
+              "text": "finds"
+            },
+            {
+              "id": "w2",
+              "text": "daily"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Managing stress is crucial for long-term health.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The ability to sustain prolonged physical effort\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Meditation"
+            },
+            {
+              "id": "o2",
+              "text": "Recovery"
+            },
+            {
+              "id": "o1",
+              "text": "Stamina"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            },
+            {
+              "id": "p2",
+              "left": "Nutritious",
+              "right": "Providing the substances needed for growth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I80",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (be/ought to) ________ more careful.",
+          "correct_answer": "ought to be",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practic mindfulness can help reduce daily stress.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "nutritious"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"A balanced diet is essential for good health.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Providing the substances needed for growth\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Nutrition"
+            },
+            {
+              "id": "o3",
+              "text": "Stress"
+            },
+            {
+              "id": "o1",
+              "text": "Nutritious"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Wellness",
+              "right": "The state of being in good health"
+            },
+            {
+              "id": "p1",
+              "left": "Nutritious",
+              "right": "Providing the substances needed for growth"
+            },
+            {
+              "id": "p2",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I86",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "What (I/do/should) ________ to lose weight?",
+          "correct_answer": "should i do",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The doctor a suggested new treatment plan.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "symptoms"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "flu?"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "main"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Practicing mindfulness can help reduce daily stress.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Treatment intended to relieve or heal a disorder\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Symptom"
+            },
+            {
+              "id": "o2",
+              "text": "Recovery"
+            },
+            {
+              "id": "o1",
+              "text": "Therapy"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            },
+            {
+              "id": "p1",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            },
+            {
+              "id": "p2",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I92",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (be/ought to) ________ more careful.",
+          "correct_answer": "ought to be",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The wellness center offers many different classes.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            },
+            {
+              "id": "w4",
+              "text": "eat"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He made a full recovery after the operation.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The action or practice of meditating\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nutrition"
+            },
+            {
+              "id": "o1",
+              "text": "Meditation"
+            },
+            {
+              "id": "o2",
+              "text": "Symptom"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stamina",
+              "right": "The ability to sustain prolonged physical effort"
+            },
+            {
+              "id": "p1",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            },
+            {
+              "id": "p2",
+              "left": "Therapy",
+              "right": "Treatment intended to relieve or heal a disorder"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I98",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (used to/not) ________ sleeping so little.",
+          "correct_answer": "am not used to",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness can help reduce daily stress.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w7",
+              "text": "your"
+            },
+            {
+              "id": "w9",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "Insomnia"
+            },
+            {
+              "id": "w4",
+              "text": "serious"
+            },
+            {
+              "id": "w8",
+              "text": "quality"
+            },
+            {
+              "id": "w5",
+              "text": "impact"
+            },
+            {
+              "id": "w10",
+              "text": "life"
+            },
+            {
+              "id": "w1",
+              "text": "can"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He made a full recovery after the operation.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I102",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Medical care given to a patient\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Treatment"
+            },
+            {
+              "id": "o3",
+              "text": "Symptom"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stress",
+              "right": "A state of mental or emotional strain"
+            },
+            {
+              "id": "p1",
+              "left": "Recovery",
+              "right": "The process of becoming well again"
+            },
+            {
+              "id": "p2",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I104",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (see/ought to) ________ a doctor about that cough.",
+          "correct_answer": "ought to see",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness can help reduce daily stress.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I106",
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
@@ -80,12 +2512,20 @@
               "text": "daily"
             },
             {
+              "id": "w0",
+              "text": "Practicing"
+            },
+            {
               "id": "w3",
               "text": "help"
             },
             {
-              "id": "w0",
-              "text": "Practicing"
+              "id": "w4",
+              "text": "reduce"
+            },
+            {
+              "id": "w6",
+              "text": "stress"
             },
             {
               "id": "w2",
@@ -94,6 +2534,541 @@
             {
               "id": "w1",
               "text": "mindfulness"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Good nutrition is the foundation of physical wellbeing.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I108",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Physical activity that is done to become stronger\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wellness"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Stamina"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Balanced",
+              "right": "Consisting of different elements in correct proportions"
+            },
+            {
+              "id": "p1",
+              "left": "Stamina",
+              "right": "The ability to sustain prolonged physical effort"
+            },
+            {
+              "id": "p2",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I110",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (used to/not) ________ sleeping so little.",
+          "correct_answer": "am not used to",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The doctor suggested a new treatment plan.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "symptoms"
+            },
+            {
+              "id": "w3",
+              "text": "main"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w7",
+              "text": "flu?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Proper hydration is vital during hot weather.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I114",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A state of mental or emotional strain\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Insomnia"
+            },
+            {
+              "id": "o1",
+              "text": "Stress"
+            },
+            {
+              "id": "o2",
+              "text": "Balanced"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            },
+            {
+              "id": "p1",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            },
+            {
+              "id": "p2",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (meet) ________ at the gym at 6 PM.",
+          "correct_answer": "are meeting",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness can help reduce daily stress.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "operation"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w1",
+              "text": "made"
+            },
+            {
+              "id": "w4",
+              "text": "recovery"
+            },
+            {
+              "id": "w3",
+              "text": "full"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I119",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Regular exercise is key to maintaining a healthy weight.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Habitual sleeplessness; inability to sleep\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Recovery"
+            },
+            {
+              "id": "o3",
+              "text": "Symptom"
+            },
+            {
+              "id": "o1",
+              "text": "Insomnia"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stamina",
+              "right": "The ability to sustain prolonged physical effort"
+            },
+            {
+              "id": "p1",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I122",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She (book/already) ________ an appointment with the dentist.",
+          "correct_answer": "has already booked",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insomnia can have serious a impact on your quality of life.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "full"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "after"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "made"
+            },
+            {
+              "id": "w7",
+              "text": "operation"
+            },
+            {
+              "id": "w4",
+              "text": "recovery"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I125",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She finds daily meditation very helpful for her focus.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I126",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The ability to sustain prolonged physical effort\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Mindfulness"
+            },
+            {
+              "id": "o1",
+              "text": "Stamina"
+            },
+            {
+              "id": "o3",
+              "text": "Hydration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nutritious",
+              "right": "Providing the substances needed for growth"
+            },
+            {
+              "id": "p1",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            },
+            {
+              "id": "p2",
+              "left": "Wellness",
+              "right": "The state of being in good health"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I128",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (smoke/shouldn't) ________; it's bad for you.",
+          "correct_answer": "shouldn't smoke",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Regular exercise is key to maintaining a healthy weight.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "help"
             },
             {
               "id": "w4",
@@ -101,6 +3076,1417 @@
             },
             {
               "id": "w6",
+              "text": "stress"
+            },
+            {
+              "id": "w5",
+              "text": "daily"
+            },
+            {
+              "id": "w0",
+              "text": "Practicing"
+            },
+            {
+              "id": "w1",
+              "text": "mindfulness"
+            },
+            {
+              "id": "w2",
+              "text": "can"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The wellness center offers many different classes.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I132",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Habitual sleeplessness; inability to sleep\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Insomnia"
+            },
+            {
+              "id": "o2",
+              "text": "Wellness"
+            },
+            {
+              "id": "o3",
+              "text": "Hydration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            },
+            {
+              "id": "p1",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            },
+            {
+              "id": "p2",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (rest) ________, you will recover faster.",
+          "correct_answer": "rest",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The suggested doctor a new treatment plan.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "start"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "decided"
+            },
+            {
+              "id": "w7",
+              "text": "his"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "therapy"
+            },
+            {
+              "id": "w6",
+              "text": "manage"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "anxiety"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The doctor suggested a new treatment plan.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A state of mental or emotional strain\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Meditation"
+            },
+            {
+              "id": "o1",
+              "text": "Stress"
+            },
+            {
+              "id": "o2",
+              "text": "Insomnia"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            },
+            {
+              "id": "p1",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            },
+            {
+              "id": "p2",
+              "left": "Recovery",
+              "right": "The process of becoming well again"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I140",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "What (should/do/I) ________ to lose weight?",
+          "correct_answer": "should i do",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A balanced diet is for essential good health.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "essential"
+            },
+            {
+              "id": "w2",
+              "text": "diet"
+            },
+            {
+              "id": "w7",
+              "text": "health"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w6",
+              "text": "good"
+            },
+            {
+              "id": "w1",
+              "text": "balanced"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Proper hydration is vital during hot weather.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I144",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Treatment intended to relieve or heal a disorder\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Therapy"
+            },
+            {
+              "id": "o2",
+              "text": "Recovery"
+            },
+            {
+              "id": "o3",
+              "text": "Nutrition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            },
+            {
+              "id": "p1",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            },
+            {
+              "id": "p2",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I146",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (be/ought to) ________ more careful.",
+          "correct_answer": "ought to be",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He decided start to therapy to manage his anxiety.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "classes"
+            },
+            {
+              "id": "w3",
+              "text": "offers"
+            },
+            {
+              "id": "w1",
+              "text": "wellness"
+            },
+            {
+              "id": "w5",
+              "text": "different"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "many"
+            },
+            {
+              "id": "w2",
+              "text": "center"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He decided to start therapy to manage his anxiety.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state of being in good health\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Wellness"
+            },
+            {
+              "id": "o2",
+              "text": "Insomnia"
+            },
+            {
+              "id": "o3",
+              "text": "Symptom"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stamina",
+              "right": "The ability to sustain prolonged physical effort"
+            },
+            {
+              "id": "p1",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            },
+            {
+              "id": "p2",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I152",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "What (I/do/should) ________ to lose weight?",
+          "correct_answer": "should i do",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"You should try to eat more food. nutritious\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "new"
+            },
+            {
+              "id": "w6",
+              "text": "plan"
+            },
+            {
+              "id": "w1",
+              "text": "doctor"
+            },
+            {
+              "id": "w2",
+              "text": "suggested"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "treatment"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I155",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The doctor suggested a new treatment plan.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I156",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Treatment intended to relieve or heal a disorder\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Symptom"
+            },
+            {
+              "id": "o2",
+              "text": "Balanced"
+            },
+            {
+              "id": "o1",
+              "text": "Therapy"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            },
+            {
+              "id": "p1",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            },
+            {
+              "id": "p2",
+              "left": "Symptom",
+              "right": "A physical sign of a disease"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (try) ________ to quit sugar for a month.",
+          "correct_answer": "has been trying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What are main the symptoms of the flu?\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Managing"
+            },
+            {
+              "id": "w3",
+              "text": "crucial"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "long-term"
+            },
+            {
+              "id": "w1",
+              "text": "stress"
+            },
+            {
+              "id": "w6",
+              "text": "health"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I161",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Good nutrition is the foundation of physical wellbeing.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I162",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Providing the substances needed for growth\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Nutritious"
+            },
+            {
+              "id": "o2",
+              "text": "Stress"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            },
+            {
+              "id": "p1",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
+            },
+            {
+              "id": "p2",
+              "left": "Stamina",
+              "right": "The ability to sustain prolonged physical effort"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I164",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (take/must) ________ this medicine twice a day.",
+          "correct_answer": "must take",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Running every morning has significantly improved my stamina.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Insomnia can have a serious impact on your quality of life.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I168",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The process of becoming well again\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Recovery"
+            },
+            {
+              "id": "o3",
+              "text": "Treatment"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            },
+            {
+              "id": "p1",
+              "left": "Nutritious",
+              "right": "Providing the substances needed for growth"
+            },
+            {
+              "id": "p2",
+              "left": "Therapy",
+              "right": "Treatment intended to relieve or heal a disorder"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I170",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (take/must) ________ this medicine twice a day.",
+          "correct_answer": "must take",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Managing stress is crucial long-term for health.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "significantly"
+            },
+            {
+              "id": "w6",
+              "text": "my"
+            },
+            {
+              "id": "w5",
+              "text": "improved"
+            },
+            {
+              "id": "w1",
+              "text": "every"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "Running"
+            },
+            {
+              "id": "w2",
+              "text": "morning"
+            },
+            {
+              "id": "w7",
+              "text": "stamina"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The doctor suggested a new treatment plan.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Treatment intended to relieve or heal a disorder\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Symptom"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Therapy"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Therapy",
+              "right": "Treatment intended to relieve or heal a disorder"
+            },
+            {
+              "id": "p1",
+              "left": "Stress",
+              "right": "A state of mental or emotional strain"
+            },
+            {
+              "id": "p2",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I176",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "You (be/ought to) ________ more careful.",
+          "correct_answer": "ought to be",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Managing stress is crucial for long-term health.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "eat"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w1",
+              "text": "should"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Regular exercise is key to maintaining a healthy weight.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The action or practice of meditating\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Stamina"
+            },
+            {
+              "id": "o1",
+              "text": "Meditation"
+            },
+            {
+              "id": "o3",
+              "text": "Insomnia"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
+            },
+            {
+              "id": "p1",
+              "left": "Nutrition",
+              "right": "The process of providing food for health and growth"
+            },
+            {
+              "id": "p2",
+              "left": "Mindfulness",
+              "right": "The quality of being conscious or aware"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I182",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "What (do/I/should) ________ to lose weight?",
+          "correct_answer": "should i do",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What are the main symptoms of the flu?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w6",
+              "text": "good"
+            },
+            {
+              "id": "w7",
+              "text": "health"
+            },
+            {
+              "id": "w2",
+              "text": "diet"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "essential"
+            },
+            {
+              "id": "w1",
+              "text": "balanced"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I185",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What are the main symptoms of the flu?\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U7_I186",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Consisting of different elements in correct proportions\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Nutritious"
+            },
+            {
+              "id": "o1",
+              "text": "Balanced"
+            },
+            {
+              "id": "o3",
+              "text": "Treatment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stamina",
+              "right": "The ability to sustain prolonged physical effort"
+            },
+            {
+              "id": "p1",
+              "left": "Nutritious",
+              "right": "Providing the substances needed for growth"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Physical activity that is done to become stronger"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I188",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (used to/not) ________ sleeping so little.",
+          "correct_answer": "am not used to",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What are the main symptoms of the flu?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "Managing"
+            },
+            {
+              "id": "w6",
+              "text": "health"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "long-term"
+            },
+            {
+              "id": "w3",
+              "text": "crucial"
+            },
+            {
+              "id": "w1",
               "text": "stress"
             }
           ],
@@ -116,350 +4502,22 @@
           "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U7_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Practicing mindfulness can help reduce daily stress.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I6",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A state of mental or emotional strain\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nutrition"
-            },
-            {
-              "id": "o3",
-              "text": "Wellness"
-            },
-            {
-              "id": "o1",
-              "text": "Stress"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I8",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (go/usually) ________ for a run in the morning.",
-          "correct_answer": "usually goes",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The doctor suggested a treatment new plan.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Medical care given to a patient\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Insomnia"
-            },
-            {
-              "id": "o3",
-              "text": "Hydration"
-            },
-            {
-              "id": "o1",
-              "text": "Treatment"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I14",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (think) ________ mental health is very important.",
-          "correct_answer": "thinks",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Good nutrition is the foundation of physical wellbeing.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I17",
+          "interaction_id": "U7_I191",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
           "stimulus_en": "Speaker A: \"You should try to eat more nutritious food.\"",
           "options": [
             {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
               "id": "r15",
               "text": "That's very kind of you to offer."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I18",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Treatment intended to relieve or heal a disorder\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Insomnia"
-            },
-            {
-              "id": "o3",
-              "text": "Nutrition"
-            },
-            {
-              "id": "o1",
-              "text": "Therapy"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I20",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "She (book/already) ________ an appointment with the dentist.",
-          "correct_answer": "has already booked",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Regular exercise is key to a maintaining healthy weight.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I23",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The doctor suggested a new treatment plan.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Consisting of different elements in correct proportions\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Recovery"
-            },
-            {
-              "id": "o1",
-              "text": "Balanced"
-            },
-            {
-              "id": "o2",
-              "text": "Nutrition"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I26",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "I (feel) ________ much better since I started exercising.",
-          "correct_answer": "have felt",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness help can reduce daily stress.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Proper hydration is vital during hot weather.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
               "id": "r1",
               "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Treatment intended to relieve or heal a disorder\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Therapy"
-            },
-            {
-              "id": "o2",
-              "text": "Recovery"
-            },
-            {
-              "id": "o3",
-              "text": "Nutrition"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I35",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What are the main symptoms of the flu?\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The quality of being conscious or aware\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mindfulness"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Insomnia"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She finds daily meditation very helpful for her focus.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Managing stress is crucial for long-term health.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
             },
             {
               "id": "r10",
               "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
             }
           ],
           "correct_answer": "r10",
@@ -467,17 +4525,17 @@
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U7_I42",
+          "interaction_id": "U7_I192",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The process of providing food for health and growth\"",
+          "prompt_es": "Identifica la palabra correcta para: \"A state of mental or emotional strain\"",
           "options": [
             {
               "id": "o2",
-              "text": "Mindfulness"
+              "text": "Recovery"
             },
             {
               "id": "o1",
-              "text": "Nutrition"
+              "text": "Stress"
             },
             {
               "id": "o3",
@@ -489,633 +4547,35 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I44",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (eat/should) ________ more vegetables.",
-          "correct_answer": "should eat",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness can reduce help daily stress.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Good nutrition is the foundation of physical wellbeing.\"",
-          "options": [
+          "interaction_id": "U7_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
             {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
+              "id": "p0",
+              "left": "Treatment",
+              "right": "Medical care given to a patient"
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "p1",
+              "left": "Meditation",
+              "right": "The action or practice of meditating"
             },
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "p2",
+              "left": "Insomnia",
+              "right": "Habitual sleeplessness; inability to sleep"
             }
           ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I48",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The process of becoming well again\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Recovery"
-            },
-            {
-              "id": "o3",
-              "text": "Stamina"
-            },
-            {
-              "id": "o2",
-              "text": "Nutrition"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U7_I51",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Insomnia can have a serious impact on your quality of life.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I53",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She finds daily meditation very helpful for her focus.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I54",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The state of being in good health\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wellness"
-            },
-            {
-              "id": "o2",
-              "text": "Balanced"
-            },
-            {
-              "id": "o3",
-              "text": "Nutrition"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Proper hydration is vital during hot weather.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I60",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Habitual sleeplessness; inability to sleep\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nutrition"
-            },
-            {
-              "id": "o1",
-              "text": "Insomnia"
-            },
-            {
-              "id": "o2",
-              "text": "Mindfulness"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I62",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "What (should/do/I) ________ to lose weight?",
-          "correct_answer": "should i do",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What are the main symptoms of the flu?\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I66",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The process of causing something to absorb water\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hydration"
-            },
-            {
-              "id": "o2",
-              "text": "Balanced"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I68",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "We (meet) ________ at the gym at 6 PM.",
-          "correct_answer": "are meeting",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The wellness center many offers different classes.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He made a full recovery after the operation.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I72",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Habitual sleeplessness; inability to sleep\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nutritious"
-            },
-            {
-              "id": "o1",
-              "text": "Insomnia"
-            },
-            {
-              "id": "o2",
-              "text": "Stress"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I74",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I (used to/not) ________ sleeping so little.",
-          "correct_answer": "am not used to",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I75",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Practicing mindfulness can help reduce daily stress.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The doctor suggested a new treatment plan.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I86",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (be/ought to) ________ more careful.",
-          "correct_answer": "ought to be",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I90",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Physical activity that is done to become stronger\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Recovery"
-            },
-            {
-              "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Stress"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I95",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Insomnia can have a serious impact on your quality of life.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I96",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Consisting of different elements in correct proportions\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Hydration"
-            },
-            {
-              "id": "o2",
-              "text": "Insomnia"
-            },
-            {
-              "id": "o1",
-              "text": "Balanced"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I99",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Running every morning has significantly improved my stamina.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I102",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The state of being in good health\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Stamina"
-            },
-            {
-              "id": "o1",
-              "text": "Wellness"
-            },
-            {
-              "id": "o3",
-              "text": "Therapy"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Regular exercise is key to maintaining a healthy weight.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I108",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"The action or practice of meditating\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Insomnia"
-            },
-            {
-              "id": "o1",
-              "text": "Meditation"
-            },
-            {
-              "id": "o3",
-              "text": "Recovery"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She finds meditation daily very helpful for her focus.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I116",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (take/must) ________ this medicine twice a day.",
-          "correct_answer": "must take",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What the are main symptoms of the flu?\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I120",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A state of mental or emotional strain\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Mindfulness"
-            },
-            {
-              "id": "o2",
-              "text": "Hydration"
-            },
-            {
-              "id": "o1",
-              "text": "Stress"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Regular exercise is to key maintaining a healthy weight.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I126",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The process of becoming well again\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Symptom"
-            },
-            {
-              "id": "o1",
-              "text": "Recovery"
-            },
-            {
-              "id": "o2",
-              "text": "Therapy"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I132",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"The quality of being conscious or aware\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Balanced"
-            },
-            {
-              "id": "o1",
-              "text": "Mindfulness"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I138",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Medical care given to a patient\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Wellness"
-            },
-            {
-              "id": "o1",
-              "text": "Treatment"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I140",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
-          "stimulus_en": "He (try) ________ to quit sugar for a month.",
-          "correct_answer": "has been trying",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"A balanced diet is essential for health. good\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The wellness offers center many different classes.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The wellness center offers many different classes.\"",
-          "options": [
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I150",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Consisting of different elements in correct proportions\"",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Treatment"
-            },
-            {
-              "id": "o2",
-              "text": "Mindfulness"
-            },
-            {
-              "id": "o1",
-              "text": "Balanced"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I152",
+          "interaction_id": "U7_I194",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
           "stimulus_en": "He (see/ought to) ________ a doctor about that cough.",
@@ -1124,138 +4584,145 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I153",
+          "interaction_id": "U7_I195",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Good nutrition is the of foundation physical wellbeing.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Regular exercise is key to maintaining a healthy weight.\"",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Managing stress is crucial for long-term health.\"",
           "correct_answer": true,
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U7_I162",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Habitual sleeplessness; inability to sleep\"",
+          "interaction_id": "U7_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
           "options": [
             {
-              "id": "o3",
-              "text": "Therapy"
+              "id": "w3",
+              "text": "to"
             },
             {
-              "id": "o1",
-              "text": "Insomnia"
+              "id": "w4",
+              "text": "eat"
             },
             {
-              "id": "o2",
-              "text": "Wellness"
+              "id": "w7",
+              "text": "food"
+            },
+            {
+              "id": "w0",
+              "text": "You"
+            },
+            {
+              "id": "w5",
+              "text": "more"
+            },
+            {
+              "id": "w2",
+              "text": "try"
+            },
+            {
+              "id": "w6",
+              "text": "nutritious"
+            },
+            {
+              "id": "w1",
+              "text": "should"
             }
           ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U7_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He decided to start therapy to manage his anxiety.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I167",
+          "interaction_id": "U7_I197",
           "type": "multiple_choice",
           "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"He decided to start therapy to manage his anxiety.\"",
+          "stimulus_en": "Speaker A: \"Regular exercise is key to maintaining a healthy weight.\"",
           "options": [
             {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
             },
             {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
+              "id": "r4",
+              "text": "Really? I had no idea about that."
             },
             {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
             }
           ],
-          "correct_answer": "r2",
+          "correct_answer": "r3",
           "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
           "mastery_tag": "communication"
         },
         {
-          "interaction_id": "U7_I170",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "You (smoke/shouldn't) ________; it's bad for you.",
-          "correct_answer": "shouldn't smoke",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"Physical activity that is done to become stronger\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Stress"
-            },
-            {
-              "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Meditation"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The suggested doctor a new treatment plan.\"",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U7_I198",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The process of causing something to absorb water\"",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The quality of being conscious or aware\"",
           "options": [
             {
               "id": "o2",
-              "text": "Treatment"
+              "text": "Insomnia"
             },
             {
               "id": "o1",
-              "text": "Hydration"
+              "text": "Mindfulness"
             },
             {
               "id": "o3",
-              "text": "Meditation"
+              "text": "Symptom"
             }
           ],
           "correct_answer": "o1",
           "feedback_correct_es": "¡Muy bien! Has acertado.",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Balanced",
+              "right": "Consisting of different elements in correct proportions"
+            },
+            {
+              "id": "p1",
+              "left": "Hydration",
+              "right": "The process of causing something to absorb water"
+            },
+            {
+              "id": "p2",
+              "left": "Wellness",
+              "right": "The state of being in good health"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (rest) ________, you will recover faster.",
+          "correct_answer": "rest",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
         }
       ]
     }

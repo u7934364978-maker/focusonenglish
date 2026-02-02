@@ -38,7 +38,8 @@ export default function AudioButton({
 
     setIsLoading(true);
     try {
-      const response = await fetch('/api/ai-tutor/tts', {
+      const apiUrl = voiceId ? '/api/ai-tutor/tts' : '/api/generate-audio';
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -46,6 +47,7 @@ export default function AudioButton({
         body: JSON.stringify({
           text,
           voiceId,
+          voice: 'alloy' // default for OpenAI
         }),
       });
 
@@ -56,6 +58,7 @@ export default function AudioButton({
       const audioBlob = await response.blob();
       const audioUrl = URL.createObjectURL(audioBlob);
       const newAudio = new Audio(audioUrl);
+      newAudio.playbackRate = 1.1; // Fluid flow
       
       newAudio.onended = () => {
         setIsPlaying(false);

@@ -11,10 +11,12 @@ export default async function A1CoursePage() {
 
   const userId = user?.id || 'anonymous';
 
-  // Fetch all interactions and user progress
-  const allInteractions = await premiumCourseService.getAllA1Interactions();
+  // Fetch all units and user progress
+  const units = await premiumCourseService.getUnits('ingles-a1');
   const completedIds = await premiumCourseService.getA1Progress(userId);
+  const completedSet = new Set(completedIds);
   
+  const allInteractions = await premiumCourseService.getAllA1Interactions();
   const totalExercises = allInteractions.length;
   const completedExercises = completedIds.length;
   const progressPercentage = totalExercises > 0 
@@ -32,12 +34,12 @@ export default async function A1CoursePage() {
               Curso <span className="text-[#FF6B6B]">Inglés A1</span>
             </h1>
             <p className="text-xl text-slate-600">
-              Secuencia dinámica de ejercicios mezclados para un aprendizaje fluido desde cero.
+              Estructura oficial por unidades para un aprendizaje progresivo.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Main Stats Card */}
+            {/* Main Stats and Units Card */}
             <div className="lg:col-span-2 space-y-6">
               <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 overflow-hidden relative">
                 <div className="absolute top-0 right-0 p-8 opacity-10">
@@ -74,63 +76,85 @@ export default async function A1CoursePage() {
                       <p className="text-xl font-black text-slate-900">{completedExercises}</p>
                     </div>
                     <div className="bg-slate-50 p-4 rounded-2xl">
-                      <p className="text-slate-500 text-xs font-bold uppercase mb-1">Pendientes</p>
-                      <p className="text-xl font-black text-slate-900">{totalExercises - completedExercises}</p>
+                      <p className="text-slate-500 text-xs font-bold uppercase mb-1">Unidades</p>
+                      <p className="text-xl font-black text-slate-900">{units.length}</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Start Practice Section */}
-              <div className="bg-[#1A237E] p-8 rounded-3xl shadow-2xl text-white relative overflow-hidden group">
-                <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
-                
-                <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-                  <div className="max-w-md">
-                    <h3 className="text-3xl font-black mb-4">Práctica Aleatoria</h3>
-                    <p className="text-blue-100 text-lg mb-0">
-                      Continúa con tu secuencia personalizada de ejercicios mezclados de todas las unidades A1.
-                    </p>
-                  </div>
-                  
-                  <Link 
-                    href="/curso/ingles-a1/practica"
-                    className="flex items-center gap-3 bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-10 py-5 rounded-2xl font-black text-xl shadow-lg hover:shadow-coral-500/20 hover:-translate-y-1 transition-all whitespace-nowrap"
-                  >
-                    <Play fill="currentColor" size={24} />
-                    ¡CONTINUAR!
-                  </Link>
-                </div>
+              {/* Units Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {units.map((unit: any, index: number) => {
+                  const unitCompletedCount = unit.interactionIds.filter((id: string) => completedSet.has(id)).length;
+                  const unitProgress = unit.totalExercises > 0 
+                    ? Math.round((unitCompletedCount / unit.totalExercises) * 100) 
+                    : 0;
+                  const isCompleted = unitProgress === 100;
+
+                  return (
+                    <Link 
+                      key={unit.id}
+                      href={`/curso/ingles-a1/${unit.file}`}
+                      className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-coral-200 transition-all group relative overflow-hidden"
+                    >
+                      <div className="absolute top-0 right-0 w-24 h-24 bg-coral-50 rounded-bl-full -mr-12 -mt-12 group-hover:scale-110 transition-transform" />
+                      
+                      <div className="relative z-10">
+                        <div className="flex justify-between items-start mb-4">
+                          <span className="text-xs font-black text-coral-500 uppercase tracking-wider">
+                            Unidad {index + 1}
+                          </span>
+                          {isCompleted && (
+                            <CheckCircle2 size={20} className="text-green-500" />
+                          )}
+                        </div>
+                        
+                        <h3 className="text-lg font-black text-slate-900 mb-2 group-hover:text-coral-600 transition-colors line-clamp-1">
+                          {unit.title}
+                        </h3>
+                        
+                        <div className="flex items-center gap-4">
+                          <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
+                            <div 
+                              className={`h-full rounded-full transition-all duration-500 ${isCompleted ? 'bg-green-500' : 'bg-coral-500'}`}
+                              style={{ width: `${unitProgress}%` }}
+                            />
+                          </div>
+                          <span className="text-xs font-bold text-slate-400">
+                            {unitProgress}%
+                          </span>
+                        </div>
+                        
+                        <p className="text-xs text-slate-400 mt-2 font-medium">
+                          {unitCompletedCount}/{unit.totalExercises} Ejercicios
+                        </p>
+                      </div>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
 
             {/* Sidebar / Info */}
             <div className="space-y-6">
-              <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm">
-                <h4 className="text-lg font-black text-slate-900 mb-4 flex items-center gap-2">
-                  <Clock className="text-slate-400" size={20} />
-                  ¿Cómo funciona?
-                </h4>
-                <ul className="space-y-4">
-                  <li className="flex gap-3">
-                    <div className="mt-1"><CheckCircle2 size={18} className="text-green-500" /></div>
-                    <p className="text-slate-600 text-sm">
-                      Mezclamos ejercicios de las <strong>34 unidades</strong> para evitar la memorización por contexto.
-                    </p>
-                  </li>
-                  <li className="flex gap-3">
-                    <div className="mt-1"><CheckCircle2 size={18} className="text-green-500" /></div>
-                    <p className="text-slate-600 text-sm">
-                      Tu progreso es <strong>persistente</strong>. El sistema recuerda qué ejercicios ya dominas.
-                    </p>
-                  </li>
-                  <li className="flex gap-3">
-                    <div className="mt-1"><CheckCircle2 size={18} className="text-green-500" /></div>
-                    <p className="text-slate-600 text-sm">
-                      Nuevos ejercicios se generan dinámicamente cada vez que inicias una sesión.
-                    </p>
-                  </li>
-                </ul>
+              <div className="bg-[#1A237E] p-8 rounded-3xl shadow-2xl text-white relative overflow-hidden group mb-6">
+                <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
+                
+                <div className="relative z-10">
+                  <h3 className="text-2xl font-black mb-4">Práctica Aleatoria</h3>
+                  <p className="text-blue-100 text-sm mb-6">
+                    Mezclamos ejercicios de todas las unidades para un desafío extra.
+                  </p>
+                  
+                  <Link 
+                    href="/curso/ingles-a1/practica"
+                    className="flex items-center justify-center gap-3 bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-6 py-4 rounded-xl font-black text-lg shadow-lg hover:shadow-coral-500/20 hover:-translate-y-1 transition-all"
+                  >
+                    <Play fill="currentColor" size={20} />
+                    ¡EMPEZAR!
+                  </Link>
+                </div>
               </div>
 
               <div className="bg-coral-50 p-6 rounded-3xl border border-coral-100">

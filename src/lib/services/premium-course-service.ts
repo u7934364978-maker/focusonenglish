@@ -53,6 +53,54 @@ export const premiumCourseService = {
   },
 
   /**
+   * Loads all units with their metadata and interaction counts.
+   */
+  async getUnits(level: 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2') {
+    const contentDir = path.join(process.cwd(), `src/content/cursos/${level}`);
+    const units: any[] = [];
+
+    if (!fs.existsSync(contentDir)) return [];
+
+    const files = fs.readdirSync(contentDir)
+      .filter(file => file.startsWith('unit') && file.endsWith('.json'))
+      .sort((a, b) => {
+        const numA = parseInt(a.replace('unit', '').replace('.json', ''));
+        const numB = parseInt(b.replace('unit', '').replace('.json', ''));
+        return numA - numB;
+      });
+
+    for (const file of files) {
+      try {
+        const filePath = path.join(contentDir, file);
+        const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        
+        const interactionIds: string[] = [];
+        unitData.blocks.forEach((block: PremiumBlock) => {
+          block.content.forEach((content: any) => {
+            if (content.interaction_id) {
+              interactionIds.push(content.interaction_id);
+            } else if (content.video && content.video.interactions) {
+              interactionIds.push(...content.video.interactions.map((i: any) => i.interaction_id));
+            }
+          });
+        });
+
+        units.push({
+          id: unitData.course.unit_id,
+          title: unitData.course.unit_title,
+          file: file.replace('.json', ''),
+          totalExercises: interactionIds.length,
+          interactionIds
+        });
+      } catch (error) {
+        console.error(`Error loading unit from ${file}:`, error);
+      }
+    }
+
+    return units;
+  },
+
+  /**
    * Fetches the list of interaction IDs completed by the user.
    */
   async getProgress(userId: string, level: 'A1' | 'A2' | 'B1' | 'B2'): Promise<string[]> {

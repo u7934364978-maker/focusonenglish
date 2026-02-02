@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     "inglés para viajar",
     "preparación exámenes oficiales",
   ],
+  alternates: {
+    canonical: 'https://focus-on-english.com/blog',
+  },
 };
 
 export default function BlogPage() {
