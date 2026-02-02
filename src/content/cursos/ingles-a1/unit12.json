@@ -4,173 +4,730 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U12",
-    "unit_title": "Transport",
-    "total_duration_minutes": 60
+    "unit_title": "Repaso Final y Fluidez",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B12",
-      "title": "Transport",
+      "title": "Repaso Final y Fluidez",
       "content": [
         {
-          "interaction_id": "U12_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U12_Ta1-u12-review-all_I5",
+          "instructions": "Fill in the blanks with the correct word or phrase.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "sentence": "I have a blue pen. ___ pen is on the table.",
+              "options": [
+                "This",
+                "That",
+                "These",
+                "Those"
+              ],
+              "correctAnswer": "The correct answer is 'This'. 'This' se usa para indicar un objeto cercano al hablante.",
+              "points": 1
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "sentence": "Maria ___ a student. She goes to school.",
+              "options": [
+                "is",
+                "are",
+                "am",
+                "be"
+              ],
+              "correctAnswer": "The correct answer is 'is'. 'Is' se utiliza para la tercera persona del singular.",
+              "points": 1
+            },
+            {
+              "sentence": "Please, ___ your books now.",
+              "options": [
+                "close",
+                "closes",
+                "closing",
+                "closed"
+              ],
+              "correctAnswer": "The correct answer is 'close'. 'Close' es el imperativo que se usa para dar una orden.",
+              "points": 1
+            },
+            {
+              "sentence": "My friends and I like basketball. We play ___ every day.",
+              "options": [
+                "it",
+                "him",
+                "her",
+                "them"
+              ],
+              "correctAnswer": "The correct answer is 'it'. 'It' se usa para referirse a cosas o animales en singular.",
+              "points": 1
+            },
+            {
+              "sentence": "___ are my favorite shoes.",
+              "options": [
+                "These",
+                "This",
+                "That",
+                "Those"
+              ],
+              "correctAnswer": "The correct answer is 'These'. 'These' se usa para objetos plurales cercanos.",
+              "points": 1
+            },
+            {
+              "sentence": "He ___ like ice cream. He eats it every day.",
+              "options": [
+                "doesn't",
+                "isn't",
+                "aren't",
+                "don't"
+              ],
+              "correctAnswer": "The correct answer is 'doesn't'. 'Doesn't' se usa para la negación en tercera persona del singular.",
+              "points": 1
+            },
+            {
+              "sentence": "The dog is big. ___ color is brown.",
+              "options": [
+                "Its",
+                "His",
+                "Her",
+                "Their"
+              ],
+              "correctAnswer": "The correct answer is 'Its'. 'Its' se usa para cosas o animales para indicar posesión.",
+              "points": 1
+            },
+            {
+              "sentence": "___ is my friend Peter. He is very nice.",
+              "options": [
+                "This",
+                "These",
+                "Those",
+                "That"
+              ],
+              "correctAnswer": "The correct answer is 'This'. 'This' se usa para presentar a alguien cercano.",
+              "points": 1
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "exam-practice"
         },
         {
-          "interaction_id": "U12_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U12_Ta1-u12-review-all_I9",
+          "questions": [
             {
-              "id": "w2",
-              "text": "learning"
+              "sentence": "Every morning, I ____ my teeth.",
+              "grammarPoint": "Present Simple",
+              "acceptableAnswers": [
+                "brush"
+              ],
+              "explanation": "Usamos el presente simple para acciones habituales. Aquí, 'brush' es el verbo correcto.",
+              "points": 1
             },
             {
-              "id": "w3",
-              "text": "English"
+              "sentence": "He ____ to school every day.",
+              "grammarPoint": "Present Simple",
+              "acceptableAnswers": [
+                "goes"
+              ],
+              "explanation": "En tercera persona singular, en presente simple, agregamos 'es' al verbo. Por eso, usamos 'goes'.",
+              "points": 1
             },
             {
-              "id": "w0",
-              "text": "I"
+              "sentence": "____ is a cat on the roof.",
+              "grammarPoint": "There is / There are",
+              "acceptableAnswers": [
+                "There"
+              ],
+              "explanation": "Usamos 'There is' para indicar que algo singular está presente.",
+              "points": 1
             },
             {
-              "id": "w1",
-              "text": "am"
+              "sentence": "We ____ play soccer on Saturdays.",
+              "grammarPoint": "Frequency Adverbs",
+              "acceptableAnswers": [
+                "usually"
+              ],
+              "explanation": "'Usually' es un adverbio de frecuencia que usamos para decir que algo ocurre la mayoría de las veces.",
+              "points": 1
+            },
+            {
+              "sentence": "____ you speak English?",
+              "grammarPoint": "Can/can't para habilidades",
+              "acceptableAnswers": [
+                "Can"
+              ],
+              "explanation": "'Can' se usa para preguntar sobre habilidades o capacidades.",
+              "points": 1
+            },
+            {
+              "sentence": "____ your homework now!",
+              "grammarPoint": "Imperative",
+              "acceptableAnswers": [
+                "Do"
+              ],
+              "explanation": "Usamos el imperativo para dar instrucciones o órdenes. 'Do' es el verbo correcto aquí.",
+              "points": 1
+            },
+            {
+              "sentence": "She ____ a new red dress.",
+              "grammarPoint": "Present Simple",
+              "acceptableAnswers": [
+                "wears"
+              ],
+              "explanation": "En presente simple, para tercera persona singular, agregamos 's' al verbo.",
+              "points": 1
+            },
+            {
+              "sentence": "There ____ three apples on the table.",
+              "grammarPoint": "There is / There are",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'There are' para indicar que más de una cosa está presente.",
+              "points": 1
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "exam-practice"
         },
         {
-          "interaction_id": "U12_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
+          "interaction_id": "U12_Ta1-u12-review-all_I7",
+          "questions": [
             {
-              "id": "c1",
-              "text": "Hello!"
+              "text": "1. ___ cat is black and white.",
+              "options": [
+                "My",
+                "Your",
+                "His",
+                "Her"
+              ],
+              "answer": "My",
+              "explanation": "Usamos 'my' para indicar que el gato es mío.",
+              "points": 1
             },
             {
-              "id": "c2",
-              "text": "Bye"
+              "text": "2. ___ is a beautiful day today.",
+              "options": [
+                "It",
+                "He",
+                "She",
+                "They"
+              ],
+              "answer": "It",
+              "explanation": "Usamos 'it' para describir el clima o un día.",
+              "points": 1
             },
             {
-              "id": "c3",
-              "text": "No"
+              "text": "3. We ___ in the park every Sunday.",
+              "options": [
+                "are",
+                "am",
+                "do",
+                "go"
+              ],
+              "answer": "go",
+              "explanation": "Usamos 'go' para describir una acción habitual en presente simple.",
+              "points": 1
+            },
+            {
+              "text": "4. Let's ___ to the beach!",
+              "options": [
+                "go",
+                "have",
+                "am",
+                "is"
+              ],
+              "answer": "go",
+              "explanation": "Usamos 'let's go' para hacer una sugerencia de ir a la playa.",
+              "points": 1
+            },
+            {
+              "text": "5. ___ you like ice cream?",
+              "options": [
+                "Do",
+                "Are",
+                "Is",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Usamos 'do' para formar una pregunta en presente simple.",
+              "points": 1
+            },
+            {
+              "text": "6. He ___ a new bike.",
+              "options": [
+                "has",
+                "have",
+                "do",
+                "am"
+              ],
+              "answer": "has",
+              "explanation": "Usamos 'has' porque estamos hablando de la tercera persona en singular.",
+              "points": 1
+            },
+            {
+              "text": "7. We are at school ___ 9 o'clock.",
+              "options": [
+                "at",
+                "on",
+                "in",
+                "by"
+              ],
+              "answer": "at",
+              "explanation": "Usamos 'at' para indicar la hora específica.",
+              "points": 1
+            },
+            {
+              "text": "8. ___ is your sister's name?",
+              "options": [
+                "What",
+                "Who",
+                "Where",
+                "When"
+              ],
+              "answer": "What",
+              "explanation": "Usamos 'what' para preguntar sobre el nombre de alguien.",
+              "points": 1
             }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "mastery_tag": "exam-practice"
         },
         {
-          "interaction_id": "U12_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U12_Ta1-u12-review-all_I4",
+          "title": "Basic Grammar and Vocabulary Review",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": "q1",
+              "question": "What color is the apple?",
+              "options": [
+                "A. Red",
+                "B. Big",
+                "C. Slow",
+                "D. Fast"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La manzana generalmente es roja. 'Red' es un color, los otros son adjetivos no relacionados con colores."
             },
             {
-              "id": "o1",
-              "text": "Apple"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U12_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 12 of the A1 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U12_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Apple"
+              "id": "q2",
+              "question": "Where is the book?",
+              "options": [
+                "A. On the table",
+                "B. Quickly",
+                "C. Ten",
+                "D. Happy"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La preposición 'on' indica la ubicación. 'On the table' es la respuesta correcta porque describe dónde está el libro."
             },
             {
-              "id": "o1",
-              "text": "Tennis"
+              "id": "q3",
+              "question": "When do you go to school?",
+              "options": [
+                "A. In the morning",
+                "B. Under the bed",
+                "C. Happy",
+                "D. Slowly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Las opciones son frases de tiempo, lugar o adjetivos. 'In the morning' es una frase de tiempo que responde a 'When'."
+            },
+            {
+              "id": "q4",
+              "question": "There is a dog in the garden. What color is it?",
+              "options": [
+                "A. Brown",
+                "B. Quickly",
+                "C. Under",
+                "D. School"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La pregunta pregunta sobre el color del perro. 'Brown' es un color, mientras que las otras opciones no son colores."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "exam-practice"
         },
         {
-          "interaction_id": "U12_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "interaction_id": "U12_Ta1-u12-review-all_I6",
+          "questions": [
+            {
+              "sentence": "Maria ____ (read) a book now.",
+              "correctAnswer": "is reading",
+              "explanation": "Usamos el presente continuo 'is reading' para describir una acción que está sucediendo en este momento.",
+              "points": 1
+            },
+            {
+              "sentence": "Tom ____ (eat) pizza every Friday.",
+              "correctAnswer": "eats",
+              "explanation": "Usamos el presente simple 'eats' con 'he' para acciones que suceden regularmente.",
+              "points": 1
+            },
+            {
+              "sentence": "You ____ (play) the guitar. It's wonderful!",
+              "correctAnswer": "are playing",
+              "explanation": "Usamos el presente continuo 'are playing' para una acción en progreso ahora.",
+              "points": 1
+            },
+            {
+              "sentence": "Lisa ____ (like) ice cream a lot.",
+              "correctAnswer": "likes",
+              "explanation": "Usamos el presente simple 'likes' con 'she' para expresar gustos.",
+              "points": 1
+            },
+            {
+              "sentence": "We ____ (have) a dog. His name is Max.",
+              "correctAnswer": "have",
+              "explanation": "Empleamos 'have' en presente simple para indicar posesión.",
+              "points": 1
+            },
+            {
+              "sentence": "____ (this) is my new bag.",
+              "correctAnswer": "This",
+              "explanation": "Usamos 'this' para indicar algo que está cerca de la persona que habla.",
+              "points": 1
+            },
+            {
+              "sentence": "He ____ (can) swim very fast.",
+              "correctAnswer": "can",
+              "explanation": "Usamos 'can' para hablar de habilidades que alguien posee.",
+              "points": 1
+            },
+            {
+              "sentence": "My sisters ____ (watch) TV sometimes.",
+              "correctAnswer": "watch",
+              "explanation": "Usamos 'watch' en presente simple y 'sometimes' para indicar una acción que ocurre con cierta frecuencia.",
+              "points": 1
+            }
+          ],
+          "mastery_tag": "exam-practice"
         },
         {
-          "interaction_id": "U12_I52",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 12 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "interaction_id": "U12_Ta1-u12-review-all_I3",
+          "title": "Basic Grammar Practice",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is the sky on a clear day?",
+              "options": [
+                "Blue",
+                "Red",
+                "Green",
+                "Yellow"
+              ],
+              "correctAnswer": "Blue",
+              "explanation": "La palabra 'Blue' es correcta porque 'el cielo es azul' en un día despejado."
+            },
+            {
+              "id": "q2",
+              "question": "Where is your book? I cannot see ____.",
+              "options": [
+                "it",
+                "him",
+                "her",
+                "them"
+              ],
+              "correctAnswer": "it",
+              "explanation": "Usamos 'it' para referirnos a objetos. Aquí, 'book' es un objeto, así que usamos 'it'."
+            },
+            {
+              "id": "q3",
+              "question": "Maria ____ to school every day.",
+              "options": [
+                "go",
+                "goes",
+                "going",
+                "gone"
+              ],
+              "correctAnswer": "goes",
+              "explanation": "La forma correcta del verbo en tercera persona singular 'Maria' es 'goes'."
+            },
+            {
+              "id": "q4",
+              "question": "I always ____ coffee in the morning.",
+              "options": [
+                "drink",
+                "drinks",
+                "drinking",
+                "drank"
+              ],
+              "correctAnswer": "drink",
+              "explanation": "En presente simple con 'I', usamos 'drink' para hablar de hábitos diarios."
+            }
+          ],
+          "mastery_tag": "exam-practice"
+        },
+        {
+          "interaction_id": "U12_Ta1-u12-review-all_I8",
+          "questions": [
+            {
+              "sentence": "I ___ a student at this school.",
+              "options": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answers": [
+                "am"
+              ],
+              "explanation": "Usamos 'am' con el pronombre 'I' en inglés.",
+              "points": 1
+            },
+            {
+              "sentence": "He ___ very tall.",
+              "options": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' con el pronombre 'he'.",
+              "points": 1
+            },
+            {
+              "sentence": "We ___ happy today.",
+              "options": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' con el pronombre 'we'.",
+              "points": 1
+            },
+            {
+              "sentence": "This is my brother. ___ name is Tom.",
+              "options": [
+                "His",
+                "Her",
+                "My"
+              ],
+              "answers": [
+                "His"
+              ],
+              "explanation": "Usamos 'His' para indicar posesión con la palabra 'brother'.",
+              "points": 1
+            },
+            {
+              "sentence": "___ are my friends.",
+              "options": [
+                "They",
+                "Them",
+                "He"
+              ],
+              "answers": [
+                "They"
+              ],
+              "explanation": "Usamos 'They' para referirnos a un grupo de personas.",
+              "points": 1
+            },
+            {
+              "sentence": "I have a dog. ___ is small.",
+              "options": [
+                "It",
+                "He",
+                "They"
+              ],
+              "answers": [
+                "It"
+              ],
+              "explanation": "Usamos 'It' para referirnos a animales o cosas.",
+              "points": 1
+            },
+            {
+              "sentence": "Anna ___ a new book.",
+              "options": [
+                "have",
+                "has",
+                "having"
+              ],
+              "answers": [
+                "has"
+              ],
+              "explanation": "Usamos 'has' con 'Anna' para hablar de posesión.",
+              "points": 1
+            },
+            {
+              "sentence": "You ___ in the park every day.",
+              "options": [
+                "walk",
+                "walks",
+                "walking"
+              ],
+              "answers": [
+                "walk"
+              ],
+              "explanation": "Usamos el verbo base 'walk' con 'you' en presente simple.",
+              "points": 1
+            }
+          ],
+          "mastery_tag": "exam-practice"
+        },
+        {
+          "interaction_id": "U12_Ta1-u12-review-all_I2",
+          "title": "Basic English Grammar Exercise",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is the sun?",
+              "options": [
+                "A. Blue",
+                "B. Yellow",
+                "C. Red",
+                "D. Green"
+              ],
+              "correctAnswer": "B",
+              "explanation": "El sol generalmente se describe como amarillo debido a su apariencia durante el día."
+            },
+            {
+              "id": "q2",
+              "question": "Where is the cat?",
+              "options": [
+                "A. On the table",
+                "B. In the car",
+                "C. Under the bed",
+                "D. Next to the park"
+              ],
+              "correctAnswer": "C",
+              "explanation": "La pregunta 'Where is the cat?' requiere una ubicación y 'Under the bed' es una respuesta válida."
+            },
+            {
+              "id": "q3",
+              "question": "Who is your teacher?",
+              "options": [
+                "A. My book",
+                "B. My friend",
+                "C. My school",
+                "D. My pencil"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La palabra 'Who' pregunta por una persona. 'My friend' es una respuesta correcta porque se refiere a una persona."
+            },
+            {
+              "id": "q4",
+              "question": "How often do you eat apples?",
+              "options": [
+                "A. Always",
+                "B. Yesterday",
+                "C. Because",
+                "D. Quickly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La pregunta está sobre la frecuencia. 'Always' es un adverbio de frecuencia, lo que lo hace correcto."
+            }
+          ],
+          "mastery_tag": "exam-practice"
+        },
+        {
+          "interaction_id": "U12_Ta1-u12-review-all_I1",
+          "title": "A1 Level Grammar Practice",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is the apple?",
+              "options": [
+                "A. Red",
+                "B. Cats",
+                "C. School",
+                "D. Laptop"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La pregunta es sobre el color de una manzana, que es roja. Las otras opciones no son colores."
+            },
+            {
+              "id": "q2",
+              "question": "Where is the book?",
+              "options": [
+                "A. He",
+                "B. On the table",
+                "C. Running",
+                "D. Blue"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La pregunta usa 'Where', que se refiere a un lugar. 'En la mesa' es el lugar correcto para el libro."
+            },
+            {
+              "id": "q3",
+              "question": "Who is your teacher?",
+              "options": [
+                "A. In the car",
+                "B. Sarah",
+                "C. Quickly",
+                "D. Book"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La pregunta usa 'Who', que se refiere a una persona. 'Sarah' es el nombre de una persona."
+            },
+            {
+              "id": "q4",
+              "question": "When do you go to school?",
+              "options": [
+                "A. Blue",
+                "B. At 8 o'clock",
+                "C. Under the bed",
+                "D. Cookies"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La pregunta usa 'When', que se refiere a un tiempo. 'A las 8 en punto' es un tiempo."
+            }
+          ],
+          "mastery_tag": "exam-practice"
+        },
+        {
+          "interaction_id": "U12_Ta1-u12-review-all_I0",
+          "questions": [
+            {
+              "sentence": "_____ is your favorite color?",
+              "gap": "What",
+              "explanation": "Utilizamos 'What' para preguntar sobre cosas. En este caso, estamos preguntando cuál es su color favorito.",
+              "points": 1
+            },
+            {
+              "sentence": "I _____ go to school on Sundays.",
+              "gap": "never",
+              "explanation": "Usamos 'never' para indicar que algo no sucede en absoluto. Aquí estamos diciendo que no va a la escuela los domingos.",
+              "points": 1
+            },
+            {
+              "sentence": "Tom has two cats. He loves _____ very much.",
+              "gap": "them",
+              "explanation": "Utilizamos 'them' como pronombre objeto para referirnos a más de una cosa o persona. Aquí, 'them' se refiere a los dos gatos.",
+              "points": 1
+            },
+            {
+              "sentence": "Please _____ the door.",
+              "gap": "open",
+              "explanation": "Usamos la forma imperativa del verbo cuando damos instrucciones o órdenes. Aquí pedimos que se abra la puerta.",
+              "points": 1
+            },
+            {
+              "sentence": "How often do you _____ pizza?",
+              "gap": "eat",
+              "explanation": "Utilizamos el verbo 'eat' en presente simple para hablar de acciones habituales. La pregunta se refiere a la frecuencia con la que se come pizza.",
+              "points": 1
+            },
+            {
+              "sentence": "My brother _____ reading books.",
+              "gap": "likes",
+              "explanation": "Usamos 'likes' con la tercera persona del singular en presente simple para expresar preferencias. Aquí, 'likes' indica que a mi hermano le gusta leer libros.",
+              "points": 1
+            },
+            {
+              "sentence": "_____ does your father work?",
+              "gap": "Where",
+              "explanation": "Utilizamos 'Where' para preguntar sobre el lugar o la ubicación de algo. Aquí estamos preguntando dónde trabaja el padre.",
+              "points": 1
+            },
+            {
+              "sentence": "We _____ have breakfast at 7 o'clock.",
+              "gap": "usually",
+              "explanation": "Usamos 'usually' para expresar acciones que ocurren con frecuencia. Indica que normalmente desayunamos a las 7 en punto.",
+              "points": 1
+            }
+          ],
+          "mastery_tag": "exam-practice"
         }
       ]
     }

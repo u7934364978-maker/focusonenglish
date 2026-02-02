@@ -4,173 +4,762 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U11",
-    "unit_title": "In the Town",
-    "total_duration_minutes": 60
+    "unit_title": "Viajes y situaciones frecuentes",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B11",
-      "title": "In the Town",
+      "title": "Viajes y situaciones frecuentes",
       "content": [
         {
-          "interaction_id": "U11_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U11_Ta1-u11-travel-vocab_I0",
+          "text": "Maria is going on a holiday. She needs to book a hotel and get a ticket for the plane. First, she calls the hotel to make a (1) __________. The hotel has a nice room. Next, Maria goes to the airport. She has her (2) __________ ready. At the airport, she looks for her (3) __________ to check the flight time. She is excited because she will see new places. Maria checks her bag at the (4) __________ counter. She waits in line to get her (5) __________. Maria is happy and hopes for a great holiday. Before she boards the plane, she shows her (6) __________ to the officer. She finds her seat and the plane takes off. Maria is on her way to a new (7) __________. She will have fun and relax. When she arrives, she will go to the (8) __________ and start her adventure.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "gap": 1,
+              "options": [
+                "reservation",
+                "decision",
+                "explanation",
+                "station"
+              ],
+              "correct": "reservation",
+              "explanation": "La palabra correcta es 'reservation' porque se utiliza cuando se quiere reservar una habitación o un lugar en un hotel. Las otras opciones no son correctas porque 'decision' es para tomar decisiones, 'explanation' es para explicar algo y 'station' es un lugar físico como una estación de tren."
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "gap": 2,
+              "options": [
+                "passport",
+                "license",
+                "ticket",
+                "paper"
+              ],
+              "correct": "passport",
+              "explanation": "La palabra correcta es 'passport' porque es lo que necesitas para viajar internacionalmente. Las otras opciones no son correctas porque 'license' es para conducir, 'ticket' es para abordar pero no para identificación internacional, y 'paper' no es específico."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "ticket",
+                "receipt",
+                "check",
+                "menu"
+              ],
+              "correct": "ticket",
+              "explanation": "La palabra correcta es 'ticket' porque se usa para abordar el avión. Las otras opciones no son correctas porque 'receipt' es un comprobante de compra, 'check' es un cheque o revisión y 'menu' es una lista de comidas."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "baggage",
+                "store",
+                "room",
+                "office"
+              ],
+              "correct": "baggage",
+              "explanation": "La palabra correcta es 'baggage' porque es donde se registran las maletas. Las otras opciones no son correctas porque 'store' es una tienda, 'room' es una habitación, y 'office' es una oficina."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "boarding pass",
+                "map",
+                "guide",
+                "instruction"
+              ],
+              "correct": "boarding pass",
+              "explanation": "La palabra correcta es 'boarding pass' porque es el documento que necesitas para subir al avión. Las otras opciones no son correctas porque 'map' es un mapa, 'guide' es un guía y 'instruction' son instrucciones."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "passport",
+                "card",
+                "license",
+                "receipt"
+              ],
+              "correct": "passport",
+              "explanation": "La palabra correcta es 'passport' porque es requerido para mostrar al oficial antes de abordar. Las otras opciones no son correctas porque 'card' es una tarjeta, 'license' es para conducir y 'receipt' es un comprobante de compra."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "destination",
+                "condition",
+                "position",
+                "solution"
+              ],
+              "correct": "destination",
+              "explanation": "La palabra correcta es 'destination' porque se refiere al lugar donde vas a viajar. Las otras opciones no son correctas porque 'condition' es una condición, 'position' es una posición y 'solution' es una solución."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "hotel",
+                "market",
+                "store",
+                "museum"
+              ],
+              "correct": "hotel",
+              "explanation": "La palabra correcta es 'hotel' porque es donde Maria va a empezar su aventura. Las otras opciones no son correctas porque 'market' es un mercado, 'store' es una tienda, y 'museum' es un museo."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
+          "interaction_id": "U11_Ta1-u11-was-were_I1",
+          "questions": [
+            {
+              "text": "___ you like apples?",
+              "options": [
+                "Do",
+                "Does"
+              ],
+              "answer": "Do",
+              "explanation": "Usamos 'Do' con 'you' en presente simple para hacer preguntas.",
+              "points": 1
+            },
+            {
+              "text": "She ___ a doctor.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "answer": "is",
+              "explanation": "Usamos 'is' con 'she' en presente simple.",
+              "points": 1
+            },
+            {
+              "text": "We ___ to school every day.",
+              "options": [
+                "go",
+                "goes"
+              ],
+              "answer": "go",
+              "explanation": "Con 'we' usamos 'go' en presente simple porque es la forma base del verbo.",
+              "points": 1
+            },
+            {
+              "text": "It ___ sunny today.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "answer": "is",
+              "explanation": "Usamos 'is' con 'it' para describir el clima en presente simple.",
+              "points": 1
+            },
+            {
+              "text": "Let's ___ to the park.",
+              "options": [
+                "go",
+                "goes"
+              ],
+              "answer": "go",
+              "explanation": "Usamos 'Let’s' seguido de la forma base del verbo para hacer sugerencias.",
+              "points": 1
+            },
+            {
+              "text": "My brother ___ always happy.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "answer": "is",
+              "explanation": "Usamos 'is' con 'my brother' porque es tercera persona singular.",
+              "points": 1
+            },
+            {
+              "text": "They ___ never late.",
+              "options": [
+                "are",
+                "is"
+              ],
+              "answer": "are",
+              "explanation": "Usamos 'are' con 'they' en presente simple.",
+              "points": 1
+            },
+            {
+              "text": "We ___ dinner at 7 o'clock.",
+              "options": [
+                "have",
+                "has"
+              ],
+              "answer": "have",
+              "explanation": "Con 'we' usamos 'have' en presente simple porque es la forma base del verbo.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 11 of the A1 course.\"",
-          "correct_answer": true,
+          "interaction_id": "U11_Ta1-u11-was-were_I0",
+          "sentences": [
+            {
+              "id": 1,
+              "words": [
+                "I",
+                "can",
+                "run",
+                "fast",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "can",
+                "run",
+                "fast",
+                "."
+              ],
+              "translation": "Puedo correr rápido.",
+              "hint": "Use 'can' to show ability.",
+              "points": 2
+            },
+            {
+              "id": 2,
+              "words": [
+                "This",
+                "is",
+                "my",
+                "book",
+                "."
+              ],
+              "correctOrder": [
+                "This",
+                "is",
+                "my",
+                "book",
+                "."
+              ],
+              "translation": "Este es mi libro.",
+              "hint": "Use 'this' for a singular object close to you.",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "Please",
+                "sit",
+                "down",
+                "."
+              ],
+              "correctOrder": [
+                "Please",
+                "sit",
+                "down",
+                "."
+              ],
+              "translation": "Por favor, siéntate.",
+              "hint": "Use the imperative to give a polite instruction.",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "She",
+                "is",
+                "reading",
+                "a",
+                "book",
+                "."
+              ],
+              "correctOrder": [
+                "She",
+                "is",
+                "reading",
+                "a",
+                "book",
+                "."
+              ],
+              "translation": "Ella está leyendo un libro.",
+              "hint": "Use Present Continuous for actions happening now.",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "They",
+                "go",
+                "to",
+                "school",
+                "every",
+                "day",
+                "."
+              ],
+              "correctOrder": [
+                "They",
+                "go",
+                "to",
+                "school",
+                "every",
+                "day",
+                "."
+              ],
+              "translation": "Ellos van a la escuela todos los días.",
+              "hint": "Use Present Simple for habitual actions.",
+              "points": 2
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U11_Ta1-u11-travel-vocab_I1",
+          "text": "Anna and her family go on a holiday. They travel to a nice hotel. First, they need to go to the airport. Anna's mother has all the passports. She checks the tickets and says, 'We have a reservation at the hotel.' Anna is happy. She likes to swim in the hotel pool. They arrive at the airport and go to check-in. They give their bags to the airline worker and wait. Anna sees many planes. She counts them. There are five planes. Anna's father says, 'Let's go to the gate now.' They walk to the gate. Anna thinks it is fun to fly on a plane. She smiles and says, 'I like holidays!'",
+          "questions": [
             {
-              "id": "w1",
-              "text": "am"
+              "text": "Anna and her family ___ on a holiday.",
+              "options": [
+                "go",
+                "goes",
+                "went",
+                "going"
+              ],
+              "answer": "go",
+              "explanation": "La opción correcta es 'go' porque es la forma base del verbo para 'they' en presente simple. 'Goes' es incorrecto porque es para he/she/it. 'Went' es pasado y 'going' es una forma continua."
             },
             {
-              "id": "w0",
-              "text": "I"
+              "text": "They travel to a ___ hotel.",
+              "options": [
+                "nice",
+                "nicely",
+                "niceness",
+                "nicest"
+              ],
+              "answer": "nice",
+              "explanation": "La opción correcta es 'nice' porque es un adjetivo que describe al hotel. 'Nicely' es un adverbio, 'niceness' es un sustantivo, y 'nicest' es una forma superlativa."
             },
             {
-              "id": "w2",
-              "text": "learning"
+              "text": "Anna's mother has all the ___.",
+              "options": [
+                "passports",
+                "passport",
+                "passportses",
+                "passporting"
+              ],
+              "answer": "passports",
+              "explanation": "La opción correcta es 'passports' porque se refiere a más de uno. 'Passport' es singular, 'passportses' y 'passporting' no existen en inglés."
             },
             {
-              "id": "w3",
-              "text": "English"
+              "text": "She checks the ___ and says, 'We have a reservation at the hotel.'",
+              "options": [
+                "tickets",
+                "ticket",
+                "ticketers",
+                "ticking"
+              ],
+              "answer": "tickets",
+              "explanation": "La opción correcta es 'tickets' porque se refiere a más de uno. 'Ticket' es singular, 'ticketers' no es una palabra en inglés, y 'ticking' es un verbo."
+            },
+            {
+              "text": "Anna is happy. She likes to swim in the hotel ___.",
+              "options": [
+                "pool",
+                "pools",
+                "pooling",
+                "pooled"
+              ],
+              "answer": "pool",
+              "explanation": "La opción correcta es 'pool' porque se refiere al lugar específico para nadar en el hotel. 'Pools' es plural, 'pooling' y 'pooled' son formas verbales."
+            },
+            {
+              "text": "They arrive at the airport and go to ___.",
+              "options": [
+                "check-in",
+                "check",
+                "checking",
+                "checked"
+              ],
+              "answer": "check-in",
+              "explanation": "La opción correcta es 'check-in' porque es el lugar o proceso de registrar su llegada. 'Check' es un verbo, 'checking' es una forma continua, y 'checked' es pasado."
+            },
+            {
+              "text": "Anna sees many ___. She counts them.",
+              "options": [
+                "planes",
+                "plane",
+                "planer",
+                "planing"
+              ],
+              "answer": "planes",
+              "explanation": "La opción correcta es 'planes' porque se refiere a más de uno. 'Plane' es singular, 'planer' y 'planing' no son correctos en este contexto."
+            },
+            {
+              "text": "Anna thinks it is fun to fly on a ___.",
+              "options": [
+                "plane",
+                "planes",
+                "planing",
+                "planed"
+              ],
+              "answer": "plane",
+              "explanation": "La opción correcta es 'plane' porque se refiere a uno. 'Planes' es plural, 'planing' y 'planed' son formas incorrectas aquí."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U11_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Hello!"
-            },
-            {
-              "id": "c3",
-              "text": "No"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U11_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U11_Ta1-u11-dates_I0",
+          "title": "Months and Dates Exercise",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "id": "q1",
+              "question": "What month is after January?",
+              "options": [
+                "February",
+                "March",
+                "April",
+                "December"
+              ],
+              "correctAnswer": "February",
+              "explanation": "La respuesta correcta es 'February' porque sigue a 'January' en el calendario."
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "id": "q2",
+              "question": "Which date is the first day of the year?",
+              "options": [
+                "January 1st",
+                "February 1st",
+                "March 1st",
+                "December 1st"
+              ],
+              "correctAnswer": "January 1st",
+              "explanation": "El 1 de enero es el primer día del año en el calendario gregoriano."
+            },
+            {
+              "id": "q3",
+              "question": "What month comes before March?",
+              "options": [
+                "April",
+                "February",
+                "June",
+                "May"
+              ],
+              "correctAnswer": "February",
+              "explanation": "La respuesta correcta es 'February' porque viene antes de 'March'."
+            },
+            {
+              "id": "q4",
+              "question": "What is the second month of the year?",
+              "options": [
+                "January",
+                "February",
+                "March",
+                "April"
+              ],
+              "correctAnswer": "February",
+              "explanation": "La respuesta correcta es 'February' porque es el segundo mes del año."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U11_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U11_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U11_Ta1-u11-was-were_I2",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "context": "Look at the apple. It _____ red.",
+              "gap": "is",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' porque estamos describiendo algo en el presente.",
+              "points": 1
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "context": "He _____ my brother.",
+              "gap": "is",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' para hablar sobre alguien en el presente.",
+              "points": 1
+            },
+            {
+              "context": "We _____ at the park.",
+              "gap": "are",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' cuando hablamos de 'we' en el presente.",
+              "points": 1
+            },
+            {
+              "context": "They _____ happy today.",
+              "gap": "are",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' cuando hablamos de 'they' en el presente.",
+              "points": 1
+            },
+            {
+              "context": "The cat _____ on the chair.",
+              "gap": "is",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' para describir dónde está algo en el presente.",
+              "points": 1
+            },
+            {
+              "context": "I _____ a student.",
+              "gap": "am",
+              "acceptableAnswers": [
+                "am"
+              ],
+              "explanation": "Usamos 'am' porque estamos hablando de nosotros mismos en el presente.",
+              "points": 1
+            },
+            {
+              "context": "The books _____ on the table.",
+              "gap": "are",
+              "acceptableAnswers": [
+                "are"
+              ],
+              "explanation": "Usamos 'are' porque 'books' es plural, refiriéndose a varios objetos.",
+              "points": 1
+            },
+            {
+              "context": "She _____ in the kitchen.",
+              "gap": "is",
+              "acceptableAnswers": [
+                "is"
+              ],
+              "explanation": "Usamos 'is' para decir dónde está alguien en el presente.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_Ta1-u11-dates_I1",
+          "questions": [
+            {
+              "sentence": "______ you like January or February?",
+              "grammarPoint": "Do",
+              "acceptableAnswers": [
+                "Do"
+              ],
+              "explanation": "Usamos 'Do' para formar preguntas simples en presente simple con 'you'.",
+              "points": 1
+            },
+            {
+              "sentence": "I ______ my birthday in February.",
+              "grammarPoint": "have",
+              "acceptableAnswers": [
+                "have"
+              ],
+              "explanation": "El verbo 'have' se utiliza para indicar posesión o eventos personales.",
+              "points": 1
+            },
+            {
+              "sentence": "Today is the ______ of January.",
+              "grammarPoint": "first",
+              "acceptableAnswers": [
+                "first"
+              ],
+              "explanation": "'First' se utiliza para indicar el primer día de un mes.",
+              "points": 1
+            },
+            {
+              "sentence": "______ is your favorite month?",
+              "grammarPoint": "What",
+              "acceptableAnswers": [
+                "What"
+              ],
+              "explanation": "Usamos 'What' para preguntar sobre preferencias o cosas.",
+              "points": 1
+            },
+            {
+              "sentence": "I ______ like to go to the beach in February.",
+              "grammarPoint": "like",
+              "acceptableAnswers": [
+                "like"
+              ],
+              "explanation": "'Like' se usa para expresar gustos y preferencias.",
+              "points": 1
+            },
+            {
+              "sentence": "We ______ a special dinner on the second day of each month.",
+              "grammarPoint": "have",
+              "acceptableAnswers": [
+                "have"
+              ],
+              "explanation": "El verbo 'have' se usa para hablar de eventos o actividades habituales.",
+              "points": 1
+            },
+            {
+              "sentence": "______ book is on the table?",
+              "grammarPoint": "What",
+              "acceptableAnswers": [
+                "What"
+              ],
+              "explanation": "'What' se utiliza para preguntar sobre objetos identificables.",
+              "points": 1
+            },
+            {
+              "sentence": "______ you come on the first of February?",
+              "grammarPoint": "Can",
+              "acceptableAnswers": [
+                "Can"
+              ],
+              "explanation": "Usamos 'Can' para preguntar sobre habilidades o posibilidades.",
+              "points": 1
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 11 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "interaction_id": "U11_Ta1-u11-travel-vocab_I2",
+          "text": "Anna is planning a **holiday** with her family. They want to stay in a nice **hotel**. Anna's mother makes a **reservation** for two rooms. They live near an **airport**, so they will take a plane. Anna's father checks the **tickets** and **passports**. They are very **excited** about their trip. The flight is in the morning, so they need to wake up early. On the day of the flight, Anna asks, 'Do we have everything?'. Her mother says, 'Yes, we are ready to go!'",
+          "questions": [
+            {
+              "question": "Anna is planning a ______ with her family.",
+              "options": [
+                "holiday",
+                "school",
+                "office",
+                "home"
+              ],
+              "answer": "holiday",
+              "explanation": "La palabra 'holiday' se refiere a un periodo de descanso o viaje, que es lo que están planeando. Las otras opciones no tienen sentido en este contexto."
+            },
+            {
+              "question": "They want to stay in a nice ______.",
+              "options": [
+                "hotel",
+                "car",
+                "bus",
+                "train"
+              ],
+              "answer": "hotel",
+              "explanation": "La palabra 'hotel' es el lugar donde las personas se alojan durante un viaje. Las otras opciones no son lugares para quedarse."
+            },
+            {
+              "question": "Anna's mother makes a ______ for two rooms.",
+              "options": [
+                "reservation",
+                "call",
+                "visit",
+                "meeting"
+              ],
+              "answer": "reservation",
+              "explanation": "Se hace una 'reservation' para asegurar habitaciones en un hotel. Las otras opciones no corresponden a la acción de reservar una habitación."
+            },
+            {
+              "question": "They live near an ______, so they will take a plane.",
+              "options": [
+                "airport",
+                "park",
+                "library",
+                "shop"
+              ],
+              "answer": "airport",
+              "explanation": "El 'airport' es el lugar donde se toman aviones. Las otras opciones no son lugares para tomar aviones."
+            },
+            {
+              "question": "Anna's father checks the ______ and passports.",
+              "options": [
+                "tickets",
+                "cards",
+                "phones",
+                "bags"
+              ],
+              "answer": "tickets",
+              "explanation": "Se necesitan 'tickets' (boletos) para abordar un avión. Las otras opciones no son necesarias para tomar un vuelo."
+            },
+            {
+              "question": "They are very ______ about their trip.",
+              "options": [
+                "excited",
+                "bored",
+                "sad",
+                "tired"
+              ],
+              "answer": "excited",
+              "explanation": "'Excited' significa estar emocionado, que es como se siente la familia por el viaje. Las otras opciones no expresan el mismo sentimiento."
+            },
+            {
+              "question": "The flight is in the morning, so they need to ______ early.",
+              "options": [
+                "wake up",
+                "sleep",
+                "eat",
+                "watch"
+              ],
+              "answer": "wake up",
+              "explanation": "'Wake up' significa levantarse, que es necesario si el vuelo es temprano. Las otras opciones no son adecuadas para este contexto."
+            },
+            {
+              "question": "On the day of the flight, Anna asks, 'Do we have everything?' Her mother says, 'Yes, we are ______ to go!'",
+              "options": [
+                "ready",
+                "wrong",
+                "late",
+                "lost"
+              ],
+              "answer": "ready",
+              "explanation": "'Ready' significa estar preparado, lo cual es necesario antes de un viaje. Las otras opciones no son correctas en este contexto."
+            }
+          ],
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "interaction_id": "U11_Ta1-u11-dates_I2",
+          "title": "Months and Dates Practice",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What month comes after January?",
+              "options": [
+                "A. February",
+                "B. March",
+                "C. April",
+                "D. December"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Febrero es el mes que sigue a enero en el calendario."
+            },
+            {
+              "id": "q2",
+              "question": "What is the first month of the year?",
+              "options": [
+                "A. March",
+                "B. January",
+                "C. November",
+                "D. February"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Enero es el primer mes del año."
+            },
+            {
+              "id": "q3",
+              "question": "Which date is written as '02'?",
+              "options": [
+                "A. First",
+                "B. Third",
+                "C. Second",
+                "D. Fourth"
+              ],
+              "correctAnswer": "C",
+              "explanation": "El número '02' representa el segundo día de un mes."
+            },
+            {
+              "id": "q4",
+              "question": "What is the month before February?",
+              "options": [
+                "A. March",
+                "B. January",
+                "C. April",
+                "D. May"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Enero es el mes que precede a febrero."
+            }
+          ],
+          "mastery_tag": "vocabulary"
         }
       ]
     }

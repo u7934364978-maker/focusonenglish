@@ -4,192 +4,527 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U9",
-    "unit_title": "Clothes and Fashion",
-    "total_duration_minutes": 60
+    "unit_title": "La ciudad y direcciones",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B9",
-      "title": "Clothes and Fashion",
+      "title": "La ciudad y direcciones",
       "content": [
         {
-          "interaction_id": "U9_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U9_Ta1-u9-transport_I1",
+          "instructions": "Fill in the blanks with the correct word or phrase. Use the words given in the brackets if needed.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "question": "______ (What) is your favorite color for a bike?",
+              "options": [
+                "What"
+              ],
+              "correct_answer": "What",
+              "explanation": "Usamos 'What' para preguntar sobre preferencias o información específica.",
+              "points": 1
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "question": "I have a red car. ______ (It) is very fast.",
+              "options": [
+                "It"
+              ],
+              "correct_answer": "It",
+              "explanation": "Usamos 'It' para referirnos a objetos mencionados antes, en este caso, el coche.",
+              "points": 1
+            },
+            {
+              "question": "______ (Where) is the train station?",
+              "options": [
+                "Where"
+              ],
+              "correct_answer": "Where",
+              "explanation": "Usamos 'Where' para preguntar sobre localizaciones o lugares.",
+              "points": 1
+            },
+            {
+              "question": "He ______ (go) to school by bus every day.",
+              "options": [
+                "goes"
+              ],
+              "correct_answer": "goes",
+              "explanation": "En presente simple para él/ella/eso, añadimos 'es' al verbo.",
+              "points": 1
+            },
+            {
+              "question": "This is my bike. Do you like ______ (it)?",
+              "options": [
+                "it"
+              ],
+              "correct_answer": "it",
+              "explanation": "Usamos 'it' como pronombre objeto para referirnos a cosas ya mencionadas.",
+              "points": 1
+            },
+            {
+              "question": "______ (When) does the plane leave?",
+              "options": [
+                "When"
+              ],
+              "correct_answer": "When",
+              "explanation": "Usamos 'When' para preguntar sobre el tiempo o momento en que ocurre algo.",
+              "points": 1
+            },
+            {
+              "question": "This is his taxi. ______ (His) taxi is yellow.",
+              "options": [
+                "His"
+              ],
+              "correct_answer": "His",
+              "explanation": "Usamos 'His' como adjetivo posesivo para indicar que algo pertenece a él.",
+              "points": 1
+            },
+            {
+              "question": "We ______ (like) to ride bikes on the weekend.",
+              "options": [
+                "like"
+              ],
+              "correct_answer": "like",
+              "explanation": "Usamos 'like' para expresar preferencias o gustos en presente simple.",
+              "points": 1
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U9_Ta1-u9-transport_I0",
+          "title": "Transport Basics",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
             {
-              "id": "w7",
-              "text": "course"
+              "id": "q1",
+              "question": "What is this? It has four wheels and we drive it.",
+              "options": [
+                "Bus",
+                "Car",
+                "Bike",
+                "Plane"
+              ],
+              "correctAnswer": "Car",
+              "explanation": "En inglés, 'car' es un vehículo pequeño que conducimos, tiene cuatro ruedas. No decimos 'bus', 'bike' o 'plane' para este tipo de vehículo."
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "q2",
+              "question": "This transport is on the road and can take many people.",
+              "options": [
+                "Taxi",
+                "Bus",
+                "Plane",
+                "Bike"
+              ],
+              "correctAnswer": "Bus",
+              "explanation": "Un 'bus' en inglés es un medio de transporte que viaja por la carretera y puede llevar a muchas personas. 'Taxi' lleva menos personas, 'plane' vuela y 'bike' es para una o dos personas."
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "q3",
+              "question": "We use this to fly to other countries.",
+              "options": [
+                "Train",
+                "Plane",
+                "Car",
+                "Bus"
+              ],
+              "correctAnswer": "Plane",
+              "explanation": "La palabra 'plane' en inglés se refiere a un avión que usamos para volar a otros países. No es 'train', 'car' o 'bus' porque estos no vuelan."
             },
             {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "9"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "A1"
+              "id": "q4",
+              "question": "This transport needs a driver and a meter.",
+              "options": [
+                "Bike",
+                "Taxi",
+                "Train",
+                "Bus"
+              ],
+              "correctAnswer": "Taxi",
+              "explanation": "Un 'taxi' necesita un conductor y un taxímetro. No es 'bike', 'train' o 'bus' porque esos no tienen taxímetro."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U9_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "Bye"
-            },
-            {
-              "id": "c3",
-              "text": "No"
-            },
-            {
-              "id": "c1",
-              "text": "Hello!"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U9_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U9_Ta1-u9-city-places_I1",
+          "title": "City Places - A1 Level Exercise",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "q1",
+              "question": "Where is the park?",
+              "options": [
+                "A. Next to the bank",
+                "B. Under the street",
+                "C. Next to the supermarket",
+                "D. In the cinema"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción 'A. Next to the bank' es correcta porque 'next to' significa al lado de. Las otras opciones no tienen sentido lógico."
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": "q2",
+              "question": "Is there a hospital on this street?",
+              "options": [
+                "A. Yes, there is",
+                "B. No, there are",
+                "C. No, there aren't",
+                "D. Yes, there are"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción 'A. Yes, there is' es correcta porque se refiere a uno solo hospital. Las opciones 'B' y 'D' son incorrectas porque usan 'are' que es plural."
+            },
+            {
+              "id": "q3",
+              "question": "Let's go to the cinema.",
+              "options": [
+                "A. Yes, I like to",
+                "B. No, I don't",
+                "C. Yes, let's",
+                "D. No, let's"
+              ],
+              "correctAnswer": "C",
+              "explanation": "La opción 'C. Yes, let's' es correcta porque 'let's' sugiere hacer algo juntos. 'No, I don't' no responde a una sugerencia."
+            },
+            {
+              "id": "q4",
+              "question": "Where is the school?",
+              "options": [
+                "A. On the street",
+                "B. In the supermarket",
+                "C. Under the bank",
+                "D. Next to the hospital"
+              ],
+              "correctAnswer": "D",
+              "explanation": "La opción 'D. Next to the hospital' es correcta porque 'next to' indica ubicación cercana. 'In' y 'under' no son adecuadas para lugares como escuelas."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U9_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U9_Ta1-u9-city-places_I0",
+          "instructions": "Read the text and choose the best word for each gap.",
+          "text": "Every Saturday, Maria and her brother visit different places in the city. First, they go to the (1) ____. They like to play on the swings and run around. After that, they walk to the (2) ____. Maria buys milk and eggs. Her brother likes to look at the toys. Next, they stop at the (3) ____ to watch a movie. They enjoy cartoons. Later, they go to the (4) ____ to see their father. He works there as a doctor. Then, they go by the (5) ____ to put some money in their savings account. Finally, they walk along the (6) ____ to go back home. They always have fun on Saturdays.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "gap": 1,
+              "options": [
+                "park",
+                "bank",
+                "hospital",
+                "cinema"
+              ],
+              "answer": "park",
+              "explanation": "La palabra correcta es 'park' porque el contexto habla de jugar en columpios y correr, actividades típicas de un parque. Las otras opciones no se relacionan con estas actividades."
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "gap": 2,
+              "options": [
+                "supermarket",
+                "school",
+                "street",
+                "bank"
+              ],
+              "answer": "supermarket",
+              "explanation": "La palabra correcta es 'supermarket' porque se menciona la compra de leche y huevos, lo cual es típico en un supermercado. Las otras opciones no son lugares para comprar alimentos."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "cinema",
+                "hospital",
+                "bank",
+                "park"
+              ],
+              "answer": "cinema",
+              "explanation": "La palabra correcta es 'cinema' porque el texto habla de ver una película, lo cual se hace en el cine. Las otras opciones no se relacionan con ver películas."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "hospital",
+                "bank",
+                "supermarket",
+                "cinema"
+              ],
+              "answer": "hospital",
+              "explanation": "La palabra correcta es 'hospital' porque mencionan a su padre trabajando como doctor, lo cual es común en un hospital. Las otras opciones no son lugares de trabajo para un doctor."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "bank",
+                "park",
+                "school",
+                "street"
+              ],
+              "answer": "bank",
+              "explanation": "La palabra correcta es 'bank' porque hablan de ahorrar dinero, algo que se hace en un banco. Las otras opciones no tienen sentido en este contexto."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "street",
+                "park",
+                "cinema",
+                "school"
+              ],
+              "answer": "street",
+              "explanation": "La palabra correcta es 'street' porque se describe caminar de regreso a casa, lo cual es común hacerlo por la calle. Las otras opciones no son rutas comunes para caminar hacia casa."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 9 of the A1 course.\"",
-          "correct_answer": false,
+          "interaction_id": "U9_Ta1-u9-imperatives_I1",
+          "questions": [
+            {
+              "text": "Look at _____ cat. It is very cute.",
+              "options": [
+                "this",
+                "that"
+              ],
+              "correctAnswer": "this",
+              "explanation": "Usamos 'this' para referirnos a algo cercano."
+            },
+            {
+              "text": "My book is _____ the table.",
+              "options": [
+                "on",
+                "under",
+                "next to"
+              ],
+              "correctAnswer": "on",
+              "explanation": "Usamos 'on' para indicar que algo está encima de una superficie."
+            },
+            {
+              "text": "The ball is _____ the chair.",
+              "options": [
+                "under",
+                "in",
+                "on"
+              ],
+              "correctAnswer": "under",
+              "explanation": "Usamos 'under' para decir que algo está debajo de otra cosa."
+            },
+            {
+              "text": "These apples are not red. _____ apples are red.",
+              "options": [
+                "Those",
+                "These"
+              ],
+              "correctAnswer": "Those",
+              "explanation": "Usamos 'those' para hablar de cosas que están lejos."
+            },
+            {
+              "text": "Maria and Juan _____ happy.",
+              "options": [
+                "are",
+                "is",
+                "am"
+              ],
+              "correctAnswer": "are",
+              "explanation": "Usamos 'are' con sujetos plurales como 'Maria and Juan'."
+            },
+            {
+              "text": "_____ you like coffee?",
+              "options": [
+                "Do",
+                "Does"
+              ],
+              "correctAnswer": "Do",
+              "explanation": "Usamos 'do' para formar preguntas con 'you'."
+            },
+            {
+              "text": "Pedro _____ have a blue car.",
+              "options": [
+                "do not",
+                "does not"
+              ],
+              "correctAnswer": "does not",
+              "explanation": "Usamos 'does not' en tercera persona singular para negativos en presente simple."
+            },
+            {
+              "text": "I _____ a student.",
+              "options": [
+                "am",
+                "is",
+                "are"
+              ],
+              "correctAnswer": "am",
+              "explanation": "Usamos 'am' con 'I' en afirmaciones."
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 9 of the A1 course.\"",
-          "correct_answer": true,
+          "interaction_id": "U9_Ta1-u9-imperatives_I0",
+          "title": "Basic Direction Commands",
+          "instructions": "Choose the correct direction command for each situation.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "You are at the park. Walk to the big tree. Which direction should you go?",
+              "options": [
+                "Turn left",
+                "Go straight",
+                "Turn right",
+                "Stop"
+              ],
+              "correctAnswer": "Go straight",
+              "explanation": "En este contexto, 'Go straight' es la opción correcta porque indica que debes seguir caminando recto hacia el objeto mencionado, que es el árbol en este caso."
+            },
+            {
+              "id": "q2",
+              "question": "You are at a red light. What should you do?",
+              "options": [
+                "Go straight",
+                "Turn left",
+                "Turn right",
+                "Stop"
+              ],
+              "correctAnswer": "Stop",
+              "explanation": "La opción 'Stop' es correcta porque las luces rojas indican que debes detenerte, y 'Stop' significa detenerse en inglés."
+            },
+            {
+              "id": "q3",
+              "question": "Your friend tells you to move to the right side of the room. What do you do?",
+              "options": [
+                "Go straight",
+                "Turn left",
+                "Turn right",
+                "Stop"
+              ],
+              "correctAnswer": "Turn right",
+              "explanation": "Debes elegir 'Turn right' porque 'right' significa derecha en inglés, y te indican que te muevas hacia ese lado."
+            },
+            {
+              "id": "q4",
+              "question": "You are following a map and it says to take the first left. What direction do you take?",
+              "options": [
+                "Turn left",
+                "Go straight",
+                "Turn right",
+                "Stop"
+              ],
+              "correctAnswer": "Turn left",
+              "explanation": "Elegir 'Turn left' es correcto porque la instrucción es tomar la primera a la izquierda, y 'left' significa izquierda en inglés."
+            }
+          ],
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_I59",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
+          "interaction_id": "U9_Ta1-u9-prepositions-place_I1",
+          "title": "Understanding Simple Grammar",
+          "instructions": "Choose the best answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Where is the book? It is ___ the table.",
+              "options": [
+                "A. on",
+                "B. under",
+                "C. next to",
+                "D. between"
+              ],
+              "correctAnswer": "A",
+              "explanation": "En inglés, 'on' se usa para indicar que algo está sobre una superficie. El libro está sobre la mesa, por lo que 'on' es correcto."
+            },
+            {
+              "id": "q2",
+              "question": "Where is the cat? It is ___ the chair.",
+              "options": [
+                "A. in",
+                "B. under",
+                "C. next to",
+                "D. behind"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La preposición 'under' indica que algo está debajo de otra cosa. En este caso, el gato está debajo de la silla."
+            },
+            {
+              "id": "q3",
+              "question": "Where is the ball? It is ___ the shoes.",
+              "options": [
+                "A. between",
+                "B. in front of",
+                "C. next to",
+                "D. under"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La preposición 'between' se usa cuando algo está en medio de dos objetos. La pelota está entre los zapatos."
+            },
+            {
+              "id": "q4",
+              "question": "Where is the dog? It is ___ the car.",
+              "options": [
+                "A. in",
+                "B. behind",
+                "C. on",
+                "D. next to"
+              ],
+              "correctAnswer": "B",
+              "explanation": "Usamos 'behind' para indicar que algo está en la parte trasera de otra cosa. El perro está detrás del coche."
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_Ta1-u9-prepositions-place_I0",
+          "title": "Prepositions of Place",
+          "instructions": "Choose the correct preposition for each sentence.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "The cat is ___ the table.",
+              "options": [
+                "A) on",
+                "B) in",
+                "C) behind",
+                "D) next to"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta es 'on' porque el gato está sobre la mesa. Usamos 'on' para indicar que algo está en una superficie."
+            },
+            {
+              "id": "q2",
+              "question": "The book is ___ the bag.",
+              "options": [
+                "A) on",
+                "B) in",
+                "C) next to",
+                "D) under"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La respuesta es 'in' porque el libro está dentro de la bolsa. Usamos 'in' para indicar que algo está dentro de un espacio."
+            },
+            {
+              "id": "q3",
+              "question": "The chair is ___ the desk and the window.",
+              "options": [
+                "A) in front of",
+                "B) behind",
+                "C) between",
+                "D) next to"
+              ],
+              "correctAnswer": "C",
+              "explanation": "La respuesta es 'between' porque la silla está entre el escritorio y la ventana. Usamos 'between' para indicar que algo está en medio de dos cosas."
+            },
+            {
+              "id": "q4",
+              "question": "The dog is ___ the box.",
+              "options": [
+                "A) next to",
+                "B) in front of",
+                "C) on",
+                "D) under"
+              ],
+              "correctAnswer": "D",
+              "explanation": "La respuesta es 'under' porque el perro está debajo de la caja. Usamos 'under' para indicar que algo está directamente abajo de otra cosa."
+            }
+          ],
           "mastery_tag": "grammar"
         }
       ]

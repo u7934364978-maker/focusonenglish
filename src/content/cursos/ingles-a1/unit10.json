@@ -4,193 +4,586 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U10",
-    "unit_title": "Animals and Pets",
-    "total_duration_minutes": 60
+    "unit_title": "Tiempo libre y planes simples",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B10",
-      "title": "Animals and Pets",
+      "title": "Tiempo libre y planes simples",
       "content": [
         {
-          "interaction_id": "U10_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U10_Ta1-u10-present-continuous_I0",
+          "title": "Practice with Present Continuous",
+          "instructions": "Choose the correct option for each sentence. Use the present continuous to describe actions happening now.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Tennis",
-              "right": "Tenis"
+              "id": "q1",
+              "question": "What is she doing?",
+              "options": [
+                "A) She is running",
+                "B) She run",
+                "C) She runs",
+                "D) She will run"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción A es correcta porque usamos 'is' con 'running' para formar el presente continuo para acciones que suceden ahora mismo."
             },
             {
-              "id": "p1",
-              "left": "Apple",
-              "right": "Manzana"
+              "id": "q2",
+              "question": "Where are the children playing?",
+              "options": [
+                "A) The children are play",
+                "B) The children plays",
+                "C) The children are playing",
+                "D) The children played"
+              ],
+              "correctAnswer": "C",
+              "explanation": "La opción C es correcta porque usamos 'are' con 'playing' para indicar que los niños están jugando en este momento."
+            },
+            {
+              "id": "q3",
+              "question": "Is he eating an apple?",
+              "options": [
+                "A) He eat an apple",
+                "B) He eats an apple",
+                "C) He is eat an apple",
+                "D) He is eating an apple"
+              ],
+              "correctAnswer": "D",
+              "explanation": "La opción D es correcta porque muestra el uso de 'is' con 'eating' para formar el presente continuo, indicando una acción en progreso."
+            },
+            {
+              "id": "q4",
+              "question": "Are they watching TV now?",
+              "options": [
+                "A) They watches TV",
+                "B) They are watching TV",
+                "C) They watch TV",
+                "D) They are watch TV"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La opción B es correcta porque usamos 'are' con 'watching' para formar el presente continuo para una acción que ocurre en este momento."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_Ta1-u10-leisure_I1",
+          "title": "Leisure and Sports: A1 Beginner Exercise",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Where is the ball?",
+              "options": [
+                "A) In the box",
+                "B) He is the box",
+                "C) She box",
+                "D) We box"
+              ],
+              "correctAnswer": "A) In the box",
+              "explanation": "Usamos 'in' para indicar que algo está dentro de otra cosa."
+            },
+            {
+              "id": "q2",
+              "question": "He ___ a book.",
+              "options": [
+                "A) is",
+                "B) are",
+                "C) am",
+                "D) you"
+              ],
+              "correctAnswer": "A) is",
+              "explanation": "Usamos 'is' con los pronombres 'he', 'she', e 'it'."
+            },
+            {
+              "id": "q3",
+              "question": "Let's ___ tennis.",
+              "options": [
+                "A) play",
+                "B) plays",
+                "C) playing",
+                "D) played"
+              ],
+              "correctAnswer": "A) play",
+              "explanation": "Después de 'Let's', usamos el verbo en infinitivo sin 'to'."
+            },
+            {
+              "id": "q4",
+              "question": "The book is ___ the table.",
+              "options": [
+                "A) on",
+                "B) in",
+                "C) under",
+                "D) next"
+              ],
+              "correctAnswer": "A) on",
+              "explanation": "Usamos 'on' para indicar que algo está sobre una superficie."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 10 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U10_Ta1-u10-leisure_I0",
+          "text": "Lisa loves leisure activities. She plays **(1)** after school. Her brother, Tom, enjoys **(2)** books. On weekends, they go to the **(3)** together to watch movies. Lisa also likes listening to **(4)**. Her favorite singer is Taylor Swift. Tom has a different **(5)**. He prefers classical **(6)**. Every Saturday, they visit their grandparents. Lisa's grandmother often talks about her favorite **(7)**, which is gardening. Tom's grandfather prefers watching **(8)** matches on TV.",
+          "questions": [
             {
-              "id": "w3",
-              "text": "10"
+              "gap": 1,
+              "options": [
+                "tennis",
+                "piano",
+                "cooking",
+                "reading"
+              ],
+              "correct": "tennis",
+              "explanation": "Lisa plays a sport after school. 'Tennis' es un deporte, mientras que las otras opciones no lo son."
             },
             {
-              "id": "w1",
-              "text": "is"
+              "gap": 2,
+              "options": [
+                "watching",
+                "playing",
+                "reading",
+                "listening"
+              ],
+              "correct": "reading",
+              "explanation": "Tom disfruta de una actividad tranquila. 'Reading' se refiere a leer libros, lo cual es consistente con el contexto."
             },
             {
-              "id": "w7",
-              "text": "course"
+              "gap": 3,
+              "options": [
+                "park",
+                "cinema",
+                "library",
+                "gym"
+              ],
+              "correct": "cinema",
+              "explanation": "Van a un lugar para ver películas. 'Cinema' es el lugar adecuado para ver películas, no los otros."
             },
             {
-              "id": "w4",
-              "text": "of"
+              "gap": 4,
+              "options": [
+                "music",
+                "games",
+                "movies",
+                "dances"
+              ],
+              "correct": "music",
+              "explanation": "Lisa escucha algo. 'Music' es lo que se escucha, las otras opciones no son correctas en este contexto."
             },
             {
-              "id": "w6",
-              "text": "A1"
+              "gap": 5,
+              "options": [
+                "hobby",
+                "food",
+                "pet",
+                "color"
+              ],
+              "correct": "hobby",
+              "explanation": "Tom tiene un interés diferente. 'Hobby' se refiere a una actividad de ocio, a diferencia de las otras opciones."
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "gap": 6,
+              "options": [
+                "sports",
+                "music",
+                "dinner",
+                "painting"
+              ],
+              "correct": "music",
+              "explanation": "Tom prefiere un tipo diferente de música. 'Classical music' es una categoría musical, las otras opciones no encajan."
             },
             {
-              "id": "w5",
-              "text": "the"
+              "gap": 7,
+              "options": [
+                "habit",
+                "team",
+                "hobby",
+                "singer"
+              ],
+              "correct": "hobby",
+              "explanation": "La abuela de Lisa habla de su actividad favorita de ocio. 'Hobby' es correcto, ya que gardening es una afición."
             },
             {
-              "id": "w0",
-              "text": "This"
+              "gap": 8,
+              "options": [
+                "tennis",
+                "reading",
+                "football",
+                "cooking"
+              ],
+              "correct": "football",
+              "explanation": "El abuelo de Tom prefiere ver partidos. 'Football' son partidos, las otras opciones no son tipos de partidos."
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "No"
-            },
-            {
-              "id": "c2",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Hello!"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U10_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tenis",
-          "correct_answer": "Tennis",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U10_Ta1-u10-present-continuous_I1",
+          "title": "Present Continuous Practice",
+          "instructions": "Choose the correct option to complete each sentence.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "id": "q1",
+              "question": "What is Maria doing right now?",
+              "options": [
+                "A. Maria is reading a book.",
+                "B. Maria reads a book.",
+                "C. Maria read a book.",
+                "D. Maria will read a book."
+              ],
+              "correctAnswer": "A",
+              "explanation": "Usamos el presente continuo para acciones que ocurren en este momento. La forma correcta es 'is reading'."
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "id": "q2",
+              "question": "Where is the cat sleeping?",
+              "options": [
+                "A. The cat is sleep on the chair.",
+                "B. The cat sleeps on the chair.",
+                "C. The cat is sleeping on the chair.",
+                "D. The cat sleep on the chair."
+              ],
+              "correctAnswer": "C",
+              "explanation": "La forma correcta para describir una acción en progreso es 'is sleeping'."
+            },
+            {
+              "id": "q3",
+              "question": "Who is watching TV at the moment?",
+              "options": [
+                "A. John watch TV.",
+                "B. John is watching TV.",
+                "C. John watches TV.",
+                "D. John watched TV."
+              ],
+              "correctAnswer": "B",
+              "explanation": "Para acciones que están ocurriendo ahora, usamos 'is watching'."
+            },
+            {
+              "id": "q4",
+              "question": "When is the teacher talking to the class?",
+              "options": [
+                "A. The teacher is talking now.",
+                "B. The teacher talks now.",
+                "C. The teacher talked now.",
+                "D. The teacher will talk now."
+              ],
+              "correctAnswer": "A",
+              "explanation": "El presente continuo 'is talking' se usa para indicar lo que está sucediendo en este momento."
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_Ta1-u10-present-continuous_I2",
+          "questions": [
+            {
+              "sentence": "There ___ a cat in the garden.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "is",
+              "explanation": "Usamos 'is' porque 'cat' es singular.",
+              "points": 1
+            },
+            {
+              "sentence": "There ___ books on the table.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "are",
+              "explanation": "Usamos 'are' porque 'books' es plural.",
+              "points": 1
+            },
+            {
+              "sentence": "My brother ___ two dogs.",
+              "options": [
+                "have",
+                "has"
+              ],
+              "correctAnswer": "has",
+              "explanation": "Usamos 'has' con 'he', 'she', o 'it'.",
+              "points": 1
+            },
+            {
+              "sentence": "We ___ to school every day.",
+              "options": [
+                "go",
+                "goes"
+              ],
+              "correctAnswer": "go",
+              "explanation": "Usamos 'go' con 'we', 'you', o 'they'.",
+              "points": 1
+            },
+            {
+              "sentence": "My sister ___ very happy.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "is",
+              "explanation": "Usamos 'is' con 'he', 'she', o 'it'.",
+              "points": 1
+            },
+            {
+              "sentence": "The cars ___ red.",
+              "options": [
+                "is",
+                "are"
+              ],
+              "correctAnswer": "are",
+              "explanation": "Usamos 'are' porque 'cars' es plural.",
+              "points": 1
+            },
+            {
+              "sentence": "This is ___ book.",
+              "options": [
+                "my",
+                "I"
+              ],
+              "correctAnswer": "my",
+              "explanation": "Usamos 'my' para indicar posesión.",
+              "points": 1
+            },
+            {
+              "sentence": "Please ___ the door.",
+              "options": [
+                "open",
+                "opens"
+              ],
+              "correctAnswer": "open",
+              "explanation": "Usamos el imperativo sin 's' para órdenes.",
+              "points": 1
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_Ta1-u10-lets_I0",
+          "title": "Basic English Grammar Practice",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Where is the book? It is ___ the table.",
+              "options": [
+                "A. on",
+                "B. in",
+                "C. under",
+                "D. next to"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La preposición 'on' se utiliza para indicar que algo está sobre una superficie, como una mesa."
+            },
+            {
+              "id": "q2",
+              "question": "Who is he? He is my ___ brother.",
+              "options": [
+                "A. your",
+                "B. her",
+                "C. his",
+                "D. little"
+              ],
+              "correctAnswer": "D",
+              "explanation": "La palabra 'little' se usa para describir algo pequeño o menor. Aquí, se refiere al hermano menor."
+            },
+            {
+              "id": "q3",
+              "question": "She ___ to school every day.",
+              "options": [
+                "A. go",
+                "B. goes",
+                "C. going",
+                "D. gone"
+              ],
+              "correctAnswer": "B",
+              "explanation": "En presente simple, con el sujeto 'she', el verbo 'go' se convierte en 'goes' para expresar una acción habitual."
+            },
+            {
+              "id": "q4",
+              "question": "The cat is ___ the chair.",
+              "options": [
+                "A. next to",
+                "B. under",
+                "C. in",
+                "D. on"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La preposición 'under' se usa para indicar que algo está abajo de otra cosa, en este caso, la silla."
+            }
+          ],
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U10_Ta1-u10-leisure_I2",
+          "title": "Leisure and Sports: Basic Grammar Exercise",
+          "instructions": "Choose the correct option for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is the football?",
+              "options": [
+                "A) Blue",
+                "B) Happy",
+                "C) Quickly",
+                "D) Sad"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La pregunta se refiere al color del fútbol, y 'Blue' es un color. Las otras opciones no son colores."
+            },
+            {
+              "id": "q2",
+              "question": "Where do you play tennis?",
+              "options": [
+                "A) In the park",
+                "B) At the evening",
+                "C) With a book",
+                "D) Often"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Jugamos al tenis en un lugar físico, y 'In the park' es el lugar correcto. Las otras opciones no son lugares adecuados para jugar al tenis."
+            },
+            {
+              "id": "q3",
+              "question": "When do you read books?",
+              "options": [
+                "A) At night",
+                "B) In the tennis",
+                "C) Blue",
+                "D) Quickly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La pregunta se centra en el tiempo, y 'At night' es una respuesta adecuada para indicar cuándo se lee. Las otras opciones no son tiempos."
+            },
+            {
+              "id": "q4",
+              "question": "Who likes music?",
+              "options": [
+                "A) My friend",
+                "B) At school",
+                "C) Orange",
+                "D) Slowly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La pregunta busca a una persona, y 'My friend' es la opción correcta que refiere a una persona. Las otras opciones no se refieren a personas."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_I9",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U10_Ta1-u10-lets_I1",
+          "title": "Making Suggestions with Basic Verbs",
+          "instructions": "Choose the best suggestion for the situation.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "id": "q1",
+              "question": "You and your friend want to eat. What do you say?",
+              "options": [
+                "A. Let's eat something.",
+                "B. Why don't we read?",
+                "C. Let's play a game.",
+                "D. Shall we dance?"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción A es correcta porque 'Let's eat something.' es una sugerencia directa para comer, que es adecuada para la situación."
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": "q2",
+              "question": "It's a sunny day and you have no plans. What do you suggest?",
+              "options": [
+                "A. Shall we go to the beach?",
+                "B. Let's study for exams.",
+                "C. Why don't we watch a movie?",
+                "D. Let's sleep now."
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción A es correcta porque 'Shall we go to the beach?' es una sugerencia adecuada para disfrutar de un día soleado."
+            },
+            {
+              "id": "q3",
+              "question": "You are bored at home. What is a good suggestion?",
+              "options": [
+                "A. Why don't we make a cake?",
+                "B. Let's do homework.",
+                "C. Shall we clean the house?",
+                "D. Let's stay here."
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción A es correcta porque 'Why don't we make a cake?' sugiere una actividad divertida para combatir el aburrimiento."
+            },
+            {
+              "id": "q4",
+              "question": "Your friend wants to relax. What do you say?",
+              "options": [
+                "A. Let's run a marathon.",
+                "B. Why don't we listen to music?",
+                "C. Shall we study now?",
+                "D. Let's write a book."
+              ],
+              "correctAnswer": "B",
+              "explanation": "La opción B es correcta porque 'Why don't we listen to music?' es una sugerencia relajante para ayudar a tu amigo a relajarse."
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "speaking"
         },
         {
-          "interaction_id": "U10_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I66",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 10 of the A1 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "interaction_id": "U10_Ta1-u10-lets_I2",
+          "title": "Basic English Grammar: Prepositions and Demonstratives",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is this car?",
+              "options": [
+                "A) Red",
+                "B) Dog",
+                "C) Jump",
+                "D) Quickly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción A es correcta porque 'Red' es un color, que responde a la pregunta sobre el color del coche."
+            },
+            {
+              "id": "q2",
+              "question": "Where is the book? It is ___ the table.",
+              "options": [
+                "A) in",
+                "B) on",
+                "C) at",
+                "D) by"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La opción B es correcta porque 'on' se usa para indicar que algo está sobre una superficie, como una mesa."
+            },
+            {
+              "id": "q3",
+              "question": "This is ___ brother.",
+              "options": [
+                "A) my",
+                "B) dog",
+                "C) fast",
+                "D) quickly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La opción A es correcta porque 'my' es un adjetivo posesivo que se usa para mostrar que el hermano pertenece a la persona que habla."
+            },
+            {
+              "id": "q4",
+              "question": "___ is your name?",
+              "options": [
+                "A) Who",
+                "B) What",
+                "C) Where",
+                "D) When"
+              ],
+              "correctAnswer": "B",
+              "explanation": "La opción B es correcta porque 'What' se utiliza para preguntar sobre información específica, como un nombre."
+            }
+          ],
+          "mastery_tag": "speaking"
         }
       ]
     }

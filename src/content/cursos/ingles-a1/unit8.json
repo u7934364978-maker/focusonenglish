@@ -4,172 +4,787 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U8",
-    "unit_title": "The Body and Health",
-    "total_duration_minutes": 60
+    "unit_title": "Compras y precios",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
       "block_id": "B8",
-      "title": "The Body and Health",
+      "title": "Compras y precios",
       "content": [
         {
-          "interaction_id": "U8_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra en inglés con su traducción:",
-          "pairs": [
+          "interaction_id": "U8_Ta1-u8-can-requests_I1",
+          "title": "Basic English Requests",
+          "instructions": "Choose the correct sentence for the given context.",
+          "questions": [
             {
-              "id": "p0",
-              "left": "Apple",
-              "right": "Manzana"
+              "id": "q1",
+              "question": "You are at a restaurant. What do you say to ask for water?",
+              "options": [
+                "A) Can I have water, please?",
+                "B) Can I water, please?",
+                "C) Have I can water, please?",
+                "D) Can water please I have?"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La estructura correcta para pedir algo es 'Can I have...' seguida del objeto que deseas y 'please' para ser cortés."
             },
             {
-              "id": "p1",
-              "left": "Tennis",
-              "right": "Tenis"
+              "id": "q2",
+              "question": "You need help with your homework. What do you ask?",
+              "options": [
+                "A) Can you help me?",
+                "B) You can help me?",
+                "C) Help can you me?",
+                "D) Can I help you?"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Para pedir ayuda a alguien, se dice 'Can you help me?' usando el verbo 'help'."
+            },
+            {
+              "id": "q3",
+              "question": "You want to borrow a pencil. What do you say?",
+              "options": [
+                "A) Can you give me a pencil, please?",
+                "B) You can give me a pencil?",
+                "C) Can give I a pencil you?",
+                "D) Give pencil can I please?"
+              ],
+              "correctAnswer": "A",
+              "explanation": "Para pedir algo prestado, se usa 'Can you give me...' seguido del objeto que necesitas y 'please'."
+            },
+            {
+              "id": "q4",
+              "question": "You are lost. How do you ask for directions?",
+              "options": [
+                "A) Can you help me find the way?",
+                "B) Can me you help find the way?",
+                "C) You help me can find the way?",
+                "D) Help way find me can you?"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La forma correcta es 'Can you help me find the way?' donde se pide ayuda para encontrar el camino."
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U8_Ta1-u8-numbers-100_I1",
+          "text": "Anna has a small shop in her town. She sells toys and books. Every day, she opens the shop at 9 o'clock in the morning. She has __1__ toys on the shelves. Children come in and buy them. She sells about __2__ toys each day. Her most popular toys cost __3__ dollars. Anna also has books. She sells about __4__ books in one week. Some books cost __5__ dollars, while others are more expensive. On weekends, Anna sells even more. She finishes work at __6__ o'clock in the evening. She is happy with her work. She dreams of having a bigger shop one day, with __7__ toys and books. Anna's friend helps her __8__ weekends. They both like working together.",
+          "questions": [
+            {
+              "gap": 1,
+              "options": [
+                "two",
+                "many",
+                "do",
+                "is"
+              ],
+              "correct": "many",
+              "explanation": "La opción correcta es 'many' porque estamos hablando de una cantidad de juguetes en las estanterías. Las otras opciones no son adecuadas: 'two' es un número específico, 'do' es un verbo y 'is' es para singular."
+            },
+            {
+              "gap": 2,
+              "options": [
+                "twenty",
+                "read",
+                "happy",
+                "big"
+              ],
+              "correct": "twenty",
+              "explanation": "La opción correcta es 'twenty' porque habla de la cantidad de juguetes vendidos cada día. Las otras opciones no tienen sentido aquí: 'read' es un verbo, 'happy' es adjetivo y 'big' también es un adjetivo."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "twenty",
+                "forty",
+                "write",
+                "green"
+              ],
+              "correct": "forty",
+              "explanation": "La opción correcta es 'forty' porque está hablando de un precio en dólares. Las otras opciones no tienen sentido: 'twenty' podría ser correcto pero es menos que 'forty', 'write' es un verbo y 'green' es un color."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "ten",
+                "think",
+                "run",
+                "blue"
+              ],
+              "correct": "ten",
+              "explanation": "La opción correcta es 'ten' porque hablamos de la cantidad de libros vendidos en una semana. Las otras opciones no son correctas: 'think' es un verbo, 'run' es un verbo y 'blue' es un color."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "thirty",
+                "write",
+                "light",
+                "jump"
+              ],
+              "correct": "thirty",
+              "explanation": "La opción correcta es 'thirty' porque estamos hablando del precio de los libros. Las otras opciones no tienen sentido: 'write' es un verbo, 'light' es un adjetivo y 'jump' es un verbo."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "six",
+                "play",
+                "quick",
+                "fun"
+              ],
+              "correct": "six",
+              "explanation": "La opción correcta es 'six' porque estamos hablando de la hora de cierre. Las otras opciones no tienen sentido: 'play' es un verbo, 'quick' es un adjetivo y 'fun' es un sustantivo."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "more",
+                "run",
+                "fast",
+                "jump"
+              ],
+              "correct": "more",
+              "explanation": "La opción correcta es 'more' porque habla de tener más juguetes y libros en el futuro. Las otras opciones no son correctas: 'run' es un verbo, 'fast' es un adjetivo y 'jump' es un verbo."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "on",
+                "at",
+                "in",
+                "by"
+              ],
+              "correct": "on",
+              "explanation": "La opción correcta es 'on' porque usamos 'on' para decir los días de la semana. Las otras opciones no son correctas en este contexto."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U8_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (play) ________ tennis.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This unit is 8 of the A1 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras:",
-          "options": [
+          "interaction_id": "U8_Ta1-u8-clothes_I1",
+          "questions": [
             {
-              "id": "w0",
-              "text": "I"
+              "sentence": "Maria wears ____ blue dress.",
+              "options": [
+                "a",
+                "an",
+                "the"
+              ],
+              "answer": "a",
+              "explanation": "Usamos 'a' antes de sustantivos que comienzan con un sonido consonante.",
+              "points": 1
             },
             {
-              "id": "w3",
-              "text": "English"
+              "sentence": "The book is ____ the table.",
+              "options": [
+                "in",
+                "on",
+                "under"
+              ],
+              "answer": "on",
+              "explanation": "Usamos 'on' cuando algo está encima de una superficie.",
+              "points": 1
             },
             {
-              "id": "w2",
-              "text": "learning"
+              "sentence": "This is my sister. I like ____ hat.",
+              "options": [
+                "his",
+                "its",
+                "her"
+              ],
+              "answer": "her",
+              "explanation": "Usamos 'her' para referirnos a algo que pertenece a una chica o mujer.",
+              "points": 1
             },
             {
-              "id": "w1",
-              "text": "am"
+              "sentence": "Where ____ your jacket?",
+              "options": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "is",
+              "explanation": "Usamos 'is' con 'your jacket' porque es singular.",
+              "points": 1
+            },
+            {
+              "sentence": "____ are my new shoes.",
+              "options": [
+                "These",
+                "It",
+                "He"
+              ],
+              "answer": "These",
+              "explanation": "Usamos 'These' para referirnos a objetos cercanos en plural.",
+              "points": 1
+            },
+            {
+              "sentence": "The cat is ____ the chair.",
+              "options": [
+                "under",
+                "next to",
+                "on"
+              ],
+              "answer": "under",
+              "explanation": "Usamos 'under' cuando algo está debajo de otra cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "I have ____ orange t-shirt.",
+              "options": [
+                "a",
+                "an",
+                "the"
+              ],
+              "answer": "an",
+              "explanation": "Usamos 'an' antes de palabras que empiezan con un sonido vocal.",
+              "points": 1
+            },
+            {
+              "sentence": "____ are my jeans.",
+              "options": [
+                "They",
+                "It",
+                "He"
+              ],
+              "answer": "They",
+              "explanation": "Usamos 'They' para referirnos a cosas en plural.",
+              "points": 1
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural:",
-          "stimulus_en": "Speaker A: \"Hi!\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "No"
-            },
-            {
-              "id": "c2",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Hello!"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Manzana",
-          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U8_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Manzana' en inglés?",
-          "options": [
+          "interaction_id": "U8_Ta1-u8-numbers-100_I0",
+          "text": "Every Saturday, Maria goes to the market with her mother. They need to buy fruits and vegetables for the week. First, they buy apples. Maria counts them, and there are (1) ___. Next, they buy oranges. Maria sees there are (2) ___ oranges. After the fruits, they look at the vegetables. Maria's mother wants potatoes. She asks for (3) ___ potatoes. After shopping, they stop at the bakery. They want to buy bread. Maria likes the round bread. She sees there are (4) ___ on the shelf. Finally, they pay. Maria sees her mother gives the man a (5) ___ dollar bill. Maria is happy because they have everything they need. They go home, and Maria helps put the food away. There are (6) ___ bags to carry. Maria thinks it's heavy, but she is strong. Later, they have lunch. Maria eats (7) ___ carrots and says, 'I like this!' Her mother smiles and gives her a big hug. Maria counts her kisses. There are (8) ___ kisses today.",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Apple"
+              "gap": 1,
+              "options": [
+                "thirty",
+                "three",
+                "thirteen",
+                "thirty-one"
+              ],
+              "correct": "thirteen",
+              "explanation": "La opción correcta es 'thirteen' porque es un número menor de veinte y los otros números son más grandes."
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "gap": 2,
+              "options": [
+                "fourteen",
+                "forty",
+                "four",
+                "forty-four"
+              ],
+              "correct": "four",
+              "explanation": "La opción correcta es 'four' porque es un número pequeño y los otros números son mucho más grandes o no son comunes para frutas."
+            },
+            {
+              "gap": 3,
+              "options": [
+                "fifty",
+                "fifteen",
+                "five",
+                "fifty-five"
+              ],
+              "correct": "fifty",
+              "explanation": "La opción correcta es 'fifty' porque es común comprar una gran cantidad de papas y es un número redondo."
+            },
+            {
+              "gap": 4,
+              "options": [
+                "two",
+                "twenty",
+                "twelve",
+                "twenty-two"
+              ],
+              "correct": "twelve",
+              "explanation": "La opción correcta es 'twelve' porque suele haber más de un pan en la estantería, pero no demasiados."
+            },
+            {
+              "gap": 5,
+              "options": [
+                "fifty",
+                "five",
+                "fifteen",
+                "fifty-five"
+              ],
+              "correct": "five",
+              "explanation": "La opción correcta es 'five' porque es una cantidad común de dinero al pagar en el mercado."
+            },
+            {
+              "gap": 6,
+              "options": [
+                "three",
+                "thirty",
+                "thirteen",
+                "thirty-three"
+              ],
+              "correct": "three",
+              "explanation": "La opción correcta es 'three' porque es un número pequeño y manejable de bolsas para llevar."
+            },
+            {
+              "gap": 7,
+              "options": [
+                "three",
+                "thirty",
+                "thirteen",
+                "thirty-three"
+              ],
+              "correct": "three",
+              "explanation": "La opción correcta es 'three' porque es una cantidad pequeña de zanahorias que una niña podría comer en una comida."
+            },
+            {
+              "gap": 8,
+              "options": [
+                "three",
+                "thirty",
+                "thirteen",
+                "thirty-three"
+              ],
+              "correct": "three",
+              "explanation": "La opción correcta es 'three' porque no es común dar demasiados besos y 'three' es un número adecuado."
             }
           ],
-          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U8_I16",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (like) ________ apples.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I learning am English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tenis' en inglés?",
-          "options": [
+          "interaction_id": "U8_Ta1-u8-can-ability_I0",
+          "questions": [
             {
-              "id": "o1",
-              "text": "Tennis"
+              "context": "Maria is learning new things.",
+              "sentence": "Maria ____ (can/can't) swim.",
+              "acceptableAnswers": [
+                "can"
+              ],
+              "explanation": "Utilizamos 'can' para hablar sobre habilidades que alguien tiene.",
+              "points": 1
             },
             {
-              "id": "o2",
-              "text": "Apple"
+              "context": "Tom is a baby.",
+              "sentence": "Tom ____ (can/can't) drive.",
+              "acceptableAnswers": [
+                "can't"
+              ],
+              "explanation": "Usamos 'can't' para indicar una habilidad que alguien no tiene.",
+              "points": 1
+            },
+            {
+              "context": "My brother likes music.",
+              "sentence": "He ____ (can/can't) play the guitar.",
+              "acceptableAnswers": [
+                "can"
+              ],
+              "explanation": "Utilizamos 'can' para indicar que alguien tiene la habilidad de tocar un instrumento.",
+              "points": 1
+            },
+            {
+              "context": "Anna is from Spain.",
+              "sentence": "She ____ (can/can't) speak Spanish.",
+              "acceptableAnswers": [
+                "can"
+              ],
+              "explanation": "Usamos 'can' para habilidades como hablar un idioma.",
+              "points": 1
+            },
+            {
+              "context": "It is raining.",
+              "sentence": "We ____ (can/can't) play outside.",
+              "acceptableAnswers": [
+                "can't"
+              ],
+              "explanation": "Usamos 'can't' cuando algo no es posible.",
+              "points": 1
+            },
+            {
+              "context": "Peter has a car.",
+              "sentence": "He ____ (can/can't) drive to work.",
+              "acceptableAnswers": [
+                "can"
+              ],
+              "explanation": "Utilizamos 'can' para indicar que alguien tiene la habilidad de conducir.",
+              "points": 1
+            },
+            {
+              "context": "The dog is small.",
+              "sentence": "It ____ (can/can't) jump high.",
+              "acceptableAnswers": [
+                "can't"
+              ],
+              "explanation": "Usamos 'can't' cuando algo no es posible para alguien.",
+              "points": 1
+            },
+            {
+              "context": "I have English classes.",
+              "sentence": "I ____ (can/can't) speak English.",
+              "acceptableAnswers": [
+                "can"
+              ],
+              "explanation": "Utilizamos 'can' para hablar sobre las habilidades que tenemos gracias a la práctica o el aprendizaje.",
+              "points": 1
             }
           ],
-          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_Ta1-u8-can-ability_I1",
+          "sentences": [
+            {
+              "id": 1,
+              "words": [
+                "I",
+                "blue",
+                "have",
+                "a",
+                "car",
+                "."
+              ],
+              "correctOrder": [
+                "I",
+                "have",
+                "a",
+                "blue",
+                "car",
+                "."
+              ],
+              "translation": "Tengo un coche azul.",
+              "hint": "Sujeto + verbo + objeto",
+              "points": 2
+            },
+            {
+              "id": 2,
+              "words": [
+                "She",
+                "likes",
+                "chocolate",
+                "."
+              ],
+              "correctOrder": [
+                "She",
+                "likes",
+                "chocolate",
+                "."
+              ],
+              "translation": "A ella le gusta el chocolate.",
+              "hint": "Sujeto + verbo + objeto",
+              "points": 2
+            },
+            {
+              "id": 3,
+              "words": [
+                "This",
+                "is",
+                "my",
+                "book",
+                "."
+              ],
+              "correctOrder": [
+                "This",
+                "is",
+                "my",
+                "book",
+                "."
+              ],
+              "translation": "Este es mi libro.",
+              "hint": "Demostrativo + verbo + objeto",
+              "points": 2
+            },
+            {
+              "id": 4,
+              "words": [
+                "We",
+                "are",
+                "at",
+                "the",
+                "park",
+                "."
+              ],
+              "correctOrder": [
+                "We",
+                "are",
+                "at",
+                "the",
+                "park",
+                "."
+              ],
+              "translation": "Estamos en el parque.",
+              "hint": "Sujeto + verbo + preposición + lugar",
+              "points": 2
+            },
+            {
+              "id": 5,
+              "words": [
+                "They",
+                "play",
+                "football",
+                "every",
+                "Saturday",
+                "."
+              ],
+              "correctOrder": [
+                "They",
+                "play",
+                "football",
+                "every",
+                "Saturday",
+                "."
+              ],
+              "translation": "Ellos juegan al fútbol todos los sábados.",
+              "hint": "Sujeto + verbo + objeto + complemento de tiempo",
+              "points": 2
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_Ta1-u8-how-much_I1",
+          "instructions": "Fill in the blanks with the correct personal pronoun.",
+          "questions": [
+            {
+              "sentence": "___ am Maria. I like apples.",
+              "gap": "I",
+              "acceptableAnswers": [
+                "I"
+              ],
+              "explanation": "Usamos 'I' para referirnos a nosotros mismos.",
+              "points": 1
+            },
+            {
+              "sentence": "This is John. ___ is my friend.",
+              "gap": "He",
+              "acceptableAnswers": [
+                "He"
+              ],
+              "explanation": "Usamos 'He' para referirnos a un hombre o chico.",
+              "points": 1
+            },
+            {
+              "sentence": "Anna has a cat. ___ is gray.",
+              "gap": "It",
+              "acceptableAnswers": [
+                "It"
+              ],
+              "explanation": "Usamos 'It' para referirnos a cosas o animales.",
+              "points": 1
+            },
+            {
+              "sentence": "My sister and I play soccer. ___ play every Saturday.",
+              "gap": "We",
+              "acceptableAnswers": [
+                "We"
+              ],
+              "explanation": "Usamos 'We' para referirnos a nosotros mismos junto con otros.",
+              "points": 1
+            },
+            {
+              "sentence": "Carlos and Maria are teachers. ___ work at the same school.",
+              "gap": "They",
+              "acceptableAnswers": [
+                "They"
+              ],
+              "explanation": "Usamos 'They' para referirnos a más de una persona o cosa.",
+              "points": 1
+            },
+            {
+              "sentence": "This is my dog. ___ is very cute.",
+              "gap": "It",
+              "acceptableAnswers": [
+                "It"
+              ],
+              "explanation": "Usamos 'It' para referirnos a animales cuando no sabemos su género.",
+              "points": 1
+            },
+            {
+              "sentence": "My mom cooks dinner. ___ is a good cook.",
+              "gap": "She",
+              "acceptableAnswers": [
+                "She"
+              ],
+              "explanation": "Usamos 'She' para referirnos a una mujer o chica.",
+              "points": 1
+            },
+            {
+              "sentence": "Tom and I are in the same class. ___ study together.",
+              "gap": "We",
+              "acceptableAnswers": [
+                "We"
+              ],
+              "explanation": "Usamos 'We' cuando hablamos de nosotros mismos y otra persona.",
+              "points": 1
+            }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_Ta1-u8-can-requests_I0",
+          "title": "A1 Level: Basics of English",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "We ______ in the park.",
+              "options": [
+                "plays",
+                "play",
+                "played",
+                "playing"
+              ],
+              "correctAnswer": "play",
+              "explanation": "La forma correcta en presente simple para 'we' es 'play'. 'Plays' es para tercera persona singular, 'played' es pasado y 'playing' es gerundio."
+            },
+            {
+              "id": "q2",
+              "question": "Is she ______ a book?",
+              "options": [
+                "read",
+                "reads",
+                "reading",
+                "readed"
+              ],
+              "correctAnswer": "reading",
+              "explanation": "La forma correcta para expresar una acción en progreso en presente continuo es 'reading'. 'Read' y 'reads' son formas de presente simple, y 'readed' es incorrecto."
+            },
+            {
+              "id": "q3",
+              "question": "This is ______ brother.",
+              "options": [
+                "your",
+                "you",
+                "yours",
+                "you're"
+              ],
+              "correctAnswer": "your",
+              "explanation": "'Your' se usa como adjetivo posesivo. 'You' es un pronombre personal, 'yours' es un pronombre posesivo y 'you're' es la contracción de 'you are'."
+            },
+            {
+              "id": "q4",
+              "question": "Let's ______ to the beach.",
+              "options": [
+                "go",
+                "going",
+                "gone",
+                "went"
+              ],
+              "correctAnswer": "go",
+              "explanation": "Después de 'Let's', se utiliza el verbo en infinitivo sin 'to', que es 'go'. 'Going', 'gone', y 'went' son formas incorrectas en este contexto."
+            }
+          ],
+          "mastery_tag": "speaking"
+        },
+        {
+          "interaction_id": "U8_Ta1-u8-clothes_I0",
+          "title": "Clothes and Fashion Exercise",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "What color is the shirt?",
+              "options": [
+                "A. Red",
+                "B. Fast",
+                "C. Big",
+                "D. Happy"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Red' porque describe el color de la camisa."
+            },
+            {
+              "id": "q2",
+              "question": "Where is the hat?",
+              "options": [
+                "A. On the table",
+                "B. Eat dinner",
+                "C. Play games",
+                "D. Tall tree"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'On the table' porque indica la ubicación del sombrero."
+            },
+            {
+              "id": "q3",
+              "question": "Who likes the blue dress?",
+              "options": [
+                "A. She",
+                "B. Eats",
+                "C. Runs",
+                "D. Quickly"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'She' porque es el pronombre que indica quién le gusta el vestido."
+            },
+            {
+              "id": "q4",
+              "question": "Is he wearing shoes?",
+              "options": [
+                "A. Yes, he is",
+                "B. No, he runs",
+                "C. Yes, she likes",
+                "D. No, it is"
+              ],
+              "correctAnswer": "A",
+              "explanation": "La respuesta correcta es 'Yes, he is' porque responde afirmativamente a si él lleva zapatos."
+            }
+          ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U8_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am learning English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is unit 8 of the A1 course.\"",
-          "correct_answer": true,
+          "interaction_id": "U8_Ta1-u8-how-much_I0",
+          "title": "Basic English Grammar: Present Simple and Everyday Vocabulary",
+          "instructions": "Choose the correct answer for each question.",
+          "questions": [
+            {
+              "id": "q1",
+              "question": "Does he play football on Mondays?",
+              "options": [
+                "Yes, he does.",
+                "Yes, he is.",
+                "Yes, he can.",
+                "Yes, he will."
+              ],
+              "correctAnswer": "Yes, he does.",
+              "explanation": "En presente simple, usamos 'does' para preguntas con he/she/it."
+            },
+            {
+              "id": "q2",
+              "question": "What color is the apple?",
+              "options": [
+                "It is red.",
+                "It red is.",
+                "It is red color.",
+                "Red is it."
+              ],
+              "correctAnswer": "It is red.",
+              "explanation": "La estructura correcta es 'It is [color]'."
+            },
+            {
+              "id": "q3",
+              "question": "Do you like coffee?",
+              "options": [
+                "Yes, I do.",
+                "Yes, I like.",
+                "Yes, I am.",
+                "Yes, I can."
+              ],
+              "correctAnswer": "Yes, I do.",
+              "explanation": "Respuestas cortas en presente simple usan 'do' para I/you/we/they."
+            },
+            {
+              "id": "q4",
+              "question": "He has a new car.",
+              "options": [
+                "Does he?",
+                "Has he?",
+                "Is he?",
+                "Can he?"
+              ],
+              "correctAnswer": "Does he?",
+              "explanation": "Para confirmar información con 'he', usamos 'does'."
+            }
+          ],
           "mastery_tag": "grammar"
         }
       ]
