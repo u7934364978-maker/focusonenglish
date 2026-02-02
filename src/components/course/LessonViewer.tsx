@@ -1234,14 +1234,10 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
                 <span>Writing Exercise: {currentExercise.writingType}</span>
               </h3>
               <p className="text-slate-700 mb-4">{currentExercise.prompt}</p>
-              <div className="grid md:grid-cols-3 gap-4 text-sm">
+              <div className="grid md:grid-cols-2 gap-4 text-sm">
                 <div className="bg-white p-3 rounded border border-amber-200">
                   <p className="font-semibold text-amber-800">Word Count:</p>
                   <p className="text-slate-700">{currentExercise.minWords}-{currentExercise.maxWords} words</p>
-                </div>
-                <div className="bg-white p-3 rounded border border-amber-200">
-                  <p className="font-semibold text-amber-800">Time Limit:</p>
-                  <p className="text-slate-700">{currentExercise.timeLimit} minutes</p>
                 </div>
                 <div className="bg-white p-3 rounded border border-amber-200">
                   <p className="font-semibold text-amber-800">Type:</p>
@@ -3306,9 +3302,6 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
               </h3>
               <div className="flex gap-3 text-sm mt-2">
                 <span className="px-3 py-1 bg-fuchsia-100 text-fuchsia-700 rounded-full">
-                  Reading Time: {irwExercise.readingTime} min
-                </span>
-                <span className="px-3 py-1 bg-fuchsia-100 text-fuchsia-700 rounded-full">
                   {irwExercise.wordCount} words
                 </span>
               </div>
@@ -3467,16 +3460,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
 
           {/* Visual Statistics Row */}
-          <div className="grid grid-cols-3 gap-4 mb-6">
-            <div className="bg-gradient-to-br from-orange-100 to-orange-50 rounded-xl p-4 border-2 border-orange-300 shadow-md">
-              <div className="flex items-center gap-3">
-                <div className="text-3xl">📊</div>
-                <div>
-                  <div className="text-2xl font-black text-orange-900">{currentExerciseIndex + 1}/{lesson.exercises.length}</div>
-                  <div className="text-xs font-semibold text-orange-700">Exercises</div>
-                </div>
-              </div>
-            </div>
+          <div className="grid grid-cols-2 gap-4 mb-6">
             
             <div className="bg-gradient-to-br from-amber-100 to-amber-50 rounded-xl p-4 border-2 border-amber-300 shadow-md">
               <div className="flex items-center gap-3">

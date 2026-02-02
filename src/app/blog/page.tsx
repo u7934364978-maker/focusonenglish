@@ -140,7 +140,7 @@ export default function BlogPage() {
                       <>
                         <Image
                           src={featuredArticle.image}
-                          alt={featuredArticle.title}
+                          alt={featuredArticle.alt || featuredArticle.title}
                           fill
                           className="object-cover mix-blend-overlay opacity-60"
                           priority
@@ -202,7 +202,7 @@ export default function BlogPage() {
                               <div className="relative h-40 w-full mb-4 rounded-xl overflow-hidden shadow-sm">
                                 <Image
                                   src={article.image}
-                                  alt={article.title}
+                                  alt={article.alt || article.title}
                                   fill
                                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                                 />

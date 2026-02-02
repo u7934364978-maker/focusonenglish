@@ -1,0 +1,3084 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B2",
+    "unit_id": "U23",
+    "unit_title": "Economics",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B2 Economics vocabulary",
+    "Apply B2 Future Perfect structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B2_UNIT_23_PRACTICE",
+      "title": "B2 Practice: Economics",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U23_I1",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I3",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_3_1",
+              "right": "Definition 23_3_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_3_2",
+              "right": "Definition 23_3_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I4",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I5",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I6",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_6_1",
+              "right": "Definition 23_6_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_6_2",
+              "right": "Definition 23_6_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I7",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I9",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_9_1",
+              "right": "Definition 23_9_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_9_2",
+              "right": "Definition 23_9_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I10",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I11",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I12",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_12_1",
+              "right": "Definition 23_12_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_12_2",
+              "right": "Definition 23_12_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I13",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I15",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_15_1",
+              "right": "Definition 23_15_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_15_2",
+              "right": "Definition 23_15_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I16",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I17",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I18",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_18_1",
+              "right": "Definition 23_18_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_18_2",
+              "right": "Definition 23_18_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I19",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I21",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_21_1",
+              "right": "Definition 23_21_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_21_2",
+              "right": "Definition 23_21_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I22",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I23",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I24",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_24_1",
+              "right": "Definition 23_24_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_24_2",
+              "right": "Definition 23_24_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I25",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I27",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_27_1",
+              "right": "Definition 23_27_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_27_2",
+              "right": "Definition 23_27_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I28",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I29",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I30",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_30_1",
+              "right": "Definition 23_30_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_30_2",
+              "right": "Definition 23_30_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I31",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I33",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_33_1",
+              "right": "Definition 23_33_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_33_2",
+              "right": "Definition 23_33_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I34",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I35",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I36",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_36_1",
+              "right": "Definition 23_36_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_36_2",
+              "right": "Definition 23_36_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I37",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I39",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_39_1",
+              "right": "Definition 23_39_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_39_2",
+              "right": "Definition 23_39_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I40",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I41",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I42",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_42_1",
+              "right": "Definition 23_42_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_42_2",
+              "right": "Definition 23_42_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I43",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I45",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_45_1",
+              "right": "Definition 23_45_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_45_2",
+              "right": "Definition 23_45_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I46",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I47",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I48",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_48_1",
+              "right": "Definition 23_48_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_48_2",
+              "right": "Definition 23_48_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I49",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I51",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_51_1",
+              "right": "Definition 23_51_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_51_2",
+              "right": "Definition 23_51_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I52",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I53",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I54",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_54_1",
+              "right": "Definition 23_54_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_54_2",
+              "right": "Definition 23_54_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I55",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I57",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_57_1",
+              "right": "Definition 23_57_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_57_2",
+              "right": "Definition 23_57_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I58",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I59",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I60",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_60_1",
+              "right": "Definition 23_60_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_60_2",
+              "right": "Definition 23_60_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I61",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I63",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_63_1",
+              "right": "Definition 23_63_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_63_2",
+              "right": "Definition 23_63_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I64",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I65",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I66",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_66_1",
+              "right": "Definition 23_66_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_66_2",
+              "right": "Definition 23_66_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I67",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I69",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_69_1",
+              "right": "Definition 23_69_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_69_2",
+              "right": "Definition 23_69_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I70",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I71",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I72",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_72_1",
+              "right": "Definition 23_72_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_72_2",
+              "right": "Definition 23_72_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I73",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I75",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_75_1",
+              "right": "Definition 23_75_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_75_2",
+              "right": "Definition 23_75_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I76",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I77",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I78",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_78_1",
+              "right": "Definition 23_78_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_78_2",
+              "right": "Definition 23_78_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I79",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I81",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_81_1",
+              "right": "Definition 23_81_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_81_2",
+              "right": "Definition 23_81_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I82",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I83",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I84",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_84_1",
+              "right": "Definition 23_84_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_84_2",
+              "right": "Definition 23_84_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I85",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I87",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_87_1",
+              "right": "Definition 23_87_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_87_2",
+              "right": "Definition 23_87_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I88",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I89",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I90",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_90_1",
+              "right": "Definition 23_90_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_90_2",
+              "right": "Definition 23_90_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I91",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I93",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_93_1",
+              "right": "Definition 23_93_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_93_2",
+              "right": "Definition 23_93_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I94",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I95",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I96",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_96_1",
+              "right": "Definition 23_96_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_96_2",
+              "right": "Definition 23_96_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I97",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I99",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_99_1",
+              "right": "Definition 23_99_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_99_2",
+              "right": "Definition 23_99_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I100",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I101",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I102",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_102_1",
+              "right": "Definition 23_102_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_102_2",
+              "right": "Definition 23_102_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I103",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I105",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_105_1",
+              "right": "Definition 23_105_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_105_2",
+              "right": "Definition 23_105_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I106",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I107",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I108",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_108_1",
+              "right": "Definition 23_108_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_108_2",
+              "right": "Definition 23_108_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I109",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I110",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I111",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_111_1",
+              "right": "Definition 23_111_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_111_2",
+              "right": "Definition 23_111_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I112",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I113",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I114",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_114_1",
+              "right": "Definition 23_114_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_114_2",
+              "right": "Definition 23_114_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I115",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I117",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_117_1",
+              "right": "Definition 23_117_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_117_2",
+              "right": "Definition 23_117_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I118",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I119",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I120",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_120_1",
+              "right": "Definition 23_120_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_120_2",
+              "right": "Definition 23_120_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I121",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I123",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_123_1",
+              "right": "Definition 23_123_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_123_2",
+              "right": "Definition 23_123_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I124",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I125",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I126",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_126_1",
+              "right": "Definition 23_126_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_126_2",
+              "right": "Definition 23_126_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I127",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I129",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_129_1",
+              "right": "Definition 23_129_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_129_2",
+              "right": "Definition 23_129_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I130",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I131",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I132",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_132_1",
+              "right": "Definition 23_132_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_132_2",
+              "right": "Definition 23_132_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I133",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I135",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_135_1",
+              "right": "Definition 23_135_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_135_2",
+              "right": "Definition 23_135_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I136",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I137",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I138",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_138_1",
+              "right": "Definition 23_138_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_138_2",
+              "right": "Definition 23_138_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I139",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I141",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_141_1",
+              "right": "Definition 23_141_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_141_2",
+              "right": "Definition 23_141_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I142",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I143",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I144",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_144_1",
+              "right": "Definition 23_144_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_144_2",
+              "right": "Definition 23_144_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I145",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I147",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_147_1",
+              "right": "Definition 23_147_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_147_2",
+              "right": "Definition 23_147_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I148",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I149",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I150",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_150_1",
+              "right": "Definition 23_150_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_150_2",
+              "right": "Definition 23_150_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I151",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I153",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_153_1",
+              "right": "Definition 23_153_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_153_2",
+              "right": "Definition 23_153_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I154",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I155",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I156",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_156_1",
+              "right": "Definition 23_156_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_156_2",
+              "right": "Definition 23_156_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I157",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I159",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_159_1",
+              "right": "Definition 23_159_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_159_2",
+              "right": "Definition 23_159_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I160",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I161",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I162",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_162_1",
+              "right": "Definition 23_162_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_162_2",
+              "right": "Definition 23_162_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I163",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I165",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_165_1",
+              "right": "Definition 23_165_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_165_2",
+              "right": "Definition 23_165_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I166",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I167",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I168",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_168_1",
+              "right": "Definition 23_168_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_168_2",
+              "right": "Definition 23_168_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I169",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I170",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I171",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_171_1",
+              "right": "Definition 23_171_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_171_2",
+              "right": "Definition 23_171_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I172",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I173",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I174",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_174_1",
+              "right": "Definition 23_174_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_174_2",
+              "right": "Definition 23_174_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I175",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I177",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_177_1",
+              "right": "Definition 23_177_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_177_2",
+              "right": "Definition 23_177_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I178",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I179",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I180",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_180_1",
+              "right": "Definition 23_180_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_180_2",
+              "right": "Definition 23_180_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I181",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I183",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_183_1",
+              "right": "Definition 23_183_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_183_2",
+              "right": "Definition 23_183_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I184",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I185",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I186",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_186_1",
+              "right": "Definition 23_186_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_186_2",
+              "right": "Definition 23_186_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I187",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I189",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_189_1",
+              "right": "Definition 23_189_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_189_2",
+              "right": "Definition 23_189_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I190",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I191",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I192",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_192_1",
+              "right": "Definition 23_192_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_192_2",
+              "right": "Definition 23_192_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I193",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I195",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_195_1",
+              "right": "Definition 23_195_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_195_2",
+              "right": "Definition 23_195_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I196",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I197",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I198",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inflation",
+              "right": "A general increase in prices and fall in the purchasing value of money"
+            },
+            {
+              "id": "p1",
+              "left": "Term 23_198_1",
+              "right": "Definition 23_198_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 23_198_2",
+              "right": "Definition 23_198_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I199",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "By next year, I ______ (finish) my degree.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "They ______ (complete) the project by Monday.",
+          "correct_answer": "will have completed",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

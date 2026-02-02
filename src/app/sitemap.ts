@@ -22,38 +22,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    {
-      url: `${baseUrl}/test-nivel`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/cursos`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    
-    // Landing pages principales de cursos
-    {
-      url: `${baseUrl}/cursos/trabajo`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/cursos/viajes`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    {
-      url: `${baseUrl}/cursos/examenes`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
     
     // Blog - Contenido SEO
     {
@@ -111,27 +79,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   // Add course pages dynamically - Páginas de conversión importantes
-  const goals = ['trabajo', 'viajes', 'examenes'];
-  const levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
-  
-  goals.forEach(goal => {
-    levels.forEach(level => {
-      // Prioridad más alta para B2 en exámenes (más demandado)
-      let priority = 0.6;
-      if (goal === 'examenes' && level === 'b2') {
-        priority = 0.8;
-      } else if (goal === 'examenes' && level === 'c1') {
-        priority = 0.7;
-      }
-      
-      urls.push({
-        url: `${baseUrl}/cursos/${goal}/${level}`,
-        lastModified: now,
-        changeFrequency: "monthly" as const,
-        priority,
-      });
-    });
-  });
+  // Solo añadir rutas que existen realmente para evitar 404 en buscadores
+  const courseUrls: MetadataRoute.Sitemap = [
+    // Exámenes / Cursos Genéricos
+    {
+      url: `${baseUrl}/curso/ingles-a1`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/curso/ingles-a2`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/curso/ingles-b1`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/curso/ingles-b2`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    }
+  ];
+
+  urls.push(...courseUrls);
 
   return urls;
 }

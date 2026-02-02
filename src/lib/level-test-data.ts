@@ -340,7 +340,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Clases de conversación avanzada y debate',
         'Preparación para contextos profesionales especializados'
       ],
-      courseUrl: '/cursos/examenes/c2',
+      courseUrl: '/curso/ingles-b2',
       color: 'from-peach-500 to-pink-500',
       gradient: 'bg-gradient-to-br from-peach-500 to-pink-500',
     };
@@ -355,7 +355,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Inglés para negocios avanzado',
         'Redacción académica y profesional'
       ],
-      courseUrl: '/cursos/examenes/c1',
+      courseUrl: '/curso/ingles-b2',
       color: 'from-orange-500 to-coral-500',
       gradient: 'bg-gradient-to-br from-orange-500 to-coral-500',
     };
@@ -370,7 +370,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Inglés profesional para tu sector',
         'Conversación avanzada'
       ],
-      courseUrl: '/cursos/examenes/b2',
+      courseUrl: '/curso/ingles-b2',
       color: 'from-amber-500 to-amber-500',
       gradient: 'bg-gradient-to-br from-amber-500 to-amber-500',
     };
@@ -385,7 +385,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Inglés para viajes y turismo',
         'Conversación intermedia'
       ],
-      courseUrl: '/cursos/examenes/b1',
+      courseUrl: '/curso/ingles-b1',
       color: 'from-yellow-500 to-lime-500',
       gradient: 'bg-gradient-to-br from-yellow-500 to-lime-500',
     };
@@ -400,7 +400,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Conversación básica para viajes',
         'Gramática y vocabulario esencial'
       ],
-      courseUrl: '/cursos/examenes/a2',
+      courseUrl: '/curso/ingles-a2',
       color: 'from-orange-500 to-amber-500',
       gradient: 'bg-gradient-to-br from-orange-500 to-amber-500',
     };
@@ -415,7 +415,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Vocabulario y gramática básica',
         'Introducción a la conversación'
       ],
-      courseUrl: '/cursos/examenes/a1',
+      courseUrl: '/curso/ingles-a1',
       color: 'from-red-500 to-orange-500',
       gradient: 'bg-gradient-to-br from-red-500 to-orange-500',
     };

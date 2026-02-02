@@ -1,0 +1,4945 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U27",
+    "unit_title": "Geography and Landmarks",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Geography and Landmarks vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_27_PRACTICE",
+      "title": "B1 Practice: Geography and Landmarks",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U27_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            },
+            {
+              "id": "p1",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            },
+            {
+              "id": "p2",
+              "left": "Plateau",
+              "right": "An area of relatively level high ground"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We are flying (above) ________ the clouds.",
+          "correct_answer": "above",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Italy is a large peninsula in southern Europe.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "landmark"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "Paris"
+            },
+            {
+              "id": "w5",
+              "text": "famous"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "Tower"
+            },
+            {
+              "id": "w1",
+              "text": "Eiffel"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The sun disappeared below the horizon.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Having many mountains\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Archipelago"
+            },
+            {
+              "id": "o1",
+              "text": "Mountainous"
+            },
+            {
+              "id": "o3",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            },
+            {
+              "id": "p1",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p2",
+              "left": "Glacier",
+              "right": "A slowly moving mass or river of ice"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Look (at) ________ that beautiful sunset.",
+          "correct_answer": "at",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Amazon rainforest is home millions to of species.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "most"
+            },
+            {
+              "id": "w11",
+              "text": "the"
+            },
+            {
+              "id": "w12",
+              "text": "USA"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w10",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "one"
+            },
+            {
+              "id": "w8",
+              "text": "famous"
+            },
+            {
+              "id": "w2",
+              "text": "Canyon"
+            },
+            {
+              "id": "w1",
+              "text": "Grand"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w9",
+              "text": "landmarks"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The city is proud of its rich cultural heritage.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The line at which the earth's surface and the sky appear to meet\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Plateau"
+            },
+            {
+              "id": "o2",
+              "text": "Canyon"
+            },
+            {
+              "id": "o1",
+              "text": "Horizon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            },
+            {
+              "id": "p1",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Plateau",
+              "right": "An area of relatively level high ground"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He walked (through) ________ the tunnel.",
+          "correct_answer": "through",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Plateau Tibetan is often called the 'Roof of the World'.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Italy is a large peninsula in southern Europe.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A luxuriant, dense forest rich in biodiversity\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Rainforest"
+            },
+            {
+              "id": "o2",
+              "text": "Continent"
+            },
+            {
+              "id": "o3",
+              "text": "Peninsula"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p1",
+              "left": "Archipelago",
+              "right": "A group of islands"
+            },
+            {
+              "id": "p2",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Go (past) ________ the post office.",
+          "correct_answer": "past",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The statue was erected a as monument to the fallen soldiers.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "sun"
+            },
+            {
+              "id": "w5",
+              "text": "horizon"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "below"
+            },
+            {
+              "id": "w2",
+              "text": "disappeared"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The statue was erected as a monument to the fallen soldiers.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An object or feature of a landscape that is easily seen\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Heritage"
+            },
+            {
+              "id": "o1",
+              "text": "Landmark"
+            },
+            {
+              "id": "o3",
+              "text": "Peninsula"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Landmark",
+              "right": "An object or feature of a landscape that is easily seen"
+            },
+            {
+              "id": "p1",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They are driving (towards) ________ the mountains.",
+          "correct_answer": "towards",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Tibetan Plateau is often called the 'Roof of the World'.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "warming"
+            },
+            {
+              "id": "w6",
+              "text": "melt"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Global"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "glaciers"
+            },
+            {
+              "id": "w3",
+              "text": "causing"
+            },
+            {
+              "id": "w7",
+              "text": "rapidly"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The village is located in a beautiful green valley.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A deep gorge, typically one with a river flowing through it\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Plateau"
+            },
+            {
+              "id": "o1",
+              "text": "Canyon"
+            },
+            {
+              "id": "o3",
+              "text": "Horizon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p2",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The plane is (at) ________ the airport.",
+          "correct_answer": "at",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The weather is very hot and near humid the equator.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The northern part of the country is very mountainous.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A group of islands\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Glacier"
+            },
+            {
+              "id": "o1",
+              "text": "Archipelago"
+            },
+            {
+              "id": "o3",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Monument",
+              "right": "A statue, building, or other structure, erected to commemorate a notable person"
+            },
+            {
+              "id": "p1",
+              "left": "Desert",
+              "right": "A barren area of landscape where little precipitation occurs"
+            },
+            {
+              "id": "p2",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He walked (through) ________ the tunnel.",
+          "correct_answer": "through",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The village is located in beautiful a green valley.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "as"
+            },
+            {
+              "id": "w1",
+              "text": "statue"
+            },
+            {
+              "id": "w10",
+              "text": "soldiers"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "erected"
+            },
+            {
+              "id": "w6",
+              "text": "monument"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "fallen"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Italy is a large peninsula in southern Europe.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A low area of land between hills or mountains\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Desert"
+            },
+            {
+              "id": "o3",
+              "text": "Peninsula"
+            },
+            {
+              "id": "o1",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She lives (near) ________ the park.",
+          "correct_answer": "near",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Amazon rainforest is home to millions of species.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "species"
+            },
+            {
+              "id": "w1",
+              "text": "Amazon"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "millions"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "home"
+            },
+            {
+              "id": "w2",
+              "text": "rainforest"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Philippines is an archipelago of over 7,000 islands.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The line at which the earth's surface and the sky appear to meet\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Landmark"
+            },
+            {
+              "id": "o3",
+              "text": "Rainforest"
+            },
+            {
+              "id": "o1",
+              "text": "Horizon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            },
+            {
+              "id": "p2",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Look (at) ________ that beautiful sunset.",
+          "correct_answer": "at",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The city is proud its of rich cultural heritage.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "cultural"
+            },
+            {
+              "id": "w3",
+              "text": "proud"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "heritage"
+            },
+            {
+              "id": "w5",
+              "text": "its"
+            },
+            {
+              "id": "w1",
+              "text": "city"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "rich"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Global warming is causing glaciers to melt rapidly.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Having many mountains\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Glacier"
+            },
+            {
+              "id": "o1",
+              "text": "Mountainous"
+            },
+            {
+              "id": "o2",
+              "text": "Plateau"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Desert",
+              "right": "A barren area of landscape where little precipitation occurs"
+            },
+            {
+              "id": "p1",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p2",
+              "left": "Rainforest",
+              "right": "A luxuriant, dense forest rich in biodiversity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The keys are (inside) ________ the drawer.",
+          "correct_answer": "inside",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The village is located in a beautiful green valley.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "valley"
+            },
+            {
+              "id": "w1",
+              "text": "village"
+            },
+            {
+              "id": "w6",
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "located"
+            },
+            {
+              "id": "w7",
+              "text": "green"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Grand Canyon is one of the most famous landmarks in the USA.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A barren area of landscape where little precipitation occurs\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Desert"
+            },
+            {
+              "id": "o3",
+              "text": "Glacier"
+            },
+            {
+              "id": "o2",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The keys are (inside) ________ the drawer.",
+          "correct_answer": "inside",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Grand Canyon is one of the most famous landmarks in the USA.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The village is located in a beautiful green valley.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Valued objects and qualities such as cultural traditions\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Landmark"
+            },
+            {
+              "id": "o1",
+              "text": "Heritage"
+            },
+            {
+              "id": "o3",
+              "text": "Plateau"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            },
+            {
+              "id": "p1",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p2",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She sat (next to) ________ me in the cinema.",
+          "correct_answer": "next to",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The is city proud of its rich cultural heritage.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "fallen"
+            },
+            {
+              "id": "w4",
+              "text": "as"
+            },
+            {
+              "id": "w1",
+              "text": "statue"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "monument"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w10",
+              "text": "soldiers"
+            },
+            {
+              "id": "w3",
+              "text": "erected"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Global warming is causing glaciers to melt rapidly.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Any of the world's main continuous expanses of land\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Continent"
+            },
+            {
+              "id": "o2",
+              "text": "Desert"
+            },
+            {
+              "id": "o3",
+              "text": "Horizon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Monument",
+              "right": "A statue, building, or other structure, erected to commemorate a notable person"
+            },
+            {
+              "id": "p1",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            },
+            {
+              "id": "p2",
+              "left": "Landmark",
+              "right": "An object or feature of a landscape that is easily seen"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She lives (near) ________ the park.",
+          "correct_answer": "near",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Global warming is causing glaciers to melt rapidly.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "famous"
+            },
+            {
+              "id": "w8",
+              "text": "Paris"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "Eiffel"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "landmark"
+            },
+            {
+              "id": "w2",
+              "text": "Tower"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The sun disappeared below the horizon.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An object or feature of a landscape that is easily seen\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Equator"
+            },
+            {
+              "id": "o1",
+              "text": "Landmark"
+            },
+            {
+              "id": "o2",
+              "text": "Rainforest"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            },
+            {
+              "id": "p1",
+              "left": "Landmark",
+              "right": "An object or feature of a landscape that is easily seen"
+            },
+            {
+              "id": "p2",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The bridge goes (over) ________ the river.",
+          "correct_answer": "over",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The weather is very hot and humid near the equator.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "near"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "weather"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "equator"
+            },
+            {
+              "id": "w6",
+              "text": "humid"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "hot"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Asia is the largest continent in the world.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An area of relatively level high ground\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Valley"
+            },
+            {
+              "id": "o3",
+              "text": "Monument"
+            },
+            {
+              "id": "o1",
+              "text": "Plateau"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            },
+            {
+              "id": "p1",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            },
+            {
+              "id": "p2",
+              "left": "Glacier",
+              "right": "A slowly moving mass or river of ice"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They are driving (towards) ________ the mountains.",
+          "correct_answer": "towards",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The part northern of the country is very mountainous.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "monument"
+            },
+            {
+              "id": "w10",
+              "text": "soldiers"
+            },
+            {
+              "id": "w4",
+              "text": "as"
+            },
+            {
+              "id": "w9",
+              "text": "fallen"
+            },
+            {
+              "id": "w3",
+              "text": "erected"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "statue"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Grand Canyon is one of the most famous landmarks in the USA.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A slowly moving mass or river of ice\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Glacier"
+            },
+            {
+              "id": "o2",
+              "text": "Horizon"
+            },
+            {
+              "id": "o3",
+              "text": "Monument"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            },
+            {
+              "id": "p1",
+              "left": "Monument",
+              "right": "A statue, building, or other structure, erected to commemorate a notable person"
+            },
+            {
+              "id": "p2",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The plane is (at) ________ the airport.",
+          "correct_answer": "at",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Sahara is the largest hot desert in the world.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "Plateau"
+            },
+            {
+              "id": "w5",
+              "text": "called"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "often"
+            },
+            {
+              "id": "w1",
+              "text": "Tibetan"
+            },
+            {
+              "id": "w10",
+              "text": "World'"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "'Roof"
+            },
+            {
+              "id": "w9",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The northern part of the country is very mountainous.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An object or feature of a landscape that is easily seen\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Landmark"
+            },
+            {
+              "id": "o3",
+              "text": "Desert"
+            },
+            {
+              "id": "o2",
+              "text": "Peninsula"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            },
+            {
+              "id": "p1",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            },
+            {
+              "id": "p2",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Go (past) ________ the post office.",
+          "correct_answer": "past",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Eiffel Tower is a famous landmark in Paris.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "as"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "fallen"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w6",
+              "text": "monument"
+            },
+            {
+              "id": "w1",
+              "text": "statue"
+            },
+            {
+              "id": "w3",
+              "text": "erected"
+            },
+            {
+              "id": "w10",
+              "text": "soldiers"
+            },
+            {
+              "id": "w7",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Global warming is causing glaciers to melt rapidly.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I102",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A slowly moving mass or river of ice\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Continent"
+            },
+            {
+              "id": "o3",
+              "text": "Plateau"
+            },
+            {
+              "id": "o1",
+              "text": "Glacier"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Plateau",
+              "right": "An area of relatively level high ground"
+            },
+            {
+              "id": "p1",
+              "left": "Glacier",
+              "right": "A slowly moving mass or river of ice"
+            },
+            {
+              "id": "p2",
+              "left": "Landmark",
+              "right": "An object or feature of a landscape that is easily seen"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Go (past) ________ the post office.",
+          "correct_answer": "past",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The statue was erected as a monument to the soldiers. fallen\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "glaciers"
+            },
+            {
+              "id": "w1",
+              "text": "warming"
+            },
+            {
+              "id": "w6",
+              "text": "melt"
+            },
+            {
+              "id": "w3",
+              "text": "causing"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Global"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "rapidly"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Amazon rainforest is home to millions of species.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I108",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A piece of land almost surrounded by water\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Heritage"
+            },
+            {
+              "id": "o1",
+              "text": "Peninsula"
+            },
+            {
+              "id": "o2",
+              "text": "Plateau"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            },
+            {
+              "id": "p1",
+              "left": "Archipelago",
+              "right": "A group of islands"
+            },
+            {
+              "id": "p2",
+              "left": "Plateau",
+              "right": "An area of relatively level high ground"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I110",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The keys are (inside) ________ the drawer.",
+          "correct_answer": "inside",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The village is located in a beautiful green valley.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Global warming is causing glaciers to melt rapidly.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I114",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The line at which the earth's surface and the sky appear to meet\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Horizon"
+            },
+            {
+              "id": "o2",
+              "text": "Mountainous"
+            },
+            {
+              "id": "o3",
+              "text": "Canyon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rainforest",
+              "right": "A luxuriant, dense forest rich in biodiversity"
+            },
+            {
+              "id": "p1",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We are flying (above) ________ the clouds.",
+          "correct_answer": "above",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The village is located in a beautiful green valley.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "7000"
+            },
+            {
+              "id": "w1",
+              "text": "Philippines"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "an"
+            },
+            {
+              "id": "w6",
+              "text": "over"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "islands"
+            },
+            {
+              "id": "w4",
+              "text": "archipelago"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I119",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The city is proud of its rich cultural heritage.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An area of relatively level high ground\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Desert"
+            },
+            {
+              "id": "o1",
+              "text": "Plateau"
+            },
+            {
+              "id": "o2",
+              "text": "Glacier"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Archipelago",
+              "right": "A group of islands"
+            },
+            {
+              "id": "p2",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He is standing (behind) ________ the tree.",
+          "correct_answer": "behind",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Tibetan Plateau is often called the 'Roof of the World'.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            },
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I125",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Grand Canyon is one of the most famous landmarks in the USA.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I126",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Having many mountains\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Horizon"
+            },
+            {
+              "id": "o1",
+              "text": "Mountainous"
+            },
+            {
+              "id": "o2",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            },
+            {
+              "id": "p1",
+              "left": "Glacier",
+              "right": "A slowly moving mass or river of ice"
+            },
+            {
+              "id": "p2",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We are flying (above) ________ the clouds.",
+          "correct_answer": "above",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Grand Canyon is one of the famous most landmarks in the USA.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "glaciers"
+            },
+            {
+              "id": "w1",
+              "text": "warming"
+            },
+            {
+              "id": "w7",
+              "text": "rapidly"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "melt"
+            },
+            {
+              "id": "w3",
+              "text": "causing"
+            },
+            {
+              "id": "w0",
+              "text": "Global"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Philippines is an archipelago of over 7,000 islands.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A group of islands\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Archipelago"
+            },
+            {
+              "id": "o3",
+              "text": "Horizon"
+            },
+            {
+              "id": "o2",
+              "text": "Peninsula"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Glacier",
+              "right": "A slowly moving mass or river of ice"
+            },
+            {
+              "id": "p1",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            },
+            {
+              "id": "p2",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We are flying (above) ________ the clouds.",
+          "correct_answer": "above",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The statue was erected a as monument to the fallen soldiers.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Italy is a large peninsula in southern Europe.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A deep gorge, typically one with a river flowing through it\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Plateau"
+            },
+            {
+              "id": "o2",
+              "text": "Rainforest"
+            },
+            {
+              "id": "o1",
+              "text": "Canyon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            },
+            {
+              "id": "p1",
+              "left": "Desert",
+              "right": "A barren area of landscape where little precipitation occurs"
+            },
+            {
+              "id": "p2",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He is standing (behind) ________ the tree.",
+          "correct_answer": "behind",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Eiffel Tower a is famous landmark in Paris.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w12",
+              "text": "USA"
+            },
+            {
+              "id": "w8",
+              "text": "famous"
+            },
+            {
+              "id": "w11",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "one"
+            },
+            {
+              "id": "w9",
+              "text": "landmarks"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "Grand"
+            },
+            {
+              "id": "w7",
+              "text": "most"
+            },
+            {
+              "id": "w2",
+              "text": "Canyon"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w10",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10",
+            "w11",
+            "w12"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Grand Canyon is one of the most famous landmarks in the USA.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I144",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An object or feature of a landscape that is easily seen\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Monument"
+            },
+            {
+              "id": "o1",
+              "text": "Landmark"
+            },
+            {
+              "id": "o3",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            },
+            {
+              "id": "p1",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            },
+            {
+              "id": "p2",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The bridge goes (over) ________ the river.",
+          "correct_answer": "over",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Italy is a large peninsula in southern Europe.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "continent"
+            },
+            {
+              "id": "w3",
+              "text": "largest"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Asia"
+            },
+            {
+              "id": "w7",
+              "text": "world"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The village is located in a beautiful green valley.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I150",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A slowly moving mass or river of ice\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Glacier"
+            },
+            {
+              "id": "o3",
+              "text": "Heritage"
+            },
+            {
+              "id": "o2",
+              "text": "Peninsula"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Archipelago",
+              "right": "A group of islands"
+            },
+            {
+              "id": "p1",
+              "left": "Desert",
+              "right": "A barren area of landscape where little precipitation occurs"
+            },
+            {
+              "id": "p2",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Paris is (in) ________ France.",
+          "correct_answer": "in",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Grand Canyon is of one the most famous landmarks in the USA.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "millions"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "home"
+            },
+            {
+              "id": "w1",
+              "text": "Amazon"
+            },
+            {
+              "id": "w8",
+              "text": "species"
+            },
+            {
+              "id": "w2",
+              "text": "rainforest"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I155",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The northern part of the country is very mountainous.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I156",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A piece of land almost surrounded by water\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Desert"
+            },
+            {
+              "id": "o3",
+              "text": "Horizon"
+            },
+            {
+              "id": "o1",
+              "text": "Peninsula"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Horizon",
+              "right": "The line at which the earth's surface and the sky appear to meet"
+            },
+            {
+              "id": "p1",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            },
+            {
+              "id": "p2",
+              "left": "Peninsula",
+              "right": "A piece of land almost surrounded by water"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He is standing (behind) ________ the tree.",
+          "correct_answer": "behind",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Sahara is the largest hot desert in the world.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "species"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "millions"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "rainforest"
+            },
+            {
+              "id": "w4",
+              "text": "home"
+            },
+            {
+              "id": "w1",
+              "text": "Amazon"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I161",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Tibetan Plateau is often called the 'Roof of the World'.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Having many mountains\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Monument"
+            },
+            {
+              "id": "o3",
+              "text": "Horizon"
+            },
+            {
+              "id": "o1",
+              "text": "Mountainous"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Landmark",
+              "right": "An object or feature of a landscape that is easily seen"
+            },
+            {
+              "id": "p1",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p2",
+              "left": "Rainforest",
+              "right": "A luxuriant, dense forest rich in biodiversity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He walked (through) ________ the tunnel.",
+          "correct_answer": "through",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The city is proud of its rich cultural heritage.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "beautiful"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "village"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w7",
+              "text": "green"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "located"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "valley"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Tibetan Plateau is often called the 'Roof of the World'.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The line at which the earth's surface and the sky appear to meet\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Heritage"
+            },
+            {
+              "id": "o2",
+              "text": "Desert"
+            },
+            {
+              "id": "o1",
+              "text": "Horizon"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            },
+            {
+              "id": "p1",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Archipelago",
+              "right": "A group of islands"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I170",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She lives (near) ________ the park.",
+          "correct_answer": "near",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Global warm is caus glaciers to melt rapidly.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "heritage"
+            },
+            {
+              "id": "w1",
+              "text": "city"
+            },
+            {
+              "id": "w7",
+              "text": "cultural"
+            },
+            {
+              "id": "w6",
+              "text": "rich"
+            },
+            {
+              "id": "w3",
+              "text": "proud"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "its"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Sahara is the largest hot desert in the world.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I174",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A statue, building, or other structure, erected to commemorate a notable person\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Plateau"
+            },
+            {
+              "id": "o1",
+              "text": "Monument"
+            },
+            {
+              "id": "o3",
+              "text": "Landmark"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            },
+            {
+              "id": "p2",
+              "left": "Canyon",
+              "right": "A deep gorge, typically one with a river flowing through it"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She lives (near) ________ the park.",
+          "correct_answer": "near",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Philippines is an archipelago of over 7,000 islands.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "disappeared"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "sun"
+            },
+            {
+              "id": "w5",
+              "text": "horizon"
+            },
+            {
+              "id": "w3",
+              "text": "below"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The weather is very hot and humid near the equator.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A statue, building, or other structure, erected to commemorate a notable person\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Equator"
+            },
+            {
+              "id": "o1",
+              "text": "Monument"
+            },
+            {
+              "id": "o2",
+              "text": "Continent"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mountainous",
+              "right": "Having many mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Archipelago",
+              "right": "A group of islands"
+            },
+            {
+              "id": "p2",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The shop is (opposite) ________ the bank.",
+          "correct_answer": "opposite",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Global warming is causing glaciers to melt rapidly.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "below"
+            },
+            {
+              "id": "w2",
+              "text": "disappeared"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "horizon"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "sun"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I185",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The northern part of the country is very mountainous.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I186",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A piece of land almost surrounded by water\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Peninsula"
+            },
+            {
+              "id": "o3",
+              "text": "Glacier"
+            },
+            {
+              "id": "o2",
+              "text": "Archipelago"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Landmark",
+              "right": "An object or feature of a landscape that is easily seen"
+            },
+            {
+              "id": "p1",
+              "left": "Plateau",
+              "right": "An area of relatively level high ground"
+            },
+            {
+              "id": "p2",
+              "left": "Desert",
+              "right": "A barren area of landscape where little precipitation occurs"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Paris is (in) ________ France.",
+          "correct_answer": "in",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Grand Canyon is one of the most famous landmarks in USA. the\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "largest"
+            },
+            {
+              "id": "w7",
+              "text": "world"
+            },
+            {
+              "id": "w0",
+              "text": "Asia"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "continent"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I191",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Italy is a large peninsula in southern Europe.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I192",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A slowly moving mass or river of ice\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Monument"
+            },
+            {
+              "id": "o2",
+              "text": "Continent"
+            },
+            {
+              "id": "o1",
+              "text": "Glacier"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Desert",
+              "right": "A barren area of landscape where little precipitation occurs"
+            },
+            {
+              "id": "p1",
+              "left": "Heritage",
+              "right": "Valued objects and qualities such as cultural traditions"
+            },
+            {
+              "id": "p2",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She sat (next to) ________ me in the cinema.",
+          "correct_answer": "next to",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The northern part of the country is very mountainous.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w8",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "world"
+            },
+            {
+              "id": "w6",
+              "text": "desert"
+            },
+            {
+              "id": "w1",
+              "text": "Sahara"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "largest"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "hot"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U27_I197",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Asia is the largest continent in the world.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I198",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An object or feature of a landscape that is easily seen\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Landmark"
+            },
+            {
+              "id": "o2",
+              "text": "Archipelago"
+            },
+            {
+              "id": "o3",
+              "text": "Valley"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Valley",
+              "right": "A low area of land between hills or mountains"
+            },
+            {
+              "id": "p1",
+              "left": "Continent",
+              "right": "Any of the world's main continuous expanses of land"
+            },
+            {
+              "id": "p2",
+              "left": "Equator",
+              "right": "An imaginary line drawn around the earth equally distant from both poles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He walked (through) ________ the tunnel.",
+          "correct_answer": "through",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

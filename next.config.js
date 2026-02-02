@@ -42,11 +42,6 @@ const nextConfig = {
       
       // RENOMBRAR PÁGINAS PRINCIPALES
       {
-        source: '/diagnostico',
-        destination: '/test-nivel',
-        permanent: true,
-      },
-      {
         source: '/contact',
         destination: '/contacto',
         permanent: true,
@@ -60,41 +55,60 @@ const nextConfig = {
         permanent: true,
       },
       
-      // ELIMINAR PÁGINAS OBSOLETAS
+      // ELIMINACIÓN DE PÁGINAS Y RUTAS (SEO 301 a Home)
+      {
+        source: '/cursos/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/cursos',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/diagnostico',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/cursos-especializados',
+        destination: '/',
+        permanent: true,
+      },
       {
         source: '/certificaciones',
-        destination: '/cursos',
+        destination: '/',
         permanent: true,
       },
-      
-      // CURSOS - Redirigir goal/nivel → cursos/goal/nivel
-      // Trabajo
       {
         source: '/trabajo/:nivel',
-        destination: '/cursos/trabajo/:nivel',
+        destination: '/',
         permanent: true,
       },
-      // Viajes
       {
         source: '/viajes/:nivel',
-        destination: '/cursos/viajes/:nivel',
+        destination: '/',
         permanent: true,
       },
-      // Exámenes
       {
         source: '/examenes/:nivel',
-        destination: '/cursos/examenes/:nivel',
+        destination: '/',
         permanent: true,
       },
     ];
   },
   
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['images.pexels.com', 'placehold.co'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'images.unsplash.com',
+        hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'placehold.co',
       },
     ],
   },

@@ -71,7 +71,7 @@ export default function ForgotPasswordPage() {
 
           <div className="space-y-3">
             <Link
-              href="/login"
+              href="/cuenta/login"
               className="w-full block text-center bg-coral-600 text-white py-3 px-4 rounded-lg hover:bg-coral-700 transition-colors font-medium"
             >
               Volver al login
@@ -165,7 +165,7 @@ export default function ForgotPasswordPage() {
         {/* Back to Login */}
         <div className="text-center">
           <Link
-            href="/login"
+            href="/cuenta/login"
             className="text-sm font-medium text-coral-600 hover:text-coral-500"
           >
             ← Volver al login

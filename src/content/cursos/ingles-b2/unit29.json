@@ -1,0 +1,3084 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B2",
+    "unit_id": "U29",
+    "unit_title": "Philosophy",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B2 Philosophy vocabulary",
+    "Apply B2 Phrasal Verbs structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B2_UNIT_29_PRACTICE",
+      "title": "B2 Practice: Philosophy",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U29_I1",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I3",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_3_1",
+              "right": "Definition 29_3_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_3_2",
+              "right": "Definition 29_3_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I4",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I5",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I6",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_6_1",
+              "right": "Definition 29_6_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_6_2",
+              "right": "Definition 29_6_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I7",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I9",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_9_1",
+              "right": "Definition 29_9_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_9_2",
+              "right": "Definition 29_9_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I10",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I11",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I12",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_12_1",
+              "right": "Definition 29_12_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_12_2",
+              "right": "Definition 29_12_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I13",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I15",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_15_1",
+              "right": "Definition 29_15_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_15_2",
+              "right": "Definition 29_15_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I16",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I17",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I18",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_18_1",
+              "right": "Definition 29_18_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_18_2",
+              "right": "Definition 29_18_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I19",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I21",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_21_1",
+              "right": "Definition 29_21_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_21_2",
+              "right": "Definition 29_21_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I22",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I23",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I24",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_24_1",
+              "right": "Definition 29_24_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_24_2",
+              "right": "Definition 29_24_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I25",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I27",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_27_1",
+              "right": "Definition 29_27_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_27_2",
+              "right": "Definition 29_27_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I28",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I29",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I30",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_30_1",
+              "right": "Definition 29_30_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_30_2",
+              "right": "Definition 29_30_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I31",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I33",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_33_1",
+              "right": "Definition 29_33_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_33_2",
+              "right": "Definition 29_33_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I34",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I35",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I36",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_36_1",
+              "right": "Definition 29_36_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_36_2",
+              "right": "Definition 29_36_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I37",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I39",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_39_1",
+              "right": "Definition 29_39_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_39_2",
+              "right": "Definition 29_39_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I40",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I41",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I42",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_42_1",
+              "right": "Definition 29_42_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_42_2",
+              "right": "Definition 29_42_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I43",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I45",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_45_1",
+              "right": "Definition 29_45_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_45_2",
+              "right": "Definition 29_45_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I46",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I47",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I48",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_48_1",
+              "right": "Definition 29_48_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_48_2",
+              "right": "Definition 29_48_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I49",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I51",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_51_1",
+              "right": "Definition 29_51_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_51_2",
+              "right": "Definition 29_51_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I52",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I53",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I54",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_54_1",
+              "right": "Definition 29_54_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_54_2",
+              "right": "Definition 29_54_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I55",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I57",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_57_1",
+              "right": "Definition 29_57_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_57_2",
+              "right": "Definition 29_57_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I58",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I59",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I60",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_60_1",
+              "right": "Definition 29_60_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_60_2",
+              "right": "Definition 29_60_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I61",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I63",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_63_1",
+              "right": "Definition 29_63_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_63_2",
+              "right": "Definition 29_63_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I64",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I65",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I66",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_66_1",
+              "right": "Definition 29_66_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_66_2",
+              "right": "Definition 29_66_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I67",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I69",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_69_1",
+              "right": "Definition 29_69_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_69_2",
+              "right": "Definition 29_69_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I70",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I71",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I72",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_72_1",
+              "right": "Definition 29_72_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_72_2",
+              "right": "Definition 29_72_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I73",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I75",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_75_1",
+              "right": "Definition 29_75_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_75_2",
+              "right": "Definition 29_75_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I76",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I77",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I78",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_78_1",
+              "right": "Definition 29_78_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_78_2",
+              "right": "Definition 29_78_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I79",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I81",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_81_1",
+              "right": "Definition 29_81_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_81_2",
+              "right": "Definition 29_81_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I82",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I83",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I84",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_84_1",
+              "right": "Definition 29_84_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_84_2",
+              "right": "Definition 29_84_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I85",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I87",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_87_1",
+              "right": "Definition 29_87_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_87_2",
+              "right": "Definition 29_87_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I88",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I89",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I90",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_90_1",
+              "right": "Definition 29_90_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_90_2",
+              "right": "Definition 29_90_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I91",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I93",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_93_1",
+              "right": "Definition 29_93_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_93_2",
+              "right": "Definition 29_93_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I94",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I95",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I96",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_96_1",
+              "right": "Definition 29_96_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_96_2",
+              "right": "Definition 29_96_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I97",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I99",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_99_1",
+              "right": "Definition 29_99_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_99_2",
+              "right": "Definition 29_99_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I100",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I101",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I102",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_102_1",
+              "right": "Definition 29_102_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_102_2",
+              "right": "Definition 29_102_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I103",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I105",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_105_1",
+              "right": "Definition 29_105_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_105_2",
+              "right": "Definition 29_105_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I106",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I107",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I108",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_108_1",
+              "right": "Definition 29_108_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_108_2",
+              "right": "Definition 29_108_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I109",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I110",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I111",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_111_1",
+              "right": "Definition 29_111_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_111_2",
+              "right": "Definition 29_111_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I112",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I113",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I114",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_114_1",
+              "right": "Definition 29_114_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_114_2",
+              "right": "Definition 29_114_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I115",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I117",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_117_1",
+              "right": "Definition 29_117_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_117_2",
+              "right": "Definition 29_117_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I118",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I119",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I120",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_120_1",
+              "right": "Definition 29_120_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_120_2",
+              "right": "Definition 29_120_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I121",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I123",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_123_1",
+              "right": "Definition 29_123_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_123_2",
+              "right": "Definition 29_123_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I124",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I125",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I126",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_126_1",
+              "right": "Definition 29_126_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_126_2",
+              "right": "Definition 29_126_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I127",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I129",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_129_1",
+              "right": "Definition 29_129_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_129_2",
+              "right": "Definition 29_129_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I130",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I131",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I132",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_132_1",
+              "right": "Definition 29_132_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_132_2",
+              "right": "Definition 29_132_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I133",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I135",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_135_1",
+              "right": "Definition 29_135_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_135_2",
+              "right": "Definition 29_135_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I136",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I137",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I138",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_138_1",
+              "right": "Definition 29_138_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_138_2",
+              "right": "Definition 29_138_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I139",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I141",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_141_1",
+              "right": "Definition 29_141_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_141_2",
+              "right": "Definition 29_141_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I142",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I143",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I144",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_144_1",
+              "right": "Definition 29_144_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_144_2",
+              "right": "Definition 29_144_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I145",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I147",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_147_1",
+              "right": "Definition 29_147_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_147_2",
+              "right": "Definition 29_147_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I148",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I149",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I150",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_150_1",
+              "right": "Definition 29_150_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_150_2",
+              "right": "Definition 29_150_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I151",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I153",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_153_1",
+              "right": "Definition 29_153_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_153_2",
+              "right": "Definition 29_153_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I154",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I155",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I156",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_156_1",
+              "right": "Definition 29_156_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_156_2",
+              "right": "Definition 29_156_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I157",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I159",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_159_1",
+              "right": "Definition 29_159_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_159_2",
+              "right": "Definition 29_159_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I160",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I161",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I162",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_162_1",
+              "right": "Definition 29_162_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_162_2",
+              "right": "Definition 29_162_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I163",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I165",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_165_1",
+              "right": "Definition 29_165_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_165_2",
+              "right": "Definition 29_165_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I166",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I167",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I168",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_168_1",
+              "right": "Definition 29_168_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_168_2",
+              "right": "Definition 29_168_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I169",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I170",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I171",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_171_1",
+              "right": "Definition 29_171_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_171_2",
+              "right": "Definition 29_171_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I172",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I173",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I174",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_174_1",
+              "right": "Definition 29_174_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_174_2",
+              "right": "Definition 29_174_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I175",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I177",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_177_1",
+              "right": "Definition 29_177_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_177_2",
+              "right": "Definition 29_177_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I178",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I179",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I180",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_180_1",
+              "right": "Definition 29_180_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_180_2",
+              "right": "Definition 29_180_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I181",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I183",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_183_1",
+              "right": "Definition 29_183_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_183_2",
+              "right": "Definition 29_183_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I184",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I185",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I186",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_186_1",
+              "right": "Definition 29_186_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_186_2",
+              "right": "Definition 29_186_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I187",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I189",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_189_1",
+              "right": "Definition 29_189_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_189_2",
+              "right": "Definition 29_189_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I190",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I191",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I192",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_192_1",
+              "right": "Definition 29_192_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_192_2",
+              "right": "Definition 29_192_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I193",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I195",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_195_1",
+              "right": "Definition 29_195_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_195_2",
+              "right": "Definition 29_195_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I196",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I197",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I198",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Paradox",
+              "right": "A seemingly absurd or self-contradictory statement"
+            },
+            {
+              "id": "p1",
+              "left": "Term 29_198_1",
+              "right": "Definition 29_198_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 29_198_2",
+              "right": "Definition 29_198_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I199",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "I need to ______ (look up) the word in the dictionary.",
+          "correct_answer": "look up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "He ______ (gave up) smoking last year.",
+          "correct_answer": "gave up",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

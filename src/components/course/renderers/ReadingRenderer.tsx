@@ -39,12 +39,6 @@ export default function ReadingRenderer({
               <BookOpen className="w-3.5 h-3.5" />
               <span>{exercise.title}</span>
             </div>
-            {exercise.readingTime && (
-              <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 rounded-full text-xs font-bold">
-                <Clock className="w-3.5 h-3.5" />
-                <span>{exercise.readingTime} min read</span>
-              </div>
-            )}
             {exercise.wordCount && (
               <div className="flex items-center gap-2 px-3 py-1.5 bg-slate-50 dark:bg-slate-700/50 text-slate-600 dark:text-slate-400 rounded-full text-xs font-bold">
                 <BarChart className="w-3.5 h-3.5" />

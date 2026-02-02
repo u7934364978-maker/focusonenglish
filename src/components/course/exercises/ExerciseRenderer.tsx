@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useImperativeHandle, forwardRef } from "react";
 import type { 
   ExerciseItem, 
   ReadingExercise, 
@@ -8,24 +8,99 @@ import type {
   MatchingExercise,
   ReadingQuestion,
   WordSearchExercise as WordSearchType,
-  CrosswordExercise as CrosswordType
+  CrosswordExercise as CrosswordType,
+  FlashcardExercise as FlashcardType,
+  DragDropExercise as DragDropType
 } from "./types";
 import { Headphones, BookOpen, Volume2, Info, Check, X } from "lucide-react";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
+import FlashcardExercise from "../../exercises/FlashcardExercise";
+import DragDropExercise from "../../exercises/DragDropExercise";
+
+export interface ExerciseRendererRef {
+  check: () => boolean;
+}
 
 interface Props {
   ex: ExerciseItem;
   onResult: (isCorrect: boolean) => void;
+  layout?: "default" | "focused";
+  onSelectionChange?: (hasSelection: boolean) => void;
 }
 
-export default function ExerciseRenderer({ ex, onResult }: Props) {
+const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult, layout = "default", onSelectionChange }, ref) => {
   const [submitted, setSubmitted] = useState(false);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [fillAnswers, setFillAnswers] = useState<string[]>([]);
   const [multiAnswers, setMultiAnswers] = useState<Record<string, number>>({});
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
+
+  useImperativeHandle(ref, () => ({
+    check: () => {
+      if (ex.type === "multipleChoice" || ex.type === "grammar") {
+        const correct = selectedOption === (ex as any).answerIndex;
+        setIsCorrect(correct);
+        setSubmitted(true);
+        onResult(correct);
+        return correct;
+      }
+      if (ex.type === "reading" || ex.type === "listening") {
+        const questions = (ex as any).questions as ReadingQuestion[];
+        const allCorrect = questions.every((q, idx) => multiAnswers[q.id || idx] === q.answerIndex);
+        setIsCorrect(allCorrect);
+        setSubmitted(true);
+        onResult(allCorrect);
+        return allCorrect;
+      }
+      if (ex.type === "fillBlanks") {
+        const correctAnswers = (ex as any).answers.map((a: string) => a.toLowerCase().trim());
+        const userAnswers = fillAnswers.map((a: string) => (a || "").toLowerCase().trim());
+        const allCorrect = correctAnswers.every((a: string, i: number) => a === userAnswers[i]);
+        setIsCorrect(allCorrect);
+        setSubmitted(true);
+        onResult(allCorrect);
+        return allCorrect;
+      }
+      if (ex.type === "matching") {
+        const mex = ex as MatchingExercise;
+        const allCorrect = mex.pairs.every((p, idx) => {
+          const opts = [p.correctMatch, ...p.distractors].sort();
+          return opts[multiAnswers[p.id || idx]] === p.correctMatch;
+        });
+        setIsCorrect(allCorrect);
+        setSubmitted(true);
+        onResult(allCorrect);
+        return allCorrect;
+      }
+      return false;
+    }
+  }));
+
+  // Update selection status
+  useEffect(() => {
+    if (onSelectionChange) {
+      if (ex.type === "multipleChoice" || ex.type === "grammar") {
+        onSelectionChange(selectedOption !== null);
+      } else if (ex.type === "reading" || ex.type === "listening") {
+        const questions = (ex as any).questions as ReadingQuestion[];
+        const answeredCount = Object.keys(multiAnswers).length;
+        onSelectionChange(answeredCount === questions.length);
+      } else if (ex.type === "fillBlanks") {
+        const correctAnswers = (ex as any).answers;
+        const filledCount = fillAnswers.filter(a => a && a.trim().length > 0).length;
+        onSelectionChange(filledCount === correctAnswers.length);
+      } else if (ex.type === "matching") {
+        const mex = ex as MatchingExercise;
+        const answeredCount = Object.keys(multiAnswers).length;
+        onSelectionChange(answeredCount === mex.pairs.length);
+      } else {
+        // For other types like word-search, drag-drop, they handle their own internal completion
+        onSelectionChange(true);
+      }
+    }
+  }, [selectedOption, multiAnswers, fillAnswers, ex, onSelectionChange]);
 
   // Reset state when exercise changes
   useEffect(() => {
@@ -135,7 +210,7 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
             );
           })}
         </div>
-        {submitted && ex.explanation && (
+        {layout === "default" && submitted && ex.explanation && (
           <div className="rounded-xl bg-blue-50 border border-blue-100 p-4 text-sm text-blue-800">
             <div className="flex items-center gap-2 mb-1">
               <Info className="w-4 h-4" />
@@ -203,7 +278,7 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
               )}
             </div>
           ))}
-          {!submitted && (
+          {layout === "default" && !submitted && (
             <button
               onClick={handleMultiQuestionSubmit}
               className="w-full rounded-xl bg-slate-900 py-4 text-sm font-black text-white hover:brightness-95 transition"
@@ -276,7 +351,7 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
               </div>
             </div>
           ))}
-          {!submitted && (
+          {layout === "default" && !submitted && (
             <button
               onClick={handleMultiQuestionSubmit}
               className="w-full rounded-xl bg-orange-600 py-4 text-sm font-black text-white hover:brightness-95 transition"
@@ -327,7 +402,7 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
             </div>
           ))}
         </div>
-        {!submitted && (
+        {layout === "default" && !submitted && (
           <button
             onClick={() => {
               const allCorrect = mex.pairs.every((p, idx) => {
@@ -382,6 +457,40 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
     );
   }
 
+  if (ex.type === "flashcard") {
+    const fex = ex as FlashcardType;
+    return (
+      <div className="space-y-4">
+        <FlashcardExercise 
+          content={fex.content} 
+          onComplete={(quality) => {
+            // Quality >= 3 is considered "correct" for progress purposes
+            const correct = quality >= 3;
+            setIsCorrect(correct);
+            setSubmitted(true);
+            onResult(correct);
+          }} 
+        />
+      </div>
+    );
+  }
+
+  if (ex.type === "drag-drop") {
+    const ddex = ex as DragDropType;
+    return (
+      <div className="space-y-4">
+        <DragDropExercise 
+          content={ddex.content} 
+          onComplete={(correct) => {
+            setIsCorrect(correct);
+            setSubmitted(true);
+            onResult(correct);
+          }} 
+        />
+      </div>
+    );
+  }
+
   // --- FALLBACK FOR FILL BLANKS ---
   if (ex.type === "fillBlanks") {
     const parts = ex.text.split("___");
@@ -414,7 +523,7 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
             </span>
           ))}
         </div>
-        {!submitted && (
+        {layout === "default" && !submitted && (
           <button
             onClick={handleFillBlanks}
             className="rounded-xl bg-slate-900 px-6 py-2 text-sm font-black text-white hover:brightness-95"
@@ -422,7 +531,7 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
             Check Answers
           </button>
         )}
-        {submitted && ex.explanation && (
+        {layout === "default" && submitted && ex.explanation && (
           <div className="rounded-xl bg-slate-100 p-4 text-sm text-slate-700">
             <span className="font-black">Explanation:</span> {ex.explanation}
           </div>
@@ -436,4 +545,8 @@ export default function ExerciseRenderer({ ex, onResult }: Props) {
       Renderer for "{ex.type}" not fully implemented yet.
     </div>
   );
-}
+});
+
+ExerciseRenderer.displayName = "ExerciseRenderer";
+
+export default ExerciseRenderer;

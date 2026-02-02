@@ -10,6 +10,8 @@ export type ExerciseBase = {
     | "matching"
     | "word-search"
     | "crossword"
+    | "flashcard"
+    | "drag-drop"
     | "grammar";
   track?: "core" | "extension";
 };
@@ -82,6 +84,34 @@ export type CrosswordExercise = ExerciseBase & {
   items: CrosswordItem[];
 };
 
+export type FlashcardItem = {
+  front: string | { text: string; image?: string; audio?: string; phonetic?: string };
+  back: string | { text: string; translation: string; explanation?: string; example?: string };
+  pronunciation?: string;
+};
+
+export type FlashcardExercise = ExerciseBase & {
+  type: "flashcard";
+  content: {
+    title?: string;
+    instructions?: string;
+    items: FlashcardItem[];
+  };
+};
+
+export type DragDropExercise = ExerciseBase & {
+  type: "drag-drop";
+  content: {
+    title?: string;
+    instructions?: string;
+    sentence?: string;
+    correctSentence?: string;
+    shuffledWords?: string[];
+    translation?: string;
+    hint?: string;
+  };
+};
+
 export type FillBlanksExercise = ExerciseBase & {
   type: "fillBlanks";
   instructions?: string;
@@ -122,7 +152,9 @@ export type ExerciseItem =
   | ListeningExercise
   | MatchingExercise
   | WordSearchExercise
-  | CrosswordExercise;
+  | CrosswordExercise
+  | FlashcardExercise
+  | DragDropExercise;
 
 export type ExercisesFile = {
   goal: string;

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1554224311-beee460ae6ba?w=1200',
+        url: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop',
         width: 1200,
         height: 630,
         alt: 'Planes Focus English',

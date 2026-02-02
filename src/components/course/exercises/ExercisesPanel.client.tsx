@@ -75,6 +75,7 @@ function antiStreakByType<T extends { type: string; id?: string }>(items: T[], m
 import { useEffect, useMemo, useState } from "react";
 import type { ExercisesFile, ProgressState } from "./types";
 import ExerciseRenderer from "./ExerciseRenderer";
+import FocusedExerciseInterface from "./FocusedExerciseInterface";
 import { loadProgress, saveProgress } from "./storage";
 import {
   recordCoreResult,
@@ -96,6 +97,7 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
   const [showPendingOnly, setShowPendingOnly] = useState(false);
   const [showExtension, setShowExtension] = useState(false);
   const [gateTick, setGateTick] = useState(0);
+  const [isFocused, setIsFocused] = useState(false);
 
   useEffect(() => {
     loadProgress(goal, level, weekId).then(setProgress);
@@ -165,6 +167,44 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
     setGateTick((t) => t + 1);
   }
 
+  async function handleFocusedFinish(results: { id: string; isCorrect: boolean }[]) {
+    if (!progress) return;
+
+    let nextProgress = { ...progress };
+
+    for (const res of results) {
+      const { id, isCorrect } = res;
+      
+      // Update core gating if applicable
+      const item = data.items.find(it => it.id === id);
+      if (item && (item as any).track === "core") {
+        recordCoreResult({ goal, level, weekId, exerciseId: id, isCorrect });
+      }
+
+      // Update attempts and completion
+      const currentAnswers = nextProgress.answers || {};
+      const currentData = currentAnswers[id] || { attempts: 0, correct: false, lastAttemptAt: 0 };
+      
+      nextProgress = {
+        ...nextProgress,
+        answers: {
+          ...nextProgress.answers,
+          [id]: {
+            attempts: currentData.attempts + 1,
+            correct: isCorrect,
+            lastAttemptAt: Date.now(),
+          }
+        },
+        completed: isCorrect ? { ...nextProgress.completed, [id]: true } : nextProgress.completed,
+      };
+    }
+
+    setProgress(nextProgress);
+    await saveProgress(goal, level, weekId, nextProgress);
+    setGateTick((t) => t + 1);
+    setIsFocused(false);
+  }
+
   function onResetCycle() {
     // 🆕 C.4 - Confirmación antes de consumir ciclo
     const confirmed = window.confirm(
@@ -193,11 +233,30 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
 
   const canFinalize = coreStats.complete && !gate.locked && !gate.passed;
 
+  if (isFocused) {
+    return (
+      <div className="fixed inset-0 z-[100] bg-white overflow-y-auto">
+        <FocusedExerciseInterface 
+          items={visibleItems} 
+          onFinish={handleFocusedFinish}
+          onExit={() => setIsFocused(false)}
+        />
+      </div>
+    );
+  }
+
   return (
     <div>
       {/* Controles principales */}
       <div className="flex flex-wrap items-center gap-3 justify-between">
         <div className="flex flex-wrap items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setIsFocused(true)}
+            className="inline-flex h-10 items-center justify-center rounded-2xl bg-indigo-600 px-6 text-sm font-black text-white hover:bg-indigo-700 transition shadow-lg shadow-indigo-100"
+          >
+            🚀 Empezar Práctica Enfocada
+          </button>
           <button
             type="button"
             onClick={() => setShowPendingOnly((v) => !v)}

@@ -403,7 +403,7 @@ export default function HomePage() {
               <ul className="space-y-2 text-sm text-slate-400">
                 <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
                 <li><Link href="/test-nivel" className="hover:text-white transition-colors">Test de Nivel</Link></li>
-                <li><Link href="/contact" className="hover:text-white transition-colors">Contacto</Link></li>
+                <li><Link href="/contacto" className="hover:text-white transition-colors">Contacto</Link></li>
               </ul>
             </div>
           </div>

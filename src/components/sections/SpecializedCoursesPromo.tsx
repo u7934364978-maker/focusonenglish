@@ -152,7 +152,7 @@ export function SpecializedCoursesPromo() {
 
         <div className="text-center">
           <Link 
-            href="/cursos-especializados"
+            href="/cursos"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-slate-300 bg-white text-slate-800 font-black text-lg hover:border-coral-300 hover:bg-coral-50 transition-all"
           >
             Ver Todos los Cursos Especializados

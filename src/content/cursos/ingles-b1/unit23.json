@@ -1,0 +1,4700 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U23",
+    "unit_title": "Music and Performance",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Music and Performance vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_23_PRACTICE",
+      "title": "B1 Practice: Music and Performance",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U23_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p1",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p2",
+              "left": "Lyrics",
+              "right": "The words of a song"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (go) ________ to a musical next week.",
+          "correct_answer": "are going",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Can you any play musical instruments?\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "melody"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "song"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w7",
+              "text": "catchy"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A practice or trial performance of a play or concert\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Rehearsal"
+            },
+            {
+              "id": "o2",
+              "text": "Audience"
+            },
+            {
+              "id": "o3",
+              "text": "Performance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            },
+            {
+              "id": "p1",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p2",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (can) ________ play an instrument, I would join a band.",
+          "correct_answer": "could",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The melody of the song is very catchy.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "melody"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "catchy"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "song"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A musical performance given in public\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Concert"
+            },
+            {
+              "id": "o3",
+              "text": "Rehearsal"
+            },
+            {
+              "id": "o2",
+              "text": "Composer"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            },
+            {
+              "id": "p1",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p2",
+              "left": "Symphony",
+              "right": "An elaborate musical composition for full orchestra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (can) ________ play an instrument, I would join a band.",
+          "correct_answer": "could",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The actors are waiting for their cue backstage.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "beat"
+            },
+            {
+              "id": "w3",
+              "text": "provides"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w8",
+              "text": "track"
+            },
+            {
+              "id": "w5",
+              "text": "rhythm"
+            },
+            {
+              "id": "w1",
+              "text": "drum"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The lead vocalist has a very powerful voice.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A practice or trial performance of a play or concert\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Concert"
+            },
+            {
+              "id": "o1",
+              "text": "Rehearsal"
+            },
+            {
+              "id": "o2",
+              "text": "Melody"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            },
+            {
+              "id": "p1",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            },
+            {
+              "id": "p2",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (can) ________ play an instrument, I would join a band.",
+          "correct_answer": "could",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Mozart is one of the most famous composers in history.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "voice"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "vocalist"
+            },
+            {
+              "id": "w6",
+              "text": "powerful"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w1",
+              "text": "lead"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Symphony"
+            },
+            {
+              "id": "o3",
+              "text": "Orchestra"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Orchestra",
+              "right": "A large group of instrumentalists"
+            },
+            {
+              "id": "p1",
+              "left": "Instrument",
+              "right": "An object or device for producing musical sounds"
+            },
+            {
+              "id": "p2",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (hardly) ________ know him.",
+          "correct_answer": "hardly",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is the venue for music the festival?\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w7",
+              "text": "festival?"
+            },
+            {
+              "id": "w3",
+              "text": "venue"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Mozart is one of the most famous composers in history.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The assembled spectators or listeners\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Audience"
+            },
+            {
+              "id": "o2",
+              "text": "Lyrics"
+            },
+            {
+              "id": "o3",
+              "text": "Rhythm"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lyrics",
+              "right": "The words of a song"
+            },
+            {
+              "id": "p1",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p2",
+              "left": "Audience",
+              "right": "The assembled spectators or listeners"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (hardly) ________ know him.",
+          "correct_answer": "hardly",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I really like the lyrics of this song.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "venue"
+            },
+            {
+              "id": "w7",
+              "text": "festival?"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I really like the lyrics of this song.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A sequence of single notes that is musically satisfying\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Concert"
+            },
+            {
+              "id": "o3",
+              "text": "Vocalist"
+            },
+            {
+              "id": "o1",
+              "text": "Melody"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            },
+            {
+              "id": "p1",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p2",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (hardly) ________ know him.",
+          "correct_answer": "hardly",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Their"
+            },
+            {
+              "id": "w4",
+              "text": "concert"
+            },
+            {
+              "id": "w6",
+              "text": "amazing"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "performance"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We went to an outdoor rock concert last night.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Stage"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            },
+            {
+              "id": "o3",
+              "text": "Performance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Symphony",
+              "right": "An elaborate musical composition for full orchestra"
+            },
+            {
+              "id": "p1",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p2",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (perform) ________ at the opera house tonight.",
+          "correct_answer": "are performing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The lead vocalist has a very powerful voice.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "audience"
+            },
+            {
+              "id": "w7",
+              "text": "ovation"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "standing"
+            },
+            {
+              "id": "w4",
+              "text": "performers"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "gave"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The orchestra played a beautiful symphony.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who writes music\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Composer"
+            },
+            {
+              "id": "o3",
+              "text": "Rehearsal"
+            },
+            {
+              "id": "o2",
+              "text": "Lyrics"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Orchestra",
+              "right": "A large group of instrumentalists"
+            },
+            {
+              "id": "p1",
+              "left": "Instrument",
+              "right": "An object or device for producing musical sounds"
+            },
+            {
+              "id": "p2",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The drum beat provides the rhythm for the track.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "this"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "really"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "lyrics"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w7",
+              "text": "song"
+            },
+            {
+              "id": "w2",
+              "text": "like"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We have a final rehearsal before the opening night.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An elaborate musical composition for full orchestra\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Concert"
+            },
+            {
+              "id": "o1",
+              "text": "Symphony"
+            },
+            {
+              "id": "o3",
+              "text": "Vocalist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            },
+            {
+              "id": "p1",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            },
+            {
+              "id": "p2",
+              "left": "Performance",
+              "right": "An act of presenting a play or concert"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Their performance at the concert was amazing.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "rhythm"
+            },
+            {
+              "id": "w2",
+              "text": "beat"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "drum"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w8",
+              "text": "track"
+            },
+            {
+              "id": "w3",
+              "text": "provides"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The orchestra played a beautiful symphony.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I60",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A musical performance given in public\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Concert"
+            },
+            {
+              "id": "o3",
+              "text": "Stage"
+            },
+            {
+              "id": "o2",
+              "text": "Audience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            },
+            {
+              "id": "p1",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            },
+            {
+              "id": "p2",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The band played (loud) ________.",
+          "correct_answer": "loudly",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to an outdoor rock concert last night.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "masterpiece"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "Ninth"
+            },
+            {
+              "id": "w2",
+              "text": "Symphony"
+            },
+            {
+              "id": "w0",
+              "text": "Beethoven's"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A sequence of single notes that is musically satisfying\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Rhythm"
+            },
+            {
+              "id": "o1",
+              "text": "Melody"
+            },
+            {
+              "id": "o2",
+              "text": "Orchestra"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            },
+            {
+              "id": "p1",
+              "left": "Instrument",
+              "right": "An object or device for producing musical sounds"
+            },
+            {
+              "id": "p2",
+              "left": "Composer",
+              "right": "A person who writes music"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (go) ________ to a musical next week.",
+          "correct_answer": "are going",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Beethoven's Ninth Symphony is masterpiece. a\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "standing"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "performers"
+            },
+            {
+              "id": "w1",
+              "text": "audience"
+            },
+            {
+              "id": "w2",
+              "text": "gave"
+            },
+            {
+              "id": "w5",
+              "text": "a"
+            },
+            {
+              "id": "w7",
+              "text": "ovation"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Can you play any musical instruments?\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The place where something happens\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Genre"
+            },
+            {
+              "id": "o1",
+              "text": "Venue"
+            },
+            {
+              "id": "o2",
+              "text": "Rhythm"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p1",
+              "left": "Symphony",
+              "right": "An elaborate musical composition for full orchestra"
+            },
+            {
+              "id": "p2",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (practice) ________ the piano for hours.",
+          "correct_answer": "practices",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The orchestra played a symphony. beautiful\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "symphony"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "played"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "orchestra"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I really like the lyrics of this song.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A person who writes music\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Orchestra"
+            },
+            {
+              "id": "o1",
+              "text": "Composer"
+            },
+            {
+              "id": "o2",
+              "text": "Stage"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p1",
+              "left": "Venue",
+              "right": "The place where something happens"
+            },
+            {
+              "id": "p2",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The audience gave the performers a stand ovation.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "catchy"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "song"
+            },
+            {
+              "id": "w1",
+              "text": "melody"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The drum beat provides the rhythm for the track.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A strong, regular, repeated pattern of movement or sound\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Rhythm"
+            },
+            {
+              "id": "o3",
+              "text": "Performance"
+            },
+            {
+              "id": "o2",
+              "text": "Concert"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lyrics",
+              "right": "The words of a song"
+            },
+            {
+              "id": "p1",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            },
+            {
+              "id": "p2",
+              "left": "Audience",
+              "right": "The assembled spectators or listeners"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The song (write) ________ by a famous composer.",
+          "correct_answer": "was written",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We went to an outdoor rock concert last night.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "voice"
+            },
+            {
+              "id": "w1",
+              "text": "lead"
+            },
+            {
+              "id": "w2",
+              "text": "vocalist"
+            },
+            {
+              "id": "w6",
+              "text": "powerful"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is the venue for the music festival?\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A raised floor or platform, typically in a theater\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Symphony"
+            },
+            {
+              "id": "o3",
+              "text": "Composer"
+            },
+            {
+              "id": "o1",
+              "text": "Stage"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            },
+            {
+              "id": "p1",
+              "left": "Lyrics",
+              "right": "The words of a song"
+            },
+            {
+              "id": "p2",
+              "left": "Instrument",
+              "right": "An object or device for producing musical sounds"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The band played (loud) ________.",
+          "correct_answer": "loudly",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We have a final before rehearsal the opening night.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            },
+            {
+              "id": "w7",
+              "text": "composers"
+            },
+            {
+              "id": "w9",
+              "text": "history"
+            },
+            {
+              "id": "w0",
+              "text": "Mozart"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "famous"
+            },
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Can you play any musical instruments?\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An elaborate musical composition for full orchestra\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Rhythm"
+            },
+            {
+              "id": "o1",
+              "text": "Symphony"
+            },
+            {
+              "id": "o2",
+              "text": "Vocalist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Venue",
+              "right": "The place where something happens"
+            },
+            {
+              "id": "p1",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p2",
+              "left": "Composer",
+              "right": "A person who writes music"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (learn) ________ to play the violin since she was five.",
+          "correct_answer": "has been learning",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The played orchestra a beautiful symphony.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "masterpiece"
+            },
+            {
+              "id": "w0",
+              "text": "Beethoven's"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "Symphony"
+            },
+            {
+              "id": "w1",
+              "text": "Ninth"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The drum beat provides the rhythm for the track.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I102",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An object or device for producing musical sounds\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Melody"
+            },
+            {
+              "id": "o3",
+              "text": "Composer"
+            },
+            {
+              "id": "o1",
+              "text": "Instrument"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            },
+            {
+              "id": "p1",
+              "left": "Symphony",
+              "right": "An elaborate musical composition for full orchestra"
+            },
+            {
+              "id": "p2",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (perform) ________ at the opera house tonight.",
+          "correct_answer": "are performing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We have a final rehearsal before the opening night.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "lead"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w6",
+              "text": "powerful"
+            },
+            {
+              "id": "w2",
+              "text": "vocalist"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "voice"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We have a final rehearsal before the opening night.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I108",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A person who writes music\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Orchestra"
+            },
+            {
+              "id": "o3",
+              "text": "Concert"
+            },
+            {
+              "id": "o1",
+              "text": "Composer"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Performance",
+              "right": "An act of presenting a play or concert"
+            },
+            {
+              "id": "p1",
+              "left": "Venue",
+              "right": "The place where something happens"
+            },
+            {
+              "id": "p2",
+              "left": "Instrument",
+              "right": "An object or device for producing musical sounds"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I110",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (be/never) ________ to a live concert before.",
+          "correct_answer": "has never been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The audience gave the performers standing a ovation.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "voice"
+            },
+            {
+              "id": "w6",
+              "text": "powerful"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "vocalist"
+            },
+            {
+              "id": "w1",
+              "text": "lead"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is the venue for the music festival?\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I114",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A large group of instrumentalists\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Venue"
+            },
+            {
+              "id": "o3",
+              "text": "Concert"
+            },
+            {
+              "id": "o1",
+              "text": "Orchestra"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            },
+            {
+              "id": "p1",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p2",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The audience gave the performers a stand ovation.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Jazz"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I119",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We have a final rehearsal before the opening night.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I120",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The assembled spectators or listeners\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Audience"
+            },
+            {
+              "id": "o3",
+              "text": "Rehearsal"
+            },
+            {
+              "id": "o2",
+              "text": "Concert"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Venue",
+              "right": "The place where something happens"
+            },
+            {
+              "id": "p1",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            },
+            {
+              "id": "p2",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The orchestra played a beautiful symphony.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "catchy"
+            },
+            {
+              "id": "w6",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "melody"
+            },
+            {
+              "id": "w5",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "song"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I125",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We have a final rehearsal before the opening night.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I126",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A singer, typically one who performs with a band\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Audience"
+            },
+            {
+              "id": "o3",
+              "text": "Lyrics"
+            },
+            {
+              "id": "o1",
+              "text": "Vocalist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p1",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            },
+            {
+              "id": "p2",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (enjoy) ________ the performance?",
+          "correct_answer": "enjoy",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The audience gave the performers a standing ovation.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "their"
+            },
+            {
+              "id": "w3",
+              "text": "waiting"
+            },
+            {
+              "id": "w6",
+              "text": "cue"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w7",
+              "text": "backstage"
+            },
+            {
+              "id": "w1",
+              "text": "actors"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The actors are waiting for their cue backstage.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I132",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A strong, regular, repeated pattern of movement or sound\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Rehearsal"
+            },
+            {
+              "id": "o2",
+              "text": "Performance"
+            },
+            {
+              "id": "o1",
+              "text": "Rhythm"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            },
+            {
+              "id": "p1",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            },
+            {
+              "id": "p2",
+              "left": "Orchestra",
+              "right": "A large group of instrumentalists"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The show was (quite) ________ good.",
+          "correct_answer": "quite",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is the venue for the music festival?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "final"
+            },
+            {
+              "id": "w8",
+              "text": "night"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "opening"
+            },
+            {
+              "id": "w5",
+              "text": "before"
+            },
+            {
+              "id": "w4",
+              "text": "rehearsal"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We went to an outdoor rock concert last night.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A sequence of single notes that is musically satisfying\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Stage"
+            },
+            {
+              "id": "o1",
+              "text": "Melody"
+            },
+            {
+              "id": "o3",
+              "text": "Orchestra"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            },
+            {
+              "id": "p1",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            },
+            {
+              "id": "p2",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She sings (beautiful) ________.",
+          "correct_answer": "beautifully",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Mozart is one of most the famous composers in history.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "lead"
+            },
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "voice"
+            },
+            {
+              "id": "w6",
+              "text": "powerful"
+            },
+            {
+              "id": "w2",
+              "text": "vocalist"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Their performance at the concert was amazing.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I144",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The assembled spectators or listeners\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Audience"
+            },
+            {
+              "id": "o3",
+              "text": "Symphony"
+            },
+            {
+              "id": "o2",
+              "text": "Vocalist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Audience",
+              "right": "The assembled spectators or listeners"
+            },
+            {
+              "id": "p1",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p2",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (enjoy) ________ the performance?",
+          "correct_answer": "enjoy",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is the venue for the music festival?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w0",
+              "text": "Jazz"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is the venue for the music festival?\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A practice or trial performance of a play or concert\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Vocalist"
+            },
+            {
+              "id": "o2",
+              "text": "Melody"
+            },
+            {
+              "id": "o1",
+              "text": "Rehearsal"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Composer",
+              "right": "A person who writes music"
+            },
+            {
+              "id": "p1",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p2",
+              "left": "Orchestra",
+              "right": "A large group of instrumentalists"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (can) ________ play an instrument, I would join a band.",
+          "correct_answer": "could",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "venue"
+            },
+            {
+              "id": "w7",
+              "text": "festival?"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I155",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The melody of the song is very catchy.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I156",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A singer, typically one who performs with a band\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vocalist"
+            },
+            {
+              "id": "o3",
+              "text": "Venue"
+            },
+            {
+              "id": "o2",
+              "text": "Lyrics"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rhythm",
+              "right": "A strong, regular, repeated pattern of movement or sound"
+            },
+            {
+              "id": "p1",
+              "left": "Audience",
+              "right": "The assembled spectators or listeners"
+            },
+            {
+              "id": "p2",
+              "left": "Venue",
+              "right": "The place where something happens"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She sings (beautiful) ________.",
+          "correct_answer": "beautifully",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The drum beat provides rhythm the for the track.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "played"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w1",
+              "text": "orchestra"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "symphony"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I161",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Can you play any musical instruments?\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I162",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A person who writes music\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Orchestra"
+            },
+            {
+              "id": "o1",
+              "text": "Composer"
+            },
+            {
+              "id": "o3",
+              "text": "Venue"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Concert",
+              "right": "A musical performance given in public"
+            },
+            {
+              "id": "p1",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            },
+            {
+              "id": "p2",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The actors are waiting for their cue backstage.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "has"
+            },
+            {
+              "id": "w7",
+              "text": "voice"
+            },
+            {
+              "id": "w5",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "lead"
+            },
+            {
+              "id": "w6",
+              "text": "powerful"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "vocalist"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Beethoven's Ninth Symphony is a masterpiece.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I168",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An elaborate musical composition for full orchestra\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Venue"
+            },
+            {
+              "id": "o1",
+              "text": "Symphony"
+            },
+            {
+              "id": "o2",
+              "text": "Audience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            },
+            {
+              "id": "p1",
+              "left": "Lyrics",
+              "right": "The words of a song"
+            },
+            {
+              "id": "p2",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I170",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (enjoy) ________ the performance?",
+          "correct_answer": "enjoy",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Their performance at the concert was amazing.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "outdoor"
+            },
+            {
+              "id": "w7",
+              "text": "last"
+            },
+            {
+              "id": "w3",
+              "text": "an"
+            },
+            {
+              "id": "w8",
+              "text": "night"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "concert"
+            },
+            {
+              "id": "w5",
+              "text": "rock"
+            },
+            {
+              "id": "w1",
+              "text": "went"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The actors are waiting for their cue backstage.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I174",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A sequence of single notes that is musically satisfying\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Vocalist"
+            },
+            {
+              "id": "o3",
+              "text": "Audience"
+            },
+            {
+              "id": "o1",
+              "text": "Melody"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rehearsal",
+              "right": "A practice or trial performance of a play or concert"
+            },
+            {
+              "id": "p1",
+              "left": "Lyrics",
+              "right": "The words of a song"
+            },
+            {
+              "id": "p2",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The audience (cheer) ________ loudly.",
+          "correct_answer": "cheered",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The lead vocalist a has very powerful voice.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            },
+            {
+              "id": "w6",
+              "text": "famous"
+            },
+            {
+              "id": "w5",
+              "text": "most"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Mozart"
+            },
+            {
+              "id": "w7",
+              "text": "composers"
+            },
+            {
+              "id": "w9",
+              "text": "history"
+            },
+            {
+              "id": "w3",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The melody of the song is very catchy.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A singer, typically one who performs with a band\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vocalist"
+            },
+            {
+              "id": "o2",
+              "text": "Concert"
+            },
+            {
+              "id": "o3",
+              "text": "Orchestra"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p1",
+              "left": "Symphony",
+              "right": "An elaborate musical composition for full orchestra"
+            },
+            {
+              "id": "p2",
+              "left": "Audience",
+              "right": "The assembled spectators or listeners"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Did you (enjoy) ________ the performance?",
+          "correct_answer": "enjoy",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Mozart one is of the most famous composers in history.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w6",
+              "text": "this"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "really"
+            },
+            {
+              "id": "w7",
+              "text": "song"
+            },
+            {
+              "id": "w2",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "lyrics"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I185",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The lead vocalist has a very powerful voice.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The place where something happens\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Concert"
+            },
+            {
+              "id": "o3",
+              "text": "Stage"
+            },
+            {
+              "id": "o1",
+              "text": "Venue"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Stage",
+              "right": "A raised floor or platform, typically in a theater"
+            },
+            {
+              "id": "p1",
+              "left": "Melody",
+              "right": "A sequence of single notes that is musically satisfying"
+            },
+            {
+              "id": "p2",
+              "left": "Composer",
+              "right": "A person who writes music"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (wish) ________ I could sing better.",
+          "correct_answer": "wish",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The orchestra played a beautiful symphony.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "concert"
+            },
+            {
+              "id": "w2",
+              "text": "at"
+            },
+            {
+              "id": "w1",
+              "text": "performance"
+            },
+            {
+              "id": "w6",
+              "text": "amazing"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Their"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I191",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I really like the lyrics of this song.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I192",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A musical performance given in public\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Concert"
+            },
+            {
+              "id": "o2",
+              "text": "Rhythm"
+            },
+            {
+              "id": "o3",
+              "text": "Vocalist"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Performance",
+              "right": "An act of presenting a play or concert"
+            },
+            {
+              "id": "p1",
+              "left": "Audience",
+              "right": "The assembled spectators or listeners"
+            },
+            {
+              "id": "p2",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If I (can) ________ play an instrument, I would join a band.",
+          "correct_answer": "could",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The drum beat provides the rhythm for the track.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w7",
+              "text": "festival?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w3",
+              "text": "venue"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U23_I197",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Jazz is my favorite genre of music.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U23_I198",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An act of presenting a play or concert\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Performance"
+            },
+            {
+              "id": "o3",
+              "text": "Concert"
+            },
+            {
+              "id": "o2",
+              "text": "Rhythm"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Vocalist",
+              "right": "A singer, typically one who performs with a band"
+            },
+            {
+              "id": "p1",
+              "left": "Symphony",
+              "right": "An elaborate musical composition for full orchestra"
+            },
+            {
+              "id": "p2",
+              "left": "Venue",
+              "right": "The place where something happens"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I200",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (be/never) ________ to a live concert before.",
+          "correct_answer": "has never been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

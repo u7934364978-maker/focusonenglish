@@ -16,8 +16,8 @@ export default function PlanesPage() {
   const handleSubscribe = async (planId: string) => {
     setIsLoading(planId);
     
-    // Redirigir a página de signup con el plan seleccionado
-    window.location.href = `/signup?plan=${planId}`;
+    // Redirigir a página de registro con el plan seleccionado
+    window.location.href = `/cuenta/registro?plan=${planId}`;
   };
 
   return (
@@ -267,13 +267,13 @@ export default function PlanesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/contact"
+                href="/contacto"
                 className="inline-flex items-center justify-center bg-white text-coral-600 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
               >
                 💬 Hablar con un Asesor
               </Link>
               <Link
-                href="/diagnostico"
+                href="/test-nivel"
                 className="inline-flex items-center justify-center bg-coral-800 text-white px-8 py-3 rounded-lg font-bold hover:bg-coral-900 transition-colors"
               >
                 🎯 Hacer Test de Nivel Gratis

@@ -1,0 +1,3084 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B2",
+    "unit_id": "U4",
+    "unit_title": "Health and Fitness",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B2 Health and Fitness vocabulary",
+    "Apply B2 Modal Verbs of Obligation and Necessity structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B2_UNIT_4_PRACTICE",
+      "title": "B2 Practice: Health and Fitness",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U4_I1",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I3",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_3_1",
+              "right": "Definition 4_3_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_3_2",
+              "right": "Definition 4_3_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I4",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I5",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I6",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_6_1",
+              "right": "Definition 4_6_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_6_2",
+              "right": "Definition 4_6_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I7",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I9",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_9_1",
+              "right": "Definition 4_9_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_9_2",
+              "right": "Definition 4_9_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I10",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I11",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I12",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_12_1",
+              "right": "Definition 4_12_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_12_2",
+              "right": "Definition 4_12_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I13",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I15",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_15_1",
+              "right": "Definition 4_15_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_15_2",
+              "right": "Definition 4_15_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I16",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I17",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I18",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_18_1",
+              "right": "Definition 4_18_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_18_2",
+              "right": "Definition 4_18_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I19",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I21",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_21_1",
+              "right": "Definition 4_21_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_21_2",
+              "right": "Definition 4_21_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I22",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I23",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I24",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_24_1",
+              "right": "Definition 4_24_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_24_2",
+              "right": "Definition 4_24_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I25",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I27",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_27_1",
+              "right": "Definition 4_27_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_27_2",
+              "right": "Definition 4_27_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I28",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I29",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I30",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_30_1",
+              "right": "Definition 4_30_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_30_2",
+              "right": "Definition 4_30_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I31",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I33",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_33_1",
+              "right": "Definition 4_33_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_33_2",
+              "right": "Definition 4_33_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I34",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I35",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I36",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_36_1",
+              "right": "Definition 4_36_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_36_2",
+              "right": "Definition 4_36_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I37",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I39",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_39_1",
+              "right": "Definition 4_39_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_39_2",
+              "right": "Definition 4_39_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I40",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I41",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I42",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_42_1",
+              "right": "Definition 4_42_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_42_2",
+              "right": "Definition 4_42_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I43",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I45",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_45_1",
+              "right": "Definition 4_45_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_45_2",
+              "right": "Definition 4_45_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I46",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I47",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I48",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_48_1",
+              "right": "Definition 4_48_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_48_2",
+              "right": "Definition 4_48_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I49",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I51",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_51_1",
+              "right": "Definition 4_51_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_51_2",
+              "right": "Definition 4_51_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I52",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I53",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I54",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_54_1",
+              "right": "Definition 4_54_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_54_2",
+              "right": "Definition 4_54_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I55",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I57",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_57_1",
+              "right": "Definition 4_57_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_57_2",
+              "right": "Definition 4_57_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I58",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I59",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I60",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_60_1",
+              "right": "Definition 4_60_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_60_2",
+              "right": "Definition 4_60_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I61",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I63",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_63_1",
+              "right": "Definition 4_63_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_63_2",
+              "right": "Definition 4_63_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I64",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I65",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I66",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_66_1",
+              "right": "Definition 4_66_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_66_2",
+              "right": "Definition 4_66_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I67",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I69",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_69_1",
+              "right": "Definition 4_69_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_69_2",
+              "right": "Definition 4_69_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I70",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I71",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I72",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_72_1",
+              "right": "Definition 4_72_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_72_2",
+              "right": "Definition 4_72_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I73",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I75",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_75_1",
+              "right": "Definition 4_75_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_75_2",
+              "right": "Definition 4_75_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I76",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I77",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I78",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_78_1",
+              "right": "Definition 4_78_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_78_2",
+              "right": "Definition 4_78_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I79",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I81",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_81_1",
+              "right": "Definition 4_81_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_81_2",
+              "right": "Definition 4_81_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I82",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I83",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I84",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_84_1",
+              "right": "Definition 4_84_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_84_2",
+              "right": "Definition 4_84_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I85",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I87",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_87_1",
+              "right": "Definition 4_87_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_87_2",
+              "right": "Definition 4_87_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I88",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I89",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I90",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_90_1",
+              "right": "Definition 4_90_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_90_2",
+              "right": "Definition 4_90_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I91",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I93",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_93_1",
+              "right": "Definition 4_93_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_93_2",
+              "right": "Definition 4_93_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I94",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I95",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I96",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_96_1",
+              "right": "Definition 4_96_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_96_2",
+              "right": "Definition 4_96_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I97",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I99",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_99_1",
+              "right": "Definition 4_99_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_99_2",
+              "right": "Definition 4_99_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I100",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I101",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I102",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_102_1",
+              "right": "Definition 4_102_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_102_2",
+              "right": "Definition 4_102_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I103",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I105",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_105_1",
+              "right": "Definition 4_105_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_105_2",
+              "right": "Definition 4_105_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I106",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I107",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I108",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_108_1",
+              "right": "Definition 4_108_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_108_2",
+              "right": "Definition 4_108_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I109",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I110",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I111",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_111_1",
+              "right": "Definition 4_111_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_111_2",
+              "right": "Definition 4_111_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I112",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I113",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I114",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_114_1",
+              "right": "Definition 4_114_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_114_2",
+              "right": "Definition 4_114_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I115",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I117",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_117_1",
+              "right": "Definition 4_117_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_117_2",
+              "right": "Definition 4_117_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I118",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I119",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I120",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_120_1",
+              "right": "Definition 4_120_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_120_2",
+              "right": "Definition 4_120_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I121",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I123",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_123_1",
+              "right": "Definition 4_123_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_123_2",
+              "right": "Definition 4_123_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I124",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I125",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I126",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_126_1",
+              "right": "Definition 4_126_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_126_2",
+              "right": "Definition 4_126_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I127",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I129",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_129_1",
+              "right": "Definition 4_129_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_129_2",
+              "right": "Definition 4_129_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I130",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I131",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I132",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_132_1",
+              "right": "Definition 4_132_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_132_2",
+              "right": "Definition 4_132_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I133",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I135",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_135_1",
+              "right": "Definition 4_135_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_135_2",
+              "right": "Definition 4_135_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I136",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I137",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I138",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_138_1",
+              "right": "Definition 4_138_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_138_2",
+              "right": "Definition 4_138_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I139",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I141",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_141_1",
+              "right": "Definition 4_141_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_141_2",
+              "right": "Definition 4_141_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I142",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I143",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I144",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_144_1",
+              "right": "Definition 4_144_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_144_2",
+              "right": "Definition 4_144_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I145",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I147",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_147_1",
+              "right": "Definition 4_147_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_147_2",
+              "right": "Definition 4_147_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I148",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I149",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I150",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_150_1",
+              "right": "Definition 4_150_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_150_2",
+              "right": "Definition 4_150_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I151",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I153",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_153_1",
+              "right": "Definition 4_153_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_153_2",
+              "right": "Definition 4_153_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I154",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I155",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I156",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_156_1",
+              "right": "Definition 4_156_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_156_2",
+              "right": "Definition 4_156_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I157",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I159",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_159_1",
+              "right": "Definition 4_159_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_159_2",
+              "right": "Definition 4_159_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I160",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I161",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I162",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_162_1",
+              "right": "Definition 4_162_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_162_2",
+              "right": "Definition 4_162_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I163",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I165",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_165_1",
+              "right": "Definition 4_165_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_165_2",
+              "right": "Definition 4_165_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I166",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I167",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I168",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_168_1",
+              "right": "Definition 4_168_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_168_2",
+              "right": "Definition 4_168_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I169",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I170",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I171",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_171_1",
+              "right": "Definition 4_171_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_171_2",
+              "right": "Definition 4_171_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I172",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I173",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I174",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_174_1",
+              "right": "Definition 4_174_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_174_2",
+              "right": "Definition 4_174_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I175",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I177",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_177_1",
+              "right": "Definition 4_177_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_177_2",
+              "right": "Definition 4_177_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I178",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I179",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I180",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_180_1",
+              "right": "Definition 4_180_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_180_2",
+              "right": "Definition 4_180_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I181",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I183",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_183_1",
+              "right": "Definition 4_183_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_183_2",
+              "right": "Definition 4_183_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I184",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I185",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I186",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_186_1",
+              "right": "Definition 4_186_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_186_2",
+              "right": "Definition 4_186_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I187",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I189",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_189_1",
+              "right": "Definition 4_189_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_189_2",
+              "right": "Definition 4_189_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I190",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I191",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I192",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_192_1",
+              "right": "Definition 4_192_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_192_2",
+              "right": "Definition 4_192_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I193",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I195",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_195_1",
+              "right": "Definition 4_195_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_195_2",
+              "right": "Definition 4_195_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I196",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I197",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I198",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sedentary",
+              "right": "Spending too much time sitting"
+            },
+            {
+              "id": "p1",
+              "left": "Term 4_198_1",
+              "right": "Definition 4_198_1"
+            },
+            {
+              "id": "p2",
+              "left": "Term 4_198_2",
+              "right": "Definition 4_198_2"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I199",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "You ______ (not/have to) go if you don't want to.",
+          "correct_answer": "don't have to",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la respuesta correcta para completar la oración:",
+          "stimulus_en": "We ______ (must/wear) a uniform at work.",
+          "correct_answer": "must wear",
+          "feedback_correct_es": "¡Excelente!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

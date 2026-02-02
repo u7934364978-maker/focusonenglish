@@ -1,0 +1,4795 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U30",
+    "unit_title": "Success and Achievement",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Success and Achievement vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_30_PRACTICE",
+      "title": "B1 Practice: Success and Achievement",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U30_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            },
+            {
+              "id": "p1",
+              "left": "Accomplishment",
+              "right": "Something that has been achieved successfully"
+            },
+            {
+              "id": "p2",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (work) ________ here for twenty years by December.",
+          "correct_answer": "will have worked",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her achievement was celebrated by the whole team.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "be"
+            },
+            {
+              "id": "w3",
+              "text": "potential"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w8",
+              "text": "leader"
+            },
+            {
+              "id": "w9",
+              "text": "one"
+            },
+            {
+              "id": "w10",
+              "text": "day"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Winning the award was a great accomplishment.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A strong desire to do or achieve something\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Motivation"
+            },
+            {
+              "id": "o1",
+              "text": "Ambition"
+            },
+            {
+              "id": "o2",
+              "text": "Determination"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inspiration",
+              "right": "The process of being mentally stimulated to do or feel something"
+            },
+            {
+              "id": "p1",
+              "left": "Excellence",
+              "right": "The quality of being outstanding or extremely good"
+            },
+            {
+              "id": "p2",
+              "left": "Motivation",
+              "right": "The reason or reasons one has for acting or behaving in a particular way"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (write) ________ her report by the deadline.",
+          "correct_answer": "will have written",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your main motivation for learn English?\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "leader"
+            },
+            {
+              "id": "w5",
+              "text": "be"
+            },
+            {
+              "id": "w10",
+              "text": "day"
+            },
+            {
+              "id": "w9",
+              "text": "one"
+            },
+            {
+              "id": "w3",
+              "text": "potential"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is your main motivation for learning English?\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A great victory or achievement\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Inspiration"
+            },
+            {
+              "id": "o3",
+              "text": "Determination"
+            },
+            {
+              "id": "o1",
+              "text": "Triumph"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            },
+            {
+              "id": "p1",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            },
+            {
+              "id": "p2",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the show starts, the audience (take) ________ their seats.",
+          "correct_answer": "will have taken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Perseverance is to key overcoming challenges.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            },
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Perseverance is key to overcoming challenges.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A thing done successfully, typically by effort\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Achievement"
+            },
+            {
+              "id": "o3",
+              "text": "Ambition"
+            },
+            {
+              "id": "o2",
+              "text": "Perseverance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            },
+            {
+              "id": "p2",
+              "left": "Determination",
+              "right": "Firmness of purpose; resoluteness"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Will they (reach) ________ their target by then?",
+          "correct_answer": "have reached",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has the potential to be a great leader day. one\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "failed"
+            },
+            {
+              "id": "w5",
+              "text": "her"
+            },
+            {
+              "id": "w3",
+              "text": "resilience"
+            },
+            {
+              "id": "w2",
+              "text": "great"
+            },
+            {
+              "id": "w4",
+              "text": "after"
+            },
+            {
+              "id": "w6",
+              "text": "business"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "showed"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Graduating from university is a major milestone.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I24",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Having or showing the capacity to become or develop into something\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Potential"
+            },
+            {
+              "id": "o2",
+              "text": "Recognition"
+            },
+            {
+              "id": "o3",
+              "text": "Inspiration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Determination",
+              "right": "Firmness of purpose; resoluteness"
+            },
+            {
+              "id": "p1",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            },
+            {
+              "id": "p2",
+              "left": "Accomplishment",
+              "right": "Something that has been achieved successfully"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Will they (reach) ________ their target by then?",
+          "correct_answer": "have reached",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Success doesn't happen overnight; takes it time and effort.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He received recognition for his hard work.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A strong desire to do or achieve something\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Triumph"
+            },
+            {
+              "id": "o3",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o1",
+              "text": "Ambition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Goal",
+              "right": "The object of a person's ambition or effort"
+            },
+            {
+              "id": "p1",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            },
+            {
+              "id": "p2",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (save) ________ enough money for a car by next summer.",
+          "correct_answer": "will have saved",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The team's victory was a great triumph a after difficult season.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "showed"
+            },
+            {
+              "id": "w5",
+              "text": "her"
+            },
+            {
+              "id": "w3",
+              "text": "resilience"
+            },
+            {
+              "id": "w7",
+              "text": "failed"
+            },
+            {
+              "id": "w2",
+              "text": "great"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w6",
+              "text": "business"
+            },
+            {
+              "id": "w4",
+              "text": "after"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Graduating from university is a major milestone.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A great victory or achievement\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Triumph"
+            },
+            {
+              "id": "o2",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o3",
+              "text": "Accomplishment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Inspiration",
+              "right": "The process of being mentally stimulated to do or feel something"
+            },
+            {
+              "id": "p2",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (work) ________ here for twenty years by December.",
+          "correct_answer": "will have worked",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has the potential to be a great leader one day.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Her story is a great inspiration to many young people.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A great victory or achievement\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Triumph"
+            },
+            {
+              "id": "o3",
+              "text": "Potential"
+            },
+            {
+              "id": "o2",
+              "text": "Achievement"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            },
+            {
+              "id": "p2",
+              "left": "Motivation",
+              "right": "The reason or reasons one has for acting or behaving in a particular way"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (read) ________ the whole book by tonight.",
+          "correct_answer": "will have read",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Success happen doesn't overnight; it takes time and effort.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Her"
+            },
+            {
+              "id": "w4",
+              "text": "by"
+            },
+            {
+              "id": "w6",
+              "text": "whole"
+            },
+            {
+              "id": "w1",
+              "text": "achievement"
+            },
+            {
+              "id": "w3",
+              "text": "celebrated"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "team"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Perseverance is key to overcoming challenges.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Firmness of purpose; resoluteness\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Potential"
+            },
+            {
+              "id": "o1",
+              "text": "Determination"
+            },
+            {
+              "id": "o3",
+              "text": "Excellence"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Potential",
+              "right": "Having or showing the capacity to become or develop into something"
+            },
+            {
+              "id": "p1",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            },
+            {
+              "id": "p2",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By next year, I (finish) ________ my course.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The company is committed to achieving in excellence its products.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Success doesn't happen overnight; it takes time and effort.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The reason or reasons one has for acting or behaving in a particular way\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Triumph"
+            },
+            {
+              "id": "o1",
+              "text": "Motivation"
+            },
+            {
+              "id": "o3",
+              "text": "Resilience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p2",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I56",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (work) ________ here for twenty years by December.",
+          "correct_answer": "will have worked",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Graduating from university a is major milestone.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "work"
+            },
+            {
+              "id": "w1",
+              "text": "received"
+            },
+            {
+              "id": "w4",
+              "text": "his"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "recognition"
+            },
+            {
+              "id": "w5",
+              "text": "hard"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Winning the award was a great accomplishment.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A thing done successfully, typically by effort\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Milestone"
+            },
+            {
+              "id": "o3",
+              "text": "Success"
+            },
+            {
+              "id": "o1",
+              "text": "Achievement"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Accomplishment",
+              "right": "Something that has been achieved successfully"
+            },
+            {
+              "id": "p1",
+              "left": "Determination",
+              "right": "Firmness of purpose; resoluteness"
+            },
+            {
+              "id": "p2",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (save) ________ enough money for a car by next summer.",
+          "correct_answer": "will have saved",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"With hard work and determination, anything is possible.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "hard"
+            },
+            {
+              "id": "w4",
+              "text": "determination"
+            },
+            {
+              "id": "w2",
+              "text": "work"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w5",
+              "text": "anything"
+            },
+            {
+              "id": "w0",
+              "text": "With"
+            },
+            {
+              "id": "w7",
+              "text": "possible"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Her story is a great inspiration to many young people.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Having or showing the capacity to become or develop into something\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Potential"
+            },
+            {
+              "id": "o3",
+              "text": "Triumph"
+            },
+            {
+              "id": "o2",
+              "text": "Achievement"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Excellence",
+              "right": "The quality of being outstanding or extremely good"
+            },
+            {
+              "id": "p1",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            },
+            {
+              "id": "p2",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time you arrive, I (cook) ________ dinner.",
+          "correct_answer": "will have cooked",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Success doesn't happen overnight; it takes time and effort.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "anything"
+            },
+            {
+              "id": "w7",
+              "text": "possible"
+            },
+            {
+              "id": "w2",
+              "text": "work"
+            },
+            {
+              "id": "w4",
+              "text": "determination"
+            },
+            {
+              "id": "w1",
+              "text": "hard"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "With"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She has the ambition to become the CEO.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The reason or reasons one has for acting or behaving in a particular way\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Ambition"
+            },
+            {
+              "id": "o3",
+              "text": "Achievement"
+            },
+            {
+              "id": "o1",
+              "text": "Motivation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Potential",
+              "right": "Having or showing the capacity to become or develop into something"
+            },
+            {
+              "id": "p1",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            },
+            {
+              "id": "p2",
+              "left": "Goal",
+              "right": "The object of a person's ambition or effort"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the show starts, the audience (take) ________ their seats.",
+          "correct_answer": "will have taken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Graduating from university is a milestone. major\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "potential"
+            },
+            {
+              "id": "w9",
+              "text": "one"
+            },
+            {
+              "id": "w5",
+              "text": "be"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w8",
+              "text": "leader"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w10",
+              "text": "day"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has the potential to be a great leader one day.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I78",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Having or showing the capacity to become or develop into something\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Potential"
+            },
+            {
+              "id": "o2",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o3",
+              "text": "Success"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            },
+            {
+              "id": "p1",
+              "left": "Success",
+              "right": "The accomplishment of an aim or purpose"
+            },
+            {
+              "id": "p2",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (write) ________ her report by the deadline.",
+          "correct_answer": "will have written",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her story is a great to inspiration many young people.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She showed great resilience after her business failed.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The capacity to recover quickly from difficulties\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Motivation"
+            },
+            {
+              "id": "o2",
+              "text": "Inspiration"
+            },
+            {
+              "id": "o1",
+              "text": "Resilience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            },
+            {
+              "id": "p2",
+              "left": "Excellence",
+              "right": "The quality of being outstanding or extremely good"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the show starts, the audience (take) ________ their seats.",
+          "correct_answer": "will have taken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She great showed resilience after her business failed.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "great"
+            },
+            {
+              "id": "w7",
+              "text": "after"
+            },
+            {
+              "id": "w1",
+              "text": "team's"
+            },
+            {
+              "id": "w10",
+              "text": "season"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "victory"
+            },
+            {
+              "id": "w6",
+              "text": "triumph"
+            },
+            {
+              "id": "w9",
+              "text": "difficult"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The team's victory was a great triumph after a difficult season.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Persistence in doing something despite difficulty\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Potential"
+            },
+            {
+              "id": "o2",
+              "text": "Success"
+            },
+            {
+              "id": "o1",
+              "text": "Perseverance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            },
+            {
+              "id": "p1",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p2",
+              "left": "Determination",
+              "right": "Firmness of purpose; resoluteness"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the end of the month, they (sell) ________ all the tickets.",
+          "correct_answer": "will have sold",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her achievement was celebrated by the whole team.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Graduating"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is your main motivation for learning English?\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Firmness of purpose; resoluteness\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o1",
+              "text": "Determination"
+            },
+            {
+              "id": "o2",
+              "text": "Motivation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            },
+            {
+              "id": "p1",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p2",
+              "left": "Accomplishment",
+              "right": "Something that has been achieved successfully"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By next Sunday, we (live) ________ in our new house for a week.",
+          "correct_answer": "will have been living",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She showed great resilience after business her failed.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "major"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She showed great resilience after her business failed.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I102",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Persistence in doing something despite difficulty\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o2",
+              "text": "Recognition"
+            },
+            {
+              "id": "o3",
+              "text": "Resilience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            },
+            {
+              "id": "p2",
+              "left": "Excellence",
+              "right": "The quality of being outstanding or extremely good"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Will they (reach) ________ their target by then?",
+          "correct_answer": "have reached",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Perseverance key is to overcoming challenges.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "excellence"
+            },
+            {
+              "id": "w8",
+              "text": "its"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "company"
+            },
+            {
+              "id": "w3",
+              "text": "committed"
+            },
+            {
+              "id": "w5",
+              "text": "achieving"
+            },
+            {
+              "id": "w9",
+              "text": "products"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Graduating from university is a major milestone.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I108",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Firmness of purpose; resoluteness\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Determination"
+            },
+            {
+              "id": "o3",
+              "text": "Milestone"
+            },
+            {
+              "id": "o2",
+              "text": "Ambition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Success",
+              "right": "The accomplishment of an aim or purpose"
+            },
+            {
+              "id": "p1",
+              "left": "Determination",
+              "right": "Firmness of purpose; resoluteness"
+            },
+            {
+              "id": "p2",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I110",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ in London for two days when we meet.",
+          "correct_answer": "will have been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He has the potential be to a great leader one day.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w10",
+              "text": "season"
+            },
+            {
+              "id": "w9",
+              "text": "difficult"
+            },
+            {
+              "id": "w6",
+              "text": "triumph"
+            },
+            {
+              "id": "w5",
+              "text": "great"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "team's"
+            },
+            {
+              "id": "w3",
+              "text": "was"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "victory"
+            },
+            {
+              "id": "w7",
+              "text": "after"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The company is committed to achieving excellence in its products.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I114",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Having or showing the capacity to become or develop into something\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Resilience"
+            },
+            {
+              "id": "o1",
+              "text": "Potential"
+            },
+            {
+              "id": "o3",
+              "text": "Inspiration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p1",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            },
+            {
+              "id": "p2",
+              "left": "Motivation",
+              "right": "The reason or reasons one has for acting or behaving in a particular way"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ in London for two days when we meet.",
+          "correct_answer": "will have been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He set himself goal a to run a marathon this year.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "potential"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "great"
+            },
+            {
+              "id": "w9",
+              "text": "one"
+            },
+            {
+              "id": "w5",
+              "text": "be"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w10",
+              "text": "day"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w6",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "leader"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I119",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She has the ambition to become the CEO.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I120",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The accomplishment of an aim or purpose\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Recognition"
+            },
+            {
+              "id": "o1",
+              "text": "Success"
+            },
+            {
+              "id": "o2",
+              "text": "Determination"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p1",
+              "left": "Potential",
+              "right": "Having or showing the capacity to become or develop into something"
+            },
+            {
+              "id": "p2",
+              "left": "Determination",
+              "right": "Firmness of purpose; resoluteness"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (save) ________ enough money for a car by next summer.",
+          "correct_answer": "will have saved",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"With hard work and determination, anyth is possible.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "effort"
+            },
+            {
+              "id": "w7",
+              "text": "and"
+            },
+            {
+              "id": "w6",
+              "text": "time"
+            },
+            {
+              "id": "w3",
+              "text": "overnight;"
+            },
+            {
+              "id": "w0",
+              "text": "Success"
+            },
+            {
+              "id": "w5",
+              "text": "takes"
+            },
+            {
+              "id": "w1",
+              "text": "doesn't"
+            },
+            {
+              "id": "w2",
+              "text": "happen"
+            },
+            {
+              "id": "w4",
+              "text": "it"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I125",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The team's victory was a great triumph after a difficult season.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Persistence in doing something despite difficulty\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Inspiration"
+            },
+            {
+              "id": "o2",
+              "text": "Resilience"
+            },
+            {
+              "id": "o1",
+              "text": "Perseverance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Goal",
+              "right": "The object of a person's ambition or effort"
+            },
+            {
+              "id": "p1",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            },
+            {
+              "id": "p2",
+              "left": "Motivation",
+              "right": "The reason or reasons one has for acting or behaving in a particular way"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (read) ________ the whole book by tonight.",
+          "correct_answer": "will have read",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"With hard work and determination, is anything possible.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "was"
+            },
+            {
+              "id": "w8",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "team's"
+            },
+            {
+              "id": "w9",
+              "text": "difficult"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "triumph"
+            },
+            {
+              "id": "w10",
+              "text": "season"
+            },
+            {
+              "id": "w5",
+              "text": "great"
+            },
+            {
+              "id": "w7",
+              "text": "after"
+            },
+            {
+              "id": "w2",
+              "text": "victory"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Perseverance is key to overcoming challenges.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The process of being mentally stimulated to do or feel something\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o3",
+              "text": "Milestone"
+            },
+            {
+              "id": "o1",
+              "text": "Inspiration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            },
+            {
+              "id": "p1",
+              "left": "Inspiration",
+              "right": "The process of being mentally stimulated to do or feel something"
+            },
+            {
+              "id": "p2",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Will they (reach) ________ their target by then?",
+          "correct_answer": "have reached",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Winning the award was a great accomplishment.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "received"
+            },
+            {
+              "id": "w6",
+              "text": "work"
+            },
+            {
+              "id": "w5",
+              "text": "hard"
+            },
+            {
+              "id": "w4",
+              "text": "his"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "recognition"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Perseverance is key to overcoming challenges.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I138",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The capacity to recover quickly from difficulties\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Resilience"
+            },
+            {
+              "id": "o3",
+              "text": "Success"
+            },
+            {
+              "id": "o2",
+              "text": "Perseverance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            },
+            {
+              "id": "p1",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p2",
+              "left": "Excellence",
+              "right": "The quality of being outstanding or extremely good"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By next year, I (finish) ________ my course.",
+          "correct_answer": "will have finished",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She showed resilience great after her business failed.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "great"
+            },
+            {
+              "id": "w6",
+              "text": "business"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w5",
+              "text": "her"
+            },
+            {
+              "id": "w4",
+              "text": "after"
+            },
+            {
+              "id": "w7",
+              "text": "failed"
+            },
+            {
+              "id": "w3",
+              "text": "resilience"
+            },
+            {
+              "id": "w1",
+              "text": "showed"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Her story is a great inspiration to many young people.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The reason or reasons one has for acting or behaving in a particular way\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Resilience"
+            },
+            {
+              "id": "o3",
+              "text": "Determination"
+            },
+            {
+              "id": "o1",
+              "text": "Motivation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Success",
+              "right": "The accomplishment of an aim or purpose"
+            },
+            {
+              "id": "p1",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p2",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I146",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (paint) ________ the whole room by the time you get home.",
+          "correct_answer": "will have painted",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Perseverance key is to overcoming challenges.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Her achievement was celebrated by the whole team.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I150",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The object of a person's ambition or effort\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Resilience"
+            },
+            {
+              "id": "o1",
+              "text": "Goal"
+            },
+            {
+              "id": "o2",
+              "text": "Triumph"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Motivation",
+              "right": "The reason or reasons one has for acting or behaving in a particular way"
+            },
+            {
+              "id": "p1",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p2",
+              "left": "Inspiration",
+              "right": "The process of being mentally stimulated to do or feel something"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (read) ________ the whole book by tonight.",
+          "correct_answer": "will have read",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The company is committed to achieving excellence in its products.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "motivation"
+            },
+            {
+              "id": "w6",
+              "text": "learning"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "main"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w7",
+              "text": "English?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I155",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He set himself a goal to run a marathon this year.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I156",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Persistence in doing something despite difficulty\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Perseverance"
+            },
+            {
+              "id": "o3",
+              "text": "Motivation"
+            },
+            {
+              "id": "o2",
+              "text": "Recognition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inspiration",
+              "right": "The process of being mentally stimulated to do or feel something"
+            },
+            {
+              "id": "p1",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            },
+            {
+              "id": "p2",
+              "left": "Goal",
+              "right": "The object of a person's ambition or effort"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I158",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (graduate) ________ from university by this time next year.",
+          "correct_answer": "will have graduated",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her story is a great inspiration to many young people.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Success"
+            },
+            {
+              "id": "w7",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "it"
+            },
+            {
+              "id": "w2",
+              "text": "happen"
+            },
+            {
+              "id": "w6",
+              "text": "time"
+            },
+            {
+              "id": "w3",
+              "text": "overnight;"
+            },
+            {
+              "id": "w5",
+              "text": "takes"
+            },
+            {
+              "id": "w1",
+              "text": "doesn't"
+            },
+            {
+              "id": "w8",
+              "text": "effort"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I161",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She showed great resilience after her business failed.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I162",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Persistence in doing something despite difficulty\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Resilience"
+            },
+            {
+              "id": "o3",
+              "text": "Ambition"
+            },
+            {
+              "id": "o1",
+              "text": "Perseverance"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p1",
+              "left": "Potential",
+              "right": "Having or showing the capacity to become or develop into something"
+            },
+            {
+              "id": "p2",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ in London for two days when we meet.",
+          "correct_answer": "will have been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"He set himself a goal run to a marathon this year.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "excellence"
+            },
+            {
+              "id": "w8",
+              "text": "its"
+            },
+            {
+              "id": "w3",
+              "text": "committed"
+            },
+            {
+              "id": "w9",
+              "text": "products"
+            },
+            {
+              "id": "w1",
+              "text": "company"
+            },
+            {
+              "id": "w7",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "achieving"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She has the ambition to become the CEO.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I168",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Having or showing the capacity to become or develop into something\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Resilience"
+            },
+            {
+              "id": "o3",
+              "text": "Goal"
+            },
+            {
+              "id": "o1",
+              "text": "Potential"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Potential",
+              "right": "Having or showing the capacity to become or develop into something"
+            },
+            {
+              "id": "p1",
+              "left": "Goal",
+              "right": "The object of a person's ambition or effort"
+            },
+            {
+              "id": "p2",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I170",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (write) ________ her report by the deadline.",
+          "correct_answer": "will have written",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She has the ambition to become the CEO.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w7",
+              "text": "CEO"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "ambition"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "become"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"He has the potential to be a great leader one day.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I174",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Firmness of purpose; resoluteness\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Determination"
+            },
+            {
+              "id": "o3",
+              "text": "Success"
+            },
+            {
+              "id": "o2",
+              "text": "Ambition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Goal",
+              "right": "The object of a person's ambition or effort"
+            },
+            {
+              "id": "p1",
+              "left": "Motivation",
+              "right": "The reason or reasons one has for acting or behaving in a particular way"
+            },
+            {
+              "id": "p2",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "He (be) ________ in London for two days when we meet.",
+          "correct_answer": "will have been",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She showed great resilience after her business failed.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "achievement"
+            },
+            {
+              "id": "w6",
+              "text": "whole"
+            },
+            {
+              "id": "w3",
+              "text": "celebrated"
+            },
+            {
+              "id": "w0",
+              "text": "Her"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "team"
+            },
+            {
+              "id": "w4",
+              "text": "by"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Perseverance is key to overcoming challenges.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A strong desire to do or achieve something\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ambition"
+            },
+            {
+              "id": "o2",
+              "text": "Motivation"
+            },
+            {
+              "id": "o3",
+              "text": "Success"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Accomplishment",
+              "right": "Something that has been achieved successfully"
+            },
+            {
+              "id": "p1",
+              "left": "Triumph",
+              "right": "A great victory or achievement"
+            },
+            {
+              "id": "p2",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By the time the show starts, the audience (take) ________ their seats.",
+          "correct_answer": "will have taken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Success doesn't happen overnight; it takes time and effort.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "accomplishment"
+            },
+            {
+              "id": "w5",
+              "text": "great"
+            },
+            {
+              "id": "w3",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Winning"
+            },
+            {
+              "id": "w2",
+              "text": "award"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I185",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Success doesn't happen overnight; it takes time and effort.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I186",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A great victory or achievement\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Achievement"
+            },
+            {
+              "id": "o1",
+              "text": "Triumph"
+            },
+            {
+              "id": "o3",
+              "text": "Accomplishment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Inspiration",
+              "right": "The process of being mentally stimulated to do or feel something"
+            },
+            {
+              "id": "p1",
+              "left": "Recognition",
+              "right": "Acknowledgment of something's existence or validity"
+            },
+            {
+              "id": "p2",
+              "left": "Achievement",
+              "right": "A thing done successfully, typically by effort"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "By next Sunday, we (live) ________ in our new house for a week.",
+          "correct_answer": "will have been living",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Her achievement celebrated was by the whole team.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "English?"
+            },
+            {
+              "id": "w3",
+              "text": "main"
+            },
+            {
+              "id": "w5",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w6",
+              "text": "learning"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "motivation"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I191",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The team's victory was a great triumph after a difficult season.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An action or event marking a significant stage in development\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Accomplishment"
+            },
+            {
+              "id": "o1",
+              "text": "Milestone"
+            },
+            {
+              "id": "o3",
+              "text": "Goal"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            },
+            {
+              "id": "p1",
+              "left": "Ambition",
+              "right": "A strong desire to do or achieve something"
+            },
+            {
+              "id": "p2",
+              "left": "Perseverance",
+              "right": "Persistence in doing something despite difficulty"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "She (work) ________ here for twenty years by December.",
+          "correct_answer": "will have worked",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Success doesn't happen overnight; it takes time and effort.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "university"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "milestone"
+            },
+            {
+              "id": "w1",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "major"
+            },
+            {
+              "id": "w0",
+              "text": "Graduating"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I197",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"With hard work and determination, anything is possible.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U30_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Acknowledgment of something's existence or validity\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Milestone"
+            },
+            {
+              "id": "o2",
+              "text": "Success"
+            },
+            {
+              "id": "o1",
+              "text": "Recognition"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Potential",
+              "right": "Having or showing the capacity to become or develop into something"
+            },
+            {
+              "id": "p1",
+              "left": "Milestone",
+              "right": "An action or event marking a significant stage in development"
+            },
+            {
+              "id": "p2",
+              "left": "Resilience",
+              "right": "The capacity to recover quickly from difficulties"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (read) ________ the whole book by tonight.",
+          "correct_answer": "will have read",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

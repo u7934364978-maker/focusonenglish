@@ -1,0 +1,947 @@
+        ,
+        {
+          "interaction_id": "U9_I101",
+          "type": "multiple_choice",
+          "prompt_es": "He ___ (fix) his bike yesterday.",
+          "options": [
+            { "id": "o1", "text": "fix" },
+            { "id": "o2", "text": "fixed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I102",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Viste la televisión?':",
+          "correct_answer": "Did you watch TV?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I103",
+          "type": "matching",
+          "prompt_es": "Pasados y significados:",
+          "pairs": [
+            { "id": "p1", "left": "Answered", "right": "Respondió" },
+            { "id": "p2", "left": "Asked", "right": "Preguntó" },
+            { "id": "p3", "left": "Called", "right": "Llamó" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I104",
+          "type": "true_false",
+          "prompt_es": "¿Doblamos la 'l' en 'Traveled' (UK)?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, en inglés británico se dobla: travelled.",
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I105",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (not play) football.",
+          "options": [
+            { "id": "o1", "text": "didn't play" },
+            { "id": "o2", "text": "didn't played" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She studied English for three years'",
+          "options": [
+            { "id": "w1", "text": "She" }, { "id": "w2", "text": "studied" }, { "id": "w3", "text": "English" }, { "id": "w4", "text": "for" }, { "id": "w5", "text": "three" }, { "id": "w6", "text": "years" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Did you ___ (talk) to Sam?",
+          "options": [
+            { "id": "o1", "text": "talk" },
+            { "id": "o2", "text": "talked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I108",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo no esperé':",
+          "correct_answer": "I didn't wait",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I109",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Cry", "right": "Cried" },
+            { "id": "p2", "left": "Try", "right": "Tried" },
+            { "id": "p3", "left": "Carry", "right": "Carried" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I110",
+          "type": "true_false",
+          "prompt_es": "¿'Loved' rima con 'Road'?",
+          "correct_answer": false,
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I111",
+          "type": "multiple_choice",
+          "prompt_es": "The bus ___ (stop) at the corner.",
+          "options": [
+            { "id": "o1", "text": "stoped" },
+            { "id": "o2", "text": "stopped" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I112",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Te gustó la cena?':",
+          "correct_answer": "Did you like dinner?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I113",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What did you cook yesterday?'",
+          "options": [
+            { "id": "w1", "text": "What" }, { "id": "w2", "text": "did" }, { "id": "w3", "text": "you" }, { "id": "w4", "text": "cook" }, { "id": "w5", "text": "yesterday" }, { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I114",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (work) all day yesterday.",
+          "options": [
+            { "id": "o1", "text": "work" },
+            { "id": "o2", "text": "worked" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I115",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'No llovió':",
+          "correct_answer": "It didn't rain",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I116",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Live", "right": "Lived" },
+            { "id": "p2", "left": "Die", "right": "Died" },
+            { "id": "p3", "left": "Use", "right": "Used" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I117",
+          "type": "true_false",
+          "prompt_es": "¿'Danced' termina en sonido /id/?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, termina en sonido /t/.",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I118",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (invite) us last week.",
+          "options": [
+            { "id": "o1", "text": "invited" },
+            { "id": "o2", "text": "invitied" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I119",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Did you enjoy the trip?'",
+          "options": [
+            { "id": "w1", "text": "Did" }, { "id": "w2", "text": "you" }, { "id": "w3", "text": "enjoy" }, { "id": "w4", "text": "the" }, { "id": "w5", "text": "trip" }, { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I120",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo cerré la puerta':",
+          "correct_answer": "I closed the door",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I121",
+          "type": "multiple_choice",
+          "prompt_es": "She ___ (phone) me an hour ago.",
+          "options": [
+            { "id": "o1", "text": "phone" },
+            { "id": "o2", "text": "phoned" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_time_ago_last"
+        },
+        {
+          "interaction_id": "U9_I122",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿A qué hora terminó?':",
+          "correct_answer": "What time did it finish?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I123",
+          "type": "matching",
+          "prompt_es": "Pronunciación de -ed:",
+          "pairs": [
+            { "id": "p1", "left": "Walked", "right": "/t/" },
+            { "id": "p2", "left": "Played", "right": "/d/" },
+            { "id": "p3", "left": "Started", "right": "/id/" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I124",
+          "type": "true_false",
+          "prompt_es": "¿'Happened' se pronuncia con tres sílabas?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, se pronuncia /'hæpənd/.",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I125",
+          "type": "multiple_choice",
+          "prompt_es": "It ___ (not rain) yesterday.",
+          "options": [
+            { "id": "o1", "text": "didn't rain" },
+            { "id": "o2", "text": "not rained" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I126",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'They lived in Paris in 2010'",
+          "options": [
+            { "id": "w1", "text": "They" }, { "id": "w2", "text": "lived" }, { "id": "w3", "text": "in" }, { "id": "w4", "text": "Paris" }, { "id": "w5", "text": "in" }, { "id": "w6", "text": "2010" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I127",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él me ayudó mucho':",
+          "correct_answer": "He helped me a lot",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I128",
+          "type": "multiple_choice",
+          "prompt_es": "Did they ___ (arrive) on time?",
+          "options": [
+            { "id": "o1", "text": "arrive" },
+            { "id": "o2", "text": "arrived" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I129",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Plan", "right": "Planned" },
+            { "id": "p2", "left": "Stop", "right": "Stopped" },
+            { "id": "p3", "left": "Rob", "right": "Robbed" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I130",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'Study' es 'Studied'?",
+          "correct_answer": true,
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I131",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (clean) my room last night.",
+          "options": [
+            { "id": "o1", "text": "clean" },
+            { "id": "o2", "text": "cleaned" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I132",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Por qué lloraste?':",
+          "correct_answer": "Why did you cry?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I133",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I didn't watch the news yesterday'",
+          "options": [
+            { "id": "w1", "text": "I" }, { "id": "w2", "text": "didn't" }, { "id": "w3", "text": "watch" }, { "id": "w4", "text": "the" }, { "id": "w5", "text": "news" }, { "id": "w6", "text": "yesterday" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I134",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (wait) for the bus.",
+          "options": [
+            { "id": "o1", "text": "wait" },
+            { "id": "o2", "text": "waited" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I135",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Ella me telefoneó':",
+          "correct_answer": "She phoned me",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I136",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Carry", "right": "Carried" },
+            { "id": "p2", "left": "Marry", "right": "Married" },
+            { "id": "p3", "left": "Hurry", "right": "Hurried" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I137",
+          "type": "true_false",
+          "prompt_es": "¿'Visited' rima con 'Started'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, ambos terminan en el sonido /id/.",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I138",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (not like) the cake.",
+          "options": [
+            { "id": "o1", "text": "didn't like" },
+            { "id": "o2", "text": "not liked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I139",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Where did you learn English?'",
+          "options": [
+            { "id": "w1", "text": "Where" }, { "id": "w2", "text": "did" }, { "id": "w3", "text": "you" }, { "id": "w4", "text": "learn" }, { "id": "w5", "text": "English" }, { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I140",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'No paró de llover':",
+          "correct_answer": "It didn't stop raining",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I141",
+          "type": "multiple_choice",
+          "prompt_es": "He ___ (open) the box.",
+          "options": [
+            { "id": "o1", "text": "open" },
+            { "id": "o2", "text": "opened" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I142",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Llamaste a tu madre?':",
+          "correct_answer": "Did you call your mother?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I143",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Enjoy", "right": "Enjoyed" },
+            { "id": "p2", "left": "Play", "right": "Played" },
+            { "id": "p3", "left": "Stay", "right": "Stayed" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I144",
+          "type": "true_false",
+          "prompt_es": "¿Usamos 'Did' para todas las personas (I, you, he...)?",
+          "correct_answer": true,
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I145",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (not answer) my email.",
+          "options": [
+            { "id": "o1", "text": "didn't answer" },
+            { "id": "o2", "text": "didn't answered" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I146",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What time did you arrive home?'",
+          "options": [
+            { "id": "w1", "text": "What" }, { "id": "w2", "text": "time" }, { "id": "w3", "text": "did" }, { "id": "w4", "text": "you" }, { "id": "w5", "text": "arrive" }, { "id": "w6", "text": "home" }, { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I147",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo caminé 5 km':",
+          "correct_answer": "I walked 5 km",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I148",
+          "type": "multiple_choice",
+          "prompt_es": "Did she ___ (finish) the report?",
+          "options": [
+            { "id": "o1", "text": "finish" },
+            { "id": "o2", "text": "finished" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I149",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Happen", "right": "Happened" },
+            { "id": "p2", "left": "Listen", "right": "Listened" },
+            { "id": "p3", "left": "Open", "right": "Opened" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I150",
+          "type": "true_false",
+          "prompt_es": "¿'Finished' termina en sonido /t/?",
+          "correct_answer": true,
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I151",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (study) math at school.",
+          "options": [
+            { "id": "o1", "text": "study" },
+            { "id": "o2", "text": "studied" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I152",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Qué estudiaste?':",
+          "correct_answer": "What did you study?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I153",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She didn't like the hotel'",
+          "options": [
+            { "id": "w1", "text": "She" }, { "id": "w2", "text": "didn't" }, { "id": "w3", "text": "like" }, { "id": "w4", "text": "the" }, { "id": "w5", "text": "hotel" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I154",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (dance) a lot last night.",
+          "options": [
+            { "id": "o1", "text": "dance" },
+            { "id": "o2", "text": "danced" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I155",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él me preguntó tu nombre':",
+          "correct_answer": "He asked me your name",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I156",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Try", "right": "Tried" },
+            { "id": "p2", "left": "Cry", "right": "Cried" },
+            { "id": "p3", "left": "Copy", "right": "Copied" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I157",
+          "type": "true_false",
+          "prompt_es": "¿'Stopped' tiene una sola 'p'?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, tiene dos 'p': stopped.",
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I158",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (invite) all their friends.",
+          "options": [
+            { "id": "o1", "text": "invited" },
+            { "id": "o2", "text": "invitied" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I159",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Did you use my phone?'",
+          "options": [
+            { "id": "w1", "text": "Did" }, { "id": "w2", "text": "you" }, { "id": "w3", "text": "use" }, { "id": "w4", "text": "my" }, { "id": "w5", "text": "phone" }, { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I160",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo limpié la cocina':",
+          "correct_answer": "I cleaned the kitchen",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I161",
+          "type": "multiple_choice",
+          "prompt_es": "He ___ (wash) the dishes.",
+          "options": [
+            { "id": "o1", "text": "wash" },
+            { "id": "o2", "text": "washed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I162",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Llovió ayer?':",
+          "correct_answer": "Did it rain yesterday?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I163",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Wait", "right": "Waited" },
+            { "id": "p2", "left": "Start", "right": "Started" },
+            { "id": "p3", "left": "Paint", "right": "Painted" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I164",
+          "type": "true_false",
+          "prompt_es": "¿'Loved' termina en sonido /id/?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, termina en sonido /d/.",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I165",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (not play) tennis.",
+          "options": [
+            { "id": "o1", "text": "didn't play" },
+            { "id": "o2", "text": "not played" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I finished my homework late'",
+          "options": [
+            { "id": "w1", "text": "I" }, { "id": "w2", "text": "finished" }, { "id": "w3", "text": "my" }, { "id": "w4", "text": "homework" }, { "id": "w5", "text": "late" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I167",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él me telefoneó anoche':",
+          "correct_answer": "He phoned me last night",
+          "mastery_tag": "past_time_ago_last"
+        },
+        {
+          "interaction_id": "U9_I168",
+          "type": "multiple_choice",
+          "prompt_es": "Did you ___ (watch) the film?",
+          "options": [
+            { "id": "o1", "text": "watch" },
+            { "id": "o2", "text": "watched" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I169",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Decide", "right": "Decided" },
+            { "id": "p2", "left": "Smile", "right": "Smiled" },
+            { "id": "p3", "left": "Live", "right": "Lived" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I170",
+          "type": "true_false",
+          "prompt_es": "¿'Visited' rima con 'Waited'?",
+          "correct_answer": true,
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I171",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (study) hard for the exam.",
+          "options": [
+            { "id": "o1", "text": "study" },
+            { "id": "o2", "text": "studied" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I172",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Qué cocinaste?':",
+          "correct_answer": "What did you cook?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I173",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She didn't answer my question'",
+          "options": [
+            { "id": "w1", "text": "She" }, { "id": "w2", "text": "didn't" }, { "id": "w3", "text": "answer" }, { "id": "w4", "text": "my" }, { "id": "w5", "text": "question" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I174",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (dance) all night.",
+          "options": [
+            { "id": "o1", "text": "dance" },
+            { "id": "o2", "text": "danced" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I175",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él me preguntó la hora':",
+          "correct_answer": "He asked me the time",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I176",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Try", "right": "Tried" },
+            { "id": "p2", "left": "Cry", "right": "Cried" },
+            { "id": "p3", "left": "Carry", "right": "Carried" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I177",
+          "type": "true_false",
+          "prompt_es": "¿'Stopped' tiene dos 'p'?",
+          "correct_answer": true,
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I178",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (invite) me.",
+          "options": [
+            { "id": "o1", "text": "invited" },
+            { "id": "o2", "text": "invitied" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I179",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Did you use the computer?'",
+          "options": [
+            { "id": "w1", "text": "Did" }, { "id": "w2", "text": "you" }, { "id": "w3", "text": "use" }, { "id": "w4", "text": "the" }, { "id": "w5", "text": "computer" }, { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I180",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo limpié mi coche':",
+          "correct_answer": "I cleaned my car",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I181",
+          "type": "multiple_choice",
+          "prompt_es": "He ___ (wash) his hair.",
+          "options": [
+            { "id": "o1", "text": "wash" },
+            { "id": "o2", "text": "washed" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I182",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Llovió ayer?':",
+          "correct_answer": "Did it rain yesterday?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I183",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Wait", "right": "Waited" },
+            { "id": "p2", "left": "Start", "right": "Started" },
+            { "id": "p3", "left": "Paint", "right": "Painted" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I184",
+          "type": "true_false",
+          "prompt_es": "¿'Loved' termina en sonido /id/?",
+          "correct_answer": false,
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I185",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (not play) chess.",
+          "options": [
+            { "id": "o1", "text": "didn't play" },
+            { "id": "o2", "text": "not played" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I186",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I finished my work early'",
+          "options": [
+            { "id": "w1", "text": "I" }, { "id": "w2", "text": "finished" }, { "id": "w3", "text": "my" }, { "id": "w4", "text": "work" }, { "id": "w5", "text": "early" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I187",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él me telefoneó ayer':",
+          "correct_answer": "He phoned me yesterday",
+          "mastery_tag": "past_time_ago_last"
+        },
+        {
+          "interaction_id": "U9_I188",
+          "type": "multiple_choice",
+          "prompt_es": "Did you ___ (watch) TV?",
+          "options": [
+            { "id": "o1", "text": "watch" },
+            { "id": "o2", "text": "watched" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I189",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Decide", "right": "Decided" },
+            { "id": "p2", "left": "Smile", "right": "Smiled" },
+            { "id": "p3", "left": "Live", "right": "Lived" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I190",
+          "type": "true_false",
+          "prompt_es": "¿'Visited' rima con 'Started'?",
+          "correct_answer": true,
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I191",
+          "type": "multiple_choice",
+          "prompt_es": "I ___ (study) French last year.",
+          "options": [
+            { "id": "o1", "text": "study" },
+            { "id": "o2", "text": "studied" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I192",
+          "type": "short_writing",
+          "prompt_es": "Escribe '¿Qué estudiaste en la escuela?':",
+          "correct_answer": "What did you study at school?",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I193",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She didn't like the food'",
+          "options": [
+            { "id": "w1", "text": "She" }, { "id": "w2", "text": "didn't" }, { "id": "w3", "text": "like" }, { "id": "w4", "text": "the" }, { "id": "w5", "text": "food" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I194",
+          "type": "multiple_choice",
+          "prompt_es": "We ___ (dance) together.",
+          "options": [
+            { "id": "o1", "text": "dance" },
+            { "id": "o2", "text": "danced" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I195",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Él me preguntó mi dirección':",
+          "correct_answer": "He asked me my address",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I196",
+          "type": "matching",
+          "prompt_es": "Verbos y pasados:",
+          "pairs": [
+            { "id": "p1", "left": "Try", "right": "Tried" },
+            { "id": "p2", "left": "Cry", "right": "Cried" },
+            { "id": "p3", "left": "Copy", "right": "Copied" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I197",
+          "type": "true_false",
+          "prompt_es": "¿'Stopped' se escribe con una 'p'?",
+          "correct_answer": false,
+          "mastery_tag": "past_spelling_rules"
+        },
+        {
+          "interaction_id": "U9_I198",
+          "type": "multiple_choice",
+          "prompt_es": "They ___ (invite) us to lunch.",
+          "options": [
+            { "id": "o1", "text": "invited" },
+            { "id": "o2", "text": "invitied" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I199",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Did you use the phone?'",
+          "options": [
+            { "id": "w1", "text": "Did" }, { "id": "w2", "text": "you" }, { "id": "w3", "text": "use" }, { "id": "w4", "text": "the" }, { "id": "w5", "text": "phone" }, { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U9_I200",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Yo limpié la ventana':",
+          "correct_answer": "I cleaned the window",
+          "mastery_tag": "past_simple_regular_verbs"
+        }

@@ -59,7 +59,7 @@ function SuccessContent() {
           Volver al Inicio
         </Link>
         <Link
-          href="/contact"
+          href="/contacto"
           className="inline-flex items-center justify-center bg-white text-amber-600 border-2 border-amber-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-50 transition-colors"
         >
           Contactar Soporte

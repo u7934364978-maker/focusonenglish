@@ -62,10 +62,10 @@ export const metadata: Metadata = {
     url: "https://focus-on-english.com",
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1200&h=630&fit=crop',
+        url: 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop',
         width: 1200,
         height: 630,
-        alt: 'Focus English - Cursos de Inglés Online en España',
+        alt: 'Focus English - Aprende inglés para el mundo real',
       }
     ],
   },
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Cursos de Inglés Online en España | Certificados Oficiales",
     description: "✓ Academia online en España ✓ Desde €6.99/mes ✓ Certificación oficial ✓ +2,500 estudiantes",
-    images: ['https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=1200&h=630&fit=crop'],
+    images: ['https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop'],
     site: "@focus_english",
     creator: "@focus_english",
   },
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: '/',
+    canonical: 'https://focus-on-english.com',
   },
 };
 

@@ -137,7 +137,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                       <div className="relative h-48 w-full overflow-hidden">
                         <Image
                           src={article.image}
-                          alt={article.title}
+                          alt={article.alt || article.title}
                           fill
                           className="object-cover group-hover:scale-105 transition-transform duration-500"
                         />

@@ -14,7 +14,7 @@ export function CTASection() {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link 
-            href="/diagnostico"
+            href="/test-nivel"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-white text-coral-600 font-black text-lg hover:shadow-2xl hover:scale-105 transition-all"
           >
             Hacer Test de Nivel Gratis
@@ -24,7 +24,7 @@ export function CTASection() {
           </Link>
           
           <Link 
-            href="/cursos-especializados"
+            href="/cursos"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-white text-white font-black text-lg hover:bg-white hover:text-coral-600 transition-all"
           >
             Explorar Cursos

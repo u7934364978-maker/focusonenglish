@@ -76,16 +76,6 @@ export default function SpeakingPart4({
               <span>Instrucciones:</span>
             </h3>
             <p className="text-slate-700 mb-4">{instructions}</p>
-            
-            <div className="bg-indigo-50 rounded-lg p-4 border border-indigo-200">
-              <h4 className="font-semibold text-indigo-900 mb-2">⏱️ Duración:</h4>
-              <p className="text-slate-700">
-                <strong>4 minutos</strong> de discusión sobre el tema: <em>{topic}</em>
-              </p>
-              <p className="text-sm text-slate-600 mt-2">
-                {questions.length} preguntas, aproximadamente {Math.floor((timeLimit || 240) / questions.length)} segundos cada una
-              </p>
-            </div>
           </div>
 
           <div className="bg-amber-50 rounded-lg p-6 border border-amber-200 mb-6">
@@ -164,7 +154,7 @@ export default function SpeakingPart4({
       <div className="bg-white rounded-lg border-2 border-indigo-200 p-4">
         <div className="flex items-center justify-between mb-2">
           <span className="text-sm font-semibold text-indigo-900">
-            Pregunta {currentQuestionIndex + 1} de {questions.length}
+            Progress
           </span>
           <span className="text-sm text-slate-600 bg-indigo-50 px-3 py-1 rounded-full">
             {currentQuestion.topic}
@@ -197,12 +187,6 @@ export default function SpeakingPart4({
                 {currentQuestion.question}
               </h3>
             </div>
-          </div>
-
-          <div className="bg-indigo-50 rounded-lg p-4 border border-indigo-200">
-            <p className="text-sm text-slate-700">
-              <span className="font-semibold">Duración sugerida:</span> {currentQuestion.suggestedDuration} segundos
-            </p>
           </div>
         </div>
 

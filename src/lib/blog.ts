@@ -15,6 +15,7 @@ export interface BlogPost {
   category: string;
   readTime: string;
   image?: string;
+  alt?: string;
   keywords?: string[];
   faqs?: { question: string, answer: string }[];
   featured?: boolean;
@@ -57,6 +58,7 @@ export function getBlogArticles(): BlogPost[] {
       category: data.category || "General",
       readTime: data.readTime || "5 min",
       image: data.image,
+      alt: data.alt,
       keywords: data.keywords || [],
       faqs: data.faqs || [],
       featured: data.featured || false,

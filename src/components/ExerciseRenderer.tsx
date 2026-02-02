@@ -7,8 +7,11 @@ import EnhancedFeedback from './course/EnhancedFeedback';
 import SpeakingExercise from './SpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
+import FlashcardExercise from './exercises/FlashcardExercise';
+import DragDropExercise from './exercises/DragDropExercise';
 import type { MultipleChoiceEvaluationResponse, TextAnswerEvaluationResponse } from '@/lib/exercise-types';
 import { useGamification } from '@/lib/hooks/use-gamification';
+import { updateSRSItem } from '@/lib/srs';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -154,7 +157,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
   const handleNext = () => {
     // ✅ NO resetear el estado aquí - mantener la respuesta visible
     // El reset se hará automáticamente cuando cambie el exercise.id en useEffect
-    onComplete();
+    onComplete(isCorrect ? 100 : 0);
   };
 
   const renderExerciseContent = () => {
@@ -222,6 +225,61 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
                 setShowConfetti(false);
                 onComplete();
               }, 3000);
+            }} 
+          />
+        </div>
+      );
+    }
+
+    // Flashcard exercise
+    if (exercise.type === 'flashcard') {
+      return (
+        <div className={`transition-all duration-300 ${
+          isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
+        }`}>
+          <FlashcardExercise 
+            content={exercise.content as any} 
+            onComplete={async (quality) => {
+              if (quality >= 4) setShowConfetti(true);
+              
+              // Update SRS for flashcards
+              await updateSRSItem(
+                exercise.id, 
+                'vocabulary', 
+                exercise.content, 
+                quality
+              );
+
+              completeExercise(exercise.id, quality, 5);
+              setTimeout(() => {
+                setShowConfetti(false);
+                onComplete((quality / 5) * 100);
+              }, 2000);
+            }} 
+          />
+        </div>
+      );
+    }
+
+    // Drag and Drop exercise
+    if (exercise.type === 'drag-drop') {
+      return (
+        <div className={`transition-all duration-300 ${
+          isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
+        }`}>
+          <DragDropExercise 
+            content={exercise.content as any} 
+            onComplete={(isCorrect) => {
+              if (isCorrect) {
+                setShowConfetti(true);
+                completeExercise(exercise.id, 1, 1);
+                setTimeout(() => {
+                  setShowConfetti(false);
+                  onComplete(100);
+                }, 3000);
+              } else {
+                onComplete(0);
+              }
             }} 
           />
         </div>
@@ -488,7 +546,7 @@ export default function ExerciseRenderer({ exercise, onComplete }: ExerciseRende
       <div className="mt-6 bg-white rounded-lg shadow p-4 border border-gray-200">
         <div className="flex items-center justify-between text-sm text-gray-600">
           <span>⏱️ Tiempo estimado: {exercise.estimatedTime} minutos</span>
-          <span>📅 {exercise.createdAt.toLocaleDateString()}</span>
+          <span>📅 {exercise.createdAt ? (exercise.createdAt instanceof Date ? exercise.createdAt.toLocaleDateString() : new Date(exercise.createdAt).toLocaleDateString()) : new Date().toLocaleDateString()}</span>
         </div>
       </div>
     </div>

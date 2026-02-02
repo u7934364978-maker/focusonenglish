@@ -25,7 +25,7 @@ export async function sendPasswordResetEmail(
   }
 
   try {
-    const resetUrl = `${process.env.NEXTAUTH_URL}/reset-password?token=${resetToken}`;
+    const resetUrl = `${process.env.NEXTAUTH_URL}/cuenta/resetear?token=${resetToken}`;
 
     const { data, error } = await resend.emails.send({
       from: 'Focus English <noreply@focus-on-english.com>',
@@ -239,7 +239,7 @@ export async function sendPasswordChangedEmail(
               </p>
               
               <p style="text-align: center; margin: 20px 0;">
-                <a href="${process.env.NEXTAUTH_URL}/login" style="display: inline-block; background: #10b981; color: white; padding: 12px 30px; text-decoration: none; border-radius: 6px; font-weight: 600;">
+                <a href="${process.env.NEXTAUTH_URL}/cuenta/login" style="display: inline-block; background: #10b981; color: white; padding: 12px 30px; text-decoration: none; border-radius: 6px; font-weight: 600;">
                   Iniciar Sesión
                 </a>
               </p>

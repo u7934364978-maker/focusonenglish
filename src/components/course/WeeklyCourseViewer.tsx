@@ -217,9 +217,6 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
             </CardHeader>
             <CardContent className="space-y-4">
               <Progress value={progressPercentage} className="h-2" />
-              <p className="text-sm text-slate-500 font-medium text-center">
-                {completedCount} of {totalActivities} activities completed
-              </p>
             </CardContent>
           </Card>
 
@@ -301,10 +298,6 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
                           </div>
                         </div>
                         <div className="flex items-center gap-3">
-                          <div className="flex items-center gap-1 text-slate-400 text-sm font-bold">
-                            <Clock className="w-4 h-4" />
-                            {activity.minutes} min
-                          </div>
                           <Button 
                             onClick={() => setActiveActivityId(activity.id)}
                             variant={isCompleted ? "secondary" : "outline"} 

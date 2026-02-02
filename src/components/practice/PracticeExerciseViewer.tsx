@@ -192,7 +192,7 @@ export default function PracticeExerciseViewer({
         </div>
       </div>
 
-      {/* Contenido principal - tipo Duolingo */}
+      {/* Contenido principal - tipo Premium */}
       <div className="flex-1 flex items-center justify-center px-4 py-8">
         <div className="w-full max-w-2xl">
           {/* Título del ejercicio */}

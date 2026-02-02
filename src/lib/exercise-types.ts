@@ -65,7 +65,9 @@ export type ExerciseType =
   | 'key-word-transformations'
   | 'gapped-text'
   | 'multiple-matching'
-  | 'situational-discovery';
+  | 'situational-discovery'
+  | 'flashcard'
+  | 'drag-drop';
 
 export type DifficultyLevel = 'easy' | 'medium' | 'hard';
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';

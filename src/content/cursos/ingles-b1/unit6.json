@@ -1,0 +1,4825 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U6",
+    "unit_title": "Media and Entertainment",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 Media and Entertainment vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_6_PRACTICE",
+      "title": "B1 Practice: Media and Entertainment",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U6_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p1",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p2",
+              "left": "Episode",
+              "right": "A section of a television or radio serial"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The music (compose) ________ specifically for the film.",
+          "correct_answer": "was composed",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wants to study journalism at university.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "audience"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "cheered"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "end"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "show"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Streaming services have changed how we consume media.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A critical evaluation of a book or film\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Audience"
+            },
+            {
+              "id": "o1",
+              "text": "Review"
+            },
+            {
+              "id": "o2",
+              "text": "Documentary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            },
+            {
+              "id": "p1",
+              "left": "Headline",
+              "right": "A heading at the top of an article"
+            },
+            {
+              "id": "p2",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (miss) ________ the show, you can watch it online.",
+          "correct_answer": "miss",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We watched an interesting documentary about space exploration.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "unexpected"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            },
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She wants to study journalism at university.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The main events of a play, movie, or novel\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plot"
+            },
+            {
+              "id": "o3",
+              "text": "Producer"
+            },
+            {
+              "id": "o2",
+              "text": "Scriptwriter"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p1",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            },
+            {
+              "id": "p2",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Millions of emails (send) ________ every day.",
+          "correct_answer": "are sent",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wants to study journalism at university.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            },
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w8",
+              "text": "unexpected"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We watched an interesting documentary about space exploration.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A film or program providing a factual record\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Episode"
+            },
+            {
+              "id": "o3",
+              "text": "Genre"
+            },
+            {
+              "id": "o1",
+              "text": "Documentary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Audience",
+              "right": "The people who watch or listen to something"
+            },
+            {
+              "id": "p1",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p2",
+              "left": "Scriptwriter",
+              "right": "A person who writes the text for a play or movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Spanish (speak) ________ in many countries.",
+          "correct_answer": "is spoken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The main character in the is story a brave young woman.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w7",
+              "text": "or"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w8",
+              "text": "cinema?"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I can't wait for the next episode of my favorite series.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The main events of a play, movie, or novel\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plot"
+            },
+            {
+              "id": "o2",
+              "text": "Scriptwriter"
+            },
+            {
+              "id": "o3",
+              "text": "Producer"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Streaming",
+              "right": "A method of transmitting or receiving data over the web"
+            },
+            {
+              "id": "p1",
+              "left": "Subtitles",
+              "right": "Captions displayed at the bottom of a movie"
+            },
+            {
+              "id": "p2",
+              "left": "Scriptwriter",
+              "right": "A person who writes the text for a play or movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "These cars (make) ________ in Germany.",
+          "correct_answer": "are made",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your favorite genre of music or cinema?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "scriptwriter"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "developing"
+            },
+            {
+              "id": "w2",
+              "text": "spent"
+            },
+            {
+              "id": "w3",
+              "text": "months"
+            },
+            {
+              "id": "w6",
+              "text": "dialogue"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The main character in the story is a brave young woman.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A heading at the top of an article\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Documentary"
+            },
+            {
+              "id": "o1",
+              "text": "Headline"
+            },
+            {
+              "id": "o2",
+              "text": "Streaming"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p1",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            },
+            {
+              "id": "p2",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The movie (direct) ________ by Spielberg.",
+          "correct_answer": "was directed",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Streaming services have changed how we consume media.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "developing"
+            },
+            {
+              "id": "w2",
+              "text": "spent"
+            },
+            {
+              "id": "w1",
+              "text": "scriptwriter"
+            },
+            {
+              "id": "w6",
+              "text": "dialogue"
+            },
+            {
+              "id": "w3",
+              "text": "months"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I read a very positive review of the new movie.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Producer"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            },
+            {
+              "id": "o2",
+              "text": "Documentary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Audience",
+              "right": "The people who watch or listen to something"
+            },
+            {
+              "id": "p1",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            },
+            {
+              "id": "p2",
+              "left": "Scriptwriter",
+              "right": "A person who writes the text for a play or movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I38",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (see/never) ________ such a scary film.",
+          "correct_answer": "have never seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We watched an interesting about documentary space exploration.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "unexpected"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The presenter was very charismatic and engaging.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A heading at the top of an article\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headline"
+            },
+            {
+              "id": "o2",
+              "text": "Review"
+            },
+            {
+              "id": "o3",
+              "text": "Scriptwriter"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            },
+            {
+              "id": "p1",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p2",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Coffee (grow) ________ in Brazil.",
+          "correct_answer": "is grown",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The main character in the is story a brave young woman.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "watched"
+            },
+            {
+              "id": "w4",
+              "text": "documentary"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "space"
+            },
+            {
+              "id": "w7",
+              "text": "exploration"
+            },
+            {
+              "id": "w3",
+              "text": "interesting"
+            },
+            {
+              "id": "w2",
+              "text": "an"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The headline caught everyone's attention.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A person responsible for the financial aspects\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Journalism"
+            },
+            {
+              "id": "o3",
+              "text": "Scriptwriter"
+            },
+            {
+              "id": "o1",
+              "text": "Producer"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p1",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            },
+            {
+              "id": "p2",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "These cars (make) ________ in Germany.",
+          "correct_answer": "are made",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The presenter was very and charismatic engaging.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "cinema?"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w7",
+              "text": "or"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I prefer watching foreign films with subtitles.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person who writes the text for a play or movie\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Episode"
+            },
+            {
+              "id": "o3",
+              "text": "Producer"
+            },
+            {
+              "id": "o1",
+              "text": "Scriptwriter"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p1",
+              "left": "Audience",
+              "right": "The people who watch or listen to something"
+            },
+            {
+              "id": "p2",
+              "left": "Streaming",
+              "right": "A method of transmitting or receiving data over the web"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I56",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (see/never) ________ such a scary film.",
+          "correct_answer": "have never seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The main character in the story is a brave young woman.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w9",
+              "text": "young"
+            },
+            {
+              "id": "w8",
+              "text": "brave"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w10",
+              "text": "woman"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "main"
+            },
+            {
+              "id": "w5",
+              "text": "story"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "character"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The scriptwriter spent months developing the dialogue.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Scriptwriter"
+            },
+            {
+              "id": "o2",
+              "text": "Journalism"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Episode",
+              "right": "A section of a television or radio serial"
+            },
+            {
+              "id": "p1",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p2",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I62",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Millions of emails (send) ________ every day.",
+          "correct_answer": "are sent",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I can't for wait the next episode of my favorite series.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w6",
+              "text": "engaging"
+            },
+            {
+              "id": "w1",
+              "text": "presenter"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "charismatic"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She wants to study journalism at university.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"To transmit by radio or television\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Broadcast"
+            },
+            {
+              "id": "o2",
+              "text": "Journalism"
+            },
+            {
+              "id": "o3",
+              "text": "Producer"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            },
+            {
+              "id": "p1",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p2",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I68",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (see/never) ________ such a scary film.",
+          "correct_answer": "have never seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The plot of the thriller was of full unexpected twists.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "services"
+            },
+            {
+              "id": "w6",
+              "text": "consume"
+            },
+            {
+              "id": "w3",
+              "text": "changed"
+            },
+            {
+              "id": "w7",
+              "text": "media"
+            },
+            {
+              "id": "w4",
+              "text": "how"
+            },
+            {
+              "id": "w5",
+              "text": "we"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "Streaming"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The scriptwriter spent months developing the dialogue.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A critical evaluation of a book or film\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Producer"
+            },
+            {
+              "id": "o3",
+              "text": "Genre"
+            },
+            {
+              "id": "o1",
+              "text": "Review"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            },
+            {
+              "id": "p1",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            },
+            {
+              "id": "p2",
+              "left": "Subtitles",
+              "right": "Captions displayed at the bottom of a movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I74",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The news (watch) ________ by millions of people.",
+          "correct_answer": "is watched",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your favorite genre of music or cinema?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            },
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w8",
+              "text": "unexpected"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The presenter was very charismatic and engaging.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person in a novel, play, or movie\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Headline"
+            },
+            {
+              "id": "o1",
+              "text": "Character"
+            },
+            {
+              "id": "o2",
+              "text": "Plot"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            },
+            {
+              "id": "p1",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p2",
+              "left": "Episode",
+              "right": "A section of a television or radio serial"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I80",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Millions of emails (send) ________ every day.",
+          "correct_answer": "are sent",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We watched interesting an documentary about space exploration.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "media"
+            },
+            {
+              "id": "w4",
+              "text": "how"
+            },
+            {
+              "id": "w3",
+              "text": "changed"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w1",
+              "text": "services"
+            },
+            {
+              "id": "w6",
+              "text": "consume"
+            },
+            {
+              "id": "w5",
+              "text": "we"
+            },
+            {
+              "id": "w0",
+              "text": "Streaming"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She wants to study journalism at university.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Episode"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            },
+            {
+              "id": "o2",
+              "text": "Streaming"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            },
+            {
+              "id": "p1",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            },
+            {
+              "id": "p2",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I86",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Millions of emails (send) ________ every day.",
+          "correct_answer": "are sent",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The main character in the story is a brave young woman.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "documentary"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "interesting"
+            },
+            {
+              "id": "w1",
+              "text": "watched"
+            },
+            {
+              "id": "w7",
+              "text": "exploration"
+            },
+            {
+              "id": "w2",
+              "text": "an"
+            },
+            {
+              "id": "w6",
+              "text": "space"
+            },
+            {
+              "id": "w5",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The main character in the story is a brave young woman.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Presenter"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            },
+            {
+              "id": "o3",
+              "text": "Headline"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            },
+            {
+              "id": "p1",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p2",
+              "left": "Subtitles",
+              "right": "Captions displayed at the bottom of a movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The movie (direct) ________ by Spielberg.",
+          "correct_answer": "was directed",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I prefer watching foreign films with subtitles.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "TV"
+            },
+            {
+              "id": "w4",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "was"
+            },
+            {
+              "id": "w1",
+              "text": "documentary"
+            },
+            {
+              "id": "w5",
+              "text": "national"
+            },
+            {
+              "id": "w3",
+              "text": "broadcast"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The plot of the thriller was full of unexpected twists.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A category of artistic composition\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Subtitles"
+            },
+            {
+              "id": "o1",
+              "text": "Genre"
+            },
+            {
+              "id": "o2",
+              "text": "Episode"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Headline",
+              "right": "A heading at the top of an article"
+            },
+            {
+              "id": "p1",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p2",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (film) ________ a new documentary in the city.",
+          "correct_answer": "are filming",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Streaming services has changed how we consume media.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w8",
+              "text": "unexpected"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I read a very positive review of the new movie.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I102",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A person in a novel, play, or movie\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Character"
+            },
+            {
+              "id": "o3",
+              "text": "Genre"
+            },
+            {
+              "id": "o2",
+              "text": "Audience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            },
+            {
+              "id": "p1",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            },
+            {
+              "id": "p2",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (film) ________ a new documentary in the city.",
+          "correct_answer": "are filming",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The headline caught everyone's attention.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w8",
+              "text": "unexpected"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            },
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She wants to study journalism at university.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I108",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"To transmit by radio or television\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Plot"
+            },
+            {
+              "id": "o1",
+              "text": "Broadcast"
+            },
+            {
+              "id": "o2",
+              "text": "Streaming"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Streaming",
+              "right": "A method of transmitting or receiving data over the web"
+            },
+            {
+              "id": "p1",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            },
+            {
+              "id": "p2",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I110",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (like/not) ________ reality shows.",
+          "correct_answer": "doesn't like",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The plot of the thriller was full unexpected of twists.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "film"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "or"
+            },
+            {
+              "id": "w4",
+              "text": "make"
+            },
+            {
+              "id": "w3",
+              "text": "can"
+            },
+            {
+              "id": "w9",
+              "text": "project"
+            },
+            {
+              "id": "w2",
+              "text": "producer"
+            },
+            {
+              "id": "w6",
+              "text": "break"
+            },
+            {
+              "id": "w1",
+              "text": "good"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The main character in the story is a brave young woman.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I114",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A person responsible for the financial aspects\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Presenter"
+            },
+            {
+              "id": "o1",
+              "text": "Producer"
+            },
+            {
+              "id": "o3",
+              "text": "Broadcast"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            },
+            {
+              "id": "p1",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p2",
+              "left": "Episode",
+              "right": "A section of a television or radio serial"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "If you (miss) ________ the show, you can watch it online.",
+          "correct_answer": "miss",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I read a very positive of review the new movie.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "developing"
+            },
+            {
+              "id": "w3",
+              "text": "months"
+            },
+            {
+              "id": "w2",
+              "text": "spent"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "dialogue"
+            },
+            {
+              "id": "w1",
+              "text": "scriptwriter"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I119",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is your favorite genre of music or cinema?\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I120",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The main events of a play, movie, or novel\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Producer"
+            },
+            {
+              "id": "o1",
+              "text": "Plot"
+            },
+            {
+              "id": "o2",
+              "text": "Broadcast"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Headline",
+              "right": "A heading at the top of an article"
+            },
+            {
+              "id": "p1",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            },
+            {
+              "id": "p2",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Millions of emails (send) ________ every day.",
+          "correct_answer": "are sent",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Stream services have changed how we consume media.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "media"
+            },
+            {
+              "id": "w0",
+              "text": "Streaming"
+            },
+            {
+              "id": "w4",
+              "text": "how"
+            },
+            {
+              "id": "w1",
+              "text": "services"
+            },
+            {
+              "id": "w5",
+              "text": "we"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w6",
+              "text": "consume"
+            },
+            {
+              "id": "w3",
+              "text": "changed"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I125",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The plot of the thriller was full of unexpected twists.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The activity of gathering and presenting news\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Audience"
+            },
+            {
+              "id": "o1",
+              "text": "Journalism"
+            },
+            {
+              "id": "o2",
+              "text": "Headline"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Scriptwriter",
+              "right": "A person who writes the text for a play or movie"
+            },
+            {
+              "id": "p1",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            },
+            {
+              "id": "p2",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "These cars (make) ________ in Germany.",
+          "correct_answer": "are made",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We watched an interesting documentary about space exploration.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "scriptwriter"
+            },
+            {
+              "id": "w6",
+              "text": "dialogue"
+            },
+            {
+              "id": "w2",
+              "text": "spent"
+            },
+            {
+              "id": "w4",
+              "text": "developing"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "months"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She wants to study journalism at university.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I132",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A critical evaluation of a book or film\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Review"
+            },
+            {
+              "id": "o3",
+              "text": "Headline"
+            },
+            {
+              "id": "o2",
+              "text": "Character"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p1",
+              "left": "Streaming",
+              "right": "A method of transmitting or receiving data over the web"
+            },
+            {
+              "id": "p2",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I134",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The news (watch) ________ by millions of people.",
+          "correct_answer": "is watched",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Streaming services have how changed we consume media.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "watching"
+            },
+            {
+              "id": "w5",
+              "text": "with"
+            },
+            {
+              "id": "w1",
+              "text": "prefer"
+            },
+            {
+              "id": "w4",
+              "text": "films"
+            },
+            {
+              "id": "w6",
+              "text": "subtitles"
+            },
+            {
+              "id": "w3",
+              "text": "foreign"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I can't wait for the next episode of my favorite series.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Captions displayed at the bottom of a movie\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Subtitles"
+            },
+            {
+              "id": "o2",
+              "text": "Broadcast"
+            },
+            {
+              "id": "o3",
+              "text": "Character"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            },
+            {
+              "id": "p1",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p2",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I140",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The actors (practice) ________ their lines all day.",
+          "correct_answer": "have been practicing",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your favorite genre of music or cinema?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "brave"
+            },
+            {
+              "id": "w1",
+              "text": "main"
+            },
+            {
+              "id": "w7",
+              "text": "a"
+            },
+            {
+              "id": "w10",
+              "text": "woman"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "character"
+            },
+            {
+              "id": "w6",
+              "text": "is"
+            },
+            {
+              "id": "w9",
+              "text": "young"
+            },
+            {
+              "id": "w5",
+              "text": "story"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I can't wait for the next episode of my favorite series.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I144",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The people who watch or listen to something\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Presenter"
+            },
+            {
+              "id": "o1",
+              "text": "Audience"
+            },
+            {
+              "id": "o2",
+              "text": "Review"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            },
+            {
+              "id": "p1",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p2",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I146",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (like/not) ________ reality shows.",
+          "correct_answer": "doesn't like",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wants to journalism study at university.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w8",
+              "text": "cinema?"
+            },
+            {
+              "id": "w7",
+              "text": "or"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The presenter was very charismatic and engaging.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A heading at the top of an article\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headline"
+            },
+            {
+              "id": "o3",
+              "text": "Audience"
+            },
+            {
+              "id": "o2",
+              "text": "Journalism"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Streaming",
+              "right": "A method of transmitting or receiving data over the web"
+            },
+            {
+              "id": "p1",
+              "left": "Episode",
+              "right": "A section of a television or radio serial"
+            },
+            {
+              "id": "p2",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I152",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (see/never) ________ such a scary film.",
+          "correct_answer": "have never seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The plot the of thriller was full of unexpected twists.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "or"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w8",
+              "text": "cinema?"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I155",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The headline caught everyone's attention.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I156",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The activity of gathering and presenting news\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Subtitles"
+            },
+            {
+              "id": "o3",
+              "text": "Headline"
+            },
+            {
+              "id": "o1",
+              "text": "Journalism"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            },
+            {
+              "id": "p1",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            },
+            {
+              "id": "p2",
+              "left": "Presenter",
+              "right": "A person who introduces a television or radio program"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I158",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "Have you (meet/ever) ________ a famous celebrity?",
+          "correct_answer": "ever met",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wants to study journalism at university.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "months"
+            },
+            {
+              "id": "w2",
+              "text": "spent"
+            },
+            {
+              "id": "w4",
+              "text": "developing"
+            },
+            {
+              "id": "w1",
+              "text": "scriptwriter"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "dialogue"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I161",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is your favorite genre of music or cinema?\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I162",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A person who writes the text for a play or movie\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Audience"
+            },
+            {
+              "id": "o2",
+              "text": "Streaming"
+            },
+            {
+              "id": "o1",
+              "text": "Scriptwriter"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            },
+            {
+              "id": "p1",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            },
+            {
+              "id": "p2",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The music (compose) ________ specifically for the film.",
+          "correct_answer": "was composed",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"I read a very positive review of the new movie.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w1",
+              "text": "services"
+            },
+            {
+              "id": "w3",
+              "text": "changed"
+            },
+            {
+              "id": "w6",
+              "text": "consume"
+            },
+            {
+              "id": "w7",
+              "text": "media"
+            },
+            {
+              "id": "w0",
+              "text": "Streaming"
+            },
+            {
+              "id": "w4",
+              "text": "how"
+            },
+            {
+              "id": "w5",
+              "text": "we"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"What is your favorite genre of music or cinema?\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I168",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A section of a television or radio serial\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Episode"
+            },
+            {
+              "id": "o2",
+              "text": "Audience"
+            },
+            {
+              "id": "o3",
+              "text": "Plot"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Headline",
+              "right": "A heading at the top of an article"
+            },
+            {
+              "id": "p1",
+              "left": "Audience",
+              "right": "The people who watch or listen to something"
+            },
+            {
+              "id": "p2",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I170",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "He (like/not) ________ reality shows.",
+          "correct_answer": "doesn't like",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"What is your favorite genre of music or cinema?\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "prefer"
+            },
+            {
+              "id": "w2",
+              "text": "watching"
+            },
+            {
+              "id": "w4",
+              "text": "films"
+            },
+            {
+              "id": "w6",
+              "text": "subtitles"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "foreign"
+            },
+            {
+              "id": "w5",
+              "text": "with"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We watched an interesting documentary about space exploration.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I174",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A person who introduces a television or radio program\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Plot"
+            },
+            {
+              "id": "o3",
+              "text": "Review"
+            },
+            {
+              "id": "o1",
+              "text": "Presenter"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Episode",
+              "right": "A section of a television or radio serial"
+            },
+            {
+              "id": "p1",
+              "left": "Subtitles",
+              "right": "Captions displayed at the bottom of a movie"
+            },
+            {
+              "id": "p2",
+              "left": "Producer",
+              "right": "A person responsible for the financial aspects"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I176",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Spanish (speak) ________ in many countries.",
+          "correct_answer": "is spoken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We watched an interesting about documentary space exploration.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w8",
+              "text": "cinema?"
+            },
+            {
+              "id": "w7",
+              "text": "or"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"She wants to study journalism at university.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I180",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The main events of a play, movie, or novel\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plot"
+            },
+            {
+              "id": "o3",
+              "text": "Scriptwriter"
+            },
+            {
+              "id": "o2",
+              "text": "Presenter"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p1",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            },
+            {
+              "id": "p2",
+              "left": "Journalism",
+              "right": "The activity of gathering and presenting news"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "We (go) ________ to the cinema next Friday.",
+          "correct_answer": "are going",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The scriptwriter spent months developing dialogue. the\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "end"
+            },
+            {
+              "id": "w8",
+              "text": "show"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w1",
+              "text": "audience"
+            },
+            {
+              "id": "w2",
+              "text": "cheered"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I185",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"I can't wait for the next episode of my favorite series.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I186",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Captions displayed at the bottom of a movie\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Subtitles"
+            },
+            {
+              "id": "o2",
+              "text": "Streaming"
+            },
+            {
+              "id": "o3",
+              "text": "Audience"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Character",
+              "right": "A person in a novel, play, or movie"
+            },
+            {
+              "id": "p1",
+              "left": "Documentary",
+              "right": "A film or program providing a factual record"
+            },
+            {
+              "id": "p2",
+              "left": "Plot",
+              "right": "The main events of a play, movie, or novel"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I188",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I (see/never) ________ such a scary film.",
+          "correct_answer": "have never seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wants to study journalism university. at\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "unexpected"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w9",
+              "text": "twists"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "full"
+            },
+            {
+              "id": "w1",
+              "text": "plot"
+            },
+            {
+              "id": "w5",
+              "text": "was"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "thriller"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I191",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We watched an interesting documentary about space exploration.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I192",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A person responsible for the financial aspects\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Review"
+            },
+            {
+              "id": "o1",
+              "text": "Producer"
+            },
+            {
+              "id": "o3",
+              "text": "Documentary"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Audience",
+              "right": "The people who watch or listen to something"
+            },
+            {
+              "id": "p1",
+              "left": "Genre",
+              "right": "A category of artistic composition"
+            },
+            {
+              "id": "p2",
+              "left": "Scriptwriter",
+              "right": "A person who writes the text for a play or movie"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Spanish (speak) ________ in many countries.",
+          "correct_answer": "is spoken",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wants to study journalism at university.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "music"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w8",
+              "text": "cinema?"
+            },
+            {
+              "id": "w4",
+              "text": "genre"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w7",
+              "text": "or"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U6_I197",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The plot of the thriller was full of unexpected twists.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I198",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A heading at the top of an article\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headline"
+            },
+            {
+              "id": "o2",
+              "text": "Presenter"
+            },
+            {
+              "id": "o3",
+              "text": "Character"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Review",
+              "right": "A critical evaluation of a book or film"
+            },
+            {
+              "id": "p1",
+              "left": "Subtitles",
+              "right": "Captions displayed at the bottom of a movie"
+            },
+            {
+              "id": "p2",
+              "left": "Broadcast",
+              "right": "To transmit by radio or television"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I200",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "They (film) ________ a new documentary in the city.",
+          "correct_answer": "are filming",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

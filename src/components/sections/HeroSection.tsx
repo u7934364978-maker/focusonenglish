@@ -24,7 +24,7 @@ export function HeroSection() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link 
-              href="/diagnostico"
+              href="/test-nivel"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-gradient-to-r from-coral-600 to-peach-600 text-white font-black text-lg hover:shadow-lg hover:scale-105 transition-all"
             >
               Hacer Test de Nivel Gratis
@@ -34,7 +34,7 @@ export function HeroSection() {
             </Link>
             
             <Link 
-              href="/cursos-especializados"
+              href="/cursos"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-slate-200 bg-white text-slate-800 font-black text-lg hover:border-coral-200 hover:bg-coral-50 transition-all"
             >
               Ver Todos los Cursos

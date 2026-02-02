@@ -18,7 +18,7 @@ export default function LevelGateClient({
     if (ok) return;
     const p = loadPlacement(goal);
     const target = p?.recommendedLevel || p?.unlockedMaxLevel || "a1";
-    window.location.replace(`/app/cursos/${goal}/${target}`);
+    window.location.replace(`/`);
   }, [ok, goal]);
 
   if (!ok) return null;

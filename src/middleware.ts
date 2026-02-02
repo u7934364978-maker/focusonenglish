@@ -6,8 +6,6 @@ const PUBLIC_ROUTES = new Set([
   "/contacto",
   "/cursos",
   "/planes",
-  "/signin",
-  "/signup",
   "/cuenta/login",
   "/cuenta/registro",
   "/cuenta/recuperar",

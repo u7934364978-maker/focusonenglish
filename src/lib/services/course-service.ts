@@ -1,5 +1,6 @@
 import { supabase } from '@/lib/supabase/client';
 import { z } from 'zod';
+import { UnitData, PremiumInteraction } from '@/types/premium-course';
 import { 
   Module, 
   Lesson, 
@@ -143,7 +144,7 @@ export const courseService = {
 
     const { data: lessonRaw, error: lessonError } = await supabase
       .from('course_lessons')
-      .select('*')
+      .select('*, course_modules(course_level)')
       .eq('id', lessonId)
       .single();
 
@@ -182,11 +183,16 @@ export const courseService = {
         const e = eParsed.data;
         return {
           id: e.id,
-          type: e.type,
+          type: e.type as any,
           title: e.title,
-          ...e.content
+          content: e.content,
+          createdAt: eRaw.created_at ? new Date(eRaw.created_at) : new Date(),
+          estimatedTime: (e.content as any).estimatedTime || 5, // Default to 5 mins if not specified
+          level: (lessonRaw as any).course_modules?.course_level || 'A1', // Inherit from module
+          topic: (lessonRaw as any).title,
+          topicName: (lessonRaw as any).title
         };
-      }).filter(Boolean) as Exercise[],
+      }).filter(Boolean) as any[],
     };
 
     setCache(cacheKey, result);
@@ -228,5 +234,116 @@ export const courseService = {
 
     setCache(cacheKey, result);
     return result;
+  },
+
+  /**
+   * Get a Premium unit by ID (maps from database to Premium structure)
+   */
+  async getPremiumUnitData(unitId: string): Promise<UnitData | null> {
+    // For now we only support 'unit6' mapping to database lesson 'a1-m1-l6'
+    if (unitId.toLowerCase() !== 'unit6') return null;
+
+    if (!supabase) return null;
+
+    const lessonId = 'a1-m1-l6';
+    
+    // Fetch lesson info
+    const { data: lesson, error: lError } = await supabase
+      .from('course_lessons')
+      .select('*, course_modules(title, course_level)')
+      .eq('id', lessonId)
+      .single();
+
+    if (lError || !lesson) {
+      console.error('Error fetching lesson for Premium unit:', lError);
+      return null;
+    }
+
+    // Fetch exercises
+    const { data: exercises, error: eError } = await supabase
+      .from('course_exercises')
+      .select('*')
+      .eq('lesson_id', lessonId)
+      .order('order_index', { ascending: true });
+
+    if (eError) {
+      console.error('Error fetching exercises for Premium unit:', eError);
+      return null;
+    }
+
+    // Map to UnitData structure
+    return {
+      course: {
+        unit_id: 'U6',
+        unit_title: lesson.title,
+        level: lesson.course_modules?.course_level || 'A1',
+        total_duration_minutes: lesson.duration || 60,
+        language_ui: 'es-ES',
+        target_language: 'en'
+      },
+      learning_outcomes: lesson.objectives || [],
+      mastery_tags: [],
+      blocks: [
+        {
+          block_id: 'B1',
+          title: 'Contenido de la Unidad',
+          duration_minutes: lesson.duration || 60,
+          content: (exercises || []).map(ex => this.mapExerciseToInteraction(ex))
+        }
+      ]
+    };
+  },
+
+  /**
+   * Helper to map a generic course exercise to a Premium interaction
+   */
+  mapExerciseToInteraction(ex: any): PremiumInteraction {
+    const content = typeof ex.content === 'string' ? JSON.parse(ex.content) : ex.content;
+    
+    const typeMap: Record<string, string> = {
+      'multipleChoice': 'multiple_choice',
+      'matching': 'matching',
+      'drag-drop': 'reorder_words',
+      'fillBlanks': 'fill_blanks',
+      'flashcard': 'multiple_choice' // Fallback for now
+    };
+
+    const interaction: any = {
+      interaction_id: ex.id,
+      type: typeMap[ex.type] || ex.type,
+      prompt_es: content.prompt || content.instructions || content.text || content.title || '',
+      mastery_tag: 'vocab_family' // Default tag
+    };
+
+    if (ex.type === 'multipleChoice') {
+      interaction.options = (content.options || []).map((opt: string, i: number) => ({
+        id: `o${i}`,
+        text: opt
+      }));
+      interaction.correct_answer = `o${content.answerIndex}`;
+    } else if (ex.type === 'matching') {
+      interaction.pairs = (content.pairs || []).map((p: any) => ({
+        id: p.id,
+        left: p.word || p.left,
+        right: p.correctMatch || p.right
+      }));
+    } else if (ex.type === 'drag-drop') {
+      interaction.type = 'reorder_words';
+      interaction.prompt_es = content.translation || content.instructions || '';
+      interaction.stimulus_en = content.correctSentence;
+      // Reorder words requires options as words
+      const words = content.correctSentence.split(' ');
+      interaction.options = words.map((w: string, i: number) => ({
+        id: `w${i}`,
+        text: w
+      }));
+      interaction.correct_answer = words.map((_: string, i: number) => `w${i}`);
+    } else if (ex.type === 'fillBlanks') {
+      interaction.type = 'fill_blanks';
+      interaction.stimulus_en = content.text;
+      interaction.correct_answer = content.answers?.[0];
+    }
+
+    return interaction as PremiumInteraction;
   }
 };

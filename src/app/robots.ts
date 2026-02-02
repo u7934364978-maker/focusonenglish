@@ -9,17 +9,17 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: ["/", "/blog/"],
         disallow: [
-          // Público pero NO indexable
-          "/diagnostico",
-          "/lecciondemuestra",
-
-          // Premium / backend
-          "/app/",
+          "/cuenta/",
+          "/dashboard/",
           "/api/",
           "/auth/",
           "/checkout/",
-          "/acceder",
-          "/registro",
+          "/_next/",
+          "/static/",
+          "/admin/",
+          "/privacidad",
+          "/terminos",
+          "/lecciondemuestra",
         ],
       },
     ],

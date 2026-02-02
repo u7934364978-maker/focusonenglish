@@ -1,0 +1,4735 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "B1",
+    "unit_id": "U10",
+    "unit_title": "The Natural World",
+    "total_duration_minutes": 600
+  },
+  "learning_outcomes": [
+    "Understand and use B1 The Natural World vocabulary",
+    "Apply B1 grammar structures in context",
+    "Develop communicative competence"
+  ],
+  "mastery_tags": [
+    "grammar",
+    "vocabulary",
+    "syntax",
+    "communication"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1_UNIT_10_PRACTICE",
+      "title": "B1 Practice: The Natural World",
+      "duration_minutes": 600,
+      "content": [
+        {
+          "interaction_id": "U10_I1",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Extinct",
+              "right": "Having no living members"
+            },
+            {
+              "id": "p1",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            },
+            {
+              "id": "p2",
+              "left": "Rainforest",
+              "right": "A dense forest found in tropical areas"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I2",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The sun (set) ________ in the west.",
+          "correct_answer": "sets",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Plastic pollution is a major to threat our oceans.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "projects"
+            },
+            {
+              "id": "w0",
+              "text": "Conservation"
+            },
+            {
+              "id": "w2",
+              "text": "help"
+            },
+            {
+              "id": "w3",
+              "text": "protect"
+            },
+            {
+              "id": "w4",
+              "text": "wildlife"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I5",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Turtles and crocodiles are both types of reptiles.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I6",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The surroundings in which a person lives\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pollution"
+            },
+            {
+              "id": "o1",
+              "text": "Environment"
+            },
+            {
+              "id": "o3",
+              "text": "Conservation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I7",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p1",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p2",
+              "left": "Extinct",
+              "right": "Having no living members"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I8",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (hope) ________ the weather stays nice this weekend.",
+          "correct_answer": "hope",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to reduce air pollution in cities. our\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "dodo"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "17th"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "extinct"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "century"
+            },
+            {
+              "id": "w2",
+              "text": "became"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many species are at risk of extinction.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A biological community of interacting organisms\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o2",
+              "text": "Atmosphere"
+            },
+            {
+              "id": "o3",
+              "text": "Extinct"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I13",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            },
+            {
+              "id": "p1",
+              "left": "Wilderness",
+              "right": "An uncultivated and uninhabited region"
+            },
+            {
+              "id": "p2",
+              "left": "Migration",
+              "right": "Seasonal movement of animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I14",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The sun (set) ________ in the west.",
+          "correct_answer": "sets",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The tiger a is powerful predator.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "species"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "Every"
+            },
+            {
+              "id": "w2",
+              "text": "plays"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "ecosystem"
+            },
+            {
+              "id": "w4",
+              "text": "vital"
+            },
+            {
+              "id": "w5",
+              "text": "role"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I17",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The explorers traveled deep into the wilderness.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I18",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Seasonal movement of animals\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Migration"
+            },
+            {
+              "id": "o2",
+              "text": "Environment"
+            },
+            {
+              "id": "o3",
+              "text": "Ocean"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I19",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rainforest",
+              "right": "A dense forest found in tropical areas"
+            },
+            {
+              "id": "p1",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            },
+            {
+              "id": "p2",
+              "left": "Species",
+              "right": "A group of living organisms"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I20",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Scientists (study) ________ the effects of global warming.",
+          "correct_answer": "are studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The atmosphere protects us from harmful solar radiation.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w7",
+              "text": "world's"
+            },
+            {
+              "id": "w1",
+              "text": "Amazon"
+            },
+            {
+              "id": "w3",
+              "text": "produces"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "oxygen"
+            },
+            {
+              "id": "w2",
+              "text": "rainforest"
+            },
+            {
+              "id": "w4",
+              "text": "much"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The explorers traveled deep into the wilderness.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A group of living organisms\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Species"
+            },
+            {
+              "id": "o2",
+              "text": "Pollution"
+            },
+            {
+              "id": "o3",
+              "text": "Geology"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I25",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Wilderness",
+              "right": "An uncultivated and uninhabited region"
+            },
+            {
+              "id": "p1",
+              "left": "Species",
+              "right": "A group of living organisms"
+            },
+            {
+              "id": "p2",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I26",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The Earth (revolve) ________ around the sun.",
+          "correct_answer": "revolves",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Studying helps geology us understand the history of our planet.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "oceans"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "major"
+            },
+            {
+              "id": "w1",
+              "text": "pollution"
+            },
+            {
+              "id": "w5",
+              "text": "threat"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Plastic"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The tiger is a powerful predator.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The science that deals with the earth's physical structure\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Geology"
+            },
+            {
+              "id": "o2",
+              "text": "Mammal"
+            },
+            {
+              "id": "o3",
+              "text": "Wilderness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I31",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p1",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            },
+            {
+              "id": "p2",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I32",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I love (zero article) ________ animals.",
+          "correct_answer": "",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need reduce to air pollution in our cities.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "powerful"
+            },
+            {
+              "id": "w5",
+              "text": "predator"
+            },
+            {
+              "id": "w1",
+              "text": "tiger"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The explorers traveled deep into the wilderness.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I36",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"An uncultivated and uninhabited region\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Species"
+            },
+            {
+              "id": "o3",
+              "text": "Mammal"
+            },
+            {
+              "id": "o1",
+              "text": "Wilderness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I37",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            },
+            {
+              "id": "p1",
+              "left": "Ocean",
+              "right": "A very large expanse of sea"
+            },
+            {
+              "id": "p2",
+              "left": "Environment",
+              "right": "The surroundings in which a person lives"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I38",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The sun (set) ________ in the west.",
+          "correct_answer": "sets",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The is tiger a powerful predator.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "vital"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "species"
+            },
+            {
+              "id": "w5",
+              "text": "role"
+            },
+            {
+              "id": "w0",
+              "text": "Every"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w8",
+              "text": "ecosystem"
+            },
+            {
+              "id": "w2",
+              "text": "plays"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The protection of plants and animals\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Ocean"
+            },
+            {
+              "id": "o2",
+              "text": "Migration"
+            },
+            {
+              "id": "o1",
+              "text": "Conservation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I43",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p1",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            },
+            {
+              "id": "p2",
+              "left": "Species",
+              "right": "A group of living organisms"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I44",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Animals (need) ________ water to survive.",
+          "correct_answer": "need",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Migration is a natural of part many animals' lives.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "air"
+            },
+            {
+              "id": "w8",
+              "text": "cities"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w3",
+              "text": "reduce"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "pollution"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many species are at risk of extinction.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A group of living organisms\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Environment"
+            },
+            {
+              "id": "o1",
+              "text": "Species"
+            },
+            {
+              "id": "o3",
+              "text": "Rainforest"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I49",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Species",
+              "right": "A group of living organisms"
+            },
+            {
+              "id": "p1",
+              "left": "Extinct",
+              "right": "Having no living members"
+            },
+            {
+              "id": "p2",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I50",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The Amazon (be) ________ the largest rainforest.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The is tiger a powerful predator.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w4",
+              "text": "risk"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "extinction"
+            },
+            {
+              "id": "w1",
+              "text": "species"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The atmosphere protects us from harmful solar radiation.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The envelope of gases surrounding the earth\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Atmosphere"
+            },
+            {
+              "id": "o3",
+              "text": "Conservation"
+            },
+            {
+              "id": "o2",
+              "text": "Ocean"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I55",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Migration",
+              "right": "Seasonal movement of animals"
+            },
+            {
+              "id": "p1",
+              "left": "Wilderness",
+              "right": "An uncultivated and uninhabited region"
+            },
+            {
+              "id": "p2",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I56",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She is (an/a) ________ doctor.",
+          "correct_answer": "a",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Every species a plays vital role in the ecosystem.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Plastic"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "threat"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "pollution"
+            },
+            {
+              "id": "w8",
+              "text": "oceans"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "major"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I59",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"The surroundings in which a person lives\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Environment"
+            },
+            {
+              "id": "o3",
+              "text": "Atmosphere"
+            },
+            {
+              "id": "o2",
+              "text": "Extinct"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I61",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p1",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            },
+            {
+              "id": "p2",
+              "left": "Extinct",
+              "right": "Having no living members"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I62",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She is (an/a) ________ doctor.",
+          "correct_answer": "a",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Turtles and crocodiles are both of types reptiles.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "tiger"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "predator"
+            },
+            {
+              "id": "w4",
+              "text": "powerful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We all have a responsibility to protect the environment.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A very large expanse of sea\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ocean"
+            },
+            {
+              "id": "o3",
+              "text": "Conservation"
+            },
+            {
+              "id": "o2",
+              "text": "Ecosystem"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I67",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            },
+            {
+              "id": "p1",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            },
+            {
+              "id": "p2",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I68",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (hope) ________ the weather stays nice this weekend.",
+          "correct_answer": "hope",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The tiger is a powerful predator.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "and"
+            },
+            {
+              "id": "w7",
+              "text": "reptiles"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "types"
+            },
+            {
+              "id": "w0",
+              "text": "Turtles"
+            },
+            {
+              "id": "w2",
+              "text": "crocodiles"
+            },
+            {
+              "id": "w3",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "both"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The explorers traveled deep into the wilderness.\"",
+          "options": [
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I72",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A group of living organisms\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Wilderness"
+            },
+            {
+              "id": "o1",
+              "text": "Species"
+            },
+            {
+              "id": "o3",
+              "text": "Rainforest"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I73",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Migration",
+              "right": "Seasonal movement of animals"
+            },
+            {
+              "id": "p1",
+              "left": "Extinct",
+              "right": "Having no living members"
+            },
+            {
+              "id": "p2",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I74",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I saw (an/a) ________ elephant at the zoo.",
+          "correct_answer": "an",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to reduce air pollution our in cities.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "Many"
+            },
+            {
+              "id": "w1",
+              "text": "species"
+            },
+            {
+              "id": "w4",
+              "text": "risk"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w6",
+              "text": "extinction"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I77",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Migration is a natural part of many animals' lives.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An uncultivated and uninhabited region\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o3",
+              "text": "Atmosphere"
+            },
+            {
+              "id": "o1",
+              "text": "Wilderness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I79",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ocean",
+              "right": "A very large expanse of sea"
+            },
+            {
+              "id": "p1",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p2",
+              "left": "Wilderness",
+              "right": "An uncultivated and uninhabited region"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I80",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "Have you (see/ever) ________ a whale in the wild?",
+          "correct_answer": "ever seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Plastic pollution is a major threat to our oceans.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "predator"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "powerful"
+            },
+            {
+              "id": "w1",
+              "text": "tiger"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I83",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Every species plays a vital role in the ecosystem.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Harmful substances in the environment\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pollution"
+            },
+            {
+              "id": "o2",
+              "text": "Reptile"
+            },
+            {
+              "id": "o3",
+              "text": "Wilderness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I85",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p1",
+              "left": "Ocean",
+              "right": "A very large expanse of sea"
+            },
+            {
+              "id": "p2",
+              "left": "Rainforest",
+              "right": "A dense forest found in tropical areas"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I86",
+          "type": "transformation",
+          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
+          "stimulus_en": "He lives in (an/a) ________ small village.",
+          "correct_answer": "a",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Turtles and crocodiles are both types of reptiles.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "largest"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "Whales"
+            },
+            {
+              "id": "w6",
+              "text": "Earth"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "mammals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I89",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Plastic pollution is a major threat to our oceans.\"",
+          "options": [
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The science that deals with the earth's physical structure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Conservation"
+            },
+            {
+              "id": "o1",
+              "text": "Geology"
+            },
+            {
+              "id": "o3",
+              "text": "Atmosphere"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I91",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p1",
+              "left": "Ocean",
+              "right": "A very large expanse of sea"
+            },
+            {
+              "id": "p2",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I92",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "(The) ________ moon is very bright tonight.",
+          "correct_answer": "The",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Amazon rainforest produces much of the world's oxygen.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "species"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "role"
+            },
+            {
+              "id": "w2",
+              "text": "plays"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "vital"
+            },
+            {
+              "id": "w0",
+              "text": "Every"
+            },
+            {
+              "id": "w8",
+              "text": "ecosystem"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I95",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Turtles and crocodiles are both types of reptiles.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Having no living members\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Extinct"
+            },
+            {
+              "id": "o3",
+              "text": "Rainforest"
+            },
+            {
+              "id": "o2",
+              "text": "Migration"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I97",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p1",
+              "left": "Ocean",
+              "right": "A very large expanse of sea"
+            },
+            {
+              "id": "p2",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I98",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The Amazon (be) ________ the largest rainforest.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Every species plays a vital role in ecosystem. the\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "animals'"
+            },
+            {
+              "id": "w6",
+              "text": "many"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Migration"
+            },
+            {
+              "id": "w4",
+              "text": "part"
+            },
+            {
+              "id": "w3",
+              "text": "natural"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I101",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Conservation projects help protect wildlife.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r19",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An animal that naturally preys on others\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Predator"
+            },
+            {
+              "id": "o2",
+              "text": "Rainforest"
+            },
+            {
+              "id": "o3",
+              "text": "Environment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I103",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            },
+            {
+              "id": "p1",
+              "left": "Species",
+              "right": "A group of living organisms"
+            },
+            {
+              "id": "p2",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I104",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The sun (set) ________ in the west.",
+          "correct_answer": "sets",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Turtles and crocodiles are both types of reptiles.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "powerful"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "tiger"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "predator"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I107",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I108",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"An uncultivated and uninhabited region\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Ocean"
+            },
+            {
+              "id": "o1",
+              "text": "Wilderness"
+            },
+            {
+              "id": "o2",
+              "text": "Environment"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I109",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rainforest",
+              "right": "A dense forest found in tropical areas"
+            },
+            {
+              "id": "p1",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p2",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I110",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Scientists (study) ________ the effects of global warming.",
+          "correct_answer": "are studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We need to reduce air pollution in our cities.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "reduce"
+            },
+            {
+              "id": "w8",
+              "text": "cities"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "air"
+            },
+            {
+              "id": "w5",
+              "text": "pollution"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I113",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We all have a responsibility to protect the environment.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r10",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I114",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"The science that deals with the earth's physical structure\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o1",
+              "text": "Geology"
+            },
+            {
+              "id": "o3",
+              "text": "Ocean"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I115",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p1",
+              "left": "Environment",
+              "right": "The surroundings in which a person lives"
+            },
+            {
+              "id": "p2",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I116",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The sun (set) ________ in the west.",
+          "correct_answer": "sets",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The Amazon rainforest produces of much the world's oxygen.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "into"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "wilderness"
+            },
+            {
+              "id": "w2",
+              "text": "traveled"
+            },
+            {
+              "id": "w3",
+              "text": "deep"
+            },
+            {
+              "id": "w1",
+              "text": "explorers"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I119",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Conservation projects help protect wildlife.\"",
+          "options": [
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I120",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A very large expanse of sea\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Reptile"
+            },
+            {
+              "id": "o3",
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o1",
+              "text": "Ocean"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I121",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p1",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            },
+            {
+              "id": "p2",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I122",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The sun (set) ________ in the west.",
+          "correct_answer": "sets",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The atmosphere protects us from harmful solar radiation.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "animals'"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "many"
+            },
+            {
+              "id": "w3",
+              "text": "natural"
+            },
+            {
+              "id": "w4",
+              "text": "part"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Migration"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I125",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The Amazon rainforest produces much of the world's oxygen.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I126",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Seasonal movement of animals\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Migration"
+            },
+            {
+              "id": "o2",
+              "text": "Species"
+            },
+            {
+              "id": "o3",
+              "text": "Atmosphere"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I127",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Migration",
+              "right": "Seasonal movement of animals"
+            },
+            {
+              "id": "p1",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p2",
+              "left": "Extinct",
+              "right": "Having no living members"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I128",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "(The) ________ moon is very bright tonight.",
+          "correct_answer": "The",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many species are at of risk extinction.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "both"
+            },
+            {
+              "id": "w2",
+              "text": "crocodiles"
+            },
+            {
+              "id": "w7",
+              "text": "reptiles"
+            },
+            {
+              "id": "w3",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "Turtles"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w5",
+              "text": "types"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I131",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Conservation projects help protect wildlife.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I132",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A warm-blooded vertebrate animal\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mammal"
+            },
+            {
+              "id": "o3",
+              "text": "Predator"
+            },
+            {
+              "id": "o2",
+              "text": "Geology"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I133",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p1",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            },
+            {
+              "id": "p2",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I134",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "Have you (see/ever) ________ a whale in the wild?",
+          "correct_answer": "ever seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Many species are at risk of extinction.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "atmosphere"
+            },
+            {
+              "id": "w4",
+              "text": "from"
+            },
+            {
+              "id": "w2",
+              "text": "protects"
+            },
+            {
+              "id": "w5",
+              "text": "harmful"
+            },
+            {
+              "id": "w7",
+              "text": "radiation"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w6",
+              "text": "solar"
+            },
+            {
+              "id": "w3",
+              "text": "us"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I137",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Conservation projects help protect wildlife.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A warm-blooded vertebrate animal\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Migration"
+            },
+            {
+              "id": "o1",
+              "text": "Mammal"
+            },
+            {
+              "id": "o3",
+              "text": "Ecosystem"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I139",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Rainforest",
+              "right": "A dense forest found in tropical areas"
+            },
+            {
+              "id": "p1",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p2",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I140",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She is (an/a) ________ doctor.",
+          "correct_answer": "a",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We all have a responsibility to protect the environment.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w8",
+              "text": "environment"
+            },
+            {
+              "id": "w6",
+              "text": "protect"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "all"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "responsibility"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I143",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"We all have a responsibility to protect the environment.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r3",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I144",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A warm-blooded vertebrate animal\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Pollution"
+            },
+            {
+              "id": "o2",
+              "text": "Environment"
+            },
+            {
+              "id": "o1",
+              "text": "Mammal"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I145",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pollution",
+              "right": "Harmful substances in the environment"
+            },
+            {
+              "id": "p1",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            },
+            {
+              "id": "p2",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I146",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "I saw (an/a) ________ elephant at the zoo.",
+          "correct_answer": "an",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We all have a responsibility to protect the environment.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w4",
+              "text": "air"
+            },
+            {
+              "id": "w5",
+              "text": "pollution"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w3",
+              "text": "reduce"
+            },
+            {
+              "id": "w8",
+              "text": "cities"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I149",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Conservation projects help protect wildlife.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A dense forest found in tropical areas\"",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Mammal"
+            },
+            {
+              "id": "o3",
+              "text": "Wilderness"
+            },
+            {
+              "id": "o1",
+              "text": "Rainforest"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I151",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            },
+            {
+              "id": "p1",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            },
+            {
+              "id": "p2",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I152",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "Scientists (study) ________ the effects of global warming.",
+          "correct_answer": "are studying",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The atmosphere us protects from harmful solar radiation.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "dodo"
+            },
+            {
+              "id": "w7",
+              "text": "century"
+            },
+            {
+              "id": "w3",
+              "text": "extinct"
+            },
+            {
+              "id": "w6",
+              "text": "17th"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "became"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I155",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The tiger is a powerful predator.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I156",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"Seasonal movement of animals\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Migration"
+            },
+            {
+              "id": "o2",
+              "text": "Predator"
+            },
+            {
+              "id": "o3",
+              "text": "Wilderness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I157",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            },
+            {
+              "id": "p1",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p2",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I158",
+          "type": "transformation",
+          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
+          "stimulus_en": "He lives in (an/a) ________ small village.",
+          "correct_answer": "a",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Every species plays a vital role in the ecosystem.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "part"
+            },
+            {
+              "id": "w8",
+              "text": "lives"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "many"
+            },
+            {
+              "id": "w7",
+              "text": "animals'"
+            },
+            {
+              "id": "w0",
+              "text": "Migration"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "natural"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I161",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The atmosphere protects us from harmful solar radiation.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            }
+          ],
+          "correct_answer": "r1",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I162",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"Harmful substances in the environment\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Predator"
+            },
+            {
+              "id": "o1",
+              "text": "Pollution"
+            },
+            {
+              "id": "o2",
+              "text": "Wilderness"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I163",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ocean",
+              "right": "A very large expanse of sea"
+            },
+            {
+              "id": "p1",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p2",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I164",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "(The) ________ moon is very bright tonight.",
+          "correct_answer": "The",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Plastic pollution is a major threat to our oceans.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Every"
+            },
+            {
+              "id": "w4",
+              "text": "vital"
+            },
+            {
+              "id": "w7",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "species"
+            },
+            {
+              "id": "w2",
+              "text": "plays"
+            },
+            {
+              "id": "w5",
+              "text": "role"
+            },
+            {
+              "id": "w8",
+              "text": "ecosystem"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I167",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The dodo became extinct in the 17th century.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            }
+          ],
+          "correct_answer": "r2",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I168",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"An animal that naturally preys on others\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Predator"
+            },
+            {
+              "id": "o3",
+              "text": "Ocean"
+            },
+            {
+              "id": "o2",
+              "text": "Pollution"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I169",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            },
+            {
+              "id": "p1",
+              "left": "Reptile",
+              "right": "A vertebrate animal of a class that includes snakes"
+            },
+            {
+              "id": "p2",
+              "left": "Conservation",
+              "right": "The protection of plants and animals"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I170",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "Have you (see/ever) ________ a whale in the wild?",
+          "correct_answer": "ever seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The tiger is a powerful predator.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "pollution"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "major"
+            },
+            {
+              "id": "w5",
+              "text": "threat"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w8",
+              "text": "oceans"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w0",
+              "text": "Plastic"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I173",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Many species are at risk of extinction.\"",
+          "options": [
+            {
+              "id": "r2",
+              "text": "I completely agree, it makes sense."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I174",
+          "type": "multiple_choice",
+          "prompt_es": "Selecciona el término que mejor encaja con: \"A dense forest found in tropical areas\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Reptile"
+            },
+            {
+              "id": "o2",
+              "text": "Migration"
+            },
+            {
+              "id": "o1",
+              "text": "Rainforest"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I175",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p1",
+              "left": "Species",
+              "right": "A group of living organisms"
+            },
+            {
+              "id": "p2",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I176",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "Have you (see/ever) ________ a whale in the wild?",
+          "correct_answer": "ever seen",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Plastic pollution is a major threat to our oceans.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "rainforest"
+            },
+            {
+              "id": "w4",
+              "text": "much"
+            },
+            {
+              "id": "w3",
+              "text": "produces"
+            },
+            {
+              "id": "w8",
+              "text": "oxygen"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "Amazon"
+            },
+            {
+              "id": "w7",
+              "text": "world's"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I179",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Turtles and crocodiles are both types of reptiles.\"",
+          "options": [
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            },
+            {
+              "id": "r5",
+              "text": "That sounds interesting, tell me more."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            }
+          ],
+          "correct_answer": "r5",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"Having no living members\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Predator"
+            },
+            {
+              "id": "o1",
+              "text": "Extinct"
+            },
+            {
+              "id": "o2",
+              "text": "Conservation"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I181",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Species",
+              "right": "A group of living organisms"
+            },
+            {
+              "id": "p1",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p2",
+              "left": "Atmosphere",
+              "right": "The envelope of gases surrounding the earth"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I182",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The Amazon (be) ________ the largest rainforest.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The tiger is a powerful predator.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w7",
+              "text": "our"
+            },
+            {
+              "id": "w5",
+              "text": "pollution"
+            },
+            {
+              "id": "w8",
+              "text": "cities"
+            },
+            {
+              "id": "w4",
+              "text": "air"
+            },
+            {
+              "id": "w3",
+              "text": "reduce"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w6",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I185",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The explorers traveled deep into the wilderness.\"",
+          "options": [
+            {
+              "id": "r1",
+              "text": "That's a great idea! I'd love to."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            },
+            {
+              "id": "r19",
+              "text": "That would be perfect, thank you."
+            }
+          ],
+          "correct_answer": "r15",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I186",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"A biological community of interacting organisms\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o2",
+              "text": "Wilderness"
+            },
+            {
+              "id": "o3",
+              "text": "Geology"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I187",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Predator",
+              "right": "An animal that naturally preys on others"
+            },
+            {
+              "id": "p1",
+              "left": "Mammal",
+              "right": "A warm-blooded vertebrate animal"
+            },
+            {
+              "id": "p2",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I188",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "The Amazon (be) ________ the largest rainforest.",
+          "correct_answer": "is",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Every species a plays vital role in the ecosystem.\"",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Plastic"
+            },
+            {
+              "id": "w8",
+              "text": "oceans"
+            },
+            {
+              "id": "w1",
+              "text": "pollution"
+            },
+            {
+              "id": "w5",
+              "text": "threat"
+            },
+            {
+              "id": "w4",
+              "text": "major"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "to"
+            },
+            {
+              "id": "w7",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I191",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"The atmosphere protects us from harmful solar radiation.\"",
+          "options": [
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r15",
+              "text": "That's very kind of you to offer."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A group of living organisms\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Wilderness"
+            },
+            {
+              "id": "o2",
+              "text": "Ecosystem"
+            },
+            {
+              "id": "o1",
+              "text": "Species"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I193",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Extinct",
+              "right": "Having no living members"
+            },
+            {
+              "id": "p1",
+              "left": "Ecosystem",
+              "right": "A biological community of interacting organisms"
+            },
+            {
+              "id": "p2",
+              "left": "Geology",
+              "right": "The science that deals with the earth's physical structure"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I194",
+          "type": "transformation",
+          "prompt_es": "Escribe la forma verbal o gramatical correcta (conjugación, plural, etc.):",
+          "stimulus_en": "I (hope) ________ the weather stays nice this weekend.",
+          "correct_answer": "hope",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"We all have a responsibility to protect the environment.\"",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
+          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Turtles"
+            },
+            {
+              "id": "w5",
+              "text": "types"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "reptiles"
+            },
+            {
+              "id": "w4",
+              "text": "both"
+            },
+            {
+              "id": "w1",
+              "text": "and"
+            },
+            {
+              "id": "w2",
+              "text": "crocodiles"
+            },
+            {
+              "id": "w3",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U10_I197",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la respuesta más natural para esta situación:",
+          "stimulus_en": "Speaker A: \"Studying geology helps us understand the history of our planet.\"",
+          "options": [
+            {
+              "id": "r3",
+              "text": "Could you tell me more? I'm curious."
+            },
+            {
+              "id": "r10",
+              "text": "That's a pity. I'm sorry to hear that."
+            },
+            {
+              "id": "r4",
+              "text": "Really? I had no idea about that."
+            }
+          ],
+          "correct_answer": "r4",
+          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I198",
+          "type": "multiple_choice",
+          "prompt_es": "Identifica la palabra correcta para: \"The science that deals with the earth's physical structure\"",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Mammal"
+            },
+            {
+              "id": "o1",
+              "text": "Geology"
+            },
+            {
+              "id": "o2",
+              "text": "Rainforest"
+            }
+          ],
+          "correct_answer": "o1",
+          "feedback_correct_es": "¡Muy bien! Has acertado.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I199",
+          "type": "matching",
+          "prompt_es": "Une cada término con su definición correspondiente:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Species",
+              "right": "A group of living organisms"
+            },
+            {
+              "id": "p1",
+              "left": "Extinct",
+              "right": "Having no living members"
+            },
+            {
+              "id": "p2",
+              "left": "Rainforest",
+              "right": "A dense forest found in tropical areas"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I200",
+          "type": "transformation",
+          "prompt_es": "Elige la opción correcta o reordena las palabras:",
+          "stimulus_en": "She is (an/a) ________ doctor.",
+          "correct_answer": "a",
+          "feedback_correct_es": "¡Excelente trabajo!",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

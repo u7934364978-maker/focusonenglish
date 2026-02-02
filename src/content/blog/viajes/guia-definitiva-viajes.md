@@ -5,7 +5,8 @@ author: "Focus Team"
 excerpt: "Domina el inglés para viajar con nuestra guía completa. Aprende frases esenciales, vocabulario clave y descubre cómo nuestra plataforma te prepara para situaciones reales en tiempo récord."
 category: "viajes"
 readTime: "20 min"
-image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1000&auto=format&fit=crop"
+image: "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg?auto=compress&cs=tinysrgb&w=1200"
+alt: "Cámara, brújula y mapas sobre una mesa de madera preparados para planificar un viaje"
 featured: true
 keywords:
   - "inglés para viajar"

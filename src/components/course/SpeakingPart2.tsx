@@ -58,13 +58,6 @@ export default function SpeakingPart2({
               <span>Instrucciones:</span>
             </h3>
             <p className="text-slate-700 mb-4">{instructions}</p>
-            
-            <div className="bg-violet-50 rounded-lg p-4 border border-violet-200">
-              <h4 className="font-semibold text-violet-900 mb-2">⏱️ Duración:</h4>
-              <p className="text-slate-700">
-                <strong>1 minuto</strong> para comparar las fotos y responder la pregunta
-              </p>
-            </div>
           </div>
 
           {tips && tips.length > 0 && (
@@ -205,7 +198,7 @@ export default function SpeakingPart2({
       <div className="bg-white rounded-xl border-2 border-violet-200 p-6">
         <h3 className="text-lg font-bold text-violet-900 mb-4 flex items-center gap-2">
           <span>🎤</span>
-          <span>Graba tu comparación ({timeLimit} segundos):</span>
+          <span>Graba tu comparación:</span>
         </h3>
         
         <EnhancedVoiceRecorder

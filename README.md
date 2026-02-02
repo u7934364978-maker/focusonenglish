@@ -91,15 +91,14 @@ Para más información sobre el CRM, consulta:
 - `/` - Homepage
 - `/blog` - Blog principal
 - `/blog/[slug]` - Artículos individuales
-- `/cursos/[goal]/[level]` - Cursos dinámicos (18 combinaciones)
-- `/cursos-especializados` - Cursos por sector profesional
-- `/diagnostico` - Test de nivel gratuito
+- `/curso/ingles-[level]` - Cursos dinámicos
+- `/test-nivel` - Test de nivel gratuito
 - `/signup` - Inscripción a cursos
-- `/contact` - Contacto
+- `/contacto` - Contacto
 
 ### Dinámicas
-- **3 Goals**: trabajo, viajes, examenes
-- **6 Levels**: a1, a2, b1, b2, c1, c2
+- **4 Niveles**: a1, a2, b1, b2
+
 - **Total**: 18 páginas de cursos generadas automáticamente
 
 ## 📝 Blog

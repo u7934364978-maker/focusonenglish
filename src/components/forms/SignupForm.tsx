@@ -48,8 +48,8 @@ export function SignupForm() {
         throw new Error(data.error || 'Error al procesar el registro');
       }
 
-      // Success! Redirect to certificaciones page
-      router.push('/cursos?registro=exitoso');
+      // Success! Redirect to success page
+      router.push('/success');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Error al procesar el registro');
       setIsSubmitting(false);
@@ -192,11 +192,11 @@ export function SignupForm() {
         />
         <label htmlFor="terms" className="text-sm text-slate-600">
           Acepto los{' '}
-          <a href="/terms" className="text-peach-600 font-bold hover:text-peach-700" target="_blank">
+          <a href="/terminos" className="text-peach-600 font-bold hover:text-peach-700" target="_blank">
             términos y condiciones
           </a>{' '}
           y la{' '}
-          <a href="/privacy" className="text-peach-600 font-bold hover:text-peach-700" target="_blank">
+          <a href="/privacidad" className="text-peach-600 font-bold hover:text-peach-700" target="_blank">
             política de privacidad
           </a>
           . Consiento el tratamiento de mis datos para finalidades comerciales.

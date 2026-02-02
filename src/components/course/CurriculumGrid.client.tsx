@@ -20,7 +20,7 @@ function WeekCard({
   available: boolean;
 }) {
   const week = `semana-${pad2(n)}`;
-  const weekHref = `/app/cursos/${goal}/${level}/${week}`;
+  const weekHref = `/`;
   const progress = typeof window !== "undefined" ? loadWeekProgress(goal, level, week) : null;
 
   const pct = progress?.coreAccuracy != null ? Math.round(progress.coreAccuracy * 100) : null;
@@ -41,7 +41,7 @@ function WeekCard({
 
           {pct !== null ? (
             <div className="mt-1 text-xs font-extrabold text-slate-600">
-              CORE: {pct}% · {coreAttempted}/{coreTotal}
+              CORE: {pct}%
             </div>
           ) : (
             <div className="mt-1 text-xs font-extrabold text-slate-400">CORE: —</div>

@@ -214,7 +214,7 @@ export default function ContactPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link
-                href="/diagnostico"
+                href="/test-nivel"
                 className="bg-gradient-to-br from-coral-50 to-peach-50 rounded-xl p-6 border border-coral-200 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-3xl mb-3">📊</div>
@@ -227,7 +227,7 @@ export default function ContactPage() {
               </Link>
 
               <Link
-                href="/cursos-especializados"
+                href="/cursos"
                 className="bg-gradient-to-br from-orange-50 to-peach-50 rounded-xl p-6 border border-orange-200 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-3xl mb-3">🎓</div>
@@ -323,7 +323,7 @@ export default function ContactPage() {
                 </summary>
                 <p className="text-slate-600 mt-4">
                   Te recomendamos empezar con nuestro{" "}
-                  <Link href="/diagnostico" className="text-coral-600 font-bold hover:text-coral-700">
+                  <Link href="/test-nivel" className="text-coral-600 font-bold hover:text-coral-700">
                     test de nivel gratuito
                   </Link>
                   . Basándonos en tus resultados y objetivos, te sugeriremos el programa más adecuado.
@@ -343,7 +343,7 @@ export default function ContactPage() {
               Empieza hoy mismo con nuestro test de nivel gratuito
             </p>
             <Link
-              href="/diagnostico"
+              href="/test-nivel"
               className="inline-flex items-center justify-center bg-white text-coral-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-coral-50 transition-colors"
             >
               Hacer Test de Nivel Ahora
@@ -372,9 +372,9 @@ export default function ContactPage() {
               <h3 className="font-bold mb-3">Enlaces Rápidos</h3>
               <ul className="space-y-2 text-sm text-slate-400">
                 <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
-                <li><Link href="/cursos-especializados" className="hover:text-white transition-colors">Cursos</Link></li>
+                <li><Link href="/cursos" className="hover:text-white transition-colors">Cursos</Link></li>
                 <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-                <li><Link href="/diagnostico" className="hover:text-white transition-colors">Test de Nivel</Link></li>
+                <li><Link href="/test-nivel" className="hover:text-white transition-colors">Test de Nivel</Link></li>
               </ul>
             </div>
 
