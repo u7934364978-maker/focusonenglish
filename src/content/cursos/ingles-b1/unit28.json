@@ -171,34 +171,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I7",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Texture",
-              "right": "The feel, appearance, or consistency of a surface or a substance"
-            },
-            {
-              "id": "p1",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Style",
-              "right": "A particular design or appearance"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I8",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -215,66 +187,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w9",
-              "text": "market"
-            },
-            {
-              "id": "w4",
-              "text": "vintage"
-            },
-            {
-              "id": "w8",
-              "text": "flea"
-            },
-            {
-              "id": "w5",
-              "text": "jacket"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w1",
-              "text": "found"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I11",
@@ -322,34 +234,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I13",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p1",
-              "left": "Runway",
-              "right": "A raised floor or platform used by models to display clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Style",
-              "right": "A particular design or appearance"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I14",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -366,66 +250,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "found"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w9",
-              "text": "market"
-            },
-            {
-              "id": "w4",
-              "text": "vintage"
-            },
-            {
-              "id": "w8",
-              "text": "flea"
-            },
-            {
-              "id": "w5",
-              "text": "jacket"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I17",
@@ -473,34 +297,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I19",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Runway",
-              "right": "A raised floor or platform used by models to display clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Collection",
-              "right": "A group of things or people"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I20",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -517,61 +313,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I22",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "style"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "architecture"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "typical"
-            },
-            {
-              "id": "w8",
-              "text": "region"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I23",
@@ -619,34 +360,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I25",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Pattern",
-              "right": "A repeated decorative design"
-            },
-            {
-              "id": "p1",
-              "left": "Trendy",
-              "right": "Very fashionable or up to date"
-            },
-            {
-              "id": "p2",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I26",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -663,84 +376,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "match"
-            },
-            {
-              "id": "w4",
-              "text": "accessories"
-            },
-            {
-              "id": "w1",
-              "text": "chose"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w8",
-              "text": "dress"
-            },
-            {
-              "id": "w2",
-              "text": "some"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w7",
-              "text": "her"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The designer presented her latest autumn collection.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I30",
@@ -765,34 +400,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I31",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Casual",
-              "right": "Relaxed and unconcerned; not formal"
-            },
-            {
-              "id": "p1",
-              "left": "Style",
-              "right": "A particular design or appearance"
-            },
-            {
-              "id": "p2",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I32",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -809,61 +416,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "architecture"
-            },
-            {
-              "id": "w5",
-              "text": "typical"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "style"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w8",
-              "text": "region"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I35",
@@ -911,43 +463,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I37",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            },
-            {
-              "id": "p1",
-              "left": "Design",
-              "right": "A plan or drawing produced to show the look and function"
-            },
-            {
-              "id": "p2",
-              "left": "Fabric",
-              "right": "Cloth or other material produced by weaving"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I38",
-          "type": "transformation",
-          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
-          "stimulus_en": "I love your (Italian/leather/expensive) ________ shoes.",
-          "correct_answer": "expensive Italian leather",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U28_I39",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She looked very elegant in her long evening gown.\"",
@@ -955,66 +470,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "found"
-            },
-            {
-              "id": "w5",
-              "text": "jacket"
-            },
-            {
-              "id": "w9",
-              "text": "market"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w8",
-              "text": "flea"
-            },
-            {
-              "id": "w4",
-              "text": "vintage"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I41",
@@ -1062,34 +517,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I43",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Collection",
-              "right": "A group of things or people"
-            },
-            {
-              "id": "p1",
-              "left": "Pattern",
-              "right": "A repeated decorative design"
-            },
-            {
-              "id": "p2",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I44",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
@@ -1106,84 +533,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "gown"
-            },
-            {
-              "id": "w6",
-              "text": "long"
-            },
-            {
-              "id": "w5",
-              "text": "her"
-            },
-            {
-              "id": "w2",
-              "text": "very"
-            },
-            {
-              "id": "w3",
-              "text": "elegant"
-            },
-            {
-              "id": "w1",
-              "text": "looked"
-            },
-            {
-              "id": "w7",
-              "text": "evening"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I47",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The design of the new building is very minimalist.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I48",
@@ -1208,34 +557,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I49",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p1",
-              "left": "Casual",
-              "right": "Relaxed and unconcerned; not formal"
-            },
-            {
-              "id": "p2",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I50",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -1252,51 +573,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "my"
-            },
-            {
-              "id": "w6",
-              "text": "wardrobe"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "summer"
-            },
-            {
-              "id": "w3",
-              "text": "update"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I53",
@@ -1344,34 +620,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I55",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Trendy",
-              "right": "Very fashionable or up to date"
-            },
-            {
-              "id": "p2",
-              "left": "Runway",
-              "right": "A raised floor or platform used by models to display clothes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I56",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -1379,75 +627,6 @@
           "correct_answer": "tall modern glass",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"Silk is a very soft and expensive fabric.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I58",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w8",
-              "text": "flea"
-            },
-            {
-              "id": "w4",
-              "text": "vintage"
-            },
-            {
-              "id": "w1",
-              "text": "found"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "market"
-            },
-            {
-              "id": "w5",
-              "text": "jacket"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I59",
@@ -1495,34 +674,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I61",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            },
-            {
-              "id": "p1",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            },
-            {
-              "id": "p2",
-              "left": "Fabric",
-              "right": "Cloth or other material produced by weaving"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I62",
           "type": "transformation",
           "prompt_es": "Elige la opción correcta o reordena las palabras:",
@@ -1539,66 +690,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I64",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "found"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w4",
-              "text": "vintage"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w9",
-              "text": "market"
-            },
-            {
-              "id": "w8",
-              "text": "flea"
-            },
-            {
-              "id": "w3",
-              "text": "beautiful"
-            },
-            {
-              "id": "w5",
-              "text": "jacket"
-            },
-            {
-              "id": "w6",
-              "text": "at"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I65",
@@ -1646,34 +737,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I67",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trendy",
-              "right": "Very fashionable or up to date"
-            },
-            {
-              "id": "p1",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Style",
-              "right": "A particular design or appearance"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I68",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -1681,143 +744,6 @@
           "correct_answer": "interesting old metal",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The fabric has a very smooth and soft texture.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I70",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "new"
-            },
-            {
-              "id": "w1",
-              "text": "love"
-            },
-            {
-              "id": "w4",
-              "text": "pattern"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w8",
-              "text": "shirt"
-            },
-            {
-              "id": "w6",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "floral"
-            },
-            {
-              "id": "w5",
-              "text": "on"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I71",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She found a beautiful vintage jacket at the flea market.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I72",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A plan or drawing produced to show the look and function\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Style"
-            },
-            {
-              "id": "o1",
-              "text": "Design"
-            },
-            {
-              "id": "o3",
-              "text": "Accessories"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I73",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p1",
-              "left": "Design",
-              "right": "A plan or drawing produced to show the look and function"
-            },
-            {
-              "id": "p2",
-              "left": "Casual",
-              "right": "Relaxed and unconcerned; not formal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I74",
@@ -1836,84 +762,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I76",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w7",
-              "text": "soft"
-            },
-            {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w1",
-              "text": "fabric"
-            },
-            {
-              "id": "w8",
-              "text": "texture"
-            },
-            {
-              "id": "w5",
-              "text": "smooth"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I77",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The designer presented her latest autumn collection.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I78",
@@ -1938,34 +786,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I79",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Casual",
-              "right": "Relaxed and unconcerned; not formal"
-            },
-            {
-              "id": "p1",
-              "left": "Style",
-              "right": "A particular design or appearance"
-            },
-            {
-              "id": "p2",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I80",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -1982,74 +802,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "wardrobe"
-            },
-            {
-              "id": "w3",
-              "text": "update"
-            },
-            {
-              "id": "w4",
-              "text": "my"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w5",
-              "text": "summer"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I83",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She found a beautiful vintage jacket at the flea market.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I84",
@@ -2074,34 +826,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I85",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Runway",
-              "right": "A raised floor or platform used by models to display clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Trendy",
-              "right": "Very fashionable or up to date"
-            },
-            {
-              "id": "p2",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I86",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -2118,56 +842,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I88",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "tuxedo"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "required"
-            },
-            {
-              "id": "w7",
-              "text": "dinner"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "formal"
-            },
-            {
-              "id": "w0",
-              "text": "A"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I89",
@@ -2215,34 +889,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I91",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Runway",
-              "right": "A raised floor or platform used by models to display clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Texture",
-              "right": "The feel, appearance, or consistency of a surface or a substance"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I92",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -2250,70 +896,6 @@
           "correct_answer": "large green cotton",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The fabric has a very smooth and soft texture.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I94",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "style"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "architecture"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "region"
-            },
-            {
-              "id": "w4",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "typical"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I95",
@@ -2361,34 +943,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I97",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            },
-            {
-              "id": "p1",
-              "left": "Accessories",
-              "right": "Things which can be added to an outfit to make it more attractive"
-            },
-            {
-              "id": "p2",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I98",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -2405,230 +959,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I100",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "looked"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w8",
-              "text": "gown"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "long"
-            },
-            {
-              "id": "w3",
-              "text": "elegant"
-            },
-            {
-              "id": "w7",
-              "text": "evening"
-            },
-            {
-              "id": "w2",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I101",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The design of the new building is very minimalist.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I102",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A group of things or people\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Collection"
-            },
-            {
-              "id": "o3",
-              "text": "Runway"
-            },
-            {
-              "id": "o2",
-              "text": "Elegant"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I103",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Texture",
-              "right": "The feel, appearance, or consistency of a surface or a substance"
-            },
-            {
-              "id": "p2",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I104",
-          "type": "transformation",
-          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
-          "stimulus_en": "I bought a (plastic/useful/small) ________ tool.",
-          "correct_answer": "useful small plastic",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The models walked down the runway in the latest fashions.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "smooth"
-            },
-            {
-              "id": "w8",
-              "text": "texture"
-            },
-            {
-              "id": "w7",
-              "text": "soft"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "fabric"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I107",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"A tuxedo is required for the formal dinner.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I108",
@@ -2653,43 +983,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I109",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Accessories",
-              "right": "Things which can be added to an outfit to make it more attractive"
-            },
-            {
-              "id": "p2",
-              "left": "Trendy",
-              "right": "Very fashionable or up to date"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I110",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I like that (bright/summer/yellow) ________ flower.",
-          "correct_answer": "bright yellow summer",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U28_I111",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She wears always very trendy clothes.\"",
@@ -2697,84 +990,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w6",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "design"
-            },
-            {
-              "id": "w4",
-              "text": "new"
-            },
-            {
-              "id": "w7",
-              "text": "very"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "building"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w8",
-              "text": "minimalist"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I113",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She found a beautiful vintage jacket at the flea market.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r15",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I114",
@@ -2799,34 +1014,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I115",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Accessories",
-              "right": "Things which can be added to an outfit to make it more attractive"
-            },
-            {
-              "id": "p1",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I116",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -2845,154 +1032,6 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U28_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "went"
-            },
-            {
-              "id": "w12",
-              "text": "wedding"
-            },
-            {
-              "id": "w4",
-              "text": "tailor"
-            },
-            {
-              "id": "w6",
-              "text": "have"
-            },
-            {
-              "id": "w8",
-              "text": "suit"
-            },
-            {
-              "id": "w9",
-              "text": "made"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w5",
-              "text": "to"
-            },
-            {
-              "id": "w11",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w10",
-              "text": "for"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10",
-            "w11",
-            "w12"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I119",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The designer presented her latest autumn collection.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I120",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona el término que mejor encaja con: \"A group of things or people\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Vintage"
-            },
-            {
-              "id": "o1",
-              "text": "Collection"
-            },
-            {
-              "id": "o3",
-              "text": "Pattern"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I121",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Collection",
-              "right": "A group of things or people"
-            },
-            {
-              "id": "p1",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I122",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -3009,66 +1048,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "walked"
-            },
-            {
-              "id": "w3",
-              "text": "down"
-            },
-            {
-              "id": "w5",
-              "text": "runway"
-            },
-            {
-              "id": "w1",
-              "text": "models"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w8",
-              "text": "latest"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w9",
-              "text": "fashions"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I125",
@@ -3116,34 +1095,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I127",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Runway",
-              "right": "A raised floor or platform used by models to display clothes"
-            },
-            {
-              "id": "p2",
-              "left": "Design",
-              "right": "A plan or drawing produced to show the look and function"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I128",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -3160,66 +1111,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "and"
-            },
-            {
-              "id": "w9",
-              "text": "lunch"
-            },
-            {
-              "id": "w8",
-              "text": "casual"
-            },
-            {
-              "id": "w5",
-              "text": "perfect"
-            },
-            {
-              "id": "w6",
-              "text": "for"
-            },
-            {
-              "id": "w7",
-              "text": "a"
-            },
-            {
-              "id": "w3",
-              "text": "t-shirt"
-            },
-            {
-              "id": "w4",
-              "text": "are"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w0",
-              "text": "Jeans"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U28_I131",
@@ -3267,34 +1158,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I133",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Style",
-              "right": "A particular design or appearance"
-            },
-            {
-              "id": "p1",
-              "left": "Collection",
-              "right": "A group of things or people"
-            },
-            {
-              "id": "p2",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I134",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -3311,79 +1174,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "soft"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "Silk"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w7",
-              "text": "fabric"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I137",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She chose some beautiful accessories to match her dress.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r5",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I138",
@@ -3408,34 +1198,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I139",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            },
-            {
-              "id": "p2",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I140",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -3452,210 +1214,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w2",
-              "text": "presented"
-            },
-            {
-              "id": "w1",
-              "text": "designer"
-            },
-            {
-              "id": "w4",
-              "text": "latest"
-            },
-            {
-              "id": "w5",
-              "text": "autumn"
-            },
-            {
-              "id": "w6",
-              "text": "collection"
-            },
-            {
-              "id": "w3",
-              "text": "her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I143",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The fabric has a very smooth and soft texture.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I144",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"A raised floor or platform used by models to display clothes\"",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Casual"
-            },
-            {
-              "id": "o1",
-              "text": "Runway"
-            },
-            {
-              "id": "o3",
-              "text": "Trendy"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I145",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            },
-            {
-              "id": "p1",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            },
-            {
-              "id": "p2",
-              "left": "Accessories",
-              "right": "Things which can be added to an outfit to make it more attractive"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I146",
-          "type": "transformation",
-          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
-          "stimulus_en": "He has a (new/black/shiny) ________ car.",
-          "correct_answer": "shiny new black",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The fabric has a very smooth and soft texture.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "her"
-            },
-            {
-              "id": "w4",
-              "text": "latest"
-            },
-            {
-              "id": "w2",
-              "text": "presented"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "autumn"
-            },
-            {
-              "id": "w6",
-              "text": "collection"
-            },
-            {
-              "id": "w1",
-              "text": "designer"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I149",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She always wears very trendy clothes.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I150",
@@ -3680,34 +1238,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I151",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Trendy",
-              "right": "Very fashionable or up to date"
-            },
-            {
-              "id": "p1",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            },
-            {
-              "id": "p2",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I152",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -3724,84 +1254,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w4",
-              "text": "new"
-            },
-            {
-              "id": "w6",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w1",
-              "text": "design"
-            },
-            {
-              "id": "w8",
-              "text": "minimalist"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "building"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I155",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"A tuxedo is required for the formal dinner.\"",
-          "options": [
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r1",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I156",
@@ -3826,34 +1278,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I157",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Fabric",
-              "right": "Cloth or other material produced by weaving"
-            },
-            {
-              "id": "p1",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p2",
-              "left": "Texture",
-              "right": "The feel, appearance, or consistency of a surface or a substance"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I158",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -3861,93 +1285,6 @@
           "correct_answer": "comfortable new grey",
           "feedback_correct_es": "¡Excelente trabajo!",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The models walked down the runway in the latest fashions.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w8",
-              "text": "minimalist"
-            },
-            {
-              "id": "w6",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w7",
-              "text": "very"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w4",
-              "text": "new"
-            },
-            {
-              "id": "w1",
-              "text": "design"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "building"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I161",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"I love the floral pattern on your new shirt.\"",
-          "options": [
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            }
-          ],
-          "correct_answer": "r3",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I162",
@@ -3972,43 +1309,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I163",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Pattern",
-              "right": "A repeated decorative design"
-            },
-            {
-              "id": "p1",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p2",
-              "left": "Tailor",
-              "right": "A person whose occupation is making fitted clothes"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I164",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "I like that (bright/summer/yellow) ________ flower.",
-          "correct_answer": "bright yellow summer",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U28_I165",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"She chose some beautiful accessories to match her dress.\"",
@@ -4016,84 +1316,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "has"
-            },
-            {
-              "id": "w8",
-              "text": "texture"
-            },
-            {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "smooth"
-            },
-            {
-              "id": "w7",
-              "text": "soft"
-            },
-            {
-              "id": "w1",
-              "text": "fabric"
-            },
-            {
-              "id": "w6",
-              "text": "and"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I167",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"This style of architecture is typical of the region.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r2",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I168",
@@ -4118,34 +1340,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I169",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            },
-            {
-              "id": "p1",
-              "left": "Collection",
-              "right": "A group of things or people"
-            },
-            {
-              "id": "p2",
-              "left": "Casual",
-              "right": "Relaxed and unconcerned; not formal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I170",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -4164,274 +1358,6 @@
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U28_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Silk"
-            },
-            {
-              "id": "w6",
-              "text": "expensive"
-            },
-            {
-              "id": "w3",
-              "text": "very"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w7",
-              "text": "fabric"
-            },
-            {
-              "id": "w4",
-              "text": "soft"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I173",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The fabric has a very smooth and soft texture.\"",
-          "options": [
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r10",
-              "text": "That's a pity. I'm sorry to hear that."
-            },
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            }
-          ],
-          "correct_answer": "r10",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I174",
-          "type": "multiple_choice",
-          "prompt_es": "Identifica la palabra correcta para: \"Denoting something from the past of high quality\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Vintage"
-            },
-            {
-              "id": "o3",
-              "text": "Runway"
-            },
-            {
-              "id": "o2",
-              "text": "Formal"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I175",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Wardrobe",
-              "right": "A person's entire collection of clothes"
-            },
-            {
-              "id": "p1",
-              "left": "Accessories",
-              "right": "Things which can be added to an outfit to make it more attractive"
-            },
-            {
-              "id": "p2",
-              "left": "Design",
-              "right": "A plan or drawing produced to show the look and function"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I176",
-          "type": "transformation",
-          "prompt_es": "Elige la opción correcta o reordena las palabras:",
-          "stimulus_en": "He is a (British/talented/young) ________ designer.",
-          "correct_answer": "talented young British",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"The fabric has a very smooth and soft texture.\"",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
-          "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "designer"
-            },
-            {
-              "id": "w2",
-              "text": "presented"
-            },
-            {
-              "id": "w4",
-              "text": "latest"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "autumn"
-            },
-            {
-              "id": "w6",
-              "text": "collection"
-            },
-            {
-              "id": "w3",
-              "text": "her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I179",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"She always wears very trendy clothes.\"",
-          "options": [
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I180",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person whose occupation is making fitted clothes\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tailor"
-            },
-            {
-              "id": "o2",
-              "text": "Runway"
-            },
-            {
-              "id": "o3",
-              "text": "Fabric"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I181",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Texture",
-              "right": "The feel, appearance, or consistency of a surface or a substance"
-            },
-            {
-              "id": "p1",
-              "left": "Fabric",
-              "right": "Cloth or other material produced by weaving"
-            },
-            {
-              "id": "p2",
-              "left": "Elegant",
-              "right": "Pleasingly graceful and stylish in appearance or manner"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I182",
-          "type": "transformation",
-          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
-          "stimulus_en": "We have a (new/grey/comfortable) ________ sofa.",
-          "correct_answer": "comfortable new grey",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U28_I183",
           "type": "true_false",
           "prompt_es": "¿Es gramaticalmente correcta la siguiente frase?: \"This style of architecture is typical of the region.\"",
@@ -4439,124 +1365,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "update"
-            },
-            {
-              "id": "w6",
-              "text": "wardrobe"
-            },
-            {
-              "id": "w4",
-              "text": "my"
-            },
-            {
-              "id": "w1",
-              "text": "need"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "summer"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I185",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"The designer presented her latest autumn collection.\"",
-          "options": [
-            {
-              "id": "r1",
-              "text": "That's a great idea! I'd love to."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            },
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U28_I186",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra corresponde a esta definición?: \"A person whose occupation is making fitted clothes\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tailor"
-            },
-            {
-              "id": "o3",
-              "text": "Style"
-            },
-            {
-              "id": "o2",
-              "text": "Casual"
-            }
-          ],
-          "correct_answer": "o1",
-          "feedback_correct_es": "¡Muy bien! Has acertado.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I187",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Accessories",
-              "right": "Things which can be added to an outfit to make it more attractive"
-            },
-            {
-              "id": "p1",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            },
-            {
-              "id": "p2",
-              "left": "Design",
-              "right": "A plan or drawing produced to show the look and function"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I188",
@@ -4575,84 +1383,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "her"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w1",
-              "text": "looked"
-            },
-            {
-              "id": "w2",
-              "text": "very"
-            },
-            {
-              "id": "w7",
-              "text": "evening"
-            },
-            {
-              "id": "w6",
-              "text": "long"
-            },
-            {
-              "id": "w8",
-              "text": "gown"
-            },
-            {
-              "id": "w3",
-              "text": "elegant"
-            },
-            {
-              "id": "w0",
-              "text": "She"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I191",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Jeans and a t-shirt are perfect for a casual lunch.\"",
-          "options": [
-            {
-              "id": "r4",
-              "text": "Really? I had no idea about that."
-            },
-            {
-              "id": "r3",
-              "text": "Could you tell me more? I'm curious."
-            },
-            {
-              "id": "r2",
-              "text": "I completely agree, it makes sense."
-            }
-          ],
-          "correct_answer": "r4",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I192",
@@ -4677,34 +1407,6 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U28_I193",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p1",
-              "left": "Collection",
-              "right": "A group of things or people"
-            },
-            {
-              "id": "p2",
-              "left": "Texture",
-              "right": "The feel, appearance, or consistency of a surface or a substance"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U28_I194",
           "type": "transformation",
           "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
@@ -4721,89 +1423,6 @@
           "feedback_correct_es": "¡Correcto! Has detectado bien el error o la corrección.",
           "feedback_incorrect_es": "Revisa bien la estructura de los tiempos verbales B1.",
           "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase coherente y gramaticalmente correcta:",
-          "options": [
-            {
-              "id": "w5",
-              "text": "runway"
-            },
-            {
-              "id": "w6",
-              "text": "in"
-            },
-            {
-              "id": "w0",
-              "text": "The"
-            },
-            {
-              "id": "w8",
-              "text": "latest"
-            },
-            {
-              "id": "w7",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "down"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "models"
-            },
-            {
-              "id": "w9",
-              "text": "fashions"
-            },
-            {
-              "id": "w2",
-              "text": "walked"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I197",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"A tuxedo is required for the formal dinner.\"",
-          "options": [
-            {
-              "id": "r19",
-              "text": "That would be perfect, thank you."
-            },
-            {
-              "id": "r5",
-              "text": "That sounds interesting, tell me more."
-            },
-            {
-              "id": "r15",
-              "text": "That's very kind of you to offer."
-            }
-          ],
-          "correct_answer": "r19",
-          "feedback_correct_es": "¡Muy bien! Es una respuesta natural y educada.",
-          "mastery_tag": "communication"
         },
         {
           "interaction_id": "U28_I198",
@@ -4826,43 +1445,6 @@
           "correct_answer": "o1",
           "feedback_correct_es": "¡Muy bien! Has acertado.",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I199",
-          "type": "matching",
-          "prompt_es": "Une cada término con su definición correspondiente:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Formal",
-              "right": "Done in accordance with convention or etiquette"
-            },
-            {
-              "id": "p1",
-              "left": "Vintage",
-              "right": "Denoting something from the past of high quality"
-            },
-            {
-              "id": "p2",
-              "left": "Design",
-              "right": "A plan or drawing produced to show the look and function"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I200",
-          "type": "transformation",
-          "prompt_es": "Ordena los adjetivos correctamente para completar la frase:",
-          "stimulus_en": "He has a (new/black/shiny) ________ car.",
-          "correct_answer": "shiny new black",
-          "feedback_correct_es": "¡Excelente trabajo!",
-          "mastery_tag": "grammar"
         }
       ]
     }

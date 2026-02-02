@@ -50,8 +50,8 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/d8a47327-6c1a-49b
     - [x] Search for any remaining references to `/cursos`, `/diagnostico`, etc., in the codebase and clean them up.
 - [x] **Task 6: Verification and Fixes**
     - [x] Fix `TypeError` in `PremiumUnitViewer` (missing `learning_outcomes`).
-    - [ ] Resolve API route "Module not found" build errors.
-    - [ ] Run `npm run build` and `npm run lint`.
-- [ ] **Task 7: Push and Final Confirmation**
-    - [ ] Push changes to repository.
-    - [ ] Provide commit hash to user.
+    - [x] Resolve API route "Module not found" build errors by updating Next.js version.
+    - [x] Run `npm run build` and `npm run lint`.
+- [x] **Task 7: Push and Final Confirmation**
+    - [x] Push changes to repository.
+    - [x] Provide commit hash to user.

@@ -52,6 +52,12 @@
 - [x] Update A1 landing page with dynamic progress and Practice entry point
 - [x] Verify shuffle and completion logic for A1
 
+#### Phase 8: Global Quality Audit and Advanced Features
+- [x] Implement `correct_sentence_en` in all `true_false` exercises across A1, A2, B1 (Audited and fixed via script)
+- [x] Audit pedagogical quality of A1, A2, B1 exercises (Cambridge standard alignment)
+- [x] Identify and implement new interactive exercise types (Implemented `listening_image_mc`, `writing_task`, `speaking_task`, etc.)
+- [x] Resolve repetitive content issues in B1 unit 1 and others (Placeholder options replaced with natural English)
+
 ## Final Confirmation
 All 30 units of B1 course have been refactored to Cambridge standards with ~200 exercises each (6000+ total). Mixed Practice logic has been replicated for A1 level (34 units, ~7000 exercises). Technical infrastructure is stable across both levels.
 

@@ -232,7 +232,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     if (isAnswerCorrect) {
       setIsCorrect(true);
       setSelectedOption(optionId);
-      setFeedback({ correct: true, message: interaction.feedback_correct_es || "¡Excelente trabajo!" });
+      
+      let message = interaction.feedback_correct_es || "¡Excelente trabajo!";
+      if (interaction.type === 'true_false' && String(interaction.correct_answer).toLowerCase() === 'false' && interaction.correct_sentence_en) {
+        message = `${message}\n\nCorrect sentence: ${interaction.correct_sentence_en}`;
+      }
+      
+      setFeedback({ correct: true, message });
       playAudio('/audio/correct.mp3');
 
       // Track progress if callback is provided
@@ -251,6 +257,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         message = getSolutionText(interaction);
       } else {
         message = interaction.feedback_incorrect_es || "Sigue intentándolo, tú puedes.";
+        if (interaction.type === 'true_false' && String(interaction.correct_answer).toLowerCase() === 'false' && interaction.correct_sentence_en) {
+           message = `${message}\n\nCorrect sentence: ${interaction.correct_sentence_en}`;
+        }
       }
 
       setFeedback({ correct: false, message: message });
