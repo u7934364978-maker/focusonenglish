@@ -4,179 +4,1133 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U3",
-    "unit_title": "Education and study",
-    "total_duration_minutes": 120
+    "unit_title": "Personality & Character",
+    "total_duration_minutes": 90
   },
   "blocks": [
     {
-      "block_id": "B3",
-      "title": "Education and study",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Personality Adjectives",
       "content": [
         {
           "interaction_id": "U3_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'amable'?",
+          "options": [
+            { "id": "o1", "text": "Kind" },
+            { "id": "o2", "text": "Mean" },
+            { "id": "o3", "text": "Cruel" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Outgoing'?",
+          "options": [
+            { "id": "o1", "text": "Extrovertido/a" },
+            { "id": "o2", "text": "Tímido/a" },
+            { "id": "o3", "text": "Aburrido/a" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tímido'?",
+          "options": [
+            { "id": "o1", "text": "Shy" },
+            { "id": "o2", "text": "Bold" },
+            { "id": "o3", "text": "Loud" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Selfish'?",
           "options": [
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w2",
-              "text": "learning"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
+            { "id": "o1", "text": "Egoísta" },
+            { "id": "o2", "text": "Generoso/a" },
+            { "id": "o3", "text": "Valiente" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'generoso'?",
           "options": [
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            }
+            { "id": "o1", "text": "Generous" },
+            { "id": "o2", "text": "Greedy" },
+            { "id": "o3", "text": "Rich" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "matching",
+          "prompt_es": "Une los opuestos:",
+          "pairs": [
+            { "id": "p1", "left": "Hard-working", "right": "Lazy" },
+            { "id": "p2", "left": "Polite", "right": "Rude" },
+            { "id": "p3", "left": "Funny", "right": "Serious" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I7",
+          "type": "matching",
+          "prompt_es": "Une los adjetivos con su significado:",
+          "pairs": [
+            { "id": "p1", "left": "Reliable", "right": "Fiable" },
+            { "id": "p2", "left": "Patient", "right": "Paciente" },
+            { "id": "p3", "left": "Clever", "right": "Listo/Inteligente" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I8",
+          "type": "flashcard",
+          "prompt_es": "Rasgos de personalidad",
+          "flashcards": [
+            { "front": "Honest", "back": "Honesto/Sincero", "pronunciation": "/ˈɒnɪst/" },
+            { "front": "Moody", "back": "Temperamental/De humor cambiante", "pronunciation": "/ˈmuːdi/" },
+            { "front": "Stubborn", "back": "Terco/Cabezota", "pronunciation": "/ˈstʌbərn/" },
+            { "front": "Talkative", "back": "Hablador", "pronunciation": "/ˈtɔːkətɪv/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I9",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Qué significa 'Naughty' (usualmente para niños)?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shop"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Travieso/Mal comportamiento" },
+            { "id": "o2", "text": "Educado" },
+            { "id": "o3", "text": "Tranquilo" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tranquilo'?",
+          "options": [
+            { "id": "o1", "text": "Quiet / Calm" },
+            { "id": "o2", "text": "Loud" },
+            { "id": "o3", "text": "Active" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Easy-going'?",
+          "options": [
+            { "id": "o1", "text": "Relajado/De trato fácil" },
+            { "id": "o2", "text": "Difícil" },
+            { "id": "o3", "text": "Rápido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'valiente'?",
+          "options": [
+            { "id": "o1", "text": "Brave" },
+            { "id": "o2", "text": "Scared" },
+            { "id": "o3", "text": "Weak" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Sensible'?",
+          "options": [
+            { "id": "o1", "text": "Sensato" },
+            { "id": "o2", "text": "Sensible" },
+            { "id": "o3", "text": "Sentimental" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'sensible' (de sentimientos)?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Sensitive" },
+            { "id": "o2", "text": "Sensible" },
+            { "id": "o3", "text": "Sensation" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Arrogant'?",
+          "options": [
+            { "id": "o1", "text": "Arrogante/Engreído" },
+            { "id": "o2", "text": "Humilde" },
+            { "id": "o3", "text": "Inteligente" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'humilde'?",
+          "options": [
+            { "id": "o1", "text": "Humble" },
+            { "id": "o2", "text": "Proud" },
+            { "id": "o3", "text": "Poor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Cheerful'?",
+          "options": [
+            { "id": "o1", "text": "Alegre" },
+            { "id": "o2", "text": "Triste" },
+            { "id": "o3", "text": "Enojado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ambicioso'?",
+          "options": [
+            { "id": "o1", "text": "Ambitious" },
+            { "id": "o2", "text": "Lazy" },
+            { "id": "o3", "text": "Rich" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Messy'?",
+          "options": [
+            { "id": "o1", "text": "Desordenado" },
+            { "id": "o2", "text": "Limpio" },
+            { "id": "o3", "text": "Ordenado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ordenado'?",
+          "options": [
+            { "id": "o1", "text": "Tidy" },
+            { "id": "o2", "text": "Messy" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Jealous'?",
+          "options": [
+            { "id": "o1", "text": "Celoso" },
+            { "id": "o2", "text": "Feliz" },
+            { "id": "o3", "text": "Seguro" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'optimista'?",
+          "options": [
+            { "id": "o1", "text": "Optimistic" },
+            { "id": "o2", "text": "Pessimistic" },
+            { "id": "o3", "text": "Happy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Clumsy'?",
+          "options": [
+            { "id": "o1", "text": "Torpe" },
+            { "id": "o2", "text": "Habilidoso" },
+            { "id": "o3", "text": "Rápido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguro de sí mismo'?",
+          "options": [
+            { "id": "o1", "text": "Confident" },
+            { "id": "o2", "text": "Shy" },
+            { "id": "o3", "text": "Weak" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I25",
+          "type": "matching",
+          "prompt_es": "Une los opuestos:",
+          "pairs": [
+            { "id": "p1", "left": "Optimistic", "right": "Pessimistic" },
+            { "id": "p2", "left": "Confident", "right": "Insecure" },
+            { "id": "p3", "left": "Generous", "right": "Mean" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I26",
+          "type": "matching",
+          "prompt_es": "Asocia el adjetivo con la descripción:",
+          "pairs": [
+            { "id": "p1", "left": "Practical", "right": "Práctico/Realista" },
+            { "id": "p2", "left": "Creative", "right": "Creativo/Imaginativo" },
+            { "id": "p3", "left": "Organized", "right": "Organizado" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Modest'?",
+          "options": [
+            { "id": "o1", "text": "Modesto" },
+            { "id": "o2", "text": "Moderno" },
+            { "id": "o3", "text": "Molesto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leal'?",
+          "options": [
+            { "id": "o1", "text": "Loyal" },
+            { "id": "o2", "text": "Lawyer" },
+            { "id": "o3", "text": "Royal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Absent-minded'?",
+          "options": [
+            { "id": "o1", "text": "Despistado/Distraído" },
+            { "id": "o2", "text": "Mala persona" },
+            { "id": "o3", "text": "Inteligente" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'impaciente'?",
+          "options": [
+            { "id": "o1", "text": "Impatient" },
+            { "id": "o2", "text": "Unpatient" },
+            { "id": "o3", "text": "Dispatient" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I31",
+          "type": "flashcard",
+          "prompt_es": "Adjetivos avanzados de personalidad",
+          "flashcards": [
+            { "front": "Ambitious", "back": "Ambicioso", "pronunciation": "/æmˈbɪʃəs/" },
+            { "front": "Considerate", "back": "Considerado/Atento", "pronunciation": "/kənˈsɪdərət/" },
+            { "front": "Decisive", "back": "Decidido", "pronunciation": "/dɪˈsaɪsɪv/" },
+            { "front": "Sincere", "back": "Sincero", "pronunciation": "/sɪnˈsɪər/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I32",
+          "type": "multiple_choice",
+          "prompt_es": "Si no te gusta compartir, eres...",
+          "options": [
+            { "id": "o1", "text": "Selfish" },
+            { "id": "o2", "text": "Generous" },
+            { "id": "o3", "text": "Kind" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Si siempre dices la verdad, eres...",
+          "options": [
+            { "id": "o1", "text": "Honest" },
+            { "id": "o2", "text": "Dishonest" },
+            { "id": "o3", "text": "Lazy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I34",
+          "type": "multiple_choice",
+          "prompt_es": "Si te gusta el peligro, eres...",
+          "options": [
+            { "id": "o1", "text": "Adventurous" },
+            { "id": "o2", "text": "Boring" },
+            { "id": "o3", "text": "Quiet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I35",
+          "type": "matching",
+          "prompt_es": "Une los sinónimos (o casi sinónimos):",
+          "pairs": [
+            { "id": "p1", "left": "Clever", "right": "Smart" },
+            { "id": "p2", "left": "Polite", "right": "Well-mannered" },
+            { "id": "p3", "left": "Rude", "right": "Impolite" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es un 'Chatterbox'?",
+          "options": [
+            { "id": "o1", "text": "Una persona muy habladora" },
+            { "id": "o2", "text": "Una caja de chat" },
+            { "id": "o3", "text": "Una persona silenciosa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I37",
+          "type": "multiple_choice",
+          "prompt_es": "Si cambias de humor fácilmente, eres...",
+          "options": [
+            { "id": "o1", "text": "Moody" },
+            { "id": "o2", "text": "Funny" },
+            { "id": "o3", "text": "Calm" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'maduro' (de carácter)?",
+          "options": [
+            { "id": "o1", "text": "Mature" },
+            { "id": "o2", "text": "Ripe" },
+            { "id": "o3", "text": "Old" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Grateful'?",
+          "options": [
+            { "id": "o1", "text": "Agradecido" },
+            { "id": "o2", "text": "Genial" },
+            { "id": "o3", "text": "Enojado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Si no eres trabajador, eres...",
+          "options": [
+            { "id": "o1", "text": "Lazy" },
+            { "id": "o2", "text": "Busy" },
+            { "id": "o3", "text": "Active" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Character & Frequency",
+      "content": [
+        {
+          "interaction_id": "U3_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'is' o 'are':",
+          "stimulus_en": "My best friend ___ very reliable.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I24",
+          "interaction_id": "U3_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma negativa de 'to be':",
+          "stimulus_en": "He ___ (not) very patient with children.",
+          "correct_answer": "is not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo en presente:",
+          "stimulus_en": "She always ___ (help) everyone. She's so kind.",
+          "correct_answer": "helps",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el adverbio de frecuencia correcto:",
+          "stimulus_en": "He ___ (nunca) gets angry.",
+          "correct_answer": "never",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "very" },
+            { "id": "w5", "text": "outgoing" },
+            { "id": "w6", "text": "person" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "boss" },
+            { "id": "w3", "text": "can" },
+            { "id": "w4", "text": "be" },
+            { "id": "w5", "text": "quite" },
+            { "id": "w6", "text": "stubborn" },
+            { "id": "w7", "text": "sometimes" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cómo es él?' (de carácter)?",
+          "options": [
+            { "id": "o1", "text": "What is he like?" },
+            { "id": "o2", "text": "How is he like?" },
+            { "id": "o3", "text": "What does he look like?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la diferencia?",
+          "options": [
+            { "id": "o1", "text": "'What does he look like?' es para el físico y 'What is he like?' para el carácter." },
+            { "id": "o2", "text": "Ambas son para el físico." },
+            { "id": "o3", "text": "Ambas son para el carácter." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I49",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 3 of the A2 course.\"",
+          "prompt_es": "¿Es correcto decir 'He is a lazy'? ",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. 'Lazy' es un adjetivo. Debes decir 'He is lazy' o 'He is a lazy person'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I50",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir 'She is very sensitive to criticism'? ",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_I73",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 3 of the A2 course.\"",
-          "correct_answer": false,
+          "interaction_id": "U3_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el adverbio: 'Él suele ser muy educado.'",
+          "stimulus_en": "He is ___ very polite.",
+          "correct_answer": "usually",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el adverbio: 'A veces soy un poco perezoso.'",
+          "stimulus_en": "I am ___ a bit lazy.",
+          "correct_answer": "sometimes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I53",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi hermana nunca es egoísta.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "sister" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "never" },
+            { "id": "w5", "text": "selfish" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el antónimo de 'Patient' usando un prefijo?",
+          "options": [
+            { "id": "o1", "text": "Impatient" },
+            { "id": "o2", "text": "Unpatient" },
+            { "id": "o3", "text": "Dispatient" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el antónimo de 'Honest' usando un prefijo?",
+          "options": [
+            { "id": "o1", "text": "Dishonest" },
+            { "id": "o2", "text": "Unhonest" },
+            { "id": "o3", "text": "Inhonest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el antónimo de 'Friendly' usando un prefijo?",
+          "options": [
+            { "id": "o1", "text": "Unfriendly" },
+            { "id": "o2", "text": "Infriendly" },
+            { "id": "o3", "text": "Disfriendly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Usa un intensificador (un poco): 'She is ___ shy.'",
+          "stimulus_en": "She is ___ shy.",
+          "correct_answer": "a bit",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Usa un intensificador (bastante): 'The exam was ___ difficult.'",
+          "stimulus_en": "The exam was ___ difficult.",
+          "correct_answer": "quite",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Usa un intensificador (muy/realmente): 'He is ___ clever.'",
+          "stimulus_en": "He is ___ clever.",
+          "correct_answer": "really",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Cómo es tu nuevo jefe?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "your" },
+            { "id": "w4", "text": "new" },
+            { "id": "w5", "text": "boss" },
+            { "id": "w6", "text": "like" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I61",
+          "type": "true_false",
+          "prompt_es": "¿'He is a bit clumsy' significa que es muy torpe?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "'A bit' significa un poco.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I62",
+          "type": "true_false",
+          "prompt_es": "¿'She is quite creative' es más fuerte que 'She is creative'?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I63",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la opción correcta: 'They ___ always very helpful.'",
+          "options": [
+            { "id": "o1", "text": "are" },
+            { "id": "o2", "text": "is" },
+            { "id": "o3", "text": "am" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I64",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la opción correcta: 'Do you ___ he is reliable?'",
+          "options": [
+            { "id": "o1", "text": "think" },
+            { "id": "o2", "text": "thinks" },
+            { "id": "o3", "text": "thinking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ you a patient person?'",
+          "stimulus_en": "___ you a patient person?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la respuesta: 'Yes, I ___.'",
+          "stimulus_en": "Yes, I ___.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el posesivo: '___ character is very strong.' (Su de ella)",
+          "stimulus_en": "___ character is very strong.",
+          "correct_answer": "Her",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el posesivo: '___ personality is very different.' (Nuestra)",
+          "stimulus_en": "___ personality is very different.",
+          "correct_answer": "Our",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I69",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Él no parece muy feliz hoy.'",
+          "options": [
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "doesn't" },
+            { "id": "w3", "text": "look" },
+            { "id": "w4", "text": "very" },
+            { "id": "w5", "text": "happy" },
+            { "id": "w6", "text": "today" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "She is always kind." },
+            { "id": "o2", "text": "She always is kind." },
+            { "id": "o3", "text": "Always she is kind." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "He usually helps people." },
+            { "id": "o2", "text": "He helps usually people." },
+            { "id": "o3", "text": "Usually he is help people." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'maduro' en negativo usando un prefijo?",
+          "options": [
+            { "id": "o1", "text": "Immature" },
+            { "id": "o2", "text": "Unmature" },
+            { "id": "o3", "text": "Dismature" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (be) a very organized person.'",
+          "stimulus_en": "I ___ a very organized person.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (not be) very talkative.'",
+          "stimulus_en": "They ___ very talkative.",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I75",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Es ella una persona leal?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "she" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "loyal" },
+            { "id": "w5", "text": "person" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Character Analysis",
+      "content": [
+        {
+          "interaction_id": "U3_I76",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'He's got a heart of gold', ¿qué significa?",
+          "options": [
+            { "id": "o1", "text": "Es una persona extremadamente buena y generosa" },
+            { "id": "o2", "text": "Es una persona muy rica" },
+            { "id": "o3", "text": "Tiene problemas de salud" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a 'What's your sister like?'?",
+          "options": [
+            { "id": "o1", "text": "She's very clever and funny." },
+            { "id": "o2", "text": "She likes pizza." },
+            { "id": "o3", "text": "She is tall." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I78",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'Mi padre es muy trabajador.'",
+          "stimulus_es": "Mi padre es muy trabajador.",
+          "correct_answer": "My father is very hard-working.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I79",
+          "type": "multiple_choice",
+          "prompt_es": "Si tu amigo es un 'pain in the neck', ¿qué significa?",
+          "options": [
+            { "id": "o1", "text": "Es muy molesto/pesado" },
+            { "id": "o2", "text": "Tiene dolor de cuello" },
+            { "id": "o3", "text": "Es muy alto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la mejor respuesta para 'Are you a creative person?'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I love painting and writing stories." },
+            { "id": "o2", "text": "Yes, I am a doctor." },
+            { "id": "o3", "text": "No, I am not creative person." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I81",
+          "type": "short_writing",
+          "prompt_es": "Describe a tu mejor amigo con tres adjetivos (en inglés):",
+          "stimulus_es": "Mi mejor amigo es amable, divertido e inteligente.",
+          "correct_answer": "My best friend is kind, funny and clever.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I82",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien es 'down-to-earth', ¿cómo es?",
+          "options": [
+            { "id": "o1", "text": "Práctico, realista y sin pretensiones" },
+            { "id": "o2", "text": "Triste y deprimido" },
+            { "id": "o3", "text": "Que vive bajo tierra" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I83",
+          "type": "true_false",
+          "prompt_es": "¿'What does he like?' pregunta sobre su personalidad?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Pregunta sobre sus gustos. Para personalidad es 'What is he like?'.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I84",
+          "type": "multiple_choice",
+          "prompt_es": "Escenario: Estás en una entrevista de trabajo. ¿Cómo te describes?",
+          "options": [
+            { "id": "o1", "text": "I am hard-working, reliable and a team player." },
+            { "id": "o2", "text": "I am lazy and I like sleeping." },
+            { "id": "o3", "text": "I am quite moody sometimes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I85",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien es 'cold-hearted', ¿cómo es?",
+          "options": [
+            { "id": "o1", "text": "Insensible / Sin sentimientos" },
+            { "id": "o2", "text": "Tiene frío" },
+            { "id": "o3", "text": "Muy amable" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I86",
+          "type": "matching",
+          "prompt_es": "Une la situación con el adjetivo:",
+          "pairs": [
+            { "id": "p1", "left": "Always late", "right": "Unreliable" },
+            { "id": "p2", "left": "Shares everything", "right": "Generous" },
+            { "id": "p3", "left": "Doesn't talk much", "right": "Quiet" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I87",
+          "type": "matching",
+          "prompt_es": "Une la situación con el adjetivo:",
+          "pairs": [
+            { "id": "p1", "left": "Never says thank you", "right": "Rude" },
+            { "id": "p2", "left": "Learns very fast", "right": "Clever" },
+            { "id": "p3", "left": "Always tells the truth", "right": "Honest" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I88",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella es un poco tímida al principio.'",
+          "stimulus_es": "Ella es un poco tímida al principio.",
+          "correct_answer": "She is a bit shy at first.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Easy-going' en una descripción personal?",
+          "options": [
+            { "id": "o1", "text": "Persona relajada que no se estresa fácilmente" },
+            { "id": "o2", "text": "Persona que camina rápido" },
+            { "id": "o3", "text": "Persona que se va pronto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I90",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'He is a bit of a dark horse', ¿qué significa?",
+          "options": [
+            { "id": "o1", "text": "Tiene talentos o intereses ocultos" },
+            { "id": "o2", "text": "Tiene un caballo negro" },
+            { "id": "o3", "text": "Es una persona peligrosa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I91",
+          "type": "true_false",
+          "prompt_es": "¿'What is he like?' se puede responder con 'He is tall'?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "No, 'He is tall' es físico. Para personalidad dirías 'He is kind'.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I92",
+          "type": "true_false",
+          "prompt_es": "¿'Sensitive' y 'Sensible' significan lo mismo?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "'Sensitive' es sensible (emocional) y 'Sensible' es sensato (lógico).",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describirías a alguien que siempre quiere ganar?",
+          "options": [
+            { "id": "o1", "text": "Competitive" },
+            { "id": "o2", "text": "Lazy" },
+            { "id": "o3", "text": "Shy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describirías a alguien que se preocupa mucho por los demás?",
+          "options": [
+            { "id": "o1", "text": "Caring" },
+            { "id": "o2", "text": "Selfish" },
+            { "id": "o3", "text": "Arrogant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi hermano es muy divertido pero a veces es un poco terco.'",
+          "stimulus_es": "Mi hermano es muy divertido pero a veces es un poco terco.",
+          "correct_answer": "My brother is very funny but sometimes he is a bit stubborn.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I96",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien es 'big-headed', ¿cómo es?",
+          "options": [
+            { "id": "o1", "text": "Engreído / Se cree mucho" },
+            { "id": "o2", "text": "Tiene la cabeza grande" },
+            { "id": "o3", "text": "Es muy inteligente" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa ser 'broad-minded'?",
+          "options": [
+            { "id": "o1", "text": "Tolerante / De mente abierta" },
+            { "id": "o2", "text": "Tener una mente ancha" },
+            { "id": "o3", "text": "Ser muy olvidadizo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I98",
+          "type": "true_false",
+          "prompt_es": "¿'Thrifty' es una palabra positiva para alguien que cuida el dinero?",
+          "correct_answer": true,
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo llamas a alguien que no se rinde nunca?",
+          "options": [
+            { "id": "o1", "text": "Determined" },
+            { "id": "o2", "text": "Weak" },
+            { "id": "o3", "text": "Lazy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I100",
+          "type": "short_writing",
+          "prompt_es": "Describe tu propia personalidad brevemente (en inglés):",
+          "stimulus_es": "Soy una persona optimista y trabajadora.",
+          "correct_answer": "I am an optimistic and hard-working person.",
+          "mastery_tag": "communication"
         }
       ]
     }

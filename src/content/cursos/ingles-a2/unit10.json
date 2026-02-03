@@ -4,194 +4,1124 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U10",
-    "unit_title": "Shopping and services",
-    "total_duration_minutes": 120
+    "unit_title": "Module 1 Review & Assessment",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B10",
-      "title": "Shopping and services",
+      "block_id": "B1",
+      "title": "A2 Vocabulary Review (Units 1-9)",
       "content": [
         {
           "interaction_id": "U10_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprovechar al máximo'?",
+          "options": [
+            { "id": "o1", "text": "Make the most of" },
+            { "id": "o2", "text": "Take the big" },
+            { "id": "o3", "text": "Do the max" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'generoso'?",
+          "options": [
+            { "id": "o1", "text": "Generous" },
+            { "id": "o2", "text": "Kind" },
+            { "id": "o3", "text": "Friendly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 10 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'terco / cabezota'?",
+          "options": [
+            { "id": "o1", "text": "Stubborn" },
+            { "id": "o2", "text": "Strong" },
+            { "id": "o3", "text": "Hard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sobrino'?",
           "options": [
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "10"
-            },
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            }
+            { "id": "o1", "text": "Nephew" },
+            { "id": "o2", "text": "Niece" },
+            { "id": "o3", "text": "Cousin" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'hacer la colada'?",
           "options": [
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            }
+            { "id": "o1", "text": "Do the laundry" },
+            { "id": "o2", "text": "Make the clothes" },
+            { "id": "o3", "text": "Wash the laundry" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ascensor'?",
+          "options": [
+            { "id": "o1", "text": "Lift / Elevator" },
+            { "id": "o2", "text": "Stairs" },
+            { "id": "o3", "text": "Up-down" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'despedir a alguien' (del trabajo)?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "To fire someone" },
+            { "id": "o2", "text": "To dismiss" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beca'?",
+          "options": [
+            { "id": "o1", "text": "Scholarship" },
+            { "id": "o2", "text": "Degree" },
+            { "id": "o3", "text": "Grant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aliviado'?",
+          "options": [
+            { "id": "o1", "text": "Relieved" },
+            { "id": "o2", "text": "Relaxed" },
+            { "id": "o3", "text": "Safe" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U10_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
-        },
-        {
-          "interaction_id": "U10_I21",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'avergonzado'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Embarrassed" },
+            { "id": "o2", "text": "Confused" },
+            { "id": "o3", "text": "Shy" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U10_I11",
+          "type": "matching",
+          "prompt_es": "Asocia términos de hogar y trabajo:",
+          "pairs": [
+            { "id": "p1", "left": "Commute", "right": "Desplazarse al trabajo" },
+            { "id": "p2", "left": "Vacuum", "right": "Pasar la aspiradora" },
+            { "id": "p3", "left": "Colleague", "right": "Compañero de trabajo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I12",
+          "type": "matching",
+          "prompt_es": "Asocia términos de educación y familia:",
+          "pairs": [
+            { "id": "p1", "left": "Tuition fees", "right": "Tasas de matrícula" },
+            { "id": "p2", "left": "Sister-in-law", "right": "Cuñada" },
+            { "id": "p3", "left": "Lecture", "right": "Clase magistral" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Easy-going'?",
+          "options": [
+            { "id": "o1", "text": "Tranquilo / de trato fácil" },
+            { "id": "o2", "text": "Vago" },
+            { "id": "o3", "text": "Rápido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pecas'?",
+          "options": [
+            { "id": "o1", "text": "Freckles" },
+            { "id": "o2", "text": "Spots" },
+            { "id": "o3", "text": "Marks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calvo'?",
+          "options": [
+            { "id": "o1", "text": "Bald" },
+            { "id": "o2", "text": "Bold" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Overwhelmed'?",
+          "options": [
+            { "id": "o1", "text": "Agobiado" },
+            { "id": "o2", "text": "Feliz" },
+            { "id": "o3", "text": "Asustado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fregadero'?",
+          "options": [
+            { "id": "o1", "text": "Sink" },
+            { "id": "o2", "text": "Tap" },
+            { "id": "o3", "text": "Bath" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ascender a alguien'?",
+          "options": [
+            { "id": "o1", "text": "To promote someone" },
+            { "id": "o2", "text": "To up someone" },
+            { "id": "o3", "text": "To better someone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'especializarse en' (estudios)?",
+          "options": [
+            { "id": "o1", "text": "To major in" },
+            { "id": "o2", "text": "To focus in" },
+            { "id": "o3", "text": "To learn on" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Exhausted'?",
+          "options": [
+            { "id": "o1", "text": "Agotado / muy cansado" },
+            { "id": "o2", "text": "Muy feliz" },
+            { "id": "o3", "text": "Sorprendido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I21",
+          "type": "flashcard",
+          "prompt_es": "Palabras Clave del Módulo 1",
+          "flashcards": [
+            { "front": "Relationship", "back": "Relación", "pronunciation": "/rɪˈleɪʃnʃɪp/" },
+            { "front": "Description", "back": "Descripción", "pronunciation": "/dɪˈskrɪpʃn/" },
+            { "front": "Environment", "back": "Entorno / Medio ambiente", "pronunciation": "/ɪnˈvaɪrənmənt/" },
+            { "front": "Experience", "back": "Experiencia", "pronunciation": "/ɪkˈspɪəriəns/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pueblo'?",
+          "options": [
+            { "id": "o1", "text": "Town" },
+            { "id": "o2", "text": "Village" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U10_I23",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casado'?",
+          "options": [
+            { "id": "o1", "text": "Married" },
+            { "id": "o2", "text": "Single" },
+            { "id": "o3", "text": "Divorced" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viudo'?",
+          "options": [
+            { "id": "o1", "text": "Widower (m) / Widow (f)" },
+            { "id": "o2", "text": "Single" },
+            { "id": "o3", "text": "Alone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pálido'?",
+          "options": [
+            { "id": "o1", "text": "Pale" },
+            { "id": "o2", "text": "White" },
+            { "id": "o3", "text": "Light" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leal'?",
+          "options": [
+            { "id": "o1", "text": "Loyal" },
+            { "id": "o2", "text": "Kind" },
+            { "id": "o3", "text": "Trust" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'maduro' (personalidad)?",
+          "options": [
+            { "id": "o1", "text": "Mature" },
+            { "id": "o2", "text": "Old" },
+            { "id": "o3", "text": "Serious" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tacaño'?",
+          "options": [
+            { "id": "o1", "text": "Mean / Stingy" },
+            { "id": "o2", "text": "Poor" },
+            { "id": "o3", "text": "Close" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fregaplatos'?",
+          "options": [
+            { "id": "o1", "text": "Dishwasher" },
+            { "id": "o2", "text": "Platewasher" },
+            { "id": "o3", "text": "Cleanmachine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ventanilla' (en banco u oficina)?",
+          "options": [
+            { "id": "o1", "text": "Counter / Desk" },
+            { "id": "o2", "text": "Small window" },
+            { "id": "o3", "text": "Gate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'contable'?",
+          "options": [
+            { "id": "o1", "text": "Accountant" },
+            { "id": "o2", "text": "Counter" },
+            { "id": "o3", "text": "Banker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'periodista'?",
+          "options": [
+            { "id": "o1", "text": "Journalist / Reporter" },
+            { "id": "o2", "text": "Newswriter" },
+            { "id": "o3", "text": "Paperboy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'repasar'?",
+          "options": [
+            { "id": "o1", "text": "To revise" },
+            { "id": "o2", "text": "To review" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desanimado'?",
+          "options": [
+            { "id": "o1", "text": "Discouraged" },
+            { "id": "o2", "text": "No-animated" },
+            { "id": "o3", "text": "Sad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguro de sí mismo'?",
+          "options": [
+            { "id": "o1", "text": "Confident" },
+            { "id": "o2", "text": "Secure" },
+            { "id": "o3", "text": "Safe" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar Review (Units 1-9)",
+      "content": [
+        {
+          "interaction_id": "U10_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el tiempo correcto (rutina): 'He ___ (go) to work every day.'",
+          "stimulus_en": "He ___ to work every day.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el tiempo correcto (ahora): 'I ___ (study) for my unit 10 exam right now.'",
+          "stimulus_en": "I ___ for my unit 10 exam right now.",
+          "correct_answer": "am studying",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U10_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 10 of the A2 course.\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado: 'They ___ (not / see) the boss yesterday.'",
+          "stimulus_en": "They ___ the boss yesterday.",
+          "correct_answer": "didn't see",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_I94",
+          "interaction_id": "U10_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'used to': 'I ___ (solía) live in a small village.'",
+          "stimulus_en": "I ___ live in a small village.",
+          "correct_answer": "used to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta en pasado: '___ you finish the housework?'",
+          "stimulus_en": "___ you finish the housework?",
+          "correct_answer": "Did",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'I am so ___ (bored/boring) by this lecture.'",
+          "options": [
+            { "id": "o1", "text": "bored" },
+            { "id": "o2", "text": "boring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'This job is really ___ (tired/tiring).'",
+          "options": [
+            { "id": "o1", "text": "tiring" },
+            { "id": "o2", "text": "tired" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es un verbo estático (stative verb)?",
+          "options": [
+            { "id": "o1", "text": "Understand" },
+            { "id": "o2", "text": "Run" },
+            { "id": "o3", "text": "Eat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el tiempo correcto: 'I ___ (believe) you are right.'",
+          "stimulus_en": "I ___ you are right.",
+          "correct_answer": "believe",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She / never / used / to / be / lazy / .'",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "never" },
+            { "id": "w3", "text": "used" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "be" },
+            { "id": "w6", "text": "lazy" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Write': 'He ___ an email to his family.'",
+          "stimulus_en": "He ___ an email to his family.",
+          "correct_answer": "wrote",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Get': 'We ___ a new sofa last week.'",
+          "stimulus_en": "We ___ a new sofa last week.",
+          "correct_answer": "got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pregunta '¿Qué estás haciendo?'?",
+          "options": [
+            { "id": "o1", "text": "What are you doing?" },
+            { "id": "o2", "text": "What do you do?" },
+            { "id": "o3", "text": "What you doing?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?'?",
+          "options": [
+            { "id": "o1", "text": "What do you do?" },
+            { "id": "o2", "text": "What are you doing?" },
+            { "id": "o3", "text": "What is your work?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Be': 'They ___ very happy together.'",
+          "stimulus_en": "They ___ very happy together.",
+          "correct_answer": "were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Think': 'I ___ the exam was easy.'",
+          "stimulus_en": "I ___ the exam was easy.",
+          "correct_answer": "thought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I52",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'I have ___ (so/very) much work.'",
+          "options": [
+            { "id": "o1", "text": "so" },
+            { "id": "o2", "text": "very" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'She is a ___ (so/very) nice person.'",
+          "options": [
+            { "id": "o1", "text": "very" },
+            { "id": "o2", "text": "so" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'In/On/At': 'I was born ___ 1995.'",
+          "stimulus_en": "I was born ___ 1995.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'In/On/At': 'The meeting is ___ Monday ___ 9:00.'",
+          "stimulus_en": "The meeting is ___ Monday ___ 9:00.",
+          "correct_answer": "on, at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Have': 'We ___ a big party for her birthday.'",
+          "stimulus_en": "We ___ a big party for her birthday.",
+          "correct_answer": "had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la negativa en presente continuo: 'He ___ (not / work) today.'",
+          "stimulus_en": "He ___ today.",
+          "correct_answer": "isn't working",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el adverbio de frecuencia: 'I ___ (siempre) brush my teeth.'",
+          "stimulus_en": "I ___ brush my teeth.",
+          "correct_answer": "always",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el adverbio de frecuencia: 'She ___ (a veces) studies late.'",
+          "stimulus_en": "She ___ studies late.",
+          "correct_answer": "sometimes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde se pone el adverbio 'usually'?",
+          "options": [
+            { "id": "o1", "text": "Antes del verbo principal" },
+            { "id": "o2", "text": "Después del verbo principal" },
+            { "id": "o3", "text": "Al principio de la frase" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde se pone el adverbio 'always' con el verbo BE?",
+          "options": [
+            { "id": "o1", "text": "Después del verbo BE (ej: I am always...)" },
+            { "id": "o2", "text": "Antes del verbo BE (ej: I always am...)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa en pasado: 'She ___ (buy) a house two years ago.'",
+          "stimulus_en": "She ___ a house two years ago.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa en pasado: 'We ___ (leave) the party at midnight.'",
+          "stimulus_en": "We ___ the party at midnight.",
+          "correct_answer": "left",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa en pasado: 'I ___ (take) many photos on my holiday.'",
+          "stimulus_en": "I ___ many photos on my holiday.",
+          "correct_answer": "took",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta con 'used to': '___ you ___ (solías) have long hair?'",
+          "stimulus_en": "___ you ___ have long hair?",
+          "correct_answer": "Did, use to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'They are very ___ (excited/exciting) about the news.'",
+          "options": [
+            { "id": "o1", "text": "excited" },
+            { "id": "o2", "text": "exciting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I67",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'The news is very ___ (excited/exciting).'",
+          "options": [
+            { "id": "o1", "text": "exciting" },
+            { "id": "o2", "text": "excited" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Know': 'I ___ the answer.'",
+          "stimulus_en": "I ___ the answer.",
+          "correct_answer": "knew",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el pasado de 'Come': 'He ___ to the office late.'",
+          "stimulus_en": "He ___ to the office late.",
+          "correct_answer": "came",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I70",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
+          "prompt_es": "'I used to go to school by bus' es gramaticalmente correcta.",
           "correct_answer": true,
           "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Module 1 Assessment: Communication",
+      "content": [
+        {
+          "interaction_id": "U10_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes educadamente a 'How do you do?'?",
+          "options": [
+            { "id": "o1", "text": "How do you do." },
+            { "id": "o2", "text": "I'm fine, thanks." },
+            { "id": "o3", "text": "Nice to meet you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describes a alguien alto con ojos azules?",
+          "options": [
+            { "id": "o1", "text": "He is tall and has blue eyes." },
+            { "id": "o2", "text": "He has tall and is blue eyes." },
+            { "id": "o3", "text": "He is tall and blue eyes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi primo es muy trabajador'?",
+          "options": [
+            { "id": "o1", "text": "My cousin is very hard-working." },
+            { "id": "o2", "text": "My nephew is very worker." },
+            { "id": "o3", "text": "My uncle works hard." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué hora te levantas?'?",
+          "options": [
+            { "id": "o1", "text": "What time do you get up?" },
+            { "id": "o2", "text": "When you wake up?" },
+            { "id": "o3", "text": "At what hour you stand up?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vivo en un piso en el centro'?",
+          "options": [
+            { "id": "o1", "text": "I live in a flat in the city center." },
+            { "id": "o2", "text": "I live in a house in the middle." },
+            { "id": "o3", "text": "Flat is my home in center." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I76",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿A qué se dedica tu padre?'",
+          "stimulus_es": "¿A qué se dedica tu padre?",
+          "correct_answer": "What does your father do?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Estoy / de / muy / mis / orgulloso / resultados / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "am" },
+            { "id": "w3", "text": "very" },
+            { "id": "w4", "text": "proud" },
+            { "id": "w5", "text": "of" },
+            { "id": "w6", "text": "my" },
+            { "id": "w7", "text": "results" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a 'How are you feeling today?'?",
+          "options": [
+            { "id": "o1", "text": "I feel much better, thanks." },
+            { "id": "o2", "text": "I feel very goodly." },
+            { "id": "o3", "text": "I am feeling weller." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Solía estudiar en la biblioteca'?",
+          "options": [
+            { "id": "o1", "text": "I used to study in the library." },
+            { "id": "o2", "text": "I usually studied in the bookroom." },
+            { "id": "o3", "text": "I was study in the library." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I80",
+          "type": "matching",
+          "prompt_es": "Preguntas y respuestas sociales:",
+          "pairs": [
+            { "id": "p1", "left": "What's the matter?", "right": "I'm a bit overwhelmed." },
+            { "id": "p2", "left": "What do you do?", "right": "I'm a graphic designer." },
+            { "id": "p3", "left": "Where did you go?", "right": "I went to London." }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No entiendo'?",
+          "options": [
+            { "id": "o1", "text": "I don't understand." },
+            { "id": "o2", "text": "I'm not understanding." },
+            { "id": "o3", "text": "I not understand." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I82",
+          "type": "flashcard",
+          "prompt_es": "Frases Útiles Finales",
+          "flashcards": [
+            { "front": "It depends.", "back": "Depende.", "pronunciation": "/ɪt dɪˈpendz/" },
+            { "front": "In my opinion...", "back": "En mi opinión...", "pronunciation": "/ɪn maɪ əˈpɪnjən/" },
+            { "front": "Let me see.", "back": "Déjame ver.", "pronunciation": "/let miː siː/" },
+            { "front": "Exactly!", "back": "¡Exactamente!", "pronunciation": "/ɪɡˈzæktli/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué pena!'?",
+          "options": [
+            { "id": "o1", "text": "What a pity!" },
+            { "id": "o2", "text": "What a shame!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Vaya sorpresa!'?",
+          "options": [
+            { "id": "o1", "text": "What a surprise!" },
+            { "id": "o2", "text": "What surprise!" },
+            { "id": "o3", "text": "A surprise what!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo ganas de que llegue el fin de semana'?",
+          "options": [
+            { "id": "o1", "text": "I'm looking forward to the weekend." },
+            { "id": "o2", "text": "I look for the weekend." },
+            { "id": "o3", "text": "I wait the weekend." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I86",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Estudié mucho para este examen.'",
+          "stimulus_es": "Estudié mucho para este examen.",
+          "correct_answer": "I studied a lot for this exam",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me alegro mucho por ti'?",
+          "options": [
+            { "id": "o1", "text": "I'm so happy for you." },
+            { "id": "o2", "text": "I am so happy with you." },
+            { "id": "o3", "text": "I feel happy for you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué tal te fue el examen?'?",
+          "options": [
+            { "id": "o1", "text": "How was your exam?" },
+            { "id": "o2", "text": "How did your exam go?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde / naciste / ?'",
+          "options": [
+            { "id": "w1", "text": "Where" },
+            { "id": "w2", "text": "were" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "born" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Crecí en Madrid'?",
+          "options": [
+            { "id": "o1", "text": "I grew up in Madrid." },
+            { "id": "o2", "text": "I growed up in Madrid." },
+            { "id": "o3", "text": "I was grow in Madrid." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo una buena relación con mi hermano'?",
+          "options": [
+            { "id": "o1", "text": "I have a good relationship with my brother." },
+            { "id": "o2", "text": "I get on well with my brother." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me da miedo volar'?",
+          "options": [
+            { "id": "o1", "text": "I'm afraid of flying." },
+            { "id": "o2", "text": "I fear to fly." },
+            { "id": "o3", "text": "Flying scares me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Cálmate!'?",
+          "options": [
+            { "id": "o1", "text": "Calm down!" },
+            { "id": "o2", "text": "Quiet up!" },
+            { "id": "o3", "text": "Relax you!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No es para tanto'?",
+          "options": [
+            { "id": "o1", "text": "It's not a big deal." },
+            { "id": "o2", "text": "It's not for so much." },
+            { "id": "o3", "text": "No big matter." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy un poco decepcionado'?",
+          "options": [
+            { "id": "o1", "text": "I'm a bit disappointed." },
+            { "id": "o2", "text": "I am a bit disappearing." },
+            { "id": "o3", "text": "Disappointed I am a bit." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Buena suerte!'?",
+          "options": [
+            { "id": "o1", "text": "Good luck!" },
+            { "id": "o2", "text": "Best luck!" },
+            { "id": "o3", "text": "Have luck!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Buen trabajo!'?",
+          "options": [
+            { "id": "o1", "text": "Good job!" },
+            { "id": "o2", "text": "Well done!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Felicitaciones!'?",
+          "options": [
+            { "id": "o1", "text": "Congratulations!" },
+            { "id": "o2", "text": "Congrats!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Lo lograste!'?",
+          "options": [
+            { "id": "o1", "text": "You did it!" },
+            { "id": "o2", "text": "You made it!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'He completado el Módulo 1.'",
+          "stimulus_es": "He completado el Módulo 1.",
+          "correct_answer": "I have completed Module 1",
+          "mastery_tag": "communication"
         }
       ]
     }

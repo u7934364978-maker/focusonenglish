@@ -1,46 +1,1184 @@
 {
   "course": {
-    "unit_id": "U54",
-    "unit_title": "Going Out",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U54",
+    "unit_title": "Sightseeing & Tours",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Identify social activities",
-    "Talk about where people go for fun"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Social Activities",
+      "title": "Sightseeing Vocabulary",
       "content": [
         {
           "interaction_id": "U54_I1",
-          "type": "matching",
-          "prompt_es": "Actividades sociales",
-          "pairs": [
-            { "id": "a1", "left": "Cinema", "right": "Cine" },
-            { "id": "a2", "left": "Park", "right": "Parque" },
-            { "id": "a3", "left": "Party", "right": "Fiesta" },
-            { "id": "a4", "left": "Concert", "right": "Concierto" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer turismo'?",
+          "options": [
+            { "id": "o1", "text": "sightseeing" },
+            { "id": "o2", "text": "doing visits" },
+            { "id": "o3", "text": "watching places" }
           ],
-          "correct_answer": { "a1": "a1", "a2": "a2", "a3": "a3", "a4": "a4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U54_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿A dónde vas para ver una película?",
-          "stimulus_en": "We are going to the ______ to see a movie.",
+          "prompt_es": "¿Cómo se dice 'monumento'?",
           "options": [
-            { "id": "o1", "text": "cinema" },
-            { "id": "o2", "text": "supermarket" },
-            { "id": "o3", "text": "bank" }
+            { "id": "o1", "text": "monument" },
+            { "id": "o2", "text": "landmark" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museo'?",
+          "options": [
+            { "id": "o1", "text": "museum" },
+            { "id": "o2", "text": "gallery" },
+            { "id": "o3", "text": "exhibition" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guía turístico'?",
+          "options": [
+            { "id": "o1", "text": "tour guide" },
+            { "id": "o2", "text": "travel leader" },
+            { "id": "o3", "text": "city helper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mapa de la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "city map" },
+            { "id": "o2", "text": "town plan" },
+            { "id": "o3", "text": "street book" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Let's go ___ (hacer turismo) today.'",
+          "stimulus_en": "___",
+          "correct_answer": "sightseeing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We need to buy a ___ (entrada).'",
+          "stimulus_en": "___",
+          "correct_answer": "ticket",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I8",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está la oficina de turismo?'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "tourist" },
+            { "id": "w4", "text": "office?" },
+            { "id": "w5", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w1", "w5", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El museo abre a las nueve'",
+          "options": [
+            { "id": "w1", "text": "opens" },
+            { "id": "w2", "text": "The" },
+            { "id": "w3", "text": "museum" },
+            { "id": "w4", "text": "at" },
+            { "id": "w5", "text": "nine" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I10",
+          "type": "true_false",
+          "prompt_es": "¿'Souvenir' es un regalo que compras en vacaciones?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, un recuerdo del viaje.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'catedral'?",
+          "options": [
+            { "id": "o1", "text": "cathedral" },
+            { "id": "o2", "text": "church" },
+            { "id": "o3", "text": "castle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'castillo'?",
+          "options": [
+            { "id": "o1", "text": "castle" },
+            { "id": "o2", "text": "palace" },
+            { "id": "o3", "text": "tower" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casco antiguo'?",
+          "options": [
+            { "id": "o1", "text": "old town" },
+            { "id": "o2", "text": "historic centre" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mirador'?",
+          "options": [
+            { "id": "o1", "text": "viewpoint" },
+            { "id": "o2", "text": "lookout" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'excursión de un día'?",
+          "options": [
+            { "id": "o1", "text": "day trip" },
+            { "id": "o2", "text": "excursion" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (palacio) is very beautiful.'",
+          "stimulus_en": "___",
+          "correct_answer": "palace",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I17",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you have a ___ (folleto) about the city?'",
+          "stimulus_en": "___",
+          "correct_answer": "brochure",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿A qué hora empieza el tour?'",
+          "options": [
+            { "id": "w1", "text": "time" },
+            { "id": "w2", "text": "What" },
+            { "id": "w3", "text": "tour" },
+            { "id": "w4", "text": "start?" },
+            { "id": "w5", "text": "does" },
+            { "id": "w6", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w1", "w5", "w6", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Quiero visitar la estatua'",
+          "options": [
+            { "id": "w1", "text": "to" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "visit" },
+            { "id": "w4", "text": "want" },
+            { "id": "w5", "text": "statue" },
+            { "id": "w6", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w4", "w1", "w3", "w6", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I20",
+          "type": "true_false",
+          "prompt_es": "¿'Guided tour' es un recorrido con guía?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuente'?",
+          "options": [
+            { "id": "o1", "text": "fountain" },
+            { "id": "o2", "text": "spring" },
+            { "id": "o3", "text": "waterfall" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puente'?",
+          "options": [
+            { "id": "o1", "text": "bridge" },
+            { "id": "o2", "text": "road" },
+            { "id": "o3", "text": "path" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plaza' (en una ciudad)?",
+          "options": [
+            { "id": "o1", "text": "square" },
+            { "id": "o2", "text": "plaza" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parque temático'?",
+          "options": [
+            { "id": "o1", "text": "theme park" },
+            { "id": "o2", "text": "amusement park" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zoológico'?",
+          "options": [
+            { "id": "o1", "text": "zoo" },
+            { "id": "o2", "text": "animal park" },
+            { "id": "o3", "text": "wildlife area" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Asking for Information & Directions",
+      "content": [
+        {
+          "interaction_id": "U54_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas si el museo es gratis?",
+          "options": [
+            { "id": "o1", "text": "Is the museum free?" },
+            { "id": "o2", "text": "Does museum cost zero?" },
+            { "id": "o3", "text": "Free entry for museum?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por el precio de la entrada?",
+          "options": [
+            { "id": "o1", "text": "How much is the entrance fee?" },
+            { "id": "o2", "text": "How much for a ticket?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas si puedes hacer fotos?",
+          "options": [
+            { "id": "o1", "text": "Can I take photos?" },
+            { "id": "o2", "text": "Are photos allowed?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por el baño más cercano?",
+          "options": [
+            { "id": "o1", "text": "Where is the nearest toilet?" },
+            { "id": "o2", "text": "Where can I find a bathroom?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides que repitan algo?",
+          "options": [
+            { "id": "o1", "text": "Could you repeat that, please?" },
+            { "id": "o2", "text": "What?" },
+            { "id": "o3", "text": "Say again" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me he perdido'?",
+          "options": [
+            { "id": "o1", "text": "I am lost" },
+            { "id": "o2", "text": "I lost myself" },
+            { "id": "o3", "text": "Where am I?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas cómo llegar a la catedral?",
+          "options": [
+            { "id": "o1", "text": "How do I get to the cathedral?" },
+            { "id": "o2", "text": "Where is the cathedral?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is it ___ (lejos) from here?'",
+          "stimulus_en": "___",
+          "correct_answer": "far",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'No, it is very ___ (cerca).'",
+          "stimulus_en": "___",
+          "correct_answer": "near",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿A qué hora cierra el parque?'",
+          "options": [
+            { "id": "w1", "text": "time" },
+            { "id": "w2", "text": "What" },
+            { "id": "w3", "text": "park" },
+            { "id": "w4", "text": "close?" },
+            { "id": "w5", "text": "does" },
+            { "id": "w6", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w1", "w5", "w6", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Gire a la izquierda en el semáforo'",
+          "options": [
+            { "id": "w1", "text": "Turn" },
+            { "id": "w2", "text": "left" },
+            { "id": "w3", "text": "at" },
+            { "id": "w4", "text": "traffic" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "lights" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w5", "w4", "w6"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I37",
+          "type": "true_false",
+          "prompt_es": "¿'Go straight on' significa ir recto?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I38",
+          "type": "true_false",
+          "prompt_es": "¿'On the corner' significa en la esquina?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está al lado del banco'?",
+          "options": [
+            { "id": "o1", "text": "It's next to the bank" },
+            { "id": "o2", "text": "It's beside the bank" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está enfrente de la estación'?",
+          "options": [
+            { "id": "o1", "text": "It's opposite the station" },
+            { "id": "o2", "text": "It's in front of the station" },
+            { "id": "o3", "text": "Both are common (opposite implies facing)" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Camine dos manzanas'?",
+          "options": [
+            { "id": "o1", "text": "Walk two blocks" },
+            { "id": "o2", "text": "Walk two apples" },
+            { "id": "o3", "text": "Go two streets" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está al final de la calle'?",
+          "options": [
+            { "id": "o1", "text": "It's at the end of the street" },
+            { "id": "o2", "text": "It's in the street end" },
+            { "id": "o3", "text": "Go to street stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides que te enseñen el lugar en el mapa?",
+          "options": [
+            { "id": "o1", "text": "Can you show me on the map?" },
+            { "id": "o2", "text": "Where in map?" },
+            { "id": "o3", "text": "Show map place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Hay un cajero automático por aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Is there an ATM near here?" },
+            { "id": "o2", "text": "Where is money machine?" },
+            { "id": "o3", "text": "Can I get cash?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tome el autobús número 5'?",
+          "options": [
+            { "id": "o1", "text": "Take bus number 5" },
+            { "id": "o2", "text": "Get the 5 bus" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Turn ___ (derecha) at the corner.'",
+          "stimulus_en": "___",
+          "correct_answer": "right",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Go ___ (recto) for 100 metres.'",
+          "stimulus_en": "___",
+          "correct_answer": "straight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Puede decirme cómo llegar al centro?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "tell" },
+            { "id": "w4", "text": "me" },
+            { "id": "w5", "text": "how" },
+            { "id": "w6", "text": "to" },
+            { "id": "w7", "text": "get" },
+            { "id": "w8", "text": "to" },
+            { "id": "w9", "text": "the" },
+            { "id": "w10", "text": "centre?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Cruce el puente'",
+          "options": [
+            { "id": "w1", "text": "Cross" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "bridge" }
+          ],
+          "correct_answer": ["w1", "w2", "w3"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I50",
+          "type": "true_false",
+          "prompt_es": "¿'Bus stop' es donde se coge el autobús?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Tour Information & Preferences",
+      "content": [
+        {
+          "interaction_id": "U54_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'hop-on hop-off bus'?",
+          "options": [
+            { "id": "o1", "text": "Autobús turístico donde puedes subir y bajar libremente" },
+            { "id": "o2", "text": "Autobús de línea regular" },
+            { "id": "o3", "text": "Autobús nocturno" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Quiero reservar un tour por la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "I'd like to book a city tour" },
+            { "id": "o2", "text": "I want a tour city" },
+            { "id": "o3", "text": "Book me a visit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas si hay descuento para estudiantes?",
+          "options": [
+            { "id": "o1", "text": "Is there a student discount?" },
+            { "id": "o2", "text": "Students pay less?" },
+            { "id": "o3", "text": "Cheap for student?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por la duración del tour?",
+          "options": [
+            { "id": "o1", "text": "How long is the tour?" },
+            { "id": "o2", "text": "What is the duration?" },
+            { "id": "o3", "text": "How many hours?" },
+            { "id": "o4", "text": "All are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas a qué hora termina?",
+          "options": [
+            { "id": "o1", "text": "What time does it finish?" },
+            { "id": "o2", "text": "When is the end?" },
+            { "id": "o3", "text": "At what hour stops?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Está incluido el almuerzo?'?",
+          "options": [
+            { "id": "o1", "text": "Is lunch included?" },
+            { "id": "o2", "text": "Does it have food?" },
+            { "id": "o3", "text": "Lunch comes with?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prefiero un tour a pie'?",
+          "options": [
+            { "id": "o1", "text": "I prefer a walking tour" },
+            { "id": "o2", "text": "I like walk tour" },
+            { "id": "o3", "text": "A foot tour is better" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde empieza el tour?'?",
+          "options": [
+            { "id": "o1", "text": "Where does the tour start?" },
+            { "id": "o2", "text": "When the tour begins?" },
+            { "id": "o3", "text": "Both are common (where/when)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es un lugar muy concurrido'?",
+          "options": [
+            { "id": "o1", "text": "It's a very crowded place" },
+            { "id": "o2", "text": "There are many people" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es un lugar tranquilo'?",
+          "options": [
+            { "id": "o1", "text": "It's a quiet place" },
+            { "id": "o2", "text": "It's peaceful" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The view is ___ (increíble).'",
+          "stimulus_en": "___",
+          "correct_answer": "amazing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want to take a ___ (foto).'",
+          "stimulus_en": "___",
+          "correct_answer": "photo",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I63",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Hay un tour en español?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "there" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "tour" },
+            { "id": "w5", "text": "in" },
+            { "id": "w6", "text": "Spanish?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Este es el edificio más antiguo'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "oldest" },
+            { "id": "w5", "text": "building" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U54_I65",
+          "type": "true_false",
+          "prompt_es": "¿'Breathtaking' significa que algo es muy aburrido?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa que es impresionante (te quita el aliento).",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'famoso'?",
+          "options": [
+            { "id": "o1", "text": "famous" },
+            { "id": "o2", "text": "well-known" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'moderno'?",
+          "options": [
+            { "id": "o1", "text": "modern" },
+            { "id": "o2", "text": "new" },
+            { "id": "o3", "text": "recent" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'antiguo/viejo'?",
+          "options": [
+            { "id": "o1", "text": "ancient" },
+            { "id": "o2", "text": "old" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caro'?",
+          "options": [
+            { "id": "o1", "text": "expensive" },
+            { "id": "o2", "text": "costly" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'barato'?",
+          "options": [
+            { "id": "o1", "text": "cheap" },
+            { "id": "o2", "text": "inexpensive" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrada' (puerta)?",
+          "options": [
+            { "id": "o1", "text": "entrance" },
+            { "id": "o2", "text": "entry" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salida'?",
+          "options": [
+            { "id": "o1", "text": "exit" },
+            { "id": "o2", "text": "way out" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The tour takes ___ (dos horas).'",
+          "stimulus_en": "___",
+          "correct_answer": "two hours",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are going on an ___ (excursión).'",
+          "stimulus_en": "___",
+          "correct_answer": "excursion",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I75",
+          "type": "true_false",
+          "prompt_es": "¿'Landmark' es un lugar famoso que sirve de referencia?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, como la Torre Eiffel o el Big Ben.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Interactive Sightseeing Games",
+      "content": [
+        {
+          "interaction_id": "U54_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras de TURISMO:",
+          "words": ["MAP", "TOUR", "MUSEUM", "GUIDE", "PALACE", "CASTLE", "PARK", "CITY", "TICKET", "SQUARE"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "MAP", "clue": "Shows streets" },
+            { "word": "TOUR", "clue": "Guided visit" },
+            { "word": "MUSEUM", "clue": "Art and history" },
+            { "word": "GUIDE", "clue": "Person who helps" },
+            { "word": "PALACE", "clue": "Where kings live" },
+            { "word": "CASTLE", "clue": "Old fortress" },
+            { "word": "PARK", "clue": "Green area" },
+            { "word": "CITY", "clue": "Large town" },
+            { "word": "TICKET", "clue": "Entry paper" },
+            { "word": "SQUARE", "clue": "Open area in town" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama del turista:",
+          "items": [
+            { "word": "SIGHTSEEING", "clue": "Visiting interesting places", "direction": "across", "row": 0, "col": 0 },
+            { "word": "STATUE", "clue": "Stone or metal figure", "direction": "down", "row": 0, "col": 4 },
+            { "word": "BRIDGE", "clue": "Road over water", "direction": "across", "row": 3, "col": 0 },
+            { "word": "TOWER", "clue": "Tall building", "direction": "down", "row": 2, "col": 1 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I78",
+          "type": "matching",
+          "prompt_es": "Une el lugar con la descripción:",
+          "pairs": [
+            { "left": "Museum", "right": "Art and history" },
+            { "left": "Cathedral", "right": "Large church" },
+            { "left": "Zoo", "right": "Animals" },
+            { "left": "Square", "right": "Open space" },
+            { "left": "Bridge", "right": "Over a river" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puedo comprar una entrada?'?",
+          "options": [
+            { "id": "o1", "text": "Can I buy a ticket?" },
+            { "id": "o2", "text": "Could I buy a ticket?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Hay audioguías?'?",
+          "options": [
+            { "id": "o1", "text": "Are there audio guides?" },
+            { "id": "o2", "text": "Do you have headphones?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora cierra el museo?'?",
+          "options": [
+            { "id": "o1", "text": "What time does the museum close?" },
+            { "id": "o2", "text": "When is the closing time?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No se permiten mascotas'?",
+          "options": [
+            { "id": "o1", "text": "No pets allowed" },
+            { "id": "o2", "text": "Pets are not welcome" },
+            { "id": "o3", "text": "Animals stop here" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Es este el camino correcto?'?",
+          "options": [
+            { "id": "o1", "text": "Is this the right way?" },
+            { "id": "o2", "text": "Am I going correctly?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuánto tiempo se tarda andando?'?",
+          "options": [
+            { "id": "o1", "text": "How long does it take on foot?" },
+            { "id": "o2", "text": "How much time by walking?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siga las señales hacia el centro'?",
+          "options": [
+            { "id": "o1", "text": "Follow the signs to the centre" },
+            { "id": "o2", "text": "Go to signals centre" },
+            { "id": "o3", "text": "Look the signs centre" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Hay una parada de autobús cerca?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a bus stop nearby?" },
+            { "id": "o2", "text": "Where is a bus stop?" },
+            { "id": "o3", "text": "Any bus here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Dónde puedo aparcar?'?",
+          "options": [
+            { "id": "o1", "text": "Where can I park?" },
+            { "id": "o2", "text": "Is there parking?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuál es el monumento más famoso?'?",
+          "options": [
+            { "id": "o1", "text": "What is the most famous monument?" },
+            { "id": "o2", "text": "Which is famous?" },
+            { "id": "o3", "text": "Best monument?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me gustaría ver la catedral'?",
+          "options": [
+            { "id": "o1", "text": "I'd like to see the cathedral" },
+            { "id": "o2", "text": "I want see cathedral" },
+            { "id": "o3", "text": "I like cathedral" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Es un tour de medio día'?",
+          "options": [
+            { "id": "o1", "text": "It's a half-day tour" },
+            { "id": "o2", "text": "It's a tour half day" },
+            { "id": "o3", "text": "It's partial tour" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I91",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (guía) is explaining the history.'",
+          "stimulus_en": "___",
+          "correct_answer": "guide",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I92",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please buy the ___ (entradas) online.'",
+          "stimulus_en": "___",
+          "correct_answer": "tickets",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I93",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está el baño?'",
+          "options": [
+            { "id": "w1", "text": "the" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "Where" },
+            { "id": "w4", "text": "toilet?" }
+          ],
+          "correct_answer": ["w3", "w2", "w1", "w4"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Siga recto y luego gire a la derecha'",
+          "options": [
+            { "id": "w1", "text": "Go" },
+            { "id": "w2", "text": "straight" },
+            { "id": "w3", "text": "and" },
+            { "id": "w4", "text": "then" },
+            { "id": "w5", "text": "turn" },
+            { "id": "w6", "text": "right" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I95",
+          "type": "true_false",
+          "prompt_es": "¿'Exhibition' es una exposición en un museo?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I96",
+          "type": "true_false",
+          "prompt_es": "¿'Palace' es donde vivían los reyes?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Se permite entrar con comida?'?",
+          "options": [
+            { "id": "o1", "text": "Is food allowed inside?" },
+            { "id": "o2", "text": "Can I bring food?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tenga cuidado'?",
+          "options": [
+            { "id": "o1", "text": "Be careful" },
+            { "id": "o2", "text": "Watch out" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora es el último tour?'?",
+          "options": [
+            { "id": "o1", "text": "What time is the last tour?" },
+            { "id": "o2", "text": "When is the final visit?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U54_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Qué vista tan bonita!'?",
+          "options": [
+            { "id": "o1", "text": "What a beautiful view!" },
+            { "id": "o2", "text": "Such a nice look!" },
+            { "id": "o3", "text": "The view is good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
         }
       ]
     }

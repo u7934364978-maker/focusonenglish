@@ -11,16 +11,25 @@ export default async function PremiumUnitPage({ params }: { params: Promise<{ un
   
   let unitData: UnitData | null = null;
 
-  // Try to load from database first
-  unitData = await courseService.getPremiumUnitData(unitId);
+  // 1. Try to load from JSON first (New content)
+  const fileName = `${unitId.toLowerCase()}.json`;
+  const filePath = path.join(process.cwd(), 'src/content/cursos/ingles-a1', fileName);
   
-  // If not found in database, try JSON fallback
-  if (!unitData) {
-    const fileName = `${unitId.toLowerCase()}.json`;
-    const filePath = path.join(process.cwd(), 'src/content/cursos/ingles-a1', fileName);
-    
-    if (fs.existsSync(filePath)) {
+  if (fs.existsSync(filePath)) {
+    try {
       unitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    } catch (e) {
+      console.error(`Error parsing JSON for unit ${unitId}:`, e);
+    }
+  }
+
+  // 2. If not found in JSON OR JSON had no exercises, try Database fallback
+  const hasExercises = unitData && unitData.blocks.some(b => b.content.length > 0);
+
+  if (!hasExercises) {
+    const dbData = await courseService.getPremiumUnitData(unitId);
+    if (dbData) {
+      unitData = dbData;
     }
   }
 

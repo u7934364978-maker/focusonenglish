@@ -4,194 +4,1126 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U11",
-    "unit_title": "Food and drink",
-    "total_duration_minutes": 120
+    "unit_title": "City Life & Places",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B11",
-      "title": "Food and drink",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: City Places",
       "content": [
         {
           "interaction_id": "U11_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ayuntamiento'?",
+          "options": [
+            { "id": "o1", "text": "Town Hall" },
+            { "id": "o2", "text": "City House" },
+            { "id": "o3", "text": "Mayor's Office" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'biblioteca'?",
+          "options": [
+            { "id": "o1", "text": "Library" },
+            { "id": "o2", "text": "Bookstore" },
+            { "id": "o3", "text": "Libreria" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'farmacia' (en UK)?",
+          "options": [
+            { "id": "o1", "text": "Chemist's" },
+            { "id": "o2", "text": "Pharmacy" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comisaría'?",
           "options": [
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w3",
-              "text": "11"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            }
+            { "id": "o1", "text": "Police station" },
+            { "id": "o2", "text": "Police house" },
+            { "id": "o3", "text": "Cop center" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'oficina de correos'?",
           "options": [
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            }
+            { "id": "o1", "text": "Post office" },
+            { "id": "o2", "text": "Mail station" },
+            { "id": "o3", "text": "Letter house" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tienda",
-          "correct_answer": "Shop",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estación de bomberos'?",
+          "options": [
+            { "id": "o1", "text": "Fire station" },
+            { "id": "o2", "text": "Fire department" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'paso de cebra'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Zebra crossing" },
+            { "id": "o2", "text": "Crosswalk" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'semáforo'?",
+          "options": [
+            { "id": "o1", "text": "Traffic lights" },
+            { "id": "o2", "text": "Street lamp" },
+            { "id": "o3", "text": "Road sign" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I9",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'acera'?",
+          "options": [
+            { "id": "o1", "text": "Pavement (UK) / Sidewalk (US)" },
+            { "id": "o2", "text": "Side road" },
+            { "id": "o3", "text": "Walking line" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rascacielos'?",
+          "options": [
+            { "id": "o1", "text": "Skyscraper" },
+            { "id": "o2", "text": "High building" },
+            { "id": "o3", "text": "Skybuilding" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'barrio'?",
+          "options": [
+            { "id": "o1", "text": "Neighborhood / District" },
+            { "id": "o2", "text": "Area" },
+            { "id": "o3", "text": "Village" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suburbios / afueras'?",
+          "options": [
+            { "id": "o1", "text": "Suburbs / Outskirts" },
+            { "id": "o2", "text": "Downside" },
+            { "id": "o3", "text": "Outer city" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estatua'?",
+          "options": [
+            { "id": "o1", "text": "Statue" },
+            { "id": "o2", "text": "Figure" },
+            { "id": "o3", "text": "Monument" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuente'?",
+          "options": [
+            { "id": "o1", "text": "Fountain" },
+            { "id": "o2", "text": "Source" },
+            { "id": "o3", "text": "Spring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plaza'?",
+          "options": [
+            { "id": "o1", "text": "Square" },
+            { "id": "o2", "text": "Park" },
+            { "id": "o3", "text": "Court" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'callejón'?",
+          "options": [
+            { "id": "o1", "text": "Alley" },
+            { "id": "o2", "text": "Lane" },
+            { "id": "o3", "text": "Path" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gasolinera'?",
+          "options": [
+            { "id": "o1", "text": "Petrol station (UK) / Gas station (US)" },
+            { "id": "o2", "text": "Fuel shop" },
+            { "id": "o3", "text": "Car juice station" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puente'?",
+          "options": [
+            { "id": "o1", "text": "Bridge" },
+            { "id": "o2", "text": "Pass" },
+            { "id": "o3", "text": "Way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cajero automático'?",
+          "options": [
+            { "id": "o1", "text": "ATM / Cash machine" },
+            { "id": "o2", "text": "Money machine" },
+            { "id": "o3", "text": "Bank teller" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estacionamiento'?",
+          "options": [
+            { "id": "o1", "text": "Car park (UK) / Parking lot (US)" },
+            { "id": "o2", "text": "Garage" },
+            { "id": "o3", "text": "Driveway" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I21",
+          "type": "matching",
+          "prompt_es": "Asocia el lugar con su función:",
+          "pairs": [
+            { "id": "p1", "left": "Bank", "right": "Exchange money" },
+            { "id": "p2", "left": "Library", "right": "Borrow books" },
+            { "id": "p3", "left": "Chemist's", "right": "Buy medicine" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I22",
+          "type": "matching",
+          "prompt_es": "Asocia el lugar con su función:",
+          "pairs": [
+            { "id": "p1", "left": "Post office", "right": "Send parcels" },
+            { "id": "p2", "left": "Fire station", "right": "Emergency services" },
+            { "id": "p3", "left": "ATM", "right": "Withdraw cash" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I23",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Qué es un 'Town Hall'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "La sede del gobierno local" },
+            { "id": "o2", "text": "Un parque" },
+            { "id": "o3", "text": "Una iglesia" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 11 of the A2 course.\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cruzar la calle'?",
+          "options": [
+            { "id": "o1", "text": "Cross the street" },
+            { "id": "o2", "text": "Pass the street" },
+            { "id": "o3", "text": "Walk the street" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'centro de la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "City center / Downtown" },
+            { "id": "o2", "text": "Middle city" },
+            { "id": "o3", "text": "City point" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I26",
+          "type": "flashcard",
+          "prompt_es": "Lugares Urbanos Importantes",
+          "flashcards": [
+            { "front": "Cathedral", "back": "Catedral", "pronunciation": "/kəˈθiːdrəl/" },
+            { "front": "Museum", "back": "Museo", "pronunciation": "/mjuˈziːəm/" },
+            { "front": "Stadium", "back": "Estadio", "pronunciation": "/ˈsteɪdiəm/" },
+            { "front": "Cinema", "back": "Cine", "pronunciation": "/ˈsɪnəmə/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puerto'?",
+          "options": [
+            { "id": "o1", "text": "Port / Harbor" },
+            { "id": "o2", "text": "Gate" },
+            { "id": "o3", "text": "Dock" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rotonda'?",
+          "options": [
+            { "id": "o1", "text": "Roundabout" },
+            { "id": "o2", "text": "Circle" },
+            { "id": "o3", "text": "Rolling road" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'túnel'?",
+          "options": [
+            { "id": "o1", "text": "Tunnel" },
+            { "id": "o2", "text": "Underpass" },
+            { "id": "o3", "text": "Hole" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estación de tren'?",
+          "options": [
+            { "id": "o1", "text": "Train station" },
+            { "id": "o2", "text": "Railway station" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parada de autobús'?",
+          "options": [
+            { "id": "o1", "text": "Bus stop" },
+            { "id": "o2", "text": "Bus station" },
+            { "id": "o3", "text": "Bus point" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mercado'?",
+          "options": [
+            { "id": "o1", "text": "Market" },
+            { "id": "o2", "text": "Supermarket" },
+            { "id": "o3", "text": "Grocery store" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'galería de arte'?",
+          "options": [
+            { "id": "o1", "text": "Art gallery" },
+            { "id": "o2", "text": "Paint house" },
+            { "id": "o3", "text": "Picture room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'teatro'?",
+          "options": [
+            { "id": "o1", "text": "Theatre (UK) / Theater (US)" },
+            { "id": "o2", "text": "Cinema" },
+            { "id": "o3", "text": "Stage house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'universidad'?",
+          "options": [
+            { "id": "o1", "text": "University / College" },
+            { "id": "o2", "text": "School" },
+            { "id": "o3", "text": "Academic center" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Prepositions of Place & There is/are",
+      "content": [
+        {
+          "interaction_id": "U11_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la preposición 'al lado de': 'The bank is ___ to the library.'",
+          "stimulus_en": "The bank is ___ to the library.",
+          "correct_answer": "next",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'enfrente de': 'The park is ___ the town hall.'",
+          "stimulus_en": "The park is ___ the town hall.",
+          "correct_answer": "opposite",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 11 of the A2 course.\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'entre': 'The pharmacy is ___ the bank and the shop.'",
+          "stimulus_en": "The pharmacy is ___ the bank and the shop.",
+          "correct_answer": "between",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'detrás de': 'The car park is ___ the building.'",
+          "stimulus_en": "The car park is ___ the building.",
+          "correct_answer": "behind",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'delante de': 'There is a statue ___ of the museum.'",
+          "stimulus_en": "There is a statue ___ of the museum.",
+          "correct_answer": "in front",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: '___ any good restaurants near here?'",
+          "options": [
+            { "id": "o1", "text": "Are there" },
+            { "id": "o2", "text": "Is there" },
+            { "id": "o3", "text": "There are" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: '___ a post office in this street.'",
+          "options": [
+            { "id": "o1", "text": "There is" },
+            { "id": "o2", "text": "There are" },
+            { "id": "o3", "text": "Is there" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A / AN / SOME': 'There are ___ interesting shops in the center.'",
+          "stimulus_en": "There are ___ interesting shops in the center.",
+          "correct_answer": "some",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A / AN / SOME': 'Is there ___ ATM near the chemist's?'",
+          "stimulus_en": "Is there ___ ATM near the chemist's?",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A / AN / SOME': 'There is ___ library opposite the school.'",
+          "stimulus_en": "There is ___ library opposite the school.",
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'There / is / a / park / behind / house / my / .'",
+          "options": [
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "park" },
+            { "id": "w5", "text": "behind" },
+            { "id": "w6", "text": "my" },
+            { "id": "w7", "text": "house" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ there any museums in this town?'",
+          "stimulus_en": "___ there any museums in this town?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la negativa: 'There ___ any traffic lights at this corner.'",
+          "stimulus_en": "There ___ any traffic lights at this corner.",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'En la esquina de': 'The shop is ___ the street.'",
+          "stimulus_en": "The shop is ___ the street.",
+          "correct_answer": "on the corner of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I50",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la preposición para 'The bridge is ___ the river.'",
+          "options": [
+            { "id": "o1", "text": "over" },
+            { "id": "o2", "text": "under" },
+            { "id": "o3", "text": "next" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la preposición para 'dentro de'?",
+          "options": [
+            { "id": "o1", "text": "Inside / In" },
+            { "id": "o2", "text": "Out" },
+            { "id": "o3", "text": "On" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The post office is far ___ here.'",
+          "stimulus_en": "The post office is far ___ here.",
+          "correct_answer": "from",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Cerca de': 'I live ___ the stadium.'",
+          "stimulus_en": "I live ___ the stadium.",
+          "correct_answer": "near",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Wait ___ the bus stop.'",
+          "stimulus_en": "Wait ___ the bus stop.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A través de': 'Walk ___ the bridge.'",
+          "stimulus_en": "Walk ___ the bridge.",
+          "correct_answer": "across",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'al final de la calle'?",
+          "options": [
+            { "id": "o1", "text": "At the end of the street" },
+            { "id": "o2", "text": "In the end of the street" },
+            { "id": "o3", "text": "To the finish of road" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en el centro'?",
+          "options": [
+            { "id": "o1", "text": "In the center" },
+            { "id": "o2", "text": "At the middle" },
+            { "id": "o3", "text": "On the point" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A la derecha': 'The bank is ___.'",
+          "stimulus_en": "The bank is ___.",
+          "correct_answer": "on the right",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A la izquierda': 'The library is ___.'",
+          "stimulus_en": "The library is ___.",
+          "correct_answer": "on the left",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I60",
+          "type": "true_false",
+          "prompt_es": "'Next to' y 'Beside' significan lo mismo.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'There ___ (be) many cars on the road.'",
+          "options": [
+            { "id": "o1", "text": "are" },
+            { "id": "o2", "text": "is" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I62",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'There ___ (not be) a hospital here.'",
+          "options": [
+            { "id": "o1", "text": "isn't" },
+            { "id": "o2", "text": "aren't" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ there a cinema nearby?'",
+          "stimulus_en": "___ there a cinema nearby?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'between / The / is / shop / two / buildings / .'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "shop" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "between" },
+            { "id": "w5", "text": "two" },
+            { "id": "w6", "text": "buildings" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Encima de': 'There is a map ___ the wall.'",
+          "stimulus_en": "There is a map ___ the wall.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Debajo de': 'There is a tunnel ___ the city.'",
+          "stimulus_en": "There is a tunnel ___ the city.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Turn right ___ the traffic lights.'",
+          "stimulus_en": "Turn right ___ the traffic lights.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'En el medio de': 'There is a fountain ___ the square.'",
+          "stimulus_en": "There is a fountain ___ the square.",
+          "correct_answer": "in the middle of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I69",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'I'm waiting ___ the station.'",
+          "options": [
+            { "id": "o1", "text": "at" },
+            { "id": "o2", "text": "on" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I70",
+          "type": "true_false",
+          "prompt_es": "'Opposite' significa 'enfrente de' (mirándose cara a cara).",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Asking for & Giving Directions",
+      "content": [
+        {
+          "interaction_id": "U11_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides direcciones educadamente?",
+          "options": [
+            { "id": "o1", "text": "Excuse me, can you tell me the way to...?" },
+            { "id": "o2", "text": "Where is the...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'gira a la derecha'?",
+          "options": [
+            { "id": "o1", "text": "Turn right" },
+            { "id": "o2", "text": "Go right" },
+            { "id": "o3", "text": "Take right" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'gira a la izquierda'?",
+          "options": [
+            { "id": "o1", "text": "Turn left" },
+            { "id": "o2", "text": "Go left" },
+            { "id": "o3", "text": "Take left" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'sigue recto'?",
+          "options": [
+            { "id": "o1", "text": "Go straight on" },
+            { "id": "o2", "text": "Walk ahead" },
+            { "id": "o3", "text": "Keep forward" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'pasa el banco'?",
+          "options": [
+            { "id": "o1", "text": "Go past the bank" },
+            { "id": "o2", "text": "Pass the bank" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'toma la segunda a la derecha'?",
+          "options": [
+            { "id": "o1", "text": "Take the second right" },
+            { "id": "o2", "text": "Turn second right" },
+            { "id": "o3", "text": "Second street right" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está al final de la calle'?",
+          "options": [
+            { "id": "o1", "text": "It's at the end of the street" },
+            { "id": "o2", "text": "It's finishing the road" },
+            { "id": "o3", "text": "Go to the end" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'no puedes perderte'?",
+          "options": [
+            { "id": "o1", "text": "You can't miss it" },
+            { "id": "o2", "text": "You can't get lost" },
+            { "id": "o3", "text": "You won't lose it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Hay un cajero cerca de aquí?'",
+          "stimulus_es": "¿Hay un cajero cerca de aquí?",
+          "correct_answer": "Is there an ATM near here?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Gira a la izquierda en el semáforo.'",
+          "stimulus_es": "Gira a la izquierda en el semáforo.",
+          "correct_answer": "Turn left at the traffic lights",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes si no sabes el camino?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry, I'm not from around here." },
+            { "id": "o2", "text": "I don't know, sorry." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está a unos 10 minutos a pie'?",
+          "options": [
+            { "id": "o1", "text": "It's about 10 minutes on foot" },
+            { "id": "o2", "text": "It's 10 minutes walking" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está justo ahí'?",
+          "options": [
+            { "id": "o1", "text": "It's right there" },
+            { "id": "o2", "text": "It's exactly here" },
+            { "id": "o3", "text": "Point there" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'cruza el puente'?",
+          "options": [
+            { "id": "o1", "text": "Go across the bridge" },
+            { "id": "o2", "text": "Cross the bridge" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está en la esquina'?",
+          "options": [
+            { "id": "o1", "text": "It's on the corner" },
+            { "id": "o2", "text": "It's in the edge" },
+            { "id": "o3", "text": "Corner is there" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está enfrente del cine'?",
+          "options": [
+            { "id": "o1", "text": "It's opposite the cinema" },
+            { "id": "o2", "text": "It's in front the cinema" },
+            { "id": "o3", "text": "It's across the cinema" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está al lado del ayuntamiento'?",
+          "options": [
+            { "id": "o1", "text": "It's next to the town hall" },
+            { "id": "o2", "text": "It's beside the town hall" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I88",
+          "type": "matching",
+          "prompt_es": "Frases de dirección comunes:",
+          "pairs": [
+            { "id": "p1", "left": "Go straight on", "right": "Sigue recto" },
+            { "id": "p2", "left": "Turn left", "right": "Gira a la izquierda" },
+            { "id": "p3", "left": "Cross the road", "right": "Cruza la calle" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'How / do / I / get / to / the / station / ?'",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "do" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "get" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "station" },
+            { "id": "w8", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por la distancia?",
+          "options": [
+            { "id": "o1", "text": "How far is it?" },
+            { "id": "o2", "text": "Is it far from here?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'toma un taxi'?",
+          "options": [
+            { "id": "o1", "text": "Take a taxi" },
+            { "id": "o2", "text": "Get a cab" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'bájate en la siguiente parada'?",
+          "options": [
+            { "id": "o1", "text": "Get off at the next stop" },
+            { "id": "o2", "text": "Down at the next stop" },
+            { "id": "o3", "text": "Stop at the next" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está en el tercer piso'?",
+          "options": [
+            { "id": "o1", "text": "It's on the third floor" },
+            { "id": "o2", "text": "It's in the third level" },
+            { "id": "o3", "text": "Third floor there" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'sube las escaleras'?",
+          "options": [
+            { "id": "o1", "text": "Go up the stairs" },
+            { "id": "o2", "text": "Take the stairs up" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'usa el ascensor'?",
+          "options": [
+            { "id": "o1", "text": "Take the lift / elevator" },
+            { "id": "o2", "text": "Use the lift" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'muchas gracias por tu ayuda'?",
+          "options": [
+            { "id": "o1", "text": "Thank you very much for your help" },
+            { "id": "o2", "text": "Thanks for helping" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a un agradecimiento?",
+          "options": [
+            { "id": "o1", "text": "You're welcome" },
+            { "id": "o2", "text": "No problem" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I98",
+          "type": "flashcard",
+          "prompt_es": "Frases Clave de Orientación",
+          "flashcards": [
+            { "front": "Turn around.", "back": "Date la vuelta.", "pronunciation": "/tɜːn əˈraʊnd/" },
+            { "front": "Go back.", "back": "Vuelve atrás.", "pronunciation": "/ɡəʊ bæk/" },
+            { "front": "Keep going.", "back": "Sigue adelante.", "pronunciation": "/kiːp ˈɡəʊɪŋ/" },
+            { "front": "It's nearby.", "back": "Está cerca.", "pronunciation": "/ɪts ˌnɪəˈbaɪ/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está a la vuelta de la esquina'?",
+          "options": [
+            { "id": "o1", "text": "It's just around the corner" },
+            { "id": "o2", "text": "It's turn the corner" },
+            { "id": "o3", "text": "Corner round there" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Dónde está la comisaría?'",
+          "stimulus_es": "¿Dónde está la comisaría?",
+          "correct_answer": "Where is the police station?",
+          "mastery_tag": "communication"
         }
       ]
     }

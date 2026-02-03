@@ -1,62 +1,1183 @@
 {
   "course": {
-    "unit_id": "U52",
-    "unit_title": "Buying Clothes",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U52",
+    "unit_title": "At the Airport",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Ask for sizes and colors",
-    "Understand prices",
-    "Interact with a shop assistant"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Clothes Shopping",
+      "title": "Airport Vocabulary",
       "content": [
         {
           "interaction_id": "U52_I1",
-          "type": "matching",
-          "prompt_es": "Tallas y colores",
-          "pairs": [
-            { "id": "s1", "left": "Small", "right": "Pequeño" },
-            { "id": "s2", "left": "Medium", "right": "Mediano" },
-            { "id": "s3", "left": "Large", "right": "Grande" },
-            { "id": "s4", "left": "Blue", "right": "Azul" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mostrador de facturación'?",
+          "options": [
+            { "id": "o1", "text": "check-in desk" },
+            { "id": "o2", "text": "information table" },
+            { "id": "o3", "text": "ticket counter" }
           ],
-          "correct_answer": { "s1": "s1", "s2": "s2", "s3": "s3", "s4": "s4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I2",
-          "type": "reorder_words",
-          "prompt_es": "Preguntar el precio",
-          "stimulus_en": "How much is this T-shirt?",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puerta de embarque'?",
           "options": [
-            { "id": "w1", "text": "How" },
-            { "id": "w2", "text": "much" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "this" },
-            { "id": "w5", "text": "T-shirt?" }
+            { "id": "o1", "text": "gate" },
+            { "id": "o2", "text": "door" },
+            { "id": "o3", "text": "exit" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿En qué puedo ayudarle?",
-          "stimulus_en": "Can I help you? - Yes, I ______ a blue jacket.",
+          "prompt_es": "¿Cómo se dice 'salidas'?",
           "options": [
-            { "id": "o1", "text": "want" },
-            { "id": "o2", "text": "go" },
-            { "id": "o3", "text": "am" }
+            { "id": "o1", "text": "departures" },
+            { "id": "o2", "text": "exits" },
+            { "id": "o3", "text": "leavers" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llegadas'?",
+          "options": [
+            { "id": "o1", "text": "arrivals" },
+            { "id": "o2", "text": "comers" },
+            { "id": "o3", "text": "entries" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta de embarque'?",
+          "options": [
+            { "id": "o1", "text": "boarding pass" },
+            { "id": "o2", "text": "flight card" },
+            { "id": "o3", "text": "plane ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please show your ___ (pasaporte).'",
+          "stimulus_en": "___",
+          "correct_answer": "passport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The flight is ___ (embarcando) now.'",
+          "stimulus_en": "___",
+          "correct_answer": "boarding",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I8",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está la puerta 5?'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "gate" },
+            { "id": "w4", "text": "5?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El avión despega a las diez'",
+          "options": [
+            { "id": "w1", "text": "takes" },
+            { "id": "w2", "text": "The" },
+            { "id": "w3", "text": "plane" },
+            { "id": "w4", "text": "off" },
+            { "id": "w5", "text": "at" },
+            { "id": "w6", "text": "ten" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I10",
+          "type": "true_false",
+          "prompt_es": "¿'To take off' significa aterrizar?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa despegar. Aterrizar es 'to land'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'control de seguridad'?",
+          "options": [
+            { "id": "o1", "text": "security check" },
+            { "id": "o2", "text": "safe control" },
+            { "id": "o3", "text": "police check" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aduana'?",
+          "options": [
+            { "id": "o1", "text": "customs" },
+            { "id": "o2", "text": "habits" },
+            { "id": "o3", "text": "border" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinta transportadora' (de maletas)?",
+          "options": [
+            { "id": "o1", "text": "conveyor belt" },
+            { "id": "o2", "text": "moving belt" },
+            { "id": "o3", "text": "baggage line" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recogida de equipaje'?",
+          "options": [
+            { "id": "o1", "text": "baggage reclaim" },
+            { "id": "o2", "text": "luggage pickup" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'carro de equipaje'?",
+          "options": [
+            { "id": "o1", "text": "trolley" },
+            { "id": "o2", "text": "cart" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The plane ___ (aterrizó) on time.'",
+          "stimulus_en": "___",
+          "correct_answer": "landed",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I17",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Go to ___ (puerta) B22.'",
+          "stimulus_en": "___",
+          "correct_answer": "gate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ponga sus maletas en la cinta'",
+          "options": [
+            { "id": "w1", "text": "Put" },
+            { "id": "w2", "text": "your" },
+            { "id": "w3", "text": "bags" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "belt" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Tiene algo que declarar?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "have" },
+            { "id": "w4", "text": "anything" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "declare?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I20",
+          "type": "true_false",
+          "prompt_es": "¿'Terminal' es el edificio principal del aeropuerto?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Duty Free'?",
+          "options": [
+            { "id": "o1", "text": "Duty Free" },
+            { "id": "o2", "text": "Free shops" },
+            { "id": "o3", "text": "No tax shops" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asistente de vuelo'?",
+          "options": [
+            { "id": "o1", "text": "flight attendant" },
+            { "id": "o2", "text": "cabin crew" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piloto'?",
+          "options": [
+            { "id": "o1", "text": "pilot" },
+            { "id": "o2", "text": "captain" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasajero'?",
+          "options": [
+            { "id": "o1", "text": "passenger" },
+            { "id": "o2", "text": "traveller" },
+            { "id": "o3", "text": "guest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'avión'?",
+          "options": [
+            { "id": "o1", "text": "plane" },
+            { "id": "o2", "text": "airplane" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Requests & Rules (Can/Must)",
+      "content": [
+        {
+          "interaction_id": "U52_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides ver la tarjeta de embarque educadamente?",
+          "options": [
+            { "id": "o1", "text": "Can I see your boarding pass, please?" },
+            { "id": "o2", "text": "Give me the boarding pass" },
+            { "id": "o3", "text": "You must show the pass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Debes quitarte los zapatos' (en seguridad)?",
+          "options": [
+            { "id": "o1", "text": "You must take off your shoes" },
+            { "id": "o2", "text": "You have to take off your shoes" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puedo llevar esto en el avión?'?",
+          "options": [
+            { "id": "o1", "text": "Can I take this on the plane?" },
+            { "id": "o2", "text": "Must I take this on plane?" },
+            { "id": "o3", "text": "Can I carry this inside?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No debes fumar en el aeropuerto'?",
+          "options": [
+            { "id": "o1", "text": "You mustn't smoke in the airport" },
+            { "id": "o2", "text": "You don't have to smoke" },
+            { "id": "o3", "text": "No smoke in airport" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides ayuda con una maleta pesada?",
+          "options": [
+            { "id": "o1", "text": "Could you help me with this bag, please?" },
+            { "id": "o2", "text": "Can you help me with this bag?" },
+            { "id": "o3", "text": "Both are polite and correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Tengo que facturar esta maleta?'?",
+          "options": [
+            { "id": "o1", "text": "Do I have to check in this bag?" },
+            { "id": "o2", "text": "Must I check in this bag?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No puedes llevar líquidos de más de 100ml'?",
+          "options": [
+            { "id": "o1", "text": "You can't take liquids over 100ml" },
+            { "id": "o2", "text": "You mustn't take liquids over 100ml" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (debes) show your ID.'",
+          "stimulus_en": "___",
+          "correct_answer": "must",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (puedo) I have some water?'",
+          "stimulus_en": "___",
+          "correct_answer": "Can",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Puedo ver su pasaporte?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "see" },
+            { "id": "w4", "text": "your" },
+            { "id": "w5", "text": "passport" },
+            { "id": "w6", "text": "please?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Usted tiene que esperar aquí'",
+          "options": [
+            { "id": "w1", "text": "wait" },
+            { "id": "w2", "text": "to" },
+            { "id": "w3", "text": "here" },
+            { "id": "w4", "text": "You" },
+            { "id": "w5", "text": "have" }
+          ],
+          "correct_answer": ["w4", "w5", "w2", "w1", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I37",
+          "type": "true_false",
+          "prompt_es": "¿'Can' es más informal que 'Could'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'Could' es más educado.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I38",
+          "type": "true_false",
+          "prompt_es": "¿'Mustn't' indica prohibición?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, algo que no está permitido.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hace falta que corras' (no es obligatorio)?",
+          "options": [
+            { "id": "o1", "text": "You don't have to run" },
+            { "id": "o2", "text": "You mustn't run" },
+            { "id": "o3", "text": "You can't run" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides permiso para sentarte?",
+          "options": [
+            { "id": "o1", "text": "Can I sit here?" },
+            { "id": "o2", "text": "May I sit here?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde puedo cambiar dinero?'?",
+          "options": [
+            { "id": "o1", "text": "Where can I change money?" },
+            { "id": "o2", "text": "Where must I change money?" },
+            { "id": "o3", "text": "Where do I have change money?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay un cajero automático allí'?",
+          "options": [
+            { "id": "o1", "text": "There is an ATM over there" },
+            { "id": "o2", "text": "There is a cash machine there" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Cuál es el motivo de su viaje?' (en inmigración)?",
+          "options": [
+            { "id": "o1", "text": "What is the purpose of your visit?" },
+            { "id": "o2", "text": "Why are you here?" },
+            { "id": "o3", "text": "What do you want?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Vengo de vacaciones'?",
+          "options": [
+            { "id": "o1", "text": "I'm here on holiday" },
+            { "id": "o2", "text": "I come for vacation" },
+            { "id": "o3", "text": "I'm on travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Voy a estar aquí dos semanas'?",
+          "options": [
+            { "id": "o1", "text": "I'm staying for two weeks" },
+            { "id": "o2", "text": "I will stay for two weeks" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (tienes que) go to gate 5.'",
+          "stimulus_en": "___",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (puedes) you help me?'",
+          "stimulus_en": "___",
+          "correct_answer": "Can",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No debe abrir la puerta'",
+          "options": [
+            { "id": "w1", "text": "must" },
+            { "id": "w2", "text": "not" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "door" },
+            { "id": "w5", "text": "You" },
+            { "id": "w6", "text": "open" }
+          ],
+          "correct_answer": ["w5", "w1", "w2", "w6", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está la recogida de equipajes?'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "reclaim?" },
+            { "id": "w4", "text": "baggage" },
+            { "id": "w5", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w1", "w5", "w4", "w3"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I50",
+          "type": "true_false",
+          "prompt_es": "¿'Excess baggage' es cuando te pasas del peso permitido?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, y suele tener un coste extra.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Airport Scenarios",
+      "content": [
+        {
+          "interaction_id": "U52_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'The flight is delayed'?",
+          "options": [
+            { "id": "o1", "text": "El vuelo está retrasado" },
+            { "id": "o2", "text": "El vuelo está cancelado" },
+            { "id": "o3", "text": "El vuelo está en hora" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Last call for flight BA123'?",
+          "options": [
+            { "id": "o1", "text": "Última llamada para el vuelo" },
+            { "id": "o2", "text": "Primera llamada" },
+            { "id": "o3", "text": "Vuelo cancelado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde vas si pierdes un objeto?",
+          "options": [
+            { "id": "o1", "text": "Lost and Found" },
+            { "id": "o2", "text": "Security" },
+            { "id": "o3", "text": "Customs" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Window or aisle seat?'?",
+          "options": [
+            { "id": "o1", "text": "¿Asiento de ventana o pasillo?" },
+            { "id": "o2", "text": "¿Asiento de delante o detrás?" },
+            { "id": "o3", "text": "¿Primera clase o turista?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He perdido mi maleta'?",
+          "options": [
+            { "id": "o1", "text": "I've lost my suitcase" },
+            { "id": "o2", "text": "I lost my bag" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi vuelo ha sido cancelado'?",
+          "options": [
+            { "id": "o1", "text": "My flight has been cancelled" },
+            { "id": "o2", "text": "They cancel my flight" },
+            { "id": "o3", "text": "Flight is stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué hora sale el próximo vuelo?'?",
+          "options": [
+            { "id": "o1", "text": "What time does the next flight leave?" },
+            { "id": "o2", "text": "When is next flight?" },
+            { "id": "o3", "text": "At what hour leaves next flight?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde está la parada de taxis?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the taxi rank?" },
+            { "id": "o2", "text": "Where is the taxi stand?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Un billete para el centro, por favor'?",
+          "options": [
+            { "id": "o1", "text": "A ticket to the city centre, please" },
+            { "id": "o2", "text": "One ticket for centre, please" },
+            { "id": "o3", "text": "I want go centre" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Cuánto tarda el autobús?'?",
+          "options": [
+            { "id": "o1", "text": "How long does the bus take?" },
+            { "id": "o2", "text": "How much time is the bus?" },
+            { "id": "o3", "text": "How long the bus goes?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The gate is ___ (cerrando).'",
+          "stimulus_en": "___",
+          "correct_answer": "closing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Enjoy your ___ (vuelo).'",
+          "stimulus_en": "___",
+          "correct_answer": "flight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I63",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El vuelo está retrasado una hora'",
+          "options": [
+            { "id": "w1", "text": "flight" },
+            { "id": "w2", "text": "delayed" },
+            { "id": "w3", "text": "by" },
+            { "id": "w4", "text": "an" },
+            { "id": "w5", "text": "The" },
+            { "id": "w6", "text": "is" },
+            { "id": "w7", "text": "hour" }
+          ],
+          "correct_answer": ["w5", "w1", "w6", "w2", "w3", "w4", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U52_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está el baño más cercano?'",
+          "options": [
+            { "id": "w1", "text": "nearest" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "Where" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "toilet?" }
+          ],
+          "correct_answer": ["w3", "w2", "w4", "w1", "w5"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I65",
+          "type": "true_false",
+          "prompt_es": "¿'Boarding' es el proceso de subir al avión?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escalera mecánica'?",
+          "options": [
+            { "id": "o1", "text": "escalator" },
+            { "id": "o2", "text": "moving stairs" },
+            { "id": "o3", "text": "lift" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ascensor'?",
+          "options": [
+            { "id": "o1", "text": "lift (UK)" },
+            { "id": "o2", "text": "elevator (US)" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sala VIP'?",
+          "options": [
+            { "id": "o1", "text": "lounge" },
+            { "id": "o2", "text": "VIP room" },
+            { "id": "o3", "text": "waiting area" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'conexión' (de vuelos)?",
+          "options": [
+            { "id": "o1", "text": "connection" },
+            { "id": "o2", "text": "link" },
+            { "id": "o3", "text": "transfer" },
+            { "id": "o4", "text": "o1 and o3 are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipaje facturado'?",
+          "options": [
+            { "id": "o1", "text": "checked luggage" },
+            { "id": "o2", "text": "hold baggage" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vuelo nacional'?",
+          "options": [
+            { "id": "o1", "text": "domestic flight" },
+            { "id": "o2", "text": "national flight" },
+            { "id": "o3", "text": "home flight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vuelo internacional'?",
+          "options": [
+            { "id": "o1", "text": "international flight" },
+            { "id": "o2", "text": "world flight" },
+            { "id": "o3", "text": "external flight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (piloto) is speaking now.'",
+          "stimulus_en": "___",
+          "correct_answer": "pilot",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please put your ___ (equipaje) here.'",
+          "stimulus_en": "___",
+          "correct_answer": "luggage",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I75",
+          "type": "true_false",
+          "prompt_es": "¿'Boarding' empieza antes de 'Take-off'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, primero se embarca y luego se despega.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Interactive Airport Games",
+      "content": [
+        {
+          "interaction_id": "U52_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras del AEROPUERTO:",
+          "words": ["GATE", "PLANE", "BOARDING", "TROLLEY", "SECURITY", "CUSTOMS", "PILOT", "CREW", "BELT", "TICKET"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "GATE", "clue": "Where you board" },
+            { "word": "PLANE", "clue": "It flies" },
+            { "word": "BOARDING", "clue": "Getting on the plane" },
+            { "word": "TROLLEY", "clue": "Used for bags" },
+            { "word": "SECURITY", "clue": "Safety check" },
+            { "word": "CUSTOMS", "clue": "Tax control" },
+            { "word": "PILOT", "clue": "Flies the plane" },
+            { "word": "CREW", "clue": "Cabin workers" },
+            { "word": "BELT", "clue": "Baggage moves on it" },
+            { "word": "TICKET", "clue": "You need it to fly" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama del aeropuerto:",
+          "items": [
+            { "word": "DEPARTURES", "clue": "Flights leaving the airport", "direction": "across", "row": 0, "col": 0 },
+            { "word": "ARRIVALS", "clue": "Flights coming to the airport", "direction": "down", "row": 0, "col": 3 },
+            { "word": "TICKET", "clue": "Travel document", "direction": "across", "row": 4, "col": 0 },
+            { "word": "PLANE", "clue": "Vehicle in the air", "direction": "down", "row": 2, "col": 1 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I78",
+          "type": "matching",
+          "prompt_es": "Une la acción con el lugar:",
+          "pairs": [
+            { "left": "Check in", "right": "Check-in desk" },
+            { "left": "Board", "right": "The gate" },
+            { "left": "Safety check", "right": "Security" },
+            { "left": "Declare things", "right": "Customs" },
+            { "left": "Collect bags", "right": "Baggage reclaim" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría ayudarme?'?",
+          "options": [
+            { "id": "o1", "text": "Could you help me?" },
+            { "id": "o2", "text": "Can you help me?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tengo una conexión en Frankfurt'?",
+          "options": [
+            { "id": "o1", "text": "I have a connection in Frankfurt" },
+            { "id": "o2", "text": "I connect in Frankfurt" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'retraso'?",
+          "options": [
+            { "id": "o1", "text": "delay" },
+            { "id": "o2", "text": "late" },
+            { "id": "o3", "text": "stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vuelo directo'?",
+          "options": [
+            { "id": "o1", "text": "direct flight" },
+            { "id": "o2", "text": "straight flight" },
+            { "id": "o3", "text": "non-stop flight" },
+            { "id": "o4", "text": "o1 and o3 are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuánto tiempo es la escala?'?",
+          "options": [
+            { "id": "o1", "text": "How long is the layover?" },
+            { "id": "o2", "text": "How much time is the stop?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Hay algún problema?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a problem?" },
+            { "id": "o2", "text": "Is anything wrong?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No se preocupe'?",
+          "options": [
+            { "id": "o1", "text": "Don't worry" },
+            { "id": "o2", "text": "No worry" },
+            { "id": "o3", "text": "Not worry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Dónde puedo encontrar un taxi?'?",
+          "options": [
+            { "id": "o1", "text": "Where can I find a taxi?" },
+            { "id": "o2", "text": "Where I find taxi?" },
+            { "id": "o3", "text": "How I find taxi?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siga las señales'?",
+          "options": [
+            { "id": "o1", "text": "Follow the signs" },
+            { "id": "o2", "text": "Look the signals" },
+            { "id": "o3", "text": "Go to signs" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pérdida de equipaje'?",
+          "options": [
+            { "id": "o1", "text": "lost luggage" },
+            { "id": "o2", "text": "missing bags" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oficina de información'?",
+          "options": [
+            { "id": "o1", "text": "information desk" },
+            { "id": "o2", "text": "info point" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora llegamos?'?",
+          "options": [
+            { "id": "o1", "text": "What time do we arrive?" },
+            { "id": "o2", "text": "When we arrive?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I91",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (avión) is ready.'",
+          "stimulus_en": "___",
+          "correct_answer": "plane",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I92",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Go through ___ (seguridad).'",
+          "stimulus_en": "___",
+          "correct_answer": "security",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I93",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está el mostrador de facturación?'",
+          "options": [
+            { "id": "w1", "text": "the" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "Where" },
+            { "id": "w4", "text": "desk?" },
+            { "id": "w5", "text": "check-in" }
+          ],
+          "correct_answer": ["w3", "w2", "w1", "w5", "w4"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Por favor, espere detrás de la línea'",
+          "options": [
+            { "id": "w1", "text": "wait" },
+            { "id": "w2", "text": "behind" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "line" },
+            { "id": "w5", "text": "Please" }
+          ],
+          "correct_answer": ["w5", "w1", "w2", "w3", "w4"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I95",
+          "type": "true_false",
+          "prompt_es": "¿'Boarding pass' es necesario para entrar al avión?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I96",
+          "type": "true_false",
+          "prompt_es": "¿'Gate' significa puerta?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí (específicamente la puerta de embarque en este contexto).",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puedo ver su identificación?'?",
+          "options": [
+            { "id": "o1", "text": "Can I see your ID?" },
+            { "id": "o2", "text": "Could I see your ID?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'buen viaje'?",
+          "options": [
+            { "id": "o1", "text": "Have a nice flight" },
+            { "id": "o2", "text": "Have a good trip" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U52_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'abrocharse el cinturón'?",
+          "options": [
+            { "id": "o1", "text": "fasten your seatbelt" },
+            { "id": "o2", "text": "close your belt" },
+            { "id": "o3", "text": "tie your belt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aterrizaje'?",
+          "options": [
+            { "id": "o1", "text": "landing" },
+            { "id": "o2", "text": "land" },
+            { "id": "o3", "text": "arrival" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

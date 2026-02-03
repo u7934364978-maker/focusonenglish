@@ -1,47 +1,1177 @@
 {
   "course": {
-    "unit_id": "U58",
-    "unit_title": "Suggestions",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U58",
+    "unit_title": "Solving Problems",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Make suggestions using 'Let's...'",
-    "Suggest activities using 'Shall we...?'"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Making Suggestions",
+      "title": "Identifying Issues & Requests",
       "content": [
         {
           "interaction_id": "U58_I1",
-          "type": "reorder_words",
-          "prompt_es": "Hacer una sugerencia",
-          "stimulus_en": "Let's go to the park",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'problema'?",
           "options": [
-            { "id": "w1", "text": "Let's" },
-            { "id": "w2", "text": "go" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "park" }
+            { "id": "o1", "text": "problem" },
+            { "id": "o2", "text": "issue" },
+            { "id": "o3", "text": "Both are common" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U58_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Y si comemos una pizza?",
-          "stimulus_en": "______ we have a pizza?",
+          "prompt_es": "¿Cómo se dice 'error'?",
           "options": [
-            { "id": "o1", "text": "Shall" },
-            { "id": "o2", "text": "Do" }
+            { "id": "o1", "text": "mistake" },
+            { "id": "o2", "text": "error" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'solución'?",
+          "options": [
+            { "id": "o1", "text": "solution" },
+            { "id": "o2", "text": "answer" },
+            { "id": "o3", "text": "fix" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo un problema'?",
+          "options": [
+            { "id": "o1", "text": "I have a problem" },
+            { "id": "o2", "text": "Problem I have" },
+            { "id": "o3", "text": "I has a problem" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay un error'?",
+          "options": [
+            { "id": "o1", "text": "There is a mistake" },
+            { "id": "o2", "text": "Is a mistake" },
+            { "id": "o3", "text": "It has a mistake" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I made a ___ (error).'",
+          "stimulus_en": "___",
+          "correct_answer": "mistake",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We need to ___ (arreglar) this.'",
+          "stimulus_en": "___",
+          "correct_answer": "fix",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I8",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Lo siento, fue mi error'",
+          "options": [
+            { "id": "w1", "text": "Sorry," },
+            { "id": "w2", "text": "it" },
+            { "id": "w3", "text": "was" },
+            { "id": "w4", "text": "my" },
+            { "id": "w5", "text": "mistake" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Puedes ayudarme a arreglar esto?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "help" },
+            { "id": "w4", "text": "me" },
+            { "id": "w5", "text": "fix" },
+            { "id": "w6", "text": "this?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I10",
+          "type": "true_false",
+          "prompt_es": "¿'Fix' significa lo mismo que 'repair'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, aunque 'fix' es más común en el día a día.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no funciona'?",
+          "options": [
+            { "id": "o1", "text": "It doesn't work" },
+            { "id": "o2", "text": "It's broken" },
+            { "id": "o3", "text": "Both can be used" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'está roto'?",
+          "options": [
+            { "id": "o1", "text": "It is broken" },
+            { "id": "o2", "text": "It is out of order" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'falta algo'?",
+          "options": [
+            { "id": "o1", "text": "Something is missing" },
+            { "id": "o2", "text": "One thing less" },
+            { "id": "o3", "text": "Missing bit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'urgente'?",
+          "options": [
+            { "id": "o1", "text": "urgent" },
+            { "id": "o2", "text": "fast" },
+            { "id": "o3", "text": "now" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'importante'?",
+          "options": [
+            { "id": "o1", "text": "important" },
+            { "id": "o2", "text": "vital" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The printer is ___ (roto).'",
+          "stimulus_en": "___",
+          "correct_answer": "broken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I17",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This is very ___ (urgente).'",
+          "stimulus_en": "___",
+          "correct_answer": "urgent",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No sé cómo usar esto'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "know" },
+            { "id": "w4", "text": "how" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "use" },
+            { "id": "w7", "text": "this" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde puedo encontrar ayuda?'",
+          "options": [
+            { "id": "w1", "text": "Where" },
+            { "id": "w2", "text": "can" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "find" },
+            { "id": "w5", "text": "help?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I20",
+          "type": "true_false",
+          "prompt_es": "¿'Out of order' se usa para máquinas que no funcionan?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, es muy común en ascensores o máquinas expendedoras.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'retraso'?",
+          "options": [
+            { "id": "o1", "text": "delay" },
+            { "id": "o2", "text": "late" },
+            { "id": "o3", "text": "stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cancelado'?",
+          "options": [
+            { "id": "o1", "text": "cancelled" },
+            { "id": "o2", "text": "stopped" },
+            { "id": "o3", "text": "deleted" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'confundido'?",
+          "options": [
+            { "id": "o1", "text": "confused" },
+            { "id": "o2", "text": "lost" },
+            { "id": "o3", "text": "mixed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'solucionar'?",
+          "options": [
+            { "id": "o1", "text": "solve" },
+            { "id": "o2", "text": "resolve" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ayuda inmediata'?",
+          "options": [
+            { "id": "o1", "text": "immediate help" },
+            { "id": "o2", "text": "fast help" },
+            { "id": "o3", "text": "help now" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Action Steps & Options",
+      "content": [
+        {
+          "interaction_id": "U58_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué podemos hacer?'?",
+          "options": [
+            { "id": "o1", "text": "What can we do?" },
+            { "id": "o2", "text": "What we do?" },
+            { "id": "o3", "text": "Do what?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Intentémoslo'?",
+          "options": [
+            { "id": "o1", "text": "Let's try it" },
+            { "id": "o2", "text": "We try" },
+            { "id": "o3", "text": "Try it us" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay otra opción'?",
+          "options": [
+            { "id": "o1", "text": "There is another option" },
+            { "id": "o2", "text": "Another option have" },
+            { "id": "o3", "text": "Is other choice" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Pensemos en una solución'?",
+          "options": [
+            { "id": "o1", "text": "Let's think of a solution" },
+            { "id": "o2", "text": "Think solution please" },
+            { "id": "o3", "text": "Solution we need" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cómo funciona esto?'?",
+          "options": [
+            { "id": "o1", "text": "How does this work?" },
+            { "id": "o2", "text": "How it works?" },
+            { "id": "o3", "text": "Work how?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está resuelto'?",
+          "options": [
+            { "id": "o1", "text": "It is resolved" },
+            { "id": "o2", "text": "Fixed now" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Necesito hablar con el responsable'?",
+          "options": [
+            { "id": "o1", "text": "I need to speak to the person in charge" },
+            { "id": "o2", "text": "Speak boss please" },
+            { "id": "o3", "text": "I want manager" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Don't ___ (preocuparse).'",
+          "stimulus_en": "___",
+          "correct_answer": "worry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Everything is under ___ (control).'",
+          "stimulus_en": "___",
+          "correct_answer": "control",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Qué pasó?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "happened?" }
+          ],
+          "correct_answer": ["w1", "w2"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Lo arreglaré enseguida'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "fix" },
+            { "id": "w4", "text": "it" },
+            { "id": "w5", "text": "right" },
+            { "id": "w6", "text": "away" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I37",
+          "type": "true_false",
+          "prompt_es": "¿'Right away' significa 'inmediatamente'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I38",
+          "type": "true_false",
+          "prompt_es": "¿'Wait' significa arreglar?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa esperar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puede esperar?'?",
+          "options": [
+            { "id": "o1", "text": "Can it wait?" },
+            { "id": "o2", "text": "Wait please?" },
+            { "id": "o3", "text": "Is wait okay?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hay problema'?",
+          "options": [
+            { "id": "o1", "text": "No problem" },
+            { "id": "o2", "text": "No worries" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy en ello'?",
+          "options": [
+            { "id": "o1", "text": "I'm on it" },
+            { "id": "o2", "text": "I am working on it" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es mi responsabilidad'?",
+          "options": [
+            { "id": "o1", "text": "It is my responsibility" },
+            { "id": "o2", "text": "My job this" },
+            { "id": "o3", "text": "I do it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Necesitamos un plan B'?",
+          "options": [
+            { "id": "o1", "text": "We need a plan B" },
+            { "id": "o2", "text": "Other plan please" },
+            { "id": "o3", "text": "Second plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hablémoslo'?",
+          "options": [
+            { "id": "o1", "text": "Let's talk about it" },
+            { "id": "o2", "text": "Speak it please" },
+            { "id": "o3", "text": "Talk us" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Buen punto'?",
+          "options": [
+            { "id": "o1", "text": "Good point" },
+            { "id": "o2", "text": "I agree" },
+            { "id": "o3", "text": "Both can be used in discussions" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (comprobar) the details.'",
+          "stimulus_en": "___",
+          "correct_answer": "check",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are ___ (intentando) to fix it.'",
+          "stimulus_en": "___",
+          "correct_answer": "trying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Cuándo estará listo?'",
+          "options": [
+            { "id": "w1", "text": "When" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "it" },
+            { "id": "w4", "text": "be" },
+            { "id": "w5", "text": "ready?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Todo está bien ahora'",
+          "options": [
+            { "id": "w1", "text": "Everything" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "fine" },
+            { "id": "w4", "text": "now" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I50",
+          "type": "true_false",
+          "prompt_es": "¿'Mistake' es una palabra negativa?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, pero es importante reconocerlos para aprender.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Technical & Common Issues",
+      "content": [
+        {
+          "interaction_id": "U58_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'la conexión es mala'?",
+          "options": [
+            { "id": "o1", "text": "The connection is bad" },
+            { "id": "o2", "text": "Internet bad" },
+            { "id": "o3", "text": "No signal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mi ordenador es lento'?",
+          "options": [
+            { "id": "o1", "text": "My computer is slow" },
+            { "id": "o2", "text": "PC slow" },
+            { "id": "o3", "text": "Wait for computer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no hay papel'?",
+          "options": [
+            { "id": "o1", "text": "There is no paper" },
+            { "id": "o2", "text": "Out of paper" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'olvidé mi contraseña'?",
+          "options": [
+            { "id": "o1", "text": "I forgot my password" },
+            { "id": "o2", "text": "Password lost" },
+            { "id": "o3", "text": "Forgot code" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el servidor no responde'?",
+          "options": [
+            { "id": "o1", "text": "The server is down" },
+            { "id": "o2", "text": "Server no work" },
+            { "id": "o3", "text": "Wait for server" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'necesito ayuda técnica'?",
+          "options": [
+            { "id": "o1", "text": "I need technical support" },
+            { "id": "o2", "text": "IT help please" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'la batería está baja'?",
+          "options": [
+            { "id": "o1", "text": "The battery is low" },
+            { "id": "o2", "text": "No battery" },
+            { "id": "o3", "text": "Dead battery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estoy bloqueado'?",
+          "options": [
+            { "id": "o1", "text": "I'm stuck" },
+            { "id": "o2", "text": "I'm blocked" },
+            { "id": "o3", "text": "Both can be used" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puedes reiniciar'?",
+          "options": [
+            { "id": "o1", "text": "Can you restart?" },
+            { "id": "o2", "text": "Can you reboot?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el archivo está dañado'?",
+          "options": [
+            { "id": "o1", "text": "The file is corrupted" },
+            { "id": "o2", "text": "File broken" },
+            { "id": "o3", "text": "Bad file" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need to ___ (reiniciar) my phone.'",
+          "stimulus_en": "___",
+          "correct_answer": "restart",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Check the ___ (cables).'",
+          "stimulus_en": "___",
+          "correct_answer": "cables",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I63",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Has probado a apagarlo?'",
+          "options": [
+            { "id": "w1", "text": "Have" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "tried" },
+            { "id": "w4", "text": "turning" },
+            { "id": "w5", "text": "it" },
+            { "id": "w6", "text": "off?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi correo no funciona'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "email" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "not" },
+            { "id": "w5", "text": "working" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U58_I65",
+          "type": "true_false",
+          "prompt_es": "¿'Reboot' es para ordenadores?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'está muy caliente' (sobrecalentado)?",
+          "options": [
+            { "id": "o1", "text": "It is overheating" },
+            { "id": "o2", "text": "Too hot" },
+            { "id": "o3", "text": "Hot PC" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no puedo imprimir'?",
+          "options": [
+            { "id": "o1", "text": "I can't print" },
+            { "id": "o2", "text": "No printing" },
+            { "id": "o3", "text": "Printer stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el ratón no se mueve'?",
+          "options": [
+            { "id": "o1", "text": "The mouse doesn't move" },
+            { "id": "o2", "text": "Mouse stuck" },
+            { "id": "o3", "text": "Broken mouse" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'la pantalla está congelada'?",
+          "options": [
+            { "id": "o1", "text": "The screen is frozen" },
+            { "id": "o2", "text": "Cold screen" },
+            { "id": "o3", "text": "Screen no work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llama a TI' (informática)?",
+          "options": [
+            { "id": "o1", "text": "Call IT" },
+            { "id": "o2", "text": "Phone computer group" },
+            { "id": "o3", "text": "Contact tech" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'espera un minuto'?",
+          "options": [
+            { "id": "o1", "text": "Wait a minute" },
+            { "id": "o2", "text": "Hold on" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paciencia'?",
+          "options": [
+            { "id": "o1", "text": "patience" },
+            { "id": "o2", "text": "wait" },
+            { "id": "o3", "text": "calm" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (internet) is slow.'",
+          "stimulus_en": "___",
+          "correct_answer": "internet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please ___ (esperar) here.'",
+          "stimulus_en": "___",
+          "correct_answer": "wait",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I75",
+          "type": "true_false",
+          "prompt_es": "¿'Frozen' solo se usa para comida?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, también para ordenadores que no responden.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Interactive Solving Games",
+      "content": [
+        {
+          "interaction_id": "U58_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras de SOLUCIÓN DE PROBLEMAS:",
+          "words": ["PROBLEM", "FIX", "ERROR", "ISSUE", "SOLVE", "HELP", "WAIT", "READY", "CHECK", "WORK"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "PROBLEM", "clue": "Trouble" },
+            { "word": "FIX", "clue": "Repair" },
+            { "word": "ERROR", "clue": "Mistake" },
+            { "word": "ISSUE", "clue": "Point" },
+            { "word": "SOLVE", "clue": "Find answer" },
+            { "word": "HELP", "clue": "Support" },
+            { "word": "WAIT", "clue": "Stop time" },
+            { "word": "READY", "clue": "Prepared" },
+            { "word": "CHECK", "clue": "Verify" },
+            { "word": "WORK", "clue": "Function" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de arreglos:",
+          "items": [
+            { "word": "REPAIR", "clue": "Fix something", "direction": "across", "row": 0, "col": 0 },
+            { "word": "MISTAKE", "clue": "Wrong action", "direction": "down", "row": 0, "col": 2 },
+            { "word": "ANSWER", "clue": "Solution", "direction": "across", "row": 2, "col": 0 },
+            { "word": "TECH", "clue": "About computers", "direction": "down", "row": 1, "col": 5 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I78",
+          "type": "matching",
+          "prompt_es": "Une el problema con la acción:",
+          "pairs": [
+            { "left": "Broken PC", "right": "Fix it" },
+            { "left": "Lost key", "right": "Find it" },
+            { "left": "No internet", "right": "Check router" },
+            { "left": "Mistake", "right": "Correct it" },
+            { "left": "Confusion", "right": "Ask questions" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué debo hacer?'?",
+          "options": [
+            { "id": "o1", "text": "What should I do?" },
+            { "id": "o2", "text": "What I do?" },
+            { "id": "o3", "text": "Do what?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cómo puedo arreglar esto?'?",
+          "options": [
+            { "id": "o1", "text": "How can I fix this?" },
+            { "id": "o2", "text": "Fix how?" },
+            { "id": "o3", "text": "Way to fix?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estoy buscando una solución'?",
+          "options": [
+            { "id": "o1", "text": "I'm looking for a solution" },
+            { "id": "o2", "text": "I find solution" },
+            { "id": "o3", "text": "Solution search" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Está arreglado?'?",
+          "options": [
+            { "id": "o1", "text": "Is it fixed?" },
+            { "id": "o2", "text": "Fixed now?" },
+            { "id": "o3", "text": "Ready yet?" },
+            { "id": "o4", "text": "All are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puedes explicarlo otra vez?'?",
+          "options": [
+            { "id": "o1", "text": "Can you explain it again?" },
+            { "id": "o2", "text": "Explain more please" },
+            { "id": "o3", "text": "Say again" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No te preocupes'?",
+          "options": [
+            { "id": "o1", "text": "Don't worry" },
+            { "id": "o2", "text": "No problem" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estamos trabajando en ello'?",
+          "options": [
+            { "id": "o1", "text": "We are working on it" },
+            { "id": "o2", "text": "On it now" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A quién debo preguntar?'?",
+          "options": [
+            { "id": "o1", "text": "Who should I ask?" },
+            { "id": "o2", "text": "Ask who?" },
+            { "id": "o3", "text": "Which person?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'El problema persiste'?",
+          "options": [
+            { "id": "o1", "text": "The problem is still there" },
+            { "id": "o2", "text": "Still no work" },
+            { "id": "o3", "text": "Problem again" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Tienes alguna idea?'?",
+          "options": [
+            { "id": "o1", "text": "Do you have any ideas?" },
+            { "id": "o2", "text": "Got an idea?" },
+            { "id": "o3", "text": "Idea please" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vamos a probar esto'?",
+          "options": [
+            { "id": "o1", "text": "Let's try this" },
+            { "id": "o2", "text": "Try this now" },
+            { "id": "o3", "text": "We try this" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ha sido útil'?",
+          "options": [
+            { "id": "o1", "text": "That was helpful" },
+            { "id": "o2", "text": "Good help" },
+            { "id": "o3", "text": "Thanks for help" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I91",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It is a ___ (problema común).'",
+          "stimulus_en": "___",
+          "correct_answer": "common problem",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I92",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (entiendo) now.'",
+          "stimulus_en": "___",
+          "correct_answer": "understand",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I93",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Puedes comprobar el router?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "check" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "router?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Lo siento por el retraso'",
+          "options": [
+            { "id": "w1", "text": "Sorry" },
+            { "id": "w2", "text": "for" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "delay" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I95",
+          "type": "true_false",
+          "prompt_es": "¿'Resolve' es más formal que 'fix'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I96",
+          "type": "true_false",
+          "prompt_es": "¿'Issue' se usa a menudo en lugar de 'problem'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, especialmente en contextos profesionales.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Está todo bien?'?",
+          "options": [
+            { "id": "o1", "text": "Is everything okay?" },
+            { "id": "o2", "text": "All good?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Buen trabajo solucionándolo'?",
+          "options": [
+            { "id": "o1", "text": "Good job fixing it" },
+            { "id": "o2", "text": "Well done" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Gracias por tu paciencia'?",
+          "options": [
+            { "id": "o1", "text": "Thank you for your patience" },
+            { "id": "o2", "text": "Thanks for wait" },
+            { "id": "o3", "text": "Good patience" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U58_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Problema resuelto'?",
+          "options": [
+            { "id": "o1", "text": "Problem solved" },
+            { "id": "o2", "text": "Ready now" },
+            { "id": "o3", "text": "All clear" },
+            { "id": "o4", "text": "All are common" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "functional_language"
         }
       ]
     }

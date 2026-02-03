@@ -1,41 +1,1163 @@
 {
   "course": {
-    "unit_id": "U49",
-    "unit_title": "Packing a Suitcase",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U49",
+    "unit_title": "Famous People",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Identify clothing items for travel",
-    "Understand objects needed for a trip"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Packing Items",
+      "title": "Biographies: Being Born and Living",
       "content": [
         {
           "interaction_id": "U49_I1",
-          "type": "matching",
-          "prompt_es": "Cosas para la maleta",
-          "pairs": [
-            { "id": "i1", "left": "Sunglasses", "right": "Gafas de sol" },
-            { "id": "i2", "left": "Sunscreen", "right": "Crema solar" },
-            { "id": "i3", "left": "Camera", "right": "Cámara" },
-            { "id": "i4", "left": "Map", "right": "Mapa" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'William Shakespeare nació en 1564'?",
+          "options": [
+            { "id": "o1", "text": "William Shakespeare was born in 1564" },
+            { "id": "o2", "text": "William Shakespeare born in 1564" },
+            { "id": "o3", "text": "William Shakespeare is born in 1564" }
           ],
-          "correct_answer": { "i1": "i1", "i2": "i2", "i3": "i3", "i4": "i4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U49_I2",
-          "type": "true_false",
-          "prompt_es": "¿Necesitas esto para ir a la playa?",
-          "stimulus_en": "A swimming suit",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él vivió en Inglaterra'?",
+          "options": [
+            { "id": "o1", "text": "He lived in England" },
+            { "id": "o2", "text": "He lives in England" },
+            { "id": "o3", "text": "He was live in England" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fue un escritor famoso'?",
+          "options": [
+            { "id": "o1", "text": "He was a famous writer" },
+            { "id": "o2", "text": "He were a famous writer" },
+            { "id": "o3", "text": "He was famous writer" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Dónde nació Marie Curie?'?",
+          "options": [
+            { "id": "o1", "text": "Where was Marie Curie born?" },
+            { "id": "o2", "text": "Where did Marie Curie born?" },
+            { "id": "o3", "text": "Where born Marie Curie?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella nació en Polonia'?",
+          "options": [
+            { "id": "o1", "text": "She was born in Poland" },
+            { "id": "o2", "text": "She born in Poland" },
+            { "id": "o3", "text": "She were born in Poland" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella estudió en París'?",
+          "options": [
+            { "id": "o1", "text": "She studied in Paris" },
+            { "id": "o2", "text": "She studyed in Paris" },
+            { "id": "o3", "text": "She was study in Paris" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Einstein ___ (fue) a scientist.'",
+          "stimulus_en": "___",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (vivió) in Germany and the USA.'",
+          "stimulus_en": "___",
+          "correct_answer": "lived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Leonardo da Vinci fue un artista'",
+          "options": [
+            { "id": "w1", "text": "Leonardo" },
+            { "id": "w2", "text": "da" },
+            { "id": "w3", "text": "Vinci" },
+            { "id": "w4", "text": "was" },
+            { "id": "w5", "text": "an" },
+            { "id": "w6", "text": "artist" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Cuándo nació él?'",
+          "options": [
+            { "id": "w1", "text": "born?" },
+            { "id": "w2", "text": "he" },
+            { "id": "w3", "text": "When" },
+            { "id": "w4", "text": "was" }
+          ],
+          "correct_answer": ["w3", "w4", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I11",
+          "type": "true_false",
+          "prompt_es": "¿'Born' siempre se usa con el verbo 'to be' en pasado (was/were)?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'was/were born' es la estructura correcta.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I12",
+          "type": "true_false",
+          "prompt_es": "¿'Lived' es un verbo regular?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, termina en -ed.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cleopatra fue la reina de Egipto'?",
+          "options": [
+            { "id": "o1", "text": "Cleopatra was the Queen of Egypt" },
+            { "id": "o2", "text": "Cleopatra was Queen from Egypt" },
+            { "id": "o3", "text": "Cleopatra were the Queen of Egypt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ellos fueron exploradores famosos'?",
+          "options": [
+            { "id": "o1", "text": "They were famous explorers" },
+            { "id": "o2", "text": "They was famous explorers" },
+            { "id": "o3", "text": "They were famous exploring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Era ella una pintora famosa?'?",
+          "options": [
+            { "id": "o1", "text": "Was she a famous painter?" },
+            { "id": "o2", "text": "Were she a famous painter?" },
+            { "id": "o3", "text": "Did she was a famous painter?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No eran americanos'?",
+          "options": [
+            { "id": "o1", "text": "They weren't American" },
+            { "id": "o2", "text": "They wasn't American" },
+            { "id": "o3", "text": "They no were American" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Picaso nació en Málaga'?",
+          "options": [
+            { "id": "o1", "text": "Picasso was born in Malaga" },
+            { "id": "o2", "text": "Picasso borned in Malaga" },
+            { "id": "o3", "text": "Picasso were born in Malaga" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Murió en Francia en 1973'?",
+          "options": [
+            { "id": "o1", "text": "He died in France in 1973" },
+            { "id": "o2", "text": "He dead in France in 1973" },
+            { "id": "o3", "text": "He was die in France in 1973" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuándo murieron ellos?'?",
+          "options": [
+            { "id": "o1", "text": "When did they die?" },
+            { "id": "o2", "text": "When were they die?" },
+            { "id": "o3", "text": "When did they died?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Mozart ___ (empezó) playing music very young.'",
+          "stimulus_en": "___",
+          "correct_answer": "started",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I21",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (escribió) many symphonies.'",
+          "stimulus_en": "___",
+          "correct_answer": "wrote",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Por qué fue él tan famoso?'",
+          "options": [
+            { "id": "w1", "text": "Why" },
+            { "id": "w2", "text": "was" },
+            { "id": "w3", "text": "he" },
+            { "id": "w4", "text": "so" },
+            { "id": "w5", "text": "famous?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I23",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No eran muy ricos'",
+          "options": [
+            { "id": "w1", "text": "were" },
+            { "id": "w2", "text": "They" },
+            { "id": "w3", "text": "not" },
+            { "id": "w4", "text": "very" },
+            { "id": "w5", "text": "rich" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I24",
+          "type": "true_false",
+          "prompt_es": "¿'Wrote' es el pasado de 'write'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I25",
+          "type": "true_false",
+          "prompt_es": "¿'Dead' es un verbo en pasado?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'dead' es un adjetivo (muerto). El verbo en pasado es 'died'.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Achievements and Careers",
+      "content": [
+        {
+          "interaction_id": "U49_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Thomas Edison inventó la bombilla'?",
+          "options": [
+            { "id": "o1", "text": "Thomas Edison invented the light bulb" },
+            { "id": "o2", "text": "Thomas Edison invent the light bulb" },
+            { "id": "o3", "text": "Thomas Edison was invent the light bulb" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Los Beatles fueron un grupo de música muy popular'?",
+          "options": [
+            { "id": "o1", "text": "The Beatles were a very popular music group" },
+            { "id": "o2", "text": "The Beatles was a very popular music group" },
+            { "id": "o3", "text": "The Beatles were popular music groups" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ellos grabaron muchas canciones famosas'?",
+          "options": [
+            { "id": "o1", "text": "They recorded many famous songs" },
+            { "id": "o2", "text": "They record many famous songs" },
+            { "id": "o3", "text": "They was record many famous songs" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué descubrió Isaac Newton?'?",
+          "options": [
+            { "id": "o1", "text": "What did Isaac Newton discover?" },
+            { "id": "o2", "text": "What did Isaac Newton discovered?" },
+            { "id": "o3", "text": "What Newton discovered?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él descubrió la gravedad'?",
+          "options": [
+            { "id": "o1", "text": "He discovered gravity" },
+            { "id": "o2", "text": "He discover gravity" },
+            { "id": "o3", "text": "He was discover gravity" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Neil Armstrong caminó sobre la Luna'?",
+          "options": [
+            { "id": "o1", "text": "Neil Armstrong walked on the Moon" },
+            { "id": "o2", "text": "Neil Armstrong walk on the Moon" },
+            { "id": "o3", "text": "Neil Armstrong was walk on Moon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fue en 1969'?",
+          "options": [
+            { "id": "o1", "text": "It was in 1969" },
+            { "id": "o2", "text": "It were in 1969" },
+            { "id": "o3", "text": "There was in 1969" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Frida Kahlo ___ (pintó) many self-portraits.'",
+          "stimulus_en": "___",
+          "correct_answer": "painted",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (tuvo) a difficult life.'",
+          "stimulus_en": "___",
+          "correct_answer": "had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde vivieron ellos?'",
+          "options": [
+            { "id": "w1", "text": "Where" },
+            { "id": "w2", "text": "did" },
+            { "id": "w3", "text": "they" },
+            { "id": "w4", "text": "live?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ellos no ganaron mucho dinero'",
+          "options": [
+            { "id": "w1", "text": "didn't" },
+            { "id": "w2", "text": "win" },
+            { "id": "w3", "text": "much" },
+            { "id": "w4", "text": "They" },
+            { "id": "w5", "text": "money" }
+          ],
+          "correct_answer": ["w4", "w1", "w2", "w3", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I37",
+          "type": "true_false",
+          "prompt_es": "¿'Invented' y 'Discovered' son verbos regulares?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, ambos terminan en -ed.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I38",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'win' (ganar) es 'winned'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, es 'won'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Grace Hopper fue una pionera de la informática'?",
+          "options": [
+            { "id": "o1", "text": "Grace Hopper was a computer pioneer" },
+            { "id": "o2", "text": "Grace Hopper were a computer pioneer" },
+            { "id": "o3", "text": "Grace Hopper was computer pioneers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella trabajó para la marina de EE.UU.'?",
+          "options": [
+            { "id": "o1", "text": "She worked for the US Navy" },
+            { "id": "o2", "text": "She work for the US Navy" },
+            { "id": "o3", "text": "She was work for the US Navy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué inventó Alexander Graham Bell?'?",
+          "options": [
+            { "id": "o1", "text": "What did Alexander Graham Bell invent?" },
+            { "id": "o2", "text": "What did Alexander Graham Bell invented?" },
+            { "id": "o3", "text": "What Bell invent?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él inventó el teléfono'?",
+          "options": [
+            { "id": "o1", "text": "He invented the telephone" },
+            { "id": "o2", "text": "He invent the telephone" },
+            { "id": "o3", "text": "He was invent telephone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quién fue Abraham Lincoln?'?",
+          "options": [
+            { "id": "o1", "text": "Who was Abraham Lincoln?" },
+            { "id": "o2", "text": "Which was Abraham Lincoln?" },
+            { "id": "o3", "text": "Who were Abraham Lincoln?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U49_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fue el 16º presidente de los EE.UU.'?",
+          "options": [
+            { "id": "o1", "text": "He was the 16th US President" },
+            { "id": "o2", "text": "He was 16 US President" },
+            { "id": "o3", "text": "He were the 16th US President" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Luchó contra la esclavitud'?",
+          "options": [
+            { "id": "o1", "text": "He fought against slavery" },
+            { "id": "o2", "text": "He fighted against slavery" },
+            { "id": "o3", "text": "He was fight slavery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Amelia Earhart ___ (voló) across the Atlantic.'",
+          "stimulus_en": "___",
+          "correct_answer": "flew",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (fue) a very brave pilot.'",
+          "stimulus_en": "___",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Cuándo terminó la guerra?'",
+          "options": [
+            { "id": "w1", "text": "When" },
+            { "id": "w2", "text": "did" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "war" },
+            { "id": "w5", "text": "finish?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Él no terminó sus estudios'",
+          "options": [
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "didn't" },
+            { "id": "w3", "text": "finish" },
+            { "id": "w4", "text": "his" },
+            { "id": "w5", "text": "studies" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I50",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'fight' (luchar) es 'fighted'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, es 'fought'.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Entertainment & Culture Legends",
+      "content": [
+        {
+          "interaction_id": "U49_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Marilyn Monroe fue una actriz de Hollywood'?",
+          "options": [
+            { "id": "o1", "text": "Marilyn Monroe was a Hollywood actress" },
+            { "id": "o2", "text": "Marilyn Monroe was a Hollywood actor" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella actuó en muchas películas'?",
+          "options": [
+            { "id": "o1", "text": "She acted in many movies" },
+            { "id": "o2", "text": "She act in many movies" },
+            { "id": "o3", "text": "She was act in many movies" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Elvis Presley cantó rock and roll'?",
+          "options": [
+            { "id": "o1", "text": "Elvis Presley sang rock and roll" },
+            { "id": "o2", "text": "Elvis Presley sanged rock and roll" },
+            { "id": "o3", "text": "Elvis Presley sung rock and roll" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él fue el rey del rock and roll'?",
+          "options": [
+            { "id": "o1", "text": "He was the King of Rock and Roll" },
+            { "id": "o2", "text": "He were the King of Rock and Roll" },
+            { "id": "o3", "text": "He was King from Rock and Roll" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bob Marley nació en Jamaica'?",
+          "options": [
+            { "id": "o1", "text": "Bob Marley was born in Jamaica" },
+            { "id": "o2", "text": "Bob Marley born in Jamaica" },
+            { "id": "o3", "text": "Bob Marley were born in Jamaica" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué tipo de música tocó él?'?",
+          "options": [
+            { "id": "o1", "text": "What kind of music did he play?" },
+            { "id": "o2", "text": "What type of music he played?" },
+            { "id": "o3", "text": "Which music did he played?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él tocó reggae'?",
+          "options": [
+            { "id": "o1", "text": "He played reggae" },
+            { "id": "o2", "text": "He play reggae" },
+            { "id": "o3", "text": "He was played reggae" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Walt Disney ___ (creó) Mickey Mouse.'",
+          "stimulus_en": "___",
+          "correct_answer": "created",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (fue) a producer and animator.'",
+          "stimulus_en": "___",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde vivieron ellos?'",
+          "options": [
+            { "id": "w1", "text": "did" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "they" },
+            { "id": "w4", "text": "live?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella no fue muy feliz'",
+          "options": [
+            { "id": "w1", "text": "was" },
+            { "id": "w2", "text": "not" },
+            { "id": "w3", "text": "very" },
+            { "id": "w4", "text": "She" },
+            { "id": "w5", "text": "happy" }
+          ],
+          "correct_answer": ["w4", "w1", "w2", "w3", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I62",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'sing' (cantar) es 'sang'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I63",
+          "type": "true_false",
+          "prompt_es": "¿'Actress' es la forma femenina de 'actor'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, aunque hoy en día 'actor' se usa a menudo para ambos géneros.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Audrey Hepburn fue una actriz británica'?",
+          "options": [
+            { "id": "o1", "text": "Audrey Hepburn was a British actress" },
+            { "id": "o2", "text": "Audrey Hepburn were a British actress" },
+            { "id": "o3", "text": "Audrey Hepburn was British actress" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella ayudó a muchos niños'?",
+          "options": [
+            { "id": "o1", "text": "She helped many children" },
+            { "id": "o2", "text": "She help many children" },
+            { "id": "o3", "text": "She was help many children" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Adónde fue ella?'?",
+          "options": [
+            { "id": "o1", "text": "Where did she go?" },
+            { "id": "o2", "text": "Where she went?" },
+            { "id": "o3", "text": "To where she did go?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella viajó a África y Asia'?",
+          "options": [
+            { "id": "o1", "text": "She travelled to Africa and Asia" },
+            { "id": "o2", "text": "She travel to Africa and Asia" },
+            { "id": "o3", "text": "She was travel to Africa and Asia" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Steve Jobs fue el co-fundador de Apple'?",
+          "options": [
+            { "id": "o1", "text": "Steve Jobs was the co-founder of Apple" },
+            { "id": "o2", "text": "Steve Jobs were the co-founder of Apple" },
+            { "id": "o3", "text": "Steve Jobs was Apple co-founder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él cambió el mundo de la tecnología'?",
+          "options": [
+            { "id": "o1", "text": "He changed the world of technology" },
+            { "id": "o2", "text": "He change the world of technology" },
+            { "id": "o3", "text": "He was change the technology world" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Murió él joven?'?",
+          "options": [
+            { "id": "o1", "text": "Did he die young?" },
+            { "id": "o2", "text": "Did he died young?" },
+            { "id": "o3", "text": "Was he die young?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I71",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Princess Diana ___ (ayudó) many people.'",
+          "stimulus_en": "___",
+          "correct_answer": "helped",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (fue) very loved.'",
+          "stimulus_en": "___",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I73",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Por qué no ganó ella?'",
+          "options": [
+            { "id": "w1", "text": "didn't" },
+            { "id": "w2", "text": "Why" },
+            { "id": "w3", "text": "she" },
+            { "id": "w4", "text": "win?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Él no era un deportista'",
+          "options": [
+            { "id": "w1", "text": "was" },
+            { "id": "w2", "text": "not" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "sportsman" },
+            { "id": "w5", "text": "He" }
+          ],
+          "correct_answer": ["w5", "w1", "w2", "w3", "w4"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I75",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'travel' es 'travelled' (o 'traveled' en EE.UU.)?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, ambas formas son correctas.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Interactive Games: History & Legends",
+      "content": [
+        {
+          "interaction_id": "U49_I76",
+          "type": "word-search",
+          "prompt_es": "Busca profesiones de gente famosa en PASADO:",
+          "words": ["WRITER", "ARTIST", "SINGER", "ACTOR", "QUEEN", "KING", "PILOT", "SCOUT", "PRESIDENT"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "WRITER", "clue": "Someone who wrote books" },
+            { "word": "ARTIST", "clue": "Someone who painted or sculpted" },
+            { "word": "SINGER", "clue": "Someone who sang songs" },
+            { "word": "ACTOR", "clue": "Someone who acted in plays or movies" },
+            { "word": "QUEEN", "clue": "A female ruler" },
+            { "word": "KING", "clue": "A male ruler" },
+            { "word": "PILOT", "clue": "Someone who flew planes" },
+            { "word": "SCOUT", "clue": "Someone who explored" },
+            { "word": "PRESIDENT", "clue": "A leader of a country" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de personajes:",
+          "items": [
+            { "word": "BORN", "clue": "Started life", "direction": "across", "row": 0, "col": 0 },
+            { "word": "DIED", "clue": "Finished life", "direction": "down", "row": 0, "col": 0 },
+            { "word": "LIVED", "clue": "Opposite of died", "direction": "across", "row": 2, "col": 0 },
+            { "word": "FAMOUS", "clue": "Many people know you", "direction": "down", "row": 0, "col": 3 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I78",
+          "type": "matching",
+          "prompt_es": "Une el personaje con su logro:",
+          "pairs": [
+            { "left": "Shakespeare", "right": "Wrote Hamlet" },
+            { "left": "Einstein", "right": "Was a scientist" },
+            { "left": "Picasso", "right": "Painted Guernica" },
+            { "left": "Columbus", "right": "Travelled to America" },
+            { "left": "Edison", "right": "Invented the light bulb" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I79",
+          "type": "matching",
+          "prompt_es": "Une el infinitivo con su pasado:",
+          "pairs": [
+            { "left": "Begin", "right": "Began" },
+            { "left": "Build", "right": "Built" },
+            { "left": "Discover", "right": "Discovered" },
+            { "left": "Found", "right": "Founded" },
+            { "left": "Grow", "right": "Grew" }
+          ],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ayer leí sobre Nelson Mandela'?",
+          "options": [
+            { "id": "o1", "text": "Yesterday I read about Nelson Mandela" },
+            { "id": "o2", "text": "Yesterday I readed about Nelson Mandela" },
+            { "id": "o3", "text": "I read yesterday Nelson Mandela" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él fue el presidente de Sudáfrica'?",
+          "options": [
+            { "id": "o1", "text": "He was the President of South Africa" },
+            { "id": "o2", "text": "He were the President of South Africa" },
+            { "id": "o3", "text": "He was South Africa President" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él pasó muchos años en prisión'?",
+          "options": [
+            { "id": "o1", "text": "He spent many years in prison" },
+            { "id": "o2", "text": "He spended many years in prison" },
+            { "id": "o3", "text": "He was spend many years in prison" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él ganó el Premio Nobel de la Paz'?",
+          "options": [
+            { "id": "o1", "text": "He won the Nobel Peace Prize" },
+            { "id": "o2", "text": "He winned the Nobel Peace Prize" },
+            { "id": "o3", "text": "He was win the Nobel Peace Prize" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Por qué fue importante?'?",
+          "options": [
+            { "id": "o1", "text": "Why was he important?" },
+            { "id": "o2", "text": "Why he was important?" },
+            { "id": "o3", "text": "Why were he important?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U49_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él luchó por la libertad'?",
+          "options": [
+            { "id": "o1", "text": "He fought for freedom" },
+            { "id": "o2", "text": "He fighted for freedom" },
+            { "id": "o3", "text": "He was fight for freedom" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuándo nació Amelia Earhart?'?",
+          "options": [
+            { "id": "o1", "text": "When was Amelia Earhart born?" },
+            { "id": "o2", "text": "When did Amelia Earhart born?" },
+            { "id": "o3", "text": "When Amelia Earhart was born?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella nació en 1897'?",
+          "options": [
+            { "id": "o1", "text": "She was born in 1897" },
+            { "id": "o2", "text": "She born in 1897" },
+            { "id": "o3", "text": "She were born in 1897" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella desapareció en el Océano Pacífico'?",
+          "options": [
+            { "id": "o1", "text": "She disappeared in the Pacific Ocean" },
+            { "id": "o2", "text": "She disappear in the Pacific Ocean" },
+            { "id": "o3", "text": "She was disappear in Pacific Ocean" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nadie encontró su avión'?",
+          "options": [
+            { "id": "o1", "text": "Nobody found her plane" },
+            { "id": "o2", "text": "Nobody find her plane" },
+            { "id": "o3", "text": "No person found her plane" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué pensaban ellos?'?",
+          "options": [
+            { "id": "o1", "text": "What did they think?" },
+            { "id": "o2", "text": "What they thought?" },
+            { "id": "o3", "text": "What did they thought?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I91",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Marco Polo ___ (viajó) to China.'",
+          "stimulus_en": "___",
+          "correct_answer": "travelled",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I92",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (conoció) many new people.'",
+          "stimulus_en": "___",
+          "correct_answer": "met",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I93",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Adónde fue él?'",
+          "options": [
+            { "id": "w1", "text": "did" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "he" },
+            { "id": "w4", "text": "go?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ellos no creyeron sus historias'",
+          "options": [
+            { "id": "w1", "text": "didn't" },
+            { "id": "w2", "text": "believe" },
+            { "id": "w3", "text": "his" },
+            { "id": "w4", "text": "They" },
+            { "id": "w5", "text": "stories" }
+          ],
+          "correct_answer": ["w4", "w1", "w2", "w3", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I95",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'spend' (gastar/pasar tiempo) es 'spent'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U49_I96",
+          "type": "true_false",
+          "prompt_es": "¿'Nobody' significa 'alguien'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa 'nadie'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fue un gran descubrimiento'?",
+          "options": [
+            { "id": "o1", "text": "It was a great discovery" },
+            { "id": "o2", "text": "It were a great discovery" },
+            { "id": "o3", "text": "Was a great discovery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué tal la biografía?'?",
+          "options": [
+            { "id": "o1", "text": "How was the biography?" },
+            { "id": "o2", "text": "What was the biography like?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U49_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'La biografía fue muy interesante'?",
+          "options": [
+            { "id": "o1", "text": "The biography was very interesting" },
+            { "id": "o2", "text": "The biography was very interested" },
+            { "id": "o3", "text": "Biography was interesting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Qué interesante!'?",
+          "options": [
+            { "id": "o1", "text": "How interesting!" },
+            { "id": "o2", "text": "What interesting!" },
+            { "id": "o3", "text": "That is interesting!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
         }
       ]
     }

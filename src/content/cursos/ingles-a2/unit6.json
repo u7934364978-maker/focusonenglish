@@ -4,194 +4,1147 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U6",
-    "unit_title": "The world around us",
-    "total_duration_minutes": 120
+    "unit_title": "Housework & Home Activities",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B6",
-      "title": "The world around us",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Household Chores",
       "content": [
         {
           "interaction_id": "U6_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer la cama'?",
+          "options": [
+            { "id": "o1", "text": "Make the bed" },
+            { "id": "o2", "text": "Do the bed" },
+            { "id": "o3", "text": "Take the bed" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Do the laundry'?",
+          "options": [
+            { "id": "o1", "text": "Hacer la colada / lavar la ropa" },
+            { "id": "o2", "text": "Limpiar la cocina" },
+            { "id": "o3", "text": "Planchar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fregar los platos'?",
+          "options": [
+            { "id": "o1", "text": "Do the dishes / Wash the dishes" },
+            { "id": "o2", "text": "Make the dishes" },
+            { "id": "o3", "text": "Clean the plates" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Vacuum the floor'?",
           "options": [
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "6"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            }
+            { "id": "o1", "text": "Pasar la aspiradora" },
+            { "id": "o2", "text": "Barrer" },
+            { "id": "o3", "text": "Fregar el suelo" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'quitar el polvo'?",
           "options": [
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            }
+            { "id": "o1", "text": "Dust the furniture" },
+            { "id": "o2", "text": "Clean the dust" },
+            { "id": "o3", "text": "Dirt the table" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tienda",
-          "correct_answer": "Shop",
+          "type": "matching",
+          "prompt_es": "Une las tareas del hogar:",
+          "pairs": [
+            { "id": "p1", "left": "Mop the floor", "right": "Fregar el suelo" },
+            { "id": "p2", "left": "Sweep the floor", "right": "Barrer el suelo" },
+            { "id": "p3", "left": "Iron the clothes", "right": "Planchar la ropa" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I7",
+          "type": "matching",
+          "prompt_es": "Une los objetos con la tarea:",
+          "pairs": [
+            { "id": "p1", "left": "Dishwasher", "right": "Cargar/descargar el lavavajillas" },
+            { "id": "p2", "left": "Washing machine", "right": "Poner la lavadora" },
+            { "id": "p3", "left": "Rubbish bin", "right": "Sacar la basura" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I8",
+          "type": "flashcard",
+          "prompt_es": "Más tareas comunes",
+          "flashcards": [
+            { "front": "Take out the trash", "back": "Sacar la basura", "pronunciation": "/teɪk aʊt ðə træʃ/" },
+            { "front": "Feed the pet", "back": "Alimentar a la mascota", "pronunciation": "/fiːd ðə pet/" },
+            { "front": "Water the plants", "back": "Regar las plantas", "pronunciation": "/ˈwɔːtər ðə plænts/" },
+            { "front": "Set the table", "back": "Poner la mesa", "pronunciation": "/set ðə ˈteɪbl/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I9",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'limpiar los cristales'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Clean the windows" },
+            { "id": "o2", "text": "Wash the glass" },
+            { "id": "o3", "text": "Clear the windows" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ordenar el cuarto'?",
+          "options": [
+            { "id": "o1", "text": "Tidy up the room" },
+            { "id": "o2", "text": "Order the room" },
+            { "id": "o3", "text": "Put the room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Groceries'?",
+          "options": [
+            { "id": "o1", "text": "Comestibles / compra de comida" },
+            { "id": "o2", "text": "Ropa" },
+            { "id": "o3", "text": "Muebles" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ir a hacer la compra'?",
+          "options": [
+            { "id": "o1", "text": "Go grocery shopping" },
+            { "id": "o2", "text": "Go fooding" },
+            { "id": "o3", "text": "Make the shop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Chore'?",
+          "options": [
+            { "id": "o1", "text": "Tarea doméstica" },
+            { "id": "o2", "text": "Diversión" },
+            { "id": "o3", "text": "Trabajo de oficina" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'limpiar a fondo'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shop"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Deep clean" },
+            { "id": "o2", "text": "Hard clean" },
+            { "id": "o3", "text": "Much clean" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Household'?",
+          "options": [
+            { "id": "o1", "text": "Hogar / unidad familiar" },
+            { "id": "o2", "text": "Casa vieja" },
+            { "id": "o3", "text": "Mantenimiento" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'repartir las tareas'?",
+          "options": [
+            { "id": "o1", "text": "Share the chores" },
+            { "id": "o2", "text": "Give the chores" },
+            { "id": "o3", "text": "Cut the chores" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 6 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Clutter'?",
+          "options": [
+            { "id": "o1", "text": "Desorden / trastos" },
+            { "id": "o2", "text": "Limpieza" },
+            { "id": "o3", "text": "Brillo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cortar el césped'?",
+          "options": [
+            { "id": "o1", "text": "Mow the lawn" },
+            { "id": "o2", "text": "Cut the grass" },
+            { "id": "o3", "text": "Trim the garden" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Errands'?",
+          "options": [
+            { "id": "o1", "text": "Recados / diligencias" },
+            { "id": "o2", "text": "Errores" },
+            { "id": "o3", "text": "Tareas de cocina" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer recados'?",
+          "options": [
+            { "id": "o1", "text": "Run errands" },
+            { "id": "o2", "text": "Make errands" },
+            { "id": "o3", "text": "Do errands" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué objeto usas para barrer?",
+          "options": [
+            { "id": "o1", "text": "Broom" },
+            { "id": "o2", "text": "Mop" },
+            { "id": "o3", "text": "Dustpan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué objeto usas para fregar el suelo?",
+          "options": [
+            { "id": "o1", "text": "Mop" },
+            { "id": "o2", "text": "Broom" },
+            { "id": "o3", "text": "Brush" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se llama el aparato para lavar la ropa?",
+          "options": [
+            { "id": "o1", "text": "Washing machine" },
+            { "id": "o2", "text": "Dishwasher" },
+            { "id": "o3", "text": "Dryer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se llama el aparato para secar la ropa?",
+          "options": [
+            { "id": "o1", "text": "Dryer" },
+            { "id": "o2", "text": "Washing machine" },
+            { "id": "o3", "text": "Iron" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'colgar la ropa'?",
+          "options": [
+            { "id": "o1", "text": "Hang the clothes" },
+            { "id": "o2", "text": "Put the clothes" },
+            { "id": "o3", "text": "Up the clothes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doblar la ropa'?",
+          "options": [
+            { "id": "o1", "text": "Fold the clothes" },
+            { "id": "o2", "text": "Double the clothes" },
+            { "id": "o3", "text": "Bending the clothes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vaciar el lavavajillas'?",
+          "options": [
+            { "id": "o1", "text": "Empty the dishwasher" },
+            { "id": "o2", "text": "Out the dishwasher" },
+            { "id": "o3", "text": "Clean the dishwasher" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'limpiar el polvo'?",
+          "options": [
+            { "id": "o1", "text": "Do the dusting" },
+            { "id": "o2", "text": "Make the dusting" },
+            { "id": "o3", "text": "Go dusting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fregar el baño'?",
+          "options": [
+            { "id": "o1", "text": "Scrub the bathroom" },
+            { "id": "o2", "text": "Wash the bathroom" },
+            { "id": "o3", "text": "Make the bathroom" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Stain'?",
+          "options": [
+            { "id": "o1", "text": "Mancha" },
+            { "id": "o2", "text": "Brillo" },
+            { "id": "o3", "text": "Jabón" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'quitar una mancha'?",
+          "options": [
+            { "id": "o1", "text": "Remove a stain" },
+            { "id": "o2", "text": "Clean a stain" },
+            { "id": "o3", "text": "Take a stain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Detergent'?",
+          "options": [
+            { "id": "o1", "text": "Detergente" },
+            { "id": "o2", "text": "Suavizante" },
+            { "id": "o3", "text": "Lejía" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suavizante'?",
+          "options": [
+            { "id": "o1", "text": "Fabric softener" },
+            { "id": "o2", "text": "Cloth softener" },
+            { "id": "o3", "text": "Soft clothes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lejía'?",
+          "options": [
+            { "id": "o1", "text": "Bleach" },
+            { "id": "o2", "text": "White liquid" },
+            { "id": "o3", "text": "Cleaner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fregona'?",
+          "options": [
+            { "id": "o1", "text": "Mop" },
+            { "id": "o2", "text": "Bucket" },
+            { "id": "o3", "text": "Brush" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Make vs Do & Modals of Obligation",
+      "content": [
+        {
+          "interaction_id": "U6_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "I need to ___ the laundry today.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "Can you ___ the bed, please?",
+          "correct_answer": "make",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'have to' o 'has to':",
+          "stimulus_en": "He ___ vacuum the carpet every weekend.",
+          "correct_answer": "has to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'must' o 'mustn't' (prohibición):",
+          "stimulus_en": "You ___ leave the lights on when you go out.",
+          "correct_answer": "mustn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'must' o 'mustn't':",
+          "stimulus_en": "You ___ wash your hands before cooking.",
+          "correct_answer": "must",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'don't have to' o 'doesn't have to' (no es necesario):",
+          "stimulus_en": "She ___ cook tonight; we are going to a restaurant.",
+          "correct_answer": "doesn't have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "I hate ___ing the ironing.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "Who is going to ___ the shopping?",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "Please ___ the dinner while I tidy up.",
+          "correct_answer": "make",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "I always ___ a mess when I cook.",
+          "correct_answer": "make",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "We should ___ a plan for the house cleaning.",
+          "correct_answer": "make",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "Did you ___ the dishes after breakfast?",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "take" },
+            { "id": "w5", "text": "out" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "rubbish" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "Who" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "responsible" },
+            { "id": "w4", "text": "for" },
+            { "id": "w5", "text": "mowing" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "lawn" },
+            { "id": "w8", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I50",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "You" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "have" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "iron" },
+            { "id": "w6", "text": "my" },
+            { "id": "w7", "text": "shirts" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la diferencia principal entre 'must' y 'have to'?",
+          "options": [
+            { "id": "o1", "text": "'Must' es más personal/interno y 'have to' es una regla externa." },
+            { "id": "o2", "text": "No hay diferencia." },
+            { "id": "o3", "text": "'Must' es para el pasado." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no es necesario'?",
+          "options": [
+            { "id": "o1", "text": "Don't have to" },
+            { "id": "o2", "text": "Mustn't" },
+            { "id": "o3", "text": "Haven't to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I53",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 6 of the A2 course.\"",
+          "prompt_es": "¿Es correcta la frase 'I must to clean the kitchen'? ",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. 'Must' es un modal y no lleva 'to'. Lo correcto es: 'I must clean the kitchen'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I54",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta la frase 'She doesn't have to cook tonight'? ",
           "correct_answer": true,
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I55",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la opción correcta: 'We ___ follow the house rules.'",
+          "options": [
+            { "id": "o1", "text": "must" },
+            { "id": "o2", "text": "must to" },
+            { "id": "o3", "text": "has to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I56",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la opción correcta: 'Do you ___ work on Saturdays?'",
+          "options": [
+            { "id": "o1", "text": "have to" },
+            { "id": "o2", "text": "must" },
+            { "id": "o3", "text": "must to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ she have to mop the floor?'",
+          "stimulus_en": "___ she have to mop the floor?",
+          "correct_answer": "Does",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase indica una prohibición fuerte?",
+          "options": [
+            { "id": "o1", "text": "You mustn't smoke in the house." },
+            { "id": "o2", "text": "You don't have to smoke in the house." },
+            { "id": "o3", "text": "You shouldn't smoke in the house." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase indica falta de necesidad?",
+          "options": [
+            { "id": "o1", "text": "You don't have to buy milk; we have plenty." },
+            { "id": "o2", "text": "You mustn't buy milk; it's bad for you." },
+            { "id": "o3", "text": "You must buy milk." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I60",
+          "type": "true_false",
+          "prompt_es": "En la frase 'I have to study', la obligación viene de una circunstancia externa.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I61",
+          "type": "true_false",
+          "prompt_es": "'Mustn't' significa lo mismo que 'Don't have to'.",
+          "correct_answer": false,
+          "feedback_incorrect_es": "'Mustn't' indica prohibición, mientras que 'Don't have to' indica que algo no es necesario.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'must' o 'have to' (obligación externa):",
+          "stimulus_en": "In the UK, you ___ drive on the left.",
+          "correct_answer": "have to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "I need to ___ an appointment with the plumber.",
+          "correct_answer": "make",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "Stop ___ing so much noise!",
+          "correct_answer": "make",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'make' o 'do':",
+          "stimulus_en": "I always ___ my best to keep the house clean.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "Do a favor" },
+            { "id": "o2", "text": "Make a favor" },
+            { "id": "o3", "text": "Take a favor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
+          "options": [
+            { "id": "o1", "text": "Make a decision" },
+            { "id": "o2", "text": "Do a decision" },
+            { "id": "o3", "text": "Get a decision" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'must' o 'mustn't':",
+          "stimulus_en": "You ___ forget to lock the door.",
+          "correct_answer": "mustn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I69",
+          "type": "multiple_choice",
+          "prompt_es": "Completa: 'Does he ___ tidy his room?'",
+          "options": [
+            { "id": "o1", "text": "have to" },
+            { "id": "o2", "text": "has to" },
+            { "id": "o3", "text": "must" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I70",
+          "type": "multiple_choice",
+          "prompt_es": "Completa: 'I ___ wash the car; it's very dirty.' (obligación personal)",
+          "options": [
+            { "id": "o1", "text": "must" },
+            { "id": "o2", "text": "must to" },
+            { "id": "o3", "text": "don't have to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Talking about Chores",
+      "content": [
+        {
+          "interaction_id": "U6_I71",
+          "type": "multiple_choice",
+          "prompt_es": "Si alguien dice 'It's your turn to do the dishes', ¿qué significa?",
+          "options": [
+            { "id": "o1", "text": "Es tu turno de fregar los platos" },
+            { "id": "o2", "text": "Te toca comprar los platos" },
+            { "id": "o3", "text": "Mira los platos" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides ayuda con las tareas?",
+          "options": [
+            { "id": "o1", "text": "Could you give me a hand with the cleaning?" },
+            { "id": "o2", "text": "Do you help me now?" },
+            { "id": "o3", "text": "Make the cleaning with me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I73",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'Tengo que sacar la basura.'",
+          "stimulus_es": "Tengo que sacar la basura.",
+          "correct_answer": "I have to take out the trash",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No me importa fregar los platos'?",
+          "options": [
+            { "id": "o1", "text": "I don't mind doing the dishes." },
+            { "id": "o2", "text": "I don't matter washing the dishes." },
+            { "id": "o3", "text": "I not mind to wash the dishes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Odio planchar'?",
+          "options": [
+            { "id": "o1", "text": "I hate ironing." },
+            { "id": "o2", "text": "I hate the iron." },
+            { "id": "o3", "text": "I am hate ironing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prefiero cocinar que limpiar'?",
+          "options": [
+            { "id": "o1", "text": "I prefer cooking to cleaning." },
+            { "id": "o2", "text": "I prefer cook than clean." },
+            { "id": "o3", "text": "I prefer cooking more than cleaning." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase: '¿Quién va a preparar la cena?'",
+          "options": [
+            { "id": "w1", "text": "Who" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "make" },
+            { "id": "w6", "text": "dinner" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo rechazas educadamente una petición de ayuda porque estás ocupado?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry, I'm a bit tied up right now." },
+            { "id": "o2", "text": "No, I am busy." },
+            { "id": "o3", "text": "I can't help you, do it yourself." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices que algo es tu responsabilidad?",
+          "options": [
+            { "id": "o1", "text": "I'm in charge of the laundry." },
+            { "id": "o2", "text": "I am the boss of the laundry." },
+            { "id": "o3", "text": "The laundry is my thing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas quién tiene que hacer algo?",
+          "options": [
+            { "id": "o1", "text": "Whose turn is it to vacuum?" },
+            { "id": "o2", "text": "Who turn is vacuum?" },
+            { "id": "o3", "text": "Who is the turn for vacuum?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I81",
+          "type": "matching",
+          "prompt_es": "Une las quejas con su significado:",
+          "pairs": [
+            { "id": "p1", "left": "The house is a mess!", "right": "¡La casa es un desastre!" },
+            { "id": "p2", "left": "I'm fed up with cleaning.", "right": "Estoy harto/a de limpiar." },
+            { "id": "p3", "left": "It's not fair!", "right": "¡No es justo!" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I82",
+          "type": "flashcard",
+          "prompt_es": "Expresiones útiles para el hogar",
+          "flashcards": [
+            { "front": "Keep the house tidy", "back": "Mantener la casa ordenada", "pronunciation": "/kiːp ðə haʊs ˈtaɪdi/" },
+            { "front": "Lend a hand", "back": "Echar una mano", "pronunciation": "/lend ə hænd/" },
+            { "front": "Share the workload", "back": "Compartir la carga de trabajo", "pronunciation": "/ʃeər ðə ˈwɜːrkloʊd/" },
+            { "front": "Do your fair share", "back": "Hacer tu parte justa", "pronunciation": "/duː jɔːr feər ʃeər/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides a alguien que recoja sus cosas?",
+          "options": [
+            { "id": "o1", "text": "Could you please pick up your things?" },
+            { "id": "o2", "text": "Pick your things now." },
+            { "id": "o3", "text": "Take your objects up." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'voy a poner la lavadora'?",
+          "options": [
+            { "id": "o1", "text": "I'm going to put a load on." },
+            { "id": "o2", "text": "I'm going to put the machine." },
+            { "id": "o3", "text": "I'm going to make the laundry." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'los platos están limpios'?",
+          "options": [
+            { "id": "o1", "text": "The dishes are clean." },
+            { "id": "o2", "text": "The plates are cleared." },
+            { "id": "o3", "text": "The dishes is clean." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I86",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Puedes ayudarme a poner la mesa?'",
+          "stimulus_es": "¿Puedes ayudarme a poner la mesa?",
+          "correct_answer": "Can you help me set the table?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'he terminado mis tareas'?",
+          "options": [
+            { "id": "o1", "text": "I've finished my chores." },
+            { "id": "o2", "text": "I am finish my homework." },
+            { "id": "o3", "text": "I have ended my works." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'la papelera está llena'?",
+          "options": [
+            { "id": "o1", "text": "The bin is full." },
+            { "id": "o2", "text": "The trash is complete." },
+            { "id": "o3", "text": "The bin is fat." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Tenemos que limpiar el salón.'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "clean" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "living" },
+            { "id": "w7", "text": "room" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'estoy cansado de limpiar'?",
+          "options": [
+            { "id": "o1", "text": "I'm tired of cleaning." },
+            { "id": "o2", "text": "I'm tired to clean." },
+            { "id": "o3", "text": "I am tiring of cleaning." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'mi hermano nunca ayuda'?",
+          "options": [
+            { "id": "o1", "text": "My brother never helps." },
+            { "id": "o2", "text": "My brother doesn't never help." },
+            { "id": "o3", "text": "My brother help never." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'mañana es el día de limpieza general'?",
+          "options": [
+            { "id": "o1", "text": "Tomorrow is the big clean-up day." },
+            { "id": "o2", "text": "Tomorrow is cleaning day big." },
+            { "id": "o3", "text": "Cleaning day is tomorrow big." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'tenemos invitados esta noche'?",
+          "options": [
+            { "id": "o1", "text": "We're having guests over tonight." },
+            { "id": "o2", "text": "We have guests for tonight." },
+            { "id": "o3", "text": "Guests are coming to tonight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'tenemos que dejar la casa impecable'?",
+          "options": [
+            { "id": "o1", "text": "We have to make the house spotless." },
+            { "id": "o2", "text": "We must the house very clean." },
+            { "id": "o3", "text": "The house has to be without stains." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides que alguien baje la basura?",
+          "options": [
+            { "id": "o1", "text": "Could you take the trash down?" },
+            { "id": "o2", "text": "Take the trash low please." },
+            { "id": "o3", "text": "Go down with the trash." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está todo recogido'?",
+          "options": [
+            { "id": "o1", "text": "Everything is put away." },
+            { "id": "o2", "text": "All is picked up." },
+            { "id": "o3", "text": "The things are in place." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'hacer la compra me lleva mucho tiempo'?",
+          "options": [
+            { "id": "o1", "text": "Grocery shopping takes me a long time." },
+            { "id": "o2", "text": "Making the shop uses much time." },
+            { "id": "o3", "text": "To shop takes a lot of time." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿quién va a pasear al perro?'",
+          "options": [
+            { "id": "o1", "text": "Who's going to walk the dog?" },
+            { "id": "o2", "text": "Who walks the dog?" },
+            { "id": "o3", "text": "Who is for walk the dog?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'se ha acabado el detergente'?",
+          "options": [
+            { "id": "o1", "text": "We've run out of detergent." },
+            { "id": "o2", "text": "The detergent is finished." },
+            { "id": "o3", "text": "There is no more detergent." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U6_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Necesitamos comprar más comida.'",
+          "stimulus_es": "Necesitamos comprar más comida.",
+          "correct_answer": "We need to buy more food",
+          "mastery_tag": "communication"
         }
       ]
     }

@@ -4,179 +4,1141 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U9",
-    "unit_title": "Entertainment and media",
-    "total_duration_minutes": 120
+    "unit_title": "Feelings & Emotions",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B9",
-      "title": "Entertainment and media",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Emotions & Feelings",
       "content": [
         {
           "interaction_id": "U9_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Emocionado'?",
+          "options": [
+            { "id": "o1", "text": "Excited" },
+            { "id": "o2", "text": "Emotional" },
+            { "id": "o3", "text": "Moved" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aburrido'?",
+          "options": [
+            { "id": "o1", "text": "Bored" },
+            { "id": "o2", "text": "Boring" },
+            { "id": "o3", "text": "Board" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Orgulloso'?",
+          "options": [
+            { "id": "o1", "text": "Proud" },
+            { "id": "o2", "text": "Prude" },
+            { "id": "o3", "text": "Price" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Avergonzado'?",
           "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w2",
-              "text": "learning"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            }
+            { "id": "o1", "text": "Embarrassed" },
+            { "id": "o2", "text": "Ashamed" },
+            { "id": "o3", "text": "Pregnant" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'Confundido'?",
           "options": [
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            }
+            { "id": "o1", "text": "Confused" },
+            { "id": "o2", "text": "Lost" },
+            { "id": "o3", "text": "Messy" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nervioso'?",
+          "options": [
+            { "id": "o1", "text": "Nervous" },
+            { "id": "o2", "text": "Angry" },
+            { "id": "o3", "text": "Scared" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'Enfadado'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Angry / Mad" },
+            { "id": "o2", "text": "Hungry" },
+            { "id": "o3", "text": "Enraged" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sorprendido'?",
+          "options": [
+            { "id": "o1", "text": "Surprised" },
+            { "id": "o2", "text": "Amazing" },
+            { "id": "o3", "text": "Shocking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Solo / Solitario'?",
+          "options": [
+            { "id": "o1", "text": "Lonely" },
+            { "id": "o2", "text": "Alone" },
+            { "id": "o3", "text": "Single" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 9 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Preocupado'?",
+          "options": [
+            { "id": "o1", "text": "Worried" },
+            { "id": "o2", "text": "Busy" },
+            { "id": "o3", "text": "Thinking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Annoyed'?",
+          "options": [
+            { "id": "o1", "text": "Molesto / Irritado" },
+            { "id": "o2", "text": "Divertido" },
+            { "id": "o3", "text": "Cansado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Disappointed'?",
+          "options": [
+            { "id": "o1", "text": "Decepcionado" },
+            { "id": "o2", "text": "Desaparecido" },
+            { "id": "o3", "text": "Asustado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cansado'?",
+          "options": [
+            { "id": "o1", "text": "Tired" },
+            { "id": "o2", "text": "Tried" },
+            { "id": "o3", "text": "Retired" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'Agotado'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Exhausted" },
+            { "id": "o2", "text": "Very tired" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Frightened'?",
+          "options": [
+            { "id": "o1", "text": "Asustado" },
+            { "id": "o2", "text": "Congelado" },
+            { "id": "o3", "text": "Valiente" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une los sentimientos físicos:",
+          "pairs": [
+            { "id": "p1", "left": "Hungry", "right": "Hambriento" },
+            { "id": "p2", "left": "Thirsty", "right": "Sediento" },
+            { "id": "p3", "left": "Sleepy", "right": "Con sueño" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I17",
+          "type": "matching",
+          "prompt_es": "Une los opuestos:",
+          "pairs": [
+            { "id": "p1", "left": "Happy", "right": "Sad" },
+            { "id": "p2", "left": "Excited", "right": "Bored" },
+            { "id": "p3", "left": "Proud", "right": "Ashamed" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Calm'?",
+          "options": [
+            { "id": "o1", "text": "Tranquilo" },
+            { "id": "o2", "text": "Llamada" },
+            { "id": "o3", "text": "Cálido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relajado'?",
+          "options": [
+            { "id": "o1", "text": "Relaxed" },
+            { "id": "o2", "text": "Release" },
+            { "id": "o3", "text": "Relate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I20",
+          "type": "flashcard",
+          "prompt_es": "Sentimientos y Emociones",
+          "flashcards": [
+            { "front": "Jealous", "back": "Celoso", "pronunciation": "/ˈdʒeləs/" },
+            { "front": "Confident", "back": "Seguro de sí mismo", "pronunciation": "/ˈkɒnfɪdənt/" },
+            { "front": "Upset", "back": "Disgustado / Molesto", "pronunciation": "/ʌpˈset/" },
+            { "front": "Cheerful", "back": "Alegre", "pronunciation": "/ˈtʃɪəfl/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Shocked'?",
+          "options": [
+            { "id": "o1", "text": "Conmocionado / Impactado" },
+            { "id": "o2", "text": "Cansado" },
+            { "id": "o3", "text": "Divertido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Agobiado'?",
+          "options": [
+            { "id": "o1", "text": "Overwhelmed" },
+            { "id": "o2", "text": "Overpowered" },
+            { "id": "o3", "text": "Stressed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Homesick'?",
+          "options": [
+            { "id": "o1", "text": "Sentir nostalgia por el hogar" },
+            { "id": "o2", "text": "Enfermo en casa" },
+            { "id": "o3", "text": "Cansado de casa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Optimista'?",
+          "options": [
+            { "id": "o1", "text": "Optimistic / Positive" },
+            { "id": "o2", "text": "Happy" },
+            { "id": "o3", "text": "Funny" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pesimista'?",
+          "options": [
+            { "id": "o1", "text": "Pessimistic / Negative" },
+            { "id": "o2", "text": "Sad" },
+            { "id": "o3", "text": "Angry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Grateful'?",
+          "options": [
+            { "id": "o1", "text": "Agradecido" },
+            { "id": "o2", "text": "Genial" },
+            { "id": "o3", "text": "Grande" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Encantado' (con algo)?",
+          "options": [
+            { "id": "o1", "text": "Delighted" },
+            { "id": "o2", "text": "Delicious" },
+            { "id": "o3", "text": "Excited" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Cross' (en contexto de emoción)?",
+          "options": [
+            { "id": "o1", "text": "Enfadado / Molesto (UK)" },
+            { "id": "o2", "text": "Cruzar" },
+            { "id": "o3", "text": "Triste" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asustado' (intensidad media)?",
+          "options": [
+            { "id": "o1", "text": "Scared" },
+            { "id": "o2", "text": "Frightened" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Anxious'?",
+          "options": [
+            { "id": "o1", "text": "Ansioso / Muy preocupado" },
+            { "id": "o2", "text": "Ambicioso" },
+            { "id": "o3", "text": "Deseoso" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 9 of the A2 course.\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aterrado'?",
+          "options": [
+            { "id": "o1", "text": "Terrified" },
+            { "id": "o2", "text": "Terrible" },
+            { "id": "o3", "text": "Scared" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Culpable'?",
+          "options": [
+            { "id": "o1", "text": "Guilty" },
+            { "id": "o2", "text": "Fault" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Lonely'?",
+          "options": [
+            { "id": "o1", "text": "Sentirse solo (tristeza)" },
+            { "id": "o2", "text": "Estar solo (físicamente)" },
+            { "id": "o3", "text": "Soltero" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aliviado'?",
+          "options": [
+            { "id": "o1", "text": "Relieved" },
+            { "id": "o2", "text": "Relaxed" },
+            { "id": "o3", "text": "Recovered" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Insatisfecho'?",
+          "options": [
+            { "id": "o1", "text": "Dissatisfied / Unhappy" },
+            { "id": "o2", "text": "Satisfied" },
+            { "id": "o3", "text": "Badly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: -ed vs -ing Adjectives & Emphasis",
+      "content": [
+        {
+          "interaction_id": "U9_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos adjetivos en -ed (como 'bored')?",
+          "options": [
+            { "id": "o1", "text": "Para describir cómo se siente una persona" },
+            { "id": "o2", "text": "Para describir una situación o cosa" },
+            { "id": "o3", "text": "Para acciones futuras" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos adjetivos en -ing (como 'boring')?",
+          "options": [
+            { "id": "o1", "text": "Para describir la causa del sentimiento (situación/cosa)" },
+            { "id": "o2", "text": "Para describir el sentimiento de una persona" },
+            { "id": "o3", "text": "Para el pasado" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The movie was ___ (bore).'",
+          "stimulus_en": "The movie was ___.",
+          "correct_answer": "boring",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I am ___ (bore). I want to go home.'",
+          "stimulus_en": "I am ___. I want to go home.",
+          "correct_answer": "bored",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This news is very ___ (excite)!'",
+          "stimulus_en": "This news is very ___!",
+          "correct_answer": "exciting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She is ___ (excite) about the trip.'",
+          "stimulus_en": "She is ___ about the trip.",
+          "correct_answer": "excited",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I42",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'I am so ___ (tire) today.'",
+          "options": [
+            { "id": "o1", "text": "tired" },
+            { "id": "o2", "text": "tiring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I43",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'Walking up the hill is ___ (tire).'",
+          "options": [
+            { "id": "o1", "text": "tiring" },
+            { "id": "o2", "text": "tired" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'ed' o 'ing': 'The instructions are ___ (confuse).'",
+          "stimulus_en": "The instructions are ___.",
+          "correct_answer": "confusing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'ed' o 'ing': 'I am totally ___ (confuse).'",
+          "stimulus_en": "I am totally ___.",
+          "correct_answer": "confused",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'ed' o 'ing': 'It was an ___ (amaze) experience.'",
+          "stimulus_en": "It was an ___ experience.",
+          "correct_answer": "amazing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'ed' o 'ing': 'We were ___ (amaze) by the view.'",
+          "stimulus_en": "We were ___ by the view.",
+          "correct_answer": "amazed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'I feel very happy'?",
+          "options": [
+            { "id": "o1", "text": "Me siento muy feliz" },
+            { "id": "o2", "text": "Estoy muy feliz" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'feel' o 'feels': 'She ___ nervous before exams.'",
+          "stimulus_en": "She ___ nervous before exams.",
+          "correct_answer": "feels",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'feel' o 'feels': 'They ___ tired after work.'",
+          "stimulus_en": "They ___ tired after work.",
+          "correct_answer": "feel",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estoy tan emocionado!'?",
+          "options": [
+            { "id": "o1", "text": "I'm so excited!" },
+            { "id": "o2", "text": "I'm very excited!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'So'?",
+          "options": [
+            { "id": "o1", "text": "Antes de un adjetivo solo para dar énfasis" },
+            { "id": "o2", "text": "Antes de un sustantivo" },
+            { "id": "o3", "text": "Al final de la frase" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He is ___ (tan) angry.'",
+          "stimulus_en": "He is ___ angry.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'very' o 'so': 'It is a ___ (muy) interesting book.'",
+          "stimulus_en": "It is a ___ interesting book.",
+          "correct_answer": "very",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I55",
+          "type": "true_false",
+          "prompt_es": "Usamos 'so' con adjetivos + sustantivo (ej: 'He is a so nice boy').",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. Con adjetivo + sustantivo usamos 'such a' (ej: 'He is such a nice boy').",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I56",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'I was ___ (disappoint) with the result.'",
+          "options": [
+            { "id": "o1", "text": "disappointed" },
+            { "id": "o2", "text": "disappointing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I57",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'The result was ___ (disappoint).'",
+          "options": [
+            { "id": "o1", "text": "disappointing" },
+            { "id": "o2", "text": "disappointed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'ed' o 'ing': 'Flying is ___ (frighten) for some people.'",
+          "stimulus_en": "Flying is ___ for some people.",
+          "correct_answer": "frightening",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'ed' o 'ing': 'I am ___ (frighten) of spiders.'",
+          "stimulus_en": "I am ___ of spiders.",
+          "correct_answer": "frightened",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me siento un poco triste'?",
+          "options": [
+            { "id": "o1", "text": "I feel a bit sad." },
+            { "id": "o2", "text": "I feel a little sad." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are you ___ (surprise) by the news?'",
+          "stimulus_en": "Are you ___ by the news?",
+          "correct_answer": "surprised",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The news was very ___ (surprise).'",
+          "stimulus_en": "The news was very ___.",
+          "correct_answer": "surprising",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I63",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / feel / happy / today / very / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "feel" },
+            { "id": "w3", "text": "very" },
+            { "id": "w4", "text": "happy" },
+            { "id": "w5", "text": "today" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I64",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'He is so ___ (interest) in history.'",
+          "options": [
+            { "id": "o1", "text": "interested" },
+            { "id": "o2", "text": "interesting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'History is very ___ (interest).'",
+          "options": [
+            { "id": "o1", "text": "interesting" },
+            { "id": "o2", "text": "interested" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's an ___ (embarrass) situation.'",
+          "stimulus_en": "It's an ___ situation.",
+          "correct_answer": "embarrassing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I was so ___ (embarrass) when I fell.'",
+          "stimulus_en": "I was so ___ when I fell.",
+          "correct_answer": "embarrassed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me puse nervioso'?",
+          "options": [
+            { "id": "o1", "text": "I got nervous." },
+            { "id": "o2", "text": "I was nervous." },
+            { "id": "o3", "text": "I feel nervous." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me sentía orgulloso de ti'?",
+          "options": [
+            { "id": "o1", "text": "I felt proud of you." },
+            { "id": "o2", "text": "I was proud to you." },
+            { "id": "o3", "text": "I am proud of you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I70",
+          "type": "true_false",
+          "prompt_es": "'The game was very excited' es una frase correcta.",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. Debería ser 'The game was very exciting'.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Expressing Feelings",
+      "content": [
+        {
+          "interaction_id": "U9_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué te pasa?' (cuando alguien está triste)?",
+          "options": [
+            { "id": "o1", "text": "What's the matter?" },
+            { "id": "o2", "text": "What's wrong?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'No me siento muy bien'?",
+          "options": [
+            { "id": "o1", "text": "I don't feel very well." },
+            { "id": "o2", "text": "I am not feeling good." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me alegro mucho por ti'?",
+          "options": [
+            { "id": "o1", "text": "I'm so happy for you." },
+            { "id": "o2", "text": "I feel happy with you." },
+            { "id": "o3", "text": "Happy for you I am." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo reaccionas ante una noticia triste? 'Lo siento mucho.'",
+          "options": [
+            { "id": "o1", "text": "I'm so sorry." },
+            { "id": "o2", "text": "That's terrible." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Estás bien?'?",
+          "options": [
+            { "id": "o1", "text": "Are you okay?" },
+            { "id": "o2", "text": "Are you alright?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy un poco preocupado por mi examen'?",
+          "options": [
+            { "id": "o1", "text": "I'm a bit worried about my exam." },
+            { "id": "o2", "text": "I am worrying for the test." },
+            { "id": "o3", "text": "I feel worried by the exam." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué alivio!'?",
+          "options": [
+            { "id": "o1", "text": "What a relief!" },
+            { "id": "o2", "text": "That's a relief!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I78",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Me siento orgulloso de mis resultados.'",
+          "stimulus_es": "Me siento orgulloso de mis resultados.",
+          "correct_answer": "I feel proud of my results",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I79",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Por qué estás tan enfadado?'",
+          "options": [
+            { "id": "w1", "text": "Why" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "so" },
+            { "id": "w5", "text": "angry" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Nada, estoy bien'?",
+          "options": [
+            { "id": "o1", "text": "Nothing, I'm fine." },
+            { "id": "o2", "text": "Anything, I am okay." },
+            { "id": "o3", "text": "No matter, good me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No llores'?",
+          "options": [
+            { "id": "o1", "text": "Don't cry." },
+            { "id": "o2", "text": "No cry." },
+            { "id": "o3", "text": "Not crying." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Anímate' / 'Alégrate'?",
+          "options": [
+            { "id": "o1", "text": "Cheer up!" },
+            { "id": "o2", "text": "Happy up!" },
+            { "id": "o3", "text": "Be happy!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I83",
+          "type": "flashcard",
+          "prompt_es": "Expresiones comunes",
+          "flashcards": [
+            { "front": "I can't wait!", "back": "¡No puedo esperar! (emoción)", "pronunciation": "/aɪ kɑːnt weɪt/" },
+            { "front": "I'm looking forward to it!", "back": "¡Lo espero con ganas!", "pronunciation": "/aɪm ˈlʊkɪŋ ˈfɔːwəd tuː ɪt/" },
+            { "front": "Calm down!", "back": "¡Cálmate!", "pronunciation": "/kɑːm daʊn/" },
+            { "front": "It's not a big deal.", "back": "No es para tanto.", "pronunciation": "/ɪts nɒt ə bɪɡ diːl/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy harto de este ruido'?",
+          "options": [
+            { "id": "o1", "text": "I'm fed up with this noise." },
+            { "id": "o2", "text": "I'm tired of this noise." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me pone nervioso hablar en público'?",
+          "options": [
+            { "id": "o1", "text": "Public speaking makes me nervous." },
+            { "id": "o2", "text": "I am nervous to talk in public." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cómo te sientes hoy?'?",
+          "options": [
+            { "id": "o1", "text": "How do you feel today?" },
+            { "id": "o2", "text": "How are you feeling today?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me siento mucho mejor'?",
+          "options": [
+            { "id": "o1", "text": "I feel much better." },
+            { "id": "o2", "text": "I am feeling more good." },
+            { "id": "o3", "text": "I feel betterly." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Espero que te sientas mejor pronto.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "hope" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "feel" },
+            { "id": "w5", "text": "better" },
+            { "id": "w6", "text": "soon" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Vaya sorpresa!'?",
+          "options": [
+            { "id": "o1", "text": "What a surprise!" },
+            { "id": "o2", "text": "Such a surprise!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No te preocupes'?",
+          "options": [
+            { "id": "o1", "text": "Don't worry." },
+            { "id": "o2", "text": "No worry." },
+            { "id": "o3", "text": "Not worrying." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Pobre de ti!' (con simpatía)?",
+          "options": [
+            { "id": "o1", "text": "Poor you!" },
+            { "id": "o2", "text": "Bad you!" },
+            { "id": "o3", "text": "Sad for you!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me da miedo la oscuridad'?",
+          "options": [
+            { "id": "o1", "text": "I'm afraid of the dark." },
+            { "id": "o2", "text": "I fear the dark." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No puedo creerlo'?",
+          "options": [
+            { "id": "o1", "text": "I can't believe it!" },
+            { "id": "o2", "text": "No believe it!" },
+            { "id": "o3", "text": "Unbelievable!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué pena!'?",
+          "options": [
+            { "id": "o1", "text": "What a pity!" },
+            { "id": "o2", "text": "What a shame!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me pone triste ver esto'?",
+          "options": [
+            { "id": "o1", "text": "It makes me sad to see this." },
+            { "id": "o2", "text": "I am sad to see this." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy confundido con las reglas'?",
+          "options": [
+            { "id": "o1", "text": "I'm confused about the rules." },
+            { "id": "o2", "text": "The rules confuse me." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue muy vergonzoso'?",
+          "options": [
+            { "id": "o1", "text": "It was very embarrassing." },
+            { "id": "o2", "text": "It was very embarrassed." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy tan orgulloso de mi equipo'?",
+          "options": [
+            { "id": "o1", "text": "I'm so proud of my team." },
+            { "id": "o2", "text": "I feel so proud for my team." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cómo te sentiste?'?",
+          "options": [
+            { "id": "o1", "text": "How did you feel?" },
+            { "id": "o2", "text": "How were you feeling?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella está muy emocionada por el concierto.'",
+          "stimulus_es": "Ella está muy emocionada por el concierto.",
+          "correct_answer": "She is very excited about the concert",
+          "mastery_tag": "communication"
         }
       ]
     }

@@ -4,755 +4,126 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U1",
-    "unit_title": "People and appearance",
-    "total_duration_minutes": 120
+    "unit_title": "Greetings & Personal Info",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
       "block_id": "B1",
-      "title": "People and appearance",
+      "title": "A2 Vocabulary: Personal Details & Forms",
       "content": [
-        {
-          "interaction_id": "U1_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Attractive",
-              "right": "Atractivo/a"
-            },
-            {
-              "id": "p1",
-              "left": "Beautiful",
-              "right": "Guapa/Bella"
-            },
-            {
-              "id": "p2",
-              "left": "Straight",
-              "right": "Liso (pelo)"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "I (think) ________ he is handsome.",
-          "correct_answer": "think",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My grandfather is elderly but very active.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "like"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w5",
-              "text": "actor"
-            },
-            {
-              "id": "w4",
-              "text": "famous"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "looks"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U1_I5",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Who do you look like?\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "I'm a student."
-            },
-            {
-              "id": "c2",
-              "text": "I'm fine, thanks."
-            },
-            {
-              "id": "c1",
-              "text": "I look like my father."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Liso (pelo)",
-          "correct_answer": "Straight",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Gafas':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Glasses"
-            },
-            {
-              "id": "o2",
-              "text": "Straight"
-            },
-            {
-              "id": "o3",
-              "text": "Blonde"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I9",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "We (be) ________ all different.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He looks like a famous actor.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I12",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Is she wearing a dress today?\"",
-          "options": [
-            {
-              "id": "c1",
-              "text": "No, she's wearing jeans and a T-shirt."
-            },
-            {
-              "id": "c2",
-              "text": "Yes, she is beautiful."
-            },
-            {
-              "id": "c3",
-              "text": "No, she isn't old."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I14",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Con sobrepeso':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Beard"
-            },
-            {
-              "id": "o1",
-              "text": "Overweight"
-            },
-            {
-              "id": "o2",
-              "text": "Blonde"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "What ________ she look like?",
-          "correct_answer": "does",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He is shorter than his father now.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I19",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Is he taller than you?\"",
-          "options": [
-            {
-              "id": "c3",
-              "text": "Yes, he does."
-            },
-            {
-              "id": "c1",
-              "text": "Yes, he is much taller."
-            },
-            {
-              "id": "c2",
-              "text": "No, he's from Spain."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I21",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Guapa/Bella':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Beautiful"
-            },
-            {
-              "id": "o3",
-              "text": "Moustache"
-            },
-            {
-              "id": "o2",
-              "text": "Attractive"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I23",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "She (usually/wear) ________ glasses.",
-          "correct_answer": "usually wears",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I don't have a moustache, but I have a beard.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I28",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Alto/a':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Handsome"
-            },
-            {
-              "id": "o1",
-              "text": "Tall"
-            },
-            {
-              "id": "o2",
-              "text": "Beautiful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I30",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "Does she ________ (have) blonde hair?",
-          "correct_answer": "have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He got has a short black beard.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I35",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Joven':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Overweight"
-            },
-            {
-              "id": "o2",
-              "text": "Elderly"
-            },
-            {
-              "id": "o1",
-              "text": "Young"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I37",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "She (be) ________ very tall.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My sister are slimmer than me.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I40",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"What does your sister look like?\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "She's very kind."
-            },
-            {
-              "id": "c3",
-              "text": "She likes pizza."
-            },
-            {
-              "id": "c1",
-              "text": "She's tall and has curly hair."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I42",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Rubio/a':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Glasses"
-            },
-            {
-              "id": "o2",
-              "text": "Straight"
-            },
-            {
-              "id": "o1",
-              "text": "Blonde"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He is wearing a smart suit for the interview.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I51",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "My hair is ________ (long) than yours.",
-          "correct_answer": "longer",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I58",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (not/have) ________ a beard.",
-          "correct_answer": "doesn't have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I65",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "They (be) ________ both very friendly.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I66",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She is the most beautiful woman I know.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I70",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Liso (pelo)':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Straight"
-            },
-            {
-              "id": "o2",
-              "text": "Handsome"
-            },
-            {
-              "id": "o3",
-              "text": "Beautiful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I72",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "I (wear) ________ a blue shirt today.",
-          "correct_answer": "am wearing",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I73",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"They both has curly brown hair.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I77",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Barba':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Beard"
-            },
-            {
-              "id": "o3",
-              "text": "Beautiful"
-            },
-            {
-              "id": "o2",
-              "text": "Moustache"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I80",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He has got a short black beard.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I87",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"What does your new teacher look like?\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I91",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Bigote':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Moustache"
-            },
-            {
-              "id": "o3",
-              "text": "Attractive"
-            },
-            {
-              "id": "o2",
-              "text": "Tall"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I100",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (have got) ________ blue eyes.",
-          "correct_answer": "has got",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I101",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"What your does new teacher look like?\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I110",
-          "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Do you wear glasses?\"",
-          "options": [
-            {
-              "id": "c2",
-              "text": "No, I don't have a beard."
-            },
-            {
-              "id": "c3",
-              "text": "Yes, I am tall."
-            },
-            {
-              "id": "c1",
-              "text": "Only for reading or watching TV."
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U1_I112",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Atractivo/a':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Blonde"
-            },
-            {
-              "id": "o2",
-              "text": "Slim"
-            },
-            {
-              "id": "o1",
-              "text": "Attractive"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I115",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She are the most beautiful woman I know.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "She is the most beautiful woman I know."
-        },
-        {
-          "interaction_id": "U1_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He like looks a famous actor.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I136",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"They both have curly brown hair.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I140",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Bajo/a':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Short"
-            },
-            {
-              "id": "o2",
-              "text": "Handsome"
-            },
-            {
-              "id": "o3",
-              "text": "Overweight"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I142",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "They (not/be) ________ very old.",
-          "correct_answer": "are not",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I143",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"I don't has a moustache, but I has a beard.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I149",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "She (look) ________ like her mother.",
-          "correct_answer": "looks",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I157",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"My sister is slimmer than me.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I163",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "She is the ________ (tall) girl in the class.",
-          "correct_answer": "tallest",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I164",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He wears usually glasses for reading.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I168",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Anciano/a':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Handsome"
-            },
-            {
-              "id": "o1",
-              "text": "Elderly"
-            },
-            {
-              "id": "o2",
-              "text": "Beautiful"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I182",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Rizado':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Elderly"
-            },
-            {
-              "id": "o1",
-              "text": "Curly"
-            },
-            {
-              "id": "o2",
-              "text": "Tall"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I185",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"He usually wears glasses for reading.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I189",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Delgado/a':",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Beautiful"
-            },
-            {
-              "id": "o1",
-              "text": "Slim"
-            },
-            {
-              "id": "o2",
-              "text": "Handsome"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U1_I191",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (be) ________ shorter than his brother.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U1_I199",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"She has got big blue eyes.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        }
+        { "interaction_id": "U1_I1", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Surname'?", "options": [{ "id": "o1", "text": "Apellido" }, { "id": "o2", "text": "Nombre" }, { "id": "o3", "text": "Apodo" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I2", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'fecha de nacimiento'?", "options": [{ "id": "o1", "text": "Date of birth" }, { "id": "o2", "text": "Birth date" }, { "id": "o3", "text": "Born day" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I3", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Occupation'?", "options": [{ "id": "o1", "text": "Ocupación / Profesión" }, { "id": "o2", "text": "Ocupado" }, { "id": "o3", "text": "Pasatiempo" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I4", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'estado civil'?", "options": [{ "id": "o1", "text": "Marital status" }, { "id": "o2", "text": "Civil state" }, { "id": "o3", "text": "Marriage level" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I5", "type": "multiple_choice", "prompt_es": "Si alguien te pide tu 'Address', ¿qué le das?", "options": [{ "id": "o1", "text": "Tu dirección" }, { "id": "o2", "text": "Tu correo" }, { "id": "o3", "text": "Tu vestido" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I6", "type": "matching", "prompt_es": "Une los términos con su significado:", "pairs": [{ "id": "p1", "left": "First name", "right": "Nombre de pila" }, { "id": "p2", "left": "Middle name", "right": "Segundo nombre" }, { "id": "p3", "left": "Last name", "right": "Apellido" }], "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" }, "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I7", "type": "matching", "prompt_es": "Une los estados civiles:", "pairs": [{ "id": "p1", "left": "Single", "right": "Soltero/a" }, { "id": "p2", "left": "Married", "right": "Casado/a" }, { "id": "p3", "left": "Divorced", "right": "Divorciado/a" }], "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" }, "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I8", "type": "flashcard", "prompt_es": "Vocabulario de identificación", "flashcards": [{ "front": "ID Card", "back": "DNI / Carnet de identidad", "pronunciation": "/ˌaɪˈdiː kɑːrd/" }, { "front": "Passport", "back": "Pasaporte", "pronunciation": "/ˈpæspɔːrt/" }, { "front": "Signature", "back": "Firma", "pronunciation": "/ˈsɪɡnətʃər/" }, { "front": "Postcode", "back": "Código postal", "pronunciation": "/ˈpoʊstkoʊd/" }], "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I9", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'nacionalidad'?", "options": [{ "id": "o1", "text": "Nationality" }, { "id": "o2", "text": "Nation" }, { "id": "o3", "text": "Nationalism" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I10", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Citizenship'?", "options": [{ "id": "o1", "text": "Ciudadanía" }, { "id": "o2", "text": "Ciudad" }, { "id": "o3", "text": "Civilización" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I11", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'viudo/a'?", "options": [{ "id": "o1", "text": "Widowed" }, { "id": "o2", "text": "Separated" }, { "id": "o3", "text": "Engaged" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I12", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Gender'?", "options": [{ "id": "o1", "text": "Género" }, { "id": "o2", "text": "Gente" }, { "id": "o3", "text": "Generación" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I13", "type": "multiple_choice", "prompt_es": "¿Cómo marcas 'masculino' y 'femenino' en un formulario?", "options": [{ "id": "o1", "text": "Male / Female" }, { "id": "o2", "text": "Man / Woman" }, { "id": "o3", "text": "Boy / Girl" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I14", "type": "multiple_choice", "prompt_es": "¿Qué es un 'Nickname'?", "options": [{ "id": "o1", "text": "Un apodo" }, { "id": "o2", "text": "Un nombre falso" }, { "id": "o3", "text": "Un apellido" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I15", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'título' (como Mr., Mrs.)?", "options": [{ "id": "o1", "text": "Title" }, { "id": "o2", "text": "Head" }, { "id": "o3", "text": "Name tag" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I16", "type": "true_false", "prompt_es": "¿'Ms.' se usa solo para mujeres casadas?", "correct_answer": false, "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I17", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'lugar de nacimiento'?", "options": [{ "id": "o1", "text": "Place of birth" }, { "id": "o2", "text": "Born place" }, { "id": "o3", "text": "Birth city" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I18", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Next of kin'?", "options": [{ "id": "o1", "text": "Pariente más cercano" }, { "id": "o2", "text": "Vecino" }, { "id": "o3", "text": "Amigo" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I19", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'idioma nativo'?", "options": [{ "id": "o1", "text": "Mother tongue" }, { "id": "o2", "text": "Mom language" }, { "id": "o3", "text": "Native speak" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I20", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Employed'?", "options": [{ "id": "o1", "text": "Empleado" }, { "id": "o2", "text": "En paro" }, { "id": "o3", "text": "Jefe" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I21", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'jubilado'?", "options": [{ "id": "o1", "text": "Retired" }, { "id": "o2", "text": "Tired" }, { "id": "o3", "text": "Fired" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I22", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Unemployed'?", "options": [{ "id": "o1", "text": "Desempleado" }, { "id": "o2", "text": "Empleado" }, { "id": "o3", "text": "Estudiante" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I23", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'autónomo'?", "options": [{ "id": "o1", "text": "Self-employed" }, { "id": "o2", "text": "Independent" }, { "id": "o3", "text": "Boss" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I24", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Full-time'?", "options": [{ "id": "o1", "text": "Jornada completa" }, { "id": "o2", "text": "Media jornada" }, { "id": "o3", "text": "Horas extras" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I25", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'media jornada'?", "options": [{ "id": "o1", "text": "Part-time" }, { "id": "o2", "text": "Half-time" }, { "id": "o3", "text": "Small-job" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I26", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Trainee'?", "options": [{ "id": "o1", "text": "Aprendiz" }, { "id": "o2", "text": "Maestro" }, { "id": "o3", "text": "Obrero" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I27", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'interesado en'?", "options": [{ "id": "o1", "text": "Interested in" }, { "id": "o2", "text": "Interest on" }, { "id": "o3", "text": "Interesting with" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I28", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Hobbies'?", "options": [{ "id": "o1", "text": "Aficiones" }, { "id": "o2", "text": "Deberes" }, { "id": "o3", "text": "Hábitos" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I29", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'habilidades'?", "options": [{ "id": "o1", "text": "Skills" }, { "id": "o2", "text": "Powers" }, { "id": "o3", "text": "Tools" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I30", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Fluent'?", "options": [{ "id": "o1", "text": "Fluido" }, { "id": "o2", "text": "Lento" }, { "id": "o3", "text": "Difícil" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I31", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'frecuentemente'?", "options": [{ "id": "o1", "text": "Frequently" }, { "id": "o2", "text": "Rarely" }, { "id": "o3", "text": "Never" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I32", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Beginner'?", "options": [{ "id": "o1", "text": "Principiante" }, { "id": "o2", "text": "Experto" }, { "id": "o3", "text": "Intermedio" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I33", "type": "matching", "prompt_es": "Une los niveles:", "pairs": [{ "id": "p1", "left": "Advanced", "right": "Avanzado" }, { "id": "p2", "left": "Intermediate", "right": "Intermedio" }, { "id": "p3", "left": "Elementary", "right": "Elemental" }], "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" }, "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I34", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'hablante nativo'?", "options": [{ "id": "o1", "text": "Native speaker" }, { "id": "o2", "text": "Natural talker" }, { "id": "o3", "text": "Born speaker" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I35", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Current'?", "options": [{ "id": "o1", "text": "Actual" }, { "id": "o2", "text": "Pasado" }, { "id": "o3", "text": "Futuro" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I36", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'disponible'?", "options": [{ "id": "o1", "text": "Available" }, { "id": "o2", "text": "Free" }, { "id": "o3", "text": "Ready" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I37", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Requirement'?", "options": [{ "id": "o1", "text": "Requisito" }, { "id": "o2", "text": "Regalo" }, { "id": "o3", "text": "Respuesta" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I38", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'solicitud'?", "options": [{ "id": "o1", "text": "Application" }, { "id": "o2", "text": "Ask" }, { "id": "o3", "text": "Paper" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I39", "type": "multiple_choice", "prompt_es": "¿Qué significa 'Deadline'?", "options": [{ "id": "o1", "text": "Fecha límite" }, { "id": "o2", "text": "Línea de muerte" }, { "id": "o3", "text": "Final" }], "correct_answer": "o1", "mastery_tag": "vocabulary" },
+        { "interaction_id": "U1_I40", "type": "multiple_choice", "prompt_es": "¿Cómo se dice 'referencia'?", "options": [{ "id": "o1", "text": "Reference" }, { "id": "o2", "text": "Link" }, { "id": "o3", "text": "Contact" }], "correct_answer": "o1", "mastery_tag": "vocabulary" }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Be, Have got & Present Simple Review",
+      "content": [
+        { "interaction_id": "U1_I41", "type": "fill_blanks", "prompt_es": "Completa con 'be':", "stimulus_en": "I ___ from Spain.", "correct_answer": "am", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I42", "type": "fill_blanks", "prompt_es": "Completa con 'be':", "stimulus_en": "They ___ happy today.", "correct_answer": "are", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I43", "type": "fill_blanks", "prompt_es": "Completa con 'be':", "stimulus_en": "She ___ a doctor.", "correct_answer": "is", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I44", "type": "fill_blanks", "prompt_es": "Pregunta con 'be':", "stimulus_en": "___ you married?", "correct_answer": "Are", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I45", "type": "fill_blanks", "prompt_es": "Negación con 'be':", "stimulus_en": "He ___ (not) single.", "correct_answer": "is not", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I46", "type": "fill_blanks", "prompt_es": "Completa con 'have got':", "stimulus_en": "I ___ a big family.", "correct_answer": "have got", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I47", "type": "fill_blanks", "prompt_es": "Completa con 'has got':", "stimulus_en": "She ___ a new car.", "correct_answer": "has got", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I48", "type": "fill_blanks", "prompt_es": "Pregunta con 'have got':", "stimulus_en": "___ you ___ any brothers?", "correct_answer": "Have / got", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I49", "type": "fill_blanks", "prompt_es": "Negación con 'hasn't got':", "stimulus_en": "It ___ (not) a long tail.", "correct_answer": "hasn't got", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I50", "type": "fill_blanks", "prompt_es": "Present Simple:", "stimulus_en": "I ___ (live) in London.", "correct_answer": "live", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I51", "type": "fill_blanks", "prompt_es": "Present Simple (3ª pers):", "stimulus_en": "He ___ (work) in a bank.", "correct_answer": "works", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I52", "type": "fill_blanks", "prompt_es": "Negación Present Simple:", "stimulus_en": "I ___ (not/smoke).", "correct_answer": "don't smoke", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I53", "type": "fill_blanks", "prompt_es": "Negación 3ª pers:", "stimulus_en": "She ___ (not/eat) meat.", "correct_answer": "doesn't eat", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I54", "type": "fill_blanks", "prompt_es": "Pregunta Present Simple:", "stimulus_en": "___ you like pizza?", "correct_answer": "Do", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I55", "type": "fill_blanks", "prompt_es": "Pregunta 3ª pers:", "stimulus_en": "___ he speak French?", "correct_answer": "Does", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I56", "type": "reorder_words", "prompt_es": "Ordena la frase:", "options": [{ "id": "w1", "text": "I" }, { "id": "w2", "text": "am" }, { "id": "w3", "text": "not" }, { "id": "w4", "text": "married" }, { "id": "w5", "text": "." }], "correct_answer": ["w1", "w2", "w3", "w4", "w5"], "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I57", "type": "reorder_words", "prompt_es": "Ordena la pregunta:", "options": [{ "id": "w1", "text": "Where" }, { "id": "w2", "text": "do" }, { "id": "w3", "text": "you" }, { "id": "w4", "text": "live" }, { "id": "w5", "text": "?" }], "correct_answer": ["w1", "w2", "w3", "w4", "w5"], "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I58", "type": "reorder_words", "prompt_es": "Ordena con have got:", "options": [{ "id": "w1", "text": "She" }, { "id": "w2", "text": "has" }, { "id": "w3", "text": "got" }, { "id": "w4", "text": "two" }, { "id": "w5", "text": "cats" }, { "id": "w6", "text": "." }], "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"], "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I59", "type": "multiple_choice", "prompt_es": "Elige la correcta:", "options": [{ "id": "o1", "text": "He don't like coffee." }, { "id": "o2", "text": "He doesn't like coffee." }, { "id": "o3", "text": "He not like coffee." }], "correct_answer": "o2", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I60", "type": "multiple_choice", "prompt_es": "Elige la correcta:", "options": [{ "id": "o1", "text": "Does she lives here?" }, { "id": "o2", "text": "Does she live here?" }, { "id": "o3", "text": "Do she live here?" }], "correct_answer": "o2", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I61", "type": "true_false", "prompt_es": "¿Es correcto 'I've a car'?", "correct_answer": false, "feedback_incorrect_es": "En inglés británico se prefiere 'I've got a car' o 'I have a car'. La contracción 'I've' sola no se usa para posesión.", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I62", "type": "fill_blanks", "prompt_es": "Wh- Question:", "stimulus_en": "___ old are you?", "correct_answer": "How", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I63", "type": "fill_blanks", "prompt_es": "Wh- Question:", "stimulus_en": "___ is your surname?", "correct_answer": "What", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I64", "type": "fill_blanks", "prompt_es": "Wh- Question:", "stimulus_en": "___ are you from?", "correct_answer": "Where", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I65", "type": "fill_blanks", "prompt_es": "Wh- Question:", "stimulus_en": "___ is your birthday?", "correct_answer": "When", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I66", "type": "multiple_choice", "prompt_es": "Elige la correcta:", "options": [{ "id": "o1", "text": "They are student." }, { "id": "o2", "text": "They is students." }, { "id": "o3", "text": "They are students." }], "correct_answer": "o3", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I67", "type": "multiple_choice", "prompt_es": "Elige la correcta:", "options": [{ "id": "o1", "text": "We has got a house." }, { "id": "o2", "text": "We have got a house." }, { "id": "o3", "text": "We have get a house." }], "correct_answer": "o2", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I68", "type": "multiple_choice", "prompt_es": "Elige la correcta:", "options": [{ "id": "o1", "text": "My parents works here." }, { "id": "o2", "text": "My parents work here." }, { "id": "o3", "text": "My parents is work here." }], "correct_answer": "o2", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I69", "type": "fill_blanks", "prompt_es": "Completa:", "stimulus_en": "It ___ a beautiful day.", "correct_answer": "is", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I70", "type": "fill_blanks", "prompt_es": "Completa:", "stimulus_en": "You ___ got a nice smile.", "correct_answer": "have", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I71", "type": "fill_blanks", "prompt_es": "Completa:", "stimulus_en": "___ she got a passport?", "correct_answer": "Has", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I72", "type": "fill_blanks", "prompt_es": "Completa:", "stimulus_en": "We ___ (not/go) to the gym.", "correct_answer": "don't go", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I73", "type": "fill_blanks", "prompt_es": "Completa:", "stimulus_en": "My cat ___ (sleep) all day.", "correct_answer": "sleeps", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I74", "type": "reorder_words", "prompt_es": "Ordena:", "options": [{ "id": "w1", "text": "Does" }, { "id": "w2", "text": "he" }, { "id": "w3", "text": "have" }, { "id": "w4", "text": "a" }, { "id": "w5", "text": "job" }, { "id": "w6", "text": "?" }], "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"], "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I75", "type": "reorder_words", "prompt_es": "Ordena:", "options": [{ "id": "w1", "text": "They" }, { "id": "w2", "text": "aren't" }, { "id": "w3", "text": "at" }, { "id": "w4", "text": "home" }, { "id": "w5", "text": "." }], "correct_answer": ["w1", "w2", "w3", "w4", "w5"], "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I76", "type": "true_false", "prompt_es": "¿Es correcto 'You has got a pen'?", "correct_answer": false, "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I77", "type": "true_false", "prompt_es": "¿Es correcto 'He study every night'?", "correct_answer": false, "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I78", "type": "multiple_choice", "prompt_es": "Elige:", "options": [{ "id": "o1", "text": "What are your name?" }, { "id": "o2", "text": "What's your name?" }, { "id": "o3", "text": "What your name is?" }], "correct_answer": "o2", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I79", "type": "multiple_choice", "prompt_es": "Elige:", "options": [{ "id": "o1", "text": "I am having 20 years old." }, { "id": "o2", "text": "I have 20 years." }, { "id": "o3", "text": "I am 20 years old." }], "correct_answer": "o3", "mastery_tag": "grammar" },
+        { "interaction_id": "U1_I80", "type": "fill_blanks", "prompt_es": "Completa:", "stimulus_en": "___ you a student?", "correct_answer": "Are", "mastery_tag": "grammar" }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Greetings & Introductions",
+      "content": [
+        { "interaction_id": "U1_I81", "type": "multiple_choice", "prompt_es": "¿Cómo saludas formalmente por la mañana?", "options": [{ "id": "o1", "text": "Good morning" }, { "id": "o2", "text": "Hi" }, { "id": "o3", "text": "See you" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I82", "type": "multiple_choice", "prompt_es": "¿Cómo dices 'encantado de conocerte'?", "options": [{ "id": "o1", "text": "Nice to meet you" }, { "id": "o2", "text": "Good to see you" }, { "id": "o3", "text": "Hello" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I83", "type": "multiple_choice", "prompt_es": "Si te dicen 'How are you?', ¿qué respondes?", "options": [{ "id": "o1", "text": "I'm fine, thanks." }, { "id": "o2", "text": "I am 25." }, { "id": "o3", "text": "I live in Spain." }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I84", "type": "multiple_choice", "prompt_es": "¿Cómo te despides?", "options": [{ "id": "o1", "text": "Goodbye" }, { "id": "o2", "text": "Please" }, { "id": "o3", "text": "Welcome" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I85", "type": "multiple_choice", "prompt_es": "¿Cómo presentas a un amigo?", "options": [{ "id": "o1", "text": "This is my friend, Tom." }, { "id": "o2", "text": "He is my friend name Tom." }, { "id": "o3", "text": "I present Tom." }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I86", "type": "short_writing", "prompt_es": "Traduce: 'Hola, me llamo Ana.'", "stimulus_es": "Hola, me llamo Ana.", "correct_answer": "Hello, my name is Ana.", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I87", "type": "short_writing", "prompt_es": "Traduce: '¿De dónde eres?'", "stimulus_es": "¿De dónde eres?", "correct_answer": "Where are you from?", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I88", "type": "multiple_choice", "prompt_es": "¿Cómo pides que deletreen algo?", "options": [{ "id": "o1", "text": "How do you spell that?" }, { "id": "o2", "text": "Can you write?" }, { "id": "o3", "text": "Speak slow." }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I89", "type": "multiple_choice", "prompt_es": "¿Cómo respondes a 'Thank you'?", "options": [{ "id": "o1", "text": "You're welcome" }, { "id": "o2", "text": "Please" }, { "id": "o3", "text": "No problem" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I90", "type": "multiple_choice", "prompt_es": "¿Cómo pides perdón?", "options": [{ "id": "o1", "text": "I'm sorry" }, { "id": "o2", "text": "Excuse me" }, { "id": "o3", "text": "Pardon" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I91", "type": "multiple_choice", "prompt_es": "¿Cómo llamas la atención de alguien?", "options": [{ "id": "o1", "text": "Excuse me" }, { "id": "o2", "text": "Sorry" }, { "id": "o3", "text": "Hey you" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I92", "type": "multiple_choice", "prompt_es": "¿Cómo dices 'hasta luego'?", "options": [{ "id": "o1", "text": "See you later" }, { "id": "o2", "text": "Good night" }, { "id": "o3", "text": "Hi" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I93", "type": "multiple_choice", "prompt_es": "¿Cómo dices 'buen fin de semana'?", "options": [{ "id": "o1", "text": "Have a nice weekend" }, { "id": "o2", "text": "Good week" }, { "id": "o3", "text": "Happy weekend" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I94", "type": "multiple_choice", "prompt_es": "¿Cómo dices 'igualmente'?", "options": [{ "id": "o1", "text": "Same to you" }, { "id": "o2", "text": "Equal" }, { "id": "o3", "text": "Too" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I95", "type": "multiple_choice", "prompt_es": "¿Cómo preguntas por el correo electrónico?", "options": [{ "id": "o1", "text": "What is your email address?" }, { "id": "o2", "text": "Give me your mail." }, { "id": "o3", "text": "Write your email." }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I96", "type": "multiple_choice", "prompt_es": "¿Cómo dices 'mucha suerte'?", "options": [{ "id": "o1", "text": "Good luck" }, { "id": "o2", "text": "Best wishes" }, { "id": "o3", "text": "Lucky" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I97", "type": "multiple_choice", "prompt_es": "¿Cómo respondes si no entiendes algo?", "options": [{ "id": "o1", "text": "I'm sorry, I don't understand." }, { "id": "o2", "text": "Repeat please." }, { "id": "o3", "text": "What?" }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I98", "type": "multiple_choice", "prompt_es": "¿Cómo pides que alguien hable más despacio?", "options": [{ "id": "o1", "text": "Can you speak more slowly, please?" }, { "id": "o2", "text": "Slow please." }, { "id": "o3", "text": "Stop talk fast." }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I99", "type": "multiple_choice", "prompt_es": "¿Cómo dices 'tengo una pregunta'?", "options": [{ "id": "o1", "text": "I have a question." }, { "id": "o2", "text": "Ask me." }, { "id": "o3", "text": "I got ask." }], "correct_answer": "o1", "mastery_tag": "communication" },
+        { "interaction_id": "U1_I100", "type": "multiple_choice", "prompt_es": "¿Cómo te despides antes de ir a dormir?", "options": [{ "id": "o1", "text": "Good night" }, { "id": "o2", "text": "Good evening" }, { "id": "o3", "text": "Sleep well" }], "correct_answer": "o1", "mastery_tag": "communication" }
       ]
     }
   ]

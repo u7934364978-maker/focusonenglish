@@ -6,6 +6,7 @@ import { ShareButton } from "./ShareButton";
 import { generateArticleSchema, generateBreadcrumbSchema, generateFAQSchema } from "@/lib/schemas";
 import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
 import { TableOfContents } from "@/components/blog/TableOfContents";
+import { SEOInterlinking } from "@/components/blog/SEOInterlinking";
 import { getBlogArticles, getArticleBySlug, getRelatedArticles } from "@/lib/blog";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -323,6 +324,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                     >
                       {article.content}
                     </ReactMarkdown>
+
+                    {/* SEO Interlinking Block */}
+                    <SEOInterlinking category={article.category} />
                   </div>
 
                   {/* Post Footer */}

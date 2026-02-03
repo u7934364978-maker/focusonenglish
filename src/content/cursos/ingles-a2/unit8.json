@@ -4,179 +4,1161 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U8",
-    "unit_title": "Daily life",
-    "total_duration_minutes": 120
+    "unit_title": "School & University Life",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B8",
-      "title": "Daily life",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Education, Subjects & University",
       "content": [
         {
           "interaction_id": "U8_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U8_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "learning"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U8_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'Biología'?",
           "options": [
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            }
-          ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U8_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U8_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shop"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Biology" },
+            { "id": "o2", "text": "Science" },
+            { "id": "o3", "text": "Bio" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U8_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Historia'?",
+          "options": [
+            { "id": "o1", "text": "History" },
+            { "id": "o2", "text": "Story" },
+            { "id": "o3", "text": "Past" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Geografía'?",
+          "options": [
+            { "id": "o1", "text": "Geography" },
+            { "id": "o2", "text": "Geology" },
+            { "id": "o3", "text": "Maps" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Física'?",
+          "options": [
+            { "id": "o1", "text": "Physics" },
+            { "id": "o2", "text": "Physical" },
+            { "id": "o3", "text": "Physique" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Literatura'?",
+          "options": [
+            { "id": "o1", "text": "Literature" },
+            { "id": "o2", "text": "Letters" },
+            { "id": "o3", "text": "Literary" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'PE' (Physical Education)?",
+          "options": [
+            { "id": "o1", "text": "Educación Física" },
+            { "id": "o2", "text": "Inglés Primario" },
+            { "id": "o3", "text": "Examen Público" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Química'?",
+          "options": [
+            { "id": "o1", "text": "Chemistry" },
+            { "id": "o2", "text": "Chemicals" },
+            { "id": "o3", "text": "Pharmacy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I8",
+          "type": "matching",
+          "prompt_es": "Une las etapas educativas:",
+          "pairs": [
+            { "id": "p1", "left": "Primary School", "right": "Escuela Primaria" },
+            { "id": "p2", "left": "High School", "right": "Instituto / Secundaria" },
+            { "id": "p3", "left": "University / College", "right": "Universidad" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I9",
+          "type": "matching",
+          "prompt_es": "Une los términos universitarios:",
+          "pairs": [
+            { "id": "p1", "left": "Degree", "right": "Título / Carrera" },
+            { "id": "p2", "left": "Lecture", "right": "Clase magistral" },
+            { "id": "p3", "left": "Scholarship", "right": "Beca" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U8_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 8 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "flashcard",
+          "prompt_es": "Acciones académicas",
+          "flashcards": [
+            { "front": "Take an exam", "back": "Presentarse a un examen", "pronunciation": "/teɪk ən ɪɡˈzæm/" },
+            { "front": "Pass an exam", "back": "Aprobar un examen", "pronunciation": "/pæs ən ɪɡˈzæm/" },
+            { "front": "Fail an exam", "back": "Suspender un examen", "pronunciation": "/feɪl ən ɪɡˈzæm/" },
+            { "front": "Graduate", "back": "Graduarse", "pronunciation": "/ˈɡrædʒueɪt/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Tuition fees'?",
+          "options": [
+            { "id": "o1", "text": "Tasas de matrícula / costo del curso" },
+            { "id": "o2", "text": "Material escolar" },
+            { "id": "o3", "text": "Libros de texto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es el 'Campus'?",
+          "options": [
+            { "id": "o1", "text": "El recinto universitario" },
+            { "id": "o2", "text": "Un campamento de verano" },
+            { "id": "o3", "text": "La biblioteca" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entregar una tarea'?",
+          "options": [
+            { "id": "o1", "text": "Hand in an assignment" },
+            { "id": "o2", "text": "Give a work" },
+            { "id": "o3", "text": "Pass a homework" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'tomar apuntes'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Take notes" },
+            { "id": "o2", "text": "Write notes" },
+            { "id": "o3", "text": "Make letters" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To study abroad'?",
+          "options": [
+            { "id": "o1", "text": "Estudiar en el extranjero" },
+            { "id": "o2", "text": "Estudiar mucho" },
+            { "id": "o3", "text": "Estudiar solo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'profesor universitario'?",
+          "options": [
+            { "id": "o1", "text": "Professor / Lecturer" },
+            { "id": "o2", "text": "Teacher" },
+            { "id": "o3", "text": "Master" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 8 of the A2 course.\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Undergraduate'?",
+          "options": [
+            { "id": "o1", "text": "Estudiante de primer ciclo (grado)" },
+            { "id": "o2", "text": "Estudiante de máster" },
+            { "id": "o3", "text": "Profesor ayudante" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Postgraduate'?",
+          "options": [
+            { "id": "o1", "text": "Estudiante de posgrado / máster" },
+            { "id": "o2", "text": "Estudiante de colegio" },
+            { "id": "o3", "text": "Graduado de honor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'biblioteca'?",
+          "options": [
+            { "id": "o1", "text": "Library" },
+            { "id": "o2", "text": "Bookstore" },
+            { "id": "o3", "text": "Libreria" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'residencia de estudiantes'?",
+          "options": [
+            { "id": "o1", "text": "Dormitory / Hall of residence" },
+            { "id": "o2", "text": "Student house" },
+            { "id": "o3", "text": "Campus home" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To major in...'?",
+          "options": [
+            { "id": "o1", "text": "Especializarse en... (una carrera)" },
+            { "id": "o2", "text": "Ser el mayor de la clase" },
+            { "id": "o3", "text": "Terminar los estudios" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'faltar a clase'?",
+          "options": [
+            { "id": "o1", "text": "Skip class / Miss a class" },
+            { "id": "o2", "text": "Lost a class" },
+            { "id": "o3", "text": "No go class" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Term' / 'Semester'?",
+          "options": [
+            { "id": "o1", "text": "Trimestre / Semestre" },
+            { "id": "o2", "text": "Examen final" },
+            { "id": "o3", "text": "Calificación" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer un curso'?",
+          "options": [
+            { "id": "o1", "text": "Do a course / Take a course" },
+            { "id": "o2", "text": "Make a course" },
+            { "id": "o3", "text": "Run a course" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calificaciones' (notas)?",
+          "options": [
+            { "id": "o1", "text": "Grades / Marks" },
+            { "id": "o2", "text": "Numbers" },
+            { "id": "o3", "text": "Notes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To research'?",
+          "options": [
+            { "id": "o1", "text": "Investigar" },
+            { "id": "o2", "text": "Buscar de nuevo" },
+            { "id": "o3", "text": "Encontrar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'laboratorio'?",
+          "options": [
+            { "id": "o1", "text": "Lab / Laboratory" },
+            { "id": "o2", "text": "Science room" },
+            { "id": "o3", "text": "Workshop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Academic year'?",
+          "options": [
+            { "id": "o1", "text": "Año académico / curso escolar" },
+            { "id": "o2", "text": "Año de graduación" },
+            { "id": "o3", "text": "Cumpleaños" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'matemáticas'?",
+          "options": [
+            { "id": "o1", "text": "Maths / Mathematics" },
+            { "id": "o2", "text": "Numbers" },
+            { "id": "o3", "text": "Calculating" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To revise'?",
+          "options": [
+            { "id": "o1", "text": "Repasar (para un examen)" },
+            { "id": "o2", "text": "Corregir" },
+            { "id": "o3", "text": "Mirar de nuevo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'horario' (escolar)?",
+          "options": [
+            { "id": "o1", "text": "Timetable / Schedule" },
+            { "id": "o2", "text": "Hour table" },
+            { "id": "o3", "text": "Class map" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es un 'Seminar'?",
+          "options": [
+            { "id": "o1", "text": "Seminario / Clase en grupo pequeño" },
+            { "id": "o2", "text": "Un examen parcial" },
+            { "id": "o3", "text": "Una beca" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprender de memoria'?",
+          "options": [
+            { "id": "o1", "text": "Learn by heart / Memorize" },
+            { "id": "o2", "text": "Learn by head" },
+            { "id": "o3", "text": "Study hard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'To dropout'?",
+          "options": [
+            { "id": "o1", "text": "Abandonar los estudios" },
+            { "id": "o2", "text": "Caerse en clase" },
+            { "id": "o3", "text": "Llegar tarde" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asignatura'?",
+          "options": [
+            { "id": "o1", "text": "Subject" },
+            { "id": "o2", "text": "Topic" },
+            { "id": "o3", "text": "Course" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Past Simple Review & 'Used to'",
+      "content": [
+        {
+          "interaction_id": "U8_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa en Pasado Simple: 'I ___ (study) History at university.'",
+          "stimulus_en": "I ___ History at university.",
+          "correct_answer": "studied",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la negativa: 'They ___ (not / have) many exams last year.'",
+          "stimulus_en": "They ___ many exams last year.",
+          "correct_answer": "didn't have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ you pass your Biology exam?'",
+          "stimulus_en": "___ you pass your Biology exam?",
+          "correct_answer": "Did",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Para qué usamos 'Used to'?",
+          "options": [
+            { "id": "o1", "text": "Para hábitos o estados en el pasado que ya no ocurren" },
+            { "id": "o2", "text": "Para algo que estamos haciendo ahora" },
+            { "id": "o3", "text": "Para el futuro" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo solía estudiar mucho'?",
+          "options": [
+            { "id": "o1", "text": "I used to study a lot." },
+            { "id": "o2", "text": "I usually studied a lot." },
+            { "id": "o3", "text": "I was study a lot." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él no solía jugar al fútbol'?",
+          "options": [
+            { "id": "o1", "text": "He didn't use to play football." },
+            { "id": "o2", "text": "He didn't used to play football." },
+            { "id": "o3", "text": "He never used to playing football." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pregunta '¿Solías ir a pie al colegio?'?",
+          "options": [
+            { "id": "o1", "text": "Did you use to walk to school?" },
+            { "id": "o2", "text": "Did you used to walk to school?" },
+            { "id": "o3", "text": "Used you to walk to school?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'When I was 10, I ___ (use to) have a blue backpack.'",
+          "stimulus_en": "When I was 10, I ___ have a blue backpack.",
+          "correct_answer": "used to",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I44",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'She ___ (be) very shy at school.'",
+          "options": [
+            { "id": "o1", "text": "used to be" },
+            { "id": "o2", "text": "was used to" },
+            { "id": "o3", "text": "is used to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I45",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: '___ they have a uniform?'",
+          "options": [
+            { "id": "o1", "text": "Did they use to" },
+            { "id": "o2", "text": "Were they used to" },
+            { "id": "o3", "text": "Did they used to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I46",
+          "type": "true_false",
+          "prompt_es": "En la frase negativa 'didn't use to', NO se pone la 'd' al final de 'use'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I47",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / use / to / love / didn't / Maths / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "didn't" },
+            { "id": "w3", "text": "use" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "love" },
+            { "id": "w6", "text": "Maths" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado de 'Go': 'We ___ to London on a school trip.'",
+          "stimulus_en": "We ___ to London on a school trip.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado de 'Take': 'I ___ my final exams in June.'",
+          "stimulus_en": "I ___ my final exams in June.",
+          "correct_answer": "took",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado de 'Get': 'She ___ a scholarship for her Master's degree.'",
+          "stimulus_en": "She ___ a scholarship for her Master's degree.",
+          "correct_answer": "got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hace dos años'?",
+          "options": [
+            { "id": "o1", "text": "Two years ago" },
+            { "id": "o2", "text": "Since two years" },
+            { "id": "o3", "text": "Before two years" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el lunes pasado'?",
+          "options": [
+            { "id": "o1", "text": "Last Monday" },
+            { "id": "o2", "text": "The past Monday" },
+            { "id": "o3", "text": "Monday ago" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué preposición se usa con los años (In/On/At)? '___ 2015.'",
+          "options": [
+            { "id": "o1", "text": "In" },
+            { "id": "o2", "text": "On" },
+            { "id": "o3", "text": "At" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué preposición se usa con los días de la semana? '___ Monday.'",
+          "options": [
+            { "id": "o1", "text": "On" },
+            { "id": "o2", "text": "In" },
+            { "id": "o3", "text": "At" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué preposición se usa con las horas? '___ 8:00 AM.'",
+          "options": [
+            { "id": "o1", "text": "At" },
+            { "id": "o2", "text": "On" },
+            { "id": "o3", "text": "In" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I graduated ___ university ___ 2018.'",
+          "stimulus_en": "I graduated ___ university ___ 2018.",
+          "correct_answer": "from, in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I57",
+          "type": "true_false",
+          "prompt_es": "Decimos 'On school'.",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. Decimos 'At school'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I58",
+          "type": "true_false",
+          "prompt_es": "Decimos 'At university'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta del pasado de 'Read'?",
+          "options": [
+            { "id": "o1", "text": "Read (se escribe igual, se pronuncia /red/)" },
+            { "id": "o2", "text": "Readed" },
+            { "id": "o3", "text": "Red" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Write'?",
+          "options": [
+            { "id": "o1", "text": "Wrote" },
+            { "id": "o2", "text": "Written" },
+            { "id": "o3", "text": "Writed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Teach'?",
+          "options": [
+            { "id": "o1", "text": "Taught" },
+            { "id": "o2", "text": "Teached" },
+            { "id": "o3", "text": "Tought" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Learn'?",
+          "options": [
+            { "id": "o1", "text": "Learned / Learnt (ambas son correctas)" },
+            { "id": "o2", "text": "Learner" },
+            { "id": "o3", "text": "Learn" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Used to' o 'Did': 'My parents ___ go to a private school.'",
+          "stimulus_en": "My parents ___ go to a private school.",
+          "correct_answer": "used to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Did / you / use / to / wear / a / uniform / ?'",
+          "options": [
+            { "id": "w1", "text": "Did" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "use" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "wear" },
+            { "id": "w6", "text": "a" },
+            { "id": "w7", "text": "uniform" },
+            { "id": "w8", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I65",
+          "type": "short_writing",
+          "prompt_es": "Escribe en inglés: 'Yo solía estudiar Geografía.'",
+          "stimulus_es": "Yo solía estudiar Geografía.",
+          "correct_answer": "I used to study Geography",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U8_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (not / like) History when I was a kid.'",
+          "stimulus_en": "I ___ History when I was a kid.",
+          "correct_answer": "didn't like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (leave) school at 16.'",
+          "stimulus_en": "He ___ school at 16.",
+          "correct_answer": "left",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Know'?",
+          "options": [
+            { "id": "o1", "text": "Knew" },
+            { "id": "o2", "text": "Known" },
+            { "id": "o3", "text": "Knowed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Think'?",
+          "options": [
+            { "id": "o1", "text": "Thought" },
+            { "id": "o2", "text": "Thaught" },
+            { "id": "o3", "text": "Thinked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U8_I70",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "prompt_es": "'I used to go to the library every Friday' es gramaticalmente correcta.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Talking about Education",
+      "content": [
+        {
+          "interaction_id": "U8_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál era tu asignatura favorita?'?",
+          "options": [
+            { "id": "o1", "text": "What was your favorite subject?" },
+            { "id": "o2", "text": "Which was your favorite course?" },
+            { "id": "o3", "text": "What subject you liked most?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Se me daban bien las Matemáticas'?",
+          "options": [
+            { "id": "o1", "text": "I was good at Maths." },
+            { "id": "o2", "text": "I was good in Maths." },
+            { "id": "o3", "text": "Maths were good to me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué estudiaste en la universidad?'?",
+          "options": [
+            { "id": "o1", "text": "What did you study at university?" },
+            { "id": "o2", "text": "What did you study in the college?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estudié derecho'?",
+          "options": [
+            { "id": "o1", "text": "I studied Law." },
+            { "id": "o2", "text": "I studied Right." },
+            { "id": "o3", "text": "I did Law studies." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mis años universitarios fueron los mejores'?",
+          "options": [
+            { "id": "o1", "text": "My university years were the best." },
+            { "id": "o2", "text": "The years in university were tops." },
+            { "id": "o3", "text": "Best years in college for me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I76",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Solías llevar uniforme?'",
+          "stimulus_es": "¿Solías llevar uniforme?",
+          "correct_answer": "Did you use to wear a uniform?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I77",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Odiaba la Física en el colegio.'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "hated" },
+            { "id": "w3", "text": "Physics" },
+            { "id": "w4", "text": "at" },
+            { "id": "w5", "text": "school" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Saqué buenas notas en los exámenes'?",
+          "options": [
+            { "id": "o1", "text": "I got good grades in the exams." },
+            { "id": "o2", "text": "I had good notes in tests." },
+            { "id": "o3", "text": "Good points for me in exams." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo que estudiar mucho para aprobar'?",
+          "options": [
+            { "id": "o1", "text": "I have to study hard to pass." },
+            { "id": "o2", "text": "I need study much for approve." },
+            { "id": "o3", "text": "Must study for pass." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I80",
+          "type": "matching",
+          "prompt_es": "Preguntas de entrevista académica:",
+          "pairs": [
+            { "id": "p1", "left": "Why did you choose this major?", "right": "¿Por qué eligió esta carrera?" },
+            { "id": "p2", "left": "Where did you graduate?", "right": "¿Dónde se graduó?" },
+            { "id": "p3", "left": "Do you have any experience?", "right": "¿Tiene alguna experiencia?" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Era un estudiante muy trabajador'?",
+          "options": [
+            { "id": "o1", "text": "I was a very hard-working student." },
+            { "id": "o2", "text": "I was a student very worker." },
+            { "id": "o3", "text": "Working student was me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I82",
+          "type": "flashcard",
+          "prompt_es": "Términos de exámenes",
+          "flashcards": [
+            { "front": "Cheat", "back": "Copiar / hacer trampas", "pronunciation": "/tʃiːt/" },
+            { "front": "Exam hall", "back": "Aula de exámenes", "pronunciation": "/ɪɡˈzæm hɔːl/" },
+            { "front": "Final grade", "back": "Nota final", "pronunciation": "/ˈfaɪnl ɡreɪd/" },
+            { "front": "Results", "back": "Resultados", "pronunciation": "/rɪˈzʌlts/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Cuándo es el plazo de entrega?'?",
+          "options": [
+            { "id": "o1", "text": "When is the deadline?" },
+            { "id": "o2", "text": "When is the end time?" },
+            { "id": "o3", "text": "When is the delivery?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Falté a clase porque estaba enfermo'?",
+          "options": [
+            { "id": "o1", "text": "I missed class because I was ill." },
+            { "id": "o2", "text": "I lost class for sickness." },
+            { "id": "o3", "text": "No class for me, I was bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tuve que repetir el curso'?",
+          "options": [
+            { "id": "o1", "text": "I had to repeat the year." },
+            { "id": "o2", "text": "I must repeat the course." },
+            { "id": "o3", "text": "Again the course for me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I86",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿En qué año te graduaste?'",
+          "stimulus_es": "¿En qué año te graduaste?",
+          "correct_answer": "What year did you graduate?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La biblioteca está abierta hasta tarde'?",
+          "options": [
+            { "id": "o1", "text": "The library is open late." },
+            { "id": "o2", "text": "The library closes late." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Quiero solicitar una beca'?",
+          "options": [
+            { "id": "o1", "text": "I want to apply for a scholarship." },
+            { "id": "o2", "text": "I want a scholarship for me." },
+            { "id": "o3", "text": "Apply scholarship please." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi profesor era muy estricto.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "teacher" },
+            { "id": "w3", "text": "was" },
+            { "id": "w4", "text": "very" },
+            { "id": "w5", "text": "strict" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una universidad prestigiosa'?",
+          "options": [
+            { "id": "o1", "text": "It is a prestigious university." },
+            { "id": "o2", "text": "It is a famous college." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo mucha tarea para mañana'?",
+          "options": [
+            { "id": "o1", "text": "I have a lot of homework for tomorrow." },
+            { "id": "o2", "text": "I have many works for tomorrow." },
+            { "id": "o3", "text": "Tomorrow lot of home work." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué nota sacaste?'?",
+          "options": [
+            { "id": "o1", "text": "What grade did you get?" },
+            { "id": "o2", "text": "What mark did you get?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una clase muy interesante'?",
+          "options": [
+            { "id": "o1", "text": "It was a very interesting lecture." },
+            { "id": "o2", "text": "The class was very interest." },
+            { "id": "o3", "text": "Interest class was it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mi asignatura favorita era Literatura'?",
+          "options": [
+            { "id": "o1", "text": "My favorite subject was Literature." },
+            { "id": "o2", "text": "I liked Literature most." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Te gusta estudiar?'?",
+          "options": [
+            { "id": "o1", "text": "Do you like studying?" },
+            { "id": "o2", "text": "Do you like to study?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prefiero trabajar en grupo'?",
+          "options": [
+            { "id": "o1", "text": "I prefer working in groups." },
+            { "id": "o2", "text": "Group work is my favorite." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo una presentación el viernes'?",
+          "options": [
+            { "id": "o1", "text": "I have a presentation on Friday." },
+            { "id": "o2", "text": "I am giving a presentation on Friday." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Las clases empiezan en septiembre'?",
+          "options": [
+            { "id": "o1", "text": "Classes start in September." },
+            { "id": "o2", "text": "School begins in September." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuándo te gradúas?'?",
+          "options": [
+            { "id": "o1", "text": "When do you graduate?" },
+            { "id": "o2", "text": "When is your graduation?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U8_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Estudiar es importante.'",
+          "stimulus_es": "Estudiar es importante.",
+          "correct_answer": "Studying is important",
+          "mastery_tag": "communication"
         }
       ]
     }

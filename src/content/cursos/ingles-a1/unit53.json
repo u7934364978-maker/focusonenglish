@@ -1,50 +1,1181 @@
 {
   "course": {
-    "unit_id": "U53",
-    "unit_title": "Ordering Food",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U53",
+    "unit_title": "Hotel Stays",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Learn restaurant vocabulary",
-    "Use 'I would like' to order",
-    "Understand the bill"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "At the Restaurant",
+      "title": "Hotel Vocabulary",
       "content": [
         {
           "interaction_id": "U53_I1",
-          "type": "matching",
-          "prompt_es": "En el restaurante",
-          "pairs": [
-            { "id": "r1", "left": "Menu", "right": "Carta/Menú" },
-            { "id": "r2", "left": "Waiter", "right": "Camarero" },
-            { "id": "r3", "left": "Bill", "right": "Cuenta" },
-            { "id": "r4", "left": "Table", "right": "Mesa" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recepción'?",
+          "options": [
+            { "id": "o1", "text": "reception" },
+            { "id": "o2", "text": "front desk" },
+            { "id": "o3", "text": "Both are correct" }
           ],
-          "correct_answer": { "r1": "r1", "r2": "r2", "r3": "r3", "r4": "r4" },
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U53_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habitación individual'?",
+          "options": [
+            { "id": "o1", "text": "single room" },
+            { "id": "o2", "text": "one room" },
+            { "id": "o3", "text": "alone room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habitación doble'?",
+          "options": [
+            { "id": "o1", "text": "double room" },
+            { "id": "o2", "text": "two room" },
+            { "id": "o3", "text": "twin room" },
+            { "id": "o4", "text": "o1 and o3 (different bed types)" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desayuno incluido'?",
+          "options": [
+            { "id": "o1", "text": "breakfast included" },
+            { "id": "o2", "text": "free breakfast" },
+            { "id": "o3", "text": "morning food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta-llave'?",
+          "options": [
+            { "id": "o1", "text": "key card" },
+            { "id": "o2", "text": "door card" },
+            { "id": "o3", "text": "room card" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have a ___ (reserva) for two nights.'",
+          "stimulus_en": "___",
+          "correct_answer": "reservation",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Can I have some clean ___ (toallas)?'",
+          "stimulus_en": "___",
+          "correct_answer": "towels",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I8",
           "type": "reorder_words",
-          "prompt_es": "Pedir comida",
-          "stimulus_en": "I would like a salad, please",
+          "prompt_es": "Ordena: '¿A qué hora es el desayuno?'",
+          "options": [
+            { "id": "w1", "text": "time" },
+            { "id": "w2", "text": "What" },
+            { "id": "w3", "text": "breakfast?" },
+            { "id": "w4", "text": "is" }
+          ],
+          "correct_answer": ["w2", "w1", "w4", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Necesito hacer el check-out ahora'",
+          "options": [
+            { "id": "w1", "text": "to" },
+            { "id": "w2", "text": "need" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "out" },
+            { "id": "w5", "text": "check" },
+            { "id": "w6", "text": "now" }
+          ],
+          "correct_answer": ["w3", "w2", "w1", "w5", "w4", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I10",
+          "type": "true_false",
+          "prompt_es": "¿'Check-in' es cuando te vas del hotel?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, es cuando llegas. Salir es 'check-out'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'servicio de habitaciones'?",
+          "options": [
+            { "id": "o1", "text": "room service" },
+            { "id": "o2", "text": "hotel food" },
+            { "id": "o3", "text": "bed service" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ascensor'?",
+          "options": [
+            { "id": "o1", "text": "lift" },
+            { "id": "o2", "text": "elevator" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aire acondicionado'?",
+          "options": [
+            { "id": "o1", "text": "air conditioning" },
+            { "id": "o2", "text": "cold air" },
+            { "id": "o3", "text": "A/C" },
+            { "id": "o4", "text": "o1 and o3 are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calefacción'?",
+          "options": [
+            { "id": "o1", "text": "heating" },
+            { "id": "o2", "text": "warming" },
+            { "id": "o3", "text": "hot system" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'almohada'?",
+          "options": [
+            { "id": "o1", "text": "pillow" },
+            { "id": "o2", "text": "cushion" },
+            { "id": "o3", "text": "head rest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is there ___ (Wi-Fi) in the room?'",
+          "stimulus_en": "___",
+          "correct_answer": "Wi-Fi",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I17",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The room is on the second ___ (piso).'",
+          "stimulus_en": "___",
+          "correct_answer": "floor",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I18",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Puedo tener otra manta?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "have" },
+            { "id": "w4", "text": "another" },
+            { "id": "w5", "text": "blanket?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'La llave no funciona'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "key" },
+            { "id": "w3", "text": "doesn't" },
+            { "id": "w4", "text": "work" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I20",
+          "type": "true_false",
+          "prompt_es": "¿'Guesthouse' es lo mismo que un hotel de 5 estrellas?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, una 'guesthouse' suele ser más pequeña y familiar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gimnasio'?",
+          "options": [
+            { "id": "o1", "text": "gym" },
+            { "id": "o2", "text": "fitness centre" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piscina'?",
+          "options": [
+            { "id": "o1", "text": "swimming pool" },
+            { "id": "o2", "text": "water park" },
+            { "id": "o3", "text": "bath area" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aparcamiento'?",
+          "options": [
+            { "id": "o1", "text": "parking lot" },
+            { "id": "o2", "text": "car park" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'botones' (persona)?",
+          "options": [
+            { "id": "o1", "text": "bellboy" },
+            { "id": "o2", "text": "porter" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caja fuerte'?",
+          "options": [
+            { "id": "o1", "text": "safe" },
+            { "id": "o2", "text": "security box" },
+            { "id": "o3", "text": "money holder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Making Requests (Could/Would)",
+      "content": [
+        {
+          "interaction_id": "U53_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides una habitación más silenciosa educadamente?",
+          "options": [
+            { "id": "o1", "text": "Could I have a quieter room, please?" },
+            { "id": "o2", "text": "I want a quiet room" },
+            { "id": "o3", "text": "Give me a silent room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides que te despierten a las 7?",
+          "options": [
+            { "id": "o1", "text": "Could I have a wake-up call at 7, please?" },
+            { "id": "o2", "text": "Wake me up at 7" },
+            { "id": "o3", "text": "I need sleep stop at 7" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides la contraseña del Wi-Fi?",
+          "options": [
+            { "id": "o1", "text": "What is the Wi-Fi password, please?" },
+            { "id": "o2", "text": "Give me the internet code" },
+            { "id": "o3", "text": "How is the Wi-Fi?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Podría dejar mis maletas aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Could I leave my bags here?" },
+            { "id": "o2", "text": "Can I put my luggage here?" },
+            { "id": "o3", "text": "Both are polite and correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Me traería la cuenta, por favor?'?",
+          "options": [
+            { "id": "o1", "text": "Could I have the bill, please?" },
+            { "id": "o2", "text": "Would you bring the bill, please?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes educadamente a 'Would you like some help?'?",
+          "options": [
+            { "id": "o1", "text": "Yes, please" },
+            { "id": "o2", "text": "No, thank you" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Está incluido el desayuno?'?",
+          "options": [
+            { "id": "o1", "text": "Is breakfast included?" },
+            { "id": "o2", "text": "Does breakfast come with room?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (podría) you help me with my bags?'",
+          "stimulus_en": "___",
+          "correct_answer": "Could",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (le gustaría) you like a drink?'",
+          "stimulus_en": "___",
+          "correct_answer": "Would",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿A qué hora tengo que dejar la habitación?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "time" },
+            { "id": "w3", "text": "check-out?" },
+            { "id": "w4", "text": "is" }
+          ],
+          "correct_answer": ["w1", "w2", "w4", "w3"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Me gustaría una habitación con vistas'",
           "options": [
             { "id": "w1", "text": "I" },
             { "id": "w2", "text": "would" },
             { "id": "w3", "text": "like" },
             { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "salad," },
-            { "id": "w6", "text": "please" }
+            { "id": "w5", "text": "room" },
+            { "id": "w6", "text": "with" },
+            { "id": "w7", "text": "a" },
+            { "id": "w8", "text": "view" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
-          "mastery_tag": "syntax"
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I37",
+          "type": "true_false",
+          "prompt_es": "¿'I would like' es más educado que 'I want'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, siempre es mejor usar 'would like'.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I38",
+          "type": "true_false",
+          "prompt_es": "¿'Bill' y 'Invoice' significan lo mismo en el hotel?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, se refieren a la cuenta o factura.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hay agua caliente'?",
+          "options": [
+            { "id": "o1", "text": "There is no hot water" },
+            { "id": "o2", "text": "Hot water is out" },
+            { "id": "o3", "text": "Water is not hot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La habitación está sucia'?",
+          "options": [
+            { "id": "o1", "text": "The room is dirty" },
+            { "id": "o2", "text": "Room is not clean" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He perdido mi llave'?",
+          "options": [
+            { "id": "o1", "text": "I've lost my key" },
+            { "id": "o2", "text": "My key is gone" },
+            { "id": "o3", "text": "I miss my key" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Aceptan tarjetas de crédito?'?",
+          "options": [
+            { "id": "o1", "text": "Do you accept credit cards?" },
+            { "id": "o2", "text": "Can I pay by card?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides que limpien la habitación?",
+          "options": [
+            { "id": "o1", "text": "Could you clean the room, please?" },
+            { "id": "o2", "text": "Clean my room now" },
+            { "id": "o3", "text": "Room is dirty, fix it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El aire acondicionado no funciona'?",
+          "options": [
+            { "id": "o1", "text": "The A/C is broken" },
+            { "id": "o2", "text": "The air conditioning doesn't work" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Hay un restaurante cerca?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a restaurant nearby?" },
+            { "id": "o2", "text": "Where is a restaurant?" },
+            { "id": "o3", "text": "Any food here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (me gustaría) a double room.'",
+          "stimulus_en": "___",
+          "correct_answer": "would like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Can I ___ (pagar) by cash?'",
+          "stimulus_en": "___",
+          "correct_answer": "pay",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está el ascensor?'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "elevator?" },
+            { "id": "w4", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w1", "w4", "w3"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Podría tener la factura?'",
+          "options": [
+            { "id": "w1", "text": "Could" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "have" },
+            { "id": "w5", "text": "bill?" }
+          ],
+          "correct_answer": ["w1", "w2", "w4", "w3", "w5"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I50",
+          "type": "true_false",
+          "prompt_es": "¿'Twin room' tiene dos camas separadas?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'twin' indica dos camas individuales.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Hotel Services & Facilities",
+      "content": [
+        {
+          "interaction_id": "U53_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'laundry service'?",
+          "options": [
+            { "id": "o1", "text": "Servicio de lavandería" },
+            { "id": "o2", "text": "Servicio de limpieza" },
+            { "id": "o3", "text": "Servicio de comida" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides una toalla extra?",
+          "options": [
+            { "id": "o1", "text": "Could I have an extra towel, please?" },
+            { "id": "o2", "text": "I need more towel" },
+            { "id": "o3", "text": "Give me another towel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Hay un minibar en la habitación?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a minibar in the room?" },
+            { "id": "o2", "text": "Has room a minibar?" },
+            { "id": "o3", "text": "Minibar here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La Wi-Fi es gratis'?",
+          "options": [
+            { "id": "o1", "text": "The Wi-Fi is free" },
+            { "id": "o2", "text": "Wi-Fi no costs" },
+            { "id": "o3", "text": "Free internet here" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué hora cierra el gimnasio?'?",
+          "options": [
+            { "id": "o1", "text": "What time does the gym close?" },
+            { "id": "o2", "text": "When is gym closed?" },
+            { "id": "o3", "text": "At what hour stops gym?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Querría pedir comida a la habitación'?",
+          "options": [
+            { "id": "o1", "text": "I'd like to order room service" },
+            { "id": "o2", "text": "I want food in room" },
+            { "id": "o3", "text": "Send me dinner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puedo reservar una mesa?'?",
+          "options": [
+            { "id": "o1", "text": "Can I book a table?" },
+            { "id": "o2", "text": "Can I reserve a table?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde está la piscina?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the swimming pool?" },
+            { "id": "o2", "text": "Where is the pool?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Me puede llamar a un taxi?'?",
+          "options": [
+            { "id": "o1", "text": "Could you call a taxi for me, please?" },
+            { "id": "o2", "text": "I want a taxi" },
+            { "id": "o3", "text": "Call me a taxi" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde puedo cambiar dinero?'?",
+          "options": [
+            { "id": "o1", "text": "Where can I exchange money?" },
+            { "id": "o2", "text": "Where change money?" },
+            { "id": "o3", "text": "How much for money?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (piscina) is open until 9 PM.'",
+          "stimulus_en": "___",
+          "correct_answer": "pool",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need a ___ (secador de pelo).'",
+          "stimulus_en": "___",
+          "correct_answer": "hairdryer",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I63",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Hay un gimnasio en el hotel?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "there" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "gym" },
+            { "id": "w5", "text": "in" },
+            { "id": "w6", "text": "hotel?" },
+            { "id": "w7", "text": "the" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w7", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U53_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El restaurante está en el último piso'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "restaurant" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "top" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "floor" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w6", "w5", "w7"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I65",
+          "type": "true_false",
+          "prompt_es": "¿'Full board' significa que todas las comidas están incluidas?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, desayuno, almuerzo y cena.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Half board'?",
+          "options": [
+            { "id": "o1", "text": "Desayuno y una comida (cena normalmente)" },
+            { "id": "o2", "text": "Solo desayuno" },
+            { "id": "o3", "text": "Todas las comidas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'percha'?",
+          "options": [
+            { "id": "o1", "text": "hanger" },
+            { "id": "o2", "text": "hook" },
+            { "id": "o3", "text": "stick" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'champú'?",
+          "options": [
+            { "id": "o1", "text": "shampoo" },
+            { "id": "o2", "text": "soap" },
+            { "id": "o3", "text": "wash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jabón'?",
+          "options": [
+            { "id": "o1", "text": "soap" },
+            { "id": "o2", "text": "gel" },
+            { "id": "o3", "text": "bar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'papel higiénico'?",
+          "options": [
+            { "id": "o1", "text": "toilet paper" },
+            { "id": "o2", "text": "loo roll" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'manta'?",
+          "options": [
+            { "id": "o1", "text": "blanket" },
+            { "id": "o2", "text": "duvet" },
+            { "id": "o3", "text": "cover" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sábana'?",
+          "options": [
+            { "id": "o1", "text": "sheet" },
+            { "id": "o2", "text": "layer" },
+            { "id": "o3", "text": "bed cloth" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need some more ___ (papel higiénico).'",
+          "stimulus_en": "___",
+          "correct_answer": "toilet paper",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is there a ___ (secador de pelo) in the bathroom?'",
+          "stimulus_en": "___",
+          "correct_answer": "hairdryer",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I75",
+          "type": "true_false",
+          "prompt_es": "¿'En-suite bathroom' significa que el baño está dentro de la habitación?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Interactive Hotel Games",
+      "content": [
+        {
+          "interaction_id": "U53_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras relacionadas con el HOTEL:",
+          "words": ["ROOM", "KEY", "BILL", "BED", "TOWEL", "POOL", "GYM", "LIFT", "SHOWER", "STAFF"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "ROOM", "clue": "Where you sleep" },
+            { "word": "KEY", "clue": "Opens the door" },
+            { "word": "BILL", "clue": "What you pay" },
+            { "word": "BED", "clue": "Furniture to sleep on" },
+            { "word": "TOWEL", "clue": "Use it after shower" },
+            { "word": "POOL", "clue": "Area to swim" },
+            { "word": "GYM", "clue": "Place to exercise" },
+            { "word": "LIFT", "clue": "Goes up and down" },
+            { "word": "SHOWER", "clue": "In the bathroom" },
+            { "word": "STAFF", "clue": "Hotel workers" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama del hotel:",
+          "items": [
+            { "word": "RECEPTION", "clue": "Front desk area", "direction": "across", "row": 0, "col": 0 },
+            { "word": "CHECKOUT", "clue": "Leaving the hotel", "direction": "down", "row": 0, "col": 2 },
+            { "word": "FLOOR", "clue": "Level of the building", "direction": "across", "row": 4, "col": 0 },
+            { "word": "STAY", "clue": "To live in a hotel for a time", "direction": "down", "row": 3, "col": 5 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I78",
+          "type": "matching",
+          "prompt_es": "Une el problema con la solución:",
+          "pairs": [
+            { "left": "No hot water", "right": "Call maintenance" },
+            { "left": "Need a taxi", "right": "Ask reception" },
+            { "left": "Dirty towels", "right": "Housekeeping" },
+            { "left": "Hungry at night", "right": "Room service" },
+            { "left": "Want to swim", "right": "Swimming pool" }
+          ],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora se sirve el desayuno?'?",
+          "options": [
+            { "id": "o1", "text": "What time is breakfast served?" },
+            { "id": "o2", "text": "When is breakfast time?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría tener otra almohada?'?",
+          "options": [
+            { "id": "o1", "text": "Could I have another pillow?" },
+            { "id": "o2", "text": "Can I get another pillow?" },
+            { "id": "o3", "text": "Both are polite" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Hay servicio de lavandería?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a laundry service?" },
+            { "id": "o2", "text": "Do you have laundry?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No molestar'?",
+          "options": [
+            { "id": "o1", "text": "Do not disturb" },
+            { "id": "o2", "text": "No bother" },
+            { "id": "o3", "text": "Leave me alone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puedo pagar con tarjeta?'?",
+          "options": [
+            { "id": "o1", "text": "Can I pay by card?" },
+            { "id": "o2", "text": "Do you take cards?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora tenemos que salir?'?",
+          "options": [
+            { "id": "o1", "text": "What time do we have to check out?" },
+            { "id": "o2", "text": "When is check-out time?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disfrute de su estancia'?",
+          "options": [
+            { "id": "o1", "text": "Enjoy your stay" },
+            { "id": "o2", "text": "Have a good stay" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Hay una caja fuerte?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a safe?" },
+            { "id": "o2", "text": "Is there a security box?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vistas al mar'?",
+          "options": [
+            { "id": "o1", "text": "sea view" },
+            { "id": "o2", "text": "ocean look" },
+            { "id": "o3", "text": "water view" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Tienen Wi-Fi?'?",
+          "options": [
+            { "id": "o1", "text": "Do you have Wi-Fi?" },
+            { "id": "o2", "text": "Is there Wi-Fi?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuánto cuesta por noche?'?",
+          "options": [
+            { "id": "o1", "text": "How much is it per night?" },
+            { "id": "o2", "text": "What is the price per night?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llave de repuesto'?",
+          "options": [
+            { "id": "o1", "text": "spare key" },
+            { "id": "o2", "text": "extra key" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I91",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (recepcionista) is very nice.'",
+          "stimulus_en": "___",
+          "correct_answer": "receptionist",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I92",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please fill in this ___ (formulario).'",
+          "stimulus_en": "___",
+          "correct_answer": "form",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I93",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Puedo pagar en efectivo?'",
+          "options": [
+            { "id": "w1", "text": "Can" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "pay" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "cash?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Su habitación es la número diez'",
+          "options": [
+            { "id": "w1", "text": "Your" },
+            { "id": "w2", "text": "room" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "number" },
+            { "id": "w5", "text": "ten" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I95",
+          "type": "true_false",
+          "prompt_es": "¿'Buffet breakfast' significa que puedes comer todo lo que quieras?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I96",
+          "type": "true_false",
+          "prompt_es": "¿'Porter' es la persona que ayuda con las maletas?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puedo dejar mi equipaje aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Can I leave my luggage here?" },
+            { "id": "o2", "text": "Could I store my bags here?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora abre el bar?'?",
+          "options": [
+            { "id": "o1", "text": "What time does the bar open?" },
+            { "id": "o2", "text": "When is bar open?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U53_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder la llave'?",
+          "options": [
+            { "id": "o1", "text": "to lose the key" },
+            { "id": "o2", "text": "to miss the key" },
+            { "id": "o3", "text": "to drop the key" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Tienen habitaciones libres?'?",
+          "options": [
+            { "id": "o1", "text": "Do you have any vacancies?" },
+            { "id": "o2", "text": "Do you have free rooms?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
         }
       ]
     }

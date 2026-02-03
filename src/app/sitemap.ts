@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getBlogArticles } from "@/lib/blog";
+import { getAllSEORoutes } from "@/lib/seo";
 
 const baseUrl = "https://www.focus-on-english.com";
 
@@ -13,6 +14,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "daily",
       priority: 1.0,
+    },
+    
+    // SEO Hub - Alta prioridad para captar "aprender inglés"
+    {
+      url: `${baseUrl}/aprender-ingles`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.95,
     },
     
     // Páginas principales de conversión
@@ -38,26 +47,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
-    
-    // Autenticación (baja prioridad, no indexar en robots.txt)
-    {
-      url: `${baseUrl}/cuenta/login`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${baseUrl}/cuenta/registro`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
   ];
 
-  // Add blog content dynamically - Alta prioridad para SEO
+  // 1. Añadir las nuevas Rutas SEO (Artículos comerciales)
+  const seoRoutes = getAllSEORoutes();
+  urls.push(
+    ...seoRoutes.map((slug) => ({
+      url: `${baseUrl}/curso-ingles-${slug.replace(/^ingles-/, "")}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.85, // Prioridad alta para captar leads
+    }))
+  );
+
+  // 2. Añadir artículos del blog dinámicamente
   const articles = getBlogArticles();
   
-  // 1. Add Category Pages (Subhubs)
+  // Categorías del blog
   const categories = Array.from(new Set(articles.map(a => a.category)));
   urls.push(
     ...categories.map((category) => ({
@@ -68,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // 2. Add Individual Articles with proper Silo path
+  // Artículos individuales
   urls.push(
     ...articles.map((article) => ({
       url: `${baseUrl}/blog/${article.category}/${article.slug}`,
@@ -78,37 +84,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
-  // Add course pages dynamically - Páginas de conversión importantes
-  // Solo añadir rutas que existen realmente para evitar 404 en buscadores
-  const courseUrls: MetadataRoute.Sitemap = [
-    // Exámenes / Cursos Genéricos
-    {
-      url: `${baseUrl}/curso/ingles-a1`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/curso/ingles-a2`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/curso/ingles-b1`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/curso/ingles-b2`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    }
-  ];
-
-  urls.push(...courseUrls);
+  // NOTA: No incluimos /curso/ingles-a1 etc. ya que son páginas de la plataforma de pago
+  // y no deben ser indexadas para evitar problemas de contenido duplicado o acceso.
 
   return urls;
 }

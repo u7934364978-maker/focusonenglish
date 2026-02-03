@@ -4,179 +4,1120 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U13",
-    "unit_title": "Technology and communication",
-    "total_duration_minutes": 120
+    "unit_title": "Food, Cooking & Recipes",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B13",
-      "title": "Technology and communication",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Food & Cooking",
       "content": [
         {
           "interaction_id": "U13_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ingredientes'?",
+          "options": [
+            { "id": "o1", "text": "Ingredients" },
+            { "id": "o2", "text": "Foods" },
+            { "id": "o3", "text": "Components" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'receta'?",
+          "options": [
+            { "id": "o1", "text": "Recipe" },
+            { "id": "o2", "text": "Receipt" },
+            { "id": "o3", "text": "Prescription" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hervir'?",
+          "options": [
+            { "id": "o1", "text": "Boil" },
+            { "id": "o2", "text": "Fry" },
+            { "id": "o3", "text": "Bake" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'freír'?",
           "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w2",
-              "text": "learning"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            }
+            { "id": "o1", "text": "Fry" },
+            { "id": "o2", "text": "Grill" },
+            { "id": "o3", "text": "Roast" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'hornear'?",
           "options": [
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            }
+            { "id": "o1", "text": "Bake" },
+            { "id": "o2", "text": "Cook" },
+            { "id": "o3", "text": "Heat" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asar' (en horno)?",
+          "options": [
+            { "id": "o1", "text": "Roast" },
+            { "id": "o2", "text": "Toast" },
+            { "id": "o3", "text": "Steam" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'cocinar al vapor'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Steam" },
+            { "id": "o2", "text": "Smoke" },
+            { "id": "o3", "text": "Water cook" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asar a la parrilla'?",
+          "options": [
+            { "id": "o1", "text": "Grill" },
+            { "id": "o2", "text": "Pan" },
+            { "id": "o3", "text": "Fire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'picar / cortar en trozos'?",
+          "options": [
+            { "id": "o1", "text": "Chop" },
+            { "id": "o2", "text": "Break" },
+            { "id": "o3", "text": "Hit" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 13 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rebanar / cortar en lonchas'?",
+          "options": [
+            { "id": "o1", "text": "Slice" },
+            { "id": "o2", "text": "Cut" },
+            { "id": "o3", "text": "Part" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pelar'?",
+          "options": [
+            { "id": "o1", "text": "Peel" },
+            { "id": "o2", "text": "Skin" },
+            { "id": "o3", "text": "Open" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mezclar'?",
+          "options": [
+            { "id": "o1", "text": "Mix / Stir" },
+            { "id": "o2", "text": "Join" },
+            { "id": "o3", "text": "Move" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'añadir'?",
+          "options": [
+            { "id": "o1", "text": "Add" },
+            { "id": "o2", "text": "Plus" },
+            { "id": "o3", "text": "Put" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'verter / echar' (líquido)?",
+          "options": [
+            { "id": "o1", "text": "Pour" },
+            { "id": "o2", "text": "Drop" },
+            { "id": "o3", "text": "Fill" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sartén'?",
+          "options": [
+            { "id": "o1", "text": "Frying pan" },
+            { "id": "o2", "text": "Pot" },
+            { "id": "o3", "text": "Bowl" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'olla / cacerola'?",
+          "options": [
+            { "id": "o1", "text": "Pot / Saucepan" },
+            { "id": "o2", "text": "Plate" },
+            { "id": "o3", "text": "Dish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'horno'?",
+          "options": [
+            { "id": "o1", "text": "Oven" },
+            { "id": "o2", "text": "Stove" },
+            { "id": "o3", "text": "Microwave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fogón / cocina' (aparato)?",
+          "options": [
+            { "id": "o1", "text": "Cooker / Stove" },
+            { "id": "o2", "text": "Kitchen" },
+            { "id": "o3", "text": "Fire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nevera'?",
+          "options": [
+            { "id": "o1", "text": "Fridge / Refrigerator" },
+            { "id": "o2", "text": "Cooler" },
+            { "id": "o3", "text": "Box" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'congelador'?",
+          "options": [
+            { "id": "o1", "text": "Freezer" },
+            { "id": "o2", "text": "Ice box" },
+            { "id": "o3", "text": "Cold room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I21",
+          "type": "matching",
+          "prompt_es": "Combina los ingredientes con su categoría:",
+          "pairs": [
+            { "id": "p1", "left": "Garlic", "right": "Ajo (Vegetable)" },
+            { "id": "p2", "left": "Beef", "right": "Ternera (Meat)" },
+            { "id": "p3", "left": "Prawns", "right": "Gambas (Seafood)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I22",
+          "type": "matching",
+          "prompt_es": "Condimentos y sabores:",
+          "pairs": [
+            { "id": "p1", "left": "Spicy", "right": "Picante" },
+            { "id": "p2", "left": "Salty", "right": "Salado" },
+            { "id": "p3", "left": "Sweet", "right": "Dulce" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I23",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'amargo'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Bitter" },
+            { "id": "o2", "text": "Sour" },
+            { "id": "o3", "text": "Acid" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ácido / agrio'?",
+          "options": [
+            { "id": "o1", "text": "Sour" },
+            { "id": "o2", "text": "Bitter" },
+            { "id": "o3", "text": "Lemon style" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sabroso'?",
+          "options": [
+            { "id": "o1", "text": "Tasty / Delicious" },
+            { "id": "o2", "text": "Good taste" },
+            { "id": "o3", "text": "Flavorful" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I26",
+          "type": "flashcard",
+          "prompt_es": "Frutas y Verduras (Nivel A2)",
+          "flashcards": [
+            { "front": "Aubergine (UK) / Eggplant (US)", "back": "Berenjena", "pronunciation": "/ˈəʊbədʒiːn/" },
+            { "front": "Courgette (UK) / Zucchini (US)", "back": "Calabacín", "pronunciation": "/kɔːˈʒet/" },
+            { "front": "Peaches", "back": "Melocotones", "pronunciation": "/ˈpiːtʃɪz/" },
+            { "front": "Cherries", "back": "Cerezas", "pronunciation": "/ˈtʃeriz/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lata'?",
+          "options": [
+            { "id": "o1", "text": "Can / Tin" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Pack" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarro / frasco'?",
+          "options": [
+            { "id": "o1", "text": "Jar" },
+            { "id": "o2", "text": "Pot" },
+            { "id": "o3", "text": "Glass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paquete'?",
+          "options": [
+            { "id": "o1", "text": "Packet / Package" },
+            { "id": "o2", "text": "Bag" },
+            { "id": "o3", "text": "Wrap" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I30",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cartón' (de leche/zumo)?",
+          "options": [
+            { "id": "o1", "text": "Carton" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Paper bottle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'harina'?",
+          "options": [
+            { "id": "o1", "text": "Flour" },
+            { "id": "o2", "text": "Flower" },
+            { "id": "o3", "text": "Powder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mantequilla'?",
+          "options": [
+            { "id": "o1", "text": "Butter" },
+            { "id": "o2", "text": "Cream" },
+            { "id": "o3", "text": "Milk fat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aceite'?",
+          "options": [
+            { "id": "o1", "text": "Oil" },
+            { "id": "o2", "text": "Liquid" },
+            { "id": "o3", "text": "Fat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'especias'?",
+          "options": [
+            { "id": "o1", "text": "Spices" },
+            { "id": "o2", "text": "Herbs" },
+            { "id": "o3", "text": "Flavors" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U13_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hierbas'?",
+          "options": [
+            { "id": "o1", "text": "Herbs" },
+            { "id": "o2", "text": "Plants" },
+            { "id": "o3", "text": "Greenery" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Containers & Quantities",
+      "content": [
+        {
+          "interaction_id": "U13_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of water.'",
+          "stimulus_en": "A ___ of water.",
+          "correct_answer": "bottle",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of milk.'",
+          "stimulus_en": "A ___ of milk.",
+          "correct_answer": "carton",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of jam.'",
+          "stimulus_en": "A ___ of jam.",
+          "correct_answer": "jar",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of biscuits.'",
+          "stimulus_en": "A ___ of biscuits.",
+          "correct_answer": "packet",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of chocolate.'",
+          "stimulus_en": "A ___ of chocolate.",
+          "correct_answer": "bar",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of soup.'",
+          "stimulus_en": "A ___ of soup.",
+          "correct_answer": "can / tin",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of bread.'",
+          "stimulus_en": "A ___ of bread.",
+          "correct_answer": "loaf",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor adecuado: 'A ___ of cake.'",
+          "stimulus_en": "A ___ of cake.",
+          "correct_answer": "slice / piece",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de 'loaf'?",
+          "options": [
+            { "id": "o1", "text": "Loaves" },
+            { "id": "o2", "text": "Loafs" },
+            { "id": "o3", "text": "Loafes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A piece of': 'Would you like ___ cheese?'",
+          "stimulus_en": "Would you like ___ cheese?",
+          "correct_answer": "a piece of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A cup of': 'I drink ___ coffee every morning.'",
+          "stimulus_en": "I drink ___ coffee every morning.",
+          "correct_answer": "a cup of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A glass of': 'Can I have ___ orange juice?'",
+          "stimulus_en": "Can I have ___ orange juice?",
+          "correct_answer": "a glass of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A ___ of sugar.' (una cucharada)",
+          "stimulus_en": "A ___ of sugar.",
+          "correct_answer": "spoonful",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A ___ of salt.' (una pizca)",
+          "stimulus_en": "A ___ of salt.",
+          "correct_answer": "pinch",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es incontable?",
+          "options": [
+            { "id": "o1", "text": "Rice" },
+            { "id": "o2", "text": "Apple" },
+            { "id": "o3", "text": "Egg" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es contable?",
+          "options": [
+            { "id": "o1", "text": "Tomato" },
+            { "id": "o2", "text": "Pasta" },
+            { "id": "o3", "text": "Water" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Some': 'We need ___ flour for the cake.'",
+          "stimulus_en": "We need ___ flour for the cake.",
+          "correct_answer": "some",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Any': 'There isn't ___ butter left.'",
+          "stimulus_en": "There isn't ___ butter left.",
+          "correct_answer": "any",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta con 'Any': 'Have you got ___ eggs?'",
+          "stimulus_en": "Have you got ___ eggs?",
+          "correct_answer": "any",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Much' o 'Many': 'How ___ sugar do you want?'",
+          "stimulus_en": "How ___ sugar do you want?",
+          "correct_answer": "much",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Much' o 'Many': 'How ___ potatoes do we need?'",
+          "stimulus_en": "How ___ potatoes do we need?",
+          "correct_answer": "many",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'A lot of': 'I eat ___ vegetables.'",
+          "stimulus_en": "I eat ___ vegetables.",
+          "correct_answer": "a lot of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'A few'?",
+          "options": [
+            { "id": "o1", "text": "Unos pocos (contable)" },
+            { "id": "o2", "text": "Un poco (incontable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'A little'?",
+          "options": [
+            { "id": "o1", "text": "Un poco (incontable)" },
+            { "id": "o2", "text": "Unos pocos (contable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Add / a / little / salt / to / the / soup / .'",
+          "options": [
+            { "id": "w1", "text": "Add" },
+            { "id": "w2", "text": "a" },
+            { "id": "w3", "text": "little" },
+            { "id": "w4", "text": "salt" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "the" },
+            { "id": "w7", "text": "soup" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'How / many / apples / are / there / ?'",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "many" },
+            { "id": "w3", "text": "apples" },
+            { "id": "w4", "text": "are" },
+            { "id": "w5", "text": "there" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Would you like ___ (un poco de) coffee?'",
+          "stimulus_en": "Would you like ___ coffee?",
+          "correct_answer": "some",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I63",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'There isn't ___ (much/many) milk.'",
+          "options": [
+            { "id": "o1", "text": "much" },
+            { "id": "o2", "text": "many" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I64",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'There aren't ___ (much/many) onions.'",
+          "options": [
+            { "id": "o1", "text": "many" },
+            { "id": "o2", "text": "much" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor: 'A ___ of cereal.'",
+          "stimulus_en": "A ___ of cereal.",
+          "correct_answer": "bowl / box",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U13_I66",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 13 of the A2 course.\"",
-          "correct_answer": false,
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor: 'A ___ of wine.'",
+          "stimulus_en": "A ___ of wine.",
+          "correct_answer": "glass / bottle",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor: 'A ___ of tuna.'",
+          "stimulus_en": "A ___ of tuna.",
+          "correct_answer": "can / tin",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor: 'A ___ of Coke.'",
+          "stimulus_en": "A ___ of Coke.",
+          "correct_answer": "can",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el contenedor: 'A ___ of olive oil.'",
+          "stimulus_en": "A ___ of olive oil.",
+          "correct_answer": "bottle",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U13_I70",
+          "type": "true_false",
+          "prompt_es": "'A loaf of' se usa exclusivamente para el pan.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Recipes & Food Preferences",
+      "content": [
+        {
+          "interaction_id": "U13_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué lleva este plato?'?",
+          "options": [
+            { "id": "o1", "text": "What's in this dish?" },
+            { "id": "o2", "text": "What are the ingredients?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'primero, pica las cebollas'?",
+          "options": [
+            { "id": "o1", "text": "First, chop the onions." },
+            { "id": "o2", "text": "Then, chop the onions." },
+            { "id": "o3", "text": "After, chop the onions." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'luego, fríelas en una sartén'?",
+          "options": [
+            { "id": "o1", "text": "Next, fry them in a pan." },
+            { "id": "o2", "text": "Then, fry them in a pan." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'finalmente, añade la sal'?",
+          "options": [
+            { "id": "o1", "text": "Finally, add the salt." },
+            { "id": "o2", "text": "At last, add the salt." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas si alguien es alérgico a algo?",
+          "options": [
+            { "id": "o1", "text": "Are you allergic to anything?" },
+            { "id": "o2", "text": "Do you have any allergies?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'soy vegetariano'?",
+          "options": [
+            { "id": "o1", "text": "I'm a vegetarian." },
+            { "id": "o2", "text": "I don't eat meat." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'huele muy bien'?",
+          "options": [
+            { "id": "o1", "text": "It smells great!" },
+            { "id": "o2", "text": "It has a good odor." },
+            { "id": "o3", "text": "Very good nose." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está demasiado picante'?",
+          "options": [
+            { "id": "o1", "text": "It's too spicy." },
+            { "id": "o2", "text": "It's enough spicy." },
+            { "id": "o3", "text": "Spicy is much." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Cómo se cocina este pescado?'",
+          "stimulus_es": "¿Cómo se cocina este pescado?",
+          "correct_answer": "How do you cook this fish?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Hierve el agua durante cinco minutos.'",
+          "stimulus_es": "Hierve el agua durante cinco minutos.",
+          "correct_answer": "Boil the water for five minutes.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Peel the potatoes'?",
+          "options": [
+            { "id": "o1", "text": "Pela las patatas" },
+            { "id": "o2", "text": "Corta las patatas" },
+            { "id": "o3", "text": "Fríe las patatas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Stir the sauce'?",
+          "options": [
+            { "id": "o1", "text": "Remueve la salsa" },
+            { "id": "o2", "text": "Prueba la salsa" },
+            { "id": "o3", "text": "Tira la salsa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me gusta la comida casera'?",
+          "options": [
+            { "id": "o1", "text": "I like home-made food." },
+            { "id": "o2", "text": "I like house food." },
+            { "id": "o3", "text": "Cooking at home is good." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'no me gusta mucho la comida basura'?",
+          "options": [
+            { "id": "o1", "text": "I don't really like junk food." },
+            { "id": "o2", "text": "I don't like trash food." },
+            { "id": "o3", "text": "Bad food is no good." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I85",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Bake / the / cake / for / thirty / minutes / .'",
+          "options": [
+            { "id": "w1", "text": "Bake" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "cake" },
+            { "id": "w4", "text": "for" },
+            { "id": "w5", "text": "thirty" },
+            { "id": "w6", "text": "minutes" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides la receta de algo?",
+          "options": [
+            { "id": "o1", "text": "Can you give me the recipe?" },
+            { "id": "o2", "text": "How do you make this?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está delicioso'?",
+          "options": [
+            { "id": "o1", "text": "It's delicious!" },
+            { "id": "o2", "text": "It's yummy!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I88",
+          "type": "matching",
+          "prompt_es": "Instrucciones de cocina:",
+          "pairs": [
+            { "id": "p1", "left": "Wash the vegetables", "right": "Lava las verduras" },
+            { "id": "p2", "left": "Heat the oil", "right": "Calienta el aceite" },
+            { "id": "p3", "left": "Serve hot", "right": "Sirve caliente" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Roast the chicken'?",
+          "options": [
+            { "id": "o1", "text": "Asa el pollo" },
+            { "id": "o2", "text": "Hierve el pollo" },
+            { "id": "o3", "text": "Limpia el pollo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'no lleva gluten'?",
+          "options": [
+            { "id": "o1", "text": "It's gluten-free." },
+            { "id": "o2", "text": "It doesn't have gluten." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está un poco soso'?",
+          "options": [
+            { "id": "o1", "text": "It's a bit bland." },
+            { "id": "o2", "text": "It needs more salt." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está demasiado cocido'?",
+          "options": [
+            { "id": "o1", "text": "It's overcooked." },
+            { "id": "o2", "text": "It's too cooked." },
+            { "id": "o3", "text": "Very cooked." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'está poco hecho / crudo'?",
+          "options": [
+            { "id": "o1", "text": "It's undercooked / raw." },
+            { "id": "o2", "text": "It's little cooked." },
+            { "id": "o3", "text": "Not fire." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I94",
+          "type": "flashcard",
+          "prompt_es": "Secuenciadores para Recetas",
+          "flashcards": [
+            { "front": "First", "back": "Primero", "pronunciation": "/fɜːst/" },
+            { "front": "Then", "back": "Luego / Entonces", "pronunciation": "/ðen/" },
+            { "front": "Next", "back": "A continuación / Siguiente", "pronunciation": "/nekst/" },
+            { "front": "Finally", "back": "Finalmente", "pronunciation": "/ˈfaɪnəli/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'ponlo en la nevera'?",
+          "options": [
+            { "id": "o1", "text": "Put it in the fridge." },
+            { "id": "o2", "text": "Keep it in the fridge." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'precalienta el horno'?",
+          "options": [
+            { "id": "o1", "text": "Preheat the oven." },
+            { "id": "o2", "text": "Heat before the oven." },
+            { "id": "o3", "text": "Start the oven." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I97",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mix / the / flour / and / the / sugar / .'",
+          "options": [
+            { "id": "w1", "text": "Mix" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "flour" },
+            { "id": "w4", "text": "and" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "sugar" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas si alguien quiere repetir?",
+          "options": [
+            { "id": "o1", "text": "Would you like some more?" },
+            { "id": "o2", "text": "Do you want seconds?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'estoy lleno, gracias'?",
+          "options": [
+            { "id": "o1", "text": "I'm full, thank you." },
+            { "id": "o2", "text": "I'm complete, thanks." },
+            { "id": "o3", "text": "I have no space." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U13_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Me pasas la sal, por favor?'",
+          "stimulus_es": "¿Me pasas la sal, por favor?",
+          "correct_answer": "Can you pass me the salt, please?",
+          "mastery_tag": "communication"
         }
       ]
     }

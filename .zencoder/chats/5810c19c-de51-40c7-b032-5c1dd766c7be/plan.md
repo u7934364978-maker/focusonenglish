@@ -84,7 +84,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - [x] Unit 38: Services & Repairs (100 exercises)
     - [x] Unit 39: Emergency Situations (100 exercises)
     - [x] Unit 40: Review Module 4 (100 exercises)
-- [ ] **Module 5: Socializing & Daily Life (Units 41-50)**
+- [x] **Module 5: Socializing & Daily Life (Units 41-50)**
     - [x] Unit 41: Inviting Friends (100 exercises)
     - [x] Unit 42: Making Plans (100 exercises)
     - [x] Unit 43: Going to a Party (100 exercises)
@@ -92,8 +92,18 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - [x] Unit 45: Eating Out (Advanced) (100 exercises)
     - [x] Unit 46: Talking about the Past (100 exercises)
     - [x] Unit 47: My Childhood (100 exercises)
-    - [ ] Unit 48: Yesterday's Events (100 exercises)
-    - [ ] Unit 49: Famous People (100 exercises)
-    - [ ] Unit 50: Review Module 5 (100 exercises)
-- [ ] **Module 6 (Units 51-60)**
-- [ ] Validate all generated units for schema compliance and quality
+    - [x] Unit 48: Yesterday's Events (100 exercises)
+    - [x] Unit 49: Famous People (100 exercises)
+    - [x] Unit 50: Review Module 5 (100 exercises)
+- [ ] **Module 6: Deeper Travel & Professional Skills (Units 51-60)**
+    - [x] Unit 51: Planning a Trip (100 exercises)
+    - [x] Unit 52: At the Airport (100 exercises)
+    - [x] Unit 53: Hotel Stays (100 exercises)
+    - [x] Unit 54: Sightseeing & Tours (100 exercises)
+    - [x] Unit 55: Eating Abroad (100 exercises)
+    - [x] Unit 56: Workplace Communication (100 exercises)
+    - [x] Unit 57: Teamwork (100 exercises)
+    - [x] Unit 58: Solving Problems (100 exercises)
+    - [x] Unit 59: Cultural Differences (100 exercises)
+    - [x] Unit 60: Review Module 6 (100 exercises)
+- [x] Validate all generated units for schema compliance and quality
