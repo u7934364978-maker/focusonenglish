@@ -4,194 +4,1127 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U22",
-    "unit_title": "Rules and advice",
-    "total_duration_minutes": 120
+    "unit_title": "Past Simple: Irregular Verbs",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B22",
-      "title": "Rules and advice",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Common Irregular Verbs (Part 1)",
       "content": [
         {
           "interaction_id": "U22_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Go':",
+          "options": [
+            { "id": "o1", "text": "Went" },
+            { "id": "o2", "text": "Goed" },
+            { "id": "o3", "text": "Gone" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'See':",
+          "options": [
+            { "id": "o1", "text": "Saw" },
+            { "id": "o2", "text": "Seed" },
+            { "id": "o3", "text": "Seen" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 22 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Have':",
+          "options": [
+            { "id": "o1", "text": "Had" },
+            { "id": "o2", "text": "Haved" },
+            { "id": "o3", "text": "Has" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Eat':",
           "options": [
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w3",
-              "text": "22"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            }
+            { "id": "o1", "text": "Ate" },
+            { "id": "o2", "text": "Eated" },
+            { "id": "o3", "text": "Eaten" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "Pasado de 'Drink':",
           "options": [
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            }
+            { "id": "o1", "text": "Drank" },
+            { "id": "o2", "text": "Drinked" },
+            { "id": "o3", "text": "Drunk" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tienda",
-          "correct_answer": "Shop",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Come':",
+          "options": [
+            { "id": "o1", "text": "Came" },
+            { "id": "o2", "text": "Comed" },
+            { "id": "o3", "text": "Comes" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "Pasado de 'Get':",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Got" },
+            { "id": "o2", "text": "Getted" },
+            { "id": "o3", "text": "Gots" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I8",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Take':",
+          "options": [
+            { "id": "o1", "text": "Took" },
+            { "id": "o2", "text": "Taked" },
+            { "id": "o3", "text": "Taken" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I9",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Buy':",
+          "options": [
+            { "id": "o1", "text": "Bought" },
+            { "id": "o2", "text": "Buyed" },
+            { "id": "o3", "text": "Bringed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I10",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Say':",
+          "options": [
+            { "id": "o1", "text": "Said" },
+            { "id": "o2", "text": "Sayed" },
+            { "id": "o3", "text": "Saids" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I11",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Tell':",
+          "options": [
+            { "id": "o1", "text": "Told" },
+            { "id": "o2", "text": "Telled" },
+            { "id": "o3", "text": "Telling" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I12",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Make':",
+          "options": [
+            { "id": "o1", "text": "Made" },
+            { "id": "o2", "text": "Maked" },
+            { "id": "o3", "text": "Makes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I13",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Do':",
+          "options": [
+            { "id": "o1", "text": "Did" },
+            { "id": "o2", "text": "Done" },
+            { "id": "o3", "text": "Does" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I14",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Read':",
+          "options": [
+            { "id": "o1", "text": "Read (pronounced red)" },
+            { "id": "o2", "text": "Readed" },
+            { "id": "o3", "text": "Reads" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I15",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Write':",
+          "options": [
+            { "id": "o1", "text": "Wrote" },
+            { "id": "o2", "text": "Writed" },
+            { "id": "o3", "text": "Written" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U22_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Go", "right": "Went" },
+            { "id": "p2", "left": "See", "right": "Saw" },
+            { "id": "p3", "left": "Eat", "right": "Ate" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U22_I21",
+          "interaction_id": "U22_I17",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Buy", "right": "Bought" },
+            { "id": "p2", "left": "Get", "right": "Got" },
+            { "id": "p3", "left": "Say", "right": "Said" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I18",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "Pasado de 'Sleep':",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shop"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Slept" },
+            { "id": "o2", "text": "Sleeped" },
+            { "id": "o3", "text": "Sleeps" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U22_I19",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Run':",
+          "options": [
+            { "id": "o1", "text": "Ran" },
+            { "id": "o2", "text": "Runned" },
+            { "id": "o3", "text": "Runs" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I20",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Swim':",
+          "options": [
+            { "id": "o1", "text": "Swam" },
+            { "id": "o2", "text": "Swimmed" },
+            { "id": "o3", "text": "Swum" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I21",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Give':",
+          "options": [
+            { "id": "o1", "text": "Gave" },
+            { "id": "o2", "text": "Gived" },
+            { "id": "o3", "text": "Given" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I22",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Know':",
+          "options": [
+            { "id": "o1", "text": "Knew" },
+            { "id": "o2", "text": "Knowed" },
+            { "id": "o3", "text": "Known" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I23",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Think':",
+          "options": [
+            { "id": "o1", "text": "Thought" },
+            { "id": "o2", "text": "Thinked" },
+            { "id": "o3", "text": "Taught" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I24",
+          "type": "flashcard",
+          "prompt_es": "Verbos Irregulares Comunes",
+          "flashcards": [
+            { "front": "Go - Went", "back": "Ir - Fui/Fue", "pronunciation": "/ɡəʊ/ - /went/" },
+            { "front": "See - Saw", "back": "Ver - Vi/Vio", "pronunciation": "/siː/ - /sɔː/" },
+            { "front": "Eat - Ate", "back": "Comer - Comí/Comió", "pronunciation": "/iːt/ - /eɪt/" },
+            { "front": "Have - Had", "back": "Tener - Tuve/Tuvo", "pronunciation": "/hæv/ - /hæd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I25",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Speak':",
+          "options": [
+            { "id": "o1", "text": "Spoke" },
+            { "id": "o2", "text": "Speaked" },
+            { "id": "o3", "text": "Spoken" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I26",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Sit':",
+          "options": [
+            { "id": "o1", "text": "Sat" },
+            { "id": "o2", "text": "Sitted" },
+            { "id": "o3", "text": "Sats" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I27",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Sing':",
+          "options": [
+            { "id": "o1", "text": "Sang" },
+            { "id": "o2", "text": "Singed" },
+            { "id": "o3", "text": "Sung" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I28",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Find':",
+          "options": [
+            { "id": "o1", "text": "Found" },
+            { "id": "o2", "text": "Finded" },
+            { "id": "o3", "text": "Founds" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I29",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Buy' vs 'Bring':",
+          "options": [
+            { "id": "o1", "text": "Buy -> Bought / Bring -> Brought" },
+            { "id": "o2", "text": "Both are Bought" },
+            { "id": "o3", "text": "Buy -> Brought / Bring -> Bought" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I30",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Win':",
+          "options": [
+            { "id": "o1", "text": "Won (pronounced one)" },
+            { "id": "o2", "text": "Winned" },
+            { "id": "o3", "text": "Wins" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I31",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Lose':",
+          "options": [
+            { "id": "o1", "text": "Lost" },
+            { "id": "o2", "text": "Losed" },
+            { "id": "o3", "text": "Loose" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I32",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Pay':",
+          "options": [
+            { "id": "o1", "text": "Paid" },
+            { "id": "o2", "text": "Payed" },
+            { "id": "o3", "text": "Pays" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I33",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Send':",
+          "options": [
+            { "id": "o1", "text": "Sent" },
+            { "id": "o2", "text": "Sended" },
+            { "id": "o3", "text": "Sents" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I34",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Understand':",
+          "options": [
+            { "id": "o1", "text": "Understood" },
+            { "id": "o2", "text": "Understanded" },
+            { "id": "o3", "text": "Understoods" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I35",
+          "type": "multiple_choice",
+          "prompt_es": "Pasado de 'Keep':",
+          "options": [
+            { "id": "o1", "text": "Kept" },
+            { "id": "o2", "text": "Keeped" },
+            { "id": "o3", "text": "Kepts" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Affirmative, Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "U22_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (ir) to the cinema yesterday.'",
+          "stimulus_en": "I ___ to the cinema yesterday.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (ver) an amazing movie.'",
+          "stimulus_en": "She ___ an amazing movie.",
+          "correct_answer": "saw",
+          "mastery_tag": "grammar"
+        },
+        {
           "interaction_id": "U22_I38",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (comer) pizza for lunch.'",
+          "stimulus_en": "We ___ pizza for lunch.",
+          "correct_answer": "ate",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (beber) all the soda.'",
+          "stimulus_en": "They ___ all the soda.",
+          "correct_answer": "drank",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (comprar) a new book.'",
+          "stimulus_en": "I ___ a new book.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (hacer) his homework.'",
+          "stimulus_en": "He ___ his homework.",
+          "correct_answer": "did",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (venir) to the party.'",
+          "stimulus_en": "They ___ to the party.",
+          "correct_answer": "came",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No fui'?",
+          "options": [
+            { "id": "o1", "text": "I didn't go" },
+            { "id": "o2", "text": "I didn't went" },
+            { "id": "o3", "text": "I not went" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella no vio'?",
+          "options": [
+            { "id": "o1", "text": "She didn't see" },
+            { "id": "o2", "text": "She didn't saw" },
+            { "id": "o3", "text": "She not saw" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no compré) the tickets.'",
+          "stimulus_en": "I ___ buy the tickets.",
+          "correct_answer": "didn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (no comimos) out last night.'",
+          "stimulus_en": "We ___ eat out last night.",
+          "correct_answer": "didn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A dónde fuiste?'?",
+          "options": [
+            { "id": "o1", "text": "Where did you go?" },
+            { "id": "o2", "text": "Where did you went?" },
+            { "id": "o3", "text": "Where you went?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué comiste?'?",
+          "options": [
+            { "id": "o1", "text": "What did you eat?" },
+            { "id": "o2", "text": "What did you ate?" },
+            { "id": "o3", "text": "What you ate?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'see / Did / him / you / ?'",
+          "options": [
+            { "id": "w1", "text": "see" },
+            { "id": "w2", "text": "Did" },
+            { "id": "w3", "text": "him" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w4", "w1", "w3", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I50",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'they / What / say / did / ?'",
+          "options": [
+            { "id": "w1", "text": "they" },
+            { "id": "w2", "text": "What" },
+            { "id": "w3", "text": "say" },
+            { "id": "w4", "text": "did" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w4", "w1", "w3", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (encontré) my keys.'",
+          "stimulus_en": "I ___ my keys.",
+          "correct_answer": "found",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (perdió) her phone.'",
+          "stimulus_en": "She ___ her phone.",
+          "correct_answer": "lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'Did he ___ (bring/brought) his guitar?'",
+          "options": [
+            { "id": "o1", "text": "bring" },
+            { "id": "o2", "text": "brought" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (ganaron) the match.'",
+          "stimulus_en": "They ___ the match.",
+          "correct_answer": "won",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (leí) the news.'",
+          "stimulus_en": "I ___ the news.",
+          "correct_answer": "read",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I56",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'We ___ (wasn't/didn't) have time.'",
+          "options": [
+            { "id": "o1", "text": "didn't" },
+            { "id": "o2", "text": "wasn't" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (me dijo) the truth.'",
+          "stimulus_en": "She ___ me the truth.",
+          "correct_answer": "told",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (hice) a mistake.'",
+          "stimulus_en": "I ___ a mistake.",
+          "correct_answer": "made",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U22_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'buy / you / What / did / ?'",
+          "options": [
+            { "id": "w1", "text": "buy" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "What" },
+            { "id": "w4", "text": "did" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w3", "w4", "w2", "w1", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I60",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 22 of the A2 course.\"",
+          "prompt_es": "El pasado de 'Drink' es 'Drank'.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U22_I80",
+          "interaction_id": "U22_I61",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
+          "prompt_es": "El pasado de 'Take' es 'Taken'.",
           "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I62",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (spoke/speaked) to him.'",
+          "options": [
+            { "id": "o1", "text": "spoke" },
+            { "id": "o2", "text": "speaked" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (entendió) the lesson.'",
+          "stimulus_en": "She ___ the lesson.",
+          "correct_answer": "understood",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'didn't / We / him / know / .'",
+          "options": [
+            { "id": "w1", "text": "didn't" },
+            { "id": "w2", "text": "We" },
+            { "id": "w3", "text": "him" },
+            { "id": "w4", "text": "know" },
+            { "id": "w5", "text": "." }
+          ],
+          "correct_answer": ["w2", "w1", "w4", "w3", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (escribí) an email.'",
+          "stimulus_en": "I ___ an email.",
+          "correct_answer": "wrote",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I66",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'Did you ___ (get) the message?'",
+          "options": [
+            { "id": "o1", "text": "get" },
+            { "id": "o2", "text": "got" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (pagaron) the bill.'",
+          "stimulus_en": "They ___ the bill.",
+          "correct_answer": "paid",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (nos sentamos) in the first row.'",
+          "stimulus_en": "We ___ in the first row.",
+          "correct_answer": "sat",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (cantó) a song.'",
+          "stimulus_en": "He ___ a song.",
+          "correct_answer": "sang",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I70",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (kept/keeped) the secret.'",
+          "options": [
+            { "id": "o1", "text": "kept" },
+            { "id": "o2", "text": "keeped" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Talking about Past Activities",
+      "content": [
+        {
+          "interaction_id": "U22_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué hiciste el fin de semana?'?",
+          "options": [
+            { "id": "o1", "text": "What did you do at the weekend?" },
+            { "id": "o2", "text": "What you did at weekend?" },
+            { "id": "o3", "text": "What did you did?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Fui a la playa'?",
+          "options": [
+            { "id": "o1", "text": "I went to the beach." },
+            { "id": "o2", "text": "I goed to beach." },
+            { "id": "o3", "text": "Went I to the beach." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Comí mucho en la fiesta'?",
+          "options": [
+            { "id": "o1", "text": "I ate a lot at the party." },
+            { "id": "o2", "text": "I eat a lot." },
+            { "id": "o3", "text": "Ate I much." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Viste a María ayer?'?",
+          "options": [
+            { "id": "o1", "text": "Did you see Maria yesterday?" },
+            { "id": "o2", "text": "Saw you Maria?" },
+            { "id": "o3", "text": "Did you saw Maria?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Sí, la vi en el parque'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I saw her in the park." },
+            { "id": "o2", "text": "Yes, I see her." },
+            { "id": "o3", "text": "Yes, I did saw her." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No compré nada de ropa'?",
+          "options": [
+            { "id": "o1", "text": "I didn't buy any clothes." },
+            { "id": "o2", "text": "I not bought clothes." },
+            { "id": "o3", "text": "I didn't bought anything." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué te dijo él?'?",
+          "options": [
+            { "id": "o1", "text": "What did he tell you?" },
+            { "id": "o2", "text": "What he told you?" },
+            { "id": "o3", "text": "What did he told?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Me dijo que vendría'?",
+          "options": [
+            { "id": "o1", "text": "He told me he would come." },
+            { "id": "o2", "text": "He say me he come." },
+            { "id": "o3", "text": "He told me that." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hice un pastel delicioso'?",
+          "options": [
+            { "id": "o1", "text": "I made a delicious cake." },
+            { "id": "o2", "text": "I make delicious cake." },
+            { "id": "o3", "text": "Maked I a cake." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Hiciste tus deberes?'?",
+          "options": [
+            { "id": "o1", "text": "Did you do your homework?" },
+            { "id": "o2", "text": "Done you homework?" },
+            { "id": "o3", "text": "Did you did homework?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'No, no los hice'?",
+          "options": [
+            { "id": "o1", "text": "No, I didn't." },
+            { "id": "o2", "text": "No, I not did." },
+            { "id": "o3", "text": "No, I didn't done." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tuve un día muy largo'?",
+          "options": [
+            { "id": "o1", "text": "I had a very long day." },
+            { "id": "o2", "text": "I have long day." },
+            { "id": "o3", "text": "Had I a long day." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué hora vinieron ellos?'?",
+          "options": [
+            { "id": "o1", "text": "What time did they come?" },
+            { "id": "o2", "text": "When they came?" },
+            { "id": "o3", "text": "What hour did they came?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Vinieron a las ocho'?",
+          "options": [
+            { "id": "o1", "text": "They came at eight." },
+            { "id": "o2", "text": "They come at eight." },
+            { "id": "o3", "text": "Came they at eight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Leí el libro en un día'?",
+          "options": [
+            { "id": "o1", "text": "I read the book in one day." },
+            { "id": "o2", "text": "I readed the book." },
+            { "id": "o3", "text": "Read I the book." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I86",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'didn't / She / speak / me / to / .'",
+          "options": [
+            { "id": "w1", "text": "didn't" },
+            { "id": "w2", "text": "She" },
+            { "id": "w3", "text": "speak" },
+            { "id": "w4", "text": "me" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w5", "w4", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Escribiste la carta?'?",
+          "options": [
+            { "id": "o1", "text": "Did you write the letter?" },
+            { "id": "o2", "text": "Wrote you the letter?" },
+            { "id": "o3", "text": "Did you wrote?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I88",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Fui al supermercado y compré manzanas.'",
+          "stimulus_es": "Fui al supermercado y compré manzanas.",
+          "correct_answer": "I went to the supermarket and bought apples.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Él no me dio el dinero.'",
+          "stimulus_es": "Él no me dio el dinero.",
+          "correct_answer": "He didn't give me the money.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Perdí mi tren'?",
+          "options": [
+            { "id": "o1", "text": "I missed my train. (Wait, irregular is 'lost' but for train is 'missed'... let's use 'lost' for objects)" },
+            { "id": "o2", "text": "I lost my keys." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él me dio un regalo'?",
+          "options": [
+            { "id": "o1", "text": "He gave me a present." },
+            { "id": "o2", "text": "He give me present." },
+            { "id": "o3", "text": "Gave he me present." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué encontraste?'?",
+          "options": [
+            { "id": "o1", "text": "What did you find?" },
+            { "id": "o2", "text": "What you found?" },
+            { "id": "o3", "text": "What did you found?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Cantamos juntos'?",
+          "options": [
+            { "id": "o1", "text": "We sang together." },
+            { "id": "o2", "text": "We sing together." },
+            { "id": "o3", "text": "Sang we together." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Ganaste el juego?'?",
+          "options": [
+            { "id": "o1", "text": "Did you win the game?" },
+            { "id": "o2", "text": "Won you the game?" },
+            { "id": "o3", "text": "Did you won?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'No, perdí'?",
+          "options": [
+            { "id": "o1", "text": "No, I lost." },
+            { "id": "o2", "text": "No, I lose." },
+            { "id": "o3", "text": "No, I didn't won." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nadamos en el mar'?",
+          "options": [
+            { "id": "o1", "text": "We swam in the sea." },
+            { "id": "o2", "text": "We swim in the sea." },
+            { "id": "o3", "text": "Swam we in sea." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Quién hizo esto?'?",
+          "options": [
+            { "id": "o1", "text": "Who did this?" },
+            { "id": "o2", "text": "Who does this?" },
+            { "id": "o3", "text": "Who did do this?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I98",
+          "type": "flashcard",
+          "prompt_es": "Frases Útiles en Pasado",
+          "flashcards": [
+            { "front": "I forgot", "back": "Se me olvidó", "pronunciation": "/aɪ fəˈɡɒt/" },
+            { "front": "I understood", "back": "Entendí", "pronunciation": "/aɪ ˌʌn.dəˈstʊd/" },
+            { "front": "I felt good", "back": "Me sentí bien", "pronunciation": "/aɪ felt ɡʊd/" },
+            { "front": "It meant...", "back": "Significaba...", "pronunciation": "/ɪt ment/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Dije que no'?",
+          "options": [
+            { "id": "o1", "text": "I said no." },
+            { "id": "o2", "text": "I say no." },
+            { "id": "o3", "text": "Said I no." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U22_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella tomó el autobús a las ocho.'",
+          "stimulus_es": "Ella tomó el autobús a las ocho.",
+          "correct_answer": "She took the bus at eight.",
+          "mastery_tag": "communication"
         }
       ]
     }

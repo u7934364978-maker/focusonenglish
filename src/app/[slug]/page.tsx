@@ -9,13 +9,20 @@ import { Metadata } from "next";
 export async function generateStaticParams() {
   const routes = getAllSEORoutes();
   return routes.map(slug => ({
-    slug: slug.replace(/^ingles-/, ""),
+    slug: `curso-ingles-${slug.replace(/^ingles-/, "")}`,
   }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const page = getSEOPageBySlug(`ingles-${slug}`, true);
+  
+  // Solo procesar si el slug empieza con curso-ingles-
+  if (!slug.startsWith('curso-ingles-')) {
+    return {};
+  }
+
+  const seoFileName = slug.replace(/^curso-/, "");
+  const page = getSEOPageBySlug(seoFileName, true);
   
   if (!page) return { title: "Curso de Inglés" };
 
@@ -24,14 +31,21 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: page.description,
     keywords: page.keywords,
     alternates: {
-      canonical: page.canonical || `https://www.focus-on-english.com/curso-ingles-${slug}`,
+      canonical: page.canonical || `https://www.focus-on-english.com/${slug}`,
     },
   };
 }
 
 export default async function SEORoutePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const page = getSEOPageBySlug(`ingles-${slug}`, true);
+
+  // Si no empieza con el prefijo esperado, 404
+  if (!slug.startsWith('curso-ingles-')) {
+    notFound();
+  }
+
+  const seoFileName = slug.replace(/^curso-/, "");
+  const page = getSEOPageBySlug(seoFileName, true);
 
   if (!page) {
     notFound();
