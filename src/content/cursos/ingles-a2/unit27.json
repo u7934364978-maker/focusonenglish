@@ -4,179 +4,1107 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U27",
-    "unit_title": "Money and prices",
-    "total_duration_minutes": 120
+    "unit_title": "Nature & Landscapes",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B27",
-      "title": "Money and prices",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: The Natural World",
       "content": [
         {
           "interaction_id": "U27_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Montaña'?",
+          "options": [
+            { "id": "o1", "text": "Mountain" },
+            { "id": "o2", "text": "Mount" },
+            { "id": "o3", "text": "Hills" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bosque'?",
+          "options": [
+            { "id": "o1", "text": "Forest" },
+            { "id": "o2", "text": "Wood" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 27 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Isla'?",
+          "options": [
+            { "id": "o1", "text": "Island" },
+            { "id": "o2", "text": "Isle" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lago'?",
           "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w2",
-              "text": "learning"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            }
+            { "id": "o1", "text": "Lake" },
+            { "id": "o2", "text": "River" },
+            { "id": "o3", "text": "Pool" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'Río'?",
           "options": [
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            }
+            { "id": "o1", "text": "River" },
+            { "id": "o2", "text": "Stream" },
+            { "id": "o3", "text": "Flow" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desierto'?",
+          "options": [
+            { "id": "o1", "text": "Desert" },
+            { "id": "o2", "text": "Dessert" },
+            { "id": "o3", "text": "Sand" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'Océano'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Ocean" },
+            { "id": "o2", "text": "Sea" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Campo'?",
+          "options": [
+            { "id": "o1", "text": "Field" },
+            { "id": "o2", "text": "Countryside" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Valle'?",
+          "options": [
+            { "id": "o1", "text": "Valley" },
+            { "id": "o2", "text": "Hill" },
+            { "id": "o3", "text": "Mountain" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Colina'?",
+          "options": [
+            { "id": "o1", "text": "Hill" },
+            { "id": "o2", "text": "Mount" },
+            { "id": "o3", "text": "Valley" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Cave", "right": "Cueva" },
+            { "id": "p2", "left": "Waterfall", "right": "Cascada" },
+            { "id": "p3", "left": "Cliff", "right": "Acantilado" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Selva'?",
+          "options": [
+            { "id": "o1", "text": "Jungle" },
+            { "id": "o2", "text": "Rainforest" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Playa'?",
+          "options": [
+            { "id": "o1", "text": "Beach" },
+            { "id": "o2", "text": "Coast" },
+            { "id": "o3", "text": "Shore" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'Medio ambiente'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Environment" },
+            { "id": "o2", "text": "Nature" },
+            { "id": "o3", "text": "Surroundings" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Paisaje'?",
+          "options": [
+            { "id": "o1", "text": "Landscape" },
+            { "id": "o2", "text": "Scenery" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I16",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de Naturaleza",
+          "flashcards": [
+            { "front": "Volcano", "back": "Volcán", "pronunciation": "/vɒlˈkeɪnoʊ/" },
+            { "front": "Glacier", "back": "Glaciar", "pronunciation": "/ˈɡlæsiər/" },
+            { "front": "Wildlife", "back": "Vida silvestre", "pronunciation": "/ˈwaɪldlaɪf/" },
+            { "front": "Path", "back": "Sendero", "pronunciation": "/pæθ/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cielo'?",
+          "options": [
+            { "id": "o1", "text": "Sky" },
+            { "id": "o2", "text": "Heaven" },
+            { "id": "o3", "text": "Up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tierra' (suelo)?",
+          "options": [
+            { "id": "o1", "text": "Ground" },
+            { "id": "o2", "text": "Earth" },
+            { "id": "o3", "text": "Both can be correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Roca'?",
+          "options": [
+            { "id": "o1", "text": "Rock" },
+            { "id": "o2", "text": "Stone" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Arena'?",
+          "options": [
+            { "id": "o1", "text": "Sand" },
+            { "id": "o2", "text": "Dust" },
+            { "id": "o3", "text": "Soil" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nube'?",
+          "options": [
+            { "id": "o1", "text": "Cloud" },
+            { "id": "o2", "text": "Fog" },
+            { "id": "o3", "text": "Mist" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Flor'?",
+          "options": [
+            { "id": "o1", "text": "Flower" },
+            { "id": "o2", "text": "Plant" },
+            { "id": "o3", "text": "Tree" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I23",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Árbol'?",
+          "options": [
+            { "id": "o1", "text": "Tree" },
+            { "id": "o2", "text": "Bush" },
+            { "id": "o3", "text": "Plant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U27_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 27 of the A2 course.\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hierba'?",
+          "options": [
+            { "id": "o1", "text": "Grass" },
+            { "id": "o2", "text": "Herb" },
+            { "id": "o3", "text": "Green" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Costa'?",
+          "options": [
+            { "id": "o1", "text": "Coast" },
+            { "id": "o2", "text": "Shore" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hojas'?",
+          "options": [
+            { "id": "o1", "text": "Leaves" },
+            { "id": "o2", "text": "Leafs" },
+            { "id": "o3", "text": "Papers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aire'?",
+          "options": [
+            { "id": "o1", "text": "Air" },
+            { "id": "o2", "text": "Wind" },
+            { "id": "o3", "text": "Gas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Natural'?",
+          "options": [
+            { "id": "o1", "text": "Natural" },
+            { "id": "o2", "text": "Nature" },
+            { "id": "o3", "text": "Wild" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salvaje'?",
+          "options": [
+            { "id": "o1", "text": "Wild" },
+            { "id": "o2", "text": "Savage" },
+            { "id": "o3", "text": "Angry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hermoso'?",
+          "options": [
+            { "id": "o1", "text": "Beautiful" },
+            { "id": "o2", "text": "Pretty" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pacífico'?",
+          "options": [
+            { "id": "o1", "text": "Peaceful" },
+            { "id": "o2", "text": "Quiet" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lleno de gente'?",
+          "options": [
+            { "id": "o1", "text": "Crowded" },
+            { "id": "o2", "text": "Busy" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lejos'?",
+          "options": [
+            { "id": "o1", "text": "Far" },
+            { "id": "o2", "text": "Away" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cerca'?",
+          "options": [
+            { "id": "o1", "text": "Near" },
+            { "id": "o2", "text": "Close" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Impresionante'?",
+          "options": [
+            { "id": "o1", "text": "Impressive" },
+            { "id": "o2", "text": "Amazing" },
+            { "id": "o3", "text": "Breathtaking" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Comparatives (Better, Worse, Further)",
+      "content": [
+        {
+          "interaction_id": "U27_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el comparativo: 'The mountain is ___ (alta) than the hill.'",
+          "stimulus_en": "The mountain is ___ than the hill.",
+          "correct_answer": "higher",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el comparativo: 'The ocean is ___ (más profundo) than the lake.'",
+          "stimulus_en": "The ocean is ___ than the lake.",
+          "correct_answer": "deeper",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el comparativo: 'Nature is ___ (más tranquila) than the city.'",
+          "stimulus_en": "Nature is ___ than the city.",
+          "correct_answer": "quieter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el irregular: 'This forest is ___ (mejor) than the other one.'",
+          "stimulus_en": "This forest is ___ than the other one.",
+          "correct_answer": "better",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el irregular: 'The weather here is ___ (peor) than in the south.'",
+          "stimulus_en": "The weather here is ___ than in the south.",
+          "correct_answer": "worse",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el irregular: 'The beach is ___ (más lejos) than the park.'",
+          "stimulus_en": "The beach is ___ than the park.",
+          "correct_answer": "further",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The desert is ___ (más caluroso) than the forest.'",
+          "stimulus_en": "The desert is ___ than the forest.",
+          "correct_answer": "hotter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Mount Everest is ___ (más alto - tall) than K2.'",
+          "stimulus_en": "Mount Everest is ___ than K2.",
+          "correct_answer": "taller",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The Nile is ___ (más largo) than the Thames.'",
+          "stimulus_en": "The Nile is ___ than the Thames.",
+          "correct_answer": "longer",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U27_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Spain is ___ (más grande) than Portugal.'",
+          "stimulus_en": "Spain is ___ than Portugal.",
+          "correct_answer": "bigger",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The countryside is ___ (más verde) in spring.'",
+          "stimulus_en": "The countryside is ___ in spring.",
+          "correct_answer": "greener",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The river is ___ (más ancho) near the sea.'",
+          "stimulus_en": "The river is ___ near the sea.",
+          "correct_answer": "wider",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Hiking is ___ (más difícil) than walking.'",
+          "stimulus_en": "Hiking is ___ difficult than walking.",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The view is ___ (más hermosa) here.'",
+          "stimulus_en": "The view is ___ beautiful here.",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's ___ (más peligroso) to climb in winter.'",
+          "stimulus_en": "It's ___ dangerous to climb in winter.",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Good'?",
+          "options": [
+            { "id": "o1", "text": "Better" },
+            { "id": "o2", "text": "Gooder" },
+            { "id": "o3", "text": "More good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Bad'?",
+          "options": [
+            { "id": "o1", "text": "Worse" },
+            { "id": "o2", "text": "Badder" },
+            { "id": "o3", "text": "More bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Far'?",
+          "options": [
+            { "id": "o1", "text": "Further" },
+            { "id": "o2", "text": "Farther" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Easy'?",
+          "options": [
+            { "id": "o1", "text": "Easier" },
+            { "id": "o2", "text": "More easy" },
+            { "id": "o3", "text": "Easyer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el comparativo de 'Modern'?",
+          "options": [
+            { "id": "o1", "text": "Moderner" },
+            { "id": "o2", "text": "More modern" },
+            { "id": "o3", "text": "Most modern" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The sea is ___ (azul) than the sky today.'",
+          "stimulus_en": "The sea is ___ than the sky today.",
+          "correct_answer": "bluer",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This path is ___ (estrecho) than the main road.'",
+          "stimulus_en": "This path is ___ than the main road.",
+          "correct_answer": "narrower",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Lakes are ___ (más seguros) than oceans.'",
+          "stimulus_en": "Lakes are ___ than oceans.",
+          "correct_answer": "safer",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The jungle is ___ (más húmeda) than the desert.'",
+          "stimulus_en": "The jungle is ___ than the desert.",
+          "correct_answer": "wetter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'This / is / mountain / higher / than / that / one / .'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "mountain" },
+            { "id": "w4", "text": "higher" },
+            { "id": "w5", "text": "than" },
+            { "id": "w6", "text": "that" },
+            { "id": "w7", "text": "one" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w3", "w2", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The wind is ___ (más fuerte) now.'",
+          "stimulus_en": "The wind is ___ now.",
+          "correct_answer": "stronger",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Winter is ___ (más frío) than autumn.'",
+          "stimulus_en": "Winter is ___ than autumn.",
+          "correct_answer": "colder",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Summer is ___ (más caluroso) than spring.'",
+          "stimulus_en": "Summer is ___ than spring.",
+          "correct_answer": "hotter",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The lake is ___ (más pequeño) than the sea.'",
+          "stimulus_en": "The lake is ___ than the sea.",
+          "correct_answer": "smaller",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Hiking is ___ (más emocionante) than watching TV.'",
+          "stimulus_en": "Hiking is ___ exciting than watching TV.",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The scenery here is ___ (mejor).'",
+          "stimulus_en": "The scenery here is ___.",
+          "correct_answer": "better",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This beach is ___ (peor) for surfing.'",
+          "stimulus_en": "This beach is ___ for surfing.",
+          "correct_answer": "worse",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The village is ___ (más lejos) than I thought.'",
+          "stimulus_en": "The village is ___ than I thought.",
+          "correct_answer": "further",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are the cliffs ___ (más peligrosos) than the hills?'",
+          "stimulus_en": "Are the cliffs ___ dangerous than the hills?",
+          "correct_answer": "more",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The forest is ___ (más oscuro) at night.'",
+          "stimulus_en": "The forest is ___ at night.",
+          "correct_answer": "darker",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Describing & Comparing Nature",
+      "content": [
+        {
+          "interaction_id": "U27_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué lugar es mejor para caminar?'?",
+          "options": [
+            { "id": "o1", "text": "Which place is better for hiking?" },
+            { "id": "o2", "text": "What place is gooder for walk?" },
+            { "id": "o3", "text": "Which place is more better?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Las montañas son mejores que la playa'?",
+          "options": [
+            { "id": "o1", "text": "The mountains are better than the beach." },
+            { "id": "o2", "text": "The mountains are gooder than the beach." },
+            { "id": "o3", "text": "The mountains are more better." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es este río más profundo que aquel?'?",
+          "options": [
+            { "id": "o1", "text": "Is this river deeper than that one?" },
+            { "id": "o2", "text": "Is this river more deep than that?" },
+            { "id": "o3", "text": "Does this river deeper?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Sí, es mucho más profundo'?",
+          "options": [
+            { "id": "o1", "text": "Yes, it's much deeper." },
+            { "id": "o2", "text": "Yes, it's more deep." },
+            { "id": "o3", "text": "Yes, it deeps more." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El paisaje es impresionante'?",
+          "options": [
+            { "id": "o1", "text": "The scenery is breathtaking." },
+            { "id": "o2", "text": "The landscape is amazing." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me gusta más el bosque que el campo'?",
+          "options": [
+            { "id": "o1", "text": "I like the forest more than the countryside." },
+            { "id": "o2", "text": "I like the forest better than the countryside." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué tan lejos está el lago?'?",
+          "options": [
+            { "id": "o1", "text": "How far is the lake?" },
+            { "id": "o2", "text": "What distance is the lake?" },
+            { "id": "o3", "text": "How further is the lake?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Está a 10 kilómetros'?",
+          "options": [
+            { "id": "o1", "text": "It's 10 kilometers away." },
+            { "id": "o2", "text": "It's far 10 kilometers." },
+            { "id": "o3", "text": "It has 10 kilometers." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Esta isla es más hermosa que la anterior.'",
+          "stimulus_es": "Esta isla es más hermosa que la anterior.",
+          "correct_answer": "This island is more beautiful than the previous one.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'El desierto es más caluroso que el valle.'",
+          "stimulus_es": "El desierto es más caluroso que el valle.",
+          "correct_answer": "The desert is hotter than the valley.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay una cascada cerca'?",
+          "options": [
+            { "id": "o1", "text": "There is a waterfall nearby." },
+            { "id": "o2", "text": "There are a waterfall close." },
+            { "id": "o3", "text": "Is a waterfall near." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El aire es más puro aquí'?",
+          "options": [
+            { "id": "o1", "text": "The air is cleaner here." },
+            { "id": "o2", "text": "The air is more pure here." },
+            { "id": "o3", "text": "Both are understandable" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I83",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'The / forest / is / much / larger / than / the / park / .'",
+          "options": [
+            { "id": "w1", "text": "The" },
+            { "id": "w2", "text": "forest" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "much" },
+            { "id": "w5", "text": "larger" },
+            { "id": "w6", "text": "than" },
+            { "id": "w7", "text": "the" },
+            { "id": "w8", "text": "park" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es el lugar más tranquilo del mundo' (superlativo básico)?",
+          "options": [
+            { "id": "o1", "text": "It's the quietest place in the world." },
+            { "id": "o2", "text": "It's the most quiet place." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vimos mucha vida silvestre'?",
+          "options": [
+            { "id": "o1", "text": "We saw a lot of wildlife." },
+            { "id": "o2", "text": "We saw many wildlife." },
+            { "id": "o3", "text": "Saw we much wildlife." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La cueva era muy oscura'?",
+          "options": [
+            { "id": "o1", "text": "The cave was very dark." },
+            { "id": "o2", "text": "The cave were very dark." },
+            { "id": "o3", "text": "Did the cave very dark." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El volcán está activo'?",
+          "options": [
+            { "id": "o1", "text": "The volcano is active." },
+            { "id": "o2", "text": "The volcano is acting." },
+            { "id": "o3", "text": "Is active volcano." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Las olas son muy grandes'?",
+          "options": [
+            { "id": "o1", "text": "The waves are very big." },
+            { "id": "o2", "text": "The waves is very big." },
+            { "id": "o3", "text": "Are very big the waves." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El cielo está despejado'?",
+          "options": [
+            { "id": "o1", "text": "The sky is clear." },
+            { "id": "o2", "text": "The sky is clean." },
+            { "id": "o3", "text": "Is clear sky." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es seguro nadar aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Is it safe to swim here?" },
+            { "id": "o2", "text": "Does it safe swim here?" },
+            { "id": "o3", "text": "Is safe swimming here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'No, es demasiado peligroso'?",
+          "options": [
+            { "id": "o1", "text": "No, it's too dangerous." },
+            { "id": "o2", "text": "No, it's very dangerous." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El glaciar se está derritiendo'?",
+          "options": [
+            { "id": "o1", "text": "The glacier is melting." },
+            { "id": "o2", "text": "The glacier melts." },
+            { "id": "o3", "text": "Glacier is melting." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay un sendero a la montaña'?",
+          "options": [
+            { "id": "o1", "text": "There is a path to the mountain." },
+            { "id": "o2", "text": "Is a path to mountain." },
+            { "id": "o3", "text": "There are path to mountain." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La vista es mejor desde aquí'?",
+          "options": [
+            { "id": "o1", "text": "The view is better from here." },
+            { "id": "o2", "text": "The view is more better here." },
+            { "id": "o3", "text": "View is better here." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este lugar es peor que el otro'?",
+          "options": [
+            { "id": "o1", "text": "This place is worse than the other one." },
+            { "id": "o2", "text": "This place is badder than the other." },
+            { "id": "o3", "text": "This place is more worse." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Las colinas son más fáciles de subir'?",
+          "options": [
+            { "id": "o1", "text": "The hills are easier to climb." },
+            { "id": "o2", "text": "The hills are more easy to climb." },
+            { "id": "o3", "text": "Hills are easier climbing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prefiero el aire libre'?",
+          "options": [
+            { "id": "o1", "text": "I prefer the outdoors." },
+            { "id": "o2", "text": "I prefer outside." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I98",
+          "type": "flashcard",
+          "prompt_es": "Resumen de Naturaleza",
+          "flashcards": [
+            { "front": "High mountains", "back": "Montañas altas", "pronunciation": "/haɪ ˈmaʊntɪnz/" },
+            { "front": "Deep oceans", "back": "Océanos profundos", "pronunciation": "/diːp ˈoʊʃənz/" },
+            { "front": "Green fields", "back": "Campos verdes", "pronunciation": "/ɡriːn fiːldz/" },
+            { "front": "Wild animals", "back": "Animales salvajes", "pronunciation": "/waɪld ˈænɪməlz/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El clima es más seco en el desierto'?",
+          "options": [
+            { "id": "o1", "text": "The climate is drier in the desert." },
+            { "id": "o2", "text": "The climate is more dry in the desert." },
+            { "id": "o3", "text": "Climate is dryer in desert." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U27_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'La cascada es mucho más impresionante en persona.'",
+          "stimulus_es": "La cascada es mucho más impresionante en persona.",
+          "correct_answer": "The waterfall is much more impressive in person.",
+          "mastery_tag": "communication"
         }
       ]
     }

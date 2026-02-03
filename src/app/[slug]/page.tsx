@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getSEOPageBySlug, getAllSEORoutes } from "@/lib/seo";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -39,13 +39,25 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function SEORoutePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
+  // Si es la URL incorrecta del HUB, redirigir a la correcta
+  if (slug === 'curso-ingles-aprender-ingles') {
+    redirect('/aprender-ingles');
+  }
+
   // Si no empieza con el prefijo esperado, 404
   if (!slug.startsWith('curso-ingles-')) {
     notFound();
   }
 
-  const seoFileName = slug.replace(/^curso-/, "");
-  const page = getSEOPageBySlug(seoFileName, true);
+  // Normalizar el nombre del archivo: curso-ingles-viajar -> ingles-para-viajar (si existe) o ingles-viajar
+  let seoFileName = slug.replace(/^curso-/, "");
+  let page = getSEOPageBySlug(seoFileName, true);
+
+  // Reintento: si no lo encuentra, probar añadiendo el prefijo "ingles-" si no lo tiene
+  if (!page && !seoFileName.startsWith('ingles-')) {
+    seoFileName = `ingles-${seoFileName}`;
+    page = getSEOPageBySlug(seoFileName, true);
+  }
 
   if (!page) {
     notFound();

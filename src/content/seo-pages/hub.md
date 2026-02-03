@@ -71,6 +71,10 @@ Enfocado en la supervivencia y el disfrute. Aeropuertos, hoteles, restaurantes y
 ### Inglés para el Trabajo y Negocios
 Vocabulario empresarial, redacción de correos, presentaciones y entrevistas de trabajo.
 *   [Ver curso de Inglés para el Trabajo](/curso-ingles-para-trabajo)
+*   [Inglés para Ingenieros](/curso-ingles-para-ingenieros)
+*   [Inglés para el sector Salud](/curso-ingles-para-salud)
+*   [Inglés para Hostelería y Turismo](/curso-ingles-para-hosteleria)
+*   [Inglés para Atención al Cliente](/curso-ingles-para-atencion-al-cliente)
 
 ## Consejos de Oro para no rendirte
 

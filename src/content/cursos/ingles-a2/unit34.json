@@ -1,0 +1,1139 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U34",
+    "unit_title": "Future with 'Will': Offers & Promises",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Helping & Promising",
+      "content": [
+        {
+          "interaction_id": "U34_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ayudar'?",
+          "options": [
+            { "id": "o1", "text": "To help" },
+            { "id": "o2", "text": "To ask" },
+            { "id": "o3", "text": "To work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Prometer'?",
+          "options": [
+            { "id": "o1", "text": "To promise" },
+            { "id": "o2", "text": "To tell" },
+            { "id": "o3", "text": "To say" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llevar' (objetos/personas)?",
+          "options": [
+            { "id": "o1", "text": "To carry" },
+            { "id": "o2", "text": "To bring" },
+            { "id": "o3", "text": "To take" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Traer'?",
+          "options": [
+            { "id": "o1", "text": "To bring" },
+            { "id": "o2", "text": "To take" },
+            { "id": "o3", "text": "To get" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Abrir'?",
+          "options": [
+            { "id": "o1", "text": "To open" },
+            { "id": "o2", "text": "To close" },
+            { "id": "o3", "text": "To unlock" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cerrar'?",
+          "options": [
+            { "id": "o1", "text": "To close" },
+            { "id": "o2", "text": "To open" },
+            { "id": "o3", "text": "To lock" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pagar'?",
+          "options": [
+            { "id": "o1", "text": "To pay" },
+            { "id": "o2", "text": "To buy" },
+            { "id": "o3", "text": "To get" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llamar'?",
+          "options": [
+            { "id": "o1", "text": "To call" },
+            { "id": "o2", "text": "To talk" },
+            { "id": "o3", "text": "To speak" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escribir'?",
+          "options": [
+            { "id": "o1", "text": "To write" },
+            { "id": "o2", "text": "To read" },
+            { "id": "o3", "text": "To type" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Enviar'?",
+          "options": [
+            { "id": "o1", "text": "To send" },
+            { "id": "o2", "text": "To get" },
+            { "id": "o3", "text": "To show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Carry a bag", "right": "Llevar una bolsa" },
+            { "id": "p2", "left": "Wash the dishes", "right": "Lavar los platos" },
+            { "id": "p3", "left": "Cook dinner", "right": "Cocinar la cena" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer la compra'?",
+          "options": [
+            { "id": "o1", "text": "To do the shopping" },
+            { "id": "o2", "text": "To go shopping" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Arreglar/Reparar'?",
+          "options": [
+            { "id": "o1", "text": "To fix" },
+            { "id": "o2", "text": "To repair" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Preocuparse'?",
+          "options": [
+            { "id": "o1", "text": "To worry" },
+            { "id": "o2", "text": "To care" },
+            { "id": "o3", "text": "To fear" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Olvidar'?",
+          "options": [
+            { "id": "o1", "text": "To forget" },
+            { "id": "o2", "text": "To remember" },
+            { "id": "o3", "text": "To lose" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I16",
+          "type": "flashcard",
+          "prompt_es": "Verbos de Compromiso",
+          "flashcards": [
+            { "front": "I promise", "back": "Prometo", "pronunciation": "/aɪ ˈprɒmɪs/" },
+            { "front": "Don't worry", "back": "No te preocupes", "pronunciation": "/doʊnt ˈwʌri/" },
+            { "front": "I'll do it", "back": "Lo haré", "pronunciation": "/aɪl duː ɪt/" },
+            { "front": "Of course", "back": "Por supuesto", "pronunciation": "/əv kɔːrs/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pesado' (objetos)?",
+          "options": [
+            { "id": "o1", "text": "Heavy" },
+            { "id": "o2", "text": "Light" },
+            { "id": "o3", "text": "Hard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ligero'?",
+          "options": [
+            { "id": "o1", "text": "Light" },
+            { "id": "o2", "text": "Heavy" },
+            { "id": "o3", "text": "Soft" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hambre'?",
+          "options": [
+            { "id": "o1", "text": "Hunger" },
+            { "id": "o2", "text": "Hungry" },
+            { "id": "o3", "text": "Food" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "note": "Hungry is the adjective (tengo hambre = I am hungry)."
+        },
+        {
+          "interaction_id": "U34_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Sed'?",
+          "options": [
+            { "id": "o1", "text": "Thirsty" },
+            { "id": "o2", "text": "Drink" },
+            { "id": "o3", "text": "Thirst" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "note": "Thirsty is the adjective."
+        },
+        {
+          "interaction_id": "U34_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cansado'?",
+          "options": [
+            { "id": "o1", "text": "Tired" },
+            { "id": "o2", "text": "Sleepy" },
+            { "id": "o3", "text": "Boring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Problema'?",
+          "options": [
+            { "id": "o1", "text": "Problem" },
+            { "id": "o2", "text": "Issue" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Solución'?",
+          "options": [
+            { "id": "o1", "text": "Solution" },
+            { "id": "o2", "text": "Answer" },
+            { "id": "o3", "text": "Fix" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inmediatamente'?",
+          "options": [
+            { "id": "o1", "text": "Immediately" },
+            { "id": "o2", "text": "Now" },
+            { "id": "o3", "text": "Soon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ahora mismo'?",
+          "options": [
+            { "id": "o1", "text": "Right now" },
+            { "id": "o2", "text": "Just now" },
+            { "id": "o3", "text": "Current" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mañana' (promesa)?",
+          "options": [
+            { "id": "o1", "text": "Tomorrow" },
+            { "id": "o2", "text": "Morning" },
+            { "id": "o3", "text": "Next day" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pronto'?",
+          "options": [
+            { "id": "o1", "text": "Soon" },
+            { "id": "o2", "text": "Early" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Esta tarde/noche'?",
+          "options": [
+            { "id": "o1", "text": "Tonight" },
+            { "id": "o2", "text": "Evening" },
+            { "id": "o3", "text": "Later" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro'?",
+          "options": [
+            { "id": "o1", "text": "Sure" },
+            { "id": "o2", "text": "Safe" },
+            { "id": "o3", "text": "Certain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Confiar'?",
+          "options": [
+            { "id": "o1", "text": "To trust" },
+            { "id": "o2", "text": "To believe" },
+            { "id": "o3", "text": "To like" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deber' (dinero)?",
+          "options": [
+            { "id": "o1", "text": "To owe" },
+            { "id": "o2", "text": "To pay" },
+            { "id": "o3", "text": "To give" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Prestar'?",
+          "options": [
+            { "id": "o1", "text": "To lend" },
+            { "id": "o2", "text": "To borrow" },
+            { "id": "o3", "text": "To give" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pedir prestado'?",
+          "options": [
+            { "id": "o1", "text": "To borrow" },
+            { "id": "o2", "text": "To lend" },
+            { "id": "o3", "text": "To take" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Volver' (un objeto)?",
+          "options": [
+            { "id": "o1", "text": "To return" },
+            { "id": "o2", "text": "To give back" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuidar de'?",
+          "options": [
+            { "id": "o1", "text": "To look after" },
+            { "id": "o2", "text": "To watch" },
+            { "id": "o3", "text": "To see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Will for Spontaneous Decisions & Offers",
+      "content": [
+        {
+          "interaction_id": "U34_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el ofrecimiento: 'I ___ (ayudar) you with that.'",
+          "stimulus_en": "I ___ you with that.",
+          "correct_answer": "will help",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el ofrecimiento: 'I ___ (llevar) your bags.'",
+          "stimulus_en": "I ___ your bags.",
+          "correct_answer": "will carry",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la promesa: 'I ___ (llamar) you tonight.'",
+          "stimulus_en": "I ___ you tonight.",
+          "correct_answer": "will call",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la promesa: 'I ___ (no olvidar) your birthday.'",
+          "stimulus_en": "I ___ your birthday.",
+          "correct_answer": "won't forget",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la decisión: 'Wait! I ___ (ir) with you.'",
+          "stimulus_en": "Wait! I ___ with you.",
+          "correct_answer": "will go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm thirsty. I ___ (beber) some water.'",
+          "stimulus_en": "I'm thirsty. I ___ some water.",
+          "correct_answer": "will drink",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Don't worry, I ___ (pagar).'",
+          "stimulus_en": "Don't worry, I ___.",
+          "correct_answer": "will pay",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I43",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / open / the / will / door / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "open" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "door" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I44",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / won't / tell / anyone / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "won't" },
+            { "id": "w3", "text": "tell" },
+            { "id": "w4", "text": "anyone" },
+            { "id": "w5", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (enviar) you the email right now.'",
+          "stimulus_en": "I ___ you the email right now.",
+          "correct_answer": "will send",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (hacer) the dishes for you.'",
+          "stimulus_en": "I ___ the dishes for you.",
+          "correct_answer": "will do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no llegar) late.'",
+          "stimulus_en": "I ___ late.",
+          "correct_answer": "won't arrive",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (estar) there at 8.'",
+          "stimulus_en": "I ___ there at 8.",
+          "correct_answer": "will be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (cocinar) dinner tonight.'",
+          "stimulus_en": "I ___ dinner tonight.",
+          "correct_answer": "will cook",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (devolver) your book tomorrow.'",
+          "stimulus_en": "I ___ your book tomorrow.",
+          "correct_answer": "will give back",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma corta de 'I will'?",
+          "options": [
+            { "id": "o1", "text": "I'll" },
+            { "id": "o2", "text": "I'm" },
+            { "id": "o3", "text": "I've" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma corta de 'I will not'?",
+          "options": [
+            { "id": "o1", "text": "I won't" },
+            { "id": "o2", "text": "I don't" },
+            { "id": "o3", "text": "I not" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase es un ofrecimiento espontáneo?",
+          "options": [
+            { "id": "o1", "text": "I'm going to help you." },
+            { "id": "o2", "text": "I'll help you." },
+            { "id": "o3", "text": "I am helping you." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué frase es una promesa?",
+          "options": [
+            { "id": "o1", "text": "I'll call you every day." },
+            { "id": "o2", "text": "I call you every day." },
+            { "id": "o3", "text": "I am calling you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (llevar) you to the airport.'",
+          "stimulus_en": "I'll ___ you to the airport.",
+          "correct_answer": "take",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (comprar) some milk on my way home.'",
+          "stimulus_en": "I'll ___ some milk on my way home.",
+          "correct_answer": "buy",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I won't ___ (decir) anyone your secret.'",
+          "stimulus_en": "I won't ___ anyone your secret.",
+          "correct_answer": "tell",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Wait a minute, I'll ___ (traer) your jacket.'",
+          "stimulus_en": "Wait a minute, I'll ___ your jacket.",
+          "correct_answer": "bring",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (lavar) the car tomorrow.'",
+          "stimulus_en": "I'll ___ the car tomorrow.",
+          "correct_answer": "wash",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I promise I'll ___ (estudiar) more.'",
+          "stimulus_en": "I promise I'll ___ more.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / will / show / you / the / way / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "show" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "way" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I62",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / won't / forget / to / lock / it / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "won't" },
+            { "id": "w3", "text": "forget" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "lock" },
+            { "id": "w6", "text": "it" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (prestar) you my umbrella.'",
+          "stimulus_en": "I'll ___ you my umbrella.",
+          "correct_answer": "lend",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (escribir) to you soon.'",
+          "stimulus_en": "I'll ___ to you soon.",
+          "correct_answer": "write",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (pedir) a taxi.'",
+          "stimulus_en": "I'll ___ a taxi.",
+          "correct_answer": "call",
+          "mastery_tag": "grammar",
+          "note": "order is also correct."
+        },
+        {
+          "interaction_id": "U34_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I promise I ___ (no volver) late.'",
+          "stimulus_en": "I promise I ___ late.",
+          "correct_answer": "won't be",
+          "mastery_tag": "grammar",
+          "note": "won't come back is also correct."
+        },
+        {
+          "interaction_id": "U34_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (recoger) you at 7.'",
+          "stimulus_en": "I'll ___ you up at 7.",
+          "correct_answer": "pick",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (esperar) here.'",
+          "stimulus_en": "I'll ___ here.",
+          "correct_answer": "wait",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (preguntar) the waiter.'",
+          "stimulus_en": "I'll ___ the waiter.",
+          "correct_answer": "ask",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U34_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I promise I ___ (no fallar) you.'",
+          "stimulus_en": "I promise I ___ you.",
+          "correct_answer": "won't fail",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Offering Help & Making Promises",
+      "content": [
+        {
+          "interaction_id": "U34_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te ayudaré con tu maleta'?",
+          "options": [
+            { "id": "o1", "text": "I'll help you with your suitcase." },
+            { "id": "o2", "text": "I am going to help you." },
+            { "id": "o3", "text": "I help you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prometo que te llamaré'?",
+          "options": [
+            { "id": "o1", "text": "I promise I'll call you." },
+            { "id": "o2", "text": "I promise to call you." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No te preocupes, yo pagaré'?",
+          "options": [
+            { "id": "o1", "text": "Don't worry, I'll pay." },
+            { "id": "o2", "text": "No worry, I pay." },
+            { "id": "o3", "text": "Don't worry, I'm going to pay." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Abriré la ventana' (Decisión ahora)?",
+          "options": [
+            { "id": "o1", "text": "I'll open the window." },
+            { "id": "o2", "text": "I open the window." },
+            { "id": "o3", "text": "I'm opening the window." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te enviaré un mensaje mañana'?",
+          "options": [
+            { "id": "o1", "text": "I'll send you a message tomorrow." },
+            { "id": "o2", "text": "I send you a message." },
+            { "id": "o3", "text": "I am send you a message." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No olvidaré tu secreto'?",
+          "options": [
+            { "id": "o1", "text": "I won't forget your secret." },
+            { "id": "o2", "text": "I'll not forget your secret." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Traeré algo de comida'?",
+          "options": [
+            { "id": "o1", "text": "I'll bring some food." },
+            { "id": "o2", "text": "I'll take some food." },
+            { "id": "o3", "text": "I bring food." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te llevaré a casa'?",
+          "options": [
+            { "id": "o1", "text": "I'll take you home." },
+            { "id": "o2", "text": "I'll carry you home." },
+            { "id": "o3", "text": "I'll bring you home." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Cerraré la puerta'?",
+          "options": [
+            { "id": "o1", "text": "I'll close the door." },
+            { "id": "o2", "text": "I'll lock the door." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te devolveré el dinero pronto'?",
+          "options": [
+            { "id": "o1", "text": "I'll pay you back soon." },
+            { "id": "o2", "text": "I'll give you back the money." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo haré ahora mismo'?",
+          "options": [
+            { "id": "o1", "text": "I'll do it right now." },
+            { "id": "o2", "text": "I do it now." },
+            { "id": "o3", "text": "I am do it now." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No se lo diré a nadie'?",
+          "options": [
+            { "id": "o1", "text": "I won't tell anyone." },
+            { "id": "o2", "text": "I won't say anyone." },
+            { "id": "o3", "text": "I not tell anyone." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Yo cocinaré esta noche'?",
+          "options": [
+            { "id": "o1", "text": "I'll cook tonight." },
+            { "id": "o2", "text": "I'm going to cook tonight." },
+            { "id": "o3", "text": "Both are fine (depending on the context)" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te prestaré mi coche'?",
+          "options": [
+            { "id": "o1", "text": "I'll lend you my car." },
+            { "id": "o2", "text": "I'll borrow you my car." },
+            { "id": "o3", "text": "I lend you my car." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te lo mostraré'?",
+          "options": [
+            { "id": "o1", "text": "I'll show you." },
+            { "id": "o2", "text": "I show you." },
+            { "id": "o3", "text": "I'm show you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Te traigo un vaso de agua?'?",
+          "options": [
+            { "id": "o1", "text": "Shall I bring you a glass of water?" },
+            { "id": "o2", "text": "I'll bring you a water?" },
+            { "id": "o3", "text": "Will I bring you water?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication",
+          "note": "Shall is common for offers with 'I'."
+        },
+        {
+          "interaction_id": "U34_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estaré allí'?",
+          "options": [
+            { "id": "o1", "text": "I'll be there." },
+            { "id": "o2", "text": "I am there." },
+            { "id": "o3", "text": "I be there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Cuidaré de tu gato'?",
+          "options": [
+            { "id": "o1", "text": "I'll look after your cat." },
+            { "id": "o2", "text": "I'll care your cat." },
+            { "id": "o3", "text": "I'll watch your cat." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo arreglaré mañana'?",
+          "options": [
+            { "id": "o1", "text": "I'll fix it tomorrow." },
+            { "id": "o2", "text": "I fix it tomorrow." },
+            { "id": "o3", "text": "I am fix it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lavaré los platos'?",
+          "options": [
+            { "id": "o1", "text": "I'll do the dishes." },
+            { "id": "o2", "text": "I'll wash the plates." },
+            { "id": "o3", "text": "Both are fine" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I91",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / will / not / be / late / again / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "not" },
+            { "id": "w4", "text": "be" },
+            { "id": "w5", "text": "late" },
+            { "id": "w6", "text": "again" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Confía en mí, lo haré'?",
+          "options": [
+            { "id": "o1", "text": "Trust me, I'll do it." },
+            { "id": "o2", "text": "Believe me, I do it." },
+            { "id": "o3", "text": "Trust in me, I'll do it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Te ayudo?'?",
+          "options": [
+            { "id": "o1", "text": "Shall I help you?" },
+            { "id": "o2", "text": "I'll help you?" },
+            { "id": "o3", "text": "Do I help you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me ocuparé de ello'?",
+          "options": [
+            { "id": "o1", "text": "I'll take care of it." },
+            { "id": "o2", "text": "I'll deal with it." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te recogeré en la estación'?",
+          "options": [
+            { "id": "o1", "text": "I'll pick you up at the station." },
+            { "id": "o2", "text": "I'll take you at the station." },
+            { "id": "o3", "text": "I pick you up." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No volverá a pasar'?",
+          "options": [
+            { "id": "o1", "text": "It won't happen again." },
+            { "id": "o2", "text": "It will not happen again." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te llamaré en cuanto llegue'?",
+          "options": [
+            { "id": "o1", "text": "I'll call you as soon as I arrive." },
+            { "id": "o2", "text": "I call you when arrive." },
+            { "id": "o3", "text": "I'll call you after arrive." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I98",
+          "type": "flashcard",
+          "prompt_es": "Frases de Ayuda",
+          "flashcards": [
+            { "front": "I'll do it for you", "back": "Lo haré por ti", "pronunciation": "/aɪl duː ɪt fər juː/" },
+            { "front": "Shall I help?", "back": "¿Te ayudo?", "pronunciation": "/ʃæl aɪ help/" },
+            { "front": "I'll be careful", "back": "Tendré cuidado", "pronunciation": "/aɪl biː ˈkeərfʊl/" },
+            { "front": "I won't be long", "back": "No tardaré", "pronunciation": "/aɪ woʊnt biː lɒŋ/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te traeré algo de beber'?",
+          "options": [
+            { "id": "o1", "text": "I'll get you something to drink." },
+            { "id": "o2", "text": "I'll bring you a drink." },
+            { "id": "o3", "text": "Both are natural" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U34_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Prometo que te enviaré la información mañana.'",
+          "stimulus_es": "Prometo que te enviaré la información mañana.",
+          "correct_answer": "I promise I will send you the information tomorrow.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

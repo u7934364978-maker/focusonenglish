@@ -77,10 +77,15 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/85f891e0-a2a4-422
 - [x] Unidad 20: Module 2 Review & Assessment (100 ejercicios)
 
 #### Phase 4: Content Batch 3 (Units 21-30)
-- [ ] Generate and save units 21-30
+- [x] Generate and save units 21-30
 
 #### Phase 5: Content Batch 4 (Units 31-40)
-- [ ] Generate and save units 31-40
+- [x] Unidad 31: Future with 'Going to' (100 ejercicios)
+- [x] Unidad 32: Future with 'Present Continuous' (100 ejercicios)
+- [x] Unidad 33: Future with 'Will': Predictions (100 ejercicios)
+- [x] Unidad 34: Future with 'Will': Offers & Promises (100 ejercicios)
+- [x] Unidad 35: Module 4 Review & Assessment (100 ejercicios)
+- [ ] Generate and save units 36-40
 
 #### Phase 6: Content Batch 5 (Units 41-50)
 - [ ] Generate and save units 41-50

@@ -15,6 +15,13 @@ const nextConfig = {
   trailingSlash: false,
   async redirects() {
     return [
+      // SEO - Redirecciones de Cluster
+      {
+        source: '/curso-ingles-aprender-ingles',
+        destination: '/aprender-ingles',
+        statusCode: 301,
+      },
+      
       // AUTENTICACIÓN - Unificar rutas duplicadas
       {
         source: '/signin',
@@ -120,6 +127,36 @@ const nextConfig = {
     ],
   },
   reactStrictMode: true,
+  // Cabeceras de seguridad y compresión
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: "upgrade-insecure-requests",
+          },
+        ],
+      },
+    ];
+  },
   // Deshabilitar styled-jsx completamente
   compiler: {
     styledComponents: false,

@@ -1,0 +1,1138 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U32",
+    "unit_title": "Future with 'Present Continuous': Arrangements",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Arrangements & Social Life",
+      "content": [
+        {
+          "interaction_id": "U32_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reunirse'?",
+          "options": [
+            { "id": "o1", "text": "To meet" },
+            { "id": "o2", "text": "To see" },
+            { "id": "o3", "text": "To call" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cita' (social)?",
+          "options": [
+            { "id": "o1", "text": "Date" },
+            { "id": "o2", "text": "Meeting" },
+            { "id": "o3", "text": "Appointment" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cita' (médica/formal)?",
+          "options": [
+            { "id": "o1", "text": "Appointment" },
+            { "id": "o2", "text": "Date" },
+            { "id": "o3", "text": "Meeting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reunión' (trabajo)?",
+          "options": [
+            { "id": "o1", "text": "Meeting" },
+            { "id": "o2", "text": "Party" },
+            { "id": "o3", "text": "Interview" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fiesta'?",
+          "options": [
+            { "id": "o1", "text": "Party" },
+            { "id": "o2", "text": "Concert" },
+            { "id": "o3", "text": "Dinner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cena'?",
+          "options": [
+            { "id": "o1", "text": "Dinner" },
+            { "id": "o2", "text": "Lunch" },
+            { "id": "o3", "text": "Breakfast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Concierto'?",
+          "options": [
+            { "id": "o1", "text": "Concert" },
+            { "id": "o2", "text": "Show" },
+            { "id": "o3", "text": "Music" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Boda'?",
+          "options": [
+            { "id": "o1", "text": "Wedding" },
+            { "id": "o2", "text": "Marriage" },
+            { "id": "o3", "text": "Couple" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vuelo'?",
+          "options": [
+            { "id": "o1", "text": "Flight" },
+            { "id": "o2", "text": "Airport" },
+            { "id": "o3", "text": "Plane" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Entrenamiento'?",
+          "options": [
+            { "id": "o1", "text": "Training" },
+            { "id": "o2", "text": "Match" },
+            { "id": "o3", "text": "Practice" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "See a movie", "right": "Ver una película" },
+            { "id": "p2", "left": "Go for a drink", "right": "Ir a tomar algo" },
+            { "id": "p3", "left": "Have lunch", "right": "Almorzar" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mañana por la mañana'?",
+          "options": [
+            { "id": "o1", "text": "Tomorrow morning" },
+            { "id": "o2", "text": "Morning tomorrow" },
+            { "id": "o3", "text": "Next morning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mañana por la tarde'?",
+          "options": [
+            { "id": "o1", "text": "Tomorrow afternoon" },
+            { "id": "o2", "text": "Tomorrow evening" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Este fin de semana'?",
+          "options": [
+            { "id": "o1", "text": "This weekend" },
+            { "id": "o2", "text": "Next weekend" },
+            { "id": "o3", "text": "The weekend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'El próximo lunes'?",
+          "options": [
+            { "id": "o1", "text": "Next Monday" },
+            { "id": "o2", "text": "Monday next" },
+            { "id": "o3", "text": "The Monday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I16",
+          "type": "flashcard",
+          "prompt_es": "Expresiones de Tiempo Futuro",
+          "flashcards": [
+            { "front": "On Tuesday", "back": "El martes", "pronunciation": "/ɒn ˈtjuːzdeɪ/" },
+            { "front": "At 8 PM", "back": "A las 8 PM", "pronunciation": "/æt eɪt piː em/" },
+            { "front": "This evening", "back": "Esta tarde/noche", "pronunciation": "/ðɪs ˈiːvnɪŋ/" },
+            { "front": "Next week", "back": "La próxima semana", "pronunciation": "/nekst wiːk/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Libre' (tiempo)?",
+          "options": [
+            { "id": "o1", "text": "Free" },
+            { "id": "o2", "text": "Busy" },
+            { "id": "o3", "text": "Clear" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ocupado'?",
+          "options": [
+            { "id": "o1", "text": "Busy" },
+            { "id": "o2", "text": "Full" },
+            { "id": "o3", "text": "Work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Confirmar'?",
+          "options": [
+            { "id": "o1", "text": "To confirm" },
+            { "id": "o2", "text": "To say yes" },
+            { "id": "o3", "text": "To check" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cancelar'?",
+          "options": [
+            { "id": "o1", "text": "To cancel" },
+            { "id": "o2", "text": "To stop" },
+            { "id": "o3", "text": "To delete" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Posponer'?",
+          "options": [
+            { "id": "o1", "text": "To postpone" },
+            { "id": "o2", "text": "To delay" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Horario'?",
+          "options": [
+            { "id": "o1", "text": "Schedule" },
+            { "id": "o2", "text": "Time table" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Agenda'?",
+          "options": [
+            { "id": "o1", "text": "Diary" },
+            { "id": "o2", "text": "Agenda" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Evento'?",
+          "options": [
+            { "id": "o1", "text": "Event" },
+            { "id": "o2", "text": "Action" },
+            { "id": "o3", "text": "Plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invitación'?",
+          "options": [
+            { "id": "o1", "text": "Invitation" },
+            { "id": "o2", "text": "Inviting" },
+            { "id": "o3", "text": "Invite" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invitar'?",
+          "options": [
+            { "id": "o1", "text": "To invite" },
+            { "id": "o2", "text": "To call" },
+            { "id": "o3", "text": "To ask" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lugar' (de un evento)?",
+          "options": [
+            { "id": "o1", "text": "Venue" },
+            { "id": "o2", "text": "Place" },
+            { "id": "o3", "text": "Location" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Puntual'?",
+          "options": [
+            { "id": "o1", "text": "Punctual" },
+            { "id": "o2", "text": "Early" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tarde'?",
+          "options": [
+            { "id": "o1", "text": "Late" },
+            { "id": "o2", "text": "Delay" },
+            { "id": "o3", "text": "After" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pronto'?",
+          "options": [
+            { "id": "o1", "text": "Soon" },
+            { "id": "o2", "text": "Quick" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Teatro'?",
+          "options": [
+            { "id": "o1", "text": "Theatre" },
+            { "id": "o2", "text": "Movie" },
+            { "id": "o3", "text": "Show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Museo'?",
+          "options": [
+            { "id": "o1", "text": "Museum" },
+            { "id": "o2", "text": "Gallery" },
+            { "id": "o3", "text": "Library" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Galería de arte'?",
+          "options": [
+            { "id": "o1", "text": "Art gallery" },
+            { "id": "o2", "text": "Picture place" },
+            { "id": "o3", "text": "Exhibition" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Exhibición'?",
+          "options": [
+            { "id": "o1", "text": "Exhibition" },
+            { "id": "o2", "text": "Show" },
+            { "id": "o3", "text": "Display" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Festival'?",
+          "options": [
+            { "id": "o1", "text": "Festival" },
+            { "id": "o2", "text": "Party" },
+            { "id": "o3", "text": "Event" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Present Continuous for Future Arrangements",
+      "content": [
+        {
+          "interaction_id": "U32_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (reunirme con) my boss tomorrow.'",
+          "stimulus_en": "I ___ my boss tomorrow.",
+          "correct_answer": "am meeting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (cenar) with us tonight.'",
+          "stimulus_en": "She ___ with us tonight.",
+          "correct_answer": "is having dinner",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (volar) to London on Monday.'",
+          "stimulus_en": "They ___ to London on Monday.",
+          "correct_answer": "are flying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'We ___ (no vamos a) have a meeting today.'",
+          "stimulus_en": "We ___ a meeting today.",
+          "correct_answer": "are not having",
+          "mastery_tag": "grammar",
+          "note": "aren't having is also correct."
+        },
+        {
+          "interaction_id": "U32_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Vas a?) coming to the party?'",
+          "stimulus_en": "___ you coming to the party?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Va ella a?) meeting you at 5?'",
+          "stimulus_en": "___ she meeting you at 5?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I42",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'are / playing / We / tennis / on / Saturday / .'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "playing" },
+            { "id": "w4", "text": "tennis" },
+            { "id": "w5", "text": "on" },
+            { "id": "w6", "text": "Saturday" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I43",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Is / he / seeing / doctor / the / tomorrow / ?'",
+          "options": [
+            { "id": "w1", "text": "Is" },
+            { "id": "w2", "text": "he" },
+            { "id": "w3", "text": "seeing" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "doctor" },
+            { "id": "w6", "text": "tomorrow" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (trabajar) this weekend.'",
+          "stimulus_en": "I ___ this weekend.",
+          "correct_answer": "am working",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (quedarse) at home tonight.'",
+          "stimulus_en": "They ___ at home tonight.",
+          "correct_answer": "are staying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (ir) to a concert on Friday.'",
+          "stimulus_en": "We ___ to a concert on Friday.",
+          "correct_answer": "are going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'What time ___ (te vas?) tomorrow?'",
+          "stimulus_en": "What time ___ you leaving tomorrow?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (visitar) my parents next week.'",
+          "stimulus_en": "I'm ___ my parents next week.",
+          "correct_answer": "visiting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She isn't ___ (venir) to the meeting.'",
+          "stimulus_en": "She isn't ___ to the meeting.",
+          "correct_answer": "coming",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are they ___ (almorzar) with us?'",
+          "stimulus_en": "Are they ___ lunch with us?",
+          "correct_answer": "having",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál indica un plan fijo?",
+          "options": [
+            { "id": "o1", "text": "I meet John." },
+            { "id": "o2", "text": "I am meeting John at 5." },
+            { "id": "o3", "text": "I meets John." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "We are having a party tonight." },
+            { "id": "o2", "text": "We having a party tonight." },
+            { "id": "o3", "text": "We are have a party tonight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "Where you are going tonight?" },
+            { "id": "o2", "text": "Where are you going tonight?" },
+            { "id": "o3", "text": "Where do you going tonight?" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la negación correcta?",
+          "options": [
+            { "id": "o1", "text": "He isn't playing today." },
+            { "id": "o2", "text": "He doesn't playing today." },
+            { "id": "o3", "text": "He no playing today." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no voy) to the cinema tonight.'",
+          "stimulus_en": "I ___ to the cinema tonight.",
+          "correct_answer": "am not going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (casarnos) next June.'",
+          "stimulus_en": "We ___ married next June.",
+          "correct_answer": "are getting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (dar) a presentation tomorrow.'",
+          "stimulus_en": "They ___ a presentation tomorrow.",
+          "correct_answer": "are giving",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is he ___ (usar) his car today?'",
+          "stimulus_en": "Is he ___ his car today?",
+          "correct_answer": "using",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (cenar) out tonight.'",
+          "stimulus_en": "I'm ___ out tonight.",
+          "correct_answer": "dining",
+          "mastery_tag": "grammar",
+          "note": "having dinner is more common."
+        },
+        {
+          "interaction_id": "U32_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We aren't ___ (hacer) anything this weekend.'",
+          "stimulus_en": "We aren't ___ anything this weekend.",
+          "correct_answer": "doing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What / are / you / having / for / lunch / ?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "having" },
+            { "id": "w5", "text": "for" },
+            { "id": "w6", "text": "lunch" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I62",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / am / meeting / them / later / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "am" },
+            { "id": "w3", "text": "meeting" },
+            { "id": "w4", "text": "them" },
+            { "id": "w5", "text": "later" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (quedarse) at the Ritz.'",
+          "stimulus_en": "They ___ at the Ritz.",
+          "correct_answer": "are staying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Who ___ (venir) to the party?'",
+          "stimulus_en": "Who ___ coming to the party?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (dar) a party on Saturday.'",
+          "stimulus_en": "I ___ a party on Saturday.",
+          "correct_answer": "am throwing",
+          "mastery_tag": "grammar",
+          "note": "am having/am giving are also correct."
+        },
+        {
+          "interaction_id": "U32_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (no salir) tonight.'",
+          "stimulus_en": "We ___ tonight.",
+          "correct_answer": "are not going out",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (tu hermano) coming too?'",
+          "stimulus_en": "___ your brother coming too?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are ___ (jugar) a match on Sunday.'",
+          "stimulus_en": "We are ___ a match on Sunday.",
+          "correct_answer": "playing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She is ___ (tomar) the bus at 9.'",
+          "stimulus_en": "She is ___ the bus at 9.",
+          "correct_answer": "taking",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U32_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (empezar) my new job on Monday.'",
+          "stimulus_en": "I ___ my new job on Monday.",
+          "correct_answer": "am starting",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Making Appointments & Social Plans",
+      "content": [
+        {
+          "interaction_id": "U32_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me reúno con él a las 5'?",
+          "options": [
+            { "id": "o1", "text": "I'm meeting him at 5." },
+            { "id": "o2", "text": "I meet him at 5." },
+            { "id": "o3", "text": "I will meet him at 5." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué vas a hacer este fin de semana?' (Arreglo fijo)",
+          "options": [
+            { "id": "o1", "text": "What are you doing this weekend?" },
+            { "id": "o2", "text": "What do you do this weekend?" },
+            { "id": "o3", "text": "What you doing this weekend?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo una cita con el médico el martes'?",
+          "options": [
+            { "id": "o1", "text": "I'm seeing the doctor on Tuesday." },
+            { "id": "o2", "text": "I have an appointment on Tuesday." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No voy a la fiesta mañana'?",
+          "options": [
+            { "id": "o1", "text": "I'm not going to the party tomorrow." },
+            { "id": "o2", "text": "I don't go to the party tomorrow." },
+            { "id": "o3", "text": "I'm not go to the party." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué hora vienes?'?",
+          "options": [
+            { "id": "o1", "text": "What time are you coming?" },
+            { "id": "o2", "text": "What time you coming?" },
+            { "id": "o3", "text": "When you are coming?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estamos cenando fuera esta noche'?",
+          "options": [
+            { "id": "o1", "text": "We're having dinner out tonight." },
+            { "id": "o2", "text": "We are dinner out tonight." },
+            { "id": "o3", "text": "We have dinner out tonight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella se va el próximo mes'?",
+          "options": [
+            { "id": "o1", "text": "She's leaving next month." },
+            { "id": "o2", "text": "She leaves next month." },
+            { "id": "o3", "text": "She will leave next month." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Él viene con nosotros?'?",
+          "options": [
+            { "id": "o1", "text": "Is he coming with us?" },
+            { "id": "o2", "text": "He is coming with us?" },
+            { "id": "o3", "text": "Does he coming with us?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo una reunión a las 10'?",
+          "options": [
+            { "id": "o1", "text": "I'm having a meeting at 10." },
+            { "id": "o2", "text": "I have a meeting at 10." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ellos vuelan mañana'?",
+          "options": [
+            { "id": "o1", "text": "They're flying tomorrow." },
+            { "id": "o2", "text": "They fly tomorrow." },
+            { "id": "o3", "text": "They will fly tomorrow." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Estás libre mañana?'?",
+          "options": [
+            { "id": "o1", "text": "Are you free tomorrow?" },
+            { "id": "o2", "text": "Do you free tomorrow?" },
+            { "id": "o3", "text": "Is you free tomorrow?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Estoy ocupado el viernes'?",
+          "options": [
+            { "id": "o1", "text": "I'm busy on Friday." },
+            { "id": "o2", "text": "I busy on Friday." },
+            { "id": "o3", "text": "I am full on Friday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I83",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What / time / are / we / meeting / ?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "time" },
+            { "id": "w3", "text": "are" },
+            { "id": "w4", "text": "we" },
+            { "id": "w5", "text": "meeting" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te veo en el cine'?",
+          "options": [
+            { "id": "o1", "text": "I'm meeting you at the cinema." },
+            { "id": "o2", "text": "I see you at the cinema." },
+            { "id": "o3", "text": "I will see you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo siento, no puedo venir'?",
+          "options": [
+            { "id": "o1", "text": "Sorry, I can't come." },
+            { "id": "o2", "text": "I am sorry, I am not coming." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Dónde nos reunimos?'?",
+          "options": [
+            { "id": "o1", "text": "Where are we meeting?" },
+            { "id": "o2", "text": "Where we meet?" },
+            { "id": "o3", "text": "Where do we meet?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estamos celebrando su cumpleaños'?",
+          "options": [
+            { "id": "o1", "text": "We're celebrating his birthday." },
+            { "id": "o2", "text": "We celebrate his birthday." },
+            { "id": "o3", "text": "We are have a party for him." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él se va a las 8'?",
+          "options": [
+            { "id": "o1", "text": "He's leaving at 8." },
+            { "id": "o2", "text": "He leaves at 8." },
+            { "id": "o3", "text": "He will leave at 8." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Vienes mañana?'?",
+          "options": [
+            { "id": "o1", "text": "Are you coming tomorrow?" },
+            { "id": "o2", "text": "You come tomorrow?" },
+            { "id": "o3", "text": "Do you come tomorrow?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No estoy haciendo nada el domingo'?",
+          "options": [
+            { "id": "o1", "text": "I'm not doing anything on Sunday." },
+            { "id": "o2", "text": "I don't do nothing on Sunday." },
+            { "id": "o3", "text": "I am not do anything." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo una entrevista el jueves'?",
+          "options": [
+            { "id": "o1", "text": "I'm having an interview on Thursday." },
+            { "id": "o2", "text": "I have an interview on Thursday." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué vas a ver en el teatro?'?",
+          "options": [
+            { "id": "o1", "text": "What are you seeing at the theatre?" },
+            { "id": "o2", "text": "What are you watching at theatre?" },
+            { "id": "o3", "text": "What do you see at theatre?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella va a una boda el sábado'?",
+          "options": [
+            { "id": "o1", "text": "She's going to a wedding on Saturday." },
+            { "id": "o2", "text": "She goes to a wedding." },
+            { "id": "o3", "text": "She is have a wedding." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nos quedamos en casa esta noche'?",
+          "options": [
+            { "id": "o1", "text": "We're staying in tonight." },
+            { "id": "o2", "text": "We stay at home tonight." },
+            { "id": "o3", "text": "We are stay home tonight." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué hora empieza el concierto?'?",
+          "options": [
+            { "id": "o1", "text": "What time is the concert starting?" },
+            { "id": "o2", "text": "What time does the concert start?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te llamo luego' (Arreglo fijo)?",
+          "options": [
+            { "id": "o1", "text": "I'm calling you later." },
+            { "id": "o2", "text": "I will call you later." },
+            { "id": "o3", "text": "I call you later." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella no trabaja mañana'?",
+          "options": [
+            { "id": "o1", "text": "She isn't working tomorrow." },
+            { "id": "o2", "text": "She doesn't work tomorrow." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I98",
+          "type": "flashcard",
+          "prompt_es": "Haciendo Planes",
+          "flashcards": [
+            { "front": "I'm busy", "back": "Estoy ocupado/a", "pronunciation": "/aɪm ˈbɪzi/" },
+            { "front": "I'm free", "back": "Estoy libre", "pronunciation": "/aɪm friː/" },
+            { "front": "See you then!", "back": "¡Nos vemos entonces!", "pronunciation": "/siː jə ðen/" },
+            { "front": "Are you coming?", "back": "¿Vienes?", "pronunciation": "/ər jə ˈkʌmɪŋ/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Confirmado!'?",
+          "options": [
+            { "id": "o1", "text": "Confirmed!" },
+            { "id": "o2", "text": "It's a plan!" },
+            { "id": "o3", "text": "Both are fine" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U32_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Me reúno con mis amigos el viernes por la noche.'",
+          "stimulus_es": "Me reúno con mis amigos el viernes por la noche.",
+          "correct_answer": "I am meeting my friends on Friday night.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

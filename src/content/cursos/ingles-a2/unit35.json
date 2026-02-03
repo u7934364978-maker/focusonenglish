@@ -1,0 +1,1094 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U35",
+    "unit_title": "Module 4 Review: Future Plans & Promises",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Review: Mixed Future Forms (Going to, Will, Present Continuous)",
+      "content": [
+        {
+          "interaction_id": "U35_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué forma usas para una decisión espontánea?",
+          "options": [
+            { "id": "o1", "text": "Will" },
+            { "id": "o2", "text": "Going to" },
+            { "id": "o3", "text": "Present Continuous" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué forma usas para una intención ya planeada?",
+          "options": [
+            { "id": "o1", "text": "Going to" },
+            { "id": "o2", "text": "Will" },
+            { "id": "o3", "text": "Present Simple" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué forma usas para una cita fija con otra persona?",
+          "options": [
+            { "id": "o1", "text": "Present Continuous" },
+            { "id": "o2", "text": "Will" },
+            { "id": "o3", "text": "Going to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'will' o 'going to': 'Look at the clouds! It ___ (llover) soon.'",
+          "stimulus_en": "Look at the clouds! It ___ soon.",
+          "correct_answer": "is going to rain",
+          "mastery_tag": "grammar",
+          "note": "Prediction based on evidence."
+        },
+        {
+          "interaction_id": "U35_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think robots ___ (hacer) all the work in 2050.'",
+          "stimulus_en": "I think robots ___ all the work in 2050.",
+          "correct_answer": "will do",
+          "mastery_tag": "grammar",
+          "note": "Prediction based on opinion."
+        },
+        {
+          "interaction_id": "U35_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con Present Continuous: 'We ___ (verse) the doctor at 4 PM.'",
+          "stimulus_en": "We ___ the doctor at 4 PM.",
+          "correct_answer": "are seeing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'going to': 'She ___ (estudiar) medicine next year.'",
+          "stimulus_en": "She ___ medicine next year.",
+          "correct_answer": "is going to study",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'will': 'I'm tired. I ___ (ir) to bed early tonight.'",
+          "stimulus_en": "I'm tired. I ___ to bed early tonight.",
+          "correct_answer": "will go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'will': 'I promise I ___ (no decir) anything.'",
+          "stimulus_en": "I promise I ___ anything.",
+          "correct_answer": "won't say",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo una reunión mañana a las 10'?",
+          "options": [
+            { "id": "o1", "text": "I'm having a meeting at 10 tomorrow." },
+            { "id": "o2", "text": "I'll have a meeting." },
+            { "id": "o3", "text": "I am have a meeting." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Voy a comprar un coche nuevo' (intención)?",
+          "options": [
+            { "id": "o1", "text": "I'm going to buy a new car." },
+            { "id": "o2", "text": "I'll buy a new car." },
+            { "id": "o3", "text": "I buy a new car." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te ayudaré con eso'?",
+          "options": [
+            { "id": "o1", "text": "I'll help you with that." },
+            { "id": "o2", "text": "I am helping you." },
+            { "id": "o3", "text": "I am going to help you." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I13",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Spontaneous Decision", "right": "Will" },
+            { "id": "p2", "left": "Intention/Plan", "right": "Going to" },
+            { "id": "p3", "left": "Fixed Arrangement", "right": "Present Continuous" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el negativo de 'She is going to go'?",
+          "options": [
+            { "id": "o1", "text": "She isn't going to go." },
+            { "id": "o2", "text": "She doesn't go to go." },
+            { "id": "o3", "text": "She not going to go." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el negativo de 'They will help'?",
+          "options": [
+            { "id": "o1", "text": "They won't help." },
+            { "id": "o2", "text": "They willn't help." },
+            { "id": "o3", "text": "They don't will help." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta para 'They are flying on Monday'?",
+          "options": [
+            { "id": "o1", "text": "Are they flying on Monday?" },
+            { "id": "o2", "text": "Do they flying?" },
+            { "id": "o3", "text": "Will they fly?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué vas a hacer este fin de semana?'?",
+          "options": [
+            { "id": "o1", "text": "What are you going to do this weekend?" },
+            { "id": "o2", "text": "What will you do?" },
+            { "id": "o3", "text": "What you do?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Prometo que no llegaré tarde'?",
+          "options": [
+            { "id": "o1", "text": "I promise I won't be late." },
+            { "id": "o2", "text": "I promise I am not late." },
+            { "id": "o3", "text": "I promise I don't be late." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Cenamos con los Smith mañana'?",
+          "options": [
+            { "id": "o1", "text": "We're having dinner with the Smiths tomorrow." },
+            { "id": "o2", "text": "We will have dinner." },
+            { "id": "o3", "text": "We have dinner." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Creo que lloverá mañana'?",
+          "options": [
+            { "id": "o1", "text": "I think it will rain tomorrow." },
+            { "id": "o2", "text": "I think it is going to rain." },
+            { "id": "o3", "text": "I think it rains." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I21",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no poder) come tomorrow.'",
+          "stimulus_en": "I ___ come tomorrow.",
+          "correct_answer": "won't be able to",
+          "mastery_tag": "grammar",
+          "note": "A bit more advanced, but common in A2."
+        },
+        {
+          "interaction_id": "U35_I22",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (casarse) in June.'",
+          "stimulus_en": "They ___ in June.",
+          "correct_answer": "are getting married",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (visitar) her grandmother on Saturday.'",
+          "stimulus_en": "She ___ her grandmother on Saturday.",
+          "correct_answer": "is visiting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I24",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What / are / you / going / to / cook / ?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "going" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "cook" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I25",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / will / call / you / back / in / five / minutes / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "call" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "back" },
+            { "id": "w6", "text": "in" },
+            { "id": "w7", "text": "five" },
+            { "id": "w8", "text": "minutes" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'As soon as'?",
+          "options": [
+            { "id": "o1", "text": "En cuanto / Tan pronto como" },
+            { "id": "o2", "text": "Pronto" },
+            { "id": "o3", "text": "Después de" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Unless'?",
+          "options": [
+            { "id": "o1", "text": "A menos que" },
+            { "id": "o2", "text": "A pesar de" },
+            { "id": "o3", "text": "Sin embargo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Probablemente'?",
+          "options": [
+            { "id": "o1", "text": "Probably" },
+            { "id": "o2", "text": "Possible" },
+            { "id": "o3", "text": "Maybe" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quizás'?",
+          "options": [
+            { "id": "o1", "text": "Maybe" },
+            { "id": "o2", "text": "Perhaps" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Definitivamente'?",
+          "options": [
+            { "id": "o1", "text": "Definitely" },
+            { "id": "o2", "text": "Sure" },
+            { "id": "o3", "text": "Certain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I31",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll ___ (probablemente) be late.'",
+          "stimulus_en": "I'll ___ be late.",
+          "correct_answer": "probably",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I32",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (Quizás) it will rain.'",
+          "stimulus_en": "___ it will rain.",
+          "correct_answer": "Maybe",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te veré pronto'?",
+          "options": [
+            { "id": "o1", "text": "I'll see you soon." },
+            { "id": "o2", "text": "I see you soon." },
+            { "id": "o3", "text": "I seeing you soon." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Vendrás mañana?'?",
+          "options": [
+            { "id": "o1", "text": "Will you come tomorrow?" },
+            { "id": "o2", "text": "Are you coming tomorrow?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No voy a hacerlo'?",
+          "options": [
+            { "id": "o1", "text": "I'm not going to do it." },
+            { "id": "o2", "text": "I won't do it." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (ir) to the cinema tonight. I already have the tickets.'",
+          "stimulus_en": "I ___ to the cinema tonight.",
+          "correct_answer": "am going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Wait! I ___ (ayudar) you carry those boxes.'",
+          "stimulus_en": "Wait! I ___ you carry those boxes.",
+          "correct_answer": "will help",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (dar) a presentation on Tuesday.'",
+          "stimulus_en": "She ___ a presentation on Tuesday.",
+          "correct_answer": "is giving",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no olvidar) our anniversary, I promise!'",
+          "stimulus_en": "I ___ our anniversary, I promise!",
+          "correct_answer": "won't forget",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are you ___ (ir) to travel this summer?'",
+          "stimulus_en": "Are you ___ to travel this summer?",
+          "correct_answer": "going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Plan'? (sustantivo)",
+          "options": [
+            { "id": "o1", "text": "Plan" },
+            { "id": "o2", "text": "Plane" },
+            { "id": "o3", "text": "Plant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Schedule'?",
+          "options": [
+            { "id": "o1", "text": "Horario / Agenda" },
+            { "id": "o2", "text": "Escuela" },
+            { "id": "o3", "text": "Sombra" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Appointment'?",
+          "options": [
+            { "id": "o1", "text": "Cita (médico, profesional)" },
+            { "id": "o2", "text": "Departamento" },
+            { "id": "o3", "text": "Punto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llegar a tiempo'?",
+          "options": [
+            { "id": "o1", "text": "To be on time" },
+            { "id": "o2", "text": "To arrive at time" },
+            { "id": "o3", "text": "To be in time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tardar'?",
+          "options": [
+            { "id": "o1", "text": "To take (time)" },
+            { "id": "o2", "text": "To late" },
+            { "id": "o3", "text": "To wait" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tardará 2 horas'?",
+          "options": [
+            { "id": "o1", "text": "It will take 2 hours." },
+            { "id": "o2", "text": "It takes 2 hours." },
+            { "id": "o3", "text": "It is take 2 hours." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No tengo planes'?",
+          "options": [
+            { "id": "o1", "text": "I don't have any plans." },
+            { "id": "o2", "text": "I have no plans." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué tiempo hará mañana?'?",
+          "options": [
+            { "id": "o1", "text": "What will the weather be like tomorrow?" },
+            { "id": "o2", "text": "What is the weather?" },
+            { "id": "o3", "text": "How is the weather tomorrow?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Dónde nos encontramos?'?",
+          "options": [
+            { "id": "o1", "text": "Where shall we meet?" },
+            { "id": "o2", "text": "Where will we meet?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estaré listo en 10 minutos'?",
+          "options": [
+            { "id": "o1", "text": "I'll be ready in 10 minutes." },
+            { "id": "o2", "text": "I am ready in 10 minutes." },
+            { "id": "o3", "text": "I ready in 10 minutes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (ver) my friends this evening.'",
+          "stimulus_en": "I'm ___ my friends this evening.",
+          "correct_answer": "meeting",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you ___ (ir) to help me?'",
+          "stimulus_en": "___ you ___ to help me?",
+          "correct_answer": "Are... going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no) believe it until I see it.'",
+          "stimulus_en": "I ___ believe it until I see it.",
+          "correct_answer": "won't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Shall I ___ (traer) some wine?'",
+          "stimulus_en": "Shall I ___ some wine?",
+          "correct_answer": "bring",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (volar) to Paris tomorrow morning.'",
+          "stimulus_en": "We ___ to Paris tomorrow morning.",
+          "correct_answer": "are flying",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think you ___ (gustar) this book.'",
+          "stimulus_en": "I think you ___ this book.",
+          "correct_answer": "will like",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'What time ___ (empezar) the concert?'",
+          "stimulus_en": "What time ___ the concert start?",
+          "correct_answer": "does",
+          "mastery_tag": "grammar",
+          "note": "Present Simple for schedules."
+        },
+        {
+          "interaction_id": "U35_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The train ___ (llegar) at 9:00.'",
+          "stimulus_en": "The train ___ at 9:00.",
+          "correct_answer": "arrives",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (enviar) you the photo when I get home.'",
+          "stimulus_en": "I ___ you the photo when I get home.",
+          "correct_answer": "will send",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no) be here next week.'",
+          "stimulus_en": "I ___ be here next week.",
+          "correct_answer": "won't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Are / you / coming / with / us / tomorrow / ?'",
+          "options": [
+            { "id": "w1", "text": "Are" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "coming" },
+            { "id": "w4", "text": "with" },
+            { "id": "w5", "text": "us" },
+            { "id": "w6", "text": "tomorrow" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I62",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'He / is / not / going / to / buy / it / .'",
+          "options": [
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "not" },
+            { "id": "w4", "text": "going" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "buy" },
+            { "id": "w7", "text": "it" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Encontrar'?",
+          "options": [
+            { "id": "o1", "text": "To find" },
+            { "id": "o2", "text": "To look for" },
+            { "id": "o3", "text": "To meet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Buscar'?",
+          "options": [
+            { "id": "o1", "text": "To look for" },
+            { "id": "o2", "text": "To find" },
+            { "id": "o3", "text": "To see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reunirse con'?",
+          "options": [
+            { "id": "o1", "text": "To meet" },
+            { "id": "o2", "text": "To stay" },
+            { "id": "o3", "text": "To visit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quedarse'?",
+          "options": [
+            { "id": "o1", "text": "To stay" },
+            { "id": "o2", "text": "To leave" },
+            { "id": "o3", "text": "To go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Irse/Salir'?",
+          "options": [
+            { "id": "o1", "text": "To leave" },
+            { "id": "o2", "text": "To arrive" },
+            { "id": "o3", "text": "To come" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Próximo'?",
+          "options": [
+            { "id": "o1", "text": "Next" },
+            { "id": "o2", "text": "Last" },
+            { "id": "o3", "text": "Previous" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siguiente'?",
+          "options": [
+            { "id": "o1", "text": "Following" },
+            { "id": "o2", "text": "Next" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Al cabo de/Dentro de' (tiempo)?",
+          "options": [
+            { "id": "o1", "text": "In" },
+            { "id": "o2", "text": "After" },
+            { "id": "o3", "text": "Inside" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "note": "Example: In two days (dentro de dos días)."
+        },
+        {
+          "interaction_id": "U35_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Te veré dentro de una semana'?",
+          "options": [
+            { "id": "o1", "text": "I'll see you in a week." },
+            { "id": "o2", "text": "I see you after a week." },
+            { "id": "o3", "text": "I'll see you inside a week." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Qué tal el martes?'?",
+          "options": [
+            { "id": "o1", "text": "How about Tuesday?" },
+            { "id": "o2", "text": "What about Tuesday?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El lunes me va bien'?",
+          "options": [
+            { "id": "o1", "text": "Monday is fine for me." },
+            { "id": "o2", "text": "Monday is good with me." },
+            { "id": "o3", "text": "Both are natural" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo siento, no puedo'?",
+          "options": [
+            { "id": "o1", "text": "I'm sorry, I can't." },
+            { "id": "o2", "text": "I'm afraid I can't." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo otra cita'?",
+          "options": [
+            { "id": "o1", "text": "I have another appointment." },
+            { "id": "o2", "text": "I have another date." },
+            { "id": "o3", "text": "I have another meeting." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication",
+          "note": "Date is usually romantic."
+        },
+        {
+          "interaction_id": "U35_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Podemos posponerlo'?",
+          "options": [
+            { "id": "o1", "text": "We can postpone it." },
+            { "id": "o2", "text": "We can put it off." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿A qué hora te va bien?'?",
+          "options": [
+            { "id": "o1", "text": "What time suits you?" },
+            { "id": "o2", "text": "What time is good for you?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Nos vemos allí'?",
+          "options": [
+            { "id": "o1", "text": "See you there." },
+            { "id": "o2", "text": "We see there." },
+            { "id": "o3", "text": "I see you there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No llegues tarde'?",
+          "options": [
+            { "id": "o1", "text": "Don't be late." },
+            { "id": "o2", "text": "Don't arrive late." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Intentaré estar allí'?",
+          "options": [
+            { "id": "o1", "text": "I'll try to be there." },
+            { "id": "o2", "text": "I try to be there." },
+            { "id": "o3", "text": "I'm try to be there." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I81",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no poder) wait any longer.'",
+          "stimulus_en": "I ___ wait any longer.",
+          "correct_answer": "can't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I82",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (venir) to our party next week.'",
+          "stimulus_en": "They ___ to our party next week.",
+          "correct_answer": "are coming",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I83",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (llamar) you as soon as I can.'",
+          "stimulus_en": "I ___ you as soon as I can.",
+          "correct_answer": "will call",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I84",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are you ___ (ir) to buy that house?'",
+          "stimulus_en": "Are you ___ to buy that house?",
+          "correct_answer": "going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I85",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The shop ___ (cerrar) at 8 PM.'",
+          "stimulus_en": "The shop ___ at 8 PM.",
+          "correct_answer": "closes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I86",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (tener) a meeting right now.'",
+          "stimulus_en": "We ___ a meeting right now.",
+          "correct_answer": "are having",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I87",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (ser) it cold tomorrow?'",
+          "stimulus_en": "___ it ___ cold tomorrow?",
+          "correct_answer": "Will... be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I88",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no) think he will come.'",
+          "stimulus_en": "I ___ think he will come.",
+          "correct_answer": "don't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U35_I89",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They'll ___ (probablemente) win.'",
+          "stimulus_en": "They'll ___ win.",
+          "correct_answer": "probably",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I90",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'See you ___ (mañana).'",
+          "stimulus_en": "See you ___.",
+          "correct_answer": "tomorrow",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Despedirse'?",
+          "options": [
+            { "id": "o1", "text": "To say goodbye" },
+            { "id": "o2", "text": "To tell goodbye" },
+            { "id": "o3", "text": "To speak goodbye" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Saludar'?",
+          "options": [
+            { "id": "o1", "text": "To greet" },
+            { "id": "o2", "text": "To say hello" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Presentar a alguien'?",
+          "options": [
+            { "id": "o1", "text": "To introduce someone" },
+            { "id": "o2", "text": "To present someone" },
+            { "id": "o3", "text": "To show someone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reconocer'?",
+          "options": [
+            { "id": "o1", "text": "To recognize" },
+            { "id": "o2", "text": "To remember" },
+            { "id": "o3", "text": "To know" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asegurarse'?",
+          "options": [
+            { "id": "o1", "text": "To make sure" },
+            { "id": "o2", "text": "To be sure" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me aseguraré de ello'?",
+          "options": [
+            { "id": "o1", "text": "I'll make sure of it." },
+            { "id": "o2", "text": "I make sure." },
+            { "id": "o3", "text": "I'm make sure." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Que tengas un buen viaje'?",
+          "options": [
+            { "id": "o1", "text": "Have a nice trip!" },
+            { "id": "o2", "text": "Have a good journey!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Pásatelo bien'?",
+          "options": [
+            { "id": "o1", "text": "Have a good time!" },
+            { "id": "o2", "text": "Enjoy yourself!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mucha suerte'?",
+          "options": [
+            { "id": "o1", "text": "Good luck!" },
+            { "id": "o2", "text": "Best of luck!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U35_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mañana por la mañana voy a visitar a mi familia.'",
+          "stimulus_es": "Mañana por la mañana voy a visitar a mi familia.",
+          "correct_answer": "Tomorrow morning I am going to visit my family.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

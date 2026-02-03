@@ -1,0 +1,1137 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U31",
+    "unit_title": "Future with 'Going to': Intentions",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Intentions & Travel Plans",
+      "content": [
+        {
+          "interaction_id": "U31_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viajar'?",
+          "options": [
+            { "id": "o1", "text": "To travel" },
+            { "id": "o2", "text": "To stay" },
+            { "id": "o3", "text": "To work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Visitar'?",
+          "options": [
+            { "id": "o1", "text": "To visit" },
+            { "id": "o2", "text": "To view" },
+            { "id": "o3", "text": "To see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quedarse'?",
+          "options": [
+            { "id": "o1", "text": "To stay" },
+            { "id": "o2", "text": "To leave" },
+            { "id": "o3", "text": "To remain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Comprar'?",
+          "options": [
+            { "id": "o1", "text": "To buy" },
+            { "id": "o2", "text": "To sell" },
+            { "id": "o3", "text": "To pay" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Volar'?",
+          "options": [
+            { "id": "o1", "text": "To fly" },
+            { "id": "o2", "text": "To drive" },
+            { "id": "o3", "text": "To sail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacer la maleta'?",
+          "options": [
+            { "id": "o1", "text": "To pack" },
+            { "id": "o2", "text": "To bag" },
+            { "id": "o3", "text": "To close" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pasaporte'?",
+          "options": [
+            { "id": "o1", "text": "Passport" },
+            { "id": "o2", "text": "Ticket" },
+            { "id": "o3", "text": "Card" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Billete/Boleto'?",
+          "options": [
+            { "id": "o1", "text": "Ticket" },
+            { "id": "o2", "text": "Passport" },
+            { "id": "o3", "text": "Entry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Maleta'?",
+          "options": [
+            { "id": "o1", "text": "Suitcase" },
+            { "id": "o2", "text": "Backpack" },
+            { "id": "o3", "text": "Box" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mochila'?",
+          "options": [
+            { "id": "o1", "text": "Backpack" },
+            { "id": "o2", "text": "Suitcase" },
+            { "id": "o3", "text": "Bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Museum", "right": "Museo" },
+            { "id": "p2", "left": "Palace", "right": "Palacio" },
+            { "id": "p3", "left": "Temple", "right": "Templo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lugares de interés'?",
+          "options": [
+            { "id": "o1", "text": "Sights" },
+            { "id": "o2", "text": "Views" },
+            { "id": "o3", "text": "Places" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Turismo'?",
+          "options": [
+            { "id": "o1", "text": "Sightseeing" },
+            { "id": "o2", "text": "Traveling" },
+            { "id": "o3", "text": "Visiting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extranjero'?",
+          "options": [
+            { "id": "o1", "text": "Abroad" },
+            { "id": "o2", "text": "Away" },
+            { "id": "o3", "text": "Outside" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' (UK)?",
+          "options": [
+            { "id": "o1", "text": "Holiday" },
+            { "id": "o2", "text": "Vacation" },
+            { "id": "o3", "text": "Break" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I16",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de Intenciones",
+          "flashcards": [
+            { "front": "Next week", "back": "La próxima semana", "pronunciation": "/nekst wiːk/" },
+            { "front": "Next month", "back": "El próximo mes", "pronunciation": "/nekst mʌnθ/" },
+            { "front": "Next year", "back": "El próximo año", "pronunciation": "/nekst jɪər/" },
+            { "front": "Tomorrow", "back": "Mañana", "pronunciation": "/təˈmɒroʊ/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Esta noche'?",
+          "options": [
+            { "id": "o1", "text": "Tonight" },
+            { "id": "o2", "text": "Today night" },
+            { "id": "o3", "text": "This night" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pronto'?",
+          "options": [
+            { "id": "o1", "text": "Soon" },
+            { "id": "o2", "text": "Early" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Más tarde'?",
+          "options": [
+            { "id": "o1", "text": "Later" },
+            { "id": "o2", "text": "After" },
+            { "id": "o3", "text": "Then" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'En dos días'?",
+          "options": [
+            { "id": "o1", "text": "In two days" },
+            { "id": "o2", "text": "After two days" },
+            { "id": "o3", "text": "For two days" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alojamiento'?",
+          "options": [
+            { "id": "o1", "text": "Accommodation" },
+            { "id": "o2", "text": "Hotel" },
+            { "id": "o3", "text": "House" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hostal'?",
+          "options": [
+            { "id": "o1", "text": "Hostel" },
+            { "id": "o2", "text": "Hotel" },
+            { "id": "o3", "text": "Pension" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Campamento'?",
+          "options": [
+            { "id": "o1", "text": "Campsite" },
+            { "id": "o2", "text": "Field" },
+            { "id": "o3", "text": "Forest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mapa'?",
+          "options": [
+            { "id": "o1", "text": "Map" },
+            { "id": "o2", "text": "Guide" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Guía turística' (libro)?",
+          "options": [
+            { "id": "o1", "text": "Guidebook" },
+            { "id": "o2", "text": "Guide person" },
+            { "id": "o3", "text": "Map book" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cámara'?",
+          "options": [
+            { "id": "o1", "text": "Camera" },
+            { "id": "o2", "text": "Photo" },
+            { "id": "o3", "text": "Video" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Recuerdos' (objetos)?",
+          "options": [
+            { "id": "o1", "text": "Souvenirs" },
+            { "id": "o2", "text": "Memories" },
+            { "id": "o3", "text": "Gifts" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viaje corto'?",
+          "options": [
+            { "id": "o1", "text": "Trip" },
+            { "id": "o2", "text": "Journey" },
+            { "id": "o3", "text": "Voyage" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viaje largo'?",
+          "options": [
+            { "id": "o1", "text": "Journey" },
+            { "id": "o2", "text": "Trip" },
+            { "id": "o3", "text": "Flight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vuelo'?",
+          "options": [
+            { "id": "o1", "text": "Flight" },
+            { "id": "o2", "text": "Plane" },
+            { "id": "o3", "text": "Airport" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aventurero'?",
+          "options": [
+            { "id": "o1", "text": "Adventurous" },
+            { "id": "o2", "text": "Brave" },
+            { "id": "o3", "text": "Tourist" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relajante'?",
+          "options": [
+            { "id": "o1", "text": "Relaxing" },
+            { "id": "o2", "text": "Boring" },
+            { "id": "o3", "text": "Quiet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Emocionante'?",
+          "options": [
+            { "id": "o1", "text": "Exciting" },
+            { "id": "o2", "text": "Exited" },
+            { "id": "o3", "text": "Fun" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Barato'?",
+          "options": [
+            { "id": "o1", "text": "Cheap" },
+            { "id": "o2", "text": "Expensive" },
+            { "id": "o3", "text": "Low" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Caro'?",
+          "options": [
+            { "id": "o1", "text": "Expensive" },
+            { "id": "o2", "text": "Cheap" },
+            { "id": "o3", "text": "High" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Future with 'Going to'",
+      "content": [
+        {
+          "interaction_id": "U31_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (ir a) travel to London.'",
+          "stimulus_en": "I ___ travel to London.",
+          "correct_answer": "am going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (va a) buy a new camera.'",
+          "stimulus_en": "He ___ buy a new camera.",
+          "correct_answer": "is going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (van a) stay in a hostel.'",
+          "stimulus_en": "They ___ stay in a hostel.",
+          "correct_answer": "are going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'We ___ (no vamos a) visit the museum.'",
+          "stimulus_en": "We ___ visit the museum.",
+          "correct_answer": "are not going to",
+          "mastery_tag": "grammar",
+          "note": "aren't going to is also correct."
+        },
+        {
+          "interaction_id": "U31_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'She ___ (no va a) pack her suitcase today.'",
+          "stimulus_en": "She ___ pack her suitcase today.",
+          "correct_answer": "is not going to",
+          "mastery_tag": "grammar",
+          "note": "isn't going to is also correct."
+        },
+        {
+          "interaction_id": "U31_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Vas a?) visit Paris?'",
+          "stimulus_en": "___ you going to visit Paris?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Va él a?) buy a ticket?'",
+          "stimulus_en": "___ he going to buy a ticket?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I43",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'am / I / going / to / tomorrow / relax / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "am" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "relax" },
+            { "id": "w6", "text": "tomorrow" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I44",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Are / going / you / to / fly / ?'",
+          "options": [
+            { "id": "w1", "text": "Are" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "fly" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'What ___ (vas a) do next summer?'",
+          "stimulus_en": "What ___ you going to do next summer?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (ir a) watch a movie tonight.'",
+          "stimulus_en": "I'm ___ watch a movie tonight.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are ___ (ir a) eat at a restaurant.'",
+          "stimulus_en": "We are ___ eat at a restaurant.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is she ___ (ir a) call you later?'",
+          "stimulus_en": "Is she ___ call you later?",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They aren't ___ (ir a) wait for us.'",
+          "stimulus_en": "They aren't ___ wait for us.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no voy a) go out tonight.'",
+          "stimulus_en": "I ___ go out tonight.",
+          "correct_answer": "am not going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "I going to travel." },
+            { "id": "o2", "text": "I am going to travel." },
+            { "id": "o3", "text": "I am go to travel." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "He is going buy a ticket." },
+            { "id": "o2", "text": "He is going to buy a ticket." },
+            { "id": "o3", "text": "He going to buy a ticket." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "Are you going to study?" },
+            { "id": "o2", "text": "You are going to study?" },
+            { "id": "o3", "text": "Do you going to study?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la negación correcta?",
+          "options": [
+            { "id": "o1", "text": "They not going to come." },
+            { "id": "o2", "text": "They aren't going to come." },
+            { "id": "o3", "text": "They don't going to come." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (ir a) visit my grandparents next week.'",
+          "stimulus_en": "I ___ visit my grandparents next week.",
+          "correct_answer": "am going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (vamos a) have a party.'",
+          "stimulus_en": "We ___ have a party.",
+          "correct_answer": "are going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Look at those clouds! It ___ (va a) rain.'",
+          "stimulus_en": "Look at those clouds! It ___ rain.",
+          "correct_answer": "is going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Where ___ (vas a) stay?'",
+          "stimulus_en": "Where ___ you going to stay?",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (ir a) buy some souvenirs.'",
+          "stimulus_en": "I'm ___ buy some souvenirs.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He isn't ___ (ir a) play football tomorrow.'",
+          "stimulus_en": "He isn't ___ play football tomorrow.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'She / is / to / going / tonight / study / .'",
+          "options": [
+            { "id": "w1", "text": "She" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "study" },
+            { "id": "w6", "text": "tonight" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I62",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Are / going / we / to / win / ?'",
+          "options": [
+            { "id": "w1", "text": "Are" },
+            { "id": "w2", "text": "we" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "win" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Who ___ (va a) cook dinner?'",
+          "stimulus_en": "Who ___ going to cook dinner?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (van a) visit the museum.'",
+          "stimulus_en": "They ___ visit the museum.",
+          "correct_answer": "are going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (ir a) read a book.'",
+          "stimulus_en": "I'm ___ read a book.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We aren't ___ (ir a) travel by bus.'",
+          "stimulus_en": "We aren't ___ travel by bus.",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is he ___ (ir a) come to the party?'",
+          "stimulus_en": "Is he ___ come to the party?",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Are they ___ (ir a) stay abroad?'",
+          "stimulus_en": "Are they ___ stay abroad?",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It ___ (va a) be an exciting trip.'",
+          "stimulus_en": "It ___ be an exciting trip.",
+          "correct_answer": "is going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (voy a) learn English.'",
+          "stimulus_en": "I ___ learn English.",
+          "correct_answer": "am going to",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Talking about Plans",
+      "content": [
+        {
+          "interaction_id": "U31_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Voy a viajar a Italia'?",
+          "options": [
+            { "id": "o1", "text": "I'm going to travel to Italy." },
+            { "id": "o2", "text": "I go to travel to Italy." },
+            { "id": "o3", "text": "I will travel to Italy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella va a visitar un museo'?",
+          "options": [
+            { "id": "o1", "text": "She is going to visit a museum." },
+            { "id": "o2", "text": "She going to visit a museum." },
+            { "id": "o3", "text": "She visits a museum." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué vas a hacer mañana?'?",
+          "options": [
+            { "id": "o1", "text": "What are you going to do tomorrow?" },
+            { "id": "o2", "text": "What you going to do tomorrow?" },
+            { "id": "o3", "text": "What do you go to do tomorrow?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No vamos a quedarnos en un hotel'?",
+          "options": [
+            { "id": "o1", "text": "We aren't going to stay in a hotel." },
+            { "id": "o2", "text": "We don't going to stay in a hotel." },
+            { "id": "o3", "text": "We not stay in a hotel." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Voy a hacer mi maleta ahora'?",
+          "options": [
+            { "id": "o1", "text": "I'm going to pack my suitcase now." },
+            { "id": "o2", "text": "I pack my suitcase now." },
+            { "id": "o3", "text": "I am go to pack my bag." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Van a comprar los billetes?'?",
+          "options": [
+            { "id": "o1", "text": "Are they going to buy the tickets?" },
+            { "id": "o2", "text": "Do they going to buy the tickets?" },
+            { "id": "o3", "text": "Are they go to buy the tickets?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él va a volar a Nueva York'?",
+          "options": [
+            { "id": "o1", "text": "He is going to fly to New York." },
+            { "id": "o2", "text": "He flies to New York." },
+            { "id": "o3", "text": "He going to New York by plane." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Dónde se van a alojar?'?",
+          "options": [
+            { "id": "o1", "text": "Where are they going to stay?" },
+            { "id": "o2", "text": "Where they going to stay?" },
+            { "id": "o3", "text": "Where are they go to stay?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Va a ser un viaje relajante'?",
+          "options": [
+            { "id": "o1", "text": "It's going to be a relaxing trip." },
+            { "id": "o2", "text": "It goes to be a relax trip." },
+            { "id": "o3", "text": "It is going to relax trip." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No voy a comprar muchos recuerdos'?",
+          "options": [
+            { "id": "o1", "text": "I'm not going to buy many souvenirs." },
+            { "id": "o2", "text": "I don't go to buy souvenirs." },
+            { "id": "o3", "text": "I'm not go to buy many gifts." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Mañana voy a ver el palacio'?",
+          "options": [
+            { "id": "o1", "text": "Tomorrow I'm going to see the palace." },
+            { "id": "o2", "text": "Tomorrow I see the palace." },
+            { "id": "o3", "text": "I am go to see the palace tomorrow." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What / you / are / going / to / pack / ?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "going" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "pack" },
+            { "id": "w7", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vamos a ir de turismo'?",
+          "options": [
+            { "id": "o1", "text": "We are going to go sightseeing." },
+            { "id": "o2", "text": "We go to visit places." },
+            { "id": "o3", "text": "We are going sightseeing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Va a ser muy emocionante'?",
+          "options": [
+            { "id": "o1", "text": "It's going to be very exciting." },
+            { "id": "o2", "text": "It is going very exciting." },
+            { "id": "o3", "text": "It will be very exciting." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Voy a comprar un billete barato'?",
+          "options": [
+            { "id": "o1", "text": "I'm going to buy a cheap ticket." },
+            { "id": "o2", "text": "I'm go to buy a ticket cheap." },
+            { "id": "o3", "text": "I am buy a cheap ticket." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella va a viajar al extranjero'?",
+          "options": [
+            { "id": "o1", "text": "She is going to travel abroad." },
+            { "id": "o2", "text": "She is going to travel outside." },
+            { "id": "o3", "text": "She goes abroad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A quién vas a visitar?'?",
+          "options": [
+            { "id": "o1", "text": "Who are you going to visit?" },
+            { "id": "o2", "text": "Who you going to visit?" },
+            { "id": "o3", "text": "Whom you go to visit?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vamos a necesitar un mapa'?",
+          "options": [
+            { "id": "o1", "text": "We are going to need a map." },
+            { "id": "o2", "text": "We go to need a map." },
+            { "id": "o3", "text": "We are need a map." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él no va a llevar mucha ropa'?",
+          "options": [
+            { "id": "o1", "text": "He isn't going to take many clothes." },
+            { "id": "o2", "text": "He doesn't going to take clothes." },
+            { "id": "o3", "text": "He not going to take clothes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Voy a sacar muchas fotos'?",
+          "options": [
+            { "id": "o1", "text": "I'm going to take many photos." },
+            { "id": "o2", "text": "I'm going to make photos." },
+            { "id": "o3", "text": "I go to take photos." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Vas a usar tu pasaporte?'?",
+          "options": [
+            { "id": "o1", "text": "Are you going to use your passport?" },
+            { "id": "o2", "text": "Do you going to use your passport?" },
+            { "id": "o3", "text": "Are you go to use passport?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Pronto voy a estar de vacaciones'?",
+          "options": [
+            { "id": "o1", "text": "I'm going to be on holiday soon." },
+            { "id": "o2", "text": "I am go to be on vacation soon." },
+            { "id": "o3", "text": "Soon I'm going to holiday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ellos van a comprar una guía turística'?",
+          "options": [
+            { "id": "o1", "text": "They are going to buy a guidebook." },
+            { "id": "o2", "text": "They go to buy a guidebook." },
+            { "id": "o3", "text": "They are going buy a guidebook." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No voy a olvidar mi mochila'?",
+          "options": [
+            { "id": "o1", "text": "I'm not going to forget my backpack." },
+            { "id": "o2", "text": "I don't going to forget my bag." },
+            { "id": "o3", "text": "I am not go to forget my backpack." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué vas a visitar primero?'?",
+          "options": [
+            { "id": "o1", "text": "What are you going to visit first?" },
+            { "id": "o2", "text": "What you going to visit first?" },
+            { "id": "o3", "text": "What do you visit first?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vamos a quedarnos en un campamento'?",
+          "options": [
+            { "id": "o1", "text": "We are going to stay at a campsite." },
+            { "id": "o2", "text": "We go to stay in a campsite." },
+            { "id": "o3", "text": "We are going to stay campsite." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Vas a ir solo?'?",
+          "options": [
+            { "id": "o1", "text": "Are you going to go alone?" },
+            { "id": "o2", "text": "Are you going alone?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I98",
+          "type": "flashcard",
+          "prompt_es": "Expresiones de Planes",
+          "flashcards": [
+            { "front": "I'm going to travel", "back": "Voy a viajar", "pronunciation": "/aɪm ˈɡoʊɪŋ tə ˈtrævl/" },
+            { "front": "What are your plans?", "back": "¿Cuáles son tus planes?", "pronunciation": "/wɒt ər jər plænz/" },
+            { "front": "Are you ready?", "back": "¿Estás listo?", "pronunciation": "/ər jə ˈredi/" },
+            { "front": "Have a nice trip!", "back": "¡Que tengas un buen viaje!", "pronunciation": "/hæv ə naɪs trɪp/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Va a ser genial'?",
+          "options": [
+            { "id": "o1", "text": "It's going to be great." },
+            { "id": "o2", "text": "It is going to be cool." },
+            { "id": "o3", "text": "Both are fine" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U31_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Voy a visitar Londres el próximo mes.'",
+          "stimulus_es": "Voy a visitar Londres el próximo mes.",
+          "correct_answer": "I am going to visit London next month.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

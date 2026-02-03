@@ -1,0 +1,1134 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A2",
+    "unit_id": "U33",
+    "unit_title": "Future with 'Will': Predictions",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vocabulary: Predictions & Opinions",
+      "content": [
+        {
+          "interaction_id": "U33_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pensar'?",
+          "options": [
+            { "id": "o1", "text": "To think" },
+            { "id": "o2", "text": "To believe" },
+            { "id": "o3", "text": "To hope" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Creer'?",
+          "options": [
+            { "id": "o1", "text": "To believe" },
+            { "id": "o2", "text": "To think" },
+            { "id": "o3", "text": "To feel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Esperar' (deseo)?",
+          "options": [
+            { "id": "o1", "text": "To hope" },
+            { "id": "o2", "text": "To wait" },
+            { "id": "o3", "text": "To expect" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Probablemente'?",
+          "options": [
+            { "id": "o1", "text": "Probably" },
+            { "id": "o2", "text": "Maybe" },
+            { "id": "o3", "text": "Perhaps" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quizás'?",
+          "options": [
+            { "id": "o1", "text": "Maybe" },
+            { "id": "o2", "text": "Perhaps" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro' (cierto)?",
+          "options": [
+            { "id": "o1", "text": "Sure" },
+            { "id": "o2", "text": "Certain" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Predicción'?",
+          "options": [
+            { "id": "o1", "text": "Prediction" },
+            { "id": "o2", "text": "Future" },
+            { "id": "o3", "text": "Idea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cambio'?",
+          "options": [
+            { "id": "o1", "text": "Change" },
+            { "id": "o2", "text": "Difference" },
+            { "id": "o3", "text": "Update" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mundo'?",
+          "options": [
+            { "id": "o1", "text": "World" },
+            { "id": "o2", "text": "Earth" },
+            { "id": "o3", "text": "Planet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Futuro'?",
+          "options": [
+            { "id": "o1", "text": "Future" },
+            { "id": "o2", "text": "Next" },
+            { "id": "o3", "text": "Tomorrow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "I'm sure", "right": "Estoy seguro/a" },
+            { "id": "p2", "left": "I think so", "right": "Creo que sí" },
+            { "id": "p3", "left": "I hope so", "right": "Espero que sí" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tecnología'?",
+          "options": [
+            { "id": "o1", "text": "Technology" },
+            { "id": "o2", "text": "Technique" },
+            { "id": "o3", "text": "Tools" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Robots'?",
+          "options": [
+            { "id": "o1", "text": "Robots" },
+            { "id": "o2", "text": "Machines" },
+            { "id": "o3", "text": "Computers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Coches voladores'?",
+          "options": [
+            { "id": "o1", "text": "Flying cars" },
+            { "id": "o2", "text": "Fast cars" },
+            { "id": "o3", "text": "Air cars" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'El clima'?",
+          "options": [
+            { "id": "o1", "text": "The weather" },
+            { "id": "o2", "text": "The climate" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I16",
+          "type": "flashcard",
+          "prompt_es": "Verbos de Opinión",
+          "flashcards": [
+            { "front": "I imagine", "back": "Imagino", "pronunciation": "/aɪ ɪˈmædʒɪn/" },
+            { "front": "I expect", "back": "Espero/Supongo", "pronunciation": "/aɪ ɪkˈspekt/" },
+            { "front": "I wonder", "back": "Me pregunto", "pronunciation": "/aɪ ˈwʌndər/" },
+            { "front": "I doubt", "back": "Dudo", "pronunciation": "/aɪ daʊt/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Población'?",
+          "options": [
+            { "id": "o1", "text": "Population" },
+            { "id": "o2", "text": "People" },
+            { "id": "o3", "text": "Citizens" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medio ambiente'?",
+          "options": [
+            { "id": "o1", "text": "Environment" },
+            { "id": "o2", "text": "Nature" },
+            { "id": "o3", "text": "World" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Energía solar'?",
+          "options": [
+            { "id": "o1", "text": "Solar energy" },
+            { "id": "o2", "text": "Sun power" },
+            { "id": "o3", "text": "Light energy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Contaminación'?",
+          "options": [
+            { "id": "o1", "text": "Pollution" },
+            { "id": "o2", "text": "Dirt" },
+            { "id": "o3", "text": "Smoke" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Calentamiento global'?",
+          "options": [
+            { "id": "o1", "text": "Global warming" },
+            { "id": "o2", "text": "World heat" },
+            { "id": "o3", "text": "Climate heat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vida'?",
+          "options": [
+            { "id": "o1", "text": "Life" },
+            { "id": "o2", "text": "Live" },
+            { "id": "o3", "text": "Living" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Espacio'?",
+          "options": [
+            { "id": "o1", "text": "Space" },
+            { "id": "o2", "text": "Stars" },
+            { "id": "o3", "text": "Sky" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Planeta'?",
+          "options": [
+            { "id": "o1", "text": "Planet" },
+            { "id": "o2", "text": "World" },
+            { "id": "o3", "text": "Place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viaje espacial'?",
+          "options": [
+            { "id": "o1", "text": "Space travel" },
+            { "id": "o2", "text": "Star trip" },
+            { "id": "o3", "text": "Rocket fly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diferente'?",
+          "options": [
+            { "id": "o1", "text": "Different" },
+            { "id": "o2", "text": "Same" },
+            { "id": "o3", "text": "Other" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Igual'?",
+          "options": [
+            { "id": "o1", "text": "The same" },
+            { "id": "o2", "text": "Similar" },
+            { "id": "o3", "text": "Equal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mejor' (predicción)?",
+          "options": [
+            { "id": "o1", "text": "Better" },
+            { "id": "o2", "text": "Best" },
+            { "id": "o3", "text": "Gooder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peor' (predicción)?",
+          "options": [
+            { "id": "o1", "text": "Worse" },
+            { "id": "o2", "text": "Worst" },
+            { "id": "o3", "text": "Badder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salud'?",
+          "options": [
+            { "id": "o1", "text": "Health" },
+            { "id": "o2", "text": "Healthy" },
+            { "id": "o3", "text": "Body" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Medicina'?",
+          "options": [
+            { "id": "o1", "text": "Medicine" },
+            { "id": "o2", "text": "Drug" },
+            { "id": "o3", "text": "Cure" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Curar'?",
+          "options": [
+            { "id": "o1", "text": "To cure" },
+            { "id": "o2", "text": "To fix" },
+            { "id": "o3", "text": "To help" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Descubrir'?",
+          "options": [
+            { "id": "o1", "text": "To discover" },
+            { "id": "o2", "text": "To find" },
+            { "id": "o3", "text": "To see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inventar'?",
+          "options": [
+            { "id": "o1", "text": "To invent" },
+            { "id": "o2", "text": "To make" },
+            { "id": "o3", "text": "To build" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U33_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Éxito'?",
+          "options": [
+            { "id": "o1", "text": "Success" },
+            { "id": "o2", "text": "Lucky" },
+            { "id": "o3", "text": "Win" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Future with 'Will'",
+      "content": [
+        {
+          "interaction_id": "U33_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think it ___ (llover) tomorrow.'",
+          "stimulus_en": "I think it ___ tomorrow.",
+          "correct_answer": "will rain",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'People ___ (vivir) on Mars in 100 years.'",
+          "stimulus_en": "People ___ on Mars in 100 years.",
+          "correct_answer": "will live",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Robots ___ (hacer) all the work.'",
+          "stimulus_en": "Robots ___ all the work.",
+          "correct_answer": "will do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'The world ___ (no será) the same.'",
+          "stimulus_en": "The world ___ the same.",
+          "correct_answer": "will not be",
+          "mastery_tag": "grammar",
+          "note": "won't be is also correct."
+        },
+        {
+          "interaction_id": "U33_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Negación: 'Cars ___ (no volarán) soon.'",
+          "stimulus_en": "Cars ___ soon.",
+          "correct_answer": "won't fly",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Será?) the future better?'",
+          "stimulus_en": "___ the future be better?",
+          "correct_answer": "Will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta: '___ (¿Qué pasará?) next year?'",
+          "stimulus_en": "What ___ happen next year?",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I43",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / believe / life / will / change / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "believe" },
+            { "id": "w3", "text": "life" },
+            { "id": "w4", "text": "will" },
+            { "id": "w5", "text": "change" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I44",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'It / will / not / be / easy / .'",
+          "options": [
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "will" },
+            { "id": "w3", "text": "not" },
+            { "id": "w4", "text": "be" },
+            { "id": "w5", "text": "easy" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I hope you ___ (tener) a nice trip.'",
+          "stimulus_en": "I hope you ___ a nice trip.",
+          "correct_answer": "will have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Probably, he ___ (estar) here at 6.'",
+          "stimulus_en": "Probably, he ___ here at 6.",
+          "correct_answer": "will be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Maybe it ___ (hacer sol) tomorrow.'",
+          "stimulus_en": "Maybe it ___ sunny tomorrow.",
+          "correct_answer": "will be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (no estará) happy about this.'",
+          "stimulus_en": "She ___ happy about this.",
+          "correct_answer": "won't be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (¿Vendrán ellos?) to the concert?'",
+          "stimulus_en": "___ they come to the concert?",
+          "correct_answer": "Will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm sure you ___ (ganar).'",
+          "stimulus_en": "I'm sure you ___.",
+          "correct_answer": "will win",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta de 'Will'?",
+          "options": [
+            { "id": "o1", "text": "He wills be happy." },
+            { "id": "o2", "text": "He will be happy." },
+            { "id": "o3", "text": "He will being happy." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la negación correcta?",
+          "options": [
+            { "id": "o1", "text": "It won't rain." },
+            { "id": "o2", "text": "It willn't rain." },
+            { "id": "o3", "text": "It not will rain." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "Will you be there?" },
+            { "id": "o2", "text": "Do you will be there?" },
+            { "id": "o3", "text": "You will be there?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Will se usa para:",
+          "options": [
+            { "id": "o1", "text": "Arreglos fijos (agenda)" },
+            { "id": "o2", "text": "Predicciones y opiniones" },
+            { "id": "o3", "text": "Intenciones claras" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The city ___ (será) very big.'",
+          "stimulus_en": "The city ___ very big.",
+          "correct_answer": "will be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I believe we ___ (encontrar) a cure.'",
+          "stimulus_en": "I believe we ___ a cure.",
+          "correct_answer": "will find",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Prices ___ (subirán) next year.'",
+          "stimulus_en": "Prices ___ next year.",
+          "correct_answer": "will go up",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Everything ___ (cambiará).'",
+          "stimulus_en": "Everything ___.",
+          "correct_answer": "will change",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (no olvidarán) this.'",
+          "stimulus_en": "They ___ this.",
+          "correct_answer": "won't forget",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (¿Vivirás?) abroad in the future?'",
+          "stimulus_en": "___ you live abroad in the future?",
+          "correct_answer": "Will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / hope / she / will / come / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "hope" },
+            { "id": "w3", "text": "she" },
+            { "id": "w4", "text": "will" },
+            { "id": "w5", "text": "come" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I62",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Will / they / win / the / game / ?'",
+          "options": [
+            { "id": "w1", "text": "Will" },
+            { "id": "w2", "text": "they" },
+            { "id": "w3", "text": "win" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "game" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Maybe he ___ (llamar) later.'",
+          "stimulus_en": "Maybe he ___ later.",
+          "correct_answer": "will call",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Life ___ (no será) easy.'",
+          "stimulus_en": "Life ___ easy.",
+          "correct_answer": "won't be",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think you ___ (disfrutar) the film.'",
+          "stimulus_en": "I think you ___ the film.",
+          "correct_answer": "will enjoy",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Who ___ (ganará) the election?'",
+          "stimulus_en": "Who ___ win the election?",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Technolgy ___ (ayudará) us.'",
+          "stimulus_en": "Technology ___ us.",
+          "correct_answer": "will help",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It ___ (será) a success.'",
+          "stimulus_en": "It ___ be a success.",
+          "correct_answer": "will",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (no te arrepentirás).'",
+          "stimulus_en": "You ___ it.",
+          "correct_answer": "won't regret",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U33_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I am sure they ___ (estar) happy.'",
+          "stimulus_en": "I am sure they ___ happy.",
+          "correct_answer": "will be",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Communication: Expressing Opinions & Predictions",
+      "content": [
+        {
+          "interaction_id": "U33_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Creo que lloverá'?",
+          "options": [
+            { "id": "o1", "text": "I think it will rain." },
+            { "id": "o2", "text": "I think it rains." },
+            { "id": "o3", "text": "I think it's going to rain." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Espero que ganes'?",
+          "options": [
+            { "id": "o1", "text": "I hope you will win." },
+            { "id": "o2", "text": "I hope you win." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Probablemente él vendrá'?",
+          "options": [
+            { "id": "o1", "text": "He will probably come." },
+            { "id": "o2", "text": "Probably he comes." },
+            { "id": "o3", "text": "He probably will come." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Crees que será difícil?'?",
+          "options": [
+            { "id": "o1", "text": "Do you think it will be difficult?" },
+            { "id": "o2", "text": "Do you think it's difficult?" },
+            { "id": "o3", "text": "Think you it will be hard?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No creo que ella venga'?",
+          "options": [
+            { "id": "o1", "text": "I don't think she will come." },
+            { "id": "o2", "text": "I think she won't come." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Quizás el tiempo cambie'?",
+          "options": [
+            { "id": "o1", "text": "Maybe the weather will change." },
+            { "id": "o2", "text": "Perhaps the climate changes." },
+            { "id": "o3", "text": "Maybe the weather changes." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'En el futuro habrá robots'?",
+          "options": [
+            { "id": "o1", "text": "There will be robots in the future." },
+            { "id": "o2", "text": "There are robots in the future." },
+            { "id": "o3", "text": "Robots will be in future." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Estoy seguro de que te gustará'?",
+          "options": [
+            { "id": "o1", "text": "I'm sure you will like it." },
+            { "id": "o2", "text": "I sure you like it." },
+            { "id": "o3", "text": "I'm certain you like it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La vida será muy diferente'?",
+          "options": [
+            { "id": "o1", "text": "Life will be very different." },
+            { "id": "o2", "text": "Life will is different." },
+            { "id": "o3", "text": "Life is going to be different." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué pasará con el planeta?'?",
+          "options": [
+            { "id": "o1", "text": "What will happen to the planet?" },
+            { "id": "o2", "text": "What happens to the planet?" },
+            { "id": "o3", "text": "What will happen with planet?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Dudo que él apruebe'?",
+          "options": [
+            { "id": "o1", "text": "I doubt he will pass." },
+            { "id": "o2", "text": "I doubt he passes." },
+            { "id": "o3", "text": "I don't think he pass." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Creo que sí'?",
+          "options": [
+            { "id": "o1", "text": "I think so." },
+            { "id": "o2", "text": "I think yes." },
+            { "id": "o3", "text": "I believe so." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Espero que no'?",
+          "options": [
+            { "id": "o1", "text": "I hope not." },
+            { "id": "o2", "text": "I hope no." },
+            { "id": "o3", "text": "I expect not." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La medicina curará muchas enfermedades'?",
+          "options": [
+            { "id": "o1", "text": "Medicine will cure many diseases." },
+            { "id": "o2", "text": "Medicine cures many diseases." },
+            { "id": "o3", "text": "Doctors will cure diseases." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Habrá menos contaminación'?",
+          "options": [
+            { "id": "o1", "text": "There will be less pollution." },
+            { "id": "o2", "text": "Will be less pollution." },
+            { "id": "o3", "text": "There will have less pollution." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Habrá coches voladores?'?",
+          "options": [
+            { "id": "o1", "text": "Will there be flying cars?" },
+            { "id": "o2", "text": "Will be there flying cars?" },
+            { "id": "o3", "text": "There will be flying cars?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Usaremos energía solar'?",
+          "options": [
+            { "id": "o1", "text": "We will use solar energy." },
+            { "id": "o2", "text": "We use solar energy." },
+            { "id": "o3", "text": "We are use solar energy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La gente vivirá más tiempo'?",
+          "options": [
+            { "id": "o1", "text": "People will live longer." },
+            { "id": "o2", "text": "People will live more time." },
+            { "id": "o3", "text": "Life will be longer." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El mundo no se detendrá'?",
+          "options": [
+            { "id": "o1", "text": "The world won't stop." },
+            { "id": "o2", "text": "The world will not stop." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I90",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'I / think / you / will / be / successful / .'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "think" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "will" },
+            { "id": "w5", "text": "be" },
+            { "id": "w6", "text": "successful" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Crees que lloverá mañana?'?",
+          "options": [
+            { "id": "o1", "text": "Do you think it will rain tomorrow?" },
+            { "id": "o2", "text": "Think you it will rain?" },
+            { "id": "o3", "text": "Will it rain tomorrow?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Probablemente no hará frío'?",
+          "options": [
+            { "id": "o1", "text": "It probably won't be cold." },
+            { "id": "o2", "text": "Probably it not be cold." },
+            { "id": "o3", "text": "It won't probably cold." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Espero que encuentres tu camino'?",
+          "options": [
+            { "id": "o1", "text": "I hope you will find your way." },
+            { "id": "o2", "text": "I hope you find way." },
+            { "id": "o3", "text": "Hope you find your way." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Será una sorpresa'?",
+          "options": [
+            { "id": "o1", "text": "It will be a surprise." },
+            { "id": "o2", "text": "It's going to be surprise." },
+            { "id": "o3", "text": "Will be a surprise." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué dirá la gente?'?",
+          "options": [
+            { "id": "o1", "text": "What will people say?" },
+            { "id": "o2", "text": "What people will say?" },
+            { "id": "o3", "text": "What do people say?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No pasará nada'?",
+          "options": [
+            { "id": "o1", "text": "Nothing will happen." },
+            { "id": "o2", "text": "It won't happen nothing." },
+            { "id": "o3", "text": "Anything won't happen." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Todo saldrá bien'?",
+          "options": [
+            { "id": "o1", "text": "Everything will be fine." },
+            { "id": "o2", "text": "All will be okay." },
+            { "id": "o3", "text": "Both are fine" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I98",
+          "type": "flashcard",
+          "prompt_es": "Predicciones Futuras",
+          "flashcards": [
+            { "front": "I believe so", "back": "Creo que sí", "pronunciation": "/aɪ bɪˈliːv soʊ/" },
+            { "front": "Who knows?", "back": "¿Quién sabe?", "pronunciation": "/huː noʊz/" },
+            { "front": "In the long term", "back": "A largo plazo", "pronunciation": "/ɪn ðə lɒŋ tɜːrm/" },
+            { "front": "Everything changes", "back": "Todo cambia", "pronunciation": "/ˈevriθɪŋ ˈtʃeɪndʒɪz/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Ya verás!'?",
+          "options": [
+            { "id": "o1", "text": "You will see!" },
+            { "id": "o2", "text": "You'll see!" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U33_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Creo que el futuro será mejor gracias a la tecnología.'",
+          "stimulus_es": "Creo que el futuro será mejor gracias a la tecnología.",
+          "correct_answer": "I think the future will be better because of technology.",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

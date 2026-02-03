@@ -24,16 +24,16 @@
 - **Unit 19**: Clothes, Styles & Materials (Cotton, striped, smart)
 - **Unit 20**: Module 2 Review & Assessment
 
-## Module 3: Past & Memories (Units 21-30)
+## Module 3: Past, Nature & Experiences (Units 21-30)
 - **Unit 21**: Past Simple: To Be & Regular Verbs (Review)
 - **Unit 22**: Past Simple: Irregular Verbs (Common irregulars)
 - **Unit 23**: Past Simple: Questions & Negatives (Did you...? I didn't...)
 - **Unit 24**: A Day to Remember (Narrating a specific past event)
 - **Unit 25**: Childhood & School Days (Memories of growing up)
-- **Unit 26**: Past Continuous: Setting the Scene (I was walking...)
-- **Unit 27**: Past Simple vs Past Continuous (Interrupted actions)
-- **Unit 28**: Important Dates & Years (Historical events, centuries)
-- **Unit 29**: Famous People & Biographies (Life stories)
+- **Unit 26**: Travel Experiences (Logical connectors: but, so, because)
+- **Unit 27**: Nature & Landscapes (Comparative Adjectives)
+- **Unit 28**: Extreme Weather (Superlative Adjectives)
+- **Unit 29**: Life Stories & Biographies (Past Review & Sequencing)
 - **Unit 30**: Module 3 Review & Assessment
 
 ## Module 4: Future & Plans (Units 31-40)

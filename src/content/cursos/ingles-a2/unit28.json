@@ -4,194 +4,1108 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U28",
-    "unit_title": "Fashion and style",
-    "total_duration_minutes": 120
+    "unit_title": "Extreme Weather",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B28",
-      "title": "Fashion and style",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Weather Conditions",
       "content": [
         {
           "interaction_id": "U28_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tormenta'?",
+          "options": [
+            { "id": "o1", "text": "Storm" },
+            { "id": "o2", "text": "Rain" },
+            { "id": "o3", "text": "Wind" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Rayo' (relámpago)?",
+          "options": [
+            { "id": "o1", "text": "Lightning" },
+            { "id": "o2", "text": "Thunder" },
+            { "id": "o3", "text": "Beam" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 28 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trueno'?",
+          "options": [
+            { "id": "o1", "text": "Thunder" },
+            { "id": "o2", "text": "Lightning" },
+            { "id": "o3", "text": "Noise" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inundación'?",
           "options": [
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "28"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            }
+            { "id": "o1", "text": "Flood" },
+            { "id": "o2", "text": "River" },
+            { "id": "o3", "text": "Wave" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'Sequía'?",
           "options": [
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            }
+            { "id": "o1", "text": "Drought" },
+            { "id": "o2", "text": "Dryness" },
+            { "id": "o3", "text": "Desert" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tienda",
-          "correct_answer": "Shop",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Huracán'?",
+          "options": [
+            { "id": "o1", "text": "Hurricane" },
+            { "id": "o2", "text": "Tornado" },
+            { "id": "o3", "text": "Windstorm" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'Tornado'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Tornado" },
+            { "id": "o2", "text": "Hurricane" },
+            { "id": "o3", "text": "Twister" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Helado' (muy frío)?",
+          "options": [
+            { "id": "o1", "text": "Freezing" },
+            { "id": "o2", "text": "Frozen" },
+            { "id": "o3", "text": "Coldly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hirviendo' (muy caliente)?",
+          "options": [
+            { "id": "o1", "text": "Boiling" },
+            { "id": "o2", "text": "Heating" },
+            { "id": "o3", "text": "Burning" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
-        },
-        {
-          "interaction_id": "U28_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'Húmedo'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Humid" },
+            { "id": "o2", "text": "Wet" },
+            { "id": "o3", "text": "Damp" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U28_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Foggy", "right": "Neblinoso" },
+            { "id": "p2", "left": "Slippery", "right": "Resbaladizo" },
+            { "id": "p3", "left": "Emergency", "right": "Emergencia" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Corte de luz'?",
+          "options": [
+            { "id": "o1", "text": "Power cut" },
+            { "id": "o2", "text": "Blackout" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hielo'?",
+          "options": [
+            { "id": "o1", "text": "Ice" },
+            { "id": "o2", "text": "Snow" },
+            { "id": "o3", "text": "Frost" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nieve'?",
+          "options": [
+            { "id": "o1", "text": "Snow" },
+            { "id": "o2", "text": "Ice" },
+            { "id": "o3", "text": "Hail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Granizo'?",
+          "options": [
+            { "id": "o1", "text": "Hail" },
+            { "id": "o2", "text": "Ice balls" },
+            { "id": "o3", "text": "Hard rain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I16",
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de Clima Extremo",
+          "flashcards": [
+            { "front": "Heavy rain", "back": "Lluvia intensa", "pronunciation": "/ˈhevi reɪn/" },
+            { "front": "Strong winds", "back": "Vientos fuertes", "pronunciation": "/strɒŋ wɪndz/" },
+            { "front": "Heatwave", "back": "Ola de calor", "pronunciation": "/ˈhiːtweɪv/" },
+            { "front": "Wildfire", "back": "Incendio forestal", "pronunciation": "/ˈwaɪldfaɪər/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U28_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 28 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Paraguas'?",
+          "options": [
+            { "id": "o1", "text": "Umbrella" },
+            { "id": "o2", "text": "Raincoat" },
+            { "id": "o3", "text": "Cover" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Chubasquero'?",
+          "options": [
+            { "id": "o1", "text": "Raincoat" },
+            { "id": "o2", "text": "Umbrella" },
+            { "id": "o3", "text": "Jacket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Botas de agua'?",
+          "options": [
+            { "id": "o1", "text": "Wellies" },
+            { "id": "o2", "text": "Rain boots" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Linterna'?",
+          "options": [
+            { "id": "o1", "text": "Flashlight" },
+            { "id": "o2", "text": "Torch" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Peligroso'?",
+          "options": [
+            { "id": "o1", "text": "Dangerous" },
+            { "id": "o2", "text": "Safe" },
+            { "id": "o3", "text": "Risky" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro'?",
+          "options": [
+            { "id": "o1", "text": "Safe" },
+            { "id": "o2", "text": "Danger" },
+            { "id": "o3", "text": "Sure" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuidado'!",
+          "options": [
+            { "id": "o1", "text": "Watch out!" },
+            { "id": "o2", "text": "Careful!" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U28_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Refugio'?",
+          "options": [
+            { "id": "o1", "text": "Shelter" },
+            { "id": "o2", "text": "House" },
+            { "id": "o3", "text": "Cover" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Advertencia'?",
+          "options": [
+            { "id": "o1", "text": "Warning" },
+            { "id": "o2", "text": "News" },
+            { "id": "o3", "text": "Note" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pronóstico'?",
+          "options": [
+            { "id": "o1", "text": "Forecast" },
+            { "id": "o2", "text": "Future" },
+            { "id": "o3", "text": "Plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bajo cero'?",
+          "options": [
+            { "id": "o1", "text": "Below zero" },
+            { "id": "o2", "text": "Under zero" },
+            { "id": "o3", "text": "Down zero" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desastre'?",
+          "options": [
+            { "id": "o1", "text": "Disaster" },
+            { "id": "o2", "text": "Problem" },
+            { "id": "o3", "text": "Event" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Rescatar'?",
+          "options": [
+            { "id": "o1", "text": "To rescue" },
+            { "id": "o2", "text": "To save" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viento'?",
+          "options": [
+            { "id": "o1", "text": "Wind" },
+            { "id": "o2", "text": "Air" },
+            { "id": "o3", "text": "Breeze" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bruma'?",
+          "options": [
+            { "id": "o1", "text": "Mist" },
+            { "id": "o2", "text": "Fog" },
+            { "id": "o3", "text": "Both are similar" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Rayo' (sol)?",
+          "options": [
+            { "id": "o1", "text": "Ray" },
+            { "id": "o2", "text": "Beam" },
+            { "id": "o3", "text": "Light" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Grados'?",
+          "options": [
+            { "id": "o1", "text": "Degrees" },
+            { "id": "o2", "text": "Grades" },
+            { "id": "o3", "text": "Steps" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hielo negro' (en la carretera)?",
+          "options": [
+            { "id": "o1", "text": "Black ice" },
+            { "id": "o2", "text": "Dark ice" },
+            { "id": "o3", "text": "Hard ice" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Supervivencia'?",
+          "options": [
+            { "id": "o1", "text": "Survival" },
+            { "id": "o2", "text": "Living" },
+            { "id": "o3", "text": "Life" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Superlatives (Best, Worst, Furthest)",
+      "content": [
+        {
+          "interaction_id": "U28_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el superlativo: 'This is the ___ (peor) storm of the year.'",
+          "stimulus_en": "This is the ___ storm of the year.",
+          "correct_answer": "worst",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U28_I37",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el superlativo: 'Antarctica is the ___ (más frío) place on Earth.'",
+          "stimulus_en": "Antarctica is the ___ place on Earth.",
+          "correct_answer": "coldest",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el superlativo: 'Death Valley is the ___ (más caluroso) place.'",
+          "stimulus_en": "Death Valley is the ___ place.",
+          "correct_answer": "hottest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el irregular: 'The ___ (mejor) thing to do is stay inside.'",
+          "stimulus_en": "The ___ thing to do is stay inside.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el irregular: 'Which city is the ___ (más lejana)?'",
+          "stimulus_en": "Which city is the ___?",
+          "correct_answer": "furthest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's the ___ (más peligroso) hurricane ever.'",
+          "stimulus_en": "It's the ___ dangerous hurricane ever.",
+          "correct_answer": "most",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Today is the ___ (más húmedo) day of the week.'",
+          "stimulus_en": "Today is the ___ day of the week.",
+          "correct_answer": "humidest",
+          "mastery_tag": "grammar",
+          "note": "A2 levels often accept humidest or most humid; most humid is more common."
+        },
+        {
+          "interaction_id": "U28_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más fuerte) wind was 200 km/h.'",
+          "stimulus_en": "The ___ wind was 200 km/h.",
+          "correct_answer": "strongest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más profunda) flood destroyed the bridge.'",
+          "stimulus_en": "The ___ flood destroyed the bridge.",
+          "correct_answer": "deepest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This is the ___ (más seca) season.'",
+          "stimulus_en": "This is the ___ season.",
+          "correct_answer": "driest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It was the ___ (más ruidoso) thunder I heard.'",
+          "stimulus_en": "It was the ___ thunder I heard.",
+          "correct_answer": "loudest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más brillante) lightning was amazing.'",
+          "stimulus_en": "The ___ lightning was amazing.",
+          "correct_answer": "brightest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is this the ___ (más lluvioso) month?'",
+          "stimulus_en": "Is this the ___ month?",
+          "correct_answer": "rainiest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He is the ___ (más rápido) rescuer.'",
+          "stimulus_en": "He is the ___ rescuer.",
+          "correct_answer": "fastest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más alto) temperature was 45°C.'",
+          "stimulus_en": "The ___ temperature was 45°C.",
+          "correct_answer": "highest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el superlativo de 'Good'?",
+          "options": [
+            { "id": "o1", "text": "Best" },
+            { "id": "o2", "text": "Goodest" },
+            { "id": "o3", "text": "Most good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el superlativo de 'Bad'?",
+          "options": [
+            { "id": "o1", "text": "Worst" },
+            { "id": "o2", "text": "Baddest" },
+            { "id": "o3", "text": "Most bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el superlativo de 'Far'?",
+          "options": [
+            { "id": "o1", "text": "Furthest" },
+            { "id": "o2", "text": "Farthest" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el superlativo de 'Easy'?",
+          "options": [
+            { "id": "o1", "text": "Easiest" },
+            { "id": "o2", "text": "Most easy" },
+            { "id": "o3", "text": "Easyest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el superlativo de 'Intense'?",
+          "options": [
+            { "id": "o1", "text": "Intensest" },
+            { "id": "o2", "text": "Most intense" },
+            { "id": "o3", "text": "The intense" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más bajo) temperature was -10°C.'",
+          "stimulus_en": "The ___ temperature was -10°C.",
+          "correct_answer": "lowest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This is the ___ (más ruidosa) city.'",
+          "stimulus_en": "This is the ___ city.",
+          "correct_answer": "noisiest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She is the ___ (más inteligente) student.'",
+          "stimulus_en": "She is the ___ intelligent student.",
+          "correct_answer": "most",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's the ___ (más aburrido) forecast.'",
+          "stimulus_en": "It's the ___ boring forecast.",
+          "correct_answer": "most",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'This / is / the / worst / flood / in / history / .'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "worst" },
+            { "id": "w5", "text": "flood" },
+            { "id": "w6", "text": "in" },
+            { "id": "w7", "text": "history" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más ventosa) area is the coast.'",
+          "stimulus_en": "The ___ area is the coast.",
+          "correct_answer": "windiest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It was the ___ (más nublado) morning.'",
+          "stimulus_en": "It was the ___ morning.",
+          "correct_answer": "cloudiest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'This is the ___ (más nevado) winter.'",
+          "stimulus_en": "This is the ___ winter.",
+          "correct_answer": "snowiest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más ocupado) emergency room.'",
+          "stimulus_en": "The ___ emergency room.",
+          "correct_answer": "busiest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's the ___ (más impresionante) storm.'",
+          "stimulus_en": "It's the ___ impressive storm.",
+          "correct_answer": "most",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (mejor) news is it stopped raining.'",
+          "stimulus_en": "The ___ news is it stopped raining.",
+          "correct_answer": "best",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'That was the ___ (peor) day ever.'",
+          "stimulus_en": "That was the ___ day ever.",
+          "correct_answer": "worst",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más lejana) point on the map.'",
+          "stimulus_en": "The ___ point on the map.",
+          "correct_answer": "furthest",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más útil) tool is a torch.'",
+          "stimulus_en": "The ___ useful tool is a torch.",
+          "correct_answer": "most",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U28_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (más resbaladizo) road is the mountain one.'",
+          "stimulus_en": "The ___ road is the mountain one.",
+          "correct_answer": "slipperiest",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Talking about Weather Emergencies",
+      "content": [
+        {
+          "interaction_id": "U28_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál fue la peor tormenta?'?",
+          "options": [
+            { "id": "o1", "text": "Which was the worst storm?" },
+            { "id": "o2", "text": "What was the badder storm?" },
+            { "id": "o3", "text": "Which was the most bad storm?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'La de anoche fue la peor'?",
+          "options": [
+            { "id": "o1", "text": "Last night's was the worst." },
+            { "id": "o2", "text": "Last night was the worstest." },
+            { "id": "o3", "text": "The of last night was worst." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo adviertes '¡Ten cuidado! La carretera está helada'?",
+          "options": [
+            { "id": "o1", "text": "Be careful! The road is freezing." },
+            { "id": "o2", "text": "Be care! The road is frozen." },
+            { "id": "o3", "text": "Watch out! The road is icy." }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué debemos hacer en una inundación?'?",
+          "options": [
+            { "id": "o1", "text": "What should we do in a flood?" },
+            { "id": "o2", "text": "What we do in flood?" },
+            { "id": "o3", "text": "How we do in a flood?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Debemos buscar refugio'?",
+          "options": [
+            { "id": "o1", "text": "We should find shelter." },
+            { "id": "o2", "text": "We should search house." },
+            { "id": "o3", "text": "We must look a shelter." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hubo un corte de luz por la tormenta'?",
+          "options": [
+            { "id": "o1", "text": "There was a power cut because of the storm." },
+            { "id": "o2", "text": "Was a power cut due the storm." },
+            { "id": "o3", "text": "There were a blackout." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Estás a salvo?'?",
+          "options": [
+            { "id": "o1", "text": "Are you safe?" },
+            { "id": "o2", "text": "Are you sure?" },
+            { "id": "o3", "text": "Do you safe?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Sí, estoy en casa'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I'm at home." },
+            { "id": "o2", "text": "Yes, I'm in house." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Fue el tornado más peligroso de la historia.'",
+          "stimulus_es": "Fue el tornado más peligroso de la historia.",
+          "correct_answer": "It was the most dangerous tornado in history.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'El pronóstico dice que será el día más caluroso.'",
+          "stimulus_es": "El pronóstico dice que será el día más caluroso.",
+          "correct_answer": "The forecast says it will be the hottest day.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No puedo ver nada por la niebla'?",
+          "options": [
+            { "id": "o1", "text": "I can't see anything because of the fog." },
+            { "id": "o2", "text": "I can't see nothing due to fog." },
+            { "id": "o3", "text": "I don't see anything for the fog." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Usa tu linterna!'?",
+          "options": [
+            { "id": "o1", "text": "Use your flashlight!" },
+            { "id": "o2", "text": "Use your torch!" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I83",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'This / is / the / coldest / winter / in / 50 / years / .'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "coldest" },
+            { "id": "w5", "text": "winter" },
+            { "id": "w6", "text": "in" },
+            { "id": "w7", "text": "50" },
+            { "id": "w8", "text": "years" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La carretera está muy resbaladiza'?",
+          "options": [
+            { "id": "o1", "text": "The road is very slippery." },
+            { "id": "o2", "text": "The road is too slippy." },
+            { "id": "o3", "text": "Is very slippery the road." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una emergencia nacional'?",
+          "options": [
+            { "id": "o1", "text": "It's a national emergency." },
+            { "id": "o2", "text": "Is an emergency national." },
+            { "id": "o3", "text": "It's emergency national." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Escuchamos un trueno muy fuerte'?",
+          "options": [
+            { "id": "o1", "text": "We heard a very loud thunder." },
+            { "id": "o2", "text": "We listened a loud thunder." },
+            { "id": "o3", "text": "Heard we a loud thunder." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vimos un rayo en el cielo'?",
+          "options": [
+            { "id": "o1", "text": "We saw lightning in the sky." },
+            { "id": "o2", "text": "We saw a ray in sky." },
+            { "id": "o3", "text": "Saw we lightning in the sky." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El sótano se inundó'?",
+          "options": [
+            { "id": "o1", "text": "The basement flooded." },
+            { "id": "o2", "text": "The basement was flood." },
+            { "id": "o3", "text": "Basement flooded." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es el lugar más húmedo'?",
+          "options": [
+            { "id": "o1", "text": "It's the most humid place." },
+            { "id": "o2", "text": "It's the humidest place." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál es la mejor linterna?'?",
+          "options": [
+            { "id": "o1", "text": "Which is the best flashlight?" },
+            { "id": "o2", "text": "What is the goodest torch?" },
+            { "id": "o3", "text": "Which is most good torch?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Esta es la peor sequía'?",
+          "options": [
+            { "id": "o1", "text": "This is the worst drought." },
+            { "id": "o2", "text": "This is the baddest drought." },
+            { "id": "o3", "text": "Is the worst drought this." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Llamamos a los servicios de rescate'?",
+          "options": [
+            { "id": "o1", "text": "We called the rescue services." },
+            { "id": "o2", "text": "We call the rescue." },
+            { "id": "o3", "text": "Called we the rescuers." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es hirviendo afuera'?",
+          "options": [
+            { "id": "o1", "text": "It's boiling outside." },
+            { "id": "o2", "text": "It's boiling out." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está helando hoy'?",
+          "options": [
+            { "id": "o1", "text": "It's freezing today." },
+            { "id": "o2", "text": "Is freezing today." },
+            { "id": "o3", "text": "It's cold today." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La advertencia es seria'?",
+          "options": [
+            { "id": "o1", "text": "The warning is serious." },
+            { "id": "o2", "text": "The warn is serious." },
+            { "id": "o3", "text": "Is serious the warning." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El refugio está lleno'?",
+          "options": [
+            { "id": "o1", "text": "The shelter is full." },
+            { "id": "o2", "text": "The shelter is crowded." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La tormenta fue la más impresionante'?",
+          "options": [
+            { "id": "o1", "text": "The storm was the most impressive." },
+            { "id": "o2", "text": "The storm was impressivest." },
+            { "id": "o3", "text": "Was the most impressive storm." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I98",
+          "type": "flashcard",
+          "prompt_es": "Resumen de Clima Extremo",
+          "flashcards": [
+            { "front": "Stay safe", "back": "Mantente a salvo", "pronunciation": "/steɪ seɪf/" },
+            { "front": "A big disaster", "back": "Un gran desastre", "pronunciation": "/ə bɪɡ dɪˈzæstər/" },
+            { "front": "Severe weather", "back": "Clima severo", "pronunciation": "/sɪˈvɪər ˈweðər/" },
+            { "front": "Power outage", "back": "Corte de energía", "pronunciation": "/ˈpaʊər ˈaʊtɪdʒ/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Este es el lugar más ventoso'?",
+          "options": [
+            { "id": "o1", "text": "This is the windiest place." },
+            { "id": "o2", "text": "This is the most windy place." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U28_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'La inundación fue la peor parte del desastre.'",
+          "stimulus_es": "La inundación fue la peor parte del desastre.",
+          "correct_answer": "The flood was the worst part of the disaster.",
+          "mastery_tag": "communication"
         }
       ]
     }

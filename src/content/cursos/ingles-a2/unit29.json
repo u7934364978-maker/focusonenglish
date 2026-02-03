@@ -4,179 +4,1108 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U29",
-    "unit_title": "Science and innovation",
-    "total_duration_minutes": 120
+    "unit_title": "Life Stories & Biographies",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B29",
-      "title": "Science and innovation",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Life Milestones",
       "content": [
         {
           "interaction_id": "U29_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nacer'?",
+          "options": [
+            { "id": "o1", "text": "To be born" },
+            { "id": "o2", "text": "To birth" },
+            { "id": "o3", "text": "To borned" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Crecer' (en un lugar)?",
+          "options": [
+            { "id": "o1", "text": "To grow up" },
+            { "id": "o2", "text": "To grow in" },
+            { "id": "o3", "text": "To increase" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Graduarse'?",
+          "options": [
+            { "id": "o1", "text": "To graduate" },
+            { "id": "o2", "text": "To finish" },
+            { "id": "o3", "text": "To degree" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Casarse'?",
           "options": [
-            {
-              "id": "w0",
-              "text": "We"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w2",
-              "text": "learning"
-            }
+            { "id": "o1", "text": "To get married" },
+            { "id": "o2", "text": "To marry" },
+            { "id": "o3", "text": "Both are common" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'Mudarse'?",
           "options": [
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            }
+            { "id": "o1", "text": "To move" },
+            { "id": "o2", "text": "To change" },
+            { "id": "o3", "text": "To travel" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tienda",
-          "correct_answer": "Shop",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ganar un premio'?",
+          "options": [
+            { "id": "o1", "text": "To win an award" },
+            { "id": "o2", "text": "To gain a price" },
+            { "id": "o3", "text": "To win a gift" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'Jubilarse'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "To retire" },
+            { "id": "o2", "text": "To stop working" },
+            { "id": "o3", "text": "To rest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Morir'?",
+          "options": [
+            { "id": "o1", "text": "To die" },
+            { "id": "o2", "text": "To death" },
+            { "id": "o3", "text": "To dead" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I9",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Exitoso'?",
+          "options": [
+            { "id": "o1", "text": "Successful" },
+            { "id": "o2", "text": "Succeed" },
+            { "id": "o3", "text": "Success" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inspirador'?",
+          "options": [
+            { "id": "o1", "text": "Inspiring" },
+            { "id": "o2", "text": "Inspired" },
+            { "id": "o3", "text": "Inspiration" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Career", "right": "Trayectoria profesional" },
+            { "id": "p2", "left": "Achievement", "right": "Logro" },
+            { "id": "p3", "left": "Ambition", "right": "Ambición" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Famoso'?",
+          "options": [
+            { "id": "o1", "text": "Famous" },
+            { "id": "o2", "text": "Well-known" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Científico'?",
+          "options": [
+            { "id": "o1", "text": "Scientist" },
+            { "id": "o2", "text": "Science" },
+            { "id": "o3", "text": "Scientific" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escritor'?",
+          "options": [
+            { "id": "o1", "text": "Writer" },
+            { "id": "o2", "text": "Author" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Líder'?",
+          "options": [
+            { "id": "o1", "text": "Leader" },
+            { "id": "o2", "text": "Boss" },
+            { "id": "o3", "text": "Head" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I16",
+          "type": "flashcard",
+          "prompt_es": "Hitos de la Vida",
+          "flashcards": [
+            { "front": "Childhood", "back": "Infancia", "pronunciation": "/ˈtʃaɪldhʊd/" },
+            { "front": "Teenager", "back": "Adolescente", "pronunciation": "/ˈtiːneɪdʒər/" },
+            { "front": "Adult", "back": "Adulto", "pronunciation": "/əˈdʌlt/" },
+            { "front": "Old age", "back": "Vejez", "pronunciation": "/oʊld eɪdʒ/" }
+          ],
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 29 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Primer paso'?",
+          "options": [
+            { "id": "o1", "text": "First step" },
+            { "id": "o2", "text": "Initial walk" },
+            { "id": "o3", "text": "Primary step" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Última voluntad'?",
+          "options": [
+            { "id": "o1", "text": "Last will" },
+            { "id": "o2", "text": "Final wish" },
+            { "id": "o3", "text": "End desire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Legado'?",
+          "options": [
+            { "id": "o1", "text": "Legacy" },
+            { "id": "o2", "text": "History" },
+            { "id": "o3", "text": "Gift" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Contribución'?",
+          "options": [
+            { "id": "o1", "text": "Contribution" },
+            { "id": "o2", "text": "Help" },
+            { "id": "o3", "text": "Work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I21",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'Descubrimiento'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shop"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Discovery" },
+            { "id": "o2", "text": "Finding" },
+            { "id": "o3", "text": "Invention" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Invento'?",
+          "options": [
+            { "id": "o1", "text": "Invention" },
+            { "id": "o2", "text": "Machine" },
+            { "id": "o3", "text": "Tool" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Talento'?",
+          "options": [
+            { "id": "o1", "text": "Talent" },
+            { "id": "o2", "text": "Skill" },
+            { "id": "o3", "text": "Ability" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pasión'?",
+          "options": [
+            { "id": "o1", "text": "Passion" },
+            { "id": "o2", "text": "Love" },
+            { "id": "o3", "text": "Interest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Obstáculo'?",
+          "options": [
+            { "id": "o1", "text": "Obstacle" },
+            { "id": "o2", "text": "Problem" },
+            { "id": "o3", "text": "Wall" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Superar'?",
+          "options": [
+            { "id": "o1", "text": "To overcome" },
+            { "id": "o2", "text": "To pass" },
+            { "id": "o3", "text": "To win" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Inspirar'?",
+          "options": [
+            { "id": "o1", "text": "To inspire" },
+            { "id": "o2", "text": "To give ideas" },
+            { "id": "o3", "text": "To motivate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cambiar el mundo'?",
+          "options": [
+            { "id": "o1", "text": "To change the world" },
+            { "id": "o2", "text": "To fix the earth" },
+            { "id": "o3", "text": "To help people" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mision'?",
+          "options": [
+            { "id": "o1", "text": "Mission" },
+            { "id": "o2", "text": "Goal" },
+            { "id": "o3", "text": "Target" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Historia' (de alguien)?",
+          "options": [
+            { "id": "o1", "text": "Story" },
+            { "id": "o2", "text": "History" },
+            { "id": "o3", "text": "Tale" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U29_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 29 of the A2 course.\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Historia' (materia)?",
+          "options": [
+            { "id": "o1", "text": "History" },
+            { "id": "o2", "text": "Story" },
+            { "id": "o3", "text": "Past" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hecho'?",
+          "options": [
+            { "id": "o1", "text": "Fact" },
+            { "id": "o2", "text": "Done" },
+            { "id": "o3", "text": "Event" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cronología'?",
+          "options": [
+            { "id": "o1", "text": "Timeline" },
+            { "id": "o2", "text": "Calendar" },
+            { "id": "o3", "text": "List" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Educación'?",
+          "options": [
+            { "id": "o1", "text": "Education" },
+            { "id": "o2", "text": "Schooling" },
+            { "id": "o3", "text": "Learning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Experiencia'?",
+          "options": [
+            { "id": "o1", "text": "Experience" },
+            { "id": "o2", "text": "Practice" },
+            { "id": "o3", "text": "Life" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Past Review & Sequencing Words",
+      "content": [
+        {
+          "interaction_id": "U29_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el marcador de secuencia: '___ (Primero), he was born in London.'",
+          "stimulus_en": "___, he was born in London.",
+          "correct_answer": "First",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (Luego), his family moved to Paris.'",
+          "stimulus_en": "___, his family moved to Paris.",
+          "correct_answer": "Then",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (Después de eso), he studied at university.'",
+          "stimulus_en": "___, he studied at university.",
+          "correct_answer": "After that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (Finalmente), he won the Nobel Prize.'",
+          "stimulus_en": "___, he won the Nobel Prize.",
+          "correct_answer": "Finally",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'She ___ (ser) a famous scientist.'",
+          "stimulus_en": "She ___ a famous scientist.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'They ___ (casarse) in 1995.'",
+          "stimulus_en": "They ___ married in 1995.",
+          "correct_answer": "got",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'He ___ (morir) in his sleep.'",
+          "stimulus_en": "He ___ in his sleep.",
+          "correct_answer": "died",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'Einstein ___ (descubrir) many things.'",
+          "stimulus_en": "Einstein ___ many things.",
+          "correct_answer": "discovered",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'I ___ (crecer) in a small town.'",
+          "stimulus_en": "I ___ up in a small town.",
+          "correct_answer": "grew",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'She ___ (graduarse) last year.'",
+          "stimulus_en": "She ___ last year.",
+          "correct_answer": "graduated",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el pasado: 'They ___ (no ganar) any awards.'",
+          "stimulus_en": "They ___ any awards.",
+          "correct_answer": "didn't win",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta en pasado: '___ (¿Dónde nació él?)'",
+          "stimulus_en": "Where ___ he born?",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta en pasado: '___ (¿Cuándo murió ella?)'",
+          "stimulus_en": "When ___ she die?",
+          "correct_answer": "did",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (retirarse) when he was 65.'",
+          "stimulus_en": "He ___ when he was 65.",
+          "correct_answer": "retired",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (superar) many obstacles.'",
+          "stimulus_en": "She ___ many obstacles.",
+          "correct_answer": "overcame",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Win'?",
+          "options": [
+            { "id": "o1", "text": "Won" },
+            { "id": "o2", "text": "Winned" },
+            { "id": "o3", "text": "Wins" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Grow'?",
+          "options": [
+            { "id": "o1", "text": "Grew" },
+            { "id": "o2", "text": "Growed" },
+            { "id": "o3", "text": "Grown" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Get'?",
+          "options": [
+            { "id": "o1", "text": "Got" },
+            { "id": "o2", "text": "Getted" },
+            { "id": "o3", "text": "Gotten" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Die'?",
+          "options": [
+            { "id": "o1", "text": "Died" },
+            { "id": "o2", "text": "Dead" },
+            { "id": "o3", "text": "Dyed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pasado de 'Move'?",
+          "options": [
+            { "id": "o1", "text": "Moved" },
+            { "id": "o2", "text": "Moveed" },
+            { "id": "o3", "text": "Moving" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (no estar) happy.'",
+          "stimulus_en": "They ___ happy.",
+          "correct_answer": "were not",
+          "mastery_tag": "grammar",
+          "note": "weren't is also correct."
+        },
+        {
+          "interaction_id": "U29_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no estudiar) history.'",
+          "stimulus_en": "I ___ history.",
+          "correct_answer": "didn't study",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (escribir) 10 books.'",
+          "stimulus_en": "He ___ 10 books.",
+          "correct_answer": "wrote",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (hacer) a great discovery.'",
+          "stimulus_en": "She ___ a great discovery.",
+          "correct_answer": "made",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'First / , / he / was / born / in / 1950 / .'",
+          "options": [
+            { "id": "w1", "text": "First" },
+            { "id": "w2", "text": "," },
+            { "id": "w3", "text": "he" },
+            { "id": "w4", "text": "was" },
+            { "id": "w5", "text": "born" },
+            { "id": "w6", "text": "in" },
+            { "id": "w7", "text": "1950" },
+            { "id": "w8", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Then / , / he ___ (empezar) school.'",
+          "stimulus_en": "Then, he ___ school.",
+          "correct_answer": "started",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Later / , / he ___ (conocer) his wife.'",
+          "stimulus_en": "Later, he ___ his wife.",
+          "correct_answer": "met",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Finally / , / he ___ (comprar) a house.'",
+          "stimulus_en": "Finally, he ___ a house.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (tener) three children.'",
+          "stimulus_en": "They ___ three children.",
+          "correct_answer": "had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (aprender) English quickly.'",
+          "stimulus_en": "She ___ English quickly.",
+          "correct_answer": "learned",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (viajar) all over the world.'",
+          "stimulus_en": "He ___ all over the world.",
+          "correct_answer": "traveled",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The achievement ___ (ser) incredible.'",
+          "stimulus_en": "The achievement ___ incredible.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (convertirse) into leaders.'",
+          "stimulus_en": "They ___ leaders.",
+          "correct_answer": "became",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (ganar) many competitions.'",
+          "stimulus_en": "She ___ many competitions.",
+          "correct_answer": "won",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'His passion ___ (ayudar) him.'",
+          "stimulus_en": "His passion ___ him.",
+          "correct_answer": "helped",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Telling Life Stories",
+      "content": [
+        {
+          "interaction_id": "U29_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Dónde nació Steve Jobs?'?",
+          "options": [
+            { "id": "o1", "text": "Where was Steve Jobs born?" },
+            { "id": "o2", "text": "Where did Steve Jobs born?" },
+            { "id": "o3", "text": "Where Steve Jobs was born?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Nació en San Francisco'?",
+          "options": [
+            { "id": "o1", "text": "He was born in San Francisco." },
+            { "id": "o2", "text": "He born in San Francisco." },
+            { "id": "o3", "text": "He did born in San Francisco." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué estudió ella?'?",
+          "options": [
+            { "id": "o1", "text": "What did she study?" },
+            { "id": "o2", "text": "What studied she?" },
+            { "id": "o3", "text": "What she did study?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Estudió medicina en Londres'?",
+          "options": [
+            { "id": "o1", "text": "She studied medicine in London." },
+            { "id": "o2", "text": "She did study medicine in London." },
+            { "id": "o3", "text": "Studied she medicine in London." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Primero, se graduó en la universidad'?",
+          "options": [
+            { "id": "o1", "text": "First, she graduated from university." },
+            { "id": "o2", "text": "First, she graduate from university." },
+            { "id": "o3", "text": "Initially, she did graduate." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Luego, empezó a trabajar en un hospital'?",
+          "options": [
+            { "id": "o1", "text": "Then, she started working in a hospital." },
+            { "id": "o2", "text": "Then, she start to work in a hospital." },
+            { "id": "o3", "text": "Later, she work in a hospital." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Finalmente, se jubiló el año pasado'?",
+          "options": [
+            { "id": "o1", "text": "Finally, she retired last year." },
+            { "id": "o2", "text": "Final, she retire last year." },
+            { "id": "o3", "text": "Last, she was retired." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una persona muy exitosa'?",
+          "options": [
+            { "id": "o1", "text": "He/She was a very successful person." },
+            { "id": "o2", "text": "Was a very success person." },
+            { "id": "o3", "text": "He was a person successful." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella cambió el mundo con su trabajo.'",
+          "stimulus_es": "Ella cambió el mundo con su trabajo.",
+          "correct_answer": "She changed the world with her work.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Él nació en una familia pobre pero trabajó duro.'",
+          "stimulus_es": "Él nació en una familia pobre pero trabajó duro.",
+          "correct_answer": "He was born in a poor family but worked hard.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Murió a los 80 años'?",
+          "options": [
+            { "id": "o1", "text": "He died at the age of 80." },
+            { "id": "o2", "text": "He died with 80 years." },
+            { "id": "o3", "text": "He death at 80." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuándo se mudaron ellos?'?",
+          "options": [
+            { "id": "o1", "text": "When did they move?" },
+            { "id": "o2", "text": "When they moved?" },
+            { "id": "o3", "text": "When did move they?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I83",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'After / that / , / he / became / a / famous / writer / .'",
+          "options": [
+            { "id": "w1", "text": "After" },
+            { "id": "w2", "text": "that" },
+            { "id": "w3", "text": "," },
+            { "id": "w4", "text": "he" },
+            { "id": "w5", "text": "became" },
+            { "id": "w6", "text": "a" },
+            { "id": "w7", "text": "famous" },
+            { "id": "w8", "text": "writer" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Su vida fue muy inspiradora'?",
+          "options": [
+            { "id": "o1", "text": "His/Her life was very inspiring." },
+            { "id": "o2", "text": "His life was very inspired." },
+            { "id": "o3", "text": "The life of him was inspiring." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ganó su primer premio en 2010'?",
+          "options": [
+            { "id": "o1", "text": "He won his first award in 2010." },
+            { "id": "o2", "text": "He winned his first award in 2010." },
+            { "id": "o3", "text": "He did win his first award in 2010." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Creció en una granja'?",
+          "options": [
+            { "id": "o1", "text": "He grew up on a farm." },
+            { "id": "o2", "text": "He growed up in a farm." },
+            { "id": "o3", "text": "He did grow up at a farm." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Se mudaron a Nueva York'?",
+          "options": [
+            { "id": "o1", "text": "They moved to New York." },
+            { "id": "o2", "text": "They move to New York." },
+            { "id": "o3", "text": "They did moved to New York." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella fue una gran líder'?",
+          "options": [
+            { "id": "o1", "text": "She was a great leader." },
+            { "id": "o2", "text": "She were a great leader." },
+            { "id": "o3", "text": "She did be a great leader." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Superaron muchos problemas'?",
+          "options": [
+            { "id": "o1", "text": "They overcame many problems." },
+            { "id": "o2", "text": "They pass many problems." },
+            { "id": "o3", "text": "They did win many problems." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué pasó después?'?",
+          "options": [
+            { "id": "o1", "text": "What happened next?" },
+            { "id": "o2", "text": "What did happen after?" },
+            { "id": "o3", "text": "What happen then?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Después, él escribió su biografía'?",
+          "options": [
+            { "id": "o1", "text": "After that, he wrote his biography." },
+            { "id": "o2", "text": "Then, he write his biography." },
+            { "id": "o3", "text": "Later, he did write his biography." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Su descubrimiento fue muy importante'?",
+          "options": [
+            { "id": "o1", "text": "His discovery was very important." },
+            { "id": "o2", "text": "His discovery did be important." },
+            { "id": "o3", "text": "Was important his discovery." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella nunca se casó'?",
+          "options": [
+            { "id": "o1", "text": "She never got married." },
+            { "id": "o2", "text": "She didn't married." },
+            { "id": "o3", "text": "She never marry." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él se retiró a los 70'?",
+          "options": [
+            { "id": "o1", "text": "He retired at 70." },
+            { "id": "o2", "text": "He retired with 70." },
+            { "id": "o3", "text": "He did retire at 70." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tuvieron una vida larga'?",
+          "options": [
+            { "id": "o1", "text": "They had a long life." },
+            { "id": "o2", "text": "They have a long life." },
+            { "id": "o3", "text": "They did have a long life." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Su historia es increíble'?",
+          "options": [
+            { "id": "o1", "text": "His/Her story is incredible." },
+            { "id": "o2", "text": "The story of him is incredible." },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una gran contribución'?",
+          "options": [
+            { "id": "o1", "text": "It was a great contribution." },
+            { "id": "o2", "text": "Was a great work." },
+            { "id": "o3", "text": "He did a great contribution." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I98",
+          "type": "flashcard",
+          "prompt_es": "Resumen de Biografías",
+          "flashcards": [
+            { "front": "Inspiring person", "back": "Persona inspiradora", "pronunciation": "/ɪnˈspaɪərɪŋ ˈpɜːrsən/" },
+            { "front": "Life journey", "back": "Trayectoria de vida", "pronunciation": "/laɪf ˈdʒɜːrni/" },
+            { "front": "To leave a legacy", "back": "Dejar un legado", "pronunciation": "/tuː liːv ə ˈleɡəsi/" },
+            { "front": "Role model", "back": "Modelo a seguir", "pronunciation": "/roʊl ˈmɒdəl/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él nació pobre y murió rico'?",
+          "options": [
+            { "id": "o1", "text": "He was born poor and died rich." },
+            { "id": "o2", "text": "He born poor and death rich." },
+            { "id": "o3", "text": "He did born poor." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U29_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Finalmente, él se convirtió en el mejor escritor.'",
+          "stimulus_es": "Finalmente, él se convirtió en el mejor escritor.",
+          "correct_answer": "Finally, he became the best writer.",
+          "mastery_tag": "communication"
         }
       ]
     }
