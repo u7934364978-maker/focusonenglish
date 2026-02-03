@@ -70,8 +70,9 @@ export async function POST(request: NextRequest) {
     // Send emails if Resend is configured
     if (resend) {
       try {
+        console.log(`Intentando enviar consulta de contacto para: ${email}`);
         // Send auto-reply to user
-        await resend.emails.send({
+        const userEmail = await resend.emails.send({
           from: 'Focus English <no-reply@focus-on-english.com>',
           to: [email],
           subject: 'Hemos recibido tu consulta - Focus English',
@@ -88,8 +89,12 @@ export async function POST(request: NextRequest) {
           `
         });
 
+        if (userEmail.error) {
+          console.error('Error de Resend al enviar auto-reply:', userEmail.error);
+        }
+
         // Send notification to admin
-        await resend.emails.send({
+        const adminNotify = await resend.emails.send({
           from: 'Focus English System <system@focus-on-english.com>',
           to: [adminEmail],
           subject: `📩 Nueva consulta: ${subject}`,
@@ -108,9 +113,15 @@ export async function POST(request: NextRequest) {
             </div>
           `
         });
+
+        if (adminNotify.error) {
+          console.error('Error de Resend al notificar al admin:', adminNotify.error);
+        }
       } catch (emailError) {
-        console.error('Error sending emails:', emailError);
+        console.error('Excepción al enviar correos de contacto:', emailError);
       }
+    } else {
+      console.warn('RESEND_API_KEY no configurada. Saltando envío de correos de contacto.');
     }
 
     return NextResponse.json({ 
