@@ -10,21 +10,25 @@ import {
   Play, 
   Star,
   Trophy,
-  ArrowRight
+  ArrowRight,
+  RotateCcw
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
 import { getSolutionText, isLikelyEnglish } from "@/lib/premium-utils";
+import WordSearchExercise from "../../exercises/WordSearchExercise";
+import CrosswordExercise from "../../exercises/CrosswordExercise";
 
 interface Props {
   unitData: UnitData;
   onComplete: () => void;
   onExit: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
+  initialIndex?: number;
 }
 
-export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect }: Props) {
-  const [currentIndex, setCurrentIndex] = useState(0);
+export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, initialIndex = 0 }: Props) {
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [isVideoMode, setIsVideoMode] = useState(false);
@@ -44,20 +48,118 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const [selectedCategorizationItem, setSelectedCategorizationItem] = useState<string | null>(null);
   const [showSummary, setShowSummary] = useState(false);
   const [audioCache, setAudioCache] = useState<Record<string, string>>({});
+  const [flashcardIndex, setFlashcardIndex] = useState(0);
+  const [isFlipped, setIsFlipped] = useState(false);
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
 
-  // Flatten all blocks into a single exercise queue
+  // Flatten and normalize all blocks into a single exercise queue
   const queue = useMemo(() => {
+    const normalizeInteraction = (interaction: any): any => {
+      if (!interaction) return null;
+      
+      const normalized = { ...interaction };
+
+      // Normalize type (handle camelCase from migrations)
+      const typeMap: Record<string, string> = {
+        'multipleChoice': 'multiple_choice',
+        'fillBlanks': 'fill_blanks',
+        'fill_blank': 'fill_blanks',
+        'drag-drop': 'reorder_words',
+        'matching': 'matching',
+        'flashcard': 'flashcard'
+      };
+      if (typeMap[normalized.type]) {
+        normalized.type = typeMap[normalized.type];
+      }
+
+      // Normalize prompt
+      if (normalized.prompt && !normalized.prompt_es) {
+        normalized.prompt_es = normalized.prompt;
+      }
+      if (normalized.instructions && !normalized.prompt_es) {
+        normalized.prompt_es = normalized.instructions;
+      }
+
+      // Normalize stimulus
+      if (normalized.text && !normalized.stimulus_en) {
+        normalized.stimulus_en = normalized.text;
+      }
+      
+      // Handle the case where stimulus is in the prompt but there is a text field
+      if (normalized.type === 'fill_blanks' && !normalized.stimulus_en && normalized.prompt_es && normalized.prompt_es.includes('___')) {
+        normalized.stimulus_en = normalized.prompt_es;
+        normalized.prompt_es = "Completa el espacio:";
+      }
+
+      // Normalize options (handle array of strings from migrations)
+      if (normalized.options && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
+        normalized.options = normalized.options.map((opt: string, idx: number) => ({
+          id: idx.toString(),
+          text: opt
+        }));
+      }
+
+      // Normalize correct_answer for multiple_choice
+      if (normalized.answerIndex !== undefined && normalized.type === 'multiple_choice') {
+        normalized.correct_answer = normalized.answerIndex.toString();
+      }
+
+      // Normalize correct_answer for fill_blanks
+      if (normalized.answers && !normalized.correct_answer) {
+        normalized.correct_answer = Array.isArray(normalized.answers) ? normalized.answers.join(' ') : normalized.answers;
+      }
+
+      // Normalize pairs for matching
+      if (normalized.pairs && normalized.pairs.length > 0 && normalized.pairs[0].word) {
+        normalized.pairs = normalized.pairs.map((p: any) => ({
+          id: p.id || Math.random().toString(36).substr(2, 9),
+          left: p.word,
+          right: p.correctMatch
+        }));
+      }
+
+      // Normalize reorder_words (drag-drop)
+      if (normalized.correctSentence && normalized.type === 'reorder_words') {
+        if (!normalized.options) {
+          const words = normalized.correctSentence.split(' ');
+          normalized.options = words.map((word: string, idx: number) => ({
+            id: idx.toString(),
+            text: word
+          }));
+          normalized.correct_answer = normalized.options.map((o: any) => o.id);
+        }
+      }
+
+      return normalized;
+    };
+
     const items: any[] = [];
     unitData.blocks.forEach((block: PremiumBlock) => {
       block.content.forEach((content: PremiumContent) => {
-        items.push({ ...content, blockTitle: block.title });
+        items.push(normalizeInteraction({ ...content, blockTitle: block.title }));
       });
     });
     return items;
   }, [unitData]);
+
+  // Reset interaction state when current item changes
+  useEffect(() => {
+    setSelectedOption(null);
+    setIsCorrect(null);
+    setFeedback(null);
+    setSelectedWords([]);
+    setMatchingPairs({});
+    setMatchingSelections({});
+    setInputValues({});
+    setCategorizedItems({});
+    setSelectedCategorizationItem(null);
+    setFlashcardIndex(0);
+    setIsFlipped(false);
+    setShuffledRight([]);
+    setShuffledOptions([]);
+  }, [currentIndex]);
 
   const currentItem = queue[currentIndex];
   const progress = (currentIndex / queue.length) * 100;
@@ -213,7 +315,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       : currentItem;
       
     if (interaction?.type === 'matching' && shuffledRight.length === 0) {
-      const rightItems = interaction.pairs.map((p: any) => ({ id: p.id, text: p.right }));
+      const rightItems = (interaction.pairs || []).map((p: any) => ({ id: p.id, text: p.right }));
       // Fisher-Yates shuffle
       const shuffled = [...rightItems];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -243,6 +345,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     setInputValues({});
     setCategorizedItems({});
     setSelectedCategorizationItem(null);
+    setFlashcardIndex(0);
+    setIsFlipped(false);
     setFeedback(null);
     setSelectedOption(null);
     setIsCorrect(null);
@@ -281,32 +385,48 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
     if (interaction.type === 'reorder_words') {
       const selectedText = (optionId as string[]).map(id => 
-        interaction.options.find((o: any) => o.id === id)?.text
-      ).join(' ');
+        (interaction.options || []).find((o: any) => o.id === id)?.text
+      ).join(' ').toLowerCase().trim();
       const correctText = (interaction.correct_answer as string[]).map((id: string) => 
-        interaction.options.find((o: any) => o.id === id)?.text
-      ).join(' ');
+        (interaction.options || []).find((o: any) => o.id === id)?.text
+      ).join(' ').toLowerCase().trim();
       isAnswerCorrect = selectedText === correctText;
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc'].includes(interaction.type)) {
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
-      const normalizedOption = typeof optionId === 'string' ? optionId.toLowerCase() : optionId;
-      const normalizedCorrect = typeof interaction.correct_answer === 'string' ? interaction.correct_answer.toLowerCase() : interaction.correct_answer;
+      const normalizedOption = typeof optionId === 'string' ? optionId.toLowerCase().trim() : optionId;
+      const normalizedCorrect = typeof interaction.correct_answer === 'string' ? interaction.correct_answer.toLowerCase().trim() : interaction.correct_answer;
       
       if (interaction.type === 'true_false') {
         // Specifically handle True/False which might be stored as strings "true"/"false" or booleans
-        const optBool = String(optionId).toLowerCase() === 'true';
-        const correctBool = String(interaction.correct_answer).toLowerCase() === 'true';
+        const optBool = String(optionId).toLowerCase().trim() === 'true';
+        const correctBool = String(interaction.correct_answer).toLowerCase().trim() === 'true';
         isAnswerCorrect = optBool === correctBool;
       } else {
         isAnswerCorrect = normalizedOption === normalizedCorrect;
       }
     } else if (['matching', 'multiple_matching'].includes(interaction.type)) {
-      isAnswerCorrect = interaction.pairs 
-        ? interaction.pairs.every((p: any) => matchingPairs[p.id] === p.id)
-        : Object.entries(interaction.correct_answer as Record<string, string>).every(([k, v]) => matchingPairs[k] === v);
+      if (interaction.pairs) {
+        isAnswerCorrect = interaction.pairs.every((p: any) => {
+          const selectedRightId = matchingPairs[p.id];
+          if (!selectedRightId) return false;
+          
+          // If ID matches directly, it's definitely correct
+          if (selectedRightId === p.id) return true;
+          
+          // If ID doesn't match, check if the text of the selected option 
+          // matches the expected correct text (handles duplicate values like "a"/"an")
+          const expectedText = String(p.right).toLowerCase().trim();
+          const selectedText = String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || "").toLowerCase().trim();
+          return selectedText === expectedText;
+        });
+      } else {
+        isAnswerCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([k, v]) => matchingPairs[k] === v);
+      }
     } else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) {
       const allCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([gapId, correctVal]) => {
-        return inputValues[gapId as any] === correctVal;
+        const inputVal = String(inputValues[gapId as any] || "").toLowerCase().trim();
+        const correctValStr = String(correctVal).toLowerCase().trim();
+        return inputVal === correctValStr;
       });
       isAnswerCorrect = allCorrect;
     } else if (interaction.type === 'categorization') {
@@ -319,9 +439,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         return categorizedItems[itemId] === correctCatId;
       });
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
-    } else if (interaction.type === 'transformation') {
+    } else if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
       const input = (optionId as string).trim().toLowerCase();
-      const correct = interaction.correct_answer.toLowerCase().trim();
+      const correct = String(interaction.correct_answer).toLowerCase().trim();
       isAnswerCorrect = input === correct;
     } else if (interaction.type === 'writing_task') {
       const input = (optionId as string).trim();
@@ -338,6 +458,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       } else {
         isAnswerCorrect = input.length > 2;
       }
+    } else if (interaction.type === 'word-search' || interaction.type === 'crossword') {
+      // These are handled by their own components but need to be acknowledged here
+      isAnswerCorrect = true;
     }
 
     if (isAnswerCorrect) {
@@ -438,17 +561,15 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const PronunciationButton = ({ text, size = "sm", className = "" }: { text: string, size?: "sm" | "md", className?: string }) => {
     if (!text) return null;
     return (
-      <Button
-        variant="ghost"
-        size="icon"
-        className={`${size === "sm" ? "w-8 h-8" : "w-10 h-10"} rounded-full text-indigo-600 hover:bg-indigo-50 flex-shrink-0 ${className}`}
+      <button
+        className={`rounded-full text-indigo-600 hover:bg-indigo-50 flex items-center justify-center flex-shrink-0 transition-colors ${size === "sm" ? "w-8 h-8" : "w-10 h-10"} ${className}`}
         onClick={(e) => {
           e.stopPropagation();
           playAudio(undefined, text);
         }}
       >
         <Volume2 className={size === "sm" ? "w-4 h-4" : "w-6 h-6"} />
-      </Button>
+      </button>
     );
   };
 
@@ -456,6 +577,83 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     if (!interaction) return null;
     
     switch (interaction.type) {
+      case 'flashcard':
+        const currentFlashcard = (interaction.flashcards || [])[flashcardIndex];
+        if (!currentFlashcard) return null;
+        
+        return (
+          <div className="w-full max-w-xl mx-auto space-y-12">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es}</h2>
+              <p className="text-slate-400 font-bold uppercase tracking-widest text-sm">
+                Tarjeta {flashcardIndex + 1} de {interaction.flashcards?.length || 0}
+              </p>
+            </div>
+
+            <div 
+              className="relative h-[400px] w-full perspective-1000 cursor-pointer group"
+              onClick={() => setIsFlipped(!isFlipped)}
+            >
+              {/* Front Side */}
+              <motion.div 
+                className="absolute inset-0 w-full h-full bg-white rounded-[3rem] shadow-2xl shadow-indigo-100 border-2 border-indigo-50 flex flex-col items-center justify-center p-12 text-center"
+                initial={false}
+                animate={{ rotateY: isFlipped ? 180 : 0 }}
+                transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
+                style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", zIndex: isFlipped ? 0 : 1 }}
+              >
+                <h3 className="text-5xl font-black text-indigo-600 mb-4">{currentFlashcard.front}</h3>
+                {currentFlashcard.pronunciation && (
+                  <p className="text-2xl font-mono text-indigo-400">{currentFlashcard.pronunciation}</p>
+                )}
+                <button 
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    playAudio(undefined, currentFlashcard.front);
+                  }}
+                  className="mt-8 p-6 bg-indigo-50 text-indigo-600 rounded-full hover:bg-indigo-100 transition-all hover:scale-110 active:scale-95"
+                >
+                  <Volume2 className="w-8 h-8" />
+                </button>
+                <div className="absolute bottom-8 text-slate-300 font-bold text-sm flex items-center gap-2 group-hover:text-indigo-400 transition-colors">
+                  <RotateCcw className="w-4 h-4" />
+                  TOCA PARA VOLTEAR
+                </div>
+              </motion.div>
+
+              {/* Back Side */}
+              <motion.div 
+                className="absolute inset-0 w-full h-full bg-indigo-600 rounded-[3rem] shadow-2xl shadow-indigo-200 flex flex-col items-center justify-center p-12 text-center"
+                initial={false}
+                animate={{ rotateY: isFlipped ? 0 : -180 }}
+                transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
+                style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", zIndex: isFlipped ? 1 : 0 }}
+              >
+                <p className="text-indigo-200 font-bold uppercase tracking-widest text-sm mb-4">TRADUCCIÓN</p>
+                <h3 className="text-5xl font-black text-white">{currentFlashcard.back}</h3>
+              </motion.div>
+            </div>
+
+            <div className="flex justify-center gap-4">
+              {isFlipped && (
+                <Button
+                  onClick={() => {
+                    if (flashcardIndex < (interaction.flashcards?.length || 0) - 1) {
+                      setFlashcardIndex(flashcardIndex + 1);
+                      setIsFlipped(false);
+                    } else {
+                      handleNext();
+                    }
+                  }}
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white font-black px-12 py-6 h-auto rounded-2xl text-xl border-b-4 border-indigo-800 active:translate-y-1 transition-all"
+                >
+                  {flashcardIndex < (interaction.flashcards?.length || 0) - 1 ? 'SIGUIENTE TARJETA' : 'TERMINAR REPASO'}
+                </Button>
+              )}
+            </div>
+          </div>
+        );
+
       case 'listening_image_mc':
         return (
           <div className="space-y-6">
@@ -475,10 +673,18 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
               {interaction.options?.map((opt: any) => (
-                <button
+                <div
                   key={opt.id}
+                  role="button"
+                  tabIndex={0}
                   onClick={() => !isInteractionDisabled && setSelectedOption(opt.id)}
-                  className={`p-4 rounded-xl border-2 transition-all text-center font-medium flex items-center justify-center gap-2 group/opt ${
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      if (!isInteractionDisabled) setSelectedOption(opt.id);
+                    }
+                  }}
+                  className={`p-4 rounded-xl border-2 transition-all text-center font-medium flex items-center justify-center gap-2 group/opt cursor-pointer ${
                     selectedOption === opt.id
                       ? isCorrect === true
                         ? 'border-green-500 bg-green-50 text-green-700'
@@ -486,14 +692,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                           ? 'border-red-500 bg-red-50 text-red-700'
                           : 'border-blue-500 bg-blue-50 text-blue-700'
                       : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
-                  }`}
-                  disabled={isInteractionDisabled}
+                  } ${isInteractionDisabled ? 'pointer-events-none opacity-80' : ''}`}
                 >
                   {opt.text}
                   {isLikelyEnglish(opt.text) && (
                     <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
                   )}
-                </button>
+                </div>
               ))}
             </div>
           </div>
@@ -598,17 +803,24 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 const isSelected = selectedWords.find(sw => sw.id === opt.id);
                 return (
                   <div key={`pool-wrapper-${opt.id}`} className="relative group">
-                    <motion.button
+                    <motion.div
                       layoutId={opt.id}
                       key={`pool-${opt.id}`}
-                      onClick={() => setSelectedWords(prev => [...prev, opt])}
-                      disabled={!!feedback || !!isSelected}
-                      className={`p-4 px-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all ${
-                        isSelected ? 'bg-slate-100 border-transparent text-transparent opacity-30 cursor-default' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 active:translate-y-0.5 shadow-sm'
-                      }`}
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => !feedback && !isSelected && setSelectedWords(prev => [...prev, opt])}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          if (!feedback && !isSelected) setSelectedWords(prev => [...prev, opt]);
+                        }
+                      }}
+                      className={`p-4 px-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
+                        isSelected ? 'bg-slate-100 border-transparent text-transparent opacity-30 cursor-default pointer-events-none' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 active:translate-y-0.5 shadow-sm'
+                      } ${feedback ? 'pointer-events-none' : ''}`}
                     >
                       {opt.text}
-                    </motion.button>
+                    </motion.div>
                     {!isSelected && (
                       <PronunciationButton text={opt.text} className="absolute -top-2 -right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white shadow-md border" />
                     )}
@@ -616,6 +828,40 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 );
               })}
             </div>
+          </div>
+        );
+
+      case 'word-search':
+        return (
+          <div className="w-full max-w-4xl mx-auto space-y-8">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es}</h2>
+              <p className="text-slate-400 font-bold uppercase tracking-widest text-sm italic">
+                {interaction.instructions || "Encuentra todas las palabras ocultas"}
+              </p>
+            </div>
+            <WordSearchExercise 
+              words={interaction.words} 
+              gridSize={interaction.gridSize || 10} 
+              clues={interaction.clues}
+              onComplete={() => handleCheckAnswer(true)} 
+            />
+          </div>
+        );
+
+      case 'crossword':
+        return (
+          <div className="w-full max-w-4xl mx-auto space-y-8">
+            <div className="text-center space-y-4">
+              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es}</h2>
+              <p className="text-slate-400 font-bold uppercase tracking-widest text-sm italic">
+                {interaction.instructions || "Completa el crucigrama usando las pistas"}
+              </p>
+            </div>
+            <CrosswordExercise 
+              items={interaction.items} 
+              onComplete={() => handleCheckAnswer(true)} 
+            />
           </div>
         );
 
@@ -739,48 +985,74 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             <h2 className="text-3xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
             <div className="grid grid-cols-2 gap-8 md:gap-16">
               <div className="space-y-4">
-                {interaction.pairs.map((p: any) => (
-                  <button
+                {interaction.pairs?.map((p: any) => (
+                  <div
                     key={`left-${p.id}`}
+                    role="button"
+                    tabIndex={0}
                     onClick={() => {
+                      if (!!feedback || !!matchingPairs[p.id]) return;
                       const newSelections = { ...matchingSelections, left: p.id };
                       if (newSelections.right) {
                         setMatchingPairs(prev => ({ ...prev, [newSelections.left!]: newSelections.right! }));
                         setMatchingSelections({});
                       } else setMatchingSelections(newSelections);
                     }}
-                    disabled={!!feedback || !!matchingPairs[p.id]}
-                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left ${
-                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300' :
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        if (!!feedback || !!matchingPairs[p.id]) return;
+                        const newSelections = { ...matchingSelections, left: p.id };
+                        if (newSelections.right) {
+                          setMatchingPairs(prev => ({ ...prev, [newSelections.left!]: newSelections.right! }));
+                          setMatchingSelections({});
+                        } else setMatchingSelections(newSelections);
+                      }
+                    }}
+                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
+                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
                       matchingSelections.left === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
-                    }`}
+                    } ${feedback ? 'pointer-events-none' : ''}`}
                   >
                     <span>{p.left}</span>
                     <PronunciationButton text={p.left} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
-                  </button>
+                  </div>
                 ))}
               </div>
               <div className="space-y-4">
                 {shuffledRight.map((p: any) => (
-                  <button
+                  <div
                     key={`right-${p.id}`}
+                    role="button"
+                    tabIndex={0}
                     onClick={() => {
+                      if (!!feedback || Object.values(matchingPairs).includes(p.id)) return;
                       const newSelections = { ...matchingSelections, right: p.id };
                       if (newSelections.left) {
                         setMatchingPairs(prev => ({ ...prev, [newSelections.left!]: newSelections.right! }));
                         setMatchingSelections({});
                       } else setMatchingSelections(newSelections);
                     }}
-                    disabled={!!feedback || Object.values(matchingPairs).includes(p.id)}
-                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all ${
-                      Object.values(matchingPairs).includes(p.id) ? 'bg-slate-50 border-slate-100 text-slate-300' :
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        if (!!feedback || Object.values(matchingPairs).includes(p.id)) return;
+                        const newSelections = { ...matchingSelections, right: p.id };
+                        if (newSelections.left) {
+                          setMatchingPairs(prev => ({ ...prev, [newSelections.left!]: newSelections.right! }));
+                          setMatchingSelections({});
+                        } else setMatchingSelections(newSelections);
+                      }
+                    }}
+                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
+                      Object.values(matchingPairs).includes(p.id) ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
                       matchingSelections.right === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
-                    }`}
+                    } ${feedback ? 'pointer-events-none' : ''}`}
                   >
                     {p.text}
-                  </button>
+                  </div>
                 ))}
               </div>
             </div>
@@ -802,18 +1074,25 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                </div>
             )}
             <div className="grid gap-4">
-              {interaction.options.map((opt: any) => (
-                <button
+              {interaction.options?.map((opt: any) => (
+                <div
                   key={opt.id}
-                  onClick={() => setSelectedOption(opt.id)}
-                  disabled={!!feedback}
-                  className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt ${
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => !feedback && setSelectedOption(opt.id)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      if (!feedback) setSelectedOption(opt.id);
+                    }
+                  }}
+                  className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
                     feedback 
                       ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
                       : selectedOption === opt.id 
                         ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                         : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
-                  }`}
+                  } ${feedback ? 'pointer-events-none' : ''}`}
                 >
                   <span className="flex items-center gap-3">
                     {opt.text}
@@ -822,16 +1101,67 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                     )}
                   </span>
                   {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
-                </button>
+                </div>
               ))}
             </div>
           </div>
         );
 
       case 'transformation':
-        const hasBlank = /_{3,}/.test(interaction.stimulus_en || '');
+      case 'fill_blanks':
+      case 'fill_blank':
+        const hasBlank = /_{2,}/.test(interaction.stimulus_en || '');
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
+        
+        // Fallback for transformation exercises that are actually multiple choice
+        if (!hasBlank && interaction.options && interaction.options.length > 0) {
+          return (
+            <div className="w-full max-w-2xl mx-auto space-y-8">
+              <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+              {interaction.stimulus_en && (
+                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 relative group">
+                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
+                    {interaction.stimulus_en}
+                  </p>
+                </div>
+              )}
+              <div className="grid gap-4">
+                {interaction.options.map((opt: any) => (
+                  <div
+                    key={opt.id}
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => !feedback && setSelectedOption(opt.id)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        if (!feedback) setSelectedOption(opt.id);
+                      }
+                    }}
+                    className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                      feedback 
+                        ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
+                        : selectedOption === opt.id 
+                          ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
+                          : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
+                    } ${feedback ? 'pointer-events-none' : ''}`}
+                  >
+                    <span className="flex items-center gap-3">
+                      {opt.text}
+                      {isLikelyEnglish(opt.text) && (
+                        <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                      )}
+                    </span>
+                    {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
+                  </div>
+                ))}
+              </div>
+            </div>
+          );
+        }
+
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
             <h2 className="text-2xl font-black text-slate-800 text-center">
@@ -841,7 +1171,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
                {hasBlank ? (
                  <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
-                   {interaction.stimulus_en.split(/_{3,}/).map((part: string, i: number, arr: any[]) => (
+                   {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
                        <span>{part}</span>
                        {i < arr.length - 1 && (
@@ -856,7 +1186,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                            onKeyDown={(e) => { 
                              if (e.key === 'Enter') {
                                const stim = interaction.stimulus_en || "";
-                               const gaps = (stim.match(/_{3,}/g) || []).length || 1;
+                               const gaps = (stim.match(/_{2,}/g) || []).length || 1;
                                const filledCount = Object.values(inputValues).filter(v => v.trim().length > 0).length;
                                if (filledCount >= gaps) {
                                  const answers = [];
@@ -872,7 +1202,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                  </div>
                ) : (
                  <div className="space-y-8">
-                    <p className="text-3xl font-bold text-slate-700">{interaction.stimulus_en}</p>
+                    <p className="text-3xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
                     <input 
                       type="text" 
                       autoFocus
@@ -908,17 +1238,24 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                   const text = typeof item === 'string' ? item : item.text;
                   return (
                     <div key={`${id}-${idx}`} className="relative group">
-                      <button
-                        onClick={() => setSelectedCategorizationItem(id)}
-                        disabled={!!feedback}
-                        className={`p-4 px-8 border-2 border-b-4 rounded-2xl font-bold text-2xl transition-all ${
+                      <div
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => !feedback && setSelectedCategorizationItem(id)}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            if (!feedback) setSelectedCategorizationItem(id);
+                          }
+                        }}
+                        className={`p-4 px-8 border-2 border-b-4 rounded-2xl font-bold text-2xl transition-all cursor-pointer ${
                           selectedCategorizationItem === id
                             ? 'bg-indigo-600 border-indigo-800 text-white scale-105 shadow-xl'
                             : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 shadow-sm'
-                        }`}
+                        } ${feedback ? 'pointer-events-none opacity-80' : ''}`}
                       >
                         {text}
-                      </button>
+                      </div>
                       <PronunciationButton text={text} className="absolute -top-2 -right-2 opacity-0 group-hover:opacity-100 transition-opacity bg-white shadow-md border" />
                     </div>
                   );
@@ -1290,7 +1627,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       <footer className={`p-8 md:p-12 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'invisible' : ''}`}>
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between gap-6">
           <Button 
-            variant="ghost" 
+            variant="outline" 
             className="text-slate-400 font-black text-xl hover:text-slate-600 px-8 h-16 rounded-2xl"
             onClick={onExit}
           >
@@ -1311,9 +1648,9 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 if (!interaction) return false;
                 if (interaction.type === 'reorder_words') return selectedWords.length === 0;
                 if (interaction.type === 'matching') return Object.keys(matchingPairs).length < (interaction.pairs?.length || 0);
-                if (interaction.type === 'transformation') {
+                if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
-                  const gaps = stim.match(/_{3,}/g) || [];
+                  const gaps = stim.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
                   const filledCount = Object.values(inputValues).filter(v => v && v.toString().trim().length > 0).length;
                   return filledCount < exp;
@@ -1336,17 +1673,18 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 if (!interaction) return;
                 
                 if (interaction.type === 'reorder_words') handleCheckAnswer(selectedWords.map(w => w.id));
-                else if (interaction.type === 'matching') handleCheckAnswer(matchingPairs);
+                else if (['matching', 'multiple_matching'].includes(interaction.type)) handleCheckAnswer(matchingPairs);
                 else if (interaction.type === 'categorization') handleCheckAnswer(Object.keys(categorizedItems));
-                else if (interaction.type === 'transformation') {
+                else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) handleCheckAnswer(inputValues);
+                else if (['transformation', 'fill_blanks', 'fill_blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
-                  const gaps = stim.match(/_{3,}/g) || [];
+                  const gaps = stim.match(/_{2,}/g) || [];
                   const exp = gaps.length || 1;
                   const answers = [];
                   for (let j = 0; j < exp; j++) answers.push(inputValues[j] || "");
                   handleCheckAnswer(answers.join(' ').trim());
                 }
-                else if (['short_writing', 'dictation_guided'].includes(interaction.type)) {
+                else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {
                    handleCheckAnswer(inputValues[0] || "");
                 }
                 else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc'].includes(interaction.type)) {
@@ -1358,7 +1696,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               {(() => {
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return 'SIGUIENTE';
-                return ['reorder_words', 'matching', 'short_writing', 'transformation', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
+                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>
           )}

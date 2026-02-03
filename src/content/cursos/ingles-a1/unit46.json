@@ -1,0 +1,50 @@
+{
+  "course": {
+    "unit_id": "U46",
+    "unit_title": "At the Hotel",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify hotel areas and services",
+    "Understand basic hotel check-in vocabulary"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Hotel Vocabulary",
+      "content": [
+        {
+          "interaction_id": "U46_I1",
+          "type": "matching",
+          "prompt_es": "En el hotel",
+          "pairs": [
+            { "id": "h1", "left": "Reception", "right": "Recepción" },
+            { "id": "h2", "left": "Room key", "right": "Llave de la habitación" },
+            { "id": "h3", "left": "Single room", "right": "Habitación individual" },
+            { "id": "h4", "left": "Double room", "right": "Habitación doble" }
+          ],
+          "correct_answer": { "h1": "h1", "h2": "h2", "h3": "h3", "h4": "h4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_I2",
+          "type": "reorder_words",
+          "prompt_es": "Tengo una reserva",
+          "stimulus_en": "I have a reservation, please",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "have" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "reservation," },
+            { "id": "w5", "text": "please" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

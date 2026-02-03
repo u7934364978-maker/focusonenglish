@@ -4,699 +4,1161 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U3",
-    "unit_title": "Información personal",
-    "total_duration_minutes": 120
+    "unit_title": "Countries & Nationalities",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B3",
-      "title": "Información personal",
+      "block_id": "B1",
+      "title": "Countries & Nationalities",
       "content": [
         {
-          "interaction_id": "U3_Ta1-u3-jobs_I1",
-          "text": "John is a very busy (1) in the city. He works in an (2). Every day, he helps (3) and (4) with their problems. He likes his (5) because he can help (6) feel better. In the office, he uses a (7) to write notes. After work, John (8) goes home and relaxes.",
-          "questions": [
-            {
-              "number": 1,
-              "options": [
-                "doctor",
-                "teacher",
-                "nurse",
-                "engineer"
-              ],
-              "correctOption": "doctor",
-              "explanation": "La palabra 'doctor' es correcta porque el texto menciona que John ayuda a personas a sentirse mejor. Las otras opciones no son roles que típicamente se asocian con ayudar a las personas a mejorar su salud."
-            },
-            {
-              "number": 2,
-              "options": [
-                "home",
-                "office",
-                "school",
-                "shop"
-              ],
-              "correctOption": "office",
-              "explanation": "La palabra 'office' es correcta porque es el lugar donde típicamente trabaja un doctor. Las otras opciones no son lugares comunes de trabajo para doctores."
-            },
-            {
-              "number": 3,
-              "options": [
-                "cats",
-                "dogs",
-                "people",
-                "robots"
-              ],
-              "correctOption": "people",
-              "explanation": "La palabra 'people' es correcta porque los doctores ayudan a las personas con sus problemas de salud. Las otras opciones no son correctas porque los doctores no trabajan principalmente con ellos."
-            },
-            {
-              "number": 4,
-              "options": [
-                "patients",
-                "students",
-                "customers",
-                "visitors"
-              ],
-              "correctOption": "patients",
-              "explanation": "La palabra 'patients' es correcta porque se refiere a las personas que reciben atención médica. Las otras opciones no se relacionan directamente con los doctores."
-            },
-            {
-              "number": 5,
-              "options": [
-                "place",
-                "job",
-                "hobby",
-                "game"
-              ],
-              "correctOption": "job",
-              "explanation": "La palabra 'job' es correcta porque John está hablando de su trabajo. Las otras opciones no se ajustan al contexto laboral."
-            },
-            {
-              "number": 6,
-              "options": [
-                "them",
-                "it",
-                "us",
-                "me"
-              ],
-              "correctOption": "them",
-              "explanation": "La palabra 'them' es correcta porque se refiere a 'people' mencionados anteriormente. Las otras opciones no concuerdan gramaticalmente con el contexto."
-            },
-            {
-              "number": 7,
-              "options": [
-                "pencil",
-                "computer",
-                "phone",
-                "book"
-              ],
-              "correctOption": "computer",
-              "explanation": "La palabra 'computer' es correcta porque es común que los doctores usen computadoras para escribir notas. Las otras opciones no son herramientas típicas para escribir notas de trabajo."
-            },
-            {
-              "number": 8,
-              "options": [
-                "quickly",
-                "always",
-                "never",
-                "slowly"
-              ],
-              "correctOption": "always",
-              "explanation": "La palabra 'always' es correcta porque indica una acción habitual después del trabajo. Las otras opciones no tienen el mismo sentido de rutina."
-            }
+          "interaction_id": "U3_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'España'?",
+          "options": [
+            { "id": "o1", "text": "Spain" },
+            { "id": "o2", "text": "Spanish" },
+            { "id": "o3", "text": "Espanya" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Español/a'?",
+          "options": [
+            { "id": "o1", "text": "Spanish" },
+            { "id": "o2", "text": "Spain" },
+            { "id": "o3", "text": "Spaniard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reino Unido'?",
+          "options": [
+            { "id": "o1", "text": "The United Kingdom" },
+            { "id": "o2", "text": "England" },
+            { "id": "o3", "text": "London" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Británico/a'?",
+          "options": [
+            { "id": "o1", "text": "British" },
+            { "id": "o2", "text": "Briton" },
+            { "id": "o3", "text": "England" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estados Unidos'?",
+          "options": [
+            { "id": "o1", "text": "The United States" },
+            { "id": "o2", "text": "America" },
+            { "id": "o3", "text": "USA" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Estadounidense'?",
+          "options": [
+            { "id": "o1", "text": "American" },
+            { "id": "o2", "text": "United States" },
+            { "id": "o3", "text": "US citizen" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Francia'?",
+          "options": [
+            { "id": "o1", "text": "France" },
+            { "id": "o2", "text": "French" },
+            { "id": "o3", "text": "Paris" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Francés/a'?",
+          "options": [
+            { "id": "o1", "text": "French" },
+            { "id": "o2", "text": "France" },
+            { "id": "o3", "text": "Frank" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Italia'?",
+          "options": [
+            { "id": "o1", "text": "Italy" },
+            { "id": "o2", "text": "Italian" },
+            { "id": "o3", "text": "Rome" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Italiano/a'?",
+          "options": [
+            { "id": "o1", "text": "Italian" },
+            { "id": "o2", "text": "Italy" },
+            { "id": "o3", "text": "Italic" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alemania'?",
+          "options": [
+            { "id": "o1", "text": "Germany" },
+            { "id": "o2", "text": "German" },
+            { "id": "o3", "text": "Berlin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alemán/ana'?",
+          "options": [
+            { "id": "o1", "text": "German" },
+            { "id": "o2", "text": "Germany" },
+            { "id": "o3", "text": "Germ" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'China'?",
+          "options": [
+            { "id": "o1", "text": "China" },
+            { "id": "o2", "text": "Chinese" },
+            { "id": "o3", "text": "Beijing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Chino/a'?",
+          "options": [
+            { "id": "o1", "text": "Chinese" },
+            { "id": "o2", "text": "China" },
+            { "id": "o3", "text": "Chin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Japón'?",
+          "options": [
+            { "id": "o1", "text": "Japan" },
+            { "id": "o2", "text": "Japanese" },
+            { "id": "o3", "text": "Tokyo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Japonés/a'?",
+          "options": [
+            { "id": "o1", "text": "Japanese" },
+            { "id": "o2", "text": "Japan" },
+            { "id": "o3", "text": "Jap" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'México'?",
+          "options": [
+            { "id": "o1", "text": "Mexico" },
+            { "id": "o2", "text": "Mexican" },
+            { "id": "o3", "text": "Mexico City" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mexicano/a'?",
+          "options": [
+            { "id": "o1", "text": "Mexican" },
+            { "id": "o2", "text": "Mexico" },
+            { "id": "o3", "text": "Mex" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brasil'?",
+          "options": [
+            { "id": "o1", "text": "Brazil" },
+            { "id": "o2", "text": "Brazilian" },
+            { "id": "o3", "text": "Brasilia" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Brasileño/a'?",
+          "options": [
+            { "id": "o1", "text": "Brazilian" },
+            { "id": "o2", "text": "Brazil" },
+            { "id": "o3", "text": "Braz" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I21",
+          "type": "matching",
+          "prompt_es": "Une los países con sus nacionalidades:",
+          "pairs": [
+            { "id": "p1", "left": "Spain", "right": "Spanish" },
+            { "id": "p2", "left": "Italy", "right": "Italian" },
+            { "id": "p3", "left": "France", "right": "French" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I22",
+          "type": "matching",
+          "prompt_es": "Une los países con sus nacionalidades:",
+          "pairs": [
+            { "id": "p1", "left": "Germany", "right": "German" },
+            { "id": "p2", "left": "China", "right": "Chinese" },
+            { "id": "p3", "left": "Japan", "right": "Japanese" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la nacionalidad: 'He is from London. He is ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "British",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I24",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la nacionalidad: 'She is from Paris. She is ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "French",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I25",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la nacionalidad: 'They are from Tokyo. They are ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "Japanese",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I26",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la nacionalidad: 'I am from Madrid. I am ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "Spanish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I27",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la nacionalidad: 'He is from New York. He is ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "American",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I28",
+          "type": "flashcard",
+          "prompt_es": "Países y Nacionalidades",
+          "flashcards": [
+            { "front": "Spain", "back": "Spanish", "pronunciation": "/speɪn/ - /ˈspænɪʃ/" },
+            { "front": "France", "back": "French", "pronunciation": "/fræns/ - /frɛntʃ/" },
+            { "front": "Italy", "back": "Italian", "pronunciation": "/ˈɪtəli/ - /ɪˈtæljən/" },
+            { "front": "Germany", "back": "German", "pronunciation": "/ˈdʒɜːrməni/ - /ˈdʒɜːrmən/" },
+            { "front": "China", "back": "Chinese", "pronunciation": "/ˈtʃaɪnə/ - /ˌtʃaɪˈniːz/" }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_Ta1-u3-wh-questions_I0",
-          "questions": [
-            {
-              "sentence": "____ is my cat? It is on the chair.",
-              "answer": "Where",
-              "explanation": "Usamos 'Where' para preguntar sobre un lugar o ubicación.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is your brother? He is ten years old.",
-              "answer": "How old",
-              "explanation": "Usamos 'How old' para preguntar la edad de alguien.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is your favorite color? I like blue.",
-              "answer": "What",
-              "explanation": "Usamos 'What' para preguntar sobre una preferencia o elección.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is he? He is my friend.",
-              "answer": "Who",
-              "explanation": "Usamos 'Who' para preguntar sobre una persona.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is the book? It is green and red.",
-              "answer": "What color",
-              "explanation": "Usamos 'What color' para preguntar sobre los colores.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is your school? It is near the park.",
-              "answer": "Where",
-              "explanation": "Usamos 'Where' para preguntar sobre la ubicación.",
-              "points": 1
-            },
-            {
-              "sentence": "____ are your keys? They are on the table.",
-              "answer": "Where",
-              "explanation": "Usamos 'Where' para preguntar sobre el lugar donde se encuentran objetos.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is she? She is very happy.",
-              "answer": "How",
-              "explanation": "Usamos 'How' para preguntar sobre el estado de ánimo o condición de alguien.",
-              "points": 1
-            }
+          "interaction_id": "U3_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Canadá'?",
+          "options": [
+            { "id": "o1", "text": "Canada" },
+            { "id": "o2", "text": "Canadian" },
+            { "id": "o3", "text": "Canadia" }
           ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Canadiense'?",
+          "options": [
+            { "id": "o1", "text": "Canadian" },
+            { "id": "o2", "text": "Canada" },
+            { "id": "o3", "text": "Canadish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Questions & Negatives",
+      "content": [
+        {
+          "interaction_id": "U3_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Eres español?'?",
+          "options": [
+            { "id": "o1", "text": "Are you Spanish?" },
+            { "id": "o2", "text": "You are Spanish?" },
+            { "id": "o3", "text": "Is you Spanish?" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_Ta1-u3-be-full_I1",
-          "questions": [
-            {
-              "text": "Look at the dog. _______ brown and very small.",
-              "acceptableAnswers": [
-                "It is",
-                "It's"
-              ],
-              "explanation": "Usamos 'It is' o 'It's' para hablar de animales o cosas. Aquí estamos describiendo un perro.",
-              "points": 1
-            },
-            {
-              "text": "Maria _______ in the kitchen. She is cooking.",
-              "acceptableAnswers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' después de un nombre singular como 'Maria' para indicar que está haciendo algo.",
-              "points": 1
-            },
-            {
-              "text": "Tom and Jerry _______ friends. They play together.",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' con sujetos plurales como 'Tom and Jerry'.",
-              "points": 1
-            },
-            {
-              "text": "My parents _______ at home now. They are watching TV.",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' con sujetos plurales como 'my parents'.",
-              "points": 1
-            },
-            {
-              "text": "This book _______ very interesting!",
-              "acceptableAnswers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' con objetos singulares como 'this book'.",
-              "points": 1
-            },
-            {
-              "text": "The cat _______ sleeping. It's awake now.",
-              "acceptableAnswers": [
-                "is not",
-                "isn't"
-              ],
-              "explanation": "Usamos 'is not' o 'isn't' para negar que el gato está durmiendo.",
-              "points": 1
-            },
-            {
-              "text": "My brother and I _______ in the same class.",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' con 'my brother and I' ya que son dos personas, es plural.",
-              "points": 1
-            },
-            {
-              "text": "The lights _______ on. It's dark in here.",
-              "acceptableAnswers": [
-                "are not",
-                "aren't"
-              ],
-              "explanation": "Usamos 'are not' o 'aren't' para negar que las luces están encendidas.",
-              "points": 1
-            }
+          "interaction_id": "U3_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es él de Francia?'?",
+          "options": [
+            { "id": "o1", "text": "Is he from France?" },
+            { "id": "o2", "text": "He is from France?" },
+            { "id": "o3", "text": "Are he from France?" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_Ta1-u3-be-full_I2",
-          "title": "Verb To Be Practice",
-          "instructions": "Choose the correct form of 'to be' for each sentence.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "___ my brother. He is funny.",
-              "options": [
-                "A) He is",
-                "B) She is",
-                "C) It is",
-                "D) We are"
-              ],
-              "correctAnswer": "A",
-              "explanation": "Usamos 'He is' para hablar sobre un hombre o un niño."
-            },
-            {
-              "id": "q2",
-              "question": "___ not sunny today.",
-              "options": [
-                "A) He is",
-                "B) It is",
-                "C) It is not",
-                "D) They are"
-              ],
-              "correctAnswer": "C",
-              "explanation": "Usamos 'It is not' para describir el clima cuando no está soleado."
-            },
-            {
-              "id": "q3",
-              "question": "___ my favorite toys.",
-              "options": [
-                "A) It is",
-                "B) We are",
-                "C) They are",
-                "D) She is"
-              ],
-              "correctAnswer": "C",
-              "explanation": "Usamos 'They are' para hablar sobre objetos en plural."
-            },
-            {
-              "id": "q4",
-              "question": "___ my sister and I.",
-              "options": [
-                "A) He is",
-                "B) We are",
-                "C) She is",
-                "D) It is"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Usamos 'We are' para hablar de nosotros mismos y otra persona."
-            }
+          "interaction_id": "U3_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Son ellos americanos?'?",
+          "options": [
+            { "id": "o1", "text": "Are they American?" },
+            { "id": "o2", "text": "They are American?" },
+            { "id": "o3", "text": "Is they American?" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_Ta1-u3-be-full_I0",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "is",
-                "blue",
-                "sky",
-                "The",
-                "."
-              ],
-              "correctOrder": [
-                "The",
-                "sky",
-                "is",
-                "blue",
-                "."
-              ],
-              "translation": "El cielo es azul.",
-              "hint": "Use a simple subject-verb-object structure with 'is'.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "are",
-                "We",
-                "running",
-                "in",
-                "park",
-                "the",
-                "."
-              ],
-              "correctOrder": [
-                "We",
-                "are",
-                "running",
-                "in",
-                "the",
-                "park",
-                "."
-              ],
-              "translation": "Estamos corriendo en el parque.",
-              "hint": "Begin with the subject and follow with the verb 'are'.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "is",
-                "happy",
-                "She",
-                "."
-              ],
-              "correctOrder": [
-                "She",
-                "is",
-                "happy",
-                "."
-              ],
-              "translation": "Ella está feliz.",
-              "hint": "Start with the subject and use 'is' for the verb.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "at",
-                "It",
-                "five",
-                "is",
-                "clock",
-                "o'",
-                "."
-              ],
-              "correctOrder": [
-                "It",
-                "is",
-                "five",
-                "o'",
-                "clock",
-                "at",
-                "."
-              ],
-              "translation": "Son las cinco en punto.",
-              "hint": "Use 'It is' to tell the time.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "They",
-                "in",
-                "are",
-                "living",
-                "Spain",
-                "."
-              ],
-              "correctOrder": [
-                "They",
-                "are",
-                "living",
-                "in",
-                "Spain",
-                "."
-              ],
-              "translation": "Ellos están viviendo en España.",
-              "hint": "Start with 'They are' for present continuous.",
-              "points": 2
-            }
-          ],
+          "interaction_id": "U3_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta con 'am', 'is' o 'are':",
+          "stimulus_en": "___ she from Italy?",
+          "correct_answer": "Is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_Ta1-u3-wh-questions_I2",
-          "title": "Basic English Practice: Simple Questions",
-          "instructions": "Choose the correct option for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the sky on a clear day?",
-              "options": [
-                "A. Blue",
-                "B. Red",
-                "C. Green",
-                "D. Yellow"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción correcta es 'Blue' porque el cielo típicamente es azul en un día despejado."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the cat?",
-              "options": [
-                "A. On the table",
-                "B. In the car",
-                "C. At school",
-                "D. With friends"
-              ],
-              "correctAnswer": "A",
-              "explanation": "Elegimos 'On the table' porque estamos preguntando sobre la ubicación del gato, y 'On the table' es una respuesta común para este tipo de situación."
-            },
-            {
-              "id": "q3",
-              "question": "How old is Anna?",
-              "options": [
-                "A. She is 25",
-                "B. She is tall",
-                "C. She is happy",
-                "D. She likes pizza"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La respuesta 'She is 25' es correcta porque responde directamente a la pregunta sobre la edad de Anna."
-            },
-            {
-              "id": "q4",
-              "question": "Who is your teacher?",
-              "options": [
-                "A. Mr. Smith",
-                "B. In the classroom",
-                "C. Very nice",
-                "D. 2 o'clock"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La respuesta 'Mr. Smith' es correcta porque 'Who' busca identificar a una persona, y 'Mr. Smith' es un nombre."
-            }
-          ],
+          "interaction_id": "U3_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta con 'am', 'is' o 'are':",
+          "stimulus_en": "___ you from Brazil?",
+          "correct_answer": "Are",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U3_Ta1-u3-jobs_I0",
-          "questions": [
-            {
-              "sentence": "There ___ one doctor in the small office.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "is",
-              "explanation": "Usamos 'there is' para una sola cosa o persona en singular.",
-              "points": 1
-            },
-            {
-              "sentence": "The teacher is ___ the classroom.",
-              "options": [
-                "in",
-                "on",
-                "under"
-              ],
-              "correctAnswer": "in",
-              "explanation": "Usamos 'in' para indicar que algo está dentro de un lugar.",
-              "points": 1
-            },
-            {
-              "sentence": "These ___ my books for work.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "are",
-              "explanation": "Usamos 'these are' para referirnos a varias cosas cercanas en plural.",
-              "points": 1
-            },
-            {
-              "sentence": "The nurse ___ help the patient.",
-              "options": [
-                "can",
-                "can't"
-              ],
-              "correctAnswer": "can",
-              "explanation": "Usamos 'can' para hablar de una habilidad o posibilidad.",
-              "points": 1
-            },
-            {
-              "sentence": "There ___ two engineers in the office.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "are",
-              "explanation": "Usamos 'there are' para varias cosas o personas en plural.",
-              "points": 1
-            },
-            {
-              "sentence": "The office is ___ the school.",
-              "options": [
-                "next to",
-                "under"
-              ],
-              "correctAnswer": "next to",
-              "explanation": "Usamos 'next to' para indicar que algo está al lado de otra cosa.",
-              "points": 1
-            },
-            {
-              "sentence": "This ___ my job.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "is",
-              "explanation": "Usamos 'this is' para referirnos a una sola cosa cercana en singular.",
-              "points": 1
-            },
-            {
-              "sentence": "The engineer can ___ the machine.",
-              "options": [
-                "fix",
-                "fly"
-              ],
-              "correctAnswer": "fix",
-              "explanation": "Usamos 'fix' porque es una habilidad que un ingeniero puede tener.",
-              "points": 1
-            }
+          "interaction_id": "U3_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta con 'am', 'is' o 'are':",
+          "stimulus_en": "___ I in the right class?",
+          "correct_answer": "Am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I37",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "he" },
+            { "id": "w2", "text": "Is" },
+            { "id": "w3", "text": "from" },
+            { "id": "w4", "text": "Germany" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I38",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "they" },
+            { "id": "w2", "text": "Are" },
+            { "id": "w3", "text": "Chinese" },
+            { "id": "w4", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes afirmativamente a 'Are you Italian?'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I am." },
+            { "id": "o2", "text": "Yes, I'm." },
+            { "id": "o3", "text": "Yes, I is." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes negativamente a 'Is he from Spain?'?",
+          "options": [
+            { "id": "o1", "text": "No, he isn't." },
+            { "id": "o2", "text": "No, he's not." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'I am from China'?",
+          "options": [
+            { "id": "o1", "text": "I am not from China" },
+            { "id": "o2", "text": "I not am from China" },
+            { "id": "o3", "text": "I no from China" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'She is Japanese'?",
+          "options": [
+            { "id": "o1", "text": "She isn't Japanese" },
+            { "id": "o2", "text": "She's not Japanese" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'They are British'?",
+          "options": [
+            { "id": "o1", "text": "They aren't British" },
+            { "id": "o2", "text": "They're not British" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la negación (p.ej. isn't, aren't):",
+          "stimulus_en": "We ___ American. We are Canadian.",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la negación:",
+          "stimulus_en": "He ___ from Japan. He is from China.",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la negación:",
+          "stimulus_en": "I ___ Spanish. I am Italian.",
+          "correct_answer": "am not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I47",
+          "type": "true_false",
+          "prompt_es": "¿'Are they' se usa para preguntas?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I48",
+          "type": "true_false",
+          "prompt_es": "¿'They aren't' se usa para negaciones?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿De dónde eres?'?",
+          "options": [
+            { "id": "o1", "text": "Where are you from?" },
+            { "id": "o2", "text": "Where you are from?" },
+            { "id": "o3", "text": "Where is you from?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿De dónde es ella?'?",
+          "options": [
+            { "id": "o1", "text": "Where is she from?" },
+            { "id": "o2", "text": "Where she is from?" },
+            { "id": "o3", "text": "Where are she from?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿De dónde son ellos?'?",
+          "options": [
+            { "id": "o1", "text": "Where are they from?" },
+            { "id": "o2", "text": "Where they are from?" },
+            { "id": "o3", "text": "Where is they from?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "he" },
+            { "id": "w4", "text": "from" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'What nationality is he?'?",
+          "options": [
+            { "id": "o1", "text": "¿De qué nacionalidad es él?" },
+            { "id": "o2", "text": "¿De dónde es él?" },
+            { "id": "o3", "text": "¿Cómo es él?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a 'What nationality are you?'?",
+          "options": [
+            { "id": "o1", "text": "I am Brazilian." },
+            { "id": "o2", "text": "I am from Brazil." },
+            { "id": "o3", "text": "Both are okay, but A is more direct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ you from London?'",
+          "stimulus_en": "___",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'No, I ___ not.'",
+          "stimulus_en": "___",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ he your friend?'",
+          "stimulus_en": "___",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ not at home.'",
+          "stimulus_en": "___",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la contracción de 'are not'?",
+          "options": [
+            { "id": "o1", "text": "aren't" },
+            { "id": "o2", "text": "are'nt" },
+            { "id": "o3", "text": "arent" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la contracción de 'is not'?",
+          "options": [
+            { "id": "o1", "text": "isn't" },
+            { "id": "o2", "text": "is'nt" },
+            { "id": "o3", "text": "isnot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Languages & World",
+      "content": [
+        {
+          "interaction_id": "U3_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'idioma'?",
+          "options": [
+            { "id": "o1", "text": "Language" },
+            { "id": "o2", "text": "Tongue" },
+            { "id": "o3", "text": "Speech" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué idioma se habla en Brasil?",
+          "options": [
+            { "id": "o1", "text": "Portuguese" },
+            { "id": "o2", "text": "Brazilian" },
+            { "id": "o3", "text": "Spanish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué idioma se habla en México?",
+          "options": [
+            { "id": "o1", "text": "Spanish" },
+            { "id": "o2", "text": "Mexican" },
+            { "id": "o3", "text": "English" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué idioma se habla en Estados Unidos?",
+          "options": [
+            { "id": "o1", "text": "English" },
+            { "id": "o2", "text": "American" },
+            { "id": "o3", "text": "British" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué idiomas hablas?'?",
+          "options": [
+            { "id": "o1", "text": "What languages do you speak?" },
+            { "id": "o2", "text": "What languages you speak?" },
+            { "id": "o3", "text": "Which languages are you speak?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a 'Do you speak English?'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I do." },
+            { "id": "o2", "text": "Yes, I speak." },
+            { "id": "o3", "text": "Yes, I am." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Un poco'?",
+          "options": [
+            { "id": "o1", "text": "A little bit" },
+            { "id": "o2", "text": "A small" },
+            { "id": "o3", "text": "Few" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No hablo francés'?",
+          "options": [
+            { "id": "o1", "text": "I don't speak French" },
+            { "id": "o2", "text": "I not speak French" },
+            { "id": "o3", "text": "I no speak French" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Native speaker'?",
+          "options": [
+            { "id": "o1", "text": "Hablante nativo" },
+            { "id": "o2", "text": "Hablante nuevo" },
+            { "id": "o3", "text": "Hablante rápido" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mundo'?",
+          "options": [
+            { "id": "o1", "text": "World" },
+            { "id": "o2", "text": "Earth" },
+            { "id": "o3", "text": "Planet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'capital'?",
+          "options": [
+            { "id": "o1", "text": "Capital" },
+            { "id": "o2", "text": "City" },
+            { "id": "o3", "text": "Main City" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la capital de Italia?",
+          "options": [
+            { "id": "o1", "text": "Rome" },
+            { "id": "o2", "text": "Milan" },
+            { "id": "o3", "text": "Venice" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la capital de España?",
+          "options": [
+            { "id": "o1", "text": "Madrid" },
+            { "id": "o2", "text": "Barcelona" },
+            { "id": "o3", "text": "Seville" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la capital de Francia?",
+          "options": [
+            { "id": "o1", "text": "Paris" },
+            { "id": "o2", "text": "Lyon" },
+            { "id": "o3", "text": "Marseille" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la capital de Alemania?",
+          "options": [
+            { "id": "o1", "text": "Berlin" },
+            { "id": "o2", "text": "Munich" },
+            { "id": "o3", "text": "Hamburg" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la capital de Japón?",
+          "options": [
+            { "id": "o1", "text": "Tokyo" },
+            { "id": "o2", "text": "Osaka" },
+            { "id": "o3", "text": "Kyoto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Europa'?",
+          "options": [
+            { "id": "o1", "text": "Europe" },
+            { "id": "o2", "text": "Europia" },
+            { "id": "o3", "text": "Euro" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Asia'?",
+          "options": [
+            { "id": "o1", "text": "Asia" },
+            { "id": "o2", "text": "Asian" },
+            { "id": "o3", "text": "Asiatic" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'América'?",
+          "options": [
+            { "id": "o1", "text": "America" },
+            { "id": "o2", "text": "American" },
+            { "id": "o3", "text": "Americas" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'África'?",
+          "options": [
+            { "id": "o1", "text": "Africa" },
+            { "id": "o2", "text": "African" },
+            { "id": "o3", "text": "Afric" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U3_I81",
+          "type": "word-search",
+          "prompt_es": "Encuentra países y nacionalidades:",
+          "words": ["SPAIN", "ITALY", "FRANCE", "GERMAN", "CHINA", "JAPAN", "BRAZIL", "CANADA"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "SPAIN", "clue": "País de Madrid" },
+            { "word": "ITALY", "clue": "País de Roma" },
+            { "word": "FRANCE", "clue": "País de París" },
+            { "word": "GERMAN", "clue": "Nacionalidad de Alemania" },
+            { "word": "CHINA", "clue": "País de Pekín" },
+            { "word": "JAPAN", "clue": "País de Tokio" },
+            { "word": "BRAZIL", "clue": "País de Brasilia" },
+            { "word": "CANADA", "clue": "País de Ottawa" }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_Ta1-u3-jobs_I2",
-          "text": "Lisa is a nurse. She (1) ______ very hard at the hospital. She helps the doctors and (2) ______ care of the patients. Lisa loves her (3) ______ because she likes to help people. Her friend, Tom, is an engineer. He (4) ______ in an office. Tom uses a computer to (5) ______ buildings. He likes his job because it is (6) ______. Sarah is a teacher. She works at a school. Sarah (7) ______ English to young children. She thinks her job is very (8) ______.",
-          "questions": [
-            {
-              "number": 1,
-              "options": [
-                "work",
-                "works",
-                "working",
-                "worked"
-              ],
-              "correctOption": "works",
-              "explanation": "La opción correcta es 'works' porque es la forma del verbo para la tercera persona singular en presente simple. Las demás opciones no son correctas gramaticalmente en este contexto."
-            },
-            {
-              "number": 2,
-              "options": [
-                "makes",
-                "takes",
-                "does",
-                "has"
-              ],
-              "correctOption": "takes",
-              "explanation": "'Takes care of' es una frase fija que significa 'cuida de'. Las otras opciones, 'makes', 'does', y 'has', no encajan en este contexto."
-            },
-            {
-              "number": 3,
-              "options": [
-                "work",
-                "employee",
-                "job",
-                "occupation"
-              ],
-              "correctOption": "job",
-              "explanation": "La opción 'job' es correcta porque significa 'trabajo' en el sentido de una ocupación. 'Work' es más general, 'employee' significa 'empleado', y 'occupation' es una palabra más avanzada."
-            },
-            {
-              "number": 4,
-              "options": [
-                "works",
-                "do",
-                "make",
-                "be"
-              ],
-              "correctOption": "works",
-              "explanation": "'Works' es la opción correcta porque se usa en tercera persona para describir lo que alguien hace en su trabajo en presente simple. Las demás opciones no son correctas gramáticamente aquí."
-            },
-            {
-              "number": 5,
-              "options": [
-                "design",
-                "play",
-                "sing",
-                "paint"
-              ],
-              "correctOption": "design",
-              "explanation": "La opción 'design' es correcta porque un ingeniero diseña edificios. 'Play', 'sing', y 'paint' no tienen sentido en este contexto."
-            },
-            {
-              "number": 6,
-              "options": [
-                "boring",
-                "interesting",
-                "easy",
-                "hard"
-              ],
-              "correctOption": "interesting",
-              "explanation": "'Interesting' es la opción correcta porque Tom disfruta su trabajo, lo cual implica que lo encuentra interesante. 'Boring', 'easy', y 'hard' no transmiten la misma idea positiva."
-            },
-            {
-              "number": 7,
-              "options": [
-                "teaches",
-                "write",
-                "learns",
-                "reads"
-              ],
-              "correctOption": "teaches",
-              "explanation": "'Teaches' es la opción correcta porque Sarah es maestra y enseña a los niños. 'Write', 'learns', y 'reads' no son correctas en este contexto."
-            },
-            {
-              "number": 8,
-              "options": [
-                "funny",
-                "sad",
-                "important",
-                "difficult"
-              ],
-              "correctOption": "important",
-              "explanation": "'Important' es la opción correcta porque Sarah considera que su trabajo tiene valor. 'Funny', 'sad', y 'difficult' no reflejan la misma valoración positiva."
-            }
+          "interaction_id": "U3_I82",
+          "type": "crossword",
+          "prompt_es": "Crucigrama del mundo:",
+          "items": [
+            { "word": "SPAIN", "clue": "Madrid is the capital of ___", "direction": "across", "row": 0, "col": 0 },
+            { "word": "FRENCH", "clue": "People from France are ___", "direction": "down", "row": 0, "col": 0 },
+            { "word": "ROME", "clue": "Capital of Italy", "direction": "across", "row": 2, "col": 0 },
+            { "word": "CHINA", "clue": "Beijing is in ___", "direction": "down", "row": 0, "col": 4 }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_Ta1-u3-wh-questions_I1",
-          "title": "Simple Questions with Everyday Verbs",
-          "instructions": "Choose the best answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the sky on a clear day?",
-              "options": [
-                "A. Blue",
-                "B. Green",
-                "C. Yellow",
-                "D. Red"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La respuesta correcta es 'Blue' porque el cielo normalmente es azul en un día despejado."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the cat?",
-              "options": [
-                "A. In the box",
-                "B. Under the table",
-                "C. On the chair",
-                "D. Behind the door"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Elegimos 'Under the table' ya que la pregunta usa 'Where', indicando ubicación, y esta es una ubicación común para un gato."
-            },
-            {
-              "id": "q3",
-              "question": "How does he go to school?",
-              "options": [
-                "A. By bike",
-                "B. Walking",
-                "C. By bus",
-                "D. By train"
-              ],
-              "correctAnswer": "C",
-              "explanation": "La respuesta 'By bus' es correcta porque es una forma común de transporte escolar."
-            },
-            {
-              "id": "q4",
-              "question": "Who is your teacher?",
-              "options": [
-                "A. Mr. Smith",
-                "B. A student",
-                "C. An engineer",
-                "D. A doctor"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La respuesta 'Mr. Smith' es apropiada porque la pregunta 'Who' pide identificar a una persona específica, en este caso, el maestro."
-            }
+          "interaction_id": "U3_I83",
+          "type": "matching",
+          "prompt_es": "Une el país con su capital:",
+          "pairs": [
+            { "id": "p1", "left": "UK", "right": "London" },
+            { "id": "p2", "left": "Japan", "right": "Tokyo" },
+            { "id": "p3", "left": "Germany", "right": "Berlin" }
           ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I84",
+          "type": "true_false",
+          "prompt_es": "¿Se dice 'He are from Mexico'?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. Se dice 'He IS from Mexico'.",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "options": [
+            { "id": "o1", "text": "Where is she from?" },
+            { "id": "o2", "text": "Where are she from?" },
+            { "id": "o3", "text": "Where she from is?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'australiano/a'?",
+          "options": [
+            { "id": "o1", "text": "Australian" },
+            { "id": "o2", "text": "Australia" },
+            { "id": "o3", "text": "Austral" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué idioma se habla en Australia?",
+          "options": [
+            { "id": "o1", "text": "English" },
+            { "id": "o2", "text": "Australian" },
+            { "id": "o3", "text": "Austrian" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I88",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ from Russia. They are from Poland.'",
+          "stimulus_en": "___",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I89",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is he ___? (¿Es él alemán?)'",
+          "stimulus_en": "___",
+          "correct_answer": "German",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'polaco/a'?",
+          "options": [
+            { "id": "o1", "text": "Polish" },
+            { "id": "o2", "text": "Poland" },
+            { "id": "o3", "text": "Polian" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Are you from around here?'?",
+          "options": [
+            { "id": "o1", "text": "¿Eres de por aquí?" },
+            { "id": "o2", "text": "¿Eres de allí?" },
+            { "id": "o3", "text": "¿A dónde vas?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No soy de aquí'?",
+          "options": [
+            { "id": "o1", "text": "I am not from here" },
+            { "id": "o2", "text": "I not from here" },
+            { "id": "o3", "text": "I no from here" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'extranjero'?",
+          "options": [
+            { "id": "o1", "text": "Foreigner" },
+            { "id": "o2", "text": "Strange" },
+            { "id": "o3", "text": "Outside" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje'?",
+          "options": [
+            { "id": "o1", "text": "Trip / Journey" },
+            { "id": "o2", "text": "Travel" },
+            { "id": "o3", "text": "Way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Have a safe trip'?",
+          "options": [
+            { "id": "o1", "text": "Ten un buen viaje (seguro)" },
+            { "id": "o2", "text": "Ten un viaje rápido" },
+            { "id": "o3", "text": "Guarda tu viaje" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U3_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasaporte'?",
+          "options": [
+            { "id": "o1", "text": "Passport" },
+            { "id": "o2", "text": "Pass" },
+            { "id": "o3", "text": "ID card" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta de identificación'?",
+          "options": [
+            { "id": "o1", "text": "ID card" },
+            { "id": "o2", "text": "Identify card" },
+            { "id": "o3", "text": "Personal card" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'visa'?",
+          "options": [
+            { "id": "o1", "text": "Visa" },
+            { "id": "o2", "text": "Permit" },
+            { "id": "o3", "text": "Ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Tourism'?",
+          "options": [
+            { "id": "o1", "text": "Turismo" },
+            { "id": "o2", "text": "Turista" },
+            { "id": "o3", "text": "Viaje" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'soy un turista'?",
+          "options": [
+            { "id": "o1", "text": "I am a tourist" },
+            { "id": "o2", "text": "I am a tourism" },
+            { "id": "o3", "text": "I am tourist" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
         }
       ]
     }

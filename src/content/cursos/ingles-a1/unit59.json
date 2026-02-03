@@ -1,0 +1,47 @@
+{
+  "course": {
+    "unit_id": "U59",
+    "unit_title": "Module 6 Review",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Review shopping and food vocabulary",
+    "Review invitations and suggestions",
+    "Assess progress for Module 6"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Review Practice",
+      "content": [
+        {
+          "interaction_id": "U59_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Tienes pan?",
+          "stimulus_en": "Do you have ______ bread?",
+          "options": [
+            { "id": "o1", "text": "any" },
+            { "id": "o2", "text": "some" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U59_I2",
+          "type": "matching",
+          "prompt_es": "Repaso de compras y comida",
+          "pairs": [
+            { "id": "p1", "left": "Bill", "right": "Cuenta" },
+            { "id": "p2", "left": "Cash", "right": "Efectivo" },
+            { "id": "p3", "left": "Medium", "right": "Mediano" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

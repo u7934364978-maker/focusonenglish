@@ -52,6 +52,8 @@ export function getSolutionText(interaction: PremiumInteraction): string {
       break;
 
     case 'transformation':
+    case 'fill_blanks':
+    case 'fill_blank':
       if (typeof interaction.correct_answer === 'string') {
         return `${prefix}${interaction.correct_answer}`;
       }

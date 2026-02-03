@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- NUMBERS 1-10 DEEP DIVE (Ex 8-17)
+-- NUMBERS 1-10 DEEP DIVE 
 ('a1-m1-l3-ex8', 'a1-m1-l3', 7, 'multipleChoice', 'Number 4', '{
     "prompt": "Choose the word for 4:",
     "options": ["Four", "For", "Fire"],
@@ -67,7 +67,7 @@ VALUES
     ]
 }'),
 
--- NUMBERS 11-20 DEEP DIVE (Ex 18-27)
+-- NUMBERS 11-20 DEEP DIVE 
 ('a1-m1-l3-ex18', 'a1-m1-l3', 17, 'multipleChoice', 'Number 12', '{
     "prompt": "Choose the word for 12:",
     "options": ["Twelve", "Twenty", "Ten-two"],
@@ -131,7 +131,7 @@ VALUES
     ]
 }'),
 
--- AGE & QUANTITY (Ex 28-37)
+-- AGE & QUANTITY 
 ('a1-m1-l3-ex28', 'a1-m1-l3', 27, 'multipleChoice', 'Asking age', '{
     "prompt": "How ___ are you?",
     "options": ["old", "age", "years"],
@@ -149,7 +149,7 @@ VALUES
     "translation": "Tengo diez años"
 }'),
 ('a1-m1-l3-ex31', 'a1-m1-l3', 30, 'multipleChoice', 'Counting cars', '{
-    "prompt": "How many cars? (1, 2, 3...)",
+    "prompt": "How many cars?",
     "options": ["Three", "Third", "Tree"],
     "answerIndex": 0
 }'),
@@ -177,7 +177,7 @@ VALUES
     ]
 }'),
 ('a1-m1-l3-ex36', 'a1-m1-l3', 35, 'fillBlanks', 'How many response', '{
-    "text": "I have ___ apples. (5)",
+    "text": "I have ___ apples.",
     "answers": ["five"],
     "instructions": "Write the number in words."
 }'),
@@ -188,7 +188,7 @@ VALUES
     "translation": "Hay catorce días"
 }'),
 
--- MATH & LOGIC (Ex 38-47)
+-- MATH & LOGIC 
 ('a1-m1-l3-ex38', 'a1-m1-l3', 37, 'multipleChoice', 'Basic sum 1', '{
     "prompt": "Five + Four = ___",
     "options": ["Nine", "Eight", "Ten"],
@@ -247,9 +247,9 @@ VALUES
     "translation": "Veo veinte flores"
 }'),
 
--- UNIT 3 SUMMARY (Ex 48-57)
+-- UNIT 3 SUMMARY 
 ('a1-m1-l3-ex48', 'a1-m1-l3', 47, 'multipleChoice', 'Summary Q1', '{
-    "prompt": "How many? (11)",
+    "prompt": "How many?",
     "options": ["Eleven", "Twelve", "Seven"],
     "answerIndex": 0
 }'),

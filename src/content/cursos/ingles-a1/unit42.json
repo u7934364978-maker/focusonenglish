@@ -1,0 +1,61 @@
+{
+  "course": {
+    "unit_id": "U42",
+    "unit_title": "Transport",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify methods of transport",
+    "Use 'by' with transport",
+    "Talk about how you travel to work/school"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Methods of Transport",
+      "content": [
+        {
+          "interaction_id": "U42_I1",
+          "type": "matching",
+          "prompt_es": "Medios de transporte",
+          "pairs": [
+            { "id": "t1", "left": "Bus", "right": "Autobús" },
+            { "id": "t2", "left": "Train", "right": "Tren" },
+            { "id": "t3", "left": "Bicycle", "right": "Bicicleta" },
+            { "id": "t4", "left": "Car", "right": "Coche" }
+          ],
+          "correct_answer": { "t1": "t1", "t2": "t2", "t3": "t3", "t4": "t4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Recuerda: 'by bus', 'by train'...",
+          "stimulus_en": "I go to work ______ bus.",
+          "options": [
+            { "id": "o1", "text": "by" },
+            { "id": "o2", "text": "in" },
+            { "id": "o3", "text": "on" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U42_I3",
+          "type": "multiple_choice",
+          "prompt_es": "La excepción es ir a pie",
+          "stimulus_en": "I go to school ______ foot.",
+          "options": [
+            { "id": "o1", "text": "on" },
+            { "id": "o2", "text": "by" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

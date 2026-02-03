@@ -1,0 +1,62 @@
+{
+  "course": {
+    "unit_id": "U50",
+    "unit_title": "Module 5 Review & Assessment",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Review travel and transport vocabulary",
+    "Review weather and seasons",
+    "Assess progress for Module 5"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Review Practice",
+      "content": [
+        {
+          "interaction_id": "U50_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo vas al aeropuerto?",
+          "stimulus_en": "I go to the airport ______ taxi.",
+          "options": [
+            { "id": "o1", "text": "by" },
+            { "id": "o2", "text": "on" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U50_I2",
+          "type": "matching",
+          "prompt_es": "Repaso de vocabulario",
+          "pairs": [
+            { "id": "p1", "left": "Winter", "right": "Invierno" },
+            { "id": "p2", "left": "Gate", "right": "Puerta" },
+            { "id": "p3", "left": "Castle", "right": "Castillo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I3",
+          "type": "reorder_words",
+          "prompt_es": "¿Cómo está el tiempo?",
+          "stimulus_en": "It is cloudy and windy",
+          "options": [
+            { "id": "w1", "text": "It" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "cloudy" },
+            { "id": "w4", "text": "and" },
+            { "id": "w5", "text": "windy" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

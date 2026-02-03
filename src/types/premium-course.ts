@@ -34,6 +34,7 @@ export interface PremiumInteraction {
   audioUrl?: string;
   tts_en?: string;
   correct_sentence_en?: string;
+  flashcards?: Array<{ front: string; back: string; pronunciation?: string }>;
   // Cambridge B1 Preliminary Extensions
   main_text?: string; // For gapped_text and cloze
   removed_paragraphs?: Array<{ id: string; text: string; isDistractor?: boolean }>; // For gapped_text

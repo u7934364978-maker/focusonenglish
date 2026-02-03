@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC ROOMS (Ex 2-11)
+-- BASIC ROOMS 
 ('a1-m3-l21-ex2', 'a1-m3-l21', 1, 'multipleChoice', 'Where do you sleep?', '{
     "prompt": "You sleep in the ___.",
     "options": ["bedroom", "kitchen", "bathroom"],
@@ -62,7 +62,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- ACTIVITIES IN ROOMS (Ex 12-21)
+-- ACTIVITIES IN ROOMS 
 ('a1-m3-l21-ex12', 'a1-m3-l21', 11, 'multipleChoice', 'Action in room 1', '{
     "prompt": "I eat dinner in the ___.",
     "options": ["dining room", "bedroom", "bathroom"],
@@ -120,18 +120,18 @@ VALUES
     ]
 }'),
 
--- DESCRIBING ROOMS (Ex 22-31)
+-- DESCRIBING ROOMS 
 ('a1-m3-l21-ex22', 'a1-m3-l21', 21, 'multipleChoice', 'Big/Small', '{
-    "prompt": "My kitchen is very ___ (grande).",
+    "prompt": "My kitchen is very ___.",
     "options": ["big", "small", "dark"],
     "answerIndex": 0
 }'),
 ('a1-m3-l21-ex23', 'a1-m3-l21', 22, 'fillBlanks', 'Adjectives', '{
-    "text": "The living room is ___ (luminoso).",
+    "text": "The living room is ___.",
     "answers": ["bright", "light"]
 }'),
 ('a1-m3-l21-ex24', 'a1-m3-l21', 23, 'multipleChoice', 'Clean', '{
-    "prompt": "My bathroom is always ___ (limpio).",
+    "prompt": "My bathroom is always ___.",
     "options": ["clean", "dirty", "old"],
     "answerIndex": 0
 }'),
@@ -149,12 +149,12 @@ VALUES
     "translation": "El dormitorio es muy pequeño"
 }'),
 ('a1-m3-l21-ex27', 'a1-m3-l21', 26, 'multipleChoice', 'Upstairs/Downstairs', '{
-    "prompt": "The bedrooms are ___ (arriba).",
+    "prompt": "The bedrooms are ___.",
     "options": ["upstairs", "downstairs", "outside"],
     "answerIndex": 0
 }'),
 ('a1-m3-l21-ex28', 'a1-m3-l21', 27, 'fillBlanks', 'Downstairs', '{
-    "text": "The kitchen is ___ (abajo).",
+    "text": "The kitchen is ___.",
     "answers": ["downstairs"]
 }'),
 ('a1-m3-l21-ex29', 'a1-m3-l21', 28, 'matching', 'Adjectives 2', '{
@@ -178,9 +178,9 @@ VALUES
     ]
 }'),
 
--- TYPES OF HOUSES (Ex 32-41)
+-- TYPES OF HOUSES 
 ('a1-m3-l21-ex32', 'a1-m3-l21', 31, 'multipleChoice', 'House type 1', '{
-    "prompt": "I live in a small ___ (apartamento).",
+    "prompt": "I live in a small ___.",
     "options": ["flat", "apartment", "Both are correct"],
     "answerIndex": 2
 }'),
@@ -212,7 +212,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m3-l21-ex38', 'a1-m3-l21', 37, 'fillBlanks', 'Balcony', '{
-    "text": "My flat has a small ___ (balcón).",
+    "text": "My flat has a small ___.",
     "answers": ["balcony"]
 }'),
 ('a1-m3-l21-ex39', 'a1-m3-l21', 38, 'matching', 'More parts', '{
@@ -236,7 +236,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l21-ex42', 'a1-m3-l21', 41, 'multipleChoice', 'Review 1', '{
     "prompt": "Which room is for washing?",
     "options": ["Bathroom", "Kitchen", "Living room"],

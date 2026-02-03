@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- COMMON JOBS (Ex 2-11)
+-- COMMON JOBS 
 ('a1-m1-l9-ex2', 'a1-m1-l9', 1, 'multipleChoice', 'Job: Doctor', '{
     "prompt": "Who works in a hospital and helps sick people?",
     "options": ["A doctor", "A teacher", "A chef"],
@@ -66,7 +66,7 @@ VALUES
     ]
 }'),
 
--- ARTICLES A / AN (Ex 12-21)
+-- ARTICLES A / AN 
 ('a1-m1-l9-ex12', 'a1-m1-l9', 11, 'multipleChoice', 'Article: a doctor', '{
     "prompt": "He is ___ doctor.",
     "options": ["a", "an", "the"],
@@ -127,7 +127,7 @@ VALUES
     ]
 }'),
 
--- WORK QUESTIONS (Ex 22-31)
+-- WORK QUESTIONS 
 ('a1-m1-l9-ex22', 'a1-m1-l9', 21, 'multipleChoice', 'What do you do?', '{
     "prompt": "How do you ask someone about their job?",
     "options": ["What do you do?", "What are you doing?", "Who are you?"],
@@ -188,7 +188,7 @@ VALUES
     ]
 }'),
 
--- MORE JOBS & UNIFORMS (Ex 32-41)
+-- MORE JOBS & UNIFORMS 
 ('a1-m1-l9-ex32', 'a1-m1-l9', 31, 'multipleChoice', 'Job: Mechanic', '{
     "prompt": "Who fixes cars?",
     "options": ["A mechanic", "A dentist", "A baker"],
@@ -250,7 +250,7 @@ VALUES
     ]
 }'),
 
--- UNIT 9 SUMMARY (Ex 42-51)
+-- UNIT 9 SUMMARY 
 ('a1-m1-l9-ex42', 'a1-m1-l9', 41, 'multipleChoice', 'Summary Q1', '{
     "prompt": "Choose the job: I fix computers.",
     "options": ["IT technician", "Secretary", "Cleaner"],
@@ -285,7 +285,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l9-ex48', 'a1-m1-l9', 47, 'multipleChoice', 'Summary Choice 2', '{
-    "prompt": "___ engineer (Article).",
+    "prompt": "___ engineer (artículo).",
     "options": ["An", "A", "The"],
     "answerIndex": 0
 }'),

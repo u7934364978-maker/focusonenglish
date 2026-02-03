@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- COMMON COUNTRIES (Ex 2-11)
+-- COMMON COUNTRIES 
 ('a1-m1-l5-ex2', 'a1-m1-l5', 1, 'multipleChoice', 'Country: Spain', '{
     "prompt": "I live in Madrid. I live in ___.",
     "options": ["Spain", "Spanish", "Spaniard"],
@@ -66,7 +66,7 @@ VALUES
     ]
 }'),
 
--- NATIONALITIES & LANGUAGES (Ex 12-21)
+-- NATIONALITIES & LANGUAGES 
 ('a1-m1-l5-ex12', 'a1-m1-l5', 11, 'multipleChoice', 'Nationality: American', '{
     "prompt": "He is from the USA. He is ___.",
     "options": ["American", "Americane", "Americas"],
@@ -129,7 +129,7 @@ VALUES
     ]
 }'),
 
--- "FROM" VS "IN" (Ex 22-31)
+-- "FROM" VS "IN" 
 ('a1-m1-l5-ex22', 'a1-m1-l5', 21, 'multipleChoice', 'Origin prep', '{
     "prompt": "I am ___ New York.",
     "options": ["from", "in", "to"],
@@ -185,18 +185,18 @@ VALUES
     "title": "Origin vs Place",
     "items": [
         {"front": "From", "back": "De (origen)"},
-        {"front": "In", "back": "En (dentro de)"}
+        {"front": "In", "back": "En "}
     ]
 }'),
 
--- VERB TO BE WITH ORIGINS (Ex 32-41)
+-- VERB TO BE WITH ORIGINS 
 ('a1-m1-l5-ex32', 'a1-m1-l5', 31, 'multipleChoice', 'Verb agreement 1', '{
     "prompt": "They ___ from China.",
     "options": ["am", "is", "are"],
     "answerIndex": 2
 }'),
 ('a1-m1-l5-ex33', 'a1-m1-l5', 32, 'multipleChoice', 'Verb agreement 2', '{
-    "prompt": "It ___ from Japan. (The car)",
+    "prompt": "It ___ from Japan.",
     "options": ["am", "is", "are"],
     "answerIndex": 1
 }'),
@@ -250,7 +250,7 @@ VALUES
     ]
 }'),
 
--- UNIT 5 SUMMARY (Ex 42-51)
+-- UNIT 5 SUMMARY 
 ('a1-m1-l5-ex42', 'a1-m1-l5', 41, 'multipleChoice', 'Summary Q1', '{
     "prompt": "I am from Spain. I am ___.",
     "options": ["Spain", "Spanish", "Spaniard"],

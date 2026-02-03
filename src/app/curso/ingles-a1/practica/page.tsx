@@ -11,10 +11,17 @@ export default async function PracticePage() {
 
   // Fetch all interactions and filter by those NOT completed
   const allInteractions = await premiumCourseService.getAllA1Interactions();
+  
+  // Only use interactions from units 1-60
+  const units = await premiumCourseService.getUnits('ingles-a1');
+  const allowedUnits = units.slice(0, 60);
+  const allowedInteractionIds = new Set(allowedUnits.flatMap(u => u.interactionIds));
+  const filteredInteractions = allInteractions.filter(i => allowedInteractionIds.has(i.interaction_id));
+
   const completedIds = await premiumCourseService.getA1Progress(userId);
   
   const completedSet = new Set(completedIds);
-  const pendingInteractions = allInteractions.filter(
+  const pendingInteractions = filteredInteractions.filter(
     int => !completedSet.has(int.interaction_id)
   );
 

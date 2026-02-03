@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- CORE COLORS (Ex 2-11)
+-- CORE COLORS 
 ('a1-m1-l7-ex2', 'a1-m1-l7', 1, 'multipleChoice', 'Color: Sky', '{
     "prompt": "What color is the sky?",
     "options": ["Blue", "Red", "Green"],
@@ -66,14 +66,14 @@ VALUES
     ]
 }'),
 
--- BASIC ADJECTIVES: SIZE & OPPOSITES (Ex 12-21)
+-- BASIC ADJECTIVES: SIZE & OPPOSITES 
 ('a1-m1-l7-ex12', 'a1-m1-l7', 11, 'multipleChoice', 'Opposite: Small', '{
     "prompt": "What is the opposite of ''Big''?",
     "options": ["Small", "Large", "Long"],
     "answerIndex": 0
 }'),
 ('a1-m1-l7-ex13', 'a1-m1-l7', 12, 'multipleChoice', 'Opposite: Tall', '{
-    "prompt": "What is the opposite of ''Short'' (height)?",
+    "prompt": "What is the opposite of ''Short''?",
     "options": ["Small", "Long", "Tall"],
     "answerIndex": 2
 }'),
@@ -128,7 +128,7 @@ VALUES
     ]
 }'),
 
--- ADJECTIVE ORDER: OPINION, SIZE, COLOR (Ex 22-31)
+-- ADJECTIVE ORDER: OPINION, SIZE, COLOR 
 ('a1-m1-l7-ex22', 'a1-m1-l7', 21, 'multipleChoice', 'Order 1', '{
     "prompt": "Choose the correct order:",
     "options": ["A big red ball", "A red big ball", "Big a red ball"],
@@ -140,7 +140,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l7-ex24', 'a1-m1-l7', 23, 'fillBlanks', 'Order blank', '{
-    "text": "He has a ___ ___ dog. (small, white)",
+    "text": "He has a ___ ___ dog.",
     "answers": ["small white"],
     "instructions": "Write the two adjectives in the correct order."
 }'),
@@ -164,7 +164,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l7-ex28', 'a1-m1-l7', 27, 'fillBlanks', 'Order blank 2', '{
-    "text": "They have a ___ ___ house. (big, modern)",
+    "text": "They have a ___ ___ house.",
     "answers": ["big modern"],
     "instructions": "Size comes before age/style."
 }'),
@@ -190,7 +190,7 @@ VALUES
     ]
 }'),
 
--- "TO BE" + ADJECTIVES (Ex 32-41)
+-- "TO BE" + ADJECTIVES 
 ('a1-m1-l7-ex32', 'a1-m1-l7', 31, 'multipleChoice', 'Sentence agreement 1', '{
     "prompt": "The flowers ___ beautiful.",
     "options": ["is", "are", "am"],
@@ -251,14 +251,14 @@ VALUES
     ]
 }'),
 
--- UNIT 7 SUMMARY (Ex 42-51)
+-- UNIT 7 SUMMARY 
 ('a1-m1-l7-ex42', 'a1-m1-l7', 41, 'multipleChoice', 'Summary Q1', '{
     "prompt": "What color is an orange?",
     "options": ["Orange", "Blue", "Green"],
     "answerIndex": 0
 }'),
 ('a1-m1-l7-ex43', 'a1-m1-l7', 42, 'multipleChoice', 'Summary Q2', '{
-    "prompt": "My shoes are ___ (contrary of big).",
+    "prompt": "My shoes are ___.",
     "options": ["Small", "Long", "Wide"],
     "answerIndex": 0
 }'),

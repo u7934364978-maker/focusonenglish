@@ -11,7 +11,7 @@ WHERE id = 'a1-m3-l29';
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC WEATHER (Ex 2-11)
+-- BASIC WEATHER 
 ('a1-m3-l29-ex2', 'a1-m3-l29', 1, 'multipleChoice', 'Sunny', '{
     "prompt": "The sun is shining. It is ___.",
     "options": ["sunny", "rainy", "snowy"],
@@ -38,7 +38,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l29-ex6', 'a1-m3-l29', 5, 'fillBlanks', 'Weather ID 1', '{
-    "text": "It is ___ (nevando) outside.",
+    "text": "It is ___ outside.",
     "answers": ["snowing"]
 }'),
 ('a1-m3-l29-ex7', 'a1-m3-l29', 6, 'drag-drop', 'Simple weather sentence', '{
@@ -60,7 +60,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l29-ex10', 'a1-m3-l29', 9, 'fillBlanks', 'Weather ID 2', '{
-    "text": "The sky is ___ (nublado).",
+    "text": "The sky is ___.",
     "answers": ["cloudy"]
 }'),
 ('a1-m3-l29-ex11', 'a1-m3-l29', 10, 'multipleChoice', 'Rainbow', '{
@@ -69,18 +69,18 @@ VALUES
     "answerIndex": 0
 }'),
 
--- SEASONS (Ex 12-21)
+-- SEASONS 
 ('a1-m3-l29-ex12', 'a1-m3-l29', 11, 'multipleChoice', 'Summer', '{
     "prompt": "The hottest season is ___.",
     "options": ["summer", "winter", "autumn"],
     "answerIndex": 0
 }'),
 ('a1-m3-l29-ex13', 'a1-m3-l29', 12, 'fillBlanks', 'Winter', '{
-    "text": "It snows in ___ (invierno).",
+    "text": "It snows in ___.",
     "answers": ["winter"]
 }'),
 ('a1-m3-l29-ex14', 'a1-m3-l29', 13, 'multipleChoice', 'Spring', '{
-    "prompt": "Flowers grow in ___ (primavera).",
+    "prompt": "Flowers grow in ___.",
     "options": ["spring", "autumn", "winter"],
     "answerIndex": 0
 }'),
@@ -128,14 +128,14 @@ VALUES
     ]
 }'),
 
--- WEATHER ACTIVITIES (Ex 22-31)
+-- WEATHER ACTIVITIES 
 ('a1-m3-l29-ex22', 'a1-m3-l29', 21, 'multipleChoice', 'Beach weather', '{
     "prompt": "We go to the beach when it is ___.",
     "options": ["sunny", "snowy", "foggy"],
     "answerIndex": 0
 }'),
 ('a1-m3-l29-ex23', 'a1-m3-l29', 22, 'fillBlanks', 'Stay inside', '{
-    "text": "When it rains, I stay ___ (dentro).",
+    "text": "When it rains, I stay ___.",
     "answers": ["inside"]
 }'),
 ('a1-m3-l29-ex24', 'a1-m3-l29', 23, 'multipleChoice', 'Skiing', '{
@@ -173,7 +173,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l29-ex30', 'a1-m3-l29', 29, 'multipleChoice', 'Wind activity', '{
-    "prompt": "It is very ___ (ventoso). Let''s fly a kite!",
+    "prompt": "It is very ___. Let''s fly a kite!",
     "options": ["windy", "sunny", "cloudy"],
     "answerIndex": 0
 }'),
@@ -186,14 +186,14 @@ VALUES
     ]
 }'),
 
--- CLOTHES FOR WEATHER (Ex 32-41) - Connecting back to Unit 20
+-- CLOTHES FOR WEATHER  - Connecting back to Unit 20
 ('a1-m3-l29-ex32', 'a1-m3-l29', 31, 'multipleChoice', 'Winter clothes', '{
     "prompt": "Wear a ___ in winter.",
     "options": ["coat", "T-shirt", "shorts"],
     "answerIndex": 0
 }'),
 ('a1-m3-l29-ex33', 'a1-m3-l29', 32, 'fillBlanks', 'Summer clothes', '{
-    "text": "I wear ___ (gafas de sol) when it is sunny.",
+    "text": "I wear ___ when it is sunny.",
     "answers": ["sunglasses"]
 }'),
 ('a1-m3-l29-ex34', 'a1-m3-l29', 33, 'multipleChoice', 'Rain clothes', '{
@@ -220,7 +220,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m3-l29-ex38', 'a1-m3-l29', 37, 'fillBlanks', 'Boots', '{
-    "text": "I wear rain ___ (botas) in the mud.",
+    "text": "I wear rain ___ in the mud.",
     "answers": ["boots"]
 }'),
 ('a1-m3-l29-ex39', 'a1-m3-l29', 38, 'matching', 'Clothing 2', '{
@@ -244,14 +244,14 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l29-ex42', 'a1-m3-l29', 41, 'multipleChoice', 'Review weather 1', '{
     "prompt": "Which month is in summer?",
     "options": ["July", "December", "January"],
     "answerIndex": 0
 }'),
 ('a1-m3-l29-ex43', 'a1-m3-l29', 42, 'fillBlanks', 'Review weather 2', '{
-    "text": "It is ___ (lloviendo) today.",
+    "text": "It is ___ today.",
     "answers": ["raining"]
 }'),
 ('a1-m3-l29-ex44', 'a1-m3-l29', 43, 'multipleChoice', 'Review seasons', '{

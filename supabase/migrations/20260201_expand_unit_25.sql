@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- NEIGHBORHOOD PLACES (Ex 2-11)
+-- NEIGHBORHOOD PLACES 
 ('a1-m3-l25-ex2', 'a1-m3-l25', 1, 'multipleChoice', 'Where do you buy food?', '{
     "prompt": "I buy food at the ___.",
     "options": ["supermarket", "cinema", "park"],
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l25-ex6', 'a1-m3-l25', 5, 'fillBlanks', 'Place ID 1', '{
-    "text": "I go to the ___ (parque) to run.",
+    "text": "I go to the ___ to run.",
     "answers": ["park"]
 }'),
 ('a1-m3-l25-ex7', 'a1-m3-l25', 6, 'drag-drop', 'Simple town sentence', '{
@@ -62,18 +62,18 @@ VALUES
     "answerIndex": 0
 }'),
 
--- NEIGHBORHOOD DESCRIPTION (Ex 12-21)
+-- NEIGHBORHOOD DESCRIPTION 
 ('a1-m3-l25-ex12', 'a1-m3-l25', 11, 'multipleChoice', 'Neighborhood type', '{
-    "prompt": "My neighborhood is very ___ (tranquilo).",
+    "prompt": "My neighborhood is very ___.",
     "options": ["quiet", "noisy", "busy"],
     "answerIndex": 0
 }'),
 ('a1-m3-l25-ex13', 'a1-m3-l25', 12, 'fillBlanks', 'Neighborhood adj 1', '{
-    "text": "The streets are ___ (limpias).",
+    "text": "The streets are ___.",
     "answers": ["clean"]
 }'),
 ('a1-m3-l25-ex14', 'a1-m3-l25', 13, 'multipleChoice', 'Safety', '{
-    "prompt": "This area is very ___ (segura).",
+    "prompt": "This area is very ___.",
     "options": ["safe", "dangerous", "ugly"],
     "answerIndex": 0
 }'),
@@ -100,7 +100,7 @@ VALUES
     "answers": ["village"]
 }'),
 ('a1-m3-l25-ex19', 'a1-m3-l25', 18, 'multipleChoice', 'Modern/Historic', '{
-    "prompt": "The center of the town is ___ (histórico).",
+    "prompt": "The center of the town is ___.",
     "options": ["historic", "modern", "new"],
     "answerIndex": 0
 }'),
@@ -120,14 +120,14 @@ VALUES
     ]
 }'),
 
--- TRANSPORT IN TOWN (Ex 22-31)
+-- TRANSPORT IN TOWN 
 ('a1-m3-l25-ex22', 'a1-m3-l25', 21, 'multipleChoice', 'Transport 1', '{
     "prompt": "I wait for the ___ at the stop.",
     "options": ["bus", "train", "plane"],
     "answerIndex": 0
 }'),
 ('a1-m3-l25-ex23', 'a1-m3-l25', 22, 'fillBlanks', 'Transport 2', '{
-    "text": "I go to work by ___ (tren).",
+    "text": "I go to work by ___.",
     "answers": ["train"]
 }'),
 ('a1-m3-l25-ex24', 'a1-m3-l25', 23, 'multipleChoice', 'Taxi', '{
@@ -178,7 +178,7 @@ VALUES
     ]
 }'),
 
--- PLACES TO EAT & SHOP (Ex 32-41)
+-- PLACES TO EAT & SHOP 
 ('a1-m3-l25-ex32', 'a1-m3-l25', 31, 'multipleChoice', 'Coffee', '{
     "prompt": "I drink coffee in a ___.",
     "options": ["cafe", "supermarket", "bank"],
@@ -237,7 +237,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l25-ex42', 'a1-m3-l25', 41, 'multipleChoice', 'Review neighborhood 1', '{
     "prompt": "Where do you go when you are sick?",
     "options": ["Hospital", "Cinema", "Library"],

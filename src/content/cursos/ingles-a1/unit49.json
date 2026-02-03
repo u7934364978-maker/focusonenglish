@@ -1,0 +1,43 @@
+{
+  "course": {
+    "unit_id": "U49",
+    "unit_title": "Packing a Suitcase",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify clothing items for travel",
+    "Understand objects needed for a trip"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Packing Items",
+      "content": [
+        {
+          "interaction_id": "U49_I1",
+          "type": "matching",
+          "prompt_es": "Cosas para la maleta",
+          "pairs": [
+            { "id": "i1", "left": "Sunglasses", "right": "Gafas de sol" },
+            { "id": "i2", "left": "Sunscreen", "right": "Crema solar" },
+            { "id": "i3", "left": "Camera", "right": "Cámara" },
+            { "id": "i4", "left": "Map", "right": "Mapa" }
+          ],
+          "correct_answer": { "i1": "i1", "i2": "i2", "i3": "i3", "i4": "i4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_I2",
+          "type": "true_false",
+          "prompt_es": "¿Necesitas esto para ir a la playa?",
+          "stimulus_en": "A swimming suit",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

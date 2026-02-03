@@ -1,0 +1,1207 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U22",
+    "unit_title": "Travel & Holidays",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Vacation Vocabulary",
+      "content": [
+        {
+          "interaction_id": "U22_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacaciones'?",
+          "options": [
+            { "id": "o1", "text": "Holidays / Vacation" },
+            { "id": "o2", "text": "Work" },
+            { "id": "o3", "text": "School" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje'?",
+          "options": [
+            { "id": "o1", "text": "Trip / Journey" },
+            { "id": "o2", "text": "Flight" },
+            { "id": "o3", "text": "Stay" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'maleta'?",
+          "options": [
+            { "id": "o1", "text": "Suitcase" },
+            { "id": "o2", "text": "Bag" },
+            { "id": "o3", "text": "Box" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipaje'?",
+          "options": [
+            { "id": "o1", "text": "Luggage / Baggage" },
+            { "id": "o2", "text": "Clothes" },
+            { "id": "o3", "text": "Stuff" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasaporte'?",
+          "options": [
+            { "id": "o1", "text": "Passport" },
+            { "id": "o2", "text": "Ticket" },
+            { "id": "o3", "text": "ID" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'billete / boleto'?",
+          "options": [
+            { "id": "o1", "text": "Ticket" },
+            { "id": "o2", "text": "Paper" },
+            { "id": "o3", "text": "Money" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'turista'?",
+          "options": [
+            { "id": "o1", "text": "Tourist" },
+            { "id": "o2", "text": "Traveler" },
+            { "id": "o3", "text": "Guest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guía turístico'?",
+          "options": [
+            { "id": "o1", "text": "Tour guide" },
+            { "id": "o2", "text": "Leader" },
+            { "id": "o3", "text": "Map" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playa'?",
+          "options": [
+            { "id": "o1", "text": "Beach" },
+            { "id": "o2", "text": "Coast" },
+            { "id": "o3", "text": "Sand" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'montaña'?",
+          "options": [
+            { "id": "o1", "text": "Mountain" },
+            { "id": "o2", "text": "Hill" },
+            { "id": "o3", "text": "Valley" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'campo'?",
+          "options": [
+            { "id": "o1", "text": "Countryside" },
+            { "id": "o2", "text": "City" },
+            { "id": "o3", "text": "Village" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer turismo'?",
+          "options": [
+            { "id": "o1", "text": "Sightseeing" },
+            { "id": "o2", "text": "Walking" },
+            { "id": "o3", "text": "Looking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'souvenir / recuerdo'?",
+          "options": [
+            { "id": "o1", "text": "Souvenir" },
+            { "id": "o2", "text": "Gift" },
+            { "id": "o3", "text": "Present" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mapa'?",
+          "options": [
+            { "id": "o1", "text": "Map" },
+            { "id": "o2", "text": "Guide" },
+            { "id": "o3", "text": "GPS" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cámara'?",
+          "options": [
+            { "id": "o1", "text": "Camera" },
+            { "id": "o2", "text": "Photo" },
+            { "id": "o3", "text": "Picture" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I16",
+          "type": "matching",
+          "prompt_es": "Une el término de viaje con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Passport", "right": "Pasaporte" },
+            { "id": "p2", "left": "Ticket", "right": "Billete" },
+            { "id": "p3", "left": "Luggage", "right": "Equipaje" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I17",
+          "type": "matching",
+          "prompt_es": "Une los destinos:",
+          "pairs": [
+            { "id": "p1", "left": "Beach", "right": "Playa" },
+            { "id": "p2", "left": "Mountain", "right": "Montaña" },
+            { "id": "p3", "left": "Countryside", "right": "Campo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need my ___ (pasaporte) to travel abroad.'",
+          "stimulus_en": "___",
+          "correct_answer": "passport",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Let's pack the ___ (maleta) for our trip.'",
+          "stimulus_en": "___",
+          "correct_answer": "suitcase",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I love going to the ___ (playa) in summer.'",
+          "stimulus_en": "___",
+          "correct_answer": "beach",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'volar'?",
+          "options": [
+            { "id": "o1", "text": "Fly" },
+            { "id": "o2", "text": "Drive" },
+            { "id": "o3", "text": "Ride" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'despegar'?",
+          "options": [
+            { "id": "o1", "text": "Take off" },
+            { "id": "o2", "text": "Land" },
+            { "id": "o3", "text": "Fly up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aterrizar'?",
+          "options": [
+            { "id": "o1", "text": "Land" },
+            { "id": "o2", "text": "Take off" },
+            { "id": "o3", "text": "Arrive" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservar'?",
+          "options": [
+            { "id": "o1", "text": "Book / Reserve" },
+            { "id": "o2", "text": "Buy" },
+            { "id": "o3", "text": "Order" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cancelar'?",
+          "options": [
+            { "id": "o1", "text": "Cancel" },
+            { "id": "o2", "text": "Stop" },
+            { "id": "o3", "text": "Change" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "At the Airport",
+      "content": [
+        {
+          "interaction_id": "U22_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aeropuerto'?",
+          "options": [
+            { "id": "o1", "text": "Airport" },
+            { "id": "o2", "text": "Station" },
+            { "id": "o3", "text": "Port" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'facturación'?",
+          "options": [
+            { "id": "o1", "text": "Check-in" },
+            { "id": "o2", "text": "Security" },
+            { "id": "o3", "text": "Boarding" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puerta de embarque'?",
+          "options": [
+            { "id": "o1", "text": "Gate" },
+            { "id": "o2", "text": "Door" },
+            { "id": "o3", "text": "Entrance" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta de embarque'?",
+          "options": [
+            { "id": "o1", "text": "Boarding pass" },
+            { "id": "o2", "text": "Flight card" },
+            { "id": "o3", "text": "Travel pass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vuelo'?",
+          "options": [
+            { "id": "o1", "text": "Flight" },
+            { "id": "o2", "text": "Fly" },
+            { "id": "o3", "text": "Plane" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'retraso'?",
+          "options": [
+            { "id": "o1", "text": "Delay" },
+            { "id": "o2", "text": "Late" },
+            { "id": "o3", "text": "Wait" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipaje de mano'?",
+          "options": [
+            { "id": "o1", "text": "Hand luggage / Carry-on" },
+            { "id": "o2", "text": "Small bag" },
+            { "id": "o3", "text": "Personal bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aduana'?",
+          "options": [
+            { "id": "o1", "text": "Customs" },
+            { "id": "o2", "text": "Border" },
+            { "id": "o3", "text": "Security" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'control de seguridad'?",
+          "options": [
+            { "id": "o1", "text": "Security check" },
+            { "id": "o2", "text": "Safety check" },
+            { "id": "o3", "text": "Police check" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llegadas'?",
+          "options": [
+            { "id": "o1", "text": "Arrivals" },
+            { "id": "o2", "text": "Departures" },
+            { "id": "o3", "text": "Entries" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salidas'?",
+          "options": [
+            { "id": "o1", "text": "Departures" },
+            { "id": "o2", "text": "Arrivals" },
+            { "id": "o3", "text": "Exits" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asiento de pasillo'?",
+          "options": [
+            { "id": "o1", "text": "Aisle seat" },
+            { "id": "o2", "text": "Window seat" },
+            { "id": "o3", "text": "Middle seat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asiento de ventana'?",
+          "options": [
+            { "id": "o1", "text": "Window seat" },
+            { "id": "o2", "text": "Aisle seat" },
+            { "id": "o3", "text": "Side seat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'azafata / auxiliar de vuelo'?",
+          "options": [
+            { "id": "o1", "text": "Flight attendant" },
+            { "id": "o2", "text": "Pilot" },
+            { "id": "o3", "text": "Captain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piloto'?",
+          "options": [
+            { "id": "o1", "text": "Pilot" },
+            { "id": "o2", "text": "Driver" },
+            { "id": "o3", "text": "Flyer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I41",
+          "type": "matching",
+          "prompt_es": "Une los lugares del aeropuerto:",
+          "pairs": [
+            { "id": "p1", "left": "Gate", "right": "Puerta" },
+            { "id": "p2", "left": "Customs", "right": "Aduana" },
+            { "id": "p3", "left": "Check-in", "right": "Facturación" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I42",
+          "type": "matching",
+          "prompt_es": "Une los documentos:",
+          "pairs": [
+            { "id": "p1", "left": "Boarding pass", "right": "Tarjeta de embarque" },
+            { "id": "p2", "left": "Passport", "right": "Pasaporte" },
+            { "id": "p3", "left": "Visa", "right": "Visado" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Your flight is at ___ (puerta) 12.'",
+          "stimulus_en": "___",
+          "correct_answer": "gate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please show your ___ (tarjeta de embarque).'",
+          "stimulus_en": "___",
+          "correct_answer": "boarding pass",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Our ___ (vuelo) is delayed.'",
+          "stimulus_en": "___",
+          "correct_answer": "flight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje de negocios'?",
+          "options": [
+            { "id": "o1", "text": "Business trip" },
+            { "id": "o2", "text": "Work travel" },
+            { "id": "o3", "text": "Company trip" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje de ida'?",
+          "options": [
+            { "id": "o1", "text": "One-way ticket" },
+            { "id": "o2", "text": "Single trip" },
+            { "id": "o3", "text": "First trip" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje de ida y vuelta'?",
+          "options": [
+            { "id": "o1", "text": "Round-trip / Return ticket" },
+            { "id": "o2", "text": "Double ticket" },
+            { "id": "o3", "text": "Back and forth" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguro de viaje'?",
+          "options": [
+            { "id": "o1", "text": "Travel insurance" },
+            { "id": "o2", "text": "Safe travel" },
+            { "id": "o3", "text": "Health travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'agencia de viajes'?",
+          "options": [
+            { "id": "o1", "text": "Travel agency" },
+            { "id": "o2", "text": "Trip shop" },
+            { "id": "o3", "text": "Flight office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar & Phrases: Going to / Future",
+      "content": [
+        {
+          "interaction_id": "U22_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'voy a ir a Londres'?",
+          "options": [
+            { "id": "o1", "text": "I am going to go to London" },
+            { "id": "o2", "text": "I go to London" },
+            { "id": "o3", "text": "I going London" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vamos a viajar en avión'?",
+          "options": [
+            { "id": "o1", "text": "We are going to travel by plane" },
+            { "id": "o2", "text": "We travel by plane" },
+            { "id": "o3", "text": "We going travel plane" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Adónde vas a ir?'?",
+          "options": [
+            { "id": "o1", "text": "Where are you going to go?" },
+            { "id": "o2", "text": "Where you going?" },
+            { "id": "o3", "text": "Where go you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ella va a visitar a su familia'?",
+          "options": [
+            { "id": "o1", "text": "She is going to visit her family" },
+            { "id": "o2", "text": "She going visit family" },
+            { "id": "o3", "text": "She visits her family" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no voy a viajar este año'?",
+          "options": [
+            { "id": "o1", "text": "I am not going to travel this year" },
+            { "id": "o2", "text": "I not going travel" },
+            { "id": "o3", "text": "I don't go to travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'going to': 'He is ___ visit Paris.'",
+          "stimulus_en": "___",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (be) going to fly to New York.'",
+          "stimulus_en": "___",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (be) going to stay in a hotel.'",
+          "stimulus_en": "___",
+          "correct_answer": "am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿vas a viajar mañana?'",
+          "options": [
+            { "id": "w1", "text": "tomorrow?" },
+            { "id": "w2", "text": "Are" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "to" },
+            { "id": "w6", "text": "travel" }
+          ],
+          "correct_answer": ["w2", "w4", "w3", "w5", "w6", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'no vamos a ir a la playa'",
+          "options": [
+            { "id": "w1", "text": "going" },
+            { "id": "w2", "text": "to" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "beach" },
+            { "id": "w5", "text": "We" },
+            { "id": "w6", "text": "not" },
+            { "id": "w7", "text": "are" }
+          ],
+          "correct_answer": ["w5", "w7", "w6", "w1", "w2", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder el vuelo'?",
+          "options": [
+            { "id": "o1", "text": "To miss the flight" },
+            { "id": "o2", "text": "To lose the flight" },
+            { "id": "o3", "text": "To fail the flight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'coger un taxi'?",
+          "options": [
+            { "id": "o1", "text": "To take a taxi" },
+            { "id": "o2", "text": "To catch a taxi" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'alquilar un coche'?",
+          "options": [
+            { "id": "o1", "text": "To rent a car" },
+            { "id": "o2", "text": "To hire a car" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'moneda' (dinero local)?",
+          "options": [
+            { "id": "o1", "text": "Currency" },
+            { "id": "o2", "text": "Money" },
+            { "id": "o3", "text": "Coins" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cambio de moneda'?",
+          "options": [
+            { "id": "o1", "text": "Currency exchange" },
+            { "id": "o2", "text": "Money change" },
+            { "id": "o3", "text": "Cash desk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tasa / tarifa'?",
+          "options": [
+            { "id": "o1", "text": "Fee / Fare" },
+            { "id": "o2", "text": "Price" },
+            { "id": "o3", "text": "Cost" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'crucero'?",
+          "options": [
+            { "id": "o1", "text": "Cruise" },
+            { "id": "o2", "text": "Boat trip" },
+            { "id": "o3", "text": "Sea travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'acampar'?",
+          "options": [
+            { "id": "o1", "text": "To go camping" },
+            { "id": "o2", "text": "To stay in a tent" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tienda de campaña'?",
+          "options": [
+            { "id": "o1", "text": "Tent" },
+            { "id": "o2", "text": "Camp" },
+            { "id": "o3", "text": "House" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'saco de dormir'?",
+          "options": [
+            { "id": "o1", "text": "Sleeping bag" },
+            { "id": "o2", "text": "Sleep sack" },
+            { "id": "o3", "text": "Bed bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mochila'?",
+          "options": [
+            { "id": "o1", "text": "Backpack / Rucksack" },
+            { "id": "o2", "text": "Bag" },
+            { "id": "o3", "text": "Case" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mochilero'?",
+          "options": [
+            { "id": "o1", "text": "Backpacker" },
+            { "id": "o2", "text": "Traveler" },
+            { "id": "o3", "text": "Walker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'turismo rural'?",
+          "options": [
+            { "id": "o1", "text": "Rural tourism" },
+            { "id": "o2", "text": "Farm tourism" },
+            { "id": "o3", "text": "Country travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'esquiar'?",
+          "options": [
+            { "id": "o1", "text": "To go skiing" },
+            { "id": "o2", "text": "To ski" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer senderismo'?",
+          "options": [
+            { "id": "o1", "text": "To go hiking" },
+            { "id": "o2", "text": "To walk" },
+            { "id": "o3", "text": "To climb" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U22_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra palabras relacionadas con viajes:",
+          "words": ["AIRPORT", "PASSPORT", "TICKET", "FLIGHT", "BEACH", "HOTEL", "GUIDE", "GATE", "CHECKIN", "RELAX"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "AIRPORT", "clue": "Place where planes take off" },
+            { "word": "PASSPORT", "clue": "Official travel document" },
+            { "word": "TICKET", "clue": "You need this to board" },
+            { "word": "FLIGHT", "clue": "Journey in a plane" },
+            { "word": "BEACH", "clue": "Sandy place by the sea" },
+            { "word": "HOTEL", "clue": "Place to stay" },
+            { "word": "GUIDE", "clue": "Person who shows you around" },
+            { "word": "GATE", "clue": "Where you board the plane" },
+            { "word": "CHECKIN", "clue": "Process at the airport" },
+            { "word": "RELAX", "clue": "What you do on holiday" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de viajes:",
+          "items": [
+            { "word": "TRAVEL", "clue": "To go from one place to another", "direction": "down", "row": 0, "col": 0 },
+            { "word": "PLANE", "clue": "It flies in the sky", "direction": "across", "row": 0, "col": 0 },
+            { "word": "BAG", "clue": "You carry your things in it", "direction": "across", "row": 3, "col": 0 },
+            { "word": "SEA", "clue": "Blue water at the beach", "direction": "down", "row": 3, "col": 0 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I78",
+          "type": "matching",
+          "prompt_es": "Une el transporte con su medio:",
+          "pairs": [
+            { "id": "p1", "left": "Plane", "right": "Air" },
+            { "id": "p2", "left": "Ship", "right": "Sea" },
+            { "id": "p3", "left": "Train", "right": "Land" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Going to' se usa para planes futuros?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'going to' se usa para expresar intenciones y planes ya decididos.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Luggage' es contable (puedo decir 'one luggage, two luggages')?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'luggage' es incontable. Se dice 'one piece of luggage' o 'bags'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disfrutar'?",
+          "options": [
+            { "id": "o1", "text": "Enjoy" },
+            { "id": "o2", "text": "Like" },
+            { "id": "o3", "text": "Love" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'explorar'?",
+          "options": [
+            { "id": "o1", "text": "Explore" },
+            { "id": "o2", "text": "Search" },
+            { "id": "o3", "text": "Find" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'descubrir'?",
+          "options": [
+            { "id": "o1", "text": "Discover" },
+            { "id": "o2", "text": "Look" },
+            { "id": "o3", "text": "See" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'relajarse'?",
+          "options": [
+            { "id": "o1", "text": "To relax" },
+            { "id": "o2", "text": "To rest" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sacar fotos'?",
+          "options": [
+            { "id": "o1", "text": "To take photos" },
+            { "id": "o2", "text": "To make photos" },
+            { "id": "o3", "text": "To do photos" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'buen viaje'?",
+          "options": [
+            { "id": "o1", "text": "Have a nice trip" },
+            { "id": "o2", "text": "Safe travels" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U22_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bon voyage' (usado en inglés)?",
+          "options": [
+            { "id": "o1", "text": "Bon voyage" },
+            { "id": "o2", "text": "Good trip" },
+            { "id": "o3", "text": "Nice travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U22_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'extranjero' (adjetivo)?",
+          "options": [
+            { "id": "o1", "text": "Foreign" },
+            { "id": "o2", "text": "Strange" },
+            { "id": "o3", "text": "Alien" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en el extranjero'?",
+          "options": [
+            { "id": "o1", "text": "Abroad" },
+            { "id": "o2", "text": "Outside" },
+            { "id": "o3", "text": "Away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'itinerario'?",
+          "options": [
+            { "id": "o1", "text": "Itinerary" },
+            { "id": "o2", "text": "Plan" },
+            { "id": "o3", "text": "Route" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aduana'?",
+          "options": [
+            { "id": "o1", "text": "Customs" },
+            { "id": "o2", "text": "Borders" },
+            { "id": "o3", "text": "Police" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'visado'?",
+          "options": [
+            { "id": "o1", "text": "Visa" },
+            { "id": "o2", "text": "Card" },
+            { "id": "o3", "text": "Pass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacuna' (para viajar)?",
+          "options": [
+            { "id": "o1", "text": "Vaccine / Vaccination" },
+            { "id": "o2", "text": "Shot" },
+            { "id": "o3", "text": "Medicine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'excursión'?",
+          "options": [
+            { "id": "o1", "text": "Excursion / Day trip" },
+            { "id": "o2", "text": "Travel" },
+            { "id": "o3", "text": "Walk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guía' (libro)?",
+          "options": [
+            { "id": "o1", "text": "Guidebook" },
+            { "id": "o2", "text": "Travel book" },
+            { "id": "o3", "text": "Map book" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mochila'?",
+          "options": [
+            { "id": "o1", "text": "Backpack" },
+            { "id": "o2", "text": "Suitcase" },
+            { "id": "o3", "text": "Trunk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bolsa de aseo'?",
+          "options": [
+            { "id": "o1", "text": "Toiletries bag / Wash bag" },
+            { "id": "o2", "text": "Beauty bag" },
+            { "id": "o3", "text": "Soap bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'protector solar'?",
+          "options": [
+            { "id": "o1", "text": "Sunscreen" },
+            { "id": "o2", "text": "Sun oil" },
+            { "id": "o3", "text": "Solar cream" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'primeros auxilios'?",
+          "options": [
+            { "id": "o1", "text": "First aid" },
+            { "id": "o2", "text": "Doctor bag" },
+            { "id": "o3", "text": "Help kit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viajar por el mundo'?",
+          "options": [
+            { "id": "o1", "text": "To travel the world" },
+            { "id": "o2", "text": "To go around the world" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

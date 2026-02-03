@@ -1,0 +1,1178 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U17",
+    "unit_title": "Sports & Exercise",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Types of Sports",
+      "content": [
+        {
+          "interaction_id": "U17_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fútbol'?",
+          "options": [
+            { "id": "o1", "text": "Football (UK) / Soccer (US)" },
+            { "id": "o2", "text": "Basket" },
+            { "id": "o3", "text": "Rugby" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'baloncesto'?",
+          "options": [
+            { "id": "o1", "text": "Basketball" },
+            { "id": "o2", "text": "Baseball" },
+            { "id": "o3", "text": "Handball" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tenis'?",
+          "options": [
+            { "id": "o1", "text": "Tennis" },
+            { "id": "o2", "text": "Table tennis" },
+            { "id": "o3", "text": "Padel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'natación'?",
+          "options": [
+            { "id": "o1", "text": "Swimming" },
+            { "id": "o2", "text": "Cycling" },
+            { "id": "o3", "text": "Running" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ciclismo'?",
+          "options": [
+            { "id": "o1", "text": "Cycling" },
+            { "id": "o2", "text": "Motorcycling" },
+            { "id": "o3", "text": "Sailing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'voleibol'?",
+          "options": [
+            { "id": "o1", "text": "Volleyball" },
+            { "id": "o2", "text": "Basketball" },
+            { "id": "o3", "text": "Tennis" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'golf'?",
+          "options": [
+            { "id": "o1", "text": "Golf" },
+            { "id": "o2", "text": "Polo" },
+            { "id": "o3", "text": "Bowling" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equitación'?",
+          "options": [
+            { "id": "o1", "text": "Horse riding" },
+            { "id": "o2", "text": "Horse racing" },
+            { "id": "o3", "text": "Horse walking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'senderismo'?",
+          "options": [
+            { "id": "o1", "text": "Hiking" },
+            { "id": "o2", "text": "Walking" },
+            { "id": "o3", "text": "Climbing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'yoga'?",
+          "options": [
+            { "id": "o1", "text": "Yoga" },
+            { "id": "o2", "text": "Gym" },
+            { "id": "o3", "text": "Fitness" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gimnasia'?",
+          "options": [
+            { "id": "o1", "text": "Gymnastics" },
+            { "id": "o2", "text": "Aerobics" },
+            { "id": "o3", "text": "Pilates" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'boxeo'?",
+          "options": [
+            { "id": "o1", "text": "Boxing" },
+            { "id": "o2", "text": "Wrestling" },
+            { "id": "o3", "text": "Fighting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vela' (deporte)?",
+          "options": [
+            { "id": "o1", "text": "Sailing" },
+            { "id": "o2", "text": "Surfing" },
+            { "id": "o3", "text": "Diving" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'esquí'?",
+          "options": [
+            { "id": "o1", "text": "Skiing" },
+            { "id": "o2", "text": "Skating" },
+            { "id": "o3", "text": "Snowboarding" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'atletismo'?",
+          "options": [
+            { "id": "o1", "text": "Athletics (UK) / Track and field (US)" },
+            { "id": "o2", "text": "Running" },
+            { "id": "o3", "text": "Sporting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I16",
+          "type": "matching",
+          "prompt_es": "Une el deporte con su lugar:",
+          "pairs": [
+            { "id": "p1", "left": "Swimming", "right": "Pool" },
+            { "id": "p2", "left": "Football", "right": "Pitch / Field" },
+            { "id": "p3", "left": "Tennis", "right": "Court" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I17",
+          "type": "matching",
+          "prompt_es": "Une los deportes con sus traducciones:",
+          "pairs": [
+            { "id": "p1", "left": "Archery", "right": "Tiro con arco" },
+            { "id": "p2", "left": "Fencing", "right": "Esgrima" },
+            { "id": "p3", "left": "Wrestling", "right": "Lucha libre" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I love ___ (natación) in summer.'",
+          "stimulus_en": "___",
+          "correct_answer": "swimming",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They play ___ (baloncesto) on Saturdays.'",
+          "stimulus_en": "___",
+          "correct_answer": "basketball",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is he good at ___ (tenis)?'",
+          "stimulus_en": "___",
+          "correct_answer": "tennis",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pista de atletismo'?",
+          "options": [
+            { "id": "o1", "text": "Track" },
+            { "id": "o2", "text": "Field" },
+            { "id": "o3", "text": "Course" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estadio'?",
+          "options": [
+            { "id": "o1", "text": "Stadium" },
+            { "id": "o2", "text": "Arena" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'campo de golf'?",
+          "options": [
+            { "id": "o1", "text": "Golf course" },
+            { "id": "o2", "text": "Golf field" },
+            { "id": "o3", "text": "Golf pitch" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pista de hielo'?",
+          "options": [
+            { "id": "o1", "text": "Ice rink" },
+            { "id": "o2", "text": "Ice track" },
+            { "id": "o3", "text": "Ice court" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'deportista'?",
+          "options": [
+            { "id": "o1", "text": "Athlete / Sports person" },
+            { "id": "o2", "text": "Sportist" },
+            { "id": "o3", "text": "Player" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Verbs: Play, Do, Go",
+      "content": [
+        {
+          "interaction_id": "U17_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo se usa con deportes de equipo o con pelota?",
+          "options": [
+            { "id": "o1", "text": "Play" },
+            { "id": "o2", "text": "Do" },
+            { "id": "o3", "text": "Go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo se usa con deportes que terminan en -ing?",
+          "options": [
+            { "id": "o1", "text": "Go" },
+            { "id": "o2", "text": "Do" },
+            { "id": "o3", "text": "Play" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo se usa con artes marciales o gimnasia?",
+          "options": [
+            { "id": "o1", "text": "Do" },
+            { "id": "o2", "text": "Play" },
+            { "id": "o3", "text": "Go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I29",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ football every Sunday.'",
+          "stimulus_en": "___",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ swimming in the morning.'",
+          "stimulus_en": "___",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I31",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ yoga at the gym.'",
+          "stimulus_en": "___",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I32",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you ___ karate?'",
+          "stimulus_en": "___",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Let's ___ cycling this weekend.'",
+          "stimulus_en": "___",
+          "correct_answer": "go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ tennis at the club.'",
+          "stimulus_en": "___",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I35",
+          "type": "matching",
+          "prompt_es": "Une el deporte con el verbo correcto:",
+          "pairs": [
+            { "id": "p1", "left": "Volleyball", "right": "Play" },
+            { "id": "p2", "left": "Hiking", "right": "Go" },
+            { "id": "p3", "left": "Aerobics", "right": "Do" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ganar un partido'?",
+          "options": [
+            { "id": "o1", "text": "To win a match" },
+            { "id": "o2", "text": "To win a game" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder un partido'?",
+          "options": [
+            { "id": "o1", "text": "To lose a match" },
+            { "id": "o2", "text": "To fail a match" },
+            { "id": "o3", "text": "To miss a match" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empatar'?",
+          "options": [
+            { "id": "o1", "text": "To draw / To tie" },
+            { "id": "o2", "text": "To equal" },
+            { "id": "o3", "text": "To same" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'marcar un gol'?",
+          "options": [
+            { "id": "o1", "text": "To score a goal" },
+            { "id": "o2", "text": "To make a goal" },
+            { "id": "o3", "text": "To put a goal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrenar'?",
+          "options": [
+            { "id": "o1", "text": "To train / To work out" },
+            { "id": "o2", "text": "To exercise" },
+            { "id": "o3", "text": "All are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipo' (de personas)?",
+          "options": [
+            { "id": "o1", "text": "Team" },
+            { "id": "o2", "text": "Group" },
+            { "id": "o3", "text": "Equipment" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'material / equipo' (objetos)?",
+          "options": [
+            { "id": "o1", "text": "Equipment" },
+            { "id": "o2", "text": "Team" },
+            { "id": "o3", "text": "Items" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'capitán'?",
+          "options": [
+            { "id": "o1", "text": "Captain" },
+            { "id": "o2", "text": "Leader" },
+            { "id": "o3", "text": "Chief" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrenador'?",
+          "options": [
+            { "id": "o1", "text": "Coach / Trainer" },
+            { "id": "o2", "text": "Boss" },
+            { "id": "o3", "text": "Teacher" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'árbitro'?",
+          "options": [
+            { "id": "o1", "text": "Referee (football) / Umpire (tennis/cricket)" },
+            { "id": "o2", "text": "Judge" },
+            { "id": "o3", "text": "Controller" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I46",
+          "type": "true_false",
+          "prompt_es": "¿'To play' se usa con el judo?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, se dice 'to do judo' porque es un arte marcial.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I47",
+          "type": "true_false",
+          "prompt_es": "¿'To go' se usa con el running?",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Sí! To go running.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I48",
+          "type": "true_false",
+          "prompt_es": "¿'To play' se usa con el tenis?",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Sí! To play tennis.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'espectador'?",
+          "options": [
+            { "id": "o1", "text": "Spectator / Fan" },
+            { "id": "o2", "text": "Watcher" },
+            { "id": "o3", "text": "Viewer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'marcador / puntuación'?",
+          "options": [
+            { "id": "o1", "text": "Score" },
+            { "id": "o2", "text": "Points" },
+            { "id": "o3", "text": "Board" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Equipment & Verbs",
+      "content": [
+        {
+          "interaction_id": "U17_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pelota'?",
+          "options": [
+            { "id": "o1", "text": "Ball" },
+            { "id": "o2", "text": "Balloon" },
+            { "id": "o3", "text": "Bowl" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'raqueta'?",
+          "options": [
+            { "id": "o1", "text": "Racket" },
+            { "id": "o2", "text": "Bat" },
+            { "id": "o3", "text": "Club" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bate' (béisbol)?",
+          "options": [
+            { "id": "o1", "text": "Bat" },
+            { "id": "o2", "text": "Stick" },
+            { "id": "o3", "text": "Racket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casco'?",
+          "options": [
+            { "id": "o1", "text": "Helmet" },
+            { "id": "o2", "text": "Hat" },
+            { "id": "o3", "text": "Cap" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'red'?",
+          "options": [
+            { "id": "o1", "text": "Net" },
+            { "id": "o2", "text": "Web" },
+            { "id": "o3", "text": "Line" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zapatillas de deporte'?",
+          "options": [
+            { "id": "o1", "text": "Trainers (UK) / Sneakers (US)" },
+            { "id": "o2", "text": "Sport shoes" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bañador'?",
+          "options": [
+            { "id": "o1", "text": "Swimsuit / Swimming costume" },
+            { "id": "o2", "text": "Bath clothes" },
+            { "id": "o3", "text": "Water dress" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gafas de natación'?",
+          "options": [
+            { "id": "o1", "text": "Goggles" },
+            { "id": "o2", "text": "Glasses" },
+            { "id": "o3", "text": "Cups" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pesas'?",
+          "options": [
+            { "id": "o1", "text": "Weights / Dumbbells" },
+            { "id": "o2", "text": "Heavies" },
+            { "id": "o3", "text": "Loads" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'esterilla'?",
+          "options": [
+            { "id": "o1", "text": "Mat" },
+            { "id": "o2", "text": "Rug" },
+            { "id": "o3", "text": "Carpet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'patear'?",
+          "options": [
+            { "id": "o1", "text": "To kick" },
+            { "id": "o2", "text": "To hit" },
+            { "id": "o3", "text": "To throw" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lanzar'?",
+          "options": [
+            { "id": "o1", "text": "To throw" },
+            { "id": "o2", "text": "To catch" },
+            { "id": "o3", "text": "To jump" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'atrapar / coger'?",
+          "options": [
+            { "id": "o1", "text": "To catch" },
+            { "id": "o2", "text": "To hold" },
+            { "id": "o3", "text": "To take" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'golpear'?",
+          "options": [
+            { "id": "o1", "text": "To hit" },
+            { "id": "o2", "text": "To push" },
+            { "id": "o3", "text": "To pull" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'saltar'?",
+          "options": [
+            { "id": "o1", "text": "To jump" },
+            { "id": "o2", "text": "To hop" },
+            { "id": "o3", "text": "Both are forms of jumping" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You need a ___ (raqueta) to play tennis.'",
+          "stimulus_en": "___",
+          "correct_answer": "racket",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Don't forget your ___ (casco) for cycling.'",
+          "stimulus_en": "___",
+          "correct_answer": "helmet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need new ___ (zapatillas) for running.'",
+          "stimulus_en": "___",
+          "correct_answer": "trainers",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I69",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'él patea la pelota'",
+          "options": [
+            { "id": "w1", "text": "ball" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "kicks" },
+            { "id": "w4", "text": "He" }
+          ],
+          "correct_answer": ["w4", "w3", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'yo atrapo la pelota'",
+          "options": [
+            { "id": "w1", "text": "catch" },
+            { "id": "w2", "text": "ball" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "I" }
+          ],
+          "correct_answer": ["w4", "w1", "w3", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U17_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estar en forma'?",
+          "options": [
+            { "id": "o1", "text": "To be fit / To keep fit" },
+            { "id": "o2", "text": "To be in form" },
+            { "id": "o3", "text": "To be sporty" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder peso'?",
+          "options": [
+            { "id": "o1", "text": "To lose weight" },
+            { "id": "o2", "text": "To miss weight" },
+            { "id": "o3", "text": "To drop kilos" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ganar músculo'?",
+          "options": [
+            { "id": "o1", "text": "To gain muscle" },
+            { "id": "o2", "text": "To win muscle" },
+            { "id": "o3", "text": "To make muscle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'saludable'?",
+          "options": [
+            { "id": "o1", "text": "Healthy" },
+            { "id": "o2", "text": "Healthful" },
+            { "id": "o3", "text": "Well" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'activo'?",
+          "options": [
+            { "id": "o1", "text": "Active" },
+            { "id": "o2", "text": "Action" },
+            { "id": "o3", "text": "Busy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U17_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra deportes y equipo:",
+          "words": ["GOLF", "TENNIS", "YOGA", "BALL", "NET", "TEAM", "COACH", "POOL", "MATCH", "SCORE"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "GOLF", "clue": "Deporte de hoyos" },
+            { "word": "TENNIS", "clue": "Usa raqueta" },
+            { "word": "YOGA", "clue": "Relajación" },
+            { "word": "BALL", "clue": "Pelota" },
+            { "word": "NET", "clue": "Red" },
+            { "word": "TEAM", "clue": "Equipo" },
+            { "word": "COACH", "clue": "Entrenador" },
+            { "word": "POOL", "clue": "Piscina" },
+            { "word": "MATCH", "clue": "Partido" },
+            { "word": "SCORE", "clue": "Puntuación" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama deportivo:",
+          "items": [
+            { "word": "FOOTBALL", "clue": "The most popular sport", "direction": "down", "row": 0, "col": 0 },
+            { "word": "FIELD", "clue": "Where you play football", "direction": "across", "row": 0, "col": 0 },
+            { "word": "SWIM", "clue": "To move in water", "direction": "across", "row": 3, "col": 0 },
+            { "word": "BAT", "clue": "Used in baseball", "direction": "down", "row": 3, "col": 2 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I78",
+          "type": "matching",
+          "prompt_es": "Une la acción con el deporte:",
+          "pairs": [
+            { "id": "p1", "left": "Kick", "right": "Football" },
+            { "id": "p2", "left": "Hit", "right": "Baseball" },
+            { "id": "p3", "left": "Throw", "right": "Basketball" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Match' y 'Game' significan 'partido'?",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Sí! Match se usa más en tenis/fútbol, Game es más general.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Gym' es la abreviatura de 'Gymnasium'?",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto!",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medalla'?",
+          "options": [
+            { "id": "o1", "text": "Medal" },
+            { "id": "o2", "text": "Trophy" },
+            { "id": "o3", "text": "Cup" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'trofeo'?",
+          "options": [
+            { "id": "o1", "text": "Trophy" },
+            { "id": "o2", "text": "Medal" },
+            { "id": "o3", "text": "Award" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'campeonato'?",
+          "options": [
+            { "id": "o1", "text": "Championship" },
+            { "id": "o2", "text": "Tournament" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reglas'?",
+          "options": [
+            { "id": "o1", "text": "Rules" },
+            { "id": "o2", "text": "Laws" },
+            { "id": "o3", "text": "Notes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer trampas'?",
+          "options": [
+            { "id": "o1", "text": "To cheat" },
+            { "id": "o2", "text": "To trick" },
+            { "id": "o3", "text": "To lie" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'juego limpio'?",
+          "options": [
+            { "id": "o1", "text": "Fair play" },
+            { "id": "o2", "text": "Clean game" },
+            { "id": "o3", "text": "Good sport" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'récord mundial'?",
+          "options": [
+            { "id": "o1", "text": "World record" },
+            { "id": "o2", "text": "Top score" },
+            { "id": "o3", "text": "Big win" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'famoso'?",
+          "options": [
+            { "id": "o1", "text": "Famous" },
+            { "id": "o2", "text": "Popular" },
+            { "id": "o3", "text": "Known" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entusiasta de los deportes'?",
+          "options": [
+            { "id": "o1", "text": "Sports fan" },
+            { "id": "o2", "text": "Sporty person" },
+            { "id": "o3", "text": "Athletic fan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'practicar'?",
+          "options": [
+            { "id": "o1", "text": "To practice" },
+            { "id": "o2", "text": "To train" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calentar' (ejercicio)?",
+          "options": [
+            { "id": "o1", "text": "To warm up" },
+            { "id": "o2", "text": "To heat up" },
+            { "id": "o3", "text": "To start up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enfriar / estirar' (después de ejercicio)?",
+          "options": [
+            { "id": "o1", "text": "To cool down" },
+            { "id": "o2", "text": "To stretch" },
+            { "id": "o3", "text": "Both are important" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lesión'?",
+          "options": [
+            { "id": "o1", "text": "Injury" },
+            { "id": "o2", "text": "Pain" },
+            { "id": "o3", "text": "Hurt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recuperarse'?",
+          "options": [
+            { "id": "o1", "text": "To recover" },
+            { "id": "o2", "text": "To get better" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'competir'?",
+          "options": [
+            { "id": "o1", "text": "To compete" },
+            { "id": "o2", "text": "To play against" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'duro / exigente'?",
+          "options": [
+            { "id": "o1", "text": "Tough / Hard" },
+            { "id": "o2", "text": "Soft" },
+            { "id": "o3", "text": "Easy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cansado'?",
+          "options": [
+            { "id": "o1", "text": "Tired" },
+            { "id": "o2", "text": "Exhausted" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'energético'?",
+          "options": [
+            { "id": "o1", "text": "Energetic" },
+            { "id": "o2", "text": "Lazy" },
+            { "id": "o3", "text": "Slow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasión'?",
+          "options": [
+            { "id": "o1", "text": "Passion" },
+            { "id": "o2", "text": "Love" },
+            { "id": "o3", "text": "Hobby" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U17_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estilo de vida saludable'?",
+          "options": [
+            { "id": "o1", "text": "Healthy lifestyle" },
+            { "id": "o2", "text": "Sporty life" },
+            { "id": "o3", "text": "Good life" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- DRINKS & MENU (Ex 2-11)
+-- DRINKS & MENU 
 ('a1-m2-l16-ex2', 'a1-m2-l16', 1, 'multipleChoice', 'Coffee type', '{
     "prompt": "I would like a ___ with milk.",
     "options": ["coffee", "sandwich", "cake"],
@@ -63,7 +63,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- ORDERING PHRASES (Ex 12-21)
+-- ORDERING PHRASES 
 ('a1-m2-l16-ex12', 'a1-m2-l16', 11, 'multipleChoice', 'Ordering', '{
     "prompt": "I ___ have a latte, please.",
     "options": ["''ll", "''m", "''ve"],
@@ -122,7 +122,7 @@ VALUES
     ]
 }'),
 
--- PAYING THE BILL (Ex 22-31)
+-- PAYING THE BILL 
 ('a1-m2-l16-ex22', 'a1-m2-l16', 21, 'multipleChoice', 'Asking for bill', '{
     "prompt": "Can I have the ___ please?",
     "options": ["bill", "paper", "menu"],
@@ -151,7 +151,7 @@ VALUES
     "translation": "Quédate con el cambio gracias"
 }'),
 ('a1-m2-l16-ex27', 'a1-m2-l16', 26, 'multipleChoice', 'Change', '{
-    "prompt": "Here is your ___ (money back).",
+    "prompt": "Here is your ___.",
     "options": ["change", "cash", "bill"],
     "answerIndex": 0
 }'),
@@ -181,14 +181,14 @@ VALUES
     ]
 }'),
 
--- CAFE OBJECTS (Ex 32-41)
+-- CAFE OBJECTS 
 ('a1-m2-l16-ex32', 'a1-m2-l16', 31, 'multipleChoice', 'Sitting', '{
     "prompt": "Can we have a ___ for three?",
     "options": ["table", "chair", "cup"],
     "answerIndex": 0
 }'),
 ('a1-m2-l16-ex33', 'a1-m2-l16', 32, 'fillBlanks', 'Napkin', '{
-    "text": "Can I have a ___ please? (to clean mouth)",
+    "text": "Can I have a ___ please?",
     "answers": ["napkin"]
 }'),
 ('a1-m2-l16-ex34', 'a1-m2-l16', 33, 'multipleChoice', 'Sugar plural', '{
@@ -239,7 +239,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l16-ex42', 'a1-m2-l16', 41, 'multipleChoice', 'Ordering 2', '{
     "prompt": "I''ll have a tea. ___ you.",
     "options": ["Thank", "Thanks", "Please"],

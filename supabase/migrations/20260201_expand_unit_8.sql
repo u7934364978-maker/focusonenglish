@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- TENS & MULTIPLES (Ex 2-11)
+-- TENS & MULTIPLES 
 ('a1-m1-l8-ex2', 'a1-m1-l8', 1, 'multipleChoice', 'Number 20', '{
     "prompt": "Choose the word for 20:",
     "options": ["Twenty", "Twelve", "Two-zero"],
@@ -66,7 +66,7 @@ VALUES
     ]
 }'),
 
--- COMPOUND NUMBERS (Ex 12-21)
+-- COMPOUND NUMBERS 
 ('a1-m1-l8-ex12', 'a1-m1-l8', 11, 'multipleChoice', 'Number 21', '{
     "prompt": "Choose the word for 21:",
     "options": ["Twenty-one", "Twentone", "Twelve-one"],
@@ -80,7 +80,7 @@ VALUES
 ('a1-m1-l8-ex14', 'a1-m1-l8', 13, 'fillBlanks', 'Number 42', '{
     "text": "Forty + Two = ___.",
     "answers": ["forty-two"],
-    "instructions": "Write the compound number (use hyphen -)."
+    "instructions": "Write the compound number."
 }'),
 ('a1-m1-l8-ex15', 'a1-m1-l8', 14, 'matching', 'Compound matching 1', '{
     "instructions": "Match the word to the number.",
@@ -128,7 +128,7 @@ VALUES
     ]
 }'),
 
--- PRICES & MONEY (Ex 22-31)
+-- PRICES & MONEY 
 ('a1-m1-l8-ex22', 'a1-m1-l8', 21, 'multipleChoice', 'Asking price', '{
     "prompt": "How ___ is it?",
     "options": ["much", "many", "cost"],
@@ -140,7 +140,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l8-ex24', 'a1-m1-l8', 23, 'fillBlanks', 'Price blank', '{
-    "text": "It is ___ dollars and fifty cents. (30)",
+    "text": "It is ___ dollars and fifty cents.",
     "answers": ["thirty"],
     "instructions": "Write the number for the price."
 }'),
@@ -190,7 +190,7 @@ VALUES
     ]
 }'),
 
--- TELEPHONE NUMBERS & AGES (Ex 32-41)
+-- TELEPHONE NUMBERS & AGES 
 ('a1-m1-l8-ex32', 'a1-m1-l8', 31, 'multipleChoice', 'Asking phone', '{
     "prompt": "What is your phone ___?",
     "options": ["number", "digit", "call"],
@@ -202,7 +202,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l8-ex34', 'a1-m1-l8', 33, 'fillBlanks', 'Age: 40', '{
-    "text": "My father is ___ years old. (40)",
+    "text": "My father is ___ years old.",
     "answers": ["forty"],
     "instructions": "Write the age in words."
 }'),
@@ -225,7 +225,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l8-ex38', 'a1-m1-l8', 37, 'fillBlanks', 'Age check 2', '{
-    "text": "Are you sixty? - No, I am ___ (50).",
+    "text": "Are you sixty? - No, I am ___.",
     "answers": ["fifty"],
     "instructions": "Write the number."
 }'),
@@ -250,7 +250,7 @@ VALUES
     ]
 }'),
 
--- UNIT 8 SUMMARY (Ex 42-51)
+-- UNIT 8 SUMMARY 
 ('a1-m1-l8-ex42', 'a1-m1-l8', 41, 'multipleChoice', 'Summary Q1', '{
     "prompt": "What is 50 + 50?",
     "options": ["One hundred", "Fifty-fifty", "Eighty"],
@@ -281,7 +281,7 @@ VALUES
     "instructions": "Fill in the missing ten."
 }'),
 ('a1-m1-l8-ex47', 'a1-m1-l8', 46, 'multipleChoice', 'Summary Choice 1', '{
-    "prompt": "How old is your house? - It is ___ years old (20).",
+    "prompt": "How old is your house? - It is ___ years old.",
     "options": ["twenty", "twelve", "two"],
     "answerIndex": 0
 }'),

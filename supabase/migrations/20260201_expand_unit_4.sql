@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- CONSONANTS & SOUNDS (Ex 7-16)
+-- CONSONANTS & SOUNDS 
 ('a1-m1-l4-ex7', 'a1-m1-l4', 6, 'multipleChoice', 'Sound: G', '{
     "prompt": "How do you pronounce the letter ''G''?",
     "options": ["/dʒi:/", "/gi:/", "/dʒei/"],
@@ -66,7 +66,7 @@ VALUES
     ]
 }'),
 
--- SPELLING PRACTICE (Ex 17-26)
+-- SPELLING PRACTICE 
 ('a1-m1-l4-ex17', 'a1-m1-l4', 16, 'multipleChoice', 'Spelling: BLUE', '{
     "prompt": "How do you spell BLUE?",
     "options": ["B-L-U-E", "B-L-U", "B-L-O-E"],
@@ -127,7 +127,7 @@ VALUES
     ]
 }'),
 
--- ACRONYMS & ABBREVIATIONS (Ex 27-36)
+-- ACRONYMS & ABBREVIATIONS 
 ('a1-m1-l4-ex27', 'a1-m1-l4', 26, 'multipleChoice', 'Acronym: USA', '{
     "prompt": "How do you spell U.S.A.?",
     "options": ["U-S-A", "/iu/ /es/ /ei/", "Usa"],
@@ -141,7 +141,7 @@ VALUES
 ('a1-m1-l4-ex29', 'a1-m1-l4', 28, 'fillBlanks', 'TV spelling', '{
     "text": "Television is abbreviated as ___.",
     "answers": ["TV"],
-    "instructions": "Write the letters (caps)."
+    "instructions": "Write the letters."
 }'),
 ('a1-m1-l4-ex30', 'a1-m1-l4', 29, 'matching', 'Acronym Match', '{
     "instructions": "Match the acronym to its full name.",
@@ -188,7 +188,7 @@ VALUES
     ]
 }'),
 
--- DICTATION & SPELLING CHALLENGES (Ex 37-46)
+-- DICTATION & SPELLING CHALLENGES 
 ('a1-m1-l4-ex37', 'a1-m1-l4', 36, 'multipleChoice', 'Spell: APPLE', '{
     "prompt": "Choose the correct spelling for 🍎:",
     "options": ["Apple", "Apel", "Aple"],
@@ -250,7 +250,7 @@ VALUES
     ]
 }'),
 
--- UNIT 4 SUMMARY (Ex 47-56)
+-- UNIT 4 SUMMARY 
 ('a1-m1-l4-ex47', 'a1-m1-l4', 46, 'multipleChoice', 'Summary Q1', '{
     "prompt": "Can you spell your name? - ___.",
     "options": ["Yes, J-O-H-N", "Yes, I am John", "Yes, my name is John"],
@@ -275,7 +275,7 @@ VALUES
     ]
 }'),
 ('a1-m1-l4-ex51', 'a1-m1-l4', 50, 'fillBlanks', 'Summary Blank 1', '{
-    "text": "Please ___ (write) the letters.",
+    "text": "Please ___ the letters.",
     "answers": ["spell"],
     "instructions": "What is the verb?"
 }'),

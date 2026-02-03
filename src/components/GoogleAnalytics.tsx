@@ -10,12 +10,12 @@ export default function GoogleAnalytics() {
 
   // Rutas EXCLUIDAS de Google Analytics (contenido de pago y áreas privadas)
   const excludedRoutes = [
-    '/curso-a1',
-    '/curso-a2', 
-    '/curso-b1',
-    '/curso-b2',
-    '/curso-c1',
-    '/curso-c2',
+    '/curso/ingles-a1',
+    '/curso/ingles-a2', 
+    '/curso/ingles-b1',
+    '/curso/ingles-b2',
+    '/curso/ingles-c1',
+    '/curso/ingles-c2',
     '/dashboard',
     '/profile',
     '/settings',

@@ -1,0 +1,1199 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U21",
+    "unit_title": "Animals & Nature",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Domestic Animals",
+      "content": [
+        {
+          "interaction_id": "U21_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perro'?",
+          "options": [
+            { "id": "o1", "text": "Dog" },
+            { "id": "o2", "text": "Cat" },
+            { "id": "o3", "text": "Bird" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gato'?",
+          "options": [
+            { "id": "o1", "text": "Cat" },
+            { "id": "o2", "text": "Dog" },
+            { "id": "o3", "text": "Rabbit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pájaro'?",
+          "options": [
+            { "id": "o1", "text": "Bird" },
+            { "id": "o2", "text": "Fish" },
+            { "id": "o3", "text": "Hamster" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pez'?",
+          "options": [
+            { "id": "o1", "text": "Fish" },
+            { "id": "o2", "text": "Frog" },
+            { "id": "o3", "text": "Turtle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'conejo'?",
+          "options": [
+            { "id": "o1", "text": "Rabbit" },
+            { "id": "o2", "text": "Guinea pig" },
+            { "id": "o3", "text": "Mouse" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hámster'?",
+          "options": [
+            { "id": "o1", "text": "Hamster" },
+            { "id": "o2", "text": "Rat" },
+            { "id": "o3", "text": "Mouse" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tortuga'?",
+          "options": [
+            { "id": "o1", "text": "Turtle" },
+            { "id": "o2", "text": "Lizard" },
+            { "id": "o3", "text": "Snake" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caballo'?",
+          "options": [
+            { "id": "o1", "text": "Horse" },
+            { "id": "o2", "text": "Donkey" },
+            { "id": "o3", "text": "Cow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vaca'?",
+          "options": [
+            { "id": "o1", "text": "Cow" },
+            { "id": "o2", "text": "Sheep" },
+            { "id": "o3", "text": "Pig" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cerdo'?",
+          "options": [
+            { "id": "o1", "text": "Pig" },
+            { "id": "o2", "text": "Goat" },
+            { "id": "o3", "text": "Duck" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oveja'?",
+          "options": [
+            { "id": "o1", "text": "Sheep" },
+            { "id": "o2", "text": "Goat" },
+            { "id": "o3", "text": "Hen" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gallina'?",
+          "options": [
+            { "id": "o1", "text": "Hen" },
+            { "id": "o2", "text": "Chicken" },
+            { "id": "o3", "text": "Rooster" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pato'?",
+          "options": [
+            { "id": "o1", "text": "Duck" },
+            { "id": "o2", "text": "Goose" },
+            { "id": "o3", "text": "Swan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cabra'?",
+          "options": [
+            { "id": "o1", "text": "Goat" },
+            { "id": "o2", "text": "Sheep" },
+            { "id": "o3", "text": "Cow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mascota'?",
+          "options": [
+            { "id": "o1", "text": "Pet" },
+            { "id": "o2", "text": "Animal" },
+            { "id": "o3", "text": "Friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I16",
+          "type": "matching",
+          "prompt_es": "Une el animal con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Dog", "right": "Perro" },
+            { "id": "p2", "left": "Cat", "right": "Gato" },
+            { "id": "p3", "left": "Rabbit", "right": "Conejo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I17",
+          "type": "matching",
+          "prompt_es": "Une los animales de granja:",
+          "pairs": [
+            { "id": "p1", "left": "Horse", "right": "Caballo" },
+            { "id": "p2", "left": "Cow", "right": "Vaca" },
+            { "id": "p3", "left": "Pig", "right": "Cerdo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A ___ (perro) is a man's best friend.'",
+          "stimulus_en": "___",
+          "correct_answer": "dog",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (gato) is sleeping on the sofa.'",
+          "stimulus_en": "___",
+          "correct_answer": "cat",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have a gold ___ (pez) in a bowl.'",
+          "stimulus_en": "___",
+          "correct_answer": "fish",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ladrar'?",
+          "options": [
+            { "id": "o1", "text": "Bark" },
+            { "id": "o2", "text": "Meow" },
+            { "id": "o3", "text": "Purr" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'maullar'?",
+          "options": [
+            { "id": "o1", "text": "Meow" },
+            { "id": "o2", "text": "Bark" },
+            { "id": "o3", "text": "Roar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cola / rabo'?",
+          "options": [
+            { "id": "o1", "text": "Tail" },
+            { "id": "o2", "text": "Ear" },
+            { "id": "o3", "text": "Leg" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pelo / pelaje'?",
+          "options": [
+            { "id": "o1", "text": "Fur" },
+            { "id": "o2", "text": "Hair" },
+            { "id": "o3", "text": "Skin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'patas'?",
+          "options": [
+            { "id": "o1", "text": "Paws" },
+            { "id": "o2", "text": "Hands" },
+            { "id": "o3", "text": "Feet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Wild Animals",
+      "content": [
+        {
+          "interaction_id": "U21_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'león'?",
+          "options": [
+            { "id": "o1", "text": "Lion" },
+            { "id": "o2", "text": "Tiger" },
+            { "id": "o3", "text": "Leopard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tigre'?",
+          "options": [
+            { "id": "o1", "text": "Tiger" },
+            { "id": "o2", "text": "Lion" },
+            { "id": "o3", "text": "Cheetah" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'elefante'?",
+          "options": [
+            { "id": "o1", "text": "Elephant" },
+            { "id": "o2", "text": "Giraffe" },
+            { "id": "o3", "text": "Hippo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jirafa'?",
+          "options": [
+            { "id": "o1", "text": "Giraffe" },
+            { "id": "o2", "text": "Zebra" },
+            { "id": "o3", "text": "Elephant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cebra'?",
+          "options": [
+            { "id": "o1", "text": "Zebra" },
+            { "id": "o2", "text": "Horse" },
+            { "id": "o3", "text": "Tiger" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mono'?",
+          "options": [
+            { "id": "o1", "text": "Monkey" },
+            { "id": "o2", "text": "Gorilla" },
+            { "id": "o3", "text": "Ape" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oso'?",
+          "options": [
+            { "id": "o1", "text": "Bear" },
+            { "id": "o2", "text": "Wolf" },
+            { "id": "o3", "text": "Fox" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lobo'?",
+          "options": [
+            { "id": "o1", "text": "Wolf" },
+            { "id": "o2", "text": "Fox" },
+            { "id": "o3", "text": "Dog" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zorro'?",
+          "options": [
+            { "id": "o1", "text": "Fox" },
+            { "id": "o2", "text": "Wolf" },
+            { "id": "o3", "text": "Coyote" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'serpiente'?",
+          "options": [
+            { "id": "o1", "text": "Snake" },
+            { "id": "o2", "text": "Lizard" },
+            { "id": "o3", "text": "Worm" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cocodrilo'?",
+          "options": [
+            { "id": "o1", "text": "Crocodile" },
+            { "id": "o2", "text": "Alligator" },
+            { "id": "o3", "text": "Lizard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hipopótamo'?",
+          "options": [
+            { "id": "o1", "text": "Hippo" },
+            { "id": "o2", "text": "Rhino" },
+            { "id": "o3", "text": "Elephant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rinoceronte'?",
+          "options": [
+            { "id": "o1", "text": "Rhino" },
+            { "id": "o2", "text": "Hippo" },
+            { "id": "o3", "text": "Buffalo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'canguro'?",
+          "options": [
+            { "id": "o1", "text": "Kangaroo" },
+            { "id": "o2", "text": "Koala" },
+            { "id": "o3", "text": "Wallaby" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'koala'?",
+          "options": [
+            { "id": "o1", "text": "Koala" },
+            { "id": "o2", "text": "Panda" },
+            { "id": "o3", "text": "Bear" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I41",
+          "type": "matching",
+          "prompt_es": "Une el animal salvaje con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Lion", "right": "León" },
+            { "id": "p2", "left": "Elephant", "right": "Elefante" },
+            { "id": "p3", "left": "Monkey", "right": "Mono" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I42",
+          "type": "matching",
+          "prompt_es": "Une los animales de Australia:",
+          "pairs": [
+            { "id": "p1", "left": "Kangaroo", "right": "Canguro" },
+            { "id": "p2", "left": "Koala", "right": "Koala" },
+            { "id": "p3", "left": "Dingo", "right": "Dingo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (elefante) has a long trunk.'",
+          "stimulus_en": "___",
+          "correct_answer": "elephant",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A ___ (jirafa) has a very long neck.'",
+          "stimulus_en": "___",
+          "correct_answer": "giraffe",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (león) is the king of the jungle.'",
+          "stimulus_en": "___",
+          "correct_answer": "lion",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'selva / jungla'?",
+          "options": [
+            { "id": "o1", "text": "Jungle" },
+            { "id": "o2", "text": "Forest" },
+            { "id": "o3", "text": "Desert" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bosque'?",
+          "options": [
+            { "id": "o1", "text": "Forest / Woods" },
+            { "id": "o2", "text": "Mountain" },
+            { "id": "o3", "text": "Field" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desierto'?",
+          "options": [
+            { "id": "o1", "text": "Desert" },
+            { "id": "o2", "text": "Dessert" },
+            { "id": "o3", "text": "Sand" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'océano'?",
+          "options": [
+            { "id": "o1", "text": "Ocean" },
+            { "id": "o2", "text": "Sea" },
+            { "id": "o3", "text": "Lake" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'río'?",
+          "options": [
+            { "id": "o1", "text": "River" },
+            { "id": "o2", "text": "Stream" },
+            { "id": "o3", "text": "Pond" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Insects & Nature",
+      "content": [
+        {
+          "interaction_id": "U21_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mariposa'?",
+          "options": [
+            { "id": "o1", "text": "Butterfly" },
+            { "id": "o2", "text": "Bee" },
+            { "id": "o3", "text": "Fly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'abeja'?",
+          "options": [
+            { "id": "o1", "text": "Bee" },
+            { "id": "o2", "text": "Ant" },
+            { "id": "o3", "text": "Spider" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hormiga'?",
+          "options": [
+            { "id": "o1", "text": "Ant" },
+            { "id": "o2", "text": "Beetle" },
+            { "id": "o3", "text": "Grasshopper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'araña'?",
+          "options": [
+            { "id": "o1", "text": "Spider" },
+            { "id": "o2", "text": "Scorpion" },
+            { "id": "o3", "text": "Fly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'flor'?",
+          "options": [
+            { "id": "o1", "text": "Flower" },
+            { "id": "o2", "text": "Tree" },
+            { "id": "o3", "text": "Plant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'árbol'?",
+          "options": [
+            { "id": "o1", "text": "Tree" },
+            { "id": "o2", "text": "Bush" },
+            { "id": "o3", "text": "Leaf" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hoja'?",
+          "options": [
+            { "id": "o1", "text": "Leaf" },
+            { "id": "o2", "text": "Root" },
+            { "id": "o3", "text": "Branch" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hierba'?",
+          "options": [
+            { "id": "o1", "text": "Grass" },
+            { "id": "o2", "text": "Soil" },
+            { "id": "o3", "text": "Ground" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'montaña'?",
+          "options": [
+            { "id": "o1", "text": "Mountain" },
+            { "id": "o2", "text": "Hill" },
+            { "id": "o3", "text": "Valley" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'colina'?",
+          "options": [
+            { "id": "o1", "text": "Hill" },
+            { "id": "o2", "text": "Mountain" },
+            { "id": "o3", "text": "Cliff" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (abeja) makes honey.'",
+          "stimulus_en": "___",
+          "correct_answer": "bee",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Look at that beautiful ___ (mariposa).'",
+          "stimulus_en": "___",
+          "correct_answer": "butterfly",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There are many fruit ___ (árboles) in the garden.'",
+          "stimulus_en": "___",
+          "correct_answer": "trees",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (hierba) is green.'",
+          "stimulus_en": "___",
+          "correct_answer": "grass",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I65",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'me gustan los animales salvajes'",
+          "options": [
+            { "id": "w1", "text": "animals" },
+            { "id": "w2", "text": "like" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "wild" }
+          ],
+          "correct_answer": ["w3", "w2", "w4", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I66",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'el elefante es muy grande'",
+          "options": [
+            { "id": "w1", "text": "big" },
+            { "id": "w2", "text": "very" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "elephant" },
+            { "id": "w5", "text": "The" }
+          ],
+          "correct_answer": ["w5", "w4", "w3", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U21_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'volar'?",
+          "options": [
+            { "id": "o1", "text": "Fly" },
+            { "id": "o2", "text": "Swim" },
+            { "id": "o3", "text": "Run" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nadar'?",
+          "options": [
+            { "id": "o1", "text": "Swim" },
+            { "id": "o2", "text": "Dive" },
+            { "id": "o3", "text": "Float" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cazar'?",
+          "options": [
+            { "id": "o1", "text": "Hunt" },
+            { "id": "o2", "text": "Eat" },
+            { "id": "o3", "text": "Fight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'saltar'?",
+          "options": [
+            { "id": "o1", "text": "Jump" },
+            { "id": "o2", "text": "Hop" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'peligroso'?",
+          "options": [
+            { "id": "o1", "text": "Dangerous" },
+            { "id": "o2", "text": "Safe" },
+            { "id": "o3", "text": "Scary" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hermoso'?",
+          "options": [
+            { "id": "o1", "text": "Beautiful" },
+            { "id": "o2", "text": "Ugly" },
+            { "id": "o3", "text": "Small" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuerte'?",
+          "options": [
+            { "id": "o1", "text": "Strong" },
+            { "id": "o2", "text": "Weak" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rápido'?",
+          "options": [
+            { "id": "o1", "text": "Fast / Quick" },
+            { "id": "o2", "text": "Slow" },
+            { "id": "o3", "text": "Heavy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lento'?",
+          "options": [
+            { "id": "o1", "text": "Slow" },
+            { "id": "o2", "text": "Fast" },
+            { "id": "o3", "text": "Easy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U21_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra animales y elementos de la naturaleza:",
+          "words": ["LION", "TIGER", "BEAR", "WOLF", "SHARK", "WHALE", "EAGLE", "SNAKE", "FOREST", "RIVER"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "LION", "clue": "King of the jungle" },
+            { "word": "TIGER", "clue": "Big orange cat with stripes" },
+            { "word": "BEAR", "clue": "Large furry animal" },
+            { "word": "WOLF", "clue": "Wild dog" },
+            { "word": "SHARK", "clue": "Dangerous sea animal" },
+            { "word": "WHALE", "clue": "Largest mammal in the ocean" },
+            { "word": "EAGLE", "clue": "Large bird of prey" },
+            { "word": "SNAKE", "clue": "Long reptile without legs" },
+            { "word": "FOREST", "clue": "Place with many trees" },
+            { "word": "RIVER", "clue": "Flowing water" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de la naturaleza:",
+          "items": [
+            { "word": "ANIMAL", "clue": "Living thing that is not a plant", "direction": "down", "row": 0, "col": 0 },
+            { "word": "CAT", "clue": "Small pet that meows", "direction": "across", "row": 0, "col": 0 },
+            { "word": "BIRD", "clue": "Animal that flies", "direction": "across", "row": 3, "col": 0 },
+            { "word": "DOG", "clue": "Pet that barks", "direction": "down", "row": 3, "col": 0 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I78",
+          "type": "matching",
+          "prompt_es": "Une los animales con su hábitat:",
+          "pairs": [
+            { "id": "p1", "left": "Camel", "right": "Desert" },
+            { "id": "p2", "left": "Shark", "right": "Ocean" },
+            { "id": "p3", "left": "Lion", "right": "Savanna" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I79",
+          "type": "true_false",
+          "prompt_es": "¿Los pingüinos pueden volar?",
+          "correct_answer": false,
+          "feedback_correct_es": "Correcto, los pingüinos son aves que no vuelan, pero nadan muy bien.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I80",
+          "type": "true_false",
+          "prompt_es": "¿Las ballenas son mamíferos?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, las ballenas son mamíferos marinos.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tiburón'?",
+          "options": [
+            { "id": "o1", "text": "Shark" },
+            { "id": "o2", "text": "Whale" },
+            { "id": "o3", "text": "Dolphin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'delfín'?",
+          "options": [
+            { "id": "o1", "text": "Dolphin" },
+            { "id": "o2", "text": "Seal" },
+            { "id": "o3", "text": "Octopus" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ballena'?",
+          "options": [
+            { "id": "o1", "text": "Whale" },
+            { "id": "o2", "text": "Shark" },
+            { "id": "o3", "text": "Crab" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pulpo'?",
+          "options": [
+            { "id": "o1", "text": "Octopus" },
+            { "id": "o2", "text": "Squid" },
+            { "id": "o3", "text": "Jellyfish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'águila'?",
+          "options": [
+            { "id": "o1", "text": "Eagle" },
+            { "id": "o2", "text": "Hawk" },
+            { "id": "o3", "text": "Owl" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'búho'?",
+          "options": [
+            { "id": "o1", "text": "Owl" },
+            { "id": "o2", "text": "Parrot" },
+            { "id": "o3", "text": "Penguin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'loro'?",
+          "options": [
+            { "id": "o1", "text": "Parrot" },
+            { "id": "o2", "text": "Canary" },
+            { "id": "o3", "text": "Pigeon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pingüino'?",
+          "options": [
+            { "id": "o1", "text": "Penguin" },
+            { "id": "o2", "text": "Duck" },
+            { "id": "o3", "text": "Goose" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medio ambiente'?",
+          "options": [
+            { "id": "o1", "text": "Environment" },
+            { "id": "o2", "text": "Nature" },
+            { "id": "o3", "text": "Climate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ecológico'?",
+          "options": [
+            { "id": "o1", "text": "Eco-friendly" },
+            { "id": "o2", "text": "Green" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reciclar'?",
+          "options": [
+            { "id": "o1", "text": "Recycle" },
+            { "id": "o2", "text": "Reuse" },
+            { "id": "o3", "text": "Reduce" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'contaminación'?",
+          "options": [
+            { "id": "o1", "text": "Pollution" },
+            { "id": "o2", "text": "Dirty" },
+            { "id": "o3", "text": "Trash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'animales en peligro'?",
+          "options": [
+            { "id": "o1", "text": "Endangered animals" },
+            { "id": "o2", "text": "Dangerous animals" },
+            { "id": "o3", "text": "Dead animals" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'extinto'?",
+          "options": [
+            { "id": "o1", "text": "Extinct" },
+            { "id": "o2", "text": "Gone" },
+            { "id": "o3", "text": "Old" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salvar el planeta'?",
+          "options": [
+            { "id": "o1", "text": "Save the planet" },
+            { "id": "o2", "text": "Protect the earth" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aire puro'?",
+          "options": [
+            { "id": "o1", "text": "Fresh air" },
+            { "id": "o2", "text": "Pure air" },
+            { "id": "o3", "text": "Clean wind" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paisaje'?",
+          "options": [
+            { "id": "o1", "text": "Landscape / Scenery" },
+            { "id": "o2", "text": "View" },
+            { "id": "o3", "text": "Picture" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'respetar la naturaleza'?",
+          "options": [
+            { "id": "o1", "text": "Respect nature" },
+            { "id": "o2", "text": "Look nature" },
+            { "id": "o3", "text": "Watch nature" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parque natural'?",
+          "options": [
+            { "id": "o1", "text": "Natural park" },
+            { "id": "o2", "text": "Wild park" },
+            { "id": "o3", "text": "Green park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U21_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zoológico'?",
+          "options": [
+            { "id": "o1", "text": "Zoo" },
+            { "id": "o2", "text": "Park" },
+            { "id": "o3", "text": "Animal house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

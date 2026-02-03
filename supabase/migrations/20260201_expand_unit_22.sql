@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC FURNITURE (Ex 2-11)
+-- BASIC FURNITURE 
 ('a1-m3-l22-ex2', 'a1-m3-l22', 1, 'multipleChoice', 'Where do you sit?', '{
     "prompt": "I sit on a ___.",
     "options": ["chair", "table", "lamp"],
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l22-ex6', 'a1-m3-l22', 5, 'fillBlanks', 'Furniture ID', '{
-    "text": "I put my clothes in the ___ (armario).",
+    "text": "I put my clothes in the ___.",
     "answers": ["wardrobe", "closet"]
 }'),
 ('a1-m3-l22-ex7', 'a1-m3-l22', 6, 'drag-drop', 'Simple furniture sentence', '{
@@ -53,23 +53,23 @@ VALUES
     ]
 }'),
 ('a1-m3-l22-ex10', 'a1-m3-l22', 9, 'fillBlanks', 'Storage', '{
-    "text": "I put my books on the ___ (estante).",
+    "text": "I put my books on the ___.",
     "answers": ["shelf"]
 }'),
 ('a1-m3-l22-ex11', 'a1-m3-l22', 10, 'multipleChoice', 'Light', '{
-    "prompt": "Turn on the ___ (lámpara).",
+    "prompt": "Turn on the ___.",
     "options": ["lamp", "carpet", "desk"],
     "answerIndex": 0
 }'),
 
--- HOUSEHOLD APPLIANCES (Ex 12-21)
+-- HOUSEHOLD APPLIANCES 
 ('a1-m3-l22-ex12', 'a1-m3-l22', 11, 'multipleChoice', 'Kitchen appliance 1', '{
     "prompt": "The milk is in the ___.",
     "options": ["fridge", "oven", "toaster"],
     "answerIndex": 0
 }'),
 ('a1-m3-l22-ex13', 'a1-m3-l22', 12, 'fillBlanks', 'Kitchen appliance 2', '{
-    "text": "I cook the pizza in the ___ (horno).",
+    "text": "I cook the pizza in the ___.",
     "answers": ["oven"]
 }'),
 ('a1-m3-l22-ex14', 'a1-m3-l22', 13, 'multipleChoice', 'Cleaning', '{
@@ -120,14 +120,14 @@ VALUES
     ]
 }'),
 
--- SMALL HOUSEHOLD ITEMS (Ex 22-31)
+-- SMALL HOUSEHOLD ITEMS 
 ('a1-m3-l22-ex22', 'a1-m3-l22', 21, 'multipleChoice', 'Floor covering', '{
     "prompt": "There is a blue ___ on the floor.",
     "options": ["carpet", "curtain", "towel"],
     "answerIndex": 0
 }'),
 ('a1-m3-l22-ex23', 'a1-m3-l22', 22, 'fillBlanks', 'Pillow', '{
-    "text": "I have a soft ___ (almohada) on my bed.",
+    "text": "I have a soft ___ on my bed.",
     "answers": ["pillow"]
 }'),
 ('a1-m3-l22-ex24', 'a1-m3-l22', 23, 'multipleChoice', 'Blanket', '{
@@ -149,7 +149,7 @@ VALUES
     "translation": "Las almohadas están sobre la cama"
 }'),
 ('a1-m3-l22-ex27', 'a1-m3-l22', 26, 'multipleChoice', 'Cushion', '{
-    "prompt": "There are three ___ (cojines) on the sofa.",
+    "prompt": "There are three ___ on the sofa.",
     "options": ["cushions", "pillows", "blankets"],
     "answerIndex": 0
 }'),
@@ -178,14 +178,14 @@ VALUES
     ]
 }'),
 
--- FURNITURE POSSESSIONS (Ex 32-41)
+-- FURNITURE POSSESSIONS 
 ('a1-m3-l22-ex32', 'a1-m3-l22', 31, 'multipleChoice', 'I have...', '{
     "prompt": "I ___ a new desk.",
     "options": ["have", "has", "am"],
     "answerIndex": 0
 }'),
 ('a1-m3-l22-ex33', 'a1-m3-l22', 32, 'fillBlanks', 'She has...', '{
-    "text": "She ___ (have) a big wardrobe.",
+    "text": "She ___ a big wardrobe.",
     "answers": ["has"]
 }'),
 ('a1-m3-l22-ex34', 'a1-m3-l22', 33, 'multipleChoice', 'Does she have?', '{
@@ -212,7 +212,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m3-l22-ex38', 'a1-m3-l22', 37, 'fillBlanks', 'Negative possession', '{
-    "text": "I ___ (not/have) a dishwasher.",
+    "text": "I ___ a dishwasher.",
     "answers": ["don''t have"]
 }'),
 ('a1-m3-l22-ex39', 'a1-m3-l22', 38, 'matching', 'Negative match possession', '{
@@ -236,7 +236,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l22-ex42', 'a1-m3-l22', 41, 'multipleChoice', 'Review furniture 1', '{
     "prompt": "Where do you put food to keep it cold?",
     "options": ["Fridge", "Oven", "Microwave"],

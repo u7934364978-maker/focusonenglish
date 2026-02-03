@@ -1,0 +1,50 @@
+{
+  "course": {
+    "unit_id": "U56",
+    "unit_title": "In a Shop",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Ask for help in a shop",
+    "Ask for specific items"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Shopping Interactions",
+      "content": [
+        {
+          "interaction_id": "U56_I1",
+          "type": "reorder_words",
+          "prompt_es": "Preguntar por un objeto",
+          "stimulus_en": "Do you have any batteries?",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "have" },
+            { "id": "w4", "text": "any" },
+            { "id": "w5", "text": "batteries?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U56_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Buscando algo",
+          "stimulus_en": "I am ______ for a new book.",
+          "options": [
+            { "id": "o1", "text": "looking" },
+            { "id": "o2", "text": "seeing" },
+            { "id": "o3", "text": "watching" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

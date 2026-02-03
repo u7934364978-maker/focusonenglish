@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- WEEKDAYS (Ex 2-11)
+-- WEEKDAYS 
 ('a1-m2-l12-ex2', 'a1-m2-l12', 1, 'multipleChoice', 'First day', '{
     "prompt": "What is the first day of the work week?",
     "options": ["Monday", "Sunday", "Saturday"],
@@ -42,7 +42,7 @@ VALUES
     "translation": "Voy a la escuela el lunes"
 }'),
 ('a1-m2-l12-ex8', 'a1-m2-l12', 7, 'multipleChoice', 'Weekday count', '{
-    "prompt": "How many weekdays (work days) are there?",
+    "prompt": "How many weekdays are there?",
     "options": ["Five", "Seven", "Two"],
     "answerIndex": 0
 }'),
@@ -64,7 +64,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- WEEKEND (Ex 12-21)
+-- WEEKEND 
 ('a1-m2-l12-ex12', 'a1-m2-l12', 11, 'multipleChoice', 'Weekend days', '{
     "prompt": "Which days are the weekend?",
     "options": ["Saturday and Sunday", "Friday and Saturday", "Sunday and Monday"],
@@ -122,7 +122,7 @@ VALUES
     ]
 }'),
 
--- ADVERBS & FREQUENCY (Ex 22-31)
+-- ADVERBS & FREQUENCY 
 ('a1-m2-l12-ex22', 'a1-m2-l12', 21, 'multipleChoice', 'Every Monday', '{
     "prompt": "I go to the gym ___ Monday.",
     "options": ["every", "all", "on"],
@@ -180,7 +180,7 @@ VALUES
     ]
 }'),
 
--- CONTEXTUAL PRACTICE (Ex 32-41)
+-- CONTEXTUAL PRACTICE 
 ('a1-m2-l12-ex32', 'a1-m2-l12', 31, 'multipleChoice', 'Work day 1', '{
     "prompt": "I start work ___ Monday.",
     "options": ["on", "at", "in"],
@@ -238,7 +238,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l12-ex42', 'a1-m2-l12', 41, 'multipleChoice', 'Next day', '{
     "prompt": "What is the next day after Friday?",
     "options": ["Saturday", "Sunday", "Monday"],

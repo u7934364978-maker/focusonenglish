@@ -175,7 +175,7 @@ export default function AugmentedRealityVocabulary() {
   return (
     <div className="max-w-7xl mx-auto p-6">
       <button 
-        onClick={() => router.push('/metodologias-innovadoras')}
+        onClick={() => router.push('/')}
         className="flex items-center gap-2 text-gray-500 hover:text-emerald-600 transition-colors mb-6 group"
       >
         <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />

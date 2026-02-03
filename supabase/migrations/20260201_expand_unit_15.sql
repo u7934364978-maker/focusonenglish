@@ -4,15 +4,15 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- AFFIRMATIVE -S RULE (Ex 2-11)
+-- AFFIRMATIVE -S RULE 
 ('a1-m2-l15-ex2', 'a1-m2-l15', 1, 'multipleChoice', 'Affirmative He', '{
-    "prompt": "He ___ (work) in a bank.",
+    "prompt": "He ___ in a bank.",
     "options": ["work", "works", "working"],
     "answerIndex": 1,
     "explanation": "With He, She, and It, we add ''-s'' to the verb."
 }'),
 ('a1-m2-l15-ex3', 'a1-m2-l15', 2, 'multipleChoice', 'Affirmative She', '{
-    "prompt": "She ___ (speak) Italian.",
+    "prompt": "She ___ Italian.",
     "options": ["speak", "speaks", "speaking"],
     "answerIndex": 1
 }'),
@@ -32,7 +32,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l15-ex6', 'a1-m2-l15', 5, 'fillBlanks', 'Affirmative it', '{
-    "text": "It ___ (rain) a lot in London.",
+    "text": "It ___ a lot in London.",
     "answers": ["rains"]
 }'),
 ('a1-m2-l15-ex7', 'a1-m2-l15', 6, 'drag-drop', 'Simple sentence 3rd', '{
@@ -42,7 +42,7 @@ VALUES
     "translation": "Ella cocina la cena cada noche"
 }'),
 ('a1-m2-l15-ex8', 'a1-m2-l15', 7, 'multipleChoice', 'Verb ending in -y', '{
-    "prompt": "He ___ (study) English.",
+    "prompt": "He ___ English.",
     "options": ["study", "studies", "studys"],
     "answerIndex": 1,
     "explanation": "Verbs ending in consonant + y change to -ies."
@@ -55,28 +55,28 @@ VALUES
     ]
 }'),
 ('a1-m2-l15-ex10', 'a1-m2-l15', 9, 'fillBlanks', 'She watches', '{
-    "text": "She ___ (watch) TV in the evening.",
+    "text": "She ___ TV in the evening.",
     "answers": ["watches"]
 }'),
 ('a1-m2-l15-ex11', 'a1-m2-l15', 10, 'multipleChoice', 'Singular subject', '{
-    "prompt": "My brother ___ (drive) a red car.",
+    "prompt": "My brother ___ a red car.",
     "options": ["drive", "drives", "driving"],
     "answerIndex": 1
 }'),
 
--- NEGATIVE DOESN''T (Ex 12-21)
+-- NEGATIVE DOESN''T 
 ('a1-m2-l15-ex12', 'a1-m2-l15', 11, 'multipleChoice', 'Negative He', '{
-    "prompt": "He ___ (not/smoke).",
+    "prompt": "He ___.",
     "options": ["doesn''t smoke", "don''t smoke", "no smoke"],
     "answerIndex": 0,
     "explanation": "We use ''doesn''t'' for negative sentences with He, She, It. The verb stays in base form."
 }'),
 ('a1-m2-l15-ex13', 'a1-m2-l15', 12, 'fillBlanks', 'Negative she', '{
-    "text": "She ___ (not/like) coffee.",
+    "text": "She ___ coffee.",
     "answers": ["doesn''t like"]
 }'),
 ('a1-m2-l15-ex14', 'a1-m2-l15', 13, 'multipleChoice', 'Negative it', '{
-    "prompt": "It ___ (not/work) properly.",
+    "prompt": "It ___ properly.",
     "options": ["doesn''t work", "don''t work", "not works"],
     "answerIndex": 0
 }'),
@@ -94,17 +94,17 @@ VALUES
     "translation": "Él no estudia francés"
 }'),
 ('a1-m2-l15-ex17', 'a1-m2-l15', 16, 'multipleChoice', 'Verb form in negative', '{
-    "prompt": "She doesn''t ___ (play) tennis.",
+    "prompt": "She doesn''t ___ tennis.",
     "options": ["play", "plays", "playing"],
     "answerIndex": 0,
-    "explanation": "After doesn''t, we use the base form (no -s)."
+    "explanation": "After doesn''t, we use the base form ."
 }'),
 ('a1-m2-l15-ex18', 'a1-m2-l15', 17, 'fillBlanks', 'Full negative', '{
-    "text": "He does ___ want to go. (Formal)",
+    "text": "He does ___ want to go.",
     "answers": ["not"]
 }'),
 ('a1-m2-l15-ex19', 'a1-m2-l15', 18, 'multipleChoice', 'Negative she 2', '{
-    "prompt": "She ___ (not/eat) breakfast.",
+    "prompt": "She ___ breakfast.",
     "options": ["doesn''t eat", "don''t eat", "not eats"],
     "answerIndex": 0
 }'),
@@ -124,7 +124,7 @@ VALUES
     ]
 }'),
 
--- QUESTIONS DOES (Ex 22-31)
+-- QUESTIONS DOES 
 ('a1-m2-l15-ex22', 'a1-m2-l15', 21, 'multipleChoice', 'Question he', '{
     "prompt": "___ he live in London?",
     "options": ["Does", "Do", "Is"],
@@ -170,7 +170,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l15-ex30', 'a1-m2-l15', 29, 'multipleChoice', 'Verb in 3rd question', '{
-    "prompt": "Does he ___ (like) pizza?",
+    "prompt": "Does he ___ pizza?",
     "options": ["like", "likes", "liking"],
     "answerIndex": 0,
     "explanation": "In questions, the verb stays in base form because ''Does'' already has the -s."
@@ -184,7 +184,7 @@ VALUES
     ]
 }'),
 
--- MIXED 1st vs 3rd (Ex 32-41)
+-- MIXED 1st vs 3rd 
 ('a1-m2-l15-ex32', 'a1-m2-l15', 31, 'multipleChoice', 'I vs He', '{
     "prompt": "I play, but he ___.",
     "options": ["plays", "play", "playing"],
@@ -218,7 +218,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m2-l15-ex38', 'a1-m2-l15', 37, 'fillBlanks', 'Verb have 3rd', '{
-    "text": "She ___ (have) a brother.",
+    "text": "She ___ a brother.",
     "answers": ["has"]
 }'),
 ('a1-m2-l15-ex39', 'a1-m2-l15', 38, 'matching', 'Negative mix', '{
@@ -229,7 +229,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l15-ex40', 'a1-m2-l15', 39, 'multipleChoice', 'Every day 3rd', '{
-    "prompt": "My father ___ (work) every day.",
+    "prompt": "My father ___ every day.",
     "options": ["works", "work", "working"],
     "answerIndex": 0
 }'),
@@ -242,14 +242,14 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l15-ex42', 'a1-m2-l15', 41, 'multipleChoice', 'Rule check', '{
     "prompt": "Which subject needs an -s?",
     "options": ["It", "They", "You"],
     "answerIndex": 0
 }'),
 ('a1-m2-l15-ex43', 'a1-m2-l15', 42, 'fillBlanks', 'Negative check 3rd', '{
-    "text": "She ___ (not/go) out.",
+    "text": "She ___ out.",
     "answers": ["doesn''t go"]
 }'),
 ('a1-m2-l15-ex44', 'a1-m2-l15', 43, 'multipleChoice', 'Short answer check 3rd', '{
@@ -271,12 +271,12 @@ VALUES
     "translation": "¿A ella le gusta su trabajo?"
 }'),
 ('a1-m2-l15-ex47', 'a1-m2-l15', 46, 'multipleChoice', 'Studies spelling', '{
-    "prompt": "She ___ (study) hard.",
+    "prompt": "She ___ hard.",
     "options": ["studies", "studys", "study"],
     "answerIndex": 0
 }'),
 ('a1-m2-l15-ex48', 'a1-m2-l15', 47, 'fillBlanks', 'Negative form check', '{
-    "text": "He doesn''t ___ (have) a car.",
+    "text": "He doesn''t ___ a car.",
     "answers": ["have"]
 }'),
 ('a1-m2-l15-ex49', 'a1-m2-l15', 48, 'matching', 'Mixed 3rd 2', '{
@@ -287,7 +287,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l15-ex50', 'a1-m2-l15', 49, 'multipleChoice', 'Final quiz', '{
-    "prompt": "My dog ___ (bark) at night.",
+    "prompt": "My dog ___ at night.",
     "options": ["barks", "bark", "barking"],
     "answerIndex": 0
 }'),

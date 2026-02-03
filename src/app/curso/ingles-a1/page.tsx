@@ -12,13 +12,19 @@ export default async function A1CoursePage() {
   const userId = user?.id || 'anonymous';
 
   // Fetch all units and user progress
-  const units = await premiumCourseService.getUnits('ingles-a1');
+  const allUnits = await premiumCourseService.getUnits('ingles-a1');
+  const units = allUnits.slice(0, 60);
   const completedIds = await premiumCourseService.getA1Progress(userId);
   const completedSet = new Set(completedIds);
   
   const allInteractions = await premiumCourseService.getAllA1Interactions();
-  const totalExercises = allInteractions.length;
-  const completedExercises = completedIds.length;
+  
+  // Filter interactions to only include those belonging to the first 60 units
+  const allowedInteractionIds = new Set(units.flatMap(u => u.interactionIds));
+  const filteredInteractions = allInteractions.filter(i => allowedInteractionIds.has(i.interaction_id));
+  
+  const totalExercises = filteredInteractions.length;
+  const completedExercises = completedIds.filter(id => allowedInteractionIds.has(id)).length;
   const progressPercentage = totalExercises > 0 
     ? Math.round((completedExercises / totalExercises) * 100) 
     : 0;
@@ -163,7 +169,7 @@ export default async function A1CoursePage() {
                   Estructura A1
                 </h4>
                 <p className="text-coral-700 text-sm mb-4">
-                  El curso cubre gramática, vocabulario y comunicación básica a través de 34 módulos temáticos.
+                  El curso cubre gramática, vocabulario y comunicación básica a través de 6 módulos temáticos.
                 </p>
                 <div className="text-xs font-bold text-coral-600 uppercase tracking-wider">
                   {totalExercises}+ Ejercicios Disponibles

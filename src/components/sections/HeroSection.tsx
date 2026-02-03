@@ -34,7 +34,7 @@ export function HeroSection() {
             </Link>
             
             <Link 
-              href="/cursos"
+              href="/planes"
               className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-slate-200 bg-white text-slate-800 font-black text-lg hover:border-coral-200 hover:bg-coral-50 transition-all"
             >
               Ver Todos los Cursos
@@ -44,7 +44,7 @@ export function HeroSection() {
           {/* Cursos destacados */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
             <Link 
-              href="/cursos/trabajo/b2"
+              href="/planes"
               className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-coral-300 hover:shadow-lg transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-coral-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -57,7 +57,7 @@ export function HeroSection() {
             </Link>
 
             <Link 
-              href="/cursos/viajes/a2"
+              href="/planes"
               className="group p-6 rounded-2xl border-2 border-slate-200 bg-white hover:border-orange-300 hover:shadow-lg transition-all"
             >
               <div className="w-12 h-12 rounded-xl bg-orange-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">

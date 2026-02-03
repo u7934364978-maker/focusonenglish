@@ -1,16 +1,14 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { 
   Play, 
   Star,
   X,
   Trophy,
   Target,
-  Clock,
-  BookOpen,
-  ArrowRight,
-  CheckCircle2
+  CheckCircle2,
+  ListChecks
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -25,11 +23,29 @@ export default function PremiumUnitViewer({ unitData }: Props) {
   const { course, blocks, learning_outcomes } = unitData;
   const [isStarted, setIsStarted] = useState(false);
   const [isCompleted, setIsCompleted] = useState(false);
+  const [startIndex, setStartIndex] = useState(0);
+
+  // Flatten all blocks into a single exercise queue to know the indices
+  const exerciseQueue = useMemo(() => {
+    const items: any[] = [];
+    blocks.forEach((block: PremiumBlock) => {
+      block.content.forEach((content: any) => {
+        items.push({ 
+          ...content, 
+          blockTitle: block.title,
+          // Get a readable title for the list
+          displayTitle: content.prompt_es || content.title || content.video?.objective || `Ejercicio ${items.length + 1}`
+        });
+      });
+    });
+    return items;
+  }, [blocks]);
 
   if (isStarted) {
     return (
       <PremiumCourseSession 
         unitData={unitData}
+        initialIndex={startIndex}
         onComplete={() => {
           setIsCompleted(true);
           setIsStarted(false);
@@ -79,7 +95,10 @@ export default function PremiumUnitViewer({ unitData }: Props) {
               
               <div className="pt-8">
                 <Button 
-                  onClick={() => setIsStarted(true)}
+                  onClick={() => {
+                    setStartIndex(0);
+                    setIsStarted(true);
+                  }}
                   className="w-full md:w-auto px-12 py-8 bg-indigo-600 hover:bg-indigo-700 text-white rounded-[2rem] font-black text-2xl shadow-xl shadow-indigo-100 border-b-8 border-indigo-800 active:translate-y-1 transition-all flex items-center gap-4 group/btn"
                 >
                   {isCompleted ? 'REPETIR UNIDAD' : 'EMPEZAR AHORA'}
@@ -89,6 +108,50 @@ export default function PremiumUnitViewer({ unitData }: Props) {
             </div>
           </motion.div>
         </header>
+
+        {/* Exercises List Section */}
+        <section className="max-w-2xl mx-auto space-y-6">
+          <div className="flex items-center gap-4 px-4">
+            <div className="w-12 h-12 bg-indigo-50 rounded-2xl flex items-center justify-center text-indigo-600">
+              <ListChecks className="w-6 h-6" />
+            </div>
+            <h2 className="text-2xl font-black text-slate-900">Contenido de la unidad</h2>
+          </div>
+
+          <div className="grid gap-4">
+            {exerciseQueue.map((exercise: any, idx: number) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: idx * 0.05 }}
+                className="bg-white hover:bg-slate-50 border-2 border-slate-100 rounded-2xl p-4 flex items-center justify-between group transition-all"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 bg-slate-100 group-hover:bg-indigo-100 rounded-xl flex items-center justify-center text-slate-500 group-hover:text-indigo-600 font-bold transition-colors">
+                    {idx + 1}
+                  </div>
+                  <div className="space-y-0.5">
+                    <p className="text-xs font-black text-indigo-600 uppercase tracking-widest">{exercise.blockTitle}</p>
+                    <h3 className="font-bold text-slate-700 line-clamp-1">{exercise.displayTitle}</h3>
+                  </div>
+                </div>
+                
+                <Button
+                  size="sm"
+                  variant="ghost"
+                  onClick={() => {
+                    setStartIndex(idx);
+                    setIsStarted(true);
+                  }}
+                  className="rounded-xl hover:bg-indigo-600 hover:text-white transition-all group/play"
+                >
+                  <Play className="w-4 h-4 fill-current" />
+                </Button>
+              </motion.div>
+            ))}
+          </div>
+        </section>
 
         {/* Learning Outcomes */}
         {learning_outcomes && learning_outcomes.length > 0 && (

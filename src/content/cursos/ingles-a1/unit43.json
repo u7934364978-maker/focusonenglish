@@ -1,0 +1,50 @@
+{
+  "course": {
+    "unit_id": "U43",
+    "unit_title": "Travel Verbs",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Learn verbs related to travel: leave, arrive, stay, visit",
+    "Express future travel intentions with 'want to'"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Verbs for Traveling",
+      "content": [
+        {
+          "interaction_id": "U43_I1",
+          "type": "matching",
+          "prompt_es": "Verbos de viaje",
+          "pairs": [
+            { "id": "v1", "left": "Arrive", "right": "Llegar" },
+            { "id": "v2", "left": "Leave", "right": "Salir/Partir" },
+            { "id": "v3", "left": "Stay", "right": "Quedarse/Alojarse" },
+            { "id": "v4", "left": "Visit", "right": "Visitar" }
+          ],
+          "correct_answer": { "v1": "v1", "v2": "v2", "v3": "v3", "v4": "v4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I2",
+          "type": "reorder_words",
+          "prompt_es": "Deseos de viaje",
+          "stimulus_en": "I want to visit London",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "want" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "visit" },
+            { "id": "w5", "text": "London" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

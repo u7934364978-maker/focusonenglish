@@ -4,7 +4,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contacto - Focus English",
+  title: "Contacto",
   description: "¿Tienes preguntas sobre nuestros cursos de inglés? Contáctanos y te ayudaremos a encontrar el programa perfecto para ti.",
   keywords: ["contacto focus english", "consulta cursos inglés", "información cursos", "atención al cliente"],
   alternates: {
@@ -230,7 +230,7 @@ export default function ContactPage() {
               </Link>
 
               <Link
-                href="/cursos"
+                href="/planes"
                 className="bg-gradient-to-br from-orange-50 to-peach-50 rounded-xl p-6 border border-orange-200 hover:shadow-lg transition-shadow group"
               >
                 <div className="text-3xl mb-3">🎓</div>

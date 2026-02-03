@@ -4,14 +4,14 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- COMMON PETS (Ex 2-11)
+-- COMMON PETS 
 ('a1-m3-l27-ex2', 'a1-m3-l27', 1, 'multipleChoice', 'Pet 1', '{
-    "prompt": "I have a ___ (perro).",
+    "prompt": "I have a ___.",
     "options": ["dog", "cat", "bird"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex3', 'a1-m3-l27', 2, 'multipleChoice', 'Pet 2', '{
-    "prompt": "My ___ (gato) is sleeping.",
+    "prompt": "My ___ is sleeping.",
     "options": ["cat", "dog", "rabbit"],
     "answerIndex": 0
 }'),
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l27-ex6', 'a1-m3-l27', 5, 'fillBlanks', 'Pet ID 1', '{
-    "text": "Goldfish live in ___ (agua).",
+    "text": "Goldfish live in ___.",
     "answers": ["water"]
 }'),
 ('a1-m3-l27-ex7', 'a1-m3-l27', 6, 'drag-drop', 'Simple pet sentence', '{
@@ -41,7 +41,7 @@ VALUES
     "translation": "Tengo un perro pequeño"
 }'),
 ('a1-m3-l27-ex8', 'a1-m3-l27', 7, 'multipleChoice', 'Horse', '{
-    "prompt": "You can ride a ___ (caballo).",
+    "prompt": "You can ride a ___.",
     "options": ["horse", "cow", "pig"],
     "answerIndex": 0
 }'),
@@ -53,7 +53,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l27-ex10', 'a1-m3-l27', 9, 'fillBlanks', 'Pet ID 2', '{
-    "text": "A ___ (loro) can talk.",
+    "text": "A ___ can talk.",
     "answers": ["parrot"]
 }'),
 ('a1-m3-l27-ex11', 'a1-m3-l27', 10, 'multipleChoice', 'Puppy', '{
@@ -62,18 +62,18 @@ VALUES
     "answerIndex": 0
 }'),
 
--- FARM ANIMALS (Ex 12-21)
+-- FARM ANIMALS 
 ('a1-m3-l27-ex12', 'a1-m3-l27', 11, 'multipleChoice', 'Farm animal 1', '{
-    "prompt": "A ___ (vaca) gives milk.",
+    "prompt": "A ___ gives milk.",
     "options": ["cow", "sheep", "chicken"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex13', 'a1-m3-l27', 12, 'fillBlanks', 'Farm animal 2', '{
-    "text": "A ___ (gallina) gives eggs.",
+    "text": "A ___ gives eggs.",
     "answers": ["chicken", "hen"]
 }'),
 ('a1-m3-l27-ex14', 'a1-m3-l27', 13, 'multipleChoice', 'Sheep', '{
-    "prompt": "___ (ovejas) are white and soft.",
+    "prompt": "___ are white and soft.",
     "options": ["Sheep", "Cows", "Goats"],
     "answerIndex": 0
 }'),
@@ -91,16 +91,16 @@ VALUES
     "translation": "Hay muchas vacas en la granja"
 }'),
 ('a1-m3-l27-ex17', 'a1-m3-l27', 16, 'multipleChoice', 'Goat', '{
-    "prompt": "A ___ (cabra) has horns.",
+    "prompt": "A ___ has horns.",
     "options": ["goat", "sheep", "pig"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex18', 'a1-m3-l27', 17, 'fillBlanks', 'Rooster', '{
-    "text": "A ___ (gallo) wakes you up.",
+    "text": "A ___ wakes you up.",
     "answers": ["rooster"]
 }'),
 ('a1-m3-l27-ex19', 'a1-m3-l27', 18, 'multipleChoice', 'Donkey', '{
-    "prompt": "A ___ (burro) is like a small horse.",
+    "prompt": "A ___ is like a small horse.",
     "options": ["donkey", "horse", "cow"],
     "answerIndex": 0
 }'),
@@ -120,18 +120,18 @@ VALUES
     ]
 }'),
 
--- WILD ANIMALS (Ex 22-31)
+-- WILD ANIMALS 
 ('a1-m3-l27-ex22', 'a1-m3-l27', 21, 'multipleChoice', 'King of jungle', '{
-    "prompt": "The ___ (león) is the king.",
+    "prompt": "The ___ is the king.",
     "options": ["lion", "tiger", "bear"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex23', 'a1-m3-l27', 22, 'fillBlanks', 'Tall animal', '{
-    "text": "A ___ (jirafa) has a long neck.",
+    "text": "A ___ has a long neck.",
     "answers": ["giraffe"]
 }'),
 ('a1-m3-l27-ex24', 'a1-m3-l27', 23, 'multipleChoice', 'Big animal', '{
-    "prompt": "An ___ (elefante) is very big.",
+    "prompt": "An ___ is very big.",
     "options": ["elephant", "monkey", "zebra"],
     "answerIndex": 0
 }'),
@@ -149,12 +149,12 @@ VALUES
     "translation": "Me gusta ver a los monos en el zoo"
 }'),
 ('a1-m3-l27-ex27', 'a1-m3-l27', 26, 'multipleChoice', 'Stripes', '{
-    "prompt": "A ___ (cebra) has black and white stripes.",
+    "prompt": "A ___ has black and white stripes.",
     "options": ["zebra", "lion", "elephant"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex28', 'a1-m3-l27', 27, 'fillBlanks', 'Bear', '{
-    "text": "A ___ (oso) likes honey.",
+    "text": "A ___ likes honey.",
     "answers": ["bear"]
 }'),
 ('a1-m3-l27-ex29', 'a1-m3-l27', 28, 'matching', 'Wild 2', '{
@@ -165,7 +165,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l27-ex30', 'a1-m3-l27', 29, 'multipleChoice', 'Sea animal', '{
-    "prompt": "A ___ (delfín) lives in the sea.",
+    "prompt": "A ___ lives in the sea.",
     "options": ["dolphin", "shark", "whale"],
     "answerIndex": 0
 }'),
@@ -178,14 +178,14 @@ VALUES
     ]
 }'),
 
--- ANIMAL ABILITIES & DESCRIPTIONS (Ex 32-41)
+-- ANIMAL ABILITIES & DESCRIPTIONS 
 ('a1-m3-l27-ex32', 'a1-m3-l27', 31, 'multipleChoice', 'Can fly', '{
     "prompt": "Birds ___ fly.",
     "options": ["can", "can''t", "are"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex33', 'a1-m3-l27', 32, 'fillBlanks', 'Swim', '{
-    "text": "Fish ___ (pueden) swim.",
+    "text": "Fish ___ swim.",
     "answers": ["can"]
 }'),
 ('a1-m3-l27-ex34', 'a1-m3-l27', 33, 'multipleChoice', 'Fast', '{
@@ -207,12 +207,12 @@ VALUES
     "translation": "El elefante tiene orejas grandes"
 }'),
 ('a1-m3-l27-ex37', 'a1-m3-l27', 36, 'multipleChoice', 'Dangerous', '{
-    "prompt": "Sharks are ___ (peligrosos).",
+    "prompt": "Sharks are ___.",
     "options": ["dangerous", "friendly", "cute"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex38', 'a1-m3-l27', 37, 'fillBlanks', 'Cute', '{
-    "text": "Kittens are very ___ (lindos).",
+    "text": "Kittens are very ___.",
     "answers": ["cute"]
 }'),
 ('a1-m3-l27-ex39', 'a1-m3-l27', 38, 'matching', 'Body parts animal', '{
@@ -223,7 +223,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l27-ex40', 'a1-m3-l27', 39, 'multipleChoice', 'Fur', '{
-    "prompt": "Cats have soft ___ (pelaje).",
+    "prompt": "Cats have soft ___.",
     "options": ["fur", "hair", "skin"],
     "answerIndex": 0
 }'),
@@ -236,14 +236,14 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l27-ex42', 'a1-m3-l27', 41, 'multipleChoice', 'Review pets 1', '{
     "prompt": "Which animal says ''woof''?",
     "options": ["Dog", "Cat", "Bird"],
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex43', 'a1-m3-l27', 42, 'fillBlanks', 'Review pets 2', '{
-    "text": "I ___ (have) two cats.",
+    "text": "I ___ two cats.",
     "answers": ["have"]
 }'),
 ('a1-m3-l27-ex44', 'a1-m3-l27', 43, 'multipleChoice', 'Review farm', '{
@@ -270,7 +270,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m3-l27-ex48', 'a1-m3-l27', 47, 'fillBlanks', 'Pet check', '{
-    "text": "I love my ___ (perro).",
+    "text": "I love my ___.",
     "answers": ["dog"]
 }'),
 ('a1-m3-l27-ex49', 'a1-m3-l27', 48, 'matching', 'Mixed review 10', '{

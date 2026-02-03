@@ -1,0 +1,1216 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U29",
+    "unit_title": "Learning a Language",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Language Basics & Skills",
+      "content": [
+        {
+          "interaction_id": "U29_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'idioma'? ",
+          "options": [
+            { "id": "o1", "text": "Language" },
+            { "id": "o2", "text": "Tongue" },
+            { "id": "o3", "text": "Speak" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lengua materna'?",
+          "options": [
+            { "id": "o1", "text": "Mother tongue / Native language" },
+            { "id": "o2", "text": "First talk" },
+            { "id": "o3", "text": "Home language" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bilingüe'?",
+          "options": [
+            { "id": "o1", "text": "Bilingual" },
+            { "id": "o2", "text": "Two-speaker" },
+            { "id": "o3", "text": "Double language" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hablar'?",
+          "options": [
+            { "id": "o1", "text": "To speak" },
+            { "id": "o2", "text": "To say" },
+            { "id": "o3", "text": "To tell" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escuchar'?",
+          "options": [
+            { "id": "o1", "text": "To listen" },
+            { "id": "o2", "text": "To hear" },
+            { "id": "o3", "text": "To sound" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leer'?",
+          "options": [
+            { "id": "o1", "text": "To read" },
+            { "id": "o2", "text": "To write" },
+            { "id": "o3", "text": "To look" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escribir'?",
+          "options": [
+            { "id": "o1", "text": "To write" },
+            { "id": "o2", "text": "To read" },
+            { "id": "o3", "text": "To draw" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vocabulario'?",
+          "options": [
+            { "id": "o1", "text": "Vocabulary" },
+            { "id": "o2", "text": "Words" },
+            { "id": "o3", "text": "Glossary" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gramática'?",
+          "options": [
+            { "id": "o1", "text": "Grammar" },
+            { "id": "o2", "text": "Rules" },
+            { "id": "o3", "text": "Writing way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pronunciación'?",
+          "options": [
+            { "id": "o1", "text": "Pronunciation" },
+            { "id": "o2", "text": "Speaking way" },
+            { "id": "o3", "text": "Accent" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'traducción'?",
+          "options": [
+            { "id": "o1", "text": "Translation" },
+            { "id": "o2", "text": "Meaning" },
+            { "id": "o3", "text": "Version" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'traductor/a' (persona)?",
+          "options": [
+            { "id": "o1", "text": "Translator" },
+            { "id": "o2", "text": "Translate man" },
+            { "id": "o3", "text": "Language person" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'diccionario'?",
+          "options": [
+            { "id": "o1", "text": "Dictionary" },
+            { "id": "o2", "text": "Word book" },
+            { "id": "o3", "text": "Meaning list" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'significado'?",
+          "options": [
+            { "id": "o1", "text": "Meaning" },
+            { "id": "o2", "text": "Definition" },
+            { "id": "o3", "text": "Sign" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'palabra'?",
+          "options": [
+            { "id": "o1", "text": "Word" },
+            { "id": "o2", "text": "Letter" },
+            { "id": "o3", "text": "Sentence" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I16",
+          "type": "matching",
+          "prompt_es": "Une la habilidad con su nombre en inglés:",
+          "pairs": [
+            { "id": "p1", "left": "Hablar", "right": "Speaking" },
+            { "id": "p2", "left": "Escuchar", "right": "Listening" },
+            { "id": "p3", "left": "Leer", "right": "Reading" },
+            { "id": "p4", "left": "Escribir", "right": "Writing" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I17",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want to learn a new ___ (idioma).'",
+          "stimulus_en": "___",
+          "correct_answer": "language",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please look at the ___ (diccionario).'",
+          "stimulus_en": "___",
+          "correct_answer": "dictionary",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Your ___ (pronunciación) is very good.'",
+          "stimulus_en": "___",
+          "correct_answer": "pronunciation",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'alfabeto'?",
+          "options": [
+            { "id": "o1", "text": "Alphabet" },
+            { "id": "o2", "text": "Letters list" },
+            { "id": "o3", "text": "ABC" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vocal'?",
+          "options": [
+            { "id": "o1", "text": "Vowel" },
+            { "id": "o2", "text": "Voice" },
+            { "id": "o3", "text": "Sound" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'consonante'?",
+          "options": [
+            { "id": "o1", "text": "Consonant" },
+            { "id": "o2", "text": "Other letter" },
+            { "id": "o3", "text": "Letter" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'frase / oración'?",
+          "options": [
+            { "id": "o1", "text": "Sentence" },
+            { "id": "o2", "text": "Line" },
+            { "id": "o3", "text": "Text" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'párrafo'?",
+          "options": [
+            { "id": "o1", "text": "Paragraph" },
+            { "id": "o2", "text": "Block" },
+            { "id": "o3", "text": "Section" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'diálogo'?",
+          "options": [
+            { "id": "o1", "text": "Dialogue" },
+            { "id": "o2", "text": "Conversation" },
+            { "id": "o3", "text": "Talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Learning Strategies & Methods",
+      "content": [
+        {
+          "interaction_id": "U29_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estudiar a diario'?",
+          "options": [
+            { "id": "o1", "text": "Study every day" },
+            { "id": "o2", "text": "Study all time" },
+            { "id": "o3", "text": "Day study" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ver películas en inglés'?",
+          "options": [
+            { "id": "o1", "text": "Watch movies in English" },
+            { "id": "o2", "text": "Look films" },
+            { "id": "o3", "text": "See English" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'subtítulos'?",
+          "options": [
+            { "id": "o1", "text": "Subtitles" },
+            { "id": "o2", "text": "Down texts" },
+            { "id": "o3", "text": "Word lines" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'intercambio de idiomas'?",
+          "options": [
+            { "id": "o1", "text": "Language exchange" },
+            { "id": "o2", "text": "Language swap" },
+            { "id": "o3", "text": "Talk change" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clases particulares'?",
+          "options": [
+            { "id": "o1", "text": "Private lessons" },
+            { "id": "o2", "text": "Alone classes" },
+            { "id": "o3", "text": "Personal study" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'académia de idiomas'?",
+          "options": [
+            { "id": "o1", "text": "Language school / academy" },
+            { "id": "o2", "text": "English house" },
+            { "id": "o3", "text": "Study place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autoaprendizaje'?",
+          "options": [
+            { "id": "o1", "text": "Self-study" },
+            { "id": "o2", "text": "My study" },
+            { "id": "o3", "text": "Alone learning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fluidez'?",
+          "options": [
+            { "id": "o1", "text": "Fluency" },
+            { "id": "o2", "text": "Fluent" },
+            { "id": "o3", "text": "Fast talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tener un buen nivel'?",
+          "options": [
+            { "id": "o1", "text": "To have a good level" },
+            { "id": "o2", "text": "Be good" },
+            { "id": "o3", "text": "Know much" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cometer errores'?",
+          "options": [
+            { "id": "o1", "text": "To make mistakes" },
+            { "id": "o2", "text": "To do errors" },
+            { "id": "o3", "text": "To fail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mejorar'?",
+          "options": [
+            { "id": "o1", "text": "To improve" },
+            { "id": "o2", "text": "To get better" },
+            { "id": "o3", "text": "To up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'practicar con nativos'?",
+          "options": [
+            { "id": "o1", "text": "To practice with native speakers" },
+            { "id": "o2", "text": "Talk with English men" },
+            { "id": "o3", "text": "Use English with people" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprender de memoria'?",
+          "options": [
+            { "id": "o1", "text": "To learn by heart / To memorize" },
+            { "id": "o2", "text": "Learn in head" },
+            { "id": "o3", "text": "Keep in brain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tomar notas'?",
+          "options": [
+            { "id": "o1", "text": "To take notes" },
+            { "id": "o2", "text": "To write down" },
+            { "id": "o3", "text": "To mark" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'usar aplicaciones'?",
+          "options": [
+            { "id": "o1", "text": "To use apps" },
+            { "id": "o2", "text": "To open phone" },
+            { "id": "o3", "text": "To play games" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I41",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'estudio inglés todos los días'",
+          "options": [
+            { "id": "w1", "text": "every" },
+            { "id": "w2", "text": "day" },
+            { "id": "w3", "text": "English" },
+            { "id": "w4", "text": "study" },
+            { "id": "w5", "text": "I" }
+          ],
+          "correct_answer": ["w5", "w4", "w3", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I42",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'necesito practicar mi pronunciación'",
+          "options": [
+            { "id": "w1", "text": "pronunciation" },
+            { "id": "w2", "text": "my" },
+            { "id": "w3", "text": "practice" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "need" },
+            { "id": "w6", "text": "I" }
+          ],
+          "correct_answer": ["w6", "w5", "w4", "w3", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Don't be afraid to ___ (cometer) mistakes.'",
+          "stimulus_en": "___",
+          "correct_answer": "make",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I use a ___ (diccionario) for new words.'",
+          "stimulus_en": "___",
+          "correct_answer": "dictionary",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I like to ___ (escuchar) to podcasts.'",
+          "stimulus_en": "___",
+          "correct_answer": "listen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué significa esta palabra?'?",
+          "options": [
+            { "id": "o1", "text": "What does this word mean?" },
+            { "id": "o2", "text": "Signification of word?" },
+            { "id": "o3", "text": "What mean word?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cómo se dice ... en inglés?'?",
+          "options": [
+            { "id": "o1", "text": "How do you say ... in English?" },
+            { "id": "o2", "text": "Say way ... in English?" },
+            { "id": "o3", "text": "How talk ...?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puede hablar más despacio?'?",
+          "options": [
+            { "id": "o1", "text": "Can you speak more slowly, please?" },
+            { "id": "o2", "text": "Talk slow please?" },
+            { "id": "o3", "text": "Go slow in talk?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No entiendo nada'?",
+          "options": [
+            { "id": "o1", "text": "I don't understand anything" },
+            { "id": "o2", "text": "I no know nothing" },
+            { "id": "o3", "text": "Nothing understand" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Me puede ayudar, por favor?'?",
+          "options": [
+            { "id": "o1", "text": "Can you help me, please?" },
+            { "id": "o2", "text": "Help me please?" },
+            { "id": "o3", "text": "Give help?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar & Structure",
+      "content": [
+        {
+          "interaction_id": "U29_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'verbo'?",
+          "options": [
+            { "id": "o1", "text": "Verb" },
+            { "id": "o2", "text": "Action" },
+            { "id": "o3", "text": "Word" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sustantivo / nombre'?",
+          "options": [
+            { "id": "o1", "text": "Noun" },
+            { "id": "o2", "text": "Name" },
+            { "id": "o3", "text": "Thing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'adjetivo'?",
+          "options": [
+            { "id": "o1", "text": "Adjective" },
+            { "id": "o2", "text": "Description" },
+            { "id": "o3", "text": "Detail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'preposición'?",
+          "options": [
+            { "id": "o1", "text": "Preposition" },
+            { "id": "o2", "text": "Position" },
+            { "id": "o3", "text": "Link" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tiempo verbal'?",
+          "options": [
+            { "id": "o1", "text": "Tense" },
+            { "id": "o2", "text": "Time" },
+            { "id": "o3", "text": "Verb form" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'presente simple'?",
+          "options": [
+            { "id": "o1", "text": "Present simple" },
+            { "id": "o2", "text": "Now time" },
+            { "id": "o3", "text": "Daily present" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasado'?",
+          "options": [
+            { "id": "o1", "text": "Past" },
+            { "id": "o2", "text": "Before" },
+            { "id": "o3", "text": "Yesterday time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'futuro'?",
+          "options": [
+            { "id": "o1", "text": "Future" },
+            { "id": "o2", "text": "Next time" },
+            { "id": "o3", "text": "Will" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sujeto'?",
+          "options": [
+            { "id": "o1", "text": "Subject" },
+            { "id": "o2", "text": "Person" },
+            { "id": "o3", "text": "First word" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'objeto'?",
+          "options": [
+            { "id": "o1", "text": "Object" },
+            { "id": "o2", "text": "Receiver" },
+            { "id": "o3", "text": "Thing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'el inglés es divertido'",
+          "options": [
+            { "id": "w1", "text": "fun" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "English" }
+          ],
+          "correct_answer": ["w3", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I62",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'tengo muchos libros de inglés'",
+          "options": [
+            { "id": "w1", "text": "English" },
+            { "id": "w2", "text": "books" },
+            { "id": "w3", "text": "many" },
+            { "id": "w4", "text": "have" },
+            { "id": "w5", "text": "I" }
+          ],
+          "correct_answer": ["w5", "w4", "w3", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U29_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clase de conversación'?",
+          "options": [
+            { "id": "o1", "text": "Conversation class" },
+            { "id": "o2", "text": "Talk lesson" },
+            { "id": "o3", "text": "Speak session" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'examen oficial'?",
+          "options": [
+            { "id": "o1", "text": "Official exam" },
+            { "id": "o2", "text": "Real test" },
+            { "id": "o3", "text": "Big paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprobar'?",
+          "options": [
+            { "id": "o1", "text": "To pass" },
+            { "id": "o2", "text": "To win" },
+            { "id": "o3", "text": "To ok" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suspender'?",
+          "options": [
+            { "id": "o1", "text": "To fail" },
+            { "id": "o2", "text": "To lose" },
+            { "id": "o3", "text": "To miss" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tener éxito'?",
+          "options": [
+            { "id": "o1", "text": "To succeed / To be successful" },
+            { "id": "o2", "text": "To have exit" },
+            { "id": "o3", "text": "To do good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'motivación'?",
+          "options": [
+            { "id": "o1", "text": "Motivation" },
+            { "id": "o2", "text": "Energy" },
+            { "id": "o3", "text": "Will power" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'objetivo'?",
+          "options": [
+            { "id": "o1", "text": "Goal / Objective" },
+            { "id": "o2", "text": "End" },
+            { "id": "o3", "text": "Point" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paciencia'?",
+          "options": [
+            { "id": "o1", "text": "Patience" },
+            { "id": "o2", "text": "Wait" },
+            { "id": "o3", "text": "Time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entender'?",
+          "options": [
+            { "id": "o1", "text": "To understand" },
+            { "id": "o2", "text": "To get" },
+            { "id": "o3", "text": "To know" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'olvidar'?",
+          "options": [
+            { "id": "o1", "text": "To forget" },
+            { "id": "o2", "text": "To lose" },
+            { "id": "o3", "text": "To no remember" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recordar'?",
+          "options": [
+            { "id": "o1", "text": "To remember" },
+            { "id": "o2", "text": "To keep" },
+            { "id": "o3", "text": "To back" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'repetir'?",
+          "options": [
+            { "id": "o1", "text": "To repeat" },
+            { "id": "o2", "text": "To do again" },
+            { "id": "o3", "text": "To back say" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'traducir'?",
+          "options": [
+            { "id": "o1", "text": "To translate" },
+            { "id": "o2", "text": "To change words" },
+            { "id": "o3", "text": "To say way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Language Fun",
+      "content": [
+        {
+          "interaction_id": "U29_I76",
+          "type": "word-search",
+          "prompt_es": "Busca términos de idiomas:",
+          "words": ["ENGLISH", "SPANISH", "WORD", "VERB", "READ", "SPEAK", "WRITE", "LISTEN", "LEARN", "STUDY"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "ENGLISH", "clue": "Target language" },
+            { "word": "SPANISH", "clue": "Native language" },
+            { "word": "WORD", "clue": "Basic unit of language" },
+            { "word": "VERB", "clue": "Action word" },
+            { "word": "READ", "clue": "Skill with eyes" },
+            { "word": "SPEAK", "clue": "Skill with mouth" },
+            { "word": "WRITE", "clue": "Skill with hands" },
+            { "word": "LISTEN", "clue": "Skill with ears" },
+            { "word": "LEARN", "clue": "Gain knowledge" },
+            { "word": "STUDY", "clue": "Effort to learn" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de idiomas:",
+          "items": [
+            { "word": "VERB", "clue": "Action word", "direction": "across", "row": 0, "col": 0 },
+            { "word": "WORD", "clue": "Unit of speech", "direction": "down", "row": 0, "col": 0 },
+            { "word": "READ", "clue": "Look at text", "direction": "across", "row": 2, "col": 0 },
+            { "word": "ABC", "clue": "Start of alphabet", "direction": "down", "row": 0, "col": 2 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Bilingual' significa que hablas un idioma?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'bilingual' significa que hablas dos idiomas.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Vocabulary' son las palabras que conoces?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, el vocabulario es el conjunto de palabras de un idioma.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I80",
+          "type": "true_false",
+          "prompt_es": "¿'To forget' es recordar?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'to forget' es olvidar. 'To remember' es recordar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'error común'?",
+          "options": [
+            { "id": "o1", "text": "Common mistake" },
+            { "id": "o2", "text": "Normal error" },
+            { "id": "o3", "text": "Usual fail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'consejo'?",
+          "options": [
+            { "id": "o1", "text": "Advice / Tip" },
+            { "id": "o2", "text": "Help" },
+            { "id": "o3", "text": "Plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'práctica'?",
+          "options": [
+            { "id": "o1", "text": "Practice" },
+            { "id": "o2", "text": "Doing" },
+            { "id": "o3", "text": "Work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'confianza'?",
+          "options": [
+            { "id": "o1", "text": "Confidence" },
+            { "id": "o2", "text": "Sure" },
+            { "id": "o3", "text": "Power" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disfrutar'?",
+          "options": [
+            { "id": "o1", "text": "To enjoy" },
+            { "id": "o2", "text": "To like" },
+            { "id": "o3", "text": "To have fun" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nivel básico'?",
+          "options": [
+            { "id": "o1", "text": "Basic level" },
+            { "id": "o2", "text": "First level" },
+            { "id": "o3", "text": "Start level" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nivel intermedio'?",
+          "options": [
+            { "id": "o1", "text": "Intermediate level" },
+            { "id": "o2", "text": "Middle level" },
+            { "id": "o3", "text": "B1 level" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nivel avanzado'?",
+          "options": [
+            { "id": "o1", "text": "Advanced level" },
+            { "id": "o2", "text": "High level" },
+            { "id": "o3", "text": "Top level" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nativo/a'?",
+          "options": [
+            { "id": "o1", "text": "Native" },
+            { "id": "o2", "text": "Natural" },
+            { "id": "o3", "text": "Local" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprender jugando'?",
+          "options": [
+            { "id": "o1", "text": "Learn by playing" },
+            { "id": "o2", "text": "Game learn" },
+            { "id": "o3", "text": "Play learning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'concentrarse'?",
+          "options": [
+            { "id": "o1", "text": "To focus / To concentrate" },
+            { "id": "o2", "text": "To look only" },
+            { "id": "o3", "text": "To think hard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ser constante'?",
+          "options": [
+            { "id": "o1", "text": "To be consistent" },
+            { "id": "o2", "text": "To be always" },
+            { "id": "o3", "text": "To do more" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pueblo / ciudad'?",
+          "options": [
+            { "id": "o1", "text": "Town / City" },
+            { "id": "o2", "text": "Place" },
+            { "id": "o3", "text": "House set" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viajar al extranjero'?",
+          "options": [
+            { "id": "o1", "text": "Travel abroad" },
+            { "id": "o2", "text": "Go out country" },
+            { "id": "o3", "text": "Move away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cultura'?",
+          "options": [
+            { "id": "o1", "text": "Culture" },
+            { "id": "o2", "text": "Tradition" },
+            { "id": "o3", "text": "Life way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'costumbre'?",
+          "options": [
+            { "id": "o1", "text": "Custom / Habit" },
+            { "id": "o2", "text": "Normal thing" },
+            { "id": "o3", "text": "Daily do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U29_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo ganas de aprender'?",
+          "options": [
+            { "id": "o1", "text": "I'm eager to learn / I want to learn" },
+            { "id": "o2", "text": "I have win to learn" },
+            { "id": "o3", "text": "Me like learning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no te rindas'?",
+          "options": [
+            { "id": "o1", "text": "Don't give up" },
+            { "id": "o2", "text": "No stop" },
+            { "id": "o3", "text": "Go more" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el inglés te abre puertas'?",
+          "options": [
+            { "id": "o1", "text": "English opens doors for you" },
+            { "id": "o2", "text": "English give ways" },
+            { "id": "o3", "text": "English is keys" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U29_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Tú puedes!'?",
+          "options": [
+            { "id": "o1", "text": "You can do it!" },
+            { "id": "o2", "text": "Yes you!" },
+            { "id": "o3", "text": "Go go!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    }
+  ]
+}

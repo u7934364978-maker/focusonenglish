@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- GREETINGS & BASICS REVIEW (Ex 2-11)
+-- GREETINGS & BASICS REVIEW 
 ('a1-m1-l10-ex2', 'a1-m1-l10', 1, 'multipleChoice', 'Review: Greeting', '{
     "prompt": "It is 7:00 AM. You say: ___.",
     "options": ["Good morning", "Good night", "Good evening"],
@@ -65,7 +65,7 @@ VALUES
     ]
 }'),
 
--- NUMBERS & ALPHABET REVIEW (Ex 12-21)
+-- NUMBERS & ALPHABET REVIEW 
 ('a1-m1-l10-ex12', 'a1-m1-l10', 11, 'multipleChoice', 'Review: Number 15', '{
     "prompt": "Ten + Five = ___",
     "options": ["Fifteen", "Fifty", "Twelve"],
@@ -126,7 +126,7 @@ VALUES
     ]
 }'),
 
--- ORIGIN & NATIONALITY REVIEW (Ex 22-31)
+-- ORIGIN & NATIONALITY REVIEW 
 ('a1-m1-l10-ex22', 'a1-m1-l10', 21, 'multipleChoice', 'Review: Origin prep', '{
     "prompt": "Where are you ___?",
     "options": ["from", "in", "at"],
@@ -187,7 +187,7 @@ VALUES
     ]
 }'),
 
--- FAMILY & POSSESSIVES REVIEW (Ex 32-41)
+-- FAMILY & POSSESSIVES REVIEW 
 ('a1-m1-l10-ex32', 'a1-m1-l10', 31, 'multipleChoice', 'Review: Father', '{
     "prompt": "My mother''s husband is my ___.",
     "options": ["Father", "Uncle", "Brother"],
@@ -199,7 +199,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l10-ex34', 'a1-m1-l10', 33, 'fillBlanks', 'Review: Possessive S', '{
-    "text": "This is ___ (Mario) car.",
+    "text": "This is ___ car.",
     "answers": ["Mario''s"],
     "instructions": "Use possessive ''s."
 }'),
@@ -248,7 +248,7 @@ VALUES
     ]
 }'),
 
--- COLORS, ADJECTIVES & JOBS REVIEW (Ex 42-51)
+-- COLORS, ADJECTIVES & JOBS REVIEW 
 ('a1-m1-l10-ex42', 'a1-m1-l10', 41, 'multipleChoice', 'Review: Blue', '{
     "prompt": "The sky is ___.",
     "options": ["Blue", "Red", "Green"],

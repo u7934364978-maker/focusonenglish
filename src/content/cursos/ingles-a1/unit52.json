@@ -1,0 +1,64 @@
+{
+  "course": {
+    "unit_id": "U52",
+    "unit_title": "Buying Clothes",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Ask for sizes and colors",
+    "Understand prices",
+    "Interact with a shop assistant"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Clothes Shopping",
+      "content": [
+        {
+          "interaction_id": "U52_I1",
+          "type": "matching",
+          "prompt_es": "Tallas y colores",
+          "pairs": [
+            { "id": "s1", "left": "Small", "right": "Pequeño" },
+            { "id": "s2", "left": "Medium", "right": "Mediano" },
+            { "id": "s3", "left": "Large", "right": "Grande" },
+            { "id": "s4", "left": "Blue", "right": "Azul" }
+          ],
+          "correct_answer": { "s1": "s1", "s2": "s2", "s3": "s3", "s4": "s4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_I2",
+          "type": "reorder_words",
+          "prompt_es": "Preguntar el precio",
+          "stimulus_en": "How much is this T-shirt?",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "much" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "this" },
+            { "id": "w5", "text": "T-shirt?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U52_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿En qué puedo ayudarle?",
+          "stimulus_en": "Can I help you? - Yes, I ______ a blue jacket.",
+          "options": [
+            { "id": "o1", "text": "want" },
+            { "id": "o2", "text": "go" },
+            { "id": "o3", "text": "am" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

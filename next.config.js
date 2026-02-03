@@ -11,40 +11,41 @@ const nextConfig = {
   // ==========================================
   // REDIRECTS 301 - Reestructuración Fase 1
   // ==========================================
+  trailingSlash: false,
   async redirects() {
     return [
       // AUTENTICACIÓN - Unificar rutas duplicadas
       {
         source: '/signin',
         destination: '/cuenta/login',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/login',
         destination: '/cuenta/login',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/register',
         destination: '/cuenta/registro',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/signup',
         destination: '/cuenta/registro',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/forgot-password',
         destination: '/cuenta/recuperar',
-        permanent: true,
+        statusCode: 301,
       },
       
       // RENOMBRAR PÁGINAS PRINCIPALES
       {
         source: '/contact',
         destination: '/contacto',
-        permanent: true,
+        statusCode: 301,
       },
       
       // ÁREA DE ESTUDIANTE
@@ -52,54 +53,54 @@ const nextConfig = {
       {
         source: '/estudiante/dashboard',
         destination: '/dashboard',
-        permanent: true,
+        statusCode: 301,
       },
       
       // ELIMINACIÓN DE PÁGINAS Y RUTAS (SEO 301 a Home)
       {
         source: '/metodologia',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/cursos/:path*',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/cursos',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/diagnostico',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/cursos-especializados',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/certificaciones',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/trabajo/:nivel',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/viajes/:nivel',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
       {
         source: '/examenes/:nivel',
         destination: '/',
-        permanent: true,
+        statusCode: 301,
       },
     ];
   },

@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC TIME (Ex 2-11)
+-- BASIC TIME 
 ('a1-m2-l11-ex2', 'a1-m2-l11', 1, 'multipleChoice', 'Exact hour', '{
     "prompt": "It is 10:00. How do you say it?",
     "options": ["It is ten o''clock", "It is ten hour", "It is ten minutes"],
@@ -28,8 +28,8 @@ VALUES
     "title": "Time Basics",
     "items": [
         {"front": "Midday / Noon", "back": "Mediodía (12:00 PM)", "pronunciation": "/míd-déi/"},
-        {"front": "Midnight", "back": "Medianoche (12:00 AM)", "pronunciation": "/míd-náit/"},
-        {"front": "Quarter past", "back": "Y cuarto (:15)", "pronunciation": "/kuór-ter pást/"}
+        {"front": "Midnight", "back": "Medianoche ", "pronunciation": "/míd-náit/"},
+        {"front": "Quarter past", "back": "Y cuarto ", "pronunciation": "/kuór-ter pást/"}
     ]
 }'),
 ('a1-m2-l11-ex6', 'a1-m2-l11', 5, 'fillBlanks', 'Quarter past', '{
@@ -67,7 +67,7 @@ VALUES
     "answerIndex": 1
 }'),
 
--- QUARTER & HALF REVIEW (Ex 12-21)
+-- QUARTER & HALF REVIEW 
 ('a1-m2-l11-ex12', 'a1-m2-l11', 11, 'multipleChoice', '2:15', '{
     "prompt": "2:15 is:",
     "options": ["A quarter past two", "A quarter to two", "Half past two"],
@@ -126,7 +126,7 @@ VALUES
     ]
 }'),
 
--- ADVANCED MINUTES (Ex 22-31)
+-- ADVANCED MINUTES 
 ('a1-m2-l11-ex22', 'a1-m2-l11', 21, 'multipleChoice', '10:05', '{
     "prompt": "10:05 is:",
     "options": ["Five past ten", "Five to ten", "Ten five"],
@@ -171,7 +171,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l11-ex30', 'a1-m2-l11', 29, 'multipleChoice', 'Slow watch', '{
-    "prompt": "My watch is 5 minutes ___ (behind).",
+    "prompt": "My watch is 5 minutes ___.",
     "options": ["slow", "fast", "late"],
     "answerIndex": 0
 }'),
@@ -184,7 +184,7 @@ VALUES
     ]
 }'),
 
--- CONTEXTUAL TIME (Ex 32-41)
+-- CONTEXTUAL TIME 
 ('a1-m2-l11-ex32', 'a1-m2-l11', 31, 'multipleChoice', 'Work start', '{
     "prompt": "I start work ___ 9:00.",
     "options": ["at", "on", "in"],
@@ -242,14 +242,14 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l11-ex42', 'a1-m2-l11', 41, 'multipleChoice', '12:15', '{
     "prompt": "12:15 is:",
     "options": ["A quarter past twelve", "A quarter past midnight", "A quarter to twelve"],
     "answerIndex": 0
 }'),
 ('a1-m2-l11-ex43', 'a1-m2-l11', 42, 'fillBlanks', 'Missing o''clock', '{
-    "text": "Six ___ (6:00).",
+    "text": "Six ___.",
     "answers": ["o''clock"]
 }'),
 ('a1-m2-l11-ex44', 'a1-m2-l11', 43, 'multipleChoice', 'Half past review', '{

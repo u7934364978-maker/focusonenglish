@@ -1,0 +1,201 @@
+{
+  "course": {
+    "unit_id": "U40",
+    "unit_title": "Module 4 Review & Assessment",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Master Lazy Sunday"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Module 4 Review & Assessment - Practice",
+      "content": [
+        {
+          "interaction_id": "U40_I1",
+          "type": "matching",
+          "prompt_es": "🧩 Emoji challenge: Lazy Sunday",
+          "stimulus_en": "Cat in the house",
+          "audioUrl": "/audio/courses/ingles-a1/shared/7c8ade3de8d076455356a15ee2431e6b.mp3",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Cat in the house",
+              "right": "🐈🏠"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1"
+          },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I2",
+          "type": "true_false",
+          "prompt_es": "🕵️ Detective [Lazy Sunday]: ¿Cierto o Falso?",
+          "stimulus_en": "The dog can run.",
+          "audioUrl": "/audio/courses/ingles-a1/shared/4ebb278eb9745722683d38b5953a69bc.mp3",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U40_I3",
+          "type": "reorder_words",
+          "prompt_es": "⚡ Speed builder: Lazy Sunday",
+          "stimulus_en": "I like burger",
+          "audioUrl": "/audio/courses/ingles-a1/shared/d6ea37b9e3c878cb737ca31b319a37ba.mp3",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "like"
+            },
+            {
+              "id": "w2",
+              "text": "burger"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U40_I4",
+          "type": "multiple_choice",
+          "prompt_es": "🚫 Odd one out!",
+          "options": [
+            {
+              "id": "o1",
+              "text": "lion"
+            },
+            {
+              "id": "o2",
+              "text": "apple"
+            },
+            {
+              "id": "o3",
+              "text": "X-9000 Robot"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I5",
+          "type": "transformation",
+          "prompt_es": "🎬 Scenario [Lazy Sunday]: cantar ->...",
+          "stimulus_en": "sing",
+          "audioUrl": "/audio/courses/ingles-a1/shared/db853ec3ecf7fe4adc358085ba37c278.mp3",
+          "correct_answer": "sing",
+          "mastery_tag": "communication"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Practice Block 2",
+      "content": [
+        {
+          "interaction_id": "U40_I6",
+          "type": "matching",
+          "prompt_es": "🔍 Word Hunt: Lazy Sunday",
+          "pairs": [
+            {
+              "id": "m1",
+              "left": "monkey",
+              "right": "mono"
+            }
+          ],
+          "correct_answer": {
+            "m1": "m1"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I7",
+          "type": "multiple_choice",
+          "prompt_es": "📦 Mystery Box [Lazy Sunday]: tiburón en inglés es...",
+          "stimulus_en": "shark",
+          "audioUrl": "/audio/courses/ingles-a1/shared/da6776e7ec7eaa7a6f3df5c6b149127e.mp3",
+          "options": [
+            {
+              "id": "o1",
+              "text": "shark"
+            },
+            {
+              "id": "o2",
+              "text": "Something else"
+            },
+            {
+              "id": "o3",
+              "text": "Not this"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I8",
+          "type": "transformation",
+          "prompt_es": "🎬 Scenario [Lazy Sunday]: saltar ->...",
+          "stimulus_en": "jump",
+          "audioUrl": "/audio/courses/ingles-a1/shared/ba535ef5a9f7b8bc875812bb081286bb.mp3",
+          "correct_answer": "jump",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I9",
+          "type": "transformation",
+          "prompt_es": "🎬 Scenario [Lazy Sunday]: luchar ->...",
+          "stimulus_en": "fight",
+          "audioUrl": "/audio/courses/ingles-a1/shared/9e6417ebffecef071eaeeb2ed0ca654b.mp3",
+          "correct_answer": "fight",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I10",
+          "type": "transformation",
+          "prompt_es": "🎬 Scenario [Lazy Sunday]: correr ->...",
+          "stimulus_en": "run",
+          "audioUrl": "/audio/courses/ingles-a1/shared/a53108f7543b75adbb34afc035d4cdf6.mp3",
+          "correct_answer": "run",
+          "mastery_tag": "communication"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Practice Block 3",
+      "content": [
+        {
+          "interaction_id": "U40_I11",
+          "type": "transformation",
+          "prompt_es": "🎬 Scenario [Lazy Sunday]: volar ->...",
+          "stimulus_en": "fly",
+          "audioUrl": "/audio/courses/ingles-a1/shared/af17bc3b4a86a96a0f053a7e5f7c18ba.mp3",
+          "correct_answer": "fly",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U40_I12",
+          "type": "transformation",
+          "prompt_es": "🎬 Scenario [Lazy Sunday]: bailar ->...",
+          "stimulus_en": "dance",
+          "audioUrl": "/audio/courses/ingles-a1/shared/3355d92c04a3332339b767f9278405ff.mp3",
+          "correct_answer": "dance",
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}

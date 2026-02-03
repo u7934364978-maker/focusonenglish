@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BREAKFAST FOOD (Ex 2-11)
+-- BREAKFAST FOOD 
 ('a1-m2-l17-ex2', 'a1-m2-l17', 1, 'multipleChoice', 'Breakfast item 1', '{
     "prompt": "I eat ___ with milk for breakfast.",
     "options": ["cereal", "steak", "pasta"],
@@ -53,7 +53,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l17-ex10', 'a1-m2-l17', 9, 'fillBlanks', 'Egg type', '{
-    "text": "I like ___ eggs. (Cooked in water)",
+    "text": "I like ___ eggs.",
     "answers": ["boiled"]
 }'),
 ('a1-m2-l17-ex11', 'a1-m2-l17', 10, 'multipleChoice', 'Honey', '{
@@ -62,7 +62,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- LUNCH FOOD (Ex 12-21)
+-- LUNCH FOOD 
 ('a1-m2-l17-ex12', 'a1-m2-l17', 11, 'multipleChoice', 'Lunch item 1', '{
     "prompt": "I usually have a ___ for lunch.",
     "options": ["sandwich", "cereal", "egg"],
@@ -120,14 +120,14 @@ VALUES
     ]
 }'),
 
--- DINNER FOOD (Ex 22-31)
+-- DINNER FOOD 
 ('a1-m2-l17-ex22', 'a1-m2-l17', 21, 'multipleChoice', 'Dinner item 1', '{
     "prompt": "I have a big ___ at 8 PM.",
     "options": ["dinner", "breakfast", "lunch"],
     "answerIndex": 0
 }'),
 ('a1-m2-l17-ex23', 'a1-m2-l17', 22, 'fillBlanks', 'Steak', '{
-    "text": "I like my ___ well-done. (Meat)",
+    "text": "I like my ___ well-done.",
     "answers": ["steak"]
 }'),
 ('a1-m2-l17-ex24', 'a1-m2-l17', 23, 'multipleChoice', 'Dessert', '{
@@ -178,7 +178,7 @@ VALUES
     ]
 }'),
 
--- UTENSILS & ACTIONS (Ex 32-41)
+-- UTENSILS & ACTIONS 
 ('a1-m2-l17-ex32', 'a1-m2-l17', 31, 'multipleChoice', 'Cutting', '{
     "prompt": "I use a ___ to cut meat.",
     "options": ["knife", "spoon", "fork"],
@@ -236,7 +236,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l17-ex42', 'a1-m2-l17', 41, 'multipleChoice', 'Morning drink 2', '{
     "prompt": "Do you want milk in your ___?",
     "options": ["coffee", "steak", "salad"],
@@ -265,7 +265,7 @@ VALUES
     "translation": "¿Qué desayunas?"
 }'),
 ('a1-m2-l17-ex47', 'a1-m2-l17', 46, 'multipleChoice', 'Drink', '{
-    "prompt": "I am ___ (need water).",
+    "prompt": "I am ___.",
     "options": ["thirsty", "hungry", "happy"],
     "answerIndex": 0
 }'),

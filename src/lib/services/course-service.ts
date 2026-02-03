@@ -240,13 +240,16 @@ export const courseService = {
    * Get a Premium unit by ID (maps from database to Premium structure)
    */
   async getPremiumUnitData(unitId: string): Promise<UnitData | null> {
-    // For now we only support 'unit6' mapping to database lesson 'a1-m1-l6'
-    if (unitId.toLowerCase() !== 'unit6') return null;
-
     if (!supabase) return null;
 
-    const lessonId = 'a1-m1-l6';
+    // Map 'unitX' to 'a1-mY-lX' if needed, or use unitId directly if it's already a lesson ID
+    let lessonId = unitId;
     
+    // Legacy support for 'unit6'
+    if (unitId.toLowerCase() === 'unit6') {
+      lessonId = 'a1-m1-l6';
+    }
+
     // Fetch lesson info
     const { data: lesson, error: lError } = await supabase
       .from('course_lessons')
@@ -255,7 +258,8 @@ export const courseService = {
       .single();
 
     if (lError || !lesson) {
-      console.error('Error fetching lesson for Premium unit:', lError);
+      // If not found by ID, try to find by order_index or title if necessary
+      // For now, we assume unitId is the lesson ID
       return null;
     }
 
@@ -274,7 +278,7 @@ export const courseService = {
     // Map to UnitData structure
     return {
       course: {
-        unit_id: 'U6',
+        unit_id: lesson.id,
         unit_title: lesson.title,
         level: lesson.course_modules?.course_level || 'A1',
         total_duration_minutes: lesson.duration || 60,
@@ -305,7 +309,7 @@ export const courseService = {
       'matching': 'matching',
       'drag-drop': 'reorder_words',
       'fillBlanks': 'fill_blanks',
-      'flashcard': 'multiple_choice' // Fallback for now
+      'flashcard': 'flashcard'
     };
 
     const interaction: any = {
@@ -342,6 +346,13 @@ export const courseService = {
       interaction.type = 'fill_blanks';
       interaction.stimulus_en = content.text;
       interaction.correct_answer = content.answers?.[0];
+    } else if (ex.type === 'flashcard') {
+      interaction.type = 'flashcard';
+      interaction.flashcards = (content.items || []).map((item: any) => ({
+        front: item.front,
+        back: item.back,
+        pronunciation: item.pronunciation
+      }));
     }
 
     return interaction as PremiumInteraction;

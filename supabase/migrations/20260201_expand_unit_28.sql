@@ -4,14 +4,14 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- HEAD & FACE (Ex 2-11)
+-- HEAD & FACE 
 ('a1-m3-l28-ex2', 'a1-m3-l28', 1, 'multipleChoice', 'Head part 1', '{
-    "prompt": "I see with my ___ (ojos).",
+    "prompt": "I see with my ___.",
     "options": ["eyes", "ears", "nose"],
     "answerIndex": 0
 }'),
 ('a1-m3-l28-ex3', 'a1-m3-l28', 2, 'multipleChoice', 'Head part 2', '{
-    "prompt": "I smell with my ___ (nariz).",
+    "prompt": "I smell with my ___.",
     "options": ["nose", "mouth", "hair"],
     "answerIndex": 0
 }'),
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l28-ex6', 'a1-m3-l28', 5, 'fillBlanks', 'Face ID 1', '{
-    "text": "I have brown ___ (pelo).",
+    "text": "I have brown ___.",
     "answers": ["hair"]
 }'),
 ('a1-m3-l28-ex7', 'a1-m3-l28', 6, 'drag-drop', 'Simple face sentence', '{
@@ -53,7 +53,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l28-ex10', 'a1-m3-l28', 9, 'fillBlanks', 'Face ID 2', '{
-    "text": "Open your ___ (boca) and say Ahh.",
+    "text": "Open your ___ and say Ahh.",
     "answers": ["mouth"]
 }'),
 ('a1-m3-l28-ex11', 'a1-m3-l28', 10, 'multipleChoice', 'Teeth plural', '{
@@ -62,14 +62,14 @@ VALUES
     "answerIndex": 0
 }'),
 
--- UPPER BODY (Ex 12-21)
+-- UPPER BODY 
 ('a1-m3-l28-ex12', 'a1-m3-l28', 11, 'multipleChoice', 'Arm part 1', '{
-    "prompt": "I have two ___ (brazos).",
+    "prompt": "I have two ___.",
     "options": ["arms", "legs", "hands"],
     "answerIndex": 0
 }'),
 ('a1-m3-l28-ex13', 'a1-m3-l28', 12, 'fillBlanks', 'Arm part 2', '{
-    "text": "I write with my ___ (mano).",
+    "text": "I write with my ___.",
     "answers": ["hand"]
 }'),
 ('a1-m3-l28-ex14', 'a1-m3-l28', 13, 'multipleChoice', 'Shoulders', '{
@@ -100,7 +100,7 @@ VALUES
     "answers": ["back"]
 }'),
 ('a1-m3-l28-ex19', 'a1-m3-l28', 18, 'multipleChoice', 'Stomach', '{
-    "prompt": "I am hungry. My ___ (estómago) is empty.",
+    "prompt": "I am hungry. My ___ is empty.",
     "options": ["stomach", "chest", "waist"],
     "answerIndex": 0
 }'),
@@ -120,14 +120,14 @@ VALUES
     ]
 }'),
 
--- LOWER BODY (Ex 22-31)
+-- LOWER BODY 
 ('a1-m3-l28-ex22', 'a1-m3-l28', 21, 'multipleChoice', 'Leg part 1', '{
-    "prompt": "I walk with my ___ (piernas).",
+    "prompt": "I walk with my ___.",
     "options": ["legs", "arms", "ears"],
     "answerIndex": 0
 }'),
 ('a1-m3-l28-ex23', 'a1-m3-l28', 22, 'fillBlanks', 'Leg part 2', '{
-    "text": "I wear shoes on my ___ (pies).",
+    "text": "I wear shoes on my ___.",
     "answers": ["feet"]
 }'),
 ('a1-m3-l28-ex24', 'a1-m3-l28', 23, 'multipleChoice', 'Knees', '{
@@ -178,18 +178,18 @@ VALUES
     ]
 }'),
 
--- DESCRIBING THE BODY (Ex 32-41)
+-- DESCRIBING THE BODY 
 ('a1-m3-l28-ex32', 'a1-m3-l28', 31, 'multipleChoice', 'Height 1', '{
-    "prompt": "He is very ___ (alto).",
+    "prompt": "He is very ___.",
     "options": ["tall", "short", "fat"],
     "answerIndex": 0
 }'),
 ('a1-m3-l28-ex33', 'a1-m3-l28', 32, 'fillBlanks', 'Height 2', '{
-    "text": "She is ___ (baja).",
+    "text": "She is ___.",
     "answers": ["short"]
 }'),
 ('a1-m3-l28-ex34', 'a1-m3-l28', 33, 'multipleChoice', 'Weight 1', '{
-    "prompt": "She is ___ (delgada).",
+    "prompt": "She is ___.",
     "options": ["thin", "slim", "Both are correct"],
     "answerIndex": 2
 }'),
@@ -207,12 +207,12 @@ VALUES
     "translation": "Él es alto y fuerte"
 }'),
 ('a1-m3-l28-ex37', 'a1-m3-l28', 36, 'multipleChoice', 'Eye color', '{
-    "prompt": "I have ___ (ojos marrones).",
+    "prompt": "I have ___.",
     "options": ["brown eyes", "eyes brown", "brown eye"],
     "answerIndex": 0
 }'),
 ('a1-m3-l28-ex38', 'a1-m3-l28', 37, 'fillBlanks', 'Hair type', '{
-    "text": "I have ___ (pelo rizado).",
+    "text": "I have ___.",
     "answers": ["curly hair"]
 }'),
 ('a1-m3-l28-ex39', 'a1-m3-l28', 38, 'matching', 'Hair adjectives', '{
@@ -223,7 +223,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l28-ex40', 'a1-m3-l28', 39, 'multipleChoice', 'Blonde', '{
-    "prompt": "She has ___ (pelo rubio).",
+    "prompt": "She has ___.",
     "options": ["blonde hair", "yellow hair", "fair hair"],
     "answerIndex": 0
 }'),
@@ -236,7 +236,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l28-ex42', 'a1-m3-l28', 41, 'multipleChoice', 'Review body 1', '{
     "prompt": "Which part is on your head?",
     "options": ["Hair", "Fingers", "Toes"],

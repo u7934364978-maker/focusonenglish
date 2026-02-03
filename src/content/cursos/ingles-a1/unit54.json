@@ -1,0 +1,48 @@
+{
+  "course": {
+    "unit_id": "U54",
+    "unit_title": "Going Out",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify social activities",
+    "Talk about where people go for fun"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Social Activities",
+      "content": [
+        {
+          "interaction_id": "U54_I1",
+          "type": "matching",
+          "prompt_es": "Actividades sociales",
+          "pairs": [
+            { "id": "a1", "left": "Cinema", "right": "Cine" },
+            { "id": "a2", "left": "Park", "right": "Parque" },
+            { "id": "a3", "left": "Party", "right": "Fiesta" },
+            { "id": "a4", "left": "Concert", "right": "Concierto" }
+          ],
+          "correct_answer": { "a1": "a1", "a2": "a2", "a3": "a3", "a4": "a4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿A dónde vas para ver una película?",
+          "stimulus_en": "We are going to the ______ to see a movie.",
+          "options": [
+            { "id": "o1", "text": "cinema" },
+            { "id": "o2", "text": "supermarket" },
+            { "id": "o3", "text": "bank" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

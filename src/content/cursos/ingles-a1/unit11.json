@@ -4,761 +4,1203 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U11",
-    "unit_title": "Viajes y situaciones frecuentes",
-    "total_duration_minutes": 120
+    "unit_title": "Places in Town",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B11",
-      "title": "Viajes y situaciones frecuentes",
+      "block_id": "B1",
+      "title": "Urban Vocabulary",
       "content": [
         {
-          "interaction_id": "U11_Ta1-u11-travel-vocab_I0",
-          "text": "Maria is going on a holiday. She needs to book a hotel and get a ticket for the plane. First, she calls the hotel to make a (1) __________. The hotel has a nice room. Next, Maria goes to the airport. She has her (2) __________ ready. At the airport, she looks for her (3) __________ to check the flight time. She is excited because she will see new places. Maria checks her bag at the (4) __________ counter. She waits in line to get her (5) __________. Maria is happy and hopes for a great holiday. Before she boards the plane, she shows her (6) __________ to the officer. She finds her seat and the plane takes off. Maria is on her way to a new (7) __________. She will have fun and relax. When she arrives, she will go to the (8) __________ and start her adventure.",
-          "questions": [
-            {
-              "gap": 1,
-              "options": [
-                "reservation",
-                "decision",
-                "explanation",
-                "station"
-              ],
-              "correct": "reservation",
-              "explanation": "La palabra correcta es 'reservation' porque se utiliza cuando se quiere reservar una habitación o un lugar en un hotel. Las otras opciones no son correctas porque 'decision' es para tomar decisiones, 'explanation' es para explicar algo y 'station' es un lugar físico como una estación de tren."
-            },
-            {
-              "gap": 2,
-              "options": [
-                "passport",
-                "license",
-                "ticket",
-                "paper"
-              ],
-              "correct": "passport",
-              "explanation": "La palabra correcta es 'passport' porque es lo que necesitas para viajar internacionalmente. Las otras opciones no son correctas porque 'license' es para conducir, 'ticket' es para abordar pero no para identificación internacional, y 'paper' no es específico."
-            },
-            {
-              "gap": 3,
-              "options": [
-                "ticket",
-                "receipt",
-                "check",
-                "menu"
-              ],
-              "correct": "ticket",
-              "explanation": "La palabra correcta es 'ticket' porque se usa para abordar el avión. Las otras opciones no son correctas porque 'receipt' es un comprobante de compra, 'check' es un cheque o revisión y 'menu' es una lista de comidas."
-            },
-            {
-              "gap": 4,
-              "options": [
-                "baggage",
-                "store",
-                "room",
-                "office"
-              ],
-              "correct": "baggage",
-              "explanation": "La palabra correcta es 'baggage' porque es donde se registran las maletas. Las otras opciones no son correctas porque 'store' es una tienda, 'room' es una habitación, y 'office' es una oficina."
-            },
-            {
-              "gap": 5,
-              "options": [
-                "boarding pass",
-                "map",
-                "guide",
-                "instruction"
-              ],
-              "correct": "boarding pass",
-              "explanation": "La palabra correcta es 'boarding pass' porque es el documento que necesitas para subir al avión. Las otras opciones no son correctas porque 'map' es un mapa, 'guide' es un guía y 'instruction' son instrucciones."
-            },
-            {
-              "gap": 6,
-              "options": [
-                "passport",
-                "card",
-                "license",
-                "receipt"
-              ],
-              "correct": "passport",
-              "explanation": "La palabra correcta es 'passport' porque es requerido para mostrar al oficial antes de abordar. Las otras opciones no son correctas porque 'card' es una tarjeta, 'license' es para conducir y 'receipt' es un comprobante de compra."
-            },
-            {
-              "gap": 7,
-              "options": [
-                "destination",
-                "condition",
-                "position",
-                "solution"
-              ],
-              "correct": "destination",
-              "explanation": "La palabra correcta es 'destination' porque se refiere al lugar donde vas a viajar. Las otras opciones no son correctas porque 'condition' es una condición, 'position' es una posición y 'solution' es una solución."
-            },
-            {
-              "gap": 8,
-              "options": [
-                "hotel",
-                "market",
-                "store",
-                "museum"
-              ],
-              "correct": "hotel",
-              "explanation": "La palabra correcta es 'hotel' porque es donde Maria va a empezar su aventura. Las otras opciones no son correctas porque 'market' es un mercado, 'store' es una tienda, y 'museum' es un museo."
-            }
+          "interaction_id": "U11_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'supermercado'?",
+          "options": [
+            { "id": "o1", "text": "Supermarket" },
+            { "id": "o2", "text": "Shop" },
+            { "id": "o3", "text": "Market" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_Ta1-u11-was-were_I1",
-          "questions": [
-            {
-              "text": "___ you like apples?",
-              "options": [
-                "Do",
-                "Does"
-              ],
-              "answer": "Do",
-              "explanation": "Usamos 'Do' con 'you' en presente simple para hacer preguntas.",
-              "points": 1
-            },
-            {
-              "text": "She ___ a doctor.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "answer": "is",
-              "explanation": "Usamos 'is' con 'she' en presente simple.",
-              "points": 1
-            },
-            {
-              "text": "We ___ to school every day.",
-              "options": [
-                "go",
-                "goes"
-              ],
-              "answer": "go",
-              "explanation": "Con 'we' usamos 'go' en presente simple porque es la forma base del verbo.",
-              "points": 1
-            },
-            {
-              "text": "It ___ sunny today.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "answer": "is",
-              "explanation": "Usamos 'is' con 'it' para describir el clima en presente simple.",
-              "points": 1
-            },
-            {
-              "text": "Let's ___ to the park.",
-              "options": [
-                "go",
-                "goes"
-              ],
-              "answer": "go",
-              "explanation": "Usamos 'Let’s' seguido de la forma base del verbo para hacer sugerencias.",
-              "points": 1
-            },
-            {
-              "text": "My brother ___ always happy.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "answer": "is",
-              "explanation": "Usamos 'is' con 'my brother' porque es tercera persona singular.",
-              "points": 1
-            },
-            {
-              "text": "They ___ never late.",
-              "options": [
-                "are",
-                "is"
-              ],
-              "answer": "are",
-              "explanation": "Usamos 'are' con 'they' en presente simple.",
-              "points": 1
-            },
-            {
-              "text": "We ___ dinner at 7 o'clock.",
-              "options": [
-                "have",
-                "has"
-              ],
-              "answer": "have",
-              "explanation": "Con 'we' usamos 'have' en presente simple porque es la forma base del verbo.",
-              "points": 1
-            }
+          "interaction_id": "U11_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parque'?",
+          "options": [
+            { "id": "o1", "text": "Park" },
+            { "id": "o2", "text": "Garden" },
+            { "id": "o3", "text": "Square" }
           ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'banco' (entidad financiera)?",
+          "options": [
+            { "id": "o1", "text": "Bank" },
+            { "id": "o2", "text": "Bench" },
+            { "id": "o3", "text": "Office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hospital'?",
+          "options": [
+            { "id": "o1", "text": "Hospital" },
+            { "id": "o2", "text": "Clinic" },
+            { "id": "o3", "text": "Pharmacy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cine'?",
+          "options": [
+            { "id": "o1", "text": "Cinema (UK) / Movie theater (US)" },
+            { "id": "o2", "text": "Theatre" },
+            { "id": "o3", "text": "Stadium" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'restaurante'?",
+          "options": [
+            { "id": "o1", "text": "Restaurant" },
+            { "id": "o2", "text": "Cafe" },
+            { "id": "o3", "text": "Bar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escuela'?",
+          "options": [
+            { "id": "o1", "text": "School" },
+            { "id": "o2", "text": "Library" },
+            { "id": "o3", "text": "College" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'biblioteca'?",
+          "options": [
+            { "id": "o1", "text": "Library" },
+            { "id": "o2", "text": "Bookshop" },
+            { "id": "o3", "text": "Athenaeum" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'farmacia'?",
+          "options": [
+            { "id": "o1", "text": "Pharmacy / Chemist's / Drugstore" },
+            { "id": "o2", "text": "Health shop" },
+            { "id": "o3", "text": "Medicine store" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museo'?",
+          "options": [
+            { "id": "o1", "text": "Museum" },
+            { "id": "o2", "text": "Gallery" },
+            { "id": "o3", "text": "Exhibition" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estación de tren'?",
+          "options": [
+            { "id": "o1", "text": "Train station" },
+            { "id": "o2", "text": "Bus station" },
+            { "id": "o3", "text": "Airport" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parada de autobús'?",
+          "options": [
+            { "id": "o1", "text": "Bus stop" },
+            { "id": "o2", "text": "Bus station" },
+            { "id": "o3", "text": "Bus park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'iglesia'?",
+          "options": [
+            { "id": "o1", "text": "Church" },
+            { "id": "o2", "text": "Cathedral" },
+            { "id": "o3", "text": "Temple" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comisaría de policía'?",
+          "options": [
+            { "id": "o1", "text": "Police station" },
+            { "id": "o2", "text": "Police office" },
+            { "id": "o3", "text": "Cops house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parque de bomberos'?",
+          "options": [
+            { "id": "o1", "text": "Fire station" },
+            { "id": "o2", "text": "Fire house" },
+            { "id": "o3", "text": "Fire place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plaza'?",
+          "options": [
+            { "id": "o1", "text": "Square" },
+            { "id": "o2", "text": "Place" },
+            { "id": "o3", "text": "Park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calle'?",
+          "options": [
+            { "id": "o1", "text": "Street" },
+            { "id": "o2", "text": "Road" },
+            { "id": "o3", "text": "Avenue" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'avenida'?",
+          "options": [
+            { "id": "o1", "text": "Avenue" },
+            { "id": "o2", "text": "Street" },
+            { "id": "o3", "text": "Path" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ayuntamiento'?",
+          "options": [
+            { "id": "o1", "text": "Town Hall / City Hall" },
+            { "id": "o2", "text": "Mayor's house" },
+            { "id": "o3", "text": "Public office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oficina de correos'?",
+          "options": [
+            { "id": "o1", "text": "Post office" },
+            { "id": "o2", "text": "Mail station" },
+            { "id": "o3", "text": "Letter box" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I21",
+          "type": "matching",
+          "prompt_es": "Une los lugares:",
+          "pairs": [
+            { "id": "p1", "left": "Bakery", "right": "Panadería" },
+            { "id": "p2", "left": "Butcher's", "right": "Carnicería" },
+            { "id": "p3", "left": "Greengrocer's", "right": "Frutería" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I22",
+          "type": "matching",
+          "prompt_es": "Une los lugares de ocio:",
+          "pairs": [
+            { "id": "p1", "left": "Gym", "right": "Gimnasio" },
+            { "id": "p2", "left": "Swimming pool", "right": "Piscina" },
+            { "id": "p3", "left": "Stadium", "right": "Estadio" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I go to the ___ (biblioteca) to study.'",
+          "stimulus_en": "___",
+          "correct_answer": "library",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I24",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There is a new ___ (cine) in the city center.'",
+          "stimulus_en": "___",
+          "correct_answer": "cinema",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I25",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need to go to the ___ (banco) to get money.'",
+          "stimulus_en": "___",
+          "correct_answer": "bank",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Prepositions of Place",
+      "content": [
+        {
+          "interaction_id": "U11_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'al lado de'?",
+          "options": [
+            { "id": "o1", "text": "Next to / Beside" },
+            { "id": "o2", "text": "Opposite" },
+            { "id": "o3", "text": "Between" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_Ta1-u11-was-were_I0",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "I",
-                "can",
-                "run",
-                "fast",
-                "."
-              ],
-              "correctOrder": [
-                "I",
-                "can",
-                "run",
-                "fast",
-                "."
-              ],
-              "translation": "Puedo correr rápido.",
-              "hint": "Use 'can' to show ability.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "This",
-                "is",
-                "my",
-                "book",
-                "."
-              ],
-              "correctOrder": [
-                "This",
-                "is",
-                "my",
-                "book",
-                "."
-              ],
-              "translation": "Este es mi libro.",
-              "hint": "Use 'this' for a singular object close to you.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "Please",
-                "sit",
-                "down",
-                "."
-              ],
-              "correctOrder": [
-                "Please",
-                "sit",
-                "down",
-                "."
-              ],
-              "translation": "Por favor, siéntate.",
-              "hint": "Use the imperative to give a polite instruction.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "She",
-                "is",
-                "reading",
-                "a",
-                "book",
-                "."
-              ],
-              "correctOrder": [
-                "She",
-                "is",
-                "reading",
-                "a",
-                "book",
-                "."
-              ],
-              "translation": "Ella está leyendo un libro.",
-              "hint": "Use Present Continuous for actions happening now.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "They",
-                "go",
-                "to",
-                "school",
-                "every",
-                "day",
-                "."
-              ],
-              "correctOrder": [
-                "They",
-                "go",
-                "to",
-                "school",
-                "every",
-                "day",
-                "."
-              ],
-              "translation": "Ellos van a la escuela todos los días.",
-              "hint": "Use Present Simple for habitual actions.",
-              "points": 2
-            }
+          "interaction_id": "U11_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enfrente de' (cara a cara)?",
+          "options": [
+            { "id": "o1", "text": "Opposite" },
+            { "id": "o2", "text": "In front of" },
+            { "id": "o3", "text": "Behind" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_Ta1-u11-travel-vocab_I1",
-          "text": "Anna and her family go on a holiday. They travel to a nice hotel. First, they need to go to the airport. Anna's mother has all the passports. She checks the tickets and says, 'We have a reservation at the hotel.' Anna is happy. She likes to swim in the hotel pool. They arrive at the airport and go to check-in. They give their bags to the airline worker and wait. Anna sees many planes. She counts them. There are five planes. Anna's father says, 'Let's go to the gate now.' They walk to the gate. Anna thinks it is fun to fly on a plane. She smiles and says, 'I like holidays!'",
-          "questions": [
-            {
-              "text": "Anna and her family ___ on a holiday.",
-              "options": [
-                "go",
-                "goes",
-                "went",
-                "going"
-              ],
-              "answer": "go",
-              "explanation": "La opción correcta es 'go' porque es la forma base del verbo para 'they' en presente simple. 'Goes' es incorrecto porque es para he/she/it. 'Went' es pasado y 'going' es una forma continua."
-            },
-            {
-              "text": "They travel to a ___ hotel.",
-              "options": [
-                "nice",
-                "nicely",
-                "niceness",
-                "nicest"
-              ],
-              "answer": "nice",
-              "explanation": "La opción correcta es 'nice' porque es un adjetivo que describe al hotel. 'Nicely' es un adverbio, 'niceness' es un sustantivo, y 'nicest' es una forma superlativa."
-            },
-            {
-              "text": "Anna's mother has all the ___.",
-              "options": [
-                "passports",
-                "passport",
-                "passportses",
-                "passporting"
-              ],
-              "answer": "passports",
-              "explanation": "La opción correcta es 'passports' porque se refiere a más de uno. 'Passport' es singular, 'passportses' y 'passporting' no existen en inglés."
-            },
-            {
-              "text": "She checks the ___ and says, 'We have a reservation at the hotel.'",
-              "options": [
-                "tickets",
-                "ticket",
-                "ticketers",
-                "ticking"
-              ],
-              "answer": "tickets",
-              "explanation": "La opción correcta es 'tickets' porque se refiere a más de uno. 'Ticket' es singular, 'ticketers' no es una palabra en inglés, y 'ticking' es un verbo."
-            },
-            {
-              "text": "Anna is happy. She likes to swim in the hotel ___.",
-              "options": [
-                "pool",
-                "pools",
-                "pooling",
-                "pooled"
-              ],
-              "answer": "pool",
-              "explanation": "La opción correcta es 'pool' porque se refiere al lugar específico para nadar en el hotel. 'Pools' es plural, 'pooling' y 'pooled' son formas verbales."
-            },
-            {
-              "text": "They arrive at the airport and go to ___.",
-              "options": [
-                "check-in",
-                "check",
-                "checking",
-                "checked"
-              ],
-              "answer": "check-in",
-              "explanation": "La opción correcta es 'check-in' porque es el lugar o proceso de registrar su llegada. 'Check' es un verbo, 'checking' es una forma continua, y 'checked' es pasado."
-            },
-            {
-              "text": "Anna sees many ___. She counts them.",
-              "options": [
-                "planes",
-                "plane",
-                "planer",
-                "planing"
-              ],
-              "answer": "planes",
-              "explanation": "La opción correcta es 'planes' porque se refiere a más de uno. 'Plane' es singular, 'planer' y 'planing' no son correctos en este contexto."
-            },
-            {
-              "text": "Anna thinks it is fun to fly on a ___.",
-              "options": [
-                "plane",
-                "planes",
-                "planing",
-                "planed"
-              ],
-              "answer": "plane",
-              "explanation": "La opción correcta es 'plane' porque se refiere a uno. 'Planes' es plural, 'planing' y 'planed' son formas incorrectas aquí."
-            }
+          "interaction_id": "U11_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'delante de'?",
+          "options": [
+            { "id": "o1", "text": "In front of" },
+            { "id": "o2", "text": "Opposite" },
+            { "id": "o3", "text": "Behind" }
           ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U11_Ta1-u11-dates_I0",
-          "title": "Months and Dates Exercise",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What month is after January?",
-              "options": [
-                "February",
-                "March",
-                "April",
-                "December"
-              ],
-              "correctAnswer": "February",
-              "explanation": "La respuesta correcta es 'February' porque sigue a 'January' en el calendario."
-            },
-            {
-              "id": "q2",
-              "question": "Which date is the first day of the year?",
-              "options": [
-                "January 1st",
-                "February 1st",
-                "March 1st",
-                "December 1st"
-              ],
-              "correctAnswer": "January 1st",
-              "explanation": "El 1 de enero es el primer día del año en el calendario gregoriano."
-            },
-            {
-              "id": "q3",
-              "question": "What month comes before March?",
-              "options": [
-                "April",
-                "February",
-                "June",
-                "May"
-              ],
-              "correctAnswer": "February",
-              "explanation": "La respuesta correcta es 'February' porque viene antes de 'March'."
-            },
-            {
-              "id": "q4",
-              "question": "What is the second month of the year?",
-              "options": [
-                "January",
-                "February",
-                "March",
-                "April"
-              ],
-              "correctAnswer": "February",
-              "explanation": "La respuesta correcta es 'February' porque es el segundo mes del año."
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U11_Ta1-u11-was-were_I2",
-          "questions": [
-            {
-              "context": "Look at the apple. It _____ red.",
-              "gap": "is",
-              "acceptableAnswers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' porque estamos describiendo algo en el presente.",
-              "points": 1
-            },
-            {
-              "context": "He _____ my brother.",
-              "gap": "is",
-              "acceptableAnswers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' para hablar sobre alguien en el presente.",
-              "points": 1
-            },
-            {
-              "context": "We _____ at the park.",
-              "gap": "are",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' cuando hablamos de 'we' en el presente.",
-              "points": 1
-            },
-            {
-              "context": "They _____ happy today.",
-              "gap": "are",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' cuando hablamos de 'they' en el presente.",
-              "points": 1
-            },
-            {
-              "context": "The cat _____ on the chair.",
-              "gap": "is",
-              "acceptableAnswers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' para describir dónde está algo en el presente.",
-              "points": 1
-            },
-            {
-              "context": "I _____ a student.",
-              "gap": "am",
-              "acceptableAnswers": [
-                "am"
-              ],
-              "explanation": "Usamos 'am' porque estamos hablando de nosotros mismos en el presente.",
-              "points": 1
-            },
-            {
-              "context": "The books _____ on the table.",
-              "gap": "are",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' porque 'books' es plural, refiriéndose a varios objetos.",
-              "points": 1
-            },
-            {
-              "context": "She _____ in the kitchen.",
-              "gap": "is",
-              "acceptableAnswers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' para decir dónde está alguien en el presente.",
-              "points": 1
-            }
-          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U11_Ta1-u11-dates_I1",
-          "questions": [
-            {
-              "sentence": "______ you like January or February?",
-              "grammarPoint": "Do",
-              "acceptableAnswers": [
-                "Do"
-              ],
-              "explanation": "Usamos 'Do' para formar preguntas simples en presente simple con 'you'.",
-              "points": 1
-            },
-            {
-              "sentence": "I ______ my birthday in February.",
-              "grammarPoint": "have",
-              "acceptableAnswers": [
-                "have"
-              ],
-              "explanation": "El verbo 'have' se utiliza para indicar posesión o eventos personales.",
-              "points": 1
-            },
-            {
-              "sentence": "Today is the ______ of January.",
-              "grammarPoint": "first",
-              "acceptableAnswers": [
-                "first"
-              ],
-              "explanation": "'First' se utiliza para indicar el primer día de un mes.",
-              "points": 1
-            },
-            {
-              "sentence": "______ is your favorite month?",
-              "grammarPoint": "What",
-              "acceptableAnswers": [
-                "What"
-              ],
-              "explanation": "Usamos 'What' para preguntar sobre preferencias o cosas.",
-              "points": 1
-            },
-            {
-              "sentence": "I ______ like to go to the beach in February.",
-              "grammarPoint": "like",
-              "acceptableAnswers": [
-                "like"
-              ],
-              "explanation": "'Like' se usa para expresar gustos y preferencias.",
-              "points": 1
-            },
-            {
-              "sentence": "We ______ a special dinner on the second day of each month.",
-              "grammarPoint": "have",
-              "acceptableAnswers": [
-                "have"
-              ],
-              "explanation": "El verbo 'have' se usa para hablar de eventos o actividades habituales.",
-              "points": 1
-            },
-            {
-              "sentence": "______ book is on the table?",
-              "grammarPoint": "What",
-              "acceptableAnswers": [
-                "What"
-              ],
-              "explanation": "'What' se utiliza para preguntar sobre objetos identificables.",
-              "points": 1
-            },
-            {
-              "sentence": "______ you come on the first of February?",
-              "grammarPoint": "Can",
-              "acceptableAnswers": [
-                "Can"
-              ],
-              "explanation": "Usamos 'Can' para preguntar sobre habilidades o posibilidades.",
-              "points": 1
-            }
+          "interaction_id": "U11_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'detrás de'?",
+          "options": [
+            { "id": "o1", "text": "Behind" },
+            { "id": "o2", "text": "In front of" },
+            { "id": "o3", "text": "Under" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entre' (dos cosas)?",
+          "options": [
+            { "id": "o1", "text": "Between" },
+            { "id": "o2", "text": "Among" },
+            { "id": "o3", "text": "Next to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en la esquina de'?",
+          "options": [
+            { "id": "o1", "text": "On the corner of" },
+            { "id": "o2", "text": "In the middle of" },
+            { "id": "o3", "text": "At the end of" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cerca de'?",
+          "options": [
+            { "id": "o1", "text": "Near / Close to" },
+            { "id": "o2", "text": "Far from" },
+            { "id": "o3", "text": "Away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lejos de'?",
+          "options": [
+            { "id": "o1", "text": "Far from" },
+            { "id": "o2", "text": "Near" },
+            { "id": "o3", "text": "Close to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The bank is ___ (al lado de) the post office.'",
+          "stimulus_en": "___",
+          "correct_answer": "next to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The cinema is ___ (enfrente de) the park.'",
+          "stimulus_en": "___",
+          "correct_answer": "opposite",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The library is ___ (entre) the school and the cafe.'",
+          "stimulus_en": "___",
+          "correct_answer": "between",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I37",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'el hospital está cerca del parque'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "The" },
+            { "id": "w3", "text": "hospital" },
+            { "id": "w4", "text": "near" },
+            { "id": "w5", "text": "park" },
+            { "id": "w6", "text": "the" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4", "w6", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I38",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿dónde está la estación de tren?'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Where" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "train" },
+            { "id": "w5", "text": "station" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Turn left'?",
+          "options": [
+            { "id": "o1", "text": "Gira a la izquierda" },
+            { "id": "o2", "text": "Gira a la derecha" },
+            { "id": "o3", "text": "Sigue recto" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Turn right'?",
+          "options": [
+            { "id": "o1", "text": "Gira a la derecha" },
+            { "id": "o2", "text": "Gira a la izquierda" },
+            { "id": "o3", "text": "Para" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Go straight on'?",
+          "options": [
+            { "id": "o1", "text": "Sigue recto" },
+            { "id": "o2", "text": "Gira" },
+            { "id": "o3", "text": "Cruza" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Cross the street'?",
+          "options": [
+            { "id": "o1", "text": "Cruza la calle" },
+            { "id": "o2", "text": "Para en la calle" },
+            { "id": "o3", "text": "Mira la calle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está en la primera a la derecha'?",
+          "options": [
+            { "id": "o1", "text": "It's the first on the right." },
+            { "id": "o2", "text": "It's the one right." },
+            { "id": "o3", "text": "Go right first." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Está al final de la calle'?",
+          "options": [
+            { "id": "o1", "text": "It's at the end of the street." },
+            { "id": "o2", "text": "It's the finish street." },
+            { "id": "o3", "text": "End the street." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No está lejos'?",
+          "options": [
+            { "id": "o1", "text": "It's not far." },
+            { "id": "o2", "text": "It's near not." },
+            { "id": "o3", "text": "Far is not." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Excuse me'?",
+          "options": [
+            { "id": "o1", "text": "Disculpe / Perdona (para llamar la atención)" },
+            { "id": "o2", "text": "Lo siento (para pedir perdón)" },
+            { "id": "o3", "text": "Gracias" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas educadamente por un lugar?",
+          "options": [
+            { "id": "o1", "text": "Excuse me, can you tell me the way to...?" },
+            { "id": "o2", "text": "Where is...?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U11_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'letrero / señal'?",
+          "options": [
+            { "id": "o1", "text": "Sign" },
+            { "id": "o2", "text": "Signal" },
+            { "id": "o3", "text": "Mark" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'semáforo'?",
+          "options": [
+            { "id": "o1", "text": "Traffic lights" },
+            { "id": "o2", "text": "Street lights" },
+            { "id": "o3", "text": "Car lights" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paso de cebra'?",
+          "options": [
+            { "id": "o1", "text": "Zebra crossing / Pedestrian crossing" },
+            { "id": "o2", "text": "Walk way" },
+            { "id": "o3", "text": "Street crossing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Describing the Town",
+      "content": [
+        {
+          "interaction_id": "U11_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ruidoso'?",
+          "options": [
+            { "id": "o1", "text": "Noisy" },
+            { "id": "o2", "text": "Quiet" },
+            { "id": "o3", "text": "Busy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tranquilo'?",
+          "options": [
+            { "id": "o1", "text": "Quiet / Peaceful" },
+            { "id": "o2", "text": "Noisy" },
+            { "id": "o3", "text": "Boring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'concurrido / muy ocupado'?",
+          "options": [
+            { "id": "o1", "text": "Busy / Crowded" },
+            { "id": "o2", "text": "Empty" },
+            { "id": "o3", "text": "Quiet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'moderno'?",
+          "options": [
+            { "id": "o1", "text": "Modern" },
+            { "id": "o2", "text": "Old" },
+            { "id": "o3", "text": "Antique" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'antiguo / viejo'?",
+          "options": [
+            { "id": "o1", "text": "Old / Ancient" },
+            { "id": "o2", "text": "Modern" },
+            { "id": "o3", "text": "New" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguro'?",
+          "options": [
+            { "id": "o1", "text": "Safe" },
+            { "id": "o2", "text": "Dangerous" },
+            { "id": "o3", "text": "Sure" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'peligroso'?",
+          "options": [
+            { "id": "o1", "text": "Dangerous" },
+            { "id": "o2", "text": "Safe" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bonito'?",
+          "options": [
+            { "id": "o1", "text": "Pretty / Beautiful" },
+            { "id": "o2", "text": "Ugly" },
+            { "id": "o3", "text": "Nice" },
+            { "id": "o4", "text": "All except B" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'feo'?",
+          "options": [
+            { "id": "o1", "text": "Ugly" },
+            { "id": "o2", "text": "Nice" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'limpio'?",
+          "options": [
+            { "id": "o1", "text": "Clean" },
+            { "id": "o2", "text": "Dirty" },
+            { "id": "o3", "text": "Clear" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sucio'?",
+          "options": [
+            { "id": "o1", "text": "Dirty" },
+            { "id": "o2", "text": "Clean" },
+            { "id": "o3", "text": "Messy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'barrio'?",
+          "options": [
+            { "id": "o1", "text": "Neighbourhood (UK) / Neighborhood (US)" },
+            { "id": "o2", "text": "City center" },
+            { "id": "o3", "text": "Town" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'centro de la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "City center / Downtown (US)" },
+            { "id": "o2", "text": "Middle city" },
+            { "id": "o3", "text": "Town Hall" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'afueras'?",
+          "options": [
+            { "id": "o1", "text": "Suburbs / Outskirts" },
+            { "id": "o2", "text": "Outside" },
+            { "id": "o3", "text": "Near town" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puente'?",
+          "options": [
+            { "id": "o1", "text": "Bridge" },
+            { "id": "o2", "text": "Road" },
+            { "id": "o3", "text": "River" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'río'?",
+          "options": [
+            { "id": "o1", "text": "River" },
+            { "id": "o2", "text": "Lake" },
+            { "id": "o3", "text": "Sea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'edificio'?",
+          "options": [
+            { "id": "o1", "text": "Building" },
+            { "id": "o2", "text": "House" },
+            { "id": "o3", "text": "Construction" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rascacielos'?",
+          "options": [
+            { "id": "o1", "text": "Skyscraper" },
+            { "id": "o2", "text": "Sky building" },
+            { "id": "o3", "text": "Tall house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'monumento'?",
+          "options": [
+            { "id": "o1", "text": "Monument" },
+            { "id": "o2", "text": "Statue" },
+            { "id": "o3", "text": "History" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estatua'?",
+          "options": [
+            { "id": "o1", "text": "Statue" },
+            { "id": "o2", "text": "Figure" },
+            { "id": "o3", "text": "Stone man" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parque infantil'?",
+          "options": [
+            { "id": "o1", "text": "Playground" },
+            { "id": "o2", "text": "Kid park" },
+            { "id": "o3", "text": "Play area" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuente'?",
+          "options": [
+            { "id": "o1", "text": "Fountain" },
+            { "id": "o2", "text": "Water" },
+            { "id": "o3", "text": "Spring" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aparcamiento'?",
+          "options": [
+            { "id": "o1", "text": "Car park (UK) / Parking lot (US)" },
+            { "id": "o2", "text": "Car place" },
+            { "id": "o3", "text": "Garage" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'London is a very ___ (concurrida) city.'",
+          "stimulus_en": "___",
+          "correct_answer": "busy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I75",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My street is very ___ (tranquila) at night.'",
+          "stimulus_en": "___",
+          "correct_answer": "quiet",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U11_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra lugares de la ciudad:",
+          "words": ["BANK", "PARK", "SCHOOL", "CINEMA", "MUSEUM", "LIBRARY", "STREET", "CHURCH"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "BANK", "clue": "Banco" },
+            { "word": "PARK", "clue": "Parque" },
+            { "word": "SCHOOL", "clue": "Escuela" },
+            { "word": "CINEMA", "clue": "Cine" },
+            { "word": "MUSEUM", "clue": "Museo" },
+            { "word": "LIBRARY", "clue": "Biblioteca" },
+            { "word": "STREET", "clue": "Calle" },
+            { "word": "CHURCH", "clue": "Iglesia" }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_Ta1-u11-travel-vocab_I2",
-          "text": "Anna is planning a **holiday** with her family. They want to stay in a nice **hotel**. Anna's mother makes a **reservation** for two rooms. They live near an **airport**, so they will take a plane. Anna's father checks the **tickets** and **passports**. They are very **excited** about their trip. The flight is in the morning, so they need to wake up early. On the day of the flight, Anna asks, 'Do we have everything?'. Her mother says, 'Yes, we are ready to go!'",
-          "questions": [
-            {
-              "question": "Anna is planning a ______ with her family.",
-              "options": [
-                "holiday",
-                "school",
-                "office",
-                "home"
-              ],
-              "answer": "holiday",
-              "explanation": "La palabra 'holiday' se refiere a un periodo de descanso o viaje, que es lo que están planeando. Las otras opciones no tienen sentido en este contexto."
-            },
-            {
-              "question": "They want to stay in a nice ______.",
-              "options": [
-                "hotel",
-                "car",
-                "bus",
-                "train"
-              ],
-              "answer": "hotel",
-              "explanation": "La palabra 'hotel' es el lugar donde las personas se alojan durante un viaje. Las otras opciones no son lugares para quedarse."
-            },
-            {
-              "question": "Anna's mother makes a ______ for two rooms.",
-              "options": [
-                "reservation",
-                "call",
-                "visit",
-                "meeting"
-              ],
-              "answer": "reservation",
-              "explanation": "Se hace una 'reservation' para asegurar habitaciones en un hotel. Las otras opciones no corresponden a la acción de reservar una habitación."
-            },
-            {
-              "question": "They live near an ______, so they will take a plane.",
-              "options": [
-                "airport",
-                "park",
-                "library",
-                "shop"
-              ],
-              "answer": "airport",
-              "explanation": "El 'airport' es el lugar donde se toman aviones. Las otras opciones no son lugares para tomar aviones."
-            },
-            {
-              "question": "Anna's father checks the ______ and passports.",
-              "options": [
-                "tickets",
-                "cards",
-                "phones",
-                "bags"
-              ],
-              "answer": "tickets",
-              "explanation": "Se necesitan 'tickets' (boletos) para abordar un avión. Las otras opciones no son necesarias para tomar un vuelo."
-            },
-            {
-              "question": "They are very ______ about their trip.",
-              "options": [
-                "excited",
-                "bored",
-                "sad",
-                "tired"
-              ],
-              "answer": "excited",
-              "explanation": "'Excited' significa estar emocionado, que es como se siente la familia por el viaje. Las otras opciones no expresan el mismo sentimiento."
-            },
-            {
-              "question": "The flight is in the morning, so they need to ______ early.",
-              "options": [
-                "wake up",
-                "sleep",
-                "eat",
-                "watch"
-              ],
-              "answer": "wake up",
-              "explanation": "'Wake up' significa levantarse, que es necesario si el vuelo es temprano. Las otras opciones no son adecuadas para este contexto."
-            },
-            {
-              "question": "On the day of the flight, Anna asks, 'Do we have everything?' Her mother says, 'Yes, we are ______ to go!'",
-              "options": [
-                "ready",
-                "wrong",
-                "late",
-                "lost"
-              ],
-              "answer": "ready",
-              "explanation": "'Ready' significa estar preparado, lo cual es necesario antes de un viaje. Las otras opciones no son correctas en este contexto."
-            }
+          "interaction_id": "U11_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de la ciudad:",
+          "items": [
+            { "word": "TOWN", "clue": "Smaller than a city", "direction": "across", "row": 0, "col": 0 },
+            { "word": "TRAIN", "clue": "Goes on rails", "direction": "down", "row": 0, "col": 0 },
+            { "word": "LEFT", "clue": "Opposite of right", "direction": "across", "row": 3, "col": 0 },
+            { "word": "NEAR", "clue": "Not far", "direction": "down", "row": 0, "col": 3 }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_Ta1-u11-dates_I2",
-          "title": "Months and Dates Practice",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What month comes after January?",
-              "options": [
-                "A. February",
-                "B. March",
-                "C. April",
-                "D. December"
-              ],
-              "correctAnswer": "A",
-              "explanation": "Febrero es el mes que sigue a enero en el calendario."
-            },
-            {
-              "id": "q2",
-              "question": "What is the first month of the year?",
-              "options": [
-                "A. March",
-                "B. January",
-                "C. November",
-                "D. February"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Enero es el primer mes del año."
-            },
-            {
-              "id": "q3",
-              "question": "Which date is written as '02'?",
-              "options": [
-                "A. First",
-                "B. Third",
-                "C. Second",
-                "D. Fourth"
-              ],
-              "correctAnswer": "C",
-              "explanation": "El número '02' representa el segundo día de un mes."
-            },
-            {
-              "id": "q4",
-              "question": "What is the month before February?",
-              "options": [
-                "A. March",
-                "B. January",
-                "C. April",
-                "D. May"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Enero es el mes que precede a febrero."
-            }
+          "interaction_id": "U11_I78",
+          "type": "matching",
+          "prompt_es": "Une las preposiciones:",
+          "pairs": [
+            { "id": "p1", "left": "Next to", "right": "Al lado de" },
+            { "id": "p2", "left": "Opposite", "right": "Enfrente de" },
+            { "id": "p3", "left": "Behind", "right": "Detrás de" }
           ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Library' significa 'librería' (donde compras libros)?",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Exacto! 'Library' es biblioteca. Librería es 'bookshop'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Town Hall' es donde vive el alcalde?",
+          "correct_answer": true,
+          "feedback_correct_es": "Correcto, es el Ayuntamiento.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'centro comercial'?",
+          "options": [
+            { "id": "o1", "text": "Shopping center / Mall (US)" },
+            { "id": "o2", "text": "Commercial place" },
+            { "id": "o3", "text": "Buying center" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mercado'?",
+          "options": [
+            { "id": "o1", "text": "Market" },
+            { "id": "o2", "text": "Supermarket" },
+            { "id": "o3", "text": "Shop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'quiosco de prensa'?",
+          "options": [
+            { "id": "o1", "text": "Newsagent's" },
+            { "id": "o2", "text": "Paper shop" },
+            { "id": "o3", "text": "Press station" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zapatería'?",
+          "options": [
+            { "id": "o1", "text": "Shoe shop" },
+            { "id": "o2", "text": "Shoes store" },
+            { "id": "o3", "text": "Footwear shop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tienda de ropa'?",
+          "options": [
+            { "id": "o1", "text": "Clothes shop" },
+            { "id": "o2", "text": "Dressing store" },
+            { "id": "o3", "text": "Fashion shop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'peluquería'?",
+          "options": [
+            { "id": "o1", "text": "Hairdresser's / Barber shop" },
+            { "id": "o2", "text": "Hair salon" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel'?",
+          "options": [
+            { "id": "o1", "text": "Hotel" },
+            { "id": "o2", "text": "Hostel" },
+            { "id": "o3", "text": "Inn" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aeropuerto'?",
+          "options": [
+            { "id": "o1", "text": "Airport" },
+            { "id": "o2", "text": "Air station" },
+            { "id": "o3", "text": "Plane park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estación de autobuses'?",
+          "options": [
+            { "id": "o1", "text": "Bus station" },
+            { "id": "o2", "text": "Bus stop" },
+            { "id": "o3", "text": "Bus terminal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gasolinera'?",
+          "options": [
+            { "id": "o1", "text": "Petrol station (UK) / Gas station (US)" },
+            { "id": "o2", "text": "Fuel station" },
+            { "id": "o3", "text": "Car food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'centro de salud'?",
+          "options": [
+            { "id": "o1", "text": "Health center / Medical center" },
+            { "id": "o2", "text": "Small hospital" },
+            { "id": "o3", "text": "Doctor place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estadio'?",
+          "options": [
+            { "id": "o1", "text": "Stadium" },
+            { "id": "o2", "text": "Sport place" },
+            { "id": "o3", "text": "Match park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'teatro'?",
+          "options": [
+            { "id": "o1", "text": "Theatre" },
+            { "id": "o2", "text": "Cinema" },
+            { "id": "o3", "text": "Drama house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'castillo'?",
+          "options": [
+            { "id": "o1", "text": "Castle" },
+            { "id": "o2", "text": "Palace" },
+            { "id": "o3", "text": "Tower" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'palacio'?",
+          "options": [
+            { "id": "o1", "text": "Palace" },
+            { "id": "o2", "text": "Castle" },
+            { "id": "o3", "text": "Kings house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuente' (de agua)?",
+          "options": [
+            { "id": "o1", "text": "Fountain" },
+            { "id": "o2", "text": "Source" },
+            { "id": "o3", "text": "Water head" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'monumento'?",
+          "options": [
+            { "id": "o1", "text": "Monument" },
+            { "id": "o2", "text": "History" },
+            { "id": "o3", "text": "Old thing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mapa'?",
+          "options": [
+            { "id": "o1", "text": "Map" },
+            { "id": "o2", "text": "Guide" },
+            { "id": "o3", "text": "Plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'turista'?",
+          "options": [
+            { "id": "o1", "text": "Tourist" },
+            { "id": "o2", "text": "Visitor" },
+            { "id": "o3", "text": "Traveler" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oficina de turismo'?",
+          "options": [
+            { "id": "o1", "text": "Tourist information office" },
+            { "id": "o2", "text": "Travel office" },
+            { "id": "o3", "text": "Tourist house" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]

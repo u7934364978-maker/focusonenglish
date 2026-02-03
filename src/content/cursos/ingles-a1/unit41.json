@@ -1,0 +1,78 @@
+{
+  "course": {
+    "unit_id": "U41",
+    "unit_title": "At the Airport",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify airport locations and objects",
+    "Understand basic airport signage",
+    "Ask for locations in the airport"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Airport Vocabulary",
+      "content": [
+        {
+          "interaction_id": "U41_I1",
+          "type": "matching",
+          "prompt_es": "Vocabulario del aeropuerto",
+          "pairs": [
+            { "id": "p1", "left": "Passport", "right": "Pasaporte" },
+            { "id": "p2", "left": "Gate", "right": "Puerta de embarque" },
+            { "id": "p3", "left": "Check-in desk", "right": "Mostrador de facturación" },
+            { "id": "p4", "left": "Luggage", "right": "Equipaje" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U41_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde vas para subir al avión?",
+          "stimulus_en": "I am waiting at the ______, my flight is ready.",
+          "options": [
+            { "id": "o1", "text": "gate" },
+            { "id": "o2", "text": "toilet" },
+            { "id": "o3", "text": "restaurant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Asking for Help",
+      "content": [
+        {
+          "interaction_id": "U41_I3",
+          "type": "reorder_words",
+          "prompt_es": "Pregunta dónde está el baño",
+          "stimulus_en": "Where is the toilet, please?",
+          "options": [
+            { "id": "w1", "text": "Where" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "toilet," },
+            { "id": "w5", "text": "please?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U41_I4",
+          "type": "true_false",
+          "prompt_es": "¿Es esto un objeto real en el aeropuerto?",
+          "stimulus_en": "A boarding pass",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

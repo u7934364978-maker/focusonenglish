@@ -4,827 +4,1163 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U6",
-    "unit_title": "Familia y descripciones",
-    "total_duration_minutes": 120
+    "unit_title": "The House & Furniture",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B6",
-      "title": "Familia y descripciones",
+      "block_id": "B1",
+      "title": "Rooms of the House",
       "content": [
         {
-          "interaction_id": "U6_Ta1-u6-possessives-adv_I0",
-          "questions": [
-            {
-              "sentence": "This is Lisa. ____ cat is very playful.",
-              "options": [
-                "Her",
-                "His",
-                "Its",
-                "Their"
-              ],
-              "answer": "Her",
-              "explanation": "Usamos 'Her' porque estamos hablando de Lisa, que es una mujer.",
-              "points": 1
-            },
-            {
-              "sentence": "Mark has a book. ____ book is interesting.",
-              "options": [
-                "Her",
-                "His",
-                "Its",
-                "Their"
-              ],
-              "answer": "His",
-              "explanation": "Usamos 'His' porque estamos hablando de Mark, que es un hombre.",
-              "points": 1
-            },
-            {
-              "sentence": "The dog is cute. ____ tail is very long.",
-              "options": [
-                "Her",
-                "His",
-                "Its",
-                "Their"
-              ],
-              "answer": "Its",
-              "explanation": "Usamos 'Its' porque estamos hablando de un animal.",
-              "points": 1
-            },
-            {
-              "sentence": "They have a car. ____ car is red.",
-              "options": [
-                "Her",
-                "His",
-                "Its",
-                "Their"
-              ],
-              "answer": "Their",
-              "explanation": "Usamos 'Their' porque estamos hablando de ellos (they), que es plural.",
-              "points": 1
-            },
-            {
-              "sentence": "This is my friend. ____ name is Tom.",
-              "options": [
-                "Her",
-                "His",
-                "Its",
-                "Their"
-              ],
-              "answer": "His",
-              "explanation": "Usamos 'His' porque estamos hablando de Tom, que es un hombre.",
-              "points": 1
-            },
-            {
-              "sentence": "Sara and I have a house. ____ house is big.",
-              "options": [
-                "Our",
-                "Her",
-                "His",
-                "Their"
-              ],
-              "answer": "Our",
-              "explanation": "Usamos 'Our' porque estamos hablando de Sara y yo, es decir, nosotros.",
-              "points": 1
-            },
-            {
-              "sentence": "The cat likes milk. ____ bowl is on the floor.",
-              "options": [
-                "Her",
-                "His",
-                "Its",
-                "Their"
-              ],
-              "answer": "Its",
-              "explanation": "Usamos 'Its' porque estamos hablando de un animal.",
-              "points": 1
-            },
-            {
-              "sentence": "John and Mary have bikes. ____ bikes are new.",
-              "options": [
-                "Their",
-                "Her",
-                "His",
-                "Our"
-              ],
-              "answer": "Their",
-              "explanation": "Usamos 'Their' porque estamos hablando de John y Mary, que son ellos (they), plural.",
-              "points": 1
-            }
+          "interaction_id": "U6_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casa'?",
+          "options": [
+            { "id": "o1", "text": "House" },
+            { "id": "o2", "text": "Room" },
+            { "id": "o3", "text": "Flat" }
           ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piso / apartamento'?",
+          "options": [
+            { "id": "o1", "text": "Flat / Apartment" },
+            { "id": "o2", "text": "House" },
+            { "id": "o3", "text": "Building" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salón / sala de estar'?",
+          "options": [
+            { "id": "o1", "text": "Living room" },
+            { "id": "o2", "text": "Bedroom" },
+            { "id": "o3", "text": "Kitchen" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cocina'?",
+          "options": [
+            { "id": "o1", "text": "Kitchen" },
+            { "id": "o2", "text": "Chicken" },
+            { "id": "o3", "text": "Cooker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dormitorio'?",
+          "options": [
+            { "id": "o1", "text": "Bedroom" },
+            { "id": "o2", "text": "Bathroom" },
+            { "id": "o3", "text": "Bed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuarto de baño'?",
+          "options": [
+            { "id": "o1", "text": "Bathroom" },
+            { "id": "o2", "text": "Restroom" },
+            { "id": "o3", "text": "Bath" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comedor'?",
+          "options": [
+            { "id": "o1", "text": "Dining room" },
+            { "id": "o2", "text": "Dinner room" },
+            { "id": "o3", "text": "Eat room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jardín'?",
+          "options": [
+            { "id": "o1", "text": "Garden" },
+            { "id": "o2", "text": "Yard" },
+            { "id": "o3", "text": "Park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'garaje'?",
+          "options": [
+            { "id": "o1", "text": "Garage" },
+            { "id": "o2", "text": "Car house" },
+            { "id": "o3", "text": "Parking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasillo'?",
+          "options": [
+            { "id": "o1", "text": "Hall / Hallway" },
+            { "id": "o2", "text": "Corridor" },
+            { "id": "o3", "text": "Walkway" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'balcón'?",
+          "options": [
+            { "id": "o1", "text": "Balcony" },
+            { "id": "o2", "text": "Terrace" },
+            { "id": "o3", "text": "Window" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ático / desván'?",
+          "options": [
+            { "id": "o1", "text": "Attic" },
+            { "id": "o2", "text": "Roof" },
+            { "id": "o3", "text": "Top room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sótano'?",
+          "options": [
+            { "id": "o1", "text": "Basement" },
+            { "id": "o2", "text": "Underground" },
+            { "id": "o3", "text": "Low room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'techo' (interior)?",
+          "options": [
+            { "id": "o1", "text": "Ceiling" },
+            { "id": "o2", "text": "Roof" },
+            { "id": "o3", "text": "Top" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tejado' (exterior)?",
+          "options": [
+            { "id": "o1", "text": "Roof" },
+            { "id": "o2", "text": "Ceiling" },
+            { "id": "o3", "text": "Wall" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pared'?",
+          "options": [
+            { "id": "o1", "text": "Wall" },
+            { "id": "o2", "text": "Floor" },
+            { "id": "o3", "text": "Door" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suelo'?",
+          "options": [
+            { "id": "o1", "text": "Floor" },
+            { "id": "o2", "text": "Wall" },
+            { "id": "o3", "text": "Ground" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puerta'?",
+          "options": [
+            { "id": "o1", "text": "Door" },
+            { "id": "o2", "text": "Window" },
+            { "id": "o3", "text": "Gate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ventana'?",
+          "options": [
+            { "id": "o1", "text": "Window" },
+            { "id": "o2", "text": "Glass" },
+            { "id": "o3", "text": "Door" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escaleras'?",
+          "options": [
+            { "id": "o1", "text": "Stairs" },
+            { "id": "o2", "text": "Steps" },
+            { "id": "o3", "text": "Ladder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I21",
+          "type": "matching",
+          "prompt_es": "Une las habitaciones con sus nombres:",
+          "pairs": [
+            { "id": "p1", "left": "Kitchen", "right": "Cocina" },
+            { "id": "p2", "left": "Bedroom", "right": "Dormitorio" },
+            { "id": "p3", "left": "Bathroom", "right": "Baño" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I22",
+          "type": "matching",
+          "prompt_es": "Une las partes de la casa:",
+          "pairs": [
+            { "id": "p1", "left": "Roof", "right": "Tejado" },
+            { "id": "p2", "left": "Wall", "right": "Pared" },
+            { "id": "p3", "left": "Floor", "right": "Suelo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I sleep in my ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "bedroom",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I24",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We cook in the ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "kitchen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I25",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We watch TV in the ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "living room",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Furniture & Household Objects",
+      "content": [
+        {
+          "interaction_id": "U6_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sofá'?",
+          "options": [
+            { "id": "o1", "text": "Sofa / Couch" },
+            { "id": "o2", "text": "Chair" },
+            { "id": "o3", "text": "Bed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'silla'?",
+          "options": [
+            { "id": "o1", "text": "Chair" },
+            { "id": "o2", "text": "Table" },
+            { "id": "o3", "text": "Desk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mesa'?",
+          "options": [
+            { "id": "o1", "text": "Table" },
+            { "id": "o2", "text": "Desk" },
+            { "id": "o3", "text": "Board" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cama'?",
+          "options": [
+            { "id": "o1", "text": "Bed" },
+            { "id": "o2", "text": "Bedroom" },
+            { "id": "o3", "text": "Sleep" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'armario' (generalmente de ropa)?",
+          "options": [
+            { "id": "o1", "text": "Wardrobe / Closet" },
+            { "id": "o2", "text": "Cupboard" },
+            { "id": "o3", "text": "Cabinet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'armario' (de cocina o para trastos)?",
+          "options": [
+            { "id": "o1", "text": "Cupboard" },
+            { "id": "o2", "text": "Wardrobe" },
+            { "id": "o3", "text": "Desk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escritorio'?",
+          "options": [
+            { "id": "o1", "text": "Desk" },
+            { "id": "o2", "text": "Table" },
+            { "id": "o3", "text": "Chair" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estantería'?",
+          "options": [
+            { "id": "o1", "text": "Shelf / Bookshelf" },
+            { "id": "o2", "text": "Rack" },
+            { "id": "o3", "text": "Board" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nevera'?",
+          "options": [
+            { "id": "o1", "text": "Fridge / Refrigerator" },
+            { "id": "o2", "text": "Freezer" },
+            { "id": "o3", "text": "Cooler" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cocina' (el electrodoméstico)?",
+          "options": [
+            { "id": "o1", "text": "Cooker / Stove" },
+            { "id": "o2", "text": "Kitchen" },
+            { "id": "o3", "text": "Oven" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'horno'?",
+          "options": [
+            { "id": "o1", "text": "Oven" },
+            { "id": "o2", "text": "Microwave" },
+            { "id": "o3", "text": "Stove" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lavadora'?",
+          "options": [
+            { "id": "o1", "text": "Washing machine" },
+            { "id": "o2", "text": "Dishwasher" },
+            { "id": "o3", "text": "Laundry" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lavavajillas'?",
+          "options": [
+            { "id": "o1", "text": "Dishwasher" },
+            { "id": "o2", "text": "Washing machine" },
+            { "id": "o3", "text": "Plate cleaner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fregadero' (cocina)?",
+          "options": [
+            { "id": "o1", "text": "Sink" },
+            { "id": "o2", "text": "Basin" },
+            { "id": "o3", "text": "Wash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lavabo' (baño)?",
+          "options": [
+            { "id": "o1", "text": "Washbasin / Basin" },
+            { "id": "o2", "text": "Sink" },
+            { "id": "o3", "text": "Shower" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'espejo'?",
+          "options": [
+            { "id": "o1", "text": "Mirror" },
+            { "id": "o2", "text": "Glass" },
+            { "id": "o3", "text": "Reflection" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lámpara'?",
+          "options": [
+            { "id": "o1", "text": "Lamp" },
+            { "id": "o2", "text": "Light" },
+            { "id": "o3", "text": "Bulb" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cortinas'?",
+          "options": [
+            { "id": "o1", "text": "Curtains" },
+            { "id": "o2", "text": "Blinds" },
+            { "id": "o3", "text": "Shades" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'alfombra'?",
+          "options": [
+            { "id": "o1", "text": "Carpet / Rug" },
+            { "id": "o2", "text": "Floor" },
+            { "id": "o3", "text": "Mat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuadro'?",
+          "options": [
+            { "id": "o1", "text": "Painting / Picture" },
+            { "id": "o2", "text": "Frame" },
+            { "id": "o3", "text": "Wall" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I46",
+          "type": "matching",
+          "prompt_es": "Une los muebles con sus nombres:",
+          "pairs": [
+            { "id": "p1", "left": "Sofa", "right": "Sofá" },
+            { "id": "p2", "left": "Wardrobe", "right": "Armario" },
+            { "id": "p3", "left": "Bookshelf", "right": "Estantería" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I47",
+          "type": "matching",
+          "prompt_es": "Une los electrodomésticos:",
+          "pairs": [
+            { "id": "p1", "left": "Fridge", "right": "Nevera" },
+            { "id": "p2", "left": "Oven", "right": "Horno" },
+            { "id": "p3", "left": "Microwave", "right": "Microondas" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I wash the dishes in the ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "sink",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Put your clothes in the ___.'",
+          "stimulus_en": "___",
+          "correct_answer": "wardrobe",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There is a big ___ on the floor.'",
+          "stimulus_en": "___",
+          "correct_answer": "carpet",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Prepositions of Place",
+      "content": [
+        {
+          "interaction_id": "U6_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dentro de'?",
+          "options": [
+            { "id": "o1", "text": "In" },
+            { "id": "o2", "text": "On" },
+            { "id": "o3", "text": "Under" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U6_Ta1-u6-descriptions_I1",
-          "text": "Anna is a very happy girl. She has a ______ (1) brother and a ______ (2) sister. Her brother is very ______ (3) and he likes to play basketball. Her sister is ______ (4) and she loves to read books. Anna likes to go to school every day. She thinks her teacher is ______ (5) because she always smiles. Anna's best friend is ______ (6) than her. They like to play in the ______ (7) park together. Anna's favorite color is ______ (8) because it makes her happy.",
-          "questions": [
-            {
-              "gap": 1,
-              "options": [
-                "old",
-                "young",
-                "big",
-                "small"
-              ],
-              "answer": "young",
-              "explanation": "La palabra 'young' (joven) es correcta aquí porque se ajusta al contexto de describir a un hermano que es menor. 'Old', 'big' y 'small' no son adecuadas para describir a un hermano en este contexto."
-            },
-            {
-              "gap": 2,
-              "options": [
-                "old",
-                "big",
-                "small",
-                "young"
-              ],
-              "answer": "big",
-              "explanation": "La palabra 'big' (grande) es correcta aquí porque se ajusta al contexto de describir a una hermana mayor o más grande. 'Old' y 'young' describen la edad, mientras que 'small' no es adecuada en este contexto."
-            },
-            {
-              "gap": 3,
-              "options": [
-                "short",
-                "tall",
-                "big",
-                "small"
-              ],
-              "answer": "tall",
-              "explanation": "La palabra 'tall' (alto) es correcta porque el contexto indica que le gusta jugar al baloncesto, lo cual es más fácil para las personas altas. 'Short', 'big' y 'small' no son adecuadas aquí."
-            },
-            {
-              "gap": 4,
-              "options": [
-                "short",
-                "big",
-                "young",
-                "old"
-              ],
-              "answer": "old",
-              "explanation": "La palabra 'old' (mayor) es correcta aquí ya que está hablando de una hermana que ama leer libros, lo que se asocia con ser mayor. 'Short', 'big' y 'young' no encajan bien en este contexto."
-            },
-            {
-              "gap": 5,
-              "options": [
-                "beautiful",
-                "ugly",
-                "small",
-                "big"
-              ],
-              "answer": "beautiful",
-              "explanation": "La palabra 'beautiful' (hermosa) es correcta porque describe a una maestra que siempre sonríe, lo cual es una característica positiva. 'Ugly', 'small' y 'big' no son adecuadas en este contexto."
-            },
-            {
-              "gap": 6,
-              "options": [
-                "older",
-                "younger",
-                "tall",
-                "short"
-              ],
-              "answer": "taller",
-              "explanation": "La palabra 'taller' (más alta) es correcta porque el contexto sugiere que están comparando la altura. 'Older', 'younger' y 'short' no son adecuadas aquí."
-            },
-            {
-              "gap": 7,
-              "options": [
-                "small",
-                "big",
-                "beautiful",
-                "ugly"
-              ],
-              "answer": "big",
-              "explanation": "La palabra 'big' (grande) es correcta aquí porque se refiere a un parque amplio donde pueden jugar. 'Small', 'beautiful' y 'ugly' no son adecuadas en este contexto."
-            },
-            {
-              "gap": 8,
-              "options": [
-                "red",
-                "blue",
-                "yellow",
-                "green"
-              ],
-              "answer": "yellow",
-              "explanation": "La palabra 'yellow' (amarillo) es correcta porque el texto menciona que ese color la hace feliz. 'Red', 'blue' y 'green' son colores que no se mencionan en el contexto de hacerla feliz."
-            }
+          "interaction_id": "U6_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'encima de' (con contacto)?",
+          "options": [
+            { "id": "o1", "text": "On" },
+            { "id": "o2", "text": "In" },
+            { "id": "o3", "text": "Next to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'debajo de'?",
+          "options": [
+            { "id": "o1", "text": "Under" },
+            { "id": "o2", "text": "Behind" },
+            { "id": "o3", "text": "In front of" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'al lado de'?",
+          "options": [
+            { "id": "o1", "text": "Next to / Beside" },
+            { "id": "o2", "text": "Between" },
+            { "id": "o3", "text": "Over" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'detrás de'?",
+          "options": [
+            { "id": "o1", "text": "Behind" },
+            { "id": "o2", "text": "In front of" },
+            { "id": "o3", "text": "Opposite" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'delante de'?",
+          "options": [
+            { "id": "o1", "text": "In front of" },
+            { "id": "o2", "text": "Behind" },
+            { "id": "o3", "text": "Under" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entre' (dos cosas)?",
+          "options": [
+            { "id": "o1", "text": "Between" },
+            { "id": "o2", "text": "Among" },
+            { "id": "o3", "text": "Next to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enfrente de'?",
+          "options": [
+            { "id": "o1", "text": "Opposite" },
+            { "id": "o2", "text": "Near" },
+            { "id": "o3", "text": "Under" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cerca de'?",
+          "options": [
+            { "id": "o1", "text": "Near / Close to" },
+            { "id": "o2", "text": "Far from" },
+            { "id": "o3", "text": "In" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lejos de'?",
+          "options": [
+            { "id": "o1", "text": "Far from" },
+            { "id": "o2", "text": "Near" },
+            { "id": "o3", "text": "Behind" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The book is ___ (sobre) the table.'",
+          "stimulus_en": "___",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The keys are ___ (dentro de) my bag.'",
+          "stimulus_en": "___",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The cat is ___ (debajo de) the chair.'",
+          "stimulus_en": "___",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He is sitting ___ (al lado de) me.'",
+          "stimulus_en": "___",
+          "correct_answer": "next to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The TV is ___ (delante de) the sofa.'",
+          "stimulus_en": "___",
+          "correct_answer": "in front of",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The table is ___ (entre) the two chairs.'",
+          "stimulus_en": "___",
+          "correct_answer": "between",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The car is ___ (detrás de) the house.'",
+          "stimulus_en": "___",
+          "correct_answer": "behind",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The painting is ___ (en) the wall.'",
+          "stimulus_en": "___",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The carpet is ___ (en) the floor.'",
+          "stimulus_en": "___",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The lamp is ___ (sobre - sin contacto) the desk.'",
+          "stimulus_en": "___",
+          "correct_answer": "above",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I71",
+          "type": "matching",
+          "prompt_es": "Une las preposiciones con su significado:",
+          "pairs": [
+            { "id": "p1", "left": "On", "right": "Sobre" },
+            { "id": "p2", "left": "Under", "right": "Debajo" },
+            { "id": "p3", "left": "Behind", "right": "Detrás" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I72",
+          "type": "matching",
+          "prompt_es": "Une las preposiciones:",
+          "pairs": [
+            { "id": "p1", "left": "In front of", "right": "Delante de" },
+            { "id": "p2", "left": "Between", "right": "Entre" },
+            { "id": "p3", "left": "Opposite", "right": "Enfrente de" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I73",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "The" },
+            { "id": "w3", "text": "on" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "book" },
+            { "id": "w6", "text": "desk" }
+          ],
+          "correct_answer": ["w2", "w5", "w1", "w3", "w4", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "cat" },
+            { "id": "w2", "text": "The" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "under" },
+            { "id": "w6", "text": "bed" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w5", "w4", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Dónde están mis llaves?'?",
+          "options": [
+            { "id": "o1", "text": "Where are my keys?" },
+            { "id": "o2", "text": "Where is my keys?" },
+            { "id": "o3", "text": "Where my keys are?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar: There is / There are",
+      "content": [
+        {
+          "interaction_id": "U6_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hay un sofá'?",
+          "options": [
+            { "id": "o1", "text": "There is a sofa" },
+            { "id": "o2", "text": "There are a sofa" },
+            { "id": "o3", "text": "Have a sofa" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hay dos sillas'?",
+          "options": [
+            { "id": "o1", "text": "There are two chairs" },
+            { "id": "o2", "text": "There is two chairs" },
+            { "id": "o3", "text": "There are chairs two" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'There is a table'?",
+          "options": [
+            { "id": "o1", "text": "There isn't a table" },
+            { "id": "o2", "text": "There aren't a table" },
+            { "id": "o3", "text": "There no is a table" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de 'There are any books'?",
+          "options": [
+            { "id": "o1", "text": "There aren't any books" },
+            { "id": "o2", "text": "There isn't any books" },
+            { "id": "o3", "text": "No there are books" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Hay un televisor?'?",
+          "options": [
+            { "id": "o1", "text": "Is there a TV?" },
+            { "id": "o2", "text": "Are there a TV?" },
+            { "id": "o3", "text": "There is a TV?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Hay algunas ventanas?'?",
+          "options": [
+            { "id": "o1", "text": "Are there any windows?" },
+            { "id": "o2", "text": "Is there any windows?" },
+            { "id": "o3", "text": "Are there some windows?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I82",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'There is' o 'There are':",
+          "stimulus_en": "___ a fridge in the kitchen.",
+          "correct_answer": "There is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I83",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'There is' o 'There are':",
+          "stimulus_en": "___ four bedrooms in the house.",
+          "correct_answer": "There are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I84",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Is there' o 'Are there':",
+          "stimulus_en": "___ a garage?",
+          "correct_answer": "Is there",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I85",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Is there' o 'Are there':",
+          "stimulus_en": "___ any posters on the wall?",
+          "correct_answer": "Are there",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I86",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "there" },
+            { "id": "w2", "text": "Is" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "garden" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I87",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase negativa:",
+          "options": [
+            { "id": "w1", "text": "There" },
+            { "id": "w2", "text": "aren't" },
+            { "id": "w3", "text": "any" },
+            { "id": "w4", "text": "chairs" },
+            { "id": "w5", "text": "here" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I88",
+          "type": "true_false",
+          "prompt_es": "¿'There are a bed' es gramaticalmente correcto?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. 'A bed' es singular, por lo que debe usarse 'There is'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes brevemente a 'Is there a balcony?' (Afirmativo)?",
+          "options": [
+            { "id": "o1", "text": "Yes, there is." },
+            { "id": "o2", "text": "Yes, it is." },
+            { "id": "o3", "text": "Yes, there are." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes brevemente a 'Are there any plants?' (Negativo)?",
+          "options": [
+            { "id": "o1", "text": "No, there aren't." },
+            { "id": "o2", "text": "No, there isn't." },
+            { "id": "o3", "text": "No, they aren't." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U6_I91",
+          "type": "word-search",
+          "prompt_es": "Encuentra palabras de la casa:",
+          "words": ["HOUSE", "ROOM", "BED", "SOFA", "SINK", "WALL", "DOOR", "BATH"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "HOUSE", "clue": "Casa" },
+            { "word": "ROOM", "clue": "Habitación" },
+            { "word": "BED", "clue": "Cama" },
+            { "word": "SOFA", "clue": "Sofá" },
+            { "word": "SINK", "clue": "Fregadero" },
+            { "word": "WALL", "clue": "Pared" },
+            { "word": "DOOR", "clue": "Puerta" },
+            { "word": "BATH", "clue": "Baño" }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_Ta1-u6-family_I1",
-          "text": "My family is very big. I have one (1) ______ called Mark. He is older than me. I also have a (2) ______ named Sarah. She is younger than me. Our (3) ______ are very kind. My (4) ______ likes to cook dinner every night, and my (5) ______ helps us with our homework. I have a (6) ______ who visits us every weekend. He is my uncle's (7) ______. We also have a (8) ______ who comes to play with us sometimes. She is my aunt's daughter.",
-          "questions": [
-            {
-              "gap": 1,
-              "options": [
-                "brother",
-                "sister",
-                "father",
-                "mother"
-              ],
-              "answer": "brother",
-              "explanation": "La palabra 'brother' se refiere a un hermano masculino. Las otras opciones no son correctas porque se refieren a otros miembros de la familia."
-            },
-            {
-              "gap": 2,
-              "options": [
-                "sister",
-                "brother",
-                "mother",
-                "father"
-              ],
-              "answer": "sister",
-              "explanation": "'Sister' es la palabra correcta para referirse a una hermana femenina. Las otras opciones no son correctas porque se refieren a otros miembros de la familia."
-            },
-            {
-              "gap": 3,
-              "options": [
-                "parents",
-                "sisters",
-                "brothers",
-                "sons"
-              ],
-              "answer": "parents",
-              "explanation": "'Parents' es la palabra correcta para referirse a ambos padres. Las otras opciones se refieren a otros miembros de la familia o son plurales incorrectos."
-            },
-            {
-              "gap": 4,
-              "options": [
-                "mother",
-                "father",
-                "brother",
-                "sister"
-              ],
-              "answer": "mother",
-              "explanation": "'Mother' es correcto porque ella es la que normalmente cocina. Las otras opciones se refieren a otros miembros de la familia."
-            },
-            {
-              "gap": 5,
-              "options": [
-                "father",
-                "mother",
-                "sister",
-                "brother"
-              ],
-              "answer": "father",
-              "explanation": "'Father' es correcto porque él ayuda con la tarea. Las otras opciones se refieren a otros miembros de la familia."
-            },
-            {
-              "gap": 6,
-              "options": [
-                "cousin",
-                "brother",
-                "father",
-                "son"
-              ],
-              "answer": "cousin",
-              "explanation": "'Cousin' es el término correcto para el hijo del tío. Las otras opciones se refieren a otros miembros de la familia."
-            },
-            {
-              "gap": 7,
-              "options": [
-                "son",
-                "brother",
-                "father",
-                "mother"
-              ],
-              "answer": "son",
-              "explanation": "'Son' es correcto ya que se trata del hijo de alguien. Las otras opciones no son correctas en este contexto."
-            },
-            {
-              "gap": 8,
-              "options": [
-                "cousin",
-                "sister",
-                "mother",
-                "son"
-              ],
-              "answer": "cousin",
-              "explanation": "'Cousin' es correcto porque se refiere a la hija de la tía. Las otras opciones no son correctas porque se refieren a otros miembros de la familia."
-            }
+          "interaction_id": "U6_I92",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de muebles:",
+          "items": [
+            { "word": "TABLE", "clue": "You eat on it", "direction": "across", "row": 0, "col": 0 },
+            { "word": "CHAIR", "clue": "You sit on it", "direction": "down", "row": 0, "col": 0 },
+            { "word": "LAMP", "clue": "It gives light", "direction": "across", "row": 2, "col": 0 },
+            { "word": "BED", "clue": "You sleep on it", "direction": "down", "row": 0, "col": 2 }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_Ta1-u6-have-got_I1",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "is",
-                "she",
-                "a",
-                "student",
-                "?"
-              ],
-              "correctOrder": [
-                "Is",
-                "she",
-                "a",
-                "student",
-                "?"
-              ],
-              "translation": "¿Es ella una estudiante?",
-              "hint": "Empieza con el verbo 'to be' para preguntar.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "I",
-                "have",
-                "a",
-                "red",
-                "book",
-                "."
-              ],
-              "correctOrder": [
-                "I",
-                "have",
-                "a",
-                "red",
-                "book",
-                "."
-              ],
-              "translation": "Tengo un libro rojo.",
-              "hint": "Sujeto seguido del verbo 'have' y un objeto.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "we",
-                "are",
-                "watching",
-                "TV",
-                "."
-              ],
-              "correctOrder": [
-                "We",
-                "are",
-                "watching",
-                "TV",
-                "."
-              ],
-              "translation": "Estamos viendo la tele.",
-              "hint": "Utiliza 'are' para el presente continuo.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "he",
-                "likes",
-                "music",
-                "and",
-                "movies",
-                "."
-              ],
-              "correctOrder": [
-                "He",
-                "likes",
-                "music",
-                "and",
-                "movies",
-                "."
-              ],
-              "translation": "A él le gusta la música y las películas.",
-              "hint": "Recuerda añadir 's' en la tercera persona del singular.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "you",
-                "do",
-                "have",
-                "a",
-                "pen",
-                "?"
-              ],
-              "correctOrder": [
-                "Do",
-                "you",
-                "have",
-                "a",
-                "pen",
-                "?"
-              ],
-              "translation": "¿Tienes un bolígrafo?",
-              "hint": "Empieza con 'do' para una pregunta en presente simple.",
-              "points": 2
-            }
+          "interaction_id": "U6_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'almohada'?",
+          "options": [
+            { "id": "o1", "text": "Pillow" },
+            { "id": "o2", "text": "Cushion" },
+            { "id": "o3", "text": "Blanket" }
           ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_Ta1-u6-family_I0",
-          "questions": [
-            {
-              "sentence": "My brother ___ playing soccer in the park.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correct_answer": "is",
-              "explanation": "En inglés, usamos 'is' con 'he', 'she' o 'it'.",
-              "points": 1
-            },
-            {
-              "sentence": "There ___ two sisters in my family.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correct_answer": "are",
-              "explanation": "Para indicar plural, utilizamos 'are' con 'there'.",
-              "points": 1
-            },
-            {
-              "sentence": "My mother ___ breakfast every morning.",
-              "options": [
-                "makes",
-                "make"
-              ],
-              "correct_answer": "makes",
-              "explanation": "En presente simple, para 'he', 'she', 'it' añadimos -s al verbo.",
-              "points": 1
-            },
-            {
-              "sentence": "Let's ___ to visit my grandparents.",
-              "options": [
-                "go",
-                "goes"
-              ],
-              "correct_answer": "go",
-              "explanation": "'Let's' se usa para sugerencias y siempre va seguido de un verbo en infinitivo sin 'to'.",
-              "points": 1
-            },
-            {
-              "sentence": "My father ___ a blue car.",
-              "options": [
-                "has",
-                "have"
-              ],
-              "correct_answer": "has",
-              "explanation": "'Has' es la forma correcta del verbo 'have' con 'he', 'she', 'it'.",
-              "points": 1
-            },
-            {
-              "sentence": "My sister ___ always happy.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correct_answer": "is",
-              "explanation": "Usamos 'is' cuando hablamos de 'he', 'she' o 'it'.",
-              "points": 1
-            },
-            {
-              "sentence": "There ___ a new baby in the family.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correct_answer": "is",
-              "explanation": "Para una sola cosa o persona, utilizamos 'is' con 'there'.",
-              "points": 1
-            },
-            {
-              "sentence": "Let's ___ a picture of my son.",
-              "options": [
-                "take",
-                "takes"
-              ],
-              "correct_answer": "take",
-              "explanation": "'Let's' va seguido de un verbo en infinitivo sin 'to'.",
-              "points": 1
-            }
-          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_Ta1-u6-possessives-adv_I1",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "Sundays",
-                "park",
-                "We",
-                "the",
-                "visit",
-                "."
-              ],
-              "correctOrder": [
-                "We",
-                "visit",
-                "the",
-                "park",
-                "Sundays",
-                "."
-              ],
-              "translation": "Nosotros visitamos el parque los domingos.",
-              "hint": "Usa el presente simple para hablar de actividades regulares.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "a",
-                "is",
-                "This",
-                "pencil",
-                "."
-              ],
-              "correctOrder": [
-                "This",
-                "is",
-                "a",
-                "pencil",
-                "."
-              ],
-              "translation": "Esto es un lápiz.",
-              "hint": "Comienza con el demostrativo para identificar un objeto.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "at",
-                "school",
-                "starts",
-                "8",
-                "The",
-                "am",
-                "."
-              ],
-              "correctOrder": [
-                "The",
-                "school",
-                "starts",
-                "at",
-                "8",
-                "am",
-                "."
-              ],
-              "translation": "La escuela empieza a las 8 am.",
-              "hint": "Usa 'at' para indicar una hora específica.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "that",
-                "is",
-                "a",
-                "car",
-                "It",
-                "."
-              ],
-              "correctOrder": [
-                "It",
-                "is",
-                "a",
-                "car",
-                "that",
-                "."
-              ],
-              "translation": "Eso es un auto.",
-              "hint": "Comienza describiendo lo que es el objeto.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "loves",
-                "to",
-                "She",
-                "music",
-                "listen",
-                "."
-              ],
-              "correctOrder": [
-                "She",
-                "loves",
-                "to",
-                "listen",
-                "music",
-                "."
-              ],
-              "translation": "A ella le encanta escuchar música.",
-              "hint": "Usa 'loves' para expresar gustos.",
-              "points": 2
-            }
+          "interaction_id": "U6_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cojín'?",
+          "options": [
+            { "id": "o1", "text": "Cushion" },
+            { "id": "o2", "text": "Pillow" },
+            { "id": "o3", "text": "Rug" }
           ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U6_Ta1-u6-descriptions_I0",
-          "questions": [
-            {
-              "sentence": "The book is ______ the table.",
-              "options": [
-                "on",
-                "in",
-                "under"
-              ],
-              "correct_answer": "on",
-              "explanation": "Usamos 'on' para indicar que algo está sobre una superficie.",
-              "points": 1
-            },
-            {
-              "sentence": "The cat is ______ the chair.",
-              "options": [
-                "under",
-                "next to",
-                "in"
-              ],
-              "correct_answer": "under",
-              "explanation": "Utilizamos 'under' cuando algo está debajo de otra cosa.",
-              "points": 1
-            },
-            {
-              "sentence": "The dog is ______ the garden.",
-              "options": [
-                "in",
-                "on",
-                "under"
-              ],
-              "correct_answer": "in",
-              "explanation": "Para indicar que algo está dentro de un área, usamos 'in'.",
-              "points": 1
-            },
-            {
-              "sentence": "The ball is ______ the box.",
-              "options": [
-                "in",
-                "on",
-                "next to"
-              ],
-              "correct_answer": "next to",
-              "explanation": "Usamos 'next to' para decir que algo está al lado de otra cosa.",
-              "points": 1
-            },
-            {
-              "sentence": "We have class ______ Monday.",
-              "options": [
-                "on",
-                "in",
-                "at"
-              ],
-              "correct_answer": "on",
-              "explanation": "'On' se usa con días de la semana.",
-              "points": 1
-            },
-            {
-              "sentence": "I go to bed ______ 10 o'clock.",
-              "options": [
-                "at",
-                "in",
-                "on"
-              ],
-              "correct_answer": "at",
-              "explanation": "Usamos 'at' para horas específicas.",
-              "points": 1
-            },
-            {
-              "sentence": "He can ______ a bike.",
-              "options": [
-                "ride",
-                "rides",
-                "riding"
-              ],
-              "correct_answer": "ride",
-              "explanation": "Usamos el infinitivo sin 'to' después de 'can'.",
-              "points": 1
-            },
-            {
-              "sentence": "This is ______ pencil.",
-              "options": [
-                "my",
-                "I",
-                "mine"
-              ],
-              "correct_answer": "my",
-              "explanation": "Usamos 'my' como adjetivo posesivo para indicar propiedad.",
-              "points": 1
-            }
-          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U6_Ta1-u6-have-got_I0",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "there",
-                "is",
-                "a",
-                "cat",
-                "on",
-                "the",
-                "mat",
-                "."
-              ],
-              "correctOrder": [
-                "there",
-                "is",
-                "a",
-                "cat",
-                "on",
-                "the",
-                "mat",
-                "."
-              ],
-              "translation": "Hay un gato en la alfombra.",
-              "hint": "Use 'there is' to say something exists.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "let's",
-                "go",
-                "to",
-                "school",
-                "."
-              ],
-              "correctOrder": [
-                "let's",
-                "go",
-                "to",
-                "school",
-                "."
-              ],
-              "translation": "Vamos a la escuela.",
-              "hint": "Use 'let's' to make a suggestion.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "they",
-                "are",
-                "playing",
-                "football",
-                "."
-              ],
-              "correctOrder": [
-                "they",
-                "are",
-                "playing",
-                "football",
-                "."
-              ],
-              "translation": "Ellos están jugando al fútbol.",
-              "hint": "Present continuous describes actions happening now.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "it",
-                "is",
-                "a",
-                "red",
-                "car",
-                "."
-              ],
-              "correctOrder": [
-                "it",
-                "is",
-                "a",
-                "red",
-                "car",
-                "."
-              ],
-              "translation": "Es un coche rojo.",
-              "hint": "Simple subject-verb-object sentence.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "we",
-                "have",
-                "three",
-                "cats",
-                "."
-              ],
-              "correctOrder": [
-                "we",
-                "have",
-                "three",
-                "cats",
-                "."
-              ],
-              "translation": "Tenemos tres gatos.",
-              "hint": "Use plural nouns for more than one item.",
-              "points": 2
-            }
+          "interaction_id": "U6_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'manta'?",
+          "options": [
+            { "id": "o1", "text": "Blanket" },
+            { "id": "o2", "text": "Sheet" },
+            { "id": "o3", "text": "Duvet" }
           ],
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sábana'?",
+          "options": [
+            { "id": "o1", "text": "Sheet" },
+            { "id": "o2", "text": "Blanket" },
+            { "id": "o3", "text": "Towel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'toalla'?",
+          "options": [
+            { "id": "o1", "text": "Towel" },
+            { "id": "o2", "text": "Soap" },
+            { "id": "o3", "text": "Sponge" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ducha'?",
+          "options": [
+            { "id": "o1", "text": "Shower" },
+            { "id": "o2", "text": "Bath" },
+            { "id": "o3", "text": "Tap" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bañera'?",
+          "options": [
+            { "id": "o1", "text": "Bathtub / Bath" },
+            { "id": "o2", "text": "Shower" },
+            { "id": "o3", "text": "Sink" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'grifo'?",
+          "options": [
+            { "id": "o1", "text": "Tap / Faucet" },
+            { "id": "o2", "text": "Sink" },
+            { "id": "o3", "text": "Handle" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

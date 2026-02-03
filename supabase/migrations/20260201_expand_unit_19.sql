@@ -1,17 +1,17 @@
--- Expand Unit 19: Abilities (Can/Can't)
+-- Expand Unit 19: Abilities 
 -- Adding 50 exercises (ex2 to ex51)
 BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC CAN (Ex 2-11)
+-- BASIC CAN 
 ('a1-m2-l19-ex2', 'a1-m2-l19', 1, 'multipleChoice', 'Positive Ability', '{
-    "prompt": "I ___ (can) speak English.",
+    "prompt": "I ___ speak English.",
     "options": ["can", "cans", "can speak"],
     "answerIndex": 0
 }'),
 ('a1-m2-l19-ex3', 'a1-m2-l19', 2, 'multipleChoice', 'Can + Verb', '{
-    "prompt": "She can ___ (swim) very well.",
+    "prompt": "She can ___ very well.",
     "options": ["swim", "swims", "swimming"],
     "answerIndex": 0,
     "explanation": "After can, we use the base form of the verb without ''s'' or ''ing''."
@@ -54,7 +54,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l19-ex10', 'a1-m2-l19', 9, 'fillBlanks', 'Can 3rd person', '{
-    "text": "My cat ___ (can) climb trees.",
+    "text": "My cat ___ climb trees.",
     "answers": ["can"]
 }'),
 ('a1-m2-l19-ex11', 'a1-m2-l19', 10, 'multipleChoice', 'Can plural', '{
@@ -63,14 +63,14 @@ VALUES
     "answerIndex": 0
 }'),
 
--- NEGATIVE CAN''T (Ex 12-21)
+-- NEGATIVE CAN''T 
 ('a1-m2-l19-ex12', 'a1-m2-l19', 11, 'multipleChoice', 'Negative Ability', '{
-    "prompt": "I ___ (not/can) swim.",
+    "prompt": "I ___ swim.",
     "options": ["can''t", "don''t can", "not can"],
     "answerIndex": 0
 }'),
 ('a1-m2-l19-ex13', 'a1-m2-l19', 12, 'fillBlanks', 'Cannot', '{
-    "text": "He ___ (can''t) ride a bike.",
+    "text": "He ___ ride a bike.",
     "answers": ["can''t"]
 }'),
 ('a1-m2-l19-ex14', 'a1-m2-l19', 13, 'multipleChoice', 'Short form', '{
@@ -92,7 +92,7 @@ VALUES
     "translation": "Ellos no pueden hablar francés"
 }'),
 ('a1-m2-l19-ex17', 'a1-m2-l19', 16, 'multipleChoice', 'Can''t + verb', '{
-    "prompt": "We can''t ___ (go) to the party.",
+    "prompt": "We can''t ___ to the party.",
     "options": ["go", "goes", "going"],
     "answerIndex": 0
 }'),
@@ -121,7 +121,7 @@ VALUES
     ]
 }'),
 
--- QUESTIONS (Ex 22-31)
+-- QUESTIONS 
 ('a1-m2-l19-ex22', 'a1-m2-l19', 21, 'multipleChoice', 'Question Can', '{
     "prompt": "___ you help me?",
     "options": ["Can", "Do", "Are"],
@@ -179,7 +179,7 @@ VALUES
     ]
 }'),
 
--- ADVERBS OF MANNER (Ex 32-41)
+-- ADVERBS OF MANNER 
 ('a1-m2-l19-ex32', 'a1-m2-l19', 31, 'multipleChoice', 'Well', '{
     "prompt": "I can play football very ___.",
     "options": ["well", "good", "goodly"],
@@ -238,9 +238,9 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l19-ex42', 'a1-m2-l19', 41, 'multipleChoice', 'Review can 1', '{
-    "prompt": "Can you ___ (play) the piano?",
+    "prompt": "Can you ___ the piano?",
     "options": ["play", "plays", "playing"],
     "answerIndex": 0
 }'),
@@ -272,7 +272,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m2-l19-ex48', 'a1-m2-l19', 47, 'fillBlanks', 'Can repeat', '{
-    "text": "Can you ___ (repeat), please?",
+    "text": "Can you ___, please?",
     "answers": ["repeat"]
 }'),
 ('a1-m2-l19-ex49', 'a1-m2-l19', 48, 'matching', 'Mixed can 2', '{

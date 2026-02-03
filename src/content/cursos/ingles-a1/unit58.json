@@ -1,0 +1,49 @@
+{
+  "course": {
+    "unit_id": "U58",
+    "unit_title": "Suggestions",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Make suggestions using 'Let's...'",
+    "Suggest activities using 'Shall we...?'"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Making Suggestions",
+      "content": [
+        {
+          "interaction_id": "U58_I1",
+          "type": "reorder_words",
+          "prompt_es": "Hacer una sugerencia",
+          "stimulus_en": "Let's go to the park",
+          "options": [
+            { "id": "w1", "text": "Let's" },
+            { "id": "w2", "text": "go" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "park" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U58_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Y si comemos una pizza?",
+          "stimulus_en": "______ we have a pizza?",
+          "options": [
+            { "id": "o1", "text": "Shall" },
+            { "id": "o2", "text": "Do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

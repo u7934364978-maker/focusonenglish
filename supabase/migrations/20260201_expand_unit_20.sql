@@ -4,14 +4,14 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC CLOTHES (Ex 2-11)
+-- BASIC CLOTHES 
 ('a1-m2-l20-ex2', 'a1-m2-l20', 1, 'multipleChoice', 'Clothing Item 1', '{
-    "prompt": "I am wearing a white ___ (camisa).",
+    "prompt": "I am wearing a white ___.",
     "options": ["shirt", "skirt", "shoes"],
     "answerIndex": 0
 }'),
 ('a1-m2-l20-ex3', 'a1-m2-l20', 2, 'multipleChoice', 'Clothing Item 2', '{
-    "prompt": "He has blue ___ (pantalones).",
+    "prompt": "He has blue ___.",
     "options": ["trousers", "jacket", "hat"],
     "answerIndex": 0
 }'),
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l20-ex6', 'a1-m2-l20', 5, 'fillBlanks', 'Common item', '{
-    "text": "I need a new ___ (chaqueta) for winter.",
+    "text": "I need a new ___ for winter.",
     "answers": ["jacket"]
 }'),
 ('a1-m2-l20-ex7', 'a1-m2-l20', 6, 'drag-drop', 'Wearing sentence', '{
@@ -41,7 +41,7 @@ VALUES
     "translation": "Ella lleva un vestido rojo"
 }'),
 ('a1-m2-l20-ex8', 'a1-m2-l20', 7, 'multipleChoice', 'Accessories', '{
-    "prompt": "I wear a ___ (sombrero) on my head.",
+    "prompt": "I wear a ___ on my head.",
     "options": ["hat", "sock", "belt"],
     "answerIndex": 0
 }'),
@@ -53,7 +53,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l20-ex10', 'a1-m2-l20', 9, 'fillBlanks', 'Underwear', '{
-    "text": "My ___ (calcetines) are blue.",
+    "text": "My ___ are blue.",
     "answers": ["socks"]
 }'),
 ('a1-m2-l20-ex11', 'a1-m2-l20', 10, 'multipleChoice', 'T-shirt', '{
@@ -62,19 +62,19 @@ VALUES
     "answerIndex": 0
 }'),
 
--- COLORS & DESCRIPTIONS (Ex 12-21)
+-- COLORS & DESCRIPTIONS 
 ('a1-m2-l20-ex12', 'a1-m2-l20', 11, 'multipleChoice', 'Color order', '{
-    "prompt": "I have a ___ (blue / bag).",
+    "prompt": "I have a ___.",
     "options": ["blue bag", "bag blue"],
     "answerIndex": 0,
-    "explanation": "Adjectives (like colors) come BEFORE the noun."
+    "explanation": "Adjectives  come BEFORE the noun."
 }'),
 ('a1-m2-l20-ex13', 'a1-m2-l20', 12, 'fillBlanks', 'Adjective order', '{
-    "text": "She has a ___ (new / coat).",
+    "text": "She has a ___ (nuevo / abrigo).",
     "answers": ["new coat"]
 }'),
 ('a1-m2-l20-ex14', 'a1-m2-l20', 13, 'multipleChoice', 'Size', '{
-    "prompt": "Do you have this in a ___ (talla)?",
+    "prompt": "Do you have this in a ___?",
     "options": ["size", "number", "weight"],
     "answerIndex": 0
 }'),
@@ -92,16 +92,16 @@ VALUES
     "translation": "Me gusta tu camisa amarilla"
 }'),
 ('a1-m2-l20-ex17', 'a1-m2-l20', 16, 'multipleChoice', 'Plural clothes', '{
-    "prompt": "These ___ (jeans) are expensive.",
+    "prompt": "These ___ are expensive.",
     "options": ["jeans", "jean", "jeanes"],
     "answerIndex": 0
 }'),
 ('a1-m2-l20-ex18', 'a1-m2-l20', 17, 'fillBlanks', 'Plural verb', '{
-    "text": "My trousers ___ (be) too long.",
+    "text": "My trousers ___ too long.",
     "answers": ["are"]
 }'),
 ('a1-m2-l20-ex19', 'a1-m2-l20', 18, 'multipleChoice', 'Demonstratives', '{
-    "prompt": "I like ___ (those) shoes over there.",
+    "prompt": "I like ___ shoes over there.",
     "options": ["those", "these", "this"],
     "answerIndex": 0
 }'),
@@ -109,19 +109,19 @@ VALUES
     "instructions": "Match.",
     "pairs": [
         {"id": "1", "word": "This", "correctMatch": "Este/Esta (cerca)", "distractors": ["Ese/Esa"]},
-        {"id": "2", "word": "That", "correctMatch": "Ese/Esa (lejos)", "distractors": ["Este/Esta"]}
+        {"id": "2", "word": "That", "correctMatch": "Ese/Esa ", "distractors": ["Este/Esta"]}
     ]
 }'),
 ('a1-m2-l20-ex21', 'a1-m2-l20', 20, 'flashcard', 'Sizes', '{
     "title": "Clothing Sizes",
     "items": [
         {"front": "Small", "back": "Pequeño/a (S)"},
-        {"front": "Medium", "back": "Mediano/a (M)"},
-        {"front": "Large", "back": "Grande (L)"}
+        {"front": "Medium", "back": "Mediano/a "},
+        {"front": "Large", "back": "Grande "}
     ]
 }'),
 
--- SHOPPING PHRASES (Ex 22-31)
+-- SHOPPING PHRASES 
 ('a1-m2-l20-ex22', 'a1-m2-l20', 21, 'multipleChoice', 'How much?', '{
     "prompt": "___ is this shirt?",
     "options": ["How much", "How many", "How"],
@@ -155,7 +155,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m2-l20-ex28', 'a1-m2-l20', 27, 'fillBlanks', 'Where is?', '{
-    "text": "Where is the ___ (probador)?",
+    "text": "Where is the ___?",
     "answers": ["changing room"]
 }'),
 ('a1-m2-l20-ex29', 'a1-m2-l20', 28, 'matching', 'Money match', '{
@@ -179,14 +179,14 @@ VALUES
     ]
 }'),
 
--- VERBS: WEAR, BUY, SELL (Ex 32-41)
+-- VERBS: WEAR, BUY, SELL 
 ('a1-m2-l20-ex32', 'a1-m2-l20', 31, 'multipleChoice', 'Wearing now', '{
     "prompt": "What ___ you wearing?",
     "options": ["are", "do", "is"],
     "answerIndex": 0
 }'),
 ('a1-m2-l20-ex33', 'a1-m2-l20', 32, 'fillBlanks', 'He wears', '{
-    "text": "He usually ___ (wear) jeans.",
+    "text": "He usually ___ jeans.",
     "answers": ["wears"]
 }'),
 ('a1-m2-l20-ex34', 'a1-m2-l20', 33, 'multipleChoice', 'Buying', '{
@@ -224,7 +224,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l20-ex40', 'a1-m2-l20', 39, 'multipleChoice', 'Looking for', '{
-    "prompt": "I am ___ (buscar) for a gift.",
+    "prompt": "I am ___ for a gift.",
     "options": ["looking", "seeing", "finding"],
     "answerIndex": 0
 }'),
@@ -237,9 +237,9 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l20-ex42', 'a1-m2-l20', 41, 'multipleChoice', 'Review clothes 1', '{
-    "prompt": "I like those ___ (botas).",
+    "prompt": "I like those ___.",
     "options": ["boots", "shoes", "socks"],
     "answerIndex": 0
 }'),
@@ -248,7 +248,7 @@ VALUES
     "answers": ["are"]
 }'),
 ('a1-m2-l20-ex44', 'a1-m2-l20', 43, 'multipleChoice', 'Review colors', '{
-    "prompt": "She has a ___ (rojo) bag.",
+    "prompt": "She has a ___ bag.",
     "options": ["red", "read", "ride"],
     "answerIndex": 0
 }'),
@@ -271,7 +271,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m2-l20-ex48', 'a1-m2-l20', 47, 'fillBlanks', 'Receipt', '{
-    "text": "Here is your ___ (recibo).",
+    "text": "Here is your ___.",
     "answers": ["receipt"]
 }'),
 ('a1-m2-l20-ex49', 'a1-m2-l20', 48, 'matching', 'Mixed review 3', '{

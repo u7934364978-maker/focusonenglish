@@ -11,12 +11,10 @@ export default async function PremiumUnitPage({ params }: { params: Promise<{ un
   
   let unitData: UnitData | null = null;
 
-  // Check if it's Unit 6 (which we load from database)
-  if (unitId.toLowerCase() === 'unit6') {
-    unitData = await courseService.getPremiumUnitData(unitId);
-  } 
+  // Try to load from database first
+  unitData = await courseService.getPremiumUnitData(unitId);
   
-  // If not found in database or not Unit 6, try JSON
+  // If not found in database, try JSON fallback
   if (!unitData) {
     const fileName = `${unitId.toLowerCase()}.json`;
     const filePath = path.join(process.cwd(), 'src/content/cursos/ingles-a1', fileName);

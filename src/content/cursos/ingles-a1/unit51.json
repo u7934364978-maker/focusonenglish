@@ -1,0 +1,61 @@
+{
+  "course": {
+    "unit_id": "U51",
+    "unit_title": "At the Supermarket",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify common food items in a supermarket",
+    "Use 'some' and 'any' with food",
+    "Understand basic supermarket sections"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Supermarket Vocabulary",
+      "content": [
+        {
+          "interaction_id": "U51_I1",
+          "type": "matching",
+          "prompt_es": "Vocabulario del supermercado",
+          "pairs": [
+            { "id": "f1", "left": "Fruit", "right": "Fruta" },
+            { "id": "f2", "left": "Vegetables", "right": "Verduras" },
+            { "id": "f3", "left": "Meat", "right": "Carne" },
+            { "id": "f4", "left": "Milk", "right": "Leche" },
+            { "id": "f5", "left": "Bread", "right": "Pan" }
+          ],
+          "correct_answer": { "f1": "f1", "f2": "f2", "f3": "f3", "f4": "f4", "f5": "f5" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_I2",
+          "type": "multiple_choice",
+          "prompt_es": "Uso de 'some' y 'any'",
+          "stimulus_en": "Do we have ______ apples?",
+          "options": [
+            { "id": "o1", "text": "any" },
+            { "id": "o2", "text": "some" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U51_I3",
+          "type": "multiple_choice",
+          "prompt_es": "Uso de 'some' y 'any'",
+          "stimulus_en": "We have ______ bread in the kitchen.",
+          "options": [
+            { "id": "o1", "text": "some" },
+            { "id": "o2", "text": "any" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

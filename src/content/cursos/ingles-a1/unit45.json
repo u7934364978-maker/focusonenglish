@@ -1,0 +1,47 @@
+{
+  "course": {
+    "unit_id": "U45",
+    "unit_title": "Seasons",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Learn the four seasons",
+    "Describe typical weather for each season"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "The Four Seasons",
+      "content": [
+        {
+          "interaction_id": "U45_I1",
+          "type": "matching",
+          "prompt_es": "Las estaciones",
+          "pairs": [
+            { "id": "s1", "left": "Spring", "right": "Primavera" },
+            { "id": "s2", "left": "Summer", "right": "Verano" },
+            { "id": "s3", "left": "Autumn", "right": "Otoño" },
+            { "id": "s4", "left": "Winter", "right": "Invierno" }
+          ],
+          "correct_answer": { "s1": "s1", "s2": "s2", "s3": "s3", "s4": "s4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo hace calor?",
+          "stimulus_en": "It is very hot in ______.",
+          "options": [
+            { "id": "o1", "text": "summer" },
+            { "id": "o2", "text": "winter" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

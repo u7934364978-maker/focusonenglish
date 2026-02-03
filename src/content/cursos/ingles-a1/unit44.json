@@ -1,0 +1,64 @@
+{
+  "course": {
+    "unit_id": "U44",
+    "unit_title": "The Weather",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify different weather conditions",
+    "Ask and answer 'What's the weather like?'"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Weather Conditions",
+      "content": [
+        {
+          "interaction_id": "U44_I1",
+          "type": "matching",
+          "prompt_es": "El tiempo atmosférico",
+          "pairs": [
+            { "id": "w1", "left": "Sunny", "right": "Soleado" },
+            { "id": "w2", "left": "Rainy", "right": "Lluvioso" },
+            { "id": "w3", "left": "Cloudy", "right": "Nublado" },
+            { "id": "w4", "left": "Snowy", "right": "Nevado" },
+            { "id": "w5", "left": "Windy", "right": "Ventoso" }
+          ],
+          "correct_answer": { "w1": "w1", "w2": "w2", "w3": "w3", "w4": "w4", "w5": "w5" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo está el tiempo hoy?",
+          "stimulus_en": "It is ______ today. I need an umbrella.",
+          "options": [
+            { "id": "o1", "text": "raining" },
+            { "id": "o2", "text": "sunny" },
+            { "id": "o3", "text": "hot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_I3",
+          "type": "reorder_words",
+          "prompt_es": "Pregunta por el tiempo",
+          "stimulus_en": "What is the weather like?",
+          "options": [
+            { "id": "q1", "text": "What" },
+            { "id": "q2", "text": "is" },
+            { "id": "q3", "text": "the" },
+            { "id": "q4", "text": "weather" },
+            { "id": "q5", "text": "like?" }
+          ],
+          "correct_answer": ["q1", "q2", "q3", "q4", "q5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

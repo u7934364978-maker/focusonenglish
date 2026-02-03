@@ -1,0 +1,1210 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U27",
+    "unit_title": "Social Media & Communication",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Social Media Platforms & Actions",
+      "content": [
+        {
+          "interaction_id": "U27_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'redes sociales'?",
+          "options": [
+            { "id": "o1", "text": "Social media" },
+            { "id": "o2", "text": "Social groups" },
+            { "id": "o3", "text": "Web friends" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perfil'?",
+          "options": [
+            { "id": "o1", "text": "Profile" },
+            { "id": "o2", "text": "Page" },
+            { "id": "o3", "text": "Account" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuenta' (de usuario)?",
+          "options": [
+            { "id": "o1", "text": "Account" },
+            { "id": "o2", "text": "Bill" },
+            { "id": "o3", "text": "User" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'publicar' (un post)?",
+          "options": [
+            { "id": "o1", "text": "To post" },
+            { "id": "o2", "text": "To send" },
+            { "id": "o3", "text": "To put" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'compartir'?",
+          "options": [
+            { "id": "o1", "text": "To share" },
+            { "id": "o2", "text": "To divide" },
+            { "id": "o3", "text": "To send" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'darle a me gusta'?",
+          "options": [
+            { "id": "o1", "text": "To like" },
+            { "id": "o2", "text": "To love" },
+            { "id": "o3", "text": "To check" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comentar'?",
+          "options": [
+            { "id": "o1", "text": "To comment" },
+            { "id": "o2", "text": "To write" },
+            { "id": "o3", "text": "To say" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguir' (a alguien)?",
+          "options": [
+            { "id": "o1", "text": "To follow" },
+            { "id": "o2", "text": "To watch" },
+            { "id": "o3", "text": "To track" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguidores'?",
+          "options": [
+            { "id": "o1", "text": "Followers" },
+            { "id": "o2", "text": "Friends" },
+            { "id": "o3", "text": "Public" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'noticias / muro / feed'?",
+          "options": [
+            { "id": "o1", "text": "Feed / News feed" },
+            { "id": "o2", "text": "Wall" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'etiquetar'?",
+          "options": [
+            { "id": "o1", "text": "To tag" },
+            { "id": "o2", "text": "To mark" },
+            { "id": "o3", "text": "To name" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hashtag'?",
+          "options": [
+            { "id": "o1", "text": "Hashtag" },
+            { "id": "o2", "text": "Number" },
+            { "id": "o3", "text": "Symbol" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viral'?",
+          "options": [
+            { "id": "o1", "text": "Viral" },
+            { "id": "o2", "text": "Famous" },
+            { "id": "o3", "text": "Popular" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bloquear'?",
+          "options": [
+            { "id": "o1", "text": "To block" },
+            { "id": "o2", "text": "To stop" },
+            { "id": "o3", "text": "To close" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'denunciar / reportar'?",
+          "options": [
+            { "id": "o1", "text": "To report" },
+            { "id": "o2", "text": "To tell" },
+            { "id": "o3", "text": "To call" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I16",
+          "type": "matching",
+          "prompt_es": "Une la acción con su icono:",
+          "pairs": [
+            { "id": "p1", "left": "Like", "right": "Heart / Thumbs up" },
+            { "id": "p2", "left": "Share", "right": "Arrow" },
+            { "id": "p3", "left": "Comment", "right": "Bubble" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I17",
+          "type": "matching",
+          "prompt_es": "Une el término con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "Follower", "right": "Seguidor" },
+            { "id": "p2", "left": "Profile", "right": "Perfil" },
+            { "id": "p3", "left": "Post", "right": "Publicación" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I like to ___ (compartir) photos on Instagram.'",
+          "stimulus_en": "___",
+          "correct_answer": "share",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Please ___ (sígueme) on Twitter.'",
+          "stimulus_en": "___",
+          "correct_answer": "follow me",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need to update my ___ (perfil).'",
+          "stimulus_en": "___",
+          "correct_answer": "profile",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'privado'?",
+          "options": [
+            { "id": "o1", "text": "Private" },
+            { "id": "o2", "text": "Secret" },
+            { "id": "o3", "text": "Closed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'público'?",
+          "options": [
+            { "id": "o1", "text": "Public" },
+            { "id": "o2", "text": "Open" },
+            { "id": "o3", "text": "Everyone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'notificación'?",
+          "options": [
+            { "id": "o1", "text": "Notification" },
+            { "id": "o2", "text": "Note" },
+            { "id": "o3", "text": "Alert" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ajustes de privacidad'?",
+          "options": [
+            { "id": "o1", "text": "Privacy settings" },
+            { "id": "o2", "text": "Private tools" },
+            { "id": "o3", "text": "Safe options" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en línea / conectado'?",
+          "options": [
+            { "id": "o1", "text": "Online" },
+            { "id": "o2", "text": "Connected" },
+            { "id": "o3", "text": "Working" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Messaging & Communication",
+      "content": [
+        {
+          "interaction_id": "U27_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mensaje de texto'?",
+          "options": [
+            { "id": "o1", "text": "Text message" },
+            { "id": "o2", "text": "Phone letter" },
+            { "id": "o3", "text": "Chat word" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'chatear'?",
+          "options": [
+            { "id": "o1", "text": "To chat" },
+            { "id": "o2", "text": "To talk" },
+            { "id": "o3", "text": "To write" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mensaje de voz'?",
+          "options": [
+            { "id": "o1", "text": "Voice message" },
+            { "id": "o2", "text": "Sound text" },
+            { "id": "o3", "text": "Talk note" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llamada'?",
+          "options": [
+            { "id": "o1", "text": "Call" },
+            { "id": "o2", "text": "Talk" },
+            { "id": "o3", "text": "Phone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'video llamada'?",
+          "options": [
+            { "id": "o1", "text": "Video call" },
+            { "id": "o2", "text": "Screen talk" },
+            { "id": "o3", "text": "Cam call" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escribir' (en un teclado)?",
+          "options": [
+            { "id": "o1", "text": "To type" },
+            { "id": "o2", "text": "To write" },
+            { "id": "o3", "text": "To text" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enviar'?",
+          "options": [
+            { "id": "o1", "text": "To send" },
+            { "id": "o2", "text": "To post" },
+            { "id": "o3", "text": "To give" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recibir'?",
+          "options": [
+            { "id": "o1", "text": "To receive / To get" },
+            { "id": "o2", "text": "To take" },
+            { "id": "o3", "text": "To see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'emoticono / emoji'?",
+          "options": [
+            { "id": "o1", "text": "Emoji / Emoticon" },
+            { "id": "o2", "text": "Face" },
+            { "id": "o3", "text": "Symbol" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'adjuntar'?",
+          "options": [
+            { "id": "o1", "text": "To attach" },
+            { "id": "o2", "text": "To join" },
+            { "id": "o3", "text": "To add" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'archivo'?",
+          "options": [
+            { "id": "o1", "text": "File" },
+            { "id": "o2", "text": "Document" },
+            { "id": "o3", "text": "Folder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'foto'?",
+          "options": [
+            { "id": "o1", "text": "Photo / Picture" },
+            { "id": "o2", "text": "Camera" },
+            { "id": "o3", "text": "Image" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'video'?",
+          "options": [
+            { "id": "o1", "text": "Video" },
+            { "id": "o2", "text": "Movie" },
+            { "id": "o3", "text": "Film" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'borrar / eliminar'?",
+          "options": [
+            { "id": "o1", "text": "To delete" },
+            { "id": "o2", "text": "To trash" },
+            { "id": "o3", "text": "To remove" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bloqueado'?",
+          "options": [
+            { "id": "o1", "text": "Blocked" },
+            { "id": "o2", "text": "Closed" },
+            { "id": "o3", "text": "Stopped" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I41",
+          "type": "matching",
+          "prompt_es": "Une las formas de comunicación:",
+          "pairs": [
+            { "id": "p1", "left": "Email", "right": "Correo electrónico" },
+            { "id": "p2", "left": "Text", "right": "Mensaje corto" },
+            { "id": "p3", "left": "Call", "right": "Llamada telefónica" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I42",
+          "type": "matching",
+          "prompt_es": "Une los verbos:",
+          "pairs": [
+            { "id": "p1", "left": "Open", "right": "Abrir" },
+            { "id": "p2", "left": "Read", "right": "Leer" },
+            { "id": "p3", "left": "Reply", "right": "Responder" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Send me a ___ (mensaje de texto).'",
+          "stimulus_en": "___",
+          "correct_answer": "text message",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Can we have a ___ (llamada de video)?'",
+          "stimulus_en": "___",
+          "correct_answer": "video call",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (escribiendo) a message.'",
+          "stimulus_en": "___",
+          "correct_answer": "typing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Estás libre para chatear?'?",
+          "options": [
+            { "id": "o1", "text": "Are you free to chat?" },
+            { "id": "o2", "text": "Do you talk now?" },
+            { "id": "o3", "text": "You want chat?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dime algo'?",
+          "options": [
+            { "id": "o1", "text": "Tell me something" },
+            { "id": "o2", "text": "Say me" },
+            { "id": "o3", "text": "Talk word" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llamame luego'?",
+          "options": [
+            { "id": "o1", "text": "Call me later" },
+            { "id": "o2", "text": "Phone me after" },
+            { "id": "o3", "text": "Talk then" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Escribeme pronto'?",
+          "options": [
+            { "id": "o1", "text": "Write to me soon" },
+            { "id": "o2", "text": "Text quick" },
+            { "id": "o3", "text": "Type fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Has visto mi mensaje?'?",
+          "options": [
+            { "id": "o1", "text": "Did you see my message?" },
+            { "id": "o2", "text": "You look my text?" },
+            { "id": "o3", "text": "Message seen?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Online Safety & Etiquette",
+      "content": [
+        {
+          "interaction_id": "U27_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'contraseña segura'?",
+          "options": [
+            { "id": "o1", "text": "Strong password" },
+            { "id": "o2", "text": "Safe word" },
+            { "id": "o3", "text": "Hard code" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no compartas tu contraseña'?",
+          "options": [
+            { "id": "o1", "text": "Don't share your password" },
+            { "id": "o2", "text": "No give password" },
+            { "id": "o3", "text": "Keep secret word" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desconocido'?",
+          "options": [
+            { "id": "o1", "text": "Stranger / Unknown person" },
+            { "id": "o2", "text": "Foreign" },
+            { "id": "o3", "text": "Ghost" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enlace sospechoso'?",
+          "options": [
+            { "id": "o1", "text": "Suspicious link" },
+            { "id": "o2", "text": "Bad bridge" },
+            { "id": "o3", "text": "Fake join" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ciberacoso'?",
+          "options": [
+            { "id": "o1", "text": "Cyberbullying" },
+            { "id": "o2", "text": "Net fight" },
+            { "id": "o3", "text": "Online bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sé amable en internet'?",
+          "options": [
+            { "id": "o1", "text": "Be kind online" },
+            { "id": "o2", "text": "Stay good web" },
+            { "id": "o3", "text": "Nice net" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estafa'?",
+          "options": [
+            { "id": "o1", "text": "Scam" },
+            { "id": "o2", "text": "Fake" },
+            { "id": "o3", "text": "Trap" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'denunciar acoso'?",
+          "options": [
+            { "id": "o1", "text": "Report bullying" },
+            { "id": "o2", "text": "Tell bad thing" },
+            { "id": "o3", "text": "Block mean" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'no hables con desconocidos'",
+          "options": [
+            { "id": "w1", "text": "strangers" },
+            { "id": "w2", "text": "to" },
+            { "id": "w3", "text": "talk" },
+            { "id": "w4", "text": "Don't" }
+          ],
+          "correct_answer": ["w4", "w3", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'mantén tu cuenta privada'",
+          "options": [
+            { "id": "w1", "text": "private" },
+            { "id": "w2", "text": "account" },
+            { "id": "w3", "text": "your" },
+            { "id": "w4", "text": "Keep" }
+          ],
+          "correct_answer": ["w4", "w3", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U27_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'etiqueta / educación en la red'?",
+          "options": [
+            { "id": "o1", "text": "Netiquette" },
+            { "id": "o2", "text": "Web rules" },
+            { "id": "o3", "text": "Online manners" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'derechos de autor'?",
+          "options": [
+            { "id": "o1", "text": "Copyright" },
+            { "id": "o2", "text": "Writer right" },
+            { "id": "o3", "text": "Copy power" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuente' (de información)?",
+          "options": [
+            { "id": "o1", "text": "Source" },
+            { "id": "o2", "text": "Origin" },
+            { "id": "o3", "text": "Start" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'noticias falsas'?",
+          "options": [
+            { "id": "o1", "text": "Fake news" },
+            { "id": "o2", "text": "Bad info" },
+            { "id": "o3", "text": "Wrong paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'verificar'?",
+          "options": [
+            { "id": "o1", "text": "To verify / To check" },
+            { "id": "o2", "text": "To look" },
+            { "id": "o3", "text": "To prove" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'compartir contenido'?",
+          "options": [
+            { "id": "o1", "text": "Share content" },
+            { "id": "o2", "text": "Post things" },
+            { "id": "o3", "text": "Send info" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'identidad digital'?",
+          "options": [
+            { "id": "o1", "text": "Digital identity" },
+            { "id": "o2", "text": "Web name" },
+            { "id": "o3", "text": "Online person" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'huella digital'?",
+          "options": [
+            { "id": "o1", "text": "Digital footprint" },
+            { "id": "o2", "text": "Web track" },
+            { "id": "o3", "text": "Net mark" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'proteger tus datos'?",
+          "options": [
+            { "id": "o1", "text": "Protect your data" },
+            { "id": "o2", "text": "Keep info safe" },
+            { "id": "o3", "text": "Hide files" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no hagas clic aquí'?",
+          "options": [
+            { "id": "o1", "text": "Don't click here" },
+            { "id": "o2", "text": "No push" },
+            { "id": "o3", "text": "Keep out" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿es esto seguro?'?",
+          "options": [
+            { "id": "o1", "text": "Is this safe?" },
+            { "id": "o2", "text": "Is good?" },
+            { "id": "o3", "text": "Ok web?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cambia tu contraseña'?",
+          "options": [
+            { "id": "o1", "text": "Change your password" },
+            { "id": "o2", "text": "New secret word" },
+            { "id": "o3", "text": "Update code" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cierra la sesión'?",
+          "options": [
+            { "id": "o1", "text": "Log out / Sign out" },
+            { "id": "o2", "text": "Close account" },
+            { "id": "o3", "text": "Go away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'inicia la sesión'?",
+          "options": [
+            { "id": "o1", "text": "Log in / Sign in" },
+            { "id": "o2", "text": "Open door" },
+            { "id": "o3", "text": "Start account" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'términos y condiciones'?",
+          "options": [
+            { "id": "o1", "text": "Terms and conditions" },
+            { "id": "o2", "text": "Rules and ways" },
+            { "id": "o3", "text": "Law paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U27_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra palabras de redes sociales:",
+          "words": ["POST", "LIKE", "SHARE", "CHAT", "FOLLOW", "PROFILE", "BLOCK", "REPORT", "FRIEND", "STATUS"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "POST", "clue": "Publish something online" },
+            { "word": "LIKE", "clue": "Express you enjoy a post" },
+            { "word": "SHARE", "clue": "Send a post to others" },
+            { "word": "CHAT", "clue": "Talk to friends online" },
+            { "word": "FOLLOW", "clue": "Subscribe to someone" },
+            { "word": "PROFILE", "clue": "Your personal page" },
+            { "word": "BLOCK", "clue": "Stop someone from seeing you" },
+            { "word": "REPORT", "clue": "Tell the app about bad behavior" },
+            { "word": "FRIEND", "clue": "Person you know online" },
+            { "word": "STATUS", "clue": "Current state or update" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de comunicación:",
+          "items": [
+            { "word": "TAG", "clue": "Label a person in a photo", "direction": "across", "row": 0, "col": 0 },
+            { "word": "TEXT", "clue": "Send a short message", "direction": "down", "row": 0, "col": 0 },
+            { "word": "APP", "clue": "Mobile software", "direction": "across", "row": 2, "col": 0 },
+            { "word": "EMOJI", "clue": "Small face icon", "direction": "down", "row": 0, "col": 3 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Share' significa borrar una foto?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'share' significa compartir. 'Delete' es borrar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Followers' son las personas que te siguen?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'followers' son los seguidores.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Private account' es una cuenta que todos pueden ver?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'private account' es una cuenta privada, solo para amigos.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'influencer'?",
+          "options": [
+            { "id": "o1", "text": "Influencer" },
+            { "id": "o2", "text": "Popular person" },
+            { "id": "o3", "text": "Leader" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tendencia'?",
+          "options": [
+            { "id": "o1", "text": "Trending / Trend" },
+            { "id": "o2", "text": "Famous thing" },
+            { "id": "o3", "text": "New wave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suscribirse'?",
+          "options": [
+            { "id": "o1", "text": "To subscribe" },
+            { "id": "o2", "text": "To join" },
+            { "id": "o3", "text": "To follow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'canal' (de YouTube, etc.)?",
+          "options": [
+            { "id": "o1", "text": "Channel" },
+            { "id": "o2", "text": "Station" },
+            { "id": "o3", "text": "Page" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'transmisión en vivo'?",
+          "options": [
+            { "id": "o1", "text": "Live stream / Going live" },
+            { "id": "o2", "text": "Now TV" },
+            { "id": "o3", "text": "Direct talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pantallazo'?",
+          "options": [
+            { "id": "o1", "text": "Screenshot" },
+            { "id": "o2", "text": "Screen photo" },
+            { "id": "o3", "text": "Monitor pic" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enlace en la bio'?",
+          "options": [
+            { "id": "o1", "text": "Link in bio" },
+            { "id": "o2", "text": "Bridge in profile" },
+            { "id": "o3", "text": "Join name" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mencionar'?",
+          "options": [
+            { "id": "o1", "text": "To mention / To tag" },
+            { "id": "o2", "text": "To call" },
+            { "id": "o3", "text": "To say name" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desconectarse' (de las redes)?",
+          "options": [
+            { "id": "o1", "text": "Unplug / Digital detox" },
+            { "id": "o2", "text": "Log out" },
+            { "id": "o3", "text": "Off net" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'adicción al móvil'?",
+          "options": [
+            { "id": "o1", "text": "Phone addiction" },
+            { "id": "o2", "text": "Too much mobile" },
+            { "id": "o3", "text": "Mobile sick" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'revisar el móvil'?",
+          "options": [
+            { "id": "o1", "text": "Check your phone" },
+            { "id": "o2", "text": "Look mobile" },
+            { "id": "o3", "text": "Open device" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U27_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'silenciar'?",
+          "options": [
+            { "id": "o1", "text": "To mute" },
+            { "id": "o2", "text": "To quiet" },
+            { "id": "o3", "text": "To off sound" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hilo' (de mensajes/posts)?",
+          "options": [
+            { "id": "o1", "text": "Thread" },
+            { "id": "o2", "text": "Line" },
+            { "id": "o3", "text": "Group" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comunidad'?",
+          "options": [
+            { "id": "o1", "text": "Community" },
+            { "id": "o2", "text": "Group" },
+            { "id": "o3", "text": "Public" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguido' (que tú sigues)?",
+          "options": [
+            { "id": "o1", "text": "Following" },
+            { "id": "o2", "text": "Follower" },
+            { "id": "o3", "text": "Friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dejar de seguir'?",
+          "options": [
+            { "id": "o1", "text": "To unfollow" },
+            { "id": "o2", "text": "To stop follow" },
+            { "id": "o3", "text": "To leave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me encanta'?",
+          "options": [
+            { "id": "o1", "text": "Love / Heart" },
+            { "id": "o2", "text": "Super like" },
+            { "id": "o3", "text": "Best check" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me asombra'?",
+          "options": [
+            { "id": "o1", "text": "Wow" },
+            { "id": "o2", "text": "Shock" },
+            { "id": "o3", "text": "Surprise" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me entristece'?",
+          "options": [
+            { "id": "o1", "text": "Sad" },
+            { "id": "o2", "text": "Cry" },
+            { "id": "o3", "text": "Bad face" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U27_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me divierte'?",
+          "options": [
+            { "id": "o1", "text": "Haha / Funny" },
+            { "id": "o2", "text": "Laugh" },
+            { "id": "o3", "text": "Happy face" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

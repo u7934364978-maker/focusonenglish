@@ -319,3 +319,20 @@ html {
 .pulse-glow-coral {
   animation: pulse-glow-coral 2s ease-in-out infinite;
 }
+
+/* Utilities for 3D Flashcards */
+.perspective-1000 {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+

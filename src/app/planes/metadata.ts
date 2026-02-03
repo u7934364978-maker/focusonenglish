@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Planes y Precios - Focus English | Suscripción Mensual desde €6.99',
+  title: 'Planes y Precios | Suscripción desde €6.99',
   description: 'Elige entre nuestros planes de suscripción mensual: Plan con Publicidad por €6.99/mes o Plan Premium sin anuncios por €14.99/mes. Acceso ilimitado a todos los cursos de inglés. Sin permanencia, cancela cuando quieras.',
   keywords: [
     'planes focus english',

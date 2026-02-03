@@ -24,7 +24,7 @@ export function CTASection() {
           </Link>
           
           <Link 
-            href="/cursos"
+            href="/planes"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl border-2 border-white text-white font-black text-lg hover:bg-white hover:text-coral-600 transition-all"
           >
             Explorar Cursos

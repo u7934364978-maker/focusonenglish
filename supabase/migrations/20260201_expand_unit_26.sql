@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC DIRECTIONS (Ex 2-11)
+-- BASIC DIRECTIONS 
 ('a1-m3-l26-ex2', 'a1-m3-l26', 1, 'multipleChoice', 'Go straight', '{
     "prompt": "___ ahead for two blocks.",
     "options": ["Go straight", "Turn", "Left"],
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l26-ex6', 'a1-m3-l26', 5, 'fillBlanks', 'Direction ID 1', '{
-    "text": "Go ___ (recto) and then turn right.",
+    "text": "Go ___ and then turn right.",
     "answers": ["straight", "ahead"]
 }'),
 ('a1-m3-l26-ex7', 'a1-m3-l26', 6, 'drag-drop', 'Simple direction sentence', '{
@@ -53,7 +53,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l26-ex10', 'a1-m3-l26', 9, 'fillBlanks', 'Direction ID 2', '{
-    "text": "___ (cruza) the road at the park.",
+    "text": "___ the road at the park.",
     "answers": ["Cross"]
 }'),
 ('a1-m3-l26-ex11', 'a1-m3-l26', 10, 'multipleChoice', 'Next to', '{
@@ -62,7 +62,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- ASKING FOR DIRECTIONS (Ex 12-21)
+-- ASKING FOR DIRECTIONS 
 ('a1-m3-l26-ex12', 'a1-m3-l26', 11, 'multipleChoice', 'Excuse me', '{
     "prompt": "___, where is the station?",
     "options": ["Excuse me", "Sorry", "Please"],
@@ -120,18 +120,18 @@ VALUES
     ]
 }'),
 
--- TOWN LANDMARKS & DIRECTIONS (Ex 22-31)
+-- TOWN LANDMARKS & DIRECTIONS 
 ('a1-m3-l26-ex22', 'a1-m3-l26', 21, 'multipleChoice', 'Roundabout', '{
     "prompt": "At the ___, take the second exit.",
     "options": ["roundabout", "corner", "stop"],
     "answerIndex": 0
 }'),
 ('a1-m3-l26-ex23', 'a1-m3-l26', 22, 'fillBlanks', 'Corner', '{
-    "text": "The shop is on the ___ (esquina).",
+    "text": "The shop is on the ___.",
     "answers": ["corner"]
 }'),
 ('a1-m3-l26-ex24', 'a1-m3-l26', 23, 'multipleChoice', 'Bridge', '{
-    "prompt": "Go over the ___ (puente).",
+    "prompt": "Go over the ___.",
     "options": ["bridge", "road", "wall"],
     "answerIndex": 0
 }'),
@@ -149,12 +149,12 @@ VALUES
     "translation": "Cruza el puente y gira a la derecha"
 }'),
 ('a1-m3-l26-ex27', 'a1-m3-l26', 26, 'multipleChoice', 'Blocks', '{
-    "prompt": "Go straight for two ___ (manzanas).",
+    "prompt": "Go straight for two ___.",
     "options": ["blocks", "squares", "houses"],
     "answerIndex": 0
 }'),
 ('a1-m3-l26-ex28', 'a1-m3-l26', 27, 'fillBlanks', 'Entrance check', '{
-    "text": "The entrance is ___ (detrás) the building.",
+    "text": "The entrance is ___ the building.",
     "answers": ["behind"]
 }'),
 ('a1-m3-l26-ex29', 'a1-m3-l26', 28, 'matching', 'Town features 2', '{
@@ -178,7 +178,7 @@ VALUES
     ]
 }'),
 
--- SEQUENCE WORDS (Ex 32-41)
+-- SEQUENCE WORDS 
 ('a1-m3-l26-ex32', 'a1-m3-l26', 31, 'multipleChoice', 'First', '{
     "prompt": "___, go straight.",
     "options": ["First", "Second", "Last"],
@@ -223,7 +223,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l26-ex40', 'a1-m3-l26', 39, 'multipleChoice', 'Opposite review', '{
-    "prompt": "The hotel is ___ (enfrente) the museum.",
+    "prompt": "The hotel is ___ the museum.",
     "options": ["opposite", "behind", "near"],
     "answerIndex": 0
 }'),
@@ -236,18 +236,18 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l26-ex42', 'a1-m3-l26', 41, 'multipleChoice', 'Review directions 1', '{
     "prompt": "How ___ I get to the airport?",
     "options": ["do", "can", "Both are correct"],
     "answerIndex": 2
 }'),
 ('a1-m3-l26-ex43', 'a1-m3-l26', 42, 'fillBlanks', 'Review directions 2', '{
-    "text": "Turn ___ (derecha) at the cinema.",
+    "text": "Turn ___ at the cinema.",
     "answers": ["right"]
 }'),
 ('a1-m3-l26-ex44', 'a1-m3-l26', 43, 'multipleChoice', 'Review directions 3', '{
-    "prompt": "Go ___ (pasado) the supermarket.",
+    "prompt": "Go ___ the supermarket.",
     "options": ["past", "by", "to"],
     "answerIndex": 0
 }'),

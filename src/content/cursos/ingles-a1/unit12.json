@@ -4,730 +4,1207 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U12",
-    "unit_title": "Repaso Final y Fluidez",
-    "total_duration_minutes": 120
+    "unit_title": "Getting Around (Transport)",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B12",
-      "title": "Repaso Final y Fluidez",
+      "block_id": "B1",
+      "title": "Means of Transport",
       "content": [
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I5",
-          "instructions": "Fill in the blanks with the correct word or phrase.",
-          "questions": [
-            {
-              "sentence": "I have a blue pen. ___ pen is on the table.",
-              "options": [
-                "This",
-                "That",
-                "These",
-                "Those"
-              ],
-              "correctAnswer": "The correct answer is 'This'. 'This' se usa para indicar un objeto cercano al hablante.",
-              "points": 1
-            },
-            {
-              "sentence": "Maria ___ a student. She goes to school.",
-              "options": [
-                "is",
-                "are",
-                "am",
-                "be"
-              ],
-              "correctAnswer": "The correct answer is 'is'. 'Is' se utiliza para la tercera persona del singular.",
-              "points": 1
-            },
-            {
-              "sentence": "Please, ___ your books now.",
-              "options": [
-                "close",
-                "closes",
-                "closing",
-                "closed"
-              ],
-              "correctAnswer": "The correct answer is 'close'. 'Close' es el imperativo que se usa para dar una orden.",
-              "points": 1
-            },
-            {
-              "sentence": "My friends and I like basketball. We play ___ every day.",
-              "options": [
-                "it",
-                "him",
-                "her",
-                "them"
-              ],
-              "correctAnswer": "The correct answer is 'it'. 'It' se usa para referirse a cosas o animales en singular.",
-              "points": 1
-            },
-            {
-              "sentence": "___ are my favorite shoes.",
-              "options": [
-                "These",
-                "This",
-                "That",
-                "Those"
-              ],
-              "correctAnswer": "The correct answer is 'These'. 'These' se usa para objetos plurales cercanos.",
-              "points": 1
-            },
-            {
-              "sentence": "He ___ like ice cream. He eats it every day.",
-              "options": [
-                "doesn't",
-                "isn't",
-                "aren't",
-                "don't"
-              ],
-              "correctAnswer": "The correct answer is 'doesn't'. 'Doesn't' se usa para la negación en tercera persona del singular.",
-              "points": 1
-            },
-            {
-              "sentence": "The dog is big. ___ color is brown.",
-              "options": [
-                "Its",
-                "His",
-                "Her",
-                "Their"
-              ],
-              "correctAnswer": "The correct answer is 'Its'. 'Its' se usa para cosas o animales para indicar posesión.",
-              "points": 1
-            },
-            {
-              "sentence": "___ is my friend Peter. He is very nice.",
-              "options": [
-                "This",
-                "These",
-                "Those",
-                "That"
-              ],
-              "correctAnswer": "The correct answer is 'This'. 'This' se usa para presentar a alguien cercano.",
-              "points": 1
-            }
+          "interaction_id": "U12_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autobús'?",
+          "options": [
+            { "id": "o1", "text": "Bus" },
+            { "id": "o2", "text": "Coach" },
+            { "id": "o3", "text": "Car" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I9",
-          "questions": [
-            {
-              "sentence": "Every morning, I ____ my teeth.",
-              "grammarPoint": "Present Simple",
-              "acceptableAnswers": [
-                "brush"
-              ],
-              "explanation": "Usamos el presente simple para acciones habituales. Aquí, 'brush' es el verbo correcto.",
-              "points": 1
-            },
-            {
-              "sentence": "He ____ to school every day.",
-              "grammarPoint": "Present Simple",
-              "acceptableAnswers": [
-                "goes"
-              ],
-              "explanation": "En tercera persona singular, en presente simple, agregamos 'es' al verbo. Por eso, usamos 'goes'.",
-              "points": 1
-            },
-            {
-              "sentence": "____ is a cat on the roof.",
-              "grammarPoint": "There is / There are",
-              "acceptableAnswers": [
-                "There"
-              ],
-              "explanation": "Usamos 'There is' para indicar que algo singular está presente.",
-              "points": 1
-            },
-            {
-              "sentence": "We ____ play soccer on Saturdays.",
-              "grammarPoint": "Frequency Adverbs",
-              "acceptableAnswers": [
-                "usually"
-              ],
-              "explanation": "'Usually' es un adverbio de frecuencia que usamos para decir que algo ocurre la mayoría de las veces.",
-              "points": 1
-            },
-            {
-              "sentence": "____ you speak English?",
-              "grammarPoint": "Can/can't para habilidades",
-              "acceptableAnswers": [
-                "Can"
-              ],
-              "explanation": "'Can' se usa para preguntar sobre habilidades o capacidades.",
-              "points": 1
-            },
-            {
-              "sentence": "____ your homework now!",
-              "grammarPoint": "Imperative",
-              "acceptableAnswers": [
-                "Do"
-              ],
-              "explanation": "Usamos el imperativo para dar instrucciones o órdenes. 'Do' es el verbo correcto aquí.",
-              "points": 1
-            },
-            {
-              "sentence": "She ____ a new red dress.",
-              "grammarPoint": "Present Simple",
-              "acceptableAnswers": [
-                "wears"
-              ],
-              "explanation": "En presente simple, para tercera persona singular, agregamos 's' al verbo.",
-              "points": 1
-            },
-            {
-              "sentence": "There ____ three apples on the table.",
-              "grammarPoint": "There is / There are",
-              "acceptableAnswers": [
-                "are"
-              ],
-              "explanation": "Usamos 'There are' para indicar que más de una cosa está presente.",
-              "points": 1
-            }
+          "interaction_id": "U12_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tren'?",
+          "options": [
+            { "id": "o1", "text": "Train" },
+            { "id": "o2", "text": "Tram" },
+            { "id": "o3", "text": "Metro" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I7",
-          "questions": [
-            {
-              "text": "1. ___ cat is black and white.",
-              "options": [
-                "My",
-                "Your",
-                "His",
-                "Her"
-              ],
-              "answer": "My",
-              "explanation": "Usamos 'my' para indicar que el gato es mío.",
-              "points": 1
-            },
-            {
-              "text": "2. ___ is a beautiful day today.",
-              "options": [
-                "It",
-                "He",
-                "She",
-                "They"
-              ],
-              "answer": "It",
-              "explanation": "Usamos 'it' para describir el clima o un día.",
-              "points": 1
-            },
-            {
-              "text": "3. We ___ in the park every Sunday.",
-              "options": [
-                "are",
-                "am",
-                "do",
-                "go"
-              ],
-              "answer": "go",
-              "explanation": "Usamos 'go' para describir una acción habitual en presente simple.",
-              "points": 1
-            },
-            {
-              "text": "4. Let's ___ to the beach!",
-              "options": [
-                "go",
-                "have",
-                "am",
-                "is"
-              ],
-              "answer": "go",
-              "explanation": "Usamos 'let's go' para hacer una sugerencia de ir a la playa.",
-              "points": 1
-            },
-            {
-              "text": "5. ___ you like ice cream?",
-              "options": [
-                "Do",
-                "Are",
-                "Is",
-                "Am"
-              ],
-              "answer": "Do",
-              "explanation": "Usamos 'do' para formar una pregunta en presente simple.",
-              "points": 1
-            },
-            {
-              "text": "6. He ___ a new bike.",
-              "options": [
-                "has",
-                "have",
-                "do",
-                "am"
-              ],
-              "answer": "has",
-              "explanation": "Usamos 'has' porque estamos hablando de la tercera persona en singular.",
-              "points": 1
-            },
-            {
-              "text": "7. We are at school ___ 9 o'clock.",
-              "options": [
-                "at",
-                "on",
-                "in",
-                "by"
-              ],
-              "answer": "at",
-              "explanation": "Usamos 'at' para indicar la hora específica.",
-              "points": 1
-            },
-            {
-              "text": "8. ___ is your sister's name?",
-              "options": [
-                "What",
-                "Who",
-                "Where",
-                "When"
-              ],
-              "answer": "What",
-              "explanation": "Usamos 'what' para preguntar sobre el nombre de alguien.",
-              "points": 1
-            }
+          "interaction_id": "U12_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'coche'?",
+          "options": [
+            { "id": "o1", "text": "Car" },
+            { "id": "o2", "text": "Van" },
+            { "id": "o3", "text": "Bike" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I4",
-          "title": "Basic Grammar and Vocabulary Review",
-          "instructions": "Choose the correct option for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the apple?",
-              "options": [
-                "A. Red",
-                "B. Big",
-                "C. Slow",
-                "D. Fast"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La manzana generalmente es roja. 'Red' es un color, los otros son adjetivos no relacionados con colores."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the book?",
-              "options": [
-                "A. On the table",
-                "B. Quickly",
-                "C. Ten",
-                "D. Happy"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La preposición 'on' indica la ubicación. 'On the table' es la respuesta correcta porque describe dónde está el libro."
-            },
-            {
-              "id": "q3",
-              "question": "When do you go to school?",
-              "options": [
-                "A. In the morning",
-                "B. Under the bed",
-                "C. Happy",
-                "D. Slowly"
-              ],
-              "correctAnswer": "A",
-              "explanation": "Las opciones son frases de tiempo, lugar o adjetivos. 'In the morning' es una frase de tiempo que responde a 'When'."
-            },
-            {
-              "id": "q4",
-              "question": "There is a dog in the garden. What color is it?",
-              "options": [
-                "A. Brown",
-                "B. Quickly",
-                "C. Under",
-                "D. School"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La pregunta pregunta sobre el color del perro. 'Brown' es un color, mientras que las otras opciones no son colores."
-            }
+          "interaction_id": "U12_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bicicleta'?",
+          "options": [
+            { "id": "o1", "text": "Bicycle / Bike" },
+            { "id": "o2", "text": "Motorbike" },
+            { "id": "o3", "text": "Scooter" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I6",
-          "questions": [
-            {
-              "sentence": "Maria ____ (read) a book now.",
-              "correctAnswer": "is reading",
-              "explanation": "Usamos el presente continuo 'is reading' para describir una acción que está sucediendo en este momento.",
-              "points": 1
-            },
-            {
-              "sentence": "Tom ____ (eat) pizza every Friday.",
-              "correctAnswer": "eats",
-              "explanation": "Usamos el presente simple 'eats' con 'he' para acciones que suceden regularmente.",
-              "points": 1
-            },
-            {
-              "sentence": "You ____ (play) the guitar. It's wonderful!",
-              "correctAnswer": "are playing",
-              "explanation": "Usamos el presente continuo 'are playing' para una acción en progreso ahora.",
-              "points": 1
-            },
-            {
-              "sentence": "Lisa ____ (like) ice cream a lot.",
-              "correctAnswer": "likes",
-              "explanation": "Usamos el presente simple 'likes' con 'she' para expresar gustos.",
-              "points": 1
-            },
-            {
-              "sentence": "We ____ (have) a dog. His name is Max.",
-              "correctAnswer": "have",
-              "explanation": "Empleamos 'have' en presente simple para indicar posesión.",
-              "points": 1
-            },
-            {
-              "sentence": "____ (this) is my new bag.",
-              "correctAnswer": "This",
-              "explanation": "Usamos 'this' para indicar algo que está cerca de la persona que habla.",
-              "points": 1
-            },
-            {
-              "sentence": "He ____ (can) swim very fast.",
-              "correctAnswer": "can",
-              "explanation": "Usamos 'can' para hablar de habilidades que alguien posee.",
-              "points": 1
-            },
-            {
-              "sentence": "My sisters ____ (watch) TV sometimes.",
-              "correctAnswer": "watch",
-              "explanation": "Usamos 'watch' en presente simple y 'sometimes' para indicar una acción que ocurre con cierta frecuencia.",
-              "points": 1
-            }
+          "interaction_id": "U12_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'avión'?",
+          "options": [
+            { "id": "o1", "text": "Plane / Airplane" },
+            { "id": "o2", "text": "Helicopter" },
+            { "id": "o3", "text": "Airport" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I3",
-          "title": "Basic Grammar Practice",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the sky on a clear day?",
-              "options": [
-                "Blue",
-                "Red",
-                "Green",
-                "Yellow"
-              ],
-              "correctAnswer": "Blue",
-              "explanation": "La palabra 'Blue' es correcta porque 'el cielo es azul' en un día despejado."
-            },
-            {
-              "id": "q2",
-              "question": "Where is your book? I cannot see ____.",
-              "options": [
-                "it",
-                "him",
-                "her",
-                "them"
-              ],
-              "correctAnswer": "it",
-              "explanation": "Usamos 'it' para referirnos a objetos. Aquí, 'book' es un objeto, así que usamos 'it'."
-            },
-            {
-              "id": "q3",
-              "question": "Maria ____ to school every day.",
-              "options": [
-                "go",
-                "goes",
-                "going",
-                "gone"
-              ],
-              "correctAnswer": "goes",
-              "explanation": "La forma correcta del verbo en tercera persona singular 'Maria' es 'goes'."
-            },
-            {
-              "id": "q4",
-              "question": "I always ____ coffee in the morning.",
-              "options": [
-                "drink",
-                "drinks",
-                "drinking",
-                "drank"
-              ],
-              "correctAnswer": "drink",
-              "explanation": "En presente simple con 'I', usamos 'drink' para hablar de hábitos diarios."
-            }
+          "interaction_id": "U12_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'barco'?",
+          "options": [
+            { "id": "o1", "text": "Boat" },
+            { "id": "o2", "text": "Ship" },
+            { "id": "o3", "text": "Canoe" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I8",
-          "questions": [
-            {
-              "sentence": "I ___ a student at this school.",
-              "options": [
-                "am",
-                "is",
-                "are"
-              ],
-              "answers": [
-                "am"
-              ],
-              "explanation": "Usamos 'am' con el pronombre 'I' en inglés.",
-              "points": 1
-            },
-            {
-              "sentence": "He ___ very tall.",
-              "options": [
-                "am",
-                "is",
-                "are"
-              ],
-              "answers": [
-                "is"
-              ],
-              "explanation": "Usamos 'is' con el pronombre 'he'.",
-              "points": 1
-            },
-            {
-              "sentence": "We ___ happy today.",
-              "options": [
-                "am",
-                "is",
-                "are"
-              ],
-              "answers": [
-                "are"
-              ],
-              "explanation": "Usamos 'are' con el pronombre 'we'.",
-              "points": 1
-            },
-            {
-              "sentence": "This is my brother. ___ name is Tom.",
-              "options": [
-                "His",
-                "Her",
-                "My"
-              ],
-              "answers": [
-                "His"
-              ],
-              "explanation": "Usamos 'His' para indicar posesión con la palabra 'brother'.",
-              "points": 1
-            },
-            {
-              "sentence": "___ are my friends.",
-              "options": [
-                "They",
-                "Them",
-                "He"
-              ],
-              "answers": [
-                "They"
-              ],
-              "explanation": "Usamos 'They' para referirnos a un grupo de personas.",
-              "points": 1
-            },
-            {
-              "sentence": "I have a dog. ___ is small.",
-              "options": [
-                "It",
-                "He",
-                "They"
-              ],
-              "answers": [
-                "It"
-              ],
-              "explanation": "Usamos 'It' para referirnos a animales o cosas.",
-              "points": 1
-            },
-            {
-              "sentence": "Anna ___ a new book.",
-              "options": [
-                "have",
-                "has",
-                "having"
-              ],
-              "answers": [
-                "has"
-              ],
-              "explanation": "Usamos 'has' con 'Anna' para hablar de posesión.",
-              "points": 1
-            },
-            {
-              "sentence": "You ___ in the park every day.",
-              "options": [
-                "walk",
-                "walks",
-                "walking"
-              ],
-              "answers": [
-                "walk"
-              ],
-              "explanation": "Usamos el verbo base 'walk' con 'you' en presente simple.",
-              "points": 1
-            }
+          "interaction_id": "U12_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'metro'?",
+          "options": [
+            { "id": "o1", "text": "Underground (UK) / Subway (US) / Metro" },
+            { "id": "o2", "text": "Train" },
+            { "id": "o3", "text": "Overground" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I2",
-          "title": "Basic English Grammar Exercise",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the sun?",
-              "options": [
-                "A. Blue",
-                "B. Yellow",
-                "C. Red",
-                "D. Green"
-              ],
-              "correctAnswer": "B",
-              "explanation": "El sol generalmente se describe como amarillo debido a su apariencia durante el día."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the cat?",
-              "options": [
-                "A. On the table",
-                "B. In the car",
-                "C. Under the bed",
-                "D. Next to the park"
-              ],
-              "correctAnswer": "C",
-              "explanation": "La pregunta 'Where is the cat?' requiere una ubicación y 'Under the bed' es una respuesta válida."
-            },
-            {
-              "id": "q3",
-              "question": "Who is your teacher?",
-              "options": [
-                "A. My book",
-                "B. My friend",
-                "C. My school",
-                "D. My pencil"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La palabra 'Who' pregunta por una persona. 'My friend' es una respuesta correcta porque se refiere a una persona."
-            },
-            {
-              "id": "q4",
-              "question": "How often do you eat apples?",
-              "options": [
-                "A. Always",
-                "B. Yesterday",
-                "C. Because",
-                "D. Quickly"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La pregunta está sobre la frecuencia. 'Always' es un adverbio de frecuencia, lo que lo hace correcto."
-            }
+          "interaction_id": "U12_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'moto'?",
+          "options": [
+            { "id": "o1", "text": "Motorbike / Motorcycle" },
+            { "id": "o2", "text": "Bike" },
+            { "id": "o3", "text": "Moped" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I1",
-          "title": "A1 Level Grammar Practice",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the apple?",
-              "options": [
-                "A. Red",
-                "B. Cats",
-                "C. School",
-                "D. Laptop"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La pregunta es sobre el color de una manzana, que es roja. Las otras opciones no son colores."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the book?",
-              "options": [
-                "A. He",
-                "B. On the table",
-                "C. Running",
-                "D. Blue"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La pregunta usa 'Where', que se refiere a un lugar. 'En la mesa' es el lugar correcto para el libro."
-            },
-            {
-              "id": "q3",
-              "question": "Who is your teacher?",
-              "options": [
-                "A. In the car",
-                "B. Sarah",
-                "C. Quickly",
-                "D. Book"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La pregunta usa 'Who', que se refiere a una persona. 'Sarah' es el nombre de una persona."
-            },
-            {
-              "id": "q4",
-              "question": "When do you go to school?",
-              "options": [
-                "A. Blue",
-                "B. At 8 o'clock",
-                "C. Under the bed",
-                "D. Cookies"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La pregunta usa 'When', que se refiere a un tiempo. 'A las 8 en punto' es un tiempo."
-            }
+          "interaction_id": "U12_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'taxi'?",
+          "options": [
+            { "id": "o1", "text": "Taxi / Cab" },
+            { "id": "o2", "text": "Car" },
+            { "id": "o3", "text": "Uber" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U12_Ta1-u12-review-all_I0",
-          "questions": [
-            {
-              "sentence": "_____ is your favorite color?",
-              "gap": "What",
-              "explanation": "Utilizamos 'What' para preguntar sobre cosas. En este caso, estamos preguntando cuál es su color favorito.",
-              "points": 1
-            },
-            {
-              "sentence": "I _____ go to school on Sundays.",
-              "gap": "never",
-              "explanation": "Usamos 'never' para indicar que algo no sucede en absoluto. Aquí estamos diciendo que no va a la escuela los domingos.",
-              "points": 1
-            },
-            {
-              "sentence": "Tom has two cats. He loves _____ very much.",
-              "gap": "them",
-              "explanation": "Utilizamos 'them' como pronombre objeto para referirnos a más de una cosa o persona. Aquí, 'them' se refiere a los dos gatos.",
-              "points": 1
-            },
-            {
-              "sentence": "Please _____ the door.",
-              "gap": "open",
-              "explanation": "Usamos la forma imperativa del verbo cuando damos instrucciones o órdenes. Aquí pedimos que se abra la puerta.",
-              "points": 1
-            },
-            {
-              "sentence": "How often do you _____ pizza?",
-              "gap": "eat",
-              "explanation": "Utilizamos el verbo 'eat' en presente simple para hablar de acciones habituales. La pregunta se refiere a la frecuencia con la que se come pizza.",
-              "points": 1
-            },
-            {
-              "sentence": "My brother _____ reading books.",
-              "gap": "likes",
-              "explanation": "Usamos 'likes' con la tercera persona del singular en presente simple para expresar preferencias. Aquí, 'likes' indica que a mi hermano le gusta leer libros.",
-              "points": 1
-            },
-            {
-              "sentence": "_____ does your father work?",
-              "gap": "Where",
-              "explanation": "Utilizamos 'Where' para preguntar sobre el lugar o la ubicación de algo. Aquí estamos preguntando dónde trabaja el padre.",
-              "points": 1
-            },
-            {
-              "sentence": "We _____ have breakfast at 7 o'clock.",
-              "gap": "usually",
-              "explanation": "Usamos 'usually' para expresar acciones que ocurren con frecuencia. Indica que normalmente desayunamos a las 7 en punto.",
-              "points": 1
-            }
+          "interaction_id": "U12_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tranvía'?",
+          "options": [
+            { "id": "o1", "text": "Tram" },
+            { "id": "o2", "text": "Train" },
+            { "id": "o3", "text": "Bus" }
           ],
-          "mastery_tag": "exam-practice"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camión'?",
+          "options": [
+            { "id": "o1", "text": "Lorry (UK) / Truck (US)" },
+            { "id": "o2", "text": "Van" },
+            { "id": "o3", "text": "Pickup" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'furgoneta'?",
+          "options": [
+            { "id": "o1", "text": "Van" },
+            { "id": "o2", "text": "Truck" },
+            { "id": "o3", "text": "Car" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'helicóptero'?",
+          "options": [
+            { "id": "o1", "text": "Helicopter" },
+            { "id": "o2", "text": "Plane" },
+            { "id": "o3", "text": "Drone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ferry'?",
+          "options": [
+            { "id": "o1", "text": "Ferry" },
+            { "id": "o2", "text": "Ship" },
+            { "id": "o3", "text": "Boat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'patinete'?",
+          "options": [
+            { "id": "o1", "text": "Scooter" },
+            { "id": "o2", "text": "Skateboard" },
+            { "id": "o3", "text": "Rollerblades" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I16",
+          "type": "matching",
+          "prompt_es": "Une los transportes:",
+          "pairs": [
+            { "id": "p1", "left": "Helicopter", "right": "Helicóptero" },
+            { "id": "p2", "left": "Van", "right": "Furgoneta" },
+            { "id": "p3", "left": "Truck", "right": "Camión" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I17",
+          "type": "matching",
+          "prompt_es": "Une los transportes por aire, tierra y mar:",
+          "pairs": [
+            { "id": "p1", "left": "Plane", "right": "Air" },
+            { "id": "p2", "left": "Car", "right": "Land" },
+            { "id": "p3", "left": "Ship", "right": "Sea" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I go to work by ___ (autobús).'",
+          "stimulus_en": "___",
+          "correct_answer": "bus",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She travels by ___ (avión) to New York.'",
+          "stimulus_en": "___",
+          "correct_answer": "plane",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We take the ___ (tren) at 8:00 AM.'",
+          "stimulus_en": "___",
+          "correct_answer": "train",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje'?",
+          "options": [
+            { "id": "o1", "text": "Trip / Journey" },
+            { "id": "o2", "text": "Travel" },
+            { "id": "o3", "text": "Way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viajar'?",
+          "options": [
+            { "id": "o1", "text": "To travel" },
+            { "id": "o2", "text": "To trip" },
+            { "id": "o3", "text": "To journey" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasajero'?",
+          "options": [
+            { "id": "o1", "text": "Passenger" },
+            { "id": "o2", "text": "Traveler" },
+            { "id": "o3", "text": "Client" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'conductor'?",
+          "options": [
+            { "id": "o1", "text": "Driver" },
+            { "id": "o2", "text": "Pilot" },
+            { "id": "o3", "text": "Captain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piloto'?",
+          "options": [
+            { "id": "o1", "text": "Pilot" },
+            { "id": "o2", "text": "Driver" },
+            { "id": "o3", "text": "Airman" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Verbs and Prepositions",
+      "content": [
+        {
+          "interaction_id": "U12_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué preposición usamos para decir 'en coche'? (Excepto si estamos dentro)",
+          "options": [
+            { "id": "o1", "text": "By" },
+            { "id": "o2", "text": "In" },
+            { "id": "o3", "text": "On" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'a pie'? (Andando)",
+          "options": [
+            { "id": "o1", "text": "On foot" },
+            { "id": "o2", "text": "By foot" },
+            { "id": "o3", "text": "Walking" },
+            { "id": "o4", "text": "A and C are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'subir al autobús'?",
+          "options": [
+            { "id": "o1", "text": "Get on the bus" },
+            { "id": "o2", "text": "Get in the bus" },
+            { "id": "o3", "text": "Up the bus" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bajar del autobús'?",
+          "options": [
+            { "id": "o1", "text": "Get off the bus" },
+            { "id": "o2", "text": "Get out the bus" },
+            { "id": "o3", "text": "Down the bus" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrar en el coche'?",
+          "options": [
+            { "id": "o1", "text": "Get in the car" },
+            { "id": "o2", "text": "Get on the car" },
+            { "id": "o3", "text": "Enter the car" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salir del coche'?",
+          "options": [
+            { "id": "o1", "text": "Get out of the car" },
+            { "id": "o2", "text": "Get off the car" },
+            { "id": "o3", "text": "Exit the car" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos para una bicicleta?",
+          "options": [
+            { "id": "o1", "text": "Ride" },
+            { "id": "o2", "text": "Drive" },
+            { "id": "o3", "text": "Fly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos para un coche?",
+          "options": [
+            { "id": "o1", "text": "Drive" },
+            { "id": "o2", "text": "Ride" },
+            { "id": "o3", "text": "Sail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos para un avión?",
+          "options": [
+            { "id": "o1", "text": "Fly" },
+            { "id": "o2", "text": "Drive" },
+            { "id": "o3", "text": "Ride" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos para un barco?",
+          "options": [
+            { "id": "o1", "text": "Sail" },
+            { "id": "o2", "text": "Fly" },
+            { "id": "o3", "text": "Drive" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (monto) my bike to school.'",
+          "stimulus_en": "___",
+          "correct_answer": "ride",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (conduce) a red car.'",
+          "stimulus_en": "___",
+          "correct_answer": "drives",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We go to the park ___ (a) foot.'",
+          "stimulus_en": "on",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I39",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'yo voy al trabajo en tren'",
+          "options": [
+            { "id": "w1", "text": "go" },
+            { "id": "w2", "text": "to" },
+            { "id": "w3", "text": "work" },
+            { "id": "w4", "text": "I" },
+            { "id": "w5", "text": "train" },
+            { "id": "w6", "text": "by" }
+          ],
+          "correct_answer": ["w4", "w1", "w2", "w3", "w6", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'él sube al autobús'",
+          "options": [
+            { "id": "w1", "text": "gets" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "He" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "bus" }
+          ],
+          "correct_answer": ["w3", "w1", "w4", "w2", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llegar a'?",
+          "options": [
+            { "id": "o1", "text": "To arrive at / in" },
+            { "id": "o2", "text": "To reach" },
+            { "id": "o3", "text": "To get to" },
+            { "id": "o4", "text": "All of the above" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salir / partir'?",
+          "options": [
+            { "id": "o1", "text": "To leave / To depart" },
+            { "id": "o2", "text": "To out" },
+            { "id": "o3", "text": "To go away" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder el tren'?",
+          "options": [
+            { "id": "o1", "text": "To miss the train" },
+            { "id": "o2", "text": "To lose the train" },
+            { "id": "o3", "text": "To fail the train" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'coger el tren'?",
+          "options": [
+            { "id": "o1", "text": "To catch the train" },
+            { "id": "o2", "text": "To take the train" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'parada de autobús'?",
+          "options": [
+            { "id": "o1", "text": "Bus stop" },
+            { "id": "o2", "text": "Bus station" },
+            { "id": "o3", "text": "Bus park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'andén'?",
+          "options": [
+            { "id": "o1", "text": "Platform" },
+            { "id": "o2", "text": "Track" },
+            { "id": "o3", "text": "Station" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'billete / boleto'?",
+          "options": [
+            { "id": "o1", "text": "Ticket" },
+            { "id": "o2", "text": "Note" },
+            { "id": "o3", "text": "Pass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'billete de ida'?",
+          "options": [
+            { "id": "o1", "text": "Single ticket / One-way ticket" },
+            { "id": "o2", "text": "Only way ticket" },
+            { "id": "o3", "text": "Go ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'billete de ida y vuelta'?",
+          "options": [
+            { "id": "o1", "text": "Return ticket / Round-trip ticket" },
+            { "id": "o2", "text": "Go and back ticket" },
+            { "id": "o3", "text": "Double ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'horario'?",
+          "options": [
+            { "id": "o1", "text": "Timetable / Schedule" },
+            { "id": "o2", "text": "Hour table" },
+            { "id": "o3", "text": "Time list" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Practical Communication",
+      "content": [
+        {
+          "interaction_id": "U12_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué hora sale el tren?'?",
+          "options": [
+            { "id": "o1", "text": "What time does the train leave?" },
+            { "id": "o2", "text": "When the train goes?" },
+            { "id": "o3", "text": "What hour leaves the train?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto cuesta un billete a Londres?'?",
+          "options": [
+            { "id": "o1", "text": "How much is a ticket to London?" },
+            { "id": "o2", "text": "How many price a ticket?" },
+            { "id": "o3", "text": "Price to London ticket?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Un billete de ida a Manchester, por favor'?",
+          "options": [
+            { "id": "o1", "text": "A single ticket to Manchester, please." },
+            { "id": "o2", "text": "One way Manchester please." },
+            { "id": "o3", "text": "Go Manchester ticket please." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'The train is delayed'?",
+          "options": [
+            { "id": "o1", "text": "El tren está retrasado" },
+            { "id": "o2", "text": "El tren está cancelado" },
+            { "id": "o3", "text": "El tren es puntual" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'The flight is cancelled'?",
+          "options": [
+            { "id": "o1", "text": "El vuelo está cancelado" },
+            { "id": "o2", "text": "El vuelo tiene retraso" },
+            { "id": "o3", "text": "El vuelo ha llegado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Es este el autobús para el centro?'?",
+          "options": [
+            { "id": "o1", "text": "Is this the bus for the city center?" },
+            { "id": "o2", "text": "This is bus center?" },
+            { "id": "o3", "text": "Bus for center here?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Dónde está la parada de taxis?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the taxi rank / stand?" },
+            { "id": "o2", "text": "Where is the taxi stop?" },
+            { "id": "o3", "text": "Taxi place where?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U12_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gasolina'?",
+          "options": [
+            { "id": "o1", "text": "Petrol (UK) / Gas (US)" },
+            { "id": "o2", "text": "Fuel" },
+            { "id": "o3", "text": "Oil" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'carretera'?",
+          "options": [
+            { "id": "o1", "text": "Road" },
+            { "id": "o2", "text": "Way" },
+            { "id": "o3", "text": "Street" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autopista'?",
+          "options": [
+            { "id": "o1", "text": "Motorway (UK) / Highway (US)" },
+            { "id": "o2", "text": "Fast road" },
+            { "id": "o3", "text": "Big street" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bicicleta de montaña'?",
+          "options": [
+            { "id": "o1", "text": "Mountain bike" },
+            { "id": "o2", "text": "Hill bike" },
+            { "id": "o3", "text": "Sport bike" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'crucero'?",
+          "options": [
+            { "id": "o1", "text": "Cruise" },
+            { "id": "o2", "text": "Big boat" },
+            { "id": "o3", "text": "Holiday ship" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vuelo'?",
+          "options": [
+            { "id": "o1", "text": "Flight" },
+            { "id": "o2", "text": "Fly" },
+            { "id": "o3", "text": "Plane trip" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puerto'?",
+          "options": [
+            { "id": "o1", "text": "Port / Harbour" },
+            { "id": "o2", "text": "Ship station" },
+            { "id": "o3", "text": "Dock" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casco'?",
+          "options": [
+            { "id": "o1", "text": "Helmet" },
+            { "id": "o2", "text": "Head protector" },
+            { "id": "o3", "text": "Hat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinturón de seguridad'?",
+          "options": [
+            { "id": "o1", "text": "Seat belt" },
+            { "id": "o2", "text": "Safety belt" },
+            { "id": "o3", "text": "Car belt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'permiso de conducir'?",
+          "options": [
+            { "id": "o1", "text": "Driving licence (UK) / Driver's license (US)" },
+            { "id": "o2", "text": "Driving card" },
+            { "id": "o3", "text": "Car permission" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tráfico'?",
+          "options": [
+            { "id": "o1", "text": "Traffic" },
+            { "id": "o2", "text": "Cars" },
+            { "id": "o3", "text": "Crowd" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'atasco'?",
+          "options": [
+            { "id": "o1", "text": "Traffic jam" },
+            { "id": "o2", "text": "Car stop" },
+            { "id": "o3", "text": "Road block" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rápido'?",
+          "options": [
+            { "id": "o1", "text": "Fast / Quick" },
+            { "id": "o2", "text": "Slow" },
+            { "id": "o3", "text": "Busy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lento'?",
+          "options": [
+            { "id": "o1", "text": "Slow" },
+            { "id": "o2", "text": "Fast" },
+            { "id": "o3", "text": "Easy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'barato'?",
+          "options": [
+            { "id": "o1", "text": "Cheap" },
+            { "id": "o2", "text": "Expensive" },
+            { "id": "o3", "text": "Good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caro'?",
+          "options": [
+            { "id": "o1", "text": "Expensive" },
+            { "id": "o2", "text": "Cheap" },
+            { "id": "o3", "text": "High" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ticket is very ___ (caro), it costs £100.'",
+          "stimulus_en": "___",
+          "correct_answer": "expensive",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I75",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Taking the bus is ___ (barato).'",
+          "stimulus_en": "___",
+          "correct_answer": "cheap",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U12_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra medios de transporte:",
+          "words": ["PLANE", "TRAIN", "BUS", "CAR", "BOAT", "BIKE", "TAXI", "SHIP", "VAN", "TRAM"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "PLANE", "clue": "Avión" },
+            { "word": "TRAIN", "clue": "Tren" },
+            { "word": "BUS", "clue": "Autobús" },
+            { "word": "CAR", "clue": "Coche" },
+            { "word": "BOAT", "clue": "Barco" },
+            { "word": "BIKE", "clue": "Bici" },
+            { "word": "TAXI", "clue": "Taxi" },
+            { "word": "SHIP", "clue": "Barco grande" },
+            { "word": "VAN", "clue": "Furgoneta" },
+            { "word": "TRAM", "clue": "Tranvía" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de transporte:",
+          "items": [
+            { "word": "DRIVE", "clue": "What you do with a car", "direction": "across", "row": 0, "col": 0 },
+            { "word": "RIDE", "clue": "What you do with a bike", "direction": "down", "row": 0, "col": 1 },
+            { "word": "FAST", "clue": "Opposite of slow", "direction": "across", "row": 2, "col": 0 },
+            { "word": "SHIP", "clue": "Large boat", "direction": "down", "row": 0, "col": 3 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I78",
+          "type": "matching",
+          "prompt_es": "Une las acciones:",
+          "pairs": [
+            { "id": "p1", "left": "Get on", "right": "Subir" },
+            { "id": "p2", "left": "Get off", "right": "Bajar" },
+            { "id": "p3", "left": "Arrive", "right": "Llegar" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I79",
+          "type": "true_false",
+          "prompt_es": "¿Usamos 'by foot' para decir 'andando'?",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Casi! Se dice 'on foot'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Miss the train' significa 'extrañar al tren'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa 'perder el tren'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en el centro'?",
+          "options": [
+            { "id": "o1", "text": "In the center" },
+            { "id": "o2", "text": "On the center" },
+            { "id": "o3", "text": "At the center" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U12_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'alrededor de la ciudad'?",
+          "options": [
+            { "id": "o1", "text": "Around the city" },
+            { "id": "o2", "text": "About the city" },
+            { "id": "o3", "text": "Near the city" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cambiar de tren'?",
+          "options": [
+            { "id": "o1", "text": "To change trains" },
+            { "id": "o2", "text": "To move trains" },
+            { "id": "o3", "text": "To switch trains" },
+            { "id": "o4", "text": "All except B" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puerta de embarque'?",
+          "options": [
+            { "id": "o1", "text": "Gate" },
+            { "id": "o2", "text": "Door" },
+            { "id": "o3", "text": "Entrance" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'control de pasaportes'?",
+          "options": [
+            { "id": "o1", "text": "Passport control" },
+            { "id": "o2", "text": "Passport check" },
+            { "id": "o3", "text": "Border control" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipaje'?",
+          "options": [
+            { "id": "o1", "text": "Luggage / Baggage" },
+            { "id": "o2", "text": "Bags" },
+            { "id": "o3", "text": "Suitcases" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'maleta'?",
+          "options": [
+            { "id": "o1", "text": "Suitcase" },
+            { "id": "o2", "text": "Case" },
+            { "id": "o3", "text": "Bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mochila'?",
+          "options": [
+            { "id": "o1", "text": "Backpack / Rucksack" },
+            { "id": "o2", "text": "Bag" },
+            { "id": "o3", "text": "Shoulder bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aduana'?",
+          "options": [
+            { "id": "o1", "text": "Customs" },
+            { "id": "o2", "text": "Border" },
+            { "id": "o3", "text": "Tax office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguridad' (en el aeropuerto)?",
+          "options": [
+            { "id": "o1", "text": "Security" },
+            { "id": "o2", "text": "Safety" },
+            { "id": "o3", "text": "Control" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recogida de equipajes'?",
+          "options": [
+            { "id": "o1", "text": "Baggage reclaim" },
+            { "id": "o2", "text": "Luggage pick-up" },
+            { "id": "o3", "text": "Bag collect" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'facturar equipaje'?",
+          "options": [
+            { "id": "o1", "text": "To check in luggage" },
+            { "id": "o2", "text": "To bill luggage" },
+            { "id": "o3", "text": "To weigh luggage" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta de embarque'?",
+          "options": [
+            { "id": "o1", "text": "Boarding pass" },
+            { "id": "o2", "text": "Embarcation card" },
+            { "id": "o3", "text": "Plane ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'despegar'?",
+          "options": [
+            { "id": "o1", "text": "To take off" },
+            { "id": "o2", "text": "To fly up" },
+            { "id": "o3", "text": "To go up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aterrizar'?",
+          "options": [
+            { "id": "o1", "text": "To land" },
+            { "id": "o2", "text": "To ground" },
+            { "id": "o3", "text": "To arrive" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vuelo directo'?",
+          "options": [
+            { "id": "o1", "text": "Direct flight / Non-stop flight" },
+            { "id": "o2", "text": "Straight flight" },
+            { "id": "o3", "text": "Fast flight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escala'?",
+          "options": [
+            { "id": "o1", "text": "Stopover / Layover" },
+            { "id": "o2", "text": "Scale" },
+            { "id": "o3", "text": "Pause" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'primera clase'?",
+          "options": [
+            { "id": "o1", "text": "First class" },
+            { "id": "o2", "text": "Best class" },
+            { "id": "o3", "text": "Top class" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clase turista'?",
+          "options": [
+            { "id": "o1", "text": "Economy class / Coach" },
+            { "id": "o2", "text": "Tourist class" },
+            { "id": "o3", "text": "Normal class" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ventana o pasillo'?",
+          "options": [
+            { "id": "o1", "text": "Window or aisle" },
+            { "id": "o2", "text": "Window or hall" },
+            { "id": "o3", "text": "Outside or inside" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- GREETINGS & FAREWELLS (Ex 4-13)
+-- GREETINGS & FAREWELLS 
 ('a1-m1-l1-ex4', 'a1-m1-l1', 3, 'multipleChoice', 'Morning Greeting', '{
     "prompt": "You see a friend at 8:00 AM. What do you say?",
     "options": ["Good morning", "Good afternoon", "Good evening"],
@@ -21,8 +21,8 @@ VALUES
     "instructions": "Match the English greeting with its Spanish translation.",
     "pairs": [
         {"id": "1", "word": "Hi", "correctMatch": "Hola (informal)", "distractors": ["Adiós"]},
-        {"id": "2", "word": "Good evening", "correctMatch": "Buenas noches (llegada)", "distractors": ["Buenos días"]},
-        {"id": "3", "word": "Good night", "correctMatch": "Buenas noches (despedida)", "distractors": ["Buenas tardes"]}
+        {"id": "2", "word": "Good evening", "correctMatch": "Buenas noches ", "distractors": ["Buenos días"]},
+        {"id": "3", "word": "Good night", "correctMatch": "Buenas noches ", "distractors": ["Buenas tardes"]}
     ]
 }'),
 ('a1-m1-l1-ex7', 'a1-m1-l1', 6, 'flashcard', 'Common Salutations', '{
@@ -69,7 +69,7 @@ VALUES
     "explanation": "''Good night'' is used when leaving or going to sleep."
 }'),
 
--- INTRODUCING YOURSELF (Ex 14-23)
+-- INTRODUCING YOURSELF 
 ('a1-m1-l1-ex14', 'a1-m1-l1', 13, 'fillBlanks', 'Name Intro', '{
     "text": "My name ___ Sarah.",
     "answers": ["is"],
@@ -130,7 +130,7 @@ VALUES
     ]
 }'),
 
--- THE ALPHABET (Ex 24-33)
+-- THE ALPHABET 
 ('a1-m1-l1-ex24', 'a1-m1-l1', 23, 'multipleChoice', 'Alphabet Sound B', '{
     "prompt": "How do you pronounce the letter ''B''?",
     "options": ["/bi:/", "/bai/", "/be/"],
@@ -187,12 +187,12 @@ VALUES
     ]
 }'),
 ('a1-m1-l1-ex33', 'a1-m1-l1', 32, 'fillBlanks', 'Spelling name', '{
-    "text": "Can you ___ that, please? (A-L-E-X)",
+    "text": "Can you ___ that, please?",
     "answers": ["spell"],
     "instructions": "What verb do we use for letters?"
 }'),
 
--- BASICS & MISC (Ex 34-43)
+-- BASICS & MISC 
 ('a1-m1-l1-ex34', 'a1-m1-l1', 33, 'multipleChoice', 'Polite expression', '{
     "prompt": "You want some water. You say: ''Water, ___''.",
     "options": ["please", "thank you", "hello"],
@@ -253,7 +253,7 @@ VALUES
     "instructions": "Fill in the modal verb for permission."
 }'),
 
--- FINAL REVIEW UNIT 1 (Ex 44-53)
+-- FINAL REVIEW UNIT 1 
 ('a1-m1-l1-ex44', 'a1-m1-l1', 43, 'multipleChoice', 'Mixed Review 1', '{
     "prompt": "Hello! My ___ is Peter.",
     "options": ["name", "surname", "spell"],

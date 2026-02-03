@@ -1,0 +1,47 @@
+{
+  "course": {
+    "unit_id": "U57",
+    "unit_title": "Money",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify different currencies",
+    "Talk about paying (cash or card)"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Money and Paying",
+      "content": [
+        {
+          "interaction_id": "U57_I1",
+          "type": "matching",
+          "prompt_es": "Dinero y pago",
+          "pairs": [
+            { "id": "m1", "left": "Cash", "right": "Efectivo" },
+            { "id": "m2", "left": "Credit card", "right": "Tarjeta de crédito" },
+            { "id": "m3", "left": "Change", "right": "Cambio/Vuelta" },
+            { "id": "m4", "left": "Receipt", "right": "Recibo/Ticket" }
+          ],
+          "correct_answer": { "m1": "m1", "m2": "m2", "m3": "m3", "m4": "m4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo va a pagar?",
+          "stimulus_en": "Can I pay ______ card?",
+          "options": [
+            { "id": "o1", "text": "by" },
+            { "id": "o2", "text": "with" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    }
+  ]
+}

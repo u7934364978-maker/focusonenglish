@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const ogImage = article.image || "/blog/og-image.jpg";
 
   return {
-    title: `${seoTitle} | Blog Focus English`,
+    title: `${seoTitle} | Blog`,
     description: article.excerpt,
     keywords: article.keywords || [],
     authors: [{ name: article.author }],

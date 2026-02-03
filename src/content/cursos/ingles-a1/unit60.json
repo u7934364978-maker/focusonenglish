@@ -1,0 +1,60 @@
+{
+  "course": {
+    "unit_id": "U60",
+    "unit_title": "Course Review & Final Assessment",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Comprehensive review of A1 level English",
+    "Final course assessment"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Final Review",
+      "content": [
+        {
+          "interaction_id": "U60_I1",
+          "type": "multiple_choice",
+          "prompt_es": "Presente simple",
+          "stimulus_en": "She ______ in London.",
+          "options": [
+            { "id": "o1", "text": "lives" },
+            { "id": "o2", "text": "live" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U60_I2",
+          "type": "reorder_words",
+          "prompt_es": "Pregunta básica",
+          "stimulus_en": "Where are you from?",
+          "options": [
+            { "id": "w1", "text": "Where" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "from?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U60_I3",
+          "type": "matching",
+          "prompt_es": "Repaso general",
+          "pairs": [
+            { "id": "p1", "left": "Apple", "right": "Manzana" },
+            { "id": "p2", "left": "Brother", "right": "Hermano" },
+            { "id": "p3", "left": "Sunny", "right": "Soleado" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

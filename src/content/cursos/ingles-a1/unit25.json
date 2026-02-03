@@ -1,0 +1,1200 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U25",
+    "unit_title": "Entertainment & Media",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "At the Cinema & TV",
+      "content": [
+        {
+          "interaction_id": "U25_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'película'?",
+          "options": [
+            { "id": "o1", "text": "Movie / Film" },
+            { "id": "o2", "text": "Screen" },
+            { "id": "o3", "text": "Actor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cine'?",
+          "options": [
+            { "id": "o1", "text": "Cinema / Movie theater" },
+            { "id": "o2", "text": "Theater" },
+            { "id": "o3", "text": "Place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pantalla'?",
+          "options": [
+            { "id": "o1", "text": "Screen" },
+            { "id": "o2", "text": "Wall" },
+            { "id": "o3", "text": "Glass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'actor'?",
+          "options": [
+            { "id": "o1", "text": "Actor" },
+            { "id": "o2", "text": "Worker" },
+            { "id": "o3", "text": "Person" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'actriz'?",
+          "options": [
+            { "id": "o1", "text": "Actress" },
+            { "id": "o2", "text": "Actor" },
+            { "id": "o3", "text": "Star" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrada / boleto'?",
+          "options": [
+            { "id": "o1", "text": "Ticket" },
+            { "id": "o2", "text": "Card" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'palomitas'?",
+          "options": [
+            { "id": "o1", "text": "Popcorn" },
+            { "id": "o2", "text": "Chips" },
+            { "id": "o3", "text": "Candy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'asiento'?",
+          "options": [
+            { "id": "o1", "text": "Seat" },
+            { "id": "o2", "text": "Chair" },
+            { "id": "o3", "text": "Place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ver la tele'?",
+          "options": [
+            { "id": "o1", "text": "To watch TV" },
+            { "id": "o2", "text": "To look TV" },
+            { "id": "o3", "text": "To see TV" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'serie de televisión'?",
+          "options": [
+            { "id": "o1", "text": "TV series / TV show" },
+            { "id": "o2", "text": "Movie series" },
+            { "id": "o3", "text": "Daily program" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dibujos animados'?",
+          "options": [
+            { "id": "o1", "text": "Cartoons" },
+            { "id": "o2", "text": "Drawings" },
+            { "id": "o3", "text": "Kids movie" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'noticias'?",
+          "options": [
+            { "id": "o1", "text": "The news" },
+            { "id": "o2", "text": "The papers" },
+            { "id": "o3", "text": "The reports" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'documental'?",
+          "options": [
+            { "id": "o1", "text": "Documentary" },
+            { "id": "o2", "text": "History film" },
+            { "id": "o3", "text": "Information" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'canal'?",
+          "options": [
+            { "id": "o1", "text": "Channel" },
+            { "id": "o2", "text": "Station" },
+            { "id": "o3", "text": "Number" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mando a distancia'?",
+          "options": [
+            { "id": "o1", "text": "Remote control" },
+            { "id": "o2", "text": "Distance clicker" },
+            { "id": "o3", "text": "TV tool" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I16",
+          "type": "matching",
+          "prompt_es": "Une los géneros de películas:",
+          "pairs": [
+            { "id": "p1", "left": "Comedy", "right": "Comedia" },
+            { "id": "p2", "left": "Horror", "right": "Terror" },
+            { "id": "p3", "left": "Action", "right": "Acción" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I17",
+          "type": "matching",
+          "prompt_es": "Une los géneros de películas II:",
+          "pairs": [
+            { "id": "p1", "left": "Romance", "right": "Romántica" },
+            { "id": "p2", "left": "Sci-fi", "right": "Ciencia ficción" },
+            { "id": "p3", "left": "Musical", "right": "Musical" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want to ___ (ver) a movie tonight.'",
+          "stimulus_en": "___",
+          "correct_answer": "watch",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Let's buy two ___ (entradas) for the show.'",
+          "stimulus_en": "___",
+          "correct_answer": "tickets",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The ___ (pantalla) is very big.'",
+          "stimulus_en": "___",
+          "correct_answer": "screen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'famoso'?",
+          "options": [
+            { "id": "o1", "text": "Famous" },
+            { "id": "o2", "text": "Known" },
+            { "id": "o3", "text": "Public" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aburrido' (la cosa)?",
+          "options": [
+            { "id": "o1", "text": "Boring" },
+            { "id": "o2", "text": "Bored" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'emocionante'?",
+          "options": [
+            { "id": "o1", "text": "Exciting" },
+            { "id": "o2", "text": "Excited" },
+            { "id": "o3", "text": "Good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'divertido'?",
+          "options": [
+            { "id": "o1", "text": "Funny / Fun" },
+            { "id": "o2", "text": "Happy" },
+            { "id": "o3", "text": "Good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'miedo'?",
+          "options": [
+            { "id": "o1", "text": "Scary" },
+            { "id": "o2", "text": "Scared" },
+            { "id": "o3", "text": "Afraid" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Music & Concerts",
+      "content": [
+        {
+          "interaction_id": "U25_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escuchar música'?",
+          "options": [
+            { "id": "o1", "text": "To listen to music" },
+            { "id": "o2", "text": "To hear music" },
+            { "id": "o3", "text": "To sound music" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cantante'?",
+          "options": [
+            { "id": "o1", "text": "Singer" },
+            { "id": "o2", "text": "Songer" },
+            { "id": "o3", "text": "Music person" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'canción'?",
+          "options": [
+            { "id": "o1", "text": "Song" },
+            { "id": "o2", "text": "Sing" },
+            { "id": "o3", "text": "Music" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'banda / grupo'?",
+          "options": [
+            { "id": "o1", "text": "Band / Group" },
+            { "id": "o2", "text": "Team" },
+            { "id": "o3", "text": "Club" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'concierto'?",
+          "options": [
+            { "id": "o1", "text": "Concert" },
+            { "id": "o2", "text": "Gig" },
+            { "id": "o3", "text": "Show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'instrumento'?",
+          "options": [
+            { "id": "o1", "text": "Instrument" },
+            { "id": "o2", "text": "Tool" },
+            { "id": "o3", "text": "Music thing" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitarra'?",
+          "options": [
+            { "id": "o1", "text": "Guitar" },
+            { "id": "o2", "text": "Piano" },
+            { "id": "o3", "text": "Violin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano'?",
+          "options": [
+            { "id": "o1", "text": "Piano" },
+            { "id": "o2", "text": "Guitar" },
+            { "id": "o3", "text": "Drums" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'batería' (instrumento)?",
+          "options": [
+            { "id": "o1", "text": "Drums" },
+            { "id": "o2", "text": "Sticks" },
+            { "id": "o3", "text": "Beats" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'radio'?",
+          "options": [
+            { "id": "o1", "text": "Radio" },
+            { "id": "o2", "text": "Speaker" },
+            { "id": "o3", "text": "Player" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'altavoz'?",
+          "options": [
+            { "id": "o1", "text": "Speaker" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Sounder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'auriculares'?",
+          "options": [
+            { "id": "o1", "text": "Headphones / Earphones" },
+            { "id": "o2", "text": "Ears" },
+            { "id": "o3", "text": "Sound hats" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tocar un instrumento'?",
+          "options": [
+            { "id": "o1", "text": "To play an instrument" },
+            { "id": "o2", "text": "To touch an instrument" },
+            { "id": "o3", "text": "To act an instrument" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cantante de ópera'?",
+          "options": [
+            { "id": "o1", "text": "Opera singer" },
+            { "id": "o2", "text": "Classic singer" },
+            { "id": "o3", "text": "Stage singer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escenario'?",
+          "options": [
+            { "id": "o1", "text": "Stage" },
+            { "id": "o2", "text": "Floor" },
+            { "id": "o3", "text": "Front" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I41",
+          "type": "matching",
+          "prompt_es": "Une los géneros musicales:",
+          "pairs": [
+            { "id": "p1", "left": "Pop", "right": "Pop" },
+            { "id": "p2", "left": "Rock", "right": "Rock" },
+            { "id": "p3", "left": "Jazz", "right": "Jazz" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I42",
+          "type": "matching",
+          "prompt_es": "Une los géneros musicales II:",
+          "pairs": [
+            { "id": "p1", "left": "Classical", "right": "Clásica" },
+            { "id": "p2", "left": "Hip hop", "right": "Hip hop" },
+            { "id": "p3", "left": "Electronic", "right": "Electrónica" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (toca) the piano every day.'",
+          "stimulus_en": "___",
+          "correct_answer": "plays",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I love ___ (escuchar) to pop music.'",
+          "stimulus_en": "___",
+          "correct_answer": "listening",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He is a very famous ___ (cantante).'",
+          "stimulus_en": "___",
+          "correct_answer": "singer",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuerte / alto' (volumen)?",
+          "options": [
+            { "id": "o1", "text": "Loud" },
+            { "id": "o2", "text": "High" },
+            { "id": "o3", "text": "Big" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bajo / suave' (volumen)?",
+          "options": [
+            { "id": "o1", "text": "Quiet / Low" },
+            { "id": "o2", "text": "Soft" },
+            { "id": "o3", "text": "Small" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'subir el volumen'?",
+          "options": [
+            { "id": "o1", "text": "Turn up the volume" },
+            { "id": "o2", "text": "Put up the sound" },
+            { "id": "o3", "text": "Increase music" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bajar el volumen'?",
+          "options": [
+            { "id": "o1", "text": "Turn down the volume" },
+            { "id": "o2", "text": "Put down the sound" },
+            { "id": "o3", "text": "Less music" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entradas agotadas'?",
+          "options": [
+            { "id": "o1", "text": "Sold out" },
+            { "id": "o2", "text": "No tickets" },
+            { "id": "o3", "text": "Empty tickets" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Digital Media & Internet",
+      "content": [
+        {
+          "interaction_id": "U25_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'redes sociales'?",
+          "options": [
+            { "id": "o1", "text": "Social media" },
+            { "id": "o2", "text": "Friends net" },
+            { "id": "o3", "text": "Social group" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'subir' (un archivo/foto)?",
+          "options": [
+            { "id": "o1", "text": "Upload" },
+            { "id": "o2", "text": "Download" },
+            { "id": "o3", "text": "Put up" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'descargar'?",
+          "options": [
+            { "id": "o1", "text": "Download" },
+            { "id": "o2", "text": "Upload" },
+            { "id": "o3", "text": "Save" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'publicar / postear'?",
+          "options": [
+            { "id": "o1", "text": "To post" },
+            { "id": "o2", "text": "To write" },
+            { "id": "o3", "text": "To send" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en línea'?",
+          "options": [
+            { "id": "o1", "text": "Online" },
+            { "id": "o2", "text": "In line" },
+            { "id": "o3", "text": "Connected" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perfil'?",
+          "options": [
+            { "id": "o1", "text": "Profile" },
+            { "id": "o2", "text": "Page" },
+            { "id": "o3", "text": "Photo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seguidor'?",
+          "options": [
+            { "id": "o1", "text": "Follower" },
+            { "id": "o2", "text": "Friend" },
+            { "id": "o3", "text": "Person" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'compartir'?",
+          "options": [
+            { "id": "o1", "text": "To share" },
+            { "id": "o2", "text": "To give" },
+            { "id": "o3", "text": "To split" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dar a me gusta'?",
+          "options": [
+            { "id": "o1", "text": "To like" },
+            { "id": "o2", "text": "To love" },
+            { "id": "o3", "text": "To thumb" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suscribirse'?",
+          "options": [
+            { "id": "o1", "text": "To subscribe" },
+            { "id": "o2", "text": "To sign" },
+            { "id": "o3", "text": "To join" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I like to ___ (compartir) photos on Instagram.'",
+          "stimulus_en": "___",
+          "correct_answer": "share",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'How many ___ (seguidores) do you have?'",
+          "stimulus_en": "___",
+          "correct_answer": "followers",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Wait, I need to ___ (subir) this video.'",
+          "stimulus_en": "___",
+          "correct_answer": "upload",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'veo la tele todas las noches'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "watch" },
+            { "id": "w3", "text": "TV" },
+            { "id": "w4", "text": "every" },
+            { "id": "w5", "text": "night" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I65",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿te gusta la música rock?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "rock" },
+            { "id": "w5", "text": "music?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U25_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'juego'?",
+          "options": [
+            { "id": "o1", "text": "Game" },
+            { "id": "o2", "text": "Play" },
+            { "id": "o3", "text": "Sport" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'videojuego'?",
+          "options": [
+            { "id": "o1", "text": "Video game" },
+            { "id": "o2", "text": "Console game" },
+            { "id": "o3", "text": "TV game" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'consola'?",
+          "options": [
+            { "id": "o1", "text": "Console" },
+            { "id": "o2", "text": "Control" },
+            { "id": "o3", "text": "Player" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jugador'?",
+          "options": [
+            { "id": "o1", "text": "Player / Gamer" },
+            { "id": "o2", "text": "Playing" },
+            { "id": "o3", "text": "Sport man" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nivel'?",
+          "options": [
+            { "id": "o1", "text": "Level" },
+            { "id": "o2", "text": "Step" },
+            { "id": "o3", "text": "Floor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder' (un juego)?",
+          "options": [
+            { "id": "o1", "text": "To lose" },
+            { "id": "o2", "text": "To miss" },
+            { "id": "o3", "text": "To fail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ganar' (un juego)?",
+          "options": [
+            { "id": "o1", "text": "To win" },
+            { "id": "o2", "text": "To earn" },
+            { "id": "o3", "text": "To gain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puntuación'?",
+          "options": [
+            { "id": "o1", "text": "Score / Points" },
+            { "id": "o2", "text": "Number" },
+            { "id": "o3", "text": "Result" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mando' (de juego)?",
+          "options": [
+            { "id": "o1", "text": "Controller" },
+            { "id": "o2", "text": "Hand tool" },
+            { "id": "o3", "text": "Clicker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en vivo / en directo'?",
+          "options": [
+            { "id": "o1", "text": "Live" },
+            { "id": "o2", "text": "Life" },
+            { "id": "o3", "text": "Direct" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U25_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra palabras de entretenimiento:",
+          "words": ["MOVIE", "MUSIC", "SONG", "ACTOR", "CINEMA", "RADIO", "CONCERT", "GAME", "STAGE", "TICKET"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "MOVIE", "clue": "You watch this at the cinema" },
+            { "word": "MUSIC", "clue": "You listen to this" },
+            { "word": "SONG", "clue": "A piece of music with words" },
+            { "word": "ACTOR", "clue": "A person in a film" },
+            { "word": "CINEMA", "clue": "Place to watch films" },
+            { "word": "RADIO", "clue": "You listen to news and music here" },
+            { "word": "CONCERT", "clue": "Live music event" },
+            { "word": "GAME", "clue": "Something you play" },
+            { "word": "STAGE", "clue": "Where actors or singers stand" },
+            { "word": "TICKET", "clue": "You need this to enter" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de medios:",
+          "items": [
+            { "word": "TV", "clue": "Television (short)", "direction": "down", "row": 0, "col": 0 },
+            { "word": "FILM", "clue": "Another word for movie", "direction": "across", "row": 0, "col": 0 },
+            { "word": "SING", "clue": "To make music with your voice", "direction": "across", "row": 2, "col": 0 },
+            { "word": "APP", "clue": "Software on your phone", "direction": "down", "row": 2, "col": 0 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Documentary' es una película de dibujos animados?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, un documental es informativo. Los dibujos son 'cartoons'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Download' significa bajar archivos de internet?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'download' es descargar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Gig' es otra forma de llamar a un concierto pequeño?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, 'gig' se usa mucho para conciertos o actuaciones.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'telenovela'?",
+          "options": [
+            { "id": "o1", "text": "Soap opera" },
+            { "id": "o2", "text": "TV novel" },
+            { "id": "o3", "text": "Daily show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'concurso'?",
+          "options": [
+            { "id": "o1", "text": "Game show / Quiz show" },
+            { "id": "o2", "text": "Win show" },
+            { "id": "o3", "text": "Play show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'anuncio'?",
+          "options": [
+            { "id": "o1", "text": "Advertisement / Ad / Commercial" },
+            { "id": "o2", "text": "Notice" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'público / audiencia'?",
+          "options": [
+            { "id": "o1", "text": "Audience" },
+            { "id": "o2", "text": "People" },
+            { "id": "o3", "text": "Public" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estreno'?",
+          "options": [
+            { "id": "o1", "text": "Premiere / Release" },
+            { "id": "o2", "text": "Start" },
+            { "id": "o3", "text": "First movie" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'subtítulos'?",
+          "options": [
+            { "id": "o1", "text": "Subtitles" },
+            { "id": "o2", "text": "Down words" },
+            { "id": "o3", "text": "Text" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doblado' (película)?",
+          "options": [
+            { "id": "o1", "text": "Dubbed" },
+            { "id": "o2", "text": "Changed" },
+            { "id": "o3", "text": "Voiced" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vlog'?",
+          "options": [
+            { "id": "o1", "text": "Vlog" },
+            { "id": "o2", "text": "Video blog" },
+            { "id": "o3", "text": "TV blog" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'podcasts'?",
+          "options": [
+            { "id": "o1", "text": "Podcasts" },
+            { "id": "o2", "text": "Audio shows" },
+            { "id": "o3", "text": "Radio net" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'transmisión' (en directo)?",
+          "options": [
+            { "id": "o1", "text": "Stream" },
+            { "id": "o2", "text": "Flow" },
+            { "id": "o3", "text": "Show" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'notificación'?",
+          "options": [
+            { "id": "o1", "text": "Notification" },
+            { "id": "o2", "text": "Message" },
+            { "id": "o3", "text": "Alert" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comentar'?",
+          "options": [
+            { "id": "o1", "text": "To comment" },
+            { "id": "o2", "text": "To write" },
+            { "id": "o3", "text": "To say" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bloquear'?",
+          "options": [
+            { "id": "o1", "text": "To block" },
+            { "id": "o2", "text": "To stop" },
+            { "id": "o3", "text": "To close" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'privacidad'?",
+          "options": [
+            { "id": "o1", "text": "Privacy" },
+            { "id": "o2", "text": "Secret" },
+            { "id": "o3", "text": "Private" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'contraseña'?",
+          "options": [
+            { "id": "o1", "text": "Password" },
+            { "id": "o2", "text": "Passcode" },
+            { "id": "o3", "text": "Key" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enviar una solicitud de amistad'?",
+          "options": [
+            { "id": "o1", "text": "To send a friend request" },
+            { "id": "o2", "text": "To ask friend" },
+            { "id": "o3", "text": "To be friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'etiquetar'?",
+          "options": [
+            { "id": "o1", "text": "To tag" },
+            { "id": "o2", "text": "To name" },
+            { "id": "o3", "text": "To mark" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tendencia'?",
+          "options": [
+            { "id": "o1", "text": "Trending / Trend" },
+            { "id": "o2", "text": "Popular" },
+            { "id": "o3", "text": "Now" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vincular / enlace'?",
+          "options": [
+            { "id": "o1", "text": "Link" },
+            { "id": "o2", "text": "Web" },
+            { "id": "o3", "text": "Join" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U25_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuál es tu película favorita?'?",
+          "options": [
+            { "id": "o1", "text": "What is your favorite movie?" },
+            { "id": "o2", "text": "What movie you like?" },
+            { "id": "o3", "text": "Favorite film what?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    }
+  ]
+}

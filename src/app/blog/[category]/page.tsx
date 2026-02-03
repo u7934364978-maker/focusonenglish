@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!meta) return { title: "Categoría no encontrada" };
 
   return {
-    title: `${meta.name} | Blog Focus English`,
+    title: `${meta.name} | Blog`,
     description: meta.description,
     alternates: {
       canonical: `https://www.focus-on-english.com/blog/${category}`,

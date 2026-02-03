@@ -1,0 +1,1202 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U23",
+    "unit_title": "Hotels & Accommodation",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Accommodation & Rooms",
+      "content": [
+        {
+          "interaction_id": "U23_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'alojamiento'?",
+          "options": [
+            { "id": "o1", "text": "Accommodation" },
+            { "id": "o2", "text": "House" },
+            { "id": "o3", "text": "Stay" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel'?",
+          "options": [
+            { "id": "o1", "text": "Hotel" },
+            { "id": "o2", "text": "Hostel" },
+            { "id": "o3", "text": "Motel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'albergue'?",
+          "options": [
+            { "id": "o1", "text": "Hostel" },
+            { "id": "o2", "text": "Hotel" },
+            { "id": "o3", "text": "Inn" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habitación individual'?",
+          "options": [
+            { "id": "o1", "text": "Single room" },
+            { "id": "o2", "text": "Double room" },
+            { "id": "o3", "text": "One room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habitación doble'?",
+          "options": [
+            { "id": "o1", "text": "Double room" },
+            { "id": "o2", "text": "Twin room" },
+            { "id": "o3", "text": "Two room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habitación con dos camas individuales'?",
+          "options": [
+            { "id": "o1", "text": "Twin room" },
+            { "id": "o2", "text": "Double room" },
+            { "id": "o3", "text": "Couple room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suite'?",
+          "options": [
+            { "id": "o1", "text": "Suite" },
+            { "id": "o2", "text": "Big room" },
+            { "id": "o3", "text": "Appartment" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservar una habitación'?",
+          "options": [
+            { "id": "o1", "text": "To book a room" },
+            { "id": "o2", "text": "To take a room" },
+            { "id": "o3", "text": "To buy a room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disponibilidad'?",
+          "options": [
+            { "id": "o1", "text": "Availability" },
+            { "id": "o2", "text": "Free rooms" },
+            { "id": "o3", "text": "Vacancies" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comprobar'?",
+          "options": [
+            { "id": "o1", "text": "To check" },
+            { "id": "o2", "text": "To look" },
+            { "id": "o3", "text": "To see" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cama matrimonial'?",
+          "options": [
+            { "id": "o1", "text": "King-size bed / Double bed" },
+            { "id": "o2", "text": "Marriage bed" },
+            { "id": "o3", "text": "Big bed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'almohada'?",
+          "options": [
+            { "id": "o1", "text": "Pillow" },
+            { "id": "o2", "text": "Cushion" },
+            { "id": "o3", "text": "Sheet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sábana'?",
+          "options": [
+            { "id": "o1", "text": "Sheet" },
+            { "id": "o2", "text": "Blanket" },
+            { "id": "o3", "text": "Towel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'manta'?",
+          "options": [
+            { "id": "o1", "text": "Blanket" },
+            { "id": "o2", "text": "Cover" },
+            { "id": "o3", "text": "Quilt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'toalla'?",
+          "options": [
+            { "id": "o1", "text": "Towel" },
+            { "id": "o2", "text": "Soap" },
+            { "id": "o3", "text": "Shower" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I16",
+          "type": "matching",
+          "prompt_es": "Une la habitación con su descripción:",
+          "pairs": [
+            { "id": "p1", "left": "Single room", "right": "For one person" },
+            { "id": "p2", "left": "Double room", "right": "For two people (one bed)" },
+            { "id": "p3", "left": "Twin room", "right": "For two people (two beds)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I17",
+          "type": "matching",
+          "prompt_es": "Une la ropa de cama:",
+          "pairs": [
+            { "id": "p1", "left": "Pillow", "right": "Almohada" },
+            { "id": "p2", "left": "Blanket", "right": "Manta" },
+            { "id": "p3", "left": "Sheet", "right": "Sábana" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want to ___ (reservar) a double room.'",
+          "stimulus_en": "___",
+          "correct_answer": "book",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Is there a ___ (almohada) on the bed?'",
+          "stimulus_en": "___",
+          "correct_answer": "pillow",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need a clean ___ (toalla) for the shower.'",
+          "stimulus_en": "___",
+          "correct_answer": "towel",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aire acondicionado'?",
+          "options": [
+            { "id": "o1", "text": "Air conditioning" },
+            { "id": "o2", "text": "Heater" },
+            { "id": "o3", "text": "Fan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calefacción'?",
+          "options": [
+            { "id": "o1", "text": "Heating" },
+            { "id": "o2", "text": "Cooling" },
+            { "id": "o3", "text": "Fire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'balcón'?",
+          "options": [
+            { "id": "o1", "text": "Balcony" },
+            { "id": "o2", "text": "Terrace" },
+            { "id": "o3", "text": "Window" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vistas al mar'?",
+          "options": [
+            { "id": "o1", "text": "Sea view" },
+            { "id": "o2", "text": "Water look" },
+            { "id": "o3", "text": "Ocean side" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'minibar'?",
+          "options": [
+            { "id": "o1", "text": "Minibar" },
+            { "id": "o2", "text": "Fridge" },
+            { "id": "o3", "text": "Drinks cabinet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Checking In & Hotel Services",
+      "content": [
+        {
+          "interaction_id": "U23_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recepción'?",
+          "options": [
+            { "id": "o1", "text": "Reception / Front desk" },
+            { "id": "o2", "text": "Entrance" },
+            { "id": "o3", "text": "Lobby" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recepcionista'?",
+          "options": [
+            { "id": "o1", "text": "Receptionist" },
+            { "id": "o2", "text": "Worker" },
+            { "id": "o3", "text": "Manager" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'registrarse'?",
+          "options": [
+            { "id": "o1", "text": "To check in" },
+            { "id": "o2", "text": "To register" },
+            { "id": "o3", "text": "To enter" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'marcharse / pagar la cuenta'?",
+          "options": [
+            { "id": "o1", "text": "To check out" },
+            { "id": "o2", "text": "To pay" },
+            { "id": "o3", "text": "To leave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llave'?",
+          "options": [
+            { "id": "o1", "text": "Key" },
+            { "id": "o2", "text": "Card" },
+            { "id": "o3", "text": "Opener" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta-llave'?",
+          "options": [
+            { "id": "o1", "text": "Key card" },
+            { "id": "o2", "text": "Door card" },
+            { "id": "o3", "text": "Pass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desayuno incluido'?",
+          "options": [
+            { "id": "o1", "text": "Breakfast included" },
+            { "id": "o2", "text": "Free breakfast" },
+            { "id": "o3", "text": "Morning food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'servicio de habitaciones'?",
+          "options": [
+            { "id": "o1", "text": "Room service" },
+            { "id": "o2", "text": "Food service" },
+            { "id": "o3", "text": "House service" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'conserje'?",
+          "options": [
+            { "id": "o1", "text": "Concierge" },
+            { "id": "o2", "text": "Porter" },
+            { "id": "o3", "text": "Guide" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'botones'?",
+          "options": [
+            { "id": "o1", "text": "Bellboy / Porter" },
+            { "id": "o2", "text": "Bag man" },
+            { "id": "o3", "text": "Carrier" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ascensor'?",
+          "options": [
+            { "id": "o1", "text": "Lift / Elevator" },
+            { "id": "o2", "text": "Stairs" },
+            { "id": "o3", "text": "Slider" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gimnasio'?",
+          "options": [
+            { "id": "o1", "text": "Gym" },
+            { "id": "o2", "text": "Spa" },
+            { "id": "o3", "text": "Pool" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piscina'?",
+          "options": [
+            { "id": "o1", "text": "Swimming pool" },
+            { "id": "o2", "text": "Lake" },
+            { "id": "o3", "text": "Beach" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aparcamiento'?",
+          "options": [
+            { "id": "o1", "text": "Parking / Car park" },
+            { "id": "o2", "text": "Street" },
+            { "id": "o3", "text": "Garage" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'red wifi'?",
+          "options": [
+            { "id": "o1", "text": "Wi-Fi network" },
+            { "id": "o2", "text": "Internet" },
+            { "id": "o3", "text": "Cable" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I41",
+          "type": "matching",
+          "prompt_es": "Une el servicio con su nombre:",
+          "pairs": [
+            { "id": "p1", "left": "Lift", "right": "Ascensor" },
+            { "id": "p2", "left": "Gym", "right": "Gimnasio" },
+            { "id": "p3", "left": "Pool", "right": "Piscina" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I42",
+          "type": "matching",
+          "prompt_es": "Une el personal del hotel:",
+          "pairs": [
+            { "id": "p1", "left": "Receptionist", "right": "Atiende en recepción" },
+            { "id": "p2", "left": "Porter", "right": "Lleva las maletas" },
+            { "id": "p3", "left": "Maid / Cleaner", "right": "Limpia la habitación" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I would like to ___ (registrarme).'",
+          "stimulus_en": "___",
+          "correct_answer": "check in",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'What time is ___ (la salida)?'",
+          "stimulus_en": "___",
+          "correct_answer": "check out",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Can I have the ___ (llave) for room 204?'",
+          "stimulus_en": "___",
+          "correct_answer": "key",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caja fuerte'?",
+          "options": [
+            { "id": "o1", "text": "Safe" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Strong" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'albornoz'?",
+          "options": [
+            { "id": "o1", "text": "Bathrobe" },
+            { "id": "o2", "text": "Coat" },
+            { "id": "o3", "text": "Dress" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zapatillas'?",
+          "options": [
+            { "id": "o1", "text": "Slippers" },
+            { "id": "o2", "text": "Shoes" },
+            { "id": "o3", "text": "Boots" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'secador de pelo'?",
+          "options": [
+            { "id": "o1", "text": "Hairdryer" },
+            { "id": "o2", "text": "Blower" },
+            { "id": "o3", "text": "Dry machine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'despertador'?",
+          "options": [
+            { "id": "o1", "text": "Alarm clock" },
+            { "id": "o2", "text": "Watch" },
+            { "id": "o3", "text": "Timer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Polite Requests & Problems",
+      "content": [
+        {
+          "interaction_id": "U23_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Podría tener una toalla más?'?",
+          "options": [
+            { "id": "o1", "text": "Could I have an extra towel, please?" },
+            { "id": "o2", "text": "Give me a towel" },
+            { "id": "o3", "text": "I want towel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U23_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Me podría despertar a las 7?'?",
+          "options": [
+            { "id": "o1", "text": "Could you give me a wake-up call at 7?" },
+            { "id": "o2", "text": "Wake me at 7" },
+            { "id": "o3", "text": "Call me 7" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U23_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Hay wifi gratis?'?",
+          "options": [
+            { "id": "o1", "text": "Is there free Wi-Fi?" },
+            { "id": "o2", "text": "Wi-Fi is free?" },
+            { "id": "o3", "text": "Free internet have?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U23_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora es el desayuno?'?",
+          "options": [
+            { "id": "o1", "text": "What time is breakfast served?" },
+            { "id": "o2", "text": "When is food?" },
+            { "id": "o3", "text": "Breakfast time what?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U23_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Dónde está el ascensor?'?",
+          "options": [
+            { "id": "o1", "text": "Where is the lift?" },
+            { "id": "o2", "text": "The lift where?" },
+            { "id": "o3", "text": "How go up?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U23_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la petición cortés: '___ (Podría) I have the bill, please?'",
+          "stimulus_en": "___",
+          "correct_answer": "Could",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (quería) like to book a room.'",
+          "stimulus_en": "___",
+          "correct_answer": "would",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The air conditioning is ___ (roto).'",
+          "stimulus_en": "___",
+          "correct_answer": "broken",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿podría ayudarme con mis maletas?'",
+          "options": [
+            { "id": "w1", "text": "help" },
+            { "id": "w2", "text": "me" },
+            { "id": "w3", "text": "with" },
+            { "id": "w4", "text": "Could" },
+            { "id": "w5", "text": "you" },
+            { "id": "w6", "text": "my" },
+            { "id": "w7", "text": "bags?" }
+          ],
+          "correct_answer": ["w4", "w5", "w1", "w2", "w3", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'la ducha no funciona'",
+          "options": [
+            { "id": "w1", "text": "working" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "not" },
+            { "id": "w4", "text": "The" },
+            { "id": "w5", "text": "shower" }
+          ],
+          "correct_answer": ["w4", "w5", "w2", "w3", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U23_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sucio'?",
+          "options": [
+            { "id": "o1", "text": "Dirty" },
+            { "id": "o2", "text": "Clean" },
+            { "id": "o3", "text": "Bad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ruidoso'?",
+          "options": [
+            { "id": "o1", "text": "Noisy" },
+            { "id": "o2", "text": "Quiet" },
+            { "id": "o3", "text": "Loud" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lleno' (sin habitaciones)?",
+          "options": [
+            { "id": "o1", "text": "Full / Fully booked" },
+            { "id": "o2", "text": "Complete" },
+            { "id": "o3", "text": "Busy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reclamación / queja'?",
+          "options": [
+            { "id": "o1", "text": "Complaint" },
+            { "id": "o2", "text": "Problem" },
+            { "id": "o3", "text": "Issue" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer una queja'?",
+          "options": [
+            { "id": "o1", "text": "To make a complaint" },
+            { "id": "o2", "text": "To do a complaint" },
+            { "id": "o3", "text": "To say a complaint" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'huésped'?",
+          "options": [
+            { "id": "o1", "text": "Guest" },
+            { "id": "o2", "text": "Client" },
+            { "id": "o3", "text": "Host" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'anfitrión'?",
+          "options": [
+            { "id": "o1", "text": "Host" },
+            { "id": "o2", "text": "Guest" },
+            { "id": "o3", "text": "Manager" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pensión completa'?",
+          "options": [
+            { "id": "o1", "text": "Full board" },
+            { "id": "o2", "text": "Half board" },
+            { "id": "o3", "text": "All inclusive" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'media pensión'?",
+          "options": [
+            { "id": "o1", "text": "Half board" },
+            { "id": "o2", "text": "Full board" },
+            { "id": "o3", "text": "Breakfast only" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'todo incluido'?",
+          "options": [
+            { "id": "o1", "text": "All inclusive" },
+            { "id": "o2", "text": "Everything" },
+            { "id": "o3", "text": "Total" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habitaciones contiguas'?",
+          "options": [
+            { "id": "o1", "text": "Adjoining rooms" },
+            { "id": "o2", "text": "Next rooms" },
+            { "id": "o3", "text": "Side rooms" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mejorar la habitación' (paso a una superior)?",
+          "options": [
+            { "id": "o1", "text": "To upgrade" },
+            { "id": "o2", "text": "To change" },
+            { "id": "o3", "text": "To better" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder la llave'?",
+          "options": [
+            { "id": "o1", "text": "To lose the key" },
+            { "id": "o2", "text": "To miss the key" },
+            { "id": "o3", "text": "To fail the key" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'factura'?",
+          "options": [
+            { "id": "o1", "text": "Bill / Invoice" },
+            { "id": "o2", "text": "Ticket" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'propina'?",
+          "options": [
+            { "id": "o1", "text": "Tip" },
+            { "id": "o2", "text": "Gift" },
+            { "id": "o3", "text": "Extra" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U23_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra palabras relacionadas con el hotel:",
+          "words": ["HOTEL", "ROOM", "LIFT", "KEY", "POOL", "GYM", "GUEST", "SAFE", "TOWEL", "SUITE"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "HOTEL", "clue": "Place to stay" },
+            { "word": "ROOM", "clue": "Where you sleep" },
+            { "word": "LIFT", "clue": "It goes up and down" },
+            { "word": "KEY", "clue": "You need this to open the door" },
+            { "word": "POOL", "clue": "You can swim here" },
+            { "word": "GYM", "clue": "You exercise here" },
+            { "word": "GUEST", "clue": "Person staying at the hotel" },
+            { "word": "SAFE", "clue": "Place for valuables" },
+            { "word": "TOWEL", "clue": "You use this after a shower" },
+            { "word": "SUITE", "clue": "A large hotel room" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama del hotel:",
+          "items": [
+            { "word": "BOOK", "clue": "To reserve a room", "direction": "down", "row": 0, "col": 0 },
+            { "word": "BED", "clue": "You sleep on this", "direction": "across", "row": 0, "col": 0 },
+            { "word": "KEY", "clue": "It opens the door", "direction": "across", "row": 2, "col": 0 },
+            { "word": "BAR", "clue": "You drink here", "direction": "down", "row": 2, "col": 0 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Twin room' significa una habitación con una cama grande?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'Twin room' tiene dos camas individuales separadas.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Check-in' es cuando te vas del hotel?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'Check-in' es al llegar. Al irse es 'Check-out'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Front desk' es lo mismo que 'reception'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, ambos términos se usan para referirse a la recepción.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'almohada extra'?",
+          "options": [
+            { "id": "o1", "text": "Extra pillow" },
+            { "id": "o2", "text": "More pillow" },
+            { "id": "o3", "text": "Plus pillow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'papel higiénico'?",
+          "options": [
+            { "id": "o1", "text": "Toilet paper" },
+            { "id": "o2", "text": "Bath paper" },
+            { "id": "o3", "text": "Wash paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jabón'?",
+          "options": [
+            { "id": "o1", "text": "Soap" },
+            { "id": "o2", "text": "Soup" },
+            { "id": "o3", "text": "Wash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'champú'?",
+          "options": [
+            { "id": "o1", "text": "Shampoo" },
+            { "id": "o2", "text": "Soap" },
+            { "id": "o3", "text": "Hair wash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasta de dientes'?",
+          "options": [
+            { "id": "o1", "text": "Toothpaste" },
+            { "id": "o2", "text": "Teeth cream" },
+            { "id": "o3", "text": "Mouth wash" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cepillo de dientes'?",
+          "options": [
+            { "id": "o1", "text": "Toothbrush" },
+            { "id": "o2", "text": "Teeth brush" },
+            { "id": "o3", "text": "Hand brush" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'percha'?",
+          "options": [
+            { "id": "o1", "text": "Hanger" },
+            { "id": "o2", "text": "Hook" },
+            { "id": "o3", "text": "Stick" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'armario'?",
+          "options": [
+            { "id": "o1", "text": "Wardrobe / Closet" },
+            { "id": "o2", "text": "Cupboard" },
+            { "id": "o3", "text": "Shelf" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cortinas'?",
+          "options": [
+            { "id": "o1", "text": "Curtains" },
+            { "id": "o2", "text": "Blinds" },
+            { "id": "o3", "text": "Shades" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suelo'?",
+          "options": [
+            { "id": "o1", "text": "Floor" },
+            { "id": "o2", "text": "Ground" },
+            { "id": "o3", "text": "Level" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'primera planta'?",
+          "options": [
+            { "id": "o1", "text": "First floor" },
+            { "id": "o2", "text": "Level one" },
+            { "id": "o3", "text": "Up floor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'planta baja'?",
+          "options": [
+            { "id": "o1", "text": "Ground floor" },
+            { "id": "o2", "text": "Bottom floor" },
+            { "id": "o3", "text": "Zero floor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lavandería'?",
+          "options": [
+            { "id": "o1", "text": "Laundry" },
+            { "id": "o2", "text": "Washing" },
+            { "id": "o3", "text": "Cleaner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'servicio de despertador'?",
+          "options": [
+            { "id": "o1", "text": "Wake-up service" },
+            { "id": "o2", "text": "Morning call" },
+            { "id": "o3", "text": "Alarm service" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disponible'?",
+          "options": [
+            { "id": "o1", "text": "Available" },
+            { "id": "o2", "text": "Free" },
+            { "id": "o3", "text": "Open" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ocupado'?",
+          "options": [
+            { "id": "o1", "text": "Occupied / Taken" },
+            { "id": "o2", "text": "Busy" },
+            { "id": "o3", "text": "Full" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'confirmación'?",
+          "options": [
+            { "id": "o1", "text": "Confirmation" },
+            { "id": "o2", "text": "Paper" },
+            { "id": "o3", "text": "Ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'número de reserva'?",
+          "options": [
+            { "id": "o1", "text": "Booking number / Reference" },
+            { "id": "o2", "text": "Code" },
+            { "id": "o3", "text": "Pass number" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estancia'?",
+          "options": [
+            { "id": "o1", "text": "Stay" },
+            { "id": "o2", "text": "Visit" },
+            { "id": "o3", "text": "Trip" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U23_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disfrute de su estancia'?",
+          "options": [
+            { "id": "o1", "text": "Enjoy your stay" },
+            { "id": "o2", "text": "Have a good time" },
+            { "id": "o3", "text": "Happy stay" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    }
+  ]
+}

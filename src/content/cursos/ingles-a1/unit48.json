@@ -1,0 +1,50 @@
+{
+  "course": {
+    "unit_id": "U48",
+    "unit_title": "Sightseeing",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Learn vocabulary for tourist attractions",
+    "Express 'I want to see...'"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Tourist Attractions",
+      "content": [
+        {
+          "interaction_id": "U48_I1",
+          "type": "matching",
+          "prompt_es": "Atracciones turísticas",
+          "pairs": [
+            { "id": "a1", "left": "Museum", "right": "Museo" },
+            { "id": "a2", "left": "Castle", "right": "Castillo" },
+            { "id": "a3", "left": "Park", "right": "Parque" },
+            { "id": "a4", "left": "Market", "right": "Mercado" }
+          ],
+          "correct_answer": { "a1": "a1", "a2": "a2", "a3": "a3", "a4": "a4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_I2",
+          "type": "reorder_words",
+          "prompt_es": "Hacer turismo",
+          "stimulus_en": "I want to go sightseeing",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "want" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "go" },
+            { "id": "w5", "text": "sightseeing" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

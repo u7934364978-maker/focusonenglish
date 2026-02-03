@@ -1,0 +1,1198 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U31",
+    "unit_title": "My First Job",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Job Vocabulary & Roles",
+      "content": [
+        {
+          "interaction_id": "U31_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empleo' o 'trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Job" },
+            { "id": "o2", "text": "Work" },
+            { "id": "o3", "text": "Task" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'compañero/a de trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Colleague / Coworker" },
+            { "id": "o2", "text": "Partner" },
+            { "id": "o3", "text": "Friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jefe/a'?",
+          "options": [
+            { "id": "o1", "text": "Boss" },
+            { "id": "o2", "text": "Leader" },
+            { "id": "o3", "text": "Manager" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gerente'?",
+          "options": [
+            { "id": "o1", "text": "Manager" },
+            { "id": "o2", "text": "Boss" },
+            { "id": "o3", "text": "Director" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empleado/a'?",
+          "options": [
+            { "id": "o1", "text": "Employee" },
+            { "id": "o2", "text": "Worker" },
+            { "id": "o3", "text": "Helper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empresa'?",
+          "options": [
+            { "id": "o1", "text": "Company" },
+            { "id": "o2", "text": "Business" },
+            { "id": "o3", "text": "Office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oficina'?",
+          "options": [
+            { "id": "o1", "text": "Office" },
+            { "id": "o2", "text": "Building" },
+            { "id": "o3", "text": "Desk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipo'?",
+          "options": [
+            { "id": "o1", "text": "Team" },
+            { "id": "o2", "text": "Group" },
+            { "id": "o3", "text": "Staff" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'personal'?",
+          "options": [
+            { "id": "o1", "text": "Staff" },
+            { "id": "o2", "text": "People" },
+            { "id": "o3", "text": "Workers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cliente'?",
+          "options": [
+            { "id": "o1", "text": "Customer / Client" },
+            { "id": "o2", "text": "User" },
+            { "id": "o3", "text": "Buyer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Este es mi primer trabajo'",
+          "options": [
+            { "id": "w1", "text": "first" },
+            { "id": "w2", "text": "This" },
+            { "id": "w3", "text": "job" },
+            { "id": "w4", "text": "my" },
+            { "id": "w5", "text": "is" }
+          ],
+          "correct_answer": ["w2", "w5", "w4", "w1", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella es mi jefa'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "boss" },
+            { "id": "w3", "text": "my" },
+            { "id": "w4", "text": "She" }
+          ],
+          "correct_answer": ["w4", "w1", "w3", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I work in a big ___ (compañía).'",
+          "stimulus_en": "___",
+          "correct_answer": "company",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My ___ (compañeros) are very nice.'",
+          "stimulus_en": "___",
+          "correct_answer": "colleagues",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprendiz' / 'becario/a'?",
+          "options": [
+            { "id": "o1", "text": "Intern / Trainee" },
+            { "id": "o2", "text": "Student" },
+            { "id": "o3", "text": "Assistant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ayudante / asistente'?",
+          "options": [
+            { "id": "o1", "text": "Assistant" },
+            { "id": "o2", "text": "Secretary" },
+            { "id": "o3", "text": "Worker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recepcionista'?",
+          "options": [
+            { "id": "o1", "text": "Receptionist" },
+            { "id": "o2", "text": "Front desk" },
+            { "id": "o3", "text": "Secretary" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'secretario/a'?",
+          "options": [
+            { "id": "o1", "text": "Secretary" },
+            { "id": "o2", "text": "Assistant" },
+            { "id": "o3", "text": "Admin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vendedor/a'?",
+          "options": [
+            { "id": "o1", "text": "Salesperson / Shop assistant" },
+            { "id": "o2", "text": "Cashier" },
+            { "id": "o3", "text": "Businessman" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cajero/a'?",
+          "options": [
+            { "id": "o1", "text": "Cashier" },
+            { "id": "o2", "text": "Accountant" },
+            { "id": "o3", "text": "Banker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'uniforme'?",
+          "options": [
+            { "id": "o1", "text": "Uniform" },
+            { "id": "o2", "text": "Clothes" },
+            { "id": "o3", "text": "Suit" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarjeta de identificación'?",
+          "options": [
+            { "id": "o1", "text": "ID card / Badge" },
+            { "id": "o2", "text": "Name tag" },
+            { "id": "o3", "text": "Pass" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I23",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está tu oficina?'",
+          "options": [
+            { "id": "w1", "text": "your" },
+            { "id": "w2", "text": "office?" },
+            { "id": "w3", "text": "Where" },
+            { "id": "w4", "text": "is" }
+          ],
+          "correct_answer": ["w3", "w4", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I24",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Somos un buen equipo'",
+          "options": [
+            { "id": "w1", "text": "a" },
+            { "id": "w2", "text": "team" },
+            { "id": "w3", "text": "We" },
+            { "id": "w4", "text": "are" },
+            { "id": "w5", "text": "good" }
+          ],
+          "correct_answer": ["w3", "w4", "w1", "w5", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I25",
+          "type": "matching",
+          "prompt_es": "Une los roles de trabajo:",
+          "pairs": [
+            { "id": "p1", "left": "Boss", "right": "Jefe/a" },
+            { "id": "p2", "left": "Staff", "right": "Personal" },
+            { "id": "p3", "left": "Customer", "right": "Cliente" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Basic Work Actions",
+      "content": [
+        {
+          "interaction_id": "U31_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'trabajar'?",
+          "options": [
+            { "id": "o1", "text": "To work" },
+            { "id": "o2", "text": "To job" },
+            { "id": "o3", "text": "To task" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ayudar'?",
+          "options": [
+            { "id": "o1", "text": "To help" },
+            { "id": "o2", "text": "To assist" },
+            { "id": "o3", "text": "To give" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'usar'?",
+          "options": [
+            { "id": "o1", "text": "To use" },
+            { "id": "o2", "text": "To take" },
+            { "id": "o3", "text": "To open" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprender'?",
+          "options": [
+            { "id": "o1", "text": "To learn" },
+            { "id": "o2", "text": "To study" },
+            { "id": "o3", "text": "To know" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enviar correos'?",
+          "options": [
+            { "id": "o1", "text": "To send emails" },
+            { "id": "o2", "text": "To write letters" },
+            { "id": "o3", "text": "To post messages" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'atender el teléfono'?",
+          "options": [
+            { "id": "o1", "text": "To answer the phone" },
+            { "id": "o2", "text": "To call people" },
+            { "id": "o3", "text": "To talk phone" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacer café'?",
+          "options": [
+            { "id": "o1", "text": "To make coffee" },
+            { "id": "o2", "text": "To do coffee" },
+            { "id": "o3", "text": "To drink coffee" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'limpiar'?",
+          "options": [
+            { "id": "o1", "text": "To clean" },
+            { "id": "o2", "text": "To wash" },
+            { "id": "o3", "text": "To tidy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Yo uso un ordenador'",
+          "options": [
+            { "id": "w1", "text": "a" },
+            { "id": "w2", "text": "computer" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "use" }
+          ],
+          "correct_answer": ["w3", "w4", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ella ayuda a los clientes'",
+          "options": [
+            { "id": "w1", "text": "helps" },
+            { "id": "w2", "text": "customers" },
+            { "id": "w3", "text": "She" },
+            { "id": "w4", "text": "the" }
+          ],
+          "correct_answer": ["w3", "w1", "w4", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (trabajo) from 9 to 5.'",
+          "stimulus_en": "___",
+          "correct_answer": "work",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ (envía) many emails.'",
+          "stimulus_en": "___",
+          "correct_answer": "sends",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'escribir informes'?",
+          "options": [
+            { "id": "o1", "text": "To write reports" },
+            { "id": "o2", "text": "To make papers" },
+            { "id": "o3", "text": "To do notes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'organizar documentos'?",
+          "options": [
+            { "id": "o1", "text": "To organize documents / files" },
+            { "id": "o2", "text": "To put papers" },
+            { "id": "o3", "text": "To make desk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'trabajar duro'?",
+          "options": [
+            { "id": "o1", "text": "To work hard" },
+            { "id": "o2", "text": "To work much" },
+            { "id": "o3", "text": "To work strong" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tener una reunión'?",
+          "options": [
+            { "id": "o1", "text": "To have a meeting" },
+            { "id": "o2", "text": "To make a group" },
+            { "id": "o3", "text": "To do a talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empezar a trabajar'?",
+          "options": [
+            { "id": "o1", "text": "To start work" },
+            { "id": "o2", "text": "To begin job" },
+            { "id": "o3", "text": "To go office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'terminar de trabajar'?",
+          "options": [
+            { "id": "o1", "text": "To finish work" },
+            { "id": "o2", "text": "To end job" },
+            { "id": "o3", "text": "To leave office" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tomar un descanso'?",
+          "options": [
+            { "id": "o1", "text": "To take a break" },
+            { "id": "o2", "text": "To stop work" },
+            { "id": "o3", "text": "To have rest" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'almorzar' (en el trabajo)?",
+          "options": [
+            { "id": "o1", "text": "To have lunch" },
+            { "id": "o2", "text": "To eat break" },
+            { "id": "o3", "text": "To lunching" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I46",
+          "type": "true_false",
+          "prompt_es": "¿'To make coffee' significa beber café?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa preparar o hacer café.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I47",
+          "type": "true_false",
+          "prompt_es": "¿'To work hard' significa trabajar mucho o con esfuerzo?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, significa trabajar duro.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I48",
+          "type": "true_false",
+          "prompt_es": "¿'Employee' es la persona que manda?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'employee' es el empleado. El que manda es el 'boss' o 'manager'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I49",
+          "type": "true_false",
+          "prompt_es": "¿'To help' es un verbo importante en el trabajo?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, significa ayudar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I50",
+          "type": "true_false",
+          "prompt_es": "¿'Office' es el lugar donde mucha gente trabaja?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, significa oficina.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Working Hours & Schedule",
+      "content": [
+        {
+          "interaction_id": "U31_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'horario'?",
+          "options": [
+            { "id": "o1", "text": "Schedule / Timetable" },
+            { "id": "o2", "text": "Hours" },
+            { "id": "o3", "text": "Time list" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tiempo completo'?",
+          "options": [
+            { "id": "o1", "text": "Full-time" },
+            { "id": "o2", "text": "All day" },
+            { "id": "o3", "text": "Whole work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'media jornada'?",
+          "options": [
+            { "id": "o1", "text": "Part-time" },
+            { "id": "o2", "text": "Half day" },
+            { "id": "o3", "text": "Short work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'horas extra'?",
+          "options": [
+            { "id": "o1", "text": "Overtime" },
+            { "id": "o2", "text": "Extra hours" },
+            { "id": "o3", "text": "More time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'turno' (mañana/tarde)?",
+          "options": [
+            { "id": "o1", "text": "Shift" },
+            { "id": "o2", "text": "Turn" },
+            { "id": "o3", "text": "Round" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sueldo / salario'?",
+          "options": [
+            { "id": "o1", "text": "Salary / Wage" },
+            { "id": "o2", "text": "Money" },
+            { "id": "o3", "text": "Pay" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'día libre'?",
+          "options": [
+            { "id": "o1", "text": "Day off" },
+            { "id": "o2", "text": "Free day" },
+            { "id": "o3", "text": "Holiday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llegar tarde'?",
+          "options": [
+            { "id": "o1", "text": "To be late" },
+            { "id": "o2", "text": "To arrive after" },
+            { "id": "o3", "text": "To slow come" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Trabajo a tiempo completo'",
+          "options": [
+            { "id": "w1", "text": "full-time" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "work" }
+          ],
+          "correct_answer": ["w2", "w3", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Tengo el lunes libre'",
+          "options": [
+            { "id": "w1", "text": "off" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "Monday" },
+            { "id": "w4", "text": "have" }
+          ],
+          "correct_answer": ["w2", "w4", "w3", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'solicitud de empleo'?",
+          "options": [
+            { "id": "o1", "text": "Job application" },
+            { "id": "o2", "text": "Work paper" },
+            { "id": "o3", "text": "CV ask" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrevista'?",
+          "options": [
+            { "id": "o1", "text": "Interview" },
+            { "id": "o2", "text": "Meeting" },
+            { "id": "o3", "text": "Talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'contrato'?",
+          "options": [
+            { "id": "o1", "text": "Contract" },
+            { "id": "o2", "text": "Paper" },
+            { "id": "o3", "text": "Sign" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'experiencia'?",
+          "options": [
+            { "id": "o1", "text": "Experience" },
+            { "id": "o2", "text": "Knowledge" },
+            { "id": "o3", "text": "Skills" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'habilidades'?",
+          "options": [
+            { "id": "o1", "text": "Skills" },
+            { "id": "o2", "text": "Abilities" },
+            { "id": "o3", "text": "Talents" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'referencias'?",
+          "options": [
+            { "id": "o1", "text": "References" },
+            { "id": "o2", "text": "Contacts" },
+            { "id": "o3", "text": "Friends" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'primer día'?",
+          "options": [
+            { "id": "o1", "text": "First day" },
+            { "id": "o2", "text": "Start day" },
+            { "id": "o3", "text": "One day" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nervioso/a'?",
+          "options": [
+            { "id": "o1", "text": "Nervous" },
+            { "id": "o2", "text": "Afraid" },
+            { "id": "o3", "text": "Worried" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'emocionado/a'?",
+          "options": [
+            { "id": "o1", "text": "Excited" },
+            { "id": "o2", "text": "Happy" },
+            { "id": "o3", "text": "Glad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprender rápido'?",
+          "options": [
+            { "id": "o1", "text": "To learn fast" },
+            { "id": "o2", "text": "To know quick" },
+            { "id": "o3", "text": "To study soon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I71",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Estoy muy emocionado'",
+          "options": [
+            { "id": "w1", "text": "very" },
+            { "id": "w2", "text": "I'm" },
+            { "id": "w3", "text": "excited" }
+          ],
+          "correct_answer": ["w2", "w1", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I72",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Él tiene mucha experiencia'",
+          "options": [
+            { "id": "w1", "text": "He" },
+            { "id": "w2", "text": "experience" },
+            { "id": "w3", "text": "has" },
+            { "id": "w4", "text": "a lot of" }
+          ],
+          "correct_answer": ["w1", "w3", "w4", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U31_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My ___ (turno) is from 2 to 10.'",
+          "stimulus_en": "___",
+          "correct_answer": "shift",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I need a good ___ (sueldo).'",
+          "stimulus_en": "___",
+          "correct_answer": "salary",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué te dedicas?'?",
+          "options": [
+            { "id": "o1", "text": "What do you do?" },
+            { "id": "o2", "text": "What is your work?" },
+            { "id": "o3", "text": "What job you have?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U31_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras de trabajo:",
+          "words": ["JOB", "BOSS", "OFFICE", "TEAM", "STAFF", "SALARY", "SHIFT", "WORK", "INTERN", "REPORT"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "JOB", "clue": "Employment" },
+            { "word": "BOSS", "clue": "Person in charge" },
+            { "word": "OFFICE", "clue": "Place of work" },
+            { "word": "TEAM", "clue": "Group of workers" },
+            { "word": "STAFF", "clue": "All employees" },
+            { "word": "SALARY", "clue": "Payment for work" },
+            { "word": "SHIFT", "clue": "Work period" },
+            { "word": "WORK", "clue": "Action of doing a job" },
+            { "word": "INTERN", "clue": "A trainee" },
+            { "word": "REPORT", "clue": "Work document" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de mi primer trabajo:",
+          "items": [
+            { "word": "BOSS", "clue": "Manager", "direction": "across", "row": 0, "col": 0 },
+            { "word": "TEAM", "clue": "Work group", "direction": "down", "row": 0, "col": 0 },
+            { "word": "JOB", "clue": "Work role", "direction": "across", "row": 2, "col": 0 },
+            { "word": "WAGE", "clue": "Pay", "direction": "down", "row": 0, "col": 3 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Full-time' es trabajar pocas horas?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'full-time' es tiempo completo. Pocas horas es 'part-time'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Day off' es un día en el que no trabajas?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, es tu día libre.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Overtime' son horas extra?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, tiempo trabajado de más.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué tal tu trabajo?'?",
+          "options": [
+            { "id": "o1", "text": "How is your job?" },
+            { "id": "o2", "text": "What is job?" },
+            { "id": "o3", "text": "How job goes?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'me gusta mi trabajo'?",
+          "options": [
+            { "id": "o1", "text": "I like my job" },
+            { "id": "o2", "text": "Me like work" },
+            { "id": "o3", "text": "I like my working" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'es difícil pero interesante'?",
+          "options": [
+            { "id": "o1", "text": "It's difficult but interesting" },
+            { "id": "o2", "text": "Is hard and good" },
+            { "id": "o3", "text": "Difficult interesting it is" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estoy aprendiendo mucho'?",
+          "options": [
+            { "id": "o1", "text": "I'm learning a lot" },
+            { "id": "o2", "text": "I learn much" },
+            { "id": "o3", "text": "Learning many I am" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuál es tu horario?'?",
+          "options": [
+            { "id": "o1", "text": "What is your schedule?" },
+            { "id": "o2", "text": "What hours you work?" },
+            { "id": "o3", "text": "When you work?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empiezo a las ocho'?",
+          "options": [
+            { "id": "o1", "text": "I start at eight" },
+            { "id": "o2", "text": "I open at eight" },
+            { "id": "o3", "text": "Start is eight" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'termino a las cinco'?",
+          "options": [
+            { "id": "o1", "text": "I finish at five" },
+            { "id": "o2", "text": "I close at five" },
+            { "id": "o3", "text": "Five I end" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo mucha tarea'?",
+          "options": [
+            { "id": "o1", "text": "I have a lot of work / tasks" },
+            { "id": "o2", "text": "Much doing I have" },
+            { "id": "o3", "text": "I have many homework" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estoy ocupado/a'?",
+          "options": [
+            { "id": "o1", "text": "I'm busy" },
+            { "id": "o2", "text": "I'm working" },
+            { "id": "o3", "text": "I'm full" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mi lugar de trabajo'?",
+          "options": [
+            { "id": "o1", "text": "My workplace" },
+            { "id": "o2", "text": "My work city" },
+            { "id": "o3", "text": "Job place" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ir a pie al trabajo'?",
+          "options": [
+            { "id": "o1", "text": "To walk to work" },
+            { "id": "o2", "text": "To go foot work" },
+            { "id": "o3", "text": "To step job" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tomar el autobús al trabajo'?",
+          "options": [
+            { "id": "o1", "text": "To take the bus to work" },
+            { "id": "o2", "text": "To go bus work" },
+            { "id": "o3", "text": "To catch bus job" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mi primer día fue genial'?",
+          "options": [
+            { "id": "o1", "text": "My first day was great" },
+            { "id": "o2", "text": "First day good is" },
+            { "id": "o3", "text": "Great day one" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo que irme'?",
+          "options": [
+            { "id": "o1", "text": "I have to go" },
+            { "id": "o2", "text": "I must leaving" },
+            { "id": "o3", "text": "Go me now" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Qué tengas un buen día!'?",
+          "options": [
+            { "id": "o1", "text": "Have a nice day!" },
+            { "id": "o2", "text": "Good day you!" },
+            { "id": "o3", "text": "Nice work day!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hasta mañana'?",
+          "options": [
+            { "id": "o1", "text": "See you tomorrow" },
+            { "id": "o2", "text": "Until tomorrow" },
+            { "id": "o3", "text": "Bye tomorrow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'buen trabajo'?",
+          "options": [
+            { "id": "o1", "text": "Good job! / Well done!" },
+            { "id": "o2", "text": "Fine work" },
+            { "id": "o3", "text": "Job good" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gracias por tu ayuda'?",
+          "options": [
+            { "id": "o1", "text": "Thanks for your help" },
+            { "id": "o2", "text": "Thank help you" },
+            { "id": "o3", "text": "Gratitude help" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'de nada'?",
+          "options": [
+            { "id": "o1", "text": "You're welcome" },
+            { "id": "o2", "text": "Of nothing" },
+            { "id": "o3", "text": "No problem" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U31_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Puedes ayudarme?'?",
+          "options": [
+            { "id": "o1", "text": "Can you help me?" },
+            { "id": "o2", "text": "You help me?" },
+            { "id": "o3", "text": "May help?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    }
+  ]
+}

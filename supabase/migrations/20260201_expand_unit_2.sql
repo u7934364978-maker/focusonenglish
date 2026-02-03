@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- VERB TO BE: I AM / YOU ARE (Ex 9-18)
+-- VERB TO BE: I AM / YOU ARE 
 ('a1-m1-l2-ex9', 'a1-m1-l2', 8, 'multipleChoice', 'I am choice', '{
     "prompt": "___ a student.",
     "options": ["I am", "You am", "Is"],
@@ -39,7 +39,7 @@ VALUES
     "answerIndex": 1
 }'),
 ('a1-m1-l2-ex15', 'a1-m1-l2', 14, 'fillBlanks', 'Contraction you', '{
-    "text": "___ (You are) my best friend.",
+    "text": "___ my best friend.",
     "answers": ["You''re"],
     "instructions": "Write the contraction."
 }'),
@@ -63,7 +63,7 @@ VALUES
     ]
 }'),
 
--- SOCIAL BASICS & FEELINGS (Ex 19-28)
+-- SOCIAL BASICS & FEELINGS 
 ('a1-m1-l2-ex19', 'a1-m1-l2', 18, 'multipleChoice', 'Feeling: Sad', '{
     "prompt": "I am ___ because I lost my book.",
     "options": ["happy", "sad", "tired"],
@@ -122,7 +122,7 @@ VALUES
     "translation": "¿Estás cansado hoy?"
 }'),
 
--- SOCIAL INTERACTION (Ex 29-38)
+-- SOCIAL INTERACTION 
 ('a1-m1-l2-ex29', 'a1-m1-l2', 28, 'multipleChoice', 'Introducing others', '{
     "prompt": "This ___ my friend, John.",
     "options": ["am", "is", "are"],
@@ -181,7 +181,7 @@ VALUES
     "translation": "¿Puedo ayudarte hoy?"
 }'),
 
--- PRONOUNS & VERBS (Ex 39-48)
+-- PRONOUNS & VERBS 
 ('a1-m1-l2-ex39', 'a1-m1-l2', 38, 'multipleChoice', 'Subject I', '{
     "prompt": "___ am from Italy.",
     "options": ["You", "I", "Is"],
@@ -216,7 +216,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l2-ex45', 'a1-m1-l2', 44, 'multipleChoice', 'Contraction I', '{
-    "prompt": "___ a teacher. (I am)",
+    "prompt": "___ a teacher.",
     "options": ["I''m", "You''re", "I ams"],
     "answerIndex": 0
 }'),
@@ -239,7 +239,7 @@ VALUES
     "translation": "Tú no eres de Londres"
 }'),
 
--- UNIT 2 SUMMARY (Ex 49-58)
+-- UNIT 2 SUMMARY 
 ('a1-m1-l2-ex49', 'a1-m1-l2', 48, 'multipleChoice', 'Summary Q1', '{
     "prompt": "How are you? - ___ fine.",
     "options": ["I am", "You are", "Am"],

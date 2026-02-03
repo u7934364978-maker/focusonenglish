@@ -54,46 +54,83 @@ export const premiumCourseService = {
 
   /**
    * Loads all units with their metadata and interaction counts.
+   * Merges JSON-based units with Database-based units.
    */
   async getUnits(level: 'ingles-a1' | 'ingles-a2' | 'ingles-b1' | 'ingles-b2') {
     const contentDir = path.join(process.cwd(), `src/content/cursos/${level}`);
     const units: any[] = [];
 
-    if (!fs.existsSync(contentDir)) return [];
+    // 1. Load from Database first (High quality/Expanded content)
+    if (supabase) {
+      const cefrLevel = level.split('-')[1].toUpperCase();
+      const { data: dbLessons, error } = await supabase
+        .from('course_lessons')
+        .select(`
+          id, 
+          title, 
+          order_index,
+          course_modules!inner (course_level),
+          course_exercises (id)
+        `)
+        .eq('course_modules.course_level', cefrLevel)
+        .order('order_index', { ascending: true });
 
-    const files = fs.readdirSync(contentDir)
-      .filter(file => file.startsWith('unit') && file.endsWith('.json'))
-      .sort((a, b) => {
-        const numA = parseInt(a.replace('unit', '').replace('.json', ''));
-        const numB = parseInt(b.replace('unit', '').replace('.json', ''));
-        return numA - numB;
-      });
-
-    for (const file of files) {
-      try {
-        const filePath = path.join(contentDir, file);
-        const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        
-        const interactionIds: string[] = [];
-        unitData.blocks.forEach((block: PremiumBlock) => {
-          block.content.forEach((content: any) => {
-            if (content.interaction_id) {
-              interactionIds.push(content.interaction_id);
-            } else if (content.video && content.video.interactions) {
-              interactionIds.push(...content.video.interactions.map((i: any) => i.interaction_id));
-            }
+      if (!error && dbLessons) {
+        dbLessons.forEach(lesson => {
+          units.push({
+            id: lesson.id,
+            title: lesson.title,
+            file: lesson.id,
+            totalExercises: lesson.course_exercises?.length || 0,
+            interactionIds: lesson.course_exercises?.map((ex: any) => ex.id) || []
           });
         });
+      }
+    }
 
-        units.push({
-          id: unitData.course.unit_id,
-          title: unitData.course.unit_title,
-          file: file.replace('.json', ''),
-          totalExercises: interactionIds.length,
-          interactionIds
+    // 2. Load from JSON files (Fallback/Original content)
+    if (fs.existsSync(contentDir)) {
+      const files = fs.readdirSync(contentDir)
+        .filter(file => file.startsWith('unit') && file.endsWith('.json'))
+        .sort((a, b) => {
+          const numA = parseInt(a.replace('unit', '').replace('.json', ''));
+          const numB = parseInt(b.replace('unit', '').replace('.json', ''));
+          return numA - numB;
         });
-      } catch (error) {
-        console.error(`Error loading unit from ${file}:`, error);
+
+      for (const file of files) {
+        try {
+          const filePath = path.join(contentDir, file);
+          const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+          
+          // Check if this unit is already covered by database (by title or some mapping)
+          // For simplicity, if database has content for this level, we might want to skip some JSONs
+          // or just add them if not already there.
+          const unitId = unitData.course.unit_id;
+          
+          if (!units.find(u => u.title === unitData.course.unit_title)) {
+            const interactionIds: string[] = [];
+            unitData.blocks.forEach((block: PremiumBlock) => {
+              block.content.forEach((content: any) => {
+                if (content.interaction_id) {
+                  interactionIds.push(content.interaction_id);
+                } else if (content.video && content.video.interactions) {
+                  interactionIds.push(...content.video.interactions.map((i: any) => i.interaction_id));
+                }
+              });
+            });
+
+            units.push({
+              id: unitId,
+              title: unitData.course.unit_title,
+              file: file.replace('.json', ''),
+              totalExercises: interactionIds.length,
+              interactionIds
+            });
+          }
+        } catch (error) {
+          console.error(`Error loading unit from ${file}:`, error);
+        }
       }
     }
 

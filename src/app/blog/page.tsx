@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog Focus English | Recursos y Guías para Aprender Inglés",
+  title: "Blog | Recursos y Guías para Aprender Inglés",
   description: "Explora nuestras guías especializadas en inglés para el trabajo, viajes y preparación de exámenes oficiales. Contenido actualizado y metodologías efectivas.",
   keywords: [
     "blog inglés",

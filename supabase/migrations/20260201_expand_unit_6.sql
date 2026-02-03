@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- CORE FAMILY MEMBERS (Ex 2-11)
+-- CORE FAMILY MEMBERS 
 ('a1-m1-l6-ex2', 'a1-m1-l6', 1, 'multipleChoice', 'Family: Mother', '{
     "prompt": "Your female parent is your ___.",
     "options": ["Mother", "Father", "Sister"],
@@ -66,7 +66,7 @@ VALUES
     ]
 }'),
 
--- EXTENDED FAMILY (Ex 12-21)
+-- EXTENDED FAMILY 
 ('a1-m1-l6-ex12', 'a1-m1-l6', 11, 'multipleChoice', 'Grandparents: Grandmother', '{
     "prompt": "Your mother''s mother is your ___.",
     "options": ["Aunt", "Grandmother", "Cousin"],
@@ -128,7 +128,7 @@ VALUES
     ]
 }'),
 
--- POSSESSIVE ADJECTIVES (Ex 22-31)
+-- POSSESSIVE ADJECTIVES 
 ('a1-m1-l6-ex22', 'a1-m1-l6', 21, 'multipleChoice', 'Possessive: My', '{
     "prompt": "I have a car. It is ___ car.",
     "options": ["My", "Your", "His"],
@@ -185,12 +185,12 @@ VALUES
     "title": "All Adjectives",
     "items": [
         {"front": "My / Your", "back": "Mi / Tu"},
-        {"front": "His / Her", "back": "Su (de él) / Su (de ella)"},
-        {"front": "Our / Their", "back": "Nuestro / Su (de ellos)"}
+        {"front": "His / Her", "back": "Su (de él) / Su "},
+        {"front": "Our / Their", "back": "Nuestro / Su "}
     ]
 }'),
 
--- POSSESSIVE 'S (Ex 32-41)
+-- POSSESSIVE 'S 
 ('a1-m1-l6-ex32', 'a1-m1-l6', 31, 'multipleChoice', 'Possessive S: John', '{
     "prompt": "The car of John is ___.",
     "options": ["John''s car", "John car", "The car John"],
@@ -202,7 +202,7 @@ VALUES
     "answerIndex": 1
 }'),
 ('a1-m1-l6-ex34', 'a1-m1-l6', 33, 'fillBlanks', 'Possessive S blank', '{
-    "text": "My ___ (father) car is blue.",
+    "text": "My ___ car is blue.",
     "answers": ["father''s"],
     "instructions": "Use the possessive ''s."
 }'),
@@ -226,7 +226,7 @@ VALUES
     "explanation": "With plural ending in ''s'', just add the apostrophe."
 }'),
 ('a1-m1-l6-ex38', 'a1-m1-l6', 37, 'fillBlanks', 'Possessive S: Mother', '{
-    "text": "What is your ___ name? (mother)",
+    "text": "What is your ___ name?",
     "answers": ["mother''s"],
     "instructions": "Complete the possessive."
 }'),
@@ -252,9 +252,9 @@ VALUES
     ]
 }'),
 
--- UNIT 6 SUMMARY (Ex 42-51)
+-- UNIT 6 SUMMARY 
 ('a1-m1-l6-ex42', 'a1-m1-l6', 41, 'multipleChoice', 'Summary Q1', '{
-    "prompt": "Who is she? - She is my ___ (female parent).",
+    "prompt": "Who is she? - She is my ___ (progenitor femenino).",
     "options": ["Mother", "Father", "Brother"],
     "answerIndex": 0
 }'),
@@ -277,7 +277,7 @@ VALUES
     ]
 }'),
 ('a1-m1-l6-ex46', 'a1-m1-l6', 45, 'fillBlanks', 'Summary Blank 1', '{
-    "text": "___ parents are from Spain. (I)",
+    "text": "___ parents are from Spain.",
     "answers": ["My"],
     "instructions": "Fill with possessive adjective."
 }'),
@@ -287,7 +287,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m1-l6-ex48', 'a1-m1-l6', 47, 'multipleChoice', 'Summary Choice 2', '{
-    "prompt": "___ car is very old. (We)",
+    "prompt": "___ car is very old.",
     "options": ["Our", "Their", "Your"],
     "answerIndex": 0
 }'),

@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- AFFIRMATIVE (Ex 2-11)
+-- AFFIRMATIVE 
 ('a1-m3-l23-ex2', 'a1-m3-l23', 1, 'multipleChoice', 'Singular Affirmative', '{
     "prompt": "___ a bed in my room.",
     "options": ["There is", "There are", "It is"],
@@ -27,7 +27,7 @@ VALUES
     "items": [
         {"front": "There is + singular noun", "back": "Hay + sustantivo singular"},
         {"front": "There are + plural noun", "back": "Hay + sustantivo plural"},
-        {"front": "There''s (contraction)", "back": "There is (contracción)"}
+        {"front": "There''s (contraction)", "back": "There is "}
     ]
 }'),
 ('a1-m3-l23-ex6', 'a1-m3-l23', 5, 'fillBlanks', 'Fill Singular', '{
@@ -62,7 +62,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- NEGATIVE (Ex 12-21)
+-- NEGATIVE 
 ('a1-m3-l23-ex12', 'a1-m3-l23', 11, 'multipleChoice', 'Singular Negative', '{
     "prompt": "___ a TV in the kitchen.",
     "options": ["There isn''t", "There aren''t", "No there is"],
@@ -120,7 +120,7 @@ VALUES
     ]
 }'),
 
--- QUESTIONS (Ex 22-31)
+-- QUESTIONS 
 ('a1-m3-l23-ex22', 'a1-m3-l23', 21, 'multipleChoice', 'Singular Question', '{
     "prompt": "___ a bathroom upstairs?",
     "options": ["Is there", "Are there", "There is"],
@@ -178,7 +178,7 @@ VALUES
     ]
 }'),
 
--- QUANTIFIERS (Ex 32-41)
+-- QUANTIFIERS 
 ('a1-m3-l23-ex32', 'a1-m3-l23', 31, 'multipleChoice', 'Some vs Any 1', '{
     "prompt": "There are ___ flowers.",
     "options": ["some", "any", "a"],
@@ -197,7 +197,7 @@ VALUES
     "instructions": "Match.",
     "pairs": [
         {"id": "1", "word": "Some", "correctMatch": "Algunos/as (Afirmativa)", "distractors": ["Ninguno/a"]},
-        {"id": "2", "word": "Any", "correctMatch": "Alguno/a o Ninguno/a (Neg/Int)", "distractors": ["Muchos/as"]}
+        {"id": "2", "word": "Any", "correctMatch": "Alguno/a o Ninguno/a ", "distractors": ["Muchos/as"]}
     ]
 }'),
 ('a1-m3-l23-ex36', 'a1-m3-l23', 35, 'drag-drop', 'Quantifier sentence', '{
@@ -207,7 +207,7 @@ VALUES
     "translation": "Hay algo de leche en la nevera"
 }'),
 ('a1-m3-l23-ex37', 'a1-m3-l23', 36, 'multipleChoice', 'No vs Not any', '{
-    "prompt": "There are ___ chairs. (Empty room)",
+    "prompt": "There are ___ chairs.",
     "options": ["no", "any", "some"],
     "answerIndex": 0
 }'),
@@ -236,7 +236,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l23-ex42', 'a1-m3-l23', 41, 'multipleChoice', 'Final review 1', '{
     "prompt": "___ a cat on the sofa.",
     "options": ["There is", "There are", "Is there"],
@@ -276,8 +276,8 @@ VALUES
 ('a1-m3-l23-ex49', 'a1-m3-l23', 48, 'matching', 'Mixed review 6', '{
     "instructions": "Match.",
     "pairs": [
-        {"id": "1", "word": "Yes, there is", "correctMatch": "Sí hay (sing)", "distractors": ["Sí hay (plu)"]},
-        {"id": "2", "word": "Yes, there are", "correctMatch": "Sí hay (plu)", "distractors": ["Sí hay (sing)"]}
+        {"id": "1", "word": "Yes, there is", "correctMatch": "Sí hay (sing)", "distractors": ["Sí hay "]},
+        {"id": "2", "word": "Yes, there are", "correctMatch": "Sí hay ", "distractors": ["Sí hay "]}
     ]
 }'),
 ('a1-m3-l23-ex50', 'a1-m3-l23', 49, 'multipleChoice', 'Spelling there', '{

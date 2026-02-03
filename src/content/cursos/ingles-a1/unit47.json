@@ -1,0 +1,47 @@
+{
+  "course": {
+    "unit_id": "U47",
+    "unit_title": "Holidays & Vacation",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Identify types of holidays",
+    "Talk about holiday activities"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Types of Holidays",
+      "content": [
+        {
+          "interaction_id": "U47_I1",
+          "type": "matching",
+          "prompt_es": "Tipos de vacaciones",
+          "pairs": [
+            { "id": "h1", "left": "Beach holiday", "right": "Vacaciones en la playa" },
+            { "id": "h2", "left": "City break", "right": "Viaje a una ciudad" },
+            { "id": "h3", "left": "Skiing holiday", "right": "Vacaciones de esquí" }
+          ],
+          "correct_answer": { "h1": "h1", "h2": "h2", "h3": "h3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué te gusta hacer en la playa?",
+          "stimulus_en": "I like ______ in the sea.",
+          "options": [
+            { "id": "o1", "text": "swimming" },
+            { "id": "o2", "text": "skiing" },
+            { "id": "o3", "text": "working" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    }
+  ]
+}

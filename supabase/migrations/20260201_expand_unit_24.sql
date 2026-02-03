@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC PREPOSITIONS (Ex 2-11)
+-- BASIC PREPOSITIONS 
 ('a1-m3-l24-ex2', 'a1-m3-l24', 1, 'multipleChoice', 'In', '{
     "prompt": "The milk is ___ the fridge.",
     "options": ["in", "on", "under"],
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l24-ex6', 'a1-m3-l24', 5, 'fillBlanks', 'Under', '{
-    "text": "The cat is ___ (debajo) the bed.",
+    "text": "The cat is ___ the bed.",
     "answers": ["under"]
 }'),
 ('a1-m3-l24-ex7', 'a1-m3-l24', 6, 'drag-drop', 'Simple position sentence', '{
@@ -41,7 +41,7 @@ VALUES
     "translation": "La lámpara está al lado de la cama"
 }'),
 ('a1-m3-l24-ex8', 'a1-m3-l24', 7, 'multipleChoice', 'Behind', '{
-    "prompt": "The ball is ___ (detrás) the sofa.",
+    "prompt": "The ball is ___ the sofa.",
     "options": ["behind", "between", "in"],
     "answerIndex": 0
 }'),
@@ -53,7 +53,7 @@ VALUES
     ]
 }'),
 ('a1-m3-l24-ex10', 'a1-m3-l24', 9, 'fillBlanks', 'Between', '{
-    "text": "The table is ___ (entre) the two chairs.",
+    "text": "The table is ___ the two chairs.",
     "answers": ["between"]
 }'),
 ('a1-m3-l24-ex11', 'a1-m3-l24', 10, 'multipleChoice', 'Above', '{
@@ -62,14 +62,14 @@ VALUES
     "answerIndex": 0
 }'),
 
--- ADVANCED POSITIONS (Ex 12-21)
+-- ADVANCED POSITIONS 
 ('a1-m3-l24-ex12', 'a1-m3-l24', 11, 'multipleChoice', 'Opposite', '{
     "prompt": "The bank is ___ (en frente de, al otro lado) the park.",
     "options": ["opposite", "under", "in"],
     "answerIndex": 0
 }'),
 ('a1-m3-l24-ex13', 'a1-m3-l24', 12, 'fillBlanks', 'In front of', '{
-    "text": "Wait for me ___ (en frente de) the cinema.",
+    "text": "Wait for me ___ the cinema.",
     "answers": ["in front of"]
 }'),
 ('a1-m3-l24-ex14', 'a1-m3-l24', 13, 'multipleChoice', 'Inside/Outside', '{
@@ -100,7 +100,7 @@ VALUES
     "answers": ["near", "close to"]
 }'),
 ('a1-m3-l24-ex19', 'a1-m3-l24', 18, 'multipleChoice', 'Among', '{
-    "prompt": "He is sitting ___ (entre muchos) his friends.",
+    "prompt": "He is sitting ___ his friends.",
     "options": ["among", "between", "next to"],
     "answerIndex": 0
 }'),
@@ -120,7 +120,7 @@ VALUES
     ]
 }'),
 
--- HOUSE OBJECTS & POSITIONS (Ex 22-31)
+-- HOUSE OBJECTS & POSITIONS 
 ('a1-m3-l24-ex22', 'a1-m3-l24', 21, 'multipleChoice', 'Bathroom position', '{
     "prompt": "The towel is ___ the bathroom.",
     "options": ["in", "on", "under"],
@@ -178,7 +178,7 @@ VALUES
     ]
 }'),
 
--- VERB TO BE + PREPOSITIONS (Ex 32-41)
+-- VERB TO BE + PREPOSITIONS 
 ('a1-m3-l24-ex32', 'a1-m3-l24', 31, 'multipleChoice', 'Singular Be', '{
     "prompt": "Where ___ the key?",
     "options": ["is", "are", "am"],
@@ -212,7 +212,7 @@ VALUES
     "answerIndex": 0
 }'),
 ('a1-m3-l24-ex38', 'a1-m3-l24', 37, 'fillBlanks', 'Negative position Be', '{
-    "text": "The keys ___ (not be) in my pocket.",
+    "text": "The keys ___ in my pocket.",
     "answers": ["aren''t", "are not"]
 }'),
 ('a1-m3-l24-ex39', 'a1-m3-l24', 38, 'matching', 'Answer match', '{
@@ -236,18 +236,18 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m3-l24-ex42', 'a1-m3-l24', 41, 'multipleChoice', 'Review position 1', '{
-    "prompt": "The painting is ___ (sobre) the wall.",
+    "prompt": "The painting is ___ the wall.",
     "options": ["on", "in", "under"],
     "answerIndex": 0
 }'),
 ('a1-m3-l24-ex43', 'a1-m3-l24', 42, 'fillBlanks', 'Review position 2', '{
-    "text": "The chair is ___ (al lado de) the desk.",
+    "text": "The chair is ___ the desk.",
     "answers": ["next to"]
 }'),
 ('a1-m3-l24-ex44', 'a1-m3-l24', 43, 'multipleChoice', 'Review position 3', '{
-    "prompt": "The bin is ___ (debajo de) the table.",
+    "prompt": "The bin is ___ the table.",
     "options": ["under", "behind", "between"],
     "answerIndex": 0
 }'),

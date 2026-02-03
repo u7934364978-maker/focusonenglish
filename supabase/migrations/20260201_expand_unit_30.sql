@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- HOUSE & FURNITURE REVIEW (Ex 2-11)
+-- HOUSE & FURNITURE REVIEW 
 ('a1-m3-l30-ex2', 'a1-m3-l30', 1, 'multipleChoice', 'Review: Rooms', '{
     "prompt": "Where do you brush your teeth?",
     "options": ["In the bathroom", "In the kitchen", "In the garden"],
@@ -62,14 +62,14 @@ VALUES
     "answerIndex": 0
 }'),
 
--- NEIGHBORHOOD & PREPOSITIONS REVIEW (Ex 12-21)
+-- NEIGHBORHOOD & PREPOSITIONS REVIEW 
 ('a1-m3-l30-ex12', 'a1-m3-l30', 11, 'multipleChoice', 'Review: Places', '{
     "prompt": "I buy bread at the ___.",
     "options": ["bakery", "pharmacy", "bank"],
     "answerIndex": 0
 }'),
 ('a1-m3-l30-ex13', 'a1-m3-l30', 12, 'fillBlanks', 'Review: Prepositions', '{
-    "text": "The cat is ___ (debajo) the table.",
+    "text": "The cat is ___ the table.",
     "answers": ["under"]
 }'),
 ('a1-m3-l30-ex14', 'a1-m3-l30', 13, 'multipleChoice', 'Review: Directions', '{
@@ -120,7 +120,7 @@ VALUES
     ]
 }'),
 
--- ANIMALS & BODY REVIEW (Ex 22-31)
+-- ANIMALS & BODY REVIEW 
 ('a1-m3-l30-ex22', 'a1-m3-l30', 21, 'multipleChoice', 'Review: Pets', '{
     "prompt": "Which animal lives in a bowl of water?",
     "options": ["Fish", "Dog", "Hamster"],
@@ -178,9 +178,9 @@ VALUES
     ]
 }'),
 
--- WEATHER & MIXED REVIEW (Ex 32-41)
+-- WEATHER & MIXED REVIEW 
 ('a1-m3-l30-ex32', 'a1-m3-l30', 31, 'multipleChoice', 'Review: Weather 1', '{
-    "prompt": "It is ___ (lloviendo).",
+    "prompt": "It is ___.",
     "options": ["raining", "sunny", "windy"],
     "answerIndex": 0
 }'),
@@ -236,14 +236,14 @@ VALUES
     ]
 }'),
 
--- FINAL COMPREHENSIVE (Ex 42-51)
+-- FINAL COMPREHENSIVE 
 ('a1-m3-l30-ex42', 'a1-m3-l30', 41, 'multipleChoice', 'Final: House', '{
     "prompt": "Hay una cama.",
     "options": ["There is a bed", "There are a bed", "Is there a bed?"],
     "answerIndex": 0
 }'),
 ('a1-m3-l30-ex43', 'a1-m3-l30', 42, 'fillBlanks', 'Final: Directions', '{
-    "text": "Go ___ (recto) and turn right.",
+    "text": "Go ___ and turn right.",
     "answers": ["straight", "ahead"]
 }'),
 ('a1-m3-l30-ex44', 'a1-m3-l30', 43, 'multipleChoice', 'Final: Body', '{

@@ -1,0 +1,1210 @@
+{
+  "course": {
+    "language_ui": "es-ES",
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U30",
+    "unit_title": "Plans & Future",
+    "total_duration_minutes": 60
+  },
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Future Intentions & Activities",
+      "content": [
+        {
+          "interaction_id": "U30_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo la intención de'? (Plan futuro)",
+          "options": [
+            { "id": "o1", "text": "I'm going to" },
+            { "id": "o2", "text": "I go to" },
+            { "id": "o3", "text": "I went to" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plan'?",
+          "options": [
+            { "id": "o1", "text": "Plan" },
+            { "id": "o2", "text": "Idea" },
+            { "id": "o3", "text": "Next" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'próxima semana'?",
+          "options": [
+            { "id": "o1", "text": "Next week" },
+            { "id": "o2", "text": "Future week" },
+            { "id": "o3", "text": "Following week" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mañana'?",
+          "options": [
+            { "id": "o1", "text": "Tomorrow" },
+            { "id": "o2", "text": "Next day" },
+            { "id": "o3", "text": "Morning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'esta noche'?",
+          "options": [
+            { "id": "o1", "text": "Tonight" },
+            { "id": "o2", "text": "This night" },
+            { "id": "o3", "text": "Evening" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'próximo año'?",
+          "options": [
+            { "id": "o1", "text": "Next year" },
+            { "id": "o2", "text": "Future year" },
+            { "id": "o3", "text": "Coming year" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pronto'?",
+          "options": [
+            { "id": "o1", "text": "Soon" },
+            { "id": "o2", "text": "Early" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'más tarde'?",
+          "options": [
+            { "id": "o1", "text": "Later" },
+            { "id": "o2", "text": "After" },
+            { "id": "o3", "text": "Then" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el lunes que viene'?",
+          "options": [
+            { "id": "o1", "text": "Next Monday" },
+            { "id": "o2", "text": "Coming Monday" },
+            { "id": "o3", "text": "Following Monday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'este fin de semana'?",
+          "options": [
+            { "id": "o1", "text": "This weekend" },
+            { "id": "o2", "text": "The weekend" },
+            { "id": "o3", "text": "Future weekend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Voy a estudiar mañana'",
+          "options": [
+            { "id": "w1", "text": "study" },
+            { "id": "w2", "text": "going" },
+            { "id": "w3", "text": "tomorrow" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "I'm" }
+          ],
+          "correct_answer": ["w5", "w2", "w4", "w1", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Vamos a viajar el próximo mes'",
+          "options": [
+            { "id": "w1", "text": "travel" },
+            { "id": "w2", "text": "next" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "month" },
+            { "id": "w5", "text": "We're" },
+            { "id": "w6", "text": "to" }
+          ],
+          "correct_answer": ["w5", "w3", "w6", "w1", "w2", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (va a) visit her family.'",
+          "stimulus_en": "___",
+          "correct_answer": "is going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (van a) play football.'",
+          "stimulus_en": "___",
+          "correct_answer": "are going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm going to ___ (dormir) now.'",
+          "stimulus_en": "___",
+          "correct_answer": "sleep",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cita' (médico, trabajo)?",
+          "options": [
+            { "id": "o1", "text": "Appointment" },
+            { "id": "o2", "text": "Date" },
+            { "id": "o3", "text": "Meeting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cita' (romántica)?",
+          "options": [
+            { "id": "o1", "text": "Date" },
+            { "id": "o2", "text": "Meeting" },
+            { "id": "o3", "text": "Love talk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reunión'?",
+          "options": [
+            { "id": "o1", "text": "Meeting" },
+            { "id": "o2", "text": "Union" },
+            { "id": "o3", "text": "Party" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fiesta'?",
+          "options": [
+            { "id": "o1", "text": "Party" },
+            { "id": "o2", "text": "Event" },
+            { "id": "o3", "text": "Holiday" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'concierto'?",
+          "options": [
+            { "id": "o1", "text": "Concert" },
+            { "id": "o2", "text": "Music show" },
+            { "id": "o3", "text": "Gig" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'viaje'?",
+          "options": [
+            { "id": "o1", "text": "Trip / Journey" },
+            { "id": "o2", "text": "Travel" },
+            { "id": "o3", "text": "Move" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacaciones'?",
+          "options": [
+            { "id": "o1", "text": "Holiday / Vacation" },
+            { "id": "o2", "text": "Off time" },
+            { "id": "o3", "text": "Free days" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I23",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Qué vas a hacer?'",
+          "options": [
+            { "id": "w1", "text": "do" },
+            { "id": "w2", "text": "going" },
+            { "id": "w3", "text": "What" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "are" },
+            { "id": "w6", "text": "you" }
+          ],
+          "correct_answer": ["w3", "w5", "w6", "w2", "w4", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I24",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No voy a salir esta noche'",
+          "options": [
+            { "id": "w1", "text": "going" },
+            { "id": "w2", "text": "tonight" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "out" },
+            { "id": "w5", "text": "not" },
+            { "id": "w6", "text": "go" },
+            { "id": "w7", "text": "I'm" }
+          ],
+          "correct_answer": ["w7", "w5", "w1", "w3", "w6", "w4", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I25",
+          "type": "matching",
+          "prompt_es": "Une las expresiones de tiempo:",
+          "pairs": [
+            { "id": "p1", "left": "Today", "right": "Hoy" },
+            { "id": "p2", "left": "Tomorrow", "right": "Mañana" },
+            { "id": "p3", "left": "Tonight", "right": "Esta noche" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Possibilities & Predictions",
+      "content": [
+        {
+          "interaction_id": "U30_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'quizás'?",
+          "options": [
+            { "id": "o1", "text": "Maybe / Perhaps" },
+            { "id": "o2", "text": "Possibly" },
+            { "id": "o3", "text": "Sure" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'espero que'?",
+          "options": [
+            { "id": "o1", "text": "I hope" },
+            { "id": "o2", "text": "I wait" },
+            { "id": "o3", "text": "I wish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'probablemente'?",
+          "options": [
+            { "id": "o1", "text": "Probably" },
+            { "id": "o2", "text": "Maybe" },
+            { "id": "o3", "text": "Surely" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estoy seguro/a'?",
+          "options": [
+            { "id": "o1", "text": "I'm sure" },
+            { "id": "o2", "text": "I'm certain" },
+            { "id": "o3", "text": "I know" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'creo que'?",
+          "options": [
+            { "id": "o1", "text": "I think" },
+            { "id": "o2", "text": "I believe" },
+            { "id": "o3", "text": "I say" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'va a llover'?",
+          "options": [
+            { "id": "o1", "text": "It's going to rain" },
+            { "id": "o2", "text": "It goes to rain" },
+            { "id": "o3", "text": "Rain coming" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'va a hacer sol'?",
+          "options": [
+            { "id": "o1", "text": "It's going to be sunny" },
+            { "id": "o2", "text": "It's sunning" },
+            { "id": "o3", "text": "Sun tomorrow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I33",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Creo que va a ser fácil'",
+          "options": [
+            { "id": "w1", "text": "think" },
+            { "id": "w2", "text": "easy" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "it's" },
+            { "id": "w6", "text": "be" },
+            { "id": "w7", "text": "I" }
+          ],
+          "correct_answer": ["w7", "w1", "w5", "w3", "w4", "w6", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Maybe I ___ (vaya a) stay at home.'",
+          "stimulus_en": "___",
+          "correct_answer": "am going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (espero) you have a good time.'",
+          "stimulus_en": "___",
+          "correct_answer": "hope",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué tiempo va a hacer?'?",
+          "options": [
+            { "id": "o1", "text": "What's the weather going to be like?" },
+            { "id": "o2", "text": "How is weather tomorrow?" },
+            { "id": "o3", "text": "What time is weather?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Estás libre mañana?'?",
+          "options": [
+            { "id": "o1", "text": "Are you free tomorrow?" },
+            { "id": "o2", "text": "You free tomorrow?" },
+            { "id": "o3", "text": "Is you free?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quieres quedar?'?",
+          "options": [
+            { "id": "o1", "text": "Do you want to meet up?" },
+            { "id": "o2", "text": "You want stay?" },
+            { "id": "o3", "text": "Meet together?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me gustaría...'?",
+          "options": [
+            { "id": "o1", "text": "I would like..." },
+            { "id": "o2", "text": "Me like..." },
+            { "id": "o3", "text": "I like to..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nos vemos allí'?",
+          "options": [
+            { "id": "o1", "text": "See you there" },
+            { "id": "o2", "text": "See you then" },
+            { "id": "o3", "text": "Look you there" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo mucho que hacer'?",
+          "options": [
+            { "id": "o1", "text": "I have a lot to do" },
+            { "id": "o2", "text": "I have much doing" },
+            { "id": "o3", "text": "Lot of work" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estar ocupado/a'?",
+          "options": [
+            { "id": "o1", "text": "To be busy" },
+            { "id": "o2", "text": "To be working" },
+            { "id": "o3", "text": "To be full" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estar libre'?",
+          "options": [
+            { "id": "o1", "text": "To be free" },
+            { "id": "o2", "text": "To be open" },
+            { "id": "o3", "text": "To be clear" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'disponibilidad'?",
+          "options": [
+            { "id": "o1", "text": "Availability" },
+            { "id": "o2", "text": "Free time" },
+            { "id": "o3", "text": "Open hours" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'próximo'?",
+          "options": [
+            { "id": "o1", "text": "Next" },
+            { "id": "o2", "text": "Future" },
+            { "id": "o3", "text": "After" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I46",
+          "type": "true_false",
+          "prompt_es": "¿'Tonight' significa mañana por la noche?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'tonight' significa esta noche. Mañana por la noche es 'tomorrow night'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I47",
+          "type": "true_false",
+          "prompt_es": "¿'I'm going to' se usa para planes futuros?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, se usa para intenciones y planes decididos.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I48",
+          "type": "true_false",
+          "prompt_es": "¿'Maybe' significa 'siempre'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'maybe' significa quizás o tal vez.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I49",
+          "type": "true_false",
+          "prompt_es": "¿'Soon' significa pronto?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, significa en poco tiempo.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I50",
+          "type": "true_false",
+          "prompt_es": "¿'Date' solo significa una fruta?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, además de dátil, significa fecha o una cita romántica.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Future Events & Scheduling",
+      "content": [
+        {
+          "interaction_id": "U30_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empezar'?",
+          "options": [
+            { "id": "o1", "text": "To start / To begin" },
+            { "id": "o2", "text": "To open" },
+            { "id": "o3", "text": "To go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'terminar'?",
+          "options": [
+            { "id": "o1", "text": "To finish / To end" },
+            { "id": "o2", "text": "To close" },
+            { "id": "o3", "text": "To stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llegar'?",
+          "options": [
+            { "id": "o1", "text": "To arrive" },
+            { "id": "o2", "text": "To come" },
+            { "id": "o3", "text": "To get" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salir / irse'?",
+          "options": [
+            { "id": "o1", "text": "To leave" },
+            { "id": "o2", "text": "To go" },
+            { "id": "o3", "text": "To out" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservar'?",
+          "options": [
+            { "id": "o1", "text": "To book / To reserve" },
+            { "id": "o2", "text": "To keep" },
+            { "id": "o3", "text": "To save" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cancelar'?",
+          "options": [
+            { "id": "o1", "text": "To cancel" },
+            { "id": "o2", "text": "To stop" },
+            { "id": "o3", "text": "To no do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'posponer'?",
+          "options": [
+            { "id": "o1", "text": "To postpone / To put off" },
+            { "id": "o2", "text": "To later" },
+            { "id": "o3", "text": "To wait" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cambiar el plan'?",
+          "options": [
+            { "id": "o1", "text": "To change the plan" },
+            { "id": "o2", "text": "To make different" },
+            { "id": "o3", "text": "New plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'La película empieza a las 8'",
+          "options": [
+            { "id": "w1", "text": "starts" },
+            { "id": "w2", "text": "8" },
+            { "id": "w3", "text": "at" },
+            { "id": "w4", "text": "The" },
+            { "id": "w5", "text": "movie" }
+          ],
+          "correct_answer": ["w4", "w5", "w1", "w3", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Voy a estar allí pronto'",
+          "options": [
+            { "id": "w1", "text": "there" },
+            { "id": "w2", "text": "soon" },
+            { "id": "w3", "text": "be" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "going" },
+            { "id": "w6", "text": "I'm" }
+          ],
+          "correct_answer": ["w6", "w5", "w4", "w3", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'invitar'?",
+          "options": [
+            { "id": "o1", "text": "To invite" },
+            { "id": "o2", "text": "To call" },
+            { "id": "o3", "text": "To ask" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'invitación'?",
+          "options": [
+            { "id": "o1", "text": "Invitation" },
+            { "id": "o2", "text": "Call paper" },
+            { "id": "o3", "text": "Party card" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'confirmar'?",
+          "options": [
+            { "id": "o1", "text": "To confirm" },
+            { "id": "o2", "text": "To say yes" },
+            { "id": "o3", "text": "To check" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rechazar'?",
+          "options": [
+            { "id": "o1", "text": "To refuse / To decline" },
+            { "id": "o2", "text": "To say no" },
+            { "id": "o3", "text": "To cancel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lo antes posible'?",
+          "options": [
+            { "id": "o1", "text": "As soon as possible (ASAP)" },
+            { "id": "o2", "text": "Fast as can" },
+            { "id": "o3", "text": "Early time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'a tiempo'?",
+          "options": [
+            { "id": "o1", "text": "On time" },
+            { "id": "o2", "text": "In time" },
+            { "id": "o3", "text": "Good time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tarde'?",
+          "options": [
+            { "id": "o1", "text": "Late" },
+            { "id": "o2", "text": "Slow" },
+            { "id": "o3", "text": "After" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'temprano'?",
+          "options": [
+            { "id": "o1", "text": "Early" },
+            { "id": "o2", "text": "First" },
+            { "id": "o3", "text": "Fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'organizar'?",
+          "options": [
+            { "id": "o1", "text": "To organize" },
+            { "id": "o2", "text": "To plan" },
+            { "id": "o3", "text": "To make ready" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'preparar'?",
+          "options": [
+            { "id": "o1", "text": "To prepare / To get ready" },
+            { "id": "o2", "text": "To make" },
+            { "id": "o3", "text": "To do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I71",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Vas a venir a la fiesta?'",
+          "options": [
+            { "id": "w1", "text": "coming" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "going" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "party?" },
+            { "id": "w6", "text": "to" },
+            { "id": "w7", "text": "Are" },
+            { "id": "w8", "text": "you" }
+          ],
+          "correct_answer": ["w7", "w8", "w3", "w6", "w1", "w4", "w2", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'See you ___ (el lunes).'",
+          "stimulus_en": "___",
+          "correct_answer": "on Monday",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I73",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'm ___ (voy a) visit my grandma.'",
+          "stimulus_en": "___",
+          "correct_answer": "going to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nos vemos pronto'?",
+          "options": [
+            { "id": "o1", "text": "See you soon" },
+            { "id": "o2", "text": "Look you early" },
+            { "id": "o3", "text": "Bye fast" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuídate'?",
+          "options": [
+            { "id": "o1", "text": "Take care" },
+            { "id": "o2", "text": "Care yourself" },
+            { "id": "o3", "text": "Look you" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U30_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras de planes:",
+          "words": ["PLAN", "FUTURE", "SOON", "TOMORROW", "TONIGHT", "WEEKEND", "NEXT", "GOING", "PARTY", "TRIP"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "PLAN", "clue": "Intention" },
+            { "word": "FUTURE", "clue": "Time after now" },
+            { "word": "SOON", "clue": "In a short time" },
+            { "word": "TOMORROW", "clue": "Day after today" },
+            { "word": "TONIGHT", "clue": "This evening" },
+            { "word": "WEEKEND", "clue": "Sat and Sun" },
+            { "word": "NEXT", "clue": "Following" },
+            { "word": "GOING", "clue": "Part of future structure" },
+            { "word": "PARTY", "clue": "Celebration" },
+            { "word": "TRIP", "clue": "Travel plan" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de planes:",
+          "items": [
+            { "word": "PLAN", "clue": "Future idea", "direction": "across", "row": 0, "col": 0 },
+            { "word": "SOON", "clue": "Not late", "direction": "down", "row": 0, "col": 0 },
+            { "word": "DATE", "clue": "Romantic meeting", "direction": "across", "row": 2, "col": 0 },
+            { "word": "NEXT", "clue": "Opposite of last", "direction": "down", "row": 0, "col": 3 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Tomorrow' significa ayer?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'tomorrow' es mañana. Ayer es 'yesterday'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Weekend' son el sábado y el domingo?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, es el fin de semana.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I80",
+          "type": "true_false",
+          "prompt_es": "¿'I hope' es para deseos futuros?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, significa 'espero que'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estar emocionado/a' (por un plan)?",
+          "options": [
+            { "id": "o1", "text": "To be excited" },
+            { "id": "o2", "text": "To be emotional" },
+            { "id": "o3", "text": "To be happy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo ganas de...'?",
+          "options": [
+            { "id": "o1", "text": "I'm looking forward to..." },
+            { "id": "o2", "text": "I have wins of..." },
+            { "id": "o3", "text": "Me like to..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sería genial'?",
+          "options": [
+            { "id": "o1", "text": "That would be great" },
+            { "id": "o2", "text": "It is good" },
+            { "id": "o3", "text": "Great be it" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tal vez otro día'?",
+          "options": [
+            { "id": "o1", "text": "Maybe another day" },
+            { "id": "o2", "text": "Next time" },
+            { "id": "o3", "text": "Other day" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estoy de acuerdo'?",
+          "options": [
+            { "id": "o1", "text": "I agree" },
+            { "id": "o2", "text": "I'm agree" },
+            { "id": "o3", "text": "Me yes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Te viene bien?'?",
+          "options": [
+            { "id": "o1", "text": "Does it suit you? / Is that okay for you?" },
+            { "id": "o2", "text": "Is it good?" },
+            { "id": "o3", "text": "You like?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora?'?",
+          "options": [
+            { "id": "o1", "text": "What time?" },
+            { "id": "o2", "text": "Which hour?" },
+            { "id": "o3", "text": "When time?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Dónde quedamos?'?",
+          "options": [
+            { "id": "o1", "text": "Where shall we meet?" },
+            { "id": "o2", "text": "Where meet?" },
+            { "id": "o3", "text": "Place to meet?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'me viene bien'?",
+          "options": [
+            { "id": "o1", "text": "That works for me / That suits me" },
+            { "id": "o2", "text": "It's good" },
+            { "id": "o3", "text": "I can" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estoy deseando que llegue'?",
+          "options": [
+            { "id": "o1", "text": "I can't wait" },
+            { "id": "o2", "text": "No wait me" },
+            { "id": "o3", "text": "Want now" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en el futuro'?",
+          "options": [
+            { "id": "o1", "text": "In the future" },
+            { "id": "o2", "text": "Later time" },
+            { "id": "o3", "text": "Next years" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mis sueños'?",
+          "options": [
+            { "id": "o1", "text": "My dreams" },
+            { "id": "o2", "text": "My sleeps" },
+            { "id": "o3", "text": "My goals" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hacerse realidad'?",
+          "options": [
+            { "id": "o1", "text": "To come true" },
+            { "id": "o2", "text": "To be real" },
+            { "id": "o3", "text": "To make fact" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'próxima parada'?",
+          "options": [
+            { "id": "o1", "text": "Next stop" },
+            { "id": "o2", "text": "Future stop" },
+            { "id": "o3", "text": "Following stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'en unos días'?",
+          "options": [
+            { "id": "o1", "text": "In a few days" },
+            { "id": "o2", "text": "In some days" },
+            { "id": "o3", "text": "After days" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pronto' (en una despedida)?",
+          "options": [
+            { "id": "o1", "text": "See you soon" },
+            { "id": "o2", "text": "Bye soon" },
+            { "id": "o3", "text": "Fast meet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'después de eso'?",
+          "options": [
+            { "id": "o1", "text": "After that" },
+            { "id": "o2", "text": "Then" },
+            { "id": "o3", "text": "Next that" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'por fin'?",
+          "options": [
+            { "id": "o1", "text": "At last / Finally" },
+            { "id": "o2", "text": "In end" },
+            { "id": "o3", "text": "Good finish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'buena suerte'?",
+          "options": [
+            { "id": "o1", "text": "Good luck" },
+            { "id": "o2", "text": "Best luck" },
+            { "id": "o3", "text": "Happy luck" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U30_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Qué lo pases bien!'?",
+          "options": [
+            { "id": "o1", "text": "Have a good time! / Have fun!" },
+            { "id": "o2", "text": "Enjoy you!" },
+            { "id": "o3", "text": "Good pass!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    }
+  ]
+}

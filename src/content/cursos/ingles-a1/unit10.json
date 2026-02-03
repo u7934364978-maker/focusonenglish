@@ -4,586 +4,1160 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U10",
-    "unit_title": "Tiempo libre y planes simples",
-    "total_duration_minutes": 120
+    "unit_title": "Clothes & Shopping",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B10",
-      "title": "Tiempo libre y planes simples",
+      "block_id": "B1",
+      "title": "Clothing Vocabulary",
       "content": [
         {
-          "interaction_id": "U10_Ta1-u10-present-continuous_I0",
-          "title": "Practice with Present Continuous",
-          "instructions": "Choose the correct option for each sentence. Use the present continuous to describe actions happening now.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What is she doing?",
-              "options": [
-                "A) She is running",
-                "B) She run",
-                "C) She runs",
-                "D) She will run"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción A es correcta porque usamos 'is' con 'running' para formar el presente continuo para acciones que suceden ahora mismo."
-            },
-            {
-              "id": "q2",
-              "question": "Where are the children playing?",
-              "options": [
-                "A) The children are play",
-                "B) The children plays",
-                "C) The children are playing",
-                "D) The children played"
-              ],
-              "correctAnswer": "C",
-              "explanation": "La opción C es correcta porque usamos 'are' con 'playing' para indicar que los niños están jugando en este momento."
-            },
-            {
-              "id": "q3",
-              "question": "Is he eating an apple?",
-              "options": [
-                "A) He eat an apple",
-                "B) He eats an apple",
-                "C) He is eat an apple",
-                "D) He is eating an apple"
-              ],
-              "correctAnswer": "D",
-              "explanation": "La opción D es correcta porque muestra el uso de 'is' con 'eating' para formar el presente continuo, indicando una acción en progreso."
-            },
-            {
-              "id": "q4",
-              "question": "Are they watching TV now?",
-              "options": [
-                "A) They watches TV",
-                "B) They are watching TV",
-                "C) They watch TV",
-                "D) They are watch TV"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La opción B es correcta porque usamos 'are' con 'watching' para formar el presente continuo para una acción que ocurre en este momento."
-            }
+          "interaction_id": "U10_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camisa'?",
+          "options": [
+            { "id": "o1", "text": "Shirt" },
+            { "id": "o2", "text": "T-shirt" },
+            { "id": "o3", "text": "Skirt" }
           ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camiseta'?",
+          "options": [
+            { "id": "o1", "text": "T-shirt" },
+            { "id": "o2", "text": "Shirt" },
+            { "id": "o3", "text": "Sweater" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pantalones'?",
+          "options": [
+            { "id": "o1", "text": "Trousers (UK) / Pants (US)" },
+            { "id": "o2", "text": "Shorts" },
+            { "id": "o3", "text": "Jeans" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'falda'?",
+          "options": [
+            { "id": "o1", "text": "Skirt" },
+            { "id": "o2", "text": "Dress" },
+            { "id": "o3", "text": "Shirt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vestido'?",
+          "options": [
+            { "id": "o1", "text": "Dress" },
+            { "id": "o2", "text": "Skirt" },
+            { "id": "o3", "text": "Coat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'chaqueta'?",
+          "options": [
+            { "id": "o1", "text": "Jacket" },
+            { "id": "o2", "text": "Coat" },
+            { "id": "o3", "text": "Jumper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'abrigo'?",
+          "options": [
+            { "id": "o1", "text": "Coat" },
+            { "id": "o2", "text": "Jacket" },
+            { "id": "o3", "text": "Scarf" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zapatos'?",
+          "options": [
+            { "id": "o1", "text": "Shoes" },
+            { "id": "o2", "text": "Boots" },
+            { "id": "o3", "text": "Socks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calcetines'?",
+          "options": [
+            { "id": "o1", "text": "Socks" },
+            { "id": "o2", "text": "Shoes" },
+            { "id": "o3", "text": "Gloves" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sombrero'?",
+          "options": [
+            { "id": "o1", "text": "Hat" },
+            { "id": "o2", "text": "Cap" },
+            { "id": "o3", "text": "Helmet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bufanda'?",
+          "options": [
+            { "id": "o1", "text": "Scarf" },
+            { "id": "o2", "text": "Tie" },
+            { "id": "o3", "text": "Belt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guantes'?",
+          "options": [
+            { "id": "o1", "text": "Gloves" },
+            { "id": "o2", "text": "Socks" },
+            { "id": "o3", "text": "Boots" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pantalones cortos'?",
+          "options": [
+            { "id": "o1", "text": "Shorts" },
+            { "id": "o2", "text": "Pants" },
+            { "id": "o3", "text": "Jeans" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vaqueros'?",
+          "options": [
+            { "id": "o1", "text": "Jeans" },
+            { "id": "o2", "text": "Trousers" },
+            { "id": "o3", "text": "Leggings" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinturón'?",
+          "options": [
+            { "id": "o1", "text": "Belt" },
+            { "id": "o2", "text": "Scarf" },
+            { "id": "o3", "text": "Tie" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'corbata'?",
+          "options": [
+            { "id": "o1", "text": "Tie" },
+            { "id": "o2", "text": "Scarf" },
+            { "id": "o3", "text": "Belt" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'botas'?",
+          "options": [
+            { "id": "o1", "text": "Boots" },
+            { "id": "o2", "text": "Shoes" },
+            { "id": "o3", "text": "Sandals" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gafas'?",
+          "options": [
+            { "id": "o1", "text": "Glasses" },
+            { "id": "o2", "text": "Sunglasses" },
+            { "id": "o3", "text": "Both are related" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bolso'?",
+          "options": [
+            { "id": "o1", "text": "Handbag / Purse" },
+            { "id": "o2", "text": "Backpack" },
+            { "id": "o3", "text": "Wallet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reloj (de pulsera)'?",
+          "options": [
+            { "id": "o1", "text": "Watch" },
+            { "id": "o2", "text": "Clock" },
+            { "id": "o3", "text": "Wrist" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I21",
+          "type": "matching",
+          "prompt_es": "Une las prendas:",
+          "pairs": [
+            { "id": "p1", "left": "Suit", "right": "Traje" },
+            { "id": "p2", "left": "Sweater / Jumper", "right": "Jersey" },
+            { "id": "p3", "left": "Raincoat", "right": "Chubasquero" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I22",
+          "type": "matching",
+          "prompt_es": "Une los accesorios:",
+          "pairs": [
+            { "id": "p1", "left": "Earrings", "right": "Pendientes" },
+            { "id": "p2", "left": "Ring", "right": "Anillo" },
+            { "id": "p3", "left": "Necklace", "right": "Collar" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I wear a white ___ (camisa) for work.'",
+          "stimulus_en": "___",
+          "correct_answer": "shirt",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I24",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It's cold. Put on your ___ (abrigo).'",
+          "stimulus_en": "___",
+          "correct_answer": "coat",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I25",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She is wearing a beautiful red ___ (vestido).'",
+          "stimulus_en": "___",
+          "correct_answer": "dress",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Demonstratives: This, That, These, Those",
+      "content": [
+        {
+          "interaction_id": "U10_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'This'?",
+          "options": [
+            { "id": "o1", "text": "Singular y cerca (esto/esta)" },
+            { "id": "o2", "text": "Plural y cerca" },
+            { "id": "o3", "text": "Singular y lejos" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_Ta1-u10-leisure_I1",
-          "title": "Leisure and Sports: A1 Beginner Exercise",
-          "instructions": "Choose the correct option for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "Where is the ball?",
-              "options": [
-                "A) In the box",
-                "B) He is the box",
-                "C) She box",
-                "D) We box"
-              ],
-              "correctAnswer": "A) In the box",
-              "explanation": "Usamos 'in' para indicar que algo está dentro de otra cosa."
-            },
-            {
-              "id": "q2",
-              "question": "He ___ a book.",
-              "options": [
-                "A) is",
-                "B) are",
-                "C) am",
-                "D) you"
-              ],
-              "correctAnswer": "A) is",
-              "explanation": "Usamos 'is' con los pronombres 'he', 'she', e 'it'."
-            },
-            {
-              "id": "q3",
-              "question": "Let's ___ tennis.",
-              "options": [
-                "A) play",
-                "B) plays",
-                "C) playing",
-                "D) played"
-              ],
-              "correctAnswer": "A) play",
-              "explanation": "Después de 'Let's', usamos el verbo en infinitivo sin 'to'."
-            },
-            {
-              "id": "q4",
-              "question": "The book is ___ the table.",
-              "options": [
-                "A) on",
-                "B) in",
-                "C) under",
-                "D) next"
-              ],
-              "correctAnswer": "A) on",
-              "explanation": "Usamos 'on' para indicar que algo está sobre una superficie."
-            }
+          "interaction_id": "U10_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'That'?",
+          "options": [
+            { "id": "o1", "text": "Singular y lejos (eso/aquello)" },
+            { "id": "o2", "text": "Plural y lejos" },
+            { "id": "o3", "text": "Singular y cerca" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'These'?",
+          "options": [
+            { "id": "o1", "text": "Plural y cerca (estos/estas)" },
+            { "id": "o2", "text": "Plural y lejos" },
+            { "id": "o3", "text": "Singular y cerca" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'Those'?",
+          "options": [
+            { "id": "o1", "text": "Plural y lejos (esos/aquellos)" },
+            { "id": "o2", "text": "Plural y cerca" },
+            { "id": "o3", "text": "Singular y lejos" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (este) shirt is too small.'",
+          "stimulus_en": "___",
+          "correct_answer": "this",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I31",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (esas) shoes are expensive.'",
+          "stimulus_en": "___",
+          "correct_answer": "those",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I32",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (esta) is my favorite dress.'",
+          "stimulus_en": "___",
+          "correct_answer": "this",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Look at ___ (aquel) coat over there.'",
+          "stimulus_en": "___",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I like ___ (estos) jeans.'",
+          "stimulus_en": "___",
+          "correct_answer": "these",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Es correcto decir 'this shoes'?",
+          "options": [
+            { "id": "o1", "text": "No, shoes is plural. Use 'these shoes'." },
+            { "id": "o2", "text": "Yes, it is correct." },
+            { "id": "o3", "text": "No, use 'that shoes'." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Es correcto decir 'that trousers'?",
+          "options": [
+            { "id": "o1", "text": "No, trousers is plural. Use 'those trousers'." },
+            { "id": "o2", "text": "Yes, it is correct." },
+            { "id": "o3", "text": "No, use 'this trousers'." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I37",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'este vestido es bonito'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "This" },
+            { "id": "w3", "text": "dress" },
+            { "id": "w4", "text": "beautiful" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I38",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'aquellos zapatos son viejos'",
+          "options": [
+            { "id": "w1", "text": "old" },
+            { "id": "w2", "text": "Those" },
+            { "id": "w3", "text": "shoes" },
+            { "id": "w4", "text": "are" }
+          ],
+          "correct_answer": ["w2", "w3", "w4", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I39",
+          "type": "matching",
+          "prompt_es": "Relaciona:",
+          "pairs": [
+            { "id": "p1", "left": "This", "right": "Esto" },
+            { "id": "p2", "left": "That", "right": "Eso" },
+            { "id": "p3", "left": "These", "right": "Estos" },
+            { "id": "p4", "left": "Those", "right": "Esos" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I40",
+          "type": "true_false",
+          "prompt_es": "'Jeans' siempre se trata como plural en inglés.",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Decimos 'These jeans are...', nunca 'This jean is...'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I41",
+          "type": "true_false",
+          "prompt_es": "'This' y 'These' se usan para cosas que están lejos.",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Exacto! Se usan para cosas cercanas.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want ___ (esa) blue jacket over there.'",
+          "stimulus_en": "___",
+          "correct_answer": "that",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (estos) socks are very warm.'",
+          "stimulus_en": "___",
+          "correct_answer": "these",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (esta) cap is cool.'",
+          "stimulus_en": "___",
+          "correct_answer": "this",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Look at ___ (aquellos) kids.'",
+          "stimulus_en": "___",
+          "correct_answer": "those",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U10_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talla'?",
+          "options": [
+            { "id": "o1", "text": "Size" },
+            { "id": "o2", "text": "Measure" },
+            { "id": "o3", "text": "Big" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talla pequeña'?",
+          "options": [
+            { "id": "o1", "text": "Small" },
+            { "id": "o2", "text": "Little" },
+            { "id": "o3", "text": "Minor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talla mediana'?",
+          "options": [
+            { "id": "o1", "text": "Medium" },
+            { "id": "o2", "text": "Middle" },
+            { "id": "o3", "text": "Center" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talla grande'?",
+          "options": [
+            { "id": "o1", "text": "Large" },
+            { "id": "o2", "text": "Big" },
+            { "id": "o3", "text": "Great" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'probador'?",
+          "options": [
+            { "id": "o1", "text": "Changing room / Fitting room" },
+            { "id": "o2", "text": "Try room" },
+            { "id": "o3", "text": "Test room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Shopping & Prices",
+      "content": [
+        {
+          "interaction_id": "U10_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto cuesta esto?'?",
+          "options": [
+            { "id": "o1", "text": "How much is this?" },
+            { "id": "o2", "text": "How many is this?" },
+            { "id": "o3", "text": "Price of this?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto cuestan estos?'?",
+          "options": [
+            { "id": "o1", "text": "How much are these?" },
+            { "id": "o2", "text": "How many are these?" },
+            { "id": "o3", "text": "Prices of these?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caro'?",
+          "options": [
+            { "id": "o1", "text": "Expensive" },
+            { "id": "o2", "text": "Cheap" },
+            { "id": "o3", "text": "Rich" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'barato'?",
+          "options": [
+            { "id": "o1", "text": "Cheap" },
+            { "id": "o2", "text": "Expensive" },
+            { "id": "o3", "text": "Poor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'rebajas'?",
+          "options": [
+            { "id": "o1", "text": "Sales" },
+            { "id": "o2", "text": "Discounts" },
+            { "id": "o3", "text": "Offers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'descuento'?",
+          "options": [
+            { "id": "o1", "text": "Discount" },
+            { "id": "o2", "text": "Sale" },
+            { "id": "o3", "text": "Less price" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'caja' (donde pagas)?",
+          "options": [
+            { "id": "o1", "text": "Checkout / Till (UK) / Cashier" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Payment" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recibo / tique'?",
+          "options": [
+            { "id": "o1", "text": "Receipt" },
+            { "id": "o2", "text": "Recipe" },
+            { "id": "o3", "text": "Ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¿Puedo probármelo?'?",
+          "options": [
+            { "id": "o1", "text": "Can I try it on?" },
+            { "id": "o2", "text": "Can I test it?" },
+            { "id": "o3", "text": "Can I wear it?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Solo estoy mirando'?",
+          "options": [
+            { "id": "o1", "text": "I'm just looking, thanks." },
+            { "id": "o2", "text": "I'm only watching." },
+            { "id": "o3", "text": "I'm just seeing." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me lo llevo'?",
+          "options": [
+            { "id": "o1", "text": "I'll take it." },
+            { "id": "o2", "text": "I'll carry it." },
+            { "id": "o3", "text": "I'll get it." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pagar en efectivo'?",
+          "options": [
+            { "id": "o1", "text": "Pay in cash" },
+            { "id": "o2", "text": "Pay with money" },
+            { "id": "o3", "text": "Pay hand" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pagar con tarjeta'?",
+          "options": [
+            { "id": "o1", "text": "Pay by card" },
+            { "id": "o2", "text": "Pay with plastic" },
+            { "id": "o3", "text": "Pay machine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Can I ___ (probarme) these trousers?'",
+          "stimulus_en": "___ on",
+          "correct_answer": "try",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'It costs ___ (quince) pounds.'",
+          "stimulus_en": "___",
+          "correct_answer": "fifteen",
+          "mastery_tag": "numbers"
+        },
+        {
+          "interaction_id": "U10_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The dress is ___ (veinte) dollars.'",
+          "stimulus_en": "___",
+          "correct_answer": "twenty",
+          "mastery_tag": "numbers"
+        },
+        {
+          "interaction_id": "U10_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se lee '£5.50'?",
+          "options": [
+            { "id": "o1", "text": "Five pounds fifty" },
+            { "id": "o2", "text": "Five point fifty" },
+            { "id": "o3", "text": "Five fifty pounds" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "numbers"
+        },
+        {
+          "interaction_id": "U10_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se lee '$10.99'?",
+          "options": [
+            { "id": "o1", "text": "Ten dollars ninety-nine" },
+            { "id": "o2", "text": "Ten ninety-nine dollars" },
+            { "id": "o3", "text": "Ten ninety-nine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "numbers"
+        },
+        {
+          "interaction_id": "U10_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'It's a bargain'?",
+          "options": [
+            { "id": "o1", "text": "Es una ganga / chollo" },
+            { "id": "o2", "text": "Es muy caro" },
+            { "id": "o3", "text": "Es de mala calidad" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Refund'?",
+          "options": [
+            { "id": "o1", "text": "Reembolso / Devolución de dinero" },
+            { "id": "o2", "text": "Cambio de prenda" },
+            { "id": "o3", "text": "Vale de compra" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No me queda bien' (talla)?",
+          "options": [
+            { "id": "o1", "text": "It doesn't fit me." },
+            { "id": "o2", "text": "It doesn't suit me." },
+            { "id": "o3", "text": "It doesn't match me." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No me favorece' (estilo)?",
+          "options": [
+            { "id": "o1", "text": "It doesn't suit me." },
+            { "id": "o2", "text": "It doesn't fit me." },
+            { "id": "o3", "text": "It's not my size." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I73",
+          "type": "matching",
+          "prompt_es": "Une los verbos:",
+          "pairs": [
+            { "id": "p1", "left": "Fit", "right": "Quedar bien (talla)" },
+            { "id": "p2", "left": "Suit", "right": "Sentar bien (estilo)" },
+            { "id": "p3", "left": "Match", "right": "Combinar (colores/prendas)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'algodón'?",
+          "options": [
+            { "id": "o1", "text": "Cotton" },
+            { "id": "o2", "text": "Wool" },
+            { "id": "o3", "text": "Silk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'lana'?",
+          "options": [
+            { "id": "o1", "text": "Wool" },
+            { "id": "o2", "text": "Leather" },
+            { "id": "o3", "text": "Cotton" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U10_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra ropa y accesorios:",
+          "words": ["SHIRT", "DRESS", "BOOTS", "WATCH", "SCARF", "JEANS", "COAT", "HAT"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "SHIRT", "clue": "Camisa" },
+            { "word": "DRESS", "clue": "Vestido" },
+            { "word": "BOOTS", "clue": "Botas" },
+            { "word": "WATCH", "clue": "Reloj" },
+            { "word": "SCARF", "clue": "Bufanda" },
+            { "word": "JEANS", "clue": "Vaqueros" },
+            { "word": "COAT", "clue": "Abrigo" },
+            { "word": "HAT", "clue": "Sombrero" }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_Ta1-u10-leisure_I0",
-          "text": "Lisa loves leisure activities. She plays **(1)** after school. Her brother, Tom, enjoys **(2)** books. On weekends, they go to the **(3)** together to watch movies. Lisa also likes listening to **(4)**. Her favorite singer is Taylor Swift. Tom has a different **(5)**. He prefers classical **(6)**. Every Saturday, they visit their grandparents. Lisa's grandmother often talks about her favorite **(7)**, which is gardening. Tom's grandfather prefers watching **(8)** matches on TV.",
-          "questions": [
-            {
-              "gap": 1,
-              "options": [
-                "tennis",
-                "piano",
-                "cooking",
-                "reading"
-              ],
-              "correct": "tennis",
-              "explanation": "Lisa plays a sport after school. 'Tennis' es un deporte, mientras que las otras opciones no lo son."
-            },
-            {
-              "gap": 2,
-              "options": [
-                "watching",
-                "playing",
-                "reading",
-                "listening"
-              ],
-              "correct": "reading",
-              "explanation": "Tom disfruta de una actividad tranquila. 'Reading' se refiere a leer libros, lo cual es consistente con el contexto."
-            },
-            {
-              "gap": 3,
-              "options": [
-                "park",
-                "cinema",
-                "library",
-                "gym"
-              ],
-              "correct": "cinema",
-              "explanation": "Van a un lugar para ver películas. 'Cinema' es el lugar adecuado para ver películas, no los otros."
-            },
-            {
-              "gap": 4,
-              "options": [
-                "music",
-                "games",
-                "movies",
-                "dances"
-              ],
-              "correct": "music",
-              "explanation": "Lisa escucha algo. 'Music' es lo que se escucha, las otras opciones no son correctas en este contexto."
-            },
-            {
-              "gap": 5,
-              "options": [
-                "hobby",
-                "food",
-                "pet",
-                "color"
-              ],
-              "correct": "hobby",
-              "explanation": "Tom tiene un interés diferente. 'Hobby' se refiere a una actividad de ocio, a diferencia de las otras opciones."
-            },
-            {
-              "gap": 6,
-              "options": [
-                "sports",
-                "music",
-                "dinner",
-                "painting"
-              ],
-              "correct": "music",
-              "explanation": "Tom prefiere un tipo diferente de música. 'Classical music' es una categoría musical, las otras opciones no encajan."
-            },
-            {
-              "gap": 7,
-              "options": [
-                "habit",
-                "team",
-                "hobby",
-                "singer"
-              ],
-              "correct": "hobby",
-              "explanation": "La abuela de Lisa habla de su actividad favorita de ocio. 'Hobby' es correcto, ya que gardening es una afición."
-            },
-            {
-              "gap": 8,
-              "options": [
-                "tennis",
-                "reading",
-                "football",
-                "cooking"
-              ],
-              "correct": "football",
-              "explanation": "El abuelo de Tom prefiere ver partidos. 'Football' son partidos, las otras opciones no son tipos de partidos."
-            }
+          "interaction_id": "U10_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de compras:",
+          "items": [
+            { "word": "PRICE", "clue": "How much it costs", "direction": "across", "row": 0, "col": 0 },
+            { "word": "CHEAP", "clue": "Not expensive", "direction": "down", "row": 0, "col": 0 },
+            { "word": "SIZE", "clue": "Small, Medium or Large", "direction": "across", "row": 2, "col": 0 },
+            { "word": "CARD", "clue": "Pay by ___", "direction": "down", "row": 0, "col": 3 }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_Ta1-u10-present-continuous_I1",
-          "title": "Present Continuous Practice",
-          "instructions": "Choose the correct option to complete each sentence.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What is Maria doing right now?",
-              "options": [
-                "A. Maria is reading a book.",
-                "B. Maria reads a book.",
-                "C. Maria read a book.",
-                "D. Maria will read a book."
-              ],
-              "correctAnswer": "A",
-              "explanation": "Usamos el presente continuo para acciones que ocurren en este momento. La forma correcta es 'is reading'."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the cat sleeping?",
-              "options": [
-                "A. The cat is sleep on the chair.",
-                "B. The cat sleeps on the chair.",
-                "C. The cat is sleeping on the chair.",
-                "D. The cat sleep on the chair."
-              ],
-              "correctAnswer": "C",
-              "explanation": "La forma correcta para describir una acción en progreso es 'is sleeping'."
-            },
-            {
-              "id": "q3",
-              "question": "Who is watching TV at the moment?",
-              "options": [
-                "A. John watch TV.",
-                "B. John is watching TV.",
-                "C. John watches TV.",
-                "D. John watched TV."
-              ],
-              "correctAnswer": "B",
-              "explanation": "Para acciones que están ocurriendo ahora, usamos 'is watching'."
-            },
-            {
-              "id": "q4",
-              "question": "When is the teacher talking to the class?",
-              "options": [
-                "A. The teacher is talking now.",
-                "B. The teacher talks now.",
-                "C. The teacher talked now.",
-                "D. The teacher will talk now."
-              ],
-              "correctAnswer": "A",
-              "explanation": "El presente continuo 'is talking' se usa para indicar lo que está sucediendo en este momento."
-            }
+          "interaction_id": "U10_I78",
+          "type": "matching",
+          "prompt_es": "Une demostrativos:",
+          "pairs": [
+            { "id": "p1", "left": "This shirt", "right": "Cerca, singular" },
+            { "id": "p2", "left": "Those shoes", "right": "Lejos, plural" },
+            { "id": "p3", "left": "That coat", "right": "Lejos, singular" }
           ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_Ta1-u10-present-continuous_I2",
-          "questions": [
-            {
-              "sentence": "There ___ a cat in the garden.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "is",
-              "explanation": "Usamos 'is' porque 'cat' es singular.",
-              "points": 1
-            },
-            {
-              "sentence": "There ___ books on the table.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "are",
-              "explanation": "Usamos 'are' porque 'books' es plural.",
-              "points": 1
-            },
-            {
-              "sentence": "My brother ___ two dogs.",
-              "options": [
-                "have",
-                "has"
-              ],
-              "correctAnswer": "has",
-              "explanation": "Usamos 'has' con 'he', 'she', o 'it'.",
-              "points": 1
-            },
-            {
-              "sentence": "We ___ to school every day.",
-              "options": [
-                "go",
-                "goes"
-              ],
-              "correctAnswer": "go",
-              "explanation": "Usamos 'go' con 'we', 'you', o 'they'.",
-              "points": 1
-            },
-            {
-              "sentence": "My sister ___ very happy.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "is",
-              "explanation": "Usamos 'is' con 'he', 'she', o 'it'.",
-              "points": 1
-            },
-            {
-              "sentence": "The cars ___ red.",
-              "options": [
-                "is",
-                "are"
-              ],
-              "correctAnswer": "are",
-              "explanation": "Usamos 'are' porque 'cars' es plural.",
-              "points": 1
-            },
-            {
-              "sentence": "This is ___ book.",
-              "options": [
-                "my",
-                "I"
-              ],
-              "correctAnswer": "my",
-              "explanation": "Usamos 'my' para indicar posesión.",
-              "points": 1
-            },
-            {
-              "sentence": "Please ___ the door.",
-              "options": [
-                "open",
-                "opens"
-              ],
-              "correctAnswer": "open",
-              "explanation": "Usamos el imperativo sin 's' para órdenes.",
-              "points": 1
-            }
-          ],
+          "interaction_id": "U10_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Shoes' es una palabra plural?",
+          "correct_answer": true,
+          "feedback_correct_es": "¡Correcto! Por eso decimos 'These shoes' o 'Those shoes'.",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U10_Ta1-u10-lets_I0",
-          "title": "Basic English Grammar Practice",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "Where is the book? It is ___ the table.",
-              "options": [
-                "A. on",
-                "B. in",
-                "C. under",
-                "D. next to"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La preposición 'on' se utiliza para indicar que algo está sobre una superficie, como una mesa."
-            },
-            {
-              "id": "q2",
-              "question": "Who is he? He is my ___ brother.",
-              "options": [
-                "A. your",
-                "B. her",
-                "C. his",
-                "D. little"
-              ],
-              "correctAnswer": "D",
-              "explanation": "La palabra 'little' se usa para describir algo pequeño o menor. Aquí, se refiere al hermano menor."
-            },
-            {
-              "id": "q3",
-              "question": "She ___ to school every day.",
-              "options": [
-                "A. go",
-                "B. goes",
-                "C. going",
-                "D. gone"
-              ],
-              "correctAnswer": "B",
-              "explanation": "En presente simple, con el sujeto 'she', el verbo 'go' se convierte en 'goes' para expresar una acción habitual."
-            },
-            {
-              "id": "q4",
-              "question": "The cat is ___ the chair.",
-              "options": [
-                "A. next to",
-                "B. under",
-                "C. in",
-                "D. on"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La preposición 'under' se usa para indicar que algo está abajo de otra cosa, en este caso, la silla."
-            }
-          ],
-          "mastery_tag": "speaking"
-        },
-        {
-          "interaction_id": "U10_Ta1-u10-leisure_I2",
-          "title": "Leisure and Sports: Basic Grammar Exercise",
-          "instructions": "Choose the correct option for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is the football?",
-              "options": [
-                "A) Blue",
-                "B) Happy",
-                "C) Quickly",
-                "D) Sad"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La pregunta se refiere al color del fútbol, y 'Blue' es un color. Las otras opciones no son colores."
-            },
-            {
-              "id": "q2",
-              "question": "Where do you play tennis?",
-              "options": [
-                "A) In the park",
-                "B) At the evening",
-                "C) With a book",
-                "D) Often"
-              ],
-              "correctAnswer": "A",
-              "explanation": "Jugamos al tenis en un lugar físico, y 'In the park' es el lugar correcto. Las otras opciones no son lugares adecuados para jugar al tenis."
-            },
-            {
-              "id": "q3",
-              "question": "When do you read books?",
-              "options": [
-                "A) At night",
-                "B) In the tennis",
-                "C) Blue",
-                "D) Quickly"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La pregunta se centra en el tiempo, y 'At night' es una respuesta adecuada para indicar cuándo se lee. Las otras opciones no son tiempos."
-            },
-            {
-              "id": "q4",
-              "question": "Who likes music?",
-              "options": [
-                "A) My friend",
-                "B) At school",
-                "C) Orange",
-                "D) Slowly"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La pregunta busca a una persona, y 'My friend' es la opción correcta que refiere a una persona. Las otras opciones no se refieren a personas."
-            }
-          ],
+          "interaction_id": "U10_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Sale' significa 'caro'?",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Exacto! 'Sale' significa 'rebaja' u 'oferta'.",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_Ta1-u10-lets_I1",
-          "title": "Making Suggestions with Basic Verbs",
-          "instructions": "Choose the best suggestion for the situation.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "You and your friend want to eat. What do you say?",
-              "options": [
-                "A. Let's eat something.",
-                "B. Why don't we read?",
-                "C. Let's play a game.",
-                "D. Shall we dance?"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción A es correcta porque 'Let's eat something.' es una sugerencia directa para comer, que es adecuada para la situación."
-            },
-            {
-              "id": "q2",
-              "question": "It's a sunny day and you have no plans. What do you suggest?",
-              "options": [
-                "A. Shall we go to the beach?",
-                "B. Let's study for exams.",
-                "C. Why don't we watch a movie?",
-                "D. Let's sleep now."
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción A es correcta porque 'Shall we go to the beach?' es una sugerencia adecuada para disfrutar de un día soleado."
-            },
-            {
-              "id": "q3",
-              "question": "You are bored at home. What is a good suggestion?",
-              "options": [
-                "A. Why don't we make a cake?",
-                "B. Let's do homework.",
-                "C. Shall we clean the house?",
-                "D. Let's stay here."
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción A es correcta porque 'Why don't we make a cake?' sugiere una actividad divertida para combatir el aburrimiento."
-            },
-            {
-              "id": "q4",
-              "question": "Your friend wants to relax. What do you say?",
-              "options": [
-                "A. Let's run a marathon.",
-                "B. Why don't we listen to music?",
-                "C. Shall we study now?",
-                "D. Let's write a book."
-              ],
-              "correctAnswer": "B",
-              "explanation": "La opción B es correcta porque 'Why don't we listen to music?' es una sugerencia relajante para ayudar a tu amigo a relajarse."
-            }
+          "interaction_id": "U10_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuero'?",
+          "options": [
+            { "id": "o1", "text": "Leather" },
+            { "id": "o2", "text": "Skin" },
+            { "id": "o3", "text": "Fabric" }
           ],
-          "mastery_tag": "speaking"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U10_Ta1-u10-lets_I2",
-          "title": "Basic English Grammar: Prepositions and Demonstratives",
-          "instructions": "Choose the correct answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What color is this car?",
-              "options": [
-                "A) Red",
-                "B) Dog",
-                "C) Jump",
-                "D) Quickly"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción A es correcta porque 'Red' es un color, que responde a la pregunta sobre el color del coche."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the book? It is ___ the table.",
-              "options": [
-                "A) in",
-                "B) on",
-                "C) at",
-                "D) by"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La opción B es correcta porque 'on' se usa para indicar que algo está sobre una superficie, como una mesa."
-            },
-            {
-              "id": "q3",
-              "question": "This is ___ brother.",
-              "options": [
-                "A) my",
-                "B) dog",
-                "C) fast",
-                "D) quickly"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción A es correcta porque 'my' es un adjetivo posesivo que se usa para mostrar que el hermano pertenece a la persona que habla."
-            },
-            {
-              "id": "q4",
-              "question": "___ is your name?",
-              "options": [
-                "A) Who",
-                "B) What",
-                "C) Where",
-                "D) When"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La opción B es correcta porque 'What' se utiliza para preguntar sobre información específica, como un nombre."
-            }
+          "interaction_id": "U10_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'seda'?",
+          "options": [
+            { "id": "o1", "text": "Silk" },
+            { "id": "o2", "text": "Soft" },
+            { "id": "o3", "text": "Cloth" }
           ],
-          "mastery_tag": "speaking"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estampado'?",
+          "options": [
+            { "id": "o1", "text": "Pattern / Printed" },
+            { "id": "o2", "text": "Draw" },
+            { "id": "o3", "text": "Color" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'a rayas'?",
+          "options": [
+            { "id": "o1", "text": "Striped" },
+            { "id": "o2", "text": "Lined" },
+            { "id": "o3", "text": "Crossed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'a cuadros'?",
+          "options": [
+            { "id": "o1", "text": "Checked / Plaid" },
+            { "id": "o2", "text": "Squared" },
+            { "id": "o3", "text": "Boxed" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'de lunares'?",
+          "options": [
+            { "id": "o1", "text": "Polka dot" },
+            { "id": "o2", "text": "Pointy" },
+            { "id": "o3", "text": "Circles" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'liso' (sin estampado)?",
+          "options": [
+            { "id": "o1", "text": "Plain" },
+            { "id": "o2", "text": "Simple" },
+            { "id": "o3", "text": "Flat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apretado / estrecho'?",
+          "options": [
+            { "id": "o1", "text": "Tight" },
+            { "id": "o2", "text": "Close" },
+            { "id": "o3", "text": "Small" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suelto / holgado'?",
+          "options": [
+            { "id": "o1", "text": "Loose" },
+            { "id": "o2", "text": "Big" },
+            { "id": "o3", "text": "Wide" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bolsillo'?",
+          "options": [
+            { "id": "o1", "text": "Pocket" },
+            { "id": "o2", "text": "Bag" },
+            { "id": "o3", "text": "Hole" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cremallera'?",
+          "options": [
+            { "id": "o1", "text": "Zip (UK) / Zipper (US)" },
+            { "id": "o2", "text": "Closer" },
+            { "id": "o3", "text": "Line" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'botón'?",
+          "options": [
+            { "id": "o1", "text": "Button" },
+            { "id": "o2", "text": "Point" },
+            { "id": "o3", "text": "Round" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'capucha'?",
+          "options": [
+            { "id": "o1", "text": "Hood" },
+            { "id": "o2", "text": "Cap" },
+            { "id": "o3", "text": "Hat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mangas'?",
+          "options": [
+            { "id": "o1", "text": "Sleeves" },
+            { "id": "o2", "text": "Arms" },
+            { "id": "o3", "text": "Hands" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I95",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'A ___ (jersey) with a ___ (capucha) is a hoodie.'",
+          "stimulus_en": "A ___ with a ___",
+          "correct_answer": "sweater, hood",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'How would you like to pay?'?",
+          "options": [
+            { "id": "o1", "text": "¿Cómo desea pagar?" },
+            { "id": "o2", "text": "¿Cuánto desea pagar?" },
+            { "id": "o3", "text": "¿Dónde desea pagar?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U10_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cambio' (el dinero que te devuelven)?",
+          "options": [
+            { "id": "o1", "text": "Change" },
+            { "id": "o2", "text": "Return" },
+            { "id": "o3", "text": "Money back" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cliente'?",
+          "options": [
+            { "id": "o1", "text": "Customer" },
+            { "id": "o2", "text": "Client" },
+            { "id": "o3", "text": "Both are correct, 'customer' is common in shops" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dependiente'?",
+          "options": [
+            { "id": "o1", "text": "Shop assistant / Sales assistant" },
+            { "id": "o2", "text": "Worker" },
+            { "id": "o3", "text": "Helper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U10_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta a 'Here is your change and your receipt'?",
+          "options": [
+            { "id": "o1", "text": "Thank you, goodbye." },
+            { "id": "o2", "text": "You're welcome." },
+            { "id": "o3", "text": "Please." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
         }
       ]
     }

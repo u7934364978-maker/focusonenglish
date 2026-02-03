@@ -4,7 +4,7 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- MORNING ROUTINE (Ex 2-11)
+-- MORNING ROUTINE 
 ('a1-m2-l13-ex2', 'a1-m2-l13', 1, 'multipleChoice', 'Wake up', '{
     "prompt": "I ___ at 7:00 AM.",
     "options": ["wake up", "go to bed", "eat lunch"],
@@ -63,7 +63,7 @@ VALUES
     "answerIndex": 0
 }'),
 
--- AFTERNOON & WORK (Ex 12-21)
+-- AFTERNOON & WORK 
 ('a1-m2-l13-ex12', 'a1-m2-l13', 11, 'multipleChoice', 'Lunch time', '{
     "prompt": "I have lunch at ___.",
     "options": ["1:00 PM", "8:00 AM", "10:00 PM"],
@@ -121,7 +121,7 @@ VALUES
     ]
 }'),
 
--- EVENING & NIGHT (Ex 22-31)
+-- EVENING & NIGHT 
 ('a1-m2-l13-ex22', 'a1-m2-l13', 21, 'multipleChoice', 'Dinner', '{
     "prompt": "I have ___ with my family at 8 PM.",
     "options": ["dinner", "lunch", "breakfast"],
@@ -179,18 +179,18 @@ VALUES
     ]
 }'),
 
--- ADVERBS OF FREQUENCY (Ex 32-41)
+-- ADVERBS OF FREQUENCY 
 ('a1-m2-l13-ex32', 'a1-m2-l13', 31, 'multipleChoice', 'Always', '{
-    "prompt": "I ___ wake up at 7. (100% of time)",
+    "prompt": "I ___ wake up at 7.",
     "options": ["always", "never", "sometimes"],
     "answerIndex": 0
 }'),
 ('a1-m2-l13-ex33', 'a1-m2-l13', 32, 'fillBlanks', 'Never', '{
-    "text": "I ___ (0%) drink coffee at night.",
+    "text": "I ___ drink coffee at night.",
     "answers": ["never"]
 }'),
 ('a1-m2-l13-ex34', 'a1-m2-l13', 33, 'multipleChoice', 'Sometimes', '{
-    "prompt": "I ___ go for a walk. (50% of time)",
+    "prompt": "I ___ go for a walk.",
     "options": ["sometimes", "always", "never"],
     "answerIndex": 0
 }'),
@@ -208,12 +208,12 @@ VALUES
     "translation": "A menudo leo por la noche"
 }'),
 ('a1-m2-l13-ex37', 'a1-m2-l13', 36, 'multipleChoice', 'Usually', '{
-    "prompt": "I ___ have lunch at 1. (80% of time)",
+    "prompt": "I ___ have lunch at 1.",
     "options": ["usually", "never", "rarely"],
     "answerIndex": 0
 }'),
 ('a1-m2-l13-ex38', 'a1-m2-l13', 37, 'fillBlanks', 'Adverb position', '{
-    "text": "I ___ (always) arrive on time.",
+    "text": "I ___ arrive on time.",
     "answers": ["always"]
 }'),
 ('a1-m2-l13-ex39', 'a1-m2-l13', 38, 'matching', 'Adverb translation', '{
@@ -224,7 +224,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l13-ex40', 'a1-m2-l13', 39, 'multipleChoice', 'Hardly ever', '{
-    "prompt": "I ___ eat meat. (5%)",
+    "prompt": "I ___ eat meat.",
     "options": ["hardly ever", "always", "usually"],
     "answerIndex": 0
 }'),
@@ -237,7 +237,7 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l13-ex42', 'a1-m2-l13', 41, 'multipleChoice', 'Routine 1', '{
     "prompt": "What do you do first?",
     "options": ["Wake up", "Have breakfast", "Go to work"],

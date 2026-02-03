@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Cursos de Inglés Online en España | Focus English",
+  title: "Cursos de Inglés Online en España",
   description: "Cursos de inglés online en España certificados. Especializados en trabajo, viajes y exámenes oficiales. Programas de 90 días. Desde €6.99/mes.",
   keywords: [
     "cursos de inglés online españa",
@@ -395,9 +395,9 @@ export default function HomePage() {
             <div>
               <h4 className="font-bold mb-4">Cursos</h4>
               <ul className="space-y-2 text-sm text-slate-400">
-                <li><Link href="/cursos/trabajo" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
-                <li><Link href="/cursos/viajes" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
-                <li><Link href="/cursos/examenes" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
+                <li><Link href="/planes" className="hover:text-white transition-colors">Inglés para Trabajar</Link></li>
+                <li><Link href="/planes" className="hover:text-white transition-colors">Inglés para Viajar</Link></li>
+                <li><Link href="/planes" className="hover:text-white transition-colors">Preparación Exámenes</Link></li>
               </ul>
             </div>
 

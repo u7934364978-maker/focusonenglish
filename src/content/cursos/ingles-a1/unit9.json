@@ -4,528 +4,1177 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U9",
-    "unit_title": "La ciudad y direcciones",
-    "total_duration_minutes": 120
+    "unit_title": "Food & Drink",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B9",
-      "title": "La ciudad y direcciones",
+      "block_id": "B1",
+      "title": "Food & Drink Vocabulary",
       "content": [
         {
-          "interaction_id": "U9_Ta1-u9-transport_I1",
-          "instructions": "Fill in the blanks with the correct word or phrase. Use the words given in the brackets if needed.",
-          "questions": [
-            {
-              "question": "______ (What) is your favorite color for a bike?",
-              "options": [
-                "What"
-              ],
-              "correct_answer": "What",
-              "explanation": "Usamos 'What' para preguntar sobre preferencias o información específica.",
-              "points": 1
-            },
-            {
-              "question": "I have a red car. ______ (It) is very fast.",
-              "options": [
-                "It"
-              ],
-              "correct_answer": "It",
-              "explanation": "Usamos 'It' para referirnos a objetos mencionados antes, en este caso, el coche.",
-              "points": 1
-            },
-            {
-              "question": "______ (Where) is the train station?",
-              "options": [
-                "Where"
-              ],
-              "correct_answer": "Where",
-              "explanation": "Usamos 'Where' para preguntar sobre localizaciones o lugares.",
-              "points": 1
-            },
-            {
-              "question": "He ______ (go) to school by bus every day.",
-              "options": [
-                "goes"
-              ],
-              "correct_answer": "goes",
-              "explanation": "En presente simple para él/ella/eso, añadimos 'es' al verbo.",
-              "points": 1
-            },
-            {
-              "question": "This is my bike. Do you like ______ (it)?",
-              "options": [
-                "it"
-              ],
-              "correct_answer": "it",
-              "explanation": "Usamos 'it' como pronombre objeto para referirnos a cosas ya mencionadas.",
-              "points": 1
-            },
-            {
-              "question": "______ (When) does the plane leave?",
-              "options": [
-                "When"
-              ],
-              "correct_answer": "When",
-              "explanation": "Usamos 'When' para preguntar sobre el tiempo o momento en que ocurre algo.",
-              "points": 1
-            },
-            {
-              "question": "This is his taxi. ______ (His) taxi is yellow.",
-              "options": [
-                "His"
-              ],
-              "correct_answer": "His",
-              "explanation": "Usamos 'His' como adjetivo posesivo para indicar que algo pertenece a él.",
-              "points": 1
-            },
-            {
-              "question": "We ______ (like) to ride bikes on the weekend.",
-              "options": [
-                "like"
-              ],
-              "correct_answer": "like",
-              "explanation": "Usamos 'like' para expresar preferencias o gustos en presente simple.",
-              "points": 1
-            }
+          "interaction_id": "U9_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'manzana'?",
+          "options": [
+            { "id": "o1", "text": "Apple" },
+            { "id": "o2", "text": "Orange" },
+            { "id": "o3", "text": "Banana" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pan'?",
+          "options": [
+            { "id": "o1", "text": "Bread" },
+            { "id": "o2", "text": "Meat" },
+            { "id": "o3", "text": "Rice" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leche'?",
+          "options": [
+            { "id": "o1", "text": "Milk" },
+            { "id": "o2", "text": "Water" },
+            { "id": "o3", "text": "Juice" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'queso'?",
+          "options": [
+            { "id": "o1", "text": "Cheese" },
+            { "id": "o2", "text": "Butter" },
+            { "id": "o3", "text": "Egg" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pollo'?",
+          "options": [
+            { "id": "o1", "text": "Chicken" },
+            { "id": "o2", "text": "Fish" },
+            { "id": "o3", "text": "Beef" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'agua'?",
+          "options": [
+            { "id": "o1", "text": "Water" },
+            { "id": "o2", "text": "Wine" },
+            { "id": "o3", "text": "Beer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'huevo'?",
+          "options": [
+            { "id": "o1", "text": "Egg" },
+            { "id": "o2", "text": "Cake" },
+            { "id": "o3", "text": "Sugar" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'arroz'?",
+          "options": [
+            { "id": "o1", "text": "Rice" },
+            { "id": "o2", "text": "Pasta" },
+            { "id": "o3", "text": "Pizza" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ensalada'?",
+          "options": [
+            { "id": "o1", "text": "Salad" },
+            { "id": "o2", "text": "Soup" },
+            { "id": "o3", "text": "Vegetable" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'verduras'?",
+          "options": [
+            { "id": "o1", "text": "Vegetables" },
+            { "id": "o2", "text": "Fruits" },
+            { "id": "o3", "text": "Meat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pescado'?",
+          "options": [
+            { "id": "o1", "text": "Fish" },
+            { "id": "o2", "text": "Meat" },
+            { "id": "o3", "text": "Chicken" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'zumo'?",
+          "options": [
+            { "id": "o1", "text": "Juice" },
+            { "id": "o2", "text": "Soda" },
+            { "id": "o3", "text": "Tea" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'carne'?",
+          "options": [
+            { "id": "o1", "text": "Meat" },
+            { "id": "o2", "text": "Beef" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'azúcar'?",
+          "options": [
+            { "id": "o1", "text": "Sugar" },
+            { "id": "o2", "text": "Salt" },
+            { "id": "o3", "text": "Pepper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sal'?",
+          "options": [
+            { "id": "o1", "text": "Salt" },
+            { "id": "o2", "text": "Sugar" },
+            { "id": "o3", "text": "Oil" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'té'?",
+          "options": [
+            { "id": "o1", "text": "Tea" },
+            { "id": "o2", "text": "Coffee" },
+            { "id": "o3", "text": "Beer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'café'?",
+          "options": [
+            { "id": "o1", "text": "Coffee" },
+            { "id": "o2", "text": "Tea" },
+            { "id": "o3", "text": "Milk" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'galletas'?",
+          "options": [
+            { "id": "o1", "text": "Biscuits (UK) / Cookies (US)" },
+            { "id": "o2", "text": "Cakes" },
+            { "id": "o3", "text": "Bread" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plátano'?",
+          "options": [
+            { "id": "o1", "text": "Banana" },
+            { "id": "o2", "text": "Pear" },
+            { "id": "o3", "text": "Grapes" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'uva'?",
+          "options": [
+            { "id": "o1", "text": "Grape" },
+            { "id": "o2", "text": "Apple" },
+            { "id": "o3", "text": "Lemon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I21",
+          "type": "matching",
+          "prompt_es": "Une las frutas:",
+          "pairs": [
+            { "id": "p1", "left": "Strawberry", "right": "Fresa" },
+            { "id": "p2", "left": "Watermelon", "right": "Sandía" },
+            { "id": "p3", "left": "Peach", "right": "Melocotón" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I22",
+          "type": "matching",
+          "prompt_es": "Une las verduras:",
+          "pairs": [
+            { "id": "p1", "left": "Carrot", "right": "Zanahoria" },
+            { "id": "p2", "left": "Onion", "right": "Cebolla" },
+            { "id": "p3", "left": "Potato", "right": "Patata" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'An ___ (manzana) a day keeps the doctor away.'",
+          "stimulus_en": "___",
+          "correct_answer": "apple",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I24",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I drink ___ (agua) every morning.'",
+          "stimulus_en": "___",
+          "correct_answer": "water",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I25",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Rice and ___ (pollo) is a common meal.'",
+          "stimulus_en": "___",
+          "correct_answer": "chicken",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Countable vs Uncountable Nouns",
+      "content": [
+        {
+          "interaction_id": "U9_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tipo de sustantivo es 'Apple'?",
+          "options": [
+            { "id": "o1", "text": "Countable (Contable)" },
+            { "id": "o2", "text": "Uncountable (Incontable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tipo de sustantivo es 'Water'?",
+          "options": [
+            { "id": "o1", "text": "Uncountable (Incontable)" },
+            { "id": "o2", "text": "Countable (Contable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tipo de sustantivo es 'Bread'?",
+          "options": [
+            { "id": "o1", "text": "Uncountable (Incontable)" },
+            { "id": "o2", "text": "Countable (Contable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tipo de sustantivo es 'Egg'?",
+          "options": [
+            { "id": "o1", "text": "Countable (Contable)" },
+            { "id": "o2", "text": "Uncountable (Incontable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué tipo de sustantivo es 'Sugar'?",
+          "options": [
+            { "id": "o1", "text": "Uncountable (Incontable)" },
+            { "id": "o2", "text": "Countable (Contable)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'a/an'?",
+          "options": [
+            { "id": "o1", "text": "Con sustantivos contables en singular" },
+            { "id": "o2", "text": "Con sustantivos incontables" },
+            { "id": "o3", "text": "Con sustantivos plurales" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'some'?",
+          "options": [
+            { "id": "o1", "text": "En frases afirmativas (plurales e incontables)" },
+            { "id": "o2", "text": "Solo en preguntas" },
+            { "id": "o3", "text": "Solo con 'singular'" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos 'any'?",
+          "options": [
+            { "id": "o1", "text": "En frases negativas y preguntas" },
+            { "id": "o2", "text": "En frases afirmativas" },
+            { "id": "o3", "text": "Nunca con incontables" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have ___ (una) orange.'",
+          "stimulus_en": "___",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have ___ (un) banana.'",
+          "stimulus_en": "___",
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want ___ (un poco de) milk.'",
+          "stimulus_en": "___",
+          "correct_answer": "some",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you have ___ (algo de) sugar?'",
+          "stimulus_en": "___",
+          "correct_answer": "any",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I don't have ___ (nada de) cheese.'",
+          "stimulus_en": "___",
+          "correct_answer": "any",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Quieres un poco de café?' (Ofrecimiento)?",
+          "options": [
+            { "id": "o1", "text": "Would you like some coffee?" },
+            { "id": "o2", "text": "Do you want any coffee?" },
+            { "id": "o3", "text": "Both are correct, but 'some' is common for offers" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides algo educadamente?",
+          "options": [
+            { "id": "o1", "text": "Can I have some water, please?" },
+            { "id": "o2", "text": "I want water" },
+            { "id": "o3", "text": "Give me water" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mucho' (con incontables)?",
+          "options": [
+            { "id": "o1", "text": "Much" },
+            { "id": "o2", "text": "Many" },
+            { "id": "o3", "text": "A lot of" },
+            { "id": "o4", "text": "A and C are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'muchos' (con contables)?",
+          "options": [
+            { "id": "o1", "text": "Many" },
+            { "id": "o2", "text": "Much" },
+            { "id": "o3", "text": "A lot of" },
+            { "id": "o4", "text": "A and C are correct" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'How ___ (cuánto) milk is in the fridge?'",
+          "stimulus_en": "___",
+          "correct_answer": "much",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'How ___ (cuántas) apples are there?'",
+          "stimulus_en": "___",
+          "correct_answer": "many",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'un poco de' (con incontables)?",
+          "options": [
+            { "id": "o1", "text": "A little" },
+            { "id": "o2", "text": "A few" },
+            { "id": "o3", "text": "Many" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'unos pocos' (con contables)?",
+          "options": [
+            { "id": "o1", "text": "A few" },
+            { "id": "o2", "text": "A little" },
+            { "id": "o3", "text": "Much" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I47",
+          "type": "matching",
+          "prompt_es": "Une los cuantificadores:",
+          "pairs": [
+            { "id": "p1", "left": "Much", "right": "Incontables (pregunta/negación)" },
+            { "id": "p2", "left": "Many", "right": "Contables (pregunta/negación)" },
+            { "id": "p3", "left": "A lot of", "right": "Ambos (afirmación)" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Es correcto decir 'five milks'?",
+          "options": [
+            { "id": "o1", "text": "No, milk is uncountable. Say 'five bottles of milk'." },
+            { "id": "o2", "text": "Yes, it is correct." },
+            { "id": "o3", "text": "Yes, but only in informal English." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'un vaso de agua'?",
+          "options": [
+            { "id": "o1", "text": "A glass of water" },
+            { "id": "o2", "text": "A cup of water" },
+            { "id": "o3", "text": "A bottle water" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'una taza de café'?",
+          "options": [
+            { "id": "o1", "text": "A cup of coffee" },
+            { "id": "o2", "text": "A glass of coffee" },
+            { "id": "o3", "text": "A mug coffee" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "At the Restaurant",
+      "content": [
+        {
+          "interaction_id": "U9_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'la cuenta'?",
+          "options": [
+            { "id": "o1", "text": "The bill (UK) / The check (US)" },
+            { "id": "o2", "text": "The account" },
+            { "id": "o3", "text": "The paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el menú'?",
+          "options": [
+            { "id": "o1", "text": "The menu" },
+            { "id": "o2", "text": "The list" },
+            { "id": "o3", "text": "The book" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camarero'?",
+          "options": [
+            { "id": "o1", "text": "Waiter / Waitress" },
+            { "id": "o2", "text": "Server" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me gustaría...'?",
+          "options": [
+            { "id": "o1", "text": "I'd like... / I would like..." },
+            { "id": "o2", "text": "I like..." },
+            { "id": "o3", "text": "I want..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Are you ready to order?'?",
+          "options": [
+            { "id": "o1", "text": "¿Están listos para pedir?" },
+            { "id": "o2", "text": "¿Quieren la cuenta?" },
+            { "id": "o3", "text": "¿Qué quieren beber?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Para llevar'?",
+          "options": [
+            { "id": "o1", "text": "To go (US) / Take away (UK)" },
+            { "id": "o2", "text": "For carry" },
+            { "id": "o3", "text": "Outside" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Para comer aquí'?",
+          "options": [
+            { "id": "o1", "text": "For here / Eat in" },
+            { "id": "o2", "text": "Inside" },
+            { "id": "o3", "text": "Stay here" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'primer plato / entrada'?",
+          "options": [
+            { "id": "o1", "text": "Starter / Appetizer" },
+            { "id": "o2", "text": "First food" },
+            { "id": "o3", "text": "Beginning" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plato principal'?",
+          "options": [
+            { "id": "o1", "text": "Main course" },
+            { "id": "o2", "text": "Principal dish" },
+            { "id": "o3", "text": "Big plate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'postre'?",
+          "options": [
+            { "id": "o1", "text": "Dessert" },
+            { "id": "o2", "text": "Desert" },
+            { "id": "o3", "text": "Sweet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides la cuenta?",
+          "options": [
+            { "id": "o1", "text": "Could we have the bill, please?" },
+            { "id": "o2", "text": "The bill, please." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'propina'?",
+          "options": [
+            { "id": "o1", "text": "Tip" },
+            { "id": "o2", "text": "Extra" },
+            { "id": "o3", "text": "Gift" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Anything else?'?",
+          "options": [
+            { "id": "o1", "text": "¿Algo más?" },
+            { "id": "o2", "text": "¿Alguna otra cosa?" },
+            { "id": "o3", "text": "Ambas son correctas" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "like" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "would" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "menu" },
+            { "id": "w6", "text": "please" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I65",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "have" },
+            { "id": "w2", "text": "Can" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "check" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'delicioso'?",
+          "options": [
+            { "id": "o1", "text": "Delicious" },
+            { "id": "o2", "text": "Tasty" },
+            { "id": "o3", "text": "Yummy" },
+            { "id": "o4", "text": "All of them" }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'picante'?",
+          "options": [
+            { "id": "o1", "text": "Spicy / Hot" },
+            { "id": "o2", "text": "Fast" },
+            { "id": "o3", "text": "Pepper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dulce'?",
+          "options": [
+            { "id": "o1", "text": "Sweet" },
+            { "id": "o2", "text": "Sugar" },
+            { "id": "o3", "text": "Candy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'amargo'?",
+          "options": [
+            { "id": "o1", "text": "Bitter" },
+            { "id": "o2", "text": "Sour" },
+            { "id": "o3", "text": "Salty" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ácido'?",
+          "options": [
+            { "id": "o1", "text": "Sour" },
+            { "id": "o2", "text": "Acid" },
+            { "id": "o3", "text": "Lemon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salado'?",
+          "options": [
+            { "id": "o1", "text": "Salty" },
+            { "id": "o2", "text": "Salt" },
+            { "id": "o3", "text": "Bitter" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hambre'?",
+          "options": [
+            { "id": "o1", "text": "Hungry" },
+            { "id": "o2", "text": "Hunger" },
+            { "id": "o3", "text": "Eat desire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sed'?",
+          "options": [
+            { "id": "o1", "text": "Thirsty" },
+            { "id": "o2", "text": "Thirst" },
+            { "id": "o3", "text": "Water need" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I74",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I am ___ (hambriento). Let's eat!'",
+          "stimulus_en": "___",
+          "correct_answer": "hungry",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I75",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I am ___ (sediento). Can I have some water?'",
+          "stimulus_en": "___",
+          "correct_answer": "thirsty",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U9_I76",
+          "type": "word-search",
+          "prompt_es": "Encuentra alimentos y bebidas:",
+          "words": ["BREAD", "MILK", "CHEESE", "WATER", "APPLE", "RICE", "FISH", "MEAT"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "BREAD", "clue": "Pan" },
+            { "word": "MILK", "clue": "Leche" },
+            { "word": "CHEESE", "clue": "Queso" },
+            { "word": "WATER", "clue": "Agua" },
+            { "word": "APPLE", "clue": "Manzana" },
+            { "word": "RICE", "clue": "Arroz" },
+            { "word": "FISH", "clue": "Pescado" },
+            { "word": "MEAT", "clue": "Carne" }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_Ta1-u9-transport_I0",
-          "title": "Transport Basics",
-          "instructions": "Choose the correct option for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "What is this? It has four wheels and we drive it.",
-              "options": [
-                "Bus",
-                "Car",
-                "Bike",
-                "Plane"
-              ],
-              "correctAnswer": "Car",
-              "explanation": "En inglés, 'car' es un vehículo pequeño que conducimos, tiene cuatro ruedas. No decimos 'bus', 'bike' o 'plane' para este tipo de vehículo."
-            },
-            {
-              "id": "q2",
-              "question": "This transport is on the road and can take many people.",
-              "options": [
-                "Taxi",
-                "Bus",
-                "Plane",
-                "Bike"
-              ],
-              "correctAnswer": "Bus",
-              "explanation": "Un 'bus' en inglés es un medio de transporte que viaja por la carretera y puede llevar a muchas personas. 'Taxi' lleva menos personas, 'plane' vuela y 'bike' es para una o dos personas."
-            },
-            {
-              "id": "q3",
-              "question": "We use this to fly to other countries.",
-              "options": [
-                "Train",
-                "Plane",
-                "Car",
-                "Bus"
-              ],
-              "correctAnswer": "Plane",
-              "explanation": "La palabra 'plane' en inglés se refiere a un avión que usamos para volar a otros países. No es 'train', 'car' o 'bus' porque estos no vuelan."
-            },
-            {
-              "id": "q4",
-              "question": "This transport needs a driver and a meter.",
-              "options": [
-                "Bike",
-                "Taxi",
-                "Train",
-                "Bus"
-              ],
-              "correctAnswer": "Taxi",
-              "explanation": "Un 'taxi' necesita un conductor y un taxímetro. No es 'bike', 'train' o 'bus' porque esos no tienen taxímetro."
-            }
+          "interaction_id": "U9_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de comida:",
+          "items": [
+            { "word": "JUICE", "clue": "Orange ___", "direction": "across", "row": 0, "col": 0 },
+            { "word": "COFFEE", "clue": "Hot morning drink", "direction": "down", "row": 0, "col": 0 },
+            { "word": "EGG", "clue": "Chicken product", "direction": "across", "row": 3, "col": 0 },
+            { "word": "TEA", "clue": "Common drink in UK", "direction": "down", "row": 0, "col": 5 }
           ],
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_Ta1-u9-city-places_I1",
-          "title": "City Places - A1 Level Exercise",
-          "instructions": "Choose the correct option for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "Where is the park?",
-              "options": [
-                "A. Next to the bank",
-                "B. Under the street",
-                "C. Next to the supermarket",
-                "D. In the cinema"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción 'A. Next to the bank' es correcta porque 'next to' significa al lado de. Las otras opciones no tienen sentido lógico."
-            },
-            {
-              "id": "q2",
-              "question": "Is there a hospital on this street?",
-              "options": [
-                "A. Yes, there is",
-                "B. No, there are",
-                "C. No, there aren't",
-                "D. Yes, there are"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La opción 'A. Yes, there is' es correcta porque se refiere a uno solo hospital. Las opciones 'B' y 'D' son incorrectas porque usan 'are' que es plural."
-            },
-            {
-              "id": "q3",
-              "question": "Let's go to the cinema.",
-              "options": [
-                "A. Yes, I like to",
-                "B. No, I don't",
-                "C. Yes, let's",
-                "D. No, let's"
-              ],
-              "correctAnswer": "C",
-              "explanation": "La opción 'C. Yes, let's' es correcta porque 'let's' sugiere hacer algo juntos. 'No, I don't' no responde a una sugerencia."
-            },
-            {
-              "id": "q4",
-              "question": "Where is the school?",
-              "options": [
-                "A. On the street",
-                "B. In the supermarket",
-                "C. Under the bank",
-                "D. Next to the hospital"
-              ],
-              "correctAnswer": "D",
-              "explanation": "La opción 'D. Next to the hospital' es correcta porque 'next to' indica ubicación cercana. 'In' y 'under' no son adecuadas para lugares como escuelas."
-            }
+          "interaction_id": "U9_I78",
+          "type": "matching",
+          "prompt_es": "Une los sustantivos con su tipo:",
+          "pairs": [
+            { "id": "p1", "left": "Banana", "right": "Countable" },
+            { "id": "p2", "left": "Milk", "right": "Uncountable" },
+            { "id": "p3", "left": "Rice", "right": "Uncountable" }
           ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I79",
+          "type": "true_false",
+          "prompt_es": "¿Usamos 'any' en frases afirmativas?",
+          "correct_answer": false,
+          "feedback_correct_es": "¡Exacto! Usamos 'some' en afirmativas y 'any' en negativas y preguntas.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I80",
+          "type": "true_false",
+          "prompt_es": "¿Es 'sugar' un sustantivo contable?",
+          "correct_answer": false,
+          "feedback_correct_es": "Correcto, es incontable. Decimos 'some sugar', no 'a sugar'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U9_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desayuno'?",
+          "options": [
+            { "id": "o1", "text": "Breakfast" },
+            { "id": "o2", "text": "Lunch" },
+            { "id": "o3", "text": "Dinner" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_Ta1-u9-city-places_I0",
-          "instructions": "Read the text and choose the best word for each gap.",
-          "text": "Every Saturday, Maria and her brother visit different places in the city. First, they go to the (1) ____. They like to play on the swings and run around. After that, they walk to the (2) ____. Maria buys milk and eggs. Her brother likes to look at the toys. Next, they stop at the (3) ____ to watch a movie. They enjoy cartoons. Later, they go to the (4) ____ to see their father. He works there as a doctor. Then, they go by the (5) ____ to put some money in their savings account. Finally, they walk along the (6) ____ to go back home. They always have fun on Saturdays.",
-          "questions": [
-            {
-              "gap": 1,
-              "options": [
-                "park",
-                "bank",
-                "hospital",
-                "cinema"
-              ],
-              "answer": "park",
-              "explanation": "La palabra correcta es 'park' porque el contexto habla de jugar en columpios y correr, actividades típicas de un parque. Las otras opciones no se relacionan con estas actividades."
-            },
-            {
-              "gap": 2,
-              "options": [
-                "supermarket",
-                "school",
-                "street",
-                "bank"
-              ],
-              "answer": "supermarket",
-              "explanation": "La palabra correcta es 'supermarket' porque se menciona la compra de leche y huevos, lo cual es típico en un supermercado. Las otras opciones no son lugares para comprar alimentos."
-            },
-            {
-              "gap": 3,
-              "options": [
-                "cinema",
-                "hospital",
-                "bank",
-                "park"
-              ],
-              "answer": "cinema",
-              "explanation": "La palabra correcta es 'cinema' porque el texto habla de ver una película, lo cual se hace en el cine. Las otras opciones no se relacionan con ver películas."
-            },
-            {
-              "gap": 4,
-              "options": [
-                "hospital",
-                "bank",
-                "supermarket",
-                "cinema"
-              ],
-              "answer": "hospital",
-              "explanation": "La palabra correcta es 'hospital' porque mencionan a su padre trabajando como doctor, lo cual es común en un hospital. Las otras opciones no son lugares de trabajo para un doctor."
-            },
-            {
-              "gap": 5,
-              "options": [
-                "bank",
-                "park",
-                "school",
-                "street"
-              ],
-              "answer": "bank",
-              "explanation": "La palabra correcta es 'bank' porque hablan de ahorrar dinero, algo que se hace en un banco. Las otras opciones no tienen sentido en este contexto."
-            },
-            {
-              "gap": 6,
-              "options": [
-                "street",
-                "park",
-                "cinema",
-                "school"
-              ],
-              "answer": "street",
-              "explanation": "La palabra correcta es 'street' porque se describe caminar de regreso a casa, lo cual es común hacerlo por la calle. Las otras opciones no son rutas comunes para caminar hacia casa."
-            }
+          "interaction_id": "U9_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comida / almuerzo'?",
+          "options": [
+            { "id": "o1", "text": "Lunch" },
+            { "id": "o2", "text": "Breakfast" },
+            { "id": "o3", "text": "Dinner" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_Ta1-u9-imperatives_I1",
-          "questions": [
-            {
-              "text": "Look at _____ cat. It is very cute.",
-              "options": [
-                "this",
-                "that"
-              ],
-              "correctAnswer": "this",
-              "explanation": "Usamos 'this' para referirnos a algo cercano."
-            },
-            {
-              "text": "My book is _____ the table.",
-              "options": [
-                "on",
-                "under",
-                "next to"
-              ],
-              "correctAnswer": "on",
-              "explanation": "Usamos 'on' para indicar que algo está encima de una superficie."
-            },
-            {
-              "text": "The ball is _____ the chair.",
-              "options": [
-                "under",
-                "in",
-                "on"
-              ],
-              "correctAnswer": "under",
-              "explanation": "Usamos 'under' para decir que algo está debajo de otra cosa."
-            },
-            {
-              "text": "These apples are not red. _____ apples are red.",
-              "options": [
-                "Those",
-                "These"
-              ],
-              "correctAnswer": "Those",
-              "explanation": "Usamos 'those' para hablar de cosas que están lejos."
-            },
-            {
-              "text": "Maria and Juan _____ happy.",
-              "options": [
-                "are",
-                "is",
-                "am"
-              ],
-              "correctAnswer": "are",
-              "explanation": "Usamos 'are' con sujetos plurales como 'Maria and Juan'."
-            },
-            {
-              "text": "_____ you like coffee?",
-              "options": [
-                "Do",
-                "Does"
-              ],
-              "correctAnswer": "Do",
-              "explanation": "Usamos 'do' para formar preguntas con 'you'."
-            },
-            {
-              "text": "Pedro _____ have a blue car.",
-              "options": [
-                "do not",
-                "does not"
-              ],
-              "correctAnswer": "does not",
-              "explanation": "Usamos 'does not' en tercera persona singular para negativos en presente simple."
-            },
-            {
-              "text": "I _____ a student.",
-              "options": [
-                "am",
-                "is",
-                "are"
-              ],
-              "correctAnswer": "am",
-              "explanation": "Usamos 'am' con 'I' en afirmaciones."
-            }
+          "interaction_id": "U9_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cena'?",
+          "options": [
+            { "id": "o1", "text": "Dinner / Supper" },
+            { "id": "o2", "text": "Lunch" },
+            { "id": "o3", "text": "Breakfast" }
           ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'merienda'?",
+          "options": [
+            { "id": "o1", "text": "Snack" },
+            { "id": "o2", "text": "Small food" },
+            { "id": "o3", "text": "Break" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I85",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have ___ (un poco de) rice for lunch.'",
+          "stimulus_en": "___",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_Ta1-u9-imperatives_I0",
-          "title": "Basic Direction Commands",
-          "instructions": "Choose the correct direction command for each situation.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "You are at the park. Walk to the big tree. Which direction should you go?",
-              "options": [
-                "Turn left",
-                "Go straight",
-                "Turn right",
-                "Stop"
-              ],
-              "correctAnswer": "Go straight",
-              "explanation": "En este contexto, 'Go straight' es la opción correcta porque indica que debes seguir caminando recto hacia el objeto mencionado, que es el árbol en este caso."
-            },
-            {
-              "id": "q2",
-              "question": "You are at a red light. What should you do?",
-              "options": [
-                "Go straight",
-                "Turn left",
-                "Turn right",
-                "Stop"
-              ],
-              "correctAnswer": "Stop",
-              "explanation": "La opción 'Stop' es correcta porque las luces rojas indican que debes detenerte, y 'Stop' significa detenerse en inglés."
-            },
-            {
-              "id": "q3",
-              "question": "Your friend tells you to move to the right side of the room. What do you do?",
-              "options": [
-                "Go straight",
-                "Turn left",
-                "Turn right",
-                "Stop"
-              ],
-              "correctAnswer": "Turn right",
-              "explanation": "Debes elegir 'Turn right' porque 'right' significa derecha en inglés, y te indican que te muevas hacia ese lado."
-            },
-            {
-              "id": "q4",
-              "question": "You are following a map and it says to take the first left. What direction do you take?",
-              "options": [
-                "Turn left",
-                "Go straight",
-                "Turn right",
-                "Stop"
-              ],
-              "correctAnswer": "Turn left",
-              "explanation": "Elegir 'Turn left' es correcto porque la instrucción es tomar la primera a la izquierda, y 'left' significa izquierda en inglés."
-            }
-          ],
+          "interaction_id": "U9_I86",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you have ___ (alguna) orange juice?'",
+          "stimulus_en": "___",
+          "correct_answer": "any",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U9_Ta1-u9-prepositions-place_I1",
-          "title": "Understanding Simple Grammar",
-          "instructions": "Choose the best answer for each question.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "Where is the book? It is ___ the table.",
-              "options": [
-                "A. on",
-                "B. under",
-                "C. next to",
-                "D. between"
-              ],
-              "correctAnswer": "A",
-              "explanation": "En inglés, 'on' se usa para indicar que algo está sobre una superficie. El libro está sobre la mesa, por lo que 'on' es correcto."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the cat? It is ___ the chair.",
-              "options": [
-                "A. in",
-                "B. under",
-                "C. next to",
-                "D. behind"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La preposición 'under' indica que algo está debajo de otra cosa. En este caso, el gato está debajo de la silla."
-            },
-            {
-              "id": "q3",
-              "question": "Where is the ball? It is ___ the shoes.",
-              "options": [
-                "A. between",
-                "B. in front of",
-                "C. next to",
-                "D. under"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La preposición 'between' se usa cuando algo está en medio de dos objetos. La pelota está entre los zapatos."
-            },
-            {
-              "id": "q4",
-              "question": "Where is the dog? It is ___ the car.",
-              "options": [
-                "A. in",
-                "B. behind",
-                "C. on",
-                "D. next to"
-              ],
-              "correctAnswer": "B",
-              "explanation": "Usamos 'behind' para indicar que algo está en la parte trasera de otra cosa. El perro está detrás del coche."
-            }
+          "interaction_id": "U9_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vegetariano'?",
+          "options": [
+            { "id": "o1", "text": "Vegetarian" },
+            { "id": "o2", "text": "Veggie" },
+            { "id": "o3", "text": "Both are correct" }
           ],
-          "mastery_tag": "grammar"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_Ta1-u9-prepositions-place_I0",
-          "title": "Prepositions of Place",
-          "instructions": "Choose the correct preposition for each sentence.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "The cat is ___ the table.",
-              "options": [
-                "A) on",
-                "B) in",
-                "C) behind",
-                "D) next to"
-              ],
-              "correctAnswer": "A",
-              "explanation": "La respuesta es 'on' porque el gato está sobre la mesa. Usamos 'on' para indicar que algo está en una superficie."
-            },
-            {
-              "id": "q2",
-              "question": "The book is ___ the bag.",
-              "options": [
-                "A) on",
-                "B) in",
-                "C) next to",
-                "D) under"
-              ],
-              "correctAnswer": "B",
-              "explanation": "La respuesta es 'in' porque el libro está dentro de la bolsa. Usamos 'in' para indicar que algo está dentro de un espacio."
-            },
-            {
-              "id": "q3",
-              "question": "The chair is ___ the desk and the window.",
-              "options": [
-                "A) in front of",
-                "B) behind",
-                "C) between",
-                "D) next to"
-              ],
-              "correctAnswer": "C",
-              "explanation": "La respuesta es 'between' porque la silla está entre el escritorio y la ventana. Usamos 'between' para indicar que algo está en medio de dos cosas."
-            },
-            {
-              "id": "q4",
-              "question": "The dog is ___ the box.",
-              "options": [
-                "A) next to",
-                "B) in front of",
-                "C) on",
-                "D) under"
-              ],
-              "correctAnswer": "D",
-              "explanation": "La respuesta es 'under' porque el perro está debajo de la caja. Usamos 'under' para indicar que algo está directamente abajo de otra cosa."
-            }
+          "interaction_id": "U9_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vegano'?",
+          "options": [
+            { "id": "o1", "text": "Vegan" },
+            { "id": "o2", "text": "Veggie" },
+            { "id": "o3", "text": "Vegal" }
           ],
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'alergia'?",
+          "options": [
+            { "id": "o1", "text": "Allergy" },
+            { "id": "o2", "text": "Reaction" },
+            { "id": "o3", "text": "Sick" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Soy alérgico a...'?",
+          "options": [
+            { "id": "o1", "text": "I'm allergic to..." },
+            { "id": "o2", "text": "I have allergy for..." },
+            { "id": "o3", "text": "I'm sick of..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U9_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'frutos secos / nueces'?",
+          "options": [
+            { "id": "o1", "text": "Nuts" },
+            { "id": "o2", "text": "Dried fruits" },
+            { "id": "o3", "text": "Small beans" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'marisco'?",
+          "options": [
+            { "id": "o1", "text": "Seafood / Shellfish" },
+            { "id": "o2", "text": "Ocean meat" },
+            { "id": "o3", "text": "Fishy food" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cubiertos'?",
+          "options": [
+            { "id": "o1", "text": "Cutlery (UK) / Silverware (US)" },
+            { "id": "o2", "text": "Eating tools" },
+            { "id": "o3", "text": "Iron things" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tenedor'?",
+          "options": [
+            { "id": "o1", "text": "Fork" },
+            { "id": "o2", "text": "Knife" },
+            { "id": "o3", "text": "Spoon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuchillo'?",
+          "options": [
+            { "id": "o1", "text": "Knife" },
+            { "id": "o2", "text": "Fork" },
+            { "id": "o3", "text": "Spoon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuchara'?",
+          "options": [
+            { "id": "o1", "text": "Spoon" },
+            { "id": "o2", "text": "Knife" },
+            { "id": "o3", "text": "Fork" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'servilleta'?",
+          "options": [
+            { "id": "o1", "text": "Napkin" },
+            { "id": "o2", "text": "Towel" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vaso'?",
+          "options": [
+            { "id": "o1", "text": "Glass" },
+            { "id": "o2", "text": "Cup" },
+            { "id": "o3", "text": "Mug" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'botella'?",
+          "options": [
+            { "id": "o1", "text": "Bottle" },
+            { "id": "o2", "text": "Box" },
+            { "id": "o3", "text": "Can" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U9_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta correcta a 'Would you like some dessert?'?",
+          "options": [
+            { "id": "o1", "text": "Yes, please." },
+            { "id": "o2", "text": "No, thank you." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
         }
       ]
     }

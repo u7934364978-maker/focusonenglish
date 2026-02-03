@@ -4,15 +4,15 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- AFFIRMATIVE (Ex 2-11)
+-- AFFIRMATIVE 
 ('a1-m2-l14-ex2', 'a1-m2-l14', 1, 'multipleChoice', 'Affirmative I', '{
-    "prompt": "I ___ (live) in London.",
+    "prompt": "I ___ in London.",
     "options": ["live", "lives", "living"],
     "answerIndex": 0,
     "explanation": "With ''I'', we use the base form of the verb."
 }'),
 ('a1-m2-l14-ex3', 'a1-m2-l14', 2, 'multipleChoice', 'Affirmative We', '{
-    "prompt": "We ___ (play) football on Saturdays.",
+    "prompt": "We ___ football on Saturdays.",
     "options": ["play", "plays", "playing"],
     "answerIndex": 0
 }'),
@@ -32,7 +32,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l14-ex6', 'a1-m2-l14', 5, 'fillBlanks', 'Affirmative they', '{
-    "text": "They ___ (speak) English.",
+    "text": "They ___ English.",
     "answers": ["speak"]
 }'),
 ('a1-m2-l14-ex7', 'a1-m2-l14', 6, 'drag-drop', 'Simple sentence', '{
@@ -42,7 +42,7 @@ VALUES
     "translation": "Vives en una casa grande"
 }'),
 ('a1-m2-l14-ex8', 'a1-m2-l14', 7, 'multipleChoice', 'Affirmative you', '{
-    "prompt": "You ___ (drink) tea every morning.",
+    "prompt": "You ___ tea every morning.",
     "options": ["drink", "drinks", "drinking"],
     "answerIndex": 0
 }'),
@@ -54,28 +54,28 @@ VALUES
     ]
 }'),
 ('a1-m2-l14-ex10', 'a1-m2-l14', 9, 'fillBlanks', 'We study', '{
-    "text": "We ___ (study) English at Focus.",
+    "text": "We ___ English at Focus.",
     "answers": ["study"]
 }'),
 ('a1-m2-l14-ex11', 'a1-m2-l14', 10, 'multipleChoice', 'Plural subjects', '{
-    "prompt": "The students ___ (read) books.",
+    "prompt": "The students ___ books.",
     "options": ["read", "reads", "reading"],
     "answerIndex": 0
 }'),
 
--- NEGATIVE (Ex 12-21)
+-- NEGATIVE 
 ('a1-m2-l14-ex12', 'a1-m2-l14', 11, 'multipleChoice', 'Negative I', '{
-    "prompt": "I ___ (not/like) apples.",
+    "prompt": "I ___ apples.",
     "options": ["don''t like", "doesn''t like", "not like"],
     "answerIndex": 0,
     "explanation": "We use ''don''t'' for negative sentences with I, You, We, They."
 }'),
 ('a1-m2-l14-ex13', 'a1-m2-l14', 12, 'fillBlanks', 'Negative we', '{
-    "text": "We ___ (not/work) on Sundays.",
+    "text": "We ___ on Sundays.",
     "answers": ["don''t work"]
 }'),
 ('a1-m2-l14-ex14', 'a1-m2-l14', 13, 'multipleChoice', 'Negative they', '{
-    "prompt": "They ___ (not/speak) Spanish.",
+    "prompt": "They ___ Spanish.",
     "options": ["don''t speak", "doesn''t speak", "no speak"],
     "answerIndex": 0
 }'),
@@ -93,16 +93,16 @@ VALUES
     "translation": "No me gusta el café"
 }'),
 ('a1-m2-l14-ex17', 'a1-m2-l14', 16, 'multipleChoice', 'Don''t vs Doesn''t 1', '{
-    "prompt": "You ___ (not/have) a car.",
+    "prompt": "You ___ a car.",
     "options": ["don''t have", "doesn''t have", "not have"],
     "answerIndex": 0
 }'),
 ('a1-m2-l14-ex18', 'a1-m2-l14', 17, 'fillBlanks', 'Full form', '{
-    "text": "I do ___ like tea. (Formal)",
+    "text": "I do ___ like tea.",
     "answers": ["not"]
 }'),
 ('a1-m2-l14-ex19', 'a1-m2-l14', 18, 'multipleChoice', 'Negative we 2', '{
-    "prompt": "We ___ (not/live) in Spain.",
+    "prompt": "We ___ in Spain.",
     "options": ["don''t live", "doesn''t live", "no live"],
     "answerIndex": 0
 }'),
@@ -122,7 +122,7 @@ VALUES
     ]
 }'),
 
--- QUESTIONS (Ex 22-31)
+-- QUESTIONS 
 ('a1-m2-l14-ex22', 'a1-m2-l14', 21, 'multipleChoice', 'Question you', '{
     "prompt": "___ you live here?",
     "options": ["Do", "Does", "Are"],
@@ -181,18 +181,18 @@ VALUES
     ]
 }'),
 
--- MIXED USAGE (Ex 32-41)
+-- MIXED USAGE 
 ('a1-m2-l14-ex32', 'a1-m2-l14', 31, 'multipleChoice', 'Subject plural', '{
-    "prompt": "John and Mary ___ (play) tennis.",
+    "prompt": "John and Mary ___ tennis.",
     "options": ["play", "plays", "playing"],
     "answerIndex": 0
 }'),
 ('a1-m2-l14-ex33', 'a1-m2-l14', 32, 'fillBlanks', 'Negative plural', '{
-    "text": "My parents ___ (not/eat) meat.",
+    "text": "My parents ___ meat.",
     "answers": ["don''t eat"]
 }'),
 ('a1-m2-l14-ex34', 'a1-m2-l14', 33, 'multipleChoice', 'I always...', '{
-    "prompt": "I always ___ (listen) to music.",
+    "prompt": "I always ___ to music.",
     "options": ["listen", "listens", "listening"],
     "answerIndex": 0
 }'),
@@ -226,7 +226,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l14-ex40', 'a1-m2-l14', 39, 'multipleChoice', 'Every day habit', '{
-    "prompt": "They ___ (walk) to school every day.",
+    "prompt": "They ___ to school every day.",
     "options": ["walk", "walks", "walking"],
     "answerIndex": 0
 }'),
@@ -239,14 +239,14 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l14-ex42', 'a1-m2-l14', 41, 'multipleChoice', 'Subject check', '{
     "prompt": "Which subject uses ''don''t''?",
     "options": ["They", "She", "He"],
     "answerIndex": 0
 }'),
 ('a1-m2-l14-ex43', 'a1-m2-l14', 42, 'fillBlanks', 'Verb check', '{
-    "text": "We ___ (go) to the park.",
+    "text": "We ___ to the park.",
     "answers": ["go"]
 }'),
 ('a1-m2-l14-ex44', 'a1-m2-l14', 43, 'multipleChoice', 'Question check', '{
@@ -268,12 +268,12 @@ VALUES
     "translation": "¿Ellos viven en París?"
 }'),
 ('a1-m2-l14-ex47', 'a1-m2-l14', 46, 'multipleChoice', 'Verb base', '{
-    "prompt": "I ___ (want) an apple.",
+    "prompt": "I ___ an apple.",
     "options": ["want", "wants", "wanting"],
     "answerIndex": 0
 }'),
 ('a1-m2-l14-ex48', 'a1-m2-l14', 47, 'fillBlanks', 'Negative plural 2', '{
-    "text": "The cats ___ (not/like) water.",
+    "text": "The cats ___ water.",
     "answers": ["don''t like"]
 }'),
 ('a1-m2-l14-ex49', 'a1-m2-l14', 48, 'matching', 'Mixed 2', '{

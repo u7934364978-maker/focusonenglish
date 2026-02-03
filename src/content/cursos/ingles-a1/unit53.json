@@ -1,0 +1,52 @@
+{
+  "course": {
+    "unit_id": "U53",
+    "unit_title": "Ordering Food",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Learn restaurant vocabulary",
+    "Use 'I would like' to order",
+    "Understand the bill"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "At the Restaurant",
+      "content": [
+        {
+          "interaction_id": "U53_I1",
+          "type": "matching",
+          "prompt_es": "En el restaurante",
+          "pairs": [
+            { "id": "r1", "left": "Menu", "right": "Carta/Menú" },
+            { "id": "r2", "left": "Waiter", "right": "Camarero" },
+            { "id": "r3", "left": "Bill", "right": "Cuenta" },
+            { "id": "r4", "left": "Table", "right": "Mesa" }
+          ],
+          "correct_answer": { "r1": "r1", "r2": "r2", "r3": "r3", "r4": "r4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U53_I2",
+          "type": "reorder_words",
+          "prompt_es": "Pedir comida",
+          "stimulus_en": "I would like a salad, please",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "would" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "salad," },
+            { "id": "w6", "text": "please" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    }
+  ]
+}

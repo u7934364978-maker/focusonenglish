@@ -1,0 +1,89 @@
+# Full SDD workflow
+
+## Workflow Steps
+
+### [x] Step: Requirements
+
+Create a Product Requirements Document (PRD) based on the feature description.
+
+1. Review existing codebase to understand current architecture and patterns
+2. Analyze the feature definition and identify unclear aspects
+3. Ask the user for clarifications on aspects that significantly impact scope or user experience
+4. Make reasonable decisions for minor details based on context and conventions
+5. If user can't clarify, make a decision, state the assumption, and continue
+
+Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/5810c19c-de51-40c7-b032-5c1dd766c7be/requirements.md`.
+
+### [x] Step: Technical Specification
+
+Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/5810c19c-de51-40c7-b032-5c1dd766c7be/requirements.md`.
+
+1. Review existing codebase architecture and identify reusable components
+2. Define the implementation approach
+
+Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/5810c19c-de51-40c7-b032-5c1dd766c7be/spec.md` with:
+
+- Technical context (language, dependencies)
+- Implementation approach referencing existing code patterns
+- Source code structure changes
+- Data model / API / interface changes
+- Delivery phases (incremental, testable milestones)
+- Verification approach using project lint/test commands
+
+### [x] Step: Planning
+
+Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/5810c19c-de51-40c7-b032-5c1dd766c7be/spec.md`.
+
+1. Break down the work into concrete tasks
+2. Each task should reference relevant contracts and include verification steps
+3. Replace the Implementation step below with the planned tasks
+
+### [ ] Step: Implementation
+
+- [x] **Module 1 (Units 1-10)**
+    - [x] Unit 1: Hello! Introductions (100 exercises)
+    - [x] Unit 2: Personal Information & Numbers (100 exercises)
+    - [x] Unit 3: Countries & Nationalities (100 exercises)
+    - [x] Unit 4: Family & Relationships (100 exercises)
+    - [x] Unit 5: Physical Appearance & Personality (100 exercises)
+    - [x] Unit 6: The House & Furniture (100 exercises)
+    - [x] Unit 7: Daily Routine & Time (100 exercises)
+    - [x] Unit 8: Free Time & Hobbies (100 exercises)
+    - [x] Unit 9: Food & Drink (100 exercises)
+    - [x] Unit 10: Clothes & Shopping (100 exercises)
+- [x] **Module 2 (Units 11-20)**
+    - [x] Unit 11: Places in Town (100 exercises)
+    - [x] Unit 12: Getting Around (Transport) (100 exercises)
+    - [x] Unit 13: My Neighbourhood (100 exercises)
+    - [x] Unit 14: Jobs & Workplaces (100 exercises)
+    - [x] Unit 15: My Office / Study Area (100 exercises)
+    - [x] Unit 16: Skills & Talents (100 exercises)
+    - [x] Unit 17: Sports & Exercise (100 exercises)
+    - [x] Unit 18: My Body & Health (100 exercises)
+    - [x] Unit 19: Feelings & Emotions (100 exercises)
+    - [x] Unit 20: Weather & Seasons (100 exercises)
+- [x] **Module 3 (Units 21-30)**
+    - [x] Unit 21: Animals & Nature (100 exercises)
+    - [x] Unit 22: Travel & Holidays (100 exercises)
+    - [x] Unit 23: Hotels & Accommodation (100 exercises)
+    - [x] Unit 24: Restaurants & Ordering (100 exercises)
+    - [x] Unit 25: Entertainment & Media (100 exercises)
+    - [x] Unit 26: Technology & Gadgets (100 exercises)
+    - [x] Unit 27: Social Media & Communication (100 exercises)
+    - [x] Unit 28: School & Education (100 exercises)
+    - [x] Unit 29: Learning a Language (100 exercises)
+    - [x] Unit 30: Plans & Future (100 exercises)
+- [ ] **Module 4 (Units 31-40)**
+    - [x] Unit 31: My First Job (100 exercises)
+    - [x] Unit 32: In the Office (100 exercises)
+    - [x] Unit 33: Business Travel (100 exercises)
+    - [x] Unit 34: Work Meetings (100 exercises)
+    - [x] Unit 35: Job Interviews (100 exercises)
+    - [x] Unit 36: Future Ambitions (100 exercises)
+    - [x] Unit 37: Money & Banking (100 exercises)
+    - [x] Unit 38: Services & Repairs (100 exercises)
+    - [x] Unit 39: Emergency Situations (100 exercises)
+    - [ ] Unit 40: Review Module 4 (100 exercises)
+- [ ] **Module 5 (Units 41-50)**
+- [ ] **Module 6 (Units 51-60)**
+- [ ] Validate all generated units for schema compliance and quality

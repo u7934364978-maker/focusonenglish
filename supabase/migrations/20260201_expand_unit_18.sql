@@ -4,14 +4,14 @@ BEGIN;
 
 INSERT INTO public.course_exercises (id, lesson_id, order_index, type, title, content)
 VALUES 
--- BASIC LIKES (Ex 2-11)
+-- BASIC LIKES 
 ('a1-m2-l18-ex2', 'a1-m2-l18', 1, 'multipleChoice', 'Positive Like', '{
-    "prompt": "I ___ (like) chocolate.",
+    "prompt": "I ___ chocolate.",
     "options": ["like", "likes", "liking"],
     "answerIndex": 0
 }'),
 ('a1-m2-l18-ex3', 'a1-m2-l18', 2, 'multipleChoice', 'Strong Like', '{
-    "prompt": "I ___ (love) my family.",
+    "prompt": "I ___ my family.",
     "options": ["love", "loves", "loving"],
     "answerIndex": 0
 }'),
@@ -31,7 +31,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l18-ex6', 'a1-m2-l18', 5, 'fillBlanks', 'Affirmative 3rd like', '{
-    "text": "She ___ (like) pizza.",
+    "text": "She ___ pizza.",
     "answers": ["likes"]
 }'),
 ('a1-m2-l18-ex7', 'a1-m2-l18', 6, 'drag-drop', 'Positive sentence', '{
@@ -41,7 +41,7 @@ VALUES
     "translation": "Me gusta jugar al tenis"
 }'),
 ('a1-m2-l18-ex8', 'a1-m2-l18', 7, 'multipleChoice', 'Enjoy', '{
-    "prompt": "We ___ (enjoy) the weekend.",
+    "prompt": "We ___ the weekend.",
     "options": ["enjoy", "enjoys", "enjoying"],
     "answerIndex": 0
 }'),
@@ -53,27 +53,27 @@ VALUES
     ]
 }'),
 ('a1-m2-l18-ex10', 'a1-m2-l18', 9, 'fillBlanks', 'Love 3rd', '{
-    "text": "He ___ (love) his dog.",
+    "text": "He ___ his dog.",
     "answers": ["loves"]
 }'),
 ('a1-m2-l18-ex11', 'a1-m2-l18', 10, 'multipleChoice', 'Plural likes', '{
-    "prompt": "They ___ (like) video games.",
+    "prompt": "They ___ video games.",
     "options": ["like", "likes", "liking"],
     "answerIndex": 0
 }'),
 
--- NEGATIVE DISLIKES (Ex 12-21)
+-- NEGATIVE DISLIKES 
 ('a1-m2-l18-ex12', 'a1-m2-l18', 11, 'multipleChoice', 'Negative Dislike', '{
-    "prompt": "I ___ (not/like) tea.",
+    "prompt": "I ___ tea.",
     "options": ["don''t like", "doesn''t like", "no like"],
     "answerIndex": 0
 }'),
 ('a1-m2-l18-ex13', 'a1-m2-l18', 12, 'fillBlanks', 'Hate', '{
-    "text": "I ___ (hate) cold weather. (Strong dislike)",
+    "text": "I ___ cold weather.",
     "answers": ["hate"]
 }'),
 ('a1-m2-l18-ex14', 'a1-m2-l18', 13, 'multipleChoice', 'Negative 3rd dislike', '{
-    "prompt": "He ___ (not/like) spiders.",
+    "prompt": "He ___ spiders.",
     "options": ["doesn''t like", "don''t like", "not likes"],
     "answerIndex": 0
 }'),
@@ -91,16 +91,16 @@ VALUES
     "translation": "A ella no le gustan las cebollas"
 }'),
 ('a1-m2-l18-ex17', 'a1-m2-l18', 16, 'multipleChoice', 'Not mind', '{
-    "prompt": "I ___ (not/mind) washing dishes. (It is okay)",
+    "prompt": "I ___ washing dishes.",
     "options": ["don''t mind", "doesn''t mind", "not mind"],
     "answerIndex": 0
 }'),
 ('a1-m2-l18-ex18', 'a1-m2-l18', 17, 'fillBlanks', 'Dislike verb', '{
-    "text": "They ___ (dislike) loud music.",
+    "text": "They ___ loud music.",
     "answers": ["dislike"]
 }'),
 ('a1-m2-l18-ex19', 'a1-m2-l18', 18, 'multipleChoice', 'Hate 3rd', '{
-    "prompt": "She ___ (hate) waiting.",
+    "prompt": "She ___ waiting.",
     "options": ["hates", "hate", "hating"],
     "answerIndex": 0
 }'),
@@ -120,7 +120,7 @@ VALUES
     ]
 }'),
 
--- QUESTIONS (Ex 22-31)
+-- QUESTIONS 
 ('a1-m2-l18-ex22', 'a1-m2-l18', 21, 'multipleChoice', 'Question you like', '{
     "prompt": "___ you like ice cream?",
     "options": ["Do", "Does", "Are"],
@@ -178,19 +178,19 @@ VALUES
     ]
 }'),
 
--- SUBJECTS & OBJECTS (Ex 32-41)
+-- SUBJECTS & OBJECTS 
 ('a1-m2-l18-ex32', 'a1-m2-l18', 31, 'multipleChoice', 'Like + -ing', '{
-    "prompt": "I like ___ (watch) movies.",
+    "prompt": "I like ___ movies.",
     "options": ["watching", "watch", "watches"],
     "answerIndex": 0,
     "explanation": "After like, we often use the -ing form of the verb."
 }'),
 ('a1-m2-l18-ex33', 'a1-m2-l18', 32, 'fillBlanks', 'She likes -ing', '{
-    "text": "She likes ___ (read) books.",
+    "text": "She likes ___ books.",
     "answers": ["reading"]
 }'),
 ('a1-m2-l18-ex34', 'a1-m2-l18', 33, 'multipleChoice', 'Hate + -ing', '{
-    "prompt": "He hates ___ (get up) early.",
+    "prompt": "He hates ___ early.",
     "options": ["getting up", "get up", "gets up"],
     "answerIndex": 0
 }'),
@@ -237,14 +237,14 @@ VALUES
     ]
 }'),
 
--- CHALLENGE REVIEW (Ex 42-51)
+-- CHALLENGE REVIEW 
 ('a1-m2-l18-ex42', 'a1-m2-l18', 41, 'multipleChoice', 'Final like 1', '{
-    "prompt": "I don''t like ___ (dance).",
+    "prompt": "I don''t like ___.",
     "options": ["dancing", "dance", "dances"],
     "answerIndex": 0
 }'),
 ('a1-m2-l18-ex43', 'a1-m2-l18', 42, 'fillBlanks', 'Final like 2', '{
-    "text": "Does she ___ (like) chocolate?",
+    "text": "Does she ___ chocolate?",
     "answers": ["like"]
 }'),
 ('a1-m2-l18-ex44', 'a1-m2-l18', 43, 'multipleChoice', 'Short answer like', '{
@@ -282,7 +282,7 @@ VALUES
     ]
 }'),
 ('a1-m2-l18-ex50', 'a1-m2-l18', 49, 'multipleChoice', 'Spelling loving', '{
-    "prompt": "She is ___ (love) her new car.",
+    "prompt": "She is ___ her new car.",
     "options": ["loving", "loveing", "lovin"],
     "answerIndex": 0
 }'),

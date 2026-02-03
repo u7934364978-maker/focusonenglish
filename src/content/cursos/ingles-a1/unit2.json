@@ -4,695 +4,1125 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U2",
-    "unit_title": "Presentaciones",
-    "total_duration_minutes": 120
+    "unit_title": "Personal Information & Numbers",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B2",
-      "title": "Presentaciones",
+      "block_id": "B1",
+      "title": "Numbers 0-100",
       "content": [
         {
-          "interaction_id": "U2_Ta1-u2-possessives_I1",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "is",
-                "my",
-                "blue",
-                "car",
-                "."
-              ],
-              "correctOrder": [
-                "My",
-                "car",
-                "is",
-                "blue",
-                "."
-              ],
-              "translation": "Mi coche es azul.",
-              "hint": "Use 'my' to show possession of the car.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "your",
-                "pen",
-                "is",
-                "this",
-                "?"
-              ],
-              "correctOrder": [
-                "Is",
-                "this",
-                "your",
-                "pen",
-                "?"
-              ],
-              "translation": "¿Es este tu bolígrafo?",
-              "hint": "Use 'your' to ask if the pen belongs to someone.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "red",
-                "house",
-                "is",
-                "our",
-                "."
-              ],
-              "correctOrder": [
-                "Our",
-                "house",
-                "is",
-                "red",
-                "."
-              ],
-              "translation": "Nuestra casa es roja.",
-              "hint": "Use 'our' to indicate that the house belongs to us.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "like",
-                "I",
-                "your",
-                "hat",
-                "."
-              ],
-              "correctOrder": [
-                "I",
-                "like",
-                "your",
-                "hat",
-                "."
-              ],
-              "translation": "Me gusta tu sombrero.",
-              "hint": "Use 'your' to show the hat belongs to someone.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "is",
-                "my",
-                "favorite",
-                "color",
-                "green",
-                "."
-              ],
-              "correctOrder": [
-                "Green",
-                "is",
-                "my",
-                "favorite",
-                "color",
-                "."
-              ],
-              "translation": "El verde es mi color favorito.",
-              "hint": "Use 'my' to express your preference for the color.",
-              "points": 2
-            }
+          "interaction_id": "U2_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se escribe el número 0?",
+          "options": [
+            { "id": "o1", "text": "Zero" },
+            { "id": "o2", "text": "One" },
+            { "id": "o3", "text": "Ten" }
           ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el número 5?",
+          "options": [
+            { "id": "o1", "text": "Five" },
+            { "id": "o2", "text": "Four" },
+            { "id": "o3", "text": "Six" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 8?",
+          "options": [
+            { "id": "o1", "text": "Eight" },
+            { "id": "o2", "text": "Seven" },
+            { "id": "o3", "text": "Nine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué número es 'Twelve'?",
+          "options": [
+            { "id": "o1", "text": "12" },
+            { "id": "o2", "text": "2" },
+            { "id": "o3", "text": "20" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 11?",
+          "options": [
+            { "id": "o1", "text": "Eleven" },
+            { "id": "o2", "text": "Twelve" },
+            { "id": "o3", "text": "Ten" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué número es 'Fifteen'?",
+          "options": [
+            { "id": "o1", "text": "15" },
+            { "id": "o2", "text": "50" },
+            { "id": "o3", "text": "5" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 13?",
+          "options": [
+            { "id": "o1", "text": "Thirteen" },
+            { "id": "o2", "text": "Thirty" },
+            { "id": "o3", "text": "Third" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué número es 'Twenty'?",
+          "options": [
+            { "id": "o1", "text": "20" },
+            { "id": "o2", "text": "12" },
+            { "id": "o3", "text": "2" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 30?",
+          "options": [
+            { "id": "o1", "text": "Thirty" },
+            { "id": "o2", "text": "Thirteen" },
+            { "id": "o3", "text": "Three" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 40?",
+          "options": [
+            { "id": "o1", "text": "Forty" },
+            { "id": "o2", "text": "Fourteen" },
+            { "id": "o3", "text": "Fourty" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 50?",
+          "options": [
+            { "id": "o1", "text": "Fifty" },
+            { "id": "o2", "text": "Fifteen" },
+            { "id": "o3", "text": "Five" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 100?",
+          "options": [
+            { "id": "o1", "text": "One hundred" },
+            { "id": "o2", "text": "One thousand" },
+            { "id": "o3", "text": "Ten ten" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 21 en letras:",
+          "stimulus_en": "___-one",
+          "correct_answer": "Twenty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 35 en letras:",
+          "stimulus_en": "Thirty-___",
+          "correct_answer": "five",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I15",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 44 en letras:",
+          "stimulus_en": "___-four",
+          "correct_answer": "Forty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I16",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 58 en letras:",
+          "stimulus_en": "Fifty-___",
+          "correct_answer": "eight",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I17",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 60:",
+          "stimulus_en": "___",
+          "correct_answer": "Sixty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 70:",
+          "stimulus_en": "___",
+          "correct_answer": "Seventy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I19",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 80:",
+          "stimulus_en": "___",
+          "correct_answer": "Eighty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Escribe el número 90:",
+          "stimulus_en": "___",
+          "correct_answer": "Ninety",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I21",
+          "type": "matching",
+          "prompt_es": "Une los números con su nombre:",
+          "pairs": [
+            { "id": "p1", "left": "14", "right": "Fourteen" },
+            { "id": "p2", "left": "40", "right": "Forty" },
+            { "id": "p3", "left": "4", "right": "Four" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I22",
+          "type": "matching",
+          "prompt_es": "Une los números:",
+          "pairs": [
+            { "id": "p1", "left": "19", "right": "Nineteen" },
+            { "id": "p2", "left": "90", "right": "Ninety" },
+            { "id": "p3", "left": "9", "right": "Nine" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuánto es 2 + 2?",
+          "options": [
+            { "id": "o1", "text": "Four" },
+            { "id": "o2", "text": "Five" },
+            { "id": "o3", "text": "Three" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuánto es 10 + 10?",
+          "options": [
+            { "id": "o1", "text": "Twenty" },
+            { "id": "o2", "text": "Twelve" },
+            { "id": "o3", "text": "Two" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuánto es 50 - 10?",
+          "options": [
+            { "id": "o1", "text": "Forty" },
+            { "id": "o2", "text": "Fourteen" },
+            { "id": "o3", "text": "Sixty" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuánto es 15 + 15?",
+          "options": [
+            { "id": "o1", "text": "Thirty" },
+            { "id": "o2", "text": "Thirteen" },
+            { "id": "o3", "text": "Twenty" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I27",
+          "type": "flashcard",
+          "prompt_es": "Repaso de números clave",
+          "flashcards": [
+            { "front": "12", "back": "Twelve", "pronunciation": "/twɛlv/" },
+            { "front": "20", "back": "Twenty", "pronunciation": "/ˈtwɛnti/" },
+            { "front": "30", "back": "Thirty", "pronunciation": "/ˈθɜːrti/" },
+            { "front": "50", "back": "Fifty", "pronunciation": "/ˈfɪfti/" },
+            { "front": "100", "back": "One hundred", "pronunciation": "/wʌn ˈhʌndrəd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doble cero'?",
+          "options": [
+            { "id": "o1", "text": "Double zero" },
+            { "id": "o2", "text": "Two zero" },
+            { "id": "o3", "text": "Zero zero" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I29",
+          "type": "multiple_choice",
+          "prompt_es": "En números de teléfono, el 0 se suele decir como:",
+          "options": [
+            { "id": "o1", "text": "Oh" },
+            { "id": "o2", "text": "Nothing" },
+            { "id": "o3", "text": "Blank" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice el número 45?",
+          "options": [
+            { "id": "o1", "text": "Forty-five" },
+            { "id": "o2", "text": "Fourty-five" },
+            { "id": "o3", "text": "Fourteen-five" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Grammar: Possessive Adjectives",
+      "content": [
+        {
+          "interaction_id": "U2_I31",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
+          "stimulus_en": "I am John. ___ name is John.",
+          "correct_answer": "My",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-possessives_I0",
-          "title": "Possessive Adjectives Practice",
-          "instructions": "Choose the correct possessive adjective. Explanations are in Spanish.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "This is my book. Is that ____ pen?",
-              "options": [
-                "your",
-                "his",
-                "her",
-                "their"
-              ],
-              "correctAnswer": "your",
-              "explanation": "Usamos 'your' cuando hablamos de algo que pertenece a la persona a la que nos dirigimos. Aquí, la pregunta se refiere a la persona que sostiene la pluma."
-            },
-            {
-              "id": "q2",
-              "question": "____ name is John. He is my friend.",
-              "options": [
-                "His",
-                "Her",
-                "Your",
-                "My"
-              ],
-              "correctAnswer": "His",
-              "explanation": "'His' se usa para indicar posesión de algo que pertenece a un hombre o niño. En este caso, el nombre que pertenece a John."
-            },
-            {
-              "id": "q3",
-              "question": "I have a cat. ____ name is Whiskers.",
-              "options": [
-                "My",
-                "Its",
-                "Your",
-                "His"
-              ],
-              "correctAnswer": "Its",
-              "explanation": "Usamos 'Its' para indicar posesión de algo perteneciente a un objeto o animal cuando el género no es conocido o no es importante."
-            },
-            {
-              "id": "q4",
-              "question": "____ mother is a doctor. She helps people.",
-              "options": [
-                "My",
-                "Your",
-                "His",
-                "Their"
-              ],
-              "correctAnswer": "My",
-              "explanation": "'My' se usa para indicar que algo pertenece al hablante. Aquí, la madre pertenece a la persona que habla."
-            }
-          ],
+          "interaction_id": "U2_I32",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
+          "stimulus_en": "You are Anna. ___ name is Anna.",
+          "correct_answer": "Your",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-pronouns_I2",
-          "questions": [
-            {
-              "sentence": "______ is my brother. He likes to play football.",
-              "options": [
-                "He",
-                "She",
-                "It"
-              ],
-              "correct_answer": "He",
-              "explanation": "Usamos 'He' para hablar de una persona masculina.",
-              "points": 1
-            },
-            {
-              "sentence": "______ is my pen. It is blue.",
-              "options": [
-                "This",
-                "That",
-                "These"
-              ],
-              "correct_answer": "This",
-              "explanation": "Usamos 'This' para hablar de algo cerca en singular.",
-              "points": 1
-            },
-            {
-              "sentence": "______ is your sister? She is very friendly.",
-              "options": [
-                "Who",
-                "Where",
-                "When"
-              ],
-              "correct_answer": "Who",
-              "explanation": "Usamos 'Who' para preguntar por personas.",
-              "points": 1
-            },
-            {
-              "sentence": "______ cat is very small. I love it.",
-              "options": [
-                "My",
-                "Your",
-                "His"
-              ],
-              "correct_answer": "My",
-              "explanation": "Usamos 'My' para mostrar posesión de algo.",
-              "points": 1
-            },
-            {
-              "sentence": "______ she like ice cream? Yes, she does.",
-              "options": [
-                "Do",
-                "Does",
-                "Is"
-              ],
-              "correct_answer": "Does",
-              "explanation": "Usamos 'Does' para preguntas en tercera persona singular en presente simple.",
-              "points": 1
-            },
-            {
-              "sentence": "______ books are on the table over there.",
-              "options": [
-                "These",
-                "Those",
-                "This"
-              ],
-              "correct_answer": "Those",
-              "explanation": "Usamos 'Those' para hablar de cosas lejos en plural.",
-              "points": 1
-            },
-            {
-              "sentence": "______ often go to the park on Sundays.",
-              "options": [
-                "I",
-                "They",
-                "We"
-              ],
-              "correct_answer": "We",
-              "explanation": "Usamos 'We' para hablar de uno mismo y otras personas juntas.",
-              "points": 1
-            },
-            {
-              "sentence": "______ is the time now? It's 3 o'clock.",
-              "options": [
-                "What",
-                "When",
-                "Who"
-              ],
-              "correct_answer": "What",
-              "explanation": "Usamos 'What' para preguntar por información sobre cosas.",
-              "points": 1
-            }
-          ],
+          "interaction_id": "U2_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
+          "stimulus_en": "He is Peter. ___ name is Peter.",
+          "correct_answer": "His",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-pronouns_I1",
-          "instructions": "Fill in the blanks with the correct personal pronoun: I, you, he, she, it, we, they.",
-          "questions": [
-            {
-              "sentence": "____ am very happy today.",
-              "answers": [
-                "I"
-              ],
-              "explanation": "Usamos 'I' para hablar de nosotros mismos.",
-              "points": 1
-            },
-            {
-              "sentence": "Lisa has a cat. ____ is very cute.",
-              "answers": [
-                "It"
-              ],
-              "explanation": "Usamos 'it' para referirnos a cosas o animales.",
-              "points": 1
-            },
-            {
-              "sentence": "Mark is my brother. ____ is 10 years old.",
-              "answers": [
-                "He"
-              ],
-              "explanation": "'He' se usa para referirse a un hombre o niño.",
-              "points": 1
-            },
-            {
-              "sentence": "Anna is my friend. ____ likes to play soccer.",
-              "answers": [
-                "She"
-              ],
-              "explanation": "'She' se usa para referirse a una mujer o niña.",
-              "points": 1
-            },
-            {
-              "sentence": "Tom and Jerry are in the park. ____ are playing football.",
-              "answers": [
-                "They"
-              ],
-              "explanation": "'They' se usa para referirse a más de una persona o cosa.",
-              "points": 1
-            },
-            {
-              "sentence": "My sister and I have a new game. ____ play it every day.",
-              "answers": [
-                "We"
-              ],
-              "explanation": "'We' se usa para referirse a nosotros mismos junto con otras personas.",
-              "points": 1
-            },
-            {
-              "sentence": "____ are my favorite teacher.",
-              "answers": [
-                "You"
-              ],
-              "explanation": "'You' se usa para hablar directamente con alguien.",
-              "points": 1
-            },
-            {
-              "sentence": "The book is on the table. ____ is red.",
-              "answers": [
-                "It"
-              ],
-              "explanation": "'It' se usa para referirse a objetos o animales.",
-              "points": 1
-            }
-          ],
+          "interaction_id": "U2_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
+          "stimulus_en": "She is Mary. ___ name is Mary.",
+          "correct_answer": "Her",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-pronouns_I0",
-          "title": "Basic Grammar Exercise: Personal Pronouns and Simple Verbs",
-          "instructions": "Choose the right pronoun for each sentence. Recuerda leer cada opción con atención.",
-          "questions": [
-            {
-              "id": "q1",
-              "question": "___ is my brother and he likes pizza.",
-              "options": [
-                "A. He",
-                "B. She",
-                "C. It",
-                "D. They"
-              ],
-              "correctAnswer": "A. He",
-              "explanation": "Usamos 'He' para hablar de un chico o un hombre. En este caso, 'my brother' es masculino."
-            },
-            {
-              "id": "q2",
-              "question": "Where is the cat? ___ is on the chair.",
-              "options": [
-                "A. He",
-                "B. She",
-                "C. It",
-                "D. They"
-              ],
-              "correctAnswer": "C. It",
-              "explanation": "Usamos 'It' para referirnos a animales o cosas. Aquí hablamos del gato."
-            },
-            {
-              "id": "q3",
-              "question": "Lisa is my friend. ___ is very nice.",
-              "options": [
-                "A. He",
-                "B. She",
-                "C. It",
-                "D. They"
-              ],
-              "correctAnswer": "B. She",
-              "explanation": "Usamos 'She' para hablar de una chica o una mujer. En este caso, 'Lisa' es femenino."
-            },
-            {
-              "id": "q4",
-              "question": "My family and I love the beach. ___ go every weekend.",
-              "options": [
-                "A. I",
-                "B. You",
-                "C. We",
-                "D. They"
-              ],
-              "correctAnswer": "C. We",
-              "explanation": "Usamos 'We' para referirnos a un grupo que incluye a la persona que habla. Aquí hablamos de 'My family and I'."
-            }
-          ],
+          "interaction_id": "U2_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'its', 'our' o 'their':",
+          "stimulus_en": "We are students. ___ teacher is Mr. Smith.",
+          "correct_answer": "Our",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-be-basic_I2",
-          "questions": [
-            {
-              "context": "Hello! ___ a new student in the class.",
-              "answer": "I'm",
-              "explanation": "Usamos 'I'm' para decir 'yo soy' en inglés.",
-              "points": 1
-            },
-            {
-              "context": "Hi! How are you? ___ very happy today.",
-              "answer": "I'm",
-              "explanation": "Usamos 'I'm' para expresar un estado actual, por ejemplo, estoy feliz.",
-              "points": 1
-            },
-            {
-              "context": "___ a teacher.",
-              "answer": "I am",
-              "explanation": "Se utiliza 'I am' para presentar una ocupación o rol.",
-              "points": 1
-            },
-            {
-              "context": "Where ___ from? ___ from Spain.",
-              "answer": "are, I'm",
-              "explanation": "Usamos 'are' para preguntar 'de dónde eres' y 'I'm' para responder 'soy de'.",
-              "points": 1
-            },
-            {
-              "context": "___ the best friend I have.",
-              "answer": "You're",
-              "explanation": "Usamos 'You're' para decir 'tú eres' en una oración positiva.",
-              "points": 1
-            },
-            {
-              "context": "What ___ your favorite color? ___ blue.",
-              "answer": "is, It's",
-              "explanation": "Se usa 'is' para preguntar por propiedades u opiniones y 'It's' para responder.",
-              "points": 1
-            },
-            {
-              "context": "___ ready for the game?",
-              "answer": "Are you",
-              "explanation": "Usamos 'Are you' para preguntar si alguien está listo.",
-              "points": 1
-            },
-            {
-              "context": "___ my brother.",
-              "answer": "You're",
-              "explanation": "Usamos 'You're' para afirmar que alguien tiene una relación familiar contigo.",
-              "points": 1
-            }
-          ],
+          "interaction_id": "U2_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'its', 'our' o 'their':",
+          "stimulus_en": "They are doctors. ___ hospital is big.",
+          "correct_answer": "Their",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-be-basic_I1",
-          "sentences": [
-            {
-              "id": 1,
-              "words": [
-                "I",
-                "am",
-                "student",
-                "a",
-                "."
-              ],
-              "correctOrder": [
-                "I",
-                "am",
-                "a",
-                "student",
-                "."
-              ],
-              "translation": "Yo soy un estudiante.",
-              "hint": "Use 'I am' for describing yourself.",
-              "points": 2
-            },
-            {
-              "id": 2,
-              "words": [
-                "You",
-                "happy",
-                "are",
-                "."
-              ],
-              "correctOrder": [
-                "You",
-                "are",
-                "happy",
-                "."
-              ],
-              "translation": "Tú estás feliz.",
-              "hint": "Use 'You are' for describing someone else.",
-              "points": 2
-            },
-            {
-              "id": 3,
-              "words": [
-                "am",
-                "I",
-                "teacher",
-                "a",
-                "."
-              ],
-              "correctOrder": [
-                "I",
-                "am",
-                "a",
-                "teacher",
-                "."
-              ],
-              "translation": "Yo soy un maestro.",
-              "hint": "Start with 'I am' for personal statements.",
-              "points": 2
-            },
-            {
-              "id": 4,
-              "words": [
-                "You",
-                "friend",
-                "my",
-                "are",
-                "."
-              ],
-              "correctOrder": [
-                "You",
-                "are",
-                "my",
-                "friend",
-                "."
-              ],
-              "translation": "Tú eres mi amigo.",
-              "hint": "Begin with 'You are' for statements about others.",
-              "points": 2
-            },
-            {
-              "id": 5,
-              "words": [
-                "am",
-                "I",
-                "tired",
-                "."
-              ],
-              "correctOrder": [
-                "I",
-                "am",
-                "tired",
-                "."
-              ],
-              "translation": "Yo estoy cansado.",
-              "hint": "Use 'I am' for expressing feelings.",
-              "points": 2
-            }
-          ],
+          "interaction_id": "U2_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'its', 'our' o 'their':",
+          "stimulus_en": "The dog is small. ___ name is Bucky.",
+          "correct_answer": "Its",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-be-basic_I0",
-          "questions": [
-            {
-              "sentence": "______ (you) my friend from school?",
-              "options": [
-                "Are you",
-                "You are"
-              ],
-              "answer": "Are you",
-              "explanation": "Utilizamos 'Are you' para hacer preguntas sobre la identidad de alguien. 'You are' no es correcto aquí porque no es una pregunta.",
-              "points": 1
-            },
-            {
-              "sentence": "I ______ (be) happy today.",
-              "options": [
-                "am",
-                "are"
-              ],
-              "answer": "am",
-              "explanation": "'Am' es la forma correcta del verbo 'be' con 'I'. 'Are' se usa con 'you'.",
-              "points": 1
-            },
-            {
-              "sentence": "______ (you) a student in my class.",
-              "options": [
-                "You are",
-                "Are you"
-              ],
-              "answer": "You are",
-              "explanation": "Usamos 'You are' para afirmar algo sobre la persona. 'Are you' sería para una pregunta.",
-              "points": 1
-            },
-            {
-              "sentence": "______ (I) your new teacher.",
-              "options": [
-                "I am",
-                "Am I"
-              ],
-              "answer": "I am",
-              "explanation": "'I am' se utiliza para hacer una afirmación sobre uno mismo. 'Am I' sería para una pregunta.",
-              "points": 1
-            },
-            {
-              "sentence": "______ (you) at home now?",
-              "options": [
-                "Are you",
-                "You are"
-              ],
-              "answer": "Are you",
-              "explanation": "Para hacer preguntas sobre la ubicación, usamos 'Are you'. 'You are' sería incorrecto aquí porque no es interrogativo.",
-              "points": 1
-            },
-            {
-              "sentence": "______ (I) ready for the test.",
-              "options": [
-                "I am",
-                "Am I"
-              ],
-              "answer": "I am",
-              "explanation": "Usamos 'I am' para indicar que estamos preparados. 'Am I' es para preguntas.",
-              "points": 1
-            },
-            {
-              "sentence": "Why ______ (you) so quiet today?",
-              "options": [
-                "are you",
-                "you are"
-              ],
-              "answer": "are you",
-              "explanation": "Para preguntar razones, 'are you' es correcto. 'You are' sería una afirmación, no una pregunta.",
-              "points": 1
-            },
-            {
-              "sentence": "______ (I) in the right place?",
-              "options": [
-                "Am I",
-                "I am"
-              ],
-              "answer": "Am I",
-              "explanation": "Con 'Am I', formulamos una pregunta sobre nuestra ubicación. 'I am' sería una afirmación.",
-              "points": 1
-            }
+          "interaction_id": "U2_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'He'?",
+          "options": [
+            { "id": "o1", "text": "His" },
+            { "id": "o2", "text": "He's" },
+            { "id": "o3", "text": "Him" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_Ta1-u2-possessives_I2",
-          "instructions": "Fill in the blanks with the correct word.",
-          "questions": [
-            {
-              "sentence": "Let's go to the park __ play.",
-              "gap": "to",
-              "explanation": "Usamos 'to' para indicar una acción que sigue un verbo como 'go'.",
-              "points": 1
-            },
-            {
-              "sentence": "The book is __ the table.",
-              "gap": "on",
-              "explanation": "Usamos 'on' para indicar que algo está sobre una superficie.",
-              "points": 1
-            },
-            {
-              "sentence": "__ is your favorite color?",
-              "gap": "What",
-              "explanation": "Usamos 'what' para preguntar por información específica, como un color.",
-              "points": 1
-            },
-            {
-              "sentence": "Open __ door, please.",
-              "gap": "the",
-              "explanation": "Usamos 'the' antes de sustantivos específicos, como una puerta mencionada.",
-              "points": 1
-            },
-            {
-              "sentence": "The cat is __ the chair.",
-              "gap": "under",
-              "explanation": "Usamos 'under' para indicar que algo está directamente debajo de otra cosa.",
-              "points": 1
-            },
-            {
-              "sentence": "Let's __ some ice cream.",
-              "gap": "have",
-              "explanation": "Usamos 'have' para sugerir o proponer una acción, como comer algo.",
-              "points": 1
-            },
-            {
-              "sentence": "Where __ my keys?",
-              "gap": "are",
-              "explanation": "Usamos 'are' para preguntar sobre la ubicación de objetos en plural, como 'keys'.",
-              "points": 1
-            },
-            {
-              "sentence": "The ball is __ the box and the chair.",
-              "gap": "between",
-              "explanation": "Usamos 'between' para indicar que algo está en el medio de dos cosas.",
-              "points": 1
-            }
+          "interaction_id": "U2_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'She'?",
+          "options": [
+            { "id": "o1", "text": "Her" },
+            { "id": "o2", "text": "Hers" },
+            { "id": "o3", "text": "She's" }
           ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'I'?",
+          "options": [
+            { "id": "o1", "text": "My" },
+            { "id": "o2", "text": "Me" },
+            { "id": "o3", "text": "Mine" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'They'?",
+          "options": [
+            { "id": "o1", "text": "Their" },
+            { "id": "o2", "text": "There" },
+            { "id": "o3", "text": "They're" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'We'?",
+          "options": [
+            { "id": "o1", "text": "Our" },
+            { "id": "o2", "text": "Us" },
+            { "id": "o3", "text": "Ours" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I43",
+          "type": "true_false",
+          "prompt_es": "¿'Its' se escribe con apóstrofe para el posesivo?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. 'Its' sin apóstrofe es el posesivo. 'It's' con apóstrofe es 'It is'.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la diferencia entre 'His' y 'Her'?",
+          "options": [
+            { "id": "o1", "text": "His es para él, Her es para ella" },
+            { "id": "o2", "text": "His es para ella, Her es para él" },
+            { "id": "o3", "text": "Ambos son iguales" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase:",
+          "stimulus_en": "That is my sister. ___ name is Alice.",
+          "correct_answer": "Her",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase:",
+          "stimulus_en": "This is my brother. ___ car is red.",
+          "correct_answer": "His",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I47",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "address" },
+            { "id": "w4", "text": "London" }
+          ],
+          "correct_answer": ["w1", "w3", "w1", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "number" },
+            { "id": "w3", "text": "His" },
+            { "id": "w4", "text": "555-0199" }
+          ],
+          "correct_answer": ["w3", "w2", "w1", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál es su (de ella) número de teléfono?'?",
+          "options": [
+            { "id": "o1", "text": "What is her phone number?" },
+            { "id": "o2", "text": "What is his phone number?" },
+            { "id": "o3", "text": "What is she phone number?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál es su (de ellos) dirección?'?",
+          "options": [
+            { "id": "o1", "text": "What is their address?" },
+            { "id": "o2", "text": "What is our address?" },
+            { "id": "o3", "text": "What is there address?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I51",
+          "type": "matching",
+          "prompt_es": "Une los pronombres personales con sus posesivos:",
+          "pairs": [
+            { "id": "p1", "left": "I", "right": "My" },
+            { "id": "p2", "left": "You", "right": "Your" },
+            { "id": "p3", "left": "He", "right": "His" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I52",
+          "type": "matching",
+          "prompt_es": "Une los pronombres personales con sus posesivos:",
+          "pairs": [
+            { "id": "p1", "left": "She", "right": "Her" },
+            { "id": "p2", "left": "We", "right": "Our" },
+            { "id": "p3", "left": "They", "right": "Their" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nuestra casa'?",
+          "options": [
+            { "id": "o1", "text": "Our house" },
+            { "id": "o2", "text": "Us house" },
+            { "id": "o3", "text": "We house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Su (de él) coche'?",
+          "options": [
+            { "id": "o1", "text": "His car" },
+            { "id": "o2", "text": "He car" },
+            { "id": "o3", "text": "Him car" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Su (de ellos) perro'?",
+          "options": [
+            { "id": "o1", "text": "Their dog" },
+            { "id": "o2", "text": "They dog" },
+            { "id": "o3", "text": "Them dog" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tu libro'?",
+          "options": [
+            { "id": "o1", "text": "Your book" },
+            { "id": "o2", "text": "You book" },
+            { "id": "o3", "text": "Yours book" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The cat is drinking ___ milk.'",
+          "stimulus_en": "___",
+          "correct_answer": "its",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are in ___ English class.'",
+          "stimulus_en": "___",
+          "correct_answer": "our",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They are in ___ office.'",
+          "stimulus_en": "___",
+          "correct_answer": "their",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have ___ passport.'",
+          "stimulus_en": "___",
+          "correct_answer": "my",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Jobs & Personal Details",
+      "content": [
+        {
+          "interaction_id": "U2_I61",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'médico'?",
+          "options": [
+            { "id": "o1", "text": "Doctor" },
+            { "id": "o2", "text": "Nurse" },
+            { "id": "o3", "text": "Dentist" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enfermero/a'?",
+          "options": [
+            { "id": "o1", "text": "Nurse" },
+            { "id": "o2", "text": "Doctor" },
+            { "id": "o3", "text": "Patient" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camarero'?",
+          "options": [
+            { "id": "o1", "text": "Waiter" },
+            { "id": "o2", "text": "Chef" },
+            { "id": "o3", "text": "Manager" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'conductor de autobús'?",
+          "options": [
+            { "id": "o1", "text": "Bus driver" },
+            { "id": "o2", "text": "Taxi driver" },
+            { "id": "o3", "text": "Truck driver" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ingeniero'?",
+          "options": [
+            { "id": "o1", "text": "Engineer" },
+            { "id": "o2", "text": "Architect" },
+            { "id": "o3", "text": "Builder" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué te dedicas?'?",
+          "options": [
+            { "id": "o1", "text": "What do you do?" },
+            { "id": "o2", "text": "What are you doing?" },
+            { "id": "o3", "text": "What is your job?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes a 'What do you do?'?",
+          "options": [
+            { "id": "o1", "text": "I am a teacher." },
+            { "id": "o2", "text": "I am fine." },
+            { "id": "o3", "text": "I do English." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Job'?",
+          "options": [
+            { "id": "o1", "text": "Trabajo / Empleo" },
+            { "id": "o2", "text": "Hobby" },
+            { "id": "o3", "text": "Nombre" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'dirección de correo electrónico'?",
+          "options": [
+            { "id": "o1", "text": "Email address" },
+            { "id": "o2", "text": "Email name" },
+            { "id": "o3", "text": "Electronic address" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '@' en un email?",
+          "options": [
+            { "id": "o1", "text": "At" },
+            { "id": "o2", "text": "In" },
+            { "id": "o3", "text": "On" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '.' en un email (p.ej. .com)?",
+          "options": [
+            { "id": "o1", "text": "Dot" },
+            { "id": "o2", "text": "Point" },
+            { "id": "o3", "text": "Stop" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'número de teléfono'?",
+          "options": [
+            { "id": "o1", "text": "Phone number" },
+            { "id": "o2", "text": "Telephone name" },
+            { "id": "o3", "text": "Call number" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dirección'?",
+          "options": [
+            { "id": "o1", "text": "Address" },
+            { "id": "o2", "text": "Direction" },
+            { "id": "o3", "text": "Way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál es tu correo electrónico?'?",
+          "options": [
+            { "id": "o1", "text": "What is your email address?" },
+            { "id": "o2", "text": "How is your email?" },
+            { "id": "o3", "text": "Where is your email?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I75",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'a' o 'an':",
+          "stimulus_en": "I am ___ doctor.",
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I76",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'a' o 'an':",
+          "stimulus_en": "He is ___ engineer.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I77",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'a' o 'an':",
+          "stimulus_en": "She is ___ actress.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I78",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'a' o 'an':",
+          "stimulus_en": "I am ___ waiter.",
+          "correct_answer": "a",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo se usa 'an' antes de un trabajo?",
+          "options": [
+            { "id": "o1", "text": "Cuando la palabra empieza por vocal" },
+            { "id": "o2", "text": "Cuando la palabra empieza por consonante" },
+            { "id": "o3", "text": "Siempre" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estudiante'?",
+          "options": [
+            { "id": "o1", "text": "Student" },
+            { "id": "o2", "text": "Study" },
+            { "id": "o3", "text": "Studier" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Games & Review",
+      "content": [
+        {
+          "interaction_id": "U2_I81",
+          "type": "word-search",
+          "prompt_es": "Encuentra las profesiones:",
+          "words": ["DOCTOR", "NURSE", "WAITER", "CHEF", "DRIVER", "TEACHER", "STUDENT", "PILOT"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "DOCTOR", "clue": "Trabaja en un hospital" },
+            { "word": "NURSE", "clue": "Ayuda al doctor" },
+            { "word": "WAITER", "clue": "Sirve comida" },
+            { "word": "CHEF", "clue": "Cocina profesional" },
+            { "word": "DRIVER", "clue": "Conduce un vehículo" },
+            { "word": "TEACHER", "clue": "Enseña en la escuela" },
+            { "word": "STUDENT", "clue": "Aprende en la escuela" },
+            { "word": "PILOT", "clue": "Vuela aviones" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I82",
+          "type": "crossword",
+          "prompt_es": "Completa el crucigrama de números y datos:",
+          "items": [
+            { "word": "TEN", "clue": "Five plus five", "direction": "across", "row": 0, "col": 0 },
+            { "word": "TWO", "clue": "One plus one", "direction": "down", "row": 0, "col": 2 },
+            { "word": "MY", "clue": "I am Peter. ___ name is Peter", "direction": "across", "row": 2, "col": 0 },
+            { "word": "DOT", "clue": "The '.' in gmail.com", "direction": "down", "row": 1, "col": 0 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I83",
+          "type": "matching",
+          "prompt_es": "Une los números con su escritura:",
+          "pairs": [
+            { "id": "p1", "left": "15", "right": "Fifteen" },
+            { "id": "p2", "left": "50", "right": "Fifty" },
+            { "id": "p3", "left": "5", "right": "Five" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I84",
+          "type": "true_false",
+          "prompt_es": "¿'What do you do?' significa '¿Qué estás haciendo ahora?'?",
+          "correct_answer": false,
+          "feedback_incorrect_es": "Incorrecto. Significa '¿A qué te dedicas?' (tu profesión).",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'recepcionista'?",
+          "options": [
+            { "id": "o1", "text": "Receptionist" },
+            { "id": "o2", "text": "Secretary" },
+            { "id": "o3", "text": "Assistant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'policía'?",
+          "options": [
+            { "id": "o1", "text": "Police officer" },
+            { "id": "o2", "text": "Policeman" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'comerciante / vendedor'?",
+          "options": [
+            { "id": "o1", "text": "Shop assistant" },
+            { "id": "o2", "text": "Seller" },
+            { "id": "o3", "text": "Merchant" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I88",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el número: 'Twenty-___' (29)",
+          "stimulus_en": "___",
+          "correct_answer": "nine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I89",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el número: '___-seven' (67)",
+          "stimulus_en": "___",
+          "correct_answer": "Sixty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se lee 'john@gmail.com'?",
+          "options": [
+            { "id": "o1", "text": "john at gmail dot com" },
+            { "id": "o2", "text": "john email gmail point com" },
+            { "id": "o3", "text": "john in gmail stop com" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'What's his job?'?",
+          "options": [
+            { "id": "o1", "text": "¿Cuál es su (de él) trabajo?" },
+            { "id": "o2", "text": "¿Cuál es su (de ella) trabajo?" },
+            { "id": "o3", "text": "¿Cuál es mi trabajo?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Ella es enfermera'?",
+          "options": [
+            { "id": "o1", "text": "She is a nurse." },
+            { "id": "o2", "text": "She is an nurse." },
+            { "id": "o3", "text": "She is nurse." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Él es actor'?",
+          "options": [
+            { "id": "o1", "text": "He is an actor." },
+            { "id": "o2", "text": "He is a actor." },
+            { "id": "o3", "text": "He is actor." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'First name'?",
+          "options": [
+            { "id": "o1", "text": "Nombre de pila" },
+            { "id": "o2", "text": "Primer apellido" },
+            { "id": "o3", "text": "Nombre completo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Last name'?",
+          "options": [
+            { "id": "o1", "text": "Apellido" },
+            { "id": "o2", "text": "Nombre" },
+            { "id": "o3", "text": "Apodo" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I96",
+          "type": "reorder_words",
+          "prompt_es": "Ordena los números de menor a mayor:",
+          "options": [
+            { "id": "w1", "text": "Ten" },
+            { "id": "w2", "text": "Fifty" },
+            { "id": "w3", "text": "Twenty" },
+            { "id": "w4", "text": "Five" }
+          ],
+          "correct_answer": ["w4", "w1", "w3", "w2"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es tu 'marital status' si no estás casado?",
+          "options": [
+            { "id": "o1", "text": "Single" },
+            { "id": "o2", "text": "Married" },
+            { "id": "o3", "text": "Divorced" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Age'?",
+          "options": [
+            { "id": "o1", "text": "Edad" },
+            { "id": "o2", "text": "Agencia" },
+            { "id": "o3", "text": "Agenda" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo 30 años'?",
+          "options": [
+            { "id": "o1", "text": "I am thirty." },
+            { "id": "o2", "text": "I have thirty." },
+            { "id": "o3", "text": "I are thirty." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U2_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta de decir un número de teléfono (p.ej. 555)?",
+          "options": [
+            { "id": "o1", "text": "Five five five" },
+            { "id": "o2", "text": "Five hundred and fifty five" },
+            { "id": "o3", "text": "Fifty five five" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
         }
       ]
     }

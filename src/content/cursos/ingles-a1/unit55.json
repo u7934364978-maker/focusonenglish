@@ -1,0 +1,49 @@
+{
+  "course": {
+    "unit_id": "U55",
+    "unit_title": "Invitations",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Invite someone using 'Would you like...?'",
+    "Accept and refuse invitations politely"
+  ],
+  "blocks": [
+    {
+      "block_id": "B1",
+      "title": "Inviting People",
+      "content": [
+        {
+          "interaction_id": "U55_I1",
+          "type": "reorder_words",
+          "prompt_es": "Hacer una invitación",
+          "stimulus_en": "Would you like to come?",
+          "options": [
+            { "id": "w1", "text": "Would" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "like" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "come?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U55_I2",
+          "type": "matching",
+          "prompt_es": "Aceptar y rechazar",
+          "pairs": [
+            { "id": "r1", "left": "Yes, I'd love to", "right": "Sí, me encantaría" },
+            { "id": "r2", "left": "I'm sorry, I can't", "right": "Lo siento, no puedo" },
+            { "id": "r3", "left": "That sounds great", "right": "Eso suena genial" }
+          ],
+          "correct_answer": { "r1": "r1", "r2": "r2", "r3": "r3" },
+          "mastery_tag": "communication"
+        }
+      ]
+    }
+  ]
+}
