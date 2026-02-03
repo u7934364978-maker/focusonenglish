@@ -4,194 +4,1110 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U26",
-    "unit_title": "Transport and movement",
-    "total_duration_minutes": 120
+    "unit_title": "Travel Experiences",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B26",
-      "title": "Transport and movement",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Travel & Transportation",
       "content": [
         {
           "interaction_id": "U26_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vuelo'?",
+          "options": [
+            { "id": "o1", "text": "Flight" },
+            { "id": "o2", "text": "Fly" },
+            { "id": "o3", "text": "Flow" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pasaporte'?",
+          "options": [
+            { "id": "o1", "text": "Passport" },
+            { "id": "o2", "text": "Passport id" },
+            { "id": "o3", "text": "Ticket" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 26 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Billete' o 'Ticket'?",
+          "options": [
+            { "id": "o1", "text": "Ticket" },
+            { "id": "o2", "text": "Bill" },
+            { "id": "o3", "text": "Paper" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Equipaje'?",
           "options": [
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "26"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            }
+            { "id": "o1", "text": "Baggage" },
+            { "id": "o2", "text": "Luggage" },
+            { "id": "o3", "text": "Both are correct" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'Retraso'?",
           "options": [
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            }
+            { "id": "o1", "text": "Delay" },
+            { "id": "o2", "text": "Late" },
+            { "id": "o3", "text": "Wait" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Souvenir' o 'Recuerdo'?",
+          "options": [
+            { "id": "o1", "text": "Souvenir" },
+            { "id": "o2", "text": "Gift" },
+            { "id": "o3", "text": "Memory" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'Hacer turismo'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Sightseeing" },
+            { "id": "o2", "text": "Tourism" },
+            { "id": "o3", "text": "Visiting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Embarque'?",
+          "options": [
+            { "id": "o1", "text": "Boarding" },
+            { "id": "o2", "text": "Entering" },
+            { "id": "o3", "text": "Getting in" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Guía turístico'?",
+          "options": [
+            { "id": "o1", "text": "Tour guide" },
+            { "id": "o2", "text": "Travel man" },
+            { "id": "o3", "text": "Trip person" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Albergue'?",
+          "options": [
+            { "id": "o1", "text": "Hostel" },
+            { "id": "o2", "text": "Hotel" },
+            { "id": "o3", "text": "House" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I11",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "Flight", "right": "Vuelo" },
+            { "id": "p2", "left": "Ticket", "right": "Billete" },
+            { "id": "p3", "left": "Passport", "right": "Pasaporte" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mochila'?",
+          "options": [
+            { "id": "o1", "text": "Backpack" },
+            { "id": "o2", "text": "Bag" },
+            { "id": "o3", "text": "Case" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Maleta'?",
+          "options": [
+            { "id": "o1", "text": "Suitcase" },
+            { "id": "o2", "text": "Case" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'Mapa'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Map" },
+            { "id": "o2", "text": "Chart" },
+            { "id": "o3", "text": "Plan" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Agente de viajes'?",
+          "options": [
+            { "id": "o1", "text": "Travel agent" },
+            { "id": "o2", "text": "Trip manager" },
+            { "id": "o3", "text": "Flight seller" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "flashcard",
+          "prompt_es": "Vocabulario de Viajes",
+          "flashcards": [
+            { "front": "Baggage claim", "back": "Recogida de equipaje", "pronunciation": "/ˈbæɡɪdʒ kleɪm/" },
+            { "front": "Boarding pass", "back": "Tarjeta de embarque", "pronunciation": "/ˈbɔːrdɪŋ pæs/" },
+            { "front": "Customs", "back": "Aduana", "pronunciation": "/ˈkʌstəmz/" },
+            { "front": "Gate", "back": "Puerta de embarque", "pronunciation": "/ɡeɪt/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ida y vuelta'?",
+          "options": [
+            { "id": "o1", "text": "Round trip" },
+            { "id": "o2", "text": "Return ticket" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Solo ida'?",
+          "options": [
+            { "id": "o1", "text": "One way" },
+            { "id": "o2", "text": "Single" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Alojamiento'?",
+          "options": [
+            { "id": "o1", "text": "Accommodation" },
+            { "id": "o2", "text": "Stay" },
+            { "id": "o3", "text": "Living" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reservar'?",
+          "options": [
+            { "id": "o1", "text": "To book" },
+            { "id": "o2", "text": "To reserve" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Check-in'?",
+          "options": [
+            { "id": "o1", "text": "Check-in" },
+            { "id": "o2", "text": "Registration" },
+            { "id": "o3", "text": "Arrival" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Salida'?",
+          "options": [
+            { "id": "o1", "text": "Departure" },
+            { "id": "o2", "text": "Exit" },
+            { "id": "o3", "text": "Leaving" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Llegada'?",
+          "options": [
+            { "id": "o1", "text": "Arrival" },
+            { "id": "o2", "text": "Entry" },
+            { "id": "o3", "text": "Incoming" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U26_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Crucero'?",
+          "options": [
+            { "id": "o1", "text": "Cruise" },
+            { "id": "o2", "text": "Boat trip" },
+            { "id": "o3", "text": "Sea travel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Transbordo'?",
+          "options": [
+            { "id": "o1", "text": "Transfer" },
+            { "id": "o2", "text": "Change" },
+            { "id": "o3", "text": "Connection" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seguro de viaje'?",
+          "options": [
+            { "id": "o1", "text": "Travel insurance" },
+            { "id": "o2", "text": "Trip safety" },
+            { "id": "o3", "text": "Flight guard" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Turista'?",
+          "options": [
+            { "id": "o1", "text": "Tourist" },
+            { "id": "o2", "text": "Traveler" },
+            { "id": "o3", "text": "Visitor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extraño' o 'Desconocido'?",
+          "options": [
+            { "id": "o1", "text": "Stranger" },
+            { "id": "o2", "text": "Unknown" },
+            { "id": "o3", "text": "Foreign" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Extranjero' (persona)?",
+          "options": [
+            { "id": "o1", "text": "Foreigner" },
+            { "id": "o2", "text": "Foreign" },
+            { "id": "o3", "text": "Outsider" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Perder' (el vuelo)?",
+          "options": [
+            { "id": "o1", "text": "To miss" },
+            { "id": "o2", "text": "To lose" },
+            { "id": "o3", "text": "To fail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aterrizar'?",
+          "options": [
+            { "id": "o1", "text": "To land" },
+            { "id": "o2", "text": "To ground" },
+            { "id": "o3", "text": "To arrive" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Despegar'?",
+          "options": [
+            { "id": "o1", "text": "To take off" },
+            { "id": "o2", "text": "To fly up" },
+            { "id": "o3", "text": "To leave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Explorar'?",
+          "options": [
+            { "id": "o1", "text": "To explore" },
+            { "id": "o2", "text": "To look around" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Perderse'?",
+          "options": [
+            { "id": "o1", "text": "To get lost" },
+            { "id": "o2", "text": "To lose oneself" },
+            { "id": "o3", "text": "To miss the way" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Relajarse'?",
+          "options": [
+            { "id": "o1", "text": "To relax" },
+            { "id": "o2", "text": "To chill out" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Connectors & Past Narrative",
+      "content": [
+        {
+          "interaction_id": "U26_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con un conector: 'I went to the airport ___ (pero) my flight was delayed.'",
+          "stimulus_en": "I went to the airport ___ my flight was delayed.",
+          "correct_answer": "but",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con un conector: 'I was tired ___ (así que) I went to bed.'",
+          "stimulus_en": "I was tired ___ I went to bed.",
+          "correct_answer": "so",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con un conector: 'We stayed in a hostel ___ (porque) it was cheap.'",
+          "stimulus_en": "We stayed in a hostel ___ it was cheap.",
+          "correct_answer": "because",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I39",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el conector: 'It was raining ___ (but/so) we stayed inside.'",
+          "options": [
+            { "id": "o1", "text": "so" },
+            { "id": "o2", "text": "but" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Elige el conector: 'I liked the city ___ (but/because) it was very beautiful.'",
+          "options": [
+            { "id": "o1", "text": "because" },
+            { "id": "o2", "text": "but" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (perdimos) our connection.'",
+          "stimulus_en": "We ___ our connection.",
+          "correct_answer": "missed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (olvidé) my passport at home.'",
+          "stimulus_en": "I ___ my passport at home.",
+          "correct_answer": "forgot",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (perdió) her keys.'",
+          "stimulus_en": "She ___ her keys.",
+          "correct_answer": "lost",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The plane ___ (despegó) on time.'",
+          "stimulus_en": "The plane ___ off on time.",
+          "correct_answer": "took",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (llegamos) late because of the traffic.'",
+          "stimulus_en": "We ___ late because of the traffic.",
+          "correct_answer": "arrived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'lost / I / because / I / was / got / map / a / didn't / have / .'",
+          "options": [
+            { "id": "w1", "text": "lost" },
+            { "id": "w2", "text": "I" },
+            { "id": "w3", "text": "because" },
+            { "id": "w4", "text": "I" },
+            { "id": "w5", "text": "was" },
+            { "id": "w6", "text": "got" },
+            { "id": "w7", "text": "map" },
+            { "id": "w8", "text": "a" },
+            { "id": "w9", "text": "didn't" },
+            { "id": "w10", "text": "have" },
+            { "id": "w11", "text": "." }
+          ],
+          "correct_answer": ["w2", "w6", "w1", "w3", "w4", "w9", "w10", "w8", "w7", "w11"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (no pudimos) find the museum.'",
+          "stimulus_en": "We ___ find the museum.",
+          "correct_answer": "couldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (compré) a lot of souvenirs.'",
+          "stimulus_en": "I ___ a lot of souvenirs.",
+          "correct_answer": "bought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (hicimos) sightseeing all day.'",
+          "stimulus_en": "We ___ sightseeing all day.",
+          "correct_answer": "did",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (sacaron) the wrong train.'",
+          "stimulus_en": "They ___ the wrong train.",
+          "correct_answer": "took",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (me quedé) in a beautiful hotel.'",
+          "stimulus_en": "I ___ in a beautiful hotel.",
+          "correct_answer": "stayed",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U26_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (vimos) the Eiffel Tower.'",
+          "stimulus_en": "We ___ the Eiffel Tower.",
+          "correct_answer": "saw",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (conocí) many travelers.'",
+          "stimulus_en": "I ___ many travelers.",
+          "correct_answer": "met",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I didn't have a ticket, ___ (but/so) I couldn't enter.'",
+          "options": [
+            { "id": "o1", "text": "so" },
+            { "id": "o2", "text": "but" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (pasamos) two weeks in Japan.'",
+          "stimulus_en": "We ___ two weeks in Japan.",
+          "correct_answer": "spent",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (traje) some food for the trip.'",
+          "stimulus_en": "I ___ some food for the trip.",
+          "correct_answer": "brought",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The weather ___ (era) perfect.'",
+          "stimulus_en": "The weather ___ perfect.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (no tuvimos) any problems.'",
+          "stimulus_en": "We ___ have any problems.",
+          "correct_answer": "didn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'but / We / wanted / to / it / go / was / closed / .'",
+          "options": [
+            { "id": "w1", "text": "but" },
+            { "id": "w2", "text": "We" },
+            { "id": "w3", "text": "wanted" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "it" },
+            { "id": "w6", "text": "go" },
+            { "id": "w7", "text": "was" },
+            { "id": "w8", "text": "closed" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w2", "w3", "w4", "w6", "w1", "w5", "w7", "w8", "w9"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I60",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 26 of the A2 course.\"",
+          "prompt_es": "'Because' introduce la razón de algo.",
           "correct_answer": true,
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I61",
+          "type": "true_false",
+          "prompt_es": "'So' introduce el resultado de algo.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (leí) a book during the flight.'",
+          "stimulus_en": "I ___ a book during the flight.",
+          "correct_answer": "read",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (fueron) to the beach.'",
+          "stimulus_en": "They ___ to the beach.",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (comimos) local food.'",
+          "stimulus_en": "We ___ local food.",
+          "correct_answer": "ate",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (no entendí) the map.'",
+          "stimulus_en": "I ___ understand the map.",
+          "correct_answer": "didn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ (¿Fue?) it expensive?'",
+          "stimulus_en": "___ it expensive?",
+          "correct_answer": "Was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I67",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'Did you ___ (took/take) many photos?'",
+          "options": [
+            { "id": "o1", "text": "take" },
+            { "id": "o2", "text": "took" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (bebimos) a lot of water.'",
+          "stimulus_en": "We ___ a lot of water.",
+          "correct_answer": "drank",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ (habló) with the tour guide.'",
+          "stimulus_en": "She ___ with the tour guide.",
+          "correct_answer": "talked",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U26_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (escribí) postcards.'",
+          "stimulus_en": "I ___ postcards.",
+          "correct_answer": "wrote",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Telling Travel Stories",
+      "content": [
+        {
+          "interaction_id": "U26_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Dónde estuviste de vacaciones?'?",
+          "options": [
+            { "id": "o1", "text": "Where were you on holiday?" },
+            { "id": "o2", "text": "Where did you go on holiday?" },
+            { "id": "o3", "text": "Both are common" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Fui a Italia'?",
+          "options": [
+            { "id": "o1", "text": "I went to Italy." },
+            { "id": "o2", "text": "I go to Italy." },
+            { "id": "o3", "text": "Went I to Italy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cómo fue el viaje?'?",
+          "options": [
+            { "id": "o1", "text": "How was the trip?" },
+            { "id": "o2", "text": "How did the trip?" },
+            { "id": "o3", "text": "How were the trip?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Fue increíble pero cansado'?",
+          "options": [
+            { "id": "o1", "text": "It was amazing but tiring." },
+            { "id": "o2", "text": "It was amazing because tiring." },
+            { "id": "o3", "text": "It were amazing but tiring." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Tuviste algún problema?'?",
+          "options": [
+            { "id": "o1", "text": "Did you have any problems?" },
+            { "id": "o2", "text": "Had you any problems?" },
+            { "id": "o3", "text": "Did you had problems?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Sí, perdí mi maleta'?",
+          "options": [
+            { "id": "o1", "text": "Yes, I lost my suitcase." },
+            { "id": "o2", "text": "Yes, I missed my suitcase." },
+            { "id": "o3", "text": "Yes, I lose my suitcase." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué hiciste allí?'?",
+          "options": [
+            { "id": "o1", "text": "What did you do there?" },
+            { "id": "o2", "text": "What you did there?" },
+            { "id": "o3", "text": "What were you do?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Hice mucho turismo'?",
+          "options": [
+            { "id": "o1", "text": "I did a lot of sightseeing." },
+            { "id": "o2", "text": "I made a lot of tourism." },
+            { "id": "o3", "text": "I did sightseeing much." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I79",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Con quién fuiste?'?",
+          "options": [
+            { "id": "o1", "text": "Who did you go with?" },
+            { "id": "o2", "text": "With who you went?" },
+            { "id": "o3", "text": "Who went you with?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Fui con mis amigos'?",
+          "options": [
+            { "id": "o1", "text": "I went with my friends." },
+            { "id": "o2", "text": "I go with my friends." },
+            { "id": "o3", "text": "Went I with friends." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I81",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Llegamos tarde porque el vuelo se retrasó.'",
+          "stimulus_es": "Llegamos tarde porque el vuelo se retrasó.",
+          "correct_answer": "We arrived late because the flight was delayed.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I82",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No tenía un mapa, así que me perdí.'",
+          "stimulus_es": "No tenía un mapa, así que me perdí.",
+          "correct_answer": "I didn't have a map, so I got lost.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Olvidé mi pasaporte'?",
+          "options": [
+            { "id": "o1", "text": "I forgot my passport." },
+            { "id": "o2", "text": "I forget my passport." },
+            { "id": "o3", "text": "Forgot I my passport." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una pesadilla'?",
+          "options": [
+            { "id": "o1", "text": "It was a nightmare." },
+            { "id": "o2", "text": "It were a nightmare." },
+            { "id": "o3", "text": "It did a nightmare." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Lo pasamos muy bien'?",
+          "options": [
+            { "id": "o1", "text": "We had a great time." },
+            { "id": "o2", "text": "We have a great time." },
+            { "id": "o3", "text": "We pass it well." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I86",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'We / a / stayed / in / hotel / small / but / expensive / .'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "a" },
+            { "id": "w3", "text": "stayed" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "hotel" },
+            { "id": "w6", "text": "small" },
+            { "id": "w7", "text": "but" },
+            { "id": "w8", "text": "expensive" },
+            { "id": "w9", "text": "." }
+          ],
+          "correct_answer": ["w1", "w3", "w4", "w2", "w6", "w5", "w7", "w8", "w9"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hice la maleta anoche'?",
+          "options": [
+            { "id": "o1", "text": "I packed my suitcase last night." },
+            { "id": "o2", "text": "I made the suitcase." },
+            { "id": "o3", "text": "I did the suitcase." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El hotel era ruidoso'?",
+          "options": [
+            { "id": "o1", "text": "The hotel was noisy." },
+            { "id": "o2", "text": "The hotel was noise." },
+            { "id": "o3", "text": "The hotel were noisy." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuánto costó?'?",
+          "options": [
+            { "id": "o1", "text": "How much did it cost?" },
+            { "id": "o2", "text": "How much costed it?" },
+            { "id": "o3", "text": "How much was it cost?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué tiempo hizo?'?",
+          "options": [
+            { "id": "o1", "text": "What was the weather like?" },
+            { "id": "o2", "text": "What weather did it?" },
+            { "id": "o3", "text": "How was the weather?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'Hizo sol todos los días'?",
+          "options": [
+            { "id": "o1", "text": "It was sunny every day." },
+            { "id": "o2", "text": "It did sun every day." },
+            { "id": "o3", "text": "Was sunny every day." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No compré nada'?",
+          "options": [
+            { "id": "o1", "text": "I didn't buy anything." },
+            { "id": "o2", "text": "I bought nothing." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Saqué cientos de fotos'?",
+          "options": [
+            { "id": "o1", "text": "I took hundreds of photos." },
+            { "id": "o2", "text": "I took many hundreds photos." },
+            { "id": "o3", "text": "Took I hundreds photos." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿A qué hora llegaste?'?",
+          "options": [
+            { "id": "o1", "text": "What time did you arrive?" },
+            { "id": "o2", "text": "At what hour arrived you?" },
+            { "id": "o3", "text": "What time you arrived?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me perdí en el metro'?",
+          "options": [
+            { "id": "o1", "text": "I got lost in the subway." },
+            { "id": "o2", "text": "I lost me in the subway." },
+            { "id": "o3", "text": "I was lost in subway." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'La comida estaba deliciosa'?",
+          "options": [
+            { "id": "o1", "text": "The food was delicious." },
+            { "id": "o2", "text": "The food were delicious." },
+            { "id": "o3", "text": "Did the food delicious." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Quiero volver pronto'?",
+          "options": [
+            { "id": "o1", "text": "I want to go back soon." },
+            { "id": "o2", "text": "I want to return soon." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I98",
+          "type": "flashcard",
+          "prompt_es": "Resumen de Viajes",
+          "flashcards": [
+            { "front": "A direct flight", "back": "Un vuelo directo", "pronunciation": "/ə dəˈrekt flaɪt/" },
+            { "front": "A guided tour", "back": "Una visita guiada", "pronunciation": "/ə ˈɡaɪdɪd tʊər/" },
+            { "front": "To book a room", "back": "Reservar una habitación", "pronunciation": "/tu bʊk ə ruːm/" },
+            { "front": "To check out", "back": "Dejar la habitación", "pronunciation": "/tu tʃek aʊt/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me olvidé de llamar'?",
+          "options": [
+            { "id": "o1", "text": "I forgot to call." },
+            { "id": "o2", "text": "I forgot calling." },
+            { "id": "o3", "text": "Forgot I to call." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U26_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Me divertí mucho porque el viaje fue perfecto.'",
+          "stimulus_es": "Me divertí mucho porque el viaje fue perfecto.",
+          "correct_answer": "I had a lot of fun because the trip was perfect.",
+          "mastery_tag": "communication"
         }
       ]
     }
