@@ -73,7 +73,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - [x] Unit 28: School & Education (100 exercises)
     - [x] Unit 29: Learning a Language (100 exercises)
     - [x] Unit 30: Plans & Future (100 exercises)
-- [ ] **Module 4 (Units 31-40)**
+- [x] **Module 4 (Units 31-40)**
     - [x] Unit 31: My First Job (100 exercises)
     - [x] Unit 32: In the Office (100 exercises)
     - [x] Unit 33: Business Travel (100 exercises)
@@ -83,7 +83,17 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - [x] Unit 37: Money & Banking (100 exercises)
     - [x] Unit 38: Services & Repairs (100 exercises)
     - [x] Unit 39: Emergency Situations (100 exercises)
-    - [ ] Unit 40: Review Module 4 (100 exercises)
-- [ ] **Module 5 (Units 41-50)**
+    - [x] Unit 40: Review Module 4 (100 exercises)
+- [ ] **Module 5: Socializing & Daily Life (Units 41-50)**
+    - [x] Unit 41: Inviting Friends (100 exercises)
+    - [x] Unit 42: Making Plans (100 exercises)
+    - [x] Unit 43: Going to a Party (100 exercises)
+    - [x] Unit 44: Shopping for Gifts (100 exercises)
+    - [x] Unit 45: Eating Out (Advanced) (100 exercises)
+    - [x] Unit 46: Talking about the Past (100 exercises)
+    - [x] Unit 47: My Childhood (100 exercises)
+    - [ ] Unit 48: Yesterday's Events (100 exercises)
+    - [ ] Unit 49: Famous People (100 exercises)
+    - [ ] Unit 50: Review Module 5 (100 exercises)
 - [ ] **Module 6 (Units 51-60)**
 - [ ] Validate all generated units for schema compliance and quality

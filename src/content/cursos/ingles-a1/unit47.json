@@ -1,45 +1,1185 @@
 {
   "course": {
-    "unit_id": "U47",
-    "unit_title": "Holidays & Vacation",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U47",
+    "unit_title": "My Childhood",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Identify types of holidays",
-    "Talk about holiday activities"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Types of Holidays",
+      "title": "Childhood Memories & Vocabulary",
       "content": [
         {
           "interaction_id": "U47_I1",
-          "type": "matching",
-          "prompt_es": "Tipos de vacaciones",
-          "pairs": [
-            { "id": "h1", "left": "Beach holiday", "right": "Vacaciones en la playa" },
-            { "id": "h2", "left": "City break", "right": "Viaje a una ciudad" },
-            { "id": "h3", "left": "Skiing holiday", "right": "Vacaciones de esquí" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nací en Madrid'?",
+          "options": [
+            { "id": "o1", "text": "I was born in Madrid" },
+            { "id": "o2", "text": "I born in Madrid" },
+            { "id": "o3", "text": "I am born in Madrid" }
           ],
-          "correct_answer": { "h1": "h1", "h2": "h2", "h3": "h3" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué te gusta hacer en la playa?",
-          "stimulus_en": "I like ______ in the sea.",
+          "prompt_es": "¿Cómo se dice 'De pequeño, yo era tímido'?",
           "options": [
-            { "id": "o1", "text": "swimming" },
-            { "id": "o2", "text": "skiing" },
-            { "id": "o3", "text": "working" }
+            { "id": "o1", "text": "When I was a child, I was shy" },
+            { "id": "o2", "text": "When I was small, I were shy" },
+            { "id": "o3", "text": "I was shy child" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Dónde creciste?'?",
+          "options": [
+            { "id": "o1", "text": "Where did you grow up?" },
+            { "id": "o2", "text": "Where you grew up?" },
+            { "id": "o3", "text": "Where did you grown up?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Crecí en un pueblo pequeño'?",
+          "options": [
+            { "id": "o1", "text": "I grew up in a small village" },
+            { "id": "o2", "text": "I growed up in a small village" },
+            { "id": "o3", "text": "I grew in a small village" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál era tu juguete favorito?",
+          "options": [
+            { "id": "o1", "text": "What was your favourite toy?" },
+            { "id": "o2", "text": "Which was your favourite toy?" },
+            { "id": "o3", "text": "What were your favourite toy?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mi juguete favorito era un oso de peluche'?",
+          "options": [
+            { "id": "o1", "text": "My favourite toy was a teddy bear" },
+            { "id": "o2", "text": "My favourite toy were a teddy bear" },
+            { "id": "o3", "text": "Favourite toy was teddy bear" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'When I ___ (era) five, I loved cartoons.'",
+          "stimulus_en": "___",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (solíamos/jugábamos) hide and seek.'",
+          "stimulus_en": "___",
+          "correct_answer": "played",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I9",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi primer colegio era muy antiguo'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "first" },
+            { "id": "w3", "text": "school" },
+            { "id": "w4", "text": "was" },
+            { "id": "w5", "text": "very" },
+            { "id": "w6", "text": "old" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No me gustaba el brócoli'",
+          "options": [
+            { "id": "w1", "text": "like" },
+            { "id": "w2", "text": "broccoli" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "didn't" }
+          ],
+          "correct_answer": ["w3", "w4", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I11",
+          "type": "true_false",
+          "prompt_es": "¿'Primary school' significa colegio de primaria?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I12",
+          "type": "true_false",
+          "prompt_es": "¿'Best friend' significa mi primer amigo?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa 'mejor amigo'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo tenía un perro llamado Toby'?",
+          "options": [
+            { "id": "o1", "text": "I had a dog called Toby" },
+            { "id": "o2", "text": "I have a dog called Toby" },
+            { "id": "o3", "text": "I had a dog calls Toby" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me gustaba trepar a los árboles'?",
+          "options": [
+            { "id": "o1", "text": "I liked climbing trees" },
+            { "id": "o2", "text": "I liked climb trees" },
+            { "id": "o3", "text": "I like climb trees" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Eras un buen estudiante?'?",
+          "options": [
+            { "id": "o1", "text": "Were you a good student?" },
+            { "id": "o2", "text": "Was you a good student?" },
+            { "id": "o3", "text": "Did you were a good student?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tenía el pelo largo'?",
+          "options": [
+            { "id": "o1", "text": "I had long hair" },
+            { "id": "o2", "text": "I was long hair" },
+            { "id": "o3", "text": "I has long hair" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Vivíamos cerca de un parque'?",
+          "options": [
+            { "id": "o1", "text": "We lived near a park" },
+            { "id": "o2", "text": "We lived nearly a park" },
+            { "id": "o3", "text": "We live near a park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No me gustaba el colegio'?",
+          "options": [
+            { "id": "o1", "text": "I didn't like school" },
+            { "id": "o2", "text": "I wasn't like school" },
+            { "id": "o3", "text": "I not liked school" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quién era tu profesor favorito?'?",
+          "options": [
+            { "id": "o1", "text": "Who was your favourite teacher?" },
+            { "id": "o2", "text": "Who were your favourite teacher?" },
+            { "id": "o3", "text": "Who was your teacher favourite?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (quería) to be an astronaut.'",
+          "stimulus_en": "___",
+          "correct_answer": "wanted",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I21",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My family ___ (vivía) in a house.'",
+          "stimulus_en": "___",
+          "correct_answer": "lived",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿A qué jugabas en el recreo?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "did" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "play" },
+            { "id": "w5", "text": "at" },
+            { "id": "w6", "text": "breaktime?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I23",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No podíamos usar móviles en clase'",
+          "options": [
+            { "id": "w1", "text": "couldn't" },
+            { "id": "w2", "text": "use" },
+            { "id": "w3", "text": "phones" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "class" },
+            { "id": "w6", "text": "We" }
+          ],
+          "correct_answer": ["w6", "w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I24",
+          "type": "true_false",
+          "prompt_es": "¿'Nursery school' es el colegio para niños muy pequeños (guardería)?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I25",
+          "type": "true_false",
+          "prompt_es": "¿'Board game' significa juego de mesa?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Past Tense: Habits and Hobbies",
+      "content": [
+        {
+          "interaction_id": "U47_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo jugaba con bloques'?",
+          "options": [
+            { "id": "o1", "text": "I played with blocks" },
+            { "id": "o2", "text": "I was play with blocks" },
+            { "id": "o3", "text": "I play with blocks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella coleccionaba pegatinas'?",
+          "options": [
+            { "id": "o1", "text": "She collected stickers" },
+            { "id": "o2", "text": "She collect stickers" },
+            { "id": "o3", "text": "She was collect stickers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nosotros veíamos dibujos animados'?",
+          "options": [
+            { "id": "o1", "text": "We watched cartoons" },
+            { "id": "o2", "text": "We watched drawings" },
+            { "id": "o3", "text": "We watch cartoons" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ellos iban al parque cada tarde'?",
+          "options": [
+            { "id": "o1", "text": "They went to the park every afternoon" },
+            { "id": "o2", "text": "They go to the park every afternoon" },
+            { "id": "o3", "text": "They was go to the park" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mi abuela me contaba cuentos'?",
+          "options": [
+            { "id": "o1", "text": "My grandmother told me stories" },
+            { "id": "o2", "text": "My grandmother says me stories" },
+            { "id": "o3", "text": "My grandmother tell me stories" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo tenía miedo a la oscuridad'?",
+          "options": [
+            { "id": "o1", "text": "I was afraid of the dark" },
+            { "id": "o2", "text": "I had fear of the dark" },
+            { "id": "o3", "text": "I were afraid of the dark" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aprendí a montar en bici a los 6'?",
+          "options": [
+            { "id": "o1", "text": "I learned to ride a bike at 6" },
+            { "id": "o2", "text": "I learn to ride a bike at 6" },
+            { "id": "o3", "text": "I learned ride a bike at 6" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I33",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (jugaba) the piano when I was ten.'",
+          "stimulus_en": "___",
+          "correct_answer": "played",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My brother ___ (tenía) a red bicycle.'",
+          "stimulus_en": "___",
+          "correct_answer": "had",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Solíamos ir a la playa en verano'",
+          "options": [
+            { "id": "w1", "text": "go" },
+            { "id": "w2", "text": "the" },
+            { "id": "w3", "text": "beach" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "used" },
+            { "id": "w6", "text": "We" },
+            { "id": "w7", "text": "to" }
+          ],
+          "correct_answer": ["w6", "w5", "w7", "w1", "w4", "w2", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I36",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'No me gustaba compartir mis juguetes'",
+          "options": [
+            { "id": "w1", "text": "share" },
+            { "id": "w2", "text": "didn't" },
+            { "id": "w3", "text": "my" },
+            { "id": "w4", "text": "toys" },
+            { "id": "w5", "text": "like" },
+            { "id": "w6", "text": "I" },
+            { "id": "w7", "text": "to" }
+          ],
+          "correct_answer": ["w6", "w2", "w5", "w7", "w1", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I37",
+          "type": "true_false",
+          "prompt_es": "¿'To share' significa compartir?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I38",
+          "type": "true_false",
+          "prompt_es": "¿'Story' significa historia de la humanidad?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'story' suele referirse a un cuento o relato. La asignatura se llama 'History'.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuál era tu asignatura favorita?'?",
+          "options": [
+            { "id": "o1", "text": "What was your favourite subject?" },
+            { "id": "o2", "text": "Which was your favourite assignature?" },
+            { "id": "o3", "text": "What was your favourite topic?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo era muy travieso'?",
+          "options": [
+            { "id": "o1", "text": "I was very naughty" },
+            { "id": "o2", "text": "I was very naughty child" },
+            { "id": "o3", "text": "I were very naughty" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué querías ser de mayor?'?",
+          "options": [
+            { "id": "o1", "text": "What did you want to be when you grew up?" },
+            { "id": "o2", "text": "What did you want be when grow up?" },
+            { "id": "o3", "text": "What you wanted to be?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U47_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo quería ser médico'?",
+          "options": [
+            { "id": "o1", "text": "I wanted to be a doctor" },
+            { "id": "o2", "text": "I wanted be a doctor" },
+            { "id": "o3", "text": "I want to be a doctor" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mis padres me compraron una muñeca'?",
+          "options": [
+            { "id": "o1", "text": "My parents bought me a doll" },
+            { "id": "o2", "text": "My parents bought a doll for me" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cómo era tu casa?'?",
+          "options": [
+            { "id": "o1", "text": "What was your house like?" },
+            { "id": "o2", "text": "How was your house?" },
+            { "id": "o3", "text": "What were your house?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U47_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Era grande y moderna'?",
+          "options": [
+            { "id": "o1", "text": "It was big and modern" },
+            { "id": "o2", "text": "She was big and modern" },
+            { "id": "o3", "text": "They was big and modern" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I46",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (hice) many friends at school.'",
+          "stimulus_en": "___",
+          "correct_answer": "made",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (íbamos) to the zoo every year.'",
+          "stimulus_en": "___",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I48",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Vivías en una ciudad o en el campo?'",
+          "options": [
+            { "id": "w1", "text": "Did" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "live" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "a" },
+            { "id": "w6", "text": "city" },
+            { "id": "w7", "text": "or" },
+            { "id": "w8", "text": "in" },
+            { "id": "w9", "text": "the" },
+            { "id": "w10", "text": "countryside?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8", "w9", "w10"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I49",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi abuelo me enseñó a pescar'",
+          "options": [
+            { "id": "w1", "text": "taught" },
+            { "id": "w2", "text": "me" },
+            { "id": "w3", "text": "how" },
+            { "id": "w4", "text": "to" },
+            { "id": "w5", "text": "fish" },
+            { "id": "w6", "text": "My" },
+            { "id": "w7", "text": "grandfather" }
+          ],
+          "correct_answer": ["w6", "w7", "w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I50",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'teach' es 'taught'?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "School Days & Childhood Games",
+      "content": [
+        {
+          "interaction_id": "U47_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el nombre de este juego?",
+          "stimulus_en": "Hide and seek",
+          "options": [
+            { "id": "o1", "text": "Escondite" },
+            { "id": "o2", "text": "Pilla-pilla" },
+            { "id": "o3", "text": "Soga" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se llama el juego de saltar a la comba?",
+          "options": [
+            { "id": "o1", "text": "Skipping" },
+            { "id": "o2", "text": "Jumping" },
+            { "id": "o3", "text": "Hopping" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se llama el juego 'pilla-pilla'?",
+          "options": [
+            { "id": "o1", "text": "Tag" },
+            { "id": "o2", "text": "Touch" },
+            { "id": "o3", "text": "Catch" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dibujar con tiza'?",
+          "options": [
+            { "id": "o1", "text": "Draw with chalk" },
+            { "id": "o2", "text": "Draw with pencil" },
+            { "id": "o3", "text": "Draw with ink" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jugar con canicas'?",
+          "options": [
+            { "id": "o1", "text": "Play with marbles" },
+            { "id": "o2", "text": "Play with balls" },
+            { "id": "o3", "text": "Play with stones" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'columpiarse'?",
+          "options": [
+            { "id": "o1", "text": "Go on the swings" },
+            { "id": "o2", "text": "Go on the slide" },
+            { "id": "o3", "text": "Go on the bike" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tirarse por el tobogán'?",
+          "options": [
+            { "id": "o1", "text": "Go down the slide" },
+            { "id": "o2", "text": "Go on the swing" },
+            { "id": "o3", "text": "Jump the slide" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My ___ (uniforme) was blue and white.'",
+          "stimulus_en": "___",
+          "correct_answer": "uniform",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (leía) comic books.'",
+          "stimulus_en": "___",
+          "correct_answer": "read",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I60",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi asignatura favorita era plástica'",
+          "options": [
+            { "id": "w1", "text": "favourite" },
+            { "id": "w2", "text": "subject" },
+            { "id": "w3", "text": "was" },
+            { "id": "w4", "text": "Art" },
+            { "id": "w5", "text": "My" }
+          ],
+          "correct_answer": ["w5", "w1", "w2", "w3", "w4"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I61",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Iba al colegio en autobús'",
+          "options": [
+            { "id": "w1", "text": "went" },
+            { "id": "w2", "text": "to" },
+            { "id": "w3", "text": "school" },
+            { "id": "w4", "text": "by" },
+            { "id": "w5", "text": "bus" },
+            { "id": "w6", "text": "I" }
+          ],
+          "correct_answer": ["w6", "w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I62",
+          "type": "true_false",
+          "prompt_es": "¿'Primary school' es lo mismo que 'High school'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, 'Primary' es primaria y 'High school' es secundaria.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I63",
+          "type": "true_false",
+          "prompt_es": "¿'Lunch box' es la caja donde se lleva la comida al colegio?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tenía muchos deberes'?",
+          "options": [
+            { "id": "o1", "text": "I had a lot of homework" },
+            { "id": "o2", "text": "I had many homeworks" },
+            { "id": "o3", "text": "I was much homework" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Sacabas buenas notas?'?",
+          "options": [
+            { "id": "o1", "text": "Did you get good marks?" },
+            { "id": "o2", "text": "Did you had good marks?" },
+            { "id": "o3", "text": "You got good notes?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U47_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siempre sacaba sobresalientes'?",
+          "options": [
+            { "id": "o1", "text": "I always got straight As" },
+            { "id": "o2", "text": "I always got good notes" },
+            { "id": "o3", "text": "I was always good marks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Odiaba las matemáticas'?",
+          "options": [
+            { "id": "o1", "text": "I hated maths" },
+            { "id": "o2", "text": "I hate maths" },
+            { "id": "o3", "text": "I was hate maths" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I68",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Jugábamos al fútbol en el patio'?",
+          "options": [
+            { "id": "o1", "text": "We played football in the playground" },
+            { "id": "o2", "text": "We played football in the yard" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I69",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tenía una mochila roja'?",
+          "options": [
+            { "id": "o1", "text": "I had a red backpack" },
+            { "id": "o2", "text": "I was a red backpack" },
+            { "id": "o3", "text": "I had a red bag" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I70",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quién era tu mejor amigo?'?",
+          "options": [
+            { "id": "o1", "text": "Who was your best friend?" },
+            { "id": "o2", "text": "Who were your best friend?" },
+            { "id": "o3", "text": "Which was your best friend?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U47_I71",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (comíamos) lunch at school.'",
+          "stimulus_en": "___",
+          "correct_answer": "ate",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I72",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (corría) very fast.'",
+          "stimulus_en": "___",
+          "correct_answer": "ran",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I73",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Nos divertíamos mucho'",
+          "options": [
+            { "id": "w1", "text": "had" },
+            { "id": "w2", "text": "a" },
+            { "id": "w3", "text": "lot" },
+            { "id": "w4", "text": "of" },
+            { "id": "w5", "text": "fun" },
+            { "id": "w6", "text": "We" }
+          ],
+          "correct_answer": ["w6", "w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I74",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi profesor era muy simpático'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "teacher" },
+            { "id": "w3", "text": "was" },
+            { "id": "w4", "text": "very" },
+            { "id": "w5", "text": "kind" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I75",
+          "type": "true_false",
+          "prompt_es": "¿'School assembly' es la reunión de todo el colegio?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Interactive Games: Childhood Edition",
+      "content": [
+        {
+          "interaction_id": "U47_I76",
+          "type": "word-search",
+          "prompt_es": "Busca juguetes y juegos en inglés:",
+          "words": ["DOLL", "TEDDY", "BALL", "MARBLES", "TAG", "HIDE", "SEEK", "BLOCKS", "PUZZLE", "TRAIN"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "DOLL", "clue": "Muñeca" },
+            { "word": "TEDDY", "clue": "Oso de peluche" },
+            { "word": "BALL", "clue": "Pelota" },
+            { "word": "MARBLES", "clue": "Canicas" },
+            { "word": "TAG", "clue": "Pilla-pilla" },
+            { "word": "HIDE", "clue": "Esconderse (parte del nombre del juego)" },
+            { "word": "SEEK", "clue": "Buscar (parte del nombre del juego)" },
+            { "word": "BLOCKS", "clue": "Bloques de construcción" },
+            { "word": "PUZZLE", "clue": "Rompecabezas" },
+            { "word": "TRAIN", "clue": "Tren (de juguete)" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama sobre el colegio y la infancia:",
+          "items": [
+            { "word": "SCHOOL", "clue": "Where you learned to read", "direction": "across", "row": 0, "col": 0 },
+            { "word": "TEACHER", "clue": "Person who explains things in class", "direction": "down", "row": 0, "col": 5 },
+            { "word": "TOY", "clue": "Object you play with", "direction": "across", "row": 2, "col": 0 },
+            { "word": "FRIEND", "clue": "Person you play with", "direction": "down", "row": 2, "col": 0 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I78",
+          "type": "matching",
+          "prompt_es": "Une cada juguete con su nombre en inglés:",
+          "pairs": [
+            { "left": "Muñeca", "right": "Doll" },
+            { "left": "Oso de peluche", "right": "Teddy bear" },
+            { "left": "Canicas", "right": "Marbles" },
+            { "left": "Coche de juguete", "right": "Toy car" },
+            { "left": "Cometa", "right": "Kite" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I79",
+          "type": "matching",
+          "prompt_es": "Une cada lugar con su nombre:",
+          "pairs": [
+            { "left": "Patio de juegos", "right": "Playground" },
+            { "left": "Guardería", "right": "Nursery school" },
+            { "left": "Colegio", "right": "School" },
+            { "left": "Aula", "right": "Classroom" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I80",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Volabas cometas?'?",
+          "options": [
+            { "id": "o1", "text": "Did you fly kites?" },
+            { "id": "o2", "text": "Did you flew kites?" },
+            { "id": "o3", "text": "You flied kites?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'No tenía hermanos'?",
+          "options": [
+            { "id": "o1", "text": "I didn't have any siblings" },
+            { "id": "o2", "text": "I hadn't any siblings" },
+            { "id": "o3", "text": "I didn't had brothers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Era hijo único'?",
+          "options": [
+            { "id": "o1", "text": "I was an only child" },
+            { "id": "o2", "text": "I was a unique son" },
+            { "id": "o3", "text": "I was alone child" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mi mejor amigo vivía en la casa de al lado'?",
+          "options": [
+            { "id": "o1", "text": "My best friend lived next door" },
+            { "id": "o2", "text": "My best friend lived near" },
+            { "id": "o3", "text": "My best friend was next door" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hacíamos castillos de arena'?",
+          "options": [
+            { "id": "o1", "text": "We made sandcastles" },
+            { "id": "o2", "text": "We maked sandcastles" },
+            { "id": "o3", "text": "We made castles of sand" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Tenías una mascota?'?",
+          "options": [
+            { "id": "o1", "text": "Did you have a pet?" },
+            { "id": "o2", "text": "Had you a pet?" },
+            { "id": "o3", "text": "Did you had a pet?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Yo tenía un hámster'?",
+          "options": [
+            { "id": "o1", "text": "I had a hamster" },
+            { "id": "o2", "text": "I haced a hamster" },
+            { "id": "o3", "text": "I has a hamster" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me encantaban los animales'?",
+          "options": [
+            { "id": "o1", "text": "I loved animals" },
+            { "id": "o2", "text": "I was love animals" },
+            { "id": "o3", "text": "Animals were love" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mi perro me seguía a todas partes'?",
+          "options": [
+            { "id": "o1", "text": "My dog followed me everywhere" },
+            { "id": "o2", "text": "My dog followed everywhere" },
+            { "id": "o3", "text": "My dog followed to me" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Era un tiempo muy feliz'?",
+          "options": [
+            { "id": "o1", "text": "It was a very happy time" },
+            { "id": "o2", "text": "It were a very happy time" },
+            { "id": "o3", "text": "Was a happy time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Echaba de menos a mis padres'?",
+          "options": [
+            { "id": "o1", "text": "I missed my parents" },
+            { "id": "o2", "text": "I miss my parents" },
+            { "id": "o3", "text": "I was miss my parents" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I91",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ (jugaba) games on my computer.'",
+          "stimulus_en": "___",
+          "correct_answer": "played",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I92",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ (íbamos) to the park together.'",
+          "stimulus_en": "___",
+          "correct_answer": "went",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I93",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Leías muchos libros?'",
+          "options": [
+            { "id": "w1", "text": "Did" },
+            { "id": "w2", "text": "you" },
+            { "id": "w3", "text": "read" },
+            { "id": "w4", "text": "many" },
+            { "id": "w5", "text": "books?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Solía jugar con mis primos'",
+          "options": [
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "used" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "play" },
+            { "id": "w5", "text": "with" },
+            { "id": "w6", "text": "my" },
+            { "id": "w7", "text": "cousins" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I95",
+          "type": "true_false",
+          "prompt_es": "¿El pasado de 'go' es 'goed'?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, es 'went'. Es un verbo irregular.",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U47_I96",
+          "type": "true_false",
+          "prompt_es": "¿'Primary school' termina alrededor de los 11 años?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, generalmente en el sistema británico.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Fue genial'?",
+          "options": [
+            { "id": "o1", "text": "It was great" },
+            { "id": "o2", "text": "It were great" },
+            { "id": "o3", "text": "Was great" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Te acuerdas?'?",
+          "options": [
+            { "id": "o1", "text": "Do you remember?" },
+            { "id": "o2", "text": "Do you reminds?" },
+            { "id": "o3", "text": "Are you remember?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U47_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Me acuerdo perfectamente'?",
+          "options": [
+            { "id": "o1", "text": "I remember perfectly" },
+            { "id": "o2", "text": "I remember good" },
+            { "id": "o3", "text": "I reminding perfectly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U47_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Aquellos eran los buenos tiempos'?",
+          "options": [
+            { "id": "o1", "text": "Those were the good old days" },
+            { "id": "o2", "text": "Those was the good times" },
+            { "id": "o3", "text": "They were the good times" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
         }
       ]
     }

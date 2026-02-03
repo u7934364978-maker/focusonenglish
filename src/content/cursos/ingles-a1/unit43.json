@@ -1,48 +1,1180 @@
 {
   "course": {
-    "unit_id": "U43",
-    "unit_title": "Travel Verbs",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U43",
+    "unit_title": "Going to a Party",
+    "total_duration_minutes": 60
   },
-  "learning_outcomes": [
-    "Learn verbs related to travel: leave, arrive, stay, visit",
-    "Express future travel intentions with 'want to'"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Verbs for Traveling",
+      "title": "Party Vocabulary & Preparation",
       "content": [
         {
           "interaction_id": "U43_I1",
-          "type": "matching",
-          "prompt_es": "Verbos de viaje",
-          "pairs": [
-            { "id": "v1", "left": "Arrive", "right": "Llegar" },
-            { "id": "v2", "left": "Leave", "right": "Salir/Partir" },
-            { "id": "v3", "left": "Stay", "right": "Quedarse/Alojarse" },
-            { "id": "v4", "left": "Visit", "right": "Visitar" }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fiesta de cumpleaños'?",
+          "options": [
+            { "id": "o1", "text": "Birthday party" },
+            { "id": "o2", "text": "Birth party" },
+            { "id": "o3", "text": "Day party" }
           ],
-          "correct_answer": { "v1": "v1", "v2": "v2", "v3": "v3", "v4": "v4" },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U43_I2",
-          "type": "reorder_words",
-          "prompt_es": "Deseos de viaje",
-          "stimulus_en": "I want to visit London",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fiesta de inauguración de una casa'?",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "want" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "visit" },
-            { "id": "w5", "text": "London" }
+            { "id": "o1", "text": "Housewarming party" },
+            { "id": "o2", "text": "New house party" },
+            { "id": "o3", "text": "Home party" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fiesta de disfraces'?",
+          "options": [
+            { "id": "o1", "text": "Fancy dress party / Costume party" },
+            { "id": "o2", "text": "Mask party" },
+            { "id": "o3", "text": "Dress party" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'anfitrión'?",
+          "options": [
+            { "id": "o1", "text": "Host" },
+            { "id": "o2", "text": "Guest" },
+            { "id": "o3", "text": "Owner" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'invitado'?",
+          "options": [
+            { "id": "o1", "text": "Guest" },
+            { "id": "o2", "text": "Host" },
+            { "id": "o3", "text": "Friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'globos'?",
+          "options": [
+            { "id": "o1", "text": "Balloons" },
+            { "id": "o2", "text": "Balls" },
+            { "id": "o3", "text": "Airs" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'decoración'?",
+          "options": [
+            { "id": "o1", "text": "Decorations" },
+            { "id": "o2", "text": "Decors" },
+            { "id": "o3", "text": "Styles" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Qué debo llevar?'?",
+          "options": [
+            { "id": "o1", "text": "What should I bring?" },
+            { "id": "o2", "text": "What I take?" },
+            { "id": "o3", "text": "Which carry?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puedes traer algo de picar'?",
+          "options": [
+            { "id": "o1", "text": "You can bring some snacks" },
+            { "id": "o2", "text": "Bring food small" },
+            { "id": "o3", "text": "Take eat things" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿A qué hora empieza?'?",
+          "options": [
+            { "id": "o1", "text": "What time does it start?" },
+            { "id": "o2", "text": "When start party?" },
+            { "id": "o3", "text": "Time of begin?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I11",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Voy a una fiesta de cumpleaños'",
+          "options": [
+            { "id": "w1", "text": "to" },
+            { "id": "w2", "text": "going" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "birthday" },
+            { "id": "w5", "text": "I'm" },
+            { "id": "w6", "text": "party" }
+          ],
+          "correct_answer": ["w5", "w2", "w1", "w3", "w4", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I12",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Necesitas ayuda con las decoraciones?'",
+          "options": [
+            { "id": "w1", "text": "help" },
+            { "id": "w2", "text": "decorations?" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "Do" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "with" },
+            { "id": "w7", "text": "need" }
+          ],
+          "correct_answer": ["w4", "w3", "w7", "w1", "w6", "w5", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I'll bring some ___ (aperitivos/snacks).'",
+          "stimulus_en": "___",
+          "correct_answer": "snacks",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Who is the ___ (anfitrión)?'",
+          "stimulus_en": "___",
+          "correct_answer": "host",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Habrá música?'?",
+          "options": [
+            { "id": "o1", "text": "Will there be music?" },
+            { "id": "o2", "text": "Is music there?" },
+            { "id": "o3", "text": "Music have?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bebidas'?",
+          "options": [
+            { "id": "o1", "text": "Drinks / Beverages" },
+            { "id": "o2", "text": "Waters" },
+            { "id": "o3", "text": "Cups" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hielo'?",
+          "options": [
+            { "id": "o1", "text": "Ice" },
+            { "id": "o2", "text": "Cold" },
+            { "id": "o3", "text": "Freeze" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cuánta gente viene?'?",
+          "options": [
+            { "id": "o1", "text": "How many people are coming?" },
+            { "id": "o2", "text": "How much people?" },
+            { "id": "o3", "text": "Who comes?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'un regalo'?",
+          "options": [
+            { "id": "o1", "text": "A gift / A present" },
+            { "id": "o2", "text": "A prize" },
+            { "id": "o3", "text": "A box" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'envolver'?",
+          "options": [
+            { "id": "o1", "text": "To wrap" },
+            { "id": "o2", "text": "To cover" },
+            { "id": "o3", "text": "To box" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I21",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Tenemos que comprar un regalo'",
+          "options": [
+            { "id": "w1", "text": "a" },
+            { "id": "w2", "text": "gift" },
+            { "id": "w3", "text": "to" },
+            { "id": "w4", "text": "We" },
+            { "id": "w5", "text": "buy" },
+            { "id": "w6", "text": "need" }
+          ],
+          "correct_answer": ["w4", "w6", "w3", "w5", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está el papel de regalo?'",
+          "options": [
+            { "id": "w1", "text": "wrapping" },
+            { "id": "w2", "text": "paper?" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "Where" },
+            { "id": "w5", "text": "the" }
+          ],
+          "correct_answer": ["w4", "w3", "w5", "w1", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I23",
+          "type": "true_false",
+          "prompt_es": "¿'Housewarming' es una fiesta cuando te mudas a una casa nueva?",
+          "correct_answer": true,
+          "feedback_correct_es": "Exacto, es para celebrar el nuevo hogar.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I24",
+          "type": "true_false",
+          "prompt_es": "¿'Balloons' se comen?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, son globos decorativos.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I25",
+          "type": "matching",
+          "prompt_es": "Une los elementos de la fiesta:",
+          "pairs": [
+            { "id": "p1", "left": "Music", "right": "Playlist" },
+            { "id": "p2", "left": "Gift", "right": "Present" },
+            { "id": "p3", "left": "Snacks", "right": "Crisps/Chips" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "At the Party: Socializing",
+      "content": [
+        {
+          "interaction_id": "U43_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Bienvenido!'?",
+          "options": [
+            { "id": "o1", "text": "Welcome!" },
+            { "id": "o2", "text": "Hello in!" },
+            { "id": "o3", "text": "Good come!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pasa, por favor'?",
+          "options": [
+            { "id": "o1", "text": "Come in, please" },
+            { "id": "o2", "text": "Pass, please" },
+            { "id": "o3", "text": "Enter now" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puedes dejar tu abrigo aquí'?",
+          "options": [
+            { "id": "o1", "text": "You can leave your coat here" },
+            { "id": "o2", "text": "Put jacket here" },
+            { "id": "o3", "text": "Coat location here" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quieres algo de beber?'?",
+          "options": [
+            { "id": "o1", "text": "Would you like something to drink?" },
+            { "id": "o2", "text": "You want drink?" },
+            { "id": "o3", "text": "Like drink you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sí, por favor'?",
+          "options": [
+            { "id": "o1", "text": "Yes, please" },
+            { "id": "o2", "text": "If, please" },
+            { "id": "o3", "text": "Yes, thanks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'no, gracias'?",
+          "options": [
+            { "id": "o1", "text": "No, thank you" },
+            { "id": "o2", "text": "No, please" },
+            { "id": "o3", "text": "Thanks no" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'encantado de conocerte'?",
+          "options": [
+            { "id": "o1", "text": "Nice to meet you" },
+            { "id": "o2", "text": "Happy to see you" },
+            { "id": "o3", "text": "Good meeting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I33",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¡Feliz cumpleaños!'",
+          "options": [
+            { "id": "w1", "text": "Happy" },
+            { "id": "w2", "text": "birthday!" }
+          ],
+          "correct_answer": ["w1", "w2"],
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿De qué conoces a Sarah?'",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "Sarah?" },
+            { "id": "w3", "text": "know" },
+            { "id": "w4", "text": "do" },
+            { "id": "w5", "text": "you" }
+          ],
+          "correct_answer": ["w1", "w4", "w5", "w3", "w2"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Help ___ (sírvete/ayúdate) to some food.'",
+          "stimulus_en": "___",
+          "correct_answer": "yourself",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The music is ___ (genial).'",
+          "stimulus_en": "___",
+          "correct_answer": "great",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Te estás divirtiendo?'?",
+          "options": [
+            { "id": "o1", "text": "Are you having fun?" },
+            { "id": "o2", "text": "You fun?" },
+            { "id": "o3", "text": "Is fun you?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'me lo estoy pasando muy bien'?",
+          "options": [
+            { "id": "o1", "text": "I'm having a great time" },
+            { "id": "o2", "text": "I pass good" },
+            { "id": "o3", "text": "Time is great" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'presentar a alguien'?",
+          "options": [
+            { "id": "o1", "text": "To introduce someone" },
+            { "id": "o2", "text": "To present someone" },
+            { "id": "o3", "text": "To say names" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'déjame que te presente a mi amigo'?",
+          "options": [
+            { "id": "o1", "text": "Let me introduce you to my friend" },
+            { "id": "o2", "text": "Present you friend" },
+            { "id": "o3", "text": "Know my friend" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'somos compañeros de trabajo'?",
+          "options": [
+            { "id": "o1", "text": "We are colleagues / co-workers" },
+            { "id": "o2", "text": "We are work friends" },
+            { "id": "o3", "text": "We work same" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nos conocemos de la universidad'?",
+          "options": [
+            { "id": "o1", "text": "We know each other from university" },
+            { "id": "o2", "text": "We know in uni" },
+            { "id": "o3", "text": "From college we know" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quieres bailar?'?",
+          "options": [
+            { "id": "o1", "text": "Do you want to dance?" },
+            { "id": "o2", "text": "Dance you?" },
+            { "id": "o3", "text": "Want dance?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I44",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Este es mi hermano, David'",
+          "options": [
+            { "id": "w1", "text": "This" },
+            { "id": "w2", "text": "my" },
+            { "id": "w3", "text": "brother," },
+            { "id": "w4", "text": "David" },
+            { "id": "w5", "text": "is" }
+          ],
+          "correct_answer": ["w1", "w5", "w2", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I45",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está la cocina?'",
+          "options": [
+            { "id": "w1", "text": "the" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "kitchen?" },
+            { "id": "w4", "text": "Where" }
+          ],
+          "correct_answer": ["w4", "w2", "w1", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I46",
+          "type": "true_false",
+          "prompt_es": "¿'Help yourself' significa ayúdate a ti mismo literal?",
+          "correct_answer": true,
+          "feedback_correct_es": "En una fiesta, significa 'sírvete tú mismo la comida'.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I47",
+          "type": "true_false",
+          "prompt_es": "¿'Nice to meet you' se dice la segunda vez que ves a alguien?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, se dice solo la primera vez que te presentan.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I48",
+          "type": "true_false",
+          "prompt_es": "¿'Colleagues' son personas con las que trabajas?",
+          "correct_answer": true,
+          "feedback_correct_es": "Correcto.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I49",
+          "type": "true_false",
+          "prompt_es": "¿'Cheers!' se dice al brindar?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, es el equivalente a '¡Salud!'.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I50",
+          "type": "true_false",
+          "prompt_es": "¿'I'm having a great time' significa que te aburres?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa que te lo estás pasando muy bien.",
+          "mastery_tag": "functional_language"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Leaving & Saying Goodbye",
+      "content": [
+        {
+          "interaction_id": "U43_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tengo que irme'?",
+          "options": [
+            { "id": "o1", "text": "I have to go / I must go" },
+            { "id": "o2", "text": "I go now" },
+            { "id": "o3", "text": "I need leave" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'me temo que me tengo que ir'?",
+          "options": [
+            { "id": "o1", "text": "I'm afraid I have to go" },
+            { "id": "o2", "text": "Scared I go" },
+            { "id": "o3", "text": "Maybe I go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I53",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gracias por invitarme'?",
+          "options": [
+            { "id": "o1", "text": "Thanks for inviting me" },
+            { "id": "o2", "text": "Thanks for invite" },
+            { "id": "o3", "text": "Thanks for the come" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ha sido una fiesta genial'?",
+          "options": [
+            { "id": "o1", "text": "It's been a great party" },
+            { "id": "o2", "text": "Was good party" },
+            { "id": "o3", "text": "Great party is" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuídate'?",
+          "options": [
+            { "id": "o1", "text": "Take care" },
+            { "id": "o2", "text": "Care you" },
+            { "id": "o3", "text": "Safe go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I56",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nos vemos pronto'?",
+          "options": [
+            { "id": "o1", "text": "See you soon" },
+            { "id": "o2", "text": "See you fast" },
+            { "id": "o3", "text": "Meet soon" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I57",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cómo te vas a casa?'?",
+          "options": [
+            { "id": "o1", "text": "How are you getting home?" },
+            { "id": "o2", "text": "How you go house?" },
+            { "id": "o3", "text": "Way to home?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Voy a coger un taxi'",
+          "options": [
+            { "id": "w1", "text": "I'm" },
+            { "id": "w2", "text": "taking" },
+            { "id": "w3", "text": "a" },
+            { "id": "w4", "text": "taxi" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Llámame cuando llegues a casa'",
+          "options": [
+            { "id": "w1", "text": "home" },
+            { "id": "w2", "text": "get" },
+            { "id": "w3", "text": "Call" },
+            { "id": "w4", "text": "me" },
+            { "id": "w5", "text": "when" },
+            { "id": "w6", "text": "you" }
+          ],
+          "correct_answer": ["w3", "w4", "w5", "w6", "w2", "w1"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I60",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I had a lovely ___ (tiempo/momento).'",
+          "stimulus_en": "___",
+          "correct_answer": "time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'See you ___ (mañana).'",
+          "stimulus_en": "___",
+          "correct_answer": "tomorrow",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I62",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'saluda a Tom de mi parte'?",
+          "options": [
+            { "id": "o1", "text": "Say hello to Tom for me" },
+            { "id": "o2", "text": "Give hello Tom" },
+            { "id": "o3", "text": "Hello Tom from me" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I63",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Necesitas que te lleven?'?",
+          "options": [
+            { "id": "o1", "text": "Do you need a lift?" },
+            { "id": "o2", "text": "Need car?" },
+            { "id": "o3", "text": "Want go car?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I64",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gracias, pero voy andando'?",
+          "options": [
+            { "id": "o1", "text": "Thanks, but I'm walking" },
+            { "id": "o2", "text": "Thanks, walk me" },
+            { "id": "o3", "text": "No, I go foot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I65",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'está cerca'?",
+          "options": [
+            { "id": "o1", "text": "It's nearby / It's close" },
+            { "id": "o2", "text": "It's near house" },
+            { "id": "o3", "text": "Close is" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Has visto mis llaves?'?",
+          "options": [
+            { "id": "o1", "text": "Have you seen my keys?" },
+            { "id": "o2", "text": "Keys see you?" },
+            { "id": "o3", "text": "Where keys?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I67",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gracias por todo'?",
+          "options": [
+            { "id": "o1", "text": "Thanks for everything" },
+            { "id": "o2", "text": "Thanks for all" },
+            { "id": "o3", "text": "All thanks" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I68",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Nos vemos el lunes'",
+          "options": [
+            { "id": "w1", "text": "See" },
+            { "id": "w2", "text": "on" },
+            { "id": "w3", "text": "Monday" },
+            { "id": "w4", "text": "you" }
+          ],
+          "correct_answer": ["w1", "w4", "w2", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I69",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Dónde está mi bolso?'",
+          "options": [
+            { "id": "w1", "text": "my" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "bag?" },
+            { "id": "w4", "text": "Where" }
+          ],
+          "correct_answer": ["w4", "w2", "w1", "w3"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I70",
+          "type": "true_false",
+          "prompt_es": "¿'A lift' en este contexto significa ascensor?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, significa que alguien te lleve en su coche.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I71",
+          "type": "true_false",
+          "prompt_es": "¿'Say hello to... for me' es una forma de mandar saludos?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, es muy común al despedirse.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I72",
+          "type": "true_false",
+          "prompt_es": "¿'I'm afraid...' se usa para pedir disculpas educadamente?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, como 'me temo que...'.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I73",
+          "type": "true_false",
+          "prompt_es": "¿'Take care' es una despedida?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí, significa 'cuídate'.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I74",
+          "type": "true_false",
+          "prompt_es": "¿'It's been a pleasure' es muy informal?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, es un poco más formal o educado.",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'llegar sano y salvo'?",
+          "options": [
+            { "id": "o1", "text": "Get home safe" },
+            { "id": "o2", "text": "Arrive good" },
+            { "id": "o3", "text": "Safe come" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Party Game & Final Review",
+      "content": [
+        {
+          "interaction_id": "U43_I76",
+          "type": "word-search",
+          "prompt_es": "Busca palabras de fiesta:",
+          "words": ["PARTY", "GUEST", "HOST", "MUSIC", "DRINKS", "DANCE", "GIFT", "CAKE", "HAPPY", "FUN"],
+          "gridSize": 10,
+          "clues": [
+            { "word": "PARTY", "clue": "Social event" },
+            { "word": "GUEST", "clue": "Invited person" },
+            { "word": "HOST", "clue": "Organiser" },
+            { "word": "MUSIC", "clue": "Sounds for dancing" },
+            { "word": "DRINKS", "clue": "Liquids" },
+            { "word": "DANCE", "clue": "Move to music" },
+            { "word": "GIFT", "clue": "Present" },
+            { "word": "CAKE", "clue": "Sweet food" },
+            { "word": "HAPPY", "clue": "Feeling good" },
+            { "word": "FUN", "clue": "Enjoyment" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I77",
+          "type": "crossword",
+          "prompt_es": "Crucigrama de fiestas:",
+          "items": [
+            { "word": "CAKE", "clue": "Sweet birthday food", "direction": "across", "row": 0, "col": 0 },
+            { "word": "HOST", "clue": "Party organiser", "direction": "down", "row": 0, "col": 0 },
+            { "word": "GIFT", "clue": "A present", "direction": "across", "row": 2, "col": 0 },
+            { "word": "FUN", "clue": "Enjoyment", "direction": "down", "row": 0, "col": 3 }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I78",
+          "type": "true_false",
+          "prompt_es": "¿'Catering' se refiere a la comida de un evento?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I79",
+          "type": "true_false",
+          "prompt_es": "¿'Invitation' es lo que envías para invitar?",
+          "correct_answer": true,
+          "feedback_correct_es": "Sí.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I80",
+          "type": "true_false",
+          "prompt_es": "¿'Party pooper' es alguien que se divierte mucho?",
+          "correct_answer": false,
+          "feedback_correct_es": "No, es alguien que arruina la diversión.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apagar las velas'?",
+          "options": [
+            { "id": "o1", "text": "To blow out the candles" },
+            { "id": "o2", "text": "To stop the fire" },
+            { "id": "o3", "text": "To blow lights" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pedir un deseo'?",
+          "options": [
+            { "id": "o1", "text": "To make a wish" },
+            { "id": "o2", "text": "To say a want" },
+            { "id": "o3", "text": "To dream something" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'abrir los regalos'?",
+          "options": [
+            { "id": "o1", "text": "To open the presents" },
+            { "id": "o2", "text": "To box out gifts" },
+            { "id": "o3", "text": "To see gifts" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Quién más viene?'?",
+          "options": [
+            { "id": "o1", "text": "Who else is coming?" },
+            { "id": "o2", "text": "Who more comes?" },
+            { "id": "o3", "text": "Others coming?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'todo el mundo'?",
+          "options": [
+            { "id": "o1", "text": "Everybody / Everyone" },
+            { "id": "o2", "text": "All world" },
+            { "id": "o3", "text": "All people" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'algunas personas'?",
+          "options": [
+            { "id": "o1", "text": "Some people" },
+            { "id": "o2", "text": "Any people" },
+            { "id": "o3", "text": "Persons" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nadie'?",
+          "options": [
+            { "id": "o1", "text": "Nobody / No one" },
+            { "id": "o2", "text": "None person" },
+            { "id": "o3", "text": "No people" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I88",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Estás listo para irte?'?",
+          "options": [
+            { "id": "o1", "text": "Are you ready to leave?" },
+            { "id": "o2", "text": "Ready to go?" },
+            { "id": "o3", "text": "You go ready?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I89",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'espera un momento'?",
+          "options": [
+            { "id": "o1", "text": "Wait a moment" },
+            { "id": "o2", "text": "Stay second" },
+            { "id": "o3", "text": "Wait time" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casi termino'?",
+          "options": [
+            { "id": "o1", "text": "I'm almost finished" },
+            { "id": "o2", "text": "I end soon" },
+            { "id": "o3", "text": "Near finish" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Vives cerca de aquí?'?",
+          "options": [
+            { "id": "o1", "text": "Do you live near here?" },
+            { "id": "o2", "text": "Live here close?" },
+            { "id": "o3", "text": "You live near?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¿Cómo estuvo la fiesta?'?",
+          "options": [
+            { "id": "o1", "text": "How was the party?" },
+            { "id": "o2", "text": "Party was good?" },
+            { "id": "o3", "text": "How party?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U43_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estuvo muy divertida'?",
+          "options": [
+            { "id": "o1", "text": "It was very fun" },
+            { "id": "o2", "text": "Was fun much" },
+            { "id": "o3", "text": "Fun party was" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hice muchos amigos nuevos'?",
+          "options": [
+            { "id": "o1", "text": "I made many new friends" },
+            { "id": "o2", "text": "I have new friends" },
+            { "id": "o3", "text": "Many friends new" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'deberíamos quedar otra vez'?",
+          "options": [
+            { "id": "o1", "text": "We should meet again" },
+            { "id": "o2", "text": "Meet again please" },
+            { "id": "o3", "text": "Must see again" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pásame tu número'?",
+          "options": [
+            { "id": "o1", "text": "Give me your number" },
+            { "id": "o2", "text": "What number you?" },
+            { "id": "o3", "text": "Number please" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'te enviaré un mensaje'?",
+          "options": [
+            { "id": "o1", "text": "I'll text you / I'll send you a message" },
+            { "id": "o2", "text": "I text you" },
+            { "id": "o3", "text": "Message you I" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I98",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '¡Buenas noches!' (despedida)?",
+          "options": [
+            { "id": "o1", "text": "Goodnight!" },
+            { "id": "o2", "text": "Good night!" },
+            { "id": "o3", "text": "Evening!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dulces sueños'?",
+          "options": [
+            { "id": "o1", "text": "Sweet dreams" },
+            { "id": "o2", "text": "Sugar dreams" },
+            { "id": "o3", "text": "Sleep well" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
+        },
+        {
+          "interaction_id": "U43_I100",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'nos vemos mañana'?",
+          "options": [
+            { "id": "o1", "text": "See you tomorrow" },
+            { "id": "o2", "text": "Meet tomorrow" },
+            { "id": "o3", "text": "Until tomorrow" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functional_language"
         }
       ]
     }

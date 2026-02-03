@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  compress: true,
   // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
