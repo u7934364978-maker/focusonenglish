@@ -4,194 +4,1135 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U19",
-    "unit_title": "Past events",
-    "total_duration_minutes": 120
+    "unit_title": "News & Environment",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B19",
-      "title": "Past events",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Weather, Nature & Recycling",
       "content": [
         {
           "interaction_id": "U19_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medio ambiente'?",
+          "options": [
+            { "id": "o1", "text": "Environment" },
+            { "id": "o2", "text": "Nature world" },
+            { "id": "o3", "text": "Ambient" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calentamiento global'?",
+          "options": [
+            { "id": "o1", "text": "Global warming" },
+            { "id": "o2", "text": "World heating" },
+            { "id": "o3", "text": "Earth hot" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 19 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'contaminación'?",
+          "options": [
+            { "id": "o1", "text": "Pollution" },
+            { "id": "o2", "text": "Contamination" },
+            { "id": "o3", "text": "Dirty air" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reciclar'?",
           "options": [
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "19"
-            }
+            { "id": "o1", "text": "Recycle" },
+            { "id": "o2", "text": "Re-use" },
+            { "id": "o3", "text": "Return" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'basura'?",
           "options": [
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            }
+            { "id": "o1", "text": "Rubbish / Garbage / Trash" },
+            { "id": "o2", "text": "Waste" },
+            { "id": "o3", "text": "All are correct" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'inundación'?",
+          "options": [
+            { "id": "o1", "text": "Flood" },
+            { "id": "o2", "text": "Big rain" },
+            { "id": "o3", "text": "Water world" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'sequía'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Drought" },
+            { "id": "o2", "text": "Dry time" },
+            { "id": "o3", "text": "No rain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'terremoto'?",
+          "options": [
+            { "id": "o1", "text": "Earthquake" },
+            { "id": "o2", "text": "Ground shake" },
+            { "id": "o3", "text": "Land move" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tormenta'?",
+          "options": [
+            { "id": "o1", "text": "Storm" },
+            { "id": "o2", "text": "Thunder" },
+            { "id": "o3", "text": "Dark sky" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'energía renovable'?",
+          "options": [
+            { "id": "o1", "text": "Renewable energy" },
+            { "id": "o2", "text": "Green power" },
+            { "id": "o3", "text": "New energy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paneles solares'?",
+          "options": [
+            { "id": "o1", "text": "Solar panels" },
+            { "id": "o2", "text": "Sun plates" },
+            { "id": "o3", "text": "Sun energy" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'selva / bosque'?",
+          "options": [
+            { "id": "o1", "text": "Forest / Jungle" },
+            { "id": "o2", "text": "Tree land" },
+            { "id": "o3", "text": "Wood" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'océano'?",
+          "options": [
+            { "id": "o1", "text": "Ocean" },
+            { "id": "o2", "text": "Sea" },
+            { "id": "o3", "text": "Big water" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'proteger'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shop"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Protect" },
+            { "id": "o2", "text": "Defend" },
+            { "id": "o3", "text": "Save" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'desperdiciar'?",
+          "options": [
+            { "id": "o1", "text": "Waste" },
+            { "id": "o2", "text": "Lose" },
+            { "id": "o3", "text": "Spend bad" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I16",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'noticiero'?",
+          "options": [
+            { "id": "o1", "text": "News program" },
+            { "id": "o2", "text": "Newscast" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'titular' (de noticia)?",
+          "options": [
+            { "id": "o1", "text": "Headline" },
+            { "id": "o2", "text": "Title" },
+            { "id": "o3", "text": "Header" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'periodista'?",
+          "options": [
+            { "id": "o1", "text": "Journalist / Reporter" },
+            { "id": "o2", "text": "Writer news" },
+            { "id": "o3", "text": "Paper man" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'artículo'?",
+          "options": [
+            { "id": "o1", "text": "Article" },
+            { "id": "o2", "text": "Text" },
+            { "id": "o3", "text": "Post" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'el tiempo / clima'?",
+          "options": [
+            { "id": "o1", "text": "Weather" },
+            { "id": "o2", "text": "Climate" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I21",
+          "type": "matching",
+          "prompt_es": "Fenómenos naturales:",
+          "pairs": [
+            { "id": "p1", "left": "Lightning", "right": "Relámpago" },
+            { "id": "p2", "left": "Thunder", "right": "Trueno" },
+            { "id": "p3", "left": "Rainbow", "right": "Arco iris" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I22",
+          "type": "matching",
+          "prompt_es": "Medio ambiente:",
+          "pairs": [
+            { "id": "p1", "left": "Wildfire", "right": "Incendio forestal" },
+            { "id": "p2", "left": "Ice melting", "right": "Deshielo" },
+            { "id": "p3", "left": "Species", "right": "Especies" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es 'Plastic waste'?",
+          "options": [
+            { "id": "o1", "text": "Desechos plásticos" },
+            { "id": "o2", "text": "Bolsas de plástico" },
+            { "id": "o3", "text": "Fábrica de plástico" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Eco-friendly'?",
+          "options": [
+            { "id": "o1", "text": "Respetuoso con el medio ambiente" },
+            { "id": "o2", "text": "Amante de los animales" },
+            { "id": "o3", "text": "Barato" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salvar el planeta'?",
+          "options": [
+            { "id": "o1", "text": "Save the planet" },
+            { "id": "o2", "text": "Keep the planet" },
+            { "id": "o3", "text": "Help the planet" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I26",
+          "type": "flashcard",
+          "prompt_es": "Desastres Naturales",
+          "flashcards": [
+            { "front": "Hurricane", "back": "Huracán", "pronunciation": "/ˈhʌr.ɪ.kən/" },
+            { "front": "Tsunami", "back": "Tsunami", "pronunciation": "/tsuːˈnɑː.mi/" },
+            { "front": "Volcano", "back": "Volcán", "pronunciation": "/vɒlˈkeɪ.nəʊ/" },
+            { "front": "Landslide", "back": "Deslizamiento de tierra", "pronunciation": "/ˈlænd.slaɪd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'calidad del aire'?",
+          "options": [
+            { "id": "o1", "text": "Air quality" },
+            { "id": "o2", "text": "Clean air" },
+            { "id": "o3", "text": "Air status" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reducir'?",
+          "options": [
+            { "id": "o1", "text": "Reduce" },
+            { "id": "o2", "text": "Less" },
+            { "id": "o3", "text": "Minimize" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plantar árboles'?",
+          "options": [
+            { "id": "o1", "text": "Plant trees" },
+            { "id": "o2", "text": "Put trees" },
+            { "id": "o3", "text": "Make trees" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'capa de ozono'?",
+          "options": [
+            { "id": "o1", "text": "Ozone layer" },
+            { "id": "o2", "text": "Ozone cover" },
+            { "id": "o3", "text": "Sky layer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reutilizar'?",
+          "options": [
+            { "id": "o1", "text": "Reuse" },
+            { "id": "o2", "text": "Use again" },
+            { "id": "o3", "text": "Second use" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'advertencia'?",
+          "options": [
+            { "id": "o1", "text": "Warning" },
+            { "id": "o2", "text": "Advice" },
+            { "id": "o3", "text": "Alert" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pronóstico'?",
+          "options": [
+            { "id": "o1", "text": "Forecast" },
+            { "id": "o2", "text": "Prediction" },
+            { "id": "o3", "text": "Future" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fuente de energía'?",
+          "options": [
+            { "id": "o1", "text": "Energy source" },
+            { "id": "o2", "text": "Power place" },
+            { "id": "o3", "text": "Energy origin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hábitat'?",
+          "options": [
+            { "id": "o1", "text": "Habitat" },
+            { "id": "o2", "text": "Natural home" },
+            { "id": "o3", "text": "Animal house" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Passive Voice (Present & Past Simple)",
+      "content": [
+        {
+          "interaction_id": "U19_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usamos la Voz Pasiva?",
+          "options": [
+            { "id": "o1", "text": "Cuando la acción es más importante que quién la hace" },
+            { "id": "o2", "text": "Cuando queremos enfatizar quién hace la acción" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma la pasiva?",
+          "options": [
+            { "id": "o1", "text": "Verbo 'to be' + Participio Pasado" },
+            { "id": "o2", "text": "Verbo 'have' + Participio Pasado" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Paper ___ (es) recycled here.'",
+          "stimulus_en": "Paper ___ recycled here.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U19_I31",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
+          "interaction_id": "U19_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Solar panels ___ (son) used in many houses.'",
+          "stimulus_en": "Solar panels ___ used in many houses.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Pasiva en pasado: 'The city ___ (fue) destroyed by the flood.'",
+          "stimulus_en": "The city ___ destroyed by the flood.",
+          "correct_answer": "was",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Pasiva en pasado: 'The trees ___ (fueron) planted last year.'",
+          "stimulus_en": "The trees ___ planted last year.",
+          "correct_answer": "were",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué palabra usamos para introducir quién hizo la acción?",
+          "options": [
+            { "id": "o1", "text": "by" },
+            { "id": "o2", "text": "for" },
+            { "id": "o3", "text": "from" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The news ___ (is/are) watched by millions.'",
+          "stimulus_en": "The news ___ watched by millions.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I44",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'The book ___ (was written/was write) by a journalist.'",
+          "options": [
+            { "id": "o1", "text": "was written" },
+            { "id": "o2", "text": "was wrote" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Plastic bottles ___ found in the ocean.'",
+          "stimulus_en": "Plastic bottles ___ found in the ocean.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'is / Pollution / caused / by / factories / .'",
+          "options": [
+            { "id": "w1", "text": "is" },
+            { "id": "w2", "text": "Pollution" },
+            { "id": "w3", "text": "caused" },
+            { "id": "w4", "text": "by" },
+            { "id": "w5", "text": "factories" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Make' (hecho): 'The house was ___ of wood.'",
+          "stimulus_en": "The house was ___ of wood.",
+          "correct_answer": "made",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I48",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Speak' (hablado): 'English is ___ all over the world.'",
+          "stimulus_en": "English is ___ all over the world.",
+          "correct_answer": "spoken",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I49",
+          "type": "multiple_choice",
+          "prompt_es": "Pasiva negativa: 'The rubbish ___ (isn't/aren't) recycled.'",
+          "options": [
+            { "id": "o1", "text": "isn't" },
+            { "id": "o2", "text": "aren't" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Electricity is ___ (generada) by wind.'",
+          "stimulus_en": "Electricity is ___ by wind.",
+          "correct_answer": "generated",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'The news is reported daily'?",
+          "options": [
+            { "id": "o1", "text": "Las noticias se informan a diario" },
+            { "id": "o2", "text": "Las noticias informan a diario" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Many animals ___ killed by wildfires.'",
+          "stimulus_en": "Many animals ___ killed by wildfires.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'My car ___ (was stolen/stole) yesterday.'",
+          "options": [
+            { "id": "o1", "text": "was stolen" },
+            { "id": "o2", "text": "stole" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I54",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Protect' (protegido): 'The forest is ___ by law.'",
+          "stimulus_en": "The forest is ___ by law.",
+          "correct_answer": "protected",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Save' (salvado): 'Many species were ___.'",
+          "stimulus_en": "Many species were ___.",
+          "correct_answer": "saved",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I56",
+          "type": "multiple_choice",
+          "prompt_es": "Pasiva de 'eat': 'The food ___ (is eaten/is ate) by the birds.'",
+          "options": [
+            { "id": "o1", "text": "is eaten" },
+            { "id": "o2", "text": "is ate" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Renewable energy ___ (is/are) needed.'",
+          "stimulus_en": "Renewable energy ___ needed.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'were / news / The / broadcast / yesterday / .'",
+          "options": [
+            { "id": "w1", "text": "were" },
+            { "id": "w2", "text": "news" },
+            { "id": "w3", "text": "The" },
+            { "id": "w4", "text": "broadcast" },
+            { "id": "w5", "text": "yesterday" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w3", "w2", "w1", "w4", "w5", "w6"],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U19_I59",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es pasiva?",
+          "options": [
+            { "id": "o1", "text": "The hurricane damaged the town." },
+            { "id": "o2", "text": "The town was damaged by the hurricane." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es activa?",
+          "options": [
+            { "id": "o1", "text": "Journalists write articles." },
+            { "id": "o2", "text": "Articles are written by journalists." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I61",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Trees are ___ (cortados) every day.'",
+          "stimulus_en": "Trees are ___ every day.",
+          "correct_answer": "cut",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Sell' (vendido): 'The papers are ___ in the shop.'",
+          "stimulus_en": "The papers are ___ in the shop.",
+          "correct_answer": "sold",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I63",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'The forest ___ (was burned/burned) in the wildfire.'",
+          "options": [
+            { "id": "o1", "text": "was burned" },
+            { "id": "o2", "text": "burned" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Rubbish is ___ (recogida) on Mondays.'",
+          "stimulus_en": "Rubbish is ___ on Mondays.",
+          "correct_answer": "collected",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Plural: 'The beaches ___ (was cleaned/were cleaned).'",
+          "options": [
+            { "id": "o1", "text": "were cleaned" },
+            { "id": "o2", "text": "was cleaned" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Read' (leído): 'The article was ___ by many people.'",
+          "stimulus_en": "The article was ___ by many people.",
+          "correct_answer": "read",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Participio de 'Find' (encontrado): 'Solutions must be ___.'",
+          "stimulus_en": "Solutions must be ___.",
+          "correct_answer": "found",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I68",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Animals / are / protected / in / this / park / .'",
+          "options": [
+            { "id": "w1", "text": "Animals" },
+            { "id": "w2", "text": "are" },
+            { "id": "w3", "text": "protected" },
+            { "id": "w4", "text": "in" },
+            { "id": "w5", "text": "this" },
+            { "id": "w6", "text": "park" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'The planet is ___ (calentando) by greenhouse gases.'",
+          "stimulus_en": "The planet is ___ by greenhouse gases.",
+          "correct_answer": "warmed",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I70",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 19 of the A2 course.\"",
+          "prompt_es": "En la voz pasiva, el sujeto recibe la acción.",
           "correct_answer": true,
           "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Talking about the News & Giving Tips",
+      "content": [
+        {
+          "interaction_id": "U19_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Has oído las noticias?'?",
+          "options": [
+            { "id": "o1", "text": "Have you heard the news?" },
+            { "id": "o2", "text": "Did you hear the news?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué ha pasado?'?",
+          "options": [
+            { "id": "o1", "text": "What has happened?" },
+            { "id": "o2", "text": "What happened?" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una noticia terrible'?",
+          "options": [
+            { "id": "o1", "text": "It's terrible news." },
+            { "id": "o2", "text": "It's a terrible news." },
+            { "id": "o3", "text": "News is terrible." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'He leído un artículo sobre...'?",
+          "options": [
+            { "id": "o1", "text": "I've read an article about..." },
+            { "id": "o2", "text": "I read article about..." },
+            { "id": "o3", "text": "I saw a text for..." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Debemos reciclar más'?",
+          "options": [
+            { "id": "o1", "text": "We must / should recycle more." },
+            { "id": "o2", "text": "We need recycle more." },
+            { "id": "o3", "text": "Recycle more is good." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es importante ahorrar agua'?",
+          "options": [
+            { "id": "o1", "text": "It's important to save water." },
+            { "id": "o2", "text": "Water saving is important." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No desperdicies comida'?",
+          "options": [
+            { "id": "o1", "text": "Don't waste food." },
+            { "id": "o2", "text": "No waste food." },
+            { "id": "o3", "text": "Food no waste." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuál es el pronóstico para mañana?'?",
+          "options": [
+            { "id": "o1", "text": "What is the forecast for tomorrow?" },
+            { "id": "o2", "text": "What weather tomorrow?" },
+            { "id": "o3", "text": "How is the sky tomorrow?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Las noticias son informadas por periodistas.'",
+          "stimulus_es": "Las noticias son informadas por periodistas.",
+          "correct_answer": "The news is reported by journalists.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Debemos proteger el medio ambiente.'",
+          "stimulus_es": "Debemos proteger el medio ambiente.",
+          "correct_answer": "We must protect the environment.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Va a llover según las noticias'?",
+          "options": [
+            { "id": "o1", "text": "It's going to rain according to the news." },
+            { "id": "o2", "text": "News say rain." },
+            { "id": "o3", "text": "The news says it rains." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices '¡Qué desastre!'?",
+          "options": [
+            { "id": "o1", "text": "What a disaster!" },
+            { "id": "o2", "text": "How disaster!" },
+            { "id": "o3", "text": "Disaster is big!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Es una buena noticia'?",
+          "options": [
+            { "id": "o1", "text": "That's good news." },
+            { "id": "o2", "text": "It's a good news." },
+            { "id": "o3", "text": "Good news are this." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Apaga las luces'?",
+          "options": [
+            { "id": "o1", "text": "Turn off / Switch off the lights." },
+            { "id": "o2", "text": "Close the lights." },
+            { "id": "o3", "text": "Lights out." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Usa bolsas reutilizables'?",
+          "options": [
+            { "id": "o1", "text": "Use reusable bags." },
+            { "id": "o2", "text": "Use again bags." },
+            { "id": "o3", "text": "No plastic bags." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No tires basura al suelo'?",
+          "options": [
+            { "id": "o1", "text": "Don't drop rubbish / Don't litter." },
+            { "id": "o2", "text": "No trash on ground." },
+            { "id": "o3", "text": "Rubbish no." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué podemos hacer para ayudar?'?",
+          "options": [
+            { "id": "o1", "text": "What can we do to help?" },
+            { "id": "o2", "text": "How we help?" },
+            { "id": "o3", "text": "Which help for us?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I88",
+          "type": "matching",
+          "prompt_es": "Acciones ecológicas:",
+          "pairs": [
+            { "id": "p1", "left": "Save energy", "right": "Ahorrar energía" },
+            { "id": "p2", "left": "Reduce waste", "right": "Reducir basura" },
+            { "id": "p3", "left": "Plant a tree", "right": "Plantar un árbol" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Climate / change / is / a / global / problem / .'",
+          "options": [
+            { "id": "w1", "text": "Climate" },
+            { "id": "w2", "text": "change" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "a" },
+            { "id": "w5", "text": "global" },
+            { "id": "w6", "text": "problem" },
+            { "id": "w7", "text": "." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Las temperaturas están subiendo'?",
+          "options": [
+            { "id": "o1", "text": "Temperatures are rising / going up." },
+            { "id": "o2", "text": "Hot is more." },
+            { "id": "o3", "text": "Temperatures rise." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Los animales están perdiendo su hábitat'?",
+          "options": [
+            { "id": "o1", "text": "Animals are losing their habitat." },
+            { "id": "o2", "text": "Animals no have home." },
+            { "id": "o3", "text": "Habitat loss for animals." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Vi el reportaje en la televisión'?",
+          "options": [
+            { "id": "o1", "text": "I saw the report on TV." },
+            { "id": "o2", "text": "I saw report in TV." },
+            { "id": "o3", "text": "TV report I saw." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Fue una noticia impactante'?",
+          "options": [
+            { "id": "o1", "text": "It was shocking news." },
+            { "id": "o2", "text": "Shock news it was." },
+            { "id": "o3", "text": "A shock news." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me preocupa el futuro'?",
+          "options": [
+            { "id": "o1", "text": "I'm worried about the future." },
+            { "id": "o2", "text": "The future worries me." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay mucha contaminación en esta ciudad'?",
+          "options": [
+            { "id": "o1", "text": "There is a lot of pollution in this city." },
+            { "id": "o2", "text": "This city is very polluted." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Recoge tus cosas'?",
+          "options": [
+            { "id": "o1", "text": "Pick up your things." },
+            { "id": "o2", "text": "Take your things." },
+            { "id": "o3", "text": "Get things." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'El clima está cambiando rápido'?",
+          "options": [
+            { "id": "o1", "text": "The climate is changing fast." },
+            { "id": "o2", "text": "Fast climate change." },
+            { "id": "o3", "text": "Climate move fast." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I98",
+          "type": "flashcard",
+          "prompt_es": "Conceptos ecológicos",
+          "flashcards": [
+            { "front": "Sustainability", "back": "Sostenibilidad", "pronunciation": "/səˌsteɪ.nəˈbɪl.ə.ti/" },
+            { "front": "Footprint", "back": "Huella (carbono)", "pronunciation": "/ˈfʊt.prɪnt/" },
+            { "front": "Awareness", "back": "Concienciación", "pronunciation": "/əˈweə.nəs/" },
+            { "front": "Threat", "back": "Amenaza", "pronunciation": "/θret/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Hay esperanza'?",
+          "options": [
+            { "id": "o1", "text": "There is hope." },
+            { "id": "o2", "text": "Hope is there." },
+            { "id": "o3", "text": "We have hope." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U19_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Los paneles solares son usados para ahorrar energía.'",
+          "stimulus_es": "Los paneles solares son usados para ahorrar energía.",
+          "correct_answer": "Solar panels are used to save energy.",
+          "mastery_tag": "communication"
         }
       ]
     }

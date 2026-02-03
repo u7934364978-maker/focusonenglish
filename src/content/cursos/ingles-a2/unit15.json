@@ -4,194 +4,1118 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U15",
-    "unit_title": "House and home",
-    "total_duration_minutes": 120
+    "unit_title": "Sports & Fitness",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B15",
-      "title": "House and home",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Sports & Equipment",
       "content": [
         {
           "interaction_id": "U15_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "City",
-              "right": "Ciudad"
-            },
-            {
-              "id": "p1",
-              "left": "Shop",
-              "right": "Tienda"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fútbol'?",
+          "options": [
+            { "id": "o1", "text": "Football (UK) / Soccer (US)" },
+            { "id": "o2", "text": "Foot" },
+            { "id": "o3", "text": "Ballgame" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'baloncesto'?",
+          "options": [
+            { "id": "o1", "text": "Basketball" },
+            { "id": "o2", "text": "Basket" },
+            { "id": "o3", "text": "Hoopball" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 15 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tenis'?",
+          "options": [
+            { "id": "o1", "text": "Tennis" },
+            { "id": "o2", "text": "Racket" },
+            { "id": "o3", "text": "Ball" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'natación'?",
           "options": [
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w7",
-              "text": "course"
-            },
-            {
-              "id": "w3",
-              "text": "15"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w6",
-              "text": "A2"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            }
+            { "id": "o1", "text": "Swimming" },
+            { "id": "o2", "text": "Swim" },
+            { "id": "o3", "text": "Watering" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'ciclismo'?",
           "options": [
-            {
-              "id": "c2",
-              "text": "No"
-            },
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            }
+            { "id": "o1", "text": "Cycling" },
+            { "id": "o2", "text": "Bike" },
+            { "id": "o3", "text": "Wheel" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ciudad",
-          "correct_answer": "City",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'senderismo'?",
+          "options": [
+            { "id": "o1", "text": "Hiking" },
+            { "id": "o2", "text": "Walking" },
+            { "id": "o3", "text": "Mountain" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'atletismo'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Athletics (UK) / Track and Field (US)" },
+            { "id": "o2", "text": "Running" },
+            { "id": "o3", "text": "Athlete" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'esquí'?",
+          "options": [
+            { "id": "o1", "text": "Skiing" },
+            { "id": "o2", "text": "Snowing" },
+            { "id": "o3", "text": "Ice" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I9",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'voleibol'?",
+          "options": [
+            { "id": "o1", "text": "Volleyball" },
+            { "id": "o2", "text": "Netball" },
+            { "id": "o3", "text": "Beachball" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'yoga'?",
+          "options": [
+            { "id": "o1", "text": "Yoga" },
+            { "id": "o2", "text": "Stretch" },
+            { "id": "o3", "text": "Peace" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'raqueta'?",
+          "options": [
+            { "id": "o1", "text": "Racket" },
+            { "id": "o2", "text": "Bat" },
+            { "id": "o3", "text": "Club" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bate' (béisbol)?",
+          "options": [
+            { "id": "o1", "text": "Bat" },
+            { "id": "o2", "text": "Racket" },
+            { "id": "o3", "text": "Stick" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'casco'?",
+          "options": [
+            { "id": "o1", "text": "Helmet" },
+            { "id": "o2", "text": "Cap" },
+            { "id": "o3", "text": "Head" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'zapatillas de deporte'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "City"
-            },
-            {
-              "id": "o2",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "Trainers (UK) / Sneakers (US)" },
+            { "id": "o2", "text": "Sport shoes" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'gimnasio'?",
+          "options": [
+            { "id": "o1", "text": "Gym" },
+            { "id": "o2", "text": "Center" },
+            { "id": "o3", "text": "Workout" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrenador'?",
+          "options": [
+            { "id": "o1", "text": "Coach / Trainer" },
+            { "id": "o2", "text": "Teacher" },
+            { "id": "o3", "text": "Boss" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 15 of the A2 course.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pista' (tenis/baloncesto)?",
+          "options": [
+            { "id": "o1", "text": "Court" },
+            { "id": "o2", "text": "Field" },
+            { "id": "o3", "text": "Pitch" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'campo' (fútbol/rugby)?",
+          "options": [
+            { "id": "o1", "text": "Pitch (UK) / Field (US)" },
+            { "id": "o2", "text": "Court" },
+            { "id": "o3", "text": "Area" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piscina'?",
+          "options": [
+            { "id": "o1", "text": "Swimming pool" },
+            { "id": "o2", "text": "Water pool" },
+            { "id": "o3", "text": "Swimmer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'meta'?",
+          "options": [
+            { "id": "o1", "text": "Goal / Finish line" },
+            { "id": "o2", "text": "End" },
+            { "id": "o3", "text": "Target" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I21",
+          "type": "matching",
+          "prompt_es": "Asocia el deporte con su lugar:",
+          "pairs": [
+            { "id": "p1", "left": "Swimming", "right": "Pool" },
+            { "id": "p2", "left": "Tennis", "right": "Court" },
+            { "id": "p3", "left": "Football", "right": "Pitch" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I22",
+          "type": "matching",
+          "prompt_es": "Asocia el deporte con su objeto:",
+          "pairs": [
+            { "id": "p1", "left": "Basketball", "right": "Hoop" },
+            { "id": "p2", "left": "Tennis", "right": "Racket" },
+            { "id": "p3", "left": "Cricket", "right": "Bat" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'equipo'?",
+          "options": [
+            { "id": "o1", "text": "Team" },
+            { "id": "o2", "text": "Group" },
+            { "id": "o3", "text": "Side" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U15_I24",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'partido / encuentro'?",
+          "options": [
+            { "id": "o1", "text": "Match / Game" },
+            { "id": "o2", "text": "Meeting" },
+            { "id": "o3", "text": "Play" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'puntuación'?",
+          "options": [
+            { "id": "o1", "text": "Score" },
+            { "id": "o2", "text": "Points" },
+            { "id": "o3", "text": "Numbers" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I26",
+          "type": "flashcard",
+          "prompt_es": "Objetos de Deporte",
+          "flashcards": [
+            { "front": "Net", "back": "Red", "pronunciation": "/net/" },
+            { "front": "Goggles", "back": "Gafas de natación", "pronunciation": "/ˈɡɒɡ.əlz/" },
+            { "front": "Shuttlecock", "back": "Volante (Bádminton)", "pronunciation": "/ˈʃʌt.əl.kɒk/" },
+            { "front": "Surfboard", "back": "Tabla de surf", "pronunciation": "/ˈsɜːf.bɔːd/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ganar'?",
+          "options": [
+            { "id": "o1", "text": "Win" },
+            { "id": "o2", "text": "Earn" },
+            { "id": "o3", "text": "Beat" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'perder'?",
+          "options": [
+            { "id": "o1", "text": "Lose" },
+            { "id": "o2", "text": "Miss" },
+            { "id": "o3", "text": "Fail" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'empatar'?",
+          "options": [
+            { "id": "o1", "text": "Draw (UK) / Tie (US)" },
+            { "id": "o2", "text": "Equal" },
+            { "id": "o3", "text": "Same" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'competencia / competición'?",
+          "options": [
+            { "id": "o1", "text": "Competition" },
+            { "id": "o2", "text": "Match" },
+            { "id": "o3", "text": "Race" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'entrenar'?",
+          "options": [
+            { "id": "o1", "text": "Train / Work out" },
+            { "id": "o2", "text": "Exercise" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jugador'?",
+          "options": [
+            { "id": "o1", "text": "Player" },
+            { "id": "o2", "text": "Game person" },
+            { "id": "o3", "text": "Sport person" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'árbitro'?",
+          "options": [
+            { "id": "o1", "text": "Referee (Fútbol) / Umpire (Tenis)" },
+            { "id": "o2", "text": "Judge" },
+            { "id": "o3", "text": "Rules man" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'espectador'?",
+          "options": [
+            { "id": "o1", "text": "Spectator / Fan" },
+            { "id": "o2", "text": "Watcher" },
+            { "id": "o3", "text": "Looker" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U15_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medalla'?",
+          "options": [
+            { "id": "o1", "text": "Medal" },
+            { "id": "o2", "text": "Award" },
+            { "id": "o3", "text": "Metal" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Play, Do, Go with Sports",
+      "content": [
+        {
+          "interaction_id": "U15_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos con deportes de pelota (ball)?",
+          "options": [
+            { "id": "o1", "text": "Play" },
+            { "id": "o2", "text": "Do" },
+            { "id": "o3", "text": "Go" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U15_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "interaction_id": "U15_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos con actividades que terminan en -ing?",
+          "options": [
+            { "id": "o1", "text": "Go" },
+            { "id": "o2", "text": "Do" },
+            { "id": "o3", "text": "Play" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos con actividades individuales o artes marciales?",
+          "options": [
+            { "id": "o1", "text": "Do" },
+            { "id": "o2", "text": "Play" },
+            { "id": "o3", "text": "Go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I ___ football every Saturday.'",
+          "stimulus_en": "I ___ football every Saturday.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ swimming in the morning.'",
+          "stimulus_en": "She ___ swimming in the morning.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I41",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We ___ yoga at the gym.'",
+          "stimulus_en": "We ___ yoga at the gym.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ karate on Tuesdays.'",
+          "stimulus_en": "He ___ karate on Tuesdays.",
+          "correct_answer": "does",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ tennis at the club.'",
+          "stimulus_en": "They ___ tennis at the club.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I44",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I want to ___ hiking this weekend.'",
+          "stimulus_en": "I want to ___ hiking this weekend.",
+          "correct_answer": "go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Do you ___ any sports?'",
+          "stimulus_en": "Do you ___ any sports?",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I46",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'I ___ (play/do/go) athletics.'",
+          "options": [
+            { "id": "o1", "text": "do" },
+            { "id": "o2", "text": "play" },
+            { "id": "o3", "text": "go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I47",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'Let's ___ (play/do/go) skiing!'",
+          "options": [
+            { "id": "o1", "text": "go" },
+            { "id": "o2", "text": "play" },
+            { "id": "o3", "text": "do" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I48",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'They ___ (play/do/go) basketball.'",
+          "options": [
+            { "id": "o1", "text": "play" },
+            { "id": "o2", "text": "do" },
+            { "id": "o3", "text": "go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I usually ___ running in the park.'",
+          "stimulus_en": "I usually ___ running in the park.",
+          "correct_answer": "go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She ___ aerobics at 6 PM.'",
+          "stimulus_en": "She ___ aerobics at 6 PM.",
+          "correct_answer": "does",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We often ___ volleyball on the beach.'",
+          "stimulus_en": "We often ___ volleyball on the beach.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ judo twice a week.'",
+          "stimulus_en": "He ___ judo twice a week.",
+          "correct_answer": "does",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I53",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ cycling every Sunday.'",
+          "stimulus_en": "They ___ cycling every Sunday.",
+          "correct_answer": "go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I go gymnastics." },
+            { "id": "o2", "text": "I do gymnastics." },
+            { "id": "o3", "text": "I play gymnastics." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I55",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta?",
+          "options": [
+            { "id": "o1", "text": "I play golf." },
+            { "id": "o2", "text": "I do golf." },
+            { "id": "o3", "text": "I go golf." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Did you ___ swimming yesterday?'",
+          "stimulus_en": "Did you ___ swimming yesterday?",
+          "correct_answer": "go",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I don't ___ any martial arts.'",
+          "stimulus_en": "I don't ___ any martial arts.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I58",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Does he ___ baseball?'",
+          "stimulus_en": "Does he ___ baseball?",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I59",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'We are ___ (go) sailing tomorrow.'",
+          "stimulus_en": "We are ___ sailing tomorrow.",
+          "correct_answer": "going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I60",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'She ___ (is playing/does) tennis right now.'",
+          "options": [
+            { "id": "o1", "text": "is playing" },
+            { "id": "o2", "text": "does" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I61",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (play/go) jogging every morning.'",
+          "options": [
+            { "id": "o1", "text": "go" },
+            { "id": "o2", "text": "play" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Have you ever ___ (do) Pilates?'",
+          "stimulus_en": "Have you ever ___ Pilates?",
+          "correct_answer": "done",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They have ___ (go) surfing twice.'",
+          "stimulus_en": "They have ___ surfing twice.",
+          "correct_answer": "gone",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I64",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I used to ___ rugby at school.'",
+          "stimulus_en": "I used to ___ rugby at school.",
+          "correct_answer": "play",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I65",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You should ___ more exercise.'",
+          "stimulus_en": "You should ___ more exercise.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I66",
+          "type": "matching",
+          "prompt_es": "Empareja el verbo con el deporte:",
+          "pairs": [
+            { "id": "p1", "left": "Play", "right": "Badminton" },
+            { "id": "p2", "left": "Do", "right": "Tai Chi" },
+            { "id": "p3", "left": "Go", "right": "Climbing" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I hate ___ (go) to the gym.'",
+          "stimulus_en": "I hate ___ to the gym.",
+          "correct_answer": "going",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He loves ___ (play) chess.'",
+          "stimulus_en": "He loves ___ chess.",
+          "correct_answer": "playing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She is good at ___ (do) gymnastics.'",
+          "stimulus_en": "She is good at ___ gymnastics.",
+          "correct_answer": "doing",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U15_I70",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They are interested in ___ (go) diving.'",
+          "stimulus_en": "They are interested in ___ diving.",
+          "correct_answer": "going",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: Talking about Fitness",
+      "content": [
+        {
+          "interaction_id": "U15_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Haces algún deporte?'?",
+          "options": [
+            { "id": "o1", "text": "Do you do any sports?" },
+            { "id": "o2", "text": "Are you sports?" },
+            { "id": "o3", "text": "Do you play any athletics?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Con qué frecuencia entrenas?'?",
+          "options": [
+            { "id": "o1", "text": "How often do you work out?" },
+            { "id": "o2", "text": "How much you train?" },
+            { "id": "o3", "text": "When do you gym?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'soy un gran fan del fútbol'?",
+          "options": [
+            { "id": "o1", "text": "I'm a big football fan." },
+            { "id": "o2", "text": "I love the football person." },
+            { "id": "o3", "text": "I am fan big of foot." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me gusta mantenerme en forma'?",
+          "options": [
+            { "id": "o1", "text": "I like to keep fit / stay in shape." },
+            { "id": "o2", "text": "I like to be form." },
+            { "id": "o3", "text": "I like my body good." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Quién ganó el partido?'?",
+          "options": [
+            { "id": "o1", "text": "Who won the match?" },
+            { "id": "o2", "text": "Who winned the game?" },
+            { "id": "o3", "text": "Which team earned?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'el marcador fue 2-1'?",
+          "options": [
+            { "id": "o1", "text": "The score was two-one." },
+            { "id": "o2", "text": "The numbers were two to one." },
+            { "id": "o3", "text": "The game finish two-one." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'quiero apuntarme al gimnasio'?",
+          "options": [
+            { "id": "o1", "text": "I want to join the gym." },
+            { "id": "o2", "text": "I want to enter the gym." },
+            { "id": "o3", "text": "I want to go in the gym." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas por el precio de la cuota mensual?",
+          "options": [
+            { "id": "o1", "text": "How much is the monthly fee?" },
+            { "id": "o2", "text": "What is the gym money?" },
+            { "id": "o3", "text": "How much to pay every month?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Juego al tenis dos veces por semana.'",
+          "stimulus_es": "Juego al tenis dos veces por semana.",
+          "correct_answer": "I play tennis twice a week.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi equipo favorito perdió ayer.'",
+          "stimulus_es": "Mi equipo favorito perdió ayer.",
+          "correct_answer": "My favorite team lost yesterday.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'estoy cansado después de entrenar'?",
+          "options": [
+            { "id": "o1", "text": "I'm tired after my workout." },
+            { "id": "o2", "text": "I'm sleep after train." },
+            { "id": "o3", "text": "I am finish after exercise." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'necesito calentar primero'?",
+          "options": [
+            { "id": "o1", "text": "I need to warm up first." },
+            { "id": "o2", "text": "I need heat first." },
+            { "id": "o3", "text": "I need start slowly." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo animas a alguien?",
+          "options": [
+            { "id": "o1", "text": "Come on! / Go for it! / You can do it!" },
+            { "id": "o2", "text": "Do it now!" },
+            { "id": "o3", "text": "Play fast!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'fue un partido muy emocionante'?",
+          "options": [
+            { "id": "o1", "text": "It was a very exciting match." },
+            { "id": "o2", "text": "The game was very emotional." },
+            { "id": "o3", "text": "It was a big sport play." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'no soy muy bueno en los deportes'?",
+          "options": [
+            { "id": "o1", "text": "I'm not very good at sports." },
+            { "id": "o2", "text": "I am bad in play." },
+            { "id": "o3", "text": "I no good for sports." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'prefiero los deportes individuales'?",
+          "options": [
+            { "id": "o1", "text": "I prefer individual sports." },
+            { "id": "o2", "text": "I like one-person sports." },
+            { "id": "o3", "text": "I prefer alone sports." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me gusta ver los Juegos Olímpicos'?",
+          "options": [
+            { "id": "o1", "text": "I like watching the Olympic Games." },
+            { "id": "o2", "text": "I like look the Olympics." },
+            { "id": "o3", "text": "I love see the big games." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I88",
+          "type": "matching",
+          "prompt_es": "Frases del gimnasio:",
+          "pairs": [
+            { "id": "p1", "left": "Are you using this?", "right": "¿Estás usando esto?" },
+            { "id": "p2", "left": "Can I use the locker?", "right": "¿Puedo usar la taquilla?" },
+            { "id": "p3", "left": "Where is the shower?", "right": "¿Dónde está la ducha?" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What / is / your / favorite / sport / ?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "your" },
+            { "id": "w4", "text": "favorite" },
+            { "id": "w5", "text": "sport" },
+            { "id": "w6", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'no, no soy muy deportista'?",
+          "options": [
+            { "id": "o1", "text": "No, I'm not very sporty." },
+            { "id": "o2", "text": "No, I am not sport person." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Haces ejercicio regularmente?'?",
+          "options": [
+            { "id": "o1", "text": "Do you exercise regularly?" },
+            { "id": "o2", "text": "Do you do sport always?" },
+            { "id": "o3", "text": "Are you exercise often?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me duelen los músculos'?",
+          "options": [
+            { "id": "o1", "text": "My muscles are sore / ache." },
+            { "id": "o2", "text": "I have muscle pain." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'quiero perder peso'?",
+          "options": [
+            { "id": "o1", "text": "I want to lose weight." },
+            { "id": "o2", "text": "I want to be thin." },
+            { "id": "o3", "text": "I want miss kilos." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'quiero ganar músculo'?",
+          "options": [
+            { "id": "o1", "text": "I want to gain muscle." },
+            { "id": "o2", "text": "I want more muscle." },
+            { "id": "o3", "text": "I want big arms." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Quién es el capitán del equipo?'?",
+          "options": [
+            { "id": "o1", "text": "Who is the team captain?" },
+            { "id": "o2", "text": "Who is the boss of team?" },
+            { "id": "o3", "text": "Which player is leader?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'el estadio estaba lleno'?",
+          "options": [
+            { "id": "o1", "text": "The stadium was full." },
+            { "id": "o2", "text": "There were many people in stadium." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me lesioné la rodilla'?",
+          "options": [
+            { "id": "o1", "text": "I injured / hurt my knee." },
+            { "id": "o2", "text": "My knee is broken." },
+            { "id": "o3", "text": "I have knee bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I98",
+          "type": "flashcard",
+          "prompt_es": "Metas de Fitness",
+          "flashcards": [
+            { "front": "Healthy lifestyle", "back": "Estilo de vida saludable", "pronunciation": "/ˈhel.θi ˈlaɪf.staɪl/" },
+            { "front": "Stamina", "back": "Resistencia", "pronunciation": "/ˈstæm.ɪ.nə/" },
+            { "front": "Flexibility", "back": "Flexibilidad", "pronunciation": "/ˌflek.səˈbɪl.ə.ti/" },
+            { "front": "Balanced diet", "back": "Dieta equilibrada", "pronunciation": "/ˈbæl.ənst ˈdaɪ.ət/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'fue un gran esfuerzo'?",
+          "options": [
+            { "id": "o1", "text": "It was a great effort." },
+            { "id": "o2", "text": "It was very hard work." },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U15_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Quieres ir a correr conmigo?'",
+          "stimulus_es": "¿Quieres ir a correr conmigo?",
+          "correct_answer": "Do you want to go running with me?",
+          "mastery_tag": "communication"
         }
       ]
     }

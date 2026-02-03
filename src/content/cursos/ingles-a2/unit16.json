@@ -4,179 +4,1122 @@
     "target_language": "en",
     "level": "A2",
     "unit_id": "U16",
-    "unit_title": "Socializing",
-    "total_duration_minutes": 120
+    "unit_title": "Health & Common Illnesses",
+    "total_duration_minutes": 60
   },
   "blocks": [
     {
-      "block_id": "B16",
-      "title": "Socializing",
+      "block_id": "B1",
+      "title": "A2 Vocabulary: Illnesses & Symptoms",
       "content": [
         {
           "interaction_id": "U16_I1",
-          "type": "matching",
-          "prompt_es": "Une los términos con sus significados:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shop",
-              "right": "Tienda"
-            },
-            {
-              "id": "p1",
-              "left": "City",
-              "right": "Ciudad"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dolor de cabeza'?",
+          "options": [
+            { "id": "o1", "text": "Headache" },
+            { "id": "o2", "text": "Head pain" },
+            { "id": "o3", "text": "Brain ache" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I2",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "He (walk) ________ to school.",
-          "correct_answer": "walks",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dolor de estómago'?",
+          "options": [
+            { "id": "o1", "text": "Stomach ache" },
+            { "id": "o2", "text": "Belly ache" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We are learning more English.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dolor de muelas'?",
+          "options": [
+            { "id": "o1", "text": "Toothache" },
+            { "id": "o2", "text": "Teeth ache" },
+            { "id": "o3", "text": "Mouth pain" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dolor de espalda'?",
           "options": [
-            {
-              "id": "w2",
-              "text": "learning"
-            },
-            {
-              "id": "w3",
-              "text": "more"
-            },
-            {
-              "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w1",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
+            { "id": "o1", "text": "Backache" },
+            { "id": "o2", "text": "Rear pain" },
+            { "id": "o3", "text": "Spine ache" }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I5",
           "type": "multiple_choice",
-          "prompt_es": "Elige la respuesta más natural para esta situación:",
-          "stimulus_en": "Speaker A: \"Excuse me\"",
+          "prompt_es": "¿Cómo se dice 'dolor de garganta'?",
           "options": [
-            {
-              "id": "c3",
-              "text": "Bye"
-            },
-            {
-              "id": "c1",
-              "text": "Yes?"
-            },
-            {
-              "id": "c2",
-              "text": "No"
-            }
+            { "id": "o1", "text": "Sore throat" },
+            { "id": "o2", "text": "Throat ache" },
+            { "id": "o3", "text": "Neck pain" }
           ],
-          "correct_answer": "c1",
-          "mastery_tag": "communication"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Tienda",
-          "correct_answer": "Shop",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'resfriado'?",
+          "options": [
+            { "id": "o1", "text": "A cold" },
+            { "id": "o2", "text": "A chili" },
+            { "id": "o3", "text": "A freeze" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I7",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Tienda':",
+          "prompt_es": "¿Cómo se dice 'gripe'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o1",
-              "text": "Shop"
-            }
+            { "id": "o1", "text": "The flu" },
+            { "id": "o2", "text": "The fever" },
+            { "id": "o3", "text": "The fly" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tos'?",
+          "options": [
+            { "id": "o1", "text": "Cough" },
+            { "id": "o2", "text": "Sneeze" },
+            { "id": "o3", "text": "Breath" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'estornudo'?",
+          "options": [
+            { "id": "o1", "text": "Sneeze" },
+            { "id": "o2", "text": "Cough" },
+            { "id": "o3", "text": "Blink" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"We learning are more English.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "correct_sentence_en": "We are learning more English."
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fiebre'?",
+          "options": [
+            { "id": "o1", "text": "Fever / Temperature" },
+            { "id": "o2", "text": "Heat" },
+            { "id": "o3", "text": "Fire" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mareado'?",
+          "options": [
+            { "id": "o1", "text": "Dizzy" },
+            { "id": "o2", "text": "Spinny" },
+            { "id": "o3", "text": "Round" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'quemadura de sol'?",
+          "options": [
+            { "id": "o1", "text": "Sunburn" },
+            { "id": "o2", "text": "Solar fire" },
+            { "id": "o3", "text": "Red skin" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'herido / lastimado'?",
+          "options": [
+            { "id": "o1", "text": "Hurt / Injured" },
+            { "id": "o2", "text": "Broken" },
+            { "id": "o3", "text": "Cut" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I14",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la traducción correcta para 'Ciudad':",
+          "prompt_es": "¿Cómo se dice 'receta médica'?",
           "options": [
-            {
-              "id": "o2",
-              "text": "Shop"
-            },
-            {
-              "id": "o1",
-              "text": "City"
-            }
+            { "id": "o1", "text": "Prescription" },
+            { "id": "o2", "text": "Recipe" },
+            { "id": "o3", "text": "Doctor note" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medicamento / medicina'?",
+          "options": [
+            { "id": "o1", "text": "Medicine / Medication / Drugs" },
+            { "id": "o2", "text": "Candy" },
+            { "id": "o3", "text": "Pills only" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pastilla / tableta'?",
+          "options": [
+            { "id": "o1", "text": "Pill / Tablet" },
+            { "id": "o2", "text": "Circle" },
+            { "id": "o3", "text": "Med-kit" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I17",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome to unit 16 of the A2 course.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'farmacia'?",
+          "options": [
+            { "id": "o1", "text": "Pharmacy / Chemist's (UK) / Drugstore (US)" },
+            { "id": "o2", "text": "Med-shop" },
+            { "id": "o3", "text": "Hospital" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clínica / consulta'?",
+          "options": [
+            { "id": "o1", "text": "Surgery (UK) / Clinic / Doctor's office" },
+            { "id": "o2", "text": "Health room" },
+            { "id": "o3", "text": "Waiting area" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cita' (médica)?",
+          "options": [
+            { "id": "o1", "text": "Appointment" },
+            { "id": "o2", "text": "Date" },
+            { "id": "o3", "text": "Meeting" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paciente'?",
+          "options": [
+            { "id": "o1", "text": "Patient" },
+            { "id": "o2", "text": "Sicker" },
+            { "id": "o3", "text": "Customer" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I21",
+          "type": "matching",
+          "prompt_es": "Empareja el síntoma con la enfermedad:",
+          "pairs": [
+            { "id": "p1", "left": "Coughing", "right": "A cold" },
+            { "id": "p2", "left": "High temperature", "right": "Fever" },
+            { "id": "p3", "left": "Red skin", "right": "Sunburn" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I22",
+          "type": "matching",
+          "prompt_es": "Partes del cuerpo (Body Parts):",
+          "pairs": [
+            { "id": "p1", "left": "Chest", "right": "Pecho" },
+            { "id": "p2", "left": "Shoulder", "right": "Hombro" },
+            { "id": "p3", "left": "Knee", "right": "Rodilla" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I23",
-          "type": "transformation",
-          "prompt_es": "Escribe la forma gramatical adecuada:",
-          "stimulus_en": "There (be) ________ a cat.",
-          "correct_answer": "is",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué es un 'Thermometer'?",
+          "options": [
+            { "id": "o1", "text": "Un termómetro" },
+            { "id": "o2", "text": "Una medicina" },
+            { "id": "o3", "text": "Una venda" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Get better'?",
+          "options": [
+            { "id": "o1", "text": "Mejorarse / Recuperarse" },
+            { "id": "o2", "text": "Enfermarse" },
+            { "id": "o3", "text": "Ir al médico" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'venda'?",
+          "options": [
+            { "id": "o1", "text": "Bandage" },
+            { "id": "o2", "text": "Tape" },
+            { "id": "o3", "text": "Plaster (UK) / Band-aid (US)" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I26",
+          "type": "flashcard",
+          "prompt_es": "Síntomas Comunes",
+          "flashcards": [
+            { "front": "Runny nose", "back": "Mucosidad / Nariz que gotea", "pronunciation": "/ˈrʌni nəʊz/" },
+            { "front": "Earache", "back": "Dolor de oídos", "pronunciation": "/ˈɪəreɪk/" },
+            { "front": "Chills", "back": "Escalofríos", "pronunciation": "/tʃɪlz/" },
+            { "front": "Rash", "back": "Erupción / Sarpullido", "pronunciation": "/ræʃ/" }
+          ],
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sangre'?",
+          "options": [
+            { "id": "o1", "text": "Blood" },
+            { "id": "o2", "text": "Bleed" },
+            { "id": "o3", "text": "Blade" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sentirse enfermo'?",
+          "options": [
+            { "id": "o1", "text": "Feel sick / Feel ill" },
+            { "id": "o2", "text": "Be bad" },
+            { "id": "o3", "text": "Feel wrong" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'descansar'?",
+          "options": [
+            { "id": "o1", "text": "Rest / Take a rest" },
+            { "id": "o2", "text": "Stop working" },
+            { "id": "o3", "text": "Sleep all day" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'urgencias'?",
+          "options": [
+            { "id": "o1", "text": "A&E (UK) / ER (US)" },
+            { "id": "o2", "text": "Fast help" },
+            { "id": "o3", "text": "Quick room" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cirujano'?",
+          "options": [
+            { "id": "o1", "text": "Surgeon" },
+            { "id": "o2", "text": "Surgical" },
+            { "id": "o3", "text": "Operator" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'enfermero/a'?",
+          "options": [
+            { "id": "o1", "text": "Nurse" },
+            { "id": "o2", "text": "Helper" },
+            { "id": "o3", "text": "Medical sister" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jarabe'?",
+          "options": [
+            { "id": "o1", "text": "Syrup" },
+            { "id": "o2", "text": "Liquid medicine" },
+            { "id": "o3", "text": "Sweet water" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aspirina'?",
+          "options": [
+            { "id": "o1", "text": "Aspirin" },
+            { "id": "o2", "text": "Painkiller" },
+            { "id": "o3", "text": "Both are correct" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U16_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ambulancia'?",
+          "options": [
+            { "id": "o1", "text": "Ambulance" },
+            { "id": "o2", "text": "Hospital car" },
+            { "id": "o3", "text": "Rescue van" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "A2 Grammar: Should / Shouldn't for Advice",
+      "content": [
+        {
+          "interaction_id": "U16_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Para qué usamos 'Should'?",
+          "options": [
+            { "id": "o1", "text": "Para dar consejos y sugerencias" },
+            { "id": "o2", "text": "Para hablar del pasado" },
+            { "id": "o3", "text": "Para hablar de obligación fuerte" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el consejo: 'You ___ see a doctor.'",
+          "stimulus_en": "You ___ see a doctor.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa el consejo negativo: 'You ___ go to work today.'",
+          "stimulus_en": "You ___ go to work today.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I39",
+          "type": "fill_blanks",
+          "prompt_es": "Pregunta por consejo: 'What ___ I do?'",
+          "stimulus_en": "What ___ I do?",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I40",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'You should ___ (taking/take) some rest.'",
+          "options": [
+            { "id": "o1", "text": "take" },
+            { "id": "o2", "text": "taking" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I41",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'Should I ___ (go) to the dentist?'",
+          "options": [
+            { "id": "o1", "text": "go" },
+            { "id": "o2", "text": "to go" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I42",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ drink more water.'",
+          "stimulus_en": "You ___ drink more water.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I43",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ eat too much sugar.'",
+          "stimulus_en": "He ___ eat too much sugar.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I44",
+          "type": "multiple_choice",
+          "prompt_es": "Consejo para un dolor de garganta:",
+          "options": [
+            { "id": "o1", "text": "You should drink hot tea." },
+            { "id": "o2", "text": "You shouldn't drink hot tea." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ I take this medicine twice a day?'",
+          "stimulus_en": "___ I take this medicine twice a day?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'should / stay / in / You / bed / .'",
+          "options": [
+            { "id": "w1", "text": "should" },
+            { "id": "w2", "text": "stay" },
+            { "id": "w3", "text": "in" },
+            { "id": "w4", "text": "You" },
+            { "id": "w5", "text": "bed" },
+            { "id": "w6", "text": "." }
+          ],
+          "correct_answer": ["w4", "w1", "w2", "w3", "w5", "w6"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I47",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ (negativo) walk on that injured leg.'",
+          "stimulus_en": "You ___ walk on that injured leg.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            { "id": "o1", "text": "I should to go." },
+            { "id": "o2", "text": "I should go." }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I49",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Children ___ eat many sweets.'",
+          "stimulus_en": "Children ___ eat many sweets.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I50",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la correcta: 'She ___ (should / shoulds) see a dentist.'",
+          "options": [
+            { "id": "o1", "text": "should" },
+            { "id": "o2", "text": "shoulds" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I51",
+          "type": "fill_blanks",
+          "prompt_es": "Uso de 'Have' para síntomas: 'I ___ (tener) a headache.'",
+          "stimulus_en": "I ___ a headache.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I52",
+          "type": "fill_blanks",
+          "prompt_es": "Uso de 'Has' para síntomas: 'He ___ (tener) a fever.'",
+          "stimulus_en": "He ___ a fever.",
+          "correct_answer": "has",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I53",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (feel/have) dizzy.'",
+          "options": [
+            { "id": "o1", "text": "feel" },
+            { "id": "o2", "text": "have" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I54",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'My back ___ (aches/has).'",
+          "options": [
+            { "id": "o1", "text": "aches" },
+            { "id": "o2", "text": "has" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I55",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'You ___ call an ambulance!'",
+          "stimulus_en": "You ___ call an ambulance!",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I56",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'He ___ go out in the rain.'",
+          "stimulus_en": "He ___ go out in the rain.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I57",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I think you ___ talk to the doctor.'",
+          "stimulus_en": "I think you ___ talk to the doctor.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'You'd better see a doctor'?",
+          "options": [
+            { "id": "o1", "text": "Sería mejor que vieras a un médico (Consejo fuerte)" },
+            { "id": "o2", "text": "Viste mejor que un médico" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U16_I59",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcta?: \"Welcome unit to 16 of the A2 course.\"",
-          "correct_answer": false,
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'I have a sore throat'?",
+          "options": [
+            { "id": "o1", "text": "Tengo dolor de garganta" },
+            { "id": "o2", "text": "Tengo dolor de muelas" }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I60",
+          "type": "true_false",
+          "prompt_es": "'Should' no cambia de forma (I should, he should, they should).",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I61",
+          "type": "true_false",
+          "prompt_es": "Se usa 'Should' + infinitivo sin 'to'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I62",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ she take an aspirin?'",
+          "stimulus_en": "___ she take an aspirin?",
+          "correct_answer": "Should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I63",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'They ___ (negativo) drink alcohol with this medicine.'",
+          "stimulus_en": "They ___ drink alcohol with this medicine.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'What / should / I / take / ?'",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "should" },
+            { "id": "w3", "text": "I" },
+            { "id": "w4", "text": "take" },
+            { "id": "w5", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I65",
+          "type": "multiple_choice",
+          "prompt_es": "Elige: 'I ___ (have/feel) a cold.'",
+          "options": [
+            { "id": "o1", "text": "have" },
+            { "id": "o2", "text": "feel" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I66",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Does your arm ___ (doler)?'",
+          "stimulus_en": "Does your arm ___?",
+          "correct_answer": "hurt",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I67",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'How ___ (do/does) he feel?'",
+          "stimulus_en": "How ___ he feel?",
+          "correct_answer": "does",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I68",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Should': 'We ___ buy some plaster.'",
+          "stimulus_en": "We ___ buy some plaster.",
+          "correct_answer": "should",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I69",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con 'Should': 'I ___ (negativo) use my phone too much.'",
+          "stimulus_en": "I ___ use my phone too much.",
+          "correct_answer": "shouldn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U16_I70",
+          "type": "true_false",
+          "prompt_es": "'Should' es más educado que 'Must' para dar consejos.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "A2 Communication: At the Doctor",
+      "content": [
+        {
+          "interaction_id": "U16_I71",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Qué te pasa?'?",
+          "options": [
+            { "id": "o1", "text": "What's the matter? / What's wrong?" },
+            { "id": "o2", "text": "What happens?" },
+            { "id": "o3", "text": "What is the problem?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'No me siento bien'?",
+          "options": [
+            { "id": "o1", "text": "I don't feel well." },
+            { "id": "o2", "text": "I am not fine." },
+            { "id": "o3", "text": "I feel bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I73",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Me duele aquí'?",
+          "options": [
+            { "id": "o1", "text": "It hurts here." },
+            { "id": "o2", "text": "Pain here." },
+            { "id": "o3", "text": "Here is bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I74",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo tos desde ayer'?",
+          "options": [
+            { "id": "o1", "text": "I've had a cough since yesterday." },
+            { "id": "o2", "text": "I have cough from yesterday." },
+            { "id": "o3", "text": "Cough since yesterday." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I75",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Es grave?'?",
+          "options": [
+            { "id": "o1", "text": "Is it serious?" },
+            { "id": "o2", "text": "Is it big?" },
+            { "id": "o3", "text": "Is it dangerous?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I76",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dice el médico 'Tómate estas pastillas'?",
+          "options": [
+            { "id": "o1", "text": "Take these pills." },
+            { "id": "o2", "text": "Eat these tablets." },
+            { "id": "o3", "text": "Have this medication." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I77",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Cuántas veces al día?'?",
+          "options": [
+            { "id": "o1", "text": "How many times a day?" },
+            { "id": "o2", "text": "How much per day?" },
+            { "id": "o3", "text": "When to take?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Soy alérgico a la penicilina'?",
+          "options": [
+            { "id": "o1", "text": "I'm allergic to penicillin." },
+            { "id": "o2", "text": "Penicillin is bad for me." },
+            { "id": "o3", "text": "I no take penicillin." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I79",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Deberías beber mucha agua.'",
+          "stimulus_es": "Deberías beber mucha agua.",
+          "correct_answer": "You should drink a lot of water.",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I80",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Qué me recomiendas?'",
+          "stimulus_es": "¿Qué me recomiendas?",
+          "correct_answer": "What do you recommend?",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I81",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'Tengo que pedir una cita'?",
+          "options": [
+            { "id": "o1", "text": "I need to make an appointment." },
+            { "id": "o2", "text": "I want a doctor date." },
+            { "id": "o3", "text": "I need a meeting." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I82",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo pides algo para la tos en la farmacia?",
+          "options": [
+            { "id": "o1", "text": "Can I have something for a cough, please?" },
+            { "id": "o2", "text": "Give me cough medicine." },
+            { "id": "o3", "text": "I want syrup." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I83",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo deseas una pronta recuperación?",
+          "options": [
+            { "id": "o1", "text": "Get well soon!" },
+            { "id": "o2", "text": "Better quickly!" },
+            { "id": "o3", "text": "Recover fast!" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me siento mucho mejor ahora'?",
+          "options": [
+            { "id": "o1", "text": "I feel much better now." },
+            { "id": "o2", "text": "I am good again." },
+            { "id": "o3", "text": "Feel well today." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I85",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'tienes mala cara / pareces enfermo'?",
+          "options": [
+            { "id": "o1", "text": "You look ill / You don't look well." },
+            { "id": "o2", "text": "Your face is bad." },
+            { "id": "o3", "text": "You look bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I86",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Te duele mucho?'?",
+          "options": [
+            { "id": "o1", "text": "Does it hurt a lot?" },
+            { "id": "o2", "text": "Is there much pain?" },
+            { "id": "o3", "text": "Do you ache big?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I87",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'me duelen todos los huesos' (típico de gripe)?",
+          "options": [
+            { "id": "o1", "text": "My whole body aches." },
+            { "id": "o2", "text": "All my bones pain." },
+            { "id": "o3", "text": "Body is bad." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I88",
+          "type": "matching",
+          "prompt_es": "Instrucciones médicas:",
+          "pairs": [
+            { "id": "p1", "left": "Take with food", "right": "Tomar con comida" },
+            { "id": "p2", "left": "Apply twice a day", "right": "Aplicar dos veces al día" },
+            { "id": "p3", "left": "Do not exceed dose", "right": "No exceder la dosis" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I89",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'How / long / have / you / felt / like / this / ?'",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "long" },
+            { "id": "w3", "text": "have" },
+            { "id": "w4", "text": "you" },
+            { "id": "w5", "text": "felt" },
+            { "id": "w6", "text": "like" },
+            { "id": "w7", "text": "this" },
+            { "id": "w8", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo respondes 'hace un par de días'?",
+          "options": [
+            { "id": "o1", "text": "For a couple of days." },
+            { "id": "o2", "text": "Since two days." },
+            { "id": "o3", "text": "A few days ago." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I91",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Necesito una receta?'?",
+          "options": [
+            { "id": "o1", "text": "Do I need a prescription?" },
+            { "id": "o2", "text": "Need I a recipe?" },
+            { "id": "o3", "text": "Is note necessary?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I92",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'tengo escalofríos'?",
+          "options": [
+            { "id": "o1", "text": "I have the chills." },
+            { "id": "o2", "text": "I am cold." },
+            { "id": "o3", "text": "Body is shaking." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I93",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'estoy resfriado'?",
+          "options": [
+            { "id": "o1", "text": "I have a cold." },
+            { "id": "o2", "text": "I am cold." },
+            { "id": "o3", "text": "I'm with a cold." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I94",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'creo que tengo fiebre'?",
+          "options": [
+            { "id": "o1", "text": "I think I have a fever." },
+            { "id": "o2", "text": "I think I'm hot." },
+            { "id": "o3", "text": "Fever is here." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I95",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas '¿Puedo ver al médico hoy?'?",
+          "options": [
+            { "id": "o1", "text": "Can I see the doctor today?" },
+            { "id": "o2", "text": "Doctor visit today?" },
+            { "id": "o3", "text": "Is doctor free?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'perdí la voz'?",
+          "options": [
+            { "id": "o1", "text": "I've lost my voice." },
+            { "id": "o2", "text": "No voice now." },
+            { "id": "o3", "text": "Voice is gone." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I97",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'tengo la nariz tapada'?",
+          "options": [
+            { "id": "o1", "text": "I have a blocked nose." },
+            { "id": "o2", "text": "Nose is full." },
+            { "id": "o3", "text": "I no breathe." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I98",
+          "type": "flashcard",
+          "prompt_es": "Vida Saludable",
+          "flashcards": [
+            { "front": "Balanced diet", "back": "Dieta equilibrada", "pronunciation": "/ˈbæl.ənst ˈdaɪ.ət/" },
+            { "front": "Fresh air", "back": "Aire fresco", "pronunciation": "/freʃ eə(r)/" },
+            { "front": "Physical activity", "back": "Actividad física", "pronunciation": "/ˈfɪz.ɪ.kəl ækˈtɪv.ə.ti/" },
+            { "front": "Enough sleep", "back": "Dormir lo suficiente", "pronunciation": "/ɪˈnʌf sliːp/" }
+          ],
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I99",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo dices 'tómalo con calma'?",
+          "options": [
+            { "id": "o1", "text": "Take it easy." },
+            { "id": "o2", "text": "Do it slow." },
+            { "id": "o3", "text": "Stay quiet." }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "communication"
+        },
+        {
+          "interaction_id": "U16_I100",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No deberías salir si tienes fiebre.'",
+          "stimulus_es": "No deberías salir si tienes fiebre.",
+          "correct_answer": "You shouldn't go out if you have a fever.",
+          "mastery_tag": "communication"
         }
       ]
     }
