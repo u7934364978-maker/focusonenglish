@@ -127,7 +127,7 @@ const nextConfig = {
     emotion: false,
   },
   // Paquetes externos que deben ejecutarse en el servidor
-  serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node'],
+  serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node', 'resend'],
   // Webpack options to exclude styled-jsx
   webpack: (config, { isServer }) => {
     // Alias para excluir styled-jsx del bundle
