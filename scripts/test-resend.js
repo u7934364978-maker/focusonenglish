@@ -94,7 +94,7 @@ async function testResend() {
               </ul>
               
               <p style="text-align: center;">
-                <a href="http://localhost:3000/forgot-password" class="button">
+                <a href="http://localhost:3000/cuenta/recuperar" class="button">
                   Probar Recuperación de Contraseña
                 </a>
               </p>
@@ -120,7 +120,7 @@ async function testResend() {
     console.log('   1. Revisa tu email (puede tardar 1-2 minutos)');
     console.log('   2. Verifica que llegó correctamente');
     console.log('   3. Crear tabla en Supabase');
-    console.log('   4. Probar flujo completo en http://localhost:3000/forgot-password');
+    console.log('   4. Probar flujo completo en http://localhost:3000/cuenta/recuperar');
   } catch (err) {
     console.error('\n❌ Error:', err.message);
     process.exit(1);

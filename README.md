@@ -21,11 +21,11 @@ Plataforma de cursos de inglés especializados para profesionales y estudiantes.
 webapp/
 ├── app/                      # Next.js App Router
 │   ├── blog/                 # Blog con artículos
-│   ├── contact/              # Página de contacto
+│   ├── contacto/             # Página de contacto
 │   ├── cursos/               # Cursos dinámicos
 │   ├── cursos-especializados/# Cursos por sector
 │   ├── diagnostico/          # Test de nivel
-│   ├── signup/               # Inscripción
+│   ├── cuenta/               # Auth (login, registro, etc)
 │   ├── layout.tsx            # Layout principal
 │   ├── page.tsx              # Homepage
 │   └── sitemap.ts            # Sitemap dinámico
@@ -93,7 +93,7 @@ Para más información sobre el CRM, consulta:
 - `/blog/[slug]` - Artículos individuales
 - `/curso/ingles-[level]` - Cursos dinámicos
 - `/test-nivel` - Test de nivel gratuito
-- `/signup` - Inscripción a cursos
+- `/cuenta/registro` - Inscripción a cursos
 - `/contacto` - Contacto
 
 ### Dinámicas

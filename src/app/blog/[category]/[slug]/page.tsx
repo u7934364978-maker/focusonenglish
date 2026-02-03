@@ -346,7 +346,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                           Probar Gratis 7 días
                         </Link>
                         <Link 
-                          href="/metodologia"
+                          href="/"
                           className="inline-flex items-center justify-center bg-white border-2 border-slate-200 text-slate-700 px-8 py-4 rounded-xl font-bold hover:border-coral-200 hover:bg-coral-50/30 transition-all"
                         >
                           Nuestra Metodología
