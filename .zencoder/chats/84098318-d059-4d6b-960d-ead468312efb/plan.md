@@ -30,22 +30,49 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/84098318-d059-4d6
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
 
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/84098318-d059-4d6b-960d-ead468312efb/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
-
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/84098318-d059-4d6b-960d-ead468312efb/plan.md`.
+1. [x] Break down the work into concrete tasks
+2. [x] Each task should reference relevant contracts and include verification steps
+3. [x] Replace the Implementation step below with the planned tasks
 
 ### [ ] Step: Implementation
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+#### [x] Task 1: Populate Pedagogical Data for Module 1 (Units 1-10)
+Update `scripts/expand-a2-course.py` with grammar, vocab, and sentences for Units 1-10.
+- **Verification**: Check script syntax.
 
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/84098318-d059-4d6b-960d-ead468312efb/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+#### [x] Task 2: Populate Pedagogical Data for Module 2 (Units 11-20)
+Update `scripts/expand-a2-course.py` with data for Units 11-20.
+- **Verification**: Check script syntax.
+
+#### [x] Task 3: Populate Pedagogical Data for Module 3 (Units 21-30)
+Update `scripts/expand-a2-course.py` with data for Units 21-30.
+- **Verification**: Check script syntax.
+
+#### [x] Task 4: Populate Pedagogical Data for Module 4 (Units 31-40)
+Update `scripts/expand-a2-course.py` with data for Units 31-40.
+- **Verification**: Check script syntax.
+
+#### [x] Task 5: Populate Pedagogical Data for Module 5 (Units 41-50)
+Update `scripts/expand-a2-course.py` with data for Units 41-50.
+- **Verification**: Check script syntax.
+
+#### [x] Task 6: Populate Pedagogical Data for Module 6 (Units 51-60)
+Update `scripts/expand-a2-course.py` with data for Units 51-60.
+- **Verification**: Check script syntax.
+
+#### [x] Task 7: Update Script Constants and Refine Generation Logic
+Set `UNITS_COUNT = 60`, `EXERCISES_PER_UNIT = 500`. Refine `generate_exercises` for variety.
+- **Verification**: Run `python3 -m py_compile scripts/expand-a2-course.py`.
+
+#### [ ] Task 8: Execute Script and Generate Exercises
+Run the script to generate all 60 unit JSON files.
+- **Verification**: Check `src/content/cursos/ingles-a2/` for 60 files.
+
+#### [ ] Task 9: Validate Generated Files
+Run `node scripts/validate-exercises.mjs` to ensure JSON and schema validity.
+- **Verification**: Command output shows no errors.
+

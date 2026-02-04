@@ -21,7 +21,6 @@ export default function robots(): MetadataRoute.Robots {
           "/demo-course/",
           "/privacidad",
           "/terminos",
-          "/lecciondemuestra",
         ],
       },
     ],

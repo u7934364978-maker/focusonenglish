@@ -54,6 +54,13 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
    - Add internal links from the homepage or relevant blog posts.
    - *Verification*: Validate JSON-LD with Schema Markup Validator.
 
-4. **[x] Task 4: Final Audit**
+4. **[x] Task 4: SEO Pillar Page Audit**
    - Run `npm run lint` and `npm run build` to ensure no regressions.
    - *Verification*: Successful production build (Lint and Type-check passed for new files).
+
+5. **[x] Task 5: 404 Error Remediation**
+   - [x] Identify broken links and missing pages.
+   - [x] Create `/privacidad` and `/terminos` pages.
+   - [x] Update footer and legal references.
+   - [x] Clean up `robots.ts` and update `sitemap.ts`.
+   - [x] Run final verification and push changes.

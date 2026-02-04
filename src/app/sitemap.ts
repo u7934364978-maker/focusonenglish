@@ -32,6 +32,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     
+    // Pillar Pages SEO
+    {
+      url: `${baseUrl}/aplicaciones-para-aprender-ingles`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    
     // Blog - Contenido SEO
     {
       url: `${baseUrl}/blog`,
@@ -46,6 +54,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,
+    },
+
+    // Legal
+    {
+      url: `${baseUrl}/privacidad`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/terminos`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.3,
     },
   ];
 

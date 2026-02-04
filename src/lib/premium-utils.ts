@@ -85,3 +85,29 @@ export function getSolutionText(interaction: PremiumInteraction): string {
 
   return "";
 }
+
+export function getEncouragingMessage(isCorrect: boolean, failCount: number): string {
+  if (isCorrect) {
+    const successMessages = [
+      "¡Excelente!",
+      "¡Muy bien!",
+      "¡Buen trabajo!",
+      "¡Increíble!",
+      "¡Perfecto!",
+      "¡Lo lograste!",
+      "¡Sigue así!",
+      "¡Eres una máquina!",
+      "¡Impresionante!",
+      "¡Qué crack!"
+    ];
+    return successMessages[Math.floor(Math.random() * successMessages.length)];
+  } else {
+    if (failCount === 1) {
+      return "¡Casi! Inténtalo una vez más.";
+    } else if (failCount === 2) {
+      return "¡No te rindas! Fíjate bien en los detalles.";
+    } else {
+      return "No pasa nada, aquí tienes la solución para aprender:";
+    }
+  }
+}
