@@ -4,135 +4,126 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U30",
-    "unit_title": "Plans & Future",
-    "total_duration_minutes": 60
+    "unit_title": "Module 3 Review",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Future Intentions & Activities",
+      "block_id": "B30",
+      "title": "Module 3 Review",
       "content": [
         {
           "interaction_id": "U30_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tengo la intención de'? (Plan futuro)",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "I'm going to"
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
-              "id": "o2",
-              "text": "I go to"
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
             },
             {
-              "id": "o3",
-              "text": "I went to"
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'plan'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Plan"
-            },
-            {
-              "id": "o2",
-              "text": "Idea"
-            },
-            {
-              "id": "o3",
-              "text": "Next"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'próxima semana'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Next week"
-            },
-            {
-              "id": "o2",
-              "text": "Future week"
-            },
-            {
-              "id": "o3",
-              "text": "Following week"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mañana'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Tomorrow"
+              "id": "w3",
+              "text": "about"
             },
             {
-              "id": "o2",
-              "text": "Next day"
+              "id": "w1",
+              "text": "lesson"
             },
             {
-              "id": "o3",
-              "text": "Morning"
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "3"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'esta noche'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tonight"
-            },
-            {
-              "id": "o2",
-              "text": "This night"
-            },
-            {
-              "id": "o3",
-              "text": "Evening"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'próximo año'?",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Next year"
-            },
-            {
-              "id": "o2",
-              "text": "Future year"
+              "text": "Example"
             },
             {
               "id": "o3",
-              "text": "Coming year"
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
             }
           ],
           "correct_answer": "o1",
@@ -140,245 +131,233 @@
         },
         {
           "interaction_id": "U30_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pronto'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Soon"
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
             },
             {
-              "id": "o2",
-              "text": "Early"
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
-              "id": "o3",
-              "text": "Fast"
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'más tarde'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Later"
-            },
-            {
-              "id": "o2",
-              "text": "After"
-            },
-            {
-              "id": "o3",
-              "text": "Then"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'el lunes que viene'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Next Monday"
-            },
-            {
-              "id": "o2",
-              "text": "Coming Monday"
-            },
-            {
-              "id": "o3",
-              "text": "Following Monday"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'este fin de semana'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Lesson"
+            },
+            {
               "id": "o1",
-              "text": "This weekend"
+              "text": "Exercise"
             },
             {
               "id": "o2",
-              "text": "The weekend"
-            },
-            {
-              "id": "o3",
-              "text": "Future weekend"
+              "text": "Example"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I11",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Voy a estudiar mañana'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "study"
-            },
-            {
-              "id": "w2",
-              "text": "going"
-            },
-            {
-              "id": "w3",
-              "text": "tomorrow"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "I'm"
-            }
-          ],
-          "correct_answer": [
-            "w5",
-            "w2",
-            "w4",
-            "w1",
-            "w3"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I12",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Vamos a viajar el próximo mes'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "travel"
-            },
-            {
-              "id": "w2",
-              "text": "next"
-            },
-            {
-              "id": "w3",
-              "text": "going"
-            },
-            {
-              "id": "w4",
-              "text": "month"
-            },
-            {
-              "id": "w5",
-              "text": "We're"
-            },
-            {
-              "id": "w6",
-              "text": "to"
-            }
-          ],
-          "correct_answer": [
-            "w5",
-            "w3",
-            "w6",
-            "w1",
-            "w2",
-            "w4"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U30_I13",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She ___ (va a) visit her family.'",
-          "stimulus_en": "___",
-          "correct_answer": "is going to",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I14",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'They ___ (van a) play football.'",
-          "stimulus_en": "___",
-          "correct_answer": "are going to",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I'm going to ___ (dormir) now.'",
-          "stimulus_en": "___",
-          "correct_answer": "sleep",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cita' (médico, trabajo)?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Appointment"
+              "id": "w6",
+              "text": "Review"
             },
             {
-              "id": "o2",
-              "text": "Date"
+              "id": "w4",
+              "text": "Module"
             },
             {
-              "id": "o3",
-              "text": "Meeting"
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cita' (romántica)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Date"
-            },
-            {
-              "id": "o2",
-              "text": "Meeting"
-            },
-            {
-              "id": "o3",
-              "text": "Love talk"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reunión'?",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
               "id": "o1",
-              "text": "Meeting"
+              "text": "Lesson"
             },
             {
               "id": "o2",
-              "text": "Union"
-            },
-            {
-              "id": "o3",
-              "text": "Party"
+              "text": "Example"
             }
           ],
           "correct_answer": "o1",
@@ -386,307 +365,218 @@
         },
         {
           "interaction_id": "U30_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fiesta'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Party"
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o2",
-              "text": "Event"
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
-              "id": "o3",
-              "text": "Holiday"
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'concierto'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Concert"
-            },
-            {
-              "id": "o2",
-              "text": "Music show"
-            },
-            {
-              "id": "o3",
-              "text": "Gig"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'viaje'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trip / Journey"
-            },
-            {
-              "id": "o2",
-              "text": "Travel"
-            },
-            {
-              "id": "o3",
-              "text": "Move"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'vacaciones'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Holiday / Vacation"
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Exercise"
             },
             {
               "id": "o2",
-              "text": "Off time"
+              "text": "Example"
             },
             {
-              "id": "o3",
-              "text": "Free days"
+              "id": "o1",
+              "text": "Lesson"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I23",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Qué vas a hacer?'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "do"
-            },
-            {
-              "id": "w2",
-              "text": "going"
-            },
-            {
-              "id": "w3",
-              "text": "What"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "are"
-            },
-            {
-              "id": "w6",
-              "text": "you"
-            }
-          ],
-          "correct_answer": [
-            "w3",
-            "w5",
-            "w6",
-            "w2",
-            "w4",
-            "w1"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I24",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'No voy a salir esta noche'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "going"
-            },
-            {
-              "id": "w2",
-              "text": "tonight"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "out"
-            },
-            {
-              "id": "w5",
-              "text": "not"
-            },
-            {
-              "id": "w6",
-              "text": "go"
-            },
-            {
-              "id": "w7",
-              "text": "I'm"
-            }
-          ],
-          "correct_answer": [
-            "w7",
-            "w5",
-            "w1",
-            "w3",
-            "w6",
-            "w4",
-            "w2"
-          ],
-          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I25",
           "type": "matching",
-          "prompt_es": "Une las expresiones de tiempo:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
             {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
               "id": "p1",
-              "left": "Today",
-              "right": "Hoy"
+              "left": "Word",
+              "right": "Palabra"
             },
             {
               "id": "p2",
-              "left": "Tomorrow",
-              "right": "Mañana"
-            },
-            {
-              "id": "p3",
-              "left": "Tonight",
-              "right": "Esta noche"
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
           "correct_answer": {
+            "p0": "p0",
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p2": "p2"
           },
           "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Possibilities & Predictions",
-      "content": [
+        },
         {
           "interaction_id": "U30_I26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'quizás'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Maybe / Perhaps"
-            },
-            {
-              "id": "o2",
-              "text": "Possibly"
-            },
-            {
-              "id": "o3",
-              "text": "Sure"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'espero que'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I hope"
-            },
-            {
-              "id": "o2",
-              "text": "I wait"
-            },
-            {
-              "id": "o3",
-              "text": "I wish"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'probablemente'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Probably"
+              "id": "w1",
+              "text": "lesson"
             },
             {
-              "id": "o2",
-              "text": "Maybe"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "o3",
-              "text": "Surely"
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estoy seguro/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I'm sure"
-            },
-            {
-              "id": "o2",
-              "text": "I'm certain"
-            },
-            {
-              "id": "o3",
-              "text": "I know"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'creo que'?",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "I think"
-            },
-            {
               "id": "o2",
-              "text": "I believe"
+              "text": "Exercise"
             },
             {
               "id": "o3",
-              "text": "I say"
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
             }
           ],
           "correct_answer": "o1",
@@ -694,249 +584,203 @@
         },
         {
           "interaction_id": "U30_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'va a llover'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "It's going to rain"
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
-              "id": "o2",
-              "text": "It goes to rain"
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o3",
-              "text": "Rain coming"
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'va a hacer sol'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's going to be sunny"
-            },
-            {
-              "id": "o2",
-              "text": "It's sunning"
-            },
-            {
-              "id": "o3",
-              "text": "Sun tomorrow"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I33",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Creo que va a ser fácil'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "think"
-            },
-            {
-              "id": "w2",
-              "text": "easy"
-            },
-            {
-              "id": "w3",
-              "text": "going"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "it's"
-            },
-            {
-              "id": "w6",
-              "text": "be"
-            },
-            {
-              "id": "w7",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w7",
-            "w1",
-            "w5",
-            "w3",
-            "w4",
-            "w6",
-            "w2"
-          ],
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Maybe I ___ (vaya a) stay at home.'",
-          "stimulus_en": "___",
-          "correct_answer": "am going to",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I35",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I ___ (espero) you have a good time.'",
-          "stimulus_en": "___",
-          "correct_answer": "hope",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¿Qué tiempo va a hacer?'?",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "What's the weather going to be like?"
-            },
-            {
-              "id": "o2",
-              "text": "How is weather tomorrow?"
+              "text": "Example"
             },
             {
               "id": "o3",
-              "text": "What time is weather?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        },
-        {
-          "interaction_id": "U30_I37",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¿Estás libre mañana?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Are you free tomorrow?"
+              "text": "Lesson"
             },
             {
               "id": "o2",
-              "text": "You free tomorrow?"
-            },
-            {
-              "id": "o3",
-              "text": "Is you free?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        },
-        {
-          "interaction_id": "U30_I38",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¿Quieres quedar?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do you want to meet up?"
-            },
-            {
-              "id": "o2",
-              "text": "You want stay?"
-            },
-            {
-              "id": "o3",
-              "text": "Meet together?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        },
-        {
-          "interaction_id": "U30_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Me gustaría...'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I would like..."
-            },
-            {
-              "id": "o2",
-              "text": "Me like..."
-            },
-            {
-              "id": "o3",
-              "text": "I like to..."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        },
-        {
-          "interaction_id": "U30_I40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nos vemos allí'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "See you there"
-            },
-            {
-              "id": "o2",
-              "text": "See you then"
-            },
-            {
-              "id": "o3",
-              "text": "Look you there"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        },
-        {
-          "interaction_id": "U30_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tengo mucho que hacer'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I have a lot to do"
-            },
-            {
-              "id": "o2",
-              "text": "I have much doing"
-            },
-            {
-              "id": "o3",
-              "text": "Lot of work"
+              "text": "Exercise"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estar ocupado/a'?",
-          "options": [
+          "interaction_id": "U30_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "To be busy"
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
               "id": "o2",
-              "text": "To be working"
+              "text": "Exercise"
             },
             {
               "id": "o3",
-              "text": "To be full"
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Example"
             }
           ],
           "correct_answer": "o1",
@@ -944,192 +788,218 @@
         },
         {
           "interaction_id": "U30_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estar libre'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "To be free"
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
-              "id": "o2",
-              "text": "To be open"
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o3",
-              "text": "To be clear"
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'disponibilidad'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Availability"
-            },
-            {
-              "id": "o2",
-              "text": "Free time"
-            },
-            {
-              "id": "o3",
-              "text": "Open hours"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I45",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'próximo'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Next"
-            },
-            {
-              "id": "o2",
-              "text": "Future"
-            },
-            {
-              "id": "o3",
-              "text": "After"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I46",
-          "type": "true_false",
-          "prompt_es": "¿'Tonight' significa mañana por la noche?",
-          "correct_answer": false,
-          "feedback_correct_es": "No, 'tonight' significa esta noche. Mañana por la noche es 'tomorrow night'.",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I47",
-          "type": "true_false",
-          "prompt_es": "¿'I'm going to' se usa para planes futuros?",
-          "correct_answer": true,
-          "feedback_correct_es": "Sí, se usa para intenciones y planes decididos.",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U30_I48",
+          "interaction_id": "U30_I45",
           "type": "true_false",
-          "prompt_es": "¿'Maybe' significa 'siempre'?",
-          "correct_answer": false,
-          "feedback_correct_es": "No, 'maybe' significa quizás o tal vez.",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I49",
-          "type": "true_false",
-          "prompt_es": "¿'Soon' significa pronto?",
-          "correct_answer": true,
-          "feedback_correct_es": "Sí, significa en poco tiempo.",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I50",
-          "type": "true_false",
-          "prompt_es": "¿'Date' solo significa una fruta?",
-          "correct_answer": false,
-          "feedback_correct_es": "No, además de dátil, significa fecha o una cita romántica.",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Future Events & Scheduling",
-      "content": [
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
         {
           "interaction_id": "U30_I51",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'empezar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To start / To begin"
-            },
-            {
-              "id": "o2",
-              "text": "To open"
-            },
-            {
-              "id": "o3",
-              "text": "To go"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I52",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'terminar'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "To finish / To end"
+              "id": "w3",
+              "text": "30"
             },
             {
-              "id": "o2",
-              "text": "To close"
+              "id": "w0",
+              "text": "Welcome"
             },
             {
-              "id": "o3",
-              "text": "To stop"
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I53",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'llegar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To arrive"
-            },
-            {
-              "id": "o2",
-              "text": "To come"
-            },
-            {
-              "id": "o3",
-              "text": "To get"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'salir / irse'?",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "To leave"
+              "text": "Word"
             },
             {
               "id": "o2",
-              "text": "To go"
+              "text": "Exercise"
             },
             {
               "id": "o3",
-              "text": "To out"
+              "text": "Example"
             }
           ],
           "correct_answer": "o1",
@@ -1137,284 +1007,218 @@
         },
         {
           "interaction_id": "U30_I55",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reservar'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "To book / To reserve"
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
             },
             {
-              "id": "o2",
-              "text": "To keep"
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
             },
             {
-              "id": "o3",
-              "text": "To save"
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I56",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cancelar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To cancel"
-            },
-            {
-              "id": "o2",
-              "text": "To stop"
-            },
-            {
-              "id": "o3",
-              "text": "To no do"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I57",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'posponer'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To postpone / To put off"
-            },
-            {
-              "id": "o2",
-              "text": "To later"
-            },
-            {
-              "id": "o3",
-              "text": "To wait"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cambiar el plan'?",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "To change the plan"
+              "text": "Lesson"
             },
             {
               "id": "o2",
-              "text": "To make different"
+              "text": "Example"
             },
             {
               "id": "o3",
-              "text": "New plan"
+              "text": "Word"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I59",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'La película empieza a las 8'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "starts"
-            },
-            {
-              "id": "w2",
-              "text": "8"
-            },
-            {
-              "id": "w3",
-              "text": "at"
-            },
-            {
-              "id": "w4",
-              "text": "The"
-            },
-            {
-              "id": "w5",
-              "text": "movie"
-            }
-          ],
-          "correct_answer": [
-            "w4",
-            "w5",
-            "w1",
-            "w3",
-            "w2"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I60",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Voy a estar allí pronto'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "there"
-            },
-            {
-              "id": "w2",
-              "text": "soon"
-            },
-            {
-              "id": "w3",
-              "text": "be"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "going"
-            },
-            {
-              "id": "w6",
-              "text": "I'm"
-            }
-          ],
-          "correct_answer": [
-            "w6",
-            "w5",
-            "w4",
-            "w3",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
           "interaction_id": "U30_I61",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'invitar'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "To invite"
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
             },
             {
-              "id": "o2",
-              "text": "To call"
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o3",
-              "text": "To ask"
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I62",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'invitación'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Invitation"
-            },
-            {
-              "id": "o2",
-              "text": "Call paper"
-            },
-            {
-              "id": "o3",
-              "text": "Party card"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I63",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'confirmar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To confirm"
-            },
-            {
-              "id": "o2",
-              "text": "To say yes"
-            },
-            {
-              "id": "o3",
-              "text": "To check"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I64",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rechazar'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "To refuse / To decline"
+              "id": "w3",
+              "text": "about"
             },
             {
-              "id": "o2",
-              "text": "To say no"
+              "id": "w1",
+              "text": "lesson"
             },
             {
-              "id": "o3",
-              "text": "To cancel"
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I65",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'lo antes posible'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "As soon as possible (ASAP)"
-            },
-            {
-              "id": "o2",
-              "text": "Fast as can"
-            },
-            {
-              "id": "o3",
-              "text": "Early time"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'a tiempo'?",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "On time"
+              "id": "o3",
+              "text": "Exercise"
             },
             {
               "id": "o2",
-              "text": "In time"
+              "text": "Lesson"
             },
             {
-              "id": "o3",
-              "text": "Good time"
+              "id": "o1",
+              "text": "Word"
             }
           ],
           "correct_answer": "o1",
@@ -1422,784 +1226,4371 @@
         },
         {
           "interaction_id": "U30_I67",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tarde'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Late"
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o2",
-              "text": "Slow"
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
             },
             {
-              "id": "o3",
-              "text": "After"
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I68",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'temprano'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Early"
-            },
-            {
-              "id": "o2",
-              "text": "First"
-            },
-            {
-              "id": "o3",
-              "text": "Fast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I69",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'organizar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To organize"
-            },
-            {
-              "id": "o2",
-              "text": "To plan"
-            },
-            {
-              "id": "o3",
-              "text": "To make ready"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'preparar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To prepare / To get ready"
-            },
-            {
-              "id": "o2",
-              "text": "To make"
-            },
-            {
-              "id": "o3",
-              "text": "To do"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U30_I71",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Vas a venir a la fiesta?'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "coming"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "going"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "party?"
-            },
-            {
-              "id": "w6",
-              "text": "to"
-            },
-            {
-              "id": "w7",
-              "text": "Are"
-            },
-            {
-              "id": "w8",
-              "text": "you"
-            }
-          ],
-          "correct_answer": [
-            "w7",
-            "w8",
-            "w3",
-            "w6",
-            "w1",
-            "w4",
-            "w2",
-            "w5"
-          ],
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
           "mastery_tag": "grammar"
         },
         {
+          "interaction_id": "U30_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U30_I72",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'See you ___ (el lunes).'",
-          "stimulus_en": "___",
-          "correct_answer": "on Monday",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o3",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I73",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I'm ___ (voy a) visit my grandma.'",
-          "stimulus_en": "___",
-          "correct_answer": "going to",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U30_I74",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'nos vemos pronto'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "See you soon"
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
             },
             {
-              "id": "o2",
-              "text": "Look you early"
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o3",
-              "text": "Bye fast"
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        },
-        {
-          "interaction_id": "U30_I75",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cuídate'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Take care"
-            },
-            {
-              "id": "o2",
-              "text": "Care yourself"
-            },
-            {
-              "id": "o3",
-              "text": "Look you"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Games & Review",
-      "content": [
-        {
-          "interaction_id": "U30_I76",
-          "type": "word-search",
-          "prompt_es": "Busca palabras de planes:",
-          "words": [
-            "PLAN",
-            "FUTURE",
-            "SOON",
-            "TOMORROW",
-            "TONIGHT",
-            "WEEKEND",
-            "NEXT",
-            "GOING",
-            "PARTY",
-            "TRIP"
-          ],
-          "gridSize": 10,
-          "clues": [
-            {
-              "word": "PLAN",
-              "clue": "Intention"
-            },
-            {
-              "word": "FUTURE",
-              "clue": "Time after now"
-            },
-            {
-              "word": "SOON",
-              "clue": "In a short time"
-            },
-            {
-              "word": "TOMORROW",
-              "clue": "Day after today"
-            },
-            {
-              "word": "TONIGHT",
-              "clue": "This evening"
-            },
-            {
-              "word": "WEEKEND",
-              "clue": "Sat and Sun"
-            },
-            {
-              "word": "NEXT",
-              "clue": "Following"
-            },
-            {
-              "word": "GOING",
-              "clue": "Part of future structure"
-            },
-            {
-              "word": "PARTY",
-              "clue": "Celebration"
-            },
-            {
-              "word": "TRIP",
-              "clue": "Travel plan"
-            }
-          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I77",
-          "type": "crossword",
-          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
-          "items": [
+          "interaction_id": "U30_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
             {
-              "word": "INVITATION",
-              "clue": "Traducción de: invitación",
-              "direction": "across",
-              "row": 10,
-              "col": 5
+              "id": "w1",
+              "text": "lesson"
             },
             {
-              "word": "TOMORROW",
-              "clue": "Traducción de: Mañana",
-              "direction": "down",
-              "row": 10,
-              "col": 9
+              "id": "w5",
+              "text": "3"
             },
             {
-              "word": "CONCERT",
-              "clue": "Traducción de: concierto",
-              "direction": "down",
-              "row": 8,
-              "col": 14
+              "id": "w4",
+              "text": "Module"
             },
             {
-              "word": "LATER",
-              "clue": "Traducción de: más tarde",
-              "direction": "across",
-              "row": 14,
-              "col": 12
+              "id": "w6",
+              "text": "Review"
             },
             {
-              "word": "PARTY",
-              "clue": "Traducción de: fiesta",
-              "direction": "down",
-              "row": 12,
-              "col": 16
+              "id": "w0",
+              "text": "This"
             },
             {
-              "word": "EARLY",
-              "clue": "Traducción de: temprano",
-              "direction": "across",
-              "row": 16,
-              "col": 12
+              "id": "w2",
+              "text": "is"
             },
             {
-              "word": "DATE",
-              "clue": "Traducción de: cita",
-              "direction": "across",
-              "row": 12,
-              "col": 11
-            },
-            {
-              "word": "PLAN",
-              "clue": "Traducción de: plan",
-              "direction": "across",
-              "row": 12,
-              "col": 16
-            },
-            {
-              "word": "SOON",
-              "clue": "Traducción de: pronto",
-              "direction": "down",
-              "row": 7,
-              "col": 6
-            },
-            {
-              "word": "NEXT",
-              "clue": "Traducción de: próximo",
-              "direction": "down",
-              "row": 7,
-              "col": 11
+              "id": "w3",
+              "text": "about"
             }
           ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I78",
-          "type": "true_false",
-          "prompt_es": "¿'Tomorrow' significa ayer?",
-          "correct_answer": false,
-          "feedback_correct_es": "No, 'tomorrow' es mañana. Ayer es 'yesterday'.",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I79",
-          "type": "true_false",
-          "prompt_es": "¿'Weekend' son el sábado y el domingo?",
-          "correct_answer": true,
-          "feedback_correct_es": "Sí, es el fin de semana.",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I80",
-          "type": "true_false",
-          "prompt_es": "¿'I hope' es para deseos futuros?",
-          "correct_answer": true,
-          "feedback_correct_es": "Sí, significa 'espero que'.",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I81",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estar emocionado/a' (por un plan)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To be excited"
-            },
-            {
-              "id": "o2",
-              "text": "To be emotional"
-            },
-            {
-              "id": "o3",
-              "text": "To be happy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I82",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tengo ganas de...'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "I'm looking forward to..."
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "o2",
-              "text": "I have wins of..."
+              "id": "w1",
+              "text": "lesson"
             },
             {
-              "id": "o3",
-              "text": "Me like to..."
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w5",
+              "text": "3"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I83",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sería genial'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "That would be great"
-            },
-            {
-              "id": "o2",
-              "text": "It is good"
-            },
-            {
-              "id": "o3",
-              "text": "Great be it"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tal vez otro día'?",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Maybe another day"
+              "text": "Lesson"
             },
             {
               "id": "o2",
-              "text": "Next time"
+              "text": "Exercise"
             },
             {
               "id": "o3",
-              "text": "Other day"
+              "text": "Example"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I85",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estoy de acuerdo'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "I agree"
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o2",
-              "text": "I'm agree"
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
             },
             {
-              "id": "o3",
-              "text": "Me yes"
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I86",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¿Te viene bien?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Does it suit you? / Is that okay for you?"
-            },
-            {
-              "id": "o2",
-              "text": "Is it good?"
-            },
-            {
-              "id": "o3",
-              "text": "You like?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I87",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¿A qué hora?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What time?"
-            },
-            {
-              "id": "o2",
-              "text": "Which hour?"
-            },
-            {
-              "id": "o3",
-              "text": "When time?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I88",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¿Dónde quedamos?'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Where shall we meet?"
+              "id": "w3",
+              "text": "30"
             },
             {
-              "id": "o2",
-              "text": "Where meet?"
+              "id": "w2",
+              "text": "unit"
             },
             {
-              "id": "o3",
-              "text": "Place to meet?"
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I89",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'me viene bien'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "That works for me / That suits me"
-            },
-            {
-              "id": "o2",
-              "text": "It's good"
-            },
-            {
-              "id": "o3",
-              "text": "I can"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejercicio",
+          "correct_answer": "Exercise",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estoy deseando que llegue'?",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "I can't wait"
+              "id": "o2",
+              "text": "Exercise"
             },
             {
-              "id": "o2",
-              "text": "No wait me"
+              "id": "o1",
+              "text": "Word"
             },
             {
               "id": "o3",
-              "text": "Want now"
+              "text": "Example"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I91",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'en el futuro'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "In the future"
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o2",
-              "text": "Later time"
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
             },
             {
-              "id": "o3",
-              "text": "Next years"
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I92",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mis sueños'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "My dreams"
-            },
-            {
-              "id": "o2",
-              "text": "My sleeps"
-            },
-            {
-              "id": "o3",
-              "text": "My goals"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I93",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hacerse realidad'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "To come true"
-            },
-            {
-              "id": "o2",
-              "text": "To be real"
-            },
-            {
-              "id": "o3",
-              "text": "To make fact"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U30_I94",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'próxima parada'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Next stop"
+              "id": "w3",
+              "text": "about"
             },
             {
-              "id": "o2",
-              "text": "Future stop"
+              "id": "w5",
+              "text": "3"
             },
             {
-              "id": "o3",
-              "text": "Following stop"
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U30_I95",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'en unos días'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "In a few days"
-            },
-            {
-              "id": "o2",
-              "text": "In some days"
-            },
-            {
-              "id": "o3",
-              "text": "After days"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pronto' (en una despedida)?",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
               "id": "o1",
-              "text": "See you soon"
+              "text": "Example"
             },
             {
               "id": "o2",
-              "text": "Bye soon"
-            },
-            {
-              "id": "o3",
-              "text": "Fast meet"
+              "text": "Lesson"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I97",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'después de eso'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "After that"
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o2",
-              "text": "Then"
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
             },
             {
-              "id": "o3",
-              "text": "Next that"
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'por fin'?",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "At last / Finally"
-            },
-            {
-              "id": "o2",
-              "text": "In end"
+              "text": "Example"
             },
             {
               "id": "o3",
-              "text": "Good finish"
+              "text": "Lesson"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I99",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'buena suerte'?",
-          "options": [
+          "interaction_id": "U30_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Good luck"
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
             },
             {
-              "id": "o2",
-              "text": "Best luck"
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
             },
             {
-              "id": "o3",
-              "text": "Happy luck"
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U30_I100",
+          "interaction_id": "U30_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '¡Qué lo pases bien!'?",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Have a good time! / Have fun!"
-            },
-            {
-              "id": "o2",
-              "text": "Enjoy you!"
+              "text": "Word"
             },
             {
               "id": "o3",
-              "text": "Good pass!"
+              "text": "Lesson"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "functional_language"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o3",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Exercise"
+            },
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            },
+            {
+              "id": "o2",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Word"
+            },
+            {
+              "id": "o3",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I151",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Example"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Example"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o3",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejercicio",
+          "correct_answer": "Exercise",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I201",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I202",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I203",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Example"
+            },
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            },
+            {
+              "id": "o3",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejercicio",
+          "correct_answer": "Exercise",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Word"
+            },
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o2",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Example"
+            },
+            {
+              "id": "o2",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Lección",
+          "correct_answer": "Lesson",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p2",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p2",
+              "left": "Word",
+              "right": "Palabra"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I258",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Lesson"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (tener) ________ a new lesson.",
+          "correct_answer": "have",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Example",
+              "right": "Ejemplo"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejercicio",
+          "correct_answer": "Exercise",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Lesson"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 3 Review\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Exercise"
+            },
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p1",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (estudiar) ________ every day.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 30.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w3",
+              "text": "30"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejemplo",
+          "correct_answer": "Example",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Example"
+            },
+            {
+              "id": "o2",
+              "text": "Lesson"
+            },
+            {
+              "id": "o3",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Word",
+              "right": "Palabra"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Lesson",
+              "right": "Lección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 3 Review\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "30"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "unit"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejercicio",
+          "correct_answer": "Exercise",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Lesson"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I (aprender) ________ English.",
+          "correct_answer": "learn",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            },
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Palabra",
+          "correct_answer": "Word",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            },
+            {
+              "id": "o1",
+              "text": "Exercise"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lesson",
+              "right": "Lección"
+            },
+            {
+              "id": "p1",
+              "left": "Exercise",
+              "right": "Ejercicio"
+            },
+            {
+              "id": "p2",
+              "left": "Example",
+              "right": "Ejemplo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "This is unit (número) ________.",
+          "correct_answer": "30",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 30.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "3"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Module"
+            },
+            {
+              "id": "w1",
+              "text": "lesson"
+            },
+            {
+              "id": "w3",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w6",
+              "text": "Review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ejercicio",
+          "correct_answer": "Exercise",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Exercise"
+            },
+            {
+              "id": "o1",
+              "text": "Word"
+            },
+            {
+              "id": "o2",
+              "text": "Example"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

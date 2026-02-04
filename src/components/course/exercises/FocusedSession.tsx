@@ -184,15 +184,15 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
   }, [currentStep, queue, audioCache]);
 
   useEffect(() => {
-    if (stepContent?.video) {
+    if (currentItem?.video) {
       setIsVideoMode(true);
     } else {
       setIsVideoMode(false);
     }
 
-    const interaction = stepContent?.video
-      ? stepContent.video.interactions[interactionIndex]
-      : stepContent;
+    const interaction = currentItem?.video
+      ? currentItem.video.interactions[interactionIndex]
+      : currentItem;
       
     if (interaction?.type === 'matching' && shuffledRight.length === 0) {
       const rightItems = interaction.pairs.map((p: any) => ({ id: p.id, text: p.right }));
@@ -214,7 +214,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
       }
       setShuffledOptions(shuffled);
     }
-  }, [stepContent, interactionIndex, shuffledRight.length, shuffledOptions.length]);
+  }, [currentItem, interactionIndex, shuffledRight.length, shuffledOptions.length]);
 
   const handleNext = () => {
     setSelectedWords([]);
@@ -228,7 +228,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
     setFeedback(null);
 
     if (isVideoMode) {
-      const video = stepContent.video;
+      const video = currentItem.video;
       if (showInteraction) {
         // Handled by feedback continue
         return;
@@ -258,8 +258,8 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
     }
   };
 
-  const handleCheckAnswer = (optionId: string | string[]) => {
-    const interaction = isVideoMode ? stepContent.video.interactions[interactionIndex] : stepContent;
+  const handleCheckAnswer = (optionId: any) => {
+    const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
     let isCorrect = false;
 
     if (interaction.type === 'reorder_words') {
@@ -325,10 +325,10 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
   };
 
   const handleFeedbackContinue = () => {
-    const interaction = isVideoMode ? stepContent.video.interactions[interactionIndex] : stepContent;
+    const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
     const id = interaction.interaction_id || interaction.mastery_tag;
 
-    if (!feedback?.correct && isVideoMode && stepContent.video.branching && failCount[id] >= 2) {
+    if (!feedback?.correct && isVideoMode && currentItem.video.branching && failCount[id] >= 2) {
       setIsRepairing(true);
       setFeedback(null);
       return;
@@ -338,7 +338,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
       if (isVideoMode) {
         setInteractionIndex(interactionIndex + 1);
         setShowInteraction(false);
-        if (interactionIndex + 1 >= stepContent.video.interactions.length && currentSceneIndex >= stepContent.video.scenes.length - 1) {
+        if (interactionIndex + 1 >= currentItem.video.interactions.length && currentSceneIndex >= currentItem.video.scenes.length - 1) {
            handleNext();
         } else {
           setFeedback(null);
@@ -658,6 +658,17 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
                 </div>
               )}
             </div>
+
+            {/* Show correction if wrong order */}
+            {feedback && interaction.correct_answer === false && interaction.correct_order && (
+              <div className="bg-indigo-50 p-6 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
+                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">Orden Correcto:</p>
+                <p className="text-indigo-900 font-black text-xl italic leading-relaxed">
+                  "{interaction.correct_order}"
+                </p>
+              </div>
+            )}
+
             <div className="grid grid-cols-1 gap-6">
               <button 
                 onClick={() => handleCheckAnswer(true)}
@@ -706,7 +717,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
                         variant="outline"
                         size="lg"
                         className="h-20 w-20 rounded-full border-4 border-indigo-200"
-                        onClick={() => playAudio(interaction.audioUrl || stepContent.audioUrl, interaction.tts_en || interaction.stimulus_en)}
+                        onClick={() => playAudio(interaction.audioUrl || currentItem.audioUrl, interaction.tts_en || interaction.stimulus_en)}
                       >
                         <Volume2 className="w-10 h-10 text-indigo-600" />
                       </Button>
@@ -789,7 +800,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
            <motion.div 
              whileHover={{ scale: 1.05 }}
              whileActive={{ scale: 0.95 }}
-             onClick={() => playAudio(scene.audioUrl || stepContent.audioUrl, scene.tts_en || scene.dialogue_en)}
+             onClick={() => playAudio(scene.audioUrl || currentItem.audioUrl, scene.tts_en || scene.dialogue_en)}
              className="w-40 h-40 bg-indigo-500 rounded-full flex items-center justify-center cursor-pointer shadow-2xl shadow-indigo-200 group relative"
            >
              <div className="absolute inset-0 bg-indigo-400 rounded-full animate-ping opacity-20 group-hover:opacity-40 transition-opacity" />
@@ -847,7 +858,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
             exit={{ opacity: 0, x: -50 }}
             className="w-full h-full flex flex-col justify-center"
           >
-            {isVideoMode ? renderVideoScene(stepContent.video) : renderInteraction(stepContent)}
+            {isVideoMode ? renderVideoScene(currentItem.video) : renderInteraction(currentItem)}
           </motion.div>
         </AnimatePresence>
       </main>
@@ -855,7 +866,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
       {/* Feedback & Footer */}
       <AnimatePresence>
         {feedback && (() => {
-          const interaction = isVideoMode ? stepContent.video.interactions[interactionIndex] : stepContent;
+          const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
           const id = interaction.interaction_id || interaction.mastery_tag;
           return (
             <motion.footer 
@@ -916,7 +927,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
           ) : (
             <Button 
               disabled={(() => {
-                const interaction = isVideoMode ? stepContent.video.interactions[interactionIndex] : stepContent;
+                const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (interaction.type === 'reorder_words') return selectedWords.length === 0;
                 if (interaction.type === 'matching') return Object.keys(matchingPairs).length < interaction.pairs.length;
                 if (interaction.type === 'transformation') {
@@ -936,7 +947,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
               })()}
               className="bg-[#58cc02] hover:bg-[#46a302] disabled:bg-slate-100 disabled:text-slate-300 disabled:border-slate-200 border-b-4 border-[#4b7e02] font-black px-12 h-14 rounded-2xl text-xl text-white shadow-lg active:translate-y-0.5 transition-all"
               onClick={() => {
-                const interaction = isVideoMode ? stepContent.video.interactions[interactionIndex] : stepContent;
+                const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (interaction.type === 'reorder_words') handleCheckAnswer(selectedWords.map(w => w.id));
                 else if (interaction.type === 'matching') handleCheckAnswer(matchingPairs);
                 else if (interaction.type === 'categorization') handleCheckAnswer(Object.keys(categorizedItems));
@@ -954,7 +965,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
               }}
             >
               {(() => {
-                const interaction = isVideoMode ? stepContent.video.interactions[interactionIndex] : stepContent;
+                const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 return ['reorder_words', 'matching', 'short_writing', 'transformation', 'categorization', 'dictation_guided'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>

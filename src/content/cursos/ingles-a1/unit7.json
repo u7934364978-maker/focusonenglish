@@ -4,387 +4,335 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U7",
-    "unit_title": "Daily Routine & Time",
-    "total_duration_minutes": 60
+    "unit_title": "Colors & Describing Things",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Daily Routine Verbs",
+      "block_id": "B7",
+      "title": "Colors & Describing Things",
       "content": [
         {
           "interaction_id": "U7_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'despertarse'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Wake up"
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
             },
             {
-              "id": "o2",
-              "text": "Get up"
+              "id": "p1",
+              "left": "Black",
+              "right": "Negro"
             },
             {
-              "id": "o3",
-              "text": "Sleep"
+              "id": "p2",
+              "left": "Big",
+              "right": "Grande"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'levantarse'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Get up"
-            },
-            {
-              "id": "o2",
-              "text": "Wake up"
-            },
-            {
-              "id": "o3",
-              "text": "Stand up"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ducharse'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have a shower / Take a shower"
-            },
-            {
-              "id": "o2",
-              "text": "Have a bath"
-            },
-            {
-              "id": "o3",
-              "text": "Wash me"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have a new computer.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'lavarse los dientes'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Brush your teeth"
+              "id": "w3",
+              "text": "new"
             },
             {
-              "id": "o2",
-              "text": "Wash your teeth"
+              "id": "w1",
+              "text": "have"
             },
             {
-              "id": "o3",
-              "text": "Clean your mouth"
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'vestirse'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o2",
-              "text": "Put clothes"
-            },
-            {
-              "id": "o3",
-              "text": "Wear clothes"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'desayunar'?",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Have breakfast"
+              "id": "o2",
+              "text": "Old"
             },
             {
-              "id": "o2",
-              "text": "Eat breakfast"
+              "id": "o1",
+              "text": "Small"
             },
             {
               "id": "o3",
-              "text": "Both are correct"
+              "text": "New"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ir al trabajo'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Go to work"
+              "id": "p0",
+              "left": "White",
+              "right": "Blanco"
             },
             {
-              "id": "o2",
-              "text": "Go work"
+              "id": "p1",
+              "left": "Green",
+              "right": "Verde"
             },
             {
-              "id": "o3",
-              "text": "Work go"
+              "id": "p2",
+              "left": "Big",
+              "right": "Grande"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'empezar a trabajar'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Start work"
-            },
-            {
-              "id": "o2",
-              "text": "Begin working"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'almorzar / comer'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o2",
-              "text": "Eat lunch"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'terminar el trabajo'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Finish work"
+              "id": "w0",
+              "text": "That"
             },
             {
-              "id": "o2",
-              "text": "Stop work"
+              "id": "w5",
+              "text": "dog"
             },
             {
-              "id": "o3",
-              "text": "End work"
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "small"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'volver a casa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Go home / Get home"
-            },
-            {
-              "id": "o2",
-              "text": "Back house"
-            },
-            {
-              "id": "o3",
-              "text": "Return home"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cenar'?",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Have dinner"
+              "id": "o3",
+              "text": "New"
             },
             {
               "id": "o2",
-              "text": "Eat dinner"
+              "text": "Blue"
             },
             {
-              "id": "o3",
-              "text": "Both are correct"
+              "id": "o1",
+              "text": "Yellow"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ir a la cama'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Go to bed"
+              "id": "p0",
+              "left": "Black",
+              "right": "Negro"
             },
             {
-              "id": "o2",
-              "text": "Sleep go"
+              "id": "p1",
+              "left": "Blue",
+              "right": "Azul"
             },
             {
-              "id": "o3",
-              "text": "Go sleep"
+              "id": "p2",
+              "left": "New",
+              "right": "Nuevo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dormir'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sleep"
-            },
-            {
-              "id": "o2",
-              "text": "Dream"
-            },
-            {
-              "id": "o3",
-              "text": "Nap"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hacer los deberes'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do homework"
-            },
-            {
-              "id": "o2",
-              "text": "Make homework"
-            },
-            {
-              "id": "o3",
-              "text": "Study homework"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have a new computer.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ver la tele'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Watch TV"
+              "id": "w1",
+              "text": "have"
             },
             {
-              "id": "o2",
-              "text": "Look TV"
+              "id": "w3",
+              "text": "new"
             },
             {
-              "id": "o3",
-              "text": "See TV"
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'escuchar música'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Listen to music"
-            },
-            {
-              "id": "o2",
-              "text": "Hear music"
-            },
-            {
-              "id": "o3",
-              "text": "Listen music"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nuevo",
+          "correct_answer": "New",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'leer un libro'?",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Read a book"
-            },
-            {
-              "id": "o2",
-              "text": "Write a book"
+              "text": "Old"
             },
             {
               "id": "o3",
-              "text": "Look a book"
+              "text": "New"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
             }
           ],
           "correct_answer": "o1",
@@ -392,236 +340,203 @@
         },
         {
           "interaction_id": "U7_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'salir con amigos'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Go out with friends"
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
             },
             {
-              "id": "o2",
-              "text": "Hang out with friends"
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
             },
             {
-              "id": "o3",
-              "text": "Both are correct"
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'limpiar la casa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clean the house"
-            },
-            {
-              "id": "o2",
-              "text": "Wash the house"
-            },
-            {
-              "id": "o3",
-              "text": "Tidy the house"
-            },
-            {
-              "id": "o4",
-              "text": "A and C are correct"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I21",
-          "type": "matching",
-          "prompt_es": "Une las acciones matutinas:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Wake up",
-              "right": "Despertarse"
-            },
-            {
-              "id": "p2",
-              "left": "Get dressed",
-              "right": "Vestirse"
-            },
-            {
-              "id": "p3",
-              "left": "Have breakfast",
-              "right": "Desayunar"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"favorite My color is yellow.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I22",
-          "type": "matching",
-          "prompt_es": "Une las acciones de tarde/noche:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
             {
-              "id": "p1",
-              "left": "Finish work",
-              "right": "Terminar el trabajo"
+              "id": "w3",
+              "text": "green"
             },
             {
-              "id": "p2",
-              "left": "Have dinner",
-              "right": "Cenar"
+              "id": "w1",
+              "text": "grass"
             },
             {
-              "id": "p3",
-              "left": "Go to bed",
-              "right": "Ir a la cama"
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I ___ (despierto) at 7:00.'",
-          "stimulus_en": "___",
-          "correct_answer": "wake up",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Azul",
+          "correct_answer": "Blue",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I24",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She ___ (desayuna) in the kitchen.'",
-          "stimulus_en": "___",
-          "correct_answer": "has breakfast",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nuevo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Old"
+            },
+            {
+              "id": "o1",
+              "text": "New"
+            },
+            {
+              "id": "o2",
+              "text": "White"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I25",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'They ___ (ven) TV in the evening.'",
-          "stimulus_en": "___",
-          "correct_answer": "watch",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Telling the Time",
-      "content": [
-        {
-          "interaction_id": "U7_I26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas la hora?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "What time is it?"
+              "id": "p0",
+              "left": "Blue",
+              "right": "Azul"
             },
             {
-              "id": "o2",
-              "text": "What is the hour?"
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
             },
             {
-              "id": "o3",
-              "text": "What's time?"
+              "id": "p2",
+              "left": "White",
+              "right": "Blanco"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Son las ocho en punto'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's eight o'clock"
-            },
-            {
-              "id": "o2",
-              "text": "It's eight hour"
-            },
-            {
-              "id": "o3",
-              "text": "It's eight sharp"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Son las ocho y cuarto'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "It's quarter past eight"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "o2",
-              "text": "It's eight and quarter"
+              "id": "w3",
+              "text": "green"
             },
             {
-              "id": "o3",
-              "text": "It's fifteen past eight"
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "grass"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Son las ocho y media'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's half past eight"
-            },
-            {
-              "id": "o2",
-              "text": "It's eight thirty"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Son las nueve menos cuarto'?",
+          "prompt_es": "¿Cómo se dice 'Nuevo' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "It's quarter to nine"
-            },
-            {
-              "id": "o2",
-              "text": "It's nine minus quarter"
+              "text": "New"
             },
             {
               "id": "o3",
-              "text": "It's quarter past nine"
+              "text": "Blue"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
             }
           ],
           "correct_answer": "o1",
@@ -629,125 +544,106 @@
         },
         {
           "interaction_id": "U7_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Son las diez y diez'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "It's ten past ten"
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
             },
             {
-              "id": "o2",
-              "text": "It's ten ten"
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
             },
             {
-              "id": "o3",
-              "text": "Both are correct"
+              "id": "p2",
+              "left": "Small",
+              "right": "Pequeño"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Son las once menos cinco'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's five to eleven"
-            },
-            {
-              "id": "o2",
-              "text": "It's eleven minus five"
-            },
-            {
-              "id": "o3",
-              "text": "It's five past eleven"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is an (viejo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'A.M.'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Before noon (mañana)"
-            },
-            {
-              "id": "o2",
-              "text": "After noon (tarde)"
-            },
-            {
-              "id": "o3",
-              "text": "At midnight"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"My favorite color is yellow.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I34",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'P.M.'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "After noon (tarde/noche)"
+              "id": "w3",
+              "text": "is"
             },
             {
-              "id": "o2",
-              "text": "Morning"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o3",
-              "text": "Past midnight"
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w1",
+              "text": "white"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mediodía'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Noon / Midday"
-            },
-            {
-              "id": "o2",
-              "text": "Midnight"
-            },
-            {
-              "id": "o3",
-              "text": "Daytime"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Azul",
+          "correct_answer": "Blue",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'medianoche'?",
+          "prompt_es": "¿Cómo se dice 'Azul' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
               "id": "o1",
-              "text": "Midnight"
+              "text": "Blue"
             },
             {
               "id": "o2",
-              "text": "Noon"
-            },
-            {
-              "id": "o3",
-              "text": "Dark night"
+              "text": "White"
             }
           ],
           "correct_answer": "o1",
@@ -755,96 +651,479 @@
         },
         {
           "interaction_id": "U7_I37",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '8:00 = It's eight ___.'",
-          "stimulus_en": "___",
-          "correct_answer": "o'clock",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p1",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p2",
+              "left": "Green",
+              "right": "Verde"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I38",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '8:15 = It's ___ past eight.'",
-          "stimulus_en": "___",
-          "correct_answer": "quarter",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I39",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '8:30 = It's ___ past eight.'",
-          "stimulus_en": "___",
-          "correct_answer": "half",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The white house is beautiful.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I40",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '8:45 = It's quarter ___ nine.'",
-          "stimulus_en": "___",
-          "correct_answer": "to",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I41",
-          "type": "matching",
-          "prompt_es": "Une las horas digitales con las analógicas:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "7:00",
-              "right": "Seven o'clock"
-            },
-            {
-              "id": "p2",
-              "left": "7:15",
-              "right": "Quarter past seven"
-            },
-            {
-              "id": "p3",
-              "left": "7:30",
-              "right": "Half past seven"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I42",
-          "type": "matching",
-          "prompt_es": "Une las horas:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Blanco' en inglés?",
+          "options": [
             {
-              "id": "p1",
-              "left": "7:45",
-              "right": "Quarter to eight"
+              "id": "o1",
+              "text": "White"
             },
             {
-              "id": "p2",
-              "left": "7:05",
-              "right": "Five past seven"
+              "id": "o2",
+              "text": "Black"
             },
             {
-              "id": "p3",
-              "left": "7:55",
-              "right": "Five to eight"
+              "id": "o3",
+              "text": "Blue"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p1",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I46",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "White"
+            },
+            {
+              "id": "o3",
+              "text": "Small"
+            },
+            {
+              "id": "o1",
+              "text": "Yellow"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have a new computer.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "grass"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "green"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Verde' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Big"
+            },
+            {
+              "id": "o1",
+              "text": "Green"
+            },
+            {
+              "id": "o2",
+              "text": "New"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p1",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p2",
+              "left": "Small",
+              "right": "Pequeño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o1",
+              "text": "Small"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"My favorite color is yellow.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
               "id": "w1",
@@ -852,503 +1131,59 @@
             },
             {
               "id": "w2",
-              "text": "What"
+              "text": "a"
             },
             {
               "id": "w3",
-              "text": "it"
+              "text": "very"
             },
             {
-              "id": "w4",
-              "text": "time"
+              "id": "w0",
+              "text": "That"
             },
             {
               "id": "w5",
-              "text": "?"
+              "text": "dog"
+            },
+            {
+              "id": "w4",
+              "text": "small"
             }
           ],
           "correct_answer": [
-            "w2",
-            "w4",
+            "w0",
             "w1",
+            "w2",
             "w3",
+            "w4",
             "w5"
           ],
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I44",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "It's"
-            },
-            {
-              "id": "w2",
-              "text": "past"
-            },
-            {
-              "id": "w3",
-              "text": "half"
-            },
-            {
-              "id": "w4",
-              "text": "six"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w3",
-            "w2",
-            "w4"
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I45",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'a las ocho'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At eight o'clock"
-            },
-            {
-              "id": "o2",
-              "text": "In eight o'clock"
-            },
-            {
-              "id": "o3",
-              "text": "On eight o'clock"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'temprano'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Early"
-            },
-            {
-              "id": "o2",
-              "text": "Late"
-            },
-            {
-              "id": "o3",
-              "text": "Fast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tarde'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Late"
-            },
-            {
-              "id": "o2",
-              "text": "Afternoon"
-            },
-            {
-              "id": "o3",
-              "text": "Evening"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U7_I48",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'por la mañana'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "In the morning"
-            },
-            {
-              "id": "o2",
-              "text": "On the morning"
-            },
-            {
-              "id": "o3",
-              "text": "At the morning"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'por la tarde' (después de comer)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "In the afternoon"
-            },
-            {
-              "id": "o2",
-              "text": "In the evening"
-            },
-            {
-              "id": "o3",
-              "text": "At afternoon"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I50",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'por la noche'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At night"
-            },
-            {
-              "id": "o2",
-              "text": "In the night"
-            },
-            {
-              "id": "o3",
-              "text": "In the evening"
-            },
-            {
-              "id": "o4",
-              "text": "A and C are common"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "grammar"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Grammar: Present Simple",
-      "content": [
-        {
-          "interaction_id": "U7_I51",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Yo trabajo'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I work"
-            },
-            {
-              "id": "o2",
-              "text": "I works"
-            },
-            {
-              "id": "o3",
-              "text": "I working"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I52",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Él trabaja'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He works"
-            },
-            {
-              "id": "o2",
-              "text": "He work"
-            },
-            {
-              "id": "o3",
-              "text": "He working"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I53",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ella estudia'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "She studies"
-            },
-            {
-              "id": "o2",
-              "text": "She studys"
-            },
-            {
-              "id": "o3",
-              "text": "She study"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I54",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de 'I work'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I don't work"
-            },
-            {
-              "id": "o2",
-              "text": "I doesn't work"
-            },
-            {
-              "id": "o3",
-              "text": "I not work"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I55",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de 'He works'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He doesn't work"
-            },
-            {
-              "id": "o2",
-              "text": "He don't work"
-            },
-            {
-              "id": "o3",
-              "text": "He doesn't works"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I56",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Trabajas?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do you work?"
-            },
-            {
-              "id": "o2",
-              "text": "Does you work?"
-            },
-            {
-              "id": "o3",
-              "text": "You work?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I57",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Trabaja él?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Does he work?"
-            },
-            {
-              "id": "o2",
-              "text": "Do he work?"
-            },
-            {
-              "id": "o3",
-              "text": "Does he works?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I58",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I ___ (no estudio) at night.'",
-          "stimulus_en": "___",
-          "correct_answer": "don't study",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I59",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She ___ (no ve) TV.'",
-          "stimulus_en": "___",
-          "correct_answer": "doesn't watch",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I60",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ you like pizza?'",
-          "stimulus_en": "___",
-          "correct_answer": "Do",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I61",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ he go to school?'",
-          "stimulus_en": "___",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I62",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "doesn't"
-            },
-            {
-              "id": "w2",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "breakfast"
-            },
-            {
-              "id": "w4",
-              "text": "have"
-            }
-          ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w4",
-            "w3"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I63",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "you"
-            },
-            {
-              "id": "w2",
-              "text": "Do"
-            },
-            {
-              "id": "w3",
-              "text": "up"
-            },
-            {
-              "id": "w4",
-              "text": "early"
-            },
-            {
-              "id": "w5",
-              "text": "wake"
-            },
-            {
-              "id": "w6",
-              "text": "?"
-            }
-          ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w5",
-            "w3",
-            "w4",
-            "w6"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I64",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes 'Yes, I do' a la pregunta 'Do you study English?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sí, estudio."
-            },
-            {
-              "id": "o2",
-              "text": "Sí."
-            },
-            {
-              "id": "o3",
-              "text": "Sí, lo hago."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I65",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'siempre'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Sometimes"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Grande",
+          "correct_answer": "Big",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'a veces'?",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sometimes"
+              "id": "o3",
+              "text": "Blue"
             },
             {
               "id": "o2",
-              "text": "Never"
+              "text": "New"
             },
             {
-              "id": "o3",
-              "text": "Always"
+              "id": "o1",
+              "text": "Old"
             }
           ],
           "correct_answer": "o1",
@@ -1356,125 +1191,106 @@
         },
         {
           "interaction_id": "U7_I67",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'nunca'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Never"
+              "id": "p0",
+              "left": "Small",
+              "right": "Pequeño"
             },
             {
-              "id": "o2",
-              "text": "Often"
+              "id": "p1",
+              "left": "White",
+              "right": "Blanco"
             },
             {
-              "id": "o3",
-              "text": "Always"
+              "id": "p2",
+              "left": "Blue",
+              "right": "Azul"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I68",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde va el adverbio? 'I ___ (always) eat breakfast.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Antes del verbo"
-            },
-            {
-              "id": "o2",
-              "text": "Después del verbo"
-            },
-            {
-              "id": "o3",
-              "text": "Al final de la frase"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I69",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde va el adverbio con el verbo TO BE? 'She is ___ (never) late.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Después del verbo"
-            },
-            {
-              "id": "o2",
-              "text": "Antes del verbo"
-            },
-            {
-              "id": "o3",
-              "text": "Al principio"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'a menudo'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Often"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o2",
-              "text": "Seldom"
+              "id": "w1",
+              "text": "white"
             },
             {
-              "id": "o3",
-              "text": "Hardly ever"
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I71",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'casi nunca'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hardly ever / Seldom"
-            },
-            {
-              "id": "o2",
-              "text": "Often"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viejo",
+          "correct_answer": "Old",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'normalmente'?",
+          "prompt_es": "¿Cómo se dice 'Blanco' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually / Normally"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
+              "text": "White"
             },
             {
               "id": "o3",
-              "text": "Never"
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "New"
             }
           ],
           "correct_answer": "o1",
@@ -1482,480 +1298,315 @@
         },
         {
           "interaction_id": "U7_I73",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase con el adverbio:",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "w1",
-              "text": "always"
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
             },
             {
-              "id": "w2",
-              "text": "I"
+              "id": "p1",
+              "left": "Blue",
+              "right": "Azul"
             },
             {
-              "id": "w3",
-              "text": "work"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "8:00"
-            },
-            {
-              "id": "w6",
-              "text": "start"
+              "id": "p2",
+              "left": "Big",
+              "right": "Grande"
             }
           ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w6",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I74",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "sometimes"
-            },
-            {
-              "id": "w2",
-              "text": "She"
-            },
-            {
-              "id": "w3",
-              "text": "lunch"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "has"
-            },
-            {
-              "id": "w6",
-              "text": "home"
-            }
-          ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w5",
-            "w3",
-            "w4",
-            "w6"
-          ],
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I75",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Qué haces por la mañana?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What do you do in the morning?"
-            },
-            {
-              "id": "o2",
-              "text": "What you do in the morning?"
-            },
-            {
-              "id": "o3",
-              "text": "What does you do?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Games & Review",
-      "content": [
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
         {
           "interaction_id": "U7_I76",
-          "type": "word-search",
-          "prompt_es": "Encuentra verbos de rutina:",
-          "words": [
-            "WAKE",
-            "WASH",
-            "EAT",
-            "WORK",
-            "SLEEP",
-            "READ",
-            "CLEAN",
-            "PLAY"
-          ],
-          "gridSize": 10,
-          "clues": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
             {
-              "word": "WAKE",
-              "clue": "Despertar"
+              "id": "w3",
+              "text": "is"
             },
             {
-              "word": "WASH",
-              "clue": "Lavar"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "word": "EAT",
-              "clue": "Comer"
+              "id": "w4",
+              "text": "beautiful"
             },
             {
-              "word": "WORK",
-              "clue": "Trabajar"
+              "id": "w2",
+              "text": "house"
             },
             {
-              "word": "SLEEP",
-              "clue": "Dormir"
-            },
-            {
-              "word": "READ",
-              "clue": "Leer"
-            },
-            {
-              "word": "CLEAN",
-              "clue": "Limpiar"
-            },
-            {
-              "word": "PLAY",
-              "clue": "Jugar"
+              "id": "w1",
+              "text": "white"
             }
           ],
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I77",
-          "type": "crossword",
-          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
-          "items": [
-            {
-              "word": "SOMETIMES",
-              "clue": "Traducción de: 50%",
-              "direction": "across",
-              "row": 10,
-              "col": 5
-            },
-            {
-              "word": "MIDNIGHT",
-              "clue": "Traducción de: medianoche",
-              "direction": "down",
-              "row": 9,
-              "col": 10
-            },
-            {
-              "word": "ALWAYS",
-              "clue": "Traducción de: 100%",
-              "direction": "down",
-              "row": 5,
-              "col": 13
-            },
-            {
-              "word": "SLEEP",
-              "clue": "Traducción de: dormir",
-              "direction": "across",
-              "row": 6,
-              "col": 12
-            },
-            {
-              "word": "OFTEN",
-              "clue": "Traducción de: a menudo",
-              "direction": "across",
-              "row": 12,
-              "col": 6
-            },
-            {
-              "word": "NEVER",
-              "clue": "Traducción de: 0%",
-              "direction": "down",
-              "row": 3,
-              "col": 15
-            },
-            {
-              "word": "EARLY",
-              "clue": "Traducción de: temprano",
-              "direction": "across",
-              "row": 4,
-              "col": 15
-            },
-            {
-              "word": "SHAVE",
-              "clue": "Traducción de: afeitarse",
-              "direction": "across",
-              "row": 15,
-              "col": 9
-            },
-            {
-              "word": "LATE",
-              "clue": "Traducción de: tarde",
-              "direction": "down",
-              "row": 7,
-              "col": 8
-            },
-            {
-              "word": "COOK",
-              "clue": "Traducción de: cocinar",
-              "direction": "down",
-              "row": 5,
-              "col": 1
-            }
-          ],
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I78",
-          "type": "matching",
-          "prompt_es": "Une los adverbios con sus porcentajes aproximados:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Always",
-              "right": "100%"
-            },
-            {
-              "id": "p2",
-              "left": "Sometimes",
-              "right": "50%"
-            },
-            {
-              "id": "p3",
-              "left": "Never",
-              "right": "0%"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I79",
-          "type": "true_false",
-          "prompt_es": "¿En la tercera persona (he, she, it) añadimos una 's' al verbo?",
-          "correct_answer": true,
-          "feedback_correct_es": "¡Exacto! He works, She studies, It rains.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I80",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el negativo de 'She studies'?",
+          "prompt_es": "¿Cómo se dice 'Nuevo' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "She doesn't study"
+              "id": "o2",
+              "text": "Yellow"
             },
             {
-              "id": "o2",
-              "text": "She studies not"
+              "id": "o1",
+              "text": "New"
             },
             {
               "id": "o3",
-              "text": "She doesn't studies"
+              "text": "Blue"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p2",
+              "left": "Green",
+              "right": "Verde"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I81",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'todos los días'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Every day"
-            },
-            {
-              "id": "o2",
-              "text": "All days"
-            },
-            {
-              "id": "o3",
-              "text": "Each day"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have a new computer.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I82",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'una vez a la semana'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Once a week"
+              "id": "w4",
+              "text": "computer"
             },
             {
-              "id": "o2",
-              "text": "One time a week"
+              "id": "w0",
+              "text": "I"
             },
             {
-              "id": "o3",
-              "text": "One week one"
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I83",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dos veces al mes'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Twice a month"
-            },
-            {
-              "id": "o2",
-              "text": "Two times a month"
-            },
-            {
-              "id": "o3",
-              "text": "Both are common"
-            }
-          ],
-          "correct_answer": "o3",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I84",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I go to the gym ___ (tres veces) a week.'",
-          "stimulus_en": "___",
-          "correct_answer": "three times",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o2",
+              "text": "Blue"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I85",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Does she ___ (trabajar) here?'",
-          "stimulus_en": "___",
-          "correct_answer": "work",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I86",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'peinarse'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Comb your hair"
-            },
-            {
-              "id": "o2",
-              "text": "Brush your hair"
-            },
-            {
-              "id": "o3",
-              "text": "A and B are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I87",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'afeitarse'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shave"
-            },
-            {
-              "id": "o2",
-              "text": "Cut"
-            },
-            {
-              "id": "o3",
-              "text": "Wash"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I88",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'maquillarse'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Put on make-up"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o2",
-              "text": "Paint face"
+              "id": "w3",
+              "text": "green"
             },
             {
-              "id": "o3",
-              "text": "Do make-up"
+              "id": "w1",
+              "text": "grass"
             },
             {
-              "id": "o4",
-              "text": "A and C are correct"
+              "id": "w2",
+              "text": "is"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I89",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sacar al perro'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Take the dog out / Walk the dog"
-            },
-            {
-              "id": "o2",
-              "text": "Go with dog"
-            },
-            {
-              "id": "o3",
-              "text": "Dog go"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viejo",
+          "correct_answer": "Old",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hacer la cama'?",
+          "prompt_es": "¿Cómo se dice 'Verde' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Black"
+            },
+            {
               "id": "o1",
-              "text": "Make the bed"
+              "text": "Green"
             },
             {
               "id": "o2",
-              "text": "Do the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Fix the bed"
+              "text": "Red"
             }
           ],
           "correct_answer": "o1",
@@ -1963,174 +1614,3768 @@
         },
         {
           "interaction_id": "U7_I91",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cocinar'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Cook"
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
             },
             {
-              "id": "o2",
-              "text": "Make food"
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
             },
             {
-              "id": "o3",
-              "text": "Kitchening"
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I92",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'lavar los platos'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wash the dishes / Do the washing-up"
-            },
-            {
-              "id": "o2",
-              "text": "Clean plates"
-            },
-            {
-              "id": "o3",
-              "text": "Both A and B are used"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I93",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ir de compras' (comida/supermercado)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Go grocery shopping / Do the shopping"
-            },
-            {
-              "id": "o2",
-              "text": "Go buy"
-            },
-            {
-              "id": "o3",
-              "text": "Shopping go"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U7_I94",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tiempo libre'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Free time / Leisure time"
+              "id": "w0",
+              "text": "That"
             },
             {
-              "id": "o2",
-              "text": "Empty time"
+              "id": "w3",
+              "text": "very"
             },
             {
-              "id": "o3",
-              "text": "Relax time"
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I95",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I go to bed at ___ (medianoche).'",
-          "stimulus_en": "___",
-          "correct_answer": "midnight",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I96",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The bank opens ___ (a las) 9:00.'",
-          "stimulus_en": "___",
-          "correct_answer": "at",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I97",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She ___ (no tiene) a car.'",
-          "stimulus_en": "___",
-          "correct_answer": "doesn't have",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U7_I98",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'How often...?'?",
+          "prompt_es": "¿Cómo se dice 'Grande' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "¿Con qué frecuencia...?"
+              "id": "o3",
+              "text": "Black"
             },
             {
               "id": "o2",
-              "text": "¿Cómo de a menudo...?"
+              "text": "New"
             },
-            {
-              "id": "o3",
-              "text": "Ambas son correctas"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I99",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes a 'How often do you study?'?",
-          "options": [
             {
               "id": "o1",
-              "text": "I study every day."
-            },
-            {
-              "id": "o2",
-              "text": "I study twice a week."
-            },
-            {
-              "id": "o3",
-              "text": "Any of these is fine."
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U7_I100",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do you always wake up early?"
-            },
-            {
-              "id": "o2",
-              "text": "Are you always wake up early?"
-            },
-            {
-              "id": "o3",
-              "text": "Does you always wake up early?"
+              "text": "Big"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"My favorite color is yellow.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "grass"
+            },
+            {
+              "id": "w3",
+              "text": "green"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amarillo",
+          "correct_answer": "Yellow",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Rojo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Red"
+            },
+            {
+              "id": "o2",
+              "text": "Green"
+            },
+            {
+              "id": "o3",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Old",
+              "right": "Viejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"That is a very small dog.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Negro",
+          "correct_answer": "Black",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I108",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Old"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
+            },
+            {
+              "id": "o1",
+              "text": "Yellow"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p1",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p2",
+              "left": "Green",
+              "right": "Verde"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is an (viejo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            },
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Blanco",
+          "correct_answer": "White",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Negro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "Red"
+            },
+            {
+              "id": "o1",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p2",
+              "left": "Blue",
+              "right": "Azul"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"My favorite color is yellow.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Black"
+            },
+            {
+              "id": "o2",
+              "text": "Blue"
+            },
+            {
+              "id": "o1",
+              "text": "Small"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p1",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p2",
+              "left": "White",
+              "right": "Blanco"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is an (viejo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nuevo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o1",
+              "text": "New"
+            },
+            {
+              "id": "o3",
+              "text": "Big"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
+              "left": "Yellow",
+              "right": "Amarillo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is an (viejo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"That is a very small dog.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viejo",
+          "correct_answer": "Old",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Grande' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "New"
+            },
+            {
+              "id": "o1",
+              "text": "Big"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p1",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p2",
+              "left": "Old",
+              "right": "Viejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is an (viejo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "dog"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "small"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Blanco",
+          "correct_answer": "White",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Yellow"
+            },
+            {
+              "id": "o1",
+              "text": "Old"
+            },
+            {
+              "id": "o3",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The white house is beautiful.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "green"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "grass"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Negro",
+          "correct_answer": "Black",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Grande' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o1",
+              "text": "Big"
+            },
+            {
+              "id": "o3",
+              "text": "Green"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p2",
+              "left": "White",
+              "right": "Blanco"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is That a very small dog.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Azul",
+          "correct_answer": "Blue",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Azul' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Blue"
+            },
+            {
+              "id": "o3",
+              "text": "Big"
+            },
+            {
+              "id": "o2",
+              "text": "Yellow"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I151",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p2",
+              "left": "Green",
+              "right": "Verde"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"white The house is beautiful.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amarillo",
+          "correct_answer": "Yellow",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "New"
+            },
+            {
+              "id": "o1",
+              "text": "Old"
+            },
+            {
+              "id": "o2",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p1",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p2",
+              "left": "Small",
+              "right": "Pequeño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"white The house is beautiful.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o3",
+              "text": "Blue"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Blanco",
+          "correct_answer": "White",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Blanco' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "New"
+            },
+            {
+              "id": "o2",
+              "text": "Black"
+            },
+            {
+              "id": "o1",
+              "text": "White"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "computer"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Grande",
+          "correct_answer": "Big",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o3",
+              "text": "New"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p2",
+              "left": "Small",
+              "right": "Pequeño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"That is a very small dog.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Negro",
+          "correct_answer": "Black",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Blue"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
+            },
+            {
+              "id": "o1",
+              "text": "Old"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Black",
+              "right": "Negro"
+            },
+            {
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
+              "left": "New",
+              "right": "Nuevo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"favorite My color is yellow.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viejo",
+          "correct_answer": "Old",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Azul' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Blue"
+            },
+            {
+              "id": "o3",
+              "text": "New"
+            },
+            {
+              "id": "o2",
+              "text": "White"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I a new computer.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "green"
+            },
+            {
+              "id": "w1",
+              "text": "grass"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Grande",
+          "correct_answer": "Big",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Azul' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Blue"
+            },
+            {
+              "id": "o2",
+              "text": "Green"
+            },
+            {
+              "id": "o3",
+              "text": "New"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p2",
+              "left": "Big",
+              "right": "Grande"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The white house is beautiful.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "grass"
+            },
+            {
+              "id": "w3",
+              "text": "green"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Negro",
+          "correct_answer": "Black",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Rojo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Red"
+            },
+            {
+              "id": "o2",
+              "text": "Black"
+            },
+            {
+              "id": "o3",
+              "text": "White"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Green",
+              "right": "Verde"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I201",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"white The house is beautiful.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I202",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I203",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viejo",
+          "correct_answer": "Old",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Black"
+            },
+            {
+              "id": "o1",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "Black",
+              "right": "Negro"
+            },
+            {
+              "id": "p2",
+              "left": "Old",
+              "right": "Viejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Azul",
+          "correct_answer": "Blue",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Black"
+            },
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p2",
+              "left": "New",
+              "right": "Nuevo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Negro",
+          "correct_answer": "Black",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Azul' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Big"
+            },
+            {
+              "id": "o2",
+              "text": "Green"
+            },
+            {
+              "id": "o1",
+              "text": "Blue"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p1",
+              "left": "Black",
+              "right": "Negro"
+            },
+            {
+              "id": "p2",
+              "left": "Old",
+              "right": "Viejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Negro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Red"
+            },
+            {
+              "id": "o2",
+              "text": "Old"
+            },
+            {
+              "id": "o1",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Small",
+              "right": "Pequeño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            },
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Azul",
+          "correct_answer": "Blue",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nuevo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "New"
+            },
+            {
+              "id": "o3",
+              "text": "Blue"
+            },
+            {
+              "id": "o2",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
+              "left": "White",
+              "right": "Blanco"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is That a very small dog.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Pequeño",
+          "correct_answer": "Small",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Blanco' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Black"
+            },
+            {
+              "id": "o2",
+              "text": "Green"
+            },
+            {
+              "id": "o1",
+              "text": "White"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"white The house is beautiful.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nuevo",
+          "correct_answer": "New",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Negro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Red"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            },
+            {
+              "id": "o1",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p1",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "These (ser) ________ small pens.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"That is a very small dog.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Old"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            },
+            {
+              "id": "o3",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p1",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p2",
+              "left": "Yellow",
+              "right": "Amarillo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The white house is beautiful.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Viejo",
+          "correct_answer": "Old",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pequeño' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
+              "id": "o1",
+              "text": "Small"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p2",
+              "left": "White",
+              "right": "Blanco"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is an (viejo) ________ book.",
+          "correct_answer": "old",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"white The house is beautiful.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I258",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "Small"
+            },
+            {
+              "id": "o3",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is That a very small dog.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Verde",
+          "correct_answer": "Green",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Blue"
+            },
+            {
+              "id": "o2",
+              "text": "Red"
+            },
+            {
+              "id": "o1",
+              "text": "Yellow"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Black",
+              "right": "Negro"
+            },
+            {
+              "id": "p1",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"grass The is green.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            },
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Rojo",
+          "correct_answer": "Red",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Verde' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Green"
+            },
+            {
+              "id": "o2",
+              "text": "White"
+            },
+            {
+              "id": "o3",
+              "text": "Black"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
+              "left": "Yellow",
+              "right": "Amarillo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The sky (ser) ________ blue.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"My favorite color is yellow.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "beautiful"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w1",
+              "text": "white"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Negro",
+          "correct_answer": "Black",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Rojo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "New"
+            },
+            {
+              "id": "o2",
+              "text": "Big"
+            },
+            {
+              "id": "o1",
+              "text": "Red"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p1",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p2",
+              "left": "Red",
+              "right": "Rojo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The white house is beautiful.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            },
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nuevo",
+          "correct_answer": "New",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Verde' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Small"
+            },
+            {
+              "id": "o1",
+              "text": "Green"
+            },
+            {
+              "id": "o2",
+              "text": "Blue"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
+              "left": "Black",
+              "right": "Negro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The car is (rojo) ________.",
+          "correct_answer": "red",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "color"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w4",
+              "text": "yellow"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Blanco",
+          "correct_answer": "White",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Viejo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Old"
+            },
+            {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "White"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Yellow",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "New",
+              "right": "Nuevo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have a new computer.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "computer"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amarillo",
+          "correct_answer": "Yellow",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Verde' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Yellow"
+            },
+            {
+              "id": "o2",
+              "text": "Red"
+            },
+            {
+              "id": "o1",
+              "text": "Green"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Black",
+              "right": "Negro"
+            },
+            {
+              "id": "p1",
+              "left": "Old",
+              "right": "Viejo"
+            },
+            {
+              "id": "p2",
+              "left": "New",
+              "right": "Nuevo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have a (grande) ________ house.",
+          "correct_answer": "big",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The grass is green.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U7_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "small"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "That"
+            },
+            {
+              "id": "w5",
+              "text": "dog"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U7_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nuevo",
+          "correct_answer": "New",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U7_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amarillo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "White"
+            },
+            {
+              "id": "o2",
+              "text": "Black"
+            },
+            {
+              "id": "o1",
+              "text": "Yellow"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

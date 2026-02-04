@@ -5,32 +5,32 @@ export const ALL_C2_UNITS = _ALL_C2_UNITS;
 export const C2_MODULES = [
   {
     id: 'c2-m1',
-    title: 'Module 1: Human Condition',
+    title: 'Module 1: Reading & Use of English (Parts 1-4)',
     units: ALL_C2_UNITS.slice(0, 10)
   },
   {
     id: 'c2-m2',
-    title: 'Module 2: Planet & Science',
+    title: 'Module 2: Reading & Use of English (Parts 5-8)',
     units: ALL_C2_UNITS.slice(10, 20)
   },
   {
     id: 'c2-m3',
-    title: 'Module 3: Culture & Arts',
+    title: 'Module 3: Writing Mastery (Part 1 & 2)',
     units: ALL_C2_UNITS.slice(20, 30)
   },
   {
     id: 'c2-m4',
-    title: 'Module 4: Professional Excellence',
+    title: 'Module 4: Listening Comprehension (Parts 1-4)',
     units: ALL_C2_UNITS.slice(30, 40)
   },
   {
     id: 'c2-m5',
-    title: 'Module 5: Abstract Concepts',
+    title: 'Module 5: Speaking & Oral Strategy',
     units: ALL_C2_UNITS.slice(40, 50)
   },
   {
     id: 'c2-m6',
-    title: 'Module 6: Exam Mastery',
+    title: 'Module 6: Full Exam Simulations',
     units: ALL_C2_UNITS.slice(50, 60)
   }
 ];

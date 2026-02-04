@@ -4,135 +4,116 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U2",
-    "unit_title": "Personal Information & Numbers",
-    "total_duration_minutes": 60
+    "unit_title": "Nice to meet you!",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Numbers 0-100",
+      "block_id": "B2",
+      "title": "Nice to meet you!",
       "content": [
         {
           "interaction_id": "U2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se escribe el número 0?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Zero"
+              "id": "p0",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
             },
             {
-              "id": "o2",
-              "text": "One"
+              "id": "p1",
+              "left": "Friend",
+              "right": "Amigo/a"
             },
             {
-              "id": "o3",
-              "text": "Ten"
+              "id": "p2",
+              "left": "He",
+              "right": "Él"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el número 5?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Five"
-            },
-            {
-              "id": "o2",
-              "text": "Four"
-            },
-            {
-              "id": "o3",
-              "text": "Six"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 8?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Eight"
-            },
-            {
-              "id": "o2",
-              "text": "Seven"
-            },
-            {
-              "id": "o3",
-              "text": "Nine"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"she Is your classmate?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué número es 'Twelve'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "12"
+              "id": "w0",
+              "text": "He"
             },
             {
-              "id": "o2",
-              "text": "2"
+              "id": "w1",
+              "text": "is"
             },
             {
-              "id": "o3",
-              "text": "20"
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w3",
+              "text": "best"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 11?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Eleven"
-            },
-            {
-              "id": "o2",
-              "text": "Twelve"
-            },
-            {
-              "id": "o3",
-              "text": "Ten"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niño",
+          "correct_answer": "Boy",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué número es 'Fifteen'?",
+          "prompt_es": "¿Cómo se dice 'Mujer' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "15"
+              "id": "o2",
+              "text": "Classmate"
             },
             {
-              "id": "o2",
-              "text": "50"
+              "id": "o1",
+              "text": "Woman"
             },
             {
               "id": "o3",
-              "text": "5"
+              "text": "He"
             }
           ],
           "correct_answer": "o1",
@@ -140,125 +121,111 @@
         },
         {
           "interaction_id": "U2_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 13?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Thirteen"
+              "id": "p0",
+              "left": "Man",
+              "right": "Hombre"
             },
             {
-              "id": "o2",
-              "text": "Thirty"
+              "id": "p1",
+              "left": "He",
+              "right": "Él"
             },
             {
-              "id": "o3",
-              "text": "Third"
+              "id": "p2",
+              "left": "Woman",
+              "right": "Mujer"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué número es 'Twenty'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "20"
-            },
-            {
-              "id": "o2",
-              "text": "12"
-            },
-            {
-              "id": "o3",
-              "text": "2"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 30?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Thirty"
-            },
-            {
-              "id": "o2",
-              "text": "Thirteen"
-            },
-            {
-              "id": "o3",
-              "text": "Three"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"she Is your classmate?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 40?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Forty"
+              "id": "w2",
+              "text": "a"
             },
             {
-              "id": "o2",
-              "text": "Fourteen"
+              "id": "w3",
+              "text": "very"
             },
             {
-              "id": "o3",
-              "text": "Fourty"
+              "id": "w5",
+              "text": "girl"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 50?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fifty"
-            },
-            {
-              "id": "o2",
-              "text": "Fifteen"
-            },
-            {
-              "id": "o3",
-              "text": "Five"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niña",
+          "correct_answer": "Girl",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 100?",
+          "prompt_es": "¿Cómo se dice 'Mujer' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "One hundred"
-            },
-            {
-              "id": "o2",
-              "text": "One thousand"
+              "text": "Woman"
             },
             {
               "id": "o3",
-              "text": "Ten ten"
+              "text": "She"
+            },
+            {
+              "id": "o2",
+              "text": "Girl"
             }
           ],
           "correct_answer": "o1",
@@ -266,161 +233,203 @@
         },
         {
           "interaction_id": "U2_I13",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 21 en letras:",
-          "stimulus_en": "___-one",
-          "correct_answer": "Twenty",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p1",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p2",
+              "left": "Woman",
+              "right": "Mujer"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I14",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 35 en letras:",
-          "stimulus_en": "Thirty-___",
-          "correct_answer": "five",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 44 en letras:",
-          "stimulus_en": "___-four",
-          "correct_answer": "Forty",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She a very good girl.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 58 en letras:",
-          "stimulus_en": "Fifty-___",
-          "correct_answer": "eight",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I17",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 60:",
-          "stimulus_en": "___",
-          "correct_answer": "Sixty",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Él",
+          "correct_answer": "He",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 70:",
-          "stimulus_en": "___",
-          "correct_answer": "Seventy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I19",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 80:",
-          "stimulus_en": "___",
-          "correct_answer": "Eighty",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el número 90:",
-          "stimulus_en": "___",
-          "correct_answer": "Ninety",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I21",
-          "type": "matching",
-          "prompt_es": "Une los números con su nombre:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "14",
-              "right": "Fourteen"
-            },
-            {
-              "id": "p2",
-              "left": "40",
-              "right": "Forty"
-            },
-            {
-              "id": "p3",
-              "left": "4",
-              "right": "Four"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I22",
-          "type": "matching",
-          "prompt_es": "Une los números:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "19",
-              "right": "Nineteen"
-            },
-            {
-              "id": "p2",
-              "left": "90",
-              "right": "Ninety"
-            },
-            {
-              "id": "p3",
-              "left": "9",
-              "right": "Nine"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto es 2 + 2?",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Four"
-            },
-            {
-              "id": "o2",
-              "text": "Five"
+              "text": "Girl"
             },
             {
               "id": "o3",
-              "text": "Three"
+              "text": "Man"
+            },
+            {
+              "id": "o2",
+              "text": "Woman"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
+          "interaction_id": "U2_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p1",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p2",
+              "left": "Girl",
+              "right": "Niña"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ella",
+          "correct_answer": "She",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U2_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto es 10 + 10?",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Twenty"
-            },
-            {
-              "id": "o2",
-              "text": "Twelve"
+              "text": "Welcome"
             },
             {
               "id": "o3",
-              "text": "Two"
+              "text": "She"
+            },
+            {
+              "id": "o2",
+              "text": "Nice to meet you"
             }
           ],
           "correct_answer": "o1",
@@ -428,881 +437,835 @@
         },
         {
           "interaction_id": "U2_I25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto es 50 - 10?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Forty"
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
             },
             {
-              "id": "o2",
-              "text": "Fourteen"
+              "id": "p1",
+              "left": "Friend",
+              "right": "Amigo/a"
             },
             {
-              "id": "o3",
-              "text": "Sixty"
+              "id": "p2",
+              "left": "Man",
+              "right": "Hombre"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto es 15 + 15?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Thirty"
-            },
-            {
-              "id": "o2",
-              "text": "Thirteen"
-            },
-            {
-              "id": "o3",
-              "text": "Twenty"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I27",
-          "type": "flashcard",
-          "prompt_es": "Repaso de números clave",
-          "flashcards": [
-            {
-              "front": "12",
-              "back": "Twelve",
-              "pronunciation": "/twɛlv/"
-            },
-            {
-              "front": "20",
-              "back": "Twenty",
-              "pronunciation": "/ˈtwɛnti/"
-            },
-            {
-              "front": "30",
-              "back": "Thirty",
-              "pronunciation": "/ˈθɜːrti/"
-            },
-            {
-              "front": "50",
-              "back": "Fifty",
-              "pronunciation": "/ˈfɪfti/"
-            },
-            {
-              "front": "100",
-              "back": "One hundred",
-              "pronunciation": "/wʌn ˈhʌndrəd/"
-            }
-          ],
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are They from London.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'doble cero'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Double zero"
+              "id": "w2",
+              "text": "from"
             },
             {
-              "id": "o2",
-              "text": "Two zero"
+              "id": "w3",
+              "text": "London"
             },
             {
-              "id": "o3",
-              "text": "Zero zero"
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w1",
+              "text": "are"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I29",
-          "type": "multiple_choice",
-          "prompt_es": "En números de teléfono, el 0 se suele decir como:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Oh"
-            },
-            {
-              "id": "o2",
-              "text": "Nothing"
-            },
-            {
-              "id": "o3",
-              "text": "Blank"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hombre",
+          "correct_answer": "Man",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice el número 45?",
+          "prompt_es": "¿Cómo se dice 'Mucho gusto' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Forty-five"
-            },
-            {
-              "id": "o2",
-              "text": "Fourty-five"
+              "text": "Nice to meet you"
             },
             {
               "id": "o3",
-              "text": "Fourteen-five"
+              "text": "Girl"
+            },
+            {
+              "id": "o2",
+              "text": "He"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Grammar: Possessive Adjectives",
-      "content": [
+        },
         {
           "interaction_id": "U2_I31",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
-          "stimulus_en": "I am John. ___ name is John.",
-          "correct_answer": "My",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p1",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p2",
+              "left": "Girl",
+              "right": "Niña"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
-          "stimulus_en": "You are Anna. ___ name is Anna.",
-          "correct_answer": "Your",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I33",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
-          "stimulus_en": "He is Peter. ___ name is Peter.",
-          "correct_answer": "His",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'my', 'your', 'his' o 'her':",
-          "stimulus_en": "She is Mary. ___ name is Mary.",
-          "correct_answer": "Her",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I35",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'its', 'our' o 'their':",
-          "stimulus_en": "We are students. ___ teacher is Mr. Smith.",
-          "correct_answer": "Our",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hombre",
+          "correct_answer": "Man",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'its', 'our' o 'their':",
-          "stimulus_en": "They are doctors. ___ hospital is big.",
-          "correct_answer": "Their",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I37",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'its', 'our' o 'their':",
-          "stimulus_en": "The dog is small. ___ name is Bucky.",
-          "correct_answer": "Its",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I38",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'He'?",
+          "prompt_es": "¿Cómo se dice 'Compañero/a de clase' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "His"
+              "text": "Classmate"
             },
             {
               "id": "o2",
-              "text": "He's"
+              "text": "Nice to meet you"
             },
             {
               "id": "o3",
-              "text": "Him"
+              "text": "Welcome"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p2",
+              "left": "Woman",
+              "right": "Mujer"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'She'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Her"
-            },
-            {
-              "id": "o2",
-              "text": "Hers"
-            },
-            {
-              "id": "o3",
-              "text": "She's"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She a very good girl.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'I'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "My"
+              "id": "w0",
+              "text": "He"
             },
             {
-              "id": "o2",
-              "text": "Me"
+              "id": "w3",
+              "text": "best"
             },
             {
-              "id": "o3",
-              "text": "Mine"
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'They'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Their"
-            },
-            {
-              "id": "o2",
-              "text": "There"
-            },
-            {
-              "id": "o3",
-              "text": "They're"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amigo/a",
+          "correct_answer": "Friend",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo posesivo corresponde a 'We'?",
+          "prompt_es": "¿Cómo se dice 'Hombre' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Friend"
+            },
+            {
               "id": "o1",
-              "text": "Our"
+              "text": "Man"
             },
             {
               "id": "o2",
-              "text": "Us"
-            },
-            {
-              "id": "o3",
-              "text": "Ours"
+              "text": "Welcome"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I43",
-          "type": "true_false",
-          "prompt_es": "¿'Its' se escribe con apóstrofe para el posesivo?",
-          "correct_answer": false,
-          "feedback_incorrect_es": "Incorrecto. 'Its' sin apóstrofe es el posesivo. 'It's' con apóstrofe es 'It is'.",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Friend",
+              "right": "Amigo/a"
+            },
+            {
+              "id": "p1",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p2",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la diferencia entre 'His' y 'Her'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "His es para él, Her es para ella"
-            },
-            {
-              "id": "o2",
-              "text": "His es para ella, Her es para él"
-            },
-            {
-              "id": "o3",
-              "text": "Ambos son iguales"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I45",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase:",
-          "stimulus_en": "That is my sister. ___ name is Alice.",
-          "correct_answer": "Her",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is a very good girl.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I46",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase:",
-          "stimulus_en": "This is my brother. ___ car is red.",
-          "correct_answer": "His",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I47",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "address"
-            },
-            {
-              "id": "w4",
-              "text": "London"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w3",
-            "w1",
-            "w4"
-          ],
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Bienvenido",
+          "correct_answer": "Welcome",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I48",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él' en inglés?",
           "options": [
             {
-              "id": "w1",
-              "text": "is"
+              "id": "o3",
+              "text": "Woman"
             },
             {
-              "id": "w2",
-              "text": "number"
+              "id": "o1",
+              "text": "He"
             },
             {
-              "id": "w3",
-              "text": "His"
-            },
-            {
-              "id": "w4",
-              "text": "555-0199"
+              "id": "o2",
+              "text": "Friend"
             }
           ],
-          "correct_answer": [
-            "w3",
-            "w2",
-            "w1",
-            "w4"
-          ],
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Cuál es su (de ella) número de teléfono?'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "What is her phone number?"
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
             },
             {
-              "id": "o2",
-              "text": "What is his phone number?"
+              "id": "p1",
+              "left": "Woman",
+              "right": "Mujer"
             },
             {
-              "id": "o3",
-              "text": "What is she phone number?"
+              "id": "p2",
+              "left": "Boy",
+              "right": "Niño"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I50",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Cuál es su (de ellos) dirección?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What is their address?"
-            },
-            {
-              "id": "o2",
-              "text": "What is our address?"
-            },
-            {
-              "id": "o3",
-              "text": "What is there address?"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I51",
-          "type": "matching",
-          "prompt_es": "Une los pronombres personales con sus posesivos:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "I",
-              "right": "My"
-            },
-            {
-              "id": "p2",
-              "left": "You",
-              "right": "Your"
-            },
-            {
-              "id": "p3",
-              "left": "He",
-              "right": "His"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I52",
-          "type": "matching",
-          "prompt_es": "Une los pronombres personales con sus posesivos:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
             {
-              "id": "p1",
-              "left": "She",
-              "right": "Her"
+              "id": "w2",
+              "text": "a"
             },
             {
-              "id": "p2",
-              "left": "We",
-              "right": "Our"
+              "id": "w4",
+              "text": "good"
             },
             {
-              "id": "p3",
-              "left": "They",
-              "right": "Their"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "girl"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "She"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I53",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Nuestra casa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Our house"
-            },
-            {
-              "id": "o2",
-              "text": "Us house"
-            },
-            {
-              "id": "o3",
-              "text": "We house"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niño",
+          "correct_answer": "Boy",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Su (de él) coche'?",
+          "prompt_es": "¿Cómo se dice 'Él' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "His car"
-            },
-            {
               "id": "o2",
-              "text": "He car"
+              "text": "Woman"
             },
             {
               "id": "o3",
-              "text": "Him car"
+              "text": "Classmate"
+            },
+            {
+              "id": "o1",
+              "text": "He"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I55",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Su (de ellos) perro'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Their dog"
+              "id": "p0",
+              "left": "Boy",
+              "right": "Niño"
             },
             {
-              "id": "o2",
-              "text": "They dog"
+              "id": "p1",
+              "left": "He",
+              "right": "Él"
             },
             {
-              "id": "o3",
-              "text": "Them dog"
+              "id": "p2",
+              "left": "She",
+              "right": "Ella"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I56",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tu libro'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Your book"
-            },
-            {
-              "id": "o2",
-              "text": "You book"
-            },
-            {
-              "id": "o3",
-              "text": "Yours book"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I57",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The cat is drinking ___ milk.'",
-          "stimulus_en": "___",
-          "correct_answer": "its",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are They from London.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I58",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'We are in ___ English class.'",
-          "stimulus_en": "___",
-          "correct_answer": "our",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I59",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'They are in ___ office.'",
-          "stimulus_en": "___",
-          "correct_answer": "their",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hombre",
+          "correct_answer": "Man",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I60",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I have ___ passport.'",
-          "stimulus_en": "___",
-          "correct_answer": "my",
-          "mastery_tag": "grammar"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Jobs & Personal Details",
-      "content": [
-        {
-          "interaction_id": "U2_I61",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'médico'?",
+          "prompt_es": "¿Cómo se dice 'Compañero/a de clase' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Doctor"
+              "id": "o3",
+              "text": "Friend"
             },
             {
               "id": "o2",
-              "text": "Nurse"
+              "text": "Man"
             },
             {
-              "id": "o3",
-              "text": "Dentist"
+              "id": "o1",
+              "text": "Classmate"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p1",
+              "left": "He",
+              "right": "Él"
+            },
+            {
+              "id": "p2",
+              "left": "Man",
+              "right": "Hombre"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I62",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'enfermero/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nurse"
-            },
-            {
-              "id": "o2",
-              "text": "Doctor"
-            },
-            {
-              "id": "o3",
-              "text": "Patient"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I63",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'camarero'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Waiter"
-            },
-            {
-              "id": "o2",
-              "text": "Chef"
-            },
-            {
-              "id": "o3",
-              "text": "Manager"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is He my best friend.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I64",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'conductor de autobús'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Bus driver"
+              "id": "w3",
+              "text": "school"
             },
             {
-              "id": "o2",
-              "text": "Taxi driver"
+              "id": "w0",
+              "text": "Welcome"
             },
             {
-              "id": "o3",
-              "text": "Truck driver"
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "our"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I65",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ingeniero'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Engineer"
-            },
-            {
-              "id": "o2",
-              "text": "Architect"
-            },
-            {
-              "id": "o3",
-              "text": "Builder"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niña",
+          "correct_answer": "Girl",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿A qué te dedicas?'?",
+          "prompt_es": "¿Cómo se dice 'Amigo/a' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Welcome"
+            },
+            {
               "id": "o1",
-              "text": "What do you do?"
+              "text": "Friend"
             },
             {
               "id": "o2",
-              "text": "What are you doing?"
-            },
-            {
-              "id": "o3",
-              "text": "What is your job?"
+              "text": "Girl"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I67",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes a 'What do you do?'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "I am a teacher."
+              "id": "p0",
+              "left": "She",
+              "right": "Ella"
             },
             {
-              "id": "o2",
-              "text": "I am fine."
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
             },
             {
-              "id": "o3",
-              "text": "I do English."
+              "id": "p2",
+              "left": "Woman",
+              "right": "Mujer"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I68",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Job'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trabajo / Empleo"
-            },
-            {
-              "id": "o2",
-              "text": "Hobby"
-            },
-            {
-              "id": "o3",
-              "text": "Nombre"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I69",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'dirección de correo electrónico'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Email address"
-            },
-            {
-              "id": "o2",
-              "text": "Email name"
-            },
-            {
-              "id": "o3",
-              "text": "Electronic address"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are They from London.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '@' en un email?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "At"
+              "id": "w2",
+              "text": "from"
             },
             {
-              "id": "o2",
-              "text": "In"
+              "id": "w3",
+              "text": "London"
             },
             {
-              "id": "o3",
-              "text": "On"
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w1",
+              "text": "are"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I71",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '.' en un email (p.ej. .com)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dot"
-            },
-            {
-              "id": "o2",
-              "text": "Point"
-            },
-            {
-              "id": "o3",
-              "text": "Stop"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Él",
+          "correct_answer": "He",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'número de teléfono'?",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Phone number"
-            },
-            {
               "id": "o2",
-              "text": "Telephone name"
+              "text": "Friend"
             },
             {
               "id": "o3",
-              "text": "Call number"
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o1",
+              "text": "Welcome"
             }
           ],
           "correct_answer": "o1",
@@ -1310,609 +1273,3954 @@
         },
         {
           "interaction_id": "U2_I73",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dirección'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Address"
-            },
-            {
-              "id": "o2",
-              "text": "Direction"
-            },
-            {
-              "id": "o3",
-              "text": "Way"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I74",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Cuál es tu correo electrónico?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What is your email address?"
-            },
-            {
-              "id": "o2",
-              "text": "How is your email?"
-            },
-            {
-              "id": "o3",
-              "text": "Where is your email?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U2_I75",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'a' o 'an':",
-          "stimulus_en": "I am ___ doctor.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I76",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'a' o 'an':",
-          "stimulus_en": "He is ___ engineer.",
-          "correct_answer": "an",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I77",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'a' o 'an':",
-          "stimulus_en": "She is ___ actress.",
-          "correct_answer": "an",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I78",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'a' o 'an':",
-          "stimulus_en": "I am ___ waiter.",
-          "correct_answer": "a",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I79",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuándo se usa 'an' antes de un trabajo?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cuando la palabra empieza por vocal"
-            },
-            {
-              "id": "o2",
-              "text": "Cuando la palabra empieza por consonante"
-            },
-            {
-              "id": "o3",
-              "text": "Siempre"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U2_I80",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estudiante'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Student"
-            },
-            {
-              "id": "o2",
-              "text": "Study"
-            },
-            {
-              "id": "o3",
-              "text": "Studier"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Games & Review",
-      "content": [
-        {
-          "interaction_id": "U2_I81",
-          "type": "word-search",
-          "prompt_es": "Encuentra las profesiones:",
-          "words": [
-            "DOCTOR",
-            "NURSE",
-            "WAITER",
-            "CHEF",
-            "DRIVER",
-            "TEACHER",
-            "STUDENT",
-            "PILOT"
-          ],
-          "gridSize": 10,
-          "clues": [
-            {
-              "word": "DOCTOR",
-              "clue": "Trabaja en un hospital"
-            },
-            {
-              "word": "NURSE",
-              "clue": "Ayuda al doctor"
-            },
-            {
-              "word": "WAITER",
-              "clue": "Sirve comida"
-            },
-            {
-              "word": "CHEF",
-              "clue": "Cocina profesional"
-            },
-            {
-              "word": "DRIVER",
-              "clue": "Conduce un vehículo"
-            },
-            {
-              "word": "TEACHER",
-              "clue": "Enseña en la escuela"
-            },
-            {
-              "word": "STUDENT",
-              "clue": "Aprende en la escuela"
-            },
-            {
-              "word": "PILOT",
-              "clue": "Vuela aviones"
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I82",
-          "type": "crossword",
-          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
-          "items": [
-            {
-              "word": "RECEPTIONIST",
-              "clue": "Traducción de: recepcionista",
-              "direction": "across",
-              "row": 10,
-              "col": 4
-            },
-            {
-              "word": "STUDENT",
-              "clue": "Traducción de: estudiante",
-              "direction": "down",
-              "row": 4,
-              "col": 15
-            },
-            {
-              "word": "ADDRESS",
-              "clue": "Traducción de: dirección",
-              "direction": "across",
-              "row": 4,
-              "col": 9
-            },
-            {
-              "word": "WAITER",
-              "clue": "Traducción de: camarero",
-              "direction": "down",
-              "row": 7,
-              "col": 9
-            },
-            {
-              "word": "DOCTOR",
-              "clue": "Traducción de: médico",
-              "direction": "down",
-              "row": 9,
-              "col": 11
-            },
-            {
-              "word": "NURSE",
-              "clue": "Traducción de: enfermero/a",
-              "direction": "across",
-              "row": 6,
-              "col": 14
-            },
-            {
-              "word": "THEY",
-              "clue": "Traducción de: Their",
-              "direction": "across",
-              "row": 8,
-              "col": 13
-            },
-            {
-              "word": "YOU",
-              "clue": "Traducción de: Your",
-              "direction": "across",
-              "row": 13,
-              "col": 10
-            },
-            {
-              "word": "SHE",
-              "clue": "Traducción de: Her",
-              "direction": "down",
-              "row": 8,
-              "col": 5
-            },
-            {
-              "word": "DOT",
-              "clue": "Traducción de: .",
-              "direction": "down",
-              "row": 4,
-              "col": 10
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I83",
           "type": "matching",
-          "prompt_es": "Une los números con su escritura:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
             {
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
+            },
+            {
               "id": "p1",
-              "left": "15",
-              "right": "Fifteen"
+              "left": "Boy",
+              "right": "Niño"
             },
             {
               "id": "p2",
-              "left": "50",
-              "right": "Fifty"
-            },
-            {
-              "id": "p3",
-              "left": "5",
-              "right": "Five"
+              "left": "Girl",
+              "right": "Niña"
             }
           ],
           "correct_answer": {
+            "p0": "p0",
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p2": "p2"
           },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U2_I84",
-          "type": "true_false",
-          "prompt_es": "¿'What do you do?' significa '¿Qué estás haciendo ahora?'?",
-          "correct_answer": false,
-          "feedback_incorrect_es": "Incorrecto. Significa '¿A qué te dedicas?' (tu profesión).",
-          "mastery_tag": "communication"
+          "interaction_id": "U2_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Ser - pregunta) ________ you a student?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I85",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'recepcionista'?",
+          "interaction_id": "U2_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"He is my best friend.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Receptionist"
+              "id": "w0",
+              "text": "Is"
             },
             {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "classmate?"
+            },
+            {
+              "id": "w1",
+              "text": "she"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mucho gusto",
+          "correct_answer": "Nice to meet you",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
               "id": "o2",
-              "text": "Secretary"
+              "text": "He"
+            },
+            {
+              "id": "o1",
+              "text": "Girl"
             },
             {
               "id": "o3",
-              "text": "Assistant"
+              "text": "Welcome"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p2",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "classmate?"
+            },
+            {
+              "id": "w0",
+              "text": "Is"
+            },
+            {
+              "id": "w1",
+              "text": "she"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ella",
+          "correct_answer": "She",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Welcome"
+            },
+            {
+              "id": "o3",
+              "text": "Classmate"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p2",
+              "left": "Friend",
+              "right": "Amigo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I86",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'policía'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Police officer"
-            },
-            {
-              "id": "o2",
-              "text": "Policeman"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I87",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'comerciante / vendedor'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shop assistant"
-            },
-            {
-              "id": "o2",
-              "text": "Seller"
-            },
-            {
-              "id": "o3",
-              "text": "Merchant"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I88",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el número: 'Twenty-___' (29)",
-          "stimulus_en": "___",
-          "correct_answer": "nine",
-          "mastery_tag": "vocabulary"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "classmate?"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Is"
+            },
+            {
+              "id": "w1",
+              "text": "she"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I89",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el número: '___-seven' (67)",
-          "stimulus_en": "___",
-          "correct_answer": "Sixty",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Compañero/a de clase",
+          "correct_answer": "Classmate",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se lee 'john@gmail.com'?",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "john at gmail dot com"
+              "text": "She"
             },
             {
               "id": "o2",
-              "text": "john email gmail point com"
+              "text": "He"
             },
             {
               "id": "o3",
-              "text": "john in gmail stop com"
+              "text": "Woman"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I91",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'What's his job?'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "¿Cuál es su (de él) trabajo?"
+              "id": "p0",
+              "left": "Woman",
+              "right": "Mujer"
             },
             {
-              "id": "o2",
-              "text": "¿Cuál es su (de ella) trabajo?"
+              "id": "p1",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
             },
             {
-              "id": "o3",
-              "text": "¿Cuál es mi trabajo?"
+              "id": "p2",
+              "left": "Boy",
+              "right": "Niño"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I92",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Ella es enfermera'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "She is a nurse."
-            },
-            {
-              "id": "o2",
-              "text": "She is an nurse."
-            },
-            {
-              "id": "o3",
-              "text": "She is nurse."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I93",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Él es actor'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He is an actor."
-            },
-            {
-              "id": "o2",
-              "text": "He is a actor."
-            },
-            {
-              "id": "o3",
-              "text": "He is actor."
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I94",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'First name'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Nombre de pila"
+              "id": "w0",
+              "text": "They"
             },
             {
-              "id": "o2",
-              "text": "Primer apellido"
+              "id": "w1",
+              "text": "are"
             },
             {
-              "id": "o3",
-              "text": "Nombre completo"
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w2",
+              "text": "from"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U2_I95",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Last name'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Apellido"
-            },
-            {
-              "id": "o2",
-              "text": "Nombre"
-            },
-            {
-              "id": "o3",
-              "text": "Apodo"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Él",
+          "correct_answer": "He",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I96",
-          "type": "reorder_words",
-          "prompt_es": "Ordena los números de menor a mayor:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
           "options": [
             {
-              "id": "w1",
-              "text": "Ten"
+              "id": "o1",
+              "text": "Girl"
             },
             {
-              "id": "w2",
-              "text": "Fifty"
+              "id": "o3",
+              "text": "Classmate"
             },
             {
-              "id": "w3",
-              "text": "Twenty"
-            },
-            {
-              "id": "w4",
-              "text": "Five"
+              "id": "o2",
+              "text": "Friend"
             }
           ],
-          "correct_answer": [
-            "w4",
-            "w1",
-            "w3",
-            "w2"
-          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I97",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es tu 'marital status' si no estás casado?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Single"
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
             },
             {
-              "id": "o2",
-              "text": "Married"
+              "id": "p1",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
             },
             {
-              "id": "o3",
-              "text": "Divorced"
+              "id": "p2",
+              "left": "Woman",
+              "right": "Mujer"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I98",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Age'?",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mujer",
+          "correct_answer": "Woman",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Friend"
+            },
+            {
               "id": "o1",
-              "text": "Edad"
+              "text": "Girl"
             },
             {
               "id": "o2",
-              "text": "Agencia"
-            },
-            {
-              "id": "o3",
-              "text": "Agenda"
+              "text": "Welcome"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U2_I99",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Tengo 30 años'?",
-          "options": [
+          "interaction_id": "U2_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "I am thirty."
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
             },
             {
-              "id": "o2",
-              "text": "I have thirty."
+              "id": "p1",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
             },
             {
-              "id": "o3",
-              "text": "I are thirty."
+              "id": "p2",
+              "left": "Man",
+              "right": "Hombre"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U2_I100",
+          "interaction_id": "U2_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"she Is your classmate?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Compañero/a de clase",
+          "correct_answer": "Classmate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta de decir un número de teléfono (p.ej. 555)?",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Five five five"
+              "text": "Welcome"
             },
             {
               "id": "o2",
-              "text": "Five hundred and fifty five"
+              "text": "Woman"
             },
             {
               "id": "o3",
-              "text": "Fifty five five"
+              "text": "She"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p1",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p2",
+              "left": "He",
+              "right": "Él"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She a very good girl.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Compañero/a de clase",
+          "correct_answer": "Classmate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mujer' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Friend"
+            },
+            {
+              "id": "o1",
+              "text": "Woman"
+            },
+            {
+              "id": "o2",
+              "text": "She"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p1",
+              "left": "He",
+              "right": "Él"
+            },
+            {
+              "id": "p2",
+              "left": "She",
+              "right": "Ella"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is a very good girl.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mucho gusto",
+          "correct_answer": "Nice to meet you",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niño' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boy"
+            },
+            {
+              "id": "o3",
+              "text": "Girl"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p1",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p2",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"He is my best friend.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mucho gusto",
+          "correct_answer": "Nice to meet you",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mucho gusto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "He"
+            },
+            {
+              "id": "o2",
+              "text": "Man"
+            },
+            {
+              "id": "o1",
+              "text": "Nice to meet you"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p1",
+              "left": "Friend",
+              "right": "Amigo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Man",
+              "right": "Hombre"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She a very good girl.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w3",
+              "text": "school"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niño",
+          "correct_answer": "Boy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o1",
+              "text": "Girl"
+            },
+            {
+              "id": "o3",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p1",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p2",
+              "left": "She",
+              "right": "Ella"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She a very good girl.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Compañero/a de clase",
+          "correct_answer": "Classmate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o3",
+              "text": "Classmate"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p2",
+              "left": "Boy",
+              "right": "Niño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"He is my best friend.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Bienvenido",
+          "correct_answer": "Welcome",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hombre' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Woman"
+            },
+            {
+              "id": "o1",
+              "text": "Man"
+            },
+            {
+              "id": "o2",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p1",
+              "left": "Boy",
+              "right": "Niño"
+            },
+            {
+              "id": "p2",
+              "left": "Girl",
+              "right": "Niña"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"she Is your classmate?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "school"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mujer",
+          "correct_answer": "Woman",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            },
+            {
+              "id": "o3",
+              "text": "Man"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I151",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "She",
+              "right": "Ella"
+            },
+            {
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p2",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niña",
+          "correct_answer": "Girl",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Woman"
+            },
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o3",
+              "text": "Boy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p2",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Ser - pregunta) ________ you a student?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"she Is your classmate?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niña",
+          "correct_answer": "Girl",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o1",
+              "text": "Welcome"
+            },
+            {
+              "id": "o2",
+              "text": "Boy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p2",
+              "left": "She",
+              "right": "Ella"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mucho gusto",
+          "correct_answer": "Nice to meet you",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Classmate"
+            },
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o3",
+              "text": "Boy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p1",
+              "left": "She",
+              "right": "Ella"
+            },
+            {
+              "id": "p2",
+              "left": "Friend",
+              "right": "Amigo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hombre",
+          "correct_answer": "Man",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Girl"
+            },
+            {
+              "id": "o1",
+              "text": "Welcome"
+            },
+            {
+              "id": "o2",
+              "text": "Classmate"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p1",
+              "left": "Boy",
+              "right": "Niño"
+            },
+            {
+              "id": "p2",
+              "left": "Friend",
+              "right": "Amigo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Él",
+          "correct_answer": "He",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hombre' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Man"
+            },
+            {
+              "id": "o3",
+              "text": "Girl"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p1",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p2",
+              "left": "He",
+              "right": "Él"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"He is my best friend.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mucho gusto",
+          "correct_answer": "Nice to meet you",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Amigo/a' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Classmate"
+            },
+            {
+              "id": "o2",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o1",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Boy",
+              "right": "Niño"
+            },
+            {
+              "id": "p1",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p2",
+              "left": "Man",
+              "right": "Hombre"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"He is my best friend.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "classmate?"
+            },
+            {
+              "id": "w0",
+              "text": "Is"
+            },
+            {
+              "id": "w1",
+              "text": "she"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amigo/a",
+          "correct_answer": "Friend",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niño' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boy"
+            },
+            {
+              "id": "o3",
+              "text": "He"
+            },
+            {
+              "id": "o2",
+              "text": "Girl"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p1",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p2",
+              "left": "Girl",
+              "right": "Niña"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "girl"
+            },
+            {
+              "id": "w4",
+              "text": "good"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Compañero/a de clase",
+          "correct_answer": "Classmate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Friend"
+            },
+            {
+              "id": "o1",
+              "text": "Girl"
+            },
+            {
+              "id": "o2",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p2",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I201",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I202",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "classmate?"
+            },
+            {
+              "id": "w1",
+              "text": "she"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I203",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amigo/a",
+          "correct_answer": "Friend",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o2",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o3",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
+            },
+            {
+              "id": "p1",
+              "left": "She",
+              "right": "Ella"
+            },
+            {
+              "id": "p2",
+              "left": "Friend",
+              "right": "Amigo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "good"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "girl"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Él",
+          "correct_answer": "He",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Friend"
+            },
+            {
+              "id": "o3",
+              "text": "Man"
+            },
+            {
+              "id": "o1",
+              "text": "She"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p2",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Ser - pregunta) ________ you a student?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is a very good girl.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ella",
+          "correct_answer": "She",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mucho gusto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Man"
+            },
+            {
+              "id": "o1",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o2",
+              "text": "Friend"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p2",
+              "left": "She",
+              "right": "Ella"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w1",
+              "text": "she"
+            },
+            {
+              "id": "w3",
+              "text": "classmate?"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Él",
+          "correct_answer": "He",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Welcome"
+            },
+            {
+              "id": "o2",
+              "text": "She"
+            },
+            {
+              "id": "o3",
+              "text": "Girl"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p1",
+              "left": "Friend",
+              "right": "Amigo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Boy",
+              "right": "Niño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Compañero/a de clase",
+          "correct_answer": "Classmate",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niño' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boy"
+            },
+            {
+              "id": "o3",
+              "text": "She"
+            },
+            {
+              "id": "o2",
+              "text": "Classmate"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
+            },
+            {
+              "id": "p1",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p2",
+              "left": "Girl",
+              "right": "Niña"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is He my best friend.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niño",
+          "correct_answer": "Boy",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hombre' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Man"
+            },
+            {
+              "id": "o3",
+              "text": "She"
+            },
+            {
+              "id": "o2",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
+            },
+            {
+              "id": "p1",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p2",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Ser - pregunta) ________ you a student?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ella",
+          "correct_answer": "She",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Compañero/a de clase' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Friend"
+            },
+            {
+              "id": "o1",
+              "text": "Classmate"
+            },
+            {
+              "id": "o3",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "He",
+              "right": "Él"
+            },
+            {
+              "id": "p1",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p2",
+              "left": "Girl",
+              "right": "Niña"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is a very good girl.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mucho gusto",
+          "correct_answer": "Nice to meet you",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mujer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Woman"
+            },
+            {
+              "id": "o2",
+              "text": "Man"
+            },
+            {
+              "id": "o3",
+              "text": "Boy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p1",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p2",
+              "left": "Friend",
+              "right": "Amigo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amigo/a",
+          "correct_answer": "Friend",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "He"
+            },
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o3",
+              "text": "Nice to meet you"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p1",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p2",
+              "left": "He",
+              "right": "Él"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "We (ser) ________ happy.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Amigo/a",
+          "correct_answer": "Friend",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I258",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Bienvenido' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Boy"
+            },
+            {
+              "id": "o1",
+              "text": "Welcome"
+            },
+            {
+              "id": "o2",
+              "text": "Nice to meet you"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            },
+            {
+              "id": "p1",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p2",
+              "left": "Friend",
+              "right": "Amigo/a"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Ser - pregunta) ________ you a student?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is a very good girl.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "girl"
+            },
+            {
+              "id": "w4",
+              "text": "good"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mujer",
+          "correct_answer": "Woman",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Girl"
+            },
+            {
+              "id": "o2",
+              "text": "Welcome"
+            },
+            {
+              "id": "o3",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Boy",
+              "right": "Niño"
+            },
+            {
+              "id": "p1",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p2",
+              "left": "She",
+              "right": "Ella"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"she Is your classmate?\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hombre",
+          "correct_answer": "Man",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o2",
+              "text": "Man"
+            },
+            {
+              "id": "o1",
+              "text": "Girl"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p1",
+              "left": "Friend",
+              "right": "Amigo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Boy",
+              "right": "Niño"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He (ser) ________ my friend.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Welcome to our school.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mujer",
+          "correct_answer": "Woman",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niño' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Classmate"
+            },
+            {
+              "id": "o3",
+              "text": "Nice to meet you"
+            },
+            {
+              "id": "o1",
+              "text": "Boy"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "She",
+              "right": "Ella"
+            },
+            {
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p2",
+              "left": "He",
+              "right": "Él"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "(Ser - pregunta) ________ you a student?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is she your classmate?\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "London"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w0",
+              "text": "They"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ella",
+          "correct_answer": "She",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Él' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "She"
+            },
+            {
+              "id": "o1",
+              "text": "He"
+            },
+            {
+              "id": "o2",
+              "text": "Woman"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            },
+            {
+              "id": "p1",
+              "left": "Girl",
+              "right": "Niña"
+            },
+            {
+              "id": "p2",
+              "left": "Welcome",
+              "right": "Bienvenido"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is He my best friend.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Welcome"
+            },
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hombre",
+          "correct_answer": "Man",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ella' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "She"
+            },
+            {
+              "id": "o3",
+              "text": "Friend"
+            },
+            {
+              "id": "o2",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p1",
+              "left": "She",
+              "right": "Ella"
+            },
+            {
+              "id": "p2",
+              "left": "Nice to meet you",
+              "right": "Mucho gusto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She (ser) ________ a doctor.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"He is my best friend.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w4",
+              "text": "friend"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "best"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mujer",
+          "correct_answer": "Woman",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mujer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Woman"
+            },
+            {
+              "id": "o2",
+              "text": "Man"
+            },
+            {
+              "id": "o3",
+              "text": "He"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Classmate",
+              "right": "Compañero/a de clase"
+            },
+            {
+              "id": "p1",
+              "left": "Woman",
+              "right": "Mujer"
+            },
+            {
+              "id": "p2",
+              "left": "He",
+              "right": "Él"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "They (ser) ________ students.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"to Welcome our school.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "school"
+            },
+            {
+              "id": "w2",
+              "text": "our"
+            },
+            {
+              "id": "w1",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Welcome"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Niña",
+          "correct_answer": "Girl",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Niña' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "He"
+            },
+            {
+              "id": "o1",
+              "text": "Girl"
+            },
+            {
+              "id": "o2",
+              "text": "Man"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

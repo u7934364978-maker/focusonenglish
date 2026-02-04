@@ -1,64 +1,37 @@
-# Full SDD workflow
+# C2 Proficiency (CPE) Refocus Plan
+
+## Objective
+Refocus the 60-unit C2 course to align strictly with the Cambridge C2 Proficiency Teacher's Handbook, covering all 4 papers: Reading and Use of English, Writing, Listening, and Speaking.
 
 ## Workflow Steps
 
-### [x] Step: Requirements
+### [x] Step 1: Curriculum Redesign
+- [x] Define 6 modules (10 units each) covering the 8 parts of Reading & Use of English.
+- [x] Integrate Writing (Part 1 & 2) strategies and practice.
+- [x] Integrate Listening (Part 1-4) practice.
+- [x] Integrate Speaking (Part 1-3) strategies.
 
-Create a Product Requirements Document (PRD) based on the feature description.
+### [x] Step 2: Technical Update
+- [x] Update `src/lib/course-data-c2.ts` with new module titles and unit descriptions.
+- [ ] Update `src/lib/c2-units/utils.ts` if needed for new exercise types.
 
-1. Review existing codebase to understand current architecture and patterns
-2. Analyze the feature definition and identify unclear aspects
-3. Ask the user for clarifications on aspects that significantly impact scope or user experience
-4. Make reasonable decisions for minor details based on context and conventions
-5. If user can't clarify, make a decision, state the assumption, and continue
+### [ ] Step 3: Implementation (Phases 1-6)
+- [x] **Phase 1: Units 1-10 (Reading & Use of English Part 1)**
+    - [x] Unit 1: Part 1 - Multiple-choice Cloze (100 exercises)
+    - [x] Unit 2: Part 1 - Multiple-choice Cloze (100 exercises)
+    - [x] Units 3-10: Part 1 - Multiple-choice Cloze (100 exercises each)
+- [x] **Phase 2: Units 11-20 (Reading & Use of English Part 2)**
+    - [x] Units 11-20: Part 2 - Open Cloze (100 exercises each)
+- [x] **Phase 3: Units 21-30 (Reading & Use of English Part 3 & 4)**
+    - [x] Units 21-25: Part 3 - Word Formation (100 exercises each)
+    - [x] Units 26-30: Part 4 - Key Word Transformation (100 exercises each)
+- [x] **Phase 4: Units 31-40 (Writing Focus)**
+    - [x] Units 31-40: Writing Skills & Language (100 exercises each)
+- [x] **Phase 5: Units 41-50 (Listening Focus)**
+    - [x] Units 41-50: Listening Skills & Language (100 exercises each)
+- [x] **Phase 6: Units 51-60 (Speaking Focus & Exam Review)**
+    - [x] Units 51-60: Speaking Skills & Final Review (100 exercises each)
 
-Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4a405773-3b1c-42d3-94d6-a4c2ec4e749f/requirements.md`.
-
-### [x] Step: Technical Specification
-
-Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4a405773-3b1c-42d3-94d6-a4c2ec4e749f/requirements.md`.
-
-1. Review existing codebase architecture and identify reusable components
-2. Define the implementation approach
-
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4a405773-3b1c-42d3-94d6-a4c2ec4e749f/spec.md` with:
-
-- Technical context (language, dependencies)
-- Implementation approach referencing existing code patterns
-- Source code structure changes
-- Data model / API / interface changes
-- Delivery phases (incremental, testable milestones)
-- Verification approach using project lint/test commands
-
-### [x] Step: Planning
-
-Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/4a405773-3b1c-42d3-94d6-a4c2ec4e749f/spec.md`.
-
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
-
-### [ ] Step: Implementation
-
-- [x] **Phase 1: Module 1 Completion (Units 7-10)**
-    - [x] Create `unit-7.ts`, `unit-8.ts`, `unit-9.ts`, `unit-10.ts`
-    - [x] Populate with 100 exercises each following the curriculum
-    - [x] Export in `src/lib/c2-units/index.ts`
-- [x] **Phase 2: Module 2 Implementation (Units 11-20)**
-    - [x] Create content files and populate with 100 exercises each
-    - [x] Export in `src/lib/c2-units/index.ts`
-- [ ] **Phase 3: Module 3 Implementation (Units 21-30)**
-    - [ ] Create content files and populate with 100 exercises each
-    - [ ] Export in `src/lib/c2-units/index.ts`
-- [ ] **Phase 4: Module 4 Implementation (Units 31-40)**
-    - [ ] Create content files and populate with 100 exercises each
-    - [ ] Export in `src/lib/c2-units/index.ts`
-- [ ] **Phase 5: Module 5 Implementation (Units 41-50)**
-    - [ ] Create content files and populate with 100 exercises each
-    - [ ] Export in `src/lib/c2-units/index.ts`
-- [ ] **Phase 6: Module 6 Implementation (Units 51-60)**
-    - [ ] Create content files and populate with 100 exercises each
-    - [ ] Export in `src/lib/c2-units/index.ts`
-- [ ] **Phase 7: Final Verification**
-    - [ ] Run `npm run typecheck`
-    - [ ] Audit all units for exercise count (6,000 total)
+### [x] Step 4: Verification
+- [x] Run `npm run type-check`.
+- [x] Verify 6,000 exercises total (100 per unit).

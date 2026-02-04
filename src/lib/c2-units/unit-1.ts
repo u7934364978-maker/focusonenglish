@@ -5,120 +5,97 @@ import { createC2Unit } from './utils';
 export const C2_U1_BLOCK1: Exercise = {
   "id": "c2-u1-b1",
   "type": "vocabulary",
-  "title": "Block 1: Nuances of Personality & Character - Part 1",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "title": "Part 1: The Art of Nuance",
+  "explanation": "Select the best word to complete each gap in the text about subtle communication.",
   "questions": [
     {
       "id": "c2-u1-b1-q1",
       "type": "multiple-choice",
-      "question": "Which adjective best describes someone who is extremely introspective to the point of being consumed by their thoughts?",
-      "options": [
-        "Reflective",
-        "Pensive",
-        "Contemplative",
-        "Ruminative"
-      ],
-      "correctAnswer": "Ruminative",
-      "explanation": "La palabra 'ruminative' sugiere un grado más intenso de reflexión, a menudo obsesiva.",
+      "question": "In the world of high-level diplomacy, the ability to (1) ________ subtle nuances in meaning is paramount.",
+      "options": ["discern", "behold", "witness", "view"],
+      "correctAnswer": "discern",
+      "explanation": "'Discern' is the most appropriate verb for noticing or recognizing subtle differences or details.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q2",
-      "type": "fill-blank",
-      "question": "Her approach to challenges is ________, never hesitating in the face of adversity.",
-      "correctAnswer": "unflinchingly resolute",
-      "explanation": "La frase apunta a una determinación extrema que no cede ante la dificultad.",
+      "type": "multiple-choice",
+      "question": "A single word, if poorly chosen, can (2) ________ an entire negotiation off course.",
+      "options": ["set", "send", "put", "place"],
+      "correctAnswer": "send",
+      "explanation": "The collocation 'send something off course' is commonly used for plans or negotiations going wrong.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q3",
-      "type": "key-word-transformation",
-      "question": "He displays remarkable fascination with the complexities of human nature. (UTTERLY)\n\nHe is utterly fascinated __________",
-      "sentence": "He displays remarkable fascination with the complexities of human nature.",
-      "keyWord": "utterly",
-      "startOfAnswer": "He is utterly fascinated",
-      "correctAnswer": "by the complexities of human nature",
-      "explanation": "El uso de 'utterly' intensifica el grado de fascinación más allá de lo normal.",
+      "type": "multiple-choice",
+      "question": "Experienced negotiators are often (3) ________ at reading between the lines.",
+      "options": ["adept", "capable", "proficient", "talented"],
+      "correctAnswer": "adept",
+      "explanation": "'Adept at' is a strong collocation meaning very skilled or proficient at something difficult.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q4",
       "type": "multiple-choice",
-      "question": "Which intensifier best completes the sentence: 'She was ________ enthralled by the novel's psychological depth, unable to put it down.'",
-      "options": [
-        "wholly",
-        "tangibly",
-        "fairly",
-        "slightly"
-      ],
-      "correctAnswer": "wholly",
-      "explanation": "'Wholly' indica una inmersión completa en la atracción por la obra.",
+      "question": "They must remain (4) ________ even when faced with provocations.",
+      "options": ["unflappable", "stolid", "stagnant", "passive"],
+      "correctAnswer": "unflappable",
+      "explanation": "'Unflappable' describes someone who remains calm and composed under pressure.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q5",
-      "type": "fill-blank",
-      "question": "His ________ curiosity often leads him to explore unconventional psychological theories.",
-      "correctAnswer": "voracious",
-      "explanation": "El adjetivo 'voracious' denota un apetito o deseo muy fuerte.",
+      "type": "multiple-choice",
+      "question": "Their responses are typically (5) ________ with caution to avoid any misunderstanding.",
+      "options": ["tempered", "adjusted", "modified", "altered"],
+      "correctAnswer": "tempered",
+      "explanation": "'Tempered with' means to make something less intense or extreme by adding something else.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q6",
-      "type": "key-word-transformation",
-      "question": "She demonstrates an extraordinary level of empathy towards others. (PROFOUNDLY)\n\nShe is profoundly empathetic __________",
-      "sentence": "She demonstrates an extraordinary level of empathy towards others.",
-      "keyWord": "profoundly",
-      "startOfAnswer": "She is profoundly empathetic",
-      "correctAnswer": "to others",
-      "explanation": "'Profoundly' intensifica el adjetivo, indicando un nivel muy alto de empatía.",
+      "type": "multiple-choice",
+      "question": "The goal is to reach a (6) ________ that satisfies all parties involved.",
+      "options": ["consensus", "agreement", "settlement", "accord"],
+      "correctAnswer": "consensus",
+      "explanation": "'Consensus' implies a general agreement reached by a group as a whole.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q7",
       "type": "multiple-choice",
-      "question": "Identify the term that defines an individual who is exceptionally adaptable and able to change behavior to suit various situations.",
-      "options": [
-        "Rigid",
-        "Capricious",
-        "Malleable",
-        "Obstinate"
-      ],
-      "correctAnswer": "Malleable",
-      "explanation": "'Malleable' implica una flexibilidad y adaptabilidad en respuesta a distintas circunstancias.",
+      "question": "This process often requires a (7) ________ of patience and strategic thinking.",
+      "options": ["blend", "mixture", "union", "fusion"],
+      "correctAnswer": "blend",
+      "explanation": "'A blend of' is used when different qualities are combined effectively.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q8",
-      "type": "fill-blank",
-      "question": "Her ________ honesty can sometimes come across as abrasive to those unaccustomed to such frankness.",
-      "correctAnswer": "blunt",
-      "explanation": "El término 'blunt' se usa para describir una franqueza que puede ser percibida como rudeza.",
+      "type": "multiple-choice",
+      "question": "Any (8) ________ in focus can lead to a breakdown in communication.",
+      "options": ["lapse", "error", "fault", "slip"],
+      "correctAnswer": "lapse",
+      "explanation": "A 'lapse in focus' is a common collocation for a temporary failure in concentration.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q9",
-      "type": "key-word-transformation",
-      "question": "His attention to detail is of an exceptional standard. (METICULOUSLY)\n\nHe meticulously attends __________",
-      "sentence": "His attention to detail is of an exceptional standard.",
-      "keyWord": "meticulously",
-      "startOfAnswer": "He meticulously attends",
-      "correctAnswer": "to detail",
-      "explanation": "El uso de 'meticulously' enfatiza la precisión y cuidado exhaustivo.",
+      "type": "multiple-choice",
+      "question": "It is (9) ________ important to maintain a professional demeanor at all times.",
+      "options": ["vitally", "critically", "crucially", "highly"],
+      "correctAnswer": "vitally",
+      "explanation": "'Vitally important' is a very strong and common C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b1-q10",
       "type": "multiple-choice",
-      "question": "Which adjective would best describe a person who is genuinely enthusiastic, often inspiring others around them?",
-      "options": [
-        "Apathetic",
-        "Charismatic",
-        "Indifferent",
-        "Lethargic"
-      ],
-      "correctAnswer": "Charismatic",
-      "explanation": "'Charismatic' se refiere a alguien cuya energía y entusiasmo son tan contagiosos que inspiran a los demás.",
+      "question": "Ultimately, success (10) ________ on the ability to build trust.",
+      "options": ["hinges", "depends", "relies", "rests"],
+      "correctAnswer": "hinges",
+      "explanation": "'Hinges on' is a more advanced way of saying 'depends entirely on'.",
       "points": 1
     }
   ]
@@ -126,121 +103,98 @@ export const C2_U1_BLOCK1: Exercise = {
 
 export const C2_U1_BLOCK2: Exercise = {
   "id": "c2-u1-b2",
-  "type": "grammar",
-  "title": "Block 2: Nuances of Personality & Character - Part 2",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "type": "vocabulary",
+  "title": "Part 1: Urban Evolution",
+  "explanation": "Choose the correct word to complete the text about the transformation of modern cities.",
   "questions": [
     {
       "id": "c2-u1-b2-q1",
       "type": "multiple-choice",
-      "question": "Which adjective best describes someone who is extremely thorough and attentive to detail?",
-      "options": [
-        "Meticulous",
-        "Abstract",
-        "Lax",
-        "Hasty"
-      ],
-      "correctAnswer": "Meticulous",
-      "explanation": "En español: 'Meticulous' se refiere a una persona muy minuciosa y detallista.",
+      "question": "The (1) ________ of city life has undergone a radical transformation in recent decades.",
+      "options": ["fabric", "texture", "material", "surface"],
+      "correctAnswer": "fabric",
+      "explanation": "'The fabric of city life' is a common metaphorical collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q2",
-      "type": "fill-blank",
-      "question": "He was _________ convinced of his own abilities, almost to the point of arrogance.",
-      "correctAnswer": "utterly",
-      "explanation": "En español: 'Utterly' se utiliza como intensificador para mostrar un nivel máximo de convicción.",
+      "type": "multiple-choice",
+      "question": "Metropolises that once (2) ________ on industrial output are now reinventing themselves.",
+      "options": ["thrived", "prospered", "flourished", "bloomed"],
+      "correctAnswer": "thrived",
+      "explanation": "'Thrive on' is the correct collocation for growing or developing well.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q3",
-      "type": "key-word-transformation",
-      "question": "Even though he is young, he is exceptionally skilled in negotiation. (DESPITE)\n\nDespite his youth, he is exceptionally skilled in negotiation. __________",
-      "sentence": "Even though he is young, he is exceptionally skilled in negotiation.",
-      "keyWord": "despite",
-      "startOfAnswer": "Despite his youth, he is exceptionally skilled in negotiation.",
-      "correctAnswer": "He is exceptionally skilled in negotiation despite his youth.",
-      "explanation": "En español: 'Despite' se utiliza para expresar contraste cuando algo es inesperado respecto a la circunstancia dada.",
+      "type": "multiple-choice",
+      "question": "Many have successfully (3) ________ the transition to service-based economies.",
+      "options": ["navigated", "steered", "guided", "directed"],
+      "correctAnswer": "navigated",
+      "explanation": "'Navigate a transition' implies moving through a complex process skillfully.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q4",
       "type": "multiple-choice",
-      "question": "What is an appropriate adjective to use for someone who is extraordinarily generous?",
-      "options": [
-        "Miserly",
-        "Magnanimous",
-        "Self-effacing",
-        "Taciturn"
-      ],
-      "correctAnswer": "Magnanimous",
-      "explanation": "En español: 'Magnanimous' se refiere a una persona que es extremadamente generosa, especialmente hacia personas menos poderosas.",
+      "question": "However, this growth often (4) ________ at a significant social cost.",
+      "options": ["comes", "arrives", "reaches", "lands"],
+      "correctAnswer": "comes",
+      "explanation": "'Comes at a cost' is a standard English idiom.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q5",
-      "type": "fill-blank",
-      "question": "Her explanation was _________ persuasive that everyone agreed without hesitation.",
-      "correctAnswer": "absolutely",
-      "explanation": "En español: 'Absolutely' se utiliza para enfatizar hasta qué punto algo es persuasivo.",
+      "type": "multiple-choice",
+      "question": "Gentrification can (5) ________ long-standing communities from their historic neighborhoods.",
+      "options": ["displace", "uproot", "evict", "discard"],
+      "correctAnswer": "displace",
+      "explanation": "'Displace' is the most accurate term for forcing people to leave their homes due to change.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q6",
-      "type": "key-word-transformation",
-      "question": "He was as talkative as few others in the group. (INCREDIBLY)\n\nHe was incredibly talkative compared to others in the group. __________",
-      "sentence": "He was as talkative as few others in the group.",
-      "keyWord": "incredibly",
-      "startOfAnswer": "He was incredibly talkative compared to others in the group.",
-      "correctAnswer": "",
-      "explanation": "En español: 'Incredibly' es un intensificador que describe hasta qué punto algo es cierto.",
+      "type": "multiple-choice",
+      "question": "Planners must (6) ________ a delicate balance between progress and preservation.",
+      "options": ["strike", "hit", "reach", "find"],
+      "correctAnswer": "strike",
+      "explanation": "The collocation is 'strike a balance'.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q7",
       "type": "multiple-choice",
-      "question": "Choose the adjective that describes someone who has a calm and untroubled demeanor.",
-      "options": [
-        "Anxious",
-        "Composed",
-        "Volatile",
-        "Rash"
-      ],
-      "correctAnswer": "Composed",
-      "explanation": "En español: 'Composed' describe a alguien que está calmado y no se altera fácilmente.",
+      "question": "Infrastructure projects are often (7) ________ by budget constraints and political debate.",
+      "options": ["hampered", "curbed", "stunted", "halted"],
+      "correctAnswer": "hampered",
+      "explanation": "'Hampered' means to hinder the progress or movement of something.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q8",
-      "type": "fill-blank",
-      "question": "The child was _________ shy that he barely spoke in class.",
-      "correctAnswer": "so",
-      "explanation": "En español: 'So' se utiliza para intensificar el grado de timidez del niño.",
+      "type": "multiple-choice",
+      "question": "Yet, cities that fail to (8) ________ risk becoming obsolete in a globalized world.",
+      "options": ["innovate", "renew", "modernize", "evolve"],
+      "correctAnswer": "innovate",
+      "explanation": "'Innovate' is the most appropriate term for introducing new ideas or methods.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q9",
-      "type": "key-word-transformation",
-      "question": "Although she is often late, she never misses a deadline. (DESPITE)\n\nDespite often being late, she never misses a deadline. __________",
-      "sentence": "Although she is often late, she never misses a deadline.",
-      "keyWord": "despite",
-      "startOfAnswer": "Despite often being late, she never misses a deadline.",
-      "correctAnswer": "Despite being late",
-      "explanation": "En español: 'Despite' se emplea para indicar un contraste entre la tardanza habitual y no perder plazos.",
+      "type": "multiple-choice",
+      "question": "Public spaces play a (9) ________ role in fostering social cohesion.",
+      "options": ["pivotal", "central", "main", "prime"],
+      "correctAnswer": "pivotal",
+      "explanation": "'Pivotal role' is a strong collocation meaning critically important.",
       "points": 1
     },
     {
       "id": "c2-u1-b2-q10",
       "type": "multiple-choice",
-      "question": "Which adjective would you use to describe someone who has the ability to recover quickly from difficulties?",
-      "options": [
-        "Resilient",
-        "Fragile",
-        "Sullen",
-        "Pessimistic"
-      ],
-      "correctAnswer": "Resilient",
-      "explanation": "En español: 'Resilient' describe a alguien capaz de recuperarse rápidamente ante la adversidad.",
+      "question": "The (10) ________ of a city depends on its ability to attract and retain talent.",
+      "options": ["vitality", "energy", "spirit", "vigor"],
+      "correctAnswer": "vitality",
+      "explanation": "'Vitality' refers to the state of being strong and active; energy.",
       "points": 1
     }
   ]
@@ -249,120 +203,97 @@ export const C2_U1_BLOCK2: Exercise = {
 export const C2_U1_BLOCK3: Exercise = {
   "id": "c2-u1-b3",
   "type": "vocabulary",
-  "title": "Block 3: Nuances of Personality & Character - Part 3",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "title": "Part 1: The Frontier of Science",
+  "explanation": "Complete the text about the challenges and rewards of scientific exploration.",
   "questions": [
     {
       "id": "c2-u1-b3-q1",
       "type": "multiple-choice",
-      "question": "Which adjective best describes someone who is highly suspicious and difficult to convince?",
-      "options": [
-        "Gullible",
-        "Questioning",
-        "Skeptical",
-        "Naive"
-      ],
-      "correctAnswer": "Skeptical",
-      "explanation": "En español: 'Skeptical' significa escéptico, una persona que desconfía y es difícil de convencer.",
+      "question": "Scientific progress often (1) ________ on the ability to challenge established theories.",
+      "options": ["hinges","relies","rests","depends"],
+      "correctAnswer": "hinges",
+      "explanation": "'Hinges on' implies a critical dependency.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q2",
-      "type": "fill-blank",
-      "question": "She was _____ determined to succeed despite the obstacles.",
-      "correctAnswer": "utterly",
-      "explanation": "En español: 'Utterly' significa completamente o absolutamente, intensificando el adjetivo 'determined'.",
+      "type": "multiple-choice",
+      "question": "Researchers must be (2) ________ in their pursuit of the truth.",
+      "options": ["tenacious","stubborn","dogged","persistent"],
+      "correctAnswer": "tenacious",
+      "explanation": "'Tenacious' suggests a strong, admirable persistence.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q3",
-      "type": "key-word-transformation",
-      "question": "She was so angry that she couldn't articulate her thoughts. (TOO)\n\nShe was too angry __________",
-      "correctAnswer": "to articulate her thoughts",
-      "explanation": "En español: Usamos 'too' seguido de un adjetivo para indicar una habilidad dificultada por una emoción intensa.",
-      "points": 1,
-      "sentence": "She was so angry that she couldn't articulate her thoughts.",
-      "keyWord": "TOO",
-      "startOfAnswer": "She was too angry"
+      "type": "multiple-choice",
+      "question": "A (3) ________ discovery can change our understanding of the universe overnight.",
+      "options": ["breakthrough","landmark","pinnacle","climax"],
+      "correctAnswer": "breakthrough",
+      "explanation": "'Breakthrough' is the standard term for a major discovery.",
+      "points": 1
     },
     {
       "id": "c2-u1-b3-q4",
       "type": "multiple-choice",
-      "question": "Identify the adjective that describes a personality that is overly obsessed with minor details.",
-      "options": [
-        "Meticulous",
-        "Fastidious",
-        "Easygoing",
-        "Lax"
-      ],
-      "correctAnswer": "Fastidious",
-      "explanation": "En español: 'Fastidious' significa quisquilloso, una persona que se obsesiona con detalles menores.",
+      "question": "However, most advancements are the result of (4) ________ effort over many years.",
+      "options": ["painstaking","arduous","strenuous","taxing"],
+      "correctAnswer": "painstaking",
+      "explanation": "'Painstaking' describes work requiring great care and effort.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q5",
-      "type": "fill-blank",
-      "question": "His speech was _____ persuasive that all the listeners were convinced to vote in his favor.",
-      "correctAnswer": "so",
-      "explanation": "En español: 'So' se usa para intensificar adjetivos y causa una reacción que se menciona después.",
+      "type": "multiple-choice",
+      "question": "Scientists must (5) ________ rigorous standards of evidence.",
+      "options": ["uphold","maintain","support","defend"],
+      "correctAnswer": "uphold",
+      "explanation": "'Uphold standards' is a very common collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q6",
-      "type": "key-word-transformation",
-      "question": "Her enthusiasm was contagious, and everyone soon felt equally excited. (SUCH)\n\nShe had such contagious enthusiasm __________",
-      "correctAnswer": "enthusiasm that everyone soon felt equally excited",
-      "explanation": "En español: 'Such' se utiliza para enfatizar la magnitud de un sustantivo acompañado de un adjetivo.",
-      "points": 1,
-      "sentence": "Her enthusiasm was contagious, and everyone soon felt equally excited.",
-      "keyWord": "SUCH",
-      "startOfAnswer": "She had such contagious enthusiasm"
+      "type": "multiple-choice",
+      "question": "Peer review acts as a (6) ________ to ensure the quality of published research.",
+      "options": ["safeguard","barrier","buffer","shield"],
+      "correctAnswer": "safeguard",
+      "explanation": "'Safeguard' is something that protects against errors or problems.",
+      "points": 1
     },
     {
       "id": "c2-u1-b3-q7",
       "type": "multiple-choice",
-      "question": "Select the adjective that best describes someone with an excessively high opinion of themselves.",
-      "options": [
-        "Modest",
-        "Boastful",
-        "Humble",
-        "Self-effacing"
-      ],
-      "correctAnswer": "Boastful",
-      "explanation": "En español: 'Boastful' significa jactancioso, describiendo a alguien que tiene una opinión muy alta de sí mismo.",
+      "question": "Even so, some theories remain (7) ________ to controversy for decades.",
+      "options": ["subject","prone","liable","vulnerable"],
+      "correctAnswer": "subject",
+      "explanation": "'Subject to controversy' is the correct idiomatic expression.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q8",
-      "type": "fill-blank",
-      "question": "The lecture was _____ dull that several students found it difficult to stay awake.",
-      "correctAnswer": "so",
-      "explanation": "En español: Utilizamos 'so' para intensificar el adjetivo 'dull', indicando que la consecuencia fue que los estudiantes se durmieron.",
+      "type": "multiple-choice",
+      "question": "The (8) ________ of new technologies often opens up entirely new fields of study.",
+      "options": ["advent","onset","outset","intake"],
+      "correctAnswer": "advent",
+      "explanation": "'Advent' refers to the arrival of a notable person, thing, or event.",
       "points": 1
     },
     {
       "id": "c2-u1-b3-q9",
-      "type": "key-word-transformation",
-      "question": "The project was too ambitious for them to complete in such a short time. (SO)\n\nThe project was so ambitious __________",
-      "correctAnswer": "that they couldn't complete it in such a short time",
-      "explanation": "En español: 'So + adjetivo + that' se usa para describir el efecto de lo que sigue.",
-      "points": 1,
-      "sentence": "The project was too ambitious for them to complete in such a short time.",
-      "keyWord": "SO",
-      "startOfAnswer": "The project was so ambitious"
+      "type": "multiple-choice",
+      "question": "It is (9) ________ important for scientists to communicate their findings clearly.",
+      "options": ["paramount","chiefly","mainly","principally"],
+      "correctAnswer": "paramount",
+      "explanation": "'Of paramount importance' (or simply 'paramount') is C2 level.",
+      "points": 1
     },
     {
       "id": "c2-u1-b3-q10",
       "type": "multiple-choice",
-      "question": "Which adjective would fit someone known for being unable to understand or share the feelings of others?",
-      "options": [
-        "Empathetic",
-        "Sympathetic",
-        "Callous",
-        "Compassionate"
-      ],
-      "correctAnswer": "Callous",
-      "explanation": "En español: 'Callous' describe a una persona que es insensible a las emociones o sufrimientos ajenos.",
+      "question": "Ultimately, science is a (10) ________ endeavor that benefits all of humanity.",
+      "options": ["collective","shared","joint","combined"],
+      "correctAnswer": "collective",
+      "explanation": "'Collective endeavor' emphasizes the group effort of the community.",
       "points": 1
     }
   ]
@@ -370,131 +301,98 @@ export const C2_U1_BLOCK3: Exercise = {
 
 export const C2_U1_BLOCK4: Exercise = {
   "id": "c2-u1-b4",
-  "type": "grammar",
-  "title": "Block 4: Nuances of Personality & Character - Part 4",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "type": "vocabulary",
+  "title": "Part 1: The Power of Sound",
+  "explanation": "Complete the text about how music affects our emotions and behavior.",
   "questions": [
     {
       "id": "c2-u1-b4-q1",
       "type": "multiple-choice",
-      "question": "Which of the following adjectives best describes someone who is excessively concerned about propriety and precision in trivial matters?",
-      "options": [
-        "Fastidious",
-        "Meticulous",
-        "Indolent",
-        "Gregarious"
-      ],
-      "correctAnswer": "Fastidious",
-      "explanation": "Fastidious se traduce como 'meticuloso' o 'exigente', y se aplica a personas preocupadas por detalles ínfimos.",
+      "question": "Music has the unique ability to (1) ________ deep-seated emotions.",
+      "options": ["evoke","provoke","induce","elicit"],
+      "correctAnswer": "evoke",
+      "explanation": "'Evoke' means to bring a feeling or memory to mind.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q2",
-      "type": "fill-blank",
-      "question": "Despite his outwardly ______ appearance, he harbored deep insecurities.",
-      "correctAnswer": "self-assured",
-      "explanation": "Self-assured significa 'seguro de sí mismo', en contraste con las inseguridades internas.",
+      "type": "multiple-choice",
+      "question": "Certain melodies can (2) ________ us back to a specific moment in our past.",
+      "options": ["transport","carry","convey","transmit"],
+      "correctAnswer": "transport",
+      "explanation": "'Transport someone back' is a common metaphorical use.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q3",
       "type": "multiple-choice",
-      "question": "Select the most appropriate intensifier to complete: 'Her performance was ______ outstanding.'",
-      "options": [
-        "absolutely",
-        "reasonably",
-        "somewhat",
-        "moderately"
-      ],
-      "correctAnswer": "absolutely",
-      "explanation": "'Absolutely' intensifica el adjetivo 'outstanding', enfatizando un nivel extremo de admiración.",
+      "question": "The (3) ________ of rhythm is universal across all human cultures.",
+      "options": ["appeal","attraction","allure","charm"],
+      "correctAnswer": "appeal",
+      "explanation": "'Universal appeal' is a standard collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q4",
-      "type": "key-word-transformation",
-      "question": "He was extremely reluctant to share any personal details. (AVERSE)\n\nHe was exceedingly averse __________",
-      "sentence": "He was extremely reluctant to share any personal details.",
-      "keyWord": "averse",
-      "startOfAnswer": "He was exceedingly averse",
-      "correctAnswer": "to sharing any personal details",
-      "explanation": "'Averse' significa tener una fuerte aversión, similar a 'reluctant', pero con mayor intensidad.",
+      "type": "multiple-choice",
+      "question": "Neuroscientists have found that music (4) ________ several areas of the brain.",
+      "options": ["triggers","activates","sparks","kindles"],
+      "correctAnswer": "activates",
+      "explanation": "'Activates' is the scientifically accurate term here.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q5",
-      "options": [
-  "Widespread",
-  "Temporary",
-  "Occasional",
-  "Isolated"
-],
-      "sentence": "The pervasive nature of social media often leads to a sense of constant connectivity.",
       "type": "multiple-choice",
-      "question": "What does 'pervasive' mean as used in the sentence: 'The pervasive nature of social media often leads to a sense of constant connectivity'?",
-      "correctAnswer": "Widespread",
-      "explanation": "Pervasive significa que algo está extendido en todas partes; aquí se refiere a la necesidad constante.",
+      "question": "For many, music provides a (5) ________ from the stresses of daily life.",
+      "options": ["sanctuary","refuge","haven","shelter"],
+      "correctAnswer": "refuge",
+      "explanation": "'Take refuge in' or 'provide a refuge' is common.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q6",
       "type": "multiple-choice",
-      "question": "Identify the adjective that signifies a tendency to remain in a place for longer than necessary.",
-      "options": [
-        "Impetuous",
-        "Languid",
-        "Lingering",
-        "Indomitable"
-      ],
-      "correctAnswer": "Lingering",
-      "explanation": "Lingering significa quedarse más de lo necesario, a menudo por indecisión o reflexión.",
+      "question": "It can even (6) ________ as a catalyst for social change.",
+      "options": ["serve","act","function","work"],
+      "correctAnswer": "serve",
+      "explanation": "'Serve as a catalyst' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q7",
-      "type": "key-word-transformation",
-      "question": "The child was incredibly curious about the natural world. (MINGLED)\n\nThe child's curiosity __________",
-      "sentence": "The child was incredibly curious about the natural world.",
-      "keyWord": "mingled",
-      "startOfAnswer": "The child's curiosity",
-      "correctAnswer": "mingled with an enthusiasm for the natural world",
-      "explanation": "La palabra 'mingled' significa 'mezclado', indicando cómo la curiosidad y el entusiasmo están interrelacionados.",
+      "type": "multiple-choice",
+      "question": "The (7) ________ of music is often used in film to enhance the narrative.",
+      "options": ["medium","vessel","channel","vehicle"],
+      "correctAnswer": "medium",
+      "explanation": "'The medium of music' refers to it as a means of expression.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q8",
-      "keyWord": "determination",
-      "startOfAnswer": "Her determination",
-      "sentence": "She was adamant about pursuing her dreams despite the challenges.",
-      "type": "key-word-transformation",
-      "question": "She was adamant about pursuing her dreams despite the challenges. (DETERMINATION)\n\nHer determination __________",
-      "correctAnswer": "was adamant about pursuing her dreams despite the challenges",
-      "explanation": "Adamant implica firmeza en una decisión; aquí refleja su determinación de causar un impacto.",
+      "type": "multiple-choice",
+      "question": "Some composers (8) ________ to create works that challenge our perception of harmony.",
+      "options": ["strive","aim","endeavor","aspire"],
+      "correctAnswer": "strive",
+      "explanation": "'Strive to' implies making a great effort to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q9",
       "type": "multiple-choice",
-      "question": "Which word best completes the following: 'The committee's decision was ______ unjust.'?",
-      "options": [
-        "utterly",
-        "vaguely",
-        "somewhat",
-        "slightly"
-      ],
-      "correctAnswer": "utterly",
-      "explanation": "'Utterly' intensifica el adjetivo, sugiriendo una injusticia total y completa.",
+      "question": "The (9) ________ of live performance is something that recordings cannot replicate.",
+      "options": ["immediacy","proximity","closeness","directness"],
+      "correctAnswer": "immediacy",
+      "explanation": "'Immediacy' refers to the direct and instant quality of the experience.",
       "points": 1
     },
     {
       "id": "c2-u1-b4-q10",
-      "type": "key-word-transformation",
-      "question": "She was extremely driven to succeed. (OBSESSED)\n\nShe was utterly obsessed __________",
-      "sentence": "She was extremely driven to succeed.",
-      "keyWord": "obsessed",
-      "startOfAnswer": "She was utterly obsessed",
-      "correctAnswer": "with succeeding",
-      "explanation": "El uso de 'obsessed' con 'utterly' aporta un mayor grado de intensidad en su motivación.",
+      "type": "multiple-choice",
+      "question": "Music remains a (10) ________ part of our cultural heritage.",
+      "options": ["vital","crucial","essential","integral"],
+      "correctAnswer": "integral",
+      "explanation": "'Integral part' means necessary to make the whole complete.",
       "points": 1
     }
   ]
@@ -503,128 +401,97 @@ export const C2_U1_BLOCK4: Exercise = {
 export const C2_U1_BLOCK5: Exercise = {
   "id": "c2-u1-b5",
   "type": "vocabulary",
-  "title": "Block 5: Nuances of Personality & Character - Part 5",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "title": "Part 1: Beyond the Horizon",
+  "explanation": "Complete the text about the motivations of early explorers.",
   "questions": [
     {
       "id": "c2-u1-b5-q1",
       "type": "multiple-choice",
-      "question": "Which term best describes a personality that is overly suspicious of others without justification?",
-      "options": [
-        "Paranoid",
-        "Gregarious",
-        "Benevolent",
-        "Zealous"
-      ],
-      "correctAnswer": "Paranoid",
-      "explanation": "En español: 'Paranoico' describe a personalidad excesivamente suspicaz sin justificación.",
+      "question": "Early explorers were often (1) ________ by a desire for wealth and fame.",
+      "options": ["driven","propelled","spurred","goaded"],
+      "correctAnswer": "driven",
+      "explanation": "'Driven by a desire' is a very common collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q2",
-      "startOfAnswer": "substantial evidence",
-      "keyWord": "substantial",
-      "sentence": "It was clear that her argument was weak, lacking any substantial evidence.",
-      "type": "key-word-transformation",
-      "question": "It was clear that her argument was weak, lacking any substantial evidence. (SUBSTANTIAL)\n\nsubstantial evidence __________",
-      "correctAnswer": "",
-      "explanation": "En español: 'Sustancial' se refiere a algo significativo o considerable.",
+      "type": "multiple-choice",
+      "question": "They set (2) ________ into unknown waters with only primitive navigational tools.",
+      "options": ["forth","out","off","away"],
+      "correctAnswer": "forth",
+      "explanation": "'Set forth' is a formal way to say start a journey.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q3",
-      "type": "key-word-transformation",
-      "question": "It was clear that his behavior was completely insensate, lacking any logical reasoning. (DEVOID)\n\ncompletely devoid of logical reasoning __________",
-      "correctAnswer": "logical reasoning",
-      "explanation": "En español: 'Devoid of' significa 'carente de', usado para describir la ausencia total de algo.",
-      "points": 1,
-      "sentence": "It was clear that his behavior was completely insensate, lacking any logical reasoning.",
-      "keyWord": "devoid",
-      "startOfAnswer": "completely devoid of logical reasoning"
+      "type": "multiple-choice",
+      "question": "The (3) ________ of these voyages was often fraught with danger.",
+      "options": ["undertaking","enterprise","venture","endeavor"],
+      "correctAnswer": "undertaking",
+      "explanation": "'Undertaking' refers to a task that is taken on.",
+      "points": 1
     },
     {
       "id": "c2-u1-b5-q4",
       "type": "multiple-choice",
-      "question": "Which adjective would best describe a personality that delights in causing trouble for others?",
-      "options": [
-        "Malicious",
-        "Altruistic",
-        "Obstinate",
-        "Munificent"
-      ],
-      "correctAnswer": "Malicious",
-      "explanation": "En español: 'Malicioso' describe a alguien que disfruta causando problemas o daño a otros.",
+      "question": "Many sailors succumbed to diseases that (4) ________ ships in those times.",
+      "options": ["plagued","afflicted","beset","haunted"],
+      "correctAnswer": "plagued",
+      "explanation": "'Plagued' is often used for widespread suffering or trouble.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q5",
-      "startOfAnswer": "Start of answer",
-      "sentence": "His performance was remarkable, far better than anyone expected.",
-      "type": "key-word-transformation",
-      "question": "His performance was remarkable, far better than anyone expected. ()\n\nStart of answer __________",
-      "correctAnswer": "extraordinarily good",
-      "explanation": "En español: 'Extraordinario' se utiliza para describir algo que es sorprendentemente bueno o mejor de lo esperado.",
+      "type": "multiple-choice",
+      "question": "Yet, the (5) ________ of discovery kept them moving forward.",
+      "options": ["lure","draw","pull","magnet"],
+      "correctAnswer": "lure",
+      "explanation": "'The lure of' refers to the tempting or attractive quality of something.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q6",
-      "type": "key-word-transformation",
-      "question": "Her tendency to remain impartial is something I deeply admire. (HIGHLY)\n\nhighly admire her impartiality __________",
-      "correctAnswer": "impartiality",
-      "explanation": "En español: 'Highly' intensifica el grado de admiración hacia una cualidad.",
-      "points": 1,
-      "sentence": "Her tendency to remain impartial is something I deeply admire.",
-      "keyWord": "highly",
-      "startOfAnswer": "highly admire her impartiality"
+      "type": "multiple-choice",
+      "question": "Successful expeditions (6) ________ new trade routes and expanded empires.",
+      "options": ["paved","forged","carved","cleared"],
+      "correctAnswer": "paved",
+      "explanation": "'Paved the way for' is the full idiom often used here.",
+      "points": 1
     },
     {
       "id": "c2-u1-b5-q7",
       "type": "multiple-choice",
-      "question": "Which word best conveys an excessively talkative and sociable personality?",
-      "options": [
-        "Taciturn",
-        "Reticent",
-        "Loquacious",
-        "Ambivalent"
-      ],
-      "correctAnswer": "Loquacious",
-      "explanation": "En español: 'Locuaz' describe una persona extremadamente habladora y sociable.",
+      "question": "Explorers had to (7) ________ with extreme weather and hostile terrain.",
+      "options": ["contend","grapple","struggle","cope"],
+      "correctAnswer": "contend",
+      "explanation": "'Contend with' means to deal with a difficulty or challenge.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q8",
-      "startOfAnswer": "utterly disappointing",
-      "keyWord": "utterly",
-      "sentence": "The meeting was disappointing, failing to meet our expectations.",
-      "type": "key-word-transformation",
-      "question": "The meeting was disappointing, failing to meet our expectations. (UTTERLY)\n\nutterly disappointing __________",
-      "correctAnswer": "",
-      "explanation": "En español: 'Totalmente decepcionante' implica una decepción total respecto a las expectativas.",
+      "type": "multiple-choice",
+      "question": "Their (8) ________ often led to the encounter of entirely new cultures.",
+      "options": ["exploits","feats","deeds","acts"],
+      "correctAnswer": "exploits",
+      "explanation": "'Exploits' refers to bold or adventurous acts.",
       "points": 1
     },
     {
       "id": "c2-u1-b5-q9",
-      "type": "key-word-transformation",
-      "question": "Although she appeared aloof at first, she was genuinely friendly. (DESPITE)\n\nDespite appearing aloof __________",
-      "correctAnswer": "appearing aloof",
-      "explanation": "En español: 'Despite' se utiliza para contradecir o contrastar una situación con otra.",
-      "points": 1,
-      "sentence": "Although she appeared aloof at first, she was genuinely friendly.",
-      "keyWord": "despite",
-      "startOfAnswer": "Despite appearing aloof"
+      "type": "multiple-choice",
+      "question": "The (9) ________ of their maps was often questionable at best.",
+      "options": ["accuracy","precision","exactness","correctness"],
+      "correctAnswer": "accuracy",
+      "explanation": "'Accuracy' is the standard term for how correct something is.",
+      "points": 1
     },
     {
       "id": "c2-u1-b5-q10",
       "type": "multiple-choice",
-      "question": "What term best fits a person with a personality marked by excessive eagerness or enthusiasm?",
-      "options": [
-        "Apathetic",
-        "Fervent",
-        "Lethargic",
-        "Indifferent"
-      ],
-      "correctAnswer": "Fervent",
-      "explanation": "En español: 'Ferviente' describe a alguien con mucho entusiasmo o pasión.",
+      "question": "Their legacy (10) ________ our world to this day.",
+      "options": ["shapes","molds","forms","fashions"],
+      "correctAnswer": "shapes",
+      "explanation": "'Shapes our world' is a common way to describe a lasting influence.",
       "points": 1
     }
   ]
@@ -632,125 +499,99 @@ export const C2_U1_BLOCK5: Exercise = {
 
 export const C2_U1_BLOCK6: Exercise = {
   "id": "c2-u1-b6",
-  "type": "grammar",
-  "title": "Block 6: Nuances of Personality & Character - Part 6",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "type": "vocabulary",
+  "title": "Part 1: A Sustainable Future",
+  "explanation": "Complete the text about the challenges of environmental protection.",
   "questions": [
     {
       "id": "c2-u1-b6-q1",
       "type": "multiple-choice",
-      "question": "Which of the following adjectives best describes someone who quickly adapts to new situations?",
-      "options": [
-        "Perceptive",
-        "Sanguine",
-        "Malleable",
-        "Taciturn"
-      ],
-      "correctAnswer": "Malleable",
-      "explanation": "Malleable se refiere a alguien adaptable y flexible; perceptivo se refiere a la habilidad de notar cosas rápidamente; sanguíneo es optimista; taciturno es reservado.",
+      "question": "The (1) ________ for renewable energy has never been more urgent.",
+      "options": ["quest","search","pursuit","hunt"],
+      "correctAnswer": "quest",
+      "explanation": "'Quest for' implies a long and difficult search.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q2",
       "type": "multiple-choice",
-      "question": "What intensifier is most apt to emphasize the strength of the adjective 'astounding'?",
-      "options": [
-        "Slightly",
-        "Absolutely",
-        "Somewhat",
-        "Fairly"
-      ],
-      "correctAnswer": "Absolutely",
-      "explanation": "'Absolutely' se utiliza con adjetivos extremos como 'astounding' para reforzar su intensidad.",
+      "question": "We must (2) ________ our reliance on fossil fuels to combat climate change.",
+      "options": ["curb","check","stifle","halt"],
+      "correctAnswer": "curb",
+      "explanation": "'Curb' means to restrain or keep in check.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q3",
-      "type": "fill-blank",
-      "question": "Her _______ (stubborn) nature often leads to conflicts with her colleagues.",
-      "correctAnswer": "obdurate nature",
-      "explanation": "'Obdurate' describe una persona extremadamente terca y difícil de cambiar de opinión.",
+      "type": "multiple-choice",
+      "question": "This requires a (3) ________ shift in how we produce and consume energy.",
+      "options": ["fundamental","radical","drastic","extreme"],
+      "correctAnswer": "fundamental",
+      "explanation": "'Fundamental shift' is a strong collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q4",
       "type": "multiple-choice",
-      "question": "If someone is described as 'imperturbable', they are likely to be _______.",
-      "options": [
-        "Easily flustered",
-        "Calm and composed",
-        "Highly irritable",
-        "Extremely energetic"
-      ],
-      "correctAnswer": "Calm and composed",
-      "explanation": "Imperturbable se refiere a alguien que no se altera fácilmente, que se mantiene sereno.",
+      "question": "Governments must (4) ________ policies that encourage green investment.",
+      "options": ["implement","enact","execute","apply"],
+      "correctAnswer": "implement",
+      "explanation": "'Implement policies' is the standard administrative term.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q5",
-      "type": "fill-blank",
-      "question": "The teacher's _______ (patience) demeanor was invaluable when dealing with difficult students.",
-      "correctAnswer": "serene demeanor",
-      "explanation": "Serene significa sereno y calmado, lo cual es valioso en situaciones difíciles.",
+      "type": "multiple-choice",
+      "question": "Innovation in battery technology is (5) ________ to the success of electric vehicles.",
+      "options": ["crucial","pivotal","vital","essential"],
+      "correctAnswer": "pivotal",
+      "explanation": "'Pivotal' emphasizes the central importance of the innovation.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q6",
-      "type": "key-word-transformation",
-      "question": "Despite his extremely sociable characterization, Michael occasionally... (OVERWHELMINGLY)\n\nDespite his overwhelmingly gregarious... __________",
-      "correctAnswer": "Despite his overwhelmingly gregarious characterization, Michael occasionally...",
-      "explanation": "'Overwhelmingly' intensifica 'gregarious', que se refiere a alguien sociable y extrovertido.",
-      "points": 1,
-      "sentence": "Despite his extremely sociable characterization, Michael occasionally...",
-      "keyWord": "overwhelmingly",
-      "startOfAnswer": "Despite his overwhelmingly gregarious..."
+      "type": "multiple-choice",
+      "question": "We must also address the (6) ________ of biodiversity in our ecosystems.",
+      "options": ["depletion","erosion","decline","reduction"],
+      "correctAnswer": "depletion",
+      "explanation": "'Depletion' refers to the reduction in the number or quantity of something.",
+      "points": 1
     },
     {
       "id": "c2-u1-b6-q7",
       "type": "multiple-choice",
-      "question": "Select the adjective that best conveys the meaning of 'unwilling to understand or consider the needs of others.'",
-      "options": [
-        "Empathetic",
-        "Boisterous",
-        "Insensitive",
-        "Sagacious"
-      ],
-      "correctAnswer": "Insensitive",
-      "explanation": "Insensitive se refiere a alguien que carece de empatía o consideración por los sentimientos de los demás.",
+      "question": "Sustainable farming practices can help (7) ________ the soil for future generations.",
+      "options": ["preserve","conserve","protect","save"],
+      "correctAnswer": "preserve",
+      "explanation": "'Preserve' means to maintain something in its original or existing state.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q8",
-      "type": "fill-blank",
-      "question": "His _______ (confidence) attitude often borders on arrogance, alienating his peers.",
-      "correctAnswer": "overweening",
-      "explanation": "'Overweening' describe una confianza excesiva, que puede parecer arrogancia.",
+      "type": "multiple-choice",
+      "question": "The (8) ________ of plastic waste in our oceans is a global crisis.",
+      "options": ["accumulation","build-up","collection","gathering"],
+      "correctAnswer": "accumulation",
+      "explanation": "'Accumulation' refers to the gradual gathering of something.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q9",
       "type": "multiple-choice",
-      "question": "Which adjective, when intensified with 'utterly', is most appropriate to describe a complex and impressive plan?",
-      "options": [
-        "Simple",
-        "Ingenious",
-        "Convoluted",
-        "Naive"
-      ],
-      "correctAnswer": "Ingenious",
-      "explanation": "Ingenious describe un plan inteligente y creativo; intensificado con 'utterly' resalta su genialidad.",
+      "question": "Individual actions, when (9) ________, can make a significant difference.",
+      "options": ["aggregated","combined","joined","united"],
+      "correctAnswer": "aggregated",
+      "explanation": "'Aggregated' is a formal term for things formed by adding several amounts together.",
       "points": 1
     },
     {
       "id": "c2-u1-b6-q10",
-      "type": "key-word-transformation",
-      "question": "His extremely analytical mind allowed him to solve... (PROFOUNDLY)\n\nHis profoundly analytical mind... __________",
-      "correctAnswer": "His profoundly analytical mind allowed him to solve...",
-      "explanation": "'Profoundly' intensifica 'analytical', destaca su habilidad meticulosa para analizar y resolver problemas.",
-      "points": 1,
-      "sentence": "His extremely analytical mind allowed him to solve...",
-      "keyWord": "profoundly",
-      "startOfAnswer": "His profoundly analytical mind..."
+      "type": "multiple-choice",
+      "question": "Ultimately, we are the (10) ________ of our planet's future.",
+      "options": ["stewards","guardians","keepers","custodians"],
+      "correctAnswer": "stewards",
+      "explanation": "'Stewards' implies a responsibility to look after something.",
+      "points": 1
     }
   ]
 };
@@ -758,123 +599,97 @@ export const C2_U1_BLOCK6: Exercise = {
 export const C2_U1_BLOCK7: Exercise = {
   "id": "c2-u1-b7",
   "type": "vocabulary",
-  "title": "Block 7: Nuances of Personality & Character - Part 7",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "title": "Part 1: The Silicon Age",
+  "explanation": "Complete the text about the impact of digital technology on society.",
   "questions": [
     {
       "id": "c2-u1-b7-q1",
       "type": "multiple-choice",
-      "question": "Which adjective best describes someone who is exceptionally perceptive in understanding others?",
-      "options": [
-        "Sentient",
-        "Astute",
-        "Clairvoyant",
-        "Impulsive"
-      ],
-      "correctAnswer": "Astute",
-      "explanation": "Astuto se refiere a alguien que tiene una aguda percepción y buen criterio.",
+      "question": "The (1) ________ of the internet has fundamentally changed how we communicate.",
+      "options": ["inception","arrival","dawn","emergence"],
+      "correctAnswer": "inception",
+      "explanation": "'Inception' refers to the starting point of an institution or activity.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q2",
-      "type": "fill-blank",
-      "question": "A personality that is ____ altruistic generally prioritizes others' needs above their own.",
-      "correctAnswer": "deeply",
-      "explanation": "Profundamente es un intensificador que muestra que el altruismo es muy marcado.",
+      "type": "multiple-choice",
+      "question": "Information is now (2) ________ available at the touch of a button.",
+      "options": ["readily","easily","freely","promptly"],
+      "correctAnswer": "readily",
+      "explanation": "'Readily available' is a very common collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q3",
       "type": "multiple-choice",
-      "question": "What is an effective way to describe someone who demonstrates exceptional diligence?",
-      "options": [
-        "Painstaking",
-        "Haphazard",
-        "Erratic",
-        "Lackadaisical"
-      ],
-      "correctAnswer": "Painstaking",
-      "explanation": "Meticuloso se refiere a alguien que es muy cuidadoso y detallista en su trabajo.",
+      "question": "This has (3) ________ to the democratization of knowledge on a global scale.",
+      "options": ["led","resulted","contributed","tended"],
+      "correctAnswer": "led",
+      "explanation": "'Led to' is the standard cause-effect link.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q4",
-      "type": "key-word-transformation",
-      "question": "She showed a deep understanding of psychological complexities. (INTENSELY)\n\nunderstanding __________",
-      "sentence": "She showed a deep understanding of psychological complexities.",
-      "keyWord": "INTENSELY",
-      "startOfAnswer": "understanding",
-      "correctAnswer": "intense understanding",
-      "explanation": "La palabra 'intensamente' se utiliza para intensificar el sustantivo y describe mejor el entendimiento profundo.",
+      "type": "multiple-choice",
+      "question": "However, the (4) ________ of social media has also brought new challenges.",
+      "options": ["rise","growth","surge","spread"],
+      "correctAnswer": "rise",
+      "explanation": "'The rise of' is the most natural term for the increasing influence of something.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q5",
-      "type": "key-word-transformation",
-      "question": " ()\n\n __________",
-      "correctAnswer": "querulous",
-      "explanation": "Excesivamente intensifica la queja constante que la describe.",
+      "type": "multiple-choice",
+      "question": "Algorithms now (5) ________ the content we see online.",
+      "options": ["curate","select","manage","filter"],
+      "correctAnswer": "curate",
+      "explanation": "'Curate' is the modern term for selecting and organizing content.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q6",
       "type": "multiple-choice",
-      "question": "Which word highlights someone’s inclination to cooperative behavior?",
-      "options": [
-        "Amicable",
-        "Aloof",
-        "Belligerent",
-        "Disdainful"
-      ],
-      "correctAnswer": "Amicable",
-      "explanation": "Amistoso describe a alguien que valora el comportamiento cooperativo y la cordialidad.",
+      "question": "This can create 'echo chambers' where our own views are (6) ________.",
+      "options": ["reinforced","strengthened","bolstered","backed"],
+      "correctAnswer": "reinforced",
+      "explanation": "'Reinforced' means to make a feeling or idea stronger.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q7",
-      "startOfAnswer": "intricately",
-      "keyWord": "INTRICATELY",
-      "sentence": "The philosopher had an intricate way of explaining abstract concepts.",
-      "type": "key-word-transformation",
-      "question": "The philosopher had an intricate way of explaining abstract concepts. (INTRICATELY)\n\nintricately __________",
-      "correctAnswer": "",
-      "explanation": "La palabra 'intrincadamente' se usa para describir cómo explica conceptos abstractos.",
+      "type": "multiple-choice",
+      "question": "The (7) ________ of our personal data is a growing concern for many.",
+      "options": ["privacy","security","safety","protection"],
+      "correctAnswer": "privacy",
+      "explanation": "'Privacy of data' is the core concern being discussed.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q8",
       "type": "multiple-choice",
-      "question": "How would you describe a personality known for being whimsically unconventional?",
-      "options": [
-        "Eccentric",
-        "Conventional",
-        "Predictable",
-        "Rigid"
-      ],
-      "correctAnswer": "Eccentric",
-      "explanation": "Excéntrico se refiere a alguien que es extrañamente no convencional.",
+      "question": "Cybersecurity has become a (8) ________ priority for businesses and governments.",
+      "options": ["top","prime","chief","main"],
+      "correctAnswer": "top",
+      "explanation": "'Top priority' is a standard collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q9",
-      "type": "key-word-transformation",
-      "question": "His ability to predict market trends was exceptional. (REMARKABLY)\n\nHe was remarkably __________",
-      "sentence": "His ability to predict market trends was exceptional.",
-      "keyWord": "REMARKABLY",
-      "startOfAnswer": "He was remarkably",
-      "correctAnswer": "exceptional",
-      "explanation": "La palabra 'remarkably' intensifica la habilidad excepcional que poseía.",
+      "type": "multiple-choice",
+      "question": "We must learn to (9) ________ the digital world with caution and critical thinking.",
+      "options": ["navigate","traverse","browse","surf"],
+      "correctAnswer": "navigate",
+      "explanation": "'Navigate' is often used for moving through complex systems like the internet.",
       "points": 1
     },
     {
       "id": "c2-u1-b7-q10",
-      "keyWord": "METICULOUS",
-      "sentence": "Colleagues describe her as methodical and ____.",
-      "startOfAnswer": "and meticulous",
-      "type": "key-word-transformation",
-      "question": "Colleagues describe her as methodical and ____. (METICULOUS)\n\nand meticulous __________",
-      "correctAnswer": "",
-      "explanation": "Se usa 'meticuloso' para confirmar la atención al detalle que ella tiene.",
+      "type": "multiple-choice",
+      "question": "The digital divide remains a (10) ________ barrier to global equality.",
+      "options": ["formidable","stark","daunting","imposing"],
+      "correctAnswer": "formidable",
+      "explanation": "'Formidable' describes something that inspires fear or respect through being large or powerful.",
       "points": 1
     }
   ]
@@ -882,130 +697,98 @@ export const C2_U1_BLOCK7: Exercise = {
 
 export const C2_U1_BLOCK8: Exercise = {
   "id": "c2-u1-b8",
-  "type": "grammar",
-  "title": "Block 8: Nuances of Personality & Character - Part 8",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "type": "vocabulary",
+  "title": "Part 1: The Aesthetic Experience",
+  "explanation": "Complete the text about the role of art in human life.",
   "questions": [
     {
       "id": "c2-u1-b8-q1",
       "type": "multiple-choice",
-      "question": "Which of the following adjectives best describes a person who is 'extremely enthusiastic and full of energy'?",
-      "options": [
-        "Lethargic",
-        "Vivacious",
-        "Stoic",
-        "Apathetic"
-      ],
-      "correctAnswer": "Vivacious",
-      "explanation": "Vivacious se refiere a una persona extremadamente entusiasta y llena de energía. Las otras opciones son antónimos.",
+      "question": "Art has always been a (1) ________ of human expression.",
+      "options": ["cornerstone","pillar","foundation","base"],
+      "correctAnswer": "cornerstone",
+      "explanation": "'Cornerstone' is something that is fundamental to something else.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q2",
-      "startOfAnswer": "She was an",
-      "keyWord": "ADVERB",
-      "sentence": "She was an exceptionally intelligent student.",
-      "type": "key-word-transformation",
-      "question": "She was an exceptionally intelligent student. (ADVERB)\n\nShe was an __________",
-      "correctAnswer": "exceptionally",
-      "explanation": "La palabra 'exceptionally' es un intensificador que se usa para resaltar un grado de inteligencia muy alto.",
+      "type": "multiple-choice",
+      "question": "It allows us to (2) ________ complex ideas that words alone cannot convey.",
+      "options": ["articulate","express","voice","utter"],
+      "correctAnswer": "articulate",
+      "explanation": "'Articulate' means to express an idea or feeling fluently and coherently.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q3",
-      "type": "key-word-transformation",
-      "question": "Despite being remarkably intelligent, she was also utterly humble. (ALTHOUGH)\n\nAlthough she was __________",
-      "sentence": "Despite being remarkably intelligent, she was also utterly humble.",
-      "keyWord": "ALTHOUGH",
-      "startOfAnswer": "Although she was",
-      "correctAnswer": "remarkably intelligent, she was also utterly humble",
-      "explanation": "La palabra 'Although' sirve para realizar la misma función de contraste que 'Despite'.",
+      "type": "multiple-choice",
+      "question": "The (3) ________ of beauty is often subjective and culturally dependent.",
+      "options": ["perception","notion","concept","view"],
+      "correctAnswer": "perception",
+      "explanation": "'Perception' refers to the way in which something is regarded or understood.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q4",
       "type": "multiple-choice",
-      "question": "Choose the correct adjective to describe someone with an 'extremely gloomy' disposition.",
-      "options": [
-        "Buoyant",
-        "Melancholic",
-        "Effervescent",
-        "Blithe"
-      ],
-      "correctAnswer": "Melancholic",
-      "explanation": "Melancholic describe una disposición extremadamente sombría. Las otras opciones son descripciones de actitudes alegres.",
+      "question": "Great works of art can (4) ________ the test of time.",
+      "options": ["withstand","resist","endure","survive"],
+      "correctAnswer": "withstand",
+      "explanation": "'Withstand the test of time' is the correct idiom.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q5",
-      "startOfAnswer": "Her performance was",
-      "keyWord": "ADVERB",
-      "sentence": "Her performance was incredibly impressive.",
-      "type": "key-word-transformation",
-      "question": "Her performance was incredibly impressive. (ADVERB)\n\nHer performance was __________",
-      "correctAnswer": "incredibly",
-      "explanation": "Se utiliza 'incredibly' para enfatizar la excelencia excepcional de su contribución.",
+      "type": "multiple-choice",
+      "question": "They (5) ________ to something universal in the human spirit.",
+      "options": ["appeal","resonate","speak","relate"],
+      "correctAnswer": "speak",
+      "explanation": "'Speak to' means to be relevant or significant to someone.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q6",
-      "type": "key-word-transformation",
-      "question": "He was so immensely driven that failure was not an option for him. (TOO)\n\nHe was too driven __________",
-      "sentence": "He was so immensely driven that failure was not an option for him.",
-      "keyWord": "TOO",
-      "startOfAnswer": "He was too driven",
-      "correctAnswer": "to consider failure an option",
-      "explanation": "Se utiliza 'too driven' en lugar de 'so immensely driven that' para transmitir la misma idea de imposibilidad de fracasar.",
+      "type": "multiple-choice",
+      "question": "Art can (6) ________ us to see the world from a different perspective.",
+      "options": ["prompt","induce","encourage","inspire"],
+      "correctAnswer": "prompt",
+      "explanation": "'Prompt someone to do something' is a common structure.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q7",
       "type": "multiple-choice",
-      "question": "Identify the adjective that conveys the meaning of 'unusually insightful and deeply perceptive'.",
-      "options": [
-        "Myopic",
-        "Astute",
-        "Impetuous",
-        "Blunt"
-      ],
-      "correctAnswer": "Astute",
-      "explanation": "Astute es un adjetivo que describe una capacidad de perspicacia y percepción profunda, a diferencia de los otros adjetivos.",
+      "question": "The (7) ________ between the artist and the audience is a dynamic one.",
+      "options": ["interaction","exchange","dialogue","connection"],
+      "correctAnswer": "interaction",
+      "explanation": "'Interaction' describes the reciprocal action or influence.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q8",
-      "startOfAnswer": "He is",
-      "keyWord": "ADVERB",
-      "sentence": "He is absolutely devoted to his work.",
-      "type": "key-word-transformation",
-      "question": "He is absolutely devoted to his work. (ADVERB)\n\nHe is __________",
-      "correctAnswer": "absolutely",
-      "explanation": "En este contexto, 'absolutely' se usa para enfatizar la firmeza total en sus principios.",
+      "type": "multiple-choice",
+      "question": "Some art is intended to (8) ________ established social norms.",
+      "options": ["subvert","undermine","challenge","defy"],
+      "correctAnswer": "subvert",
+      "explanation": "'Subvert' means to undermine the power and authority of an established system.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q9",
-      "type": "key-word-transformation",
-      "question": "Her decision was surprisingly prudent, considering her usual hasty nature. (WHICH)\n\nHer decision, which __________",
-      "sentence": "Her decision was surprisingly prudent, considering her usual hasty nature.",
-      "keyWord": "WHICH",
-      "startOfAnswer": "Her decision, which",
-      "correctAnswer": "is surprisingly prudent, which is unusual",
-      "explanation": "Se emplea 'which was surprisingly prudent' para introducir un contraste con su naturaleza habitual.",
+      "type": "multiple-choice",
+      "question": "The (9) ________ of art in education is often undervalued.",
+      "options": ["efficacy","utility","worth","value"],
+      "correctAnswer": "value",
+      "explanation": "'The value of something in something' is standard.",
       "points": 1
     },
     {
       "id": "c2-u1-b8-q10",
       "type": "multiple-choice",
-      "question": "What is the appropriate adjective for someone who exhibits 'overly emotional reactions'?",
-      "options": [
-        "Detached",
-        "Histrionic",
-        "Composed",
-        "Indifferent"
-      ],
-      "correctAnswer": "Histrionic",
-      "explanation": "Histrionic se refiere a una persona que muestra reacciones emocionalmente exageradas, a diferencia de las otras opciones.",
+      "question": "Ultimately, art is a (10) ________ for personal and social transformation.",
+      "options": ["vehicle","medium","channel","instrument"],
+      "correctAnswer": "vehicle",
+      "explanation": "'Vehicle for' is a common metaphorical use for a means of achieving something.",
       "points": 1
     }
   ]
@@ -1014,119 +797,97 @@ export const C2_U1_BLOCK8: Exercise = {
 export const C2_U1_BLOCK9: Exercise = {
   "id": "c2-u1-b9",
   "type": "vocabulary",
-  "title": "Block 9: Nuances of Personality & Character - Part 9",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "title": "Part 1: The Changing Workplace",
+  "explanation": "Complete the text about the impact of automation on employment.",
   "questions": [
     {
       "id": "c2-u1-b9-q1",
       "type": "multiple-choice",
-      "question": "Which of the following adjectives most accurately describes someone who is exceedingly meticulous in cultural customs?",
-      "options": [
-        "Meticulous",
-        "Scrupulous",
-        "Persnickety",
-        "Conscientious"
-      ],
-      "correctAnswer": "Persnickety",
-      "explanation": "Persnickety se refiere a una persona extremadamente particular sobre los detalles, especialmente en las costumbres.",
+      "question": "The (1) ________ of artificial intelligence is transforming the job market.",
+      "options": ["integration","adoption","incorporation","assimilation"],
+      "correctAnswer": "integration",
+      "explanation": "'Integration' refers to the action or process of integrating.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q2",
-      "type": "fill-blank",
-      "question": "Her outlook on life was shaped by her ________ optimism, which often seemed irrationally excessive.",
-      "correctAnswer": "irrepressible",
-      "explanation": "Irrepressible describe un optimismo que no se puede reprimir o controlar, especialmente cuando parece excesivo.",
+      "type": "multiple-choice",
+      "question": "Many routine tasks are now being (2) ________ by machines.",
+      "options": ["performed","executed","handled","conducted"],
+      "correctAnswer": "performed",
+      "explanation": "'Performed' is the most general and appropriate term for tasks.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q3",
       "type": "multiple-choice",
-      "question": "Which of these adjectives best describes someone who remains calm under immense pressure?",
-      "options": [
-        "Sanguine",
-        "Stoic",
-        "Frantic",
-        "Timorous"
-      ],
-      "correctAnswer": "Stoic",
-      "explanation": "Stoic describe a alguien que puede soportar dolor o dificultad sin mostrar sus sentimientos o quejas.",
+      "question": "This has (3) ________ fears about widespread unemployment.",
+      "options": ["stoked","fueled","kindled","sparked"],
+      "correctAnswer": "stoked",
+      "explanation": "'Stoked' is often used for increasing a strong emotion like fear.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q4",
-      "type": "fill-blank",
-      "question": "Despite his outwardly ________ demeanor, he harbored a deep-seated anxiety.",
-      "correctAnswer": "placid",
-      "explanation": "Placid se refiere a una calma exterior que puede ocultar sentimientos internos de ansiedad.",
+      "type": "multiple-choice",
+      "question": "However, history suggests that technology also (4) ________ new types of jobs.",
+      "options": ["creates","generates","spawns","begets"],
+      "correctAnswer": "creates",
+      "explanation": "'Creates' is the most direct and common term.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q5",
-      "type": "key-word-transformation",
-      "question": "He was extremely modest about his numerous achievements. (DOWNPLAYED)\n\nHe downplayed his __________",
-      "sentence": "He was extremely modest about his numerous achievements.",
-      "keyWord": "downplayed",
-      "startOfAnswer": "He downplayed his",
-      "correctAnswer": "the numerous achievements",
-      "explanation": "El uso de 'downplayed' implica que él restó importancia a sus logros, lo cual es una forma avanzada de expresar modestia.",
+      "type": "multiple-choice",
+      "question": "The (5) ________ is on workers to acquire new skills.",
+      "options": ["onus","burden","weight","load"],
+      "correctAnswer": "onus",
+      "explanation": "'The onus is on someone' means it is their responsibility.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q6",
-      "type": "fill-blank",
-      "question": "In a room full of vivacious characters, her ________ nature went almost unnoticed.",
-      "correctAnswer": "reticent",
-      "explanation": "Reticent describe a alguien que es reservado o que no se siente inclinado a hablar o tomar la iniciativa en situaciones sociales.",
+      "type": "multiple-choice",
+      "question": "Lifelong learning has become an (6) ________ necessity in the modern economy.",
+      "options": ["absolute","utter","total","complete"],
+      "correctAnswer": "absolute",
+      "explanation": "'Absolute necessity' is a strong collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q7",
       "type": "multiple-choice",
-      "question": "What term best describes a person who frequently experiences intense but obscure distress over something considered an inevitability?",
-      "options": [
-        "Malaise",
-        "Mania",
-        "Weltschmerz",
-        "Euphoria"
-      ],
-      "correctAnswer": "Weltschmerz",
-      "explanation": "Weltschmerz es un término alemán que describe una tristeza profunda sobre el mundo imperfecto o un estado de ánimo melancólico.",
+      "question": "Remote work has (7) ________ in popularity due to technological advancements.",
+      "options": ["surged","soared","bolstered","climbed"],
+      "correctAnswer": "surged",
+      "explanation": "'Surged' refers to a sudden powerful forward or upward movement.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q8",
-      "startOfAnswer": "Insouciant describes a person who",
-      "sentence": "Insouciant describes a person who is carefree or indifferent, possibly perceived as aloofness or insensitivity.",
-      "type": "key-word-transformation",
-      "question": "Insouciant describes a person who is carefree or indifferent, possibly perceived as aloofness or insensitivity. ()\n\nInsouciant describes a person who __________",
-      "correctAnswer": "is carefree or indifferent",
-      "explanation": "Insouciant significa despreocupado o indiferente, y puede percibirse como frialdad o insensibilidad.",
+      "type": "multiple-choice",
+      "question": "This offers greater flexibility but can also (8) ________ the lines between work and home.",
+      "options": ["blur","fade","dim","cloud"],
+      "correctAnswer": "blur",
+      "explanation": "'Blur the lines' is a common idiom.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q9",
       "type": "multiple-choice",
-      "question": "Which of the following adjectives would best describe someone with a natural inclination to display kindness toward others?",
-      "options": [
-        "Acerbic",
-        "Recalcitrant",
-        "Benevolent",
-        "Aloof"
-      ],
-      "correctAnswer": "Benevolent",
-      "explanation": "Benevolent se refiere a una disposición de bondad y generosidad hacia los demás.",
+      "question": "Soft skills like emotional intelligence are increasingly (9) ________ after by employers.",
+      "options": ["sought","looked","hunted","searched"],
+      "correctAnswer": "sought",
+      "explanation": "'Sought after' is the correct phrasal adjective.",
       "points": 1
     },
     {
       "id": "c2-u1-b9-q10",
-      "type": "key-word-transformation",
-      "question": "Despite a highly challenging situation, she maintained her unflappable attitude. (REMAINED)\n\nShe remained __________",
-      "sentence": "Despite a highly challenging situation, she maintained her unflappable attitude.",
-      "keyWord": "remained",
-      "startOfAnswer": "She remained",
-      "correctAnswer": "unflappable",
-      "explanation": "Remained unflappable significa que mantuvo la compostura a pesar de las dificultades, destacando la serenidad y el dominio propio.",
+      "type": "multiple-choice",
+      "question": "The (10) ________ of work is becoming more project-based and fluid.",
+      "options": ["nature","character","essence","spirit"],
+      "correctAnswer": "nature",
+      "explanation": "'The nature of work' refers to its inherent qualities.",
       "points": 1
     }
   ]
@@ -1134,131 +895,108 @@ export const C2_U1_BLOCK9: Exercise = {
 
 export const C2_U1_BLOCK10: Exercise = {
   "id": "c2-u1-b10",
-  "type": "grammar",
-  "title": "Block 10: Nuances of Personality & Character - Part 10",
-  "explanation": "Advanced practice for Nuances of Personality & Character",
+  "type": "vocabulary",
+  "title": "Part 1: The Moral Machine",
+  "explanation": "Complete the text about the ethical considerations of artificial intelligence.",
   "questions": [
     {
       "id": "c2-u1-b10-q1",
       "type": "multiple-choice",
-      "question": "Which of the following words is most appropriate to describe someone who is excessively willing to serve or please others?",
-      "options": [
-        "Obsequious",
-        "Boisterous",
-        "Standoffish",
-        "Indifferent"
-      ],
-      "correctAnswer": "Obsequious",
-      "explanation": "En español, 'Obsequious' se refiere a una persona servil o que adula en exceso.",
+      "question": "As AI becomes more (1) ________, ethical concerns are moving to the forefront.",
+      "options": ["pervasive","prevalent","widespread","ubiquitous"],
+      "correctAnswer": "pervasive",
+      "explanation": "'Pervasive' means spreading widely throughout an area or a group of people.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q2",
-      "type": "fill-blank",
-      "question": "Her ___ nature made her seem aloof to those around her.",
-      "correctAnswer": "detached",
-      "explanation": "En español, 'detached' significa distante o desapegado, indicando una falta de involucramiento emocional.",
+      "type": "multiple-choice",
+      "question": "We must ensure that AI systems are (2) ________ and transparent.",
+      "options": ["accountable","responsible","liable","answerable"],
+      "correctAnswer": "accountable",
+      "explanation": "'Accountable' is the standard term for being required to justify actions or decisions.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q3",
-      "type": "key-word-transformation",
-      "question": "His unusually verbose manner masked his insecurity. (TENDENCY)\n\nHis tendency __________",
-      "sentence": "His unusually verbose manner masked his insecurity.",
-      "keyWord": "tendency",
-      "correctAnswer": "to be verbose",
-      "explanation": "En español, 'tendency' significa una inclinación hacia un comportamiento o característica particular.",
-      "points": 1,
-      "startOfAnswer": "His tendency"
+      "type": "multiple-choice",
+      "question": "The (3) ________ of bias in algorithms is a significant challenge.",
+      "options": ["presence","existence","occurrence","prevalence"],
+      "correctAnswer": "presence",
+      "explanation": "'The presence of' is simple and accurate.",
+      "points": 1
     },
     {
       "id": "c2-u1-b10-q4",
       "type": "multiple-choice",
-      "question": "Select the intensifier that best emphasizes the adjective in this sentence: She was ___ aware of the subtle tensions in the room.",
-      "options": [
-        "perfectly",
-        "mildly",
-        "slightly",
-        "negligibly"
-      ],
-      "correctAnswer": "perfectly",
-      "explanation": "En español, 'perfectly' enfatiza que estaba completamente consciente.",
+      "question": "AI can (4) ________ existing social inequalities if not carefully managed.",
+      "options": ["exacerbate","aggravate","worsen","intensify"],
+      "correctAnswer": "exacerbate",
+      "explanation": "'Exacerbate' means to make a problem or bad situation worse.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q5",
-      "type": "fill-blank",
-      "question": "The professor's ___ speech conveyed deep insights into human behavior.",
-      "correctAnswer": "profound",
-      "explanation": "En español, 'profound' significa profundo, indicando algo de gran profundidad o significado.",
+      "type": "multiple-choice",
+      "question": "There is a (5) ________ debate about the use of AI in autonomous weapons.",
+      "options": ["heated","intense","fierce","vigorous"],
+      "correctAnswer": "heated",
+      "explanation": "'Heated debate' is a very common collocation.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q6",
-      "type": "key-word-transformation",
-      "question": "She exhibits a strong disdain for those who are hypocritical. (STRONGLY)\n\nShe strongly disdains __________",
-      "sentence": "She exhibits a strong disdain for those who are hypocritical.",
-      "keyWord": "strongly",
-      "correctAnswer": "them strongly",
-      "explanation": "En español, 'strongly' se usa para enfatizar la intensidad del desdén.",
-      "points": 1,
-      "startOfAnswer": "She strongly disdains"
+      "type": "multiple-choice",
+      "question": "The (6) ________ of AI on privacy is also a major area of concern.",
+      "options": ["impact","effect","influence","consequence"],
+      "correctAnswer": "impact",
+      "explanation": "'Impact on' is a strong and common way to describe effects.",
+      "points": 1
     },
     {
       "id": "c2-u1-b10-q7",
       "type": "multiple-choice",
-      "question": "Which adjective would best describe a person who is charmingly insightful yet quietly reserved?",
-      "options": [
-        "Gregarious",
-        "Taciturn",
-        "Sagacious",
-        "Obtrusive"
-      ],
-      "correctAnswer": "Sagacious",
-      "explanation": "En español, 'Sagacious' implica ser astuto o perspicaz, a menudo con una naturaleza reservada.",
+      "question": "We need clear (7) ________ to govern the development and use of AI.",
+      "options": ["frameworks","structures","systems","models"],
+      "correctAnswer": "frameworks",
+      "explanation": "'Frameworks' are the basic structures underlying a system or concept.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q8",
-      "type": "fill-blank",
-      "question": "Despite his ___ demeanor, his decisions were marked by a keen sense of fairness.",
-      "correctAnswer": "unassuming",
-      "explanation": "En español, 'unassuming' significa modesto o sin pretensiones.",
+      "type": "multiple-choice",
+      "question": "Human (8) ________ must remain central to the decision-making process.",
+      "options": ["oversight","supervision","monitoring","control"],
+      "correctAnswer": "oversight",
+      "explanation": "'Oversight' refers to the action of overseeing something.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q9",
       "type": "multiple-choice",
-      "question": "Identify the word that fits best: Her ___ confidence often led her to take bold risks in her career.",
-      "options": [
-        "unwavering",
-        "tentative",
-        "faltering",
-        "indecisive"
-      ],
-      "correctAnswer": "unwavering",
-      "explanation": "En español, 'unwavering' se refiere a una confianza firme y constante.",
+      "question": "The (9) ________ of AI should be guided by human values.",
+      "options": ["trajectory","path","course","route"],
+      "correctAnswer": "trajectory",
+      "explanation": "'Trajectory' refers to the path followed by a projectile or object, used here metaphorically for development.",
       "points": 1
     },
     {
       "id": "c2-u1-b10-q10",
-      "type": "key-word-transformation",
-      "question": "Her exceptionally meticulous nature made her an ideal candidate for the position. (METICULOUSLY)\n\nShe approached __________",
-      "sentence": "Her exceptionally meticulous nature made her an ideal candidate for the position.",
-      "keyWord": "meticulously",
-      "correctAnswer": "tasks meticulously",
-      "explanation": "En español, 'meticulously' describe la manera minuciosa en que realizaba sus tareas.",
-      "points": 1,
-      "startOfAnswer": "She approached"
+      "type": "multiple-choice",
+      "question": "Ultimately, we must ensure that AI (10) ________ the common good.",
+      "options": ["serves","benefits","supports","promotes"],
+      "correctAnswer": "serves",
+      "explanation": "'Serves the common good' is a formal and idiomatic expression.",
+      "points": 1
     }
   ]
 };
 
 export const C2_UNIT_1 = createC2Unit(
   'c2-u1',
-  'Nuances of Personality & Character',
-  'Advanced C2 unit exploring complex topics and formal language structures.',
-  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
+  'Reading & Use of English: Multiple-choice Cloze (Part 1)',
+  'Focus on collocations, phrasal verbs, and fixed phrases at C2 level.',
+  ['Identify subtle differences in meaning', 'Master high-level collocations', 'Recognize idiomatic expressions', 'Apply contextual knowledge to select the correct word'],
   [
     C2_U1_BLOCK1, C2_U1_BLOCK2, C2_U1_BLOCK3, C2_U1_BLOCK4, C2_U1_BLOCK5, C2_U1_BLOCK6, C2_U1_BLOCK7, C2_U1_BLOCK8, C2_U1_BLOCK9, C2_U1_BLOCK10
   ]

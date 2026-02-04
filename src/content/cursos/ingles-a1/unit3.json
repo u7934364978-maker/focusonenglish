@@ -4,135 +4,126 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U3",
-    "unit_title": "Countries & Nationalities",
-    "total_duration_minutes": 60
+    "unit_title": "Numbers 1-20",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Countries & Nationalities",
+      "block_id": "B3",
+      "title": "Numbers 1-20",
       "content": [
         {
           "interaction_id": "U3_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'España'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Spain"
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
             },
             {
-              "id": "o2",
-              "text": "Spanish"
+              "id": "p1",
+              "left": "Eleven",
+              "right": "Once"
             },
             {
-              "id": "o3",
-              "text": "Espanya"
+              "id": "p2",
+              "left": "Six",
+              "right": "Seis"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Español/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Spanish"
-            },
-            {
-              "id": "o2",
-              "text": "Spain"
-            },
-            {
-              "id": "o3",
-              "text": "Spaniard"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Reino Unido'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "The United Kingdom"
-            },
-            {
-              "id": "o2",
-              "text": "England"
-            },
-            {
-              "id": "o3",
-              "text": "London"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She five years old.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Británico/a'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "British"
+              "id": "w2",
+              "text": "twenty"
             },
             {
-              "id": "o2",
-              "text": "Briton"
+              "id": "w0",
+              "text": "There"
             },
             {
-              "id": "o3",
-              "text": "England"
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w1",
+              "text": "are"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estados Unidos'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "The United States"
-            },
-            {
-              "id": "o2",
-              "text": "America"
-            },
-            {
-              "id": "o3",
-              "text": "USA"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Seis",
+          "correct_answer": "Six",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Estadounidense'?",
+          "prompt_es": "¿Cómo se dice 'Diez' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "American"
+              "text": "Ten"
             },
             {
               "id": "o2",
-              "text": "United States"
+              "text": "Nineteen"
             },
             {
               "id": "o3",
-              "text": "US citizen"
+              "text": "Twelve"
             }
           ],
           "correct_answer": "o1",
@@ -140,125 +131,101 @@
         },
         {
           "interaction_id": "U3_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Francia'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "France"
+              "id": "p0",
+              "left": "Fourteen",
+              "right": "Catorce"
             },
             {
-              "id": "o2",
-              "text": "French"
+              "id": "p1",
+              "left": "Sixteen",
+              "right": "Dieciséis"
             },
             {
-              "id": "o3",
-              "text": "Paris"
+              "id": "p2",
+              "left": "Seventeen",
+              "right": "Diecisiete"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Francés/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "French"
-            },
-            {
-              "id": "o2",
-              "text": "France"
-            },
-            {
-              "id": "o3",
-              "text": "Frank"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Italia'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Italy"
-            },
-            {
-              "id": "o2",
-              "text": "Italian"
-            },
-            {
-              "id": "o3",
-              "text": "Rome"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have three pencils.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Italiano/a'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Italian"
+              "id": "w3",
+              "text": "pencils"
             },
             {
-              "id": "o2",
-              "text": "Italy"
+              "id": "w0",
+              "text": "I"
             },
             {
-              "id": "o3",
-              "text": "Italic"
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "three"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Alemania'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Germany"
-            },
-            {
-              "id": "o2",
-              "text": "German"
-            },
-            {
-              "id": "o3",
-              "text": "Berlin"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Once",
+          "correct_answer": "Eleven",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Alemán/ana'?",
+          "prompt_es": "¿Cómo se dice 'Siete' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "German"
-            },
-            {
-              "id": "o2",
-              "text": "Germany"
+              "text": "Seven"
             },
             {
               "id": "o3",
-              "text": "Germ"
+              "text": "Ten"
+            },
+            {
+              "id": "o2",
+              "text": "Nineteen"
             }
           ],
           "correct_answer": "o1",
@@ -266,125 +233,106 @@
         },
         {
           "interaction_id": "U3_I13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'China'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "China"
+              "id": "p0",
+              "left": "Five",
+              "right": "Cinco"
             },
             {
-              "id": "o2",
-              "text": "Chinese"
+              "id": "p1",
+              "left": "Seventeen",
+              "right": "Diecisiete"
             },
             {
-              "id": "o3",
-              "text": "Beijing"
+              "id": "p2",
+              "left": "Nineteen",
+              "right": "Diecinueve"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Chino/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chinese"
-            },
-            {
-              "id": "o2",
-              "text": "China"
-            },
-            {
-              "id": "o3",
-              "text": "Chin"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Japón'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Japan"
-            },
-            {
-              "id": "o2",
-              "text": "Japanese"
-            },
-            {
-              "id": "o3",
-              "text": "Tokyo"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is five years old.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Japonés/a'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Japanese"
+              "id": "w2",
+              "text": "five"
             },
             {
-              "id": "o2",
-              "text": "Japan"
+              "id": "w0",
+              "text": "She"
             },
             {
-              "id": "o3",
-              "text": "Jap"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w3",
+              "text": "years"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'México'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mexico"
-            },
-            {
-              "id": "o2",
-              "text": "Mexican"
-            },
-            {
-              "id": "o3",
-              "text": "Mexico City"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Catorce",
+          "correct_answer": "Fourteen",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mexicano/a'?",
+          "prompt_es": "¿Cómo se dice 'Ocho' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Mexican"
+              "text": "Eight"
             },
             {
               "id": "o2",
-              "text": "Mexico"
+              "text": "One"
             },
             {
               "id": "o3",
-              "text": "Mex"
+              "text": "Five"
             }
           ],
           "correct_answer": "o1",
@@ -392,985 +340,972 @@
         },
         {
           "interaction_id": "U3_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brasil'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Brazil"
+              "id": "p0",
+              "left": "Nine",
+              "right": "Nueve"
             },
             {
-              "id": "o2",
-              "text": "Brazilian"
+              "id": "p1",
+              "left": "Twenty",
+              "right": "Veinte"
             },
             {
-              "id": "o3",
-              "text": "Brasilia"
+              "id": "p2",
+              "left": "Eighteen",
+              "right": "Dieciocho"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brasileño/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Brazilian"
-            },
-            {
-              "id": "o2",
-              "text": "Brazil"
-            },
-            {
-              "id": "o3",
-              "text": "Braz"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I21",
-          "type": "matching",
-          "prompt_es": "Une los países con sus nacionalidades:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Spain",
-              "right": "Spanish"
-            },
-            {
-              "id": "p2",
-              "left": "Italy",
-              "right": "Italian"
-            },
-            {
-              "id": "p3",
-              "left": "France",
-              "right": "French"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I22",
-          "type": "matching",
-          "prompt_es": "Une los países con sus nacionalidades:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Germany",
-              "right": "German"
-            },
-            {
-              "id": "p2",
-              "left": "China",
-              "right": "Chinese"
-            },
-            {
-              "id": "p3",
-              "left": "Japan",
-              "right": "Japanese"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la nacionalidad: 'He is from London. He is ___.'",
-          "stimulus_en": "___",
-          "correct_answer": "British",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I24",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la nacionalidad: 'She is from Paris. She is ___.'",
-          "stimulus_en": "___",
-          "correct_answer": "French",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I25",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la nacionalidad: 'They are from Tokyo. They are ___.'",
-          "stimulus_en": "___",
-          "correct_answer": "Japanese",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I26",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la nacionalidad: 'I am from Madrid. I am ___.'",
-          "stimulus_en": "___",
-          "correct_answer": "Spanish",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I27",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la nacionalidad: 'He is from New York. He is ___.'",
-          "stimulus_en": "___",
-          "correct_answer": "American",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I28",
-          "type": "flashcard",
-          "prompt_es": "Países y Nacionalidades",
-          "flashcards": [
-            {
-              "front": "Spain",
-              "back": "Spanish",
-              "pronunciation": "/speɪn/ - /ˈspænɪʃ/"
-            },
-            {
-              "front": "France",
-              "back": "French",
-              "pronunciation": "/fræns/ - /frɛntʃ/"
-            },
-            {
-              "front": "Italy",
-              "back": "Italian",
-              "pronunciation": "/ˈɪtəli/ - /ɪˈtæljən/"
-            },
-            {
-              "front": "Germany",
-              "back": "German",
-              "pronunciation": "/ˈdʒɜːrməni/ - /ˈdʒɜːrmən/"
-            },
-            {
-              "front": "China",
-              "back": "Chinese",
-              "pronunciation": "/ˈtʃaɪnə/ - /ˌtʃaɪˈniːz/"
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Canadá'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Canada"
-            },
-            {
-              "id": "o2",
-              "text": "Canadian"
-            },
-            {
-              "id": "o3",
-              "text": "Canadia"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Canadiense'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Canadian"
-            },
-            {
-              "id": "o2",
-              "text": "Canada"
-            },
-            {
-              "id": "o3",
-              "text": "Canadish"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Grammar: Questions & Negatives",
-      "content": [
-        {
-          "interaction_id": "U3_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Eres español?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Are you Spanish?"
-            },
-            {
-              "id": "o2",
-              "text": "You are Spanish?"
-            },
-            {
-              "id": "o3",
-              "text": "Is you Spanish?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Es él de Francia?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Is he from France?"
-            },
-            {
-              "id": "o2",
-              "text": "He is from France?"
-            },
-            {
-              "id": "o3",
-              "text": "Are he from France?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Son ellos americanos?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Are they American?"
-            },
-            {
-              "id": "o2",
-              "text": "They are American?"
-            },
-            {
-              "id": "o3",
-              "text": "Is they American?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta con 'am', 'is' o 'are':",
-          "stimulus_en": "___ she from Italy?",
-          "correct_answer": "Is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I35",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta con 'am', 'is' o 'are':",
-          "stimulus_en": "___ you from Brazil?",
-          "correct_answer": "Are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta con 'am', 'is' o 'are':",
-          "stimulus_en": "___ I in the right class?",
-          "correct_answer": "Am",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I37",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
-            {
-              "id": "w1",
-              "text": "he"
-            },
             {
               "id": "w2",
-              "text": "Is"
+              "text": "my"
             },
             {
               "id": "w3",
-              "text": "from"
+              "text": "favorite"
             },
             {
               "id": "w4",
-              "text": "Germany"
+              "text": "number"
             },
-            {
-              "id": "w5",
-              "text": "?"
-            }
-          ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I38",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "they"
-            },
-            {
-              "id": "w2",
-              "text": "Are"
-            },
-            {
-              "id": "w3",
-              "text": "Chinese"
-            },
-            {
-              "id": "w4",
-              "text": "?"
-            }
-          ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes afirmativamente a 'Are you Italian?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yes, I am."
-            },
-            {
-              "id": "o2",
-              "text": "Yes, I'm."
-            },
-            {
-              "id": "o3",
-              "text": "Yes, I is."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U3_I40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes negativamente a 'Is he from Spain?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "No, he isn't."
-            },
-            {
-              "id": "o2",
-              "text": "No, he's not."
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U3_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de 'I am from China'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I am not from China"
-            },
-            {
-              "id": "o2",
-              "text": "I not am from China"
-            },
-            {
-              "id": "o3",
-              "text": "I no from China"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de 'She is Japanese'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "She isn't Japanese"
-            },
-            {
-              "id": "o2",
-              "text": "She's not Japanese"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de 'They are British'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "They aren't British"
-            },
-            {
-              "id": "o2",
-              "text": "They're not British"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I44",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la negación (p.ej. isn't, aren't):",
-          "stimulus_en": "We ___ American. We are Canadian.",
-          "correct_answer": "aren't",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I45",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la negación:",
-          "stimulus_en": "He ___ from Japan. He is from China.",
-          "correct_answer": "isn't",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I46",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la negación:",
-          "stimulus_en": "I ___ Spanish. I am Italian.",
-          "correct_answer": "am not",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I47",
-          "type": "true_false",
-          "prompt_es": "¿'Are they' se usa para preguntas?",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I48",
-          "type": "true_false",
-          "prompt_es": "¿'They aren't' se usa para negaciones?",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U3_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿De dónde eres?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Where are you from?"
-            },
-            {
-              "id": "o2",
-              "text": "Where you are from?"
-            },
-            {
-              "id": "o3",
-              "text": "Where is you from?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U3_I50",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿De dónde es ella?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Where is she from?"
-            },
-            {
-              "id": "o2",
-              "text": "Where she is from?"
-            },
-            {
-              "id": "o3",
-              "text": "Where are she from?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U3_I51",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿De dónde son ellos?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Where are they from?"
-            },
-            {
-              "id": "o2",
-              "text": "Where they are from?"
-            },
-            {
-              "id": "o3",
-              "text": "Where is they from?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
-        },
-        {
-          "interaction_id": "U3_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
-          "options": [
             {
               "id": "w1",
               "text": "is"
             },
             {
-              "id": "w2",
-              "text": "Where"
-            },
-            {
-              "id": "w3",
-              "text": "he"
-            },
-            {
-              "id": "w4",
-              "text": "from"
-            },
-            {
-              "id": "w5",
-              "text": "?"
+              "id": "w0",
+              "text": "Seven"
             }
           ],
           "correct_answer": [
-            "w2",
+            "w0",
             "w1",
+            "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
-          "mastery_tag": "communication"
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "U3_I53",
+          "interaction_id": "U3_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dos",
+          "correct_answer": "Two",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'What nationality is he?'?",
+          "prompt_es": "¿Cómo se dice 'Trece' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "¿De qué nacionalidad es él?"
+              "id": "o3",
+              "text": "Six"
             },
             {
               "id": "o2",
-              "text": "¿De dónde es él?"
+              "text": "Three"
             },
             {
-              "id": "o3",
-              "text": "¿Cómo es él?"
+              "id": "o1",
+              "text": "Thirteen"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nine",
+              "right": "Nueve"
+            },
+            {
+              "id": "p1",
+              "left": "Twenty",
+              "right": "Veinte"
+            },
+            {
+              "id": "p2",
+              "left": "Twelve",
+              "right": "Doce"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trece",
+          "correct_answer": "Thirteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dieciocho' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eighteen"
+            },
+            {
+              "id": "o3",
+              "text": "Six"
+            },
+            {
+              "id": "o2",
+              "text": "Five"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Two",
+              "right": "Dos"
+            },
+            {
+              "id": "p1",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p2",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are There twenty students in the class.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dos",
+          "correct_answer": "Two",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuatro' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Seven"
+            },
+            {
+              "id": "o1",
+              "text": "Four"
+            },
+            {
+              "id": "o3",
+              "text": "Seventeen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p1",
+              "left": "Eight",
+              "right": "Ocho"
+            },
+            {
+              "id": "p2",
+              "left": "Fourteen",
+              "right": "Catorce"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Seven is my favorite number.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciocho",
+          "correct_answer": "Eighteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siete' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Five"
+            },
+            {
+              "id": "o1",
+              "text": "Seven"
+            },
+            {
+              "id": "o2",
+              "text": "Twelve"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            },
+            {
+              "id": "p1",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p2",
+              "left": "Thirteen",
+              "right": "Trece"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is Seven my favorite number.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Doce",
+          "correct_answer": "Twelve",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Once' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Eight"
+            },
+            {
+              "id": "o1",
+              "text": "Eleven"
+            },
+            {
+              "id": "o2",
+              "text": "Twelve"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Six",
+              "right": "Seis"
+            },
+            {
+              "id": "p1",
+              "left": "Ten",
+              "right": "Diez"
+            },
+            {
+              "id": "p2",
+              "left": "Fourteen",
+              "right": "Catorce"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are There twenty students in the class.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuatro",
+          "correct_answer": "Four",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes a 'What nationality are you?'?",
+          "prompt_es": "¿Cómo se dice 'Ocho' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "I am Brazilian."
+              "text": "Eight"
             },
             {
               "id": "o2",
-              "text": "I am from Brazil."
+              "text": "Twenty"
             },
             {
               "id": "o3",
-              "text": "Both are okay, but A is more direct"
+              "text": "Eleven"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I55",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ you from London?'",
-          "stimulus_en": "___",
-          "correct_answer": "Are",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Two",
+              "right": "Dos"
+            },
+            {
+              "id": "p1",
+              "left": "Ten",
+              "right": "Diez"
+            },
+            {
+              "id": "p2",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I56",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'No, I ___ not.'",
-          "stimulus_en": "___",
-          "correct_answer": "am",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I57",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ he your friend?'",
-          "stimulus_en": "___",
-          "correct_answer": "Is",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I58",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'They ___ not at home.'",
-          "stimulus_en": "___",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I59",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la contracción de 'are not'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "aren't"
-            },
-            {
-              "id": "o2",
-              "text": "are'nt"
-            },
-            {
-              "id": "o3",
-              "text": "arent"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciocho",
+          "correct_answer": "Eighteen",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la contracción de 'is not'?",
+          "prompt_es": "¿Cómo se dice 'Cuatro' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "isn't"
-            },
-            {
               "id": "o2",
-              "text": "is'nt"
+              "text": "Nine"
             },
             {
               "id": "o3",
-              "text": "isnot"
+              "text": "Twelve"
+            },
+            {
+              "id": "o1",
+              "text": "Four"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Languages & World",
-      "content": [
+          "mastery_tag": "vocabulary"
+        },
         {
           "interaction_id": "U3_I61",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'idioma'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Language"
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
             },
             {
-              "id": "o2",
-              "text": "Tongue"
+              "id": "p1",
+              "left": "Eleven",
+              "right": "Once"
             },
             {
-              "id": "o3",
-              "text": "Speech"
+              "id": "p2",
+              "left": "Seventeen",
+              "right": "Diecisiete"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I62",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué idioma se habla en Brasil?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Portuguese"
-            },
-            {
-              "id": "o2",
-              "text": "Brazilian"
-            },
-            {
-              "id": "o3",
-              "text": "Spanish"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I63",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué idioma se habla en México?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Spanish"
-            },
-            {
-              "id": "o2",
-              "text": "Mexican"
-            },
-            {
-              "id": "o3",
-              "text": "English"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I three pencils.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I64",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué idioma se habla en Estados Unidos?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "English"
+              "id": "w5",
+              "text": "the"
             },
             {
-              "id": "o2",
-              "text": "American"
+              "id": "w2",
+              "text": "twenty"
             },
             {
-              "id": "o3",
-              "text": "British"
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I65",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿Qué idiomas hablas?'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What languages do you speak?"
-            },
-            {
-              "id": "o2",
-              "text": "What languages you speak?"
-            },
-            {
-              "id": "o3",
-              "text": "Which languages are you speak?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Doce",
+          "correct_answer": "Twelve",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes a 'Do you speak English?'?",
+          "prompt_es": "¿Cómo se dice 'Quince' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Yes, I do."
+              "id": "o3",
+              "text": "Two"
             },
             {
               "id": "o2",
-              "text": "Yes, I speak."
+              "text": "Three"
             },
             {
-              "id": "o3",
-              "text": "Yes, I am."
+              "id": "o1",
+              "text": "Fifteen"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I67",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes 'Un poco'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "A little bit"
+              "id": "p0",
+              "left": "Four",
+              "right": "Cuatro"
             },
             {
-              "id": "o2",
-              "text": "A small"
+              "id": "p1",
+              "left": "Nineteen",
+              "right": "Diecinueve"
             },
             {
-              "id": "o3",
-              "text": "Few"
+              "id": "p2",
+              "left": "Eight",
+              "right": "Ocho"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I68",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'No hablo francés'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I don't speak French"
-            },
-            {
-              "id": "o2",
-              "text": "I not speak French"
-            },
-            {
-              "id": "o3",
-              "text": "I no speak French"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I69",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Native speaker'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hablante nativo"
-            },
-            {
-              "id": "o2",
-              "text": "Hablante nuevo"
-            },
-            {
-              "id": "o3",
-              "text": "Hablante rápido"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mundo'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "World"
+              "id": "w0",
+              "text": "She"
             },
             {
-              "id": "o2",
-              "text": "Earth"
+              "id": "w3",
+              "text": "years"
             },
             {
-              "id": "o3",
-              "text": "Planet"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "five"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I71",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'capital'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Capital"
-            },
-            {
-              "id": "o2",
-              "text": "City"
-            },
-            {
-              "id": "o3",
-              "text": "Main City"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Uno",
+          "correct_answer": "One",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la capital de Italia?",
+          "prompt_es": "¿Cómo se dice 'Catorce' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Rome"
+              "id": "o2",
+              "text": "Seven"
             },
             {
-              "id": "o2",
-              "text": "Milan"
+              "id": "o1",
+              "text": "Fourteen"
             },
             {
               "id": "o3",
-              "text": "Venice"
+              "text": "Two"
             }
           ],
           "correct_answer": "o1",
@@ -1378,125 +1313,106 @@
         },
         {
           "interaction_id": "U3_I73",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la capital de España?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Madrid"
+              "id": "p0",
+              "left": "Nine",
+              "right": "Nueve"
             },
             {
-              "id": "o2",
-              "text": "Barcelona"
+              "id": "p1",
+              "left": "Fifteen",
+              "right": "Quince"
             },
             {
-              "id": "o3",
-              "text": "Seville"
+              "id": "p2",
+              "left": "Eight",
+              "right": "Ocho"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I74",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la capital de Francia?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Paris"
-            },
-            {
-              "id": "o2",
-              "text": "Lyon"
-            },
-            {
-              "id": "o3",
-              "text": "Marseille"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I75",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la capital de Alemania?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Berlin"
-            },
-            {
-              "id": "o2",
-              "text": "Munich"
-            },
-            {
-              "id": "o3",
-              "text": "Hamburg"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She five years old.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I76",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la capital de Japón?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Tokyo"
+              "id": "w3",
+              "text": "years"
             },
             {
-              "id": "o2",
-              "text": "Osaka"
+              "id": "w4",
+              "text": "old"
             },
             {
-              "id": "o3",
-              "text": "Kyoto"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w0",
+              "text": "She"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I77",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Europa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Europe"
-            },
-            {
-              "id": "o2",
-              "text": "Europia"
-            },
-            {
-              "id": "o3",
-              "text": "Euro"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trece",
+          "correct_answer": "Thirteen",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Asia'?",
+          "prompt_es": "¿Cómo se dice 'Diecisiete' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Six"
+            },
+            {
               "id": "o1",
-              "text": "Asia"
+              "text": "Seventeen"
             },
             {
               "id": "o2",
-              "text": "Asian"
-            },
-            {
-              "id": "o3",
-              "text": "Asiatic"
+              "text": "Ten"
             }
           ],
           "correct_answer": "o1",
@@ -1504,312 +1420,208 @@
         },
         {
           "interaction_id": "U3_I79",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'América'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "America"
-            },
-            {
-              "id": "o2",
-              "text": "American"
-            },
-            {
-              "id": "o3",
-              "text": "Americas"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I80",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'África'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Africa"
-            },
-            {
-              "id": "o2",
-              "text": "African"
-            },
-            {
-              "id": "o3",
-              "text": "Afric"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Games & Review",
-      "content": [
-        {
-          "interaction_id": "U3_I81",
-          "type": "word-search",
-          "prompt_es": "Encuentra países y nacionalidades:",
-          "words": [
-            "SPAIN",
-            "ITALY",
-            "FRANCE",
-            "GERMAN",
-            "CHINA",
-            "JAPAN",
-            "BRAZIL",
-            "CANADA"
-          ],
-          "gridSize": 10,
-          "clues": [
-            {
-              "word": "SPAIN",
-              "clue": "País de Madrid"
-            },
-            {
-              "word": "ITALY",
-              "clue": "País de Roma"
-            },
-            {
-              "word": "FRANCE",
-              "clue": "País de París"
-            },
-            {
-              "word": "GERMAN",
-              "clue": "Nacionalidad de Alemania"
-            },
-            {
-              "word": "CHINA",
-              "clue": "País de Pekín"
-            },
-            {
-              "word": "JAPAN",
-              "clue": "País de Tokio"
-            },
-            {
-              "word": "BRAZIL",
-              "clue": "País de Brasilia"
-            },
-            {
-              "word": "CANADA",
-              "clue": "País de Ottawa"
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I82",
-          "type": "crossword",
-          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
-          "items": [
-            {
-              "word": "PASSPORT",
-              "clue": "Traducción de: pasaporte",
-              "direction": "across",
-              "row": 10,
-              "col": 6
-            },
-            {
-              "word": "LANGUAGE",
-              "clue": "Traducción de: idioma",
-              "direction": "down",
-              "row": 5,
-              "col": 7
-            },
-            {
-              "word": "CHINESE",
-              "clue": "Traducción de: Chino/a",
-              "direction": "across",
-              "row": 12,
-              "col": 1
-            },
-            {
-              "word": "GERMANY",
-              "clue": "Traducción de: Berlin",
-              "direction": "across",
-              "row": 7,
-              "col": 2
-            },
-            {
-              "word": "MEXICAN",
-              "clue": "Traducción de: Mexicano/a",
-              "direction": "down",
-              "row": 8,
-              "col": 1
-            },
-            {
-              "word": "CANADA",
-              "clue": "Traducción de: Canadá",
-              "direction": "down",
-              "row": 10,
-              "col": 4
-            },
-            {
-              "word": "POLISH",
-              "clue": "Traducción de: polaco/a",
-              "direction": "down",
-              "row": 10,
-              "col": 10
-            },
-            {
-              "word": "AFRICA",
-              "clue": "Traducción de: África",
-              "direction": "down",
-              "row": 8,
-              "col": 12
-            },
-            {
-              "word": "MEXICO",
-              "clue": "Traducción de: México",
-              "direction": "across",
-              "row": 1,
-              "col": 13
-            },
-            {
-              "word": "WORLD",
-              "clue": "Traducción de: mundo",
-              "direction": "down",
-              "row": 0,
-              "col": 18
-            }
-          ],
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I83",
           "type": "matching",
-          "prompt_es": "Une el país con su capital:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
             {
+              "id": "p0",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
               "id": "p1",
-              "left": "UK",
-              "right": "London"
+              "left": "Ten",
+              "right": "Diez"
             },
             {
               "id": "p2",
-              "left": "Japan",
-              "right": "Tokyo"
-            },
-            {
-              "id": "p3",
-              "left": "Germany",
-              "right": "Berlin"
+              "left": "Eleven",
+              "right": "Once"
             }
           ],
           "correct_answer": {
+            "p0": "p0",
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p2": "p2"
           },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I84",
-          "type": "true_false",
-          "prompt_es": "¿Se dice 'He are from Mexico'?",
-          "correct_answer": false,
-          "feedback_incorrect_es": "Incorrecto. Se dice 'He IS from Mexico'.",
+          "interaction_id": "U3_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I three pencils.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "sister"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Veinte",
+          "correct_answer": "Twenty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ocho' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o3",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o1",
+              "text": "Eight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I85",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Where is she from?"
+              "id": "p0",
+              "left": "Three",
+              "right": "Tres"
             },
             {
-              "id": "o2",
-              "text": "Where are she from?"
+              "id": "p1",
+              "left": "One",
+              "right": "Uno"
             },
             {
-              "id": "o3",
-              "text": "Where she from is?"
+              "id": "p2",
+              "left": "Six",
+              "right": "Seis"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I86",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'australiano/a'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Australian"
-            },
-            {
-              "id": "o2",
-              "text": "Australia"
-            },
-            {
-              "id": "o3",
-              "text": "Austral"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I87",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué idioma se habla en Australia?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "English"
-            },
-            {
-              "id": "o2",
-              "text": "Australian"
-            },
-            {
-              "id": "o3",
-              "text": "Austrian"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U3_I88",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'They ___ from Russia. They are from Poland.'",
-          "stimulus_en": "___",
-          "correct_answer": "aren't",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
           "mastery_tag": "grammar"
         },
         {
+          "interaction_id": "U3_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have three pencils.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
           "interaction_id": "U3_I89",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Is he ___? (¿Es él alemán?)'",
-          "stimulus_en": "___",
-          "correct_answer": "German",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciséis",
+          "correct_answer": "Sixteen",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'polaco/a'?",
+          "prompt_es": "¿Cómo se dice 'Veinte' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Polish"
-            },
-            {
               "id": "o2",
-              "text": "Poland"
+              "text": "Fifteen"
             },
             {
               "id": "o3",
-              "text": "Polian"
+              "text": "Seventeen"
+            },
+            {
+              "id": "o1",
+              "text": "Twenty"
             }
           ],
           "correct_answer": "o1",
@@ -1817,125 +1629,116 @@
         },
         {
           "interaction_id": "U3_I91",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Are you from around here?'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "¿Eres de por aquí?"
+              "id": "p0",
+              "left": "Seventeen",
+              "right": "Diecisiete"
             },
             {
-              "id": "o2",
-              "text": "¿Eres de allí?"
+              "id": "p1",
+              "left": "Seven",
+              "right": "Siete"
             },
             {
-              "id": "o3",
-              "text": "¿A dónde vas?"
+              "id": "p2",
+              "left": "Nine",
+              "right": "Nueve"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I92",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'No soy de aquí'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I am not from here"
-            },
-            {
-              "id": "o2",
-              "text": "I not from here"
-            },
-            {
-              "id": "o3",
-              "text": "I no from here"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I93",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'extranjero'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Foreigner"
-            },
-            {
-              "id": "o2",
-              "text": "Strange"
-            },
-            {
-              "id": "o3",
-              "text": "Outside"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I three pencils.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I94",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'viaje'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Trip / Journey"
+              "id": "w5",
+              "text": "the"
             },
             {
-              "id": "o2",
-              "text": "Travel"
+              "id": "w4",
+              "text": "in"
             },
             {
-              "id": "o3",
-              "text": "Way"
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w0",
+              "text": "There"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I95",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Have a safe trip'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Ten un buen viaje (seguro)"
-            },
-            {
-              "id": "o2",
-              "text": "Ten un viaje rápido"
-            },
-            {
-              "id": "o3",
-              "text": "Guarda tu viaje"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinco",
+          "correct_answer": "Five",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pasaporte'?",
+          "prompt_es": "¿Cómo se dice 'Doce' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Passport"
+              "text": "Twelve"
             },
             {
               "id": "o2",
-              "text": "Pass"
+              "text": "Fifteen"
             },
             {
               "id": "o3",
-              "text": "ID card"
+              "text": "Eight"
             }
           ],
           "correct_answer": "o1",
@@ -1943,87 +1746,3631 @@
         },
         {
           "interaction_id": "U3_I97",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tarjeta de identificación'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "ID card"
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
             },
             {
-              "id": "o2",
-              "text": "Identify card"
+              "id": "p1",
+              "left": "Fifteen",
+              "right": "Quince"
             },
             {
-              "id": "o3",
-              "text": "Personal card"
+              "id": "p2",
+              "left": "Ten",
+              "right": "Diez"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I98",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'visa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Visa"
-            },
-            {
-              "id": "o2",
-              "text": "Permit"
-            },
-            {
-              "id": "o3",
-              "text": "Ticket"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Seven is my favorite number.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diecinueve",
+          "correct_answer": "Nineteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Tourism'?",
+          "prompt_es": "¿Cómo se dice 'Seis' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Turismo"
+              "text": "Six"
             },
             {
               "id": "o2",
-              "text": "Turista"
+              "text": "Two"
             },
             {
               "id": "o3",
-              "text": "Viaje"
+              "text": "Eleven"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U3_I100",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'soy un turista'?",
-          "options": [
+          "interaction_id": "U3_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "I am a tourist"
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
             },
             {
+              "id": "p1",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p2",
+              "left": "Twelve",
+              "right": "Doce"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is five years old.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diez",
+          "correct_answer": "Ten",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I108",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Catorce' en inglés?",
+          "options": [
+            {
               "id": "o2",
-              "text": "I am a tourism"
+              "text": "Seventeen"
             },
             {
               "id": "o3",
-              "text": "I am tourist"
+              "text": "Sixteen"
+            },
+            {
+              "id": "o1",
+              "text": "Fourteen"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ten",
+              "right": "Diez"
+            },
+            {
+              "id": "p1",
+              "left": "Fifteen",
+              "right": "Quince"
+            },
+            {
+              "id": "p2",
+              "left": "Twenty",
+              "right": "Veinte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Seis",
+          "correct_answer": "Six",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diez' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Four"
+            },
+            {
+              "id": "o1",
+              "text": "Ten"
+            },
+            {
+              "id": "o2",
+              "text": "Sixteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Ten",
+              "right": "Diez"
+            },
+            {
+              "id": "p1",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            },
+            {
+              "id": "p2",
+              "left": "Thirteen",
+              "right": "Trece"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            },
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Nueve",
+          "correct_answer": "Nine",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Catorce' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o3",
+              "text": "Two"
+            },
+            {
+              "id": "o1",
+              "text": "Fourteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fifteen",
+              "right": "Quince"
+            },
+            {
+              "id": "p1",
+              "left": "Seventeen",
+              "right": "Diecisiete"
+            },
+            {
+              "id": "p2",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are There twenty students in the class.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "one"
+            },
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diez",
+          "correct_answer": "Ten",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trece' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Thirteen"
+            },
+            {
+              "id": "o2",
+              "text": "Nineteen"
+            },
+            {
+              "id": "o3",
+              "text": "Nine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Two",
+              "right": "Dos"
+            },
+            {
+              "id": "p1",
+              "left": "Eight",
+              "right": "Ocho"
+            },
+            {
+              "id": "p2",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is Seven my favorite number.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinco",
+          "correct_answer": "Five",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Uno' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nine"
+            },
+            {
+              "id": "o2",
+              "text": "Seven"
+            },
+            {
+              "id": "o1",
+              "text": "One"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Twelve",
+              "right": "Doce"
+            },
+            {
+              "id": "p1",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p2",
+              "left": "Eleven",
+              "right": "Once"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I three pencils.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diecisiete",
+          "correct_answer": "Seventeen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuatro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "One"
+            },
+            {
+              "id": "o2",
+              "text": "Eighteen"
+            },
+            {
+              "id": "o1",
+              "text": "Four"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fifteen",
+              "right": "Quince"
+            },
+            {
+              "id": "p1",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p2",
+              "left": "Ten",
+              "right": "Diez"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diecisiete",
+          "correct_answer": "Seventeen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quince' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Four"
+            },
+            {
+              "id": "o1",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o2",
+              "text": "Nine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nine",
+              "right": "Nueve"
+            },
+            {
+              "id": "p1",
+              "left": "Seventeen",
+              "right": "Diecisiete"
+            },
+            {
+              "id": "p2",
+              "left": "Fourteen",
+              "right": "Catorce"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is five years old.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diecisiete",
+          "correct_answer": "Seventeen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tres' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Eight"
+            },
+            {
+              "id": "o3",
+              "text": "Ten"
+            },
+            {
+              "id": "o1",
+              "text": "Three"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I151",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p1",
+              "left": "Twelve",
+              "right": "Doce"
+            },
+            {
+              "id": "p2",
+              "left": "Eight",
+              "right": "Ocho"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "years"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinco",
+          "correct_answer": "Five",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Catorce' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Twelve"
+            },
+            {
+              "id": "o1",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o2",
+              "text": "Ten"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            },
+            {
+              "id": "p1",
+              "left": "Twelve",
+              "right": "Doce"
+            },
+            {
+              "id": "p2",
+              "left": "Fifteen",
+              "right": "Quince"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Siete",
+          "correct_answer": "Seven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Doce' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Sixteen"
+            },
+            {
+              "id": "o3",
+              "text": "Nineteen"
+            },
+            {
+              "id": "o1",
+              "text": "Twelve"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            },
+            {
+              "id": "p1",
+              "left": "Two",
+              "right": "Dos"
+            },
+            {
+              "id": "p2",
+              "left": "Four",
+              "right": "Cuatro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuatro",
+          "correct_answer": "Four",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Catorce' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Three"
+            },
+            {
+              "id": "o1",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o3",
+              "text": "Ten"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p1",
+              "left": "Seventeen",
+              "right": "Diecisiete"
+            },
+            {
+              "id": "p2",
+              "left": "Seven",
+              "right": "Siete"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "years"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Catorce",
+          "correct_answer": "Fourteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diecinueve' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o1",
+              "text": "Nineteen"
+            },
+            {
+              "id": "o3",
+              "text": "Eight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            },
+            {
+              "id": "p1",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p2",
+              "left": "One",
+              "right": "Uno"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is Seven my favorite number.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w3",
+              "text": "years"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Diecinueve",
+          "correct_answer": "Nineteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Trece' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Seven"
+            },
+            {
+              "id": "o1",
+              "text": "Thirteen"
+            },
+            {
+              "id": "o3",
+              "text": "Two"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p1",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p2",
+              "left": "Eleven",
+              "right": "Once"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Uno",
+          "correct_answer": "One",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diez' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o1",
+              "text": "Ten"
+            },
+            {
+              "id": "o2",
+              "text": "Nineteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Six",
+              "right": "Seis"
+            },
+            {
+              "id": "p1",
+              "left": "Twelve",
+              "right": "Doce"
+            },
+            {
+              "id": "p2",
+              "left": "Twenty",
+              "right": "Veinte"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciséis",
+          "correct_answer": "Sixteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dieciocho' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Nine"
+            },
+            {
+              "id": "o3",
+              "text": "Eleven"
+            },
+            {
+              "id": "o1",
+              "text": "Eighteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Seven",
+              "right": "Siete"
+            },
+            {
+              "id": "p1",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p2",
+              "left": "Three",
+              "right": "Tres"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is five years old.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Seis",
+          "correct_answer": "Six",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diecinueve' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Eighteen"
+            },
+            {
+              "id": "o1",
+              "text": "Nineteen"
+            },
+            {
+              "id": "o2",
+              "text": "Eleven"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eight",
+              "right": "Ocho"
+            },
+            {
+              "id": "p1",
+              "left": "Eleven",
+              "right": "Once"
+            },
+            {
+              "id": "p2",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I201",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She five years old.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I202",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "years"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I203",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciséis",
+          "correct_answer": "Sixteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Doce' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "One"
+            },
+            {
+              "id": "o2",
+              "text": "Eighteen"
+            },
+            {
+              "id": "o1",
+              "text": "Twelve"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Six",
+              "right": "Seis"
+            },
+            {
+              "id": "p1",
+              "left": "Three",
+              "right": "Tres"
+            },
+            {
+              "id": "p2",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She five years old.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "years"
+            },
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "old"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinco",
+          "correct_answer": "Five",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuatro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Twelve"
+            },
+            {
+              "id": "o2",
+              "text": "Three"
+            },
+            {
+              "id": "o1",
+              "text": "Four"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p1",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            },
+            {
+              "id": "p2",
+              "left": "Thirteen",
+              "right": "Trece"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is five years old.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Veinte",
+          "correct_answer": "Twenty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diecinueve' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Nineteen"
+            },
+            {
+              "id": "o3",
+              "text": "Eleven"
+            },
+            {
+              "id": "o2",
+              "text": "One"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p1",
+              "left": "Ten",
+              "right": "Diez"
+            },
+            {
+              "id": "p2",
+              "left": "Four",
+              "right": "Cuatro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "He is (siete) ________.",
+          "correct_answer": "seven",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have three pencils.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Once",
+          "correct_answer": "Eleven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Once' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eleven"
+            },
+            {
+              "id": "o3",
+              "text": "Three"
+            },
+            {
+              "id": "o2",
+              "text": "Twenty"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p1",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p2",
+              "left": "Six",
+              "right": "Seis"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are There twenty students in the class.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "old"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "years"
+            },
+            {
+              "id": "w2",
+              "text": "five"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Trece",
+          "correct_answer": "Thirteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quince' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o2",
+              "text": "Sixteen"
+            },
+            {
+              "id": "o3",
+              "text": "Four"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            },
+            {
+              "id": "p1",
+              "left": "Twenty",
+              "right": "Veinte"
+            },
+            {
+              "id": "p2",
+              "left": "Five",
+              "right": "Cinco"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Once",
+          "correct_answer": "Eleven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seis' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Ten"
+            },
+            {
+              "id": "o1",
+              "text": "Six"
+            },
+            {
+              "id": "o2",
+              "text": "Two"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p1",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p2",
+              "left": "Four",
+              "right": "Cuatro"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"are There twenty students in the class.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Siete",
+          "correct_answer": "Seven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Quince' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nineteen"
+            },
+            {
+              "id": "o1",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o2",
+              "text": "Sixteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            },
+            {
+              "id": "p1",
+              "left": "Three",
+              "right": "Tres"
+            },
+            {
+              "id": "p2",
+              "left": "Six",
+              "right": "Seis"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"There are twenty students in the class.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Veinte",
+          "correct_answer": "Twenty",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diez' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ten"
+            },
+            {
+              "id": "o3",
+              "text": "Two"
+            },
+            {
+              "id": "o2",
+              "text": "Nine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            },
+            {
+              "id": "p1",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p2",
+              "left": "Two",
+              "right": "Dos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She five years old.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciocho",
+          "correct_answer": "Eighteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dieciséis' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o3",
+              "text": "Eighteen"
+            },
+            {
+              "id": "o1",
+              "text": "Sixteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            },
+            {
+              "id": "p1",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            },
+            {
+              "id": "p2",
+              "left": "Six",
+              "right": "Seis"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Tres",
+          "correct_answer": "Three",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I258",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siete' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o1",
+              "text": "Seven"
+            },
+            {
+              "id": "o2",
+              "text": "Eight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p1",
+              "left": "Seven",
+              "right": "Siete"
+            },
+            {
+              "id": "p2",
+              "left": "Fifteen",
+              "right": "Quince"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"is She five years old.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "three"
+            },
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Once",
+          "correct_answer": "Eleven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ocho' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Eleven"
+            },
+            {
+              "id": "o2",
+              "text": "Five"
+            },
+            {
+              "id": "o1",
+              "text": "Eight"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Two",
+              "right": "Dos"
+            },
+            {
+              "id": "p1",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            },
+            {
+              "id": "p2",
+              "left": "Thirteen",
+              "right": "Trece"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w2",
+              "text": "one"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciocho",
+          "correct_answer": "Eighteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Seis' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Two"
+            },
+            {
+              "id": "o3",
+              "text": "One"
+            },
+            {
+              "id": "o1",
+              "text": "Six"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p1",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p2",
+              "left": "Two",
+              "right": "Dos"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I am (diez) ________ years old.",
+          "correct_answer": "ten",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"She is five years old.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "one"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "sister"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dieciocho",
+          "correct_answer": "Eighteen",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Tres' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o3",
+              "text": "Four"
+            },
+            {
+              "id": "o1",
+              "text": "Three"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eleven",
+              "right": "Once"
+            },
+            {
+              "id": "p1",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            },
+            {
+              "id": "p2",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "I have (uno) ________ apple.",
+          "correct_answer": "one",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Once",
+          "correct_answer": "Eleven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Siete' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Seven"
+            },
+            {
+              "id": "o3",
+              "text": "Sixteen"
+            },
+            {
+              "id": "o2",
+              "text": "Thirteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p1",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p2",
+              "left": "Sixteen",
+              "right": "Dieciséis"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "Seven"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Once",
+          "correct_answer": "Eleven",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Two"
+            },
+            {
+              "id": "o2",
+              "text": "Eleven"
+            },
+            {
+              "id": "o3",
+              "text": "Twelve"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Eight",
+              "right": "Ocho"
+            },
+            {
+              "id": "p1",
+              "left": "Ten",
+              "right": "Diez"
+            },
+            {
+              "id": "p2",
+              "left": "One",
+              "right": "Uno"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "She has (dos) ________ brothers.",
+          "correct_answer": "two",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"have I one sister.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "pencils"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "three"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinco",
+          "correct_answer": "Five",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuatro' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Nine"
+            },
+            {
+              "id": "o2",
+              "text": "Three"
+            },
+            {
+              "id": "o1",
+              "text": "Four"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p1",
+              "left": "Eight",
+              "right": "Ocho"
+            },
+            {
+              "id": "p2",
+              "left": "Eleven",
+              "right": "Once"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There are (cinco) ________ students.",
+          "correct_answer": "five",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I have one sister.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "students"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w6",
+              "text": "class"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cinco",
+          "correct_answer": "Five",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Diecinueve' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Eleven"
+            },
+            {
+              "id": "o3",
+              "text": "Fourteen"
+            },
+            {
+              "id": "o1",
+              "text": "Nineteen"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }

@@ -1323,6 +1323,17 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 </div>
               )}
             </div>
+
+            {/* Show correction if wrong order */}
+            {feedback && interaction.correct_answer === false && interaction.correct_order && (
+              <div className="bg-indigo-50 p-6 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
+                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">Orden Correcto:</p>
+                <p className="text-indigo-900 font-black text-xl italic leading-relaxed">
+                  "{interaction.correct_order}"
+                </p>
+              </div>
+            )}
+
             <div className="grid grid-cols-1 gap-6">
               <button 
                 onClick={() => setSelectedOption(true)}

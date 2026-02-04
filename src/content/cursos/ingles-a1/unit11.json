@@ -4,135 +4,116 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U11",
-    "unit_title": "Places in Town",
-    "total_duration_minutes": 60
+    "unit_title": "Telling the Time",
+    "total_duration_minutes": 120
   },
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Urban Vocabulary",
+      "block_id": "B11",
+      "title": "Telling the Time",
       "content": [
         {
           "interaction_id": "U11_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'supermercado'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Supermarket"
+              "id": "p0",
+              "left": "Quarter",
+              "right": "Cuarto"
             },
             {
-              "id": "o2",
-              "text": "Shop"
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
             },
             {
-              "id": "o3",
-              "text": "Market"
+              "id": "p2",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'parque'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Park"
-            },
-            {
-              "id": "o2",
-              "text": "Garden"
-            },
-            {
-              "id": "o3",
-              "text": "Square"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'banco' (entidad financiera)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bank"
-            },
-            {
-              "id": "o2",
-              "text": "Bench"
-            },
-            {
-              "id": "o3",
-              "text": "Office"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"wake I up at seven o'clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hospital'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Hospital"
+              "id": "w3",
+              "text": "at"
             },
             {
-              "id": "o2",
-              "text": "Clinic"
+              "id": "w1",
+              "text": "movie"
             },
             {
-              "id": "o3",
-              "text": "Pharmacy"
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cine'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cinema (UK) / Movie theater (US)"
-            },
-            {
-              "id": "o2",
-              "text": "Theatre"
-            },
-            {
-              "id": "o3",
-              "text": "Stadium"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'restaurante'?",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Quarter"
+            },
+            {
               "id": "o1",
-              "text": "Restaurant"
+              "text": "Watch"
             },
             {
               "id": "o2",
-              "text": "Cafe"
-            },
-            {
-              "id": "o3",
-              "text": "Bar"
+              "text": "Hour"
             }
           ],
           "correct_answer": "o1",
@@ -140,125 +121,101 @@
         },
         {
           "interaction_id": "U11_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'escuela'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "School"
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o2",
-              "text": "Library"
+              "id": "p1",
+              "left": "Time",
+              "right": "Hora"
             },
             {
-              "id": "o3",
-              "text": "College"
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'biblioteca'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Library"
-            },
-            {
-              "id": "o2",
-              "text": "Bookshop"
-            },
-            {
-              "id": "o3",
-              "text": "Athenaeum"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser) ________ five o'clock.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'farmacia'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pharmacy / Chemist's / Drugstore"
-            },
-            {
-              "id": "o2",
-              "text": "Health shop"
-            },
-            {
-              "id": "o3",
-              "text": "Medicine store"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'museo'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Museum"
+              "id": "w1",
+              "text": "half"
             },
             {
-              "id": "o2",
-              "text": "Gallery"
+              "id": "w2",
+              "text": "past"
             },
             {
-              "id": "o3",
-              "text": "Exhibition"
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w3",
+              "text": "nine"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estación de tren'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Train station"
-            },
-            {
-              "id": "o2",
-              "text": "Bus station"
-            },
-            {
-              "id": "o3",
-              "text": "Airport"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj",
+          "correct_answer": "Clock",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'parada de autobús'?",
+          "prompt_es": "¿Cómo se dice 'Segundo' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Bus stop"
-            },
-            {
-              "id": "o2",
-              "text": "Bus station"
+              "text": "Second"
             },
             {
               "id": "o3",
-              "text": "Bus park"
+              "text": "Watch"
+            },
+            {
+              "id": "o2",
+              "text": "Hour"
             }
           ],
           "correct_answer": "o1",
@@ -266,125 +223,101 @@
         },
         {
           "interaction_id": "U11_I13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'iglesia'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Church"
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "o2",
-              "text": "Cathedral"
+              "id": "p1",
+              "left": "Time",
+              "right": "Hora"
             },
             {
-              "id": "o3",
-              "text": "Temple"
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'comisaría de policía'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Police station"
-            },
-            {
-              "id": "o2",
-              "text": "Police office"
-            },
-            {
-              "id": "o3",
-              "text": "Cops house"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'parque de bomberos'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fire station"
-            },
-            {
-              "id": "o2",
-              "text": "Fire house"
-            },
-            {
-              "id": "o3",
-              "text": "Fire place"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"at Look the clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'plaza'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Square"
+              "id": "w2",
+              "text": "past"
             },
             {
-              "id": "o2",
-              "text": "Place"
+              "id": "w1",
+              "text": "half"
             },
             {
-              "id": "o3",
-              "text": "Park"
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w3",
+              "text": "nine"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'calle'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Street"
-            },
-            {
-              "id": "o2",
-              "text": "Road"
-            },
-            {
-              "id": "o3",
-              "text": "Avenue"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj de pulsera",
+          "correct_answer": "Watch",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'avenida'?",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Avenue"
+              "id": "o3",
+              "text": "Quarter"
             },
             {
               "id": "o2",
-              "text": "Street"
+              "text": "Minute"
             },
             {
-              "id": "o3",
-              "text": "Path"
+              "id": "o1",
+              "text": "Half"
             }
           ],
           "correct_answer": "o1",
@@ -392,609 +325,529 @@
         },
         {
           "interaction_id": "U11_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ayuntamiento'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Town Hall / City Hall"
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o2",
-              "text": "Mayor's house"
+              "id": "p1",
+              "left": "Clock",
+              "right": "Reloj"
             },
             {
-              "id": "o3",
-              "text": "Public office"
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'oficina de correos'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Post office"
-            },
-            {
-              "id": "o2",
-              "text": "Mail station"
-            },
-            {
-              "id": "o3",
-              "text": "Letter box"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I21",
-          "type": "matching",
-          "prompt_es": "Une los lugares:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Bakery",
-              "right": "Panadería"
-            },
-            {
-              "id": "p2",
-              "left": "Butcher's",
-              "right": "Carnicería"
-            },
-            {
-              "id": "p3",
-              "left": "Greengrocer's",
-              "right": "Frutería"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"half It's past nine.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I22",
-          "type": "matching",
-          "prompt_es": "Une los lugares de ocio:",
-          "pairs": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
             {
-              "id": "p1",
-              "left": "Gym",
-              "right": "Gimnasio"
+              "id": "w3",
+              "text": "clock"
             },
             {
-              "id": "p2",
-              "left": "Swimming pool",
-              "right": "Piscina"
+              "id": "w1",
+              "text": "at"
             },
             {
-              "id": "p3",
-              "left": "Stadium",
-              "right": "Estadio"
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I go to the ___ (biblioteca) to study.'",
-          "stimulus_en": "___",
-          "correct_answer": "library",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Hour",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I24",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'There is a new ___ (cine) in the city center.'",
-          "stimulus_en": "___",
-          "correct_answer": "cinema",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Half"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            },
+            {
+              "id": "o1",
+              "text": "Clock"
+            }
+          ],
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I25",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I need to go to the ___ (banco) to get money.'",
-          "stimulus_en": "___",
-          "correct_answer": "bank",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Prepositions of Place",
-      "content": [
-        {
-          "interaction_id": "U11_I26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'al lado de'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Next to / Beside"
+              "id": "p0",
+              "left": "Quarter",
+              "right": "Cuarto"
             },
             {
-              "id": "o2",
-              "text": "Opposite"
+              "id": "p1",
+              "left": "Clock",
+              "right": "Reloj"
             },
             {
-              "id": "o3",
-              "text": "Between"
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser) ________ five o'clock.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'enfrente de' (cara a cara)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Opposite"
-            },
-            {
-              "id": "o2",
-              "text": "In front of"
-            },
-            {
-              "id": "o3",
-              "text": "Behind"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'delante de'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "In front of"
+              "id": "w1",
+              "text": "movie"
             },
             {
-              "id": "o2",
-              "text": "Opposite"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o3",
-              "text": "Behind"
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'detrás de'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Behind"
-            },
-            {
-              "id": "o2",
-              "text": "In front of"
-            },
-            {
-              "id": "o3",
-              "text": "Under"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Hour",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'entre' (dos cosas)?",
+          "prompt_es": "¿Cómo se dice 'Segundo' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Between"
+              "id": "o3",
+              "text": "Clock"
             },
             {
               "id": "o2",
-              "text": "Among"
+              "text": "Time"
             },
             {
-              "id": "o3",
-              "text": "Next to"
+              "id": "o1",
+              "text": "Second"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'en la esquina de'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "On the corner of"
+              "id": "p0",
+              "left": "Half",
+              "right": "Media"
             },
             {
-              "id": "o2",
-              "text": "In the middle of"
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o3",
-              "text": "At the end of"
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cerca de'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Near / Close to"
-            },
-            {
-              "id": "o2",
-              "text": "Far from"
-            },
-            {
-              "id": "o3",
-              "text": "Away"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'lejos de'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Far from"
-            },
-            {
-              "id": "o2",
-              "text": "Near"
-            },
-            {
-              "id": "o3",
-              "text": "Close to"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Look at the clock.\"",
+          "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The bank is ___ (al lado de) the post office.'",
-          "stimulus_en": "___",
-          "correct_answer": "next to",
-          "mastery_tag": "grammar"
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "clock"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I35",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The cinema is ___ (enfrente de) the park.'",
-          "stimulus_en": "___",
-          "correct_answer": "opposite",
-          "mastery_tag": "grammar"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj de pulsera",
+          "correct_answer": "Watch",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The library is ___ (entre) the school and the cafe.'",
-          "stimulus_en": "___",
-          "correct_answer": "between",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Half"
+            },
+            {
+              "id": "o3",
+              "text": "Second"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I37",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'el hospital está cerca del parque'",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "w1",
-              "text": "is"
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "w2",
-              "text": "The"
+              "id": "p1",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "w3",
-              "text": "hospital"
-            },
-            {
-              "id": "w4",
-              "text": "near"
-            },
-            {
-              "id": "w5",
-              "text": "park"
-            },
-            {
-              "id": "w6",
-              "text": "the"
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
             }
           ],
-          "correct_answer": [
-            "w2",
-            "w3",
-            "w1",
-            "w4",
-            "w6",
-            "w5"
-          ],
-          "mastery_tag": "grammar"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I38",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿dónde está la estación de tren?'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w2",
-              "text": "Where"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "train"
-            },
-            {
-              "id": "w5",
-              "text": "station"
-            },
-            {
-              "id": "w6",
-              "text": "?"
-            }
-          ],
-          "correct_answer": [
-            "w2",
-            "w1",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "communication"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Turn left'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gira a la izquierda"
-            },
-            {
-              "id": "o2",
-              "text": "Gira a la derecha"
-            },
-            {
-              "id": "o3",
-              "text": "Sigue recto"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Look at the clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Turn right'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Gira a la derecha"
+              "id": "w5",
+              "text": "o'clock"
             },
             {
-              "id": "o2",
-              "text": "Gira a la izquierda"
+              "id": "w1",
+              "text": "wake"
             },
             {
-              "id": "o3",
-              "text": "Para"
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Go straight on'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sigue recto"
-            },
-            {
-              "id": "o2",
-              "text": "Gira"
-            },
-            {
-              "id": "o3",
-              "text": "Cruza"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Cross the street'?",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Time"
+            },
+            {
               "id": "o1",
-              "text": "Cruza la calle"
+              "text": "Watch"
             },
             {
               "id": "o2",
-              "text": "Para en la calle"
-            },
-            {
-              "id": "o3",
-              "text": "Mira la calle"
+              "text": "Second"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Está en la primera a la derecha'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "It's the first on the right."
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "o2",
-              "text": "It's the one right."
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o3",
-              "text": "Go right first."
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'Está al final de la calle'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's at the end of the street."
-            },
-            {
-              "id": "o2",
-              "text": "It's the finish street."
-            },
-            {
-              "id": "o3",
-              "text": "End the street."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I45",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices 'No está lejos'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It's not far."
-            },
-            {
-              "id": "o2",
-              "text": "It's near not."
-            },
-            {
-              "id": "o3",
-              "text": "Far is not."
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"at Look the clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'Excuse me'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Disculpe / Perdona (para llamar la atención)"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "o2",
-              "text": "Lo siento (para pedir perdón)"
+              "id": "w1",
+              "text": "movie"
             },
             {
-              "id": "o3",
-              "text": "Gracias"
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w3",
+              "text": "at"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "communication"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas educadamente por un lugar?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Excuse me, can you tell me the way to...?"
-            },
-            {
-              "id": "o2",
-              "text": "Where is...?"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "communication"
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Media",
+          "correct_answer": "Half",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'letrero / señal'?",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sign"
-            },
-            {
               "id": "o2",
-              "text": "Signal"
+              "text": "Second"
             },
             {
               "id": "o3",
-              "text": "Mark"
+              "text": "Time"
+            },
+            {
+              "id": "o1",
+              "text": "Half"
             }
           ],
           "correct_answer": "o1",
@@ -1002,131 +855,101 @@
         },
         {
           "interaction_id": "U11_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'semáforo'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Traffic lights"
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o2",
-              "text": "Street lights"
+              "id": "p1",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "o3",
-              "text": "Car lights"
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I50",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paso de cebra'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Zebra crossing / Pedestrian crossing"
-            },
-            {
-              "id": "o2",
-              "text": "Walk way"
-            },
-            {
-              "id": "o3",
-              "text": "Street crossing"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Describing the Town",
-      "content": [
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
         {
           "interaction_id": "U11_I51",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ruidoso'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Noisy"
-            },
-            {
-              "id": "o2",
-              "text": "Quiet"
-            },
-            {
-              "id": "o3",
-              "text": "Busy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I52",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tranquilo'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Quiet / Peaceful"
+              "id": "w1",
+              "text": "half"
             },
             {
-              "id": "o2",
-              "text": "Noisy"
+              "id": "w3",
+              "text": "nine"
             },
             {
-              "id": "o3",
-              "text": "Boring"
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w2",
+              "text": "past"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I53",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'concurrido / muy ocupado'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Busy / Crowded"
-            },
-            {
-              "id": "o2",
-              "text": "Empty"
-            },
-            {
-              "id": "o3",
-              "text": "Quiet"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'moderno'?",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Modern"
-            },
-            {
               "id": "o2",
-              "text": "Old"
+              "text": "Half"
             },
             {
               "id": "o3",
-              "text": "Antique"
+              "text": "Watch"
+            },
+            {
+              "id": "o1",
+              "text": "Time"
             }
           ],
           "correct_answer": "o1",
@@ -1134,129 +957,111 @@
         },
         {
           "interaction_id": "U11_I55",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'antiguo / viejo'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Old / Ancient"
+              "id": "p0",
+              "left": "Time",
+              "right": "Hora"
             },
             {
-              "id": "o2",
-              "text": "Modern"
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
             },
             {
-              "id": "o3",
-              "text": "New"
+              "id": "p2",
+              "left": "Clock",
+              "right": "Reloj"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I56",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seguro'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Safe"
-            },
-            {
-              "id": "o2",
-              "text": "Dangerous"
-            },
-            {
-              "id": "o3",
-              "text": "Sure"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I57",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'peligroso'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dangerous"
-            },
-            {
-              "id": "o2",
-              "text": "Safe"
-            },
-            {
-              "id": "o3",
-              "text": "Bad"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"half It's past nine.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I58",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'bonito'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Pretty / Beautiful"
+              "id": "w4",
+              "text": "is"
             },
             {
-              "id": "o2",
-              "text": "Ugly"
+              "id": "w0",
+              "text": "A"
             },
             {
-              "id": "o3",
-              "text": "Nice"
+              "id": "w5",
+              "text": "9:45"
             },
             {
-              "id": "o4",
-              "text": "All except B"
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I59",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'feo'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Ugly"
-            },
-            {
-              "id": "o2",
-              "text": "Nice"
-            },
-            {
-              "id": "o3",
-              "text": "Bad"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj",
+          "correct_answer": "Clock",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'limpio'?",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Second"
+            },
+            {
               "id": "o1",
-              "text": "Clean"
+              "text": "Clock"
             },
             {
               "id": "o2",
-              "text": "Dirty"
-            },
-            {
-              "id": "o3",
-              "text": "Clear"
+              "text": "Hour"
             }
           ],
           "correct_answer": "o1",
@@ -1264,125 +1069,106 @@
         },
         {
           "interaction_id": "U11_I61",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sucio'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Dirty"
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "o2",
-              "text": "Clean"
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o3",
-              "text": "Messy"
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I62",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'barrio'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Neighbourhood (UK) / Neighborhood (US)"
-            },
-            {
-              "id": "o2",
-              "text": "City center"
-            },
-            {
-              "id": "o3",
-              "text": "Town"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I63",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'centro de la ciudad'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "City center / Downtown (US)"
-            },
-            {
-              "id": "o2",
-              "text": "Middle city"
-            },
-            {
-              "id": "o3",
-              "text": "Town Hall"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"at Look the clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I64",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'afueras'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Suburbs / Outskirts"
+              "id": "w2",
+              "text": "starts"
             },
             {
-              "id": "o2",
-              "text": "Outside"
+              "id": "w1",
+              "text": "movie"
             },
             {
-              "id": "o3",
-              "text": "Near town"
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I65",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'puente'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bridge"
-            },
-            {
-              "id": "o2",
-              "text": "Road"
-            },
-            {
-              "id": "o3",
-              "text": "River"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Hour",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'río'?",
+          "prompt_es": "¿Cómo se dice 'Segundo' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Clock"
+            },
+            {
               "id": "o1",
-              "text": "River"
+              "text": "Second"
             },
             {
               "id": "o2",
-              "text": "Lake"
-            },
-            {
-              "id": "o3",
-              "text": "Sea"
+              "text": "Minute"
             }
           ],
           "correct_answer": "o1",
@@ -1390,125 +1176,101 @@
         },
         {
           "interaction_id": "U11_I67",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'edificio'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Building"
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
             },
             {
-              "id": "o2",
-              "text": "House"
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
             },
             {
-              "id": "o3",
-              "text": "Construction"
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I68",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rascacielos'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Skyscraper"
-            },
-            {
-              "id": "o2",
-              "text": "Sky building"
-            },
-            {
-              "id": "o3",
-              "text": "Tall house"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I69",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'monumento'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Monument"
-            },
-            {
-              "id": "o2",
-              "text": "Statue"
-            },
-            {
-              "id": "o3",
-              "text": "History"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I70",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estatua'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Statue"
+              "id": "w0",
+              "text": "Look"
             },
             {
-              "id": "o2",
-              "text": "Figure"
+              "id": "w3",
+              "text": "clock"
             },
             {
-              "id": "o3",
-              "text": "Stone man"
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I71",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'parque infantil'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Playground"
-            },
-            {
-              "id": "o2",
-              "text": "Kid park"
-            },
-            {
-              "id": "o3",
-              "text": "Play area"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fuente'?",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fountain"
-            },
-            {
-              "id": "o2",
-              "text": "Water"
+              "text": "Clock"
             },
             {
               "id": "o3",
-              "text": "Spring"
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
             }
           ],
           "correct_answer": "o1",
@@ -1516,299 +1278,208 @@
         },
         {
           "interaction_id": "U11_I73",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'aparcamiento'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Car park (UK) / Parking lot (US)"
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "o2",
-              "text": "Car place"
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
             },
             {
-              "id": "o3",
-              "text": "Garage"
+              "id": "p2",
+              "left": "Minute",
+              "right": "Minuto"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I74",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'London is a very ___ (concurrida) city.'",
-          "stimulus_en": "___",
-          "correct_answer": "busy",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I75",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'My street is very ___ (tranquila) at night.'",
-          "stimulus_en": "___",
-          "correct_answer": "quiet",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Games & Review",
-      "content": [
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
         {
           "interaction_id": "U11_I76",
-          "type": "word-search",
-          "prompt_es": "Encuentra lugares de la ciudad:",
-          "words": [
-            "BANK",
-            "PARK",
-            "SCHOOL",
-            "CINEMA",
-            "MUSEUM",
-            "LIBRARY",
-            "STREET",
-            "CHURCH"
-          ],
-          "gridSize": 10,
-          "clues": [
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
             {
-              "word": "BANK",
-              "clue": "Banco"
+              "id": "w0",
+              "text": "It's"
             },
             {
-              "word": "PARK",
-              "clue": "Parque"
+              "id": "w2",
+              "text": "past"
             },
             {
-              "word": "SCHOOL",
-              "clue": "Escuela"
+              "id": "w3",
+              "text": "nine"
             },
             {
-              "word": "CINEMA",
-              "clue": "Cine"
-            },
-            {
-              "word": "MUSEUM",
-              "clue": "Museo"
-            },
-            {
-              "word": "LIBRARY",
-              "clue": "Biblioteca"
-            },
-            {
-              "word": "STREET",
-              "clue": "Calle"
-            },
-            {
-              "word": "CHURCH",
-              "clue": "Iglesia"
+              "id": "w1",
+              "text": "half"
             }
           ],
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I77",
-          "type": "crossword",
-          "prompt_es": "Completa el crucigrama con el vocabulario de la unidad:",
-          "items": [
-            {
-              "word": "RESTAURANT",
-              "clue": "Traducción de: restaurante",
-              "direction": "across",
-              "row": 10,
-              "col": 5
-            },
-            {
-              "word": "BUILDING",
-              "clue": "Traducción de: edificio",
-              "direction": "down",
-              "row": 9,
-              "col": 10
-            },
-            {
-              "word": "OPPOSITE",
-              "clue": "Traducción de: Enfrente de",
-              "direction": "down",
-              "row": 4,
-              "col": 14
-            },
-            {
-              "word": "BAKERY",
-              "clue": "Traducción de: Panadería",
-              "direction": "down",
-              "row": 6,
-              "col": 5
-            },
-            {
-              "word": "STREET",
-              "clue": "Traducción de: calle",
-              "direction": "across",
-              "row": 8,
-              "col": 14
-            },
-            {
-              "word": "MUSEUM",
-              "clue": "Traducción de: museo",
-              "direction": "down",
-              "row": 5,
-              "col": 17
-            },
-            {
-              "word": "RIVER",
-              "clue": "Traducción de: río",
-              "direction": "across",
-              "row": 14,
-              "col": 9
-            },
-            {
-              "word": "HOTEL",
-              "clue": "Traducción de: hotel",
-              "direction": "across",
-              "row": 12,
-              "col": 6
-            },
-            {
-              "word": "SAFE",
-              "clue": "Traducción de: seguro",
-              "direction": "across",
-              "row": 7,
-              "col": 4
-            },
-            {
-              "word": "UGLY",
-              "clue": "Traducción de: feo",
-              "direction": "across",
-              "row": 16,
-              "col": 9
-            }
-          ],
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I78",
-          "type": "matching",
-          "prompt_es": "Une las preposiciones:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
             {
-              "id": "p1",
-              "left": "Next to",
-              "right": "Al lado de"
+              "id": "o3",
+              "text": "Minute"
             },
             {
-              "id": "p2",
-              "left": "Opposite",
-              "right": "Enfrente de"
+              "id": "o1",
+              "text": "Time"
             },
             {
-              "id": "p3",
-              "left": "Behind",
-              "right": "Detrás de"
+              "id": "o2",
+              "text": "Quarter"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "grammar"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I79",
-          "type": "true_false",
-          "prompt_es": "¿'Library' significa 'librería' (donde compras libros)?",
-          "correct_answer": false,
-          "feedback_correct_es": "¡Exacto! 'Library' es biblioteca. Librería es 'bookshop'.",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I80",
-          "type": "true_false",
-          "prompt_es": "¿'Town Hall' es donde vive el alcalde?",
-          "correct_answer": true,
-          "feedback_correct_es": "Correcto, es el Ayuntamiento.",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I81",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'centro comercial'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shopping center / Mall (US)"
-            },
-            {
-              "id": "o2",
-              "text": "Commercial place"
-            },
-            {
-              "id": "o3",
-              "text": "Buying center"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"wake I up at seven o'clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I82",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mercado'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Market"
+              "id": "w1",
+              "text": "movie"
             },
             {
-              "id": "o2",
-              "text": "Supermarket"
+              "id": "w2",
+              "text": "starts"
             },
             {
-              "id": "o3",
-              "text": "Shop"
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I83",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'quiosco de prensa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Newsagent's"
-            },
-            {
-              "id": "o2",
-              "text": "Paper shop"
-            },
-            {
-              "id": "o3",
-              "text": "Press station"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'zapatería'?",
+          "prompt_es": "¿Cómo se dice 'Minuto' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Shoe shop"
+              "text": "Minute"
             },
             {
               "id": "o2",
-              "text": "Shoes store"
+              "text": "Clock"
             },
             {
               "id": "o3",
-              "text": "Footwear shop"
+              "text": "Quarter"
             }
           ],
           "correct_answer": "o1",
@@ -1816,125 +1487,101 @@
         },
         {
           "interaction_id": "U11_I85",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'tienda de ropa'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Clothes shop"
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
             },
             {
-              "id": "o2",
-              "text": "Dressing store"
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
             },
             {
-              "id": "o3",
-              "text": "Fashion shop"
+              "id": "p2",
+              "left": "Clock",
+              "right": "Reloj"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I86",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'peluquería'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hairdresser's / Barber shop"
-            },
-            {
-              "id": "o2",
-              "text": "Hair salon"
-            },
-            {
-              "id": "o3",
-              "text": "Both are correct"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I87",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hotel'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hotel"
-            },
-            {
-              "id": "o2",
-              "text": "Hostel"
-            },
-            {
-              "id": "o3",
-              "text": "Inn"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The movie starts at eight.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I88",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'aeropuerto'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Airport"
+              "id": "w0",
+              "text": "It's"
             },
             {
-              "id": "o2",
-              "text": "Air station"
+              "id": "w3",
+              "text": "nine"
             },
             {
-              "id": "o3",
-              "text": "Plane park"
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w1",
+              "text": "half"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I89",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estación de autobuses'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bus station"
-            },
-            {
-              "id": "o2",
-              "text": "Bus stop"
-            },
-            {
-              "id": "o3",
-              "text": "Bus terminal"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Media",
+          "correct_answer": "Half",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'gasolinera'?",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Petrol station (UK) / Gas station (US)"
-            },
-            {
-              "id": "o2",
-              "text": "Fuel station"
+              "text": "Time"
             },
             {
               "id": "o3",
-              "text": "Car food"
+              "text": "Half"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
             }
           ],
           "correct_answer": "o1",
@@ -1942,125 +1589,101 @@
         },
         {
           "interaction_id": "U11_I91",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'centro de salud'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Health center / Medical center"
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             },
             {
-              "id": "o2",
-              "text": "Small hospital"
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
             },
             {
-              "id": "o3",
-              "text": "Doctor place"
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I92",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'estadio'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Stadium"
-            },
-            {
-              "id": "o2",
-              "text": "Sport place"
-            },
-            {
-              "id": "o3",
-              "text": "Match park"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I93",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'teatro'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Theatre"
-            },
-            {
-              "id": "o2",
-              "text": "Cinema"
-            },
-            {
-              "id": "o3",
-              "text": "Drama house"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I94",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'castillo'?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "o1",
-              "text": "Castle"
+              "id": "w1",
+              "text": "at"
             },
             {
-              "id": "o2",
-              "text": "Palace"
+              "id": "w3",
+              "text": "clock"
             },
             {
-              "id": "o3",
-              "text": "Tower"
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U11_I95",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'palacio'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Palace"
-            },
-            {
-              "id": "o2",
-              "text": "Castle"
-            },
-            {
-              "id": "o3",
-              "text": "Kings house"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fuente' (de agua)?",
+          "prompt_es": "¿Cómo se dice 'Cuarto' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fountain"
+              "text": "Quarter"
             },
             {
               "id": "o2",
-              "text": "Source"
+              "text": "Clock"
             },
             {
               "id": "o3",
-              "text": "Water head"
+              "text": "Time"
             }
           ],
           "correct_answer": "o1",
@@ -2068,83 +1691,3662 @@
         },
         {
           "interaction_id": "U11_I97",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'monumento'?",
-          "options": [
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "o1",
-              "text": "Monument"
+              "id": "p0",
+              "left": "Time",
+              "right": "Hora"
             },
             {
-              "id": "o2",
-              "text": "History"
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
             },
             {
-              "id": "o3",
-              "text": "Old thing"
+              "id": "p2",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U11_I98",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mapa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Map"
-            },
-            {
-              "id": "o2",
-              "text": "Guide"
-            },
-            {
-              "id": "o3",
-              "text": "Plan"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I99",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'turista'?",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A quarter to ten is 9:45.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Minute"
+            },
+            {
               "id": "o1",
-              "text": "Tourist"
+              "text": "Hour"
             },
             {
               "id": "o2",
-              "text": "Visitor"
-            },
-            {
-              "id": "o3",
-              "text": "Traveler"
+              "text": "Watch"
             }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U11_I100",
+          "interaction_id": "U11_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"wake I up at seven o'clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "clock"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'oficina de turismo'?",
+          "prompt_es": "¿Cómo se dice 'Cuarto' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Tourist information office"
-            },
-            {
-              "id": "o2",
-              "text": "Travel office"
+              "text": "Quarter"
             },
             {
               "id": "o3",
-              "text": "Tourist house"
+              "text": "Clock"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"wake I up at seven o'clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "clock"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj",
+          "correct_answer": "Clock",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Minute"
+            },
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Hour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Time",
+              "right": "Hora"
+            },
+            {
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser) ________ five o'clock.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"It's half past nine.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Second"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o1",
+              "text": "Clock"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"wake I up at seven o'clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Segundo",
+          "correct_answer": "Second",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o3",
+              "text": "Clock"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "Minute",
+              "right": "Minuto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The movie starts at eight.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "clock"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Clock"
+            },
+            {
+              "id": "o3",
+              "text": "Minute"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"It's half past nine.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Minuto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Hour"
+            },
+            {
+              "id": "o1",
+              "text": "Minute"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            },
+            {
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Half"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o3",
+              "text": "Second"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p1",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            },
+            {
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A quarter to ten is 9:45.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj de pulsera",
+          "correct_answer": "Watch",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Minuto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o1",
+              "text": "Minute"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I151",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p1",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"It's half past nine.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Media",
+          "correct_answer": "Half",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Second"
+            },
+            {
+              "id": "o1",
+              "text": "Clock"
+            },
+            {
+              "id": "o3",
+              "text": "Watch"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            },
+            {
+              "id": "p1",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A quarter to ten is 9:45.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Minute"
+            },
+            {
+              "id": "o3",
+              "text": "Quarter"
+            },
+            {
+              "id": "o1",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Look at the clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Second"
+            },
+            {
+              "id": "o1",
+              "text": "Half"
+            },
+            {
+              "id": "o3",
+              "text": "Clock"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Time",
+              "right": "Hora"
+            },
+            {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is a quarter (para) ________ eight.",
+          "correct_answer": "to",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"half It's past nine.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Watch"
+            },
+            {
+              "id": "o2",
+              "text": "Clock"
+            },
+            {
+              "id": "o1",
+              "text": "Time"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A quarter to ten is 9:45.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Segundo",
+          "correct_answer": "Second",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Minuto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Second"
+            },
+            {
+              "id": "o1",
+              "text": "Minute"
+            },
+            {
+              "id": "o2",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser) ________ five o'clock.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Minute"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            },
+            {
+              "id": "o1",
+              "text": "Watch"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Time",
+              "right": "Hora"
+            },
+            {
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"at Look the clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "clock"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Time"
+            },
+            {
+              "id": "o1",
+              "text": "Clock"
+            },
+            {
+              "id": "o2",
+              "text": "Hour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Minute",
+              "right": "Minuto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"A quarter to ten is 9:45.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w3",
+              "text": "nine"
+            },
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w1",
+              "text": "half"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Media",
+          "correct_answer": "Half",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Quarter"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o1",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Time",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I201",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I202",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I203",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Second"
+            },
+            {
+              "id": "o2",
+              "text": "Minute"
+            },
+            {
+              "id": "o1",
+              "text": "Clock"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Quarter"
+            },
+            {
+              "id": "o3",
+              "text": "Watch"
+            },
+            {
+              "id": "o1",
+              "text": "Hour"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"quarter A to ten is 9:45.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "clock"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Half"
+            },
+            {
+              "id": "o2",
+              "text": "Hour"
+            },
+            {
+              "id": "o1",
+              "text": "Time"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"It's half past nine.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "nine"
+            },
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w1",
+              "text": "half"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Hour",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Segundo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Watch"
+            },
+            {
+              "id": "o1",
+              "text": "Second"
+            },
+            {
+              "id": "o3",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            },
+            {
+              "id": "p1",
+              "left": "Time",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"quarter A to ten is 9:45.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj",
+          "correct_answer": "Clock",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Segundo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Clock"
+            },
+            {
+              "id": "o1",
+              "text": "Second"
+            },
+            {
+              "id": "o2",
+              "text": "Quarter"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p1",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"wake I up at seven o'clock.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Minuto",
+          "correct_answer": "Minute",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Quarter"
+            },
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o3",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser) ________ five o'clock.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Look at the clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Quarter"
+            },
+            {
+              "id": "o2",
+              "text": "Clock"
+            },
+            {
+              "id": "o1",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"It's half past nine.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "quarter"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Half"
+            },
+            {
+              "id": "o1",
+              "text": "Watch"
+            },
+            {
+              "id": "o3",
+              "text": "Quarter"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The movie starts at eight.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Time"
+            },
+            {
+              "id": "o1",
+              "text": "Watch"
+            },
+            {
+              "id": "o3",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The movie starts at eight.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Segundo",
+          "correct_answer": "Second",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I258",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Minuto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Clock"
+            },
+            {
+              "id": "o1",
+              "text": "Minute"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Quarter",
+              "right": "Cuarto"
+            },
+            {
+              "id": "p1",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w1",
+              "text": "half"
+            },
+            {
+              "id": "w3",
+              "text": "nine"
+            },
+            {
+              "id": "w0",
+              "text": "It's"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj",
+          "correct_answer": "Clock",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watch"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            },
+            {
+              "id": "o3",
+              "text": "Quarter"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p1",
+              "left": "Hour",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It (ser) ________ five o'clock.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "wake"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "up"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock"
+            },
+            {
+              "id": "w4",
+              "text": "seven"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj de pulsera",
+          "correct_answer": "Watch",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Minuto' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Watch"
+            },
+            {
+              "id": "o2",
+              "text": "Time"
+            },
+            {
+              "id": "o1",
+              "text": "Minute"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p1",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p2",
+              "left": "Half",
+              "right": "Media"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "What time (ser) ________ it?",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"half It's past nine.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "clock"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Look"
+            },
+            {
+              "id": "w1",
+              "text": "at"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Hora' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o3",
+              "text": "Clock"
+            },
+            {
+              "id": "o2",
+              "text": "Watch"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Watch",
+              "right": "Reloj de pulsera"
+            },
+            {
+              "id": "p1",
+              "left": "Time",
+              "right": "Hora"
+            },
+            {
+              "id": "p2",
+              "left": "Second",
+              "right": "Segundo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"movie The starts at eight.\"",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "It's"
+            },
+            {
+              "id": "w3",
+              "text": "nine"
+            },
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w1",
+              "text": "half"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuarto",
+          "correct_answer": "Quarter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watch"
+            },
+            {
+              "id": "o3",
+              "text": "Clock"
+            },
+            {
+              "id": "o2",
+              "text": "Half"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p2",
+              "left": "Time",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "nine"
+            },
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "w1",
+              "text": "half"
+            },
+            {
+              "id": "w0",
+              "text": "It's"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Segundo",
+          "correct_answer": "Second",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Quarter"
+            },
+            {
+              "id": "o3",
+              "text": "Minute"
+            },
+            {
+              "id": "o1",
+              "text": "Watch"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clock",
+              "right": "Reloj"
+            },
+            {
+              "id": "p1",
+              "left": "Half",
+              "right": "Media"
+            },
+            {
+              "id": "p2",
+              "left": "Hour",
+              "right": "Hora"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"It's half past nine.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w1",
+              "text": "movie"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Reloj de pulsera",
+          "correct_answer": "Watch",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Reloj de pulsera' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Hour"
+            },
+            {
+              "id": "o3",
+              "text": "Half"
+            },
+            {
+              "id": "o1",
+              "text": "Watch"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Minute",
+              "right": "Minuto"
+            },
+            {
+              "id": "p1",
+              "left": "Second",
+              "right": "Segundo"
+            },
+            {
+              "id": "p2",
+              "left": "Quarter",
+              "right": "Cuarto"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "It is half (pasado) ________ six.",
+          "correct_answer": "past",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"I wake up at seven o'clock.\"",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U11_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w5",
+              "text": "9:45"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "quarter"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U11_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Hora",
+          "correct_answer": "Time",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U11_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Media' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Second"
+            },
+            {
+              "id": "o2",
+              "text": "Hour"
+            },
+            {
+              "id": "o1",
+              "text": "Half"
             }
           ],
           "correct_answer": "o1",

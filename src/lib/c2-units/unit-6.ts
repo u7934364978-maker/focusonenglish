@@ -5,123 +5,97 @@ import { createC2Unit } from './utils';
 export const C2_U6_BLOCK1: Exercise = {
   "id": "c2-u6-b1",
   "type": "vocabulary",
-  "title": "Block 1: Communication in the Digital Age - Part 1",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 1",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b1-q1",
       "type": "multiple-choice",
-      "question": "Which statement best illustrates the complexity in conveying nuanced sentiments through communication?",
-      "options": [
-        "Precise language use",
-        "Deceptive clarity of intention",
-        "Ambiguity in non-verbal cues",
-        "Cultural differences in expression"
-      ],
-      "correctAnswer": "Ambiguity in non-verbal cues",
-      "explanation": "La ambigüedad en las señales no verbales a menudo lleva a malentendidos debido a la interpretación subjetiva de las mismas.",
+      "question": "He was (1) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q2",
-      "type": "fill-blank",
-      "question": "Efforts to improve the clarity of messages are often hampered by the way the information is _________ .",
-      "correctAnswer": "perceived",
-      "explanation": "Se percibe que la percepción afecta a cómo se interpreta un mensaje más que a cómo puede haber sido elaborado originalmente.",
+      "type": "multiple-choice",
+      "question": "The company has (2) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q3",
-      "type": "key-word-transformation",
-      "question": "Despite extensive training, miscommunications seem inherent to many diplomatic exchanges. (LIKELY)\n\nMiscommunications are likely to __________",
-      "sentence": "Despite extensive training, miscommunications seem inherent to many diplomatic exchanges.",
-      "keyWord": "LIKELY",
-      "startOfAnswer": "Miscommunications are likely to",
-      "correctAnswer": "be inherent to many diplomatic exchanges",
-      "explanation": "Las falencias comunicativas existen usualmente en intercambios diplomáticos, independientemente del entrenamiento recibido.",
+      "type": "multiple-choice",
+      "question": "Such a move would be (3) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q4",
       "type": "multiple-choice",
-      "question": "In the expression of opinions, personal biases __________ regarded as inevitable.",
-      "options": [
-        "are",
-        "have",
-        "were",
-        "been"
-      ],
-      "correctAnswer": "are",
-      "explanation": "El uso del presente implica que los sesgos personales son un componente permanente en la expresión de opiniones.",
+      "question": "The results (4) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q5",
-      "startOfAnswer": "are often",
-      "keyWord": "OVERLOOK",
-      "sentence": "In communication, subtle gestures are often overlooked.",
-      "type": "key-word-transformation",
-      "question": "In communication, subtle gestures are often overlooked. (OVERLOOK)\n\nare often __________",
-      "correctAnswer": "overlooked",
-      "explanation": "Las gestos sutiles muchas veces son ignorados por el público asistente, perdiéndose los matices de la comunicación.",
+      "type": "multiple-choice",
+      "question": "She has an (5) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q6",
-      "type": "key-word-transformation",
-      "question": "Many were not fully aware of the underlying messages in her speech. (TO)\n\nThe underlying messages in her speech __________",
-      "sentence": "Many were not fully aware of the underlying messages in her speech.",
-      "keyWord": "TO",
-      "startOfAnswer": "The underlying messages in her speech",
-      "correctAnswer": "were not fully apparent to many",
-      "explanation": "El mensaje subyacente de un discurso puede ser sutil, y pocos lo perciben completamente.",
+      "type": "multiple-choice",
+      "question": "The policy was (6) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q7",
       "type": "multiple-choice",
-      "question": "Which factor is most likely to determine how effectively communication is ________?",
-      "options": [
-        "interpreted",
-        "designed",
-        "conceived",
-        "negotiated"
-      ],
-      "correctAnswer": "interpreted",
-      "explanation": "La interpretación de la comunicación es crucial, ya que determina el entendimiento del mensaje por parte de los receptores.",
+      "question": "It is (7) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q8",
-      "type": "fill-blank",
-      "question": "The intricate details of the proposal were ________ lost amidst heated debate.",
-      "correctAnswer": "entirely",
-      "explanation": "En un debate acalorado, los detalles complejos de una propuesta pueden ser completamente perdidos.",
+      "type": "multiple-choice",
+      "question": "The (8) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q9",
-      "type": "key-word-transformation",
-      "question": "Repeated expressions of interest in the project were genuine, it was assumed. (BE)\n\nExpressions of interest in the project __________",
-      "sentence": "Repeated expressions of interest in the project were genuine, it was assumed.",
-      "keyWord": "BE",
-      "startOfAnswer": "Expressions of interest in the project",
-      "correctAnswer": "were assumed to be genuine",
-      "explanation": "Se presume que las repetidas expresiones de interés en el proyecto son auténticas.",
+      "type": "multiple-choice",
+      "question": "His success is a (9) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b1-q10",
       "type": "multiple-choice",
-      "question": "The phenomenon of digital communication has been profoundly __________ the landscape of interpersonal interaction.",
-      "options": [
-        "altering",
-        "shaping",
-        "transforming",
-        "building"
-      ],
-      "correctAnswer": "transforming",
-      "explanation": "La comunicación digital ha cambiado de manera profunda e irreversible cómo interactúan las personas entre sí.",
+      "question": "The (10) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     }
   ]
@@ -129,121 +103,98 @@ export const C2_U6_BLOCK1: Exercise = {
 
 export const C2_U6_BLOCK2: Exercise = {
   "id": "c2-u6-b2",
-  "type": "grammar",
-  "title": "Block 2: Communication in the Digital Age - Part 2",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "type": "vocabulary",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 2",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b2-q1",
       "type": "multiple-choice",
-      "question": "Which of the following sentences correctly uses the passive voice?",
-      "options": [
-        "The proposal has unexpectedly been turned down by the committee.",
-        "The committee has unexpectedly turned down the proposal.",
-        "The proposal turned unexpectedly down the committee.",
-        "Unexpectedly turning down was the committee by the proposal."
-      ],
-      "correctAnswer": "The proposal has unexpectedly been turned down by the committee.",
-      "explanation": "En la voz pasiva, el sujeto recibe la acción, y la forma 'has been turned down' es un uso correcto del pasivo.",
+      "question": "The company has (1) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q2",
-      "type": "fill-blank",
-      "question": "Complete the sentence: The book _______ (expect) to be published next year.",
-      "correctAnswer": "is expected",
-      "explanation": "La estructura pasiva requerida para esta oración es 'is expected' ya que se espera que el libro sea publicado por alguien.",
+      "type": "multiple-choice",
+      "question": "Such a move would be (2) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q3",
-      "type": "key-word-transformation",
-      "question": "They say that communication has improved significantly. (SAID)\n\nCommunication is said __________",
-      "sentence": "They say that communication has improved significantly.",
-      "keyWord": "SAID",
-      "startOfAnswer": "Communication is said",
-      "correctAnswer": "to have improved significantly",
-      "explanation": "En transformaciones pasivas, 'They say' se puede reestructurar como 'is said' para crear la pasiva.",
+      "type": "multiple-choice",
+      "question": "The results (3) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q4",
       "type": "multiple-choice",
-      "question": "Identify the passive structure in the sentence: 'The memo should have been sent by now.'",
-      "options": [
-        "'should have been sent'",
-        "'been sent by'",
-        "'should sent'",
-        "'have sent by'"
-      ],
-      "correctAnswer": "'should have been sent'",
-      "explanation": "La estructura de pasiva está contenida en 'should have been sent', que indica que la acción de enviar debería haberse completado.",
+      "question": "She has an (4) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q5",
-      "type": "fill-blank",
-      "question": "Internet access in rural areas _______ (improve) thanks to recent investments.",
-      "correctAnswer": "has been improved",
-      "explanation": "Se utiliza 'has been improved' para indicar que el acceso a internet ha sido mejorado debido a acciones externas.",
+      "type": "multiple-choice",
+      "question": "The policy was (5) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q6",
-      "type": "key-word-transformation",
-      "question": "Experts are expected to announce a breakthrough in communication technology. (EXPECTED)\n\nA breakthrough in communication technology is __________",
-      "sentence": "Experts are expected to announce a breakthrough in communication technology.",
-      "keyWord": "EXPECTED",
-      "startOfAnswer": "A breakthrough in communication technology is",
-      "correctAnswer": "expected to be announced by experts",
-      "explanation": "'Are expected to announce' se transforma a 'is expected to be announced' usando la pasiva.",
+      "type": "multiple-choice",
+      "question": "It is (6) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q7",
       "type": "multiple-choice",
-      "question": "In which sentence is the passive structure correctly used?",
-      "options": [
-        "By the proposal, many were confused.",
-        "Were confused, many by the proposal.",
-        "Many were confused by the proposal.",
-        "Many confused were by the proposal."
-      ],
-      "correctAnswer": "Many were confused by the proposal.",
-      "explanation": "La estructura pasiva correcta es 'Many were confused by the proposal', donde 'many' reciben la acción.",
+      "question": "The (7) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q8",
-      "type": "fill-blank",
-      "question": "The important email _______ (read) as soon as possible after its arrival.",
-      "correctAnswer": "should be read",
-      "explanation": "Para indicar obligación en pasiva con el sentido de inmediato, se utiliza 'should be read'.",
+      "type": "multiple-choice",
+      "question": "His success is a (8) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q9",
-      "type": "key-word-transformation",
-      "question": "People think that non-verbal communication is often misunderstood. (THOUGHT)\n\nNon-verbal communication is thought __________",
-      "sentence": "People think that non-verbal communication is often misunderstood.",
-      "keyWord": "THOUGHT",
-      "startOfAnswer": "Non-verbal communication is thought",
-      "correctAnswer": "to be often misunderstood",
-      "explanation": "'People think' se transforma a 'is thought' para construir la pasiva.",
+      "type": "multiple-choice",
+      "question": "The (9) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b2-q10",
       "type": "multiple-choice",
-      "question": "Which sentence incorrectly uses the passive voice?",
-      "options": [
-  "The results are believed to have been altered.",
-  "The meeting is being continued after lunch.",
-  "The article will have been read by the public.",
-  "The results are believe to have been altered."
-],
-      "correctAnswer": "The results are believed to have been altered.",
-      "explanation": "'Are believed' es el uso correcto; aquí erroneamente aparece 'are believe'.",
+      "question": "He was (10) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     }
   ]
@@ -252,120 +203,97 @@ export const C2_U6_BLOCK2: Exercise = {
 export const C2_U6_BLOCK3: Exercise = {
   "id": "c2-u6-b3",
   "type": "vocabulary",
-  "title": "Block 3: Communication in the Digital Age - Part 3",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 3",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b3-q1",
       "type": "multiple-choice",
-      "question": "Which of the following sentences uses an advanced passive structure most appropriately?",
-      "options": [
-        "The book being read by my sister was written in French.",
-        "The book my sister has read is written in French by an author known by few.",
-        "By an undiscovered writer, the book was written in French and has been being read by my sister.",
-        "The book had been read by my sister after it was finished writing in French."
-      ],
-      "correctAnswer": "The book being read by my sister was written in French.",
-      "explanation": "Esta estructura pasiva avanzada está perfectamente utilizada al conectar el participio presente con la cláusula pasiva.",
+      "question": "Such a move would be (1) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q2",
-      "type": "fill-blank",
-      "question": "Despite the team's efforts, the final decision was ________ by the board.",
-      "correctAnswer": "overridden",
-      "explanation": "La palabra 'overridden' es un verbo pasivo frecuentemente usado en contextos de decisiones.",
+      "type": "multiple-choice",
+      "question": "The results (2) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q3",
-      "type": "key-word-transformation",
-      "question": "People think she is a brilliant speaker. (THOUGHT)\n\nShe is thought __________",
-      "sentence": "People think she is a brilliant speaker.",
-      "keyWord": "thought",
-      "startOfAnswer": "She is thought",
-      "correctAnswer": "to be a brilliant speaker",
-      "explanation": "En las transformaciones pasivas, 'people think' se transforma a 'is thought'.",
+      "type": "multiple-choice",
+      "question": "She has an (3) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q4",
       "type": "multiple-choice",
-      "question": "Select the sentence that correctly uses an advanced passive causative structure.",
-      "options": [
-        "She's having her hair to be cut by the best stylist in town.",
-        "She has her hair cut by the best stylist in town.",
-        "She's had her hair cut by the best stylist in town.",
-        "She let her hair be cut by the best stylist in town."
-      ],
-      "correctAnswer": "She's had her hair cut by the best stylist in town.",
-      "explanation": "Aquí, 'had' se usa en la estructura pasiva causativa correcta para indicar la acción completada.",
+      "question": "The policy was (4) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q5",
-      "type": "fill-blank",
-      "question": "The groundbreaking ceremony was widely ________ as a major success.",
-      "correctAnswer": "acclaimed",
-      "explanation": "La forma pasiva usa 'acclaimed' para expresar elogios generalizados.",
+      "type": "multiple-choice",
+      "question": "It is (5) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q6",
-      "type": "key-word-transformation",
-      "question": "It's believed that the novel has been lost. (BELIEVED)\n\nThe novel is believed __________",
-      "sentence": "It's believed that the novel has been lost.",
-      "keyWord": "believed",
-      "startOfAnswer": "The novel is believed",
-      "correctAnswer": "to have been lost",
-      "explanation": "La estructura pasiva utiliza 'is believed' para expresar una creencia sobre el pasado.",
+      "type": "multiple-choice",
+      "question": "The (6) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q7",
       "type": "multiple-choice",
-      "question": "Choose the sentence that demonstrates a passive form with a reporting verb.",
-      "options": [
-        "The information was published in the newspaper.",
-        "It has been suggested that the information was published by the newspaper.",
-        "The information got published by the newspaper.",
-        "By the newspaper, the information was published as suggested."
-      ],
-      "correctAnswer": "It has been suggested that the information was published by the newspaper.",
-      "explanation": "La estructura con 'has been suggested' es un ejemplo de verbo de reporte en pasiva.",
+      "question": "His success is a (7) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q8",
-      "type": "fill-blank",
-      "question": "The new regulations will be ________ enforced starting next month.",
-      "correctAnswer": "strictly",
-      "explanation": "'Strictly' se utiliza como adverbio en una estructura pasiva para describir cómo se aplicarán las regulaciones.",
+      "type": "multiple-choice",
+      "question": "The (8) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q9",
-      "type": "key-word-transformation",
-      "question": "People report that the project has been completed ahead of schedule. (REPORTED)\n\nThe project is reported __________",
-      "sentence": "People report that the project has been completed ahead of schedule.",
-      "keyWord": "reported",
-      "startOfAnswer": "The project is reported",
-      "correctAnswer": "to have been completed ahead of schedule",
-      "explanation": "Se usa 'is reported' para convertir el reporte en pasivo, indicando que algo se creía en el pasado.",
+      "type": "multiple-choice",
+      "question": "He was (9) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b3-q10",
       "type": "multiple-choice",
-      "question": "Which sentence best exemplifies an advanced use of passive structure with two objects?",
-      "options": [
-        "He was sent a letter by the company.",
-        "A letter was sent him by the company.",
-        "A letter by the company is what was sent to him.",
-        "Sent was a letter, by the company, to him."
-      ],
-      "correctAnswer": "He was sent a letter by the company.",
-      "explanation": "La estructura pasiva correcta aquí muestra que él es el objeto indirecto que recibe la acción.",
+      "question": "The company has (10) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     }
   ]
@@ -373,121 +301,98 @@ export const C2_U6_BLOCK3: Exercise = {
 
 export const C2_U6_BLOCK4: Exercise = {
   "id": "c2-u6-b4",
-  "type": "grammar",
-  "title": "Block 4: Communication in the Digital Age - Part 4",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "type": "vocabulary",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 4",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b4-q1",
       "type": "multiple-choice",
-      "question": "Which of the following statements about the novel is said to reflect the author's pessimism?",
-      "options": [
-        "A gripping narrative with hopeful overtones.",
-        "A bleak portrayal of modern society's flaws.",
-        "An enthusiastic depiction of technological progress.",
-        "A humorous escapade in an urban setting."
-      ],
-      "correctAnswer": "A bleak portrayal of modern society's flaws.",
-      "explanation": "En esta oración pasiva avanzada, se enfatiza la representación sombría de la sociedad por parte del autor.",
+      "question": "The results (1) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b4-q2",
-      "type": "fill-blank",
-      "question": "The breakthrough in communication technology ______ (herald) by many experts as a revolution in media.",
-      "correctAnswer": "has been heralded",
-      "explanation": "La estructura pasiva 'has been heralded' se usa para describir cómo se ha anunciado un descubrimiento tecnológico.",
+      "type": "multiple-choice",
+      "question": "She has an (2) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b4-q3",
-      "type": "key-word-transformation",
-      "question": "People often blame the media for spreading misinformation. (BLAMED)\n\nThe media are often __________",
-      "correctAnswer": "blamed for spreading misinformation",
-      "explanation": "La palabra clave 'blamed' se utiliza aquí en pasiva para resaltar la frecuencia de la culpa dirigida a los medios.",
-      "points": 1,
-      "sentence": "People often blame the media for spreading misinformation.",
-      "keyWord": "blamed",
-      "startOfAnswer": "The media are often"
+      "type": "multiple-choice",
+      "question": "The policy was (3) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
+      "points": 1
     },
     {
       "id": "c2-u6-b4-q4",
       "type": "multiple-choice",
-      "question": "How is the critical review described by listeners?",
-      "options": [
-        "It was regarded as complimentary.",
-        "It was deemed overly harsh.",
-        "It was interpreted as vague.",
-        "It was perceived as unbiased."
-      ],
-      "correctAnswer": "It was deemed overly harsh.",
-      "explanation": "La crítica fue considerada demasiado severa, demostrando el uso de 'deemed' en pasiva.",
+      "question": "It is (4) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b4-q5",
-      "type": "fill-blank",
-      "question": "Despite the evidence, the report ________ (dismiss) as irrelevant by many analysts.",
-      "correctAnswer": "has been dismissed",
-      "explanation": "La forma pasiva 'has been dismissed' resalta cómo el informe fue considerado irrelevante a pesar de la evidencia.",
+      "type": "multiple-choice",
+      "question": "The (5) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b4-q6",
-      "type": "key-word-transformation",
-      "question": "The authorities are expected to release the new regulations soon. (EXPECTED)\n\nare expected to be released soon __________",
-      "correctAnswer": "",
-      "explanation": "Utilizando 'expected' se muestra cómo las expectativas futuras se formulan en pasivo.",
-      "points": 1,
-      "sentence": "The authorities are expected to release the new regulations soon.",
-      "keyWord": "expected",
-      "startOfAnswer": "are expected to be released soon"
+      "type": "multiple-choice",
+      "question": "His success is a (6) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
+      "points": 1
     },
     {
       "id": "c2-u6-b4-q7",
       "type": "multiple-choice",
-      "question": "What has been conceded by the spokesperson regarding the policy?",
-      "options": [
-        "That it will be revised.",
-        "That it remains unchanged.",
-        "That it has been criticized.",
-        "That it was improperly drafted."
-      ],
-      "correctAnswer": "That it has been criticized.",
-      "explanation": "La política ha sido muy criticada, mostrando el uso de 'has been criticized' en pasiva.",
+      "question": "The (7) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b4-q8",
-      "type": "fill-blank",
-      "question": "The controversial advertisement campaign ________ (pull) from circulation due to public backlash.",
-      "correctAnswer": "has been pulled",
-      "explanation": "Se emplea la forma pasiva 'has been pulled' para señalar cómo fue retirada la campaña debido a las críticas.",
+      "type": "multiple-choice",
+      "question": "He was (8) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b4-q9",
-      "type": "key-word-transformation",
-      "question": "Many people considered the statement to be insensitive. (CONSIDERED)\n\nwas considered to be __________",
-      "correctAnswer": "insensitive",
-      "explanation": "La estructura pasiva con 'considered' se usa para mostrar la percepción general sobre la declaración.",
-      "points": 1,
-      "sentence": "Many people considered the statement to be insensitive.",
-      "keyWord": "considered",
-      "startOfAnswer": "was considered to be"
+      "type": "multiple-choice",
+      "question": "The company has (9) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "points": 1
     },
     {
       "id": "c2-u6-b4-q10",
       "type": "multiple-choice",
-      "question": "What aspect of the campaign was acknowledged?",
-      "options": [
-        "Its innovative approach.",
-        "Its failure to engage the audience.",
-        "Its high production cost.",
-        "Its lack of coherence with brand values."
-      ],
-      "correctAnswer": "Its lack of coherence with brand values.",
-      "explanation": "Este es el aspecto de la campaña que fue reconocido, resaltando el uso de la forma pasiva.",
+      "question": "Such a move would be (10) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     }
   ]
@@ -496,114 +401,97 @@ export const C2_U6_BLOCK4: Exercise = {
 export const C2_U6_BLOCK5: Exercise = {
   "id": "c2-u6-b5",
   "type": "vocabulary",
-  "title": "Block 5: Communication in the Digital Age - Part 5",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 5",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b5-q1",
       "type": "multiple-choice",
-      "question": "Which of the following sentences is an example of an advanced passive structure?",
-      "options": [
-        "The letter is being written by Mary.",
-        "A breakthrough was announced by the scientists yesterday.",
-        "The homework will be finished by him.",
-        "The report was concluded by the end of the meeting."
-      ],
-      "correctAnswer": "A breakthrough was announced by the scientists yesterday.",
-      "explanation": "Se utiliza una estructura pasiva avanzada para enfatizar el objeto de la acción.",
+      "question": "She has an (1) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q2",
-      "type": "fill-blank",
-      "question": "The new policy ______ (implement) by the administration was met with widespread approval.",
-      "correctAnswer": "implemented",
-      "explanation": "Se usa una estructura pasiva reducida en participio pasado para describir una acción realizada por un agente implícito.",
+      "type": "multiple-choice",
+      "question": "The policy was (2) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q3",
       "type": "multiple-choice",
-      "question": "Choose the most appropriate passive transformation: \"Someone might have stolen John’s laptop during the party.\"",
-      "options": [
-        "John’s laptop might have been stolen during the party.",
-        "John’s laptop might be stolen during the party.",
-        "John’s laptop may have been stolen during the party.",
-        "John’s laptop might have stolen during the party."
-      ],
-      "correctAnswer": "John’s laptop might have been stolen during the party.",
-      "explanation": "Se usa 'might have been' para expresar una suposición sobre un evento pasado en pasiva.",
+      "question": "It is (3) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q4",
-      "type": "fill-blank",
-      "question": "It was suggested that the document ______ (review) by the legal team before submission.",
-      "correctAnswer": "be reviewed",
-      "explanation": "Se requiere el uso del subjuntivo pasivo 'be reviewed' en estructuras que sugieren o recomiendan algo.",
+      "type": "multiple-choice",
+      "question": "The (4) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q5",
       "type": "multiple-choice",
-      "question": "Identify the sentence with incorrect passive voice structure.",
-      "options": [
-        "The results were published after a lengthy review process.",
-        "The meeting was postponed by the organizers.",
-        "The book had been written by the end of the year.",
-        "The project completed before the deadline."
-      ],
-      "correctAnswer": "The project completed before the deadline.",
-      "explanation": "La estructura correcta debería ser pasiva: 'The project was completed before the deadline.'",
+      "question": "His success is a (5) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q6",
-      "type": "fill-blank",
-      "question": "Rumors about the CEO's decision ______ (spread) across the company quickly.",
-      "correctAnswer": "were spread",
-      "explanation": "Se usa 'were spread' para describir cómo se difundieron los rumores, enfocándose en la acción, no en el agente.",
+      "type": "multiple-choice",
+      "question": "The (6) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q7",
-      "type": "key-word-transformation",
-      "sentence": "Someone had canceled the appointment without informing the client.",
-      "keyWord": "been",
-      "question": "Someone had canceled the appointment without informing the client. (BEEN)\n\nhad been canceled __________",
-      "correctAnswer": "to have been canceled",
-      "startOfAnswer": "had been canceled",
-      "explanation": "Se usa 'had been' para formar el pasado perfecto en pasiva.",
+      "type": "multiple-choice",
+      "question": "He was (7) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q8",
-      "keyWord": "SUBMIT",
-      "sentence": "The report will have been submitted by Friday.",
-      "startOfAnswer": "will have been",
-      "type": "key-word-transformation",
-      "question": "The report will have been submitted by Friday. (SUBMIT)\n\nwill have been __________",
-      "correctAnswer": "been submitted",
-      "explanation": "Se emplea 'will have been' para indicar una acción que se completará en el futuro en pasiva.",
+      "type": "multiple-choice",
+      "question": "The company has (8) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q9",
-      "type": "fill-blank",
-      "question": "The policy change ______ (announce) during yesterday's meeting will affect all departments.",
-      "correctAnswer": "announced",
-      "explanation": "Se usa el participio pasado 'announced' en una pasiva reducida para referirse al cambio de política mencionado.",
+      "type": "multiple-choice",
+      "question": "Such a move would be (9) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b5-q10",
-      "type": "key-word-transformation",
-      "sentence": "Everybody believes the new system will improve efficiency.",
-      "keyWord": "said",
-      "question": "Everybody believes the new system will improve efficiency. (SAID)\n\nis said __________",
-      "correctAnswer": "to improve efficiency",
-      "startOfAnswer": "is said",
-      "explanation": "Se usa 'is said' para reportar en pasiva lo que se cree sobre el nuevo sistema.",
+      "type": "multiple-choice",
+      "question": "The results (10) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     }
   ]
@@ -611,118 +499,98 @@ export const C2_U6_BLOCK5: Exercise = {
 
 export const C2_U6_BLOCK6: Exercise = {
   "id": "c2-u6-b6",
-  "type": "grammar",
-  "title": "Block 6: Communication in the Digital Age - Part 6",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "type": "vocabulary",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 6",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b6-q1",
       "type": "multiple-choice",
-      "question": "Which sentence uses the passive structure correctly?",
-      "options": [
-  "The report will be delivered by noon.",
-  "The speech was being prepared last evening.",
-  "Every letter must be posted by Friday.",
-  "The novel was written just last year."
-],
-      "correctAnswer": "The speech was being prepared last evening.",
-      "explanation": "La frase utiliza adecuadamente la pasiva continua en pasado para indicar una acción en progreso en un momento específico.",
+      "question": "The policy was (1) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b6-q2",
-      "type": "fill-blank",
-      "question": "Many pivotal decisions within the company ________ (make) by the board in secrecy, influencing strategic directions.",
-      "correctAnswer": "are made",
-      "explanation": "La estructura pasiva presente se usa aquí para describir una acción habitual realizada por el sujeto.",
+      "type": "multiple-choice",
+      "question": "It is (2) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b6-q3",
-      "type": "key-word-transformation",
-      "question": "The committee didn't inform the residents about the changes. (BEEN)\n\nThe residents have not... __________",
-      "correctAnswer": "been informed",
-      "explanation": "La transformación requiere la estructura pasiva en pasado perfecto para mantener el sentido de la oración original.",
-      "points": 1,
-      "sentence": "The committee didn't inform the residents about the changes.",
-      "keyWord": "BEEN",
-      "startOfAnswer": "The residents have not..."
+      "type": "multiple-choice",
+      "question": "The (3) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
+      "points": 1
     },
     {
       "id": "c2-u6-b6-q4",
-      "startOfAnswer": "The packages were sent yesterday, or so it was",
-      "keyWord": "SAID",
-      "sentence": "The packages were sent yesterday, or so it was said.",
-      "type": "key-word-transformation",
-      "question": "The packages were sent yesterday, or so it was saying. (SAID)\n\nThe packages were sent yesterday, or so it was __________",
-      "correctAnswer": "said",
-      "explanation": "La oración incorrecta usa erróneamente 'was saying' en lugar del pasivo adecuado 'was said'.",
+      "type": "multiple-choice",
+      "question": "His success is a (4) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b6-q5",
-      "type": "fill-blank",
-      "question": "Every subtle gesture and facial expression ________ (analyze) by the audience, leaving no room for misinterpretation.",
-      "correctAnswer": "is analyzed",
-      "explanation": "Se emplea la pasiva en presente simple para describir una acción general y continua.",
+      "type": "multiple-choice",
+      "question": "The (5) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b6-q6",
-      "type": "key-word-transformation",
-      "question": "They said she had informed the team about the delay herself. (BEEN)\n\nIt was said that the team... __________",
-      "correctAnswer": "had been informed",
-      "explanation": "La oración transforma el reporte pasivo con el uso de 'been' para destacar la agencia.",
-      "points": 1,
-      "sentence": "They said she had informed the team about the delay herself.",
-      "keyWord": "BEEN",
-      "startOfAnswer": "It was said that the team..."
+      "type": "multiple-choice",
+      "question": "He was (6) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
+      "points": 1
     },
     {
       "id": "c2-u6-b6-q7",
       "type": "multiple-choice",
-      "question": "Select the sentence that most accurately depicts an advanced passive voice structure.",
-      "options": [
-  "Mistakes were made, but lessons were learned.",
-  "The book was written by an anonymous author.",
-  "A new sculpture is being erected in the square.",
-  "The application had been submitted last week."
-],
-      "correctAnswer": "A new sculpture is being erected in the square.",
-      "explanation": "Esta oración usa correctamente la pasiva continua para describir una acción actual.",
+      "question": "The company has (7) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b6-q8",
-      "type": "fill-blank",
-      "question": "It was expected that the presentation ________ (deliver) by the keynote speaker at the conference.",
-      "correctAnswer": "would be delivered",
-      "explanation": "Se usa 'would be delivered' para expresar una expectativa pasiva en futuro condicional.",
+      "type": "multiple-choice",
+      "question": "Such a move would be (8) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b6-q9",
-      "type": "key-word-transformation",
-      "question": "They believed the proposal was too ambitious. (BELIEVED)\n\nIt was believed... __________",
-      "correctAnswer": "that the proposal was too ambitious.",
-      "explanation": "La construcción pasiva se utiliza para enfocarse en la creencia compartida, con 'believed' en el pasado.",
-      "points": 1,
-      "sentence": "They believed the proposal was too ambitious.",
-      "keyWord": "BELIEVED",
-      "startOfAnswer": "It was believed..."
+      "type": "multiple-choice",
+      "question": "The results (9) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
+      "points": 1
     },
     {
       "id": "c2-u6-b6-q10",
       "type": "multiple-choice",
-      "question": "Which sentence correctly transforms the active into the passive voice?",
-      "options": [
-        "The committee will finalize the report by Friday.",
-        "The report had been finalized by the committee last Friday.",
-        "The report will have been finalized by Friday by the committee.",
-        "The report will be finalized by the committee by Friday."
-      ],
-      "correctAnswer": "The report will be finalized by the committee by Friday.",
-      "explanation": "Esta oración es la correcta al transformar la oración activa al pasivo futuro con 'will be'.",
+      "question": "She has an (10) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     }
   ]
@@ -731,120 +599,97 @@ export const C2_U6_BLOCK6: Exercise = {
 export const C2_U6_BLOCK7: Exercise = {
   "id": "c2-u6-b7",
   "type": "vocabulary",
-  "title": "Block 7: Communication in the Digital Age - Part 7",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 7",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b7-q1",
       "type": "multiple-choice",
-      "question": "Which of the following sentences uses a correct passive construction to convey the idea that new policies are currently being implemented without assigning responsibility?",
-      "options": [
-        "New policies are been implemented.",
-        "New policies are being implemented.",
-        "New policies were being implemented.",
-        "New policies have been implementing."
-      ],
-      "correctAnswer": "New policies are being implemented.",
-      "explanation": "La estructura correcta en voz pasiva progresiva es 'are being implemented'.",
+      "question": "It is (1) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b7-q2",
-      "type": "fill-blank",
-      "question": "In the context of modern communication, social media platforms _____ often used to disseminate information instantly worldwide.",
-      "correctAnswer": "are",
-      "explanation": "La voz pasiva requiere el uso del verbo 'to be', que en este caso es 'are'.",
+      "type": "multiple-choice",
+      "question": "The (2) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b7-q3",
-      "type": "key-word-transformation",
-      "question": "It is widely acknowledged that effective teamwork shapes successful communication. (SHAPED)\n\nSuccessful communication __________",
-      "correctAnswer": "is widely acknowledged to be shaped by effective teamwork",
-      "explanation": "Se usa la voz pasiva para enfocar en 'successful communication'.",
-      "points": 1,
-      "sentence": "It is widely acknowledged that effective teamwork shapes successful communication.",
-      "keyWord": "SHAPED",
-      "startOfAnswer": "Successful communication"
+      "type": "multiple-choice",
+      "question": "His success is a (3) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
+      "points": 1
     },
     {
       "id": "c2-u6-b7-q4",
       "type": "multiple-choice",
-      "question": "Choose the option that correctly uses a passive structure to talk about rumors being spread.",
-      "options": [
-        "Rumors are spreading rapidly by word of mouth.",
-        "Rumors are reported to be spreading rapidly.",
-        "Rumors spread rapidly in the community.",
-        "Rumors will be spread by the company soon."
-      ],
-      "correctAnswer": "Rumors are reported to be spreading rapidly.",
-      "explanation": "La opción correcta usa la estructura pasiva 'are reported to be spreading'.",
+      "question": "The (4) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b7-q5",
-      "type": "fill-blank",
-      "question": "Nowadays, it _____ considered crucial that individuals develop strong digital communication skills.",
-      "correctAnswer": "is",
-      "explanation": "La estructura pasiva requiere 'is' en 'it is considered'.",
+      "type": "multiple-choice",
+      "question": "He was (5) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b7-q6",
-      "type": "key-word-transformation",
-      "question": "The company awarded John the 'Best Communicator' prize. (WAS)\n\nJohn was __________",
-      "correctAnswer": "awarded the 'Best Communicator' prize by the company",
-      "explanation": "La estructura en pasiva es 'John was awarded'.",
-      "points": 1,
-      "sentence": "The company awarded John the 'Best Communicator' prize.",
-      "keyWord": "WAS",
-      "startOfAnswer": "John was"
+      "type": "multiple-choice",
+      "question": "The company has (6) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "points": 1
     },
     {
       "id": "c2-u6-b7-q7",
       "type": "multiple-choice",
-      "question": "Select the sentence that correctly uses passive voice to describe a decision process.",
-      "options": [
-  "A decision is being made by the board right now.",
-  "A decision is made by the board right now.",
-  "A decision was made by the board right now.",
-  "A decision will be made by the board right now."
-],
-      "correctAnswer": "A decision is being made by the board right now.",
-      "explanation": "La opción correcta usa la estructura pasiva 'is being made'.",
+      "question": "Such a move would be (7) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b7-q8",
-      "type": "fill-blank",
-      "question": "During the negotiation, several important aspects _____ overlooked, leading to a communication breakdown.",
-      "correctAnswer": "were",
-      "explanation": "Se usa 'were' para formar la pasiva en pasado de 'overlooked'.",
+      "type": "multiple-choice",
+      "question": "The results (8) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b7-q9",
-      "type": "key-word-transformation",
-      "question": "The researchers suspect that the new theory will alter the understanding of communication. (BE)\n\nThe understanding of communication __________",
-      "correctAnswer": "is suspected to be altered by the new theory",
-      "explanation": "La pasiva es 'is suspected to be altered'.",
-      "points": 1,
-      "sentence": "The researchers suspect that the new theory will alter the understanding of communication.",
-      "keyWord": "BE",
-      "startOfAnswer": "The understanding of communication"
+      "type": "multiple-choice",
+      "question": "She has an (9) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
+      "points": 1
     },
     {
       "id": "c2-u6-b7-q10",
       "type": "multiple-choice",
-      "question": "Identify the sentence that uses passive voice to describe the handling of confidential information.",
-      "options": [
-  "Confidential information is handled with care.",
-  "Confidential information is being handled with care.",
-  "Confidential information was handled carefully.",
-  "Confidential information had to be handled carefully."
-],
-      "correctAnswer": "Confidential information is handled with care.",
-      "explanation": "La pasiva 'is handled' es la estructura correcta.",
+      "question": "The policy was (10) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     }
   ]
@@ -852,130 +697,98 @@ export const C2_U6_BLOCK7: Exercise = {
 
 export const C2_U6_BLOCK8: Exercise = {
   "id": "c2-u6-b8",
-  "type": "grammar",
-  "title": "Block 8: Communication in the Digital Age - Part 8",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "type": "vocabulary",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 8",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b8-q1",
       "type": "multiple-choice",
-      "question": "Which of the following sentences best illustrates the use of an advanced passive structure?",
-      "options": [
-        "The report was completed by the team last night.",
-        "The book is being read by every class in our school.",
-        "New guidelines have been set forth by the committee.",
-        "The song has been listened to by millions in the last month."
-      ],
-      "correctAnswer": "New guidelines have been set forth by the committee.",
-      "explanation": "La opción seleccionada utiliza una estructura pasiva avanzada porque 'set forth' es un verbo de baja frecuencia y más sofisticado.",
+      "question": "The (1) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q2",
-      "startOfAnswer": "are held",
-      "keyWord": "held",
-      "sentence": "Debates are held regularly in our committee.",
-      "type": "key-word-transformation",
-      "question": "Debates are held regularly in our committee. (HELD)\n\nare held __________",
-      "correctAnswer": "",
-      "explanation": "La estructura pasiva adecuada aquí es 'are held', ya que el sujeto (Debates) es plural y se refiere a acciones recurrentes.",
+      "type": "multiple-choice",
+      "question": "His success is a (2) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q3",
-      "type": "key-word-transformation",
-      "question": "The marketing team released the advertisement yesterday. (WAS)\n\nThe advertisement __________",
-      "correctAnswer": "was released by the marketing team yesterday",
-      "explanation": "La oración se transforma a la voz pasiva cambiando el foco del sujeto al objeto.",
-      "points": 1,
-      "sentence": "The marketing team released the advertisement yesterday.",
-      "keyWord": "was",
-      "startOfAnswer": "The advertisement"
+      "type": "multiple-choice",
+      "question": "The (3) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
+      "points": 1
     },
     {
       "id": "c2-u6-b8-q4",
       "type": "multiple-choice",
-      "question": "In the sentence 'The policy was reframed so that it could be understood by all members,' identify the passive construction.",
-      "options": [
-        "'The policy was reframed'",
-        "'so that it could be understood'",
-        "'could be understood by all members'",
-        "'was reframed by members'"
-      ],
-      "correctAnswer": "'The policy was reframed'",
-      "explanation": "La estructura pasiva se encuentra en 'The policy was reframed', donde se pone énfasis en la acción realizada sobre el sujeto.",
+      "question": "He was (4) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q5",
-      "startOfAnswer": "believed",
-      "keyWord": "believed",
-      "sentence": "It is generally believed that the new policy will be beneficial.",
-      "type": "key-word-transformation",
-      "question": "It is generally believed that the new policy will be beneficial. (BELIEVED)\n\nbelieved __________",
-      "correctAnswer": "",
-      "explanation": "Se utiliza la forma pasiva 'believed' para indicar una opinión compartida de manera general.",
+      "type": "multiple-choice",
+      "question": "The company has (5) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q6",
-      "type": "key-word-transformation",
-      "question": "They say that she delivered a captivating speech. (IS)\n\nShe __________",
-      "correctAnswer": "is said to have delivered a captivating speech",
-      "explanation": "Se utiliza la estructura pasiva 'is said to have delivered' para expresar rumores o creencias compartidas.",
-      "points": 1,
-      "sentence": "They say that she delivered a captivating speech.",
-      "keyWord": "is",
-      "startOfAnswer": "She"
+      "type": "multiple-choice",
+      "question": "Such a move would be (6) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
+      "points": 1
     },
     {
       "id": "c2-u6-b8-q7",
       "type": "multiple-choice",
-      "question": "Which sentence uses a causative passive correctly?",
-      "options": [
-  "I am having my hair cut by the new stylist.",
-  "The assignment has to be done by Friday.",
-  "She was allowed to leave early by the manager.",
-  "The proposal might have to be reviewed by the board."
-],
-      "correctAnswer": "I am having my hair cut by the new stylist.",
-      "explanation": "La estructura 'having my hair cut' es una construcción pasiva causativa correcta, donde alguien hace algo por nosotros.",
+      "question": "The results (7) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q8",
-      "startOfAnswer": "is transmitted",
-      "keyWord": "transmitted",
-      "sentence": "Transmission of data is crucial for effective communication.",
-      "type": "key-word-transformation",
-      "question": "Transmission of data is crucial for effective communication. (TRANSMITTED)\n\nis transmitted __________",
-      "correctAnswer": "",
-      "explanation": "La pasiva correcta es 'is transmitted', ya que el mensaje regularmente se envía a través de canales seguros.",
+      "type": "multiple-choice",
+      "question": "She has an (8) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b8-q9",
-      "type": "key-word-transformation",
-      "question": "People often suggest improvements to the proposal. (IMPROVEMENTS)\n\nImprovements __________",
-      "correctAnswer": "are often suggested to the proposal",
-      "explanation": "La pasiva 'are often suggested' mueve el enfoque del sujeto a las mejoras como objeto.",
-      "points": 1,
-      "sentence": "People often suggest improvements to the proposal.",
-      "keyWord": "improvements",
-      "startOfAnswer": "Improvements"
+      "type": "multiple-choice",
+      "question": "The policy was (9) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
+      "points": 1
     },
     {
       "id": "c2-u6-b8-q10",
       "type": "multiple-choice",
-      "question": "Identify the error in passive construction: 'The experiment was conduction by a renowned scientist.'",
-      "options": [
-        "'conducted' should replace 'conduction'",
-        "Correct passive construction",
-        "'by a renowned scientist' should precede 'was'",
-        "'The experiment' should be 'an experiment'"
-      ],
-      "correctAnswer": "'conducted' should replace 'conduction'",
-      "explanation": "El error está en el uso incorrecto de 'conduction' en lugar del participio pasado 'conducted'.",
+      "question": "It is (10) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     }
   ]
@@ -984,115 +797,97 @@ export const C2_U6_BLOCK8: Exercise = {
 export const C2_U6_BLOCK9: Exercise = {
   "id": "c2-u6-b9",
   "type": "vocabulary",
-  "title": "Block 9: Communication in the Digital Age - Part 9",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 9",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b9-q1",
-      "sentence": "The report was finished by the deadline, having been worked on by many. (FINISHED)\n\nThe report ___",
-      "type": "key-word-transformation",
-      "question": "The report was finished by the deadline, having been worked on by many. (FINISHED)\n\nThe report ___ ()\n\n __________",
-      "correctAnswer": "was finished by the deadline.",
-      "explanation": "Se usa una estructura pasiva con 'was finished' para indicar una acción completada.",
+      "type": "multiple-choice",
+      "question": "His success is a (1) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q2",
-      "type": "fill-blank",
-      "question": "Only after the meeting ___ about the true extent of the problem.",
-      "correctAnswer": "was it revealed",
-      "explanation": "Aquí se utiliza una estructura pasiva de inversión para énfasis: 'Only after the meeting was it revealed...'.",
+      "type": "multiple-choice",
+      "question": "The (2) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q3",
       "type": "multiple-choice",
-      "question": "Select the sentence that illustrates a complex passive construction:",
-      "options": [
-        "He is said to have been disappointed by the outcome.",
-        "It is disappointing.",
-        "Someone said him he was disappointed.",
-        "He was disappointing someone."
-      ],
-      "correctAnswer": "He is said to have been disappointed by the outcome.",
-      "explanation": "La construcción pasiva 'is said to have been disappointed' es un ejemplo de construcción pasiva compleja.",
+      "question": "He was (3) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q4",
-      "type": "key-word-transformation",
-      "question": "People claim that she won the award. (BELIEVED)\n\nShe is believed __________",
-      "sentence": "People claim that she won the award.",
-      "keyWord": "believed",
-      "correctAnswer": "to have won the award",
-      "startOfAnswer": "She is believed",
-      "explanation": "Hay que usar 'is believed' para cambiar a una estructura pasiva compleja, manteniendo el significado original.",
+      "type": "multiple-choice",
+      "question": "The company has (4) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q5",
-      "type": "fill-blank",
-      "question": "Never before ___ such a complex set of guidelines been so efficiently implemented.",
-      "correctAnswer": "have",
-      "explanation": "La estructura de inversión requiere que el verbo 'have' preceda al sujeto en una oración pasiva.",
+      "type": "multiple-choice",
+      "question": "Such a move would be (5) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q6",
       "type": "multiple-choice",
-      "question": "Identify the correctly formed sentence using a passive gerund.",
-      "options": [
-        "The meeting being postponed is inconvenient.",
-        "Being postponed the meeting is inconvenient.",
-        "Being postponed, the inconvenience of the meeting was felt.",
-        "The meeting having been postponed is inconvenient."
-      ],
-      "correctAnswer": "The meeting being postponed is inconvenient.",
-      "explanation": "Se utiliza 'being postponed' correctamente como un gerundio pasivo en esta oración.",
+      "question": "The results (6) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q7",
-      "type": "key-word-transformation",
-      "question": "They say the document was leaked by an insider. (ALLEGED)\n\nThe document is alleged __________",
-      "sentence": "They say the document was leaked by an insider.",
-      "keyWord": "alleged",
-      "correctAnswer": "to have been leaked by an insider",
-      "startOfAnswer": "The document is alleged",
-      "explanation": "Utilice 'is alleged' para transformar en una estructura pasiva que mantiene el significado original.",
+      "type": "multiple-choice",
+      "question": "She has an (7) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q8",
-      "type": "fill-blank",
-      "question": "By no means ___ the changes unexpected.",
-      "correctAnswer": "were",
-      "explanation": "Estructura de inversión negativa que requiere el verbo 'were' antes del sujeto.",
+      "type": "multiple-choice",
+      "question": "The policy was (8) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q9",
-      "type": "key-word-transformation",
-      "question": "Everyone knows that the CEO has resigned. (KNOWN)\n\nThe CEO is known __________",
-      "sentence": "Everyone knows that the CEO has resigned.",
-      "keyWord": "known",
-      "correctAnswer": "to have resigned",
-      "startOfAnswer": "The CEO is known",
-      "explanation": "Transforme utilizando 'is known' para crear una estructura pasiva avanzada con el mismo significado.",
+      "type": "multiple-choice",
+      "question": "It is (9) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b9-q10",
       "type": "multiple-choice",
-      "question": "Choose the sentence that correctly uses a passive infinitive.",
-      "options": [
-  "The memo to be drafted soon is of high importance.",
-  "The memo being drafted soon is of high importance.",
-  "Soon drafting the memo is of high importance.",
-  "The memo which is being drafted soon is of high importance."
-],
-      "correctAnswer": "The memo to be drafted soon is of high importance.",
-      "explanation": "La opción utiliza 'to be drafted' correctamente como un infinitivo pasivo.",
+      "question": "The (10) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     }
   ]
@@ -1100,121 +895,98 @@ export const C2_U6_BLOCK9: Exercise = {
 
 export const C2_U6_BLOCK10: Exercise = {
   "id": "c2-u6-b10",
-  "type": "grammar",
-  "title": "Block 10: Communication in the Digital Age - Part 10",
-  "explanation": "Advanced practice for Communication in the Digital Age",
+  "type": "vocabulary",
+  "title": "Part 1: Environmental Policy & Global Warming - Block 10",
+  "explanation": "Complete the text about specialized aspects of environmental policy & global warming.",
   "questions": [
     {
       "id": "c2-u6-b10-q1",
       "type": "multiple-choice",
-      "question": "Which of the following sentences correctly uses the passive structure with a complex clause?",
-      "options": [
-        "It's believed that the meeting has been postponed by the organizers.",
-        "The organizers are believed to have postponed the meeting.",
-        "The meeting is postponed by the organizers.",
-        "It has believed the organizers have postponed the meeting."
-      ],
-      "correctAnswer": "The organizers are believed to have postponed the meeting.",
-      "explanation": "La estructura pasiva se utiliza correctamente en la frase 'The organizers are believed to have postponed the meeting'.",
+      "question": "The (1) ________ of the discovery was felt worldwide.",
+      "options": ["magnitude","impact","extent","scope"],
+      "correctAnswer": "magnitude",
+      "explanation": "'Magnitude' is used for the great size or importance of something.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q2",
-      "type": "fill-blank",
-      "question": "In complex communication systems, it is often ________ that information can be distorted.",
-      "correctAnswer": "perceived",
-      "explanation": "La palabra correcta es 'perceived', que significa que se reconoce comunmente que la información puede ser distorsionada.",
+      "type": "multiple-choice",
+      "question": "He was (2) ________ by the sheer complexity of the task.",
+      "options": ["daunted","intimidated","cowed","appalled"],
+      "correctAnswer": "daunted",
+      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q3",
-      "type": "key-word-transformation",
-      "question": "Someone is going to deliver the report by the end of the week. (BEING)\n\nThe report is being __________",
-      "sentence": "Someone is going to deliver the report by the end of the week.",
-      "keyWord": "BEING",
-      "startOfAnswer": "The report is being",
-      "correctAnswer": "delivered by the end of the week",
-      "explanation": "Transformar usando la estructura pasiva + 'being'.",
+      "type": "multiple-choice",
+      "question": "The company has (3) ________ a reputation for excellence.",
+      "options": ["garnered","reaped","gleaned","harvested"],
+      "correctAnswer": "garnered",
+      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q4",
       "type": "multiple-choice",
-      "question": "Identify the sentence that uses the passive voice with an infinitive construction effectively.",
-      "options": [
-        "The announcement to be made by the manager tomorrow.",
-        "The announcement is to have been made by the manager.",
-        "The manager announced to be made tomorrow.",
-        "The announcement is to be made by the manager tomorrow."
-      ],
-      "correctAnswer": "The announcement is to be made by the manager tomorrow.",
-      "explanation": "La frase correcta usa la voz pasiva con una construcción de infinitivo adecuadamente.",
+      "question": "Such a move would be (4) ________ with significant risk.",
+      "options": ["fraught","laden","burdened","weighed"],
+      "correctAnswer": "fraught",
+      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q5",
-      "type": "fill-blank",
-      "question": "The newest communication strategies are ________ to have been effective in reducing misunderstandings.",
-      "correctAnswer": "said",
-      "explanation": "La palabra 'said' es la utilizada en esta construcción pasiva para indicar que se cree que algo es efectivo.",
+      "type": "multiple-choice",
+      "question": "The results (5) ________ our initial expectations.",
+      "options": ["surpassed","outstripped","exceeded","transcended"],
+      "correctAnswer": "surpassed",
+      "explanation": "'Surpassed' is common for going beyond expectations.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q6",
-      "type": "key-word-transformation",
-      "question": "Experts have noted various methods that enhance communication clarity. (BEEN)\n\nVarious methods have been __________",
-      "sentence": "Experts have noted various methods that enhance communication clarity.",
-      "keyWord": "BEEN",
-      "startOfAnswer": "Various methods have been",
-      "correctAnswer": "noted by experts to enhance communication clarity",
-      "explanation": "Utiliza 'have been' para transformar la frase a una estructura pasiva correcta.",
+      "type": "multiple-choice",
+      "question": "She has an (6) ________ ability to spot talent.",
+      "options": ["uncanny","eerie","weird","strange"],
+      "correctAnswer": "uncanny",
+      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q7",
       "type": "multiple-choice",
-      "question": "Select the option that illustrates an atypical use of the passive voice correctly.",
-      "options": [
-  "The project is supposed to have completed.",
-  "The meeting was to have been held yesterday.",
-  "The results were to have been announced last week.",
-  "The policy is supposed to be change soon."
-],
-      "correctAnswer": "The meeting was to have been held yesterday.",
-      "explanation": "La frase correcta usa una estructura pasiva con enfoque de tiempos pasados 'was to have been'.",
+      "question": "The policy was (7) ________ with controversy from the start.",
+      "options": ["dogged","hounded","pursued","followed"],
+      "correctAnswer": "dogged",
+      "explanation": "'Dogged by controversy' is a common expression.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q8",
-      "type": "fill-blank",
-      "question": "The email had ________ to contain sensitive information, but it was incorrectly flagged.",
-      "correctAnswer": "been expected",
-      "explanation": "La frase se utiliza para indicar que el correo electrónico se esperaba que contuviera información sensible.",
+      "type": "multiple-choice",
+      "question": "It is (8) ________ important that we act now.",
+      "options": ["paramount","pivotal","vital","crucial"],
+      "correctAnswer": "paramount",
+      "explanation": "'Paramount importance' is a strong C2 collocation.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q9",
-      "type": "key-word-transformation",
-      "question": "Scientists have discovered that communication can be improved through active listening. (FOUND)\n\nCommunication has been found __________",
-      "sentence": "Scientists have discovered that communication can be improved through active listening.",
-      "keyWord": "FOUND",
-      "startOfAnswer": "Communication has been found",
-      "correctAnswer": "by scientists to be improved through active listening",
-      "explanation": "Puedes usar 'has been found' para reestructurar la frase en voz pasiva.",
+      "type": "multiple-choice",
+      "question": "The (9) ________ of the situation became clear only later.",
+      "options": ["gravity","severity","seriousness","intensity"],
+      "correctAnswer": "gravity",
+      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
       "points": 1
     },
     {
       "id": "c2-u6-b10-q10",
       "type": "multiple-choice",
-      "question": "Which of the following sentences is a correct example of the passive voice in past perfect tense?",
-      "options": [
-        "The results have been given as a noteworthy achievement by everyone.",
-        "The feedback is to have been received before the deadline.",
-        "The proposal had been reviewed by the committee before the meeting.",
-        "It is believed that the information has been missed by the team."
-      ],
-      "correctAnswer": "The proposal had been reviewed by the committee before the meeting.",
-      "explanation": "La frase usa correctamente la voz pasiva en pasado perfecto.",
+      "question": "His success is a (10) ________ to his hard work.",
+      "options": ["testament","witness","evidence","proof"],
+      "correctAnswer": "testament",
+      "explanation": "'Testament to' is a very common idiom.",
       "points": 1
     }
   ]
@@ -1222,9 +994,9 @@ export const C2_U6_BLOCK10: Exercise = {
 
 export const C2_UNIT_6 = createC2Unit(
   'c2-u6',
-  'Communication in the Digital Age',
-  'Advanced C2 unit exploring complex topics and formal language structures.',
-  ['Master advanced vocabulary', 'Apply complex grammatical structures', 'Improve formal writing skills', 'Enhance high-level comprehension'],
+  'Reading & Use of English Part 1: Multiple-choice Cloze',
+  'Focus on Reading & Use of English Part 1: Multiple-choice Cloze.',
+  ["Master advanced collocations","Identify subtle lexical nuances","Practice fixed expressions"],
   [
     C2_U6_BLOCK1, C2_U6_BLOCK2, C2_U6_BLOCK3, C2_U6_BLOCK4, C2_U6_BLOCK5, C2_U6_BLOCK6, C2_U6_BLOCK7, C2_U6_BLOCK8, C2_U6_BLOCK9, C2_U6_BLOCK10
   ]

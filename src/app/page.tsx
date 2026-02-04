@@ -278,14 +278,28 @@ export default function HomePage() {
         {/* Blog Preview Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
           <div className="max-w-7xl mx-auto">
-            <div className="flex items-center justify-between mb-12">
+            <div className="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
               <div>
                 <h2 className="text-4xl font-black text-slate-900 mb-2">Blog y Recursos</h2>
                 <p className="text-lg text-slate-600">Últimas guías para tu éxito profesional y personal</p>
+                <div className="mt-4 flex flex-wrap gap-3">
+                  <Link 
+                    href="/aplicaciones-para-aprender-ingles"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
+                  >
+                    📱 Mejores Apps 2026
+                  </Link>
+                  <Link 
+                    href="/blog/metodos/clases-de-ingles-guia"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 text-slate-600 text-sm font-bold hover:bg-slate-200 transition-colors"
+                  >
+                    📚 Guía de Clases
+                  </Link>
+                </div>
               </div>
               <Link 
                 href="/blog"
-                className="hidden md:inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700 transition-colors"
+                className="inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700 transition-colors"
               >
                 <span>Explorar todo el blog</span>
                 <span>→</span>
