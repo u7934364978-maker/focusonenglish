@@ -38,7 +38,7 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. [x] Each task should reference relevant contracts and include verification steps
 3. [x] Replace the Implementation step below with the planned tasks
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 #### [x] Task 1: Populate Pedagogical Data for Module 1 (Units 1-10)
 Update `scripts/expand-a2-course.py` with grammar, vocab, and sentences for Units 1-10.
@@ -68,11 +68,23 @@ Update `scripts/expand-a2-course.py` with data for Units 51-60.
 Set `UNITS_COUNT = 60`, `EXERCISES_PER_UNIT = 500`. Refine `generate_exercises` for variety.
 - **Verification**: Run `python3 -m py_compile scripts/expand-a2-course.py`.
 
-#### [ ] Task 8: Execute Script and Generate Exercises
+#### [x] Task 8: Execute Script and Generate Exercises
 Run the script to generate all 60 unit JSON files.
 - **Verification**: Check `src/content/cursos/ingles-a2/` for 60 files.
 
-#### [ ] Task 9: Validate Generated Files
-Run `node scripts/validate-exercises.mjs` to ensure JSON and schema validity.
+#### [x] Task 9: Validate Generated Files
+Run `node scripts/validate-a2-json.mjs` to ensure JSON and schema validity.
 - **Verification**: Command output shows no errors.
+
+### [x] Step: Final Cleanup and Delivery
+1. [x] Remove any temporary files (if applicable)
+2. [x] Perform a final check of the generated content sample
+3. [x] Submit changes for final review
+
+### Step: Post-Generation Audit & Fixes
+- [x] Audit exercise correction logic in `PremiumSession.tsx` and `FocusedSession.tsx`
+- [x] Fix `short_writing` validation to strictly compare with `correct_answer` when no regex is present
+- [x] Ensure robust normalization (`toLowerCase().trim()`) across all text-based exercises
+- [x] Verify that "araund" is no longer accepted for "around" in translation exercises
+
 

@@ -111,6 +111,25 @@ export default function SEOAppsPage() {
                     </Link>
                   </div>
                 </div>
+
+                {/* Related Blog Articles */}
+                <div className="bg-slate-50 rounded-3xl p-8 border border-slate-100 shadow-sm">
+                  <h4 className="text-lg font-bold text-slate-900 mb-4">Análisis detallados</h4>
+                  <div className="space-y-4">
+                    <Link href="/blog/trabajo/mejores-apps-ingles-trabajo" className="group block">
+                      <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">Apps para el trabajo (2026)</p>
+                      <p className="text-xs text-slate-500 line-clamp-1">Domina el Business English con las mejores herramientas.</p>
+                    </Link>
+                    <Link href="/blog/metodos/apps-vs-cursos-ingles" className="group block">
+                      <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">Apps vs. Cursos: ¿Qué elegir?</p>
+                      <p className="text-xs text-slate-500 line-clamp-1">Comparativa definitiva para llegar al C1.</p>
+                    </Link>
+                    <Link href="/blog/metodos/ia-acelerar-aprendizaje-ingles" className="group block">
+                      <p className="text-sm font-bold text-slate-900 group-hover:text-coral-600 transition-colors">Aprende con IA</p>
+                      <p className="text-xs text-slate-500 line-clamp-1">Cómo la Inteligencia Artificial acelera tu fluidez.</p>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </aside>
           </div>

@@ -9,10 +9,12 @@ import {
   Volume2, 
   Play, 
   Star,
-  Trophy
+  Trophy,
+  Lightbulb,
+  Sparkles
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getSolutionText, isLikelyEnglish } from "@/lib/premium-utils";
+import { getSolutionText, isLikelyEnglish, getEncouragingMessage } from "@/lib/premium-utils";
 
 interface Props {
   block: any;
@@ -264,14 +266,24 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
 
     if (interaction.type === 'reorder_words') {
       const selectedText = (optionId as string[]).map(id => 
-        interaction.options.find((o: any) => o.id === id)?.text
-      ).join(' ');
+        (interaction.options || []).find((o: any) => o.id === id)?.text
+      ).join(' ').toLowerCase().trim();
       const correctText = (interaction.correct_answer as string[]).map((id: string) => 
-        interaction.options.find((o: any) => o.id === id)?.text
-      ).join(' ');
+        (interaction.options || []).find((o: any) => o.id === id)?.text
+      ).join(' ').toLowerCase().trim();
       isCorrect = selectedText === correctText;
     } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play'].includes(interaction.type)) {
-      isCorrect = optionId === interaction.correct_answer;
+      // Robust comparison for boolean and string values
+      const normalizedOption = typeof optionId === 'string' ? optionId.toLowerCase().trim() : optionId;
+      const normalizedCorrect = typeof interaction.correct_answer === 'string' ? interaction.correct_answer.toLowerCase().trim() : interaction.correct_answer;
+      
+      if (interaction.type === 'true_false') {
+        const optBool = String(optionId).toLowerCase().trim() === 'true';
+        const correctBool = String(interaction.correct_answer).toLowerCase().trim() === 'true';
+        isCorrect = optBool === correctBool;
+      } else {
+        isCorrect = normalizedOption === normalizedCorrect;
+      }
     } else if (interaction.type === 'matching') {
       isCorrect = interaction.pairs.every((p: any) => matchingPairs[p.id] === p.id);
     } else if (interaction.type === 'categorization') {
@@ -289,10 +301,13 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
       const correct = interaction.correct_answer.toLowerCase().trim();
       isCorrect = input === correct;
     } else if (interaction.type === 'short_writing' || interaction.type === 'dictation_guided') {
-      const input = (optionId as string).trim();
+      const input = (optionId as string).trim().toLowerCase();
       if (interaction.validation_regex) {
         const regex = new RegExp(interaction.validation_regex, 'i');
         isCorrect = regex.test(input);
+      } else if (interaction.correct_answer) {
+        const correct = String(interaction.correct_answer).toLowerCase().trim();
+        isCorrect = input === correct;
       } else {
         isCorrect = input.length > 2; // Simple fallback
       }
@@ -301,7 +316,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
     if (isCorrect) {
       setFeedback({
         correct: true,
-        message: interaction.feedback_correct_es || "¡Excelente trabajo!"
+        message: interaction.feedback_correct_es || getEncouragingMessage(true, 0)
       });
       playAudio('/audio/correct.mp3');
     } else {
@@ -313,7 +328,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
       if (currentFails >= 3) {
         message = getSolutionText(interaction);
       } else {
-        message = interaction.feedback_incorrect_es || "Sigue intentándolo, tú puedes.";
+        message = interaction.feedback_incorrect_es || getEncouragingMessage(false, currentFails);
       }
 
       setFeedback({
@@ -359,20 +374,75 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
 
   if (showSummary) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center p-6">
-        <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }} className="w-32 h-32 bg-amber-100 rounded-full flex items-center justify-center mb-8">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center p-6 overflow-hidden relative">
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="absolute inset-0 pointer-events-none"
+        >
+          {[...Array(20)].map((_, i) => (
+            <motion.div
+              key={i}
+              className="absolute"
+              initial={{ 
+                x: "50%", 
+                y: "50%", 
+                scale: 0,
+                rotate: 0 
+              }}
+              animate={{ 
+                x: `${Math.random() * 100}%`, 
+                y: `${Math.random() * 100}%`, 
+                scale: [0, 1, 0],
+                rotate: 360 
+              }}
+              transition={{ 
+                duration: 2 + Math.random() * 3, 
+                repeat: Infinity,
+                delay: Math.random() * 2
+              }}
+            >
+              <Sparkles className="text-amber-400 w-6 h-6" />
+            </motion.div>
+          ))}
+        </motion.div>
+
+        <motion.div 
+          initial={{ scale: 0, rotate: -20 }} 
+          animate={{ scale: 1, rotate: 0 }} 
+          className="w-32 h-32 bg-amber-100 rounded-full flex items-center justify-center mb-8 shadow-2xl shadow-amber-200"
+        >
           <Trophy className="w-16 h-16 text-amber-600" />
         </motion.div>
-        <h2 className="text-4xl font-black text-slate-900 mb-4">¡Bloque Completado!</h2>
-        <p className="text-xl text-slate-600 mb-12">Has terminado todas las actividades de {block.title}.</p>
-        <div className="flex flex-col gap-4 w-full max-w-xs">
-          <Button onClick={onComplete} className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700">
+        <motion.h2 
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          className="text-4xl font-black text-slate-900 mb-4"
+        >
+          ¡Bloque Completado!
+        </motion.h2>
+        <motion.p 
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-xl text-slate-600 mb-12"
+        >
+          Has terminado todas las actividades de {block.title}.
+        </motion.p>
+        <motion.div 
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.4 }}
+          className="flex flex-col gap-4 w-full max-w-xs z-10"
+        >
+          <Button onClick={onComplete} className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all">
             CONTINUAR
           </Button>
-          <Button variant="outline" onClick={onExit} className="h-16 rounded-2xl border-2 border-slate-200 text-slate-600 text-lg font-bold">
+          <Button variant="outline" onClick={onExit} className="h-16 rounded-2xl border-2 border-slate-200 text-slate-600 text-lg font-bold hover:bg-slate-50">
             VOLVER AL CURSO
           </Button>
-        </div>
+        </motion.div>
       </div>
     );
   }
@@ -835,12 +905,19 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
         <button onClick={onExit} className="p-3 text-slate-300 hover:text-slate-600 transition-colors">
           <X className="w-8 h-8" />
         </button>
-        <div className="flex-1 h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner">
+        <div className="flex-1 h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner relative">
           <motion.div 
-            className="h-full bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.5)]"
+            className="h-full bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.5)] relative"
             initial={{ width: 0 }}
             animate={{ width: `${progress}%` }}
-          />
+          >
+            <motion.div 
+              className="absolute inset-0 bg-white/30"
+              animate={{ x: ["-100%", "100%"] }}
+              transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
+              style={{ width: '30%' }}
+            />
+          </motion.div>
         </div>
         <div className="bg-orange-100 px-4 py-2 rounded-2xl flex items-center gap-2">
           <Star className="w-5 h-5 text-orange-500 fill-orange-500" />
@@ -891,6 +968,19 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
                     <p className={`text-base font-bold ${feedback.correct ? 'text-[#4b7e02]/80' : 'text-[#ea2b2b]/80'}`}>
                       {feedback.message}
                     </p>
+                    {interaction.tip_es && !feedback.correct && (
+                      <motion.div 
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: "auto" }}
+                        className="mt-2 flex items-start gap-2 bg-white/50 p-3 rounded-xl border border-[#ee9b9e]/50"
+                      >
+                        <Lightbulb className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
+                        <p className="text-sm font-bold text-slate-700 italic">
+                          <span className="text-[#ea2b2b] uppercase text-[10px] tracking-wider block mb-0.5">Tip:</span>
+                          {interaction.tip_es}
+                        </p>
+                      </motion.div>
+                    )}
                   </div>
                 </div>
                 <Button 

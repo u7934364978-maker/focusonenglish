@@ -33,6 +33,7 @@ export interface PremiumInteraction {
   example?: string;
   audioUrl?: string;
   tts_en?: string;
+  tip_es?: string;
   correct_sentence_en?: string;
   flashcards?: Array<{ front: string; back: string; pronunciation?: string }>;
   // Cambridge B1 Preliminary Extensions

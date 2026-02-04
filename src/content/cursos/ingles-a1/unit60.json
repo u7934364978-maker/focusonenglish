@@ -19,24 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -44,16 +50,16 @@
           "interaction_id": "U60_I2",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I4",
@@ -61,20 +67,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "60"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Order"
             }
           ],
           "correct_answer": [
@@ -89,26 +95,26 @@
           "interaction_id": "U60_I5",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Restaurant"
+            },
+            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Money"
             },
             {
               "id": "o3",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -121,24 +127,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -146,16 +158,16 @@
           "interaction_id": "U60_I8",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I10",
@@ -163,20 +175,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Manage"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "money"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "payments"
+            },
+            {
+              "id": "w2",
+              "text": "and"
             }
           ],
           "correct_answer": [
@@ -191,26 +203,26 @@
           "interaction_id": "U60_I11",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Health"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -223,24 +235,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -248,16 +266,16 @@
           "interaction_id": "U60_I14",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I16",
@@ -265,32 +283,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "6"
-            },
-            {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "and"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Talk"
             },
             {
-              "id": "w6",
-              "text": "Review"
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "shopping"
             },
             {
               "id": "w4",
-              "text": "Module"
+              "text": "food"
             }
           ],
           "correct_answer": [
@@ -298,9 +308,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -308,26 +316,26 @@
           "interaction_id": "U60_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Shopping"
             },
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Restaurant"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -340,24 +348,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -365,16 +379,16 @@
           "interaction_id": "U60_I20",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I22",
@@ -382,27 +396,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "final"
+            },
+            {
               "id": "w2",
-              "text": "unit"
+              "text": "the"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "60"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "review"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -410,26 +429,26 @@
           "interaction_id": "U60_I23",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o1",
-              "text": "Example"
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Health"
+            },
+            {
+              "id": "o1",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -442,24 +461,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -467,16 +492,16 @@
           "interaction_id": "U60_I26",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I28",
@@ -484,27 +509,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "issues"
             },
             {
-              "id": "w3",
-              "text": "60"
+              "id": "w1",
+              "text": "health"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Describe"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -512,26 +532,26 @@
           "interaction_id": "U60_I29",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Restaurant"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Food"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -544,24 +564,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -569,16 +595,16 @@
           "interaction_id": "U60_I32",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I34",
@@ -586,42 +612,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "in"
             },
             {
-              "id": "w4",
-              "text": "Module"
+              "id": "w0",
+              "text": "Order"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w3",
+              "text": "restaurant"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -629,26 +640,26 @@
           "interaction_id": "U60_I35",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Money"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Health"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -661,24 +672,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -686,16 +703,16 @@
           "interaction_id": "U60_I38",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I40",
@@ -703,20 +720,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
               "id": "w3",
-              "text": "60"
+              "text": "payments"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "money"
+            },
+            {
+              "id": "w0",
+              "text": "Manage"
+            },
+            {
+              "id": "w2",
+              "text": "and"
             }
           ],
           "correct_answer": [
@@ -731,26 +748,26 @@
           "interaction_id": "U60_I41",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Money"
+            },
+            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Shopping"
             },
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -763,24 +780,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -788,16 +811,16 @@
           "interaction_id": "U60_I44",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I46",
@@ -805,32 +828,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "and"
+            },
+            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
+              "text": "Talk"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
               "text": "about"
             },
             {
-              "id": "w6",
-              "text": "Review"
+              "id": "w4",
+              "text": "food"
+            },
+            {
+              "id": "w2",
+              "text": "shopping"
             }
           ],
           "correct_answer": [
@@ -838,9 +853,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -848,26 +861,26 @@
           "interaction_id": "U60_I47",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Shopping"
+            },
+            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Health"
             },
             {
               "id": "o3",
-              "text": "Word"
-            },
-            {
-              "id": "o1",
-              "text": "Exercise"
+              "text": "Food"
             }
           ],
           "correct_answer": "o1",
@@ -880,24 +893,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -905,16 +924,16 @@
           "interaction_id": "U60_I50",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I52",
@@ -923,26 +942,31 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "This"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "the"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "final"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "review"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -950,26 +974,26 @@
           "interaction_id": "U60_I53",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Health"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Restaurant"
+            },
+            {
+              "id": "o2",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -982,24 +1006,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1007,16 +1037,16 @@
           "interaction_id": "U60_I56",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I58",
@@ -1024,42 +1054,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "Describe"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "issues"
             },
             {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
+              "id": "w1",
+              "text": "health"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1067,26 +1077,26 @@
           "interaction_id": "U60_I59",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o1",
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Money"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -1099,24 +1109,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1124,16 +1140,16 @@
           "interaction_id": "U60_I62",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I63",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I64",
@@ -1142,19 +1158,19 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "60"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "Order"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
             }
           ],
           "correct_answer": [
@@ -1169,26 +1185,26 @@
           "interaction_id": "U60_I65",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -1201,24 +1217,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1226,16 +1248,16 @@
           "interaction_id": "U60_I68",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I69",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I70",
@@ -1244,19 +1266,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "60"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "payments"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Manage"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "money"
             }
           ],
           "correct_answer": [
@@ -1271,26 +1293,26 @@
           "interaction_id": "U60_I71",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Shopping"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -1303,24 +1325,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1328,16 +1356,16 @@
           "interaction_id": "U60_I74",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I75",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I76",
@@ -1345,32 +1373,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
               "id": "w2",
-              "text": "is"
+              "text": "shopping"
             },
             {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w3",
+              "id": "w1",
               "text": "about"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w4",
+              "text": "food"
             },
             {
-              "id": "w4",
-              "text": "Module"
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w3",
+              "text": "and"
             }
           ],
           "correct_answer": [
@@ -1378,9 +1398,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1388,26 +1406,26 @@
           "interaction_id": "U60_I77",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Health"
+            },
+            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o3",
-              "text": "Lesson"
+              "text": "Food"
             }
           ],
           "correct_answer": "o1",
@@ -1420,24 +1438,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1445,16 +1469,16 @@
           "interaction_id": "U60_I80",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I81",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I82",
@@ -1462,27 +1486,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "review"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "final"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1490,26 +1519,26 @@
           "interaction_id": "U60_I83",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
-            },
-            {
               "id": "o3",
-              "text": "Example"
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Money"
+            },
+            {
+              "id": "o1",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -1522,24 +1551,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1547,16 +1582,16 @@
           "interaction_id": "U60_I86",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I87",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I88",
@@ -1564,42 +1599,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
+              "text": "health"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "text": "issues"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1607,26 +1622,26 @@
           "interaction_id": "U60_I89",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Money"
+            },
+            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -1639,24 +1654,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1664,16 +1685,16 @@
           "interaction_id": "U60_I92",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I93",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I94",
@@ -1681,42 +1702,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
               "id": "w3",
-              "text": "about"
+              "text": "restaurant"
             },
             {
-              "id": "w5",
-              "text": "6"
+              "id": "w0",
+              "text": "Order"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "in"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1724,26 +1730,26 @@
           "interaction_id": "U60_I95",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Money"
             },
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -1756,24 +1762,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1781,16 +1793,16 @@
           "interaction_id": "U60_I98",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I99",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I100",
@@ -1798,42 +1810,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w2",
-              "text": "is"
+              "text": "and"
             },
             {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "id": "w1",
+              "text": "money"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Manage"
             },
             {
-              "id": "w6",
-              "text": "Review"
+              "id": "w3",
+              "text": "payments"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1841,26 +1838,26 @@
           "interaction_id": "U60_I101",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Restaurant"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -1873,24 +1870,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1898,16 +1901,16 @@
           "interaction_id": "U60_I104",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I105",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I106",
@@ -1915,32 +1918,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
               "id": "w4",
-              "text": "Module"
+              "text": "food"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "shopping"
             },
             {
-              "id": "w3",
+              "id": "w1",
               "text": "about"
             },
             {
-              "id": "w5",
-              "text": "6"
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
             }
           ],
           "correct_answer": [
@@ -1948,9 +1943,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1958,26 +1951,26 @@
           "interaction_id": "U60_I107",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Health"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Shopping"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -1990,24 +1983,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2015,16 +2014,16 @@
           "interaction_id": "U60_I110",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I111",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I112",
@@ -2032,28 +2031,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
               "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "review"
             },
             {
               "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Review"
+              "id": "w3",
+              "text": "final"
             },
             {
               "id": "w0",
@@ -2065,9 +2056,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2075,26 +2064,26 @@
           "interaction_id": "U60_I113",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I114",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Restaurant"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Money"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -2107,24 +2096,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2132,16 +2127,16 @@
           "interaction_id": "U60_I116",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I117",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I118",
@@ -2149,27 +2144,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "health"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "issues"
             },
             {
-              "id": "w3",
-              "text": "60"
+              "id": "w0",
+              "text": "Describe"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2177,26 +2167,26 @@
           "interaction_id": "U60_I119",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I120",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o2",
-              "text": "Word"
+              "text": "Health"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Food"
+            },
+            {
+              "id": "o3",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -2209,24 +2199,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2234,16 +2230,16 @@
           "interaction_id": "U60_I122",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I123",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I124",
@@ -2251,20 +2247,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "60"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "Order"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
             }
           ],
           "correct_answer": [
@@ -2279,26 +2275,26 @@
           "interaction_id": "U60_I125",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I126",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Shopping"
+            },
+            {
+              "id": "o1",
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -2311,24 +2307,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2336,16 +2338,16 @@
           "interaction_id": "U60_I128",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I129",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I130",
@@ -2353,20 +2355,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
               "id": "w3",
-              "text": "60"
+              "text": "payments"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w2",
+              "text": "and"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Manage"
+            },
+            {
+              "id": "w1",
+              "text": "money"
             }
           ],
           "correct_answer": [
@@ -2381,26 +2383,26 @@
           "interaction_id": "U60_I131",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I132",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Food"
+            },
+            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -2413,24 +2415,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2438,16 +2446,16 @@
           "interaction_id": "U60_I134",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I135",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I136",
@@ -2455,32 +2463,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Module"
+              "id": "w3",
+              "text": "and"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
               "text": "about"
             },
             {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
+              "id": "w2",
+              "text": "shopping"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Talk"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w4",
+              "text": "food"
             }
           ],
           "correct_answer": [
@@ -2488,9 +2488,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2498,26 +2496,26 @@
           "interaction_id": "U60_I137",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I138",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o1",
-              "text": "Example"
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Health"
+            },
+            {
+              "id": "o3",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -2530,24 +2528,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2555,16 +2559,16 @@
           "interaction_id": "U60_I140",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I141",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I142",
@@ -2572,27 +2576,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "This"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "the"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "final"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "review"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2600,26 +2609,26 @@
           "interaction_id": "U60_I143",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I144",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
-            },
-            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Food"
+            },
+            {
+              "id": "o1",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -2632,24 +2641,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2657,16 +2672,16 @@
           "interaction_id": "U60_I146",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I147",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I148",
@@ -2674,42 +2689,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
+              "id": "w0",
+              "text": "Describe"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "issues"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "id": "w1",
+              "text": "health"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2717,26 +2712,26 @@
           "interaction_id": "U60_I149",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I150",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Money"
+            },
+            {
+              "id": "o3",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -2749,24 +2744,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2774,16 +2775,16 @@
           "interaction_id": "U60_I152",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I153",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I154",
@@ -2791,20 +2792,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "60"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Order"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
             }
           ],
           "correct_answer": [
@@ -2819,26 +2820,26 @@
           "interaction_id": "U60_I155",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I156",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
-            },
-            {
               "id": "o1",
-              "text": "Example"
+              "text": "Money"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Food"
+            },
+            {
+              "id": "o3",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -2851,24 +2852,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2876,16 +2883,16 @@
           "interaction_id": "U60_I158",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I159",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I160",
@@ -2893,42 +2900,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "id": "w0",
+              "text": "Manage"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "and"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
+              "text": "money"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "payments"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2936,26 +2928,26 @@
           "interaction_id": "U60_I161",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I162",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
-            },
-            {
               "id": "o2",
-              "text": "Example"
+              "text": "Food"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Money"
+            },
+            {
+              "id": "o1",
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -2968,24 +2960,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2993,16 +2991,16 @@
           "interaction_id": "U60_I164",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I165",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I166",
@@ -3010,32 +3008,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "shopping"
+            },
+            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "Talk"
             },
             {
               "id": "w4",
-              "text": "Module"
+              "text": "food"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w1",
+              "text": "about"
             }
           ],
           "correct_answer": [
@@ -3043,9 +3033,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3053,26 +3041,26 @@
           "interaction_id": "U60_I167",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I168",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Restaurant"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Health"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -3085,24 +3073,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3110,16 +3104,16 @@
           "interaction_id": "U60_I170",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I171",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I172",
@@ -3128,31 +3122,23 @@
           "options": [
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w2",
               "text": "is"
             },
             {
               "id": "w0",
               "text": "This"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "review"
+            },
+            {
+              "id": "w3",
+              "text": "final"
             }
           ],
           "correct_answer": [
@@ -3160,9 +3146,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3170,26 +3154,26 @@
           "interaction_id": "U60_I173",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I174",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Shopping"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o3",
+              "text": "Money"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -3202,24 +3186,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3227,16 +3217,16 @@
           "interaction_id": "U60_I176",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I177",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I178",
@@ -3244,27 +3234,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "60"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "issues"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "health"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3272,26 +3257,26 @@
           "interaction_id": "U60_I179",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I180",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Shopping"
+            },
+            {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Health"
             },
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Food"
             }
           ],
           "correct_answer": "o1",
@@ -3304,24 +3289,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3329,16 +3320,16 @@
           "interaction_id": "U60_I182",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I183",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I184",
@@ -3346,20 +3337,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "60"
-            },
-            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Order"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
             }
           ],
           "correct_answer": [
@@ -3374,26 +3365,26 @@
           "interaction_id": "U60_I185",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I186",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
               "id": "o3",
-              "text": "Example"
+              "text": "Food"
             },
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o1",
-              "text": "Exercise"
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -3406,24 +3397,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3431,16 +3428,16 @@
           "interaction_id": "U60_I188",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I189",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I190",
@@ -3449,41 +3446,26 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
+              "text": "Manage"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
+              "text": "and"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "money"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "text": "payments"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -3491,26 +3473,26 @@
           "interaction_id": "U60_I191",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I192",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Restaurant"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Health"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -3523,24 +3505,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3548,16 +3536,16 @@
           "interaction_id": "U60_I194",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I195",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I196",
@@ -3565,27 +3553,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "60"
+              "id": "w2",
+              "text": "shopping"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "and"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Talk"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w4",
+              "text": "food"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3593,26 +3586,26 @@
           "interaction_id": "U60_I197",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I198",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
-            },
-            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Restaurant"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Money"
+            },
+            {
+              "id": "o1",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -3625,24 +3618,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3650,16 +3649,16 @@
           "interaction_id": "U60_I200",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I201",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I202",
@@ -3668,31 +3667,23 @@
           "options": [
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w5",
-              "text": "6"
-            },
-            {
               "id": "w4",
-              "text": "Module"
+              "text": "review"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "final"
             }
           ],
           "correct_answer": [
@@ -3700,9 +3691,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3710,26 +3699,26 @@
           "interaction_id": "U60_I203",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I204",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o1",
+              "text": "Restaurant"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Money"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -3742,24 +3731,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3767,16 +3762,16 @@
           "interaction_id": "U60_I206",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I207",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I208",
@@ -3784,42 +3779,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
+              "text": "Describe"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "issues"
+            },
+            {
+              "id": "w1",
+              "text": "health"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3827,26 +3802,26 @@
           "interaction_id": "U60_I209",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I210",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
-            },
-            {
               "id": "o2",
-              "text": "Word"
+              "text": "Shopping"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Health"
+            },
+            {
+              "id": "o1",
+              "text": "Food"
             }
           ],
           "correct_answer": "o1",
@@ -3859,24 +3834,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3884,16 +3865,16 @@
           "interaction_id": "U60_I212",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I213",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I214",
@@ -3902,19 +3883,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "60"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "restaurant"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Order"
+            },
+            {
+              "id": "w1",
+              "text": "in"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -3929,26 +3910,26 @@
           "interaction_id": "U60_I215",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I216",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Food"
+            },
+            {
               "id": "o2",
-              "text": "Word"
+              "text": "Health"
             },
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o3",
-              "text": "Lesson"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -3961,24 +3942,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3986,16 +3973,16 @@
           "interaction_id": "U60_I218",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I219",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I220",
@@ -4003,42 +3990,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "id": "w1",
+              "text": "money"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "payments"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Manage"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
+              "text": "and"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -4046,26 +4018,26 @@
           "interaction_id": "U60_I221",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I222",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Restaurant"
             },
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -4078,24 +4050,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4103,16 +4081,16 @@
           "interaction_id": "U60_I224",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I225",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I226",
@@ -4120,27 +4098,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "shopping"
+            },
+            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Talk"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "about"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "food"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4148,26 +4131,26 @@
           "interaction_id": "U60_I227",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I228",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Health"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Restaurant"
             },
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -4180,24 +4163,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4205,16 +4194,16 @@
           "interaction_id": "U60_I230",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I231",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I232",
@@ -4222,32 +4211,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
               "id": "w4",
-              "text": "Module"
+              "text": "review"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
+              "text": "final"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             },
             {
               "id": "w0",
               "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "6"
             }
           ],
           "correct_answer": [
@@ -4255,9 +4236,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4265,26 +4244,26 @@
           "interaction_id": "U60_I233",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I234",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Shopping"
+            },
+            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Restaurant"
             },
             {
               "id": "o3",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Example"
+              "text": "Food"
             }
           ],
           "correct_answer": "o1",
@@ -4297,24 +4276,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4322,16 +4307,16 @@
           "interaction_id": "U60_I236",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I237",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I238",
@@ -4339,27 +4324,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "Describe"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w2",
+              "text": "issues"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "60"
+              "text": "health"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4367,26 +4347,26 @@
           "interaction_id": "U60_I239",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I240",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Word"
-            },
-            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Food"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Restaurant"
+            },
+            {
+              "id": "o2",
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -4399,24 +4379,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4424,16 +4410,16 @@
           "interaction_id": "U60_I242",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I243",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I244",
@@ -4441,20 +4427,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "60"
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "in"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "Order"
+            },
+            {
+              "id": "w3",
+              "text": "restaurant"
             }
           ],
           "correct_answer": [
@@ -4469,26 +4455,26 @@
           "interaction_id": "U60_I245",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I246",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Restaurant"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Food"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -4501,24 +4487,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4526,16 +4518,16 @@
           "interaction_id": "U60_I248",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I249",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I250",
@@ -4543,20 +4535,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w3",
+              "text": "payments"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "and"
             },
             {
-              "id": "w3",
-              "text": "60"
+              "id": "w0",
+              "text": "Manage"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "money"
             }
           ],
           "correct_answer": [
@@ -4571,26 +4563,26 @@
           "interaction_id": "U60_I251",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I252",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Food"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Health"
             }
           ],
           "correct_answer": "o1",
@@ -4603,24 +4595,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4628,16 +4626,16 @@
           "interaction_id": "U60_I254",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I255",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I256",
@@ -4645,32 +4643,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
+              "id": "w1",
               "text": "about"
             },
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w3",
+              "text": "and"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "shopping"
             },
             {
               "id": "w4",
-              "text": "Module"
+              "text": "food"
             },
             {
-              "id": "w6",
-              "text": "Review"
+              "id": "w0",
+              "text": "Talk"
             }
           ],
           "correct_answer": [
@@ -4678,9 +4668,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4688,26 +4676,26 @@
           "interaction_id": "U60_I257",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I258",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Shopping"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Restaurant"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -4720,24 +4708,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4745,16 +4739,16 @@
           "interaction_id": "U60_I260",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I261",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 60.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I262",
@@ -4762,27 +4756,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "review"
+            },
+            {
               "id": "w1",
-              "text": "to"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "This"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "final"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4790,26 +4789,26 @@
           "interaction_id": "U60_I263",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I264",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Shopping"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Food"
             },
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o1",
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -4822,24 +4821,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4847,16 +4852,16 @@
           "interaction_id": "U60_I266",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I267",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I268",
@@ -4864,42 +4869,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
+              "id": "w1",
+              "text": "health"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Describe"
             },
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "id": "w2",
+              "text": "issues"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4907,26 +4892,26 @@
           "interaction_id": "U60_I269",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I270",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Food"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Restaurant"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o2",
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -4939,24 +4924,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
+            },
+            {
+              "id": "p3",
+              "left": "Shopping",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4964,16 +4955,16 @@
           "interaction_id": "U60_I272",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I273",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I274",
@@ -4981,20 +4972,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "Order"
             },
             {
               "id": "w3",
-              "text": "60"
+              "text": "restaurant"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -5009,26 +5000,26 @@
           "interaction_id": "U60_I275",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Comida",
+          "correct_answer": "Food",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I276",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Food"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Shopping"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -5041,24 +5032,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Shopping",
+              "right": "Compras"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5066,16 +5063,16 @@
           "interaction_id": "U60_I278",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I279",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I280",
@@ -5083,42 +5080,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "Manage"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "payments"
             },
             {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w4",
-              "text": "Module"
+              "id": "w2",
+              "text": "and"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
+              "text": "money"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -5126,26 +5108,26 @@
           "interaction_id": "U60_I281",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Dinero",
+          "correct_answer": "Money",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I282",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Food"
             },
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Restaurant"
             }
           ],
           "correct_answer": "o1",
@@ -5158,24 +5140,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Health",
+              "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Food",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5183,16 +5171,16 @@
           "interaction_id": "U60_I284",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I285",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I286",
@@ -5201,26 +5189,31 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "60"
+              "text": "about"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Talk"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "shopping"
+            },
+            {
+              "id": "w4",
+              "text": "food"
+            },
+            {
+              "id": "w3",
+              "text": "and"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5228,26 +5221,26 @@
           "interaction_id": "U60_I287",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Salud",
+          "correct_answer": "Health",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I288",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Shopping"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Money"
             }
           ],
           "correct_answer": "o1",
@@ -5260,24 +5253,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Shopping",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Food",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Money",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5285,16 +5284,16 @@
           "interaction_id": "U60_I290",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (algo de) ________ cheese.",
+          "correct_answer": "some",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I291",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 60.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I292",
@@ -5302,32 +5301,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "review"
             },
             {
               "id": "w0",
               "text": "This"
             },
             {
-              "id": "w4",
-              "text": "Module"
+              "id": "w3",
+              "text": "final"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
-              "id": "w5",
-              "text": "6"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "the"
             }
           ],
           "correct_answer": [
@@ -5335,9 +5326,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5345,26 +5334,26 @@
           "interaction_id": "U60_I293",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Compras",
+          "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I294",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Money"
+            },
+            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Restaurant"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Shopping"
             }
           ],
           "correct_answer": "o1",
@@ -5377,24 +5366,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Restaurant",
+              "right": "Restaurante"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Food",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Money",
+              "right": "Dinero"
+            },
+            {
+              "id": "p3",
+              "left": "Health",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5402,16 +5397,16 @@
           "interaction_id": "U60_I296",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "60",
+          "stimulus_en": "How (mucho) ________ milk?",
+          "correct_answer": "much",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U60_I297",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Module 6 Review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I298",
@@ -5419,42 +5414,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Review"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "health"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "issues"
             },
             {
-              "id": "w4",
-              "text": "Module"
-            },
-            {
-              "id": "w5",
-              "text": "6"
+              "id": "w0",
+              "text": "Describe"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -5462,26 +5437,26 @@
           "interaction_id": "U60_I299",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Restaurante",
+          "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U60_I300",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Health"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Shopping"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Food"
             }
           ],
           "correct_answer": "o1",

@@ -19,24 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -44,16 +50,16 @@
           "interaction_id": "U46_I2",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The reception is open 24 hours.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I4",
@@ -62,31 +68,23 @@
           "options": [
             {
               "id": "w2",
-              "text": "is"
+              "text": "a"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "text": "double"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "want"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "room"
             },
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -94,9 +92,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -104,26 +100,26 @@
           "interaction_id": "U46_I5",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o1",
-              "text": "Word"
+              "text": "Room"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Breakfast"
+            },
+            {
+              "id": "o3",
+              "text": "Check-in"
             }
           ],
           "correct_answer": "o1",
@@ -136,24 +132,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -161,16 +163,16 @@
           "interaction_id": "U46_I8",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Want i a double room\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I10",
@@ -178,27 +180,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "id": "w4",
+              "text": "towel"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "extra"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -206,26 +213,26 @@
           "interaction_id": "U46_I11",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Check-out"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Key"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -238,24 +245,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -263,16 +276,16 @@
           "interaction_id": "U46_I14",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"I need an extra towel.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I16",
@@ -280,42 +293,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w0",
+              "text": "Is"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "included?"
             },
             {
-              "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w1",
+              "text": "breakfast"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -323,26 +316,26 @@
           "interaction_id": "U46_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Example"
-            },
-            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Breakfast"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Reception"
+            },
+            {
+              "id": "o2",
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -355,24 +348,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -380,16 +379,16 @@
           "interaction_id": "U46_I20",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Breakfast is included?\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I22",
@@ -398,26 +397,31 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "room"
             },
             {
               "id": "w3",
-              "text": "46"
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "clean"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -425,26 +429,26 @@
           "interaction_id": "U46_I23",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
-            },
-            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Key"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Reception"
+            },
+            {
+              "id": "o1",
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -457,24 +461,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -482,16 +492,16 @@
           "interaction_id": "U46_I26",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The room is very clean.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I28",
@@ -499,27 +509,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "46"
+              "id": "w2",
+              "text": "is"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w5",
+              "text": "hours"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w4",
+              "text": "24"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "reception"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -527,26 +547,26 @@
           "interaction_id": "U46_I29",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Reception"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Elevator"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -559,24 +579,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -584,16 +610,16 @@
           "interaction_id": "U46_I32",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Reception the is open 24 hours\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I34",
@@ -601,32 +627,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "double"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "room"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "want"
             },
             {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -634,9 +652,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -644,26 +660,26 @@
           "interaction_id": "U46_I35",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Check-in"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Reception"
+            },
+            {
+              "id": "o3",
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -676,24 +692,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -701,16 +723,16 @@
           "interaction_id": "U46_I38",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I want a double room.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I40",
@@ -719,26 +741,31 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
             },
             {
               "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "extra"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "towel"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -746,26 +773,26 @@
           "interaction_id": "U46_I41",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o2",
+              "text": "Key"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Reception"
             },
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -778,24 +805,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -803,16 +836,16 @@
           "interaction_id": "U46_I44",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an extra towel\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I46",
@@ -820,42 +853,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w0",
+              "text": "Is"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "included?"
             },
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w1",
+              "text": "breakfast"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -863,26 +876,26 @@
           "interaction_id": "U46_I47",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Room"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Elevator"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -895,24 +908,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -920,16 +939,16 @@
           "interaction_id": "U46_I50",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is breakfast included?\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I52",
@@ -937,32 +956,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w2",
               "text": "is"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "clean"
             },
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w1",
+              "text": "room"
+            },
+            {
+              "id": "w3",
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -970,9 +981,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -980,26 +989,26 @@
           "interaction_id": "U46_I53",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o3",
+              "text": "Reception"
             },
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Room"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Key"
             }
           ],
           "correct_answer": "o1",
@@ -1012,24 +1021,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1037,16 +1052,16 @@
           "interaction_id": "U46_I56",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Room the is very clean\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I58",
@@ -1054,27 +1069,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "is"
+            },
+            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "46"
+              "text": "open"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "reception"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w5",
+              "text": "hours"
+            },
+            {
+              "id": "w4",
+              "text": "24"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -1082,26 +1107,26 @@
           "interaction_id": "U46_I59",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
-            },
-            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Breakfast"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Reception"
+            },
+            {
+              "id": "o3",
+              "text": "Key"
             }
           ],
           "correct_answer": "o1",
@@ -1114,24 +1139,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1139,16 +1170,16 @@
           "interaction_id": "U46_I62",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I63",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The reception is open 24 hours.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I64",
@@ -1156,27 +1187,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "room"
+            },
+            {
               "id": "w3",
-              "text": "46"
+              "text": "double"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "want"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1184,26 +1220,26 @@
           "interaction_id": "U46_I65",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Check-out"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Check-in"
             }
           ],
           "correct_answer": "o1",
@@ -1216,24 +1252,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1241,16 +1283,16 @@
           "interaction_id": "U46_I68",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I69",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Want i a double room\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I70",
@@ -1258,27 +1300,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "extra"
+            },
+            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
+            },
+            {
+              "id": "w4",
+              "text": "towel"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "46"
+              "text": "an"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1286,26 +1333,26 @@
           "interaction_id": "U46_I71",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Room"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Check-out"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -1318,24 +1365,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1343,16 +1396,16 @@
           "interaction_id": "U46_I74",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I75",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"I need an extra towel.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I76",
@@ -1360,27 +1413,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "46"
+              "id": "w1",
+              "text": "breakfast"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "included?"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1388,26 +1436,26 @@
           "interaction_id": "U46_I77",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Room"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Check-in"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -1420,24 +1468,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1445,16 +1499,16 @@
           "interaction_id": "U46_I80",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I81",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Breakfast is included?\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I82",
@@ -1462,27 +1516,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "very"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "room"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "clean"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1490,26 +1549,26 @@
           "interaction_id": "U46_I83",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
-            },
-            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Check-in"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Check-out"
+            },
+            {
+              "id": "o1",
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -1522,24 +1581,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1547,16 +1612,16 @@
           "interaction_id": "U46_I86",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I87",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The room is very clean.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I88",
@@ -1565,31 +1630,27 @@
           "options": [
             {
               "id": "w5",
-              "text": "the"
+              "text": "hours"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "reception"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w4",
+              "text": "24"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "open"
             },
             {
-              "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -1598,8 +1659,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -1607,26 +1667,26 @@
           "interaction_id": "U46_I89",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o2",
+              "text": "Check-in"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Key"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -1639,24 +1699,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1664,16 +1730,16 @@
           "interaction_id": "U46_I92",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I93",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Reception the is open 24 hours\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I94",
@@ -1681,32 +1747,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "I"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "room"
             },
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w3",
+              "text": "double"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             }
           ],
           "correct_answer": [
@@ -1714,9 +1772,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1724,26 +1780,26 @@
           "interaction_id": "U46_I95",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Check-out"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Key"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -1756,24 +1812,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1781,16 +1843,16 @@
           "interaction_id": "U46_I98",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I99",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I want a double room.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I100",
@@ -1798,27 +1860,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w4",
+              "text": "towel"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "46"
+              "text": "extra"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1826,26 +1893,26 @@
           "interaction_id": "U46_I101",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Elevator"
             },
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Key"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -1858,24 +1925,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1883,16 +1956,16 @@
           "interaction_id": "U46_I104",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I105",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an extra towel\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I106",
@@ -1900,42 +1973,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "At"
+              "text": "breakfast"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "text": "included?"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1943,26 +1996,26 @@
           "interaction_id": "U46_I107",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Breakfast"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Room"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -1975,24 +2028,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2000,16 +2059,16 @@
           "interaction_id": "U46_I110",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I111",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is breakfast included?\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I112",
@@ -2017,32 +2076,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "clean"
+            },
+            {
               "id": "w2",
               "text": "is"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "room"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w5",
-              "text": "the"
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -2050,9 +2101,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2060,26 +2109,26 @@
           "interaction_id": "U46_I113",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I114",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Reception"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Check-out"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -2092,24 +2141,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2117,16 +2172,16 @@
           "interaction_id": "U46_I116",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I117",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Room the is very clean\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I118",
@@ -2134,32 +2189,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w5",
+              "text": "hours"
+            },
+            {
+              "id": "w4",
+              "text": "24"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "At"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "reception"
             }
           ],
           "correct_answer": [
@@ -2168,8 +2219,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -2177,26 +2227,26 @@
           "interaction_id": "U46_I119",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I120",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Check-in"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Key"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -2209,24 +2259,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2234,16 +2290,16 @@
           "interaction_id": "U46_I122",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I123",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The reception is open 24 hours.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I124",
@@ -2251,32 +2307,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w4",
-              "text": "At"
+              "text": "room"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "double"
             }
           ],
           "correct_answer": [
@@ -2284,9 +2332,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2294,26 +2340,26 @@
           "interaction_id": "U46_I125",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I126",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Room"
+            },
+            {
+              "id": "o3",
+              "text": "Check-in"
             }
           ],
           "correct_answer": "o1",
@@ -2326,24 +2372,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2351,16 +2403,16 @@
           "interaction_id": "U46_I128",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I129",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Want i a double room\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I130",
@@ -2368,32 +2420,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w3",
+              "text": "extra"
             },
             {
               "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "towel"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "an"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "need"
             }
           ],
           "correct_answer": [
@@ -2401,9 +2445,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2411,26 +2453,26 @@
           "interaction_id": "U46_I131",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I132",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Room"
+            },
+            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -2443,24 +2485,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2468,16 +2516,16 @@
           "interaction_id": "U46_I134",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I135",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an extra towel.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I136",
@@ -2485,27 +2533,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "included?"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "breakfast"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2513,26 +2556,26 @@
           "interaction_id": "U46_I137",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I138",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Key"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Reception"
+            },
+            {
+              "id": "o3",
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -2545,24 +2588,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2570,16 +2619,16 @@
           "interaction_id": "U46_I140",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I141",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Breakfast is included?\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I142",
@@ -2587,32 +2636,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "room"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "clean"
             },
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "w3",
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -2620,9 +2661,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2630,26 +2669,26 @@
           "interaction_id": "U46_I143",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I144",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Breakfast"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Room"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Key"
             }
           ],
           "correct_answer": "o1",
@@ -2662,24 +2701,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2687,16 +2732,16 @@
           "interaction_id": "U46_I146",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I147",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The room is very clean.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I148",
@@ -2704,32 +2749,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
+              "text": "reception"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "24"
+            },
+            {
+              "id": "w5",
+              "text": "hours"
             }
           ],
           "correct_answer": [
@@ -2738,8 +2779,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -2747,26 +2787,26 @@
           "interaction_id": "U46_I149",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I150",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Check-out"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Reception"
+            },
+            {
+              "id": "o3",
+              "text": "Key"
             }
           ],
           "correct_answer": "o1",
@@ -2779,24 +2819,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2804,16 +2850,16 @@
           "interaction_id": "U46_I152",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I153",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Reception the is open 24 hours\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I154",
@@ -2821,32 +2867,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "At"
+              "id": "w3",
+              "text": "double"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "a"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "want"
             },
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w4",
+              "text": "room"
             },
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -2854,9 +2892,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2864,26 +2900,26 @@
           "interaction_id": "U46_I155",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I156",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
-            },
-            {
               "id": "o1",
-              "text": "Word"
+              "text": "Elevator"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Check-out"
+            },
+            {
+              "id": "o2",
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -2896,24 +2932,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2921,16 +2963,16 @@
           "interaction_id": "U46_I158",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I159",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I want a double room.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I160",
@@ -2938,27 +2980,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
+            },
+            {
+              "id": "w3",
+              "text": "extra"
+            },
+            {
+              "id": "w4",
+              "text": "towel"
+            },
+            {
+              "id": "w1",
+              "text": "need"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2966,26 +3013,26 @@
           "interaction_id": "U46_I161",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I162",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Key"
+            },
+            {
               "id": "o1",
-              "text": "Word"
+              "text": "Check-in"
             },
             {
               "id": "o3",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Example"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -2998,24 +3045,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3023,16 +3076,16 @@
           "interaction_id": "U46_I164",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I165",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an extra towel\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I166",
@@ -3041,41 +3094,21 @@
           "options": [
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "At"
+              "text": "included?"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "Is"
             },
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "id": "w1",
+              "text": "breakfast"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3083,26 +3116,26 @@
           "interaction_id": "U46_I167",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I168",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Check-in"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Check-out"
             },
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o1",
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -3115,24 +3148,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3140,16 +3179,16 @@
           "interaction_id": "U46_I170",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I171",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is breakfast included?\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I172",
@@ -3157,32 +3196,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Hotel"
+              "id": "w1",
+              "text": "room"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "clean"
             }
           ],
           "correct_answer": [
@@ -3190,9 +3221,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3200,26 +3229,26 @@
           "interaction_id": "U46_I173",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I174",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Room"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -3232,24 +3261,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3257,16 +3292,16 @@
           "interaction_id": "U46_I176",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I177",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Room the is very clean\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I178",
@@ -3274,32 +3309,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w4",
-              "text": "At"
+              "text": "24"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w5",
+              "text": "hours"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "open"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "the"
+              "id": "w1",
+              "text": "reception"
             }
           ],
           "correct_answer": [
@@ -3308,8 +3339,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -3317,26 +3347,26 @@
           "interaction_id": "U46_I179",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I180",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Key"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Check-out"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Check-in"
             }
           ],
           "correct_answer": "o1",
@@ -3349,24 +3379,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3374,16 +3410,16 @@
           "interaction_id": "U46_I182",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I183",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The reception is open 24 hours.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I184",
@@ -3391,27 +3427,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "a"
+            },
+            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "want"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w4",
+              "text": "room"
             },
             {
               "id": "w3",
-              "text": "46"
+              "text": "double"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3419,26 +3460,26 @@
           "interaction_id": "U46_I185",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I186",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
-            },
-            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Reception"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Check-in"
+            },
+            {
+              "id": "o1",
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -3451,24 +3492,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3476,16 +3523,16 @@
           "interaction_id": "U46_I188",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I189",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Want i a double room\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I190",
@@ -3493,32 +3540,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "towel"
             },
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w1",
+              "text": "need"
             },
             {
-              "id": "w5",
-              "text": "the"
+              "id": "w3",
+              "text": "extra"
+            },
+            {
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -3526,9 +3565,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3536,26 +3573,26 @@
           "interaction_id": "U46_I191",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I192",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Elevator"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Check-out"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -3568,24 +3605,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3593,16 +3636,16 @@
           "interaction_id": "U46_I194",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I195",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"I need an extra towel.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I196",
@@ -3610,27 +3653,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "breakfast"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "included?"
             },
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3638,26 +3676,26 @@
           "interaction_id": "U46_I197",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I198",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Elevator"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -3670,24 +3708,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3695,16 +3739,16 @@
           "interaction_id": "U46_I200",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I201",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Breakfast is included?\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I202",
@@ -3716,28 +3760,20 @@
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w3",
-              "text": "about"
+              "text": "very"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             },
             {
               "id": "w4",
-              "text": "At"
+              "text": "clean"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "room"
             }
           ],
           "correct_answer": [
@@ -3745,9 +3781,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3755,26 +3789,26 @@
           "interaction_id": "U46_I203",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I204",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Elevator"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Check-in"
+            },
+            {
+              "id": "o2",
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -3787,24 +3821,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3812,16 +3852,16 @@
           "interaction_id": "U46_I206",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I207",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The room is very clean.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I208",
@@ -3829,32 +3869,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "24"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "At"
+              "id": "w1",
+              "text": "reception"
             },
             {
               "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "hours"
             }
           ],
           "correct_answer": [
@@ -3863,8 +3899,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -3872,26 +3907,26 @@
           "interaction_id": "U46_I209",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I210",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
-            },
-            {
               "id": "o1",
-              "text": "Word"
+              "text": "Reception"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Key"
+            },
+            {
+              "id": "o2",
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -3904,24 +3939,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3929,16 +3970,16 @@
           "interaction_id": "U46_I212",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I213",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Reception the is open 24 hours\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I214",
@@ -3946,27 +3987,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w3",
+              "text": "double"
             },
             {
-              "id": "w3",
-              "text": "46"
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "want"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "room"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3974,26 +4020,26 @@
           "interaction_id": "U46_I215",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I216",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Room"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Reception"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Key"
             }
           ],
           "correct_answer": "o1",
@@ -4006,24 +4052,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4031,16 +4083,16 @@
           "interaction_id": "U46_I218",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I219",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I want a double room.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I220",
@@ -4049,26 +4101,31 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
             },
             {
-              "id": "w3",
-              "text": "46"
+              "id": "w4",
+              "text": "towel"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "extra"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4076,26 +4133,26 @@
           "interaction_id": "U46_I221",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I222",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Example"
-            },
-            {
               "id": "o3",
-              "text": "Word"
+              "text": "Room"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Key"
+            },
+            {
+              "id": "o2",
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -4108,24 +4165,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4133,16 +4196,16 @@
           "interaction_id": "U46_I224",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I225",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an extra towel\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I226",
@@ -4150,27 +4213,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w2",
+              "text": "included?"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "breakfast"
             },
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4178,26 +4236,26 @@
           "interaction_id": "U46_I227",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I228",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Key"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Check-out"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -4210,24 +4268,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4235,16 +4299,16 @@
           "interaction_id": "U46_I230",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I231",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is breakfast included?\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I232",
@@ -4252,32 +4316,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w1",
+              "text": "room"
+            },
+            {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w3",
-              "text": "about"
+              "text": "very"
             },
             {
               "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "text": "clean"
             }
           ],
           "correct_answer": [
@@ -4285,9 +4341,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4295,26 +4349,26 @@
           "interaction_id": "U46_I233",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I234",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Check-out"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Key"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -4327,24 +4381,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4352,16 +4412,16 @@
           "interaction_id": "U46_I236",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I237",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Room the is very clean\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I238",
@@ -4369,27 +4429,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "open"
+            },
+            {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "hours"
+            },
+            {
+              "id": "w4",
+              "text": "24"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "46"
+              "text": "reception"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -4397,26 +4467,26 @@
           "interaction_id": "U46_I239",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I240",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Key"
+            },
+            {
               "id": "o2",
-              "text": "Example"
+              "text": "Room"
             },
             {
               "id": "o1",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Elevator"
             }
           ],
           "correct_answer": "o1",
@@ -4429,24 +4499,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4454,16 +4530,16 @@
           "interaction_id": "U46_I242",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I243",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The reception is open 24 hours.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I244",
@@ -4471,27 +4547,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
               "id": "w3",
-              "text": "46"
+              "text": "double"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w4",
+              "text": "room"
+            },
+            {
+              "id": "w2",
+              "text": "a"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4499,26 +4580,26 @@
           "interaction_id": "U46_I245",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I246",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Lesson"
+              "text": "Check-in"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Elevator"
+            },
+            {
+              "id": "o3",
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -4531,24 +4612,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4556,16 +4643,16 @@
           "interaction_id": "U46_I248",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I249",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Want i a double room\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I250",
@@ -4573,32 +4660,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "the"
+              "id": "w3",
+              "text": "extra"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "an"
             },
             {
-              "id": "w3",
-              "text": "about"
+              "id": "w1",
+              "text": "need"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "I"
             },
             {
               "id": "w4",
-              "text": "At"
-            },
-            {
-              "id": "w6",
-              "text": "Hotel"
+              "text": "towel"
             }
           ],
           "correct_answer": [
@@ -4606,9 +4685,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4616,26 +4693,26 @@
           "interaction_id": "U46_I251",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I252",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o2",
+              "text": "Check-in"
             },
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Room"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -4648,24 +4725,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4673,16 +4756,16 @@
           "interaction_id": "U46_I254",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I255",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an extra towel.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I256",
@@ -4690,27 +4773,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "included?"
+            },
+            {
               "id": "w1",
-              "text": "to"
+              "text": "breakfast"
             },
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4718,26 +4796,26 @@
           "interaction_id": "U46_I257",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I258",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
-            },
-            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Room"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Check-in"
+            },
+            {
+              "id": "o2",
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -4750,24 +4828,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-out",
+              "right": "Salida"
+            },
+            {
+              "id": "p3",
+              "left": "Breakfast",
+              "right": "Desayuno"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4775,16 +4859,16 @@
           "interaction_id": "U46_I260",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I261",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Breakfast is included?\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I262",
@@ -4792,32 +4876,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "the"
+              "text": "room"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "clean"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "At"
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -4825,9 +4901,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4835,26 +4909,26 @@
           "interaction_id": "U46_I263",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Desayuno",
+          "correct_answer": "Breakfast",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I264",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Llave' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Key"
+            },
+            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -4867,24 +4941,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Elevator",
+              "right": "Ascensor"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p3",
+              "left": "Key",
+              "right": "Llave"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4892,16 +4972,16 @@
           "interaction_id": "U46_I266",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I267",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The room is very clean.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I268",
@@ -4909,27 +4989,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w3",
+              "text": "open"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "reception"
             },
             {
-              "id": "w3",
-              "text": "46"
+              "id": "w5",
+              "text": "hours"
+            },
+            {
+              "id": "w4",
+              "text": "24"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -4937,26 +5027,26 @@
           "interaction_id": "U46_I269",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Salida",
+          "correct_answer": "Check-out",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I270",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Desayuno' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o2",
+              "text": "Elevator"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Breakfast"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Room"
             }
           ],
           "correct_answer": "o1",
@@ -4969,24 +5059,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-out",
+              "right": "Salida"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Key",
+              "right": "Llave"
+            },
+            {
+              "id": "p3",
+              "left": "Room",
+              "right": "Habitación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4994,16 +5090,16 @@
           "interaction_id": "U46_I272",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I273",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Reception the is open 24 hours\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I274",
@@ -5011,27 +5107,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "id": "w4",
+              "text": "room"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "want"
+            },
+            {
+              "id": "w3",
+              "text": "double"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5039,26 +5140,26 @@
           "interaction_id": "U46_I275",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Ascensor",
+          "correct_answer": "Elevator",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I276",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salida' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Key"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Check-out"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o3",
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -5071,24 +5172,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Breakfast",
+              "right": "Desayuno"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Room",
+              "right": "Habitación"
+            },
+            {
+              "id": "p3",
+              "left": "Reception",
+              "right": "Recepción"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5096,16 +5203,16 @@
           "interaction_id": "U46_I278",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I279",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I want a double room.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I280",
@@ -5113,27 +5220,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w1",
+              "text": "need"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "46"
+              "text": "extra"
+            },
+            {
+              "id": "w4",
+              "text": "towel"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5141,26 +5253,26 @@
           "interaction_id": "U46_I281",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Entrada",
+          "correct_answer": "Check-in",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I282",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Ascensor' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Elevator"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Breakfast"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Reception"
             }
           ],
           "correct_answer": "o1",
@@ -5173,24 +5285,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Key",
+              "right": "Llave"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Reception",
+              "right": "Recepción"
+            },
+            {
+              "id": "p3",
+              "left": "Check-in",
+              "right": "Entrada"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5198,16 +5316,16 @@
           "interaction_id": "U46_I284",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I285",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 46.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an extra towel\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I286",
@@ -5215,27 +5333,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "46"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w2",
+              "text": "included?"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "breakfast"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "Is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -5243,26 +5356,26 @@
           "interaction_id": "U46_I287",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Recepción",
+          "correct_answer": "Reception",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I288",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Entrada' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Word"
-            },
-            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Key"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Check-in"
+            },
+            {
+              "id": "o2",
+              "text": "Check-out"
             }
           ],
           "correct_answer": "o1",
@@ -5275,24 +5388,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Room",
+              "right": "Habitación"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Check-in",
+              "right": "Entrada"
+            },
+            {
+              "id": "p3",
+              "left": "Elevator",
+              "right": "Ascensor"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5300,16 +5419,16 @@
           "interaction_id": "U46_I290",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ the elevator?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I291",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 46.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is breakfast included?\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I292",
@@ -5317,32 +5436,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w1",
+              "text": "room"
             },
             {
-              "id": "w4",
-              "text": "At"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Hotel"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
               "id": "w3",
-              "text": "about"
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "clean"
             }
           ],
           "correct_answer": [
@@ -5350,9 +5461,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5360,26 +5469,26 @@
           "interaction_id": "U46_I293",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Habitación",
+          "correct_answer": "Room",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I294",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Recepción' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Reception"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Room"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Breakfast"
             }
           ],
           "correct_answer": "o1",
@@ -5392,24 +5501,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Reception",
+              "right": "Recepción"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Check-in",
+              "right": "Entrada"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Elevator",
+              "right": "Ascensor"
+            },
+            {
+              "id": "p3",
+              "left": "Check-out",
+              "right": "Salida"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5417,16 +5532,16 @@
           "interaction_id": "U46_I296",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "46",
+          "stimulus_en": "Here (ser/estar - ello) ________ your key.",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U46_I297",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about At the Hotel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Room the is very clean\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U46_I298",
@@ -5435,26 +5550,36 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "24"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "is"
             },
             {
               "id": "w3",
-              "text": "46"
+              "text": "open"
+            },
+            {
+              "id": "w1",
+              "text": "reception"
+            },
+            {
+              "id": "w5",
+              "text": "hours"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -5462,26 +5587,26 @@
           "interaction_id": "U46_I299",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Llave",
+          "correct_answer": "Key",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U46_I300",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Habitación' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Room"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Reception"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Check-in"
             }
           ],
           "correct_answer": "o1",

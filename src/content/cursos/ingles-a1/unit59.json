@@ -19,24 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -44,16 +50,16 @@
           "interaction_id": "U59_I2",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"My wallet is empty.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I4",
@@ -61,27 +67,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w3",
+              "text": "nearest"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "59"
+              "text": "the"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w4",
+              "text": "ATM?"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -89,26 +100,26 @@
           "interaction_id": "U59_I5",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Word"
-            },
-            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
+            },
+            {
+              "id": "o2",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -121,24 +132,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -146,16 +163,16 @@
           "interaction_id": "U59_I8",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is where the nearest atm?\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I10",
@@ -163,32 +180,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w4",
-              "text": "Money"
+              "text": "cash"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "have"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w3",
+              "text": "any"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "don't"
             }
           ],
           "correct_answer": [
@@ -196,9 +205,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -206,26 +213,26 @@
           "interaction_id": "U59_I11",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Card"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -238,24 +245,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -263,16 +276,16 @@
           "interaction_id": "U59_I14",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"I don't have any cash.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I16",
@@ -280,42 +293,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "The"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
+              "id": "w3",
+              "text": "closed"
+            },
+            {
               "id": "w1",
-              "text": "lesson"
+              "text": "bank"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -323,26 +321,26 @@
           "interaction_id": "U59_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
+            },
+            {
+              "id": "o2",
+              "text": "Card"
             }
           ],
           "correct_answer": "o1",
@@ -355,24 +353,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -380,16 +384,16 @@
           "interaction_id": "U59_I20",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Bank the is closed\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I22",
@@ -397,27 +401,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "59"
+              "id": "w2",
+              "text": "rate"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "exchange"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "The"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -425,26 +434,26 @@
           "interaction_id": "U59_I23",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Exchange"
+            },
+            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Card"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Cash"
             }
           ],
           "correct_answer": "o1",
@@ -457,24 +466,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -482,16 +497,16 @@
           "interaction_id": "U59_I26",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The exchange rate is good.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I28",
@@ -500,19 +515,19 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "59"
+              "text": "wallet"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "My"
+            },
+            {
+              "id": "w3",
+              "text": "empty"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -527,26 +542,26 @@
           "interaction_id": "U59_I29",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
             },
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o3",
+              "text": "Cash"
             }
           ],
           "correct_answer": "o1",
@@ -559,24 +574,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -584,16 +605,16 @@
           "interaction_id": "U59_I32",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Wallet my is empty\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I34",
@@ -601,27 +622,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
               "id": "w3",
-              "text": "59"
+              "text": "nearest"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w4",
+              "text": "ATM?"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -629,26 +655,26 @@
           "interaction_id": "U59_I35",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
-            },
-            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "ATM"
+            },
+            {
+              "id": "o3",
+              "text": "Card"
             }
           ],
           "correct_answer": "o1",
@@ -661,24 +687,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -686,16 +718,16 @@
           "interaction_id": "U59_I38",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is the nearest ATM?\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I40",
@@ -703,32 +735,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "cash"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "don't"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "any"
             }
           ],
           "correct_answer": [
@@ -736,9 +760,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -746,26 +768,26 @@
           "interaction_id": "U59_I41",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -778,24 +800,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -803,16 +831,16 @@
           "interaction_id": "U59_I44",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Don't i have any cash\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I46",
@@ -821,19 +849,19 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "The"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "bank"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "closed"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -848,26 +876,26 @@
           "interaction_id": "U59_I47",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Wallet"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o3",
+              "text": "Bank"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -880,24 +908,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -905,16 +939,16 @@
           "interaction_id": "U59_I50",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The bank is closed.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I52",
@@ -923,26 +957,31 @@
           "options": [
             {
               "id": "w3",
-              "text": "59"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "is"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "rate"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "exchange"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -950,26 +989,26 @@
           "interaction_id": "U59_I53",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -982,24 +1021,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1007,16 +1052,16 @@
           "interaction_id": "U59_I56",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Exchange the rate is good\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I58",
@@ -1024,42 +1069,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w3",
-              "text": "about"
+              "text": "empty"
             },
             {
               "id": "w2",
               "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "wallet"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1067,26 +1097,26 @@
           "interaction_id": "U59_I59",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Cash"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Card"
             }
           ],
           "correct_answer": "o1",
@@ -1099,24 +1129,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1124,16 +1160,16 @@
           "interaction_id": "U59_I62",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I63",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"My wallet is empty.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I64",
@@ -1141,32 +1177,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "the"
+            },
+            {
               "id": "w4",
-              "text": "Money"
+              "text": "ATM?"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "nearest"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "Where"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -1174,9 +1202,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1184,26 +1210,26 @@
           "interaction_id": "U59_I65",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Cash"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -1216,24 +1242,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1241,16 +1273,16 @@
           "interaction_id": "U59_I68",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I69",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is where the nearest atm?\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I70",
@@ -1258,32 +1290,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
+              "text": "don't"
             },
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w2",
+              "text": "have"
             },
             {
               "id": "w4",
-              "text": "Money"
+              "text": "cash"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "any"
             },
             {
-              "id": "w6",
-              "text": "Currency"
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -1291,9 +1315,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1301,26 +1323,26 @@
           "interaction_id": "U59_I71",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Wallet"
+            },
+            {
               "id": "o3",
-              "text": "Example"
+              "text": "Cash"
             },
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -1333,24 +1355,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1358,16 +1386,16 @@
           "interaction_id": "U59_I74",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I75",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I don't have any cash.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I76",
@@ -1375,20 +1403,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "59"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "bank"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "closed"
             }
           ],
           "correct_answer": [
@@ -1403,26 +1431,26 @@
           "interaction_id": "U59_I77",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
+            },
+            {
+              "id": "o3",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -1435,24 +1463,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1460,16 +1494,16 @@
           "interaction_id": "U59_I80",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I81",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Bank the is closed\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I82",
@@ -1477,32 +1511,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "w1",
+              "text": "exchange"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             },
             {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w2",
+              "text": "rate"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             }
           ],
           "correct_answer": [
@@ -1510,9 +1536,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1520,26 +1544,26 @@
           "interaction_id": "U59_I83",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Card"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -1552,24 +1576,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1577,16 +1607,16 @@
           "interaction_id": "U59_I86",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I87",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The exchange rate is good.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I88",
@@ -1594,42 +1624,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w1",
+              "text": "wallet"
+            },
+            {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "empty"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "My"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1637,26 +1652,26 @@
           "interaction_id": "U59_I89",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
-            },
-            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Card"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
+            },
+            {
+              "id": "o3",
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -1669,24 +1684,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1694,16 +1715,16 @@
           "interaction_id": "U59_I92",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I93",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Wallet my is empty\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I94",
@@ -1712,30 +1733,22 @@
           "options": [
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "nearest"
             },
             {
               "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "ATM?"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "Where"
             },
             {
               "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
               "text": "is"
             }
           ],
@@ -1744,9 +1757,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1754,26 +1765,26 @@
           "interaction_id": "U59_I95",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
-            },
-            {
               "id": "o2",
-              "text": "Example"
+              "text": "Wallet"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
+            },
+            {
+              "id": "o3",
+              "text": "Cash"
             }
           ],
           "correct_answer": "o1",
@@ -1786,24 +1797,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1811,16 +1828,16 @@
           "interaction_id": "U59_I98",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I99",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Where is the nearest ATM?\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I100",
@@ -1828,32 +1845,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w2",
-              "text": "is"
+              "text": "have"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "don't"
+            },
+            {
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w4",
-              "text": "Money"
+              "text": "cash"
             },
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w3",
+              "text": "any"
             }
           ],
           "correct_answer": [
@@ -1861,9 +1870,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1871,26 +1878,26 @@
           "interaction_id": "U59_I101",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Wallet"
             },
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -1903,24 +1910,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1928,16 +1941,16 @@
           "interaction_id": "U59_I104",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I105",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Don't i have any cash\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I106",
@@ -1946,41 +1959,26 @@
           "options": [
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "bank"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "Money"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "closed"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1988,26 +1986,26 @@
           "interaction_id": "U59_I107",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bank"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
+            },
+            {
+              "id": "o3",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -2020,24 +2018,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2045,16 +2049,16 @@
           "interaction_id": "U59_I110",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I111",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The bank is closed.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I112",
@@ -2062,27 +2066,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "59"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "rate"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "exchange"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2090,26 +2099,26 @@
           "interaction_id": "U59_I113",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I114",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Example"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "ATM"
+            },
+            {
+              "id": "o2",
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -2122,24 +2131,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2147,16 +2162,16 @@
           "interaction_id": "U59_I116",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I117",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Exchange the rate is good\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I118",
@@ -2164,20 +2179,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
               "id": "w3",
-              "text": "59"
+              "text": "empty"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "wallet"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "My"
             }
           ],
           "correct_answer": [
@@ -2192,26 +2207,26 @@
           "interaction_id": "U59_I119",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I120",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Wallet"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -2224,24 +2239,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2249,16 +2270,16 @@
           "interaction_id": "U59_I122",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I123",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"My wallet is empty.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I124",
@@ -2266,27 +2287,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w4",
+              "text": "ATM?"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Where"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "nearest"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2294,26 +2320,26 @@
           "interaction_id": "U59_I125",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I126",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
-            },
-            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Wallet"
+            },
+            {
+              "id": "o3",
+              "text": "Card"
             }
           ],
           "correct_answer": "o1",
@@ -2326,24 +2352,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2351,16 +2383,16 @@
           "interaction_id": "U59_I128",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I129",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is where the nearest atm?\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I130",
@@ -2368,27 +2400,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w3",
+              "text": "any"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
-              "id": "w3",
-              "text": "59"
+              "id": "w4",
+              "text": "cash"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "have"
+            },
+            {
+              "id": "w1",
+              "text": "don't"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2396,26 +2433,26 @@
           "interaction_id": "U59_I131",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I132",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o1",
-              "text": "Example"
+              "text": "ATM"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Cash"
+            },
+            {
+              "id": "o1",
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -2428,24 +2465,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2453,16 +2496,16 @@
           "interaction_id": "U59_I134",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I135",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I don't have any cash.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I136",
@@ -2471,19 +2514,19 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "59"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "bank"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "closed"
             }
           ],
           "correct_answer": [
@@ -2498,26 +2541,26 @@
           "interaction_id": "U59_I137",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I138",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "ATM"
+            },
+            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Wallet"
             },
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Word"
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -2530,24 +2573,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2555,16 +2604,16 @@
           "interaction_id": "U59_I140",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I141",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Bank the is closed\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I142",
@@ -2572,27 +2621,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w4",
+              "text": "good"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "exchange"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "rate"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2600,26 +2654,26 @@
           "interaction_id": "U59_I143",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I144",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Cash"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -2632,24 +2686,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2657,16 +2717,16 @@
           "interaction_id": "U59_I146",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I147",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The exchange rate is good.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I148",
@@ -2674,42 +2734,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "id": "w1",
+              "text": "wallet"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "My"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "empty"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2717,26 +2762,26 @@
           "interaction_id": "U59_I149",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I150",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Card"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -2749,24 +2794,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2774,16 +2825,16 @@
           "interaction_id": "U59_I152",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I153",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Wallet my is empty\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I154",
@@ -2792,31 +2843,23 @@
           "options": [
             {
               "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "ATM?"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "is"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w3",
+              "text": "nearest"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
             }
           ],
           "correct_answer": [
@@ -2824,9 +2867,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2834,26 +2875,26 @@
           "interaction_id": "U59_I155",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I156",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Cash"
+            },
+            {
+              "id": "o2",
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -2866,24 +2907,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2891,16 +2938,16 @@
           "interaction_id": "U59_I158",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I159",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is the nearest ATM?\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I160",
@@ -2908,32 +2955,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "any"
+            },
+            {
+              "id": "w4",
+              "text": "cash"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "have"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w1",
+              "text": "don't"
             }
           ],
           "correct_answer": [
@@ -2941,9 +2980,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2951,26 +2988,26 @@
           "interaction_id": "U59_I161",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I162",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Card"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -2983,24 +3020,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3008,16 +3051,16 @@
           "interaction_id": "U59_I164",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I165",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Don't i have any cash\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I166",
@@ -3025,42 +3068,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "The"
             },
             {
               "id": "w2",
               "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "closed"
+            },
+            {
+              "id": "w1",
+              "text": "bank"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -3068,26 +3096,26 @@
           "interaction_id": "U59_I167",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I168",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "ATM"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
+            },
+            {
+              "id": "o2",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -3100,24 +3128,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3125,16 +3159,16 @@
           "interaction_id": "U59_I170",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I171",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The bank is closed.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I172",
@@ -3143,26 +3177,31 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "rate"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "exchange"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3170,26 +3209,26 @@
           "interaction_id": "U59_I173",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I174",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Wallet"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -3202,24 +3241,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3227,16 +3272,16 @@
           "interaction_id": "U59_I176",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I177",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Exchange the rate is good\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I178",
@@ -3244,20 +3289,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "59"
+              "id": "w0",
+              "text": "My"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "wallet"
+            },
+            {
+              "id": "w3",
+              "text": "empty"
             }
           ],
           "correct_answer": [
@@ -3272,26 +3317,26 @@
           "interaction_id": "U59_I179",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I180",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Exchange"
+            },
+            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bank"
             },
             {
               "id": "o3",
-              "text": "Exercise"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Card"
             }
           ],
           "correct_answer": "o1",
@@ -3304,24 +3349,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3329,16 +3380,16 @@
           "interaction_id": "U59_I182",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I183",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"My wallet is empty.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I184",
@@ -3346,27 +3397,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w4",
+              "text": "ATM?"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "nearest"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3374,26 +3430,26 @@
           "interaction_id": "U59_I185",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I186",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Bank"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Cash"
             }
           ],
           "correct_answer": "o1",
@@ -3406,24 +3462,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3431,16 +3493,16 @@
           "interaction_id": "U59_I188",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I189",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is where the nearest atm?\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I190",
@@ -3448,27 +3510,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w4",
+              "text": "cash"
+            },
+            {
               "id": "w3",
-              "text": "59"
+              "text": "any"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "don't"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "have"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3476,26 +3543,26 @@
           "interaction_id": "U59_I191",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I192",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "ATM"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Card"
             },
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o1",
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -3508,24 +3575,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3533,16 +3606,16 @@
           "interaction_id": "U59_I194",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I195",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I don't have any cash.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I196",
@@ -3550,42 +3623,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "closed"
+            },
+            {
+              "id": "w1",
+              "text": "bank"
             },
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -3593,26 +3651,26 @@
           "interaction_id": "U59_I197",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I198",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Bank"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Card"
+            },
+            {
+              "id": "o1",
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -3625,24 +3683,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3650,16 +3714,16 @@
           "interaction_id": "U59_I200",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I201",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Bank the is closed\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I202",
@@ -3668,31 +3732,23 @@
           "options": [
             {
               "id": "w2",
+              "text": "rate"
+            },
+            {
+              "id": "w1",
+              "text": "exchange"
+            },
+            {
+              "id": "w3",
               "text": "is"
             },
             {
               "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "good"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -3700,9 +3756,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3710,26 +3764,26 @@
           "interaction_id": "U59_I203",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I204",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Bank"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
+            },
+            {
+              "id": "o3",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -3742,24 +3796,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3767,16 +3827,16 @@
           "interaction_id": "U59_I206",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I207",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The exchange rate is good.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I208",
@@ -3784,20 +3844,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "wallet"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "My"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "empty"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
@@ -3812,26 +3872,26 @@
           "interaction_id": "U59_I209",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I210",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o2",
+              "text": "Card"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -3844,24 +3904,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3869,16 +3935,16 @@
           "interaction_id": "U59_I212",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I213",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Wallet my is empty\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I214",
@@ -3886,32 +3952,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w2",
               "text": "is"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "nearest"
+            },
+            {
+              "id": "w2",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w4",
+              "text": "ATM?"
             }
           ],
           "correct_answer": [
@@ -3919,9 +3977,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3929,26 +3985,26 @@
           "interaction_id": "U59_I215",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I216",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Cash"
+            },
+            {
+              "id": "o3",
+              "text": "Wallet"
             }
           ],
           "correct_answer": "o1",
@@ -3961,24 +4017,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3986,16 +4048,16 @@
           "interaction_id": "U59_I218",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I219",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is the nearest ATM?\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I220",
@@ -4003,32 +4065,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "any"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
+              "text": "don't"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "cash"
+            },
+            {
+              "id": "w2",
+              "text": "have"
             }
           ],
           "correct_answer": [
@@ -4036,9 +4090,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4046,26 +4098,26 @@
           "interaction_id": "U59_I221",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I222",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Exchange"
+            },
+            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bank"
             },
             {
               "id": "o3",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -4078,24 +4130,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4103,16 +4161,16 @@
           "interaction_id": "U59_I224",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I225",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Don't i have any cash\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I226",
@@ -4120,20 +4178,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w3",
+              "text": "closed"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
             },
             {
-              "id": "w3",
-              "text": "59"
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "bank"
             }
           ],
           "correct_answer": [
@@ -4148,26 +4206,26 @@
           "interaction_id": "U59_I227",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I228",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "ATM"
+            },
+            {
               "id": "o3",
-              "text": "Word"
+              "text": "Wallet"
             },
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -4180,24 +4238,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4205,16 +4269,16 @@
           "interaction_id": "U59_I230",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I231",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The bank is closed.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I232",
@@ -4222,32 +4286,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
-            },
-            {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "is"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "rate"
+            },
+            {
+              "id": "w1",
+              "text": "exchange"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             }
           ],
           "correct_answer": [
@@ -4255,9 +4311,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4265,26 +4319,26 @@
           "interaction_id": "U59_I233",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I234",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Wallet"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Cash"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -4297,24 +4351,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4322,16 +4382,16 @@
           "interaction_id": "U59_I236",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I237",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Exchange the rate is good\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I238",
@@ -4343,38 +4403,23 @@
               "text": "is"
             },
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
+              "text": "wallet"
             },
             {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "id": "w0",
+              "text": "My"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "empty"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -4382,26 +4427,26 @@
           "interaction_id": "U59_I239",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I240",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Cash"
+            },
+            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Card"
             }
           ],
           "correct_answer": "o1",
@@ -4414,24 +4459,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4439,16 +4490,16 @@
           "interaction_id": "U59_I242",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I243",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"My wallet is empty.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I244",
@@ -4456,32 +4507,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "the"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "is"
             },
             {
               "id": "w4",
-              "text": "Money"
+              "text": "ATM?"
+            },
+            {
+              "id": "w3",
+              "text": "nearest"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "Where"
             }
           ],
           "correct_answer": [
@@ -4489,9 +4532,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4499,26 +4540,26 @@
           "interaction_id": "U59_I245",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I246",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Cash"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -4531,24 +4572,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4556,16 +4603,16 @@
           "interaction_id": "U59_I248",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I249",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is where the nearest atm?\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I250",
@@ -4573,27 +4620,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "59"
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "have"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w4",
+              "text": "cash"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "don't"
+            },
+            {
+              "id": "w3",
+              "text": "any"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4601,26 +4653,26 @@
           "interaction_id": "U59_I251",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I252",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Exchange"
+            },
+            {
               "id": "o2",
-              "text": "Word"
+              "text": "Wallet"
             },
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o1",
-              "text": "Example"
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -4633,24 +4685,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4658,16 +4716,16 @@
           "interaction_id": "U59_I254",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I255",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I don't have any cash.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I256",
@@ -4675,12 +4733,12 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Currency"
+              "id": "w3",
+              "text": "closed"
             },
             {
-              "id": "w3",
-              "text": "about"
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w2",
@@ -4688,29 +4746,14 @@
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Money"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "bank"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -4718,26 +4761,26 @@
           "interaction_id": "U59_I257",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I258",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Cash"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Bank"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             }
           ],
           "correct_answer": "o1",
@@ -4750,24 +4793,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4775,16 +4824,16 @@
           "interaction_id": "U59_I260",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I261",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Bank the is closed\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I262",
@@ -4792,27 +4841,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "59"
+              "id": "w4",
+              "text": "good"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "rate"
+            },
+            {
+              "id": "w1",
+              "text": "exchange"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4820,26 +4874,26 @@
           "interaction_id": "U59_I263",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I264",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o2",
+              "text": "Card"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Exchange"
             },
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -4852,24 +4906,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
+            },
+            {
+              "id": "p3",
+              "left": "Cash",
+              "right": "Efectivo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4877,16 +4937,16 @@
           "interaction_id": "U59_I266",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I267",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 59.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The exchange rate is good.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I268",
@@ -4895,19 +4955,19 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "wallet"
             },
             {
               "id": "w3",
-              "text": "59"
+              "text": "empty"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "My"
             }
           ],
           "correct_answer": [
@@ -4922,26 +4982,26 @@
           "interaction_id": "U59_I269",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I270",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Card"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -4954,24 +5014,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Card",
+              "right": "Tarjeta"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Cash",
+              "right": "Efectivo"
+            },
+            {
+              "id": "p3",
+              "left": "Exchange",
+              "right": "Cambio"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4979,16 +5045,16 @@
           "interaction_id": "U59_I272",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I273",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Wallet my is empty\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I274",
@@ -4996,27 +5062,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "id": "w3",
+              "text": "nearest"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Where"
             },
             {
-              "id": "w3",
-              "text": "59"
+              "id": "w4",
+              "text": "ATM?"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "the"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5024,26 +5095,26 @@
           "interaction_id": "U59_I275",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I276",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Exchange"
+            },
+            {
               "id": "o2",
-              "text": "Example"
+              "text": "Bank"
             },
             {
               "id": "o3",
-              "text": "Exercise"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Cash"
             }
           ],
           "correct_answer": "o1",
@@ -5056,24 +5127,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "ATM",
+              "right": "Cajero"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Exchange",
+              "right": "Cambio"
+            },
+            {
+              "id": "p3",
+              "left": "Bank",
+              "right": "Banco"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5081,16 +5158,16 @@
           "interaction_id": "U59_I278",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "59",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I279",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Where is the nearest ATM?\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I280",
@@ -5098,32 +5175,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w4",
-              "text": "Money"
+              "text": "cash"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Currency"
+              "text": "I"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "any"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "have"
+            },
+            {
+              "id": "w1",
+              "text": "don't"
             }
           ],
           "correct_answer": [
@@ -5131,9 +5200,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5141,26 +5208,26 @@
           "interaction_id": "U59_I281",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I282",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Cash"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bank"
             }
           ],
           "correct_answer": "o1",
@@ -5173,24 +5240,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Cash",
+              "right": "Efectivo"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bank",
+              "right": "Banco"
+            },
+            {
+              "id": "p3",
+              "left": "Wallet",
+              "right": "Cartera"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5198,16 +5271,16 @@
           "interaction_id": "U59_I284",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I285",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Money & Currency\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Don't i have any cash\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I286",
@@ -5215,20 +5288,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
               "id": "w3",
-              "text": "59"
+              "text": "closed"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "bank"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -5243,26 +5316,26 @@
           "interaction_id": "U59_I287",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I288",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Card"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
+            },
+            {
+              "id": "o2",
+              "text": "Cash"
             }
           ],
           "correct_answer": "o1",
@@ -5275,24 +5348,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Exchange",
+              "right": "Cambio"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Wallet",
+              "right": "Cartera"
+            },
+            {
+              "id": "p3",
+              "left": "Card",
+              "right": "Tarjeta"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5300,16 +5379,16 @@
           "interaction_id": "U59_I290",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I (pagar) ________ by card.",
+          "correct_answer": "pay",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I291",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Money & Currency\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The bank is closed.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I292",
@@ -5317,27 +5396,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "59"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "rate"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "exchange"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "good"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5345,26 +5429,26 @@
           "interaction_id": "U59_I293",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I294",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Wallet"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Exchange"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",
@@ -5377,24 +5461,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bank",
+              "right": "Banco"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Wallet",
+              "right": "Cartera"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Card",
+              "right": "Tarjeta"
+            },
+            {
+              "id": "p3",
+              "left": "ATM",
+              "right": "Cajero"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5402,16 +5492,16 @@
           "interaction_id": "U59_I296",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "Where (ser/estar - ello) ________ my wallet?",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U59_I297",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 59.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Exchange the rate is good\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U59_I298",
@@ -5419,20 +5509,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "59"
-            },
-            {
               "id": "w0",
-              "text": "Welcome"
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "wallet"
+            },
+            {
+              "id": "w3",
+              "text": "empty"
             }
           ],
           "correct_answer": [
@@ -5447,26 +5537,26 @@
           "interaction_id": "U59_I299",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Efectivo",
+          "correct_answer": "Cash",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U59_I300",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Cambio' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
-            },
-            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Exchange"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Cash"
+            },
+            {
+              "id": "o3",
+              "text": "ATM"
             }
           ],
           "correct_answer": "o1",

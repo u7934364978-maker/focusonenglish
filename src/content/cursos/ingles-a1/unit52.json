@@ -19,24 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -44,16 +50,16 @@
           "interaction_id": "U52_I2",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"There are five eggs.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I4",
@@ -61,27 +67,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "52"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "uncountable"
+            },
+            {
+              "id": "w1",
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Water"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -89,26 +90,26 @@
           "interaction_id": "U52_I5",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Word"
+              "text": "Orange"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Water"
+            },
+            {
+              "id": "o2",
+              "text": "Coffee"
             }
           ],
           "correct_answer": "o1",
@@ -121,24 +122,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -146,16 +153,16 @@
           "interaction_id": "U52_I8",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is water uncountable\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I10",
@@ -163,20 +170,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w1",
+              "text": "need"
             },
             {
               "id": "w3",
-              "text": "52"
+              "text": "orange"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w2",
+              "text": "an"
             }
           ],
           "correct_answer": [
@@ -191,26 +198,26 @@
           "interaction_id": "U52_I11",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Bread"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -223,24 +230,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Apple",
+              "right": "Manzana"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -248,16 +261,16 @@
           "interaction_id": "U52_I14",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an orange.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I16",
@@ -265,42 +278,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "text": "have"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "bread"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "some"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -308,26 +306,26 @@
           "interaction_id": "U52_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o2",
+              "text": "Coffee"
             },
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o3",
+              "text": "Bread"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -340,24 +338,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -365,16 +369,16 @@
           "interaction_id": "U52_I20",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we some bread\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I22",
@@ -382,27 +386,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w0",
+              "text": "Apples"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "countable"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -410,26 +409,26 @@
           "interaction_id": "U52_I23",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Orange"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Coffee"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Rice"
             }
           ],
           "correct_answer": "o1",
@@ -442,24 +441,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -467,16 +472,16 @@
           "interaction_id": "U52_I26",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Apples are countable.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I28",
@@ -485,41 +490,26 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
+              "text": "There"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "five"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "text": "are"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "text": "eggs"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -527,26 +517,26 @@
           "interaction_id": "U52_I29",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Water"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Egg"
             }
           ],
           "correct_answer": "o1",
@@ -559,24 +549,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -584,16 +580,16 @@
           "interaction_id": "U52_I32",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are there five eggs\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I34",
@@ -602,26 +598,21 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "52"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Water"
+            },
+            {
+              "id": "w2",
+              "text": "uncountable"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -629,26 +620,26 @@
           "interaction_id": "U52_I35",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o1",
+              "text": "Bread"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Egg"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -661,24 +652,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -686,16 +683,16 @@
           "interaction_id": "U52_I38",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Water is uncountable.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I40",
@@ -703,42 +700,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w1",
+              "text": "need"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "orange"
             },
             {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -746,26 +728,26 @@
           "interaction_id": "U52_I41",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Orange"
+            },
+            {
               "id": "o1",
-              "text": "Example"
+              "text": "Milk"
             },
             {
               "id": "o3",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Egg"
             }
           ],
           "correct_answer": "o1",
@@ -778,24 +760,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -803,16 +791,16 @@
           "interaction_id": "U52_I44",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an orange\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I46",
@@ -820,20 +808,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w3",
+              "text": "bread"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "have"
             },
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w2",
+              "text": "some"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             }
           ],
           "correct_answer": [
@@ -848,26 +836,26 @@
           "interaction_id": "U52_I47",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Coffee"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Apple"
             },
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -880,24 +868,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -905,16 +899,16 @@
           "interaction_id": "U52_I50",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"We have some bread.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I52",
@@ -922,42 +916,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "countable"
+            },
+            {
               "id": "w0",
-              "text": "This"
+              "text": "Apples"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -965,26 +939,26 @@
           "interaction_id": "U52_I53",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Lesson"
-            },
-            {
               "id": "o3",
-              "text": "Word"
+              "text": "Apple"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Bread"
+            },
+            {
+              "id": "o1",
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -997,24 +971,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1022,16 +1002,16 @@
           "interaction_id": "U52_I56",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are apples countable\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I58",
@@ -1040,41 +1020,26 @@
           "options": [
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "five"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "text": "are"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "eggs"
             },
             {
-              "id": "w4",
-              "text": "Countable"
+              "id": "w0",
+              "text": "There"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1082,26 +1047,26 @@
           "interaction_id": "U52_I59",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Bread"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Rice"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -1114,24 +1079,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Apple",
+              "right": "Manzana"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1139,16 +1110,16 @@
           "interaction_id": "U52_I62",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I63",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"There are five eggs.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I64",
@@ -1156,27 +1127,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "52"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "uncountable"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "Water"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1184,26 +1150,26 @@
           "interaction_id": "U52_I65",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Egg"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Apple"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -1216,24 +1182,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1241,16 +1213,16 @@
           "interaction_id": "U52_I68",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I69",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is water uncountable\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I70",
@@ -1259,19 +1231,19 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "52"
+              "text": "orange"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -1286,26 +1258,26 @@
           "interaction_id": "U52_I71",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
-            },
-            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Egg"
+            },
+            {
+              "id": "o2",
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -1318,24 +1290,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1343,16 +1321,16 @@
           "interaction_id": "U52_I74",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I75",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an orange.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I76",
@@ -1361,41 +1339,26 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
+              "text": "We"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "text": "have"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "bread"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "some"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1403,26 +1366,26 @@
           "interaction_id": "U52_I77",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Rice"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bread"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -1435,24 +1398,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1460,16 +1429,16 @@
           "interaction_id": "U52_I80",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I81",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Have we some bread\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I82",
@@ -1477,42 +1446,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "text": "countable"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "are"
             },
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w0",
+              "text": "Apples"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1520,26 +1469,26 @@
           "interaction_id": "U52_I83",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Egg"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Coffee"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -1552,24 +1501,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1577,16 +1532,16 @@
           "interaction_id": "U52_I86",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I87",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Apples are countable.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I88",
@@ -1594,42 +1549,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "id": "w2",
+              "text": "five"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "There"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "are"
             },
             {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w3",
+              "text": "eggs"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1637,26 +1577,26 @@
           "interaction_id": "U52_I89",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Coffee"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Bread"
             },
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -1669,24 +1609,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1694,16 +1640,16 @@
           "interaction_id": "U52_I92",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I93",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are there five eggs\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I94",
@@ -1711,42 +1657,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
               "id": "w2",
-              "text": "is"
+              "text": "uncountable"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "id": "w0",
+              "text": "Water"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -1754,26 +1680,26 @@
           "interaction_id": "U52_I95",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o2",
+              "text": "Water"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Orange"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Rice"
             }
           ],
           "correct_answer": "o1",
@@ -1786,24 +1712,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1811,16 +1743,16 @@
           "interaction_id": "U52_I98",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I99",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Water is uncountable.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I100",
@@ -1829,19 +1761,19 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "text": "an"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
+            },
+            {
+              "id": "w3",
+              "text": "orange"
             }
           ],
           "correct_answer": [
@@ -1856,26 +1788,26 @@
           "interaction_id": "U52_I101",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o2",
+              "text": "Coffee"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Milk"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -1888,24 +1820,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1913,16 +1851,16 @@
           "interaction_id": "U52_I104",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I105",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an orange\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I106",
@@ -1931,19 +1869,19 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "some"
             },
             {
               "id": "w3",
-              "text": "52"
+              "text": "bread"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "have"
             }
           ],
           "correct_answer": [
@@ -1958,26 +1896,26 @@
           "interaction_id": "U52_I107",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Milk"
             },
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Bread"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Apple"
             }
           ],
           "correct_answer": "o1",
@@ -1990,24 +1928,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Apple",
+              "right": "Manzana"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2015,16 +1959,16 @@
           "interaction_id": "U52_I110",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I111",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"We have some bread.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I112",
@@ -2032,27 +1976,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w1",
+              "text": "are"
+            },
+            {
               "id": "w2",
-              "text": "unit"
+              "text": "countable"
             },
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "52"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "Apples"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2060,26 +1999,26 @@
           "interaction_id": "U52_I113",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I114",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Milk"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Bread"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -2092,24 +2031,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2117,16 +2062,16 @@
           "interaction_id": "U52_I116",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I117",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are apples countable\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I118",
@@ -2134,42 +2079,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "five"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "There"
+            },
+            {
+              "id": "w3",
+              "text": "eggs"
+            },
+            {
+              "id": "w1",
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2177,26 +2107,26 @@
           "interaction_id": "U52_I119",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I120",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Egg"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Orange"
+            },
+            {
+              "id": "o3",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -2209,24 +2139,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2234,16 +2170,16 @@
           "interaction_id": "U52_I122",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I123",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"There are five eggs.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I124",
@@ -2251,42 +2187,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w2",
+              "id": "w1",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "Countable"
+              "id": "w0",
+              "text": "Water"
             },
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w2",
+              "text": "uncountable"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2294,26 +2210,26 @@
           "interaction_id": "U52_I125",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I126",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Water"
+            },
+            {
               "id": "o3",
-              "text": "Example"
+              "text": "Bread"
             },
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o1",
-              "text": "Exercise"
+              "text": "Apple"
             }
           ],
           "correct_answer": "o1",
@@ -2326,24 +2242,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2351,16 +2273,16 @@
           "interaction_id": "U52_I128",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I129",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is water uncountable\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I130",
@@ -2368,20 +2290,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "need"
             },
             {
               "id": "w3",
-              "text": "52"
+              "text": "orange"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
             }
           ],
           "correct_answer": [
@@ -2396,26 +2318,26 @@
           "interaction_id": "U52_I131",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I132",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Milk"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Bread"
+            },
+            {
+              "id": "o3",
+              "text": "Coffee"
             }
           ],
           "correct_answer": "o1",
@@ -2428,24 +2350,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2453,16 +2381,16 @@
           "interaction_id": "U52_I134",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I135",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an orange.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I136",
@@ -2470,42 +2398,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w1",
+              "text": "have"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "some"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "We"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "text": "bread"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2513,26 +2426,26 @@
           "interaction_id": "U52_I137",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I138",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Exercise"
-            },
-            {
               "id": "o3",
-              "text": "Word"
+              "text": "Apple"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Rice"
             }
           ],
           "correct_answer": "o1",
@@ -2545,24 +2458,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2570,16 +2489,16 @@
           "interaction_id": "U52_I140",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I141",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Have we some bread\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I142",
@@ -2587,27 +2506,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w2",
+              "text": "countable"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Apples"
             },
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "id": "w1",
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2615,26 +2529,26 @@
           "interaction_id": "U52_I143",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I144",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Rice"
+            },
+            {
               "id": "o2",
-              "text": "Word"
+              "text": "Water"
             },
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -2647,24 +2561,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2672,16 +2592,16 @@
           "interaction_id": "U52_I146",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I147",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Apples are countable.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I148",
@@ -2689,42 +2609,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "There"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "eggs"
+            },
+            {
+              "id": "w2",
+              "text": "five"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2732,26 +2637,26 @@
           "interaction_id": "U52_I149",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I150",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Milk"
+            },
+            {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Water"
             },
             {
               "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Coffee"
             }
           ],
           "correct_answer": "o1",
@@ -2764,24 +2669,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2789,16 +2700,16 @@
           "interaction_id": "U52_I152",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I153",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are there five eggs\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I154",
@@ -2806,27 +2717,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w1",
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Water"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "uncountable"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -2834,26 +2740,26 @@
           "interaction_id": "U52_I155",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I156",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Apple"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Egg"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -2866,24 +2772,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Apple",
+              "right": "Manzana"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2891,16 +2803,16 @@
           "interaction_id": "U52_I158",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I159",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Water is uncountable.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I160",
@@ -2908,42 +2820,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "need"
             },
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "id": "w3",
+              "text": "orange"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2951,26 +2848,26 @@
           "interaction_id": "U52_I161",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I162",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Apple"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Water"
             },
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -2983,24 +2880,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3008,16 +2911,16 @@
           "interaction_id": "U52_I164",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I165",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an orange\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I166",
@@ -3025,20 +2928,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "bread"
+            },
+            {
               "id": "w1",
-              "text": "to"
+              "text": "have"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "text": "some"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
             }
           ],
           "correct_answer": [
@@ -3053,26 +2956,26 @@
           "interaction_id": "U52_I167",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I168",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Rice"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Orange"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Egg"
             }
           ],
           "correct_answer": "o1",
@@ -3085,24 +2988,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3110,16 +3019,16 @@
           "interaction_id": "U52_I170",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I171",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"We have some bread.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I172",
@@ -3127,42 +3036,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "text": "Apples"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "countable"
             },
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
+              "id": "w1",
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3170,26 +3059,26 @@
           "interaction_id": "U52_I173",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I174",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Coffee"
+            },
+            {
               "id": "o3",
-              "text": "Example"
+              "text": "Orange"
             },
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -3202,24 +3091,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3227,16 +3122,16 @@
           "interaction_id": "U52_I176",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I177",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are apples countable\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I178",
@@ -3244,42 +3139,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w1",
+              "text": "are"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "eggs"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "five"
+            },
+            {
+              "id": "w0",
+              "text": "There"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -3287,26 +3167,26 @@
           "interaction_id": "U52_I179",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I180",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Bread"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Water"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Rice"
             }
           ],
           "correct_answer": "o1",
@@ -3319,24 +3199,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3344,16 +3230,16 @@
           "interaction_id": "U52_I182",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I183",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"There are five eggs.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I184",
@@ -3361,27 +3247,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w1",
+              "text": "is"
             },
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "uncountable"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Water"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3389,26 +3270,26 @@
           "interaction_id": "U52_I185",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I186",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Apple"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Milk"
             },
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -3421,24 +3302,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3446,16 +3333,16 @@
           "interaction_id": "U52_I188",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I189",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is water uncountable\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I190",
@@ -3463,42 +3350,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w2",
+              "text": "an"
+            },
+            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "need"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "I"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "orange"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -3506,26 +3378,26 @@
           "interaction_id": "U52_I191",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I192",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o2",
+              "text": "Bread"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Apple"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -3538,24 +3410,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3563,16 +3441,16 @@
           "interaction_id": "U52_I194",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I195",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an orange.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I196",
@@ -3581,19 +3459,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "52"
+              "text": "bread"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "have"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "some"
             }
           ],
           "correct_answer": [
@@ -3608,26 +3486,26 @@
           "interaction_id": "U52_I197",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I198",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Water"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Rice"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Coffee"
             }
           ],
           "correct_answer": "o1",
@@ -3640,24 +3518,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3665,16 +3549,16 @@
           "interaction_id": "U52_I200",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I201",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we some bread\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I202",
@@ -3682,27 +3566,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w0",
+              "text": "Apples"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "countable"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3710,26 +3589,26 @@
           "interaction_id": "U52_I203",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I204",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Water"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -3742,24 +3621,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Apple",
+              "right": "Manzana"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3767,16 +3652,16 @@
           "interaction_id": "U52_I206",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I207",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Apples are countable.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I208",
@@ -3785,19 +3670,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "52"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "eggs"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "five"
             }
           ],
           "correct_answer": [
@@ -3812,26 +3697,26 @@
           "interaction_id": "U52_I209",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I210",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o2",
+              "text": "Water"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Milk"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -3844,24 +3729,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3869,16 +3760,16 @@
           "interaction_id": "U52_I212",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I213",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are there five eggs\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I214",
@@ -3887,26 +3778,21 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
+              "text": "uncountable"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "Water"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -3914,26 +3800,26 @@
           "interaction_id": "U52_I215",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I216",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Coffee"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Egg"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -3946,24 +3832,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3971,16 +3863,16 @@
           "interaction_id": "U52_I218",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I219",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Water is uncountable.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I220",
@@ -3988,20 +3880,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "id": "w1",
+              "text": "need"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "orange"
             }
           ],
           "correct_answer": [
@@ -4016,26 +3908,26 @@
           "interaction_id": "U52_I221",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I222",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Apple"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Water"
+            },
+            {
+              "id": "o3",
+              "text": "Rice"
             }
           ],
           "correct_answer": "o1",
@@ -4048,24 +3940,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4073,16 +3971,16 @@
           "interaction_id": "U52_I224",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I225",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an orange\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I226",
@@ -4090,42 +3988,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "We"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "some"
             },
             {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w3",
+              "text": "bread"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "have"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -4133,26 +4016,26 @@
           "interaction_id": "U52_I227",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I228",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Word"
+              "text": "Bread"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Rice"
+            },
+            {
+              "id": "o2",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -4165,24 +4048,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4190,16 +4079,16 @@
           "interaction_id": "U52_I230",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I231",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"We have some bread.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I232",
@@ -4207,27 +4096,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "countable"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "are"
             },
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w0",
+              "text": "Apples"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4235,26 +4119,26 @@
           "interaction_id": "U52_I233",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I234",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Milk"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Rice"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -4267,24 +4151,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4292,16 +4182,16 @@
           "interaction_id": "U52_I236",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I237",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are apples countable\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I238",
@@ -4309,20 +4199,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "id": "w3",
+              "text": "eggs"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "There"
             },
             {
-              "id": "w3",
-              "text": "52"
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "five"
             }
           ],
           "correct_answer": [
@@ -4337,26 +4227,26 @@
           "interaction_id": "U52_I239",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I240",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Word"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Egg"
+            },
+            {
+              "id": "o2",
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -4369,24 +4259,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4394,16 +4290,16 @@
           "interaction_id": "U52_I242",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I243",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"There are five eggs.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I244",
@@ -4411,27 +4307,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "id": "w1",
+              "text": "is"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "uncountable"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "Water"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4439,26 +4330,26 @@
           "interaction_id": "U52_I245",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I246",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o3",
+              "text": "Milk"
             },
             {
-              "id": "o3",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Water"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -4471,24 +4362,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4496,16 +4393,16 @@
           "interaction_id": "U52_I248",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I249",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Is water uncountable\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I250",
@@ -4513,20 +4410,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w3",
+              "text": "orange"
             },
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "text": "I"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "need"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             }
           ],
           "correct_answer": [
@@ -4541,26 +4438,26 @@
           "interaction_id": "U52_I251",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I252",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Apple"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Water"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -4573,24 +4470,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p3",
+              "left": "Apple",
+              "right": "Manzana"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4598,16 +4501,16 @@
           "interaction_id": "U52_I254",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I255",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I need an orange.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I256",
@@ -4616,41 +4519,26 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "We"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "bread"
+            },
+            {
+              "id": "w2",
+              "text": "some"
+            },
+            {
+              "id": "w1",
+              "text": "have"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -4658,26 +4546,26 @@
           "interaction_id": "U52_I257",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I258",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Milk"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Rice"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -4690,24 +4578,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Coffee",
+              "right": "Café"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p3",
+              "left": "Water",
+              "right": "Agua"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4715,16 +4609,16 @@
           "interaction_id": "U52_I260",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I261",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Countable & Uncountable\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Have we some bread\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I262",
@@ -4732,42 +4626,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
+              "id": "w1",
+              "text": "are"
             },
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w2",
+              "text": "countable"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "Apples"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4775,26 +4649,26 @@
           "interaction_id": "U52_I263",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I264",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Water"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Egg"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -4807,24 +4681,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Bread",
+              "right": "Pan"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Water",
+              "right": "Agua"
+            },
+            {
+              "id": "p3",
+              "left": "Egg",
+              "right": "Huevo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4832,16 +4712,16 @@
           "interaction_id": "U52_I266",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I267",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Apples are countable.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I268",
@@ -4849,42 +4729,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "There"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "five"
             },
             {
-              "id": "w6",
-              "text": "Uncountable"
+              "id": "w1",
+              "text": "are"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
+              "text": "eggs"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -4892,26 +4757,26 @@
           "interaction_id": "U52_I269",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I270",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Water"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Apple"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Orange"
             }
           ],
           "correct_answer": "o1",
@@ -4924,24 +4789,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4949,16 +4820,16 @@
           "interaction_id": "U52_I272",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I273",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are there five eggs\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I274",
@@ -4966,27 +4837,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w0",
+              "text": "Water"
+            },
+            {
               "id": "w2",
-              "text": "unit"
+              "text": "uncountable"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "52"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -4994,26 +4860,26 @@
           "interaction_id": "U52_I275",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I276",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Water"
+            },
+            {
               "id": "o2",
-              "text": "Word"
+              "text": "Rice"
             },
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Lesson"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -5026,24 +4892,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Water",
+              "right": "Agua"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5051,16 +4923,16 @@
           "interaction_id": "U52_I278",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I279",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Water is uncountable.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I280",
@@ -5068,42 +4940,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "an"
             },
             {
-              "id": "w4",
-              "text": "Countable"
+              "id": "w1",
+              "text": "need"
             },
             {
-              "id": "w6",
-              "text": "Uncountable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w3",
+              "text": "orange"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -5111,26 +4968,26 @@
           "interaction_id": "U52_I281",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Arroz",
+          "correct_answer": "Rice",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I282",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Leche' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Milk"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Coffee"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -5143,24 +5000,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Egg",
+              "right": "Huevo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p3",
+              "left": "Milk",
+              "right": "Leche"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5168,16 +5031,16 @@
           "interaction_id": "U52_I284",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I285",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Countable & Uncountable\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Need i an orange\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I286",
@@ -5185,20 +5048,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "52"
+              "text": "have"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "bread"
+            },
+            {
+              "id": "w2",
+              "text": "some"
             }
           ],
           "correct_answer": [
@@ -5213,26 +5076,26 @@
           "interaction_id": "U52_I287",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Huevo",
+          "correct_answer": "Egg",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I288",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Naranja' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Coffee"
+            },
+            {
+              "id": "o2",
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",
@@ -5245,24 +5108,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Orange",
+              "right": "Naranja"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Milk",
+              "right": "Leche"
+            },
+            {
+              "id": "p3",
+              "left": "Coffee",
+              "right": "Café"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5270,16 +5139,16 @@
           "interaction_id": "U52_I290",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "52",
+          "stimulus_en": "I have (tres) ________ eggs.",
+          "correct_answer": "three",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I291",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"We have some bread.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I292",
@@ -5287,27 +5156,22 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "52"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
               "id": "w2",
-              "text": "unit"
+              "text": "countable"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "Apples"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
-            "w2",
-            "w3"
+            "w2"
           ],
           "mastery_tag": "syntax"
         },
@@ -5315,26 +5179,26 @@
           "interaction_id": "U52_I293",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Manzana",
+          "correct_answer": "Apple",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I294",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Agua' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Example"
-            },
-            {
               "id": "o3",
-              "text": "Word"
+              "text": "Egg"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Bread"
+            },
+            {
+              "id": "o1",
+              "text": "Water"
             }
           ],
           "correct_answer": "o1",
@@ -5347,24 +5211,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Rice",
+              "right": "Arroz"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Milk",
+              "right": "Leche"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Coffee",
+              "right": "Café"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Pan"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5372,16 +5242,16 @@
           "interaction_id": "U52_I296",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "I have (un) ________ apple.",
+          "correct_answer": "an",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U52_I297",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 52.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are apples countable\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U52_I298",
@@ -5389,42 +5259,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "Countable"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w1",
+              "text": "are"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "There"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "five"
             },
             {
-              "id": "w6",
-              "text": "Uncountable"
+              "id": "w3",
+              "text": "eggs"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -5432,26 +5287,26 @@
           "interaction_id": "U52_I299",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Café",
+          "correct_answer": "Coffee",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U52_I300",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Pan' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o2",
+              "text": "Egg"
             },
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o3",
+              "text": "Milk"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Bread"
             }
           ],
           "correct_answer": "o1",

@@ -19,24 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -44,16 +50,16 @@
           "interaction_id": "U47_I2",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"A holiday is for relaxing.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I4",
@@ -61,32 +67,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w4",
+              "text": "crowded"
             },
             {
-              "id": "w4",
-              "text": "Holidays"
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "beach"
+            },
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
             }
           ],
           "correct_answer": [
@@ -94,9 +92,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -104,26 +100,26 @@
           "interaction_id": "U47_I5",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Example"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -136,24 +132,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -161,16 +163,16 @@
           "interaction_id": "U47_I8",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Beach the is very crowded\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I10",
@@ -179,31 +181,23 @@
           "options": [
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "text": "adventure"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "wants"
+            },
+            {
+              "id": "w4",
+              "text": "vacation"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             }
           ],
           "correct_answer": [
@@ -211,9 +205,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -221,26 +213,26 @@
           "interaction_id": "U47_I11",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
-            },
-            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Holiday"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o1",
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
@@ -253,24 +245,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -278,16 +276,16 @@
           "interaction_id": "U47_I14",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"He wants an adventure vacation.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I16",
@@ -296,19 +294,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "47"
+              "text": "holidays"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "love"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "summer"
             }
           ],
           "correct_answer": [
@@ -323,26 +321,26 @@
           "interaction_id": "U47_I17",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
+              "id": "o1",
+              "text": "Holiday"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Beach"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -355,24 +353,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -380,16 +384,16 @@
           "interaction_id": "U47_I20",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Love i summer holidays\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I22",
@@ -397,27 +401,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "47"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w5",
+              "text": "Paris"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w1",
+              "text": "are"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -425,26 +439,26 @@
           "interaction_id": "U47_I23",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Adventure"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o3",
+              "text": "Relax"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -457,24 +471,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -482,16 +502,16 @@
           "interaction_id": "U47_I26",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"We are going sightseeing in Paris.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I28",
@@ -500,31 +520,23 @@
           "options": [
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "relaxing"
+            },
+            {
+              "id": "w3",
+              "text": "for"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w1",
+              "text": "holiday"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "A"
             }
           ],
           "correct_answer": [
@@ -532,9 +544,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -542,26 +552,26 @@
           "interaction_id": "U47_I29",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Mountains"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
@@ -574,24 +584,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -599,16 +615,16 @@
           "interaction_id": "U47_I32",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Holiday a is for relaxing\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I34",
@@ -616,32 +632,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w4",
+              "text": "crowded"
+            },
+            {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
+              "text": "beach"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -649,9 +657,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -659,26 +665,26 @@
           "interaction_id": "U47_I35",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Word"
+              "id": "o1",
+              "text": "Vacation"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Sightseeing"
             },
             {
-              "id": "o1",
-              "text": "Example"
+              "id": "o2",
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -691,24 +697,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -716,16 +728,16 @@
           "interaction_id": "U47_I38",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The beach is very crowded.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I40",
@@ -733,27 +745,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w3",
-              "text": "47"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w4",
+              "text": "vacation"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
+            },
+            {
+              "id": "w1",
+              "text": "wants"
+            },
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w3",
+              "text": "adventure"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -761,26 +778,26 @@
           "interaction_id": "U47_I41",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Beach"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -793,24 +810,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -818,16 +841,16 @@
           "interaction_id": "U47_I44",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Wants he an adventure vacation\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I46",
@@ -835,20 +858,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "love"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "holidays"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "summer"
+            },
+            {
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -863,26 +886,26 @@
           "interaction_id": "U47_I47",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Vacation"
+            },
+            {
               "id": "o2",
-              "text": "Word"
+              "text": "Mountains"
             },
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -895,24 +918,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -920,16 +949,16 @@
           "interaction_id": "U47_I50",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I love summer holidays.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I52",
@@ -937,32 +966,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "going"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "are"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "Paris"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "We"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
             }
           ],
           "correct_answer": [
@@ -971,8 +996,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -980,26 +1004,26 @@
           "interaction_id": "U47_I53",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Beach"
+            },
+            {
+              "id": "o3",
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -1012,24 +1036,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1037,16 +1067,16 @@
           "interaction_id": "U47_I56",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are we going sightseeing in paris\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I58",
@@ -1054,32 +1084,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "id": "w3",
+              "text": "for"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "holiday"
             },
             {
-              "id": "w3",
-              "text": "about"
+              "id": "w4",
+              "text": "relaxing"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "id": "w0",
+              "text": "A"
             }
           ],
           "correct_answer": [
@@ -1087,9 +1109,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1097,26 +1117,26 @@
           "interaction_id": "U47_I59",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Mountains"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Holiday"
+            },
+            {
+              "id": "o3",
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
@@ -1129,24 +1149,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1154,16 +1180,16 @@
           "interaction_id": "U47_I62",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I63",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"A holiday is for relaxing.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I64",
@@ -1172,26 +1198,31 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "47"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "is"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "beach"
+            },
+            {
+              "id": "w4",
+              "text": "crowded"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1199,26 +1230,26 @@
           "interaction_id": "U47_I65",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Sightseeing"
             },
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o1",
+              "text": "Adventure"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -1231,24 +1262,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1256,16 +1293,16 @@
           "interaction_id": "U47_I68",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I69",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Beach the is very crowded\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I70",
@@ -1274,31 +1311,23 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "He"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "adventure"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "vacation"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "wants"
             }
           ],
           "correct_answer": [
@@ -1306,9 +1335,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1316,26 +1343,26 @@
           "interaction_id": "U47_I71",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Lesson"
-            },
-            {
               "id": "o1",
-              "text": "Word"
+              "text": "Sightseeing"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Holiday"
+            },
+            {
+              "id": "o3",
+              "text": "Vacation"
             }
           ],
           "correct_answer": "o1",
@@ -1348,24 +1375,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1373,16 +1406,16 @@
           "interaction_id": "U47_I74",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I75",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"He wants an adventure vacation.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I76",
@@ -1390,42 +1423,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "I"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "holidays"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w2",
+              "text": "summer"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -1433,26 +1451,26 @@
           "interaction_id": "U47_I77",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I78",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Beach"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Vacation"
+            },
+            {
+              "id": "o3",
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -1465,24 +1483,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1490,16 +1514,16 @@
           "interaction_id": "U47_I80",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I81",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Love i summer holidays\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I82",
@@ -1507,32 +1531,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w3",
+              "text": "sightseeing"
+            },
+            {
               "id": "w5",
-              "text": "&"
+              "text": "Paris"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
+              "text": "going"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "are"
+            },
+            {
+              "id": "w4",
+              "text": "in"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "text": "We"
             }
           ],
           "correct_answer": [
@@ -1541,8 +1561,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -1550,26 +1569,26 @@
           "interaction_id": "U47_I83",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I84",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Mountains"
             },
             {
-              "id": "o1",
-              "text": "Word"
+              "id": "o2",
+              "text": "Relax"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -1582,24 +1601,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1607,16 +1632,16 @@
           "interaction_id": "U47_I86",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I87",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"We are going sightseeing in Paris.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I88",
@@ -1625,26 +1650,31 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w3",
-              "text": "47"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "holiday"
+            },
+            {
+              "id": "w3",
+              "text": "for"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "A"
+            },
+            {
+              "id": "w4",
+              "text": "relaxing"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1652,26 +1682,26 @@
           "interaction_id": "U47_I89",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I90",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Word"
-            },
-            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Beach"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -1684,24 +1714,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1709,16 +1745,16 @@
           "interaction_id": "U47_I92",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I93",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Holiday a is for relaxing\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I94",
@@ -1726,32 +1762,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
               "id": "w2",
               "text": "is"
             },
             {
+              "id": "w0",
+              "text": "The"
+            },
+            {
               "id": "w4",
-              "text": "Holidays"
+              "text": "crowded"
             },
             {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "beach"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -1759,9 +1787,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1769,26 +1795,26 @@
           "interaction_id": "U47_I95",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I96",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Example"
-            },
-            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Beach"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Vacation"
+            },
+            {
+              "id": "o3",
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -1801,24 +1827,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1826,16 +1858,16 @@
           "interaction_id": "U47_I98",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I99",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The beach is very crowded.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I100",
@@ -1843,27 +1875,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "He"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w4",
+              "text": "vacation"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "adventure"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "wants"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -1871,26 +1908,26 @@
           "interaction_id": "U47_I101",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I102",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Vacation"
             },
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -1903,24 +1940,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1928,16 +1971,16 @@
           "interaction_id": "U47_I104",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I105",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Wants he an adventure vacation\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I106",
@@ -1945,20 +1988,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "love"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "summer"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "holidays"
+            },
+            {
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -1973,26 +2016,26 @@
           "interaction_id": "U47_I107",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I108",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Beach"
+            },
+            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Mountains"
             },
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Word"
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -2005,24 +2048,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2030,16 +2079,16 @@
           "interaction_id": "U47_I110",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I111",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I love summer holidays.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I112",
@@ -2047,32 +2096,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "text": "are"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "in"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             },
             {
               "id": "w5",
-              "text": "&"
+              "text": "Paris"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
             }
           ],
           "correct_answer": [
@@ -2081,8 +2126,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -2090,26 +2134,26 @@
           "interaction_id": "U47_I113",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I114",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
+              "id": "o1",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Beach"
             },
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Vacation"
             }
           ],
           "correct_answer": "o1",
@@ -2122,24 +2166,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2147,16 +2197,16 @@
           "interaction_id": "U47_I116",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I117",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Are we going sightseeing in paris\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I118",
@@ -2164,32 +2214,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w4",
+              "text": "relaxing"
+            },
+            {
+              "id": "w3",
+              "text": "for"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "holiday"
+            },
+            {
+              "id": "w0",
+              "text": "A"
             },
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
             }
           ],
           "correct_answer": [
@@ -2197,9 +2239,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2207,26 +2247,26 @@
           "interaction_id": "U47_I119",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I120",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
@@ -2239,24 +2279,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2264,16 +2310,16 @@
           "interaction_id": "U47_I122",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I123",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"A holiday is for relaxing.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I124",
@@ -2282,26 +2328,31 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "The"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "crowded"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "beach"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2309,26 +2360,26 @@
           "interaction_id": "U47_I125",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I126",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Beach"
+            },
+            {
               "id": "o3",
-              "text": "Word"
+              "text": "Vacation"
             },
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Exercise"
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -2341,24 +2392,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2366,16 +2423,16 @@
           "interaction_id": "U47_I128",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I129",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Beach the is very crowded\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I130",
@@ -2384,31 +2441,23 @@
           "options": [
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "an"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "text": "He"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "wants"
+            },
+            {
+              "id": "w3",
+              "text": "adventure"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "vacation"
             }
           ],
           "correct_answer": [
@@ -2416,9 +2465,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2426,26 +2473,26 @@
           "interaction_id": "U47_I131",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I132",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Relax"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Vacation"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -2458,24 +2505,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2483,16 +2536,16 @@
           "interaction_id": "U47_I134",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I135",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"He wants an adventure vacation.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I136",
@@ -2500,42 +2553,27 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "id": "w2",
+              "text": "summer"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "love"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "I"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "text": "holidays"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w3"
           ],
           "mastery_tag": "syntax"
         },
@@ -2543,26 +2581,26 @@
           "interaction_id": "U47_I137",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I138",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Beach"
+            },
+            {
+              "id": "o3",
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -2575,24 +2613,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2600,16 +2644,16 @@
           "interaction_id": "U47_I140",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I141",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Love i summer holidays\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I142",
@@ -2617,32 +2661,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
               "id": "w5",
-              "text": "&"
+              "text": "Paris"
             },
             {
               "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "in"
             },
             {
               "id": "w1",
-              "text": "lesson"
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
+            },
+            {
+              "id": "w0",
+              "text": "We"
             }
           ],
           "correct_answer": [
@@ -2651,8 +2691,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -2660,26 +2699,26 @@
           "interaction_id": "U47_I143",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I144",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Example"
+              "text": "Holiday"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Vacation"
             }
           ],
           "correct_answer": "o1",
@@ -2692,24 +2731,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2717,16 +2762,16 @@
           "interaction_id": "U47_I146",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I147",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"We are going sightseeing in Paris.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I148",
@@ -2734,27 +2779,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "A"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w2",
+              "text": "is"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "holiday"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "relaxing"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2762,26 +2812,26 @@
           "interaction_id": "U47_I149",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I150",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Adventure"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Vacation"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -2794,24 +2844,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2819,16 +2875,16 @@
           "interaction_id": "U47_I152",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I153",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Holiday a is for relaxing\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I154",
@@ -2836,27 +2892,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "47"
+              "id": "w1",
+              "text": "beach"
             },
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "text": "The"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "crowded"
+            },
+            {
+              "id": "w3",
+              "text": "very"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2864,26 +2925,26 @@
           "interaction_id": "U47_I155",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I156",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Beach"
+            },
+            {
               "id": "o1",
-              "text": "Example"
+              "text": "Sightseeing"
             },
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -2896,24 +2957,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -2921,16 +2988,16 @@
           "interaction_id": "U47_I158",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I159",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The beach is very crowded.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I160",
@@ -2938,32 +3005,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
+              "text": "wants"
             },
             {
               "id": "w0",
-              "text": "This"
+              "text": "He"
             },
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w4",
+              "text": "vacation"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "adventure"
             }
           ],
           "correct_answer": [
@@ -2971,9 +3030,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -2981,26 +3038,26 @@
           "interaction_id": "U47_I161",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I162",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Vacation"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Sightseeing"
             },
             {
-              "id": "o1",
-              "text": "Lesson"
+              "id": "o3",
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -3013,24 +3070,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3038,16 +3101,16 @@
           "interaction_id": "U47_I164",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I165",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Wants he an adventure vacation\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I166",
@@ -3056,19 +3119,19 @@
           "options": [
             {
               "id": "w1",
-              "text": "to"
+              "text": "love"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "holidays"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "summer"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -3083,26 +3146,26 @@
           "interaction_id": "U47_I167",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I168",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Relax"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Holiday"
             },
             {
-              "id": "o3",
-              "text": "Word"
+              "id": "o1",
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -3115,24 +3178,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3140,16 +3209,16 @@
           "interaction_id": "U47_I170",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I171",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I love summer holidays.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I172",
@@ -3157,27 +3226,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "47"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
               "id": "w1",
-              "text": "to"
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
+            },
+            {
+              "id": "w4",
+              "text": "in"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w5",
+              "text": "Paris"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -3185,26 +3264,26 @@
           "interaction_id": "U47_I173",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I174",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Relax"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Vacation"
             },
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -3217,24 +3296,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3242,16 +3327,16 @@
           "interaction_id": "U47_I176",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I177",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are we going sightseeing in paris\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I178",
@@ -3259,32 +3344,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w3",
-              "text": "about"
-            },
-            {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w5",
-              "text": "&"
+              "id": "w4",
+              "text": "relaxing"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w1",
+              "text": "holiday"
             }
           ],
           "correct_answer": [
@@ -3292,9 +3369,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3302,26 +3377,26 @@
           "interaction_id": "U47_I179",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I180",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Exercise"
+              "id": "o3",
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Example"
+              "text": "Beach"
             },
             {
-              "id": "o3",
-              "text": "Lesson"
+              "id": "o2",
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -3334,24 +3409,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3359,16 +3440,16 @@
           "interaction_id": "U47_I182",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I183",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"A holiday is for relaxing.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I184",
@@ -3376,32 +3457,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w1",
+              "text": "beach"
+            },
+            {
               "id": "w2",
               "text": "is"
             },
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w3",
-              "text": "about"
+              "text": "The"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "crowded"
             },
             {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w3",
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -3409,9 +3482,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3419,26 +3490,26 @@
           "interaction_id": "U47_I185",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I186",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Exercise"
-            },
-            {
-              "id": "o2",
-              "text": "Example"
+              "text": "Holiday"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -3451,24 +3522,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3476,16 +3553,16 @@
           "interaction_id": "U47_I188",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I189",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Beach the is very crowded\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I190",
@@ -3494,26 +3571,31 @@
           "options": [
             {
               "id": "w2",
-              "text": "unit"
+              "text": "an"
+            },
+            {
+              "id": "w4",
+              "text": "vacation"
             },
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "He"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "wants"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "adventure"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3521,26 +3603,26 @@
           "interaction_id": "U47_I191",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I192",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
               "id": "o3",
-              "text": "Word"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Adventure"
             },
             {
               "id": "o2",
-              "text": "Exercise"
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -3553,24 +3635,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3578,16 +3666,16 @@
           "interaction_id": "U47_I194",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I195",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"He wants an adventure vacation.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I196",
@@ -3596,19 +3684,19 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w3",
-              "text": "47"
+              "text": "I"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "summer"
+            },
+            {
+              "id": "w1",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "holidays"
             }
           ],
           "correct_answer": [
@@ -3623,26 +3711,26 @@
           "interaction_id": "U47_I197",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I198",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Word"
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o3",
+              "text": "Vacation"
             }
           ],
           "correct_answer": "o1",
@@ -3655,24 +3743,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3680,16 +3774,16 @@
           "interaction_id": "U47_I200",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I201",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 47.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Love i summer holidays\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I202",
@@ -3698,31 +3792,27 @@
           "options": [
             {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "text": "We"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "sightseeing"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w5",
+              "text": "Paris"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "going"
             }
           ],
           "correct_answer": [
@@ -3731,8 +3821,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -3740,26 +3829,26 @@
           "interaction_id": "U47_I203",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I204",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Word"
-            },
-            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Holiday"
+            },
+            {
+              "id": "o1",
+              "text": "Vacation"
             }
           ],
           "correct_answer": "o1",
@@ -3772,24 +3861,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3797,16 +3892,16 @@
           "interaction_id": "U47_I206",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I207",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"We are going sightseeing in Paris.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I208",
@@ -3814,27 +3909,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "47"
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w4",
+              "text": "relaxing"
             },
             {
               "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "holiday"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "for"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3842,26 +3942,26 @@
           "interaction_id": "U47_I209",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I210",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Exercise"
-            },
-            {
               "id": "o3",
-              "text": "Word"
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Mountains"
+            },
+            {
+              "id": "o2",
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o1",
@@ -3874,24 +3974,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -3899,16 +4005,16 @@
           "interaction_id": "U47_I212",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I213",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Holiday a is for relaxing\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I214",
@@ -3916,32 +4022,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w0",
-              "text": "This"
+              "text": "The"
             },
             {
-              "id": "w3",
-              "text": "about"
+              "id": "w4",
+              "text": "crowded"
             },
             {
-              "id": "w6",
-              "text": "Vacation"
+              "id": "w1",
+              "text": "beach"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w3",
+              "text": "very"
             }
           ],
           "correct_answer": [
@@ -3949,9 +4047,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -3959,26 +4055,26 @@
           "interaction_id": "U47_I215",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I216",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Exercise"
-            },
-            {
               "id": "o1",
-              "text": "Word"
+              "text": "Relax"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -3991,24 +4087,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4016,16 +4118,16 @@
           "interaction_id": "U47_I218",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I219",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The beach is very crowded.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I220",
@@ -4033,32 +4135,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
               "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "wants"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "adventure"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "vacation"
+            },
+            {
+              "id": "w2",
+              "text": "an"
+            },
+            {
+              "id": "w0",
+              "text": "He"
             }
           ],
           "correct_answer": [
@@ -4066,9 +4160,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4076,26 +4168,26 @@
           "interaction_id": "U47_I221",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I222",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Vacation"
             },
             {
               "id": "o2",
-              "text": "Word"
-            },
-            {
-              "id": "o1",
-              "text": "Example"
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -4108,24 +4200,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4133,16 +4231,16 @@
           "interaction_id": "U47_I224",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I225",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Welcome to unit 47.\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Wants he an adventure vacation\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I226",
@@ -4150,20 +4248,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w2",
+              "text": "summer"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "holidays"
             },
             {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "love"
             }
           ],
           "correct_answer": [
@@ -4178,26 +4276,26 @@
           "interaction_id": "U47_I227",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I228",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Exercise"
+              "id": "o2",
+              "text": "Vacation"
             },
             {
-              "id": "o2",
-              "text": "Example"
+              "id": "o1",
+              "text": "Holiday"
             },
             {
               "id": "o3",
-              "text": "Lesson"
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -4210,24 +4308,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4235,16 +4339,16 @@
           "interaction_id": "U47_I230",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I231",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I love summer holidays.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I232",
@@ -4253,26 +4357,36 @@
           "options": [
             {
               "id": "w0",
-              "text": "Welcome"
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "in"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "going"
+            },
+            {
+              "id": "w5",
+              "text": "Paris"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "are"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "sightseeing"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -4280,26 +4394,26 @@
           "interaction_id": "U47_I233",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I234",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Relax"
+            },
+            {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Beach"
             },
             {
               "id": "o1",
-              "text": "Example"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -4312,24 +4426,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4337,16 +4457,16 @@
           "interaction_id": "U47_I236",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I237",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are we going sightseeing in paris\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I238",
@@ -4354,32 +4474,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
               "id": "w4",
-              "text": "Holidays"
+              "text": "relaxing"
             },
             {
-              "id": "w6",
-              "text": "Vacation"
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w0",
+              "text": "A"
+            },
+            {
+              "id": "w1",
+              "text": "holiday"
             },
             {
               "id": "w2",
               "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w3",
-              "text": "about"
             }
           ],
           "correct_answer": [
@@ -4387,9 +4499,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4397,26 +4507,26 @@
           "interaction_id": "U47_I239",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I240",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Vacation"
+            },
+            {
               "id": "o1",
-              "text": "Word"
+              "text": "Sightseeing"
             },
             {
               "id": "o2",
-              "text": "Exercise"
-            },
-            {
-              "id": "o3",
-              "text": "Lesson"
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -4429,24 +4539,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4454,16 +4570,16 @@
           "interaction_id": "U47_I242",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She (estudiar) ________ every day.",
-          "correct_answer": "studies",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I243",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"A holiday is for relaxing.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I244",
@@ -4471,27 +4587,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w1",
-              "text": "to"
+              "id": "w4",
+              "text": "crowded"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "beach"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4499,26 +4620,26 @@
           "interaction_id": "U47_I245",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I246",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Exercise"
-            },
-            {
               "id": "o2",
-              "text": "Example"
+              "text": "Relax"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Vacation"
+            },
+            {
+              "id": "o3",
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -4531,24 +4652,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4556,16 +4683,16 @@
           "interaction_id": "U47_I248",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I249",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Beach the is very crowded\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I250",
@@ -4573,27 +4700,32 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "to"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
+              "id": "w0",
+              "text": "He"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "adventure"
             },
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w4",
+              "text": "vacation"
+            },
+            {
+              "id": "w1",
+              "text": "wants"
+            },
+            {
+              "id": "w2",
+              "text": "an"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4601,26 +4733,26 @@
           "interaction_id": "U47_I251",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I252",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Holiday"
+            },
+            {
               "id": "o1",
-              "text": "Word"
+              "text": "Mountains"
             },
             {
               "id": "o3",
-              "text": "Example"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Sightseeing"
             }
           ],
           "correct_answer": "o1",
@@ -4633,24 +4765,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4658,16 +4796,16 @@
           "interaction_id": "U47_I254",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I255",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"He wants an adventure vacation.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I256",
@@ -4676,19 +4814,19 @@
           "options": [
             {
               "id": "w3",
-              "text": "47"
-            },
-            {
-              "id": "w2",
-              "text": "unit"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "text": "holidays"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "love"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "summer"
             }
           ],
           "correct_answer": [
@@ -4703,26 +4841,26 @@
           "interaction_id": "U47_I257",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Lección",
-          "correct_answer": "Lesson",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I258",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Lesson"
-            },
-            {
               "id": "o3",
-              "text": "Example"
+              "text": "Beach"
             },
             {
               "id": "o1",
-              "text": "Word"
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -4735,24 +4873,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Adventure",
+              "right": "Aventura"
+            },
+            {
+              "id": "p3",
+              "left": "Holiday",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4760,16 +4904,16 @@
           "interaction_id": "U47_I260",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I261",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Love i summer holidays\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I262",
@@ -4777,32 +4921,28 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w0",
+              "text": "We"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "in"
             },
             {
-              "id": "w0",
-              "text": "This"
+              "id": "w2",
+              "text": "going"
+            },
+            {
+              "id": "w5",
+              "text": "Paris"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
             }
           ],
           "correct_answer": [
@@ -4811,8 +4951,7 @@
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -4820,26 +4959,26 @@
           "interaction_id": "U47_I263",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Holiday",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I264",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Playa' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Adventure"
+            },
+            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Sightseeing"
             },
             {
               "id": "o1",
-              "text": "Word"
-            },
-            {
-              "id": "o2",
-              "text": "Lesson"
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
@@ -4852,24 +4991,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Sightseeing",
+              "right": "Turismo"
             },
             {
               "id": "p1",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Beach",
+              "right": "Playa"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4877,16 +5022,16 @@
           "interaction_id": "U47_I266",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I267",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"We are going sightseeing in Paris.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I268",
@@ -4894,32 +5039,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w1",
-              "text": "lesson"
+              "id": "w0",
+              "text": "A"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
+              "id": "w1",
+              "text": "holiday"
+            },
+            {
               "id": "w4",
-              "text": "Holidays"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w0",
-              "text": "This"
+              "text": "relaxing"
             },
             {
               "id": "w3",
-              "text": "about"
+              "text": "for"
             }
           ],
           "correct_answer": [
@@ -4927,9 +5064,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -4937,26 +5072,26 @@
           "interaction_id": "U47_I269",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejemplo",
-          "correct_answer": "Example",
+          "stimulus_es": "Aventura",
+          "correct_answer": "Adventure",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I270",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
               "id": "o2",
-              "text": "Word"
+              "text": "Vacation"
             },
             {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Holiday"
             },
             {
               "id": "o3",
-              "text": "Example"
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -4969,24 +5104,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Adventure",
+              "right": "Aventura"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Beach",
+              "right": "Playa"
+            },
+            {
+              "id": "p3",
+              "left": "Relax",
+              "right": "Relajarse"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -4994,16 +5135,16 @@
           "interaction_id": "U47_I272",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I273",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Holiday a is for relaxing\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I274",
@@ -5011,32 +5152,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w4",
+              "text": "crowded"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w1",
+              "text": "beach"
+            },
+            {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w4",
-              "text": "Holidays"
-            },
-            {
               "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
+              "text": "The"
             }
           ],
           "correct_answer": [
@@ -5044,9 +5177,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5054,26 +5185,26 @@
           "interaction_id": "U47_I275",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Turismo",
+          "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I276",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Aventura' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Lesson"
+              "text": "Adventure"
             },
             {
               "id": "o2",
-              "text": "Example"
+              "text": "Beach"
             },
             {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Mountains"
             }
           ],
           "correct_answer": "o1",
@@ -5086,24 +5217,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Holiday",
+              "right": "Vacaciones"
             },
             {
               "id": "p1",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p2",
-              "left": "Example",
-              "right": "Ejemplo"
+              "left": "Relax",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p3",
+              "left": "Mountains",
+              "right": "Montañas"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5111,16 +5248,16 @@
           "interaction_id": "U47_I278",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I279",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"The beach is very crowded.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I280",
@@ -5128,32 +5265,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
+              "id": "w0",
+              "text": "He"
+            },
+            {
               "id": "w2",
-              "text": "is"
+              "text": "an"
             },
             {
               "id": "w3",
-              "text": "about"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
-              "id": "w6",
-              "text": "Vacation"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
+              "text": "adventure"
             },
             {
               "id": "w4",
-              "text": "Holidays"
+              "text": "vacation"
+            },
+            {
+              "id": "w1",
+              "text": "wants"
             }
           ],
           "correct_answer": [
@@ -5161,9 +5290,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5171,26 +5298,26 @@
           "interaction_id": "U47_I281",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Vacaciones",
+          "correct_answer": "Vacation",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I282",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejercicio' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Turismo' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Word"
-            },
-            {
               "id": "o1",
-              "text": "Exercise"
+              "text": "Sightseeing"
             },
             {
               "id": "o2",
-              "text": "Lesson"
+              "text": "Holiday"
+            },
+            {
+              "id": "o3",
+              "text": "Adventure"
             }
           ],
           "correct_answer": "o1",
@@ -5203,24 +5330,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Beach",
+              "right": "Playa"
             },
             {
               "id": "p1",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p2",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Mountains",
+              "right": "Montañas"
+            },
+            {
+              "id": "p3",
+              "left": "Vacation",
+              "right": "Vacaciones"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5228,16 +5361,16 @@
           "interaction_id": "U47_I284",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "We (tener) ________ a new lesson.",
-          "correct_answer": "have",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I285",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This lesson is about Holidays & Vacation\"",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"Wants he an adventure vacation\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I286",
@@ -5245,20 +5378,20 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w1",
+              "text": "love"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "summer"
             },
             {
               "id": "w3",
-              "text": "47"
+              "text": "holidays"
             },
             {
-              "id": "w1",
-              "text": "to"
+              "id": "w0",
+              "text": "I"
             }
           ],
           "correct_answer": [
@@ -5273,26 +5406,26 @@
           "interaction_id": "U47_I287",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Montañas",
+          "correct_answer": "Mountains",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I288",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Palabra' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Vacaciones' en inglés?",
           "options": [
             {
+              "id": "o1",
+              "text": "Vacation"
+            },
+            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Beach"
             },
             {
               "id": "o2",
-              "text": "Example"
-            },
-            {
-              "id": "o1",
-              "text": "Word"
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -5305,24 +5438,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Relax",
+              "right": "Relajarse"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p2",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Vacation",
+              "right": "Vacaciones"
+            },
+            {
+              "id": "p3",
+              "left": "Sightseeing",
+              "right": "Turismo"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5330,16 +5469,16 @@
           "interaction_id": "U47_I290",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "This is unit (número) ________.",
-          "correct_answer": "47",
+          "stimulus_en": "We (ir) ________ to the beach.",
+          "correct_answer": "go",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I291",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"lesson This is about Holidays & Vacation\"",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
+          "prompt_es": "¿Es correcta esta frase?: \"I love summer holidays.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I292",
@@ -5347,27 +5486,37 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w3",
-              "text": "47"
-            },
-            {
-              "id": "w0",
-              "text": "Welcome"
+              "id": "w5",
+              "text": "Paris"
             },
             {
               "id": "w1",
-              "text": "to"
+              "text": "are"
             },
             {
               "id": "w2",
-              "text": "unit"
+              "text": "going"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "sightseeing"
             }
           ],
           "correct_answer": [
             "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
           "mastery_tag": "syntax"
         },
@@ -5375,26 +5524,26 @@
           "interaction_id": "U47_I293",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ejercicio",
-          "correct_answer": "Exercise",
+          "stimulus_es": "Relajarse",
+          "correct_answer": "Relax",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I294",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ejemplo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Montañas' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Holiday"
+            },
+            {
               "id": "o1",
-              "text": "Example"
+              "text": "Mountains"
             },
             {
               "id": "o2",
-              "text": "Lesson"
-            },
-            {
-              "id": "o3",
-              "text": "Exercise"
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
@@ -5407,24 +5556,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Word",
-              "right": "Palabra"
+              "left": "Mountains",
+              "right": "Montañas"
             },
             {
               "id": "p1",
-              "left": "Lesson",
-              "right": "Lección"
+              "left": "Vacation",
+              "right": "Vacaciones"
             },
             {
               "id": "p2",
-              "left": "Exercise",
-              "right": "Ejercicio"
+              "left": "Sightseeing",
+              "right": "Turismo"
+            },
+            {
+              "id": "p3",
+              "left": "Adventure",
+              "right": "Aventura"
             }
           ],
           "correct_answer": {
             "p0": "p0",
             "p1": "p1",
-            "p2": "p2"
+            "p2": "p2",
+            "p3": "p3"
           },
           "mastery_tag": "vocabulary"
         },
@@ -5432,16 +5587,16 @@
           "interaction_id": "U47_I296",
           "type": "transformation",
           "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English.",
-          "correct_answer": "learn",
+          "stimulus_en": "She (disfrutar) ________ her vacation.",
+          "correct_answer": "enjoys",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U47_I297",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"to Welcome unit 47.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Are we going sightseeing in paris\"",
           "correct_answer": false,
-          "mastery_tag": "grammar"
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U47_I298",
@@ -5449,32 +5604,24 @@
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
             {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w5",
-              "text": "&"
-            },
-            {
-              "id": "w1",
-              "text": "lesson"
-            },
-            {
               "id": "w3",
-              "text": "about"
+              "text": "for"
             },
             {
-              "id": "w4",
-              "text": "Holidays"
+              "id": "w0",
+              "text": "A"
             },
             {
               "id": "w2",
               "text": "is"
             },
             {
-              "id": "w6",
-              "text": "Vacation"
+              "id": "w4",
+              "text": "relaxing"
+            },
+            {
+              "id": "w1",
+              "text": "holiday"
             }
           ],
           "correct_answer": [
@@ -5482,9 +5629,7 @@
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w4"
           ],
           "mastery_tag": "syntax"
         },
@@ -5492,26 +5637,26 @@
           "interaction_id": "U47_I299",
           "type": "short_writing",
           "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Palabra",
-          "correct_answer": "Word",
+          "stimulus_es": "Playa",
+          "correct_answer": "Beach",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U47_I300",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lección' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Relajarse' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Beach"
+            },
+            {
               "id": "o3",
-              "text": "Exercise"
+              "text": "Mountains"
             },
             {
               "id": "o1",
-              "text": "Lesson"
-            },
-            {
-              "id": "o2",
-              "text": "Example"
+              "text": "Relax"
             }
           ],
           "correct_answer": "o1",
