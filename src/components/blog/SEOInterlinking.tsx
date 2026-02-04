@@ -10,11 +10,12 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
   const routeMap: Record<string, string> = {
     trabajo: "ingles-para-trabajo",
     viajes: "ingles-para-viajar",
+    examenes: "aprender-ingles", // Redirect to hub if no specific course
     metodos: "aprender-ingles",
     "material-estudio": "aprender-ingles",
   };
 
-  const finalRoute = relatedRoute || (category ? routeMap[category] : "aprender-ingles");
+  const finalRoute = relatedRoute || (category ? routeMap[category] : "aprender-ingles") || "aprender-ingles";
   const isHub = finalRoute === "aprender-ingles";
   const href = isHub ? "/aprender-ingles" : `/curso-ingles-${finalRoute.replace(/^ingles-/, "")}`;
   

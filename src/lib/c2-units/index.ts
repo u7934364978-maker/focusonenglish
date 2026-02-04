@@ -121,4 +121,4 @@ export const ALL_C2_UNITS: Lesson[] = [
   C2_UNIT_58,
   C2_UNIT_59,
   C2_UNIT_60
-];
+].filter(Boolean);

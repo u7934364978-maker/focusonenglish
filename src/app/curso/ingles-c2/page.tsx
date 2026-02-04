@@ -12,13 +12,26 @@ export default async function C2CoursePage() {
 
   const userId = user?.id || 'anonymous';
 
-  const units = ALL_C2_UNITS.map(unit => {
+  const units = ALL_C2_UNITS.map((unit, idx) => {
+    if (!unit) {
+      console.error(`Unit at index ${idx} is undefined!`);
+      return {
+        id: `missing-${idx}`,
+        title: 'Missing Unit',
+        description: '',
+        file: '',
+        totalExercises: 0,
+        interactionIds: []
+      };
+    }
     const interactionIds: string[] = [];
-    unit.exercises.forEach(ex => {
-      if (ex && typeof ex === 'object' && 'questions' in ex && Array.isArray(ex.questions)) {
-        ex.questions.forEach(q => interactionIds.push(q.id));
-      }
-    });
+    if (unit.exercises) {
+      unit.exercises.forEach(ex => {
+        if (ex && typeof ex === 'object' && 'questions' in ex && Array.isArray(ex.questions)) {
+          ex.questions.forEach(q => interactionIds.push(q.id));
+        }
+      });
+    }
 
     return {
       id: unit.id,
@@ -111,15 +124,16 @@ export default async function C2CoursePage() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {module.units.map((unit, uIdx) => {
-                      const unitData = units.find(u => u.id === unit.id)!;
-                      const unitCompletedCount = unitData?.interactionIds.filter((id: string) => completedSet.has(id)).length || 0;
-                      const unitProgress = unitData?.totalExercises > 0 
+                      if (!unit) return null;
+                      const unitData = units.find(u => u.id === unit.id);
+                      if (!unitData) return null;
+                      
+                      const unitCompletedCount = unitData.interactionIds.filter((id: string) => completedSet.has(id)).length;
+                      const unitProgress = unitData.totalExercises > 0 
                         ? Math.round((unitCompletedCount / unitData.totalExercises) * 100) 
                         : 0;
                       const isCompleted = unitProgress === 100;
                       const globalUnitIndex = mIdx * 10 + uIdx + 1;
-
-                      if (!unitData) return null;
 
                       return (
                         <Link 

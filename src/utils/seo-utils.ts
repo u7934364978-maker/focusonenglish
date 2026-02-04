@@ -35,6 +35,8 @@ export function suggestInternalLinks(content: string): KeywordLink[] {
  * Optimizes titles by ensuring they include the current year and target keywords.
  */
 export function optimizeSEOTitle(title: string): string {
+  if (!title || typeof title !== 'string') return title || "Focus English";
+  
   const currentYear = new Date().getFullYear().toString();
   let optimizedTitle = title;
 

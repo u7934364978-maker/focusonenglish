@@ -20,7 +20,9 @@ export default async function C2UnitPage({ params }: { params: Promise<{ unitId:
 }
 
 export async function generateStaticParams() {
-  return ALL_C2_UNITS.map((unit) => ({
-    unitId: unit.id,
-  }));
+  return ALL_C2_UNITS
+    .filter(unit => unit && unit.id)
+    .map((unit) => ({
+      unitId: unit.id,
+    }));
 }

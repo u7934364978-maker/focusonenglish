@@ -3,8 +3,6 @@ import path from "path";
 import matter from "gray-matter";
 
 const BLOG_DIR = path.join(process.cwd(), "src/content/blog");
-console.log(`[BlogLib] BLOG_DIR: ${BLOG_DIR}`);
-console.log(`[BlogLib] BLOG_DIR exists: ${fs.existsSync(BLOG_DIR)}`);
 
 export interface BlogPost {
   slug: string;
@@ -49,6 +47,11 @@ export function getBlogArticles(): BlogPost[] {
     const { data, content } = matter(fileContent);
     const slug = path.basename(filePath).replace(/\.mdx?$/, "");
 
+    if (!data || typeof data !== 'object') {
+      console.error(`[BlogLib] FAILED to parse frontmatter for: ${filePath}`);
+      return null;
+    }
+
     return {
       slug,
       title: data.title || "Untitled",
@@ -64,14 +67,13 @@ export function getBlogArticles(): BlogPost[] {
       featured: data.featured || false,
       content,
     } as BlogPost;
-  });
+  }).filter((a): a is BlogPost => a !== null);
 
   // Sort by date descending
   return articles.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
 export function getArticleBySlug(slug: string): BlogPost | null {
-  console.log(`[BlogLib] Looking for slug: ${slug}`);
   const allFiles = getAllFiles(BLOG_DIR);
   const filePath = allFiles.find(f => {
     const base = path.basename(f);
@@ -79,14 +81,11 @@ export function getArticleBySlug(slug: string): BlogPost | null {
   });
 
   if (!filePath || !fs.existsSync(filePath)) {
-    console.error(`[BlogLib] File NOT found for slug: ${slug}`);
     return null;
   }
 
-  console.log(`[BlogLib] Found file: ${filePath}`);
   const fileContent = fs.readFileSync(filePath, "utf-8");
   const { data, content } = matter(fileContent);
-  console.log(`[BlogLib] Extracted content length: ${content?.length || 0}`);
 
   return {
     slug,
@@ -97,6 +96,7 @@ export function getArticleBySlug(slug: string): BlogPost | null {
     category: data.category || "General",
     readTime: data.readTime || "5 min",
     image: data.image,
+    alt: data.alt,
     keywords: data.keywords || [],
     faqs: data.faqs || [],
     featured: data.featured || false,

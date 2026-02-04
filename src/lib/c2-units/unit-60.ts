@@ -16,7 +16,7 @@ const PLACEHOLDER_BLOCK = (blockNum: number): Exercise => ({
   }))
 });
 
-export const unit60 = createC2Unit(
+export const C2_UNIT_60 = createC2Unit(
   'c2-u60',
   'Unit 60: Advanced Proficiency',
   'Advanced C2 unit exploring complex topics and formal language structures.',

@@ -78,12 +78,6 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     notFound();
   }
 
-  if (!article.content || article.content.trim().length === 0) {
-    console.error(`[BlogDebug] Article content is EMPTY for slug: ${slug}`);
-  }
-
-  try {
-
   // Generate Article Schema for SEO
   const wordCount = article.content.split(/\s+/).length;
 
@@ -128,14 +122,22 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     h2: ({ node, ...props }: any) => {
       // Safely extract text from children
       const getText = (children: any): string => {
+        if (!children) return '';
         if (typeof children === 'string') return children;
         if (Array.isArray(children)) return children.map(getText).join('');
         if (children?.props?.children) return getText(children.props.children);
+        if (typeof children === 'object' && children !== null) {
+          // Handle cases where children might be an object but not a string or have props
+          return '';
+        }
         return '';
       };
       
-      const text = getText(props.children);
-      const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+      const text = getText(props.children) || '';
+      const id = (typeof text === 'string' ? text : '')
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .replace(/\s+/g, '-') || 'section';
       
       return (
         <h2 
@@ -148,14 +150,21 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     h3: ({ node, ...props }: any) => {
       // Safely extract text from children
       const getText = (children: any): string => {
+        if (!children) return '';
         if (typeof children === 'string') return children;
         if (Array.isArray(children)) return children.map(getText).join('');
         if (children?.props?.children) return getText(children.props.children);
+        if (typeof children === 'object' && children !== null) {
+          return '';
+        }
         return '';
       };
       
-      const text = getText(props.children);
-      const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+      const text = getText(props.children) || '';
+      const id = (typeof text === 'string' ? text : '')
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .replace(/\s+/g, '-') || 'subsection';
       
       return (
         <h3 
@@ -317,9 +326,9 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                   {/* Post Footer */}
                   <div className="p-8 lg:p-12 bg-slate-50/50 border-t border-slate-100">
                     <div className="flex flex-wrap gap-2 mb-8">
-                      {article.keywords?.map((keyword, i) => (
+                      {article.keywords?.filter(Boolean).map((keyword, i) => (
                         <span key={i} className="px-3 py-1 bg-white border border-slate-200 rounded-lg text-xs font-medium text-slate-600">
-                          #{keyword.replace(/\s+/g, '')}
+                          #{keyword?.toString().replace(/\s+/g, '')}
                         </span>
                       ))}
                     </div>
