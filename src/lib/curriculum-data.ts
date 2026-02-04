@@ -1273,6 +1273,92 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
         }
       }
     ]
+  },
+  NEGOCIACIONES_B2: {
+    level: "B2",
+    cefr: "Intermedio-Alto",
+    description: "Inglés para realizar negociaciones prácticas y efectivas",
+    duration: "4-6 semanas",
+    modules: [
+      {
+        title: "Módulo 1: La Fase de Preparación",
+        topics: [
+          "Establecimiento de objetivos",
+          "Análisis BATNA",
+          "Investigación de la contraparte",
+          "Definición de límites (Bottom line)"
+        ],
+        grammar: [
+          "Zero and First Conditional (situaciones reales)",
+          "Modal verbs for possibility and deduction (might, could)",
+          "Reporting verbs para resumir investigación"
+        ],
+        vocabulary: [
+          "Research and Preparation",
+          "Business objectives",
+          "Negotiation terminology (BATNA, Bottom line)",
+          "Counterparty analysis"
+        ],
+        skills: {
+          reading: ["Analizar perfiles de empresas", "Leer informes de mercado"],
+          writing: ["Resumen de objetivos de negociación", "Email de preparación"],
+          listening: ["Briefing de equipo previo a negociación", "Análisis de posiciones"],
+          speaking: ["Presentar objetivos al equipo", "Discutir estrategias"]
+        }
+      },
+      {
+        title: "Módulo 2: Apertura y Regateo",
+        topics: [
+          "Presentación de propuestas",
+          "El arte de las concesiones",
+          "Técnicas de persuasión",
+          "Manejo de contraofertas"
+        ],
+        grammar: [
+          "Second Conditional (escenarios hipotéticos)",
+          "Passive voice for formal proposals",
+          "Cleft sentences for emphasis"
+        ],
+        vocabulary: [
+          "Bargaining and concessions",
+          "Leverage and trade-offs",
+          "Persuasive language",
+          "Counter-offers and conditions"
+        ],
+        skills: {
+          reading: ["Leer propuestas de contrato", "Analizar cláusulas"],
+          writing: ["Redactar una propuesta formal", "Responder a una contraoferta"],
+          listening: ["Seguir una discusión de precios", "Captar señales de flexibilidad"],
+          speaking: ["Hacer una oferta inicial", "Negociar concesiones (trade-offs)"]
+        }
+      },
+      {
+        title: "Módulo 3: Acuerdos y Resolución de Conflictos",
+        topics: [
+          "Manejo de bloqueos (deadlocks)",
+          "Cierre del trato",
+          "Resolución de conflictos",
+          "Seguimiento post-negociación"
+        ],
+        grammar: [
+          "Third and Mixed Conditionals (analizar lo ocurrido)",
+          "Modal verbs in the past (should have, could have)",
+          "Advanced linkers for conflict resolution"
+        ],
+        vocabulary: [
+          "Closing the deal",
+          "Consensus and win-win outcomes",
+          "Conflict resolution (mediation, compromise)",
+          "Follow-up terminology"
+        ],
+        skills: {
+          reading: ["Revisar acuerdos finales", "Leer minutas de reuniones"],
+          writing: ["Resumen del acuerdo (Minutes of Agreement)", "Email de seguimiento"],
+          listening: ["Confirmación de términos finales", "Manejo de objeciones"],
+          speaking: ["Resolver un punto de conflicto", "Cerrar la negociación formalmente"]
+        }
+      }
+    ]
   }
 };
 

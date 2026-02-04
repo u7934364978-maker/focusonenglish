@@ -39,11 +39,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function SEORoutePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
 
-  // Si es la URL incorrecta del HUB, redirigir a la correcta
-  if (slug === 'curso-ingles-aprender-ingles') {
-    redirect('/aprender-ingles');
-  }
-
   // Si no empieza con el prefijo esperado, 404
   if (!slug.startsWith('curso-ingles-')) {
     notFound();
@@ -51,12 +46,28 @@ export default async function SEORoutePage({ params }: { params: Promise<{ slug:
 
   // Normalizar el nombre del archivo: curso-ingles-viajar -> ingles-para-viajar (si existe) o ingles-viajar
   let seoFileName = slug.replace(/^curso-/, "");
-  let page = getSEOPageBySlug(seoFileName, true);
+  
+  // Mapeo manual para rutas comunes sin el "para" o nombres especiales
+  const manualMapping: Record<string, string> = {
+    "ingles-trabajo": "ingles-para-trabajo",
+    "ingles-viajar": "ingles-para-viajar",
+    "ingles-atencion-al-cliente": "ingles-para-atencion-al-cliente",
+    "ingles-aprender-ingles": "hub",
+  };
+
+  if (manualMapping[seoFileName]) {
+    seoFileName = manualMapping[seoFileName];
+  }
+
+  // Si es el hub, buscar en el directorio base, si no en rutas
+  const isHub = seoFileName === "hub";
+  let page = getSEOPageBySlug(seoFileName, !isHub);
 
   // Reintento: si no lo encuentra, probar añadiendo el prefijo "ingles-" si no lo tiene
   if (!page && !seoFileName.startsWith('ingles-')) {
-    seoFileName = `ingles-${seoFileName}`;
-    page = getSEOPageBySlug(seoFileName, true);
+    let retryFileName = `ingles-${seoFileName}`;
+    if (manualMapping[retryFileName]) retryFileName = manualMapping[retryFileName];
+    page = getSEOPageBySlug(retryFileName, true);
   }
 
   if (!page) {

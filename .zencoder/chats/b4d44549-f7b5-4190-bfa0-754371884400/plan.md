@@ -14,7 +14,7 @@ Create a Product Requirements Document (PRD) based on the feature description.
 
 Save the PRD to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/b4d44549-f7b5-4190-bfa0-754371884400/requirements.md`.
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
 Create a technical specification based on the PRD in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/b4d44549-f7b5-4190-bfa0-754371884400/requirements.md`.
 
@@ -30,7 +30,7 @@ Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/b4d44549-f7b5-419
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
 
 Create a detailed implementation plan based on `/Users/lidia/Documents/focusonenglish/.zencoder/chats/b4d44549-f7b5-4190-bfa0-754371884400/spec.md`.
 
@@ -38,14 +38,12 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function) or too broad (entire feature).
+### [ ] Step: Implementation Tasks
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+1. [ ] Create `NEGOCIACIONES_B2` curriculum structure in `src/lib/curriculum-data.ts`
+2. [ ] Implement M1 L1: The Preparation Phase (Vocab & Grammar) in `src/lib/b2-neg-m1-l1.ts`
+3. [ ] Implement M1 L2: Opening the Negotiation (Listening & Speaking) in `src/lib/b2-neg-m1-l2.ts`
+4. [ ] Implement M2 L1: The Art of Bargaining (Conditionals & Roleplay) in `src/lib/b2-neg-m2-l1.ts`
+5. [ ] Implement M3 L1: Reaching Agreements & Closing (Writing & Review) in `src/lib/b2-neg-m3-l1.ts`
+6. [ ] Verify curriculum integration and exercise rendering
 
-Save to `/Users/lidia/Documents/focusonenglish/.zencoder/chats/b4d44549-f7b5-4190-bfa0-754371884400/plan.md`.
-
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/.zencoder/chats/b4d44549-f7b5-4190-bfa0-754371884400/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.

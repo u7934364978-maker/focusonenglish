@@ -70,3 +70,10 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
    - [x] Implement internal linking from new articles to the Pillar Page.
    - [x] Update blog content management to support new articles.
    - [x] Verification: Verify links and SEO metadata in the new blog posts.
+
+7. **[x] Task 7: Fix Specific 404/301 SEO Routes**
+   - [x] Resolve 301 for `curso-ingles-aprender-ingles`.
+   - [x] Fix 404 for `curso-ingles-trabajo`.
+   - [x] Fix 404 for `curso-ingles-viajar`.
+   - [x] Update `manualMapping` in `[slug]/page.tsx` for dynamic SEO routes.
+   - [x] Verification: Verify all three routes resolve correctly.
