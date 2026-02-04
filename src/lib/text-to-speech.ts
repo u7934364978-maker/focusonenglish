@@ -6,6 +6,49 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
+import OpenAI from 'openai';
+
+// Configuración de OpenAI
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY || '',
+});
+
+/**
+ * Genera audio a partir de texto usando OpenAI
+ */
+export async function generateOpenAISpeech(
+  text: string,
+  voice: 'alloy' | 'echo' | 'fable' | 'onyx' | 'nova' | 'shimmer' = 'alloy',
+  outputPath: string
+): Promise<boolean> {
+  try {
+    if (!process.env.OPENAI_API_KEY) {
+      throw new Error('OPENAI_API_KEY no está configurado');
+    }
+
+    const mp3 = await openai.audio.speech.create({
+      model: "tts-1",
+      voice: voice,
+      input: text,
+    });
+
+    const buffer = Buffer.from(await mp3.arrayBuffer());
+
+    // Crear el directorio si no existe
+    const dir = path.dirname(outputPath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+
+    fs.writeFileSync(outputPath, buffer);
+    console.log(`✅ Audio OpenAI generado: ${outputPath}`);
+    return true;
+  } catch (error) {
+    console.error(`❌ Error OpenAI TTS: ${error}`);
+    return false;
+  }
+}
+
 // Voice IDs de ElevenLabs (voces profesionales en inglés)
 export const VOICE_IDS = {
   // Voces británicas
@@ -233,6 +276,7 @@ export async function listAvailableVoices(): Promise<any[]> {
 // Exportar todo
 export default {
   generateSpeech,
+  generateOpenAISpeech,
   generateReadingAudio,
   generateConversationAudio,
   generateInstructionAudio,

@@ -1,6 +1,7 @@
 // Currículum completo basado en especificaciones de Cambridge English (CEFR)
 // A1 - C2: Grammar, Vocabulary, Topics, Skills
 import { A1_PREMIUM_CURRICULUM } from './a1-premium-curriculum';
+import { B2_NEG_MODULE_1_LESSONS, B2_NEG_MODULE_2_LESSONS, B2_NEG_MODULE_3_LESSONS } from './course-data-b2-neg';
 
 export interface CurriculumModule {
   title: string;
@@ -14,6 +15,7 @@ export interface CurriculumModule {
     speaking: string[];
   };
   weeks?: any[];
+  lessons?: any[];
 }
 
 export interface LevelCurriculum {
@@ -1304,7 +1306,8 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           writing: ["Resumen de objetivos de negociación", "Email de preparación"],
           listening: ["Briefing de equipo previo a negociación", "Análisis de posiciones"],
           speaking: ["Presentar objetivos al equipo", "Discutir estrategias"]
-        }
+        },
+        lessons: B2_NEG_MODULE_1_LESSONS
       },
       {
         title: "Módulo 2: Apertura y Regateo",
@@ -1330,7 +1333,8 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           writing: ["Redactar una propuesta formal", "Responder a una contraoferta"],
           listening: ["Seguir una discusión de precios", "Captar señales de flexibilidad"],
           speaking: ["Hacer una oferta inicial", "Negociar concesiones (trade-offs)"]
-        }
+        },
+        lessons: B2_NEG_MODULE_2_LESSONS
       },
       {
         title: "Módulo 3: Acuerdos y Resolución de Conflictos",
@@ -1356,7 +1360,8 @@ export const CURRICULUM_BY_LEVEL: Record<string, LevelCurriculum> = {
           writing: ["Resumen del acuerdo (Minutes of Agreement)", "Email de seguimiento"],
           listening: ["Confirmación de términos finales", "Manejo de objeciones"],
           speaking: ["Resolver un punto de conflicto", "Cerrar la negociación formalmente"]
-        }
+        },
+        lessons: B2_NEG_MODULE_3_LESSONS
       }
     ]
   }

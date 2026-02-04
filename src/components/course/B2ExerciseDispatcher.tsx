@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { Exercise } from '@/lib/exercise-types';
-import MultipleChoiceExercise from '@/components/exercises/MultipleChoiceExercise';
 import GappedTextExercise from '@/components/exercises/GappedTextExercise';
 import KeyWordTransformationExercise from '@/components/exercises/KeyWordTransformationExercise';
 import MultipleChoiceClozeExercise from '@/components/exercises/MultipleChoiceClozeExercise';
@@ -86,19 +85,50 @@ export default function B2ExerciseDispatcher({ exercise, onComplete }: B2Exercis
       )}
 
       {/* Reading/Listening Context if present */}
-      {(exercise.text || exercise.transcript) && (
+      {(exercise.text || exercise.transcript || exercise.audioUrl) && (
         <Card className="border-slate-200 shadow-sm overflow-hidden">
           <CardHeader className="bg-slate-50 border-b border-slate-200">
             <CardTitle className="text-lg font-black text-slate-900 flex items-center gap-2">
-              {exercise.type === 'listening' ? <Volume2 className="h-5 w-5" /> : <BookOpen className="h-5 w-5" />}
-              {exercise.type === 'listening' ? 'Audio Transcript' : 'Reading Passage'}
+              {(exercise.type === 'listening' || exercise.type === 'listening-comprehension') ? <Volume2 className="h-5 w-5" /> : <BookOpen className="h-5 w-5" />}
+              {(exercise.type === 'listening' || exercise.type === 'listening-comprehension') ? 'Audio Material' : 'Reading Passage'}
             </CardTitle>
           </CardHeader>
           <CardContent className="p-6">
+            {/* Audio Player if URL exists */}
+            {(exercise.type === 'listening' || exercise.type === 'listening-comprehension') && exercise.audioUrl && (
+              <div className="mb-6 bg-slate-100 p-4 rounded-xl border border-slate-200">
+                <audio 
+                  src={exercise.audioUrl} 
+                  controls 
+                  className="w-full h-10 accent-indigo-600"
+                  controlsList="nodownload"
+                />
+                <p className="text-[10px] text-slate-500 mt-2 font-bold uppercase tracking-wider text-center">
+                  Listen to the audio carefully before answering
+                </p>
+              </div>
+            )}
+
+            {/* Transcript or Reading Text */}
             <div className="prose prose-slate max-w-none">
-              {(exercise.text || exercise.transcript || '').split('\n').map((para, i) => (
-                <p key={i} className="mb-4 text-slate-700 leading-relaxed text-lg">{para}</p>
-              ))}
+              {((exercise.type === 'listening' || exercise.type === 'listening-comprehension') && exercise.transcript) ? (
+                <details className="group">
+                  <summary className="cursor-pointer text-sm font-bold text-indigo-600 hover:text-indigo-800 transition-colors list-none flex items-center gap-2 mb-4">
+                    <span className="bg-indigo-50 px-3 py-1 rounded-full border border-indigo-100">
+                      Show Transcript {submitted ? '(Review)' : '(If you need help)'}
+                    </span>
+                  </summary>
+                  <div className="mt-4 p-4 bg-slate-50 rounded-xl border border-slate-100 italic">
+                    {(exercise.transcript || '').split('\n').map((para, i) => (
+                      <p key={i} className="mb-4 text-slate-600 leading-relaxed text-lg">{para}</p>
+                    ))}
+                  </div>
+                </details>
+              ) : (
+                (exercise.text || '').split('\n').map((para, i) => (
+                  <p key={i} className="mb-4 text-slate-700 leading-relaxed text-lg">{para}</p>
+                ))
+              )}
             </div>
           </CardContent>
         </Card>
@@ -126,11 +156,11 @@ export default function B2ExerciseDispatcher({ exercise, onComplete }: B2Exercis
                   </p>
 
                   {/* Render based on question type */}
-                  {q.options ? (
+                  {(q.options || q.type === 'true-false') ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {q.options.map((option, optIdx) => {
-                        const isSelected = answers[q.id] === option;
-                        const isCorrect = option === q.correctAnswer;
+                      {(q.options || ['true', 'false']).map((option, optIdx) => {
+                        const isSelected = (answers[q.id] || '').toLowerCase() === option.toLowerCase();
+                        const isCorrect = option.toLowerCase() === (q.correctAnswer || '').toLowerCase();
                         const showCorrect = submitted && isCorrect;
                         const showWrong = submitted && isSelected && !isCorrect;
 
@@ -139,7 +169,7 @@ export default function B2ExerciseDispatcher({ exercise, onComplete }: B2Exercis
                             key={optIdx}
                             onClick={() => handleAnswerChange(q.id, option)}
                             disabled={submitted}
-                            className={`text-left p-4 rounded-xl border-2 transition-all font-medium ${
+                            className={`text-left p-4 rounded-xl border-2 transition-all font-medium capitalize ${
                               isSelected && !submitted
                                 ? 'border-indigo-600 bg-indigo-50 text-indigo-700'
                                 : showCorrect

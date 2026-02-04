@@ -11,12 +11,54 @@ import {
   generateReadingAudio,
   generateConversationAudio,
   generateInstructionAudio,
+  generateOpenAISpeech,
   VOICE_IDS,
   getUsageInfo,
 } from '../src/lib/text-to-speech';
 import { ALL_MODULES } from '../src/lib/course-data-b2';
+import { B2_NEG_MODULES } from '../src/lib/course-data-b2-neg';
 import type { Module, Lesson, Exercise } from '../src/lib/exercise-types';
 import * as path from 'path';
+import * as fs from 'fs';
+
+/**
+ * Genera el audio usando ElevenLabs con fallback a OpenAI
+ */
+async function generateWithFallback(audio: AudioToGenerate): Promise<boolean> {
+  // Si el archivo ya existe y no estamos forzando, saltar
+  if (fs.existsSync(audio.outputPath)) {
+    console.log(`   ⏭️ El archivo ya existe: ${path.basename(audio.outputPath)}`);
+    return true;
+  }
+
+  let success = false;
+  
+  // Intentar con ElevenLabs primero
+  console.log(`   Attempting ElevenLabs with voice: ${audio.voiceId}...`);
+  try {
+    switch (audio.type) {
+      case 'listening':
+      case 'conversation':
+        success = await generateConversationAudio(audio.text, audio.voiceId, audio.outputPath);
+        break;
+      case 'reading':
+        success = await generateReadingAudio(audio.text, audio.voiceId, audio.outputPath);
+        break;
+      default:
+        success = await generateInstructionAudio(audio.text, audio.voiceId, audio.outputPath);
+    }
+  } catch (e) {
+    console.log(`   ⚠️ ElevenLabs falló: ${e instanceof Error ? e.message : String(e)}`);
+  }
+
+  // Fallback a OpenAI si falla ElevenLabs
+  if (!success) {
+    console.log(`   🔄 Usando FALLBACK: OpenAI TTS (Voice: shimmer)...`);
+    success = await generateOpenAISpeech(audio.text, 'shimmer', audio.outputPath);
+  }
+
+  return success;
+}
 
 // Mapeo de tipos de ejercicio a tipos de voz
 const EXERCISE_VOICE_MAP: { [key: string]: string } = {
@@ -41,13 +83,16 @@ interface AudioToGenerate {
  */
 function collectAudiosToGenerate(): AudioToGenerate[] {
   const audios: AudioToGenerate[] = [];
+  const allAvailableModules = [...(ALL_MODULES as any[]), ...(B2_NEG_MODULES as any[])];
 
   // Iterar por todos los módulos y lecciones
-  (ALL_MODULES as any[]).forEach((module: Module) => {
-    module.lessons.forEach((lesson: Lesson) => {
-      lesson.exercises.forEach((exercise: Exercise) => {
+  allAvailableModules.forEach((module: any) => {
+    const lessons = module.lessons || module.units || [];
+    lessons.forEach((lesson: any) => {
+      if (!lesson.exercises) return;
+      lesson.exercises.forEach((exercise: any) => {
         // LISTENING EXERCISES
-        if (exercise.type === 'listening' && 'audioUrl' in exercise) {
+        if (((exercise.type as any) === 'listening' || (exercise.type as any) === 'listening-comprehension') && 'audioUrl' in exercise) {
           const listeningEx = exercise as any;
           
           if (listeningEx.transcript) {
@@ -131,33 +176,8 @@ async function generateAllAudios() {
     console.log(`   Tamaño texto: ${audio.text.length} caracteres`);
 
     try {
-      let success = false;
-
-      // Usar la función apropiada según el tipo
-      switch (audio.type) {
-        case 'listening':
-        case 'conversation':
-          success = await generateConversationAudio(
-            audio.text,
-            audio.voiceId,
-            audio.outputPath
-          );
-          break;
-        case 'reading':
-          success = await generateReadingAudio(
-            audio.text,
-            audio.voiceId,
-            audio.outputPath
-          );
-          break;
-        case 'instruction':
-          success = await generateInstructionAudio(
-            audio.text,
-            audio.voiceId,
-            audio.outputPath
-          );
-          break;
-      }
+      // Usar la función con fallback
+      const success = await generateWithFallback(audio);
 
       if (success) {
         successCount++;

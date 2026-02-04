@@ -129,3 +129,120 @@ Writing a clear follow-up email is crucial to solidify the agreement reached dur
     }
   ]
 };
+
+export const B2_NEG_M3_L1_LISTENING_1 = {
+  id: 'b2-neg-m3-l1-listening-1',
+  type: 'listening-comprehension',
+  title: 'Closing the Deal',
+  explanation: `
+Listen to the final stages of a negotiation where the parties summarize their agreement and discuss the next steps.
+  `,
+  audioUrl: '/audio/negotiations/b2-closing-deal.mp3',
+  transcript: `
+Negotiator A: Well, it seems we have reached a consensus on all the major points. Let's just wrap up by summarizing what we've agreed.
+
+Negotiator B: Good idea. So, we've agreed on a unit price of $42 for a three-year term, with the first year paid upfront.
+
+Negotiator A: Correct. And in exchange, your team will include the advanced analytics module for the first year and the premium support package for the entire duration of the contract.
+
+Negotiator B: That's right. Regarding the delivery, we've committed to a phased rollout starting on the first of next month.
+
+Negotiator A: Perfect. If we hadn't found this compromise on the analytics module, I don't think we would be signing today. I'm very glad we could reach a win-win solution.
+
+Negotiator B: Me too. I'll have the minutes of this meeting sent over to you by the end of the day, and our legal team will follow up with the final contract tomorrow morning.
+
+Negotiator A: Excellent. I look forward to our continued collaboration.
+  `,
+  questions: [
+    {
+      id: 'b2-neg-m3-l1-l1-q1',
+      type: 'multiple-choice',
+      question: 'According to the summary, what is the agreed unit price?',
+      options: ['$50', '$45', '$42', '$40'],
+      correctAnswer: '$42',
+      explanation: 'They confirm $42 in the summary.',
+      points: 2
+    },
+    {
+      id: 'b2-neg-m3-l1-l1-q2',
+      type: 'true-false',
+      question: 'The legal team will send the final contract by the end of today.',
+      correctAnswer: 'false',
+      explanation: 'Legal will follow up tomorrow morning; the minutes are sent today.',
+      points: 2
+    }
+  ]
+};
+
+export const B2_NEG_M3_L1_LISTENING_2 = {
+  id: 'b2-neg-m3-l1-listening-2',
+  type: 'listening-comprehension',
+  title: 'The Final Hurdles',
+  explanation: `
+Listen to a project manager resolving last-minute "stumbling blocks" before the contract is officially signed.
+  `,
+  audioUrl: '/audio/negotiations/b2-final-hurdles.mp3',
+  transcript: `
+Speaker A: Everything looks good, but there's one small stumbling block. Our legal department is concerned about the intellectual property clause in section 4.2. They feel it's a bit too broad.
+
+Speaker B: I see. We certainly don't want any ambiguity there. If we limited that clause specifically to the custom code developed for this project, rather than our entire platform, would that satisfy your legal team?
+
+Speaker A: That sounds like a much more reasonable approach. If you can make that adjustment by tomorrow morning, we'll be ready to sign the final document. 
+
+Speaker B: Consider it done. We'll have the revised draft in your inbox by 9 AM.
+  `,
+  questions: [
+    {
+      id: 'b2-neg-m3-l1-l2-q1',
+      type: 'multiple-choice',
+      question: 'What is the "stumbling block" mentioned in the conversation?',
+      options: [
+        'A disagreement over pricing',
+        'A concern about an intellectual property clause',
+        'A delay in the project timeline',
+        'A missing signature'
+      ],
+      correctAnswer: 'A concern about an intellectual property clause',
+      explanation: 'Legal had concerns specifically about section 4.2 regarding IP.',
+      points: 2
+    },
+    {
+      id: 'b2-neg-m3-l1-l2-q2',
+      type: 'multiple-choice',
+      question: 'How is the issue resolved?',
+      options: [
+        'By removing the clause entirely',
+        'By increasing the price',
+        'By narrowing the scope of the clause',
+        'By ignoring the legal department'
+      ],
+      correctAnswer: 'By narrowing the scope of the clause',
+      explanation: 'They agree to limit the clause to custom code only.',
+      points: 2
+    }
+  ]
+};
+
+export const B2_NEG_M3_L1_SPEAKING_2 = {
+  id: 'b2-neg-m3-l1-speaking-2',
+  type: 'speaking',
+  title: 'Summarizing the Agreement',
+  prompt: 'Wrap up the negotiation by summarizing the main points of the deal. Mention the price, the term length, and at least one key concession. Use phrases like "To wrap up, we\'ve agreed on..." or "Let\'s just summarize the main points".',
+  expectedResponse: 'To wrap up, we have reached a consensus on the major points. We have agreed on a unit price of forty-two dollars for a three-year term, and you will include the premium support package.',
+  targetWords: ['consensus', 'agreed', 'summary', 'wrap up', 'points'],
+  hints: [
+    'Use professional closing language.',
+    'Be specific about the agreed terms.',
+    'Conclude with a positive forward-looking statement.'
+  ],
+  timeLimit: 60
+};
+
+export const B2_NEG_M3_L1_ALL_EXERCISES = [
+  B2_NEG_M3_L1_GRAMMAR_1,
+  B2_NEG_M3_L1_VOCAB_1,
+  B2_NEG_M3_L1_LISTENING_1,
+  B2_NEG_M3_L1_WRITING_1,
+  B2_NEG_M3_L1_LISTENING_2,
+  B2_NEG_M3_L1_SPEAKING_2
+];

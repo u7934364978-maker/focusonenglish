@@ -23,9 +23,10 @@ import { useGamification } from '@/lib/hooks/use-gamification';
 
 interface B2UnitSessionProps {
   unit: Lesson;
+  backUrl?: string;
 }
 
-export default function B2UnitSession({ unit }: B2UnitSessionProps) {
+export default function B2UnitSession({ unit, backUrl = "/curso/ingles-b2" }: B2UnitSessionProps) {
   const { completeExercise } = useGamification();
   const [currentBlockIndex, setCurrentBlockIndex] = useState(0);
   const [completedBlocks, setCompletedBlocks] = useState<Set<number>>(new Set());
@@ -106,7 +107,7 @@ export default function B2UnitSession({ unit }: B2UnitSessionProps) {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/curso/ingles-b2">
+            <Link href={backUrl}>
               <Button size="lg" className="bg-slate-900 hover:bg-slate-800 text-white px-8 h-14 rounded-xl text-lg font-bold">
                 Back to Curriculum
               </Button>
@@ -125,7 +126,7 @@ export default function B2UnitSession({ unit }: B2UnitSessionProps) {
       {/* Sticky Header */}
       <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 px-4 py-4">
         <div className="max-w-5xl mx-auto flex items-center justify-between gap-6">
-          <Link href="/curso/ingles-b2" className="flex-shrink-0">
+          <Link href={backUrl} className="flex-shrink-0">
             <div className="p-2 hover:bg-slate-100 rounded-full transition-colors">
               <X className="h-6 w-6 text-slate-500" />
             </div>

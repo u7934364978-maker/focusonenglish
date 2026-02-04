@@ -22,7 +22,9 @@ function isBlogRoute(pathname: string) {
 }
 
 function isCourseRoute(pathname: string) {
-  return pathname.startsWith("/cursos/") || pathname.startsWith("/curso-") || pathname.startsWith("/aula/");
+  // Excluir la raíz /cursos que Next.js redirige en next.config.js
+  if (pathname === '/cursos') return false;
+  return pathname.startsWith("/curso/") || pathname.startsWith("/cursos/") || pathname.startsWith("/curso-") || pathname.startsWith("/aula/");
 }
 
 export async function middleware(request: NextRequest) {
